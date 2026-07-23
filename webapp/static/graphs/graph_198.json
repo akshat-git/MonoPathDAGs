@@ -1,0 +1,172 @@
+{
+  "nodes": [
+    {
+      "id": "N1",
+      "label": "Step 1",
+      "customData": {
+        "node_id": "A",
+        "node_step_index": 0,
+        "content": "56-year-old male with non-small cell lung cancer (NSCLC) and asymptomatic duodenal metastasis presented to the emergency department with a 5-day history of headache and dysarthria. Examination revealed mild asymmetry of his lower face and a large ventral hernia. Past medical history includes type 2 diabetes mellitus, hypertension, hypercholesterolaemia, chronic obstructive pulmonary disease, gastro-oesophageal reflux disease, past hepatitis C infection, and depression. Surgical history significant for laparoscopic cholecystectomy 7 years prior, complicated by a bile leak and intra-abdominal sepsis requiring laparotomy and washout, and a subsequent large ventral hernia. Significant smoking history of approximately 50 years along with intermittent cannabis use, and a previous history of intravenous drug use 20 years prior to presentation.",
+        "clinical_data": {
+          "diagnoses": [
+            {
+              "code": "C34",
+              "label": "Non-small cell lung cancer",
+              "status": "active"
+            },
+            {
+              "code": "E11",
+              "label": "Type 2 diabetes mellitus",
+              "status": "active"
+            },
+            {
+              "code": "I10",
+              "label": "Hypertension",
+              "status": "active"
+            },
+            {
+              "code": "E78.0",
+              "label": "Hypercholesterolaemia",
+              "status": "active"
+            },
+            {
+              "code": "J44",
+              "label": "Chronic obstructive pulmonary disease",
+              "status": "active"
+            },
+            {
+              "code": "K21",
+              "label": "Gastro-oesophageal reflux disease",
+              "status": "active"
+            },
+            {
+              "code": "F32",
+              "label": "Depression",
+              "status": "active"
+            }
+          ],
+          "HPI": [
+            {
+              "summary": "Headache and dysarthria",
+              "duration": "5 days"
+            }
+          ],
+          "ROS": [
+            {
+              "system": "neuro",
+              "findings": [
+                "Dysarthria"
+              ]
+            }
+          ],
+          "social_history": [
+            {
+              "category": "smoking",
+              "status": "current",
+              "description": "Significant smoking history of approximately 50 years"
+            },
+            {
+              "category": "drug use",
+              "status": "current",
+              "description": "Intermittent cannabis use"
+            },
+            {
+              "category": "drug use",
+              "status": "past",
+              "description": "Previous history of intravenous drug use 20 years prior to presentation"
+            }
+          ],
+          "procedures": [
+            {
+              "name": "Laparoscopic cholecystectomy",
+              "date": "7 years prior",
+              "outcome": "complicated by a bile leak and intra-abdominal sepsis requiring laparotomy and washout"
+            },
+            {
+              "name": "Laparotomy and washout",
+              "date": "7 years prior",
+              "outcome": "secondary to bile leak and intra-abdominal sepsis"
+            }
+          ]
+        }
+      }
+    },
+    {
+      "id": "N2",
+      "label": "Step 2",
+      "customData": {
+        "node_id": "B",
+        "node_step_index": 1,
+        "content": "Non-contrast brain computed tomography (CT) demonstrated a large area of low density in the right frontoparietal region. Brain MRI revealed a rounded subcortical enhancing lesion in the right precentral gyrus with surrounding vasogenic oedema. CT of the chest, abdomen and pelvis demonstrated a 6.5-cm mass in the left upper zone medially with streaky surrounding inflammatory changes in the thorax, along with several enlarged mediastinal and periportal lymph nodes. Staging FDG PET/CT revealed an area of photopenia involving the right cerebral cortex in association with a hypodensity on the low-dose CT scan due to the known brain metastasis. Staging FDG PET/CT revealed an intensely avid (SUVmax10.3) large mass in the left upper lobe, with heterogenous distribution of tracer with a central area of photopenia suggestive of central necrosis. Multiple FDG-avid mediastinal, supraclavicular, and peri-portal lymph nodes, as well as an FDG-avid left adrenal mass. An intense area of FDG avidity in the distal duodenal (D2) region (SUVmax11.8) was identified.",
+        "clinical_data": {
+          "imaging": [
+            {
+              "type": "Computed tomography",
+              "body_part": "Brain",
+              "modality": "CT",
+              "finding": "large area of low density in the right frontoparietal region",
+              "date": null
+            },
+            {
+              "type": "Magnetic Resonance Imaging",
+              "body_part": "Brain",
+              "modality": "MRI",
+              "finding": "rounded subcortical enhancing lesion in the right precentral gyrus with surrounding vasogenic oedema",
+              "date": null
+            },
+            {
+              "type": "Computed tomography",
+              "body_part": "Chest, abdomen and pelvis",
+              "modality": "CT",
+              "finding": "6.5-cm mass in the left upper zone medially with streaky surrounding inflammatory changes in the thorax, along with several enlarged mediastinal and periportal lymph nodes",
+              "date": null
+            },
+            {
+              "type": "Positron emission tomography/computed tomography",
+              "body_part": "Brain",
+              "modality": "PET/CT",
+              "finding": "area of photopenia involving the right cerebral cortex in association with a hypodensity on the low-dose CT scan due to the known brain metastasis",
+              "date": null
+            },
+            {
+              "type": "Positron emission tomography/computed tomography",
+              "body_part": "Chest, abdomen and pelvis",
+              "modality": "PET/CT",
+              "finding": "intensely avid (SUVmax10.3) large mass in the left upper lobe, with heterogenous distribution of tracer with a central area of photopenia suggestive of central necrosis. Multiple FDG-avid mediastinal, supraclavicular, and peri-portal lymph nodes, as well as an FDG-avid left adrenal mass. An intense area of FDG avidity in the distal duodenal (D2) region (SUVmax11.8)",
+              "date": null
+            }
+          ]
+        }
+      }
+    },
+    {
+      "id": "N3",
+      "label": "Step 3",
+      "customData": {
+        "node_id": "C",
+        "node_step_index": 2,
+        "clinical_data": {}
+      }
+    }
+  ],
+  "edges": [
+    {
+      "from": "N1",
+      "to": "N2",
+      "data": {
+        "edge_id": "A_to_B",
+        "branch_flag": true,
+        "content": "Patient presented with headache and dysarthria. Imaging revealed a large area of low density in the right frontoparietal region, a rounded subcortical enhancing lesion in the right precentral gyrus with surrounding vasogenic oedema, a 6.5-cm mass in the left upper zone medially with streaky surrounding inflammatory changes in the thorax, along with several enlarged mediastinal and periportal lymph nodes, an area of photopenia involving the right cerebral cortex, an intensely avid (SUVmax10.3) large mass in the left upper lobe, multiple FDG-avid mediastinal, supraclavicular, and peri-portal lymph nodes, as well as an FDG-avid left adrenal mass, and an intense area of FDG avidity in the distal duodenal (D2) region (SUVmax11.8)."
+      }
+    },
+    {
+      "from": "N2",
+      "to": "N3",
+      "data": {
+        "edge_id": "B_to_C",
+        "branch_flag": true,
+        "content": ""
+      }
+    }
+  ]
+}

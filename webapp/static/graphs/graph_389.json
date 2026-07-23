@@ -1,0 +1,218 @@
+{
+  "nodes": [
+    {
+      "id": "N1",
+      "label": "Step 1",
+      "customData": {
+        "node_id": "A",
+        "node_step_index": 0,
+        "content": "73-year-old female admitted to Hubin Community Health Service Center in March 2024 with recurrent fever, cough, and white sputum for >1 month.",
+        "clinical_data": {
+          "HPI": [
+            {
+              "summary": "73-year-old female admitted with recurrent fever, cough, and white sputum for >1 month.",
+              "duration": ">1 month",
+              "onset": "March 2024",
+              "progression": "recurrent",
+              "associated_symptoms": [
+                "cough",
+                "white sputum",
+                "fever"
+              ]
+            }
+          ]
+        },
+        "timestamp": "2024-03"
+      }
+    },
+    {
+      "id": "N2",
+      "label": "Step 2",
+      "customData": {
+        "node_id": "B",
+        "node_step_index": 1,
+        "content": "March 2024: Non-contrast chest CT indicated a solid lesion of the lower lobe of the left lung with endobronchial nodule. Contrast-enhanced chest CT scan was required.",
+        "clinical_data": {
+          "imaging": [
+            {
+              "type": "Lung CT",
+              "body_part": "Lower lobe of the left lung",
+              "modality": "CT",
+              "finding": "Solid lesion with endobronchial nodule",
+              "date": "2024-03"
+            }
+          ]
+        },
+        "timestamp": "2024-03"
+      }
+    },
+    {
+      "id": "N3",
+      "label": "Step 3",
+      "customData": {
+        "node_id": "C",
+        "node_step_index": 2,
+        "content": "Patient admitted to The Second Affiliated Hospital of Xuzhou Medical University. Patient reported good mental status and diet, no abdominal pain, diarrhea, chest tightness, asthma, chills, and no significant change in weight. Patient reported occasional coughs with white phlegm. Patient had a history of elevated triglycerides, but no history of smoking, drinking, hypertension, diabetes, metabolic syndrome and glucose intolerance, and the patient denied any history of infection.",
+        "clinical_data": {
+          "HPI": [
+            {
+              "summary": "Patient reported good mental status and diet, no abdominal pain, diarrhea, chest tightness, asthma, chills, and no significant change in weight. Patient reported occasional coughs with white phlegm.",
+              "associated_symptoms": [
+                "C0010200",
+                "C0011991",
+                "C0008031",
+                "C0004096",
+                "C0008573",
+                "C0043145"
+              ]
+            }
+          ],
+          "social_history": [
+            {
+              "category": "smoking",
+              "status": "never"
+            },
+            {
+              "category": "alcohol",
+              "status": "never"
+            }
+          ],
+          "diagnoses": [
+            {
+              "code": "C0041436",
+              "label": "Hypertriglyceridemia",
+              "status": "historical"
+            }
+          ]
+        }
+      }
+    },
+    {
+      "id": "N4",
+      "label": "Step 4",
+      "customData": {
+        "node_id": "D",
+        "node_step_index": 3,
+        "content": "March 2024: Non-contrast chest CT showed a solid lesion of the lower lobe of the left lung with endobronchial nodule and spot-like calcification in endobronchial nodule. Physical exam: Body mass index, 23.1 kg/m2; body temperature unspecified.",
+        "clinical_data": {
+          "imaging": [
+            {
+              "type": "Solid lesion",
+              "body_part": "Lower lobe of the left lung",
+              "modality": "CT",
+              "finding": "Endobronchial nodule and spot-like calcification in endobronchial nodule",
+              "date": "2024-03"
+            }
+          ],
+          "vitals": [
+            {
+              "type": "Body mass index",
+              "value": "23.1",
+              "unit": "kg/m2",
+              "timestamp": "2024-03"
+            },
+            {
+              "type": "Body temperature",
+              "value": "unspecified",
+              "unit": null,
+              "timestamp": "2024-03"
+            }
+          ]
+        }
+      }
+    },
+    {
+      "id": "N5",
+      "label": "Step 5",
+      "customData": {
+        "node_id": "E",
+        "node_step_index": 4,
+        "content": "Physical exam: Temperature 36.5\u00b0C; blood pressure",
+        "Labs": "White blood cell, 11 \u00d7109/l; C-reactive protein, 26.10 mg/l; serum amyloid A, >2,000 mg/l; triglycerides, 2.17 mmol/l; \u03b1-fetoprotein, 2.25 ng/ml; carcinoembryonic antigen, 1.24 ng/ml",
+        "clinical_data": {
+          "vitals": [
+            {
+              "type": "Body Temperature",
+              "value": "36.5",
+              "unit": "\u00b0C"
+            },
+            {
+              "type": "Blood pressure",
+              "value": null,
+              "unit": null
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "edges": [
+    {
+      "from": "N1",
+      "to": "N2",
+      "data": {
+        "edge_id": "A_to_B",
+        "branch_flag": true,
+        "content": "Patient's condition progressed from initial symptoms to a chest CT scan revealing a solid lesion in the left lung.",
+        "transition_event": {
+          "trigger_type": "imaging",
+          "trigger_entities": [
+            "C0205341"
+          ],
+          "change_type": "progression",
+          "target_domain": "imaging",
+          "timestamp": "2024-03"
+        }
+      }
+    },
+    {
+      "from": "N2",
+      "to": "N3",
+      "data": {
+        "edge_id": "B_to_C",
+        "branch_flag": true,
+        "content": "Patient admitted to The Second Affiliated Hospital of Xuzhou Medical University.",
+        "transition_event": {
+          "trigger_type": "procedure",
+          "trigger_entities": [],
+          "change_type": "other",
+          "target_domain": "procedure",
+          "timestamp": "2024-03"
+        }
+      }
+    },
+    {
+      "from": "N3",
+      "to": "N4",
+      "data": {
+        "edge_id": "C_to_D",
+        "branch_flag": true,
+        "content": "Follow-up non-contrast chest CT showed a solid lesion of the lower lobe of the left lung with endobronchial nodule and spot-like calcification in endobronchial nodule.",
+        "transition_event": {
+          "trigger_type": "imaging",
+          "trigger_entities": [
+            "C0205341"
+          ],
+          "change_type": "progression",
+          "target_domain": "imaging",
+          "timestamp": "2024-03"
+        }
+      }
+    },
+    {
+      "from": "N4",
+      "to": "N5",
+      "data": {
+        "edge_id": "D_to_E",
+        "branch_flag": true,
+        "content": "Physical exam and lab results were obtained.",
+        "transition_event": {
+          "trigger_type": "lab_change",
+          "trigger_entities": [],
+          "change_type": "other",
+          "target_domain": "lab"
+        }
+      }
+    }
+  ]
+}

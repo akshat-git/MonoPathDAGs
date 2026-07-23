@@ -1,0 +1,338 @@
+{
+  "nodes": [
+    {
+      "id": "N1",
+      "label": "Step 1",
+      "customData": {
+        "node_id": "A",
+        "node_step_index": 0,
+        "content": "49-year-old man referred to hospital in December 2021 with an abdominal mass that had persisted for over three weeks. The patient reported a burning sensation in the abdomen and a sudden weight loss of 10 kg between November and December 2021. Imaging scan revealed an abdominal mass. Clinical symptoms progressively increased.",
+        "clinical_data": {
+          "HPI": [
+            {
+              "summary": "49-year-old man with abdominal mass for over three weeks, burning sensation in the abdomen, and sudden weight loss of 10 kg between November and December 2021.",
+              "duration": "over three weeks",
+              "onset": "December 2021",
+              "progression": "progressive",
+              "associated_symptoms": [
+                "Burning sensation in abdomen"
+              ]
+            }
+          ],
+          "diagnoses": [
+            {
+              "code": "R19.00",
+              "label": "Abdominal mass",
+              "status": "active",
+              "onset_date": "2021-12"
+            }
+          ],
+          "vitals": [
+            {
+              "type": "Weight",
+              "value": "10",
+              "unit": "kg",
+              "timestamp": "2021-12"
+            }
+          ],
+          "imaging": [
+            {
+              "type": "Imaging scan",
+              "body_part": "abdomen",
+              "modality": "unknown",
+              "finding": "abdominal mass",
+              "impression": "abdominal mass",
+              "date": "2021-12"
+            }
+          ]
+        }
+      }
+    },
+    {
+      "id": "N2",
+      "label": "Step 2",
+      "customData": {
+        "node_id": "B",
+        "node_step_index": 1,
+        "content": "Patient has a history of untreated hepatitis B for more than 30 years. ECOG performance status is 0, and vital signs are stable. Immunohistochemical analysis of cells from the abdominal mass revealed positive staining for calretinin, Wilm\u2019s tumor gene 1, D2-40, and cytokeratin 5/6; weakly positive staining for desmin; and negative staining for SMA, Dog-1, Bcl-2, HMB45, Melan-A, and CD99. Abdominal CT revealed a solid mass in the abdomen (8.9 cm \u00d7 5.2 cm) with multiple lesions in the omentum and abdominal cavity, as well as a cystic mass in the lower abdomen.",
+        "clinical_data": {
+          "diagnoses": [
+            {
+              "code": "C0018787",
+              "label": "hepatitis B",
+              "status": "historical",
+              "onset_date": null
+            }
+          ],
+          "vitals": [
+            {
+              "type": "Vital signs",
+              "value": "stable"
+            }
+          ],
+          "imaging": [
+            {
+              "type": "Computed tomography",
+              "body_part": "abdomen",
+              "modality": "CT",
+              "finding": "solid mass in the abdomen (8.9 cm \u00d7 5.2 cm) with multiple lesions in the omentum and abdominal cavity, as well as a cystic mass in the lower abdomen.",
+              "date": null
+            }
+          ]
+        }
+      }
+    },
+    {
+      "id": "N3",
+      "label": "Step 3",
+      "customData": {
+        "node_id": "C",
+        "node_step_index": 2,
+        "content": "Patient was diagnosed with stage III MPeM (cT3N0M1) via core needle biopsy.",
+        "clinical_data": {
+          "diagnoses": [
+            {
+              "code": "C45.0",
+              "label": "Mesothelioma of pleura",
+              "status": "active",
+              "onset_date": null
+            }
+          ],
+          "procedures": [
+            {
+              "name": "Core needle biopsy",
+              "approach": "percutaneous",
+              "date": null,
+              "location": "pleura",
+              "performed_by": null,
+              "outcome": null
+            }
+          ]
+        }
+      }
+    },
+    {
+      "id": "N4",
+      "label": "Step 4",
+      "customData": {
+        "node_id": "D",
+        "node_step_index": 3,
+        "content": "From January to March 2022, patient received pemetrexed 800 mg (day 1), cisplatin 60 mg (day 1\u20132), and zimberelimab 240 mg (day 1), every 3 weeks for four cycles.",
+        "clinical_data": {
+          "medications": [
+            {
+              "drug": "C0888337",
+              "dosage": "800 mg",
+              "frequency": "every 3 weeks",
+              "modality": "IV",
+              "start_date": "2022-01",
+              "end_date": "2022-03",
+              "indication": "Non-small cell lung cancer"
+            },
+            {
+              "drug": "C0008863",
+              "dosage": "60 mg",
+              "frequency": "every 3 weeks",
+              "modality": "IV",
+              "start_date": "2022-01",
+              "end_date": "2022-03",
+              "indication": "Non-small cell lung cancer"
+            },
+            {
+              "drug": "zimberelimab",
+              "dosage": "240 mg",
+              "frequency": "every 3 weeks",
+              "modality": "IV",
+              "start_date": "2022-01",
+              "end_date": "2022-03",
+              "indication": "Non-small cell lung cancer"
+            }
+          ]
+        }
+      }
+    },
+    {
+      "id": "N5",
+      "label": "Step 5",
+      "customData": {
+        "node_id": "E",
+        "node_step_index": 4,
+        "content": "Patient experienced a moderate increase in serum creatinine to 116.6 \u03bcmoI/L.",
+        "clinical_data": {
+          "labs": [
+            {
+              "test": "Creatinine measurement",
+              "value": "116.6",
+              "unit": "\u03bcmoI/L",
+              "flag": "abnormal"
+            }
+          ]
+        }
+      }
+    },
+    {
+      "id": "N6",
+      "label": "Step 6",
+      "customData": {
+        "node_id": "F",
+        "node_step_index": 5,
+        "content": "Due to elevated serum creatinine (53\u2013106 \u03bcmoI/L) caused by cisplatin, the cisplatin dosage was reduced to 50 mg from the fifth cycle onward. Patient received three additional cycles of pemetrexed, cisplatin and zimberelimab.",
+        "clinical_data": {
+          "labs": [
+            {
+              "test": "Creatinine measurement",
+              "value": "53\u2013106",
+              "unit": "\u03bcmoI/L",
+              "flag": "abnormal",
+              "timestamp": null
+            }
+          ],
+          "medications": [
+            {
+              "drug": "cisplatin",
+              "dosage": "50 mg",
+              "frequency": null,
+              "modality": null,
+              "start_date": null,
+              "end_date": null,
+              "indication": null
+            },
+            {
+              "drug": "pemetrexed",
+              "dosage": null,
+              "frequency": null,
+              "modality": null,
+              "start_date": null,
+              "end_date": null,
+              "indication": null
+            },
+            {
+              "drug": "zimberelimab",
+              "dosage": null,
+              "frequency": null,
+              "modality": null,
+              "start_date": null,
+              "end_date": null,
+              "indication": null
+            }
+          ]
+        }
+      }
+    },
+    {
+      "id": "N7",
+      "label": "Step 7",
+      "customData": {
+        "node_id": "G",
+        "node_step_index": 6,
+        "content": "April 2022: After five treatment cycles, the maximum lesion size decreased from 8.9 cm \u00d7 5.2 cm to 4.1 cm \u00d7 4.0 cm. CA125 levels decreased from 64.1 U/mL to 15.1 U/mL. Treatment efficacy was evaluated as partial response.",
+        "clinical_data": {
+          "labs": [
+            {
+              "test": "CA125",
+              "value": "64.1",
+              "unit": "U/mL",
+              "timestamp": "2022-04"
+            }
+          ],
+          "imaging": [
+            {
+              "type": "Lesion size",
+              "value": "8.9 cm \u00d7 5.2 cm",
+              "date": "2022-04"
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "edges": [
+    {
+      "from": "N1",
+      "to": "N2",
+      "data": {
+        "edge_id": "A_to_B",
+        "branch_flag": true,
+        "content": "Transition from initial presentation with abdominal mass and weight loss to further characterization including past hepatitis B history, immunohistochemical analysis, and CT imaging revealing solid and cystic masses."
+      }
+    },
+    {
+      "from": "N2",
+      "to": "N3",
+      "data": {
+        "edge_id": "B_to_C",
+        "branch_flag": true,
+        "content": "Transition from imaging and lab findings to diagnosis of stage III MPeM via core needle biopsy."
+      }
+    },
+    {
+      "from": "N3",
+      "to": "N4",
+      "data": {
+        "edge_id": "C_to_D",
+        "branch_flag": true,
+        "content": "Transition from diagnosis to initiation of treatment with pemetrexed, cisplatin, and zimberelimab.",
+        "transition_event": {
+          "trigger_type": "medication_change",
+          "trigger_entities": [
+            "C0888337",
+            "C0008863",
+            "zimberelimab"
+          ],
+          "change_type": "addition",
+          "target_domain": "medication",
+          "timestamp": "2022-01"
+        }
+      }
+    },
+    {
+      "from": "N4",
+      "to": "N5",
+      "data": {
+        "edge_id": "D_to_E",
+        "branch_flag": true,
+        "content": "Transition from treatment initiation to observation of increased serum creatinine.",
+        "transition_event": {
+          "trigger_type": "lab_change",
+          "trigger_entities": [
+            "C0010300"
+          ],
+          "change_type": "progression",
+          "target_domain": "lab"
+        }
+      }
+    },
+    {
+      "from": "N5",
+      "to": "N6",
+      "data": {
+        "edge_id": "E_to_F",
+        "branch_flag": true,
+        "content": "Transition from elevated creatinine to cisplatin dosage reduction and continuation of treatment.",
+        "transition_event": {
+          "trigger_type": "medication_change",
+          "trigger_entities": [
+            "C0008863"
+          ],
+          "change_type": "deescalation",
+          "target_domain": "medication"
+        }
+      }
+    },
+    {
+      "from": "N6",
+      "to": "N7",
+      "data": {
+        "edge_id": "F_to_G",
+        "branch_flag": true,
+        "content": "Transition from treatment cycles to evaluation of treatment efficacy showing decreased lesion size and CA125 levels, indicating partial response.",
+        "transition_event": {
+          "trigger_type": "interpretation",
+          "trigger_entities": [],
+          "change_type": "other",
+          "target_domain": "imaging"
+        }
+      }
+    }
+  ]
+}

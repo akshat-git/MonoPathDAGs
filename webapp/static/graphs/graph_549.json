@@ -1,0 +1,316 @@
+{
+  "nodes": [
+    {
+      "id": "N1",
+      "label": "Step 1",
+      "customData": {
+        "node_id": "A",
+        "node_step_index": 0,
+        "content": "Patient developed dull pain in the left chest in February 2023. Patient has rheumatoid arthritis for > 7 years that was effectively managed with stable control through oral medication. Performance status score was 1, and there was no peripheral lymphadenopathy.",
+        "clinical_data": {
+          "HPI": [
+            {
+              "summary": "Patient developed dull pain in the left chest in February 2023.",
+              "onset": "2023-02",
+              "progression": "unknown",
+              "associated_symptoms": [
+                "dull pain"
+              ],
+              "alleviating_factors": [],
+              "exacerbating_factors": []
+            }
+          ],
+          "diagnoses": [
+            {
+              "code": "C0035802",
+              "label": "Rheumatoid Arthritis",
+              "status": "active",
+              "onset_date": null
+            }
+          ],
+          "functional_status": [
+            {
+              "domain": "performance status",
+              "description": "Performance status score was 1",
+              "score": "1",
+              "scale": "unknown"
+            }
+          ]
+        }
+      }
+    },
+    {
+      "id": "N2",
+      "label": "Step 2",
+      "customData": {
+        "node_id": "B",
+        "node_step_index": 1,
+        "content": "Tumor markers: \u03b1-fetoprotein 3.86 ng/mL; carcinoembryonic antigen 0.68 ng/mL; carbohydrate antigen (CA)199 5.20 U/mL; CA125 79.70 U/mL; CA153 27.90 U/mL.",
+        "clinical_data": {
+          "labs": [
+            {
+              "test": "C0001393",
+              "value": "3.86",
+              "unit": "ng/mL"
+            },
+            {
+              "test": "C0007664",
+              "value": "0.68",
+              "unit": "ng/mL"
+            },
+            {
+              "test": "C0162741",
+              "value": "5.20",
+              "unit": "U/mL"
+            },
+            {
+              "test": "C0007243",
+              "value": "79.70",
+              "unit": "U/mL"
+            },
+            {
+              "test": "C0162738",
+              "value": "27.90",
+              "unit": "U/mL"
+            }
+          ]
+        }
+      }
+    },
+    {
+      "id": "N3",
+      "label": "Step 3",
+      "customData": {
+        "node_id": "C",
+        "node_step_index": 2,
+        "content": "CT scan showed a 3.3 cm x 3.6 cm x 3.5 cm lobulated mass in the anterior basal segment of the left lower lobe, with adjacent pleural thickening and adhesion, indicating the possibility of a neoplasm. MRI showed no tumors detected. CT images of the chest showed the tumor size was approximately 3.3 cm.",
+        "clinical_data": {
+          "imaging": [
+            {
+              "type": "Mass",
+              "body_part": "Lung",
+              "modality": "CT",
+              "finding": "3.3 cm x 3.6 cm x 3.5 cm lobulated mass in the anterior basal segment of the left lower lobe, with adjacent pleural thickening and adhesion",
+              "impression": "possibility of a neoplasm",
+              "date": null
+            },
+            {
+              "type": "Tumor",
+              "body_part": "Chest",
+              "modality": "MRI",
+              "finding": "no tumors detected",
+              "impression": "no tumors detected",
+              "date": null
+            },
+            {
+              "type": "Tumor",
+              "body_part": "Chest",
+              "modality": "CT",
+              "finding": "tumor size was approximately 3.3 cm",
+              "impression": "tumor size was approximately 3.3 cm",
+              "date": null
+            }
+          ]
+        }
+      }
+    },
+    {
+      "id": "N4",
+      "label": "Step 4",
+      "customData": {
+        "node_id": "D",
+        "node_step_index": 3,
+        "content": "March 10, 2023: Patient underwent a needle biopsy, and the pathological diagnosis indicated SCC, with CD56(-), cytokeratin (CK)8/18(+), chromogranin A (CgA)(-), Ki-67 (+, 30%), P40(+), synaptophysin (Syn)(-), and thyroid transcription factor 1 (TTF-1)(-) on immunohistochemistry.",
+        "timestamp": "2023-03-10",
+        "clinical_data": {
+          "procedures": [
+            {
+              "name": "Needle biopsy",
+              "date": "2023-03-10"
+            }
+          ],
+          "diagnoses": [
+            {
+              "code": "SCC",
+              "label": "Squamous cell carcinoma",
+              "status": "active"
+            }
+          ],
+          "labs": [
+            {
+              "test": "CD56",
+              "value": "negative"
+            },
+            {
+              "test": "Cytokeratin 8/18",
+              "value": "positive"
+            },
+            {
+              "test": "Chromogranin A",
+              "value": "negative"
+            },
+            {
+              "test": "Ki-67",
+              "value": "positive",
+              "unit": "30%"
+            },
+            {
+              "test": "P40",
+              "value": "positive"
+            },
+            {
+              "test": "Synaptophysin",
+              "value": "negative"
+            },
+            {
+              "test": "Thyroid transcription factor 1",
+              "value": "negative"
+            }
+          ]
+        }
+      }
+    },
+    {
+      "id": "N5",
+      "label": "Step 5",
+      "customData": {
+        "node_id": "E",
+        "node_step_index": 4,
+        "content": "Patient underwent radical lung cancer surgery. Postoperative pathology suggested no lymph node metastasis. The findings showed positivity for EBV encoded small RNA (EBER), CK5/6, CK8/18, Ki-67 (60%), and P40, while TTF-1 was negative, leading to a diagnosis of PPLELC. Patient was diagnosed with PPLELC (pT2aN",
+        "clinical_data": {
+          "diagnoses": [
+            {
+              "code": "PPLELC",
+              "label": "PPLELC",
+              "status": "active"
+            },
+            {
+              "code": "C34",
+              "label": "lung cancer",
+              "status": "active"
+            }
+          ],
+          "procedures": [
+            {
+              "name": "radical lung cancer surgery",
+              "date": null
+            }
+          ],
+          "labs": [
+            {
+              "test": "EBV encoded small RNA (EBER)",
+              "value": "positive",
+              "unit": null,
+              "flag": "positive"
+            },
+            {
+              "test": "CK5/6",
+              "value": "positive",
+              "unit": null,
+              "flag": "positive"
+            },
+            {
+              "test": "CK8/18",
+              "value": "positive",
+              "unit": null,
+              "flag": "positive"
+            },
+            {
+              "test": "Ki-67",
+              "value": "60%",
+              "unit": "%",
+              "flag": "positive"
+            },
+            {
+              "test": "P40",
+              "value": "positive",
+              "unit": null,
+              "flag": "positive"
+            },
+            {
+              "test": "TTF-1",
+              "value": "negative",
+              "unit": null,
+              "flag": "negative"
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "edges": [
+    {
+      "from": "N1",
+      "to": "N2",
+      "data": {
+        "edge_id": "A_to_B",
+        "branch_flag": true,
+        "content": "Transition from initial presentation of chest pain and rheumatoid arthritis management to tumor marker assessment.",
+        "transition_event": {
+          "trigger_type": "symptom_onset",
+          "trigger_entities": [
+            "C0009425"
+          ],
+          "change_type": "other",
+          "target_domain": "symptom"
+        }
+      }
+    },
+    {
+      "from": "N2",
+      "to": "N3",
+      "data": {
+        "edge_id": "B_to_C",
+        "branch_flag": true,
+        "content": "Transition from tumor marker results to imaging studies (CT and MRI) to investigate potential neoplasm.",
+        "transition_event": {
+          "trigger_type": "lab_change",
+          "trigger_entities": [
+            "C0001393",
+            "C0007664",
+            "C0162741",
+            "C0007243",
+            "C0162738"
+          ],
+          "change_type": "other",
+          "target_domain": "lab"
+        }
+      }
+    },
+    {
+      "from": "N3",
+      "to": "N4",
+      "data": {
+        "edge_id": "C_to_D",
+        "branch_flag": true,
+        "content": "Transition from imaging findings suggestive of neoplasm to needle biopsy and pathological diagnosis of squamous cell carcinoma (SCC).",
+        "transition_event": {
+          "trigger_type": "imaging",
+          "trigger_entities": [],
+          "change_type": "progression",
+          "target_domain": "imaging",
+          "timestamp": "2023-03-10T00:00:00Z"
+        }
+      }
+    },
+    {
+      "from": "N4",
+      "to": "N5",
+      "data": {
+        "edge_id": "D_to_E",
+        "branch_flag": true,
+        "content": "Transition from SCC diagnosis via needle biopsy to radical lung cancer surgery and postoperative pathology leading to a diagnosis of PPLELC.",
+        "transition_event": {
+          "trigger_type": "procedure",
+          "trigger_entities": [
+            "C0024139",
+            "C0024140"
+          ],
+          "change_type": "addition",
+          "target_domain": "procedure",
+          "timestamp": "2023-03-10T00:00:00Z"
+        }
+      }
+    }
+  ]
+}

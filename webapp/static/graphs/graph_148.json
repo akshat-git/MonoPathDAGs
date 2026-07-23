@@ -1,0 +1,285 @@
+{
+  "nodes": [
+    {
+      "id": "N1",
+      "label": "Step 1",
+      "customData": {
+        "node_id": "A",
+        "node_step_index": 0,
+        "content": "34-year-old man diagnosed with lung cancer (mucoepidermoid carcinoma) 6 months prior.",
+        "clinical_data": {
+          "diagnoses": [
+            {
+              "code": "C0024117",
+              "label": "Lung Cancer",
+              "status": "active",
+              "onset_date": null
+            }
+          ]
+        }
+      }
+    },
+    {
+      "id": "N2",
+      "label": "Step 2",
+      "customData": {
+        "node_id": "B",
+        "node_step_index": 1,
+        "content": "Patient underwent right lower lobectomy and chemoradiotherapy, but treatment was not effective.",
+        "clinical_data": {
+          "procedures": [
+            {
+              "name": "Lower lobectomy of lung",
+              "approach": "open",
+              "date": null,
+              "location": "right lower lobe",
+              "performed_by": null,
+              "outcome": null
+            }
+          ],
+          "medications": [
+            {
+              "drug": "Chemoradiotherapy",
+              "dosage": null,
+              "frequency": null,
+              "modality": null,
+              "start_date": null,
+              "end_date": null,
+              "indication": null
+            }
+          ]
+        }
+      }
+    },
+    {
+      "id": "N3",
+      "label": "Step 3",
+      "customData": {
+        "node_id": "C",
+        "node_step_index": 2,
+        "content": "Patient developed speech disturbance and right hemiparesis and was transferred to the emergency department 47 minutes after onset.",
+        "clinical_data": {
+          "HPI": [
+            {
+              "summary": "Patient developed speech disturbance and right hemiparesis",
+              "onset": "47 minutes prior to arrival",
+              "progression": "sudden",
+              "associated_symptoms": [
+                "C0038970",
+                "C0575037"
+              ]
+            }
+          ]
+        }
+      }
+    },
+    {
+      "id": "N4",
+      "label": "Step 4",
+      "customData": {
+        "node_id": "D",
+        "node_step_index": 3,
+        "content": "Upon arrival at the emergency department, the patient had an NIHSS score of 17 and a Glasgow Coma Scale (GCS) score of 13 (E4V3M6). Examination revealed motor aphasia, right hemiparesis, and left conjugate deviation of the eyes. Lab results showed elevated white blood cell count of 12,700/\u03bcL (normal range: 4000\u20137800/\u03bcL) and elevated D-dimer of 32.5 \u03bcg/mL (normal range: <1 \u03bcg/mL). Head MRI-DWI showed early ischemic change in the frontal and temporal areas, with an Alberta Stroke Programme Early CT Score (ASPECTS) of 6.",
+        "clinical_data": {
+          "vitals": [
+            {
+              "type": "C3543492",
+              "value": "13",
+              "unit": null,
+              "timestamp": null
+            }
+          ],
+          "labs": [
+            {
+              "test": "C0043275",
+              "value": "12700",
+              "unit": "/\u03bcL",
+              "flag": "abnormal",
+              "reference_range": "4000\u20137800/\u03bcL",
+              "timestamp": null
+            },
+            {
+              "test": "C0282700",
+              "value": "32.5",
+              "unit": "\u03bcg/mL",
+              "flag": "abnormal",
+              "reference_range": "<1 \u03bcg/mL",
+              "timestamp": null
+            }
+          ],
+          "imaging": [
+            {
+              "type": "C0270431",
+              "body_part": "C0016582",
+              "modality": "MRI",
+              "finding": "early ischemic change in the frontal and temporal areas",
+              "impression": null,
+              "date": null
+            }
+          ],
+          "mental_status": [
+            {
+              "domain": "speech",
+              "finding": "C0235943",
+              "timestamp": null
+            }
+          ],
+          "HPI": [
+            {
+              "summary": "right hemiparesis and left conjugate deviation of the eyes",
+              "duration": null,
+              "onset": null,
+              "progression": "unknown",
+              "associated_symptoms": [],
+              "alleviating_factors": [],
+              "exacerbating_factors": []
+            }
+          ]
+        }
+      }
+    },
+    {
+      "id": "N5",
+      "label": "Step 5",
+      "customData": {
+        "node_id": "E",
+        "node_step_index": 4,
+        "content": "Head MRA demonstrated complete occlusion of the left intracranial internal carotid artery (ICA). Diagnostic angiogram confirmed complete occlusion at the terminal end of the left ICA. Intravenous tissue plasminogen activator injection (IV t-PA) followed by MT was performed. A 9-Fr balloon guiding catheter, OPTIMO (Tokai Medical Products, Aichi, Japan), was introduced into the left ICA cervical portion, and a Penumbra ACE 68 (Penumbra Inc., Alameda, CA, USA) was easily navigated to the occlusion site.",
+        "clinical_data": {
+          "imaging": [
+            {
+              "type": "Magnetic resonance angiography",
+              "body_part": "Head",
+              "modality": "MRI",
+              "finding": "complete occlusion of the left intracranial internal carotid artery (ICA)",
+              "date": null
+            },
+            {
+              "type": "Angiography",
+              "body_part": "terminal end of the left ICA",
+              "modality": "other",
+              "finding": "complete occlusion",
+              "date": null
+            }
+          ],
+          "medications": [
+            {
+              "drug": "tissue plasminogen activator",
+              "dosage": null,
+              "frequency": null,
+              "modality": "IV",
+              "start_date": null,
+              "end_date": null,
+              "indication": null
+            }
+          ],
+          "procedures": [
+            {
+              "name": "Mechanical thrombectomy",
+              "approach": "other",
+              "date": null,
+              "location": "left ICA cervical portion",
+              "performed_by": null,
+              "outcome": null
+            }
+          ]
+        }
+      }
+    },
+    {
+      "id": "N6",
+      "label": "Step 6",
+      "customData": {
+        "node_id": "F",
+        "node_step_index": 5,
+        "content": "The ACE 68 contacted the embolus, and aspiration of the embolus was started with a MAX pump (Penumbra Inc.) for 90 seconds. The ACE 68 was withdrawn into the OPTIMO, and the left ICA was recanalized. Occlusion remained at the",
+        "clinical_data": {
+          "procedures": [
+            {
+              "name": "Aspiration",
+              "approach": "percutaneous",
+              "location": "left ICA",
+              "outcome": "recanalized"
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "edges": [
+    {
+      "from": "N1",
+      "to": "N2",
+      "data": {
+        "edge_id": "A_to_B",
+        "branch_flag": true,
+        "content": "Patient underwent right lower lobectomy and chemoradiotherapy for lung cancer (mucoepidermoid carcinoma).",
+        "transition_event": {
+          "trigger_type": "procedure",
+          "trigger_entities": [
+            "C0024117"
+          ],
+          "change_type": "other",
+          "target_domain": "procedure"
+        }
+      }
+    },
+    {
+      "from": "N2",
+      "to": "N3",
+      "data": {
+        "edge_id": "B_to_C",
+        "branch_flag": true,
+        "content": "Lung cancer treatment was not effective, and the patient developed speech disturbance and right hemiparesis.",
+        "transition_event": {
+          "trigger_type": "symptom_onset",
+          "trigger_entities": [
+            "C0038970",
+            "C0575037"
+          ],
+          "change_type": "progression",
+          "target_domain": "symptom"
+        }
+      }
+    },
+    {
+      "from": "N3",
+      "to": "N4",
+      "data": {
+        "edge_id": "C_to_D",
+        "branch_flag": true,
+        "content": "Patient transferred to the emergency department with speech disturbance and right hemiparesis. Upon arrival, the patient had an NIHSS score of 17 and a Glasgow Coma Scale (GCS) score of 13 (E4V3M6). Examination revealed motor aphasia, right hemiparesis, and left conjugate deviation of the eyes. Lab results showed elevated white blood cell count of 12,700/\u03bcL and elevated D-dimer of 32.5 \u03bcg/mL. Head MRI-DWI showed early ischemic change in the frontal and temporal areas, with an Alberta Stroke Programme Early CT Score (ASPECTS) of 6."
+      }
+    },
+    {
+      "from": "N4",
+      "to": "N5",
+      "data": {
+        "edge_id": "D_to_E",
+        "branch_flag": true,
+        "content": "Patient underwent Head MRA which demonstrated complete occlusion of the left intracranial internal carotid artery (ICA). Diagnostic angiogram confirmed complete occlusion at the terminal end of the left ICA. Intravenous tissue plasminogen activator injection (IV t-PA) followed by MT was performed.",
+        "transition_event": {
+          "trigger_type": "procedure",
+          "trigger_entities": [],
+          "change_type": "addition",
+          "target_domain": "procedure"
+        }
+      }
+    },
+    {
+      "from": "N5",
+      "to": "N6",
+      "data": {
+        "edge_id": "E_to_F",
+        "branch_flag": true,
+        "content": "The ACE 68 contacted the embolus, and aspiration of the embolus was started with a MAX pump (Penumbra Inc.) for 90 seconds. The ACE 68 was withdrawn into the OPTIMO, and the left ICA was recanalized.",
+        "transition_event": {
+          "trigger_type": "procedure",
+          "trigger_entities": [],
+          "change_type": "other",
+          "target_domain": "procedure"
+        }
+      }
+    }
+  ]
+}

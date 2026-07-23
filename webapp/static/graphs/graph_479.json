@@ -1,0 +1,515 @@
+{
+  "nodes": [
+    {
+      "id": "N1",
+      "label": "Step 1",
+      "customData": {
+        "node_id": "A",
+        "node_step_index": 0,
+        "content": "71-year-old man presented with bloody sputum and left chest pain. History of smoking 20 cigarettes per day for 59 years.",
+        "clinical_data": {
+          "HPI": [
+            {
+              "summary": "71-year-old man presented with bloody sputum and left chest pain.",
+              "associated_symptoms": [
+                "bloody sputum",
+                "left chest pain"
+              ]
+            }
+          ],
+          "social_history": [
+            {
+              "category": "smoking",
+              "status": "current",
+              "description": "20 cigarettes per day for 59 years"
+            }
+          ]
+        }
+      }
+    },
+    {
+      "id": "N2",
+      "label": "Step 2",
+      "customData": {
+        "node_id": "B",
+        "node_step_index": 1,
+        "content": "Chest radiography revealed a mass at the apex of the left lung.",
+        "clinical_data": {
+          "imaging": [
+            {
+              "type": "Radiography (procedure)",
+              "body_part": "Lung",
+              "modality": "X-ray",
+              "finding": "Mass",
+              "body_part_location": "Apex of the left lung"
+            }
+          ]
+        }
+      }
+    },
+    {
+      "id": "N3",
+      "label": "Step 3",
+      "customData": {
+        "node_id": "C",
+        "node_step_index": 2,
+        "content": "Transbronchial lung biopsy revealed NSCLC.",
+        "clinical_data": {
+          "procedures": [
+            {
+              "name": "Transbronchial lung biopsy",
+              "date": null,
+              "location": "lung",
+              "outcome": null
+            }
+          ],
+          "diagnoses": [
+            {
+              "code": "NSCLC",
+              "label": "Non-small cell lung cancer",
+              "status": "active",
+              "onset_date": null
+            }
+          ]
+        }
+      }
+    },
+    {
+      "id": "N4",
+      "label": "Step 4",
+      "customData": {
+        "node_id": "D",
+        "node_step_index": 3,
+        "content": "Patient underwent left upper segmentectomy and lymph node dissection. Macroscopic examination of the mass revealed it was 6.0 cm in its greatest dimension with a white\u2010to\u2010tan color on the cut surface. Microscopic examination showed the solid tumor was composed of polygonal cells with round vesicular nuclei, prominent nucleoli, and slightly eosinophilic or amphophilic abundant cytoplasm.",
+        "clinical_data": {
+          "procedures": [
+            {
+              "name": "Segmentectomy of lung",
+              "date": null,
+              "location": "left upper lobe",
+              "approach": "open",
+              "outcome": null
+            },
+            {
+              "name": "Lymph node dissection",
+              "date": null,
+              "location": null,
+              "approach": "open",
+              "outcome": null
+            }
+          ],
+          "imaging": [
+            {
+              "type": "mass",
+              "body_part": "lung",
+              "modality": "macroscopic examination",
+              "finding": "6.0 cm in its greatest dimension with a white\u2010to\u2010tan color on the cut surface",
+              "date": null
+            },
+            {
+              "type": "tumor",
+              "body_part": "lung",
+              "modality": "microscopic examination",
+              "finding": "composed of polygonal cells with round vesicular nuclei, prominent nucleoli, and slightly eosinophilic or amphophilic abundant cytoplasm",
+              "date": null
+            }
+          ]
+        }
+      }
+    },
+    {
+      "id": "N5",
+      "label": "Step 5",
+      "customData": {
+        "node_id": "E",
+        "node_step_index": 4,
+        "content": "Histopathology of resected tumor showed scattered multinucleated cells, multifocal necrosis, and hemorrhage. No squamous or glandular features were observed. No lymph node metastasis was detected. PD\u2010L1 tumor proportion score was 60%.",
+        "clinical_data": {
+          "imaging": [
+            {
+              "type": "Neoplasm Resection",
+              "body_part": "tumor",
+              "modality": "Histopathology",
+              "finding": "scattered multinucleated cells, multifocal necrosis, and hemorrhage",
+              "impression": "scattered multinucleated cells, multifocal necrosis, and hemorrhage"
+            }
+          ],
+          "diagnoses": [
+            {
+              "code": "PD-L1",
+              "label": "PD\u2010L1 tumor proportion score was 60%",
+              "status": "active"
+            }
+          ]
+        }
+      }
+    },
+    {
+      "id": "N6",
+      "label": "Step 6",
+      "customData": {
+        "node_id": "F",
+        "node_step_index": 5,
+        "content": "Resection of a 6.0 cm left upper lobe tumor with pleural invasion, pT4 N0. Left hilar 8.5 cm in diameter involving major bronchi. Ipsilateral pleural effusion. Left upper lobe 1.9 cm in diameter.",
+        "clinical_data": {
+          "procedures": [
+            {
+              "name": "Resection",
+              "approach": "open",
+              "location": "left upper lobe",
+              "outcome": "removed 6.0 cm tumor"
+            }
+          ],
+          "diagnoses": [
+            {
+              "code": "T4",
+              "label": "pT4",
+              "status": "active"
+            },
+            {
+              "code": "N0",
+              "label": "N0",
+              "status": "active"
+            }
+          ],
+          "imaging": [
+            {
+              "type": "tumor",
+              "body_part": "left upper lobe",
+              "modality": "CT",
+              "finding": "6.0 cm tumor with pleural invasion",
+              "date": null
+            },
+            {
+              "type": "tumor",
+              "body_part": "left hilar",
+              "modality": "CT",
+              "finding": "8.5 cm in diameter involving major bronchi",
+              "date": null
+            },
+            {
+              "type": "pleural effusion",
+              "body_part": "ipsilateral pleura",
+              "modality": "CT",
+              "finding": "pleural effusion",
+              "date": null
+            },
+            {
+              "type": "tumor",
+              "body_part": "left upper lobe",
+              "modality": "CT",
+              "finding": "1.9 cm in diameter",
+              "date": null
+            }
+          ]
+        }
+      }
+    },
+    {
+      "id": "N7",
+      "label": "Step 7",
+      "customData": {
+        "node_id": "G",
+        "node_step_index": 6,
+        "content": "Right upper lobe tumor 3.1 cm in diameter. Lymph node metastasis. Brain metastasis. Solid pattern prominent necrosis.",
+        "clinical_data": {
+          "imaging": [
+            {
+              "type": "Tumor",
+              "body_part": "Right upper lobe",
+              "modality": "CT",
+              "finding": "3.1 cm in diameter",
+              "date": null
+            },
+            {
+              "type": "Metastasis",
+              "body_part": "Lymph node",
+              "modality": "CT",
+              "finding": "Metastasis",
+              "date": null
+            },
+            {
+              "type": "Metastasis",
+              "body_part": "Brain",
+              "modality": "CT",
+              "finding": "Metastasis",
+              "date": null
+            }
+          ],
+          "diagnoses": [
+            {
+              "code": "C34.1",
+              "label": "Malignant neoplasm of upper lobe, bronchus or lung",
+              "status": "active",
+              "onset_date": null
+            }
+          ]
+        }
+      }
+    },
+    {
+      "id": "N8",
+      "label": "Step 8",
+      "customData": {
+        "node_id": "H",
+        "node_step_index": 7,
+        "content": "Immunohistochemistry of tumor cells showed coexpression of p40 (BC28; Roche Diagnostics) in approximately 80% of tumor cells and TTF-1 (8G7G3/1; Dako) in 10% of cases.",
+        "clinical_data": {
+          "labs": [
+            {
+              "test": "Immunohistochemistry",
+              "value": "p40 (BC28; Roche Diagnostics) in approximately 80% of tumor cells and TTF-1 (8G7G3/1; Dako) in 10% of cases",
+              "unit": "%",
+              "flag": "abnormal"
+            }
+          ]
+        }
+      }
+    },
+    {
+      "id": "N9",
+      "label": "Step 9",
+      "customData": {
+        "node_id": "I",
+        "node_step_index": 8,
+        "content": "Immunohistochemistry of tumor cells showed positive staining for anti-TTF-1 (SPT24; Novocastra) in 40% of cases. Most TTF-1-positive samples were also positive for p40, indicating coexpression of p40 and TTF-1. The TTF-1 staining intensity of SPT24 was stronger than that of 8G7G3/1. PD-L1 (22C3 pharmDx KIT) tumor proportion score was 60%.",
+        "clinical_data": {
+          "labs": [
+            {
+              "test": "Thyroid Transcription Factor-1",
+              "value": "positive",
+              "unit": null,
+              "flag": "positive",
+              "reference_range": null,
+              "timestamp": null
+            },
+            {
+              "test": "p40 protein",
+              "value": "positive",
+              "unit": null,
+              "flag": "positive",
+              "reference_range": null,
+              "timestamp": null
+            },
+            {
+              "test": "PD-L1",
+              "value": "60",
+              "unit": "%",
+              "flag": null,
+              "reference_range": null,
+              "timestamp": null
+            }
+          ]
+        }
+      }
+    },
+    {
+      "id": "N10",
+      "label": "Step 10",
+      "customData": {
+        "node_id": "J",
+        "node_step_index": 9,
+        "content": "Genomic analyses using the Oncomine Dx Target Test showed no mutations identified because of poorly preserved tumor DNA. No ALK or ROS1 rearrangements were identified. Tumor diagnosed as NSCLC with TTF\u20101 and p40 coexpression.",
+        "clinical_data": {
+          "diagnoses": [
+            {
+              "code": "C0029407",
+              "label": "Non-Small Cell Lung Carcinoma",
+              "status": "active"
+            }
+          ],
+          "imaging": [
+            {
+              "type": "C0024112",
+              "body_part": "TUMOR",
+              "modality": "other",
+              "finding": "poorly preserved tumor DNA",
+              "impression": "no mutations identified"
+            }
+          ]
+        }
+      }
+    },
+    {
+      "id": "N11",
+      "label": "Step 11",
+      "customData": {
+        "node_id": "K",
+        "node_step_index": 10,
+        "content": "Approximately four months after the segmentectomy, recurrence in the lumbar vertebrae was observed.",
+        "clinical_data": {
+          "diagnoses": [
+            {
+              "code": "C79.51",
+              "label": "Secondary malignant neoplasm of bone",
+              "status": "active",
+              "onset_date": null
+            }
+          ],
+          "imaging": [
+            {
+              "type": "Radiologic procedure",
+              "body_part": "Lumbar Vertebrae",
+              "modality": "other",
+              "finding": "recurrence",
+              "impression": "recurrence in the lumbar vertebrae",
+              "date": null
+            }
+          ]
+        }
+      }
+    },
+    {
+      "id": "N12",
+      "label": "Step 12",
+      "customData": {
+        "node_id": "L",
+        "node_step_index": 11,
+        "content": "Patient died of cancer nine months after the surgery despite postoperative chemoradiotherapy.",
+        "clinical_data": {
+          "diagnoses": [
+            {
+              "code": "C00.9",
+              "label": "Malignant neoplasm of unspecified site",
+              "status": "historical",
+              "onset_date": null
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "edges": [
+    {
+      "from": "N1",
+      "to": "N2",
+      "data": {
+        "edge_id": "A_to_B",
+        "branch_flag": true,
+        "content": "Patient presented with bloody sputum and left chest pain. Chest radiography was performed.",
+        "transition_event": {
+          "trigger_type": "symptom_onset",
+          "trigger_entities": [
+            "C0007564",
+            "C0023232"
+          ],
+          "change_type": "other",
+          "target_domain": "symptom"
+        }
+      }
+    },
+    {
+      "from": "N2",
+      "to": "N3",
+      "data": {
+        "edge_id": "B_to_C",
+        "branch_flag": true,
+        "content": "Chest radiography revealed a mass at the apex of the left lung. Biopsy was performed.",
+        "transition_event": {
+          "trigger_type": "imaging",
+          "trigger_entities": [
+            "C0206242"
+          ],
+          "change_type": "progression",
+          "target_domain": "imaging"
+        }
+      }
+    },
+    {
+      "from": "N3",
+      "to": "N4",
+      "data": {
+        "edge_id": "C_to_D",
+        "branch_flag": true,
+        "content": "Transbronchial lung biopsy revealed NSCLC. Patient underwent left upper segmentectomy and lymph node dissection.",
+        "transition_event": {
+          "trigger_type": "procedure",
+          "trigger_entities": [
+            "C0005771"
+          ],
+          "change_type": "addition",
+          "target_domain": "procedure"
+        }
+      }
+    },
+    {
+      "from": "N4",
+      "to": "N5",
+      "data": {
+        "edge_id": "D_to_E",
+        "branch_flag": true,
+        "content": "Patient underwent left upper segmentectomy and lymph node dissection. Macroscopic and microscopic examination of the mass was performed.",
+        "transition_event": {
+          "trigger_type": "procedure",
+          "trigger_entities": [
+            "C0036607",
+            "C0024131"
+          ],
+          "change_type": "other",
+          "target_domain": "procedure"
+        }
+      }
+    },
+    {
+      "from": "N5",
+      "to": "N6",
+      "data": {
+        "edge_id": "E_to_F",
+        "branch_flag": true,
+        "content": "Histopathology of resected tumor showed scattered multinucleated cells, multifocal necrosis, and hemorrhage. Resection of a 6.0 cm left upper lobe tumor with pleural invasion, pT4 N0.",
+        "transition_event": {
+          "trigger_type": "interpretation",
+          "trigger_entities": [
+            "C0027051"
+          ],
+          "change_type": "progression",
+          "target_domain": "diagnosis"
+        }
+      }
+    },
+    {
+      "from": "N6",
+      "to": "N7",
+      "data": {
+        "edge_id": "F_to_G",
+        "branch_flag": true,
+        "content": "Resection of a 6.0 cm left upper lobe tumor with pleural invasion, pT4 N0. Right upper lobe tumor 3.1 cm in diameter. Lymph node metastasis. Brain metastasis.",
+        "transition_event": {
+          "trigger_type": "progression",
+          "trigger_entities": [
+            "C0027651",
+            "C0006141"
+          ],
+          "change_type": "progression",
+          "target_domain": "diagnosis"
+        }
+      }
+    },
+    {
+      "from": "N7",
+      "to": "N8",
+      "data": {
+        "edge_id": "G_to_H",
+        "branch_flag": true,
+        "content": "Right upper lobe tumor 3.1 cm in diameter. Lymph node metastasis. Brain metastasis. Immunohistochemistry of tumor cells was performed.",
+        "transition_event": {
+          "trigger_type": "procedure",
+          "trigger_entities": [
+            "C0176414"
+          ],
+          "change_type": "addition",
+          "target_domain": "procedure"
+        }
+      }
+    },
+    {
+      "from": "N8",
+      "to": "N9",
+      "data": {
+        "edge_id": "H_to_I",
+        "branch_flag": true,
+        "content": "Immunohistochemistry of tumor cells showed coexpression of p40 and TTF-1. Immunohistochemistry of tumor cells showed positive staining for"
+      }
+    }
+  ]
+}

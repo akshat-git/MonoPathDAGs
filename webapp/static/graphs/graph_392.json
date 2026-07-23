@@ -1,0 +1,573 @@
+{
+  "nodes": [
+    {
+      "id": "N1",
+      "label": "Step 1",
+      "customData": {
+        "node_id": "A",
+        "node_step_index": 0,
+        "content": "62-year-old Hispanic male with a past medical history of anxiety, tobacco use disorder (25 pack-years), chronic obstructive lung disease, and pulmonary fibrosis presented to the emergency department (ED) with one week of shortness of breath, runny nose, cough, and anterior and posterior chest wall pain. Denied fever, chills, cough, chest pain, palpitation, weight loss, or other symptoms.",
+        "clinical_data": {
+          "HPI": [
+            {
+              "summary": "62-year-old Hispanic male presented to the ED with one week of shortness of breath, runny nose, cough, and anterior and posterior chest wall pain.",
+              "duration": "1 week",
+              "onset": null,
+              "progression": "unknown",
+              "associated_symptoms": [
+                "Shortness of breath",
+                "Runny nose",
+                "Cough",
+                "Anterior chest wall pain",
+                "Posterior chest wall pain"
+              ],
+              "alleviating_factors": [],
+              "exacerbating_factors": []
+            }
+          ],
+          "diagnoses": [
+            {
+              "code": "F41.9",
+              "label": "Anxiety disorder, unspecified",
+              "status": "historical",
+              "onset_date": null
+            },
+            {
+              "code": "F17.210",
+              "label": "Nicotine dependence, cigarettes, uncomplicated",
+              "status": "historical",
+              "onset_date": null
+            },
+            {
+              "code": "J44",
+              "label": "Chronic obstructive pulmonary disease",
+              "status": "historical",
+              "onset_date": null
+            },
+            {
+              "code": "J84.10",
+              "label": "Pulmonary fibrosis",
+              "status": "historical",
+              "onset_date": null
+            }
+          ],
+          "social_history": [
+            {
+              "category": "smoking",
+              "status": "past",
+              "description": "25 pack-years"
+            }
+          ],
+          "ROS": [
+            {
+              "system": "constitutional",
+              "findings": []
+            },
+            {
+              "system": "cardiovascular",
+              "findings": []
+            },
+            {
+              "system": "respiratory",
+              "findings": []
+            }
+          ]
+        }
+      }
+    },
+    {
+      "id": "N2",
+      "label": "Step 2",
+      "customData": {
+        "node_id": "B",
+        "node_step_index": 1,
+        "content": "19 months prior to presentation: CT abdomen incidentally revealed possible left lower lobe mass.",
+        "clinical_data": {
+          "imaging": [
+            {
+              "type": "Computed tomography",
+              "body_part": "Abdomen",
+              "modality": "CT",
+              "finding": "possible left lower lobe mass",
+              "date": "19 months prior to presentation"
+            }
+          ]
+        }
+      }
+    },
+    {
+      "id": "N3",
+      "label": "Step 3",
+      "customData": {
+        "node_id": "C",
+        "node_step_index": 2,
+        "content": "Follow-up CT chest without contrast: Mass-like area of consolidation in the superior segment of the left lower lobe measuring 1.3 cm x 1.9 cm x 2.9 cm, pulmonary fibrosis, and bilateral hilar lymphadenopathy. Patient signed out against medical advice and failed to seek further medical advice until progressive worsening dyspnea prompted ER visit.",
+        "clinical_data": {
+          "imaging": [
+            {
+              "type": "Mass-like area of consolidation",
+              "body_part": "Left lower lobe",
+              "modality": "CT",
+              "finding": "Mass-like area of consolidation in the superior segment of the left lower lobe measuring 1.3 cm x 1.9 cm x 2.9 cm, pulmonary fibrosis, and bilateral hilar lymphadenopathy",
+              "date": null
+            }
+          ],
+          "HPI": [
+            {
+              "summary": "Progressive worsening dyspnea",
+              "progression": "gradual"
+            }
+          ]
+        }
+      }
+    },
+    {
+      "id": "N4",
+      "label": "Step 4",
+      "customData": {
+        "node_id": "D",
+        "node_step_index": 5,
+        "content": "CT chest: Diffuse honeycomb changes in bilateral lower lobes, right middle lobe, and peripherally along the upper lobes. Subpleural consolidation in the upper lobes bilaterally to the apices. CT angiography of the chest: Interval growth of left lower lobe nodule, now 7.1 cm x 3.9 cm, compatible with malignancy. Mediastinal and bilateral hilar lymphadenopathy, left greater than right.",
+        "clinical_data": {
+          "imaging": [
+            {
+              "type": "CT chest",
+              "body_part": "lower lobes",
+              "modality": "CT",
+              "finding": "Diffuse honeycomb changes",
+              "date": null
+            },
+            {
+              "type": "CT chest",
+              "body_part": "right middle lobe",
+              "modality": "CT",
+              "finding": "Diffuse honeycomb changes",
+              "date": null
+            },
+            {
+              "type": "CT chest",
+              "body_part": "upper lobes",
+              "modality": "CT",
+              "finding": "Diffuse honeycomb changes peripherally",
+              "date": null
+            },
+            {
+              "type": "CT chest",
+              "body_part": "upper lobes",
+              "modality": "CT",
+              "finding": "Subpleural consolidation bilaterally to the apices",
+              "date": null
+            },
+            {
+              "type": "CT angiography of the chest",
+              "body_part": "left lower lobe",
+              "modality": "CT",
+              "finding": "Interval growth of nodule, now 7.1 cm x 3.9 cm, compatible with malignancy",
+              "date": null
+            },
+            {
+              "type": "CT angiography of the chest",
+              "body_part": "Mediastinum",
+              "modality": "CT",
+              "finding": "Mediastinal lymphadenopathy",
+              "date": null
+            },
+            {
+              "type": "CT angiography of the chest",
+              "body_part": "Bilateral hilar",
+              "modality": "CT",
+              "finding": "Bilateral hilar lymphadenopathy, left greater than right",
+              "date": null
+            }
+          ]
+        }
+      }
+    },
+    {
+      "id": "N5",
+      "label": "Step 5",
+      "customData": {
+        "node_id": "E",
+        "node_step_index": 6,
+        "content": "Emergency department (ED) presentation: Blood pressure 121/63 mmHg, heart rate 105 bpm, respiratory rate 20 breaths per minute, temperature 36.5 degrees Celsius, oxygen saturation 97% on room air. CT chest showed emphysematous and fibrotic changes in pulmonary parenchyma. No pneumothorax, central occlusive pulmonary embolism (PE), pulmonary arterial hypertension, right heart strain, pericardial effusion, or thoracic aortic dissection or aneurysm.",
+        "clinical_data": {
+          "vitals": [
+            {
+              "type": "Systolic blood pressure",
+              "value": "121",
+              "unit": "mmHg"
+            },
+            {
+              "type": "Diastolic blood pressure",
+              "value": "63",
+              "unit": "mmHg"
+            },
+            {
+              "type": "Heart rate",
+              "value": "105",
+              "unit": "bpm"
+            },
+            {
+              "type": "Respiratory rate",
+              "value": "20",
+              "unit": "breaths per minute"
+            },
+            {
+              "type": "Body temperature",
+              "value": "36.5",
+              "unit": "degrees Celsius"
+            },
+            {
+              "type": "Oxygen saturation",
+              "value": "97",
+              "unit": "%"
+            }
+          ],
+          "imaging": [
+            {
+              "type": "Computed tomography",
+              "body_part": "Chest",
+              "modality": "CT",
+              "finding": "Emphysematous and fibrotic changes in pulmonary parenchyma. No pneumothorax, central occlusive pulmonary embolism (PE), pulmonary arterial hypertension, right heart strain, pericardial effusion, or thoracic aortic dissection or aneurysm."
+            }
+          ]
+        }
+      }
+    },
+    {
+      "id": "N6",
+      "label": "Step 6",
+      "customData": {
+        "node_id": "F",
+        "node_step_index": 7,
+        "content": "Physical exam: Mild wheezing and rales noted bilaterally, mild right paraspinal muscle tenderness. Laboratory studies: Troponin 2 pg/mL, BNP 14 pg/mL. EKG: Sinus tachycardia, no ST or T wave changes. CXR: Diffuse interstitial opacities with mass-like density in the left midlung zone. Ultrasound venous lower extremities negative for acute deep venous thrombosis.",
+        "clinical_data": {
+          "vitals": [
+            {
+              "type": "C0037080",
+              "value": "Sinus tachycardia",
+              "unit": null,
+              "timestamp": null
+            }
+          ],
+          "labs": [
+            {
+              "test": "Troponin",
+              "value": "2",
+              "unit": "pg/mL",
+              "flag": "normal",
+              "reference_range": null,
+              "timestamp": null
+            },
+            {
+              "test": "Brain natriuretic peptide",
+              "value": "14",
+              "unit": "pg/mL",
+              "flag": "normal",
+              "reference_range": null,
+              "timestamp": null
+            }
+          ],
+          "imaging": [
+            {
+              "type": "C0020603",
+              "body_part": "Lower extremity vein",
+              "modality": "Ultrasound",
+              "finding": "negative for acute deep venous thrombosis",
+              "impression": "negative for acute deep venous thrombosis",
+              "date": null
+            },
+            {
+              "type": "C0009041",
+              "body_part": "Lung",
+              "modality": "X-ray",
+              "finding": "Diffuse interstitial opacities with mass-like density in the left midlung zone",
+              "impression": "Diffuse interstitial opacities with mass-like density in the left midlung zone",
+              "date": null
+            }
+          ]
+        }
+      }
+    },
+    {
+      "id": "N7",
+      "label": "Step 7",
+      "customData": {
+        "node_id": "G",
+        "node_step_index": 8,
+        "content": "CT angiogram (CTA) of the chest: Age-indeterminate left lower lobe pulmonary arterial embolus (PE). Interval growth of previously reported left lower lobe nodule/mass, now measuring 7.1 cm x 3.9 cm. No evidence of central occlusive PE or right heart strain. CT head, abdomen, and pelvis negative for metastatic disease.",
+        "clinical_data": {
+          "imaging": [
+            {
+              "type": "Angiography, Computed Tomography (T127)",
+              "body_part": "Thorax (T116)",
+              "modality": "CT",
+              "finding": "Pulmonary Embolism (D011630)",
+              "impression": "Age-indeterminate left lower lobe pulmonary arterial embolus (PE). Interval growth of previously reported left lower lobe nodule/mass, now measuring 7.1 cm x 3.9 cm. No evidence of central occlusive PE or right heart strain.",
+              "date": null
+            },
+            {
+              "type": "Computed tomography (CT)",
+              "body_part": "Head (T008)",
+              "modality": "CT",
+              "finding": "Negative for metastatic disease",
+              "impression": "Negative for metastatic disease",
+              "date": null
+            },
+            {
+              "type": "Computed tomography (CT)",
+              "body_part": "Abdomen (T029)",
+              "modality": "CT",
+              "finding": "Negative for metastatic disease",
+              "impression": "Negative for metastatic disease",
+              "date": null
+            },
+            {
+              "type": "Computed tomography (CT)",
+              "body_part": "Pelvis (T096)",
+              "modality": "CT",
+              "finding": "Negative for metastatic disease",
+              "impression": "Negative for metastatic disease",
+              "date": null
+            }
+          ],
+          "diagnoses": [
+            {
+              "code": "D011630",
+              "label": "Pulmonary Embolism",
+              "status": "active",
+              "onset_date": null
+            }
+          ]
+        }
+      }
+    },
+    {
+      "id": "N8",
+      "label": "Step 8",
+      "customData": {
+        "node_id": "H",
+        "node_step_index": 9,
+        "content": "Complete blood count: WBC 9.6 K/mm3, RBC 4.64 K/mm3, Hgb 14.4 g/dL, Hct 42.0%, MCV 90.5 fL, MCH 31.0 pg, MCHC 34.3 g/dL, RDW 12.8%, Platelets 198 K/mm3, Neutrophils 70.2%, Lymphocytes 21.4%, Monocytes 5.0%, Eosinophils 2.0%, Basophils 0.4%. Routine coagulation: PT 13.2 seconds, INR 1.0, PTT 33 seconds.",
+        "clinical_data": {
+          "labs": [
+            {
+              "test": "White blood cell count",
+              "value": "9.6",
+              "unit": "K/mm3",
+              "flag": "normal"
+            },
+            {
+              "test": "Red blood cell count",
+              "value": "4.64",
+              "unit": "K/mm3",
+              "flag": "normal"
+            },
+            {
+              "test": "Hemoglobin",
+              "value": "14.4",
+              "unit": "g/dL",
+              "flag": "normal"
+            },
+            {
+              "test": "Hematocrit",
+              "value": "42.0",
+              "unit": "%",
+              "flag": "normal"
+            },
+            {
+              "test": "Mean corpuscular volume",
+              "value": "90.5",
+              "unit": "fL",
+              "flag": "normal"
+            },
+            {
+              "test": "Mean corpuscular hemoglobin",
+              "value": "31.0",
+              "unit": "pg",
+              "flag": "normal"
+            },
+            {
+              "test": "Mean corpuscular hemoglobin concentration",
+              "value": "34.3",
+              "unit": "g/dL",
+              "flag": "normal"
+            },
+            {
+              "test": "Red cell distribution width",
+              "value": "12.8",
+              "unit": "%",
+              "flag": "normal"
+            },
+            {
+              "test": "Platelet count",
+              "value": "198",
+              "unit": "K/mm3",
+              "flag": "normal"
+            },
+            {
+              "test": "Neutrophils",
+              "value": "70.2",
+              "unit": "%",
+              "flag": "normal"
+            },
+            {
+              "test": "Lymphocytes",
+              "value": "21.4",
+              "unit": "%",
+              "flag": "normal"
+            },
+            {
+              "test": "Monocytes",
+              "value": "5.0",
+              "unit": "%",
+              "flag": "normal"
+            },
+            {
+              "test": "Eosinophils",
+              "value": "2.0",
+              "unit": "%",
+              "flag": "normal"
+            },
+            {
+              "test": "Basophils",
+              "value": "0.4",
+              "unit": "%",
+              "flag": "normal"
+            },
+            {
+              "test": "Prothrombin time",
+              "value": "13.2",
+              "unit": "seconds",
+              "flag": "normal"
+            },
+            {
+              "test": "INR",
+              "value": "1.0",
+              "flag": "normal"
+            },
+            {
+              "test": "Partial thromboplastin time",
+              "value": "33",
+              "unit": "seconds",
+              "flag": "normal"
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "edges": [
+    {
+      "from": "N1",
+      "to": "N2",
+      "data": {
+        "edge_id": "A_to_B",
+        "branch_flag": true,
+        "content": "Transition from initial presentation to incidental finding on CT abdomen."
+      }
+    },
+    {
+      "from": "N2",
+      "to": "N3",
+      "data": {
+        "edge_id": "B_to_C",
+        "branch_flag": true,
+        "content": "Transition from incidental finding to follow-up CT chest and subsequent loss to follow-up.",
+        "transition_event": {
+          "trigger_type": "imaging",
+          "trigger_entities": [
+            "C0009326"
+          ],
+          "change_type": "progression",
+          "target_domain": "imaging"
+        }
+      }
+    },
+    {
+      "from": "N3",
+      "to": "N4",
+      "data": {
+        "edge_id": "C_to_D",
+        "branch_flag": true,
+        "content": "Transition from worsening dyspnea to CT chest and CT angiography findings.",
+        "transition_event": {
+          "trigger_type": "symptom_onset",
+          "trigger_entities": [
+            "C0013404"
+          ],
+          "change_type": "progression",
+          "target_domain": "symptom"
+        }
+      }
+    },
+    {
+      "from": "N4",
+      "to": "N5",
+      "data": {
+        "edge_id": "D_to_E",
+        "branch_flag": true,
+        "content": "Transition from CT imaging findings to ED presentation and vital signs.",
+        "transition_event": {
+          "trigger_type": "imaging",
+          "trigger_entities": [
+            "C0009326"
+          ],
+          "change_type": "progression",
+          "target_domain": "imaging"
+        }
+      }
+    },
+    {
+      "from": "N5",
+      "to": "N6",
+      "data": {
+        "edge_id": "E_to_F",
+        "branch_flag": true,
+        "content": "Transition from ED presentation and vital signs to physical exam, laboratory studies, EKG, CXR, and ultrasound findings.",
+        "transition_event": {
+          "trigger_type": "interpretation",
+          "trigger_entities": [
+            "C0042490"
+          ],
+          "change_type": "other",
+          "target_domain": "vital_sign"
+        }
+      }
+    },
+    {
+      "from": "N6",
+      "to": "N7",
+      "data": {
+        "edge_id": "F_to_G",
+        "branch_flag": true,
+        "content": "Transition from physical exam and initial imaging to CT angiogram of the chest and other CT scans.",
+        "transition_event": {
+          "trigger_type": "imaging",
+          "trigger_entities": [
+            "C0009326"
+          ],
+          "change_type": "progression",
+          "target_domain": "imaging"
+        }
+      }
+    },
+    {
+      "from": "N7",
+      "to": "N8",
+      "data": {
+        "edge_id": "G_to_H",
+        "branch_flag": true,
+        "content": "Transition from CT angiogram findings to complete blood count and routine coagulation results.",
+        "transition_event": {
+          "trigger_type": "lab_change",
+          "trigger_entities": [
+            "C0009326"
+          ],
+          "change_type": "other",
+          "target_domain": "lab"
+        }
+      }
+    }
+  ]
+}

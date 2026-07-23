@@ -1,0 +1,463 @@
+{
+  "nodes": [
+    {
+      "id": "N1",
+      "label": "Step 1",
+      "customData": {
+        "node_id": "A",
+        "node_step_index": 0,
+        "content": "50-year-old Japanese woman with a history of Hodgkin's lymphoma treated at age 25 with mechlorethamine, vincristine, procarbazine, and prednisolone chemotherapy and radiation therapy to the mediastinum (50 Gray/25 fractions) and abdomen (56 Gray/28 fractions).",
+        "clinical_data": {
+          "diagnoses": [
+            {
+              "code": "C81",
+              "label": "Hodgkin's lymphoma",
+              "status": "historical",
+              "onset_date": null
+            }
+          ],
+          "medications": [
+            {
+              "drug": "C0025067",
+              "dosage": null,
+              "frequency": null,
+              "modality": null,
+              "start_date": null,
+              "end_date": null,
+              "indication": "C81"
+            },
+            {
+              "drug": "C0042837",
+              "dosage": null,
+              "frequency": null,
+              "modality": null,
+              "start_date": null,
+              "end_date": null,
+              "indication": "C81"
+            },
+            {
+              "drug": "C0032560",
+              "dosage": null,
+              "frequency": null,
+              "modality": null,
+              "start_date": null,
+              "end_date": null,
+              "indication": "C81"
+            },
+            {
+              "drug": "C0033391",
+              "dosage": null,
+              "frequency": null,
+              "modality": null,
+              "start_date": null,
+              "end_date": null,
+              "indication": "C81"
+            }
+          ],
+          "procedures": [
+            {
+              "name": "Radiation therapy",
+              "approach": null,
+              "date": null,
+              "location": "mediastinum",
+              "performed_by": null,
+              "outcome": null
+            },
+            {
+              "name": "Radiation therapy",
+              "approach": null,
+              "date": null,
+              "location": "abdomen",
+              "performed_by": null,
+              "outcome": null
+            }
+          ]
+        }
+      }
+    },
+    {
+      "id": "N2",
+      "label": "Step 2",
+      "customData": {
+        "node_id": "B",
+        "node_step_index": 1,
+        "content": "Five years after radiation therapy, chest CT revealed a small amount of left pleural effusion.",
+        "clinical_data": {
+          "imaging": [
+            {
+              "type": "Computed tomography of chest",
+              "body_part": "Chest",
+              "modality": "CT",
+              "finding": "small amount of left pleural effusion",
+              "date": null
+            }
+          ],
+          "procedures": [
+            {
+              "name": "Radiation therapy",
+              "date": null
+            }
+          ]
+        }
+      }
+    },
+    {
+      "id": "N3",
+      "label": "Step 3",
+      "customData": {
+        "node_id": "C",
+        "node_step_index": 2,
+        "content": "Pleural effusion was too small to perform thoracentesis. Follow-up with chest CT and X-ray was continued considering radiation pleuritis.",
+        "clinical_data": {
+          "imaging": [
+            {
+              "type": "Pleural effusion",
+              "body_part": "Pleural cavity",
+              "modality": "X-ray",
+              "finding": "too small to perform thoracentesis",
+              "impression": "Pleural effusion too small to perform thoracentesis",
+              "date": null
+            },
+            {
+              "type": "Computed tomography",
+              "body_part": "Chest",
+              "modality": "CT",
+              "finding": null,
+              "impression": "Follow-up with chest CT considering radiation pleuritis",
+              "date": null
+            },
+            {
+              "type": "X-ray",
+              "body_part": "Chest",
+              "modality": "X-ray",
+              "finding": null,
+              "impression": "Follow-up with X-ray considering radiation pleuritis",
+              "date": null
+            }
+          ],
+          "diagnoses": [
+            {
+              "code": "Radiation pleuritis",
+              "label": "Radiation pleuritis",
+              "status": "suspected",
+              "onset_date": null
+            }
+          ],
+          "procedures": [
+            {
+              "name": "Thoracentesis",
+              "approach": "percutaneous",
+              "date": null,
+              "location": "Pleural cavity",
+              "performed_by": null,
+              "outcome": "not performed"
+            }
+          ]
+        }
+      }
+    },
+    {
+      "id": "N4",
+      "label": "Step 4",
+      "customData": {
+        "node_id": "D",
+        "node_step_index": 3,
+        "content": "Pleural effusion and thickness increased after 20 years of follow-up. Patient visited hospital for an evaluation. No pleural calcifications.",
+        "clinical_data": {
+          "imaging": [
+            {
+              "type": "Pleural effusion",
+              "body_part": "Pleura",
+              "modality": "other",
+              "finding": "increased",
+              "date": null
+            }
+          ]
+        }
+      }
+    },
+    {
+      "id": "N5",
+      "label": "Step 5",
+      "customData": {
+        "node_id": "E",
+        "node_step_index": 4,
+        "content": "Positron emission tomography revealed 18F-fluorodeoxyglucose uptake in the thickening pleura.",
+        "clinical_data": {
+          "imaging": [
+            {
+              "type": "Positron emission tomography",
+              "body_part": "pleura",
+              "modality": "PET",
+              "finding": "18F-fluorodeoxyglucose uptake in the thickening pleura"
+            }
+          ]
+        }
+      }
+    },
+    {
+      "id": "N6",
+      "label": "Step 6",
+      "customData": {
+        "node_id": "F",
+        "node_step_index": 5,
+        "content": "Full-thickness pleural biopsy showed tubule-papillary components in the pleura. Immunohistochemistry showed positive staining for calretinin, D2-40, and CK5/6 and negative staining for CEA and p40. Diagnosis of epithelial type of malignant pleural mesothelioma (MPM).",
+        "clinical_data": {
+          "diagnoses": [
+            {
+              "code": "C0025347",
+              "label": "Malignant Pleural Mesothelioma",
+              "status": "active"
+            }
+          ],
+          "procedures": [
+            {
+              "name": "C0206954",
+              "approach": "percutaneous",
+              "location": "Pleura",
+              "outcome": "C0025347"
+            }
+          ],
+          "imaging": [
+            {
+              "type": "Imaging of pleura",
+              "body_part": "Pleura",
+              "modality": "biopsy",
+              "finding": "tubule-papillary components in the pleura"
+            }
+          ]
+        }
+      }
+    },
+    {
+      "id": "N7",
+      "label": "Step 7",
+      "customData": {
+        "node_id": "G",
+        "node_step_index": 6,
+        "content": "Chest contrast-enhanced CT a year before the first visit to our hospital revealed a small amount of pleural effusion. FDG-PET a year before the first visit to our hospital revealed no FDG uptake. No asbestos bodies.",
+        "clinical_data": {
+          "imaging": [
+            {
+              "type": "Computed tomography",
+              "body_part": "Chest",
+              "modality": "CT",
+              "finding": "small amount of pleural effusion",
+              "date": "previous year"
+            },
+            {
+              "type": "Positron emission tomography",
+              "modality": "PET",
+              "finding": "no FDG uptake",
+              "date": "previous year"
+            }
+          ]
+        }
+      }
+    },
+    {
+      "id": "N8",
+      "label": "Step 8",
+      "customData": {
+        "node_id": "H",
+        "node_step_index": 7,
+        "content": "FDG-PET at the first visit to the hospital revealed an FDG uptake in the left pleural cavity. Pathological findings of a full-thickness pleural biopsy specimen revealed epithelioid-type MPM. IHC showed positive staining for calretinin, D2-40, and CK5/6 and negative staining for CEA and p40.",
+        "clinical_data": {
+          "imaging": [
+            {
+              "type": "Fluorodeoxyglucose-PET",
+              "body_part": "Pleural cavity",
+              "modality": "PET",
+              "finding": "FDG uptake in the left pleural cavity",
+              "date": null
+            }
+          ],
+          "procedures": [
+            {
+              "name": "Pleural biopsy",
+              "approach": "other",
+              "date": null,
+              "location": "Pleural cavity",
+              "performed_by": null,
+              "outcome": null
+            }
+          ],
+          "labs": [
+            {
+              "test": "Calretinin",
+              "value": "positive",
+              "unit": null,
+              "flag": "positive",
+              "reference_range": null,
+              "timestamp": null
+            },
+            {
+              "test": "D2-40",
+              "value": "positive",
+              "unit": null,
+              "flag": "positive",
+              "reference_range": null,
+              "timestamp": null
+            },
+            {
+              "test": "CK5/6",
+              "value": "positive",
+              "unit": null,
+              "flag": "positive",
+              "reference_range": null,
+              "timestamp": null
+            },
+            {
+              "test": "CEA",
+              "value": "negative",
+              "unit": null,
+              "flag": "negative",
+              "reference_range": null,
+              "timestamp": null
+            },
+            {
+              "test": "p40",
+              "value": "negative",
+              "unit": null,
+              "flag": "negative",
+              "reference_range": null,
+              "timestamp": null
+            }
+          ],
+          "diagnoses": [
+            {
+              "code": null,
+              "label": "epithelioid-type MPM",
+              "status": "active",
+              "onset_date": null
+            }
+          ]
+        }
+      }
+    },
+    {
+      "id": "N9",
+      "label": "Step 9",
+      "customData": {
+        "node_id": "I",
+        "node_step_index": 8,
+        "content": "Chemotherapy with carboplatin and pemetrexed was administered and maintenance therapy with pemetrexed is currently ongoing.",
+        "clinical_data": {
+          "medications": [
+            {
+              "drug": "C0007672",
+              "dosage": null,
+              "frequency": null,
+              "modality": null,
+              "start_date": null,
+              "end_date": null,
+              "indication": null
+            },
+            {
+              "drug": "C0978892",
+              "dosage": null,
+              "frequency": null,
+              "modality": null,
+              "start_date": null,
+              "end_date": null,
+              "indication": null
+            },
+            {
+              "drug": "C0978892",
+              "dosage": null,
+              "frequency": null,
+              "modality": null,
+              "start_date": null,
+              "end_date": null,
+              "indication": null
+            }
+          ],
+          "procedures": [
+            {
+              "name": "C0008655",
+              "approach": null,
+              "date": null,
+              "location": null,
+              "performed_by": null,
+              "outcome": null
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "edges": [
+    {
+      "from": "N1",
+      "to": "N2",
+      "data": {
+        "edge_id": "A_to_B",
+        "branch_flag": true,
+        "content": "Development of left pleural effusion five years after radiation therapy."
+      }
+    },
+    {
+      "from": "N2",
+      "to": "N3",
+      "data": {
+        "edge_id": "B_to_C",
+        "branch_flag": true,
+        "content": "Pleural effusion too small for thoracentesis, monitored with chest CT and X-ray, considering radiation pleuritis."
+      }
+    },
+    {
+      "from": "N3",
+      "to": "N4",
+      "data": {
+        "edge_id": "C_to_D",
+        "branch_flag": true,
+        "content": "Pleural effusion and thickness increased after 20 years of follow-up. No pleural calcifications."
+      }
+    },
+    {
+      "from": "N4",
+      "to": "N5",
+      "data": {
+        "edge_id": "D_to_E",
+        "branch_flag": true,
+        "content": "18F-fluorodeoxyglucose uptake in the thickening pleura detected by Positron emission tomography."
+      }
+    },
+    {
+      "from": "N5",
+      "to": "N6",
+      "data": {
+        "edge_id": "E_to_F",
+        "branch_flag": true,
+        "content": "Pleural biopsy reveals tubule-papillary components. Immunohistochemistry positive for calretinin, D2-40, and CK5/6, negative for CEA and p40, leading to diagnosis of epithelial type of malignant pleural mesothelioma (MPM)."
+      }
+    },
+    {
+      "from": "N6",
+      "to": "N7",
+      "data": {
+        "edge_id": "F_to_G",
+        "branch_flag": true,
+        "content": "Retrospective review of imaging: Chest CT a year prior showed a small amount of pleural effusion. FDG-PET a year prior showed no FDG uptake. No asbestos bodies."
+      }
+    },
+    {
+      "from": "N7",
+      "to": "N8",
+      "data": {
+        "edge_id": "G_to_H",
+        "branch_flag": true,
+        "content": "FDG-PET at the first visit to the hospital revealed an FDG uptake in the left pleural cavity. Pathological findings of a full-thickness pleural biopsy specimen revealed epithelioid-type MPM. IHC showed positive staining for calretinin, D2-40, and CK5/6 and negative staining for CEA and p40."
+      }
+    },
+    {
+      "from": "N8",
+      "to": "N9",
+      "data": {
+        "edge_id": "H_to_I",
+        "branch_flag": true,
+        "content": "Initiation of chemotherapy with carboplatin and pemetrexed, followed by maintenance therapy with pemetrexed."
+      }
+    }
+  ]
+}

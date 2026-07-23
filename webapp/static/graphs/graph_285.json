@@ -1,0 +1,286 @@
+{
+  "nodes": [
+    {
+      "id": "N1",
+      "label": "Step 1",
+      "customData": {
+        "node_id": "A",
+        "node_step_index": 0,
+        "content": "69-year-old male with a history of myasthenia gravis diagnosed in 1979 and on methotrexate for approximately 20 years, rheumatic fever, and a history of testicular lymphoma in 1981 status-post left orchiectomy without chemotherapy or radiation, presented to his primary care physician with two months of abdominal swelling with early satiety. Family history includes unknown etiology of liver disease in his mother and sister from which the latter died from at age 52. Denied alcohol use and had no prior diagnosis of liver disease.",
+        "clinical_data": {
+          "diagnoses": [
+            {
+              "code": "C0027051",
+              "label": "Myasthenia Gravis",
+              "status": "active",
+              "onset_date": null
+            },
+            {
+              "code": "C0035374",
+              "label": "Rheumatic Fever",
+              "status": "historical",
+              "onset_date": null
+            },
+            {
+              "code": "C0027894",
+              "label": "Testicular Lymphoma",
+              "status": "historical",
+              "onset_date": "1981"
+            }
+          ],
+          "medications": [
+            {
+              "drug": "C0025309",
+              "dosage": null,
+              "frequency": null,
+              "modality": null,
+              "start_date": null,
+              "end_date": null,
+              "indication": "C0027051"
+            }
+          ],
+          "HPI": [
+            {
+              "summary": "abdominal swelling with early satiety",
+              "duration": "2 months",
+              "onset": null,
+              "progression": "unknown",
+              "associated_symptoms": [],
+              "alleviating_factors": [],
+              "exacerbating_factors": []
+            }
+          ],
+          "social_history": [
+            {
+              "category": "alcohol",
+              "status": "never",
+              "description": "Denied alcohol use"
+            }
+          ],
+          "procedures": [
+            {
+              "name": "C0159390",
+              "approach": null,
+              "date": "1981",
+              "location": "left testicle",
+              "performed_by": null,
+              "outcome": null
+            }
+          ]
+        }
+      }
+    },
+    {
+      "id": "N2",
+      "label": "Step 2",
+      "customData": {
+        "node_id": "B",
+        "node_step_index": 1,
+        "content": "Bedside ultrasonography showed large ascites and liver nodularity.",
+        "clinical_data": {
+          "imaging": [
+            {
+              "type": "Ultrasonography",
+              "body_part": "Abdomen",
+              "modality": "Ultrasound",
+              "finding": "large ascites and liver nodularity"
+            }
+          ]
+        }
+      }
+    },
+    {
+      "id": "N3",
+      "label": "Step 3",
+      "customData": {
+        "node_id": "C",
+        "node_step_index": 2,
+        "content": "Liver enzymes, international normalized ratio (INR), and albumin were normal. Formal ultrasound with Doppler showed a shrunken liver with large ascites concerning for decompensating cirrhosis. No evidence of thrombosis or venous outflow obstruction was found. The patient was referred to gastroenterology for new-onset ascites with concern for cirrhosis.",
+        "clinical_data": {
+          "labs": [
+            {
+              "test": "Alanine Aminotransferase measurement",
+              "value": "normal",
+              "unit": null,
+              "flag": "normal"
+            },
+            {
+              "test": "Aspartate Aminotransferase measurement",
+              "value": "normal",
+              "unit": null,
+              "flag": "normal"
+            },
+            {
+              "test": "International normalized ratio",
+              "value": "normal",
+              "unit": null,
+              "flag": "normal"
+            },
+            {
+              "test": "Albumin measurement",
+              "value": "normal",
+              "unit": null,
+              "flag": "normal"
+            }
+          ],
+          "imaging": [
+            {
+              "type": "US - Ultrasound, diagnostic",
+              "body_part": "Liver",
+              "modality": "Ultrasound",
+              "finding": "shrunken liver",
+              "impression": "decompensating cirrhosis"
+            },
+            {
+              "type": "US - Ultrasound, diagnostic",
+              "body_part": "Abdomen",
+              "modality": "Ultrasound",
+              "finding": "large ascites",
+              "impression": "decompensating cirrhosis"
+            },
+            {
+              "type": "US - Ultrasound, diagnostic",
+              "body_part": "Vein",
+              "modality": "Ultrasound",
+              "finding": "No evidence of thrombosis or venous outflow obstruction",
+              "impression": "No evidence of thrombosis or venous outflow obstruction"
+            }
+          ],
+          "diagnoses": [
+            {
+              "code": "Ascites",
+              "label": "Ascites",
+              "status": "active",
+              "onset_date": null
+            },
+            {
+              "code": "Cirrhosis",
+              "label": "Cirrhosis",
+              "status": "suspected",
+              "onset_date": null
+            }
+          ]
+        }
+      }
+    },
+    {
+      "id": "N4",
+      "label": "Step 4",
+      "customData": {
+        "node_id": "D",
+        "node_step_index": 3,
+        "content": "Methotrexate was stopped to prevent further hepatic injury. Ultrasound-guided paracentesis was performed and 8100 mL of serous fluid was obtained with SAAG of 1.3 and protein of 3.7 g/dL. Initial cytology did not reveal malignancy. Additional labs for Wilson\u2019s disease, hemochromatosis, hepatitis A, B, C, and autoimmune hepatitis were negative. An echocardiogram revealed normal systolic function and no valvular pathology.",
+        "clinical_data": {
+          "medications": [
+            {
+              "drug": "C0025417",
+              "indication": "C0019220",
+              "end_date": null
+            }
+          ],
+          "procedures": [
+            {
+              "name": "C0030585",
+              "approach": "percutaneous",
+              "location": "abdomen",
+              "outcome": "fluid removed"
+            },
+            {
+              "name": "C0156367",
+              "outcome": "normal"
+            }
+          ],
+          "labs": [
+            {
+              "test": "C0009450",
+              "value": "1.3",
+              "unit": "g/dL"
+            },
+            {
+              "test": "C0033684",
+              "value": "3.7",
+              "unit": "g/dL"
+            },
+            {
+              "test": "C0043252",
+              "flag": "negative"
+            },
+            {
+              "test": "C0019077",
+              "flag": "negative"
+            },
+            {
+              "test": "C0019157",
+              "flag": "negative"
+            },
+            {
+              "test": "C0019162",
+              "flag": "negative"
+            },
+            {
+              "test": "C0019168",
+              "flag": "negative"
+            },
+            {
+              "test": "C0004479",
+              "flag": "negative"
+            }
+          ],
+          "imaging": [
+            {
+              "type": "C0041822",
+              "body_part": "abdomen",
+              "modality": "Ultrasound"
+            }
+          ]
+        }
+      }
+    },
+    {
+      "id": "N5",
+      "label": "Step 5",
+      "customData": {
+        "node_id": "E",
+        "clinical_data": {}
+      }
+    }
+  ],
+  "edges": [
+    {
+      "from": "N1",
+      "to": "N2",
+      "data": {
+        "edge_id": "A_to_B",
+        "branch_flag": true,
+        "content": "Patient presented with abdominal swelling and early satiety. Bedside ultrasonography was performed."
+      }
+    },
+    {
+      "from": "N2",
+      "to": "N3",
+      "data": {
+        "edge_id": "B_to_C",
+        "branch_flag": true,
+        "content": "Bedside ultrasonography revealed large ascites and liver nodularity, leading to further lab tests and formal ultrasound with Doppler."
+      }
+    },
+    {
+      "from": "N3",
+      "to": "N4",
+      "data": {
+        "edge_id": "C_to_D",
+        "branch_flag": true,
+        "content": "Based on ultrasound findings suggestive of decompensating cirrhosis and new-onset ascites, methotrexate was stopped, paracentesis was performed, and additional labs were ordered to rule out other etiologies."
+      }
+    },
+    {
+      "from": "N4",
+      "to": "N5",
+      "data": {
+        "edge_id": "D_to_E",
+        "branch_flag": true,
+        "content": "Methotrexate was stopped, paracentesis was performed, labs were negative for other etiologies, and echocardiogram showed normal systolic function."
+      }
+    }
+  ]
+}

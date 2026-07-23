@@ -1,0 +1,360 @@
+{
+  "nodes": [
+    {
+      "id": "N1",
+      "label": "Step 1",
+      "customData": {
+        "node_id": "A",
+        "node_step_index": 0,
+        "content": "76-year-old woman, former smoker (35 packs/year), referred for long history of bilateral lung consolidation.",
+        "clinical_data": {
+          "social_history": [
+            {
+              "category": "smoking",
+              "status": "past",
+              "description": "35 packs/year"
+            }
+          ],
+          "diagnoses": [
+            {
+              "code": "UMLS:C0024145",
+              "label": "Lung Consolidation",
+              "status": "active",
+              "onset_date": null
+            }
+          ]
+        }
+      },
+      "custom_id": "graph_030_N0"
+    },
+    {
+      "id": "N2",
+      "label": "Step 2",
+      "customData": {
+        "node_id": "B",
+        "node_step_index": 1,
+        "content": "Past medical history of breast cancer 10 years prior, treated with surgery and radiotherapy.",
+        "clinical_data": {
+          "diagnoses": [
+            {
+              "code": "C50",
+              "label": "Malignant neoplasm of breast",
+              "status": "historical",
+              "onset_date": null
+            }
+          ],
+          "procedures": [
+            {
+              "name": "Surgery",
+              "approach": null,
+              "date": null,
+              "location": "breast",
+              "performed_by": null,
+              "outcome": null
+            }
+          ],
+          "medications": [
+            {
+              "drug": "Radiotherapy",
+              "dosage": null,
+              "frequency": null,
+              "modality": null,
+              "start_date": null,
+              "end_date": null,
+              "indication": "Malignant neoplasm of breast"
+            }
+          ]
+        }
+      },
+      "custom_id": "graph_030_N1"
+    },
+    {
+      "id": "N3",
+      "label": "Step 3",
+      "customData": {
+        "node_id": "C",
+        "node_step_index": 2,
+        "content": "Radiological suspicion for lipoid pneumonia; patient reports usage of nasal decongestant (hypertonic solution at 2.2% with hyaluronic acid).",
+        "clinical_data": {
+          "diagnoses": [
+            {
+              "code": "C0271961",
+              "label": "Lipoid pneumonia",
+              "status": "suspected"
+            }
+          ],
+          "medications": [
+            {
+              "drug": "C1705474",
+              "dosage": "2.2%",
+              "frequency": "PRN",
+              "modality": "nasal",
+              "indication": "nasal congestion"
+            }
+          ]
+        }
+      },
+      "custom_id": "graph_030_N2"
+    },
+    {
+      "id": "N4",
+      "label": "Step 4",
+      "customData": {
+        "node_id": "D",
+        "node_step_index": 3,
+        "content": "Left lung consolidation becomes more solid and positive for PET-FDG.",
+        "clinical_data": {
+          "imaging": [
+            {
+              "type": "Pulmonary Consolidation",
+              "body_part": "Left Lung",
+              "modality": "PET",
+              "finding": "Positive for FDG",
+              "impression": "Consolidation becomes more solid"
+            }
+          ]
+        }
+      },
+      "custom_id": "graph_030_N3"
+    },
+    {
+      "id": "N5",
+      "label": "Step 5",
+      "customData": {
+        "node_id": "E",
+        "node_step_index": 4,
+        "content": "Bronchoalveolar lavage (BAL) was negative.",
+        "clinical_data": {}
+      },
+      "custom_id": "graph_030_N4"
+    },
+    {
+      "id": "N6",
+      "label": "Step 6",
+      "customData": {
+        "node_id": "F",
+        "node_step_index": 5,
+        "content": "Fine needle aspiration biopsy (FNAB) of the consolidation was positive for lipoid pneumonia.",
+        "clinical_data": {
+          "procedures": [
+            {
+              "name": "Fine needle aspiration biopsy",
+              "approach": "percutaneous",
+              "location": "lung",
+              "outcome": "positive for lipoid pneumonia"
+            }
+          ],
+          "diagnoses": [
+            {
+              "code": "C0341114",
+              "label": "Lipoid Pneumonia",
+              "status": "active"
+            }
+          ]
+        }
+      },
+      "custom_id": "graph_030_N5"
+    },
+    {
+      "id": "N7",
+      "label": "Step 7",
+      "customData": {
+        "node_id": "G",
+        "node_step_index": 6,
+        "content": "Chest CT scan shows bilateral pseudonodular lesions consistent with lipoid pneumonia with low central attenuation. Right lower lobe lesion measures 21 mm x 16 mm x 18 mm with ground-glass changes. Left lower lobe shows a 33 mm x 24 mm x 35 mm pseudonodular image with irregular margins. Bilateral lung lesions measure nearly 6 cm in the postero-basal segment of the left lower lobe adjacent to bronchiectasis and reticulum-nodular thickening of the interstitium.",
+        "clinical_data": {
+          "imaging": [
+            {
+              "type": "Lesion (finding)",
+              "body_part": "Lung",
+              "modality": "CT",
+              "finding": "Bilateral pseudonodular lesions consistent with lipoid pneumonia with low central attenuation",
+              "impression": "Lipoid pneumonia",
+              "date": null
+            },
+            {
+              "type": "Lesion (finding)",
+              "body_part": "Right lower lobe",
+              "modality": "CT",
+              "finding": "21 mm x 16 mm x 18 mm lesion with ground-glass changes",
+              "impression": null,
+              "date": null
+            },
+            {
+              "type": "Lesion (finding)",
+              "body_part": "Left lower lobe",
+              "modality": "CT",
+              "finding": "33 mm x 24 mm x 35 mm pseudonodular image with irregular margins",
+              "impression": null,
+              "date": null
+            },
+            {
+              "type": "Lesion (finding)",
+              "body_part": "Left lower lobe",
+              "modality": "CT",
+              "finding": "Bilateral lung lesions measure nearly 6 cm in the postero-basal segment of the left lower lobe adjacent to bronchiectasis and reticulum-nodular thickening of the interstitium",
+              "impression": null,
+              "date": null
+            }
+          ]
+        }
+      },
+      "custom_id": "graph_030_N6"
+    },
+    {
+      "id": "N8",
+      "label": "Step 8",
+      "customData": {
+        "node_id": "H",
+        "node_step_index": 7,
+        "content": "Patient stopped nasal decongestant use after surgery.",
+        "clinical_data": {}
+      },
+      "custom_id": "graph_030_N7"
+    },
+    {
+      "id": "N9",
+      "label": "Step 9",
+      "customData": {
+        "node_id": "I",
+        "node_step_index": 8,
+        "content": "Chest CT scan showed a 15 mm middle lobe lesion with low central attenuation and adjacent interstitial thickening.",
+        "clinical_data": {
+          "imaging": [
+            {
+              "type": "Lesion",
+              "body_part": "Middle lobe",
+              "modality": "CT",
+              "finding": "15 mm lesion with low central attenuation and adjacent interstitial thickening"
+            }
+          ]
+        }
+      },
+      "custom_id": "graph_030_N8"
+    },
+    {
+      "id": "N10",
+      "label": "Step 10",
+      "customData": {
+        "node_id": "J",
+        "node_step_index": 9,
+        "content": "12-month follow-up showed a radiological profile consistent with the surgical resection performed. No new suspicious consolidations were detected over time.",
+        "clinical_data": {
+          "imaging": [
+            {
+              "type": "Radiological profile",
+              "body_part": null,
+              "modality": null,
+              "finding": "consistent with the surgical resection performed",
+              "impression": "No new suspicious consolidations were detected over time.",
+              "date": null
+            }
+          ],
+          "procedures": [
+            {
+              "name": "Surgical resection",
+              "approach": null,
+              "date": null,
+              "location": null,
+              "performed_by": null,
+              "outcome": null
+            }
+          ]
+        }
+      },
+      "custom_id": "graph_030_N9"
+    }
+  ],
+  "edges": [
+    {
+      "from": "N1",
+      "to": "N2",
+      "data": {
+        "edge_id": "A_to_B",
+        "branch_flag": true,
+        "content": "Patient with a history of bilateral lung consolidation and a past medical history of breast cancer treated with surgery and radiotherapy."
+      },
+      "custom_id": "graph_030_N1_N2"
+    },
+    {
+      "from": "N2",
+      "to": "N3",
+      "data": {
+        "edge_id": "B_to_C",
+        "branch_flag": true,
+        "content": "Radiological suspicion for lipoid pneumonia arises. Patient reports using nasal decongestant (hypertonic solution at 2.2% with hyaluronic acid)."
+      },
+      "custom_id": "graph_030_N2_N3"
+    },
+    {
+      "from": "N3",
+      "to": "N4",
+      "data": {
+        "edge_id": "C_to_D",
+        "branch_flag": true,
+        "content": "Left lung consolidation progresses and becomes more solid. PET-FDG is positive."
+      },
+      "custom_id": "graph_030_N3_N4"
+    },
+    {
+      "from": "N4",
+      "to": "N5",
+      "data": {
+        "edge_id": "D_to_E",
+        "branch_flag": true,
+        "content": "Bronchoalveolar lavage (BAL) performed."
+      },
+      "custom_id": "graph_030_N4_N5"
+    },
+    {
+      "from": "N5",
+      "to": "N6",
+      "data": {
+        "edge_id": "E_to_F",
+        "branch_flag": true,
+        "content": "Bronchoalveolar lavage (BAL) results are negative. Fine needle aspiration biopsy (FNAB) performed."
+      },
+      "custom_id": "graph_030_N5_N6"
+    },
+    {
+      "from": "N6",
+      "to": "N7",
+      "data": {
+        "edge_id": "F_to_G",
+        "branch_flag": true,
+        "content": "Fine needle aspiration biopsy (FNAB) is positive for lipoid pneumonia. Chest CT scan shows bilateral pseudonodular lesions consistent with lipoid pneumonia with low central attenuation. Right lower lobe lesion measures 21 mm x 16 mm x 18 mm with ground-glass changes. Left lower lobe shows a 33 mm x 24 mm x 35 mm pseudonodular image with irregular margins. Bilateral lung lesions measure nearly 6 cm in the postero-basal segment of the left lower lobe adjacent to bronchiectasis and reticulum-nodular thickening of the interstitium."
+      },
+      "custom_id": "graph_030_N6_N7"
+    },
+    {
+      "from": "N7",
+      "to": "N8",
+      "data": {
+        "edge_id": "G_to_H",
+        "branch_flag": true,
+        "content": "Patient stops nasal decongestant use after surgery."
+      },
+      "custom_id": "graph_030_N7_N8"
+    },
+    {
+      "from": "N8",
+      "to": "N9",
+      "data": {
+        "edge_id": "H_to_I",
+        "branch_flag": true,
+        "content": "Chest CT scan shows a 15 mm middle lobe lesion with low central attenuation and adjacent interstitial thickening."
+      },
+      "custom_id": "graph_030_N8_N9"
+    },
+    {
+      "from": "N9",
+      "to": "N10",
+      "data": {
+        "edge_id": "I_to_J",
+        "branch_flag": true,
+        "content": "12-month follow-up shows a radiological profile consistent with the surgical resection performed. No new suspicious consolidations are detected over time."
+      },
+      "custom_id": "graph_030_N9_N10"
+    }
+  ]
+}

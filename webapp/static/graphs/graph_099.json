@@ -1,0 +1,232 @@
+{
+  "nodes": [
+    {
+      "id": "N1",
+      "label": "Step 1",
+      "customData": {
+        "node_id": "A",
+        "node_step_index": 0,
+        "content": "63-year-old female with a history of chronic obstructive pulmonary disease (COPD), former smoker (35 pack-years history, quit smoking one year prior), coronary artery disease, non-obstructive hypertrophic cardiomyopathy, and obstructive sleep apnea.",
+        "clinical_data": {
+          "diagnoses": [
+            {
+              "code": "439401001",
+              "label": "Chronic obstructive lung disease",
+              "status": "active"
+            },
+            {
+              "code": "394828000",
+              "label": "Coronary artery disease",
+              "status": "active"
+            },
+            {
+              "code": "253520003",
+              "label": "Hypertrophic cardiomyopathy",
+              "status": "active"
+            },
+            {
+              "code": "78275006",
+              "label": "Obstructive sleep apnea",
+              "status": "active"
+            }
+          ],
+          "social_history": [
+            {
+              "category": "smoking",
+              "status": "past",
+              "description": "35 pack-years history, quit smoking one year prior"
+            }
+          ]
+        }
+      }
+    },
+    {
+      "id": "N2",
+      "label": "Step 2",
+      "customData": {
+        "node_id": "B",
+        "node_step_index": 1,
+        "content": "Screening low-dose chest CT showed a new 1-cm spiculated lesion in the inferior aspect of the right upper lobe (RUL). PET-CT showed a markedly hypermetabolic (SUV = 13.1) spiculated RUL pulmonary nodule, consistent with malignancy. Adjacent tiny satellite nodule revealed, consistent with an additional site of malignancy.",
+        "clinical_data": {
+          "imaging": [
+            {
+              "type": "Pulmonary nodule",
+              "body_part": "Right upper lobe",
+              "modality": "CT",
+              "finding": "1-cm spiculated lesion",
+              "date": null
+            },
+            {
+              "type": "Pulmonary nodule",
+              "body_part": "Right upper lobe",
+              "modality": "PET-CT",
+              "finding": "markedly hypermetabolic (SUV = 13.1) spiculated RUL pulmonary nodule, consistent with malignancy",
+              "date": null
+            },
+            {
+              "type": "Satellite nodule",
+              "body_part": "Right upper lobe",
+              "modality": "PET-CT",
+              "finding": "Adjacent tiny satellite nodule revealed, consistent with an additional site of malignancy.",
+              "date": null
+            }
+          ],
+          "diagnoses": [
+            {
+              "code": null,
+              "label": "Malignancy",
+              "status": "suspected",
+              "onset_date": null
+            }
+          ]
+        }
+      }
+    },
+    {
+      "id": "N3",
+      "label": "Step 3",
+      "customData": {
+        "node_id": "C",
+        "node_step_index": 2,
+        "content": "Needle biopsy of the RUL nodule: immunostains positive for Napsin-A and thyroid transcription factor 1 (TTF-1), staining negative for CK5/6 and P40. Diagnosis of non-small cell carcinoma, favoring poorly differentiated adenocarcinoma, clinical stage T2aN0M0.",
+        "clinical_data": {
+          "procedures": [
+            {
+              "name": "Needle biopsy",
+              "location": "RUL nodule",
+              "outcome": "Diagnosis of non-small cell carcinoma, favoring poorly differentiated adenocarcinoma"
+            }
+          ],
+          "diagnoses": [
+            {
+              "code": "C0007123",
+              "label": "Non-small cell carcinoma",
+              "status": "active"
+            },
+            {
+              "code": "C0001673",
+              "label": "Adenocarcinoma, Poorly Differentiated",
+              "status": "active"
+            }
+          ],
+          "imaging": [
+            {
+              "type": "nodule",
+              "body_part": "RUL",
+              "finding": "nodule"
+            }
+          ]
+        }
+      }
+    },
+    {
+      "id": "N4",
+      "label": "Step 4",
+      "customData": {
+        "node_id": "D",
+        "node_step_index": 3,
+        "content": "Patient deemed not a surgical candidate due to poor pulmonary function. Patient underwent stereotactic body radiation therapy (SBRT).",
+        "clinical_data": {
+          "procedures": [
+            {
+              "name": "Stereotactic body radiation therapy",
+              "approach": "other",
+              "date": null,
+              "location": null,
+              "performed_by": null,
+              "outcome": null
+            }
+          ]
+        }
+      }
+    },
+    {
+      "id": "N5",
+      "label": "Step 5",
+      "customData": {
+        "node_id": "E",
+        "node_step_index": 4,
+        "content": "After completing SBRT, CT scans every six months for the next four years showed stable post-radiation fibrosis of the right upper lobe (RUL). Chest CT scans also showed small bilateral pulmonary nodules that intermittently increased and decreased in size, believed to be benign and likely represented previous histoplasmosis fungal infection.",
+        "clinical_data": {
+          "imaging": [
+            {
+              "type": "CT scan",
+              "body_part": "chest",
+              "modality": "CT",
+              "finding": "small bilateral pulmonary nodules that intermittently increased and decreased in size",
+              "impression": "believed to be benign and likely represented previous histoplasmosis fungal infection"
+            },
+            {
+              "type": "CT scan",
+              "body_part": "right upper lobe",
+              "modality": "CT",
+              "finding": "stable post-radiation fibrosis"
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "edges": [
+    {
+      "from": "N1",
+      "to": "N2",
+      "data": {
+        "edge_id": "A_to_B",
+        "branch_flag": true,
+        "content": "Patient underwent screening low-dose chest CT.",
+        "transition_event": {
+          "trigger_type": "procedure",
+          "trigger_entities": [],
+          "change_type": "addition",
+          "target_domain": "imaging"
+        }
+      }
+    },
+    {
+      "from": "N2",
+      "to": "N3",
+      "data": {
+        "edge_id": "B_to_C",
+        "branch_flag": true,
+        "content": "Patient underwent needle biopsy of the RUL nodule.",
+        "transition_event": {
+          "trigger_type": "procedure",
+          "trigger_entities": [],
+          "change_type": "addition",
+          "target_domain": "diagnosis"
+        }
+      }
+    },
+    {
+      "from": "N3",
+      "to": "N4",
+      "data": {
+        "edge_id": "C_to_D",
+        "branch_flag": true,
+        "content": "Patient deemed not a surgical candidate due to poor pulmonary function and underwent stereotactic body radiation therapy (SBRT).",
+        "transition_event": {
+          "trigger_type": "procedure",
+          "trigger_entities": [],
+          "change_type": "addition",
+          "target_domain": "procedure"
+        }
+      }
+    },
+    {
+      "from": "N4",
+      "to": "N5",
+      "data": {
+        "edge_id": "D_to_E",
+        "branch_flag": true,
+        "content": "CT scans every six months for the next four years showed stable post-radiation fibrosis of the right upper lobe (RUL). Chest CT scans also showed small bilateral pulmonary nodules that intermittently increased and decreased in size, believed to be benign and likely represented previous histoplasmosis fungal infection.",
+        "transition_event": {
+          "trigger_type": "interpretation",
+          "trigger_entities": [],
+          "change_type": "other",
+          "target_domain": "imaging"
+        }
+      }
+    }
+  ]
+}

@@ -1,0 +1,474 @@
+{
+  "nodes": [
+    {
+      "id": "N1",
+      "label": "Step 1",
+      "customData": {
+        "node_id": "A",
+        "node_step_index": 0,
+        "content": "61 year old asymptomatic male smoker presented for low dose lung CT lung cancer screening. Initial study identified a suspicious 1.6 cm spiculated apical right upper lobe nodule and a small right lower lobe consolidation felt to represent infection and inflammation. Lung-RADS category 4X was assigned due to the high risk apical nodule. PET/CT and pulmonary consultation were recommended.",
+        "clinical_data": {
+          "social_history": [
+            {
+              "category": "smoking",
+              "status": "current",
+              "description": "smoker"
+            }
+          ],
+          "imaging": [
+            {
+              "type": "Lung CT",
+              "body_part": "lung",
+              "modality": "CT",
+              "finding": "1.6 cm spiculated apical right upper lobe nodule and a small right lower lobe consolidation",
+              "impression": "suspicious nodule and consolidation felt to represent infection and inflammation",
+              "date": null
+            }
+          ],
+          "diagnoses": [
+            {
+              "code": null,
+              "label": "Lung-RADS category 4X",
+              "status": "suspected",
+              "onset_date": null
+            }
+          ]
+        }
+      }
+    },
+    {
+      "id": "N2",
+      "label": "Step 2",
+      "customData": {
+        "node_id": "B",
+        "node_step_index": 1,
+        "content": "CT chest with contrast showed an apical nodule and a 1-2 cm right lower lobe consolidation. PET/CT demonstrated increased FDG uptake in the basilar consolidation but not in the apical nodule. No other significant abnormality on whole body PET/CT.",
+        "clinical_data": {
+          "imaging": [
+            {
+              "type": "Pulmonary CT Angiography",
+              "body_part": "Thorax",
+              "modality": "CT",
+              "finding": "apical nodule and a 1-2 cm right lower lobe consolidation",
+              "date": null
+            },
+            {
+              "type": "Positron emission tomography",
+              "body_part": "whole body",
+              "modality": "PET",
+              "finding": "increased FDG uptake in the basilar consolidation but not in the apical nodule. No other significant abnormality on whole body PET/CT.",
+              "date": null
+            }
+          ]
+        }
+      }
+    },
+    {
+      "id": "N3",
+      "label": "Step 3",
+      "customData": {
+        "node_id": "C",
+        "node_step_index": 2,
+        "content": "Thoracic surgery consultation initiated due to indeterminate radiographic features of the right upper lobe nodule. Basilar consolidation also displayed indeterminate radiologic and metabolic characteristics, suggestive of infectious, inflammatory, or neoplastic etiology. Contrast enhanced CT chest demonstrates spiculated nodule in the peripheral right upper lobe suspicious for primary lung malignancy.",
+        "clinical_data": {
+          "imaging": [
+            {
+              "type": "Lung mass",
+              "body_part": "Right upper lobe",
+              "modality": "CT",
+              "finding": "Spiculated nodule",
+              "impression": "Suspicious for primary lung malignancy"
+            },
+            {
+              "type": "Consolidation",
+              "body_part": "Basilar",
+              "modality": "CT",
+              "finding": "Indeterminate radiologic and metabolic characteristics",
+              "impression": "Suggestive of infectious, inflammatory, or neoplastic etiology"
+            }
+          ],
+          "diagnoses": [
+            {
+              "code": "C0242964",
+              "label": "Lung Neoplasms",
+              "status": "suspected"
+            }
+          ]
+        }
+      }
+    },
+    {
+      "id": "N4",
+      "label": "Step 4",
+      "customData": {
+        "node_id": "D",
+        "node_step_index": 3,
+        "content": "Contrast enhanced CT chest demonstrates right upper lobe nodule and right lower lobe consolidation abutting the major fissure. FDG PET/CT demonstrates increased FDG uptake in the right lower lobe consolidation, but not in the right upper lobe nodule. Radiographic and metabolic appearance is nonspecific to infectious, inflammatory, or neoplastic lesions.",
+        "clinical_data": {
+          "imaging": [
+            {
+              "type": "CT chest",
+              "body_part": "Thorax",
+              "modality": "CT",
+              "finding": "right upper lobe nodule and right lower lobe consolidation abutting the major fissure",
+              "date": null
+            },
+            {
+              "type": "FDG PET/CT",
+              "body_part": "Thorax",
+              "modality": "PET",
+              "finding": "increased FDG uptake in the right lower lobe consolidation, but not in the right upper lobe nodule",
+              "impression": "Radiographic and metabolic appearance is nonspecific to infectious, inflammatory, or neoplastic lesions.",
+              "date": null
+            }
+          ]
+        }
+      }
+    },
+    {
+      "id": "N5",
+      "label": "Step 5",
+      "customData": {
+        "node_id": "E",
+        "node_step_index": 4,
+        "content": "Thoracic surgical consultant recommended tissue sampling of both the nodule and the consolidation. CT guided core needle biopsy was successfully performed for both lesions. Noncontrast CT performed during biopsy demonstrates needle tip in the right lower lobe consolidation and developing pneumothorax. Procedure complicated by pneumothorax, patient was immediately decompressed with a pleural catheter and had a rapid recovery, being discharged the next day.",
+        "clinical_data": {
+          "imaging": [
+            {
+              "type": "Lung Nodule",
+              "body_part": "Thorax",
+              "modality": "CT",
+              "finding": "nodule",
+              "date": null
+            },
+            {
+              "type": "Pulmonary Consolidation",
+              "body_part": "Right lower lobe",
+              "modality": "CT",
+              "finding": "consolidation",
+              "date": null
+            },
+            {
+              "type": "Pneumothorax",
+              "body_part": "Pleural space",
+              "modality": "CT",
+              "finding": "developing pneumothorax",
+              "date": null
+            }
+          ],
+          "procedures": [
+            {
+              "name": "Biopsy",
+              "approach": "percutaneous",
+              "date": null,
+              "location": "right lower lobe consolidation",
+              "outcome": "complicated by pneumothorax"
+            },
+            {
+              "name": "Pleural Catheter Insertion",
+              "approach": "other",
+              "date": null,
+              "location": "Pleural space",
+              "outcome": "rapid recovery"
+            }
+          ],
+          "diagnoses": [
+            {
+              "code": "57255009",
+              "label": "Pneumothorax",
+              "status": "active",
+              "onset_date": null
+            }
+          ]
+        }
+      }
+    },
+    {
+      "id": "N6",
+      "label": "Step 6",
+      "customData": {
+        "node_id": "F",
+        "node_step_index": 5,
+        "content": "Noncontrast CT performed during biopsy demonstrates needle tip in the right upper lobe nodule. Biopsy of the apical nodule contained amyloid with moderately cellular lymphoplasmacytic infiltrate. Amyloid was confirmed as congophilic material demonstrating classic apple-green birefringence on polarized microscopy.",
+        "clinical_data": {
+          "imaging": [
+            {
+              "type": "Computed tomography",
+              "body_part": "Right upper lobe",
+              "modality": "CT",
+              "finding": "Needle tip in nodule",
+              "date": null
+            }
+          ],
+          "procedures": [
+            {
+              "name": "Biopsy",
+              "date": null,
+              "location": "Apical nodule",
+              "outcome": "Amyloid with moderately cellular lymphoplasmacytic infiltrate"
+            }
+          ],
+          "diagnoses": [
+            {
+              "code": "C0002727",
+              "label": "Amyloidosis",
+              "status": "active",
+              "onset_date": null
+            }
+          ]
+        }
+      }
+    },
+    {
+      "id": "N7",
+      "label": "Step 7",
+      "customData": {
+        "node_id": "G",
+        "node_step_index": 6,
+        "content": "Pathology from the basilar nodule biopsy revealed dense lymphoid tissue with characteristics of lymphoma. Immunostaining was positive for CD20 and BCL-2, but negative for CD5, CD10 and CD42, suggesting an extranodal marginal zone lymphoma, also known as a lymphoma of the mucosa-associated lymphoid tissue (MALT).",
+        "clinical_data": {
+          "diagnoses": [
+            {
+              "code": "C88.4",
+              "label": "Extranodal marginal zone B-cell lymphoma of mucosa-associated lymphoid tissue [MALT-lymphoma]",
+              "status": "active"
+            }
+          ]
+        }
+      }
+    },
+    {
+      "id": "N8",
+      "label": "Step 8",
+      "customData": {
+        "node_id": "H",
+        "node_step_index": 7,
+        "content": "Pathologic diagnosis of the apical nodule was benign amyloid nodule or amyloidoma. Congo Red Stain, polarized microscopy under 20x magnification demonstrates congophilic material with apple-green birefringence consistent with amyloid.",
+        "clinical_data": {
+          "diagnoses": [
+            {
+              "code": "C0002730",
+              "label": "Amyloidosis",
+              "status": "active"
+            }
+          ],
+          "imaging": [
+            {
+              "type": "Nodule",
+              "body_part": "Lung Apex",
+              "modality": "Microscopy",
+              "finding": "congophilic material with apple-green birefringence consistent with amyloid"
+            }
+          ],
+          "labs": [
+            {
+              "test": "Congo red stain",
+              "value": "positive",
+              "unit": null,
+              "flag": "abnormal"
+            }
+          ]
+        }
+      }
+    },
+    {
+      "id": "N9",
+      "label": "Step 9",
+      "customData": {
+        "node_id": "I",
+        "node_step_index": 8,
+        "content": "Patient referred to medical and radiation oncology for extranodal marginal zone lymphoma. PET/CT showed local disease. Patient offered definitive treatment with radiotherapy alone.",
+        "clinical_data": {
+          "diagnoses": [
+            {
+              "code": "C88.4",
+              "label": "Extranodal marginal zone B-cell lymphoma",
+              "status": "active"
+            }
+          ],
+          "imaging": [
+            {
+              "type": "Positron emission tomography and computed tomography",
+              "body_part": "entire body",
+              "modality": "PET/CT",
+              "finding": "local disease"
+            }
+          ],
+          "procedures": [
+            {
+              "name": "Radiation therapy",
+              "approach": "other",
+              "outcome": "definitive"
+            }
+          ]
+        }
+      }
+    },
+    {
+      "id": "N10",
+      "label": "Step 10",
+      "customData": {
+        "node_id": "J",
+        "node_step_index": 9,
+        "content": "Histopathology: Standard H&E stain under 40x magnification demonstrates dense lymphocytic infiltrate. Immunostaining demonstrates significantly more cells positive for kappa light chain than lambda light chain suggesting a clonal lymphocyte population consistent with lymphoma.",
+        "clinical_data": {
+          "labs": [
+            {
+              "test": "Kappa light chain",
+              "value": "positive",
+              "unit": null,
+              "flag": "abnormal",
+              "reference_range": null,
+              "timestamp": null
+            },
+            {
+              "test": "Lambda light chain",
+              "value": "positive",
+              "unit": null,
+              "flag": "normal",
+              "reference_range": null,
+              "timestamp": null
+            }
+          ],
+          "diagnoses": [
+            {
+              "code": "C0024230",
+              "label": "Lymphoma",
+              "status": "active",
+              "onset_date": null
+            }
+          ]
+        }
+      }
+    },
+    {
+      "id": "N11",
+      "label": "Step 11",
+      "customData": {
+        "node_id": "K",
+        "node_step_index": 10,
+        "content": "Patient underwent radiotherapy with a total dose to 36 Gray delivered in 10 fractions for pulmonary MALT lymphoma presenting as right lower lobe consolidation. Radiotherapy was well tolerated and follow up CT 8 weeks post treatment",
+        "clinical_data": {
+          "procedures": [
+            {
+              "name": "Radiotherapy",
+              "date": null,
+              "location": "right lower lobe",
+              "outcome": "well tolerated"
+            }
+          ],
+          "diagnoses": [
+            {
+              "code": "422426004",
+              "label": "Pulmonary MALT lymphoma",
+              "status": "active",
+              "onset_date": null
+            }
+          ],
+          "imaging": [
+            {
+              "type": "CT",
+              "body_part": "lung",
+              "modality": "CT",
+              "finding": null,
+              "impression": null,
+              "date": null
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "edges": [
+    {
+      "from": "N1",
+      "to": "N2",
+      "data": {
+        "edge_id": "A_to_B",
+        "branch_flag": true,
+        "content": "Follow-up CT chest with contrast and PET/CT to further evaluate the suspicious nodule and consolidation."
+      }
+    },
+    {
+      "from": "N2",
+      "to": "N3",
+      "data": {
+        "edge_id": "B_to_C",
+        "branch_flag": true,
+        "content": "Thoracic surgery consultation initiated due to indeterminate radiographic features of the right upper lobe nodule and basilar consolidation."
+      }
+    },
+    {
+      "from": "N3",
+      "to": "N4",
+      "data": {
+        "edge_id": "C_to_D",
+        "branch_flag": true,
+        "content": "Further imaging with contrast enhanced CT chest and FDG PET/CT to evaluate the right upper lobe nodule and right lower lobe consolidation."
+      }
+    },
+    {
+      "from": "N4",
+      "to": "N5",
+      "data": {
+        "edge_id": "D_to_E",
+        "branch_flag": true,
+        "content": "Thoracic surgical consultant recommended tissue sampling of both the nodule and the consolidation."
+      }
+    },
+    {
+      "from": "N5",
+      "to": "N6",
+      "data": {
+        "edge_id": "E_to_F",
+        "branch_flag": true,
+        "content": "Biopsy of the apical nodule to determine its nature."
+      }
+    },
+    {
+      "from": "N6",
+      "to": "N7",
+      "data": {
+        "edge_id": "F_to_G",
+        "branch_flag": true,
+        "content": "Pathology from the basilar nodule biopsy to determine its nature."
+      }
+    },
+    {
+      "from": "N7",
+      "to": "N8",
+      "data": {
+        "edge_id": "G_to_H",
+        "branch_flag": true,
+        "content": "Pathologic diagnosis of the apical nodule to determine its nature."
+      }
+    },
+    {
+      "from": "N8",
+      "to": "N9",
+      "data": {
+        "edge_id": "H_to_I",
+        "branch_flag": true,
+        "content": "Patient referred to medical and radiation oncology for extranodal marginal zone lymphoma."
+      }
+    },
+    {
+      "from": "N9",
+      "to": "N10",
+      "data": {
+        "edge_id": "I_to_J",
+        "branch_flag": true,
+        "content": "Histopathology to confirm lymphoma."
+      }
+    },
+    {
+      "from": "N10",
+      "to": "N11",
+      "data": {
+        "edge_id": "J_to_K",
+        "branch_flag": true,
+        "content": "Patient underwent radiotherapy for pulmonary MALT lymphoma."
+      }
+    }
+  ]
+}

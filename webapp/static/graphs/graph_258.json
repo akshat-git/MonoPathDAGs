@@ -1,0 +1,306 @@
+{
+  "nodes": [
+    {
+      "id": "N1",
+      "label": "Step 1",
+      "customData": {
+        "node_id": "A",
+        "node_step_index": 0,
+        "content": "58-year-old man with difficulty swallowing.",
+        "clinical_data": {
+          "HPI": [
+            {
+              "summary": "difficulty swallowing",
+              "associated_symptoms": [
+                "Dysphagia"
+              ]
+            }
+          ]
+        }
+      }
+    },
+    {
+      "id": "N2",
+      "label": "Step 2",
+      "customData": {
+        "node_id": "B",
+        "node_step_index": 1,
+        "content": "One year prior to admission: Dysphagia when eating solid food, cough after drinking water, and belching.",
+        "clinical_data": {
+          "HPI": [
+            {
+              "summary": "Dysphagia when eating solid food, cough after drinking water, and belching.",
+              "duration": "1 year",
+              "onset": "1 year prior to admission",
+              "progression": "gradual",
+              "associated_symptoms": [
+                "C0013081",
+                "C0010200",
+                "C0004612"
+              ]
+            }
+          ]
+        }
+      }
+    },
+    {
+      "id": "N3",
+      "label": "Step 3",
+      "customData": {
+        "node_id": "C",
+        "node_step_index": 2,
+        "content": "Five months prior to admission: Gastroscopy revealed a tumor at the region of the cardia and gastric fundus. Biopsy showed signs of acute and chronic inflammation and active glandular hyperplasia at the gastric fundus.",
+        "clinical_data": {
+          "procedures": [
+            {
+              "name": "Gastroscopy",
+              "date": "5 months prior to admission",
+              "location": "region of the cardia and gastric fundus"
+            }
+          ],
+          "diagnoses": [
+            {
+              "label": "tumor",
+              "location": "region of the cardia and gastric fundus",
+              "status": "active",
+              "onset_date": "5 months prior to admission"
+            },
+            {
+              "label": "acute and chronic inflammation",
+              "location": "gastric fundus",
+              "status": "active",
+              "onset_date": "5 months prior to admission"
+            },
+            {
+              "label": "active glandular hyperplasia",
+              "location": "gastric fundus",
+              "status": "active",
+              "onset_date": "5 months prior to admission"
+            }
+          ]
+        }
+      }
+    },
+    {
+      "id": "N4",
+      "label": "Step 4",
+      "customData": {
+        "node_id": "D",
+        "node_step_index": 3,
+        "content": "Eight weeks before admission: Patient's weight dropped 3 kg compared with that in the time of his last visit of the clinic. Gastroscopy found a tumor at the region of the cardia and gastric fundus. Patient was recommended another biopsy and transfer to the hospital for further treatment, but the patient did not comply and took omeprazole himself.",
+        "clinical_data": {
+          "HPI": [
+            {
+              "summary": "Patient's weight dropped 3 kg compared with that in the time of his last visit of the clinic.",
+              "duration": "8 weeks",
+              "onset": "8 weeks before admission",
+              "progression": "unknown"
+            }
+          ],
+          "diagnoses": [
+            {
+              "code": "C0017150",
+              "label": "tumor",
+              "status": "suspected",
+              "onset_date": null
+            }
+          ],
+          "procedures": [
+            {
+              "name": "C0017139",
+              "approach": "endoscopic",
+              "date": null,
+              "location": "cardia and gastric fundus",
+              "performed_by": null,
+              "outcome": null
+            },
+            {
+              "name": "C0005738",
+              "approach": "other",
+              "date": null,
+              "location": "cardia and gastric fundus",
+              "performed_by": null,
+              "outcome": null
+            }
+          ],
+          "medications": [
+            {
+              "drug": "C0029092",
+              "dosage": null,
+              "frequency": null,
+              "modality": "oral",
+              "start_date": null,
+              "end_date": null,
+              "indication": null
+            }
+          ]
+        }
+      }
+    },
+    {
+      "id": "N5",
+      "label": "Step 5",
+      "customData": {
+        "node_id": "E",
+        "node_step_index": 4,
+        "content": "Macroscopic appearance of tumor suggested malignancy. Pathology results did not support cancer. Patient refused surgical exploration and requested to continue medical treatment and follow-up at the outpatient clinic. Patient was instructed to eat a liquid diet and take esomeprazole enteric-coated tablets (20 mg po bid), almagate (1.5 g po tid), and mosapride citrate (5 mg po tid).",
+        "clinical_data": {
+          "medications": [
+            {
+              "drug": "C0726379",
+              "dosage": "20 mg",
+              "frequency": "bid",
+              "modality": "oral",
+              "indication": "Malignancy"
+            },
+            {
+              "drug": "C0002127",
+              "dosage": "1.5 g",
+              "frequency": "tid",
+              "modality": "oral",
+              "indication": "Malignancy"
+            },
+            {
+              "drug": "C1181990",
+              "dosage": "5 mg",
+              "frequency": "tid",
+              "modality": "oral",
+              "indication": "Malignancy"
+            }
+          ],
+          "diagnoses": [
+            {
+              "code": "C0024239",
+              "label": "Malignancy",
+              "status": "suspected"
+            }
+          ]
+        }
+      }
+    },
+    {
+      "id": "N6",
+      "label": "Step 6",
+      "customData": {
+        "node_id": "F",
+        "node_step_index": 5,
+        "content": "One week before admission: Worsened dysphagia, with difficulty eating a liquid diet, accompanied by nausea and vomiting.",
+        "clinical_data": {
+          "HPI": [
+            {
+              "summary": "Worsened dysphagia with difficulty eating a liquid diet, accompanied by nausea and vomiting.",
+              "duration": "1 week",
+              "onset": "1 week before admission",
+              "progression": "worsened",
+              "associated_symptoms": [
+                "nausea",
+                "vomiting"
+              ]
+            }
+          ]
+        }
+      }
+    },
+    {
+      "id": "N7",
+      "label": "Step 7",
+      "customData": {
+        "node_id": "G",
+        "node_step_index": 6,
+        "content": "Weight: 40.5 kg, BMI: 15.5 kg/m2. Patient was scheduled for gastroscopy and enhanced CT again. A jejunal nutrition tube was placed using endoscopy. Cardiothoracic surgeons considered the patient had definite mechanical obstruction in the lower esophagus and operated on the patient.",
+        "clinical_data": {
+          "vitals": [
+            {
+              "type": "Weight",
+              "value": "40.5",
+              "unit": "kg"
+            },
+            {
+              "type": "Body Mass Index",
+              "value": "15.5",
+              "unit": "kg/m2"
+            }
+          ],
+          "procedures": [
+            {
+              "name": "Gastroscopy",
+              "date": null
+            },
+            {
+              "name": "Computed tomography",
+              "approach": "enhanced",
+              "date": null
+            },
+            {
+              "name": "Endoscopic placement of jejunal feeding tube",
+              "date": null
+            },
+            {
+              "name": "Esophagectomy",
+              "date": null,
+              "location": "lower esophagus",
+              "performed_by": "cardiothoracic surgeons",
+              "outcome": "mechanical obstruction"
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "edges": [
+    {
+      "from": "N1",
+      "to": "N2",
+      "data": {
+        "edge_id": "A_to_B",
+        "branch_flag": true,
+        "content": "Patient developed dysphagia when eating solid food, cough after drinking water, and belching one year prior to admission."
+      }
+    },
+    {
+      "from": "N2",
+      "to": "N3",
+      "data": {
+        "edge_id": "B_to_C",
+        "branch_flag": true,
+        "content": "Gastroscopy revealed a tumor at the region of the cardia and gastric fundus. Biopsy showed signs of acute and chronic inflammation and active glandular hyperplasia at the gastric fundus five months prior to admission."
+      }
+    },
+    {
+      "from": "N3",
+      "to": "N4",
+      "data": {
+        "edge_id": "C_to_D",
+        "branch_flag": true,
+        "content": "Patient's weight dropped 3 kg compared with that in the time of his last visit of the clinic eight weeks before admission. Gastroscopy found a tumor at the region of the cardia and gastric fundus. Patient was recommended another biopsy and transfer to the hospital for further treatment, but the patient did not comply and took omeprazole himself."
+      }
+    },
+    {
+      "from": "N4",
+      "to": "N5",
+      "data": {
+        "edge_id": "D_to_E",
+        "branch_flag": true,
+        "content": "Macroscopic appearance of tumor suggested malignancy. Pathology results did not support cancer. Patient refused surgical exploration and requested to continue medical treatment and follow-up at the outpatient clinic. Patient was instructed to eat a liquid diet and take esomeprazole enteric-coated tablets (20 mg po bid), almagate (1.5 g po tid), and mosapride citrate (5 mg po tid)."
+      }
+    },
+    {
+      "from": "N5",
+      "to": "N6",
+      "data": {
+        "edge_id": "E_to_F",
+        "branch_flag": true,
+        "content": "Worsened dysphagia, with difficulty eating a liquid diet, accompanied by nausea and vomiting one week before admission."
+      }
+    },
+    {
+      "from": "N6",
+      "to": "N7",
+      "data": {
+        "edge_id": "F_to_G",
+        "branch_flag": true,
+        "content": "Weight: 40.5 kg, BMI: 15.5 kg/m2. Patient was scheduled for gastroscopy and enhanced CT again. A jejunal nutrition tube was placed using endoscopy. Cardiothoracic surgeons considered the patient had definite mechanical obstruction in the lower esophagus and operated on the patient."
+      }
+    }
+  ]
+}

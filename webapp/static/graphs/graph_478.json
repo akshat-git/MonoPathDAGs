@@ -1,0 +1,419 @@
+{
+  "nodes": [
+    {
+      "id": "N1",
+      "label": "Step 1",
+      "customData": {
+        "node_id": "A",
+        "node_step_index": 0,
+        "content": "53-year-old woman with a 35 pack-year smoking history developed progressive mid-back pain.",
+        "clinical_data": {
+          "social_history": [
+            {
+              "category": "smoking",
+              "status": "past",
+              "description": "35 pack-year smoking history"
+            }
+          ],
+          "HPI": [
+            {
+              "summary": "progressive mid-back pain"
+            }
+          ]
+        }
+      }
+    },
+    {
+      "id": "N2",
+      "label": "Step 2",
+      "customData": {
+        "node_id": "B",
+        "node_step_index": 1,
+        "content": "Paraspinal mass, multiple bilateral pulmonary nodules, and a dominant 1.7-cm right lower lobe mass were found.",
+        "clinical_data": {
+          "imaging": [
+            {
+              "type": "Mass",
+              "body_part": "Paraspinal area",
+              "modality": "Unknown",
+              "finding": "Paraspinal mass",
+              "impression": "Paraspinal mass",
+              "date": null
+            },
+            {
+              "type": "Nodule",
+              "body_part": "Lung",
+              "modality": "Unknown",
+              "finding": "Multiple bilateral pulmonary nodules",
+              "impression": "Multiple bilateral pulmonary nodules",
+              "date": null
+            },
+            {
+              "type": "Mass",
+              "body_part": "Right lower lobe of lung",
+              "modality": "Unknown",
+              "finding": "Dominant 1.7-cm right lower lobe mass",
+              "impression": "Dominant 1.7-cm right lower lobe mass",
+              "date": null
+            }
+          ]
+        }
+      }
+    },
+    {
+      "id": "N3",
+      "label": "Step 3",
+      "customData": {
+        "node_id": "C",
+        "node_step_index": 2,
+        "content": "Biopsy revealed adenocarcinoma consistent with lung primary, harboring a KRAS G12C mutation.",
+        "clinical_data": {
+          "diagnoses": [
+            {
+              "code": "C2350167",
+              "label": "Adenocarcinoma of Lung",
+              "status": "active"
+            }
+          ],
+          "labs": [
+            {
+              "test": "KRAS G12C mutation",
+              "value": "positive",
+              "unit": null,
+              "flag": "abnormal"
+            }
+          ],
+          "procedures": [
+            {
+              "name": "Biopsy",
+              "approach": null,
+              "date": null,
+              "location": "Lung",
+              "performed_by": null,
+              "outcome": null
+            }
+          ]
+        }
+      }
+    },
+    {
+      "id": "N4",
+      "label": "Step 4",
+      "customData": {
+        "node_id": "D",
+        "node_step_index": 3,
+        "content": "Patient initiated combination ipilimumab 1 mg/kg IV every 6 weeks and nivolumab 3 mg/kg IV every 2 weeks and was transitioned to nivolumab 480 mg IV every 4 weeks as consolidation therapy after 28 months.",
+        "clinical_data": {
+          "medications": [
+            {
+              "drug": "C0886439",
+              "dosage": "1 mg/kg",
+              "frequency": "every 6 weeks",
+              "modality": "IV",
+              "start_date": null,
+              "end_date": null,
+              "indication": null
+            },
+            {
+              "drug": "C1661229",
+              "dosage": "3 mg/kg",
+              "frequency": "every 2 weeks",
+              "modality": "IV",
+              "start_date": null,
+              "end_date": null,
+              "indication": null
+            },
+            {
+              "drug": "C1661229",
+              "dosage": "480 mg",
+              "frequency": "every 4 weeks",
+              "modality": "IV",
+              "start_date": null,
+              "end_date": null,
+              "indication": null
+            }
+          ]
+        }
+      }
+    },
+    {
+      "id": "N5",
+      "label": "Step 5",
+      "customData": {
+        "node_id": "E",
+        "node_step_index": 4,
+        "content": "Four months after initiating ipilimumab and nivolumab therapy, the patient developed weakness, fatigue, and orthostatic hypotension.",
+        "clinical_data": {
+          "HPI": [
+            {
+              "summary": "Patient developed weakness, fatigue, and orthostatic hypotension four months after initiating ipilimumab and nivolumab therapy.",
+              "duration": "4 months",
+              "onset": "4 months after initiating ipilimumab and nivolumab therapy",
+              "progression": "sudden",
+              "associated_symptoms": [
+                "weakness",
+                "fatigue",
+                "orthostatic hypotension"
+              ],
+              "exacerbating_factors": [
+                "ipilimumab",
+                "nivolumab"
+              ]
+            }
+          ]
+        }
+      }
+    },
+    {
+      "id": "N6",
+      "label": "Step 6",
+      "customData": {
+        "node_id": "F",
+        "node_step_index": 5,
+        "content": "Laboratory assessment revealed low serum concentrations of adrenocorticotropic hormone (<5 pg/mL) and cortisol (0.8 \u03bc/dL).",
+        "clinical_data": {
+          "labs": [
+            {
+              "test": "Adrenocorticotropic Hormone Measurement",
+              "value": "<5",
+              "unit": "pg/mL",
+              "flag": "abnormal"
+            },
+            {
+              "test": "Cortisol Measurement",
+              "value": "0.8",
+              "unit": "\u03bc/dL",
+              "flag": "abnormal"
+            }
+          ]
+        }
+      }
+    },
+    {
+      "id": "N7",
+      "label": "Step 7",
+      "customData": {
+        "node_id": "G",
+        "node_step_index": 6,
+        "content": "Patient was diagnosed with hypophysitis featuring secondary adrenal insufficiency and was treated with hydrocortisone.",
+        "clinical_data": {
+          "diagnoses": [
+            {
+              "code": "C0020456",
+              "label": "Hypophysitis",
+              "status": "active"
+            },
+            {
+              "code": "C0235944",
+              "label": "Adrenal Insufficiency",
+              "status": "active"
+            }
+          ],
+          "medications": [
+            {
+              "drug": "C0020062",
+              "dosage": null,
+              "frequency": null,
+              "modality": null,
+              "start_date": null,
+              "end_date": null,
+              "indication": "C0235944"
+            }
+          ]
+        }
+      }
+    },
+    {
+      "id": "N8",
+      "label": "Step 8",
+      "customData": {
+        "node_id": "H",
+        "node_step_index": 7,
+        "content": "21 months after hypophysitis diagnosis, the patient experienced a rise in multiple autoantibody levels, including antivitronectin, anti\u2010\u03b22 glycoprotein, antiprothrombin, antiangiotensin receptor 2 type 1, and anti\u2010double-stranded DNA, weeks before the emergence of Raynaud's phenomenon.",
+        "clinical_data": {
+          "diagnoses": [
+            {
+              "code": "C0022110",
+              "label": "Hypophysitis",
+              "status": "historical",
+              "onset_date": null
+            }
+          ],
+          "labs": [
+            {
+              "test": "anti-vitronectin antibody",
+              "value": "positive",
+              "unit": null,
+              "flag": "abnormal",
+              "reference_range": null,
+              "timestamp": null
+            },
+            {
+              "test": "anti-\u03b22 glycoprotein antibody",
+              "value": "positive",
+              "unit": null,
+              "flag": "abnormal",
+              "reference_range": null,
+              "timestamp": null
+            },
+            {
+              "test": "antiprothrombin antibody",
+              "value": "positive",
+              "unit": null,
+              "flag": "abnormal",
+              "reference_range": null,
+              "timestamp": null
+            },
+            {
+              "test": "anti-angiotensin receptor 2 type 1 antibody",
+              "value": "positive",
+              "unit": null,
+              "flag": "abnormal",
+              "reference_range": null,
+              "timestamp": null
+            },
+            {
+              "test": "anti-double-stranded DNA antibody",
+              "value": "positive",
+              "unit": null,
+              "flag": "abnormal",
+              "reference_range": null,
+              "timestamp": null
+            }
+          ],
+          "HPI": [
+            {
+              "summary": "Raynaud's phenomenon emerged weeks after a rise in multiple autoantibody levels.",
+              "duration": "weeks",
+              "onset": null,
+              "progression": "sudden",
+              "associated_symptoms": [
+                "Raynaud's phenomenon"
+              ],
+              "alleviating_factors": [],
+              "exacerbating_factors": []
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "edges": [
+    {
+      "from": "N1",
+      "to": "N2",
+      "data": {
+        "edge_id": "A_to_B",
+        "branch_flag": true,
+        "content": "Patient's progressive mid-back pain led to imaging."
+      }
+    },
+    {
+      "from": "N2",
+      "to": "N3",
+      "data": {
+        "edge_id": "B_to_C",
+        "branch_flag": true,
+        "content": "Biopsy performed on lung mass.",
+        "transition_event": {
+          "trigger_type": "procedure",
+          "trigger_entities": [
+            "C0005767"
+          ],
+          "change_type": "addition",
+          "target_domain": "diagnosis"
+        }
+      }
+    },
+    {
+      "from": "N3",
+      "to": "N4",
+      "data": {
+        "edge_id": "C_to_D",
+        "branch_flag": true,
+        "content": "Treatment initiated for adenocarcinoma of the lung.",
+        "transition_event": {
+          "trigger_type": "medication_change",
+          "trigger_entities": [
+            "C0886439",
+            "C1661229"
+          ],
+          "change_type": "addition",
+          "target_domain": "medication"
+        }
+      }
+    },
+    {
+      "from": "N4",
+      "to": "N5",
+      "data": {
+        "edge_id": "D_to_E",
+        "branch_flag": true,
+        "content": "Adverse effects developed following immunotherapy.",
+        "transition_event": {
+          "trigger_type": "symptom_onset",
+          "trigger_entities": [
+            "C0043152",
+            "C0015672",
+            "C0239334"
+          ],
+          "change_type": "addition",
+          "target_domain": "symptom"
+        }
+      }
+    },
+    {
+      "from": "N5",
+      "to": "N6",
+      "data": {
+        "edge_id": "E_to_F",
+        "branch_flag": true,
+        "content": "Laboratory assessment performed to investigate symptoms.",
+        "transition_event": {
+          "trigger_type": "lab_change",
+          "trigger_entities": [
+            "C0001418",
+            "C0010198"
+          ],
+          "change_type": "addition",
+          "target_domain": "lab"
+        }
+      }
+    },
+    {
+      "from": "N6",
+      "to": "N7",
+      "data": {
+        "edge_id": "F_to_G",
+        "branch_flag": true,
+        "content": "Diagnosis and treatment of hypophysitis.",
+        "transition_event": {
+          "trigger_type": "interpretation",
+          "trigger_entities": [
+            "C0020456",
+            "C0235944"
+          ],
+          "change_type": "addition",
+          "target_domain": "diagnosis"
+        }
+      }
+    },
+    {
+      "from": "N7",
+      "to": "N8",
+      "data": {
+        "edge_id": "G_to_H",
+        "branch_flag": true,
+        "content": "Development of autoantibodies and Raynaud's phenomenon.",
+        "transition_event": {
+          "trigger_type": "symptom_onset",
+          "trigger_entities": [
+            "C0034739"
+          ],
+          "change_type": "addition",
+          "target_domain": "symptom"
+        }
+      }
+    }
+  ]
+}

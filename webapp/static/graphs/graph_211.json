@@ -1,0 +1,434 @@
+{
+  "nodes": [
+    {
+      "id": "N1",
+      "label": "Step 1",
+      "customData": {
+        "node_id": "A",
+        "node_step_index": 0,
+        "content": "75-year-old woman with hypertension, dyslipidemia, thalassemia trait, knee osteoarthritis, and hyperthyroidism presented with bloating, abdominal discomfort, and change in stool caliber for a couple days in the previous few weeks. Denied eating a fatty diet, alcohol consumption, nor frequent intake of the dairy products. No respiratory symptoms and no appetite loss nor cachexia. Life-long nonsmoker.",
+        "clinical_data": {
+          "diagnoses": [
+            {
+              "code": "C0020549",
+              "label": "Hypertension",
+              "status": "active"
+            },
+            {
+              "code": "C0013087",
+              "label": "Hyperlipidemia",
+              "status": "active"
+            },
+            {
+              "code": "C0039518",
+              "label": "Thalassemia",
+              "status": "active"
+            },
+            {
+              "code": "C0029408",
+              "label": "Osteoarthritis, Knee",
+              "status": "active"
+            },
+            {
+              "code": "C0020550",
+              "label": "Hyperthyroidism",
+              "status": "active"
+            }
+          ],
+          "HPI": [
+            {
+              "summary": "Bloating, abdominal discomfort, and change in stool caliber for a couple days in the previous few weeks.",
+              "duration": "few weeks",
+              "progression": "unknown",
+              "associated_symptoms": []
+            }
+          ],
+          "social_history": [
+            {
+              "category": "smoking",
+              "status": "never"
+            }
+          ]
+        }
+      }
+    },
+    {
+      "id": "N2",
+      "label": "Step 2",
+      "customData": {
+        "node_id": "B",
+        "node_step_index": 1,
+        "content": "Physical examination unremarkable: breathing comfortably with normal breath sounds on auscultation; abdomen soft without tenderness nor guarding; no lymphadenopathy, hepatosplenomegaly, abdominal mass, or stigmata of chronic liver disease. Medications: calcium carbonate, calciferol, and atenolol.",
+        "clinical_data": {
+          "medications": [
+            {
+              "drug": "C0006422",
+              "dosage": null,
+              "frequency": null,
+              "modality": null,
+              "start_date": null,
+              "end_date": null,
+              "indication": null
+            },
+            {
+              "drug": "C0006156",
+              "dosage": null,
+              "frequency": null,
+              "modality": null,
+              "start_date": null,
+              "end_date": null,
+              "indication": null
+            },
+            {
+              "drug": "C0003952",
+              "dosage": null,
+              "frequency": null,
+              "modality": null,
+              "start_date": null,
+              "end_date": null,
+              "indication": null
+            }
+          ]
+        }
+      }
+    },
+    {
+      "id": "N3",
+      "label": "Step 3",
+      "customData": {
+        "node_id": "C",
+        "node_step_index": 2,
+        "content": "Colonoscopy revealed multiple polyps, removed by biopsy forceps and cold snare. Pathological examination identified these polyps as hyperplastic.",
+        "clinical_data": {
+          "procedures": [
+            {
+              "name": "Colonoscopy",
+              "approach": "endoscopic",
+              "date": null,
+              "location": "colon",
+              "performed_by": null,
+              "outcome": null
+            },
+            {
+              "name": "Biopsy",
+              "approach": "endoscopic",
+              "date": null,
+              "location": "colon",
+              "performed_by": null,
+              "outcome": null
+            },
+            {
+              "name": "Snare polypectomy",
+              "approach": "endoscopic",
+              "date": null,
+              "location": "colon",
+              "performed_by": null,
+              "outcome": null
+            }
+          ],
+          "diagnoses": [
+            {
+              "code": "C0007102",
+              "label": "Hyperplastic polyp",
+              "status": "active",
+              "onset_date": null
+            }
+          ],
+          "imaging": [
+            {
+              "type": "Colonoscopy",
+              "body_part": "Colon",
+              "modality": "other",
+              "finding": "multiple polyps",
+              "impression": "multiple polyps",
+              "date": null
+            }
+          ]
+        }
+      }
+    },
+    {
+      "id": "N4",
+      "label": "Step 4",
+      "customData": {
+        "node_id": "D",
+        "node_step_index": 3,
+        "content": "Esophagogastroduodenoscopy (EGD) revealed 2 F2 varices and 1 F1 varix between 30 and 35 cm from the incisors, located in the midesophagus and not extending to the esophagogastric junction. A few benign squamous papillomata and a venous bleb were observed at 39 cm from the incisors, just proximal to the esophagogastric junction. The mucosa distal to the varices was normal. No gastric varices were seen.",
+        "clinical_data": {
+          "procedures": [
+            {
+              "name": "Esophagogastroduodenoscopy",
+              "approach": "endoscopic",
+              "location": "esophagus, stomach, duodenum",
+              "finding": "2 F2 varices and 1 F1 varix between 30 and 35 cm from the incisors, located in the midesophagus and not extending to the esophagogastric junction; benign squamous papillomata and a venous bleb at 39 cm from the incisors, just proximal to the esophagogastric junction; mucosa distal to the varices was normal; no gastric varices were seen"
+            }
+          ],
+          "diagnoses": [
+            {
+              "code": "C0015643",
+              "label": "Esophageal Varices",
+              "status": "active"
+            }
+          ]
+        }
+      }
+    },
+    {
+      "id": "N5",
+      "label": "Step 5",
+      "customData": {
+        "node_id": "E",
+        "node_step_index": 4,
+        "content": "Chest x-ray showed a barely detectable reticular-ground glass opacity in the right upper zone. CT of the chest and neck revealed a 2.7-cm pulmonary nodule located at periphery of the right upper lung, adjacent to the pleura and far superolateral to the SVC without SVC contact and obstruction, no neck mass, subcentimeter lymph nodes with internal microcalcification at left cervical IIb level, posterior to spinal accessory nerve and internal jugular vein. No thyroid nodules and no liver cirrhosis were found.",
+        "clinical_data": {
+          "imaging": [
+            {
+              "type": "Radiography, Thoracic (TUI)",
+              "body_part": "Thorax (TUI)",
+              "modality": "X-ray",
+              "finding": "reticular-ground glass opacity",
+              "date": null
+            },
+            {
+              "type": "CT scan (TUI)",
+              "body_part": "Thorax (TUI)",
+              "modality": "CT",
+              "finding": "2.7-cm pulmonary nodule located at periphery of the right upper lung, adjacent to the pleura and far superolateral to the SVC without SVC contact and obstruction",
+              "date": null
+            },
+            {
+              "type": "CT scan (TUI)",
+              "body_part": "Neck (TUI)",
+              "modality": "CT",
+              "finding": "no neck mass, subcentimeter lymph nodes with internal microcalcification at left cervical IIb level, posterior to spinal accessory nerve and internal jugular vein",
+              "date": null
+            },
+            {
+              "type": "CT scan (TUI)",
+              "body_part": "Thyroid gland (TUI)",
+              "modality": "CT",
+              "finding": "No thyroid nodules",
+              "date": null
+            },
+            {
+              "type": "CT scan (TUI)",
+              "body_part": "Liver (TUI)",
+              "modality": "CT",
+              "finding": "no liver cirrhosis",
+              "date": null
+            }
+          ]
+        }
+      }
+    },
+    {
+      "id": "N6",
+      "label": "Step 6",
+      "customData": {
+        "node_id": "F",
+        "node_step_index": 5,
+        "content": "Lung biopsy revealed adenocarcinoma in the 2.7-cm nodule at periphery of the right upper lung.",
+        "clinical_data": {
+          "imaging": [
+            {
+              "type": "Lung Biopsy",
+              "body_part": "Lung",
+              "modality": "other",
+              "finding": "adenocarcinoma in the 2.7-cm nodule at periphery of the right upper lung"
+            }
+          ],
+          "diagnoses": [
+            {
+              "code": "C0001608",
+              "label": "Adenocarcinoma",
+              "status": "active"
+            }
+          ]
+        }
+      }
+    },
+    {
+      "id": "N7",
+      "label": "Step 7",
+      "customData": {
+        "node_id": "G",
+        "node_step_index": 6,
+        "content": "Patient underwent video-assisted thoracoscopic surgery with right upper lobe lobectomy and lymph node biopsy. Pathological examination showed a lepidic-predominant invasive adenocarcinoma, total size of 2.7 cm, with an invasive tumor size of 1.1 cm in the greatest dimension, with acinar pattern at the periphery of the lung and close to pleura. Visceral pleural invasion was not identified. Lymphovascular invasion and vascular thrombosis were not seen. No evidence of metastatic carcinoma was found in the dissected lymph nodes of hilar, interlobar, right paratracheal, and subcarinal area. Vascular abnormalities associated with pulmonary hypertension were not detected. EGFR gene mutational analysis revealed EGFR c.2573T>G (L858R) mutation. Clear resection margins were seen. Tumor staging was T1bN0M0.",
+        "clinical_data": {
+          "procedures": [
+            {
+              "name": "Video-assisted thoracoscopic surgery",
+              "approach": "endoscopic",
+              "date": null,
+              "location": "Right upper lobe",
+              "performed_by": null,
+              "outcome": null
+            },
+            {
+              "name": "Lobectomy",
+              "approach": "open",
+              "date": null,
+              "location": "Right upper lobe",
+              "performed_by": null,
+              "outcome": null
+            },
+            {
+              "name": "Lymph node biopsy",
+              "approach": "other",
+              "date": null,
+              "location": "Hilar, interlobar, right paratracheal, and subcarinal area",
+              "performed_by": null,
+              "outcome": null
+            }
+          ],
+          "labs": [
+            {
+              "test": "EGFR gene mutational analysis",
+              "value": "EGFR c.2573T>G (L858R) mutation",
+              "unit": null,
+              "flag": "abnormal",
+              "reference_range": null,
+              "timestamp": null
+            }
+          ],
+          "diagnoses": [
+            {
+              "code": null,
+              "label": "lepidic-predominant invasive adenocarcinoma",
+              "status": "active",
+              "onset_date": null
+            }
+          ],
+          "imaging": [
+            {
+              "type": "tumor staging",
+              "body_part": "lung",
+              "modality": null,
+              "finding": "T1bN0M0",
+              "impression": null,
+              "date": null
+            }
+          ]
+        }
+      }
+    },
+    {
+      "id": "N8",
+      "label": "Step 8",
+      "customData": {
+        "node_id": "J",
+        "node_step_index": 9,
+        "content": "Patient recovered postoperatively and remains well at 12 months.",
+        "clinical_data": {}
+      }
+    }
+  ],
+  "edges": [
+    {
+      "from": "N1",
+      "to": "N2",
+      "data": {
+        "edge_id": "A_to_B",
+        "branch_flag": true,
+        "content": "Patient presented with bloating, abdominal discomfort, and change in stool caliber. Physical examination was unremarkable."
+      }
+    },
+    {
+      "from": "N2",
+      "to": "N3",
+      "data": {
+        "edge_id": "B_to_C",
+        "branch_flag": true,
+        "content": "Patient underwent colonoscopy.",
+        "transition_event": {
+          "trigger_type": "procedure",
+          "trigger_entities": [
+            "C0009425"
+          ],
+          "change_type": "addition",
+          "target_domain": "procedure"
+        }
+      }
+    },
+    {
+      "from": "N3",
+      "to": "N4",
+      "data": {
+        "edge_id": "C_to_D",
+        "branch_flag": true,
+        "content": "Patient underwent esophagogastroduodenoscopy (EGD).",
+        "transition_event": {
+          "trigger_type": "procedure",
+          "trigger_entities": [
+            "C0162621"
+          ],
+          "change_type": "addition",
+          "target_domain": "procedure"
+        }
+      }
+    },
+    {
+      "from": "N4",
+      "to": "N5",
+      "data": {
+        "edge_id": "D_to_E",
+        "branch_flag": true,
+        "content": "Patient underwent chest x-ray and CT of the chest and neck.",
+        "transition_event": {
+          "trigger_type": "procedure",
+          "trigger_entities": [
+            "C0008732",
+            "C0008747"
+          ],
+          "change_type": "addition",
+          "target_domain": "imaging"
+        }
+      }
+    },
+    {
+      "from": "N5",
+      "to": "N6",
+      "data": {
+        "edge_id": "E_to_F",
+        "branch_flag": true,
+        "content": "Patient underwent lung biopsy.",
+        "transition_event": {
+          "trigger_type": "procedure",
+          "trigger_entities": [
+            "C0005682"
+          ],
+          "change_type": "addition",
+          "target_domain": "procedure"
+        }
+      }
+    },
+    {
+      "from": "N6",
+      "to": "N7",
+      "data": {
+        "edge_id": "F_to_G",
+        "branch_flag": true,
+        "content": "Patient underwent video-assisted thoracoscopic surgery with right upper lobe lobectomy and lymph node biopsy.",
+        "transition_event": {
+          "trigger_type": "procedure",
+          "trigger_entities": [
+            "C0042845",
+            "C0024253",
+            "C0024237"
+          ],
+          "change_type": "addition",
+          "target_domain": "procedure"
+        }
+      }
+    },
+    {
+      "from": "N7",
+      "to": "N8",
+      "data": {
+        "edge_id": "G_to_J",
+        "branch_flag": true,
+        "content": "Patient recovered postoperatively and remains well at 12 months."
+      }
+    }
+  ]
+}

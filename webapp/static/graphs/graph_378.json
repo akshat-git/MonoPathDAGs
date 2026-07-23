@@ -1,0 +1,329 @@
+{
+  "nodes": [
+    {
+      "id": "N1",
+      "label": "Step 1",
+      "customData": {
+        "node_id": "A",
+        "node_step_index": 0,
+        "content": "57-year-old Chinese man admitted to the respiratory department for hemoptysis and cough. Denies chest pain, fever, shiver, and other concomitant symptoms. Social history: 60-pack year smoking history and 30 years of significant alcohol intake, sober for 10 years. No other relevant medical history of note.",
+        "clinical_data": {
+          "HPI": [
+            {
+              "summary": "57-year-old Chinese man admitted for hemoptysis and cough.",
+              "associated_symptoms": [
+                "C0018943"
+              ]
+            }
+          ],
+          "social_history": [
+            {
+              "category": "smoking",
+              "status": "past",
+              "description": "60-pack year smoking history"
+            },
+            {
+              "category": "alcohol",
+              "status": "past",
+              "description": "30 years of significant alcohol intake, sober for 10 years"
+            }
+          ]
+        }
+      }
+    },
+    {
+      "id": "N2",
+      "label": "Step 2",
+      "customData": {
+        "node_id": "B",
+        "node_step_index": 1,
+        "content": "Patient has no known genetic, congenital, or developmental abnormalities. No prior treatment for current symptoms. Physical exam: superficial lymph nodes non-palpable/enlarged, clear breathing sounds bilaterally without crackles.",
+        "clinical_data": {
+          "diagnoses": [
+            {
+              "code": "C0476336",
+              "label": "No known genetic abnormality",
+              "status": "historical"
+            },
+            {
+              "code": "C0265138",
+              "label": "No known congenital abnormality",
+              "status": "historical"
+            },
+            {
+              "code": "C0265139",
+              "label": "No known developmental abnormality",
+              "status": "historical"
+            }
+          ],
+          "physical_exam": [
+            {
+              "finding": "superficial lymph nodes non-palpable/enlarged"
+            },
+            {
+              "finding": "clear breathing sounds bilaterally without crackles"
+            }
+          ]
+        }
+      }
+    },
+    {
+      "id": "N3",
+      "label": "Step 3",
+      "customData": {
+        "node_id": "C",
+        "node_step_index": 2,
+        "content": "CT scan (2020-10-12) revealed an irregular large soft tissue mass (52.85 mm) in the right hilar region, invading the right main bronchus, narrowing, and truncating with atelectasis.",
+        "clinical_data": {
+          "imaging": [
+            {
+              "type": "Mass of soft tissue",
+              "body_part": "Hilar region",
+              "modality": "CT",
+              "finding": "Irregular large soft tissue mass (52.85 mm) in the right hilar region, invading the right main bronchus, narrowing, and truncating with atelectasis.",
+              "date": "2020-10-12"
+            }
+          ]
+        }
+      }
+    },
+    {
+      "id": "N4",
+      "label": "Step 4",
+      "customData": {
+        "node_id": "D",
+        "node_step_index": 3,
+        "content": "Histological examination of a transbronchial specimen confirmed squamous cell carcinoma (SCC). No lymph node metastases or distant organ metastases were identified.",
+        "clinical_data": {
+          "diagnoses": [
+            {
+              "code": "C0007144",
+              "label": "Squamous Cell Carcinoma",
+              "status": "active"
+            }
+          ],
+          "imaging": [
+            {
+              "type": "Transbronchial specimen",
+              "modality": "histological examination",
+              "finding": "Squamous cell carcinoma (SCC)",
+              "impression": "No lymph node metastases or distant organ metastases were identified."
+            }
+          ]
+        }
+      }
+    },
+    {
+      "id": "N5",
+      "label": "Step 5",
+      "customData": {
+        "node_id": "E",
+        "node_step_index": 4,
+        "content": "Diagnosis of right central lung SCC with right upper lobe atelectasis (stage cT3N0M0, IIB).",
+        "clinical_data": {
+          "diagnoses": [
+            {
+              "code": "C0009858",
+              "label": "Squamous cell carcinoma of lung",
+              "status": "active",
+              "onset_date": null
+            },
+            {
+              "code": "C0242242",
+              "label": "Atelectasis of upper lobe of right lung",
+              "status": "active",
+              "onset_date": null
+            }
+          ],
+          "imaging": [
+            {
+              "type": "C0205098",
+              "body_part": "C0225904",
+              "modality": "CT",
+              "finding": "Atelectasis of upper lobe of right lung",
+              "impression": "Atelectasis of upper lobe of right lung",
+              "date": null
+            }
+          ]
+        }
+      }
+    },
+    {
+      "id": "N6",
+      "label": "Step 6",
+      "customData": {
+        "node_id": "F",
+        "node_step_index": 5,
+        "content": "Treatment plan: induction chemotherapy with sequential thoracic radiotherapy. Induction chemotherapy regimen: Paclitaxel (albumin-bound) 400 mg D1 combined with carboplatin 500 mg D1 on a 21-day cycle.",
+        "clinical_data": {
+          "medications": [
+            {
+              "drug": "Paclitaxel",
+              "dosage": "400 mg",
+              "frequency": "D1",
+              "modality": "IV",
+              "start_date": null,
+              "end_date": null,
+              "indication": "Chemotherapy"
+            },
+            {
+              "drug": "carboplatin",
+              "dosage": "500 mg",
+              "frequency": "D1",
+              "modality": "IV",
+              "start_date": null,
+              "end_date": null,
+              "indication": "Chemotherapy"
+            }
+          ],
+          "procedures": [
+            {
+              "name": "Chemotherapy",
+              "approach": null,
+              "date": null,
+              "location": null,
+              "performed_by": null,
+              "outcome": null
+            },
+            {
+              "name": "Thoracic radiotherapy",
+              "approach": null,
+              "date": null,
+              "location": "Thoracic",
+              "performed_by": null,
+              "outcome": null
+            }
+          ]
+        }
+      }
+    },
+    {
+      "id": "N7",
+      "label": "Step 7",
+      "customData": {
+        "node_id": "G",
+        "node_step_index": 6,
+        "content": "First treatment cycle began on 2020-10-16.",
+        "timestamp": "2020-10-16",
+        "clinical_data": {
+          "procedures": [
+            {
+              "date": "2020-10-16"
+            }
+          ]
+        }
+      }
+    },
+    {
+      "id": "N8",
+      "label": "Step 8",
+      "customData": {
+        "node_id": "H",
+        "node_step_index": 7,
+        "content": "After two cycles of chemotherapy, efficacy was evaluated as stable disease (Figure 1B).",
+        "clinical_data": {
+          "procedures": [
+            {
+              "name": "Chemotherapy",
+              "date": null,
+              "outcome": "Stable Disease"
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "edges": [
+    {
+      "from": "N1",
+      "to": "N2",
+      "data": {
+        "edge_id": "A_to_B",
+        "branch_flag": true,
+        "content": "Transition from initial presentation to physical exam findings. No known genetic, congenital, or developmental abnormalities. Physical exam: superficial lymph nodes non-palpable/enlarged, clear breathing sounds bilaterally without crackles."
+      }
+    },
+    {
+      "from": "N2",
+      "to": "N3",
+      "data": {
+        "edge_id": "B_to_C",
+        "branch_flag": true,
+        "content": "Transition to CT scan results. CT scan (2020-10-12) revealed an irregular large soft tissue mass (52.85 mm) in the right hilar region, invading the right main bronchus, narrowing, and truncating with atelectasis."
+      }
+    },
+    {
+      "from": "N3",
+      "to": "N4",
+      "data": {
+        "edge_id": "C_to_D",
+        "branch_flag": true,
+        "content": "Transition from imaging to histological examination. Histological examination of a transbronchial specimen confirmed squamous cell carcinoma (SCC). No lymph node metastases or distant organ metastases were identified."
+      }
+    },
+    {
+      "from": "N4",
+      "to": "N5",
+      "data": {
+        "edge_id": "D_to_E",
+        "branch_flag": true,
+        "content": "Transition to final diagnosis. Diagnosis of right central lung SCC with right upper lobe atelectasis (stage cT3N0M0, IIB)."
+      }
+    },
+    {
+      "from": "N5",
+      "to": "N6",
+      "data": {
+        "edge_id": "E_to_F",
+        "branch_flag": true,
+        "content": "Transition to treatment plan. Treatment plan: induction chemotherapy with sequential thoracic radiotherapy. Induction chemotherapy regimen: Paclitaxel (albumin-bound) 400 mg D1 combined with carboplatin 500 mg D1 on a 21-day cycle.",
+        "transition_event": {
+          "trigger_type": "procedure",
+          "trigger_entities": [
+            "C0009858",
+            "C0242242"
+          ],
+          "change_type": "addition",
+          "target_domain": "medication"
+        }
+      }
+    },
+    {
+      "from": "N6",
+      "to": "N7",
+      "data": {
+        "edge_id": "F_to_G",
+        "branch_flag": true,
+        "content": "Transition to start of first treatment cycle. First treatment cycle began on 2020-10-16.",
+        "transition_event": {
+          "trigger_type": "procedure",
+          "trigger_entities": [
+            "C0009858",
+            "C0242242"
+          ],
+          "change_type": "addition",
+          "target_domain": "procedure",
+          "timestamp": "2020-10-16T00:00:00Z"
+        }
+      }
+    },
+    {
+      "from": "N7",
+      "to": "N8",
+      "data": {
+        "edge_id": "G_to_H",
+        "branch_flag": true,
+        "content": "Transition to efficacy evaluation after two cycles of chemotherapy. After two cycles of chemotherapy, efficacy was evaluated as stable disease (Figure 1B).",
+        "transition_event": {
+          "trigger_type": "procedure",
+          "trigger_entities": [
+            "C0009858",
+            "C0242242"
+          ],
+          "change_type": "other",
+          "target_domain": "diagnosis"
+        }
+      }
+    }
+  ]
+}

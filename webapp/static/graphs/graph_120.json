@@ -1,0 +1,515 @@
+{
+  "nodes": [
+    {
+      "id": "N1",
+      "label": "Step 1",
+      "customData": {
+        "node_id": "A",
+        "node_step_index": 0,
+        "content": "65-year-old Caucasian male with a past medical history of chronic obstructive pulmonary disorder (COPD) stage III and chronic tobacco abuse (20 packs per year) presented with worsening shortness of breath and cough. Examination showed bilateral decreased breath sounds with few rhonchi and wheezing. Complete blood count showed leukocytosis with a white blood cell of 21 k/uL and normocytic anemia with hemoglobin of 10 g/dl. Sputum culture showed normal respiratory flora. The respiratory viral panel was negative.",
+        "clinical_data": {
+          "diagnoses": [
+            {
+              "code": "233942003",
+              "label": "Chronic obstructive lung disease stage III",
+              "status": "active"
+            },
+            {
+              "code": "365402006",
+              "label": "Smokes tobacco",
+              "status": "active"
+            }
+          ],
+          "HPI": [
+            {
+              "summary": "Worsening shortness of breath and cough",
+              "progression": "gradual"
+            }
+          ],
+          "ROS": [
+            {
+              "system": "respiratory",
+              "findings": [
+                "Shortness of breath",
+                "Cough"
+              ]
+            }
+          ],
+          "social_history": [
+            {
+              "category": "smoking",
+              "status": "past",
+              "description": "20 packs per year"
+            }
+          ],
+          "labs": [
+            {
+              "test": "White blood cell count",
+              "value": "21",
+              "unit": "k/uL",
+              "flag": "abnormal"
+            },
+            {
+              "test": "Hemoglobin",
+              "value": "10",
+              "unit": "g/dl",
+              "flag": "abnormal"
+            }
+          ]
+        }
+      }
+    },
+    {
+      "id": "N2",
+      "label": "Step 2",
+      "customData": {
+        "node_id": "B",
+        "node_step_index": 1,
+        "content": "CT chest revealed a 5 cm x 3 cm lobulated left supra-hilar mass abutting the aortic arch, with areas of necrosis and mediastinal and hilar lymphadenopathy. The patient was known to have mediastinal lymphadenopathy for two years, with inconsistent follow-up. Previous endobronchial ultrasound (EBUS) with transbronchial needle aspiration (TBNA) of mediastinal LN showed no evidence of malignancy in the surgical pathology report.",
+        "clinical_data": {
+          "imaging": [
+            {
+              "type": "Mass of chest (finding)",
+              "body_part": "Left lung",
+              "modality": "CT",
+              "finding": "5 cm x 3 cm lobulated left supra-hilar mass abutting the aortic arch, with areas of necrosis and mediastinal and hilar lymphadenopathy",
+              "impression": "Mass abutting the aortic arch, with areas of necrosis and mediastinal and hilar lymphadenopathy"
+            },
+            {
+              "type": "Lymphadenopathy (finding)",
+              "body_part": "Mediastinum",
+              "modality": "Ultrasound",
+              "finding": "Mediastinal lymphadenopathy",
+              "impression": "Mediastinal lymphadenopathy"
+            }
+          ],
+          "procedures": [
+            {
+              "name": "Endobronchial ultrasound",
+              "approach": "endoscopic",
+              "location": "Mediastinum",
+              "outcome": "no evidence of malignancy"
+            },
+            {
+              "name": "Transbronchial needle aspiration",
+              "approach": "percutaneous",
+              "location": "Mediastinal LN",
+              "outcome": "no evidence of malignancy"
+            }
+          ]
+        }
+      }
+    },
+    {
+      "id": "N3",
+      "label": "Step 3",
+      "customData": {
+        "node_id": "C",
+        "node_step_index": 2,
+        "content": "The patient was admitted and treated with IV antibiotics, bronchodilators, and methylprednisolone, with some improvement in his symptoms.",
+        "clinical_data": {
+          "medications": [
+            {
+              "drug": "C0003229",
+              "modality": "IV",
+              "indication": "C0003123"
+            },
+            {
+              "drug": "C0006272",
+              "modality": "IV",
+              "indication": "C0025202"
+            },
+            {
+              "drug": "C0025202",
+              "modality": "IV",
+              "indication": "C0003123"
+            }
+          ]
+        }
+      }
+    },
+    {
+      "id": "N4",
+      "label": "Step 4",
+      "customData": {
+        "node_id": "D",
+        "node_step_index": 3,
+        "content": "Bronchoscopy with tissue sampling from the left upper lobe and multiple mediastinal lymph nodes was performed. Histopathology report was grossly unremarkable.",
+        "clinical_data": {
+          "procedures": [
+            {
+              "name": "Bronchoscopy",
+              "approach": "endoscopic",
+              "location": "left upper lobe and multiple mediastinal lymph nodes",
+              "outcome": "grossly unremarkable"
+            }
+          ]
+        }
+      }
+    },
+    {
+      "id": "N5",
+      "label": "Step 5",
+      "customData": {
+        "node_id": "E",
+        "node_step_index": 4,
+        "content": "Histopathology of mediastinal LN showed few inflammatory cells with a small piece of benign squamous epithelium and a few benign respiratory columnar cells.",
+        "clinical_data": {
+          "imaging": [
+            {
+              "body_part": "Mediastinal Lymph Node",
+              "finding": "few inflammatory cells with a small piece of benign squamous epithelium and a few benign respiratory columnar cells"
+            }
+          ]
+        }
+      }
+    },
+    {
+      "id": "N6",
+      "label": "Step 6",
+      "customData": {
+        "node_id": "F",
+        "node_step_index": 5,
+        "content": "The patient was discharged on a short course of oral antibiotics, bronchodilators, and prednisone.",
+        "clinical_data": {
+          "medications": [
+            {
+              "drug": "antibiotics",
+              "dosage": "short course",
+              "modality": "oral"
+            },
+            {
+              "drug": "bronchodilators",
+              "modality": "oral"
+            },
+            {
+              "drug": "prednisone",
+              "modality": "oral"
+            }
+          ]
+        }
+      }
+    },
+    {
+      "id": "N7",
+      "label": "Step 7",
+      "customData": {
+        "node_id": "G",
+        "node_step_index": 6,
+        "content": "PET scan showed severe fluorodeoxyglucose (FDG) avidity involving a 5 x 3 cm left upper lobe mass in the supra-hilar area abutting the mediastinum consistent with neoplasia. No other suspicious areas of radiotracer uptake were noted.",
+        "clinical_data": {
+          "imaging": [
+            {
+              "type": "Fluorodeoxyglucose PET scan",
+              "body_part": "Left upper lobe",
+              "modality": "PET",
+              "finding": "Severe fluorodeoxyglucose (FDG) avidity involving a 5 x 3 cm left upper lobe mass in the supra-hilar area abutting the mediastinum consistent with neoplasia. No other suspicious areas of radiotracer uptake were noted."
+            }
+          ]
+        }
+      }
+    },
+    {
+      "id": "N8",
+      "label": "Step 8",
+      "customData": {
+        "node_id": "H",
+        "node_step_index": 7,
+        "content": "VATS procedure identified a 5 cm x 3 cm firm, rubbery left upper lobe lung mass. VATS followed by wedge resection of the left upper lobe mass was performed.",
+        "clinical_data": {
+          "procedures": [
+            {
+              "name": "Video-assisted thoracoscopic surgery",
+              "approach": "endoscopic",
+              "location": "left upper lobe",
+              "outcome": "resection",
+              "body_part": "Lung",
+              "finding": "Lung mass"
+            }
+          ],
+          "imaging": [
+            {
+              "body_part": "Lung",
+              "finding": "Lung mass",
+              "size": "5 cm x 3 cm"
+            }
+          ]
+        }
+      }
+    },
+    {
+      "id": "N9",
+      "label": "Step 9",
+      "customData": {
+        "node_id": "I",
+        "node_step_index": 8,
+        "content": "Pathological report of the left upper lobe mass resected via VATS was negative for malignancy, but features were suggestive of inactive and organizing pneumonia.",
+        "clinical_data": {
+          "diagnoses": [
+            {
+              "code": "C0271949",
+              "label": "Organizing pneumonia",
+              "status": "active"
+            }
+          ],
+          "procedures": [
+            {
+              "name": "C1704503",
+              "approach": "endoscopic",
+              "location": "Left upper lobe",
+              "outcome": "negative"
+            }
+          ],
+          "imaging": [
+            {
+              "body_part": "Left upper lobe",
+              "modality": "other",
+              "finding": "mass",
+              "impression": "negative for malignancy"
+            }
+          ]
+        }
+      }
+    },
+    {
+      "id": "N10",
+      "label": "Step 10",
+      "customData": {
+        "node_id": "J",
+        "node_step_index": 9,
+        "content": "H&E stained section of lung tissue showing reactive pneumocytes and monocytes associated with organizing pneumonia. The patient was prescribed a short tapering course of steroids and recommended to maintain close follow-up with pulmonology.",
+        "clinical_data": {
+          "imaging": [
+            {
+              "type": "Lung tissue",
+              "body_part": "Lung",
+              "modality": "H&E stain",
+              "finding": "reactive pneumocytes and monocytes associated with organizing pneumonia"
+            }
+          ],
+          "medications": [
+            {
+              "drug": "steroids",
+              "dosage": "tapering course",
+              "modality": "oral",
+              "indication": "organizing pneumonia"
+            }
+          ],
+          "diagnoses": [
+            {
+              "code": "organizing pneumonia",
+              "label": "organizing pneumonia",
+              "status": "active"
+            }
+          ]
+        }
+      }
+    },
+    {
+      "id": "N11",
+      "label": "Step 11",
+      "customData": {
+        "node_id": "K",
+        "node_step_index": 10,
+        "content": "The patient was hospitalized with worsening cough and shortness of breath.",
+        "clinical_data": {
+          "HPI": [
+            {
+              "summary": "worsening cough and shortness of breath"
+            }
+          ]
+        }
+      }
+    },
+    {
+      "id": "N12",
+      "label": "Step 12",
+      "customData": {
+        "node_id": "L",
+        "node_step_index": 11,
+        "content": "Repeat CT scan of the chest showed an enlarged left supra-hilar mass (now measuring 11 cm x 5 cm), enlarged mediastinal lymph nodes, along with bilateral multifocal airspace disease.",
+        "clinical_data": {
+          "imaging": [
+            {
+              "type": "Mass",
+              "body_part": "Mediastinum",
+              "modality": "CT",
+              "finding": "Enlarged left supra-hilar mass (11 cm x 5 cm), enlarged mediastinal lymph nodes, bilateral multifocal airspace disease",
+              "date": null
+            }
+          ]
+        }
+      }
+    },
+    {
+      "id": "N13",
+      "label": "Step 13",
+      "customData": {
+        "node_id": "M",
+        "node_step_index": 12,
+        "content": "The patient's symptoms improved with steroids, bronchodilators, and antibiotics. His symptoms were presumed to be related to COP based",
+        "clinical_data": {
+          "medications": [
+            {
+              "drug": "bronchodilator",
+              "dosage": null,
+              "frequency": null,
+              "modality": null,
+              "start_date": null,
+              "end_date": null,
+              "indication": null
+            },
+            {
+              "drug": "antibiotic",
+              "dosage": null,
+              "frequency": null,
+              "modality": null,
+              "start_date": null,
+              "end_date": null,
+              "indication": null
+            },
+            {
+              "drug": "steroid",
+              "dosage": null,
+              "frequency": null,
+              "modality": null,
+              "start_date": null,
+              "end_date": null,
+              "indication": null
+            }
+          ],
+          "diagnoses": [
+            {
+              "code": null,
+              "label": "COP",
+              "status": "suspected",
+              "onset_date": null
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "edges": [
+    {
+      "from": "N1",
+      "to": "N2",
+      "data": {
+        "edge_id": "A_to_B",
+        "branch_flag": true,
+        "content": "CT chest revealed a 5 cm x 3 cm lobulated left supra-hilar mass abutting the aortic arch, with areas of necrosis and mediastinal and hilar lymphadenopathy. The patient was known to have mediastinal lymphadenopathy for two years, with inconsistent follow-up. Previous endobronchial ultrasound (EBUS) with transbronchial needle aspiration (TBNA) of mediastinal LN showed no evidence of malignancy in the surgical pathology report."
+      }
+    },
+    {
+      "from": "N2",
+      "to": "N3",
+      "data": {
+        "edge_id": "B_to_C",
+        "branch_flag": true,
+        "content": "The patient was admitted and treated with IV antibiotics, bronchodilators, and methylprednisolone, with some improvement in his symptoms.",
+        "transition_event": {
+          "trigger_type": "medication_change",
+          "trigger_entities": [
+            "C0003229",
+            "C0006272",
+            "C0025202"
+          ],
+          "change_type": "addition",
+          "target_domain": "medication"
+        }
+      }
+    },
+    {
+      "from": "N3",
+      "to": "N4",
+      "data": {
+        "edge_id": "C_to_D",
+        "branch_flag": true,
+        "content": "Bronchoscopy with tissue sampling from the left upper lobe and multiple mediastinal lymph nodes was performed. Histopathology report was grossly unremarkable.",
+        "transition_event": {
+          "trigger_type": "procedure",
+          "trigger_entities": [
+            "C0006272"
+          ],
+          "change_type": "addition",
+          "target_domain": "procedure"
+        }
+      }
+    },
+    {
+      "from": "N4",
+      "to": "N5",
+      "data": {
+        "edge_id": "D_to_E",
+        "branch_flag": true,
+        "content": "Histopathology of mediastinal LN showed few inflammatory cells with a small piece of benign squamous epithelium and a few benign respiratory columnar cells."
+      }
+    },
+    {
+      "from": "N5",
+      "to": "N6",
+      "data": {
+        "edge_id": "E_to_F",
+        "branch_flag": true,
+        "content": "The patient was discharged on a short course of oral antibiotics, bronchodilators, and prednisone.",
+        "transition_event": {
+          "trigger_type": "medication_change",
+          "trigger_entities": [
+            "antibiotics",
+            "bronchodilators",
+            "prednisone"
+          ],
+          "change_type": "addition",
+          "target_domain": "medication"
+        }
+      }
+    },
+    {
+      "from": "N6",
+      "to": "N7",
+      "data": {
+        "edge_id": "F_to_G",
+        "branch_flag": true,
+        "content": "PET scan showed severe fluorodeoxyglucose (FDG) avidity involving a 5 x 3 cm left upper lobe mass in the supra-hilar area abutting the mediastinum consistent with neoplasia. No other suspicious areas of radiotracer uptake were noted."
+      }
+    },
+    {
+      "from": "N7",
+      "to": "N8",
+      "data": {
+        "edge_id": "G_to_H",
+        "branch_flag": true,
+        "content": "VATS procedure identified a 5 cm x 3 cm firm, rubbery left upper lobe lung mass. VATS followed by wedge resection of the left upper lobe mass was performed.",
+        "transition_event": {
+          "trigger_type": "procedure",
+          "trigger_entities": [
+            "C0042242"
+          ],
+          "change_type": "addition",
+          "target_domain": "procedure"
+        }
+      }
+    },
+    {
+      "from": "N8",
+      "to": "N9",
+      "data": {
+        "edge_id": "H_to_I",
+        "branch_flag": true,
+        "content": "Pathological report of the left upper lobe mass resected via VATS was negative for malignancy, but features were suggestive of inactive and organizing pneumonia."
+      }
+    },
+    {
+      "from": "N9",
+      "to": "N10",
+      "data": {
+        "edge_id": "I_to_J",
+        "branch_flag": true,
+        "content": "H&E stained section of lung tissue showing reactive pneumocytes and monocytes associated with organizing pneumonia. The patient was prescribed a short tapering course of steroids and recommended to maintain close follow-up with pulmonology.",
+        "transition_event": {
+          "trigger_type": "medication_change"
+        }
+      }
+    }
+  ]
+}

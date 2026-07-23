@@ -1,0 +1,123 @@
+{
+  "nodes": [
+    {
+      "id": "N1",
+      "label": "Step 1",
+      "customData": {
+        "node_id": "A",
+        "node_step_index": 0,
+        "content": "68-year-old man with a history of hypertension presented for evaluation of a new choroidal lesion in the left eye discovered during a routine eye examination. The lesion was not present in fundus photographs taken two years prior. Patient reports 15 pounds of weight loss over the last year, which he stated was intentional. He was a former smoker between the ages of 15 and 35-years-old but had not smoked in over 30 years. Patient has a family history of prostate cancer. Visual acuity was 20/20 + 2 in the right eye and 20/15 in the left eye. Intraocular pressure was normal in each eye. Anterior segment examination was unremarkable.",
+        "clinical_data": {
+          "diagnoses": [
+            {
+              "code": "38341003",
+              "label": "Hypertension",
+              "status": "active"
+            }
+          ],
+          "HPI": [
+            {
+              "summary": "Patient reports 15 pounds of weight loss over the last year, which he stated was intentional.",
+              "duration": "P1Y"
+            }
+          ],
+          "social_history": [
+            {
+              "category": "smoking",
+              "status": "past",
+              "description": "Former smoker between the ages of 15 and 35-years-old but had not smoked in over 30 years."
+            }
+          ],
+          "ROS": [
+            {
+              "system": "constitutional",
+              "findings": [
+                "Weight loss"
+              ]
+            }
+          ]
+        }
+      }
+    },
+    {
+      "id": "N2",
+      "label": "Step 2",
+      "customData": {
+        "node_id": "B",
+        "node_step_index": 1,
+        "content": "Dilated funduscopic examination of the right eye was unremarkable. Left eye examination revealed a 7.5x6.0x < 1 mm amelanotic choroidal lesion centered just below the inferotemporal arcade with overlying subretinal fluid extending inferiorly, and mild retinal pigment epithelial changes over the lesion surface. No lipofuscin or drusen was visualized. No other lesions were seen on scleral depressed examination. OCT showed a lumpy-bumpy choroidal lesion with extensive overlying subretinal fluid.",
+        "clinical_data": {
+          "imaging": [
+            {
+              "type": "Funduscopic examination",
+              "body_part": "right eye",
+              "modality": "other",
+              "finding": "unremarkable"
+            },
+            {
+              "type": "Funduscopic examination",
+              "body_part": "left eye",
+              "modality": "other",
+              "finding": "7.5x6.0x < 1 mm amelanotic choroidal lesion centered just below the inferotemporal arcade with overlying subretinal fluid extending inferiorly, and mild retinal pigment epithelial changes over the lesion surface.",
+              "impression": "amelanotic choroidal lesion with overlying subretinal fluid"
+            },
+            {
+              "type": "Optical coherence tomography",
+              "body_part": "eye",
+              "modality": "OCT",
+              "finding": "lumpy-bumpy choroidal lesion with extensive overlying subretinal fluid",
+              "impression": "choroidal lesion with subretinal fluid"
+            }
+          ]
+        }
+      }
+    },
+    {
+      "id": "N3",
+      "label": "Step 3",
+      "customData": {
+        "node_id": "C",
+        "node_step_index": 2,
+        "content": "Echography of the left eye revealed an irregular mass with high internal reflectivity, no vascularity, and less than 1 mm in thickness. A-scan echo thickness includes both the lesion and the retina that is shallowly detached over the surface. Findings were concerning for a choroidal metastasis from an unknown primary malignancy. Patient was referred to hematology-oncology service for evaluation.",
+        "clinical_data": {
+          "imaging": [
+            {
+              "type": "Echography",
+              "body_part": "Left eye",
+              "modality": "Ultrasound",
+              "finding": "Irregular mass with high internal reflectivity, no vascularity, and less than 1 mm in thickness. A-scan echo thickness includes both the lesion and the retina that is shallowly detached over the surface.",
+              "impression": "Concerning for a choroidal metastasis from an unknown primary malignancy."
+            }
+          ],
+          "diagnoses": [
+            {
+              "code": "C0494344",
+              "label": "Choroidal Metastasis",
+              "status": "suspected"
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "edges": [
+    {
+      "from": "N1",
+      "to": "N2",
+      "data": {
+        "edge_id": "A_to_B",
+        "branch_flag": true,
+        "content": "Discovery of a new choroidal lesion in the left eye during a routine eye examination, not present two years prior. Funduscopic examination of the right eye was unremarkable. Left eye examination revealed a 7.5x6.0x < 1 mm amelanotic choroidal lesion centered just below the inferotemporal arcade with overlying subretinal fluid extending inferiorly, and mild retinal pigment epithelial changes over the lesion surface. OCT showed a lumpy-bumpy choroidal lesion with extensive overlying subretinal fluid."
+      }
+    },
+    {
+      "from": "N2",
+      "to": "N3",
+      "data": {
+        "edge_id": "B_to_C",
+        "branch_flag": true,
+        "content": "Progression of choroidal lesion. Echography of the left eye revealed an irregular mass with high internal reflectivity, no vascularity, and less than 1 mm in thickness. A-scan echo thickness includes both the lesion and the retina that is shallowly detached over the surface. Findings were concerning for a choroidal metastasis from an unknown primary malignancy. Patient was referred to hematology-oncology service for evaluation."
+      }
+    }
+  ]
+}

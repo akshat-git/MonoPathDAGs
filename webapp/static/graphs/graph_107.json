@@ -1,0 +1,222 @@
+{
+  "nodes": [
+    {
+      "id": "N1",
+      "label": "Step 1",
+      "customData": {
+        "node_id": "A",
+        "node_step_index": 0,
+        "content": "74-year-old Japanese man with interstitial pneumonia.",
+        "clinical_data": {
+          "diagnoses": [
+            {
+              "code": "C0021853",
+              "label": "Interstitial Pneumonia",
+              "status": "active"
+            }
+          ],
+          "social_history": [
+            {
+              "category": "demographics",
+              "status": "current",
+              "description": "74-year-old Japanese man"
+            }
+          ]
+        }
+      }
+    },
+    {
+      "id": "N2",
+      "label": "Step 2",
+      "customData": {
+        "node_id": "B",
+        "node_step_index": 1,
+        "content": "One month prior to admission, the patient developed right-sided chest pain that worsened with inspiration and experienced hyperhidrosis in the right arm and thoracic area accompanied by a cold sensation. No abnormal sensation or muscle weakness in the same area. Sweating became so severe that he slept with a towel on the right side of his body and changed his pajamas at night.",
+        "clinical_data": {
+          "HPI": [
+            {
+              "summary": "Patient developed right-sided chest pain that worsened with inspiration and experienced hyperhidrosis in the right arm and thoracic area accompanied by a cold sensation one month prior to admission.",
+              "duration": "1 month",
+              "onset": "1 month prior to admission",
+              "progression": "worsened",
+              "associated_symptoms": [
+                "C0008031",
+                "cold sensation"
+              ],
+              "exacerbating_factors": [
+                "inspiration"
+              ]
+            }
+          ],
+          "ROS": [
+            {
+              "system": "constitutional",
+              "findings": [
+                "C0020472"
+              ]
+            }
+          ]
+        },
+        "timestamp": "1 month before admission"
+      }
+    },
+    {
+      "id": "N3",
+      "label": "Step 3",
+      "customData": {
+        "node_id": "C",
+        "node_step_index": 2,
+        "content": "Chest CT six months before admission showed dense infiltrations mainly below the ventral subpleural area in the right upper lobe and right middle lobe.",
+        "clinical_data": {
+          "imaging": [
+            {
+              "type": "Pulmonary infiltrate",
+              "body_part": "Right upper lobe",
+              "modality": "CT",
+              "finding": "dense infiltrations mainly below the ventral subpleural area",
+              "date": "6 months before admission"
+            },
+            {
+              "type": "Pulmonary infiltrate",
+              "body_part": "Right middle lobe",
+              "modality": "CT",
+              "finding": "dense infiltrations mainly below the ventral subpleural area",
+              "date": "6 months before admission"
+            }
+          ]
+        }
+      }
+    },
+    {
+      "id": "N4",
+      "label": "Step 4",
+      "customData": {
+        "node_id": "D",
+        "node_step_index": 3,
+        "content": "On admission, chest CT shadows were enlarged compared to six months prior. Exacerbation of chronic lung inflammation or organizing pneumonia was suspected. Shadows did not improve with oral antibiotic therapy.",
+        "clinical_data": {
+          "imaging": [
+            {
+              "type": "Chest CT",
+              "body_part": "chest",
+              "modality": "CT",
+              "finding": "enlarged shadows",
+              "date": null
+            }
+          ],
+          "diagnoses": [
+            {
+              "code": "59620008",
+              "label": "Chronic lung inflammation",
+              "status": "suspected",
+              "onset_date": null
+            },
+            {
+              "code": "72467004",
+              "label": "Organizing pneumonia",
+              "status": "suspected",
+              "onset_date": null
+            }
+          ],
+          "medications": [
+            {
+              "drug": "antibiotic",
+              "dosage": null,
+              "frequency": null,
+              "modality": "oral",
+              "start_date": null,
+              "end_date": null,
+              "indication": null
+            }
+          ]
+        }
+      }
+    },
+    {
+      "id": "N5",
+      "label": "Step 5",
+      "customData": {
+        "node_id": "E",
+        "node_step_index": 4,
+        "content": "On admission physical examination: profuse sweating in the right arm and thoracic area, blood pressure 150/78 mmHg, pulse rate 71 beats/min, respiratory rate 20 breaths/min, oxygen saturation 98% on room air. Pleural friction rub heard in the right chest. Skin on the right side of the arm, chest, and back was moister and cooler than that on the left side. Thermography revealed a decrease in body surface temperature on his right arm and on the right side of his chest and back, corresponding to the dermatomes of approximately C5-T12.",
+        "clinical_data": {
+          "vitals": [
+            {
+              "type": "Blood pressure",
+              "value": "150/78",
+              "unit": "mmHg"
+            },
+            {
+              "type": "Heart rate",
+              "value": "71",
+              "unit": "beats/min"
+            },
+            {
+              "type": "Respiratory rate",
+              "value": "20",
+              "unit": "breaths/min"
+            },
+            {
+              "type": "Oxygen saturation",
+              "value": "98",
+              "unit": "%",
+              "modality": "room air"
+            }
+          ],
+          "physical_exam": [
+            {
+              "finding": "profuse sweating in the right arm and thoracic area"
+            },
+            {
+              "finding": "Pleural friction rub heard in the right chest"
+            },
+            {
+              "finding": "Skin on the right side of the arm, chest, and back was moister and cooler than that on the left side"
+            },
+            {
+              "finding": "decrease in body surface temperature on his right arm and on the right side of his chest and back, corresponding to the dermatomes of approximately C5-T12"
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "edges": [
+    {
+      "from": "N1",
+      "to": "N2",
+      "data": {
+        "edge_id": "A_to_B",
+        "branch_flag": true,
+        "content": "The patient developed right-sided chest pain that worsened with inspiration and experienced hyperhidrosis in the right arm and thoracic area accompanied by a cold sensation one month prior to admission."
+      }
+    },
+    {
+      "from": "N2",
+      "to": "N3",
+      "data": {
+        "edge_id": "B_to_C",
+        "branch_flag": true,
+        "content": "Chest CT six months before admission showed dense infiltrations mainly below the ventral subpleural area in the right upper lobe and right middle lobe."
+      }
+    },
+    {
+      "from": "N3",
+      "to": "N4",
+      "data": {
+        "edge_id": "C_to_D",
+        "branch_flag": true,
+        "content": "On admission, chest CT shadows were enlarged compared to six months prior. Exacerbation of chronic lung inflammation or organizing pneumonia was suspected. Shadows did not improve with oral antibiotic therapy."
+      }
+    },
+    {
+      "from": "N4",
+      "to": "N5",
+      "data": {
+        "edge_id": "D_to_E",
+        "branch_flag": true,
+        "content": "On admission physical examination: profuse sweating in the right arm and thoracic area, blood pressure 150/78 mmHg, pulse rate 71 beats/min, respiratory rate 20 breaths/min, oxygen saturation 98% on room air. Pleural friction rub heard in the right chest. Skin on the right side of the arm, chest, and back was moister and cooler than that on the left side. Thermography revealed a decrease in body surface temperature on his right arm and on the right side of his chest and back, corresponding to the dermatomes of approximately C5-T12."
+      }
+    }
+  ]
+}

@@ -1,0 +1,621 @@
+{
+  "nodes": [
+    {
+      "id": "N1",
+      "label": "Step 1",
+      "customData": {
+        "node_id": "A",
+        "node_step_index": 0,
+        "content": "68-year-old male with multiple myeloma, treated since 2006.",
+        "clinical_data": {
+          "diagnoses": [
+            {
+              "code": "C0026764",
+              "label": "Multiple Myeloma",
+              "status": "active",
+              "onset_date": "2006"
+            }
+          ]
+        }
+      }
+    },
+    {
+      "id": "N2",
+      "label": "Step 2",
+      "customData": {
+        "node_id": "B",
+        "node_step_index": 1,
+        "content": "Deep vein thrombosis and extensive pulmonary embolism in 2016, contributing to persistent dyspnoea.",
+        "clinical_data": {
+          "diagnoses": [
+            {
+              "code": "C0012681",
+              "label": "Deep Vein Thrombosis",
+              "status": "historical",
+              "onset_date": "2016"
+            },
+            {
+              "code": "C0034079",
+              "label": "Pulmonary Embolism",
+              "status": "historical",
+              "onset_date": "2016"
+            },
+            {
+              "code": "C0013404",
+              "label": "Dyspnea",
+              "status": "active",
+              "onset_date": null
+            }
+          ]
+        }
+      }
+    },
+    {
+      "id": "N3",
+      "label": "Step 3",
+      "customData": {
+        "node_id": "C",
+        "node_step_index": 2,
+        "content": "Diagnosed with non\u2010resectable T3 N0 M1b (bilateral lung lesions and soft tissue chest wall metastasis) squamous subtype non-small cell lung cancer (NSCLC) in 2017 by image-guided biopsy.",
+        "clinical_data": {
+          "diagnoses": [
+            {
+              "code": "C0684248",
+              "label": "Non-Small Cell Lung Carcinoma",
+              "status": "active",
+              "onset_date": "2017"
+            },
+            {
+              "code": "C0024117",
+              "label": "Lung Neoplasms",
+              "status": "active",
+              "onset_date": "2017"
+            },
+            {
+              "code": "C0027651",
+              "label": "Metastasis",
+              "status": "active",
+              "onset_date": "2017"
+            },
+            {
+              "code": "C0206331",
+              "label": "Squamous Cell Carcinoma",
+              "status": "active",
+              "onset_date": "2017"
+            }
+          ],
+          "imaging": [
+            {
+              "modality": "other",
+              "finding": "non-resectable T3 N0 M1b (bilateral lung lesions and soft tissue chest wall metastasis)",
+              "date": "2017"
+            }
+          ]
+        }
+      }
+    },
+    {
+      "id": "N4",
+      "label": "Step 4",
+      "customData": {
+        "node_id": "D",
+        "node_step_index": 3,
+        "content": "Myeloma reasonably controlled (partial response) at time of NSCLC diagnosis with ongoing carfilzomib/daratumumab/dexamethasone 5th-line therapy. Prior myeloma treatments included lenalidomide, bortezomib, high-dose melphalan and autologous stem cell transplant, pomalidomide and dexamethasone, thalidomide, cisplatin, adriamycin, cyclophosphamide, and etoposide (DT-PACE), to which the myeloma was either refractory or the patient intolerant due to toxicity. Relevant medical history included chronic thrombocytopenia of likely autoimmune pathogenesis. Patient performance status at time of NSCLC diagnosis was ECOG 1.",
+        "clinical_data": {
+          "medications": [
+            {
+              "drug": "C0007658",
+              "dosage": null,
+              "frequency": null,
+              "modality": null,
+              "start_date": null,
+              "end_date": null,
+              "indication": "C0027051"
+            },
+            {
+              "drug": "C0701854",
+              "dosage": null,
+              "frequency": null,
+              "modality": null,
+              "start_date": null,
+              "end_date": null,
+              "indication": "C0027051"
+            },
+            {
+              "drug": "C0011571",
+              "dosage": null,
+              "frequency": null,
+              "modality": null,
+              "start_date": null,
+              "end_date": null,
+              "indication": "C0027051"
+            },
+            {
+              "drug": "C0023267",
+              "dosage": null,
+              "frequency": null,
+              "modality": null,
+              "start_date": null,
+              "end_date": null,
+              "indication": "C0027051"
+            },
+            {
+              "drug": "C0005091",
+              "dosage": null,
+              "frequency": null,
+              "modality": null,
+              "start_date": null,
+              "end_date": null,
+              "indication": "C0027051"
+            },
+            {
+              "drug": "C0032413",
+              "dosage": null,
+              "frequency": null,
+              "modality": null,
+              "start_date": null,
+              "end_date": null,
+              "indication": "C0027051"
+            },
+            {
+              "drug": "C0040064",
+              "dosage": null,
+              "frequency": null,
+              "modality": null,
+              "start_date": null,
+              "end_date": null,
+              "indication": "C0027051"
+            },
+            {
+              "drug": "C0010332",
+              "dosage": null,
+              "frequency": null,
+              "modality": null,
+              "start_date": null,
+              "end_date": null,
+              "indication": "C0027051"
+            },
+            {
+              "drug": "C0015068",
+              "dosage": null,
+              "frequency": null,
+              "modality": null,
+              "start_date": null,
+              "end_date": null,
+              "indication": "C0027051"
+            },
+            {
+              "drug": "C0012347",
+              "dosage": null,
+              "frequency": null,
+              "modality": null,
+              "start_date": null,
+              "end_date": null,
+              "indication": "C0027051"
+            }
+          ],
+          "diagnoses": [
+            {
+              "code": "C0027051",
+              "label": "Multiple Myeloma",
+              "status": "active",
+              "onset_date": null
+            },
+            {
+              "code": "C0009273",
+              "label": "Thrombocytopenia",
+              "status": "historical",
+              "onset_date": null
+            },
+            {
+              "code": "C0346819",
+              "label": "Non-small cell lung cancer",
+              "status": "active",
+              "onset_date": null
+            }
+          ],
+          "functional_status": [
+            {
+              "domain": "general",
+              "description": "Patient performance status at time of NSCLC diagnosis was ECOG 1",
+              "score": "1",
+              "scale": "ECOG"
+            }
+          ]
+        }
+      }
+    },
+    {
+      "id": "N5",
+      "label": "Step 5",
+      "customData": {
+        "node_id": "E",
+        "node_step_index": 4,
+        "content": "NSCLC biomarker analysis: PDL1 expression 70% (22C3 clone). NGS analysis: no actionable oncogenic drivers, TMB 83 mutations/Mb, TP53G245N and S121F mutations.",
+        "clinical_data": {
+          "labs": [
+            {
+              "test": "PD-L1 Expression",
+              "value": "70%",
+              "unit": "%",
+              "method": "22C3 clone"
+            },
+            {
+              "test": "Tumor Mutational Burden",
+              "value": "83",
+              "unit": "mutations/Mb"
+            }
+          ],
+          "diagnoses": [
+            {
+              "code": "TP53",
+              "label": "TP53G245N mutation",
+              "status": "active"
+            },
+            {
+              "code": "TP53",
+              "label": "TP53S121F mutation",
+              "status": "active"
+            }
+          ]
+        }
+      }
+    },
+    {
+      "id": "N6",
+      "label": "Step 6",
+      "customData": {
+        "node_id": "F",
+        "node_step_index": 5,
+        "content": "Pembrolizumab therapy commenced at 200 mg every 21 days for NSCLC.",
+        "clinical_data": {
+          "medications": [
+            {
+              "drug": "C1661222",
+              "dosage": "200 mg",
+              "frequency": "every 21 days",
+              "modality": "IV",
+              "start_date": null,
+              "end_date": null,
+              "indication": "C3266712"
+            }
+          ]
+        }
+      }
+    },
+    {
+      "id": "N7",
+      "label": "Step 7",
+      "customData": {
+        "node_id": "G",
+        "node_step_index": 6,
+        "content": "First re-staging after three months of pembrolizumab showed a partial response of the NSCLC lesions.",
+        "clinical_data": {
+          "medications": [
+            {
+              "drug": "C1661767",
+              "dosage": null,
+              "frequency": null,
+              "modality": null,
+              "start_date": null,
+              "end_date": null,
+              "indication": "C0027423"
+            }
+          ],
+          "diagnoses": [
+            {
+              "code": "C0027423",
+              "label": "Non-Small Cell Lung Carcinoma",
+              "status": "active",
+              "onset_date": null
+            }
+          ]
+        }
+      }
+    },
+    {
+      "id": "N8",
+      "label": "Step 8",
+      "customData": {
+        "node_id": "H",
+        "node_step_index": 7,
+        "content": "Patient developed grade 1 skin rash with pruritus.",
+        "clinical_data": {
+          "diagnoses": [
+            {
+              "code": "C0037284",
+              "label": "Skin Rash",
+              "status": "active"
+            },
+            {
+              "code": "C0020577",
+              "label": "Pruritus",
+              "status": "active"
+            }
+          ]
+        }
+      }
+    },
+    {
+      "id": "N9",
+      "label": "Step 9",
+      "customData": {
+        "node_id": "I",
+        "node_step_index": 8,
+        "content": "Myeloma did not respond to pembrolizumab and paraprotein levels continued to rise over 10 months of concurrent pembrolizumab and anti-myeloma therapy until clinical progression, with transfusion-dependent anaemia and severe dyspnoea and fatigue, resulting in reduced performance status [Eastern Cooperative Oncology Group (ECOG) 2].",
+        "clinical_data": {
+          "medications": [
+            {
+              "drug": "C0030705",
+              "indication": "C0027094"
+            }
+          ],
+          "diagnoses": [
+            {
+              "code": "C0027094",
+              "label": "Multiple Myeloma",
+              "status": "active"
+            }
+          ],
+          "labs": [
+            {
+              "test": "C0162335",
+              "value": "positive",
+              "flag": "abnormal"
+            }
+          ],
+          "HPI": [
+            {
+              "progression": "gradual",
+              "associated_symptoms": [
+                "C0002871",
+                "C0015672",
+                "C0015967"
+              ],
+              "duration": "10 months"
+            }
+          ],
+          "functional_status": [
+            {
+              "domain": "performance status",
+              "description": "reduced performance status",
+              "score": "2",
+              "scale": "Eastern Cooperative Oncology Group (ECOG)"
+            }
+          ]
+        }
+      }
+    },
+    {
+      "id": "N10",
+      "label": "Step 10",
+      "customData": {
+        "node_id": "J",
+        "node_step_index": 9,
+        "content": "Response evaluation by computed tomography imaging continued to demonstrate an ongoing partial response of the NSCLC.",
+        "clinical_data": {
+          "imaging": [
+            {
+              "type": "Computed tomography",
+              "body_part": "Lung",
+              "modality": "CT",
+              "finding": "Partial response",
+              "impression": "Ongoing partial response of the NSCLC"
+            }
+          ],
+          "diagnoses": [
+            {
+              "code": "C0027497",
+              "label": "NSCLC",
+              "status": "active"
+            }
+          ]
+        }
+      }
+    },
+    {
+      "id": "N11",
+      "label": "Step 11",
+      "customData": {
+        "node_id": "K",
+        "node_step_index": 10,
+        "content": "Bone marrow myeloma fluorescence in situ hybridisation analysis detected t(11;14) translocation.",
+        "clinical_data": {
+          "labs": [
+            {
+              "test": "Fluorescence in situ hybridization analysis (procedure)",
+              "value": "t(11;14) translocation detected",
+              "unit": null,
+              "flag": "abnormal",
+              "reference_range": null,
+              "timestamp": null
+            }
+          ],
+          "diagnoses": [
+            {
+              "code": "C0027094",
+              "label": "Multiple Myeloma",
+              "status": "active",
+              "onset_date": null
+            }
+          ]
+        }
+      }
+    },
+    {
+      "id": "N12",
+      "label": "Step 12",
+      "customData": {
+        "node_id": "L",
+        "node_step_index": 11,
+        "content": "July 2018: Venetoclax started with weekly dose increase from 400 to 1200 mg daily with dexamethasone 40 mg weekly, alongside ongoing pembrolizumab NSCLC therapy. Daratumumab 16 mg/kg i.v. monthly continued.",
+        "clinical_data": {
+          "medications": [
+            {
+              "drug": "C0884289",
+              "dosage": "400 to 1200 mg",
+              "frequency": "daily",
+              "modality": "oral",
+              "start_date": "2018-07",
+              "end_date": null
+            },
+            {
+              "drug": "C0011570",
+              "dosage": "40 mg",
+              "frequency": "weekly",
+              "modality": "oral",
+              "start_date": "2018-07",
+              "end_date": null
+            },
+            {
+              "drug": "C4049449",
+              "dosage": "16 mg/kg",
+              "frequency": "monthly",
+              "modality": "IV",
+              "start_date": "2018-07",
+              "end_date": null
+            },
+            {
+              "drug": "C1661205",
+              "dosage": null,
+              "frequency": null,
+              "modality": null,
+              "start_date": "2018-07",
+              "end_date": null,
+              "indication": "C0027423"
+            }
+          ]
+        }
+      }
+    },
+    {
+      "id": "N13",
+      "label": "Step 13",
+      "customData": {
+        "node_id": "M",
+        "node_step_index": 12,
+        "content": "Myeloma responded rapidly to venetoclax, reaching partial response after two cycles and very good partial response after four cycles of therapy. Haemoglobin levels normalised and severe dyspno",
+        "clinical_data": {
+          "diagnoses": [
+            {
+              "code": "C0027051",
+              "label": "Multiple Myeloma",
+              "status": "active"
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "edges": [
+    {
+      "from": "N1",
+      "to": "N2",
+      "data": {
+        "edge_id": "A_to_B",
+        "branch_flag": true,
+        "content": "Patient developed deep vein thrombosis and extensive pulmonary embolism in 2016, contributing to persistent dyspnoea."
+      }
+    },
+    {
+      "from": "N2",
+      "to": "N3",
+      "data": {
+        "edge_id": "B_to_C",
+        "branch_flag": true,
+        "content": "Patient was diagnosed with non\u2010resectable T3 N0 M1b (bilateral lung lesions and soft tissue chest wall metastasis) squamous subtype non-small cell lung cancer (NSCLC) in 2017 by image-guided biopsy.",
+        "transition_event": {
+          "trigger_type": "diagnosis",
+          "trigger_entities": [
+            "C0684248",
+            "C0024117",
+            "C0027651",
+            "C0206331"
+          ],
+          "change_type": "addition",
+          "target_domain": "diagnosis",
+          "timestamp": "2017"
+        }
+      }
+    },
+    {
+      "from": "N3",
+      "to": "N4",
+      "data": {
+        "edge_id": "C_to_D",
+        "branch_flag": true,
+        "content": "Myeloma reasonably controlled (partial response) at time of NSCLC diagnosis with ongoing carfilzomib/daratumumab/dexamethasone 5th-line therapy. Prior myeloma treatments included lenalidomide, bortezomib, high-dose melphalan and autologous stem cell transplant, pomalidomide and dexamethasone, thalidomide, cisplatin, adriamycin, cyclophosphamide, and etoposide (DT-PACE), to which the myeloma was either refractory or the patient intolerant due to toxicity. Relevant medical history included chronic thrombocytopenia of likely autoimmune pathogenesis. Patient performance status at time of NSCLC diagnosis was ECOG 1."
+      }
+    },
+    {
+      "from": "N4",
+      "to": "N5",
+      "data": {
+        "edge_id": "D_to_E",
+        "branch_flag": true,
+        "content": "NSCLC biomarker analysis: PDL1 expression 70% (22C3 clone). NGS analysis: no actionable oncogenic drivers, TMB 83 mutations/Mb, TP53G245N and S121F mutations."
+      }
+    },
+    {
+      "from": "N5",
+      "to": "N6",
+      "data": {
+        "edge_id": "E_to_F",
+        "branch_flag": true,
+        "content": "Pembrolizumab therapy commenced at 200 mg every 21 days for NSCLC.",
+        "transition_event": {
+          "trigger_type": "medication_change",
+          "trigger_entities": [
+            "C1661222"
+          ],
+          "change_type": "addition",
+          "target_domain": "medication"
+        }
+      }
+    },
+    {
+      "from": "N6",
+      "to": "N7",
+      "data": {
+        "edge_id": "F_to_G",
+        "branch_flag": true,
+        "content": "First re-staging after three months of pembrolizumab showed a partial response of the NSCLC lesions.",
+        "transition_event": {
+          "trigger_type": "imaging",
+          "trigger_entities": [
+            "C0027423"
+          ],
+          "change_type": "progression",
+          "target_domain": "imaging"
+        }
+      }
+    },
+    {
+      "from": "N7",
+      "to": "N8",
+      "data": {
+        "edge_id": "G_to_H",
+        "branch_flag": true,
+        "content": "Patient developed grade 1 skin rash with pruritus.",
+        "transition_event": {
+          "trigger_type": "symptom_onset",
+          "trigger_entities": [
+            "C0037284",
+            "C0020577"
+          ],
+          "change_type": "addition",
+          "target_domain": "symptom"
+        }
+      }
+    },
+    {
+      "from": "N8",
+      "to": "N9",
+      "data": {
+        "edge_id": "H_to_I",
+        "branch_flag": true,
+        "content": "Myeloma did not respond to pembrolizumab and paraprotein levels continued to rise over 10 months of concurrent pembrolizumab and anti-myeloma therapy until clinical progression, with transfusion-dependent anaemia and severe dyspnoea and fatigue, resulting in reduced performance status [Eastern Cooperative Oncology Group"
+      }
+    }
+  ]
+}

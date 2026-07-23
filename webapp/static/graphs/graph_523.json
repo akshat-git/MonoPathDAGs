@@ -1,0 +1,318 @@
+{
+  "nodes": [
+    {
+      "id": "N1",
+      "label": "Step 1",
+      "customData": {
+        "node_id": "A",
+        "node_step_index": 0,
+        "content": "90-year-old female admitted with dry cough. Chest radiograph: lung mass in right upper field.",
+        "clinical_data": {
+          "HPI": [
+            {
+              "summary": "90-year-old female admitted with dry cough.",
+              "associated_symptoms": [
+                "Dry cough"
+              ]
+            }
+          ],
+          "imaging": [
+            {
+              "type": "Lung mass",
+              "body_part": "Lung",
+              "modality": "X-ray",
+              "finding": "Lung mass in right upper field."
+            }
+          ]
+        }
+      }
+    },
+    {
+      "id": "N2",
+      "label": "Step 2",
+      "customData": {
+        "node_id": "B",
+        "node_step_index": 1,
+        "content": "Chest CT: tumor shadow in right upper lobe, swollen mediastinal lymph nodes in right apical area. PS score 1. No smoking history.",
+        "clinical_data": {
+          "imaging": [
+            {
+              "type": "tumor shadow",
+              "body_part": "right upper lobe",
+              "modality": "CT",
+              "finding": "tumor shadow in right upper lobe, swollen mediastinal lymph nodes in right apical area"
+            }
+          ],
+          "social_history": [
+            {
+              "category": "smoking",
+              "status": "never"
+            }
+          ],
+          "functional_status": [
+            {
+              "domain": "general",
+              "description": "PS score 1",
+              "score": "1",
+              "scale": "PS score"
+            }
+          ]
+        }
+      }
+    },
+    {
+      "id": "N3",
+      "label": "Step 3",
+      "customData": {
+        "node_id": "C",
+        "node_step_index": 2,
+        "content": "CEA 5.5 ng/mL, cytokeratin fragment 12.68 ng/mL, progastrin\u2010releasing peptide 83.24 pg/mL. PET\u2010CT: SUVmax 26.0 (right upper lobe mass), 12.8 (right hilar lymph nodes), 17.7 (ipsilateral mediastinal lymph nodes), 4.8 (left adrenal gland). Suspected cT3N2M1b (ADR), stage IVA lung cancer.",
+        "clinical_data": {
+          "labs": [
+            {
+              "test": "C0009264",
+              "value": "5.5",
+              "unit": "ng/mL"
+            },
+            {
+              "test": "Cytokeratin",
+              "value": "12.68",
+              "unit": "ng/mL"
+            },
+            {
+              "test": "Pro-Gastrin-Releasing Peptide",
+              "value": "83.24",
+              "unit": "pg/mL"
+            }
+          ],
+          "imaging": [
+            {
+              "type": "Positron emission tomography and computed tomography",
+              "body_part": "Lung",
+              "modality": "PET",
+              "finding": "SUVmax 26.0 (right upper lobe mass), 12.8 (right hilar lymph nodes), 17.7 (ipsilateral mediastinal lymph nodes), 4.8 (left adrenal gland)"
+            }
+          ],
+          "diagnoses": [
+            {
+              "code": "C0024117",
+              "label": "Lung Cancer",
+              "status": "suspected",
+              "onset_date": null
+            }
+          ]
+        }
+      }
+    },
+    {
+      "id": "N4",
+      "label": "Step 4",
+      "customData": {
+        "node_id": "D",
+        "node_step_index": 3,
+        "content": "CT-guided needle biopsy: squamous cell carcinoma. EGFR mutation (exon 21: L858R), PD\u2010L1 TPS >75%.",
+        "clinical_data": {
+          "imaging": [
+            {
+              "type": "Needle biopsy",
+              "body_part": "lung",
+              "modality": "CT",
+              "finding": "squamous cell carcinoma"
+            }
+          ],
+          "diagnoses": [
+            {
+              "code": "C0007123",
+              "label": "Squamous Cell Carcinoma",
+              "status": "active"
+            }
+          ],
+          "labs": [
+            {
+              "test": "Epidermal Growth Factor Receptor Mutation Analysis",
+              "value": "L858R",
+              "unit": "exon 21",
+              "flag": "abnormal"
+            },
+            {
+              "test": "Programmed cell death 1 ligand 1 Test",
+              "value": ">75%",
+              "unit": "%",
+              "flag": "abnormal"
+            }
+          ]
+        }
+      }
+    },
+    {
+      "id": "N5",
+      "label": "Step 5",
+      "customData": {
+        "node_id": "E",
+        "node_step_index": 4,
+        "content": "Three cycles pembrolizumab: increased primary lesion, right subclavian and mediastinal lymph node size, right-sided pleural effusion. Poor performance status.",
+        "clinical_data": {
+          "medications": [
+            {
+              "drug": "C1662176",
+              "dosage": null,
+              "frequency": null,
+              "modality": null,
+              "start_date": null,
+              "end_date": null,
+              "indication": null
+            }
+          ],
+          "imaging": [
+            {
+              "type": "C0205340",
+              "body_part": "C0025372",
+              "modality": null,
+              "finding": "increased primary lesion",
+              "impression": null,
+              "date": null
+            },
+            {
+              "type": "C0205340",
+              "body_part": "C0024868",
+              "modality": null,
+              "finding": "increased mediastinal lymph node size",
+              "impression": null,
+              "date": null
+            },
+            {
+              "type": "C0205340",
+              "body_part": "C0035407",
+              "modality": null,
+              "finding": "increased right subclavian lymph node size",
+              "impression": null,
+              "date": null
+            }
+          ],
+          "diagnoses": [
+            {
+              "code": "C0031070",
+              "label": "Pleural Effusion",
+              "status": "active",
+              "onset_date": null
+            }
+          ],
+          "functional_status": [
+            {
+              "domain": "ADLs",
+              "description": "Poor performance status",
+              "score": null,
+              "scale": null
+            }
+          ]
+        }
+      }
+    },
+    {
+      "id": "N6",
+      "label": "Step 6",
+      "customData": {
+        "node_id": "F",
+        "node_step_index": 5,
+        "content": "Patient died six months from first visit.",
+        "clinical_data": {
+          "diagnoses": [
+            {
+              "code": "ICD10",
+              "label": "Death",
+              "status": "resolved",
+              "onset_date": null
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "edges": [
+    {
+      "from": "N1",
+      "to": "N2",
+      "data": {
+        "edge_id": "A_to_B",
+        "branch_flag": true,
+        "content": "Initial presentation and further imaging",
+        "transition_event": {
+          "trigger_type": "imaging",
+          "trigger_entities": [
+            "C0024117"
+          ],
+          "change_type": "progression",
+          "target_domain": "imaging"
+        }
+      }
+    },
+    {
+      "from": "N2",
+      "to": "N3",
+      "data": {
+        "edge_id": "B_to_C",
+        "branch_flag": true,
+        "content": "Lab tests and PET-CT imaging performed for staging",
+        "transition_event": {
+          "trigger_type": "lab_change",
+          "trigger_entities": [
+            "C0009264",
+            "Cytokeratin",
+            "Pro-Gastrin-Releasing Peptide"
+          ],
+          "change_type": "addition",
+          "target_domain": "lab"
+        }
+      }
+    },
+    {
+      "from": "N3",
+      "to": "N4",
+      "data": {
+        "edge_id": "C_to_D",
+        "branch_flag": true,
+        "content": "Biopsy confirms squamous cell carcinoma with EGFR mutation and high PD-L1 expression.",
+        "transition_event": {
+          "trigger_type": "procedure",
+          "trigger_entities": [
+            "C0007123"
+          ],
+          "change_type": "addition",
+          "target_domain": "diagnosis"
+        }
+      }
+    },
+    {
+      "from": "N4",
+      "to": "N5",
+      "data": {
+        "edge_id": "D_to_E",
+        "branch_flag": true,
+        "content": "Treatment with pembrolizumab and subsequent disease progression.",
+        "transition_event": {
+          "trigger_type": "medication_change",
+          "trigger_entities": [
+            "C1662176"
+          ],
+          "change_type": "addition",
+          "target_domain": "medication"
+        }
+      }
+    },
+    {
+      "from": "N5",
+      "to": "N6",
+      "data": {
+        "edge_id": "E_to_F",
+        "branch_flag": true,
+        "content": "Patient's condition deteriorated, leading to death.",
+        "transition_event": {
+          "trigger_type": "spontaneous",
+          "trigger_entities": [],
+          "change_type": "progression",
+          "target_domain": "functional_status"
+        }
+      }
+    }
+  ]
+}

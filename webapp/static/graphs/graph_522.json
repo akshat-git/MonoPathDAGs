@@ -1,0 +1,93 @@
+{
+  "nodes": [
+    {
+      "id": "N1",
+      "label": "Step 1",
+      "customData": {
+        "node_id": "A",
+        "node_step_index": 0,
+        "content": "Morning serum cortisol: 11.1 ug/dL [306 nmol/L] (2.5-19.5 ug/dL; 69-538 nmol/L). ACTH: 26.4 pg/mL [5.81 pmol/L] (7.2-63.3 pg/mL; 1.59-13.9 pmol/L).",
+        "clinical_data": {
+          "labs": [
+            {
+              "test": "Cortisol measurement",
+              "value": "11.1",
+              "unit": "ug/dL",
+              "reference_range": "2.5-19.5 ug/dL",
+              "flag": "normal"
+            },
+            {
+              "test": "C0001595",
+              "value": "26.4",
+              "unit": "pg/mL",
+              "reference_range": "7.2-63.3 pg/mL",
+              "flag": "normal"
+            }
+          ]
+        }
+      }
+    },
+    {
+      "id": "N2",
+      "label": "Step 2",
+      "customData": {
+        "node_id": "B",
+        "node_step_index": 1,
+        "content": "Cosyntropin stimulation test: serum cortisol prior to administration of cosyntropin was 21.9 ug/dL [604 nmol/L] and serum cortisol 30 minutes following administration 26.1 ug/dL [720 nmol/L].",
+        "clinical_data": {
+          "labs": [
+            {
+              "test": "Cortisol Measurement (TUI:2250)",
+              "value": "21.9",
+              "unit": "ug/dL",
+              "timestamp": null
+            },
+            {
+              "test": "Cortisol Measurement (TUI:2250)",
+              "value": "604",
+              "unit": "nmol/L",
+              "timestamp": null
+            },
+            {
+              "test": "Cortisol Measurement (TUI:2250)",
+              "value": "26.1",
+              "unit": "ug/dL",
+              "timestamp": null
+            },
+            {
+              "test": "Cortisol Measurement (TUI:2250)",
+              "value": "720",
+              "unit": "nmol/L",
+              "timestamp": null
+            }
+          ],
+          "procedures": [
+            {
+              "name": "Cosyntropin stimulation test",
+              "date": null
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "edges": [
+    {
+      "from": "N1",
+      "to": "N2",
+      "data": {
+        "edge_id": "A_to_B",
+        "branch_flag": true,
+        "content": "Cosyntropin stimulation test performed.",
+        "transition_event": {
+          "trigger_type": "procedure",
+          "trigger_entities": [
+            "C0157341"
+          ],
+          "change_type": "addition",
+          "target_domain": "procedure"
+        }
+      }
+    }
+  ]
+}

@@ -1,0 +1,420 @@
+{
+  "nodes": [
+    {
+      "id": "N1",
+      "label": "Step 1",
+      "customData": {
+        "node_id": "A",
+        "node_step_index": 0,
+        "content": "39-year-old female with a positive family history of mutated BAP1 gene and confirmed BAP1 mutation chr3.52406884A>G, c.604T>C, p. Trp202Arg, presented with shortness of breath due to recurrent right-sided pleural effusion requiring four thoracocentesis in the last 5 years, two of which were in 2020. The patient reported shortness of breath on exertion that limited her exercise tolerance to 100 meters, starting 5 years prior to presentation. Physical examination revealed decreased breath sounds on the right side.",
+        "clinical_data": {
+          "HPI": [
+            {
+              "summary": "39-year-old female presented with shortness of breath due to recurrent right-sided pleural effusion requiring four thoracocentesis in the last 5 years, two of which were in 2020.",
+              "duration": "5 years",
+              "onset": "5 years prior to presentation",
+              "progression": "unknown",
+              "associated_symptoms": [
+                "shortness of breath on exertion",
+                "decreased breath sounds on the right side"
+              ],
+              "alleviating_factors": [],
+              "exacerbating_factors": []
+            }
+          ],
+          "diagnoses": [
+            {
+              "code": "C0031248",
+              "label": "Pleural Effusion",
+              "status": "active",
+              "onset_date": null
+            }
+          ],
+          "procedures": [
+            {
+              "name": "C0042176",
+              "approach": "percutaneous",
+              "date": "2020",
+              "location": "Right Pleural Cavity",
+              "performed_by": "unknown",
+              "outcome": "unknown"
+            },
+            {
+              "name": "C0042176",
+              "approach": "percutaneous",
+              "date": "2020",
+              "location": "Right Pleural Cavity",
+              "performed_by": "unknown",
+              "outcome": "unknown"
+            },
+            {
+              "name": "C0042176",
+              "approach": "percutaneous",
+              "date": "unknown",
+              "location": "Right Pleural Cavity",
+              "performed_by": "unknown",
+              "outcome": "unknown"
+            },
+            {
+              "name": "C0042176",
+              "approach": "percutaneous",
+              "date": "unknown",
+              "location": "Right Pleural Cavity",
+              "performed_by": "unknown",
+              "outcome": "unknown"
+            }
+          ],
+          "social_history": [
+            {
+              "category": "family history",
+              "status": "positive",
+              "description": "mutated BAP1 gene and confirmed BAP1 mutation chr3.52406884A>G, c.604T>C, p. Trp202Arg"
+            }
+          ],
+          "ROS": [
+            {
+              "system": "respiratory",
+              "findings": [
+                "C0030541"
+              ]
+            }
+          ]
+        }
+      }
+    },
+    {
+      "id": "N2",
+      "label": "Step 2",
+      "customData": {
+        "node_id": "B",
+        "node_step_index": 1,
+        "timestamp": "2020-08",
+        "content": "Contrast-enhanced CT of the chest revealed a large right-sided pleural effusion causing left mediastinal shift, thickened pleura, and a collapsed lung.",
+        "clinical_data": {
+          "imaging": [
+            {
+              "type": "Computed tomography angiography",
+              "body_part": "Chest",
+              "modality": "CT",
+              "finding": "Large right-sided pleural effusion causing left mediastinal shift, thickened pleura, and a collapsed lung."
+            }
+          ]
+        }
+      }
+    },
+    {
+      "id": "N3",
+      "label": "Step 3",
+      "customData": {
+        "node_id": "C",
+        "node_step_index": 2,
+        "timestamp": "2020-10",
+        "content": "Abdomino-pelvic CT scan showed enlarged left hepatic pole, splenomegaly, para-aortic lymph nodes and ovarian cyst.",
+        "clinical_data": {
+          "imaging": [
+            {
+              "type": "Computed tomography of abdomen and pelvis",
+              "body_part": "Abdomen and pelvis",
+              "modality": "CT",
+              "finding": "enlarged left hepatic pole, splenomegaly, para-aortic lymph nodes and ovarian cyst",
+              "date": null
+            }
+          ]
+        }
+      }
+    },
+    {
+      "id": "N4",
+      "label": "Step 4",
+      "customData": {
+        "node_id": "D",
+        "node_step_index": 3,
+        "timestamp": "2020-10",
+        "content": "Follow up CT scan showed a large amount of partially loculated right pleural effusion with a small amount of left pleural effusion.",
+        "clinical_data": {
+          "imaging": [
+            {
+              "type": "CT scan",
+              "body_part": "pleural cavity",
+              "modality": "CT",
+              "finding": "large amount of partially loculated right pleural effusion with a small amount of left pleural effusion"
+            }
+          ]
+        }
+      }
+    },
+    {
+      "id": "N5",
+      "label": "Step 5",
+      "customData": {
+        "node_id": "E",
+        "node_step_index": 4,
+        "timestamp": "2020-10-26",
+        "content": "Patient referred for Uniportal VATS to evacuate right pleural effusion and take pleural and lung biopsies for diagnosis.",
+        "clinical_data": {
+          "procedures": [
+            {
+              "name": "Video-assisted thoracoscopic surgery",
+              "approach": "other",
+              "date": null,
+              "location": "right pleura",
+              "performed_by": null,
+              "outcome": null
+            },
+            {
+              "name": "Biopsy",
+              "approach": null,
+              "date": null,
+              "location": "pleura",
+              "performed_by": null,
+              "outcome": null
+            },
+            {
+              "name": "Biopsy",
+              "approach": null,
+              "date": null,
+              "location": "lung",
+              "performed_by": null,
+              "outcome": null
+            },
+            {
+              "name": "Evacuation",
+              "approach": null,
+              "date": null,
+              "location": "right pleura",
+              "performed_by": null,
+              "outcome": null
+            }
+          ],
+          "imaging": [
+            {
+              "type": "Pleural Effusion",
+              "body_part": "right pleura",
+              "modality": null,
+              "finding": null,
+              "impression": null,
+              "date": null
+            }
+          ]
+        }
+      }
+    },
+    {
+      "id": "N6",
+      "label": "Step 6",
+      "customData": {
+        "node_id": "F",
+        "node_step_index": 5,
+        "content": "Laboratory evaluation showed leukocytosis (WBCs count = 19.4) and high neutrophils count = 17.6.",
+        "clinical_data": {
+          "labs": [
+            {
+              "test": "White blood cell count",
+              "value": "19.4",
+              "unit": "K/uL",
+              "flag": "abnormal"
+            },
+            {
+              "test": "Neutrophil count",
+              "value": "17.6",
+              "unit": "K/uL",
+              "flag": "abnormal"
+            }
+          ]
+        }
+      }
+    },
+    {
+      "id": "N7",
+      "label": "Step 7",
+      "customData": {
+        "node_id": "G",
+        "node_step_index": 6,
+        "content": "Pathology report of right upper and lower lung lobes biopsies showed atypical mesothelial proliferation highlighted by cytokeratin 5/6, WT1, Calretinin, Pan-CK and mesothelin immunostains. TTF1 was negative. Pleural tissue showed atypical mesothelial proliferation with predominance of trabecular/compressed tubular growth pattern within a sclerotic stroma, and the pattern of growth was acinar with grade I nuclear features (well-differentiated). Mitotic count is (0\u20131) mitosis/10 high-power fields.",
+        "clinical_data": {
+          "imaging": [
+            {
+              "body_part": "Lung",
+              "modality": "biopsy",
+              "finding": "atypical mesothelial proliferation",
+              "date": null
+            }
+          ],
+          "diagnoses": [
+            {
+              "code": "C0206318",
+              "label": "Mesothelioma",
+              "status": "active",
+              "onset_date": null
+            }
+          ]
+        }
+      }
+    },
+    {
+      "id": "N8",
+      "label": "Step 8",
+      "customData": {
+        "node_id": "H",
+        "node_step_index": 7,
+        "content": "Pathology report showed minimal invasion of the lung highlighted by pan-ck immunostain. Cytology of the right pleural fluid revealed sheets of mesothelial cells with moderate nuclear atypia in addition to pigment laden macrophages. The overall findings of biopsies inclined toward malignant pleural mesothelioma, epithelioid subtype with low-grade features, without infiltration to underlying tissue (lung or chest wall).",
+        "clinical_data": {
+          "diagnoses": [
+            {
+              "code": "C45.0",
+              "label": "Malignant mesothelioma of pleura",
+              "status": "active"
+            }
+          ],
+          "labs": [
+            {
+              "test": "Pleural Fluid Cytology",
+              "finding": "Sheets of mesothelial cells with moderate nuclear atypia",
+              "finding2": "Pigment laden macrophages",
+              "date": null
+            }
+          ],
+          "imaging": [
+            {
+              "type": "Lung",
+              "modality": "biopsy",
+              "finding": "minimal invasion",
+              "date": null
+            }
+          ]
+        }
+      }
+    },
+    {
+      "id": "N9",
+      "label": "Step 9",
+      "customData": {
+        "node_id": "I",
+        "node_step_index": 8,
+        "timestamp": "2020-11-04",
+        "content": "18F-FDG PET/CT whole body scan showed no evidence of hypermetabolic pulmonary or pleural nodules, marked right sided pleural effusion with atelectatic changes and mild left sided pleural effusion.",
+        "clinical_data": {
+          "imaging": [
+            {
+              "type": "18F-FDG PET/CT whole body scan",
+              "body_part": "whole body",
+              "modality": "PET",
+              "finding": "no evidence of hypermetabolic pulmonary or pleural nodules, marked right sided pleural effusion with atelectatic changes and mild left sided pleural effusion"
+            }
+          ]
+        }
+      }
+    },
+    {
+      "id": "N10",
+      "label": "Step 10",
+      "customData": {
+        "node_id": "J",
+        "node_step_index": 9,
+        "timestamp": "2020-12-14",
+        "content": "Chest x-ray and CT scan revealed a large amount of right sided pleural effusion causing left mediastinal shift and right lung collapse, with mild left pleural effusion, and a small amount of pericardial effusion. No significant mediastinal, hilar or axillary lymphadenopathy were noted. No pulmonary parenchymal mass or consolidation detected or definite",
+        "clinical_data": {
+          "imaging": [
+            {
+              "type": "Radiography (procedure)",
+              "body_part": "Thorax",
+              "modality": "X-ray",
+              "finding": "large amount of right sided pleural effusion causing left mediastinal shift and right lung collapse, with mild left pleural effusion, and a small amount of pericardial effusion",
+              "impression": "large amount of right sided pleural effusion causing left mediastinal shift and right lung collapse, with mild left pleural effusion, and a small amount of pericardial effusion"
+            },
+            {
+              "type": "Computed tomography",
+              "body_part": "Thorax",
+              "modality": "CT",
+              "finding": "large amount of right sided pleural effusion causing left mediastinal shift and right lung collapse, with mild left pleural effusion, and a small amount of pericardial effusion",
+              "impression": "large amount of right sided pleural effusion causing left mediastinal shift and right lung collapse, with mild left pleural effusion, and a small amount of pericardial effusion"
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "edges": [
+    {
+      "from": "N1",
+      "to": "N2",
+      "data": {
+        "edge_id": "A_to_B",
+        "branch_flag": true,
+        "content": "Patient developed large right-sided pleural effusion causing left mediastinal shift, thickened pleura, and a collapsed lung."
+      }
+    },
+    {
+      "from": "N2",
+      "to": "N3",
+      "data": {
+        "edge_id": "B_to_C",
+        "branch_flag": true,
+        "content": "Abdomino-pelvic CT scan showed enlarged left hepatic pole, splenomegaly, para-aortic lymph nodes and ovarian cyst."
+      }
+    },
+    {
+      "from": "N3",
+      "to": "N4",
+      "data": {
+        "edge_id": "C_to_D",
+        "branch_flag": true,
+        "content": "Follow up CT scan showed a large amount of partially loculated right pleural effusion with a small amount of left pleural effusion."
+      }
+    },
+    {
+      "from": "N4",
+      "to": "N5",
+      "data": {
+        "edge_id": "D_to_E",
+        "branch_flag": true,
+        "content": "Patient referred for Uniportal VATS to evacuate right pleural effusion and take pleural and lung biopsies for diagnosis."
+      }
+    },
+    {
+      "from": "N5",
+      "to": "N6",
+      "data": {
+        "edge_id": "E_to_F",
+        "branch_flag": true,
+        "content": "Laboratory evaluation showed leukocytosis (WBCs count = 19.4) and high neutrophils count = 17.6."
+      }
+    },
+    {
+      "from": "N6",
+      "to": "N7",
+      "data": {
+        "edge_id": "F_to_G",
+        "branch_flag": true,
+        "content": "Pathology report of right upper and lower lung lobes biopsies showed atypical mesothelial proliferation highlighted by cytokeratin 5/6, WT1, Calretinin, Pan-CK and mesothelin immunostains. TTF1 was negative. Pleural tissue showed atypical mesothelial proliferation with predominance of trabecular/compressed tubular growth pattern within a sclerotic stroma, and the pattern of growth was acinar with grade I nuclear features (well-differentiated). Mitotic count is (0\u20131) mitosis/10 high-power fields."
+      }
+    },
+    {
+      "from": "N7",
+      "to": "N8",
+      "data": {
+        "edge_id": "G_to_H",
+        "branch_flag": true,
+        "content": "Pathology report showed minimal invasion of the lung highlighted by pan-ck immunostain. Cytology of the right pleural fluid revealed sheets of mesothelial cells with moderate nuclear atypia in addition to pigment laden macrophages. The overall findings of biopsies inclined toward malignant pleural mesothelioma, epithelioid subtype with low-grade features, without infiltration to underlying tissue (lung or chest wall)."
+      }
+    },
+    {
+      "from": "N8",
+      "to": "N9",
+      "data": {
+        "edge_id": "H_to_I",
+        "branch_flag": true,
+        "content": "18F-FDG PET/CT whole body scan showed no evidence of hypermetabolic pulmonary or pleural nodules, marked right sided pleural effusion with atelectatic changes and mild left sided pleural effusion."
+      }
+    },
+    {
+      "from": "N9",
+      "to": "N10",
+      "data": {
+        "edge_id": "I_to_J",
+        "branch_flag": true,
+        "content": "Chest x-ray and CT scan revealed a large amount of right sided pleural effusion causing left mediastinal shift and right lung collapse, with mild left pleural effusion, and a small amount of pericardial effusion. No significant mediastinal, hilar or axillary lymphadenopathy were noted. No pulmonary parenchymal mass or consolidation detected or definite"
+      }
+    }
+  ]
+}

@@ -1,0 +1,197 @@
+{
+  "nodes": [
+    {
+      "id": "N1",
+      "label": "Step 1",
+      "customData": {
+        "node_id": "A",
+        "node_step_index": 0,
+        "content": "Patient in her 60s presented with new onset perianal swellings associated with anal itching for 3 months, worsening constipation, and slight increase in fatigue.",
+        "clinical_data": {
+          "HPI": [
+            {
+              "summary": "Patient in her 60s presented with new onset perianal swellings associated with anal itching for 3 months, worsening constipation, and slight increase in fatigue.",
+              "duration": "3 months",
+              "onset": "new onset",
+              "progression": "worsening",
+              "associated_symptoms": [
+                "itching",
+                "constipation",
+                "fatigue"
+              ]
+            }
+          ]
+        }
+      }
+    },
+    {
+      "id": "N2",
+      "label": "Step 2",
+      "customData": {
+        "node_id": "B",
+        "node_step_index": 1,
+        "content": "Patient underwent peritonectomy, omentectomy, hysteroadnexectomy and subtotal colectomy plus hyperthermic intraperitoneal chemotherapy with cisplatin and doxorubicin 10 months prior due to malignant peritoneal mesothelioma, epithelioid type. Adjuvant chemotherapy with cisplatin and pemetrexed was administered for 6 months after surgery.",
+        "clinical_data": {
+          "procedures": [
+            {
+              "name": "Peritonectomy",
+              "date": "UNKNOWN"
+            },
+            {
+              "name": "Omentectomy",
+              "date": "UNKNOWN"
+            },
+            {
+              "name": "Hysteroadnexectomy",
+              "date": "UNKNOWN"
+            },
+            {
+              "name": "Subtotal colectomy",
+              "date": "UNKNOWN"
+            },
+            {
+              "name": "Hyperthermic intraperitoneal chemotherapy",
+              "date": "UNKNOWN"
+            }
+          ],
+          "medications": [
+            {
+              "drug": "cisplatin",
+              "modality": "intraperitoneal",
+              "start_date": "UNKNOWN",
+              "end_date": "UNKNOWN",
+              "indication": "Malignant peritoneal mesothelioma, epithelioid type"
+            },
+            {
+              "drug": "doxorubicin",
+              "modality": "intraperitoneal",
+              "start_date": "UNKNOWN",
+              "end_date": "UNKNOWN",
+              "indication": "Malignant peritoneal mesothelioma, epithelioid type"
+            },
+            {
+              "drug": "cisplatin",
+              "modality": "IV",
+              "start_date": "UNKNOWN",
+              "end_date": "UNKNOWN",
+              "indication": "Malignant peritoneal mesothelioma, epithelioid type"
+            },
+            {
+              "drug": "pemetrexed",
+              "modality": "IV",
+              "start_date": "UNKNOWN",
+              "end_date": "UNKNOWN",
+              "indication": "Malignant peritoneal mesothelioma, epithelioid type"
+            }
+          ],
+          "diagnoses": [
+            {
+              "code": "C45.1",
+              "label": "Malignant mesothelioma of peritoneum",
+              "status": "historical",
+              "onset_date": "UNKNOWN"
+            }
+          ]
+        }
+      }
+    },
+    {
+      "id": "N3",
+      "label": "Step 3",
+      "customData": {
+        "node_id": "C",
+        "node_step_index": 2,
+        "content": "Physical exam revealed two subcentimeter, solid lesions in the perineal region: one at the right anterolateral quadrant and another at the anterior perianal quadrant near the vagina, without local inflammation. Lab tests showed no leucocytosis or systemic inflammation. Tumor markers were normal. Whole-body CT and pelvic MRI showed extraperitoneal thickening of the mesorectum surrounding the middle-lower rectum.",
+        "clinical_data": {
+          "imaging": [
+            {
+              "type": "Imaging Procedure",
+              "body_part": "Perineal Region",
+              "modality": "Physical exam",
+              "finding": "two subcentimeter, solid lesions",
+              "impression": "two subcentimeter, solid lesions in the perineal region: one at the right anterolateral quadrant and another at the anterior perianal quadrant near the vagina, without local inflammation."
+            },
+            {
+              "type": "Computed tomography",
+              "body_part": "Whole body",
+              "modality": "CT",
+              "finding": "extraperitoneal thickening of the mesorectum surrounding the middle-lower rectum."
+            },
+            {
+              "type": "Magnetic resonance imaging",
+              "body_part": "Pelvis",
+              "modality": "MRI",
+              "finding": "extraperitoneal thickening of the mesorectum surrounding the middle-lower rectum."
+            }
+          ],
+          "labs": [
+            {
+              "test": "Leukocytosis",
+              "value": "no",
+              "flag": "normal"
+            },
+            {
+              "test": "Systemic inflammation",
+              "value": "no",
+              "flag": "normal"
+            },
+            {
+              "test": "Tumor markers",
+              "value": "normal",
+              "flag": "normal"
+            }
+          ]
+        }
+      }
+    },
+    {
+      "id": "N4",
+      "label": "Step 4",
+      "customData": {
+        "node_id": "D",
+        "node_step_index": 3,
+        "content": "PET scan showed non-homogeneous increased uptake of 18F-fluorodeoxyglucose in the mesorectum, with greater metabolic activity in the perineum and along the rectovaginal septum. No other pathological uptake was identified.",
+        "clinical_data": {
+          "imaging": [
+            {
+              "type": "Positron emission tomography",
+              "body_part": "Mesorectum",
+              "modality": "PET",
+              "finding": "Non-homogeneous increased uptake of 18F-fluorodeoxyglucose",
+              "impression": "Greater metabolic activity in the perineum and along the rectovaginal septum. No other pathological uptake was identified."
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "edges": [
+    {
+      "from": "N1",
+      "to": "N2",
+      "data": {
+        "edge_id": "A_to_B",
+        "branch_flag": true,
+        "content": "Interval history of malignant peritoneal mesothelioma, epithelioid type, treated with peritonectomy, omentectomy, hysteroadnexectomy and subtotal colectomy plus hyperthermic intraperitoneal chemotherapy with cisplatin and doxorubicin 10 months prior, followed by adjuvant chemotherapy with cisplatin and pemetrexed for 6 months."
+      }
+    },
+    {
+      "from": "N2",
+      "to": "N3",
+      "data": {
+        "edge_id": "B_to_C",
+        "branch_flag": true,
+        "content": "Physical exam revealed two subcentimeter, solid lesions in the perineal region: one at the right anterolateral quadrant and another at the anterior perianal quadrant near the vagina, without local inflammation. Lab tests showed no leucocytosis or systemic inflammation. Tumor markers were normal. Whole-body CT and pelvic MRI showed extraperitoneal thickening of the mesorectum surrounding the middle-lower rectum."
+      }
+    },
+    {
+      "from": "N3",
+      "to": "N4",
+      "data": {
+        "edge_id": "C_to_D",
+        "branch_flag": true,
+        "content": "PET scan showed non-homogeneous increased uptake of 18F-fluorodeoxyglucose in the mesorectum, with greater metabolic activity in the perineum and along the rectovaginal septum. No other pathological uptake was identified."
+      }
+    }
+  ]
+}

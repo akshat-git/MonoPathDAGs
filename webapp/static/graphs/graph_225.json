@@ -1,0 +1,399 @@
+{
+  "nodes": [
+    {
+      "id": "N1",
+      "label": "Step 1",
+      "customData": {
+        "node_id": "A",
+        "node_step_index": 0,
+        "content": "56-year-old female presented with a left lower quadrant mass in proximity to the bowel. CT imaging showed the mass was partially calcified. Patient underwent resection of a mass along with segmental small bowel resection.",
+        "clinical_data": {
+          "imaging": [
+            {
+              "type": "Mass (finding)",
+              "body_part": "Left lower quadrant",
+              "modality": "CT",
+              "finding": "Partially calcified",
+              "date": null
+            }
+          ],
+          "procedures": [
+            {
+              "name": "Resection",
+              "date": null,
+              "location": "Left lower quadrant",
+              "outcome": null
+            },
+            {
+              "name": "Small bowel resection, segmental",
+              "date": null,
+              "location": "Small bowel",
+              "outcome": null
+            }
+          ],
+          "diagnoses": [
+            {
+              "code": "C0024842",
+              "label": "Mass",
+              "status": "active",
+              "onset_date": null
+            }
+          ]
+        }
+      }
+    },
+    {
+      "id": "N2",
+      "label": "Step 2",
+      "customData": {
+        "node_id": "B",
+        "node_step_index": 1,
+        "content": "49-year-old male was found to have omental thickening in the pelvis and right lower quadrant, reminiscent of peritoneal \u201ccarcinomatosis\u201d, incidentally found during a hernia repair. Patient had a remote history of osteosarcoma more than 3 decades ago that was treated with chemotherapy with complete response. 49-year-old male had vague nodularity in the peritoneum (bladder, side wall, mesoappendix, bowel, perirectal), largest nodule 0.8 cm, incidentally identified during hernia repair.",
+        "clinical_data": {
+          "diagnoses": [
+            {
+              "code": "C48.8",
+              "label": "Malignant neoplasm of overlapping sites of peritoneum",
+              "status": "suspected",
+              "onset_date": null
+            },
+            {
+              "code": "91852004",
+              "label": "Osteosarcoma",
+              "status": "historical",
+              "onset_date": null
+            }
+          ],
+          "imaging": [
+            {
+              "type": "Finding of omentum",
+              "body_part": "Omentum",
+              "modality": "other",
+              "finding": "thickening in the pelvis and right lower quadrant",
+              "impression": "reminiscent of peritoneal carcinomatosis",
+              "date": null
+            }
+          ],
+          "procedures": [
+            {
+              "name": "Hernia repair",
+              "approach": "other",
+              "date": null,
+              "location": "pelvis and right lower quadrant",
+              "performed_by": null,
+              "outcome": null
+            }
+          ]
+        }
+      }
+    },
+    {
+      "id": "N3",
+      "label": "Step 3",
+      "customData": {
+        "node_id": "C",
+        "node_step_index": 2,
+        "content": "67-year-old female with a history of hemicolectomy for early-stage colonic adenocarcinoma 5 years ago, presented with a mass at the gastrohepatic ligament incidentally identified by surveillance imaging. Patient underwent resection of the mass. Patient diagnosed with malignant mesothelioma via biopsy. Patient underwent cytoreductive surgery that included total pelvic peritonectomy to resect all gross lesions and removal of hernia mesh, followed by 4 cycles of adjuvant intraperitoneal chemotherapy (cisplatin/mitomycin). Follow-up imaging showed no recurrence or progression of disease in the 67-year-old female. 67-year-old female had a 3.5 cm unifocal mass in the gastrohepatic omentum incidentally identified by imaging. Patient underwent surgical resection. Patient underwent surgical cytoreduction followed by intraperitoneal chemotherapy (cisplatin, mitomycin). Patient is alive with no evidence of disease at 24 months follow-up.",
+        "clinical_data": {
+          "diagnoses": [
+            {
+              "code": "C18",
+              "label": "Malignant neoplasm of colon",
+              "status": "historical",
+              "onset_date": null
+            },
+            {
+              "code": "C45",
+              "label": "Mesothelioma",
+              "status": "active",
+              "onset_date": null
+            }
+          ],
+          "procedures": [
+            {
+              "name": "Hemicolectomy",
+              "approach": "open",
+              "date": null,
+              "location": "colon",
+              "performed_by": null,
+              "outcome": null
+            },
+            {
+              "name": "Resection of mass",
+              "approach": "open",
+              "date": null,
+              "location": "gastrohepatic ligament",
+              "performed_by": null,
+              "outcome": null
+            },
+            {
+              "name": "Cytoreductive surgery",
+              "approach": "open",
+              "date": null,
+              "location": "pelvis",
+              "performed_by": null,
+              "outcome": null
+            },
+            {
+              "name": "Total pelvic peritonectomy",
+              "approach": "open",
+              "date": null,
+              "location": "pelvis",
+              "performed_by": null,
+              "outcome": null
+            },
+            {
+              "name": "Surgical resection",
+              "approach": "open",
+              "date": null,
+              "location": "gastrohepatic omentum",
+              "performed_by": null,
+              "outcome": null
+            },
+            {
+              "name": "Surgical cytoreduction",
+              "approach": "open",
+              "date": null,
+              "location": null,
+              "performed_by": null,
+              "outcome": null
+            }
+          ],
+          "medications": [
+            {
+              "drug": "cisplatin",
+              "dosage": null,
+              "frequency": null,
+              "modality": "intraperitoneal",
+              "start_date": null,
+              "end_date": null,
+              "indication": "Malignant mesothelioma"
+            },
+            {
+              "drug": "mitomycin",
+              "dosage": null,
+              "frequency": null,
+              "modality": "intraperitoneal",
+              "start_date": null,
+              "end_date": null,
+              "indication": "Malignant mesothelioma"
+            }
+          ],
+          "imaging": [
+            {
+              "type": "Imaging",
+              "body_part": "gastrohepatic ligament",
+              "modality": null,
+              "finding": "mass",
+              "impression": null,
+              "date": null
+            },
+            {
+              "type": "Imaging",
+              "body_part": "gastrohepatic omentum",
+              "modality": null,
+              "finding": "3.5 cm unifocal mass",
+              "impression": null,
+              "date": null
+            }
+          ]
+        }
+      }
+    },
+    {
+      "id": "N4",
+      "label": "Step 4",
+      "customData": {
+        "node_id": "D",
+        "node_step_index": 3,
+        "content": "56-year-old female had a 7.0 cm unifocal mass in the peritoneum (mesentery) incidentally identified by imaging. Patient underwent surgical resection and is alive with no evidence of disease at 1 month follow-up.",
+        "clinical_data": {
+          "imaging": [
+            {
+              "type": "Mass",
+              "body_part": "Peritoneum",
+              "modality": "imaging",
+              "finding": "7.0 cm unifocal mass",
+              "date": null
+            }
+          ],
+          "procedures": [
+            {
+              "name": "Surgical resection",
+              "date": null,
+              "outcome": "no evidence of disease"
+            }
+          ]
+        }
+      }
+    },
+    {
+      "id": "N5",
+      "label": "Step 5",
+      "customData": {
+        "node_id": "E",
+        "node_step_index": 4,
+        "content": "61-year-old male had thickened omentum in the peritoneum (diaphragm, ligamentum falciforme, appendix, spleen, omentum) with peritoneal carcinomatosis (clinical + radiological). Patient underwent surgical resection.",
+        "clinical_data": {
+          "imaging": [
+            {
+              "type": "thickened omentum",
+              "body_part": "omentum",
+              "modality": "unknown",
+              "finding": "thickened omentum in the peritoneum",
+              "impression": "thickened omentum in the peritoneum",
+              "date": null
+            }
+          ],
+          "diagnoses": [
+            {
+              "code": "peritoneal carcinomatosis",
+              "label": "peritoneal carcinomatosis",
+              "status": "active",
+              "onset_date": null
+            }
+          ],
+          "procedures": [
+            {
+              "name": "surgical resection",
+              "approach": "open",
+              "date": null,
+              "location": "peritoneum",
+              "performed_by": null,
+              "outcome": null
+            }
+          ]
+        }
+      }
+    },
+    {
+      "id": "N6",
+      "label": "Step 6",
+      "customData": {
+        "node_id": "F",
+        "node_step_index": 5,
+        "content": "68-year-old male had masses in the peritoneum (inguinal, omentum) incidentally identified during hernia repair with massive ascites. Patient underwent surgical resection of masses in the peritoneum. Gross pathologic examination showed solitary or multinodular masses, displaying mostly cellular and solid epithelioid phenotypes with heterogenous architectural patterns. Case 1 and Case 3 were both solitary, circumscribed masses measuring 7 cm and 5 cm, respectively, in greatest dimensions.",
+        "clinical_data": {
+          "diagnoses": [
+            {
+              "code": "C78.6",
+              "label": "Secondary malignant neoplasm of peritoneum and retroperitoneum",
+              "status": "active"
+            },
+            {
+              "code": "5977000",
+              "label": "Ascites",
+              "status": "active"
+            }
+          ],
+          "procedures": [
+            {
+              "name": "Hernia repair",
+              "approach": "open",
+              "location": "inguinal",
+              "outcome": "unknown"
+            },
+            {
+              "name": "Surgical resection",
+              "location": "peritoneum",
+              "outcome": "unknown"
+            }
+          ],
+          "imaging": [
+            {
+              "type": "Mass",
+              "body_part": "Peritoneum",
+              "modality": "unknown",
+              "finding": "Masses in the peritoneum (inguinal, omentum)",
+              "impression": "Masses in the peritoneum (inguinal, omentum)"
+            }
+          ]
+        }
+      }
+    },
+    {
+      "id": "N7",
+      "label": "Step 7",
+      "customData": {
+        "node_id": "G",
+        "node_step_index": 6,
+        "content": "61-year-old male had thickened omentum in the peritoneum. Gross examination showed no discrete masses",
+        "1": "Areas where cells were arranged in solid nests and solid sheets",
+        "N": "C) ratio and lower N:C ratio were juxtaposed against each other. Cytologically",
+        "Histology": "Trabec",
+        "clinical_data": {
+          "imaging": [
+            {
+              "body_part": "omentum",
+              "modality": "Gross examination",
+              "finding": "thickened omentum",
+              "impression": "no discrete masses"
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "edges": [
+    {
+      "from": "N1",
+      "to": "N2",
+      "data": {
+        "edge_id": "A_to_B",
+        "branch_flag": true,
+        "content": "Transition from a 56-year-old female with a left lower quadrant mass to a 49-year-old male with omental thickening.",
+        "transition_event": null
+      }
+    },
+    {
+      "from": "N2",
+      "to": "N3",
+      "data": {
+        "edge_id": "B_to_C",
+        "branch_flag": true,
+        "content": "Transition from a 49-year-old male with omental thickening to a 67-year-old female with a history of hemicolectomy presenting with a mass at the gastrohepatic ligament.",
+        "transition_event": null
+      }
+    },
+    {
+      "from": "N3",
+      "to": "N4",
+      "data": {
+        "edge_id": "C_to_D",
+        "branch_flag": true,
+        "content": "Transition from a 67-year-old female with a history of hemicolectomy and malignant mesothelioma to a 56-year-old female with a 7.0 cm unifocal mass in the peritoneum.",
+        "transition_event": null
+      }
+    },
+    {
+      "from": "N4",
+      "to": "N5",
+      "data": {
+        "edge_id": "D_to_E",
+        "branch_flag": true,
+        "content": "Transition from a 56-year-old female with a 7.0 cm unifocal mass in the peritoneum to a 61-year-old male with thickened omentum and peritoneal carcinomatosis.",
+        "transition_event": null
+      }
+    },
+    {
+      "from": "N5",
+      "to": "N6",
+      "data": {
+        "edge_id": "E_to_F",
+        "branch_flag": true,
+        "content": "Transition from a 61-year-old male with thickened omentum and peritoneal carcinomatosis to a 68-year-old male with masses in the peritoneum and massive ascites.",
+        "transition_event": null
+      }
+    },
+    {
+      "from": "N6",
+      "to": "N7",
+      "data": {
+        "edge_id": "F_to_G",
+        "branch_flag": true,
+        "content": "Transition from a 68-year-old male with masses in the peritoneum and massive ascites to a 61-year-old male with thickened omentum in the peritoneum and no discrete masses on gross examination.",
+        "transition_event": null
+      }
+    }
+  ]
+}

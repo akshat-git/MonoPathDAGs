@@ -1,0 +1,327 @@
+{
+  "nodes": [
+    {
+      "id": "N1",
+      "label": "Step 1",
+      "customData": {
+        "node_id": "A",
+        "node_step_index": 0,
+        "content": "45-year-old man with left shoulder pain, 56 pack-year smoking history, and daily alcohol intake of 60 g.",
+        "clinical_data": {
+          "social_history": [
+            {
+              "category": "smoking",
+              "status": "current",
+              "description": "56 pack-year smoking history"
+            },
+            {
+              "category": "alcohol",
+              "status": "current",
+              "description": "daily alcohol intake of 60 g"
+            }
+          ],
+          "HPI": [
+            {
+              "summary": "left shoulder pain",
+              "onset": "unknown"
+            }
+          ]
+        }
+      }
+    },
+    {
+      "id": "N2",
+      "label": "Step 2",
+      "customData": {
+        "node_id": "B",
+        "node_step_index": 1,
+        "content": "Diagnosis of stage IV (cT4N3M1c) adenocarcinoma with brain and bone metastases based on lung biopsy, computed tomography (CT), positron emission tomography-CT, and head magnetic resonance imaging.",
+        "clinical_data": {
+          "diagnoses": [
+            {
+              "code": "C0001637",
+              "label": "Adenocarcinoma",
+              "status": "active",
+              "onset_date": null
+            },
+            {
+              "code": "C0205326",
+              "label": "Brain Metastases",
+              "status": "active",
+              "onset_date": null
+            },
+            {
+              "code": "C0024134",
+              "label": "Bone Metastases",
+              "status": "active",
+              "onset_date": null
+            }
+          ],
+          "imaging": [
+            {
+              "type": "Computed tomography",
+              "body_part": "Lung",
+              "modality": "CT",
+              "finding": "Adenocarcinoma",
+              "impression": "Diagnosis of stage IV (cT4N3M1c) adenocarcinoma",
+              "date": null
+            },
+            {
+              "type": "Positron emission tomography-CT",
+              "body_part": "Lung",
+              "modality": "PET",
+              "finding": "Adenocarcinoma",
+              "impression": "Diagnosis of stage IV (cT4N3M1c) adenocarcinoma",
+              "date": null
+            },
+            {
+              "type": "Magnetic resonance imaging",
+              "body_part": "Head",
+              "modality": "MRI",
+              "finding": "Brain Metastases",
+              "impression": "Brain Metastases",
+              "date": null
+            }
+          ]
+        }
+      }
+    },
+    {
+      "id": "N3",
+      "label": "Step 3",
+      "customData": {
+        "node_id": "C",
+        "node_step_index": 2,
+        "content": "Genetic tests showed negative driver gene mutations and PD-L1 expression.",
+        "clinical_data": {
+          "diagnoses": [
+            {
+              "code": "C0439011",
+              "label": "Negative Gene Mutation",
+              "status": "active"
+            }
+          ],
+          "labs": [
+            {
+              "test": "PD-L1 Expression",
+              "value": "negative",
+              "flag": "normal"
+            }
+          ]
+        }
+      }
+    },
+    {
+      "id": "N4",
+      "label": "Step 4",
+      "customData": {
+        "node_id": "D",
+        "node_step_index": 3,
+        "content": "Pre-treatment blood test results: white blood cell count, 10,320/\u03bcL; hemoglobin, 12.9 g/dL; platelets, 473 \u00d7 103/\u03bcL; total protein, 6.9 g/dL; albumin, 3.3 g/dL; aspartate aminotransferase (AST), 75 U/L; alanine aminotransferase, (ALT) 35 U/L; lactate dehydrogenase (LDH), 353 U/L; and C-reactive protein, 4.19 mg/dL.",
+        "clinical_data": {
+          "labs": [
+            {
+              "test": "White blood cell count",
+              "value": "10320",
+              "unit": "/\u03bcL"
+            },
+            {
+              "test": "Hemoglobin",
+              "value": "12.9",
+              "unit": "g/dL"
+            },
+            {
+              "test": "Platelets",
+              "value": "473",
+              "unit": "\u00d7 103/\u03bcL"
+            },
+            {
+              "test": "Total protein",
+              "value": "6.9",
+              "unit": "g/dL"
+            },
+            {
+              "test": "Albumin",
+              "value": "3.3",
+              "unit": "g/dL"
+            },
+            {
+              "test": "Aspartate aminotransferase",
+              "value": "75",
+              "unit": "U/L"
+            },
+            {
+              "test": "Alanine aminotransferase",
+              "value": "35",
+              "unit": "U/L"
+            },
+            {
+              "test": "Lactate dehydrogenase",
+              "value": "353",
+              "unit": "U/L"
+            },
+            {
+              "test": "C-reactive protein",
+              "value": "4.19",
+              "unit": "mg/dL"
+            }
+          ]
+        }
+      }
+    },
+    {
+      "id": "N5",
+      "label": "Step 5",
+      "customData": {
+        "node_id": "E",
+        "node_step_index": 4,
+        "content": "Started on Carboplatin (CBDCA)/pemetrexed (PEM)/pembrolizumab as first-line regimen.",
+        "clinical_data": {
+          "medications": [
+            {
+              "drug": "C0293864",
+              "dosage": null,
+              "frequency": null,
+              "modality": null,
+              "start_date": null,
+              "end_date": null,
+              "indication": null
+            },
+            {
+              "drug": "C1644674",
+              "dosage": null,
+              "frequency": null,
+              "modality": null,
+              "start_date": null,
+              "end_date": null,
+              "indication": null
+            },
+            {
+              "drug": "C4049449",
+              "dosage": null,
+              "frequency": null,
+              "modality": null,
+              "start_date": null,
+              "end_date": null,
+              "indication": null
+            }
+          ]
+        }
+      }
+    },
+    {
+      "id": "N6",
+      "label": "Step 6",
+      "customData": {
+        "node_id": "F",
+        "node_step_index": 5,
+        "content": "Day 5 after chemotherapy initiation, blood test result showed grade 2 hepatitis (AST 155 U/L; ALT 258 U/L) based on the Common Terminology for Adverse Events (CTCAE) ver. 5.",
+        "clinical_data": {
+          "labs": [
+            {
+              "test": "Aspartate Aminotransferase Measurement",
+              "value": "155",
+              "unit": "U/L",
+              "flag": "abnormal",
+              "timestamp": null
+            },
+            {
+              "test": "Alanine Aminotransferase Measurement",
+              "value": "258",
+              "unit": "U/L",
+              "flag": "abnormal",
+              "timestamp": null
+            }
+          ],
+          "diagnoses": [
+            {
+              "code": "C0019573",
+              "label": "Hepatitis",
+              "status": "active",
+              "onset_date": null
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "edges": [
+    {
+      "from": "N1",
+      "to": "N2",
+      "data": {
+        "edge_id": "A_to_B",
+        "branch_flag": true,
+        "content": "Transition from initial presentation of left shoulder pain and smoking/alcohol history to diagnosis of stage IV adenocarcinoma with brain and bone metastases."
+      }
+    },
+    {
+      "from": "N2",
+      "to": "N3",
+      "data": {
+        "edge_id": "B_to_C",
+        "branch_flag": true,
+        "content": "Genetic testing performed, revealing negative driver gene mutations and PD-L1 expression.",
+        "transition_event": {
+          "trigger_type": "procedure",
+          "trigger_entities": [
+            "C0439011"
+          ],
+          "change_type": "other",
+          "target_domain": "diagnosis"
+        }
+      }
+    },
+    {
+      "from": "N3",
+      "to": "N4",
+      "data": {
+        "edge_id": "C_to_D",
+        "branch_flag": true,
+        "content": "Pre-treatment blood tests were performed.",
+        "transition_event": {
+          "trigger_type": "procedure",
+          "trigger_entities": [],
+          "change_type": "other",
+          "target_domain": "lab"
+        }
+      }
+    },
+    {
+      "from": "N4",
+      "to": "N5",
+      "data": {
+        "edge_id": "D_to_E",
+        "branch_flag": true,
+        "content": "Initiation of first-line chemotherapy regimen with Carboplatin, Pemetrexed, and Pembrolizumab.",
+        "transition_event": {
+          "trigger_type": "medication_change",
+          "trigger_entities": [
+            "C0293864",
+            "C1644674",
+            "C4049449"
+          ],
+          "change_type": "addition",
+          "target_domain": "medication"
+        }
+      }
+    },
+    {
+      "from": "N5",
+      "to": "N6",
+      "data": {
+        "edge_id": "E_to_F",
+        "branch_flag": true,
+        "content": "Development of grade 2 hepatitis (AST 155 U/L; ALT 258 U/L) five days after chemotherapy initiation.",
+        "transition_event": {
+          "trigger_type": "lab_change",
+          "trigger_entities": [
+            "C0019573"
+          ],
+          "change_type": "progression",
+          "target_domain": "lab"
+        }
+      }
+    }
+  ]
+}

@@ -1,0 +1,377 @@
+{
+  "nodes": [
+    {
+      "id": "N1",
+      "label": "Step 1",
+      "customData": {
+        "node_id": "A",
+        "node_step_index": 0,
+        "content": "January 2018: Patient presented with coughing, shortness of breath, chest pain, back pain, and hemoptysis.",
+        "timestamp": "2018-01",
+        "clinical_data": {
+          "HPI": [
+            {
+              "summary": "Patient presented with coughing, shortness of breath, chest pain, back pain, and hemoptysis.",
+              "onset": "January 2018",
+              "associated_symptoms": [
+                "C0010200",
+                "C0009413",
+                "C0008031",
+                "C0004604",
+                "C0019063"
+              ]
+            }
+          ]
+        }
+      }
+    },
+    {
+      "id": "N2",
+      "label": "Step 2",
+      "customData": {
+        "node_id": "B",
+        "node_step_index": 1,
+        "content": "Chest CT scan showed a 7x4 cm irregular mass in the right middle lobe, local atelectasis, mediastinal lymphadenopathy, and a 4x4 cm right lower hilar lymph node enlargement.",
+        "timestamp": "2018-01",
+        "clinical_data": {
+          "imaging": [
+            {
+              "type": "CT of chest",
+              "body_part": "Right middle lobe",
+              "modality": "CT",
+              "finding": "7x4 cm irregular mass",
+              "impression": "Mass in the right middle lobe",
+              "date": null
+            },
+            {
+              "type": "CT of chest",
+              "body_part": "Right middle lobe",
+              "modality": "CT",
+              "finding": "Local atelectasis",
+              "impression": "Local atelectasis",
+              "date": null
+            },
+            {
+              "type": "CT of chest",
+              "body_part": "Mediastinum",
+              "modality": "CT",
+              "finding": "Mediastinal lymphadenopathy",
+              "impression": "Mediastinal lymphadenopathy",
+              "date": null
+            },
+            {
+              "type": "CT of chest",
+              "body_part": "Right lower hilar lymph node",
+              "modality": "CT",
+              "finding": "4x4 cm enlargement",
+              "impression": "Right lower hilar lymph node enlargement",
+              "date": null
+            }
+          ]
+        }
+      }
+    },
+    {
+      "id": "N3",
+      "label": "Step 3",
+      "customData": {
+        "node_id": "C",
+        "node_step_index": 2,
+        "content": "SPECT imaging of whole-body bone scan revealed abnormal isotopic accumulation in multiple sites.",
+        "timestamp": "2018-01",
+        "clinical_data": {
+          "imaging": [
+            {
+              "type": "SPECT imaging",
+              "body_part": "whole-body bone",
+              "modality": "SPECT",
+              "finding": "abnormal isotopic accumulation in multiple sites"
+            }
+          ]
+        }
+      }
+    },
+    {
+      "id": "N4",
+      "label": "Step 4",
+      "customData": {
+        "node_id": "D",
+        "node_step_index": 3,
+        "content": "CT guided lower lung biopsy showed moderately differentiated adenocarcinoma. Diagnosis: right lung adenocarcinoma, bone metastasis, T4N2M1 stage IV.",
+        "clinical_data": {
+          "imaging": [
+            {
+              "type": "Computed tomography",
+              "body_part": "Lower lung",
+              "modality": "CT",
+              "finding": "moderately differentiated adenocarcinoma"
+            }
+          ],
+          "diagnoses": [
+            {
+              "code": "C34.9",
+              "label": "right lung adenocarcinoma",
+              "status": "active"
+            },
+            {
+              "code": "C79.51",
+              "label": "bone metastasis",
+              "status": "active"
+            }
+          ]
+        }
+      }
+    },
+    {
+      "id": "N5",
+      "label": "Step 5",
+      "customData": {
+        "node_id": "E",
+        "node_step_index": 4,
+        "content": "February 2018: Patient received 4 cycles of chemotherapy (GP regimen + recombinant human endostatin (Endostar)). Symptoms of coughing and shortness of breath were significantly relieved after the treatment. Follow-up chest CT scan showed a reduced right lung lesion of 3x3 cm, the size of lower hilar lymph node was down to 2.5x2.5 cm and local atelectasis and pericardial effusion were alleviated.",
+        "timestamp": "2018-02",
+        "clinical_data": {
+          "medications": [
+            {
+              "drug": "recombinant human endostatin",
+              "dosage": null,
+              "frequency": null,
+              "modality": null,
+              "start_date": "2018-02",
+              "end_date": null,
+              "indication": null
+            }
+          ],
+          "imaging": [
+            {
+              "type": "Chest CT scan",
+              "body_part": "lung",
+              "modality": "CT",
+              "finding": "reduced right lung lesion of 3x3 cm",
+              "impression": "reduced right lung lesion",
+              "date": "2018-02"
+            },
+            {
+              "type": "Chest CT scan",
+              "body_part": "lower hilar lymph node",
+              "modality": "CT",
+              "finding": "size was down to 2.5x2.5 cm",
+              "impression": "reduced lower hilar lymph node size",
+              "date": "2018-02"
+            },
+            {
+              "type": "Chest CT scan",
+              "body_part": "lung",
+              "modality": "CT",
+              "finding": "local atelectasis was alleviated",
+              "impression": "alleviated atelectasis",
+              "date": "2018-02"
+            },
+            {
+              "type": "Chest CT scan",
+              "body_part": "pericardium",
+              "modality": "CT",
+              "finding": "pericardial effusion was alleviated",
+              "impression": "alleviated pericardial effusion",
+              "date": "2018-02"
+            }
+          ],
+          "HPI": [
+            {
+              "summary": "Symptoms of coughing and shortness of breath were significantly relieved after the treatment.",
+              "duration": null,
+              "onset": null,
+              "progression": null,
+              "associated_symptoms": [
+                "coughing",
+                "shortness of breath"
+              ],
+              "alleviating_factors": [
+                "chemotherapy (GP regimen + recombinant human endostatin (Endostar))"
+              ],
+              "exacerbating_factors": []
+            }
+          ]
+        }
+      }
+    },
+    {
+      "id": "N6",
+      "label": "Step 6",
+      "customData": {
+        "node_id": "F",
+        "node_step_index": 5,
+        "content": "Late June 2018: Patient developed coughing, shortness of breath, and lower back pain.",
+        "timestamp": "2018-06",
+        "clinical_data": {
+          "HPI": [
+            {
+              "summary": "Patient developed coughing, shortness of breath, and lower back pain.",
+              "onset": "Late June 2018",
+              "associated_symptoms": [
+                "C0010200",
+                "C0037274",
+                "C0021413"
+              ]
+            }
+          ]
+        }
+      }
+    },
+    {
+      "id": "N7",
+      "label": "Step 7",
+      "customData": {
+        "node_id": "G",
+        "node_step_index": 6,
+        "content": "Chest CT scan revealed an elevated local atelectasis, large amount of pericardial effusion and bilateral pleural effusion.",
+        "timestamp": "2018-06",
+        "clinical_data": {
+          "imaging": [
+            {
+              "type": "CT of chest",
+              "body_part": "chest",
+              "modality": "CT",
+              "finding": "elevated local atelectasis, large amount of pericardial effusion and bilateral pleural effusion"
+            }
+          ]
+        }
+      }
+    },
+    {
+      "id": "N8",
+      "label": "Step 8",
+      "customData": {
+        "node_id": "H",
+        "node_step_index": 7,
+        "content": "Patient was given two cycles of chemotherapy (PP regimen + bevacizumab) but improvements were not observed after a thorough re-examination",
+        "clinical_data": {
+          "medications": [
+            {
+              "drug": "C0007127",
+              "dosage": null,
+              "frequency": null,
+              "modality": null,
+              "start_date": null,
+              "end_date": null,
+              "indication": null
+            },
+            {
+              "drug": "C0698798",
+              "dosage": null,
+              "frequency": null,
+              "modality": null,
+              "start_date": null,
+              "end_date": null,
+              "indication": null
+            }
+          ],
+          "procedures": [
+            {
+              "name": "C0009372",
+              "approach": null,
+              "date": null,
+              "location": null,
+              "performed_by": null,
+              "outcome": null
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "edges": [
+    {
+      "from": "N1",
+      "to": "N2",
+      "data": {
+        "edge_id": "A_to_B",
+        "branch_flag": true,
+        "content": "Patient progressed from initial symptoms to radiographic findings."
+      }
+    },
+    {
+      "from": "N2",
+      "to": "N3",
+      "data": {
+        "edge_id": "B_to_C",
+        "branch_flag": true,
+        "content": "Further imaging was performed to assess for metastasis."
+      }
+    },
+    {
+      "from": "N3",
+      "to": "N4",
+      "data": {
+        "edge_id": "C_to_D",
+        "branch_flag": true,
+        "content": "Biopsy was performed to confirm diagnosis and stage the cancer."
+      }
+    },
+    {
+      "from": "N4",
+      "to": "N5",
+      "data": {
+        "edge_id": "D_to_E",
+        "branch_flag": true,
+        "content": "Patient received chemotherapy and recombinant human endostatin (Endostar), leading to symptom relief and tumor reduction.",
+        "transition_event": {
+          "trigger_type": "medication_change",
+          "trigger_entities": [
+            "recombinant human endostatin"
+          ],
+          "change_type": "addition",
+          "target_domain": "medication",
+          "timestamp": "2018-02"
+        }
+      }
+    },
+    {
+      "from": "N5",
+      "to": "N6",
+      "data": {
+        "edge_id": "E_to_F",
+        "branch_flag": true,
+        "content": "Disease progression with recurrence of symptoms.",
+        "transition_event": {
+          "trigger_type": "symptom_onset",
+          "trigger_entities": [
+            "C0010200",
+            "C0037274",
+            "C0021413"
+          ],
+          "change_type": "progression",
+          "target_domain": "symptom",
+          "timestamp": "2018-06"
+        }
+      }
+    },
+    {
+      "from": "N6",
+      "to": "N7",
+      "data": {
+        "edge_id": "F_to_G",
+        "branch_flag": true,
+        "content": "Imaging revealed worsening of atelectasis and effusions."
+      }
+    },
+    {
+      "from": "N7",
+      "to": "N8",
+      "data": {
+        "edge_id": "G_to_H",
+        "branch_flag": true,
+        "content": "Patient received further chemotherapy (PP regimen + bevacizumab) without improvement.",
+        "transition_event": {
+          "trigger_type": "medication_change",
+          "trigger_entities": [
+            "C0007127",
+            "C0698798"
+          ],
+          "change_type": "addition",
+          "target_domain": "medication"
+        }
+      }
+    }
+  ]
+}

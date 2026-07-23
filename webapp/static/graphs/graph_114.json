@@ -1,0 +1,645 @@
+{
+  "nodes": [
+    {
+      "id": "N1",
+      "label": "Step 1",
+      "customData": {
+        "node_id": "A",
+        "node_step_index": 0,
+        "content": "71-year-old man diagnosed with ALK-positive NSCLC and multiple liver and gastric metastases (cStage IVB). Biopsy of liver metastasis revealed ALK gene rearrangements confirmed via fluorescent in situ hybridization (FISH).",
+        "clinical_data": {
+          "diagnoses": [
+            {
+              "code": "C0027466",
+              "label": "Non-Small Cell Lung Carcinoma",
+              "status": "active",
+              "onset_date": null
+            },
+            {
+              "code": "C0262926",
+              "label": "Liver Metastasis",
+              "status": "active",
+              "onset_date": null
+            },
+            {
+              "code": "C0262926",
+              "label": "Gastric Metastasis",
+              "status": "active",
+              "onset_date": null
+            }
+          ],
+          "imaging": [
+            {
+              "type": "C0027651",
+              "body_part": "C0023892",
+              "modality": "other",
+              "finding": "multiple liver and gastric metastases",
+              "impression": "metastatic disease",
+              "date": null
+            }
+          ],
+          "labs": [
+            {
+              "test": "ALK gene rearrangements",
+              "value": "positive",
+              "unit": null,
+              "flag": "abnormal",
+              "reference_range": null,
+              "timestamp": null
+            }
+          ]
+        }
+      }
+    },
+    {
+      "id": "N2",
+      "label": "Step 2",
+      "customData": {
+        "node_id": "B",
+        "node_step_index": 1,
+        "content": "Patient started on alectinib 300 mg twice a day orally.",
+        "clinical_data": {
+          "medications": [
+            {
+              "drug": "alectinib",
+              "dosage": "300 mg",
+              "frequency": "twice a day",
+              "modality": "oral"
+            }
+          ]
+        }
+      }
+    },
+    {
+      "id": "N3",
+      "label": "Step 3",
+      "customData": {
+        "node_id": "C",
+        "node_step_index": 2,
+        "content": "After approximately six months of alectinib treatment, the original lung tumour shrunk, and multiple liver metastases disappeared.",
+        "clinical_data": {
+          "medications": [
+            {
+              "drug": "C1697492",
+              "dosage": null,
+              "frequency": null,
+              "modality": null,
+              "start_date": null,
+              "end_date": null,
+              "indication": "C0024117"
+            }
+          ],
+          "imaging": [
+            {
+              "type": "C0024117",
+              "body_part": "C0024077",
+              "modality": null,
+              "finding": "shrunk",
+              "impression": null,
+              "date": null
+            },
+            {
+              "type": "C0239181",
+              "body_part": "C0023879",
+              "modality": null,
+              "finding": "disappeared",
+              "impression": null,
+              "date": null
+            }
+          ]
+        }
+      }
+    },
+    {
+      "id": "N4",
+      "label": "Step 4",
+      "customData": {
+        "node_id": "D",
+        "node_step_index": 3,
+        "content": "26 months after alectinib initiation, patient experienced seizures and consciousness disorders. Brain MRI revealed intracranial diffuse small metastases, left brainstem metastasis, and carcinomatous meningitis. Patient lost consciousness, Glasgow Coma Scale of 3, PS of 4, and dysphagia.",
+        "clinical_data": {
+          "diagnoses": [
+            {
+              "code": "C79.31",
+              "label": "Secondary malignant neoplasm of brain",
+              "status": "active",
+              "onset_date": null
+            },
+            {
+              "code": "G96.1",
+              "label": "Meningitis, not elsewhere classified",
+              "status": "active",
+              "onset_date": null
+            }
+          ],
+          "imaging": [
+            {
+              "type": "MRI of brain",
+              "body_part": "Brain",
+              "modality": "MRI",
+              "finding": "intracranial diffuse small metastases, left brainstem metastasis, and carcinomatous meningitis",
+              "impression": "intracranial diffuse small metastases, left brainstem metastasis, and carcinomatous meningitis",
+              "date": null
+            }
+          ],
+          "HPI": [
+            {
+              "summary": "Patient experienced seizures and consciousness disorders.",
+              "duration": "26 months",
+              "onset": null,
+              "progression": "unknown",
+              "associated_symptoms": [
+                "Seizures",
+                "Consciousness disorders"
+              ],
+              "alleviating_factors": [],
+              "exacerbating_factors": []
+            }
+          ],
+          "mental_status": [
+            {
+              "domain": "consciousness",
+              "finding": "loss of consciousness",
+              "timestamp": null
+            }
+          ],
+          "functional_status": [
+            {
+              "domain": "speech",
+              "description": "dysphagia",
+              "score": null,
+              "scale": null
+            }
+          ],
+          "vitals": [
+            {
+              "type": "Glasgow Coma Scale",
+              "value": "3",
+              "unit": null,
+              "timestamp": null
+            }
+          ]
+        }
+      }
+    },
+    {
+      "id": "N5",
+      "label": "Step 5",
+      "customData": {
+        "node_id": "E",
+        "node_step_index": 4,
+        "content": "Patient treated for status epilepticus for one week, but consciousness did not improve. Nasogastric tube inserted. Lorlatinib 100 mg/day administered via suspension.",
+        "clinical_data": {
+          "medications": [
+            {
+              "drug": "C1443849",
+              "dosage": "100 mg/day",
+              "frequency": "daily",
+              "modality": "suspension",
+              "start_date": null,
+              "end_date": null,
+              "indication": "C0014544"
+            }
+          ],
+          "procedures": [
+            {
+              "name": "C0027843",
+              "approach": "other",
+              "date": null,
+              "location": "nasogastric",
+              "performed_by": null,
+              "outcome": null
+            }
+          ],
+          "diagnoses": [
+            {
+              "code": "C0038990",
+              "label": "Status Epilepticus",
+              "status": "active",
+              "onset_date": null
+            }
+          ]
+        }
+      }
+    },
+    {
+      "id": "N6",
+      "label": "Step 6",
+      "customData": {
+        "node_id": "F",
+        "node_step_index": 5,
+        "content": "Brain metastasis regression occurred eight weeks after lorlatinib initiation. Central nervous system relapse occurred after alectinib treatment failure.",
+        "clinical_data": {
+          "medications": [
+            {
+              "drug": "C1444736",
+              "indication": "C0006121"
+            },
+            {
+              "drug": "C3888713",
+              "indication": "C0006121"
+            }
+          ],
+          "diagnoses": [
+            {
+              "code": "C0006121",
+              "label": "Central Nervous System Disease",
+              "status": "active"
+            },
+            {
+              "code": "C0242963",
+              "label": "Brain Metastasis",
+              "status": "resolved"
+            }
+          ]
+        }
+      }
+    },
+    {
+      "id": "N7",
+      "label": "Step 7",
+      "customData": {
+        "node_id": "G",
+        "node_step_index": 6,
+        "content": "Left brainstem haemorrhage occurred seven days after lorlatinib initiation due to brain metastasis.",
+        "clinical_data": {
+          "diagnoses": [
+            {
+              "code": "C79.31",
+              "label": "Secondary malignant neoplasm of brain",
+              "status": "active",
+              "onset_date": null
+            },
+            {
+              "code": "I61",
+              "label": "Nontraumatic Intracerebral Hemorrhage",
+              "status": "active",
+              "onset_date": null
+            }
+          ],
+          "medications": [
+            {
+              "drug": "C1613137",
+              "dosage": null,
+              "frequency": null,
+              "modality": null,
+              "start_date": null,
+              "end_date": null,
+              "indication": "C79.31"
+            }
+          ]
+        }
+      }
+    },
+    {
+      "id": "N8",
+      "label": "Step 8",
+      "customData": {
+        "node_id": "H",
+        "node_step_index": 7,
+        "content": "After blood pressure management and rehabilitation, the patient was discharged home on foot.",
+        "clinical_data": {
+          "procedures": [
+            {
+              "name": "Rehabilitation",
+              "date": null,
+              "location": "hospital",
+              "outcome": "Patient discharged home on foot"
+            }
+          ]
+        }
+      }
+    },
+    {
+      "id": "N9",
+      "label": "Step 9",
+      "customData": {
+        "node_id": "I",
+        "node_step_index": 8,
+        "content": "Brain MRI showed intracranial diffuse metastases and carcinomatous meningitis had disappeared (Fig.1D\u2013F).",
+        "clinical_data": {
+          "imaging": [
+            {
+              "type": "Magnetic Resonance Imaging",
+              "body_part": "Brain",
+              "modality": "MRI",
+              "finding": "intracranial diffuse metastases disappeared",
+              "impression": "carcinomatous meningitis disappeared"
+            }
+          ]
+        }
+      }
+    },
+    {
+      "id": "N10",
+      "label": "Step 10",
+      "customData": {
+        "node_id": "J",
+        "node_step_index": 9,
+        "content": "Lorlatinib was effective in a 73-year-old patient with ALK-positive NSCLC, showing carcinomatous meningitis, poor PS, and dysphagia upon failure of alectinib treatment.",
+        "clinical_data": {
+          "diagnoses": [
+            {
+              "code": "C34",
+              "label": "Malignant neoplasm of bronchus and lung",
+              "status": "active"
+            },
+            {
+              "code": "C79.31",
+              "label": "Secondary malignant neoplasm of brain",
+              "status": "active"
+            }
+          ],
+          "medications": [
+            {
+              "drug": "C1613",
+              "dosage": null,
+              "frequency": null,
+              "modality": null,
+              "start_date": null,
+              "end_date": null,
+              "indication": "C34"
+            },
+            {
+              "drug": "C403119",
+              "dosage": null,
+              "frequency": null,
+              "modality": null,
+              "start_date": null,
+              "end_date": null,
+              "indication": "C34"
+            }
+          ],
+          "functional_status": [
+            {
+              "domain": "ADLs",
+              "description": "poor PS",
+              "score": null,
+              "scale": null
+            }
+          ],
+          "HPI": [
+            {
+              "summary": "dysphagia",
+              "duration": null,
+              "onset": null,
+              "progression": null,
+              "associated_symptoms": [],
+              "alleviating_factors": [],
+              "exacerbating_factors": []
+            }
+          ]
+        }
+      }
+    },
+    {
+      "id": "N11",
+      "label": "Step 11",
+      "customData": {
+        "node_id": "K",
+        "node_step_index": 10,
+        "content": "Patient experienced grade 2 CNS effects of lorlatinib, including slow speech, mentation, and word\u2010finding difficulty, but there was no hindrance to daily life. Patient's condition improved to a PS of 1.",
+        "clinical_data": {
+          "medications": [
+            {
+              "drug": "C1444742",
+              "indication": "C0009450"
+            }
+          ],
+          "HPI": [
+            {
+              "summary": "Patient experienced grade 2 CNS effects of lorlatinib, including slow speech, mentation, and word\u2010finding difficulty, but there was no hindrance to daily life.",
+              "associated_symptoms": [
+                "C0151630",
+                "C0025362",
+                "C1834126"
+              ]
+            }
+          ],
+          "diagnoses": [
+            {
+              "code": "C0205383",
+              "label": "Central nervous system disorder",
+              "status": "active"
+            }
+          ],
+          "functional_status": [
+            {
+              "domain": "ADLs",
+              "description": "Patient's condition improved to a PS of 1."
+            }
+          ]
+        }
+      }
+    },
+    {
+      "id": "N12",
+      "label": "Step 12",
+      "customData": {
+        "node_id": "L",
+        "node_step_index": 11,
+        "content": "Patient continued lorlatinib for 15 months and maintained tumour regression.",
+        "clinical_data": {
+          "medications": [
+            {
+              "drug": "C1441811",
+              "dosage": null,
+              "frequency": null,
+              "modality": null,
+              "start_date": null,
+              "end_date": null,
+              "indication": null
+            }
+          ]
+        }
+      }
+    },
+    {
+      "id": "N13",
+      "label": "Step 13",
+      "customData": {
+        "node_id": "M",
+        "node_step_index": 12,
+        "content": "Patient gradually succumbed at home with palliative care. Pathological autopsy revealed the cause of death was respiratory failure due to cancer\u2010associated thrombosis. Patient survived for 16 months after CNS relapse.",
+        "clinical_data": {
+          "diagnoses": [
+            {
+              "code": "SNOMED:91967005",
+              "label": "Respiratory failure",
+              "status": "historical"
+            },
+            {
+              "code": "UMLS:C0006826",
+              "label": "Cancer",
+              "status": "historical"
+            },
+            {
+              "code": "UMLS:C0040270",
+              "label": "Thrombosis",
+              "status": "historical"
+            }
+          ],
+          "procedures": [
+            {
+              "name": "UMLS:C0030575",
+              "approach": "other",
+              "date": null,
+              "location": "home",
+              "performed_by": "palliative care",
+              "outcome": "UMLS:C0012634"
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "edges": [
+    {
+      "from": "N1",
+      "to": "N2",
+      "data": {
+        "edge_id": "A_to_B",
+        "branch_flag": true,
+        "content": "Decision to start treatment.",
+        "transition_event": {
+          "trigger_type": "medication_change",
+          "trigger_entities": [
+            "C1274383"
+          ],
+          "change_type": "addition",
+          "target_domain": "medication"
+        }
+      }
+    },
+    {
+      "from": "N2",
+      "to": "N3",
+      "data": {
+        "edge_id": "B_to_C",
+        "branch_flag": true,
+        "content": "Alectinib treatment response after six months.",
+        "transition_event": {
+          "trigger_type": "interpretation",
+          "trigger_entities": [
+            "C0024117",
+            "C0239181"
+          ],
+          "change_type": "resolution",
+          "target_domain": "imaging"
+        }
+      }
+    },
+    {
+      "from": "N3",
+      "to": "N4",
+      "data": {
+        "edge_id": "C_to_D",
+        "branch_flag": true,
+        "content": "Disease progression after 26 months of alectinib, with new CNS metastases, seizures, and functional decline.",
+        "transition_event": {
+          "trigger_type": "symptom_onset",
+          "trigger_entities": [
+            "C0036865",
+            "C0234235"
+          ],
+          "change_type": "progression",
+          "target_domain": "symptom"
+        }
+      }
+    },
+    {
+      "from": "N4",
+      "to": "N5",
+      "data": {
+        "edge_id": "D_to_E",
+        "branch_flag": true,
+        "content": "Treatment for status epilepticus and initiation of lorlatinib after disease progression.",
+        "transition_event": {
+          "trigger_type": "medication_change",
+          "trigger_entities": [
+            "C1443849"
+          ],
+          "change_type": "addition",
+          "target_domain": "medication"
+        }
+      }
+    },
+    {
+      "from": "N5",
+      "to": "N6",
+      "data": {
+        "edge_id": "E_to_F",
+        "branch_flag": true,
+        "content": "Brain metastasis regression after lorlatinib initiation, indicating treatment response after alectinib failure.",
+        "transition_event": {
+          "trigger_type": "interpretation",
+          "trigger_entities": [
+            "C0242963"
+          ],
+          "change_type": "resolution",
+          "target_domain": "diagnosis"
+        }
+      }
+    },
+    {
+      "from": "N6",
+      "to": "N7",
+      "data": {
+        "edge_id": "F_to_G",
+        "branch_flag": true,
+        "content": "Left brainstem haemorrhage occurred seven days after lorlatinib initiation due to brain metastasis.",
+        "transition_event": {
+          "trigger_type": "symptom_onset",
+          "trigger_entities": [
+            "C0020357"
+          ],
+          "change_type": "progression",
+          "target_domain": "symptom"
+        }
+      }
+    },
+    {
+      "from": "N7",
+      "to": "N8",
+      "data": {
+        "edge_id": "G_to_H",
+        "branch_flag": true,
+        "content": "Patient discharged home on foot after blood pressure management and rehabilitation.",
+        "transition_event": {
+          "trigger_type": "procedure",
+          "trigger_entities": [
+            "C0034939"
+          ],
+          "change_type": "other",
+          "target_domain": "procedure"
+        }
+      }
+    },
+    {
+      "from": "N8",
+      "to": "N9",
+      "data": {
+        "edge_id": "H_to_I",
+        "branch_flag": true,
+        "content": "Brain MRI showed intracranial diffuse metastases and carcinomatous meningitis had disappeared.",
+        "transition_event": {
+          "trigger_type": "imaging",
+          "trigger_entities": [
+            "C0242963",
+            "C0024117"
+          ],
+          "change_type": "resolution",
+          "target_domain": "imaging"
+        }
+      }
+    },
+    {
+      "from": "N9",
+      "to": "N10",
+      "data": {
+        "edge_id": "I_to_J",
+        "branch_flag": true
+      }
+    }
+  ]
+}

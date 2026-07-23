@@ -1,0 +1,528 @@
+{
+  "nodes": [
+    {
+      "id": "N1",
+      "label": "Step 1",
+      "customData": {
+        "node_id": "A",
+        "node_step_index": 0,
+        "content": "Patient had normal respiratory sounds in both lungs. Family history of cancer: father died of liver cancer, mother suffered from bile duct cancer.",
+        "clinical_data": {
+          "ROS": [
+            {
+              "system": "respiratory",
+              "findings": [
+                "normal respiratory sounds"
+              ]
+            }
+          ],
+          "social_history": [
+            {
+              "category": "family history",
+              "status": "positive",
+              "description": "father died of liver cancer, mother suffered from bile duct cancer"
+            }
+          ]
+        }
+      }
+    },
+    {
+      "id": "N2",
+      "label": "Step 2",
+      "customData": {
+        "node_id": "B",
+        "node_step_index": 1,
+        "timestamp": "2019-04-09",
+        "content": "Contrast-enhanced CT of the chest showed mass in the lower lobe of the left lung and the right lower lung, suggesting lung cancer.",
+        "clinical_data": {
+          "imaging": [
+            {
+              "type": "Computed tomography of chest with contrast (procedure)",
+              "body_part": "Lung",
+              "modality": "CT",
+              "finding": "mass in the lower lobe of the left lung and the right lower lung",
+              "impression": "lung cancer"
+            }
+          ],
+          "diagnoses": [
+            {
+              "code": "C0024117",
+              "label": "Lung Cancer",
+              "status": "suspected",
+              "onset_date": null
+            }
+          ]
+        }
+      }
+    },
+    {
+      "id": "N3",
+      "label": "Step 3",
+      "customData": {
+        "node_id": "C",
+        "node_step_index": 2,
+        "content": "Lymph node biopsy showed small cell lung cancer (SCLC).",
+        "clinical_data": {
+          "diagnoses": [
+            {
+              "code": "C8014",
+              "label": "Small cell lung cancer",
+              "status": "active"
+            }
+          ],
+          "procedures": [
+            {
+              "name": "Biopsy",
+              "location": "Lymph node"
+            }
+          ]
+        }
+      }
+    },
+    {
+      "id": "N4",
+      "label": "Step 4",
+      "customData": {
+        "node_id": "D",
+        "node_step_index": 3,
+        "timestamp": "2019-04-15",
+        "content": "PET/CT showed positive lesions in the right lower lobe, mediastinal soft tissue, left lower lobe, bilateral hilum, and other sites.",
+        "clinical_data": {
+          "imaging": [
+            {
+              "type": "Positron emission tomography/computed tomography",
+              "body_part": "right lower lobe",
+              "modality": "PET",
+              "finding": "positive lesions"
+            },
+            {
+              "type": "Positron emission tomography/computed tomography",
+              "body_part": "mediastinal soft tissue",
+              "modality": "PET",
+              "finding": "positive lesions"
+            },
+            {
+              "type": "Positron emission tomography/computed tomography",
+              "body_part": "left lower lobe",
+              "modality": "PET",
+              "finding": "positive lesions"
+            },
+            {
+              "type": "Positron emission tomography/computed tomography",
+              "body_part": "bilateral hilum",
+              "modality": "PET",
+              "finding": "positive lesions"
+            }
+          ]
+        }
+      }
+    },
+    {
+      "id": "N5",
+      "label": "Step 5",
+      "customData": {
+        "node_id": "E",
+        "node_step_index": 4,
+        "content": "Patient received 2 cycles of EP chemotherapy regimen (etoposide 100 mg/m2 on days 1-3 and cisplatin 25 mg/m2 on days 1-3 in each 3-week period).",
+        "clinical_data": {
+          "medications": [
+            {
+              "drug": "Etoposide",
+              "dosage": "100 mg/m2",
+              "frequency": "days 1-3",
+              "modality": "IV",
+              "start_date": null,
+              "end_date": null,
+              "indication": "Cancer"
+            },
+            {
+              "drug": "Cisplatin",
+              "dosage": "25 mg/m2",
+              "frequency": "days 1-3",
+              "modality": "IV",
+              "start_date": null,
+              "end_date": null,
+              "indication": "Cancer"
+            }
+          ],
+          "procedures": [
+            {
+              "name": "Chemotherapy",
+              "approach": "IV",
+              "date": null,
+              "location": null,
+              "performed_by": null,
+              "outcome": null
+            }
+          ]
+        }
+      }
+    },
+    {
+      "id": "N6",
+      "label": "Step 6",
+      "customData": {
+        "node_id": "F",
+        "node_step_index": 5,
+        "content": "After 2 cycles of chemotherapy, efficacy was evaluated as partial response (PR).",
+        "clinical_data": {
+          "procedures": [
+            {
+              "name": "Chemotherapy",
+              "outcome": "Partial Response"
+            }
+          ]
+        }
+      }
+    },
+    {
+      "id": "N7",
+      "label": "Step 7",
+      "customData": {
+        "node_id": "G",
+        "node_step_index": 6,
+        "timestamp": "2019-05-24",
+        "content": "Chest CT showed no significant change in the left mass.",
+        "clinical_data": {
+          "imaging": [
+            {
+              "type": "CT of chest",
+              "body_part": "Chest",
+              "modality": "CT",
+              "finding": "no significant change in the left mass"
+            }
+          ]
+        }
+      }
+    },
+    {
+      "id": "N8",
+      "label": "Step 8",
+      "customData": {
+        "node_id": "H",
+        "node_step_index": 7,
+        "timestamp": "2019-05-27",
+        "content": "Puncture biopsy of the left lung mass showed low differentiated carcinoma, consistent with adenocarcinoma, with the possibility of complex carcinoma. Next-generation sequencing (NGS) indicated fusion of EML4 and ALK.",
+        "clinical_data": {
+          "imaging": [
+            {
+              "type": "Lung mass",
+              "body_part": "Lung",
+              "modality": "Puncture biopsy",
+              "finding": "Low differentiated carcinoma, consistent with adenocarcinoma, with the possibility of complex carcinoma",
+              "date": null
+            }
+          ],
+          "diagnoses": [
+            {
+              "code": null,
+              "label": "Low differentiated carcinoma",
+              "status": "active",
+              "onset_date": null
+            },
+            {
+              "code": "C0001608",
+              "label": "Adenocarcinoma",
+              "status": "active",
+              "onset_date": null
+            },
+            {
+              "code": null,
+              "label": "Complex carcinoma",
+              "status": "active",
+              "onset_date": null
+            }
+          ],
+          "labs": [
+            {
+              "test": "Next-generation sequencing (NGS)",
+              "value": "Fusion of EML4 and ALK",
+              "unit": null,
+              "flag": "abnormal",
+              "reference_range": null,
+              "timestamp": null
+            }
+          ]
+        }
+      }
+    },
+    {
+      "id": "N9",
+      "label": "Step 9",
+      "customData": {
+        "node_id": "I",
+        "node_step_index": 8,
+        "content": "Diagnosis of terminal SCLC in the lower lobe of the right lung (cT2aN3M0, IIIB) and ALK mutation adenocarcinoma of the lower lobe of the left lung (cT4N2M0 IIIB, ALK mutation).",
+        "clinical_data": {
+          "diagnoses": [
+            {
+              "code": "C0009402",
+              "label": "Small cell lung carcinoma",
+              "status": "active",
+              "onset_date": null
+            },
+            {
+              "code": "C0206102",
+              "label": "Adenocarcinoma",
+              "status": "active",
+              "onset_date": null
+            }
+          ]
+        }
+      }
+    },
+    {
+      "id": "N10",
+      "label": "Step 10",
+      "customData": {
+        "node_id": "J",
+        "node_step_index": 9,
+        "content": "Treatment plan: oral targeted drug treatment (crizotinib, 250 mg bid.), continuous EP chemotherapy regimen, and sequential radiotherapy.",
+        "clinical_data": {
+          "medications": [
+            {
+              "drug": "C0884314",
+              "dosage": "250 mg",
+              "frequency": "bid",
+              "modality": "oral"
+            }
+          ],
+          "procedures": [
+            {
+              "name": "C0030677",
+              "approach": "other",
+              "location": "other"
+            },
+            {
+              "name": "C0034675",
+              "approach": "other",
+              "location": "other"
+            }
+          ]
+        }
+      }
+    },
+    {
+      "id": "N11",
+      "label": "Step 11",
+      "customData": {
+        "node_id": "K",
+        "node_step_index": 10,
+        "content": "After 4 cycles of chemotherapy, the efficacy of the right lung (SCLC) was evaluated as partial response (PR).",
+        "clinical_data": {
+          "diagnoses": [
+            {
+              "code": "C34.3",
+              "label": "Malignant neoplasm of lower lobe, right bronchus or lung",
+              "status": "active",
+              "onset_date": null
+            }
+          ],
+          "procedures": [
+            {
+              "name": "Chemotherapy",
+              "approach": "IV",
+              "date": null,
+              "location": null,
+              "performed_by": null,
+              "outcome": null
+            }
+          ]
+        }
+      }
+    },
+    {
+      "id": "N12",
+      "label": "Step 12",
+      "customData": {
+        "node_id": "L",
+        "node_step_index": 11,
+        "timestamp": "2019-07-19",
+        "content": "Patient received proton radiotherapy (4,500 cGy in total) for the tumors in the right lower lobe, mediastinum, and right supraclavicular lymph node area. Radiotherapy ended on August 23, 2019.",
+        "clinical_data": {
+          "procedures": [
+            {
+              "name": "Proton therapy",
+              "approach": "other",
+              "date": null,
+              "location": "right lower lobe, mediastinum, and right supraclavicular lymph node area",
+              "performed_by": null,
+              "outcome": null
+            }
+          ]
+        }
+      }
+    },
+    {
+      "id": "N13",
+      "label": "Step 13",
+      "customData": {
+        "node_id": "M",
+        "node_step_index": 12,
+        "timestamp": "2019-07-11",
+        "content": "Fifth cycle of chemotherapy completed.",
+        "clinical_data": {}
+      }
+    },
+    {
+      "id": "N14",
+      "label": "Step 14",
+      "customData": {
+        "node_id": "N",
+        "node_step_index": 13,
+        "timestamp": "2019-07-19",
+        "content": "Patient was treated by 6-MV X-ray arc intensity",
+        "clinical_data": {
+          "imaging": [
+            {
+              "modality": "X-ray",
+              "type": "X-ray arc intensity"
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "edges": [
+    {
+      "from": "N1",
+      "to": "N2",
+      "data": {
+        "edge_id": "A_to_B",
+        "branch_flag": true,
+        "content": "Transition from initial assessment to CT imaging revealing potential lung cancer.",
+        "transition_event": {
+          "trigger_type": "imaging",
+          "trigger_entities": [
+            "C0024117"
+          ],
+          "change_type": "progression",
+          "target_domain": "diagnosis",
+          "timestamp": "2019-04-09"
+        }
+      }
+    },
+    {
+      "from": "N2",
+      "to": "N3",
+      "data": {
+        "edge_id": "B_to_C",
+        "branch_flag": true,
+        "content": "Transition from suspected lung cancer to confirmed small cell lung cancer (SCLC) via lymph node biopsy.",
+        "transition_event": {
+          "trigger_type": "procedure",
+          "trigger_entities": [
+            "C8014"
+          ],
+          "change_type": "reinterpretation",
+          "target_domain": "diagnosis"
+        }
+      }
+    },
+    {
+      "from": "N3",
+      "to": "N4",
+      "data": {
+        "edge_id": "C_to_D",
+        "branch_flag": true,
+        "content": "Transition from SCLC diagnosis to PET/CT showing widespread lesions.",
+        "transition_event": {
+          "trigger_type": "imaging",
+          "trigger_entities": [
+            "C8014"
+          ],
+          "change_type": "progression",
+          "target_domain": "imaging",
+          "timestamp": "2019-04-15"
+        }
+      }
+    },
+    {
+      "from": "N4",
+      "to": "N5",
+      "data": {
+        "edge_id": "D_to_E",
+        "branch_flag": true,
+        "content": "Transition from widespread lesions to initiation of EP chemotherapy regimen.",
+        "transition_event": {
+          "trigger_type": "medication_change",
+          "trigger_entities": [
+            "C0011595",
+            "C0008894"
+          ],
+          "change_type": "addition",
+          "target_domain": "medication"
+        }
+      }
+    },
+    {
+      "from": "N5",
+      "to": "N6",
+      "data": {
+        "edge_id": "E_to_F",
+        "branch_flag": true,
+        "content": "Transition from chemotherapy initiation to evaluation showing partial response (PR).",
+        "transition_event": {
+          "trigger_type": "procedure",
+          "trigger_entities": [
+            "C0009384"
+          ],
+          "change_type": "other",
+          "target_domain": "procedure"
+        }
+      }
+    },
+    {
+      "from": "N6",
+      "to": "N7",
+      "data": {
+        "edge_id": "F_to_G",
+        "branch_flag": true,
+        "content": "Transition from partial response to chest CT showing no significant change in the left mass.",
+        "transition_event": {
+          "trigger_type": "imaging",
+          "trigger_entities": [],
+          "change_type": "other",
+          "target_domain": "imaging",
+          "timestamp": "2019-05-24"
+        }
+      }
+    },
+    {
+      "from": "N7",
+      "to": "N8",
+      "data": {
+        "edge_id": "G_to_H",
+        "branch_flag": true,
+        "content": "Transition from stable left mass to biopsy revealing adenocarcinoma with EML4-ALK fusion.",
+        "transition_event": {
+          "trigger_type": "procedure",
+          "trigger_entities": [
+            "C0001608"
+          ],
+          "change_type": "reinterpretation",
+          "target_domain": "diagnosis",
+          "timestamp": "2019-05-27"
+        }
+      }
+    },
+    {
+      "from": "N8",
+      "to": "N9",
+      "data": {
+        "edge_id": "H_to_I",
+        "branch_flag": true,
+        "content": "Transition from adenocarcinoma diagnosis to final diagnosis of terminal SCLC and ALK mutation adenocarcinoma.",
+        "transition_event": {
+          "trigger_type": "interpretation",
+          "trigger_entities": [
+            "C0009402",
+            "C0206102"
+          ],
+          "change_type": "reinterpretation",
+          "target_domain": "diagnosis"
+        }
+      }
+    }
+  ]
+}

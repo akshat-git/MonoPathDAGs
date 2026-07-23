@@ -1,0 +1,435 @@
+{
+  "nodes": [
+    {
+      "id": "N1",
+      "label": "Step 1",
+      "customData": {
+        "node_id": "A",
+        "node_step_index": 0,
+        "content": "History of idiopathic thrombocytic purpura in 2008, treated with prednisone.",
+        "clinical_data": {
+          "diagnoses": [
+            {
+              "code": "C0020047",
+              "label": "Idiopathic thrombocytopenic purpura",
+              "status": "historical",
+              "onset_date": "2008"
+            }
+          ],
+          "medications": [
+            {
+              "drug": "C0032319",
+              "dosage": null,
+              "frequency": null,
+              "modality": null,
+              "start_date": "2008",
+              "end_date": null,
+              "indication": "C0020047"
+            }
+          ]
+        }
+      }
+    },
+    {
+      "id": "N2",
+      "label": "Step 2",
+      "customData": {
+        "node_id": "B",
+        "node_step_index": 1,
+        "content": "Patient has several risk factors for tumor lysis syndrome (TLS), including bulky disease, high proliferation rate of tumor cells, chronic kidney disease on outpatient diuretic therapy, elderly age, and liver metastases.",
+        "clinical_data": {
+          "diagnoses": [
+            {
+              "code": "C0027051",
+              "label": "Tumor lysis syndrome",
+              "status": "suspected"
+            }
+          ],
+          "social_history": [
+            {
+              "category": "age",
+              "status": "elderly"
+            }
+          ]
+        }
+      }
+    },
+    {
+      "id": "N3",
+      "label": "Step 3",
+      "customData": {
+        "node_id": "C",
+        "node_step_index": 2,
+        "content": "Home medications: furosemide 40 mg orally every morning, amlodipine 5 mg orally every morning, gabapentin 100 mg orally at bedtime, and as-needed senna, oxycodone, and ranitidine.",
+        "clinical_data": {
+          "medications": [
+            {
+              "drug": "furosemide",
+              "dosage": "40 mg",
+              "frequency": "every morning",
+              "modality": "oral"
+            },
+            {
+              "drug": "amlodipine",
+              "dosage": "5 mg",
+              "frequency": "every morning",
+              "modality": "oral"
+            },
+            {
+              "drug": "gabapentin",
+              "dosage": "100 mg",
+              "frequency": "at bedtime",
+              "modality": "oral"
+            },
+            {
+              "drug": "senna",
+              "frequency": "as-needed",
+              "modality": "oral"
+            },
+            {
+              "drug": "oxycodone",
+              "frequency": "as-needed",
+              "modality": "oral"
+            },
+            {
+              "drug": "ranitidine",
+              "frequency": "as-needed",
+              "modality": "oral"
+            }
+          ]
+        }
+      }
+    },
+    {
+      "id": "N4",
+      "label": "Step 4",
+      "customData": {
+        "node_id": "D",
+        "node_step_index": 3,
+        "content": "Diagnosed with adenocarcinoma of the right upper lobe in 2008. Underwent right upper lobectomy and mediastinal lymph node dissection with removal of mediastinal fat.",
+        "clinical_data": {
+          "diagnoses": [
+            {
+              "code": "C2350964",
+              "label": "Adenocarcinoma",
+              "status": "historical",
+              "onset_date": "2008"
+            }
+          ],
+          "procedures": [
+            {
+              "name": "T059752",
+              "approach": "open",
+              "date": "2008",
+              "location": "Right Upper Lobe",
+              "performed_by": null,
+              "outcome": null
+            },
+            {
+              "name": "T061141",
+              "approach": "open",
+              "date": "2008",
+              "location": "Mediastinum",
+              "performed_by": null,
+              "outcome": null
+            }
+          ],
+          "imaging": []
+        }
+      }
+    },
+    {
+      "id": "N5",
+      "label": "Step 5",
+      "customData": {
+        "node_id": "E",
+        "node_step_index": 4,
+        "content": "June 2008: Completed adjuvant chemotherapy treatment with 4 cycles of carboplatin and gemcitabine and declined radiation therapy.",
+        "clinical_data": {
+          "medications": [
+            {
+              "drug": "C0007139",
+              "dosage": null,
+              "frequency": null,
+              "modality": null,
+              "start_date": null,
+              "end_date": "2008-06",
+              "indication": "adjuvant chemotherapy"
+            },
+            {
+              "drug": "C0007139",
+              "dosage": null,
+              "frequency": null,
+              "modality": null,
+              "start_date": null,
+              "end_date": "2008-06",
+              "indication": "adjuvant chemotherapy"
+            },
+            {
+              "drug": "C0007139",
+              "dosage": null,
+              "frequency": null,
+              "modality": null,
+              "start_date": null,
+              "end_date": "2008-06",
+              "indication": "adjuvant chemotherapy"
+            },
+            {
+              "drug": "C0007139",
+              "dosage": null,
+              "frequency": null,
+              "modality": null,
+              "start_date": null,
+              "end_date": "2008-06",
+              "indication": "adjuvant chemotherapy"
+            },
+            {
+              "drug": "C0007672",
+              "dosage": null,
+              "frequency": null,
+              "modality": null,
+              "start_date": null,
+              "end_date": "2008-06",
+              "indication": "adjuvant chemotherapy"
+            },
+            {
+              "drug": "C0016524",
+              "dosage": null,
+              "frequency": null,
+              "modality": null,
+              "start_date": null,
+              "end_date": "2008-06",
+              "indication": "adjuvant chemotherapy"
+            },
+            {
+              "drug": "C0016524",
+              "dosage": null,
+              "frequency": null,
+              "modality": null,
+              "start_date": null,
+              "end_date": "2008-06",
+              "indication": "adjuvant chemotherapy"
+            },
+            {
+              "drug": "C0016524",
+              "dosage": null,
+              "frequency": null,
+              "modality": null,
+              "start_date": null,
+              "end_date": "2008-06",
+              "indication": "adjuvant chemotherapy"
+            },
+            {
+              "drug": "C0016524",
+              "dosage": null,
+              "frequency": null,
+              "modality": null,
+              "start_date": null,
+              "end_date": "2008-06",
+              "indication": "adjuvant chemotherapy"
+            }
+          ],
+          "procedures": [
+            {
+              "name": "C0034597",
+              "approach": null,
+              "date": "2008-06",
+              "location": null,
+              "performed_by": null,
+              "outcome": null
+            }
+          ]
+        }
+      }
+    },
+    {
+      "id": "N6",
+      "label": "Step 6",
+      "customData": {
+        "node_id": "F",
+        "node_step_index": 5,
+        "content": "October 2008: Developed a new spiculated left upper lobe mass and underwent stereotactic radiation.",
+        "clinical_data": {
+          "imaging": [
+            {
+              "type": "Mass",
+              "body_part": "Left upper lobe",
+              "modality": null,
+              "finding": "Spiculated",
+              "impression": "New spiculated left upper lobe mass",
+              "date": "2008-10"
+            }
+          ],
+          "procedures": [
+            {
+              "name": "Stereotactic radiation",
+              "approach": null,
+              "date": "2008-10",
+              "location": "Left upper lobe",
+              "performed_by": null,
+              "outcome": null
+            }
+          ]
+        }
+      }
+    },
+    {
+      "id": "N7",
+      "label": "Step 7",
+      "customData": {
+        "node_id": "G",
+        "node_step_index": 6,
+        "content": "Continued surveillance without evidence of disease recurrence until September 2016.",
+        "clinical_data": {}
+      }
+    },
+    {
+      "id": "N8",
+      "label": "Step 8",
+      "customData": {
+        "node_id": "H",
+        "node_step_index": 7,
+        "content": "September 2016: Presented with a new hilar mass encasing the left upper lobe bronchus and a contralateral right upper lobe nodule.",
+        "clinical_data": {
+          "imaging": [
+            {
+              "type": "Mass",
+              "body_part": "Hilar region",
+              "modality": "unknown",
+              "finding": "encasing the left upper lobe bronchus",
+              "date": "2016-09"
+            },
+            {
+              "type": "Nodule",
+              "body_part": "Right upper lobe",
+              "modality": "unknown",
+              "finding": "contralateral",
+              "date": "2016-09"
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "edges": [
+    {
+      "from": "N1",
+      "to": "N2",
+      "data": {
+        "edge_id": "A_to_B",
+        "branch_flag": true,
+        "content": "Transition from history of idiopathic thrombocytic purpura to identification of risk factors for tumor lysis syndrome (TLS)."
+      }
+    },
+    {
+      "from": "N2",
+      "to": "N3",
+      "data": {
+        "edge_id": "B_to_C",
+        "branch_flag": true,
+        "content": "Transition to patient's home medications.",
+        "transition_event": {
+          "trigger_type": "medication_change",
+          "trigger_entities": [
+            "furosemide",
+            "amlodipine",
+            "gabapentin",
+            "senna",
+            "oxycodone",
+            "ranitidine"
+          ],
+          "change_type": "other",
+          "target_domain": "medication"
+        }
+      }
+    },
+    {
+      "from": "N3",
+      "to": "N4",
+      "data": {
+        "edge_id": "C_to_D",
+        "branch_flag": true,
+        "content": "Transition to diagnosis and surgical treatment of adenocarcinoma.",
+        "transition_event": {
+          "trigger_type": "diagnosis",
+          "trigger_entities": [
+            "C2350964"
+          ],
+          "change_type": "addition",
+          "target_domain": "diagnosis",
+          "timestamp": "2008"
+        }
+      }
+    },
+    {
+      "from": "N4",
+      "to": "N5",
+      "data": {
+        "edge_id": "D_to_E",
+        "branch_flag": true,
+        "content": "Transition to adjuvant chemotherapy treatment.",
+        "transition_event": {
+          "trigger_type": "medication_change",
+          "trigger_entities": [
+            "C0007139",
+            "C0016524"
+          ],
+          "change_type": "addition",
+          "target_domain": "medication",
+          "timestamp": "2008-06"
+        }
+      }
+    },
+    {
+      "from": "N5",
+      "to": "N6",
+      "data": {
+        "edge_id": "E_to_F",
+        "branch_flag": true,
+        "content": "Transition to development of a new spiculated left upper lobe mass and stereotactic radiation.",
+        "transition_event": {
+          "trigger_type": "symptom_onset",
+          "trigger_entities": [
+            "C0242970"
+          ],
+          "change_type": "progression",
+          "target_domain": "imaging",
+          "timestamp": "2008-10"
+        }
+      }
+    },
+    {
+      "from": "N6",
+      "to": "N7",
+      "data": {
+        "edge_id": "F_to_G",
+        "branch_flag": true,
+        "content": "Transition to continued surveillance without evidence of disease recurrence.",
+        "transition_event": {
+          "trigger_type": "interpretation",
+          "trigger_entities": [],
+          "change_type": "resolution",
+          "target_domain": "diagnosis"
+        }
+      }
+    },
+    {
+      "from": "N7",
+      "to": "N8",
+      "data": {
+        "edge_id": "G_to_H",
+        "branch_flag": true,
+        "content": "Transition to presentation with a new hilar mass and right upper lobe nodule.",
+        "transition_event": {
+          "trigger_type": "symptom_onset",
+          "trigger_entities": [
+            "C0242970"
+          ],
+          "change_type": "progression",
+          "target_domain": "imaging",
+          "timestamp": "2016-09"
+        }
+      }
+    }
+  ]
+}

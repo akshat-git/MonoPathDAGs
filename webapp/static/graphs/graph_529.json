@@ -1,0 +1,264 @@
+{
+  "nodes": [
+    {
+      "id": "N1",
+      "label": "Step 1",
+      "customData": {
+        "node_id": "A",
+        "node_step_index": 0,
+        "content": "70-year-old female presented with right upper quadrant (RUQ) abdominal pain, nausea, malaise, and unintentional weight loss.",
+        "clinical_data": {
+          "HPI": [
+            {
+              "summary": "70-year-old female presented with right upper quadrant (RUQ) abdominal pain, nausea, malaise, and unintentional weight loss.",
+              "associated_symptoms": [
+                "C0000729",
+                "C0027497",
+                "C0024798",
+                "C0231246"
+              ]
+            }
+          ]
+        }
+      }
+    },
+    {
+      "id": "N2",
+      "label": "Step 2",
+      "customData": {
+        "node_id": "B",
+        "node_step_index": 1,
+        "content": "CT abdomen showed a large mass in the region of the hepatic flexure and ascending colon contiguous to a 5.3 cm mass in the lower portion of segment VI of the liver, and a 2.5 cm mass in the left lobe of the liver. Preoperative laboratory work-up including carcinoembryonic antigen and liver function test findings were within normal limits.",
+        "clinical_data": {
+          "imaging": [
+            {
+              "type": "Mass",
+              "body_part": "Hepatic flexure",
+              "modality": "CT",
+              "finding": "Large mass in the region of the hepatic flexure and ascending colon contiguous to a 5.3 cm mass in the lower portion of segment VI of the liver, and a 2.5 cm mass in the left lobe of the liver."
+            },
+            {
+              "type": "Mass",
+              "body_part": "Ascending colon",
+              "modality": "CT",
+              "finding": "Large mass in the region of the hepatic flexure and ascending colon contiguous to a 5.3 cm mass in the lower portion of segment VI of the liver, and a 2.5 cm mass in the left lobe of the liver."
+            },
+            {
+              "type": "Mass",
+              "body_part": "Liver",
+              "modality": "CT",
+              "finding": "5.3 cm mass in the lower portion of segment VI of the liver"
+            },
+            {
+              "type": "Mass",
+              "body_part": "Liver",
+              "modality": "CT",
+              "finding": "2.5 cm mass in the left lobe of the liver"
+            }
+          ],
+          "labs": [
+            {
+              "test": "Carcinoembryonic antigen",
+              "value": "normal",
+              "flag": "normal"
+            },
+            {
+              "test": "Liver function test",
+              "value": "normal",
+              "flag": "normal"
+            }
+          ]
+        }
+      }
+    },
+    {
+      "id": "N3",
+      "label": "Step 3",
+      "customData": {
+        "node_id": "C",
+        "node_step_index": 2,
+        "content": "Colonoscopy demonstrated an extrinsic mass, without any mucosal lesion, in the region of the upper ascending colon and hepatic flexure.",
+        "clinical_data": {
+          "imaging": [
+            {
+              "type": "Colonoscopy",
+              "body_part": "Ascending colon",
+              "modality": "other",
+              "finding": "extrinsic mass, without any mucosal lesion",
+              "impression": "extrinsic mass in the region of the upper ascending colon and hepatic flexure"
+            }
+          ]
+        }
+      }
+    },
+    {
+      "id": "N4",
+      "label": "Step 4",
+      "customData": {
+        "node_id": "D",
+        "node_step_index": 3,
+        "content": "Surgical exploration of the lesion was performed. Right transverse abdominal incision revealed a large right colon mass. Terminal ileum was divided with a stapler. High ligation of the right colonic mesentery was performed using suture ligatures. Transverse colon was divided with a stapler to the right of the middle colic artery. Segment VI of the liver was taken down using electrocautery, compression, clipping, and suture ligation of vessels. En bloc resection was then mobilized from the retroperitoneum, taking the involved Gerota fat off the kidney, providing a complete resection. A primary anastomosis was performed between the terminal ileum and the left transverse colon with a stapler, and the suture line was reinforced with interrupted 3-0 silk lambert sutures. Wound closed in layers using single strand #1 PDS*II, Scarpa\u2019s fascia closed with interrupted 3-0 Vicryl suture, and skin closed with running intradermal 3-0 Monocryl suture. Surgical specimens sent for histological and immunological examinations.",
+        "clinical_data": {
+          "procedures": [
+            {
+              "name": "Surgical exploration",
+              "date": null,
+              "location": "abdomen"
+            },
+            {
+              "name": "Resection of right colon mass",
+              "approach": "open",
+              "date": null,
+              "location": "right colon"
+            },
+            {
+              "name": "Division of terminal ileum",
+              "approach": "stapler",
+              "date": null,
+              "location": "terminal ileum"
+            },
+            {
+              "name": "High ligation of right colonic mesentery",
+              "date": null,
+              "location": "right colonic mesentery"
+            },
+            {
+              "name": "Division of transverse colon",
+              "approach": "stapler",
+              "date": null,
+              "location": "transverse colon"
+            },
+            {
+              "name": "Resection of segment VI of the liver",
+              "date": null,
+              "location": "segment VI of the liver"
+            },
+            {
+              "name": "En bloc resection",
+              "date": null,
+              "location": "retroperitoneum"
+            },
+            {
+              "name": "Primary anastomosis",
+              "approach": "stapler",
+              "date": null,
+              "location": "terminal ileum and left transverse colon"
+            },
+            {
+              "name": "Wound closure",
+              "date": null,
+              "location": "abdomen"
+            }
+          ]
+        }
+      }
+    },
+    {
+      "id": "N5",
+      "label": "Step 5",
+      "customData": {
+        "node_id": "E",
+        "node_step_index": 4,
+        "content": "Postoperative pathologic diagnosis of BPM. Histological confirmation of malignant peritoneal mesothelioma. Malignant peritoneal mesothelioma with biphasic component, where the spindle cell component merges with the epithelioid component.",
+        "clinical_data": {
+          "diagnoses": [
+            {
+              "code": "C45.1",
+              "label": "Mesothelioma of peritoneum",
+              "status": "active"
+            }
+          ]
+        }
+      }
+    },
+    {
+      "id": "N6",
+      "label": "Step 6",
+      "customData": {
+        "node_id": "F",
+        "node_step_index": 5,
+        "content": "Postoperative",
+        "clinical_data": {}
+      }
+    }
+  ],
+  "edges": [
+    {
+      "from": "N1",
+      "to": "N2",
+      "data": {
+        "edge_id": "A_to_B",
+        "branch_flag": true,
+        "content": "Patient underwent CT abdomen and lab tests.",
+        "transition_event": {
+          "trigger_type": "procedure",
+          "trigger_entities": [
+            "C0010209"
+          ],
+          "change_type": "addition",
+          "target_domain": "imaging"
+        }
+      }
+    },
+    {
+      "from": "N2",
+      "to": "N3",
+      "data": {
+        "edge_id": "B_to_C",
+        "branch_flag": true,
+        "content": "Patient underwent colonoscopy.",
+        "transition_event": {
+          "trigger_type": "procedure",
+          "trigger_entities": [
+            "C0009401"
+          ],
+          "change_type": "addition",
+          "target_domain": "imaging"
+        }
+      }
+    },
+    {
+      "from": "N3",
+      "to": "N4",
+      "data": {
+        "edge_id": "C_to_D",
+        "branch_flag": true,
+        "content": "Surgical exploration and resection of the lesion was performed.",
+        "transition_event": {
+          "trigger_type": "procedure",
+          "trigger_entities": [
+            "C0036386"
+          ],
+          "change_type": "addition",
+          "target_domain": "procedure"
+        }
+      }
+    },
+    {
+      "from": "N4",
+      "to": "N5",
+      "data": {
+        "edge_id": "D_to_E",
+        "branch_flag": true,
+        "content": "Postoperative pathologic diagnosis of BPM. Histological confirmation of malignant peritoneal mesothelioma. Malignant peritoneal mesothelioma with biphasic component, where the spindle cell component merges with the epithelioid component.",
+        "transition_event": {
+          "trigger_type": "interpretation",
+          "trigger_entities": [
+            "C45.1"
+          ],
+          "change_type": "addition",
+          "target_domain": "diagnosis"
+        }
+      }
+    },
+    {
+      "from": "N5",
+      "to": "N6",
+      "data": {
+        "edge_id": "E_to_F",
+        "branch_flag": true,
+        "content": "Postoperative"
+      }
+    }
+  ]
+}

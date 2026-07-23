@@ -1,0 +1,585 @@
+{
+  "nodes": [
+    {
+      "id": "N1",
+      "label": "Step 1",
+      "customData": {
+        "node_id": "A",
+        "node_step_index": 0,
+        "content": "38-year-old male, heavy smoker, presented with colicky right-sided and epigastric abdominal pain of 3-day duration, increased with eating, not relieved with H2 blockers but partially relieved by Ibuprofen, associated with abdominal distension, sweating, nausea, and vomiting of clear fluid without blood. He also reported generalized fatigue, feverish sensation, anorexia with recent weight loss. Developed dyspnea and cough without hemoptysis. Physical examination showed diffuse tenderness and guarding of the abdomen, more prominent in the right upper and lower quadrants, accompanied by rebound tenderness.",
+        "clinical_data": {
+          "HPI": [
+            {
+              "summary": "38-year-old male presented with colicky right-sided and epigastric abdominal pain of 3-day duration, increased with eating, not relieved with H2 blockers but partially relieved by Ibuprofen, associated with abdominal distension, sweating, nausea, and vomiting of clear fluid without blood. He also reported generalized fatigue, feverish sensation, anorexia with recent weight loss. Developed dyspnea and cough without hemoptysis.",
+              "duration": "P3D",
+              "onset": null,
+              "progression": "unknown",
+              "associated_symptoms": [
+                "Abdominal distension",
+                "Sweating",
+                "Nausea",
+                "Vomiting",
+                "Generalized fatigue",
+                "Feverish sensation",
+                "Anorexia",
+                "Weight loss",
+                "Dyspnea",
+                "Cough"
+              ],
+              "alleviating_factors": [
+                "Ibuprofen"
+              ],
+              "exacerbating_factors": [
+                "Eating"
+              ]
+            }
+          ],
+          "social_history": [
+            {
+              "category": "smoking",
+              "status": "current",
+              "description": "heavy smoker"
+            }
+          ]
+        }
+      }
+    },
+    {
+      "id": "N2",
+      "label": "Step 2",
+      "customData": {
+        "node_id": "B",
+        "node_step_index": 1,
+        "content": "Chest X-ray showed retrocardiac consolidation of the right lower lobe of lung, enlargement of the cardiac outline with water bottle sign suggesting pericardial effusion and obliteration of right costophrenic angle denoting moderate right-sided pleural effusion.",
+        "clinical_data": {
+          "imaging": [
+            {
+              "type": "Radiography, Thoracic (TUI)",
+              "body_part": "Lung (TUI)",
+              "modality": "X-ray",
+              "finding": "Retrocardiac consolidation of the right lower lobe of lung",
+              "impression": "Retrocardiac consolidation of the right lower lobe of lung",
+              "date": null
+            },
+            {
+              "type": "Radiography, Thoracic (TUI)",
+              "body_part": "Heart (TUI)",
+              "modality": "X-ray",
+              "finding": "Enlargement of the cardiac outline with water bottle sign",
+              "impression": "Pericardial effusion",
+              "date": null
+            },
+            {
+              "type": "Radiography, Thoracic (TUI)",
+              "body_part": "Right costophrenic angle",
+              "modality": "X-ray",
+              "finding": "Obliteration of right costophrenic angle",
+              "impression": "Moderate right-sided pleural effusion",
+              "date": null
+            }
+          ]
+        }
+      }
+    },
+    {
+      "id": "N3",
+      "label": "Step 3",
+      "customData": {
+        "node_id": "C",
+        "node_step_index": 2,
+        "content": "Chest and abdominal CT with intravenous contrast revealed ascites, right lower lobe lesion suggesting consolidation, associated pleural and pericardial effusion.",
+        "clinical_data": {
+          "imaging": [
+            {
+              "type": "Computed tomography of chest and abdomen",
+              "body_part": "Chest and abdomen",
+              "modality": "CT",
+              "finding": "Ascites, right lower lobe lesion suggesting consolidation, associated pleural and pericardial effusion.",
+              "impression": "Ascites, right lower lobe lesion suggesting consolidation, associated pleural and pericardial effusion.",
+              "date": null
+            }
+          ]
+        }
+      }
+    },
+    {
+      "id": "N4",
+      "label": "Step 4",
+      "customData": {
+        "node_id": "D",
+        "node_step_index": 3,
+        "content": "Echocardiography detected a large pericardial effusion with significant right ventricular compression and normal left ventricular size and function.",
+        "clinical_data": {
+          "imaging": [
+            {
+              "type": "Echocardiography",
+              "body_part": "Pericardium",
+              "modality": "Ultrasound",
+              "finding": "large pericardial effusion with significant right ventricular compression and normal left ventricular size and function"
+            }
+          ]
+        }
+      }
+    },
+    {
+      "id": "N5",
+      "label": "Step 5",
+      "customData": {
+        "node_id": "E",
+        "node_step_index": 4,
+        "content": "Abdominocentesis and biochemistry showed a yellow, turbid fluid with increased lactate dehydrogenase, normal glucose, total protein and albumin.",
+        "clinical_data": {
+          "labs": [
+            {
+              "test": "Abdominocentesis (procedure)",
+              "value": "yellow, turbid fluid",
+              "unit": null,
+              "flag": "abnormal",
+              "reference_range": null,
+              "timestamp": null
+            },
+            {
+              "test": "Lactate dehydrogenase measurement",
+              "value": "increased",
+              "unit": null,
+              "flag": "abnormal",
+              "reference_range": null,
+              "timestamp": null
+            },
+            {
+              "test": "Glucose measurement",
+              "value": "normal",
+              "unit": null,
+              "flag": "normal",
+              "reference_range": null,
+              "timestamp": null
+            },
+            {
+              "test": "Total protein measurement",
+              "value": "normal",
+              "unit": null,
+              "flag": "normal",
+              "reference_range": null,
+              "timestamp": null
+            },
+            {
+              "test": "Albumin measurement",
+              "value": "normal",
+              "unit": null,
+              "flag": "normal",
+              "reference_range": null,
+              "timestamp": null
+            }
+          ],
+          "procedures": [
+            {
+              "name": "Abdominocentesis (procedure)",
+              "approach": null,
+              "date": null,
+              "location": "abdomen",
+              "performed_by": null,
+              "outcome": null
+            }
+          ]
+        }
+      }
+    },
+    {
+      "id": "N6",
+      "label": "Step 6",
+      "customData": {
+        "node_id": "F",
+        "node_step_index": 5,
+        "content": "Pleural fluid analysis: Glucose 105 mg/dL, LDH 112 U/L (increased), Total protein 2.7 g/dL, Albumin 1.8 g/dL. Pleural tapping and biochemistry analysis revealed an exudative fluid. Pericardiocentesis showed a bloody, turbid aspirate. Cultures of the pleural, pericardial, and peritoneal fluid samples showed no evidence of bacterial or fungal growth. Peritoneal fluid analysis: Glucose 108 mg/dL, LDH 121 U/L (increased), Total protein 3.7 g/dL, Albumin 2.4 g/dL.",
+        "clinical_data": {
+          "labs": [
+            {
+              "test": "Glucose",
+              "value": "105",
+              "unit": "mg/dL",
+              "body_fluid": "pleural fluid"
+            },
+            {
+              "test": "Lactate dehydrogenase measurement",
+              "value": "112",
+              "unit": "U/L",
+              "flag": "abnormal",
+              "body_fluid": "pleural fluid"
+            },
+            {
+              "test": "Total protein measurement",
+              "value": "2.7",
+              "unit": "g/dL",
+              "body_fluid": "pleural fluid"
+            },
+            {
+              "test": "Albumin measurement",
+              "value": "1.8",
+              "unit": "g/dL",
+              "body_fluid": "pleural fluid"
+            },
+            {
+              "test": "Glucose",
+              "value": "108",
+              "unit": "mg/dL",
+              "body_fluid": "peritoneal fluid"
+            },
+            {
+              "test": "Lactate dehydrogenase measurement",
+              "value": "121",
+              "unit": "U/L",
+              "flag": "abnormal",
+              "body_fluid": "peritoneal fluid"
+            },
+            {
+              "test": "Total protein measurement",
+              "value": "3.7",
+              "unit": "g/dL",
+              "body_fluid": "peritoneal fluid"
+            },
+            {
+              "test": "Albumin measurement",
+              "value": "2.4",
+              "unit": "g/dL",
+              "body_fluid": "peritoneal fluid"
+            }
+          ],
+          "procedures": [
+            {
+              "name": "Thoracentesis",
+              "location": "pleural cavity",
+              "outcome": "exudative fluid"
+            },
+            {
+              "name": "Pericardiocentesis",
+              "location": "pericardial space",
+              "outcome": "bloody, turbid aspirate"
+            }
+          ]
+        }
+      }
+    },
+    {
+      "id": "N7",
+      "label": "Step 7",
+      "customData": {
+        "node_id": "G",
+        "node_step_index": 6,
+        "content": "Pericardial fluid analysis: Glucose 37 mg/dL (decreased), LDH 1156 U/L (increased), Total protein 5.2 g/dL (increased), Albumin 3.3 g/dL. Serum values: Glucose 106 mg/dL, LDH 168 U/L (decreased), Total protein 6.1 g/dL, Albumin 3.9 g/dL. Cytology of the peritoneal fluid showed macrophages, neutrophils, and occasional lymphocytes with reactive mesothelial cells and being negative for malignancy. Cytology of the right pleural fluid revealed few reactive mesothelial cells, many lymphocytes, few neutrophils, and the absence of cancer cells. Pericardial window under echocardiography-guidance illustrated mild chronic inflammation with no evidence of malignancy.",
+        "clinical_data": {
+          "labs": [
+            {
+              "test": "Glucose measurement",
+              "value": "37",
+              "unit": "mg/dL",
+              "flag": "abnormal",
+              "timestamp": null
+            },
+            {
+              "test": "Lactate Dehydrogenase Measurement",
+              "value": "1156",
+              "unit": "U/L",
+              "flag": "abnormal",
+              "timestamp": null
+            },
+            {
+              "test": "Total protein measurement",
+              "value": "5.2",
+              "unit": "g/dL",
+              "timestamp": null
+            },
+            {
+              "test": "Albumin measurement",
+              "value": "3.3",
+              "unit": "g/dL",
+              "timestamp": null
+            },
+            {
+              "test": "Glucose measurement",
+              "value": "106",
+              "unit": "mg/dL",
+              "timestamp": null
+            },
+            {
+              "test": "Lactate Dehydrogenase Measurement",
+              "value": "168",
+              "unit": "U/L",
+              "flag": "abnormal",
+              "timestamp": null
+            },
+            {
+              "test": "Total protein measurement",
+              "value": "6.1",
+              "unit": "g/dL",
+              "timestamp": null
+            },
+            {
+              "test": "Albumin measurement",
+              "value": "3.9",
+              "unit": "g/dL",
+              "timestamp": null
+            }
+          ],
+          "imaging": [
+            {
+              "type": "Pericardial window",
+              "body_part": "Pericardium",
+              "modality": "other",
+              "finding": "mild chronic inflammation",
+              "impression": "no evidence of malignancy",
+              "date": null
+            }
+          ]
+        }
+      }
+    },
+    {
+      "id": "N8",
+      "label": "Step 8",
+      "customData": {
+        "node_id": "H",
+        "node_step_index": 7,
+        "content": "Patient was given colchicine, ibuprofen, metronidazole, and levofloxacin.",
+        "clinical_data": {
+          "medications": [
+            {
+              "drug": "C0009437",
+              "dosage": null,
+              "frequency": null,
+              "modality": null,
+              "start_date": null,
+              "end_date": null,
+              "indication": null
+            },
+            {
+              "drug": "C0021320",
+              "dosage": null,
+              "frequency": null,
+              "modality": null,
+              "start_date": null,
+              "end_date": null,
+              "indication": null
+            },
+            {
+              "drug": "C0025334",
+              "dosage": null,
+              "frequency": null,
+              "modality": null,
+              "start_date": null,
+              "end_date": null,
+              "indication": null
+            },
+            {
+              "drug": "C0697249",
+              "dosage": null,
+              "frequency": null,
+              "modality": null,
+              "start_date": null,
+              "end_date": null,
+              "indication": null
+            }
+          ]
+        }
+      }
+    },
+    {
+      "id": "N9",
+      "label": "Step 9",
+      "customData": {
+        "node_id": "I",
+        "node_step_index": 8,
+        "content": "Follow-up CT scan revealed resolution of almost all of the pleural effusion, with significant reduction of pericardial effusion but persistence of the spiculated soft tissue enhancing lesion measuring about 2.1 cm in the right lower lobe associated with hilar and supraclavicular lymphadenopathy. Chest CT scan showed a spiculated mass in the right lower lobe of the lung. Neck CT scan showed an enlarged left supraclavicular lymph node. Whole-body positron emission tomography scan demonstrated a hypermetabolic potentially malignant right pulmonary nodule in the posterior basal segment of the lower lobe, bilateral prominent-sized",
+        "clinical_data": {
+          "imaging": [
+            {
+              "type": "CT scan",
+              "body_part": "pleural space",
+              "modality": "CT",
+              "finding": "resolution of almost all of the pleural effusion",
+              "date": null
+            },
+            {
+              "type": "CT scan",
+              "body_part": "pericardial space",
+              "modality": "CT",
+              "finding": "significant reduction of pericardial effusion",
+              "date": null
+            },
+            {
+              "type": "soft tissue enhancing lesion",
+              "body_part": "right lower lobe",
+              "modality": "CT",
+              "finding": "persistence of the spiculated soft tissue enhancing lesion measuring about 2.1 cm",
+              "date": null
+            },
+            {
+              "type": "lymphadenopathy",
+              "body_part": "hilar region",
+              "modality": "CT",
+              "finding": "hilar lymphadenopathy",
+              "date": null
+            },
+            {
+              "type": "lymphadenopathy",
+              "body_part": "supraclavicular region",
+              "modality": "CT",
+              "finding": "supraclavicular lymphadenopathy",
+              "date": null
+            },
+            {
+              "type": "spiculated mass",
+              "body_part": "right lower lobe of the lung",
+              "modality": "CT",
+              "finding": "spiculated mass",
+              "date": null
+            },
+            {
+              "type": "lymph node",
+              "body_part": "left supraclavicular region",
+              "modality": "CT",
+              "finding": "enlarged left supraclavicular lymph node",
+              "date": null
+            },
+            {
+              "type": "pulmonary nodule",
+              "body_part": "right lower lobe",
+              "modality": "PET",
+              "finding": "hypermetabolic potentially malignant right pulmonary nodule in the posterior basal segment of the lower lobe, bilateral prominent-sized",
+              "date": null
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "edges": [
+    {
+      "from": "N1",
+      "to": "N2",
+      "data": {
+        "edge_id": "A_to_B",
+        "branch_flag": true,
+        "content": "Initial presentation of a 38-year-old male with abdominal pain, fever, and respiratory symptoms leading to initial chest X-ray."
+      }
+    },
+    {
+      "from": "N2",
+      "to": "N3",
+      "data": {
+        "edge_id": "B_to_C",
+        "branch_flag": true,
+        "content": "Chest X-ray findings prompted further investigation with CT imaging.",
+        "transition_event": {
+          "trigger_type": "imaging",
+          "trigger_entities": [
+            "C0205078"
+          ],
+          "change_type": "progression",
+          "target_domain": "imaging"
+        }
+      }
+    },
+    {
+      "from": "N3",
+      "to": "N4",
+      "data": {
+        "edge_id": "C_to_D",
+        "branch_flag": true,
+        "content": "CT scan findings of pericardial effusion led to echocardiography for further evaluation.",
+        "transition_event": {
+          "trigger_type": "imaging",
+          "trigger_entities": [
+            "C0205360"
+          ],
+          "change_type": "progression",
+          "target_domain": "imaging"
+        }
+      }
+    },
+    {
+      "from": "N4",
+      "to": "N5",
+      "data": {
+        "edge_id": "D_to_E",
+        "branch_flag": true,
+        "content": "Detection of ascites on CT scan prompted abdominocentesis.",
+        "transition_event": {
+          "trigger_type": "procedure",
+          "trigger_entities": [
+            "C0000944"
+          ],
+          "change_type": "addition",
+          "target_domain": "procedure"
+        }
+      }
+    },
+    {
+      "from": "N5",
+      "to": "N6",
+      "data": {
+        "edge_id": "E_to_F",
+        "branch_flag": true,
+        "content": "Abdominocentesis results and pleural effusion findings led to pleural fluid analysis and pericardiocentesis.",
+        "transition_event": {
+          "trigger_type": "procedure",
+          "trigger_entities": [
+            "C0032147",
+            "C0031033"
+          ],
+          "change_type": "addition",
+          "target_domain": "procedure"
+        }
+      }
+    },
+    {
+      "from": "N6",
+      "to": "N7",
+      "data": {
+        "edge_id": "F_to_G",
+        "branch_flag": true,
+        "content": "Pleural and pericardial fluid analysis prompted further analysis including cytology and pericardial window.",
+        "transition_event": {
+          "trigger_type": "lab_change",
+          "trigger_entities": [],
+          "change_type": "progression",
+          "target_domain": "lab"
+        }
+      }
+    },
+    {
+      "from": "N7",
+      "to": "N8",
+      "data": {
+        "edge_id": "G_to_H",
+        "branch_flag": true,
+        "content": "Based on initial findings, the patient was started on colchicine, ibuprofen, metronidazole, and levofloxacin.",
+        "transition_event": {
+          "trigger_type": "medication_change",
+          "trigger_entities": [
+            "C0009437",
+            "C0021320",
+            "C0025334",
+            "C0697249"
+          ],
+          "change_type": "addition",
+          "target_domain": "medication"
+        }
+      }
+    },
+    {
+      "from": "N8",
+      "to": "N9",
+      "data": {
+        "edge_id": "H_to_I",
+        "branch_flag": true,
+        "content": "Following treatment, a follow-up CT scan was performed to assess the patient's condition.",
+        "transition_event": {
+          "trigger_type": "imaging",
+          "trigger_entities": [],
+          "change_type": "progression",
+          "target_domain": "imaging"
+        }
+      }
+    }
+  ]
+}

@@ -1,0 +1,321 @@
+{
+  "nodes": [
+    {
+      "id": "N1",
+      "label": "Step 1",
+      "customData": {
+        "node_id": "A",
+        "node_step_index": 0,
+        "content": "69-year-old male with a 10-year history of arterial hypertension presented with chest tightness and shortness of breath for 2 months and a dry cough for half a month.",
+        "clinical_data": {
+          "HPI": [
+            {
+              "summary": "chest tightness and shortness of breath",
+              "duration": "2 months",
+              "onset": null,
+              "progression": "unknown",
+              "associated_symptoms": [],
+              "alleviating_factors": [],
+              "exacerbating_factors": []
+            },
+            {
+              "summary": "dry cough",
+              "duration": "half a month",
+              "onset": null,
+              "progression": "unknown",
+              "associated_symptoms": [],
+              "alleviating_factors": [],
+              "exacerbating_factors": []
+            }
+          ],
+          "diagnoses": [
+            {
+              "code": "38341003",
+              "label": "Hypertension, systemic arterial (disorder)",
+              "status": "historical",
+              "onset_date": null
+            }
+          ]
+        }
+      }
+    },
+    {
+      "id": "N2",
+      "label": "Step 2",
+      "customData": {
+        "node_id": "B",
+        "node_step_index": 1,
+        "content": "Chest CT revealed an infection in the upper lobe of the left lung and a lesion in the left hilar region.",
+        "clinical_data": {
+          "imaging": [
+            {
+              "type": "Infection",
+              "body_part": "Upper lobe of the left lung",
+              "modality": "CT",
+              "finding": "Infection in the upper lobe of the left lung",
+              "date": null
+            },
+            {
+              "type": "Lesion",
+              "body_part": "Left hilar region",
+              "modality": "CT",
+              "finding": "Lesion in the left hilar region",
+              "date": null
+            }
+          ]
+        }
+      }
+    },
+    {
+      "id": "N3",
+      "label": "Step 3",
+      "customData": {
+        "node_id": "C",
+        "node_step_index": 2,
+        "content": "Repeat chest CT scan revealed no significant changes in the mediastinum or left hilar mass after antibiotic treatment.",
+        "clinical_data": {
+          "imaging": [
+            {
+              "type": "Computed tomography",
+              "body_part": "Mediastinum",
+              "modality": "CT",
+              "finding": "no significant changes",
+              "date": null
+            },
+            {
+              "type": "Computed tomography",
+              "body_part": "Hilar region",
+              "modality": "CT",
+              "finding": "no significant changes",
+              "date": null
+            }
+          ]
+        }
+      }
+    },
+    {
+      "id": "N4",
+      "label": "Step 4",
+      "customData": {
+        "node_id": "D",
+        "node_step_index": 3,
+        "content": "Chest contrast-enhanced CT revealed a lesion in the left hilar region measuring approximately 43 \u00d7 63 mm and encroaching on the left pulmonary artery, suggesting malignancy.",
+        "clinical_data": {
+          "imaging": [
+            {
+              "type": "Lesion (T0023401)",
+              "body_part": "Hilar Region (T0019528)",
+              "modality": "CT",
+              "finding": "Lesion in the left hilar region measuring approximately 43 \u00d7 63 mm and encroaching on the left pulmonary artery, suggesting malignancy.",
+              "impression": "Malignancy",
+              "date": null
+            }
+          ]
+        }
+      }
+    },
+    {
+      "id": "N5",
+      "label": "Step 5",
+      "customData": {
+        "node_id": "E",
+        "node_step_index": 4,
+        "content": "CT-guided percutaneous core needle biopsy of the left hilar lesion was performed.",
+        "clinical_data": {
+          "procedures": [
+            {
+              "name": "Biopsy of lung",
+              "approach": "percutaneous",
+              "date": null,
+              "location": "Left hilum",
+              "performed_by": null,
+              "outcome": null
+            }
+          ],
+          "imaging": [
+            {
+              "type": "Computed tomography",
+              "body_part": "Lung",
+              "modality": "CT",
+              "finding": null,
+              "impression": null,
+              "date": null
+            }
+          ]
+        }
+      }
+    },
+    {
+      "id": "N6",
+      "label": "Step 6",
+      "customData": {
+        "node_id": "J",
+        "node_step_index": 9,
+        "content": "CT scan revealed hypodense lesions in a small portion of the ill-defined part of the left hilar mass.",
+        "clinical_data": {
+          "imaging": [
+            {
+              "type": "CT scan",
+              "body_part": "hilar mass",
+              "modality": "CT",
+              "finding": "hypodense lesions in a small portion of the ill-defined part of the left hilar mass"
+            }
+          ]
+        }
+      }
+    },
+    {
+      "id": "N7",
+      "label": "Step 7",
+      "customData": {
+        "node_id": "K",
+        "node_step_index": 10,
+        "content": "Morphological analysis of the left hilar biopsy tissue revealed nests, beams, and chrysanthemum-shaped clusters of arranged cells. The tumor cells were small, with little cytoplasm, indistinct cell boundaries, fine chromatin, and a lack of nucleoli.",
+        "clinical_data": {
+          "imaging": [
+            {
+              "body_part": "Hilum",
+              "modality": "biopsy",
+              "finding": "nests, beams, and chrysanthemum-shaped clusters of arranged cells",
+              "impression": "tumor cells were small, with little cytoplasm, indistinct cell boundaries, fine chromatin, and a lack of nucleoli"
+            }
+          ]
+        }
+      }
+    },
+    {
+      "id": "N8",
+      "label": "Step 8",
+      "customData": {
+        "node_id": "L",
+        "node_step_index": 11,
+        "content": "IHC staining of the left hilar lesion biopsy revealed that the tumor cells were positive for CK, TTF-1, CD56, and Syn, and the Ki-67 index was approximately 90%. Pathological diagnosis: poorly differentiated neuroendocrine carcinoma (small cell carcinoma).",
+        "clinical_data": {
+          "imaging": [
+            {
+              "type": "Biopsy",
+              "body_part": "Hilar region of left lung",
+              "modality": "IHC staining",
+              "finding": "Tumor cells positive for CK, TTF-1, CD56, and Syn",
+              "impression": "Poorly differentiated neuroendocrine carcinoma (small cell carcinoma)",
+              "date": null
+            }
+          ],
+          "labs": [
+            {
+              "test": "Ki-67 index",
+              "value": "90",
+              "unit": "%",
+              "flag": "abnormal",
+              "reference_range": null,
+              "timestamp": null
+            }
+          ],
+          "diagnoses": [
+            {
+              "code": "C8014",
+              "label": "Small cell carcinoma",
+              "status": "active",
+              "onset_date": null
+            },
+            {
+              "code": "C4047",
+              "label": "Neuroendocrine Carcinoma",
+              "status": "active",
+              "onset_date": null
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "edges": [
+    {
+      "from": "N1",
+      "to": "N2",
+      "data": {
+        "edge_id": "A_to_B",
+        "branch_flag": true,
+        "content": "Patient developed an infection in the upper lobe of the left lung and a lesion in the left hilar region."
+      }
+    },
+    {
+      "from": "N2",
+      "to": "N3",
+      "data": {
+        "edge_id": "B_to_C",
+        "branch_flag": true,
+        "content": "Antibiotic treatment was administered, but repeat chest CT scan revealed no significant changes in the mediastinum or left hilar mass.",
+        "transition_event": {
+          "trigger_type": "medication_change",
+          "trigger_entities": [],
+          "change_type": "other",
+          "target_domain": "imaging"
+        }
+      }
+    },
+    {
+      "from": "N3",
+      "to": "N4",
+      "data": {
+        "edge_id": "C_to_D",
+        "branch_flag": true,
+        "content": "Chest contrast-enhanced CT revealed a lesion in the left hilar region measuring approximately 43 \u00d7 63 mm and encroaching on the left pulmonary artery, suggesting malignancy.",
+        "transition_event": {
+          "trigger_type": "imaging",
+          "trigger_entities": [],
+          "change_type": "progression",
+          "target_domain": "imaging"
+        }
+      }
+    },
+    {
+      "from": "N4",
+      "to": "N5",
+      "data": {
+        "edge_id": "D_to_E",
+        "branch_flag": true,
+        "content": "CT-guided percutaneous core needle biopsy of the left hilar lesion was performed.",
+        "transition_event": {
+          "trigger_type": "procedure",
+          "trigger_entities": [],
+          "change_type": "addition",
+          "target_domain": "procedure"
+        }
+      }
+    },
+    {
+      "from": "N5",
+      "to": "N6",
+      "data": {
+        "edge_id": "E_to_J",
+        "branch_flag": true,
+        "content": "CT scan revealed hypodense lesions in a small portion of the ill-defined part of the left hilar mass."
+      }
+    },
+    {
+      "from": "N6",
+      "to": "N7",
+      "data": {
+        "edge_id": "J_to_K",
+        "branch_flag": true,
+        "content": "Morphological analysis of the left hilar biopsy tissue revealed nests, beams, and chrysanthemum-shaped clusters of arranged cells. The tumor cells were small, with little cytoplasm, indistinct cell boundaries, fine chromatin, and a lack of nucleoli."
+      }
+    },
+    {
+      "from": "N7",
+      "to": "N8",
+      "data": {
+        "edge_id": "K_to_L",
+        "branch_flag": true,
+        "content": "IHC staining of the left hilar lesion biopsy revealed that the tumor cells were positive for CK, TTF-1, CD56, and Syn, and the Ki-67 index was approximately 90%. Pathological diagnosis: poorly differentiated neuroendocrine carcinoma (small cell carcinoma).",
+        "transition_event": {
+          "trigger_type": "lab_change",
+          "trigger_entities": [],
+          "change_type": "addition",
+          "target_domain": "diagnosis"
+        }
+      }
+    }
+  ]
+}

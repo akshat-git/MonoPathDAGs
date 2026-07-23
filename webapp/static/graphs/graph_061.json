@@ -1,0 +1,349 @@
+{
+  "nodes": [
+    {
+      "id": "N1",
+      "label": "Step 1",
+      "customData": {
+        "node_id": "A",
+        "node_step_index": 0,
+        "content": "65-year-old woman presented with dyspnea.",
+        "clinical_data": {
+          "HPI": [
+            {
+              "summary": "65-year-old woman presented with dyspnea.",
+              "associated_symptoms": [
+                "Dyspnea"
+              ]
+            }
+          ]
+        }
+      },
+      "custom_id": "graph_061_N0"
+    },
+    {
+      "id": "N2",
+      "label": "Step 2",
+      "customData": {
+        "node_id": "B",
+        "node_step_index": 1,
+        "content": "Bronchoscopic biopsy of the right upper lobe showed adenocarcinoma.",
+        "clinical_data": {
+          "procedures": [
+            {
+              "name": "Bronchoscopic biopsy",
+              "location": "Right upper lobe",
+              "outcome": "Adenocarcinoma"
+            }
+          ],
+          "diagnoses": [
+            {
+              "code": "C0001637",
+              "label": "Adenocarcinoma",
+              "status": "active"
+            }
+          ]
+        }
+      },
+      "custom_id": "graph_061_N1"
+    },
+    {
+      "id": "N3",
+      "label": "Step 3",
+      "customData": {
+        "node_id": "C",
+        "node_step_index": 2,
+        "content": "Imaging revealed multiple bone and brain metastases, leading to a diagnosis of lung adenocarcinoma (cT4N2M1c, stage IVB).",
+        "clinical_data": {
+          "imaging": [
+            {
+              "type": "bone metastases",
+              "body_part": "bone",
+              "modality": "imaging",
+              "finding": "multiple metastases"
+            },
+            {
+              "type": "brain metastases",
+              "body_part": "brain",
+              "modality": "imaging",
+              "finding": "multiple metastases"
+            }
+          ],
+          "diagnoses": [
+            {
+              "code": "C34.9",
+              "label": "lung adenocarcinoma",
+              "status": "active"
+            }
+          ]
+        }
+      },
+      "custom_id": "graph_061_N2"
+    },
+    {
+      "id": "N4",
+      "label": "Step 4",
+      "customData": {
+        "node_id": "D",
+        "node_step_index": 3,
+        "content": "No driver gene mutations or rearrangements were detected, but the programmed death\u2010ligand 1 tumor proportion score was 60%.",
+        "clinical_data": {
+          "labs": [
+            {
+              "test": "Programmed Death-ligand 1 Tumor Proportion Score",
+              "value": "60%",
+              "unit": "%"
+            }
+          ]
+        }
+      },
+      "custom_id": "graph_061_N3"
+    },
+    {
+      "id": "N5",
+      "label": "Step 5",
+      "customData": {
+        "node_id": "E",
+        "node_step_index": 4,
+        "content": "Received palliative radiation for spinal and brain metastases and started first-line chemotherapy with cisplatin, pemetrexed, and pembrolizumab.",
+        "clinical_data": {
+          "procedures": [
+            {
+              "name": "Palliative radiation therapy",
+              "approach": "other",
+              "date": null,
+              "location": "Spinal and brain metastases",
+              "performed_by": null,
+              "outcome": null
+            }
+          ],
+          "medications": [
+            {
+              "drug": "cisplatin",
+              "dosage": null,
+              "frequency": null,
+              "modality": "IV",
+              "start_date": null,
+              "end_date": null,
+              "indication": "spinal and brain metastases"
+            },
+            {
+              "drug": "pemetrexed",
+              "dosage": null,
+              "frequency": null,
+              "modality": "IV",
+              "start_date": null,
+              "end_date": null,
+              "indication": "spinal and brain metastases"
+            },
+            {
+              "drug": "pembrolizumab",
+              "dosage": null,
+              "frequency": null,
+              "modality": "IV",
+              "start_date": null,
+              "end_date": null,
+              "indication": "spinal and brain metastases"
+            }
+          ],
+          "diagnoses": [
+            {
+              "code": null,
+              "label": "spinal and brain metastases",
+              "status": "active",
+              "onset_date": null
+            }
+          ]
+        }
+      },
+      "custom_id": "graph_061_N4"
+    },
+    {
+      "id": "N6",
+      "label": "Step 6",
+      "customData": {
+        "node_id": "F",
+        "node_step_index": 5,
+        "content": "After 13 chemotherapy cycles, abdominal computed tomography (CT) revealed ascites, confirmed as adenocarcinoma by cytological analysis. Progressive disease (PD) was diagnosed.",
+        "clinical_data": {
+          "imaging": [
+            {
+              "type": "Computed tomography",
+              "body_part": "abdomen",
+              "modality": "CT",
+              "finding": "ascites",
+              "date": null
+            }
+          ],
+          "diagnoses": [
+            {
+              "code": "C0001426",
+              "label": "Adenocarcinoma",
+              "status": "active",
+              "onset_date": null
+            },
+            {
+              "code": "C0033404",
+              "label": "Progressive disease",
+              "status": "active",
+              "onset_date": null
+            }
+          ]
+        }
+      },
+      "custom_id": "graph_061_N5"
+    },
+    {
+      "id": "N7",
+      "label": "Step 7",
+      "customData": {
+        "node_id": "G",
+        "node_step_index": 6,
+        "content": "Docetaxel and ramucirumab (DTX\u2009+\u2009RAM) were introduced as second-line therapy.",
+        "clinical_data": {
+          "medications": [
+            {
+              "drug": "C0013092",
+              "dosage": null,
+              "frequency": null,
+              "modality": null,
+              "start_date": null,
+              "end_date": null,
+              "indication": null
+            },
+            {
+              "drug": "C3259902",
+              "dosage": null,
+              "frequency": null,
+              "modality": null,
+              "start_date": null,
+              "end_date": null,
+              "indication": null
+            }
+          ]
+        }
+      },
+      "custom_id": "graph_061_N6"
+    },
+    {
+      "id": "N8",
+      "label": "Step 8",
+      "customData": {
+        "node_id": "H",
+        "node_step_index": 7,
+        "content": "Ascites worsened, necessitating frequent abdominal paracentesis, and activities of daily living (ADL) declined. Performance status (PS) was 1, and her abdomen was markedly distended (91 cm). Blood tests showed hypoalbuminemia (albumin 3.4 g/dL).",
+        "clinical_data": {
+          "HPI": [
+            {
+              "progression": "worsened",
+              "associated_symptoms": [
+                "Ascites"
+              ]
+            }
+          ],
+          "functional_status": [
+            {
+              "domain": "ADLs",
+              "description": "declined"
+            }
+          ],
+          "vitals": [
+            {
+              "type": "Abdominal circumference",
+              "value": "91",
+              "unit": "cm"
+            }
+          ],
+          "labs": [
+            {
+              "test": "Hypoalbuminemia",
+              "value": "3.4",
+              "unit": "g/dL"
+            }
+          ]
+        }
+      },
+      "custom_id": "graph_061_N7"
+    },
+    {
+      "id": "N9",
+      "label": "Step 9",
+      "customData": {
+        "node_id": "I",
+        "clinical_data": {}
+      },
+      "custom_id": "graph_061_N8"
+    }
+  ],
+  "edges": [
+    {
+      "from": "N1",
+      "to": "N2",
+      "data": {
+        "edge_id": "A_to_B",
+        "branch_flag": true,
+        "content": "Initial presentation led to further investigation."
+      },
+      "custom_id": "graph_061_N1_N2"
+    },
+    {
+      "from": "N2",
+      "to": "N3",
+      "data": {
+        "edge_id": "B_to_C",
+        "branch_flag": true,
+        "content": "Biopsy results and further imaging revealed metastatic disease."
+      },
+      "custom_id": "graph_061_N2_N3"
+    },
+    {
+      "from": "N3",
+      "to": "N4",
+      "data": {
+        "edge_id": "C_to_D",
+        "branch_flag": true,
+        "content": "Molecular profiling was performed to guide treatment decisions."
+      },
+      "custom_id": "graph_061_N3_N4"
+    },
+    {
+      "from": "N4",
+      "to": "N5",
+      "data": {
+        "edge_id": "D_to_E",
+        "branch_flag": true,
+        "content": "Based on the tumor proportion score, the patient was started on palliative radiation and first-line chemotherapy."
+      },
+      "custom_id": "graph_061_N4_N5"
+    },
+    {
+      "from": "N5",
+      "to": "N6",
+      "data": {
+        "edge_id": "E_to_F",
+        "branch_flag": true,
+        "content": "After 13 cycles of chemotherapy, imaging revealed ascites and progressive disease."
+      },
+      "custom_id": "graph_061_N5_N6"
+    },
+    {
+      "from": "N6",
+      "to": "N7",
+      "data": {
+        "edge_id": "F_to_G",
+        "branch_flag": true,
+        "content": "Due to disease progression, second-line therapy was initiated."
+      },
+      "custom_id": "graph_061_N6_N7"
+    },
+    {
+      "from": "N7",
+      "to": "N8",
+      "data": {
+        "edge_id": "G_to_H",
+        "branch_flag": true,
+        "content": "Despite second-line therapy, the patient's condition continued to decline."
+      },
+      "custom_id": "graph_061_N7_N8"
+    }
+  ]
+}

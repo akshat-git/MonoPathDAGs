@@ -1,0 +1,616 @@
+{
+  "nodes": [
+    {
+      "id": "N1",
+      "label": "Step 1",
+      "customData": {
+        "node_id": "A",
+        "node_step_index": 0,
+        "content": "January 2015, 65-year-old woman presented with moderate headache and mild nausea. Medical history included hypertension and coronary disease for 10 years, which were under control with oral medications. Non-smoker and non-drinker, and denied any family history of cancer. Physical examination revealed a palpable nodule in the lower right cervical zone, which was about 1.0 cm in diameter, painless, hard, and fixed with surrounding structures.",
+        "clinical_data": {
+          "HPI": [
+            {
+              "summary": "65-year-old woman presented with moderate headache and mild nausea.",
+              "onset": "January 2015",
+              "progression": "unknown",
+              "associated_symptoms": [
+                "nausea"
+              ]
+            }
+          ],
+          "diagnoses": [
+            {
+              "code": "http://purl.bioontology.org/ontology/SNOMEDCT/162723003",
+              "label": "Hypertension",
+              "status": "active",
+              "onset_date": null
+            },
+            {
+              "code": "http://purl.bioontology.org/ontology/SNOMEDCT/53741008",
+              "label": "Coronary arteriosclerosis",
+              "status": "active",
+              "onset_date": null
+            }
+          ],
+          "social_history": [
+            {
+              "category": "smoking",
+              "status": "never",
+              "description": "Non-smoker"
+            },
+            {
+              "category": "alcohol",
+              "status": "never",
+              "description": "Non-drinker"
+            }
+          ],
+          "physical_exam": [
+            {
+              "finding": "palpable nodule in the lower right cervical zone",
+              "description": "about 1.0 cm in diameter, painless, hard, and fixed with surrounding structures",
+              "location": "lower right cervical zone"
+            }
+          ]
+        }
+      }
+    },
+    {
+      "id": "N2",
+      "label": "Step 2",
+      "customData": {
+        "node_id": "B",
+        "node_step_index": 1,
+        "content": "Multiple enlarged lymph nodes in the right lower cervical and bilateral supraclavicular zone were detected by ultrasound. Chest CT scan with contrast revealed a 1.5-cm nodule in the left upper lobe of the lung, with multiple enlarged lymph nodes in the left hilum and bilateral mediastinum. Brain MRI showed a 1.2-cm nodule in the right parietal lobe with mild surrounded swelling.",
+        "clinical_data": {
+          "imaging": [
+            {
+              "type": "Lymph node",
+              "body_part": "Right lower cervical",
+              "modality": "Ultrasound",
+              "finding": "Multiple enlarged lymph nodes"
+            },
+            {
+              "type": "Lymph node",
+              "body_part": "Bilateral supraclavicular zone",
+              "modality": "Ultrasound",
+              "finding": "Multiple enlarged lymph nodes"
+            },
+            {
+              "type": "Nodule",
+              "body_part": "Left upper lobe of the lung",
+              "modality": "CT",
+              "finding": "1.5-cm nodule",
+              "impression": "1.5-cm nodule in the left upper lobe of the lung"
+            },
+            {
+              "type": "Lymph node",
+              "body_part": "Left hilum",
+              "modality": "CT",
+              "finding": "Multiple enlarged lymph nodes"
+            },
+            {
+              "type": "Lymph node",
+              "body_part": "Bilateral mediastinum",
+              "modality": "CT",
+              "finding": "Multiple enlarged lymph nodes"
+            },
+            {
+              "type": "Nodule",
+              "body_part": "Right parietal lobe",
+              "modality": "MRI",
+              "finding": "1.2-cm nodule with mild surrounded swelling",
+              "impression": "1.2-cm nodule in the right parietal lobe with mild surrounded swelling"
+            }
+          ]
+        }
+      }
+    },
+    {
+      "id": "N3",
+      "label": "Step 3",
+      "customData": {
+        "node_id": "C",
+        "node_step_index": 2,
+        "content": "PET-CT scan confirmed multiple lesions with increased FDG uptake. Ultrasound-guided core needle biopsy of the cervical lymph node indicated metastatic adenocarcinoma of the lung. Immunohistochemical (IHC) staining: CA125 (+), CA199 (+), CD34 (blood vessels+), CDX2 (\u2212), CK19 (+), galectin-3 (\u00b1), Ki-67 (40%+), mammoglobin (\u00b1), naspin-A (+), PAX8 (\u00b1), thyroglobulin (\u2212), and TTF-1 (+).",
+        "clinical_data": {
+          "imaging": [
+            {
+              "type": "Positron emission tomography/computed tomography",
+              "body_part": "multiple locations",
+              "modality": "PET",
+              "finding": "multiple lesions with increased FDG uptake",
+              "impression": "multiple lesions with increased FDG uptake"
+            }
+          ],
+          "procedures": [
+            {
+              "name": "Core needle biopsy",
+              "approach": "percutaneous",
+              "location": "cervical lymph node",
+              "outcome": "metastatic adenocarcinoma of the lung"
+            }
+          ],
+          "labs": [
+            {
+              "test": "CA-125 antigen",
+              "value": "positive",
+              "flag": "abnormal"
+            },
+            {
+              "test": "CA19-9 antigen",
+              "value": "positive",
+              "flag": "abnormal"
+            },
+            {
+              "test": "CD34",
+              "value": "positive",
+              "flag": "abnormal",
+              "description": "blood vessels+"
+            },
+            {
+              "test": "CDX2 protein",
+              "value": "negative",
+              "flag": "normal"
+            },
+            {
+              "test": "Cytokeratin-19",
+              "value": "positive",
+              "flag": "abnormal"
+            },
+            {
+              "test": "Galectin-3",
+              "value": "equivocal",
+              "flag": "unknown"
+            },
+            {
+              "test": "Ki-67 protein",
+              "value": "40%+",
+              "flag": "abnormal"
+            },
+            {
+              "test": "Mammaglobin",
+              "value": "equivocal",
+              "flag": "unknown"
+            },
+            {
+              "test": "Napsin A",
+              "value": "positive",
+              "flag": "abnormal"
+            },
+            {
+              "test": "PAX8 protein",
+              "value": "equivocal",
+              "flag": "unknown"
+            },
+            {
+              "test": "Thyroglobulin",
+              "value": "negative",
+              "flag": "normal"
+            },
+            {
+              "test": "Thyroid Transcription Factor-1",
+              "value": "positive",
+              "flag": "abnormal"
+            }
+          ],
+          "diagnoses": [
+            {
+              "code": "C34",
+              "label": "Malignant neoplasm of bronchus and lung",
+              "status": "active"
+            },
+            {
+              "code": "C77",
+              "label": "Secondary and unspecified malignant neoplasm of lymph node",
+              "status": "active"
+            }
+          ]
+        }
+      }
+    },
+    {
+      "id": "N4",
+      "label": "Step 4",
+      "customData": {
+        "node_id": "D",
+        "node_step_index": 3,
+        "content": "EGFR gene detection showed L858R mutation in exon 21. Diagnosed with non-small-cell lung adenocarcinoma with clinical staging of T1N3M1b, stage IV (with synchronic brain metastasis).",
+        "clinical_data": {
+          "diagnoses": [
+            {
+              "code": "C34.9",
+              "label": "Lung Cancer",
+              "status": "active"
+            },
+            {
+              "code": "C79.31",
+              "label": "Secondary malignant neoplasm of brain",
+              "status": "active"
+            }
+          ],
+          "imaging": [
+            {
+              "type": "imaging",
+              "body_part": "brain",
+              "modality": "imaging",
+              "finding": "brain metastasis"
+            }
+          ],
+          "labs": [
+            {
+              "test": "EGFR gene detection",
+              "value": "L858R mutation in exon 21",
+              "unit": null,
+              "flag": "abnormal"
+            }
+          ]
+        }
+      }
+    },
+    {
+      "id": "N5",
+      "label": "Step 5",
+      "customData": {
+        "node_id": "E",
+        "node_step_index": 4,
+        "content": "February 2015, patient started treatment with icotinib (125\u2009mg tid orally). A partial response was achieved after 1\u2009month.",
+        "clinical_data": {
+          "medications": [
+            {
+              "drug": "icotinib",
+              "dosage": "125 mg",
+              "frequency": "tid",
+              "modality": "orally",
+              "start_date": "2015-02",
+              "end_date": null
+            }
+          ]
+        }
+      }
+    },
+    {
+      "id": "N6",
+      "label": "Step 6",
+      "customData": {
+        "node_id": "F",
+        "node_step_index": 5,
+        "content": "October 2015, patient complained of severe headache and nausea. CSF cytopathology confirmed leptomeningeal metastasis. Brain imaging (Fig.2c) showed no progression of primary lung tumor or metastatic brain lesion. Intrathecal chemotherapy with methotrexate was given (methotrexate 10 mg, every other day). Liquid biopsy using plasma and CSF was performed. NGS reported EGFR gene amplification, L858R mutation, and T790 M mutation in CSF, but not in plasma.",
+        "clinical_data": {
+          "HPI": [
+            {
+              "summary": "Patient complained of severe headache and nausea.",
+              "onset": "October 2015",
+              "associated_symptoms": [
+                "nausea"
+              ]
+            }
+          ],
+          "diagnoses": [
+            {
+              "code": "C0242392",
+              "label": "Leptomeningeal Metastasis",
+              "status": "active",
+              "onset_date": "2015-10"
+            },
+            {
+              "code": "C0024117",
+              "label": "Lung Neoplasms",
+              "status": "active"
+            }
+          ],
+          "imaging": [
+            {
+              "type": "Brain imaging",
+              "body_part": "Brain",
+              "modality": "other",
+              "finding": "no progression of primary lung tumor or metastatic brain lesion",
+              "date": "2015-10"
+            }
+          ],
+          "procedures": [
+            {
+              "name": "C0085607",
+              "approach": "intrathecal",
+              "date": "2015-10",
+              "location": "meninges",
+              "performed_by": "unknown",
+              "outcome": "unknown"
+            }
+          ],
+          "medications": [
+            {
+              "drug": "C0025304",
+              "dosage": "10 mg",
+              "frequency": "every other day",
+              "modality": "intrathecal",
+              "start_date": "2015-10",
+              "end_date": null,
+              "indication": "C0242392"
+            }
+          ],
+          "labs": [
+            {
+              "test": "Liquid biopsy",
+              "value": "EGFR gene amplification, L858R mutation, and T790 M mutation in CSF, but not in plasma",
+              "unit": null,
+              "flag": "abnormal",
+              "timestamp": "2015-10"
+            }
+          ]
+        }
+      }
+    },
+    {
+      "id": "N7",
+      "label": "Step 7",
+      "customData": {
+        "node_id": "G",
+        "node_step_index": 6,
+        "content": "November 2015, Osimertinib was administered (80\u2009mg/day orally).",
+        "clinical_data": {
+          "medications": [
+            {
+              "drug": "Osimertinib",
+              "dosage": "80 mg/day",
+              "frequency": "daily",
+              "modality": "oral",
+              "start_date": "2015-11",
+              "end_date": null,
+              "indication": null
+            }
+          ]
+        }
+      }
+    },
+    {
+      "id": "N8",
+      "label": "Step 8",
+      "customData": {
+        "node_id": "H",
+        "node_step_index": 7,
+        "content": "After 2 months of osimertinib treatment, repeated NGS using CSF showed EGFR gene amplification and L858R mutation only, while T790\u2009M mutation was undetectable.",
+        "clinical_data": {
+          "labs": [
+            {
+              "test": "Next Generation Sequencing",
+              "value": "EGFR gene amplification and L858R mutation only, T790M mutation undetectable",
+              "specimen": "CSF",
+              "timestamp": null
+            }
+          ],
+          "medications": [
+            {
+              "drug": "Osimertinib",
+              "start_date": null,
+              "end_date": null
+            }
+          ],
+          "diagnoses": [
+            {
+              "code": "L858R",
+              "label": "EGFR L858R mutation",
+              "status": "active",
+              "onset_date": null
+            }
+          ]
+        }
+      }
+    },
+    {
+      "id": "N9",
+      "label": "Step 9",
+      "customData": {
+        "node_id": "I",
+        "node_step_index": 8,
+        "content": "July 2016, the patient developed disease progression and was admitted to the hospital in a critical condition. She presented with severe headache, dizziness, nausea, and vomiting, with persistent high intracranial pressure of 240\u2009mm H2O.",
+        "clinical_data": {
+          "HPI": [
+            {
+              "summary": "Patient presented with severe headache, dizziness, nausea, and vomiting.",
+              "onset": "July 2016",
+              "progression": "sudden",
+              "associated_symptoms": [
+                "C0018681",
+                "C0012569",
+                "C0027497",
+                "C0042963"
+              ]
+            }
+          ],
+          "vitals": [
+            {
+              "type": "Intracranial pressure",
+              "value": "240",
+              "unit": "mm H2O",
+              "timestamp": "2016-07"
+            }
+          ]
+        }
+      }
+    },
+    {
+      "id": "N10",
+      "label": "Step 10",
+      "customData": {
+        "node_id": "J",
+        "node_step_index": 9,
+        "content": "Patient's Eastern Cooperative Oncology Group (ECOG) performance status was 3. Intense surveillance and life-supporting care were given. Liquid biopsy using CSF showed EGFR gene amplification, L858R mutation, and a new L718Q mutation.",
+        "clinical_data": {
+          "functional_status": [
+            {
+              "domain": "general",
+              "description": "Eastern Cooperative Oncology Group (ECOG) performance status was 3",
+              "score": "3",
+              "scale": "ECOG"
+            }
+          ],
+          "labs": [
+            {
+              "test": "EGFR gene amplification",
+              "value": "positive",
+              "unit": null,
+              "flag": "abnormal",
+              "reference_range": null,
+              "timestamp": null
+            },
+            {
+              "test": "L858R mutation",
+              "value": "positive",
+              "unit": null,
+              "flag": "abnormal",
+              "reference_range": null,
+              "timestamp": null
+            },
+            {
+              "test": "L718Q mutation",
+              "value": "positive",
+              "unit": null,
+              "flag": "abnormal",
+              "reference_range": null,
+              "timestamp": null
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "edges": [
+    {
+      "from": "N1",
+      "to": "N2",
+      "data": {
+        "edge_id": "A_to_B",
+        "branch_flag": true,
+        "content": "Progression of symptoms and new findings on imaging."
+      }
+    },
+    {
+      "from": "N2",
+      "to": "N3",
+      "data": {
+        "edge_id": "B_to_C",
+        "branch_flag": true,
+        "content": "PET-CT scan and biopsy results leading to diagnosis of metastatic adenocarcinoma of the lung."
+      }
+    },
+    {
+      "from": "N3",
+      "to": "N4",
+      "data": {
+        "edge_id": "C_to_D",
+        "branch_flag": true,
+        "content": "EGFR gene detection confirming L858R mutation and diagnosis of stage IV NSCLC with brain metastasis."
+      }
+    },
+    {
+      "from": "N4",
+      "to": "N5",
+      "data": {
+        "edge_id": "D_to_E",
+        "branch_flag": true,
+        "content": "Initiation of icotinib treatment.",
+        "transition_event": {
+          "trigger_type": "medication_change",
+          "trigger_entities": [
+            "C0000003"
+          ],
+          "change_type": "addition",
+          "target_domain": "medication",
+          "timestamp": "2015-02"
+        }
+      }
+    },
+    {
+      "from": "N5",
+      "to": "N6",
+      "data": {
+        "edge_id": "E_to_F",
+        "branch_flag": true,
+        "content": "Development of leptomeningeal metastasis and detection of EGFR mutations in CSF.",
+        "transition_event": {
+          "trigger_type": "symptom_onset",
+          "trigger_entities": [
+            "C0018681",
+            "C0029307"
+          ],
+          "change_type": "progression",
+          "target_domain": "symptom",
+          "timestamp": "2015-10"
+        }
+      }
+    },
+    {
+      "from": "N6",
+      "to": "N7",
+      "data": {
+        "edge_id": "F_to_G",
+        "branch_flag": true,
+        "content": "Switch to Osimertinib treatment.",
+        "transition_event": {
+          "trigger_type": "medication_change",
+          "trigger_entities": [
+            "C0000004"
+          ],
+          "change_type": "addition",
+          "target_domain": "medication",
+          "timestamp": "2015-11"
+        }
+      }
+    },
+    {
+      "from": "N7",
+      "to": "N8",
+      "data": {
+        "edge_id": "G_to_H",
+        "branch_flag": true,
+        "content": "NGS showing loss of T790M mutation in CSF after Osimertinib treatment.",
+        "transition_event": {
+          "trigger_type": "lab_change",
+          "trigger_entities": [
+            "C0000005"
+          ],
+          "change_type": "resolution",
+          "target_domain": "lab"
+        }
+      }
+    },
+    {
+      "from": "N8",
+      "to": "N9",
+      "data": {
+        "edge_id": "H_to_I",
+        "branch_flag": true,
+        "content": "Disease progression with severe symptoms and high intracranial pressure.",
+        "transition_event": {
+          "trigger_type": "symptom_onset",
+          "trigger_entities": [
+            "C0018681",
+            "C0012569",
+            "C0027497",
+            "C0042963"
+          ],
+          "change_type": "progression",
+          "target_domain": "symptom",
+          "timestamp": "2016-07"
+        }
+      }
+    },
+    {
+      "from": "N9",
+      "to": "N10",
+      "data": {
+        "edge_id": "I_to_J",
+        "branch_flag": true,
+        "content": "Deterioration of performance status and detection of new L718Q mutation in CSF.",
+        "transition_event": {
+          "trigger_type": "lab_change",
+          "trigger_entities": [
+            "C0000006"
+          ],
+          "change_type": "addition",
+          "target_domain": "lab"
+        }
+      }
+    }
+  ]
+}

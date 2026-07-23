@@ -1,0 +1,340 @@
+{
+  "nodes": [
+    {
+      "id": "N1",
+      "label": "Step 1",
+      "customData": {
+        "node_id": "A",
+        "node_step_index": 0,
+        "content": "61-year-old male presented with a nine-month history of stage IV (T2aN2M1) NSCLC with mediastinal lymphadenopathy, extensive left pleural involvement, and erosion into the left posterior rib.",
+        "clinical_data": {
+          "diagnoses": [
+            {
+              "code": "C34.9",
+              "label": "Non-small cell lung cancer",
+              "status": "active",
+              "onset_date": null
+            },
+            {
+              "code": "C77.3",
+              "label": "Mediastinal lymphadenopathy",
+              "status": "active",
+              "onset_date": null
+            },
+            {
+              "code": "J91.8",
+              "label": "Pleural effusion in neoplastic disease",
+              "status": "active",
+              "onset_date": null
+            }
+          ],
+          "HPI": [
+            {
+              "summary": "61-year-old male presented with a nine-month history of stage IV (T2aN2M1) NSCLC with mediastinal lymphadenopathy, extensive left pleural involvement, and erosion into the left posterior rib.",
+              "duration": "P9M",
+              "onset": null,
+              "progression": "unknown",
+              "associated_symptoms": [],
+              "alleviating_factors": [],
+              "exacerbating_factors": []
+            }
+          ]
+        }
+      }
+    },
+    {
+      "id": "N2",
+      "label": "Step 2",
+      "customData": {
+        "node_id": "B",
+        "node_step_index": 1,
+        "content": "Lung cancer was originally diagnosed following three months of progressive left lower rib pain.",
+        "clinical_data": {
+          "diagnoses": [
+            {
+              "code": "C0024117",
+              "label": "Lung cancer",
+              "status": "historical",
+              "onset_date": null
+            }
+          ],
+          "HPI": [
+            {
+              "summary": "Progressive left lower rib pain",
+              "duration": "3 months",
+              "onset": null,
+              "progression": "gradual",
+              "associated_symptoms": [
+                "C0239508"
+              ],
+              "alleviating_factors": [],
+              "exacerbating_factors": []
+            }
+          ]
+        }
+      }
+    },
+    {
+      "id": "N3",
+      "label": "Step 3",
+      "customData": {
+        "node_id": "C",
+        "node_step_index": 2,
+        "content": "CT of the thorax revealed a 3 cm left upper lobe nodule and destruction of the left posterior ninth rib.",
+        "clinical_data": {
+          "imaging": [
+            {
+              "type": "Computed tomography",
+              "body_part": "Thorax",
+              "modality": "CT",
+              "finding": "3 cm left upper lobe nodule and destruction of the left posterior ninth rib",
+              "impression": "3 cm left upper lobe nodule and destruction of the left posterior ninth rib"
+            }
+          ]
+        }
+      }
+    },
+    {
+      "id": "N4",
+      "label": "Step 4",
+      "customData": {
+        "node_id": "D",
+        "node_step_index": 3,
+        "content": "Fine-needle aspiration of the primary lesion confirmed squamous cell carcinoma.",
+        "clinical_data": {
+          "procedures": [
+            {
+              "name": "Fine needle aspiration",
+              "approach": "percutaneous",
+              "location": "primary lesion",
+              "outcome": "squamous cell carcinoma"
+            }
+          ],
+          "diagnoses": [
+            {
+              "code": "C0007151",
+              "label": "Squamous Cell Carcinoma",
+              "status": "active"
+            }
+          ]
+        }
+      }
+    },
+    {
+      "id": "N5",
+      "label": "Step 5",
+      "customData": {
+        "node_id": "E",
+        "node_step_index": 4,
+        "content": "Patient underwent 17 fractions of stereotactic body radiation therapy (SBRT) to the left posterior ribs.",
+        "clinical_data": {
+          "procedures": [
+            {
+              "name": "Stereotactic body radiation therapy",
+              "approach": "other",
+              "location": "left posterior ribs",
+              "outcome": "unknown"
+            }
+          ]
+        }
+      }
+    },
+    {
+      "id": "N6",
+      "label": "Step 6",
+      "customData": {
+        "node_id": "F",
+        "node_step_index": 5,
+        "content": "Patient developed worsening dyspnea on exertion and was readmitted for left pleural effusion.",
+        "clinical_data": {
+          "HPI": [
+            {
+              "summary": "worsening dyspnea on exertion",
+              "progression": "gradual"
+            }
+          ],
+          "diagnoses": [
+            {
+              "code": "C0032249",
+              "label": "Pleural Effusion",
+              "status": "active",
+              "onset_date": null
+            }
+          ]
+        }
+      }
+    },
+    {
+      "id": "N7",
+      "label": "Step 7",
+      "customData": {
+        "node_id": "G",
+        "node_step_index": 6,
+        "content": "Patient was discharged after placement of a flexible drainage catheter (PleurX\u2122), with drainage fluid confirming malignant effusion.",
+        "clinical_data": {
+          "procedures": [
+            {
+              "name": "Catheter Drainage",
+              "approach": "percutaneous",
+              "date": null,
+              "location": "pleural cavity",
+              "performed_by": null,
+              "outcome": "malignant effusion confirmed"
+            }
+          ]
+        }
+      }
+    },
+    {
+      "id": "N8",
+      "label": "Step 8",
+      "customData": {
+        "node_id": "H",
+        "node_step_index": 7,
+        "content": "Patient was consented and scheduled for induction chemoimmunotherapy with carboplatin, paclitaxel, and pembrolizumab with zoledronic acid infusions to control hypercalcemia.",
+        "clinical_data": {
+          "medications": [
+            {
+              "drug": "C0007127",
+              "dosage": null,
+              "frequency": null,
+              "modality": "IV",
+              "start_date": null,
+              "end_date": null,
+              "indication": null
+            },
+            {
+              "drug": "C0030393",
+              "dosage": null,
+              "frequency": null,
+              "modality": "IV",
+              "start_date": null,
+              "end_date": null,
+              "indication": null
+            },
+            {
+              "drug": "C4048442",
+              "dosage": null,
+              "frequency": null,
+              "modality": "IV",
+              "start_date": null,
+              "end_date": null,
+              "indication": null
+            },
+            {
+              "drug": "C0376382",
+              "dosage": null,
+              "frequency": null,
+              "modality": "IV",
+              "start_date": null,
+              "end_date": null,
+              "indication": "C0020437"
+            }
+          ],
+          "procedures": [
+            {
+              "name": "C0009451",
+              "approach": null,
+              "date": null,
+              "location": null,
+              "performed_by": null,
+              "outcome": null
+            }
+          ]
+        }
+      }
+    },
+    {
+      "id": "N9",
+      "label": "Step 9",
+      "customData": {
+        "node_id": "I",
+        "node_step_index": 8,
+        "content": "Prior to initiation of therapy, the platelet level was 165,000/\u00b5L.",
+        "clinical_data": {
+          "labs": [
+            {
+              "test": "Platelet count",
+              "value": "165000",
+              "unit": "/\u00b5L"
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "edges": [
+    {
+      "from": "N1",
+      "to": "N2",
+      "data": {
+        "edge_id": "A_to_B",
+        "branch_flag": true,
+        "content": "Development of lung cancer following progressive left lower rib pain."
+      }
+    },
+    {
+      "from": "N2",
+      "to": "N3",
+      "data": {
+        "edge_id": "B_to_C",
+        "branch_flag": true,
+        "content": "CT imaging performed."
+      }
+    },
+    {
+      "from": "N3",
+      "to": "N4",
+      "data": {
+        "edge_id": "C_to_D",
+        "branch_flag": true,
+        "content": "Fine-needle aspiration performed."
+      }
+    },
+    {
+      "from": "N4",
+      "to": "N5",
+      "data": {
+        "edge_id": "D_to_E",
+        "branch_flag": true,
+        "content": "Patient underwent stereotactic body radiation therapy (SBRT)."
+      }
+    },
+    {
+      "from": "N5",
+      "to": "N6",
+      "data": {
+        "edge_id": "E_to_F",
+        "branch_flag": true,
+        "content": "Development of worsening dyspnea on exertion and readmission for left pleural effusion."
+      }
+    },
+    {
+      "from": "N6",
+      "to": "N7",
+      "data": {
+        "edge_id": "F_to_G",
+        "branch_flag": true,
+        "content": "Placement of a flexible drainage catheter (PleurX\u2122), with drainage fluid confirming malignant effusion."
+      }
+    },
+    {
+      "from": "N7",
+      "to": "N8",
+      "data": {
+        "edge_id": "G_to_H",
+        "branch_flag": true,
+        "content": "Patient was consented and scheduled for induction chemoimmunotherapy with carboplatin, paclitaxel, and pembrolizumab with zoledronic acid infusions to control hypercalcemia."
+      }
+    },
+    {
+      "from": "N8",
+      "to": "N9",
+      "data": {
+        "edge_id": "H_to_I",
+        "branch_flag": true,
+        "content": "Platelet level checked prior to initiation of therapy."
+      }
+    }
+  ]
+}

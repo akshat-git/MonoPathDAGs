@@ -1,0 +1,560 @@
+{
+  "nodes": [
+    {
+      "id": "N1",
+      "label": "Step 1",
+      "customData": {
+        "node_id": "A",
+        "node_step_index": 0,
+        "content": "70-year-old man with history of mitral valve replacement and maze procedure for atrial fibrillation with median sternotomy 2 years prior.",
+        "clinical_data": {
+          "procedures": [
+            {
+              "name": "Mitral valve replacement",
+              "date": null,
+              "location": null,
+              "performed_by": null,
+              "outcome": null,
+              "approach": null
+            },
+            {
+              "name": "Maze procedure",
+              "date": null,
+              "location": null,
+              "performed_by": null,
+              "outcome": null,
+              "approach": null
+            },
+            {
+              "name": "Median sternotomy",
+              "date": null,
+              "location": null,
+              "performed_by": null,
+              "outcome": null,
+              "approach": null
+            }
+          ],
+          "diagnoses": [
+            {
+              "code": "49436001",
+              "label": "Atrial fibrillation",
+              "status": "historical",
+              "onset_date": null
+            }
+          ]
+        }
+      }
+    },
+    {
+      "id": "N2",
+      "label": "Step 2",
+      "customData": {
+        "node_id": "B",
+        "node_step_index": 1,
+        "content": "Follow-up chest X-ray showed gradual increase in right pleural effusion.",
+        "clinical_data": {
+          "imaging": [
+            {
+              "type": "Radiography, Thoracic",
+              "body_part": "Pleura",
+              "modality": "X-ray",
+              "finding": "Pleural Effusion",
+              "impression": "increase",
+              "date": null
+            }
+          ]
+        }
+      }
+    },
+    {
+      "id": "N3",
+      "label": "Step 3",
+      "customData": {
+        "node_id": "C",
+        "node_step_index": 2,
+        "content": "Chest CT revealed right pleural effusion and pleural thickening.",
+        "clinical_data": {
+          "imaging": [
+            {
+              "type": "Computed tomography",
+              "body_part": "Chest",
+              "modality": "CT",
+              "finding": "right pleural effusion and pleural thickening"
+            }
+          ]
+        }
+      }
+    },
+    {
+      "id": "N4",
+      "label": "Step 4",
+      "customData": {
+        "node_id": "D",
+        "node_step_index": 3,
+        "content": "Right pleural biopsy by VATS revealed epithelial malignant pleural mesothelioma.",
+        "clinical_data": {
+          "procedures": [
+            {
+              "name": "Biopsy",
+              "approach": "VATS",
+              "location": "Right pleura",
+              "outcome": "Epithelial malignant pleural mesothelioma"
+            }
+          ],
+          "diagnoses": [
+            {
+              "code": "C38.4",
+              "label": "Malignant neoplasm of pleura",
+              "status": "active"
+            }
+          ]
+        }
+      }
+    },
+    {
+      "id": "N5",
+      "label": "Step 5",
+      "customData": {
+        "node_id": "E",
+        "node_step_index": 4,
+        "content": "PET-CT showed no lymph node or distant metastases. MPM stage c-T3N0M0 Stage IB (IASLC 8th edition).",
+        "clinical_data": {
+          "imaging": [
+            {
+              "type": "Positron emission tomography/computed tomography",
+              "body_part": "Lymph node",
+              "modality": "PET",
+              "finding": "no lymph node or distant metastases",
+              "date": null
+            }
+          ],
+          "diagnoses": [
+            {
+              "code": "c-T3N0M0",
+              "label": "MPM stage c-T3N0M0 Stage IB (IASLC 8th edition)",
+              "status": "active",
+              "onset_date": null
+            }
+          ]
+        }
+      }
+    },
+    {
+      "id": "N6",
+      "label": "Step 6",
+      "customData": {
+        "node_id": "F",
+        "node_step_index": 5,
+        "content": "Received three courses of cisplatin plus pemetrexed neo-adjuvant chemotherapy.",
+        "clinical_data": {
+          "medications": [
+            {
+              "drug": "C0008767",
+              "dosage": null,
+              "frequency": null,
+              "modality": null,
+              "start_date": null,
+              "end_date": null,
+              "indication": "Neoadjuvant therapy"
+            },
+            {
+              "drug": "C1635893",
+              "dosage": null,
+              "frequency": null,
+              "modality": null,
+              "start_date": null,
+              "end_date": null,
+              "indication": "Neoadjuvant therapy"
+            }
+          ],
+          "procedures": [
+            {
+              "name": "C0009334",
+              "approach": null,
+              "date": null,
+              "location": null,
+              "performed_by": null,
+              "outcome": null
+            }
+          ]
+        }
+      }
+    },
+    {
+      "id": "N7",
+      "label": "Step 7",
+      "customData": {
+        "node_id": "G",
+        "node_step_index": 6,
+        "content": "Chest CT after neoadjuvant chemotherapy showed a 2 x 2 cm tumor in contact with the right atrium, invasion not ruled out.",
+        "clinical_data": {
+          "imaging": [
+            {
+              "type": "Computed tomography of chest",
+              "body_part": "Chest",
+              "modality": "CT",
+              "finding": "2 x 2 cm tumor in contact with the right atrium, invasion not ruled out"
+            }
+          ]
+        }
+      }
+    },
+    {
+      "id": "N8",
+      "label": "Step 8",
+      "customData": {
+        "node_id": "H",
+        "node_step_index": 7,
+        "content": "PET-CT after neoadjuvant chemotherapy showed no lymph node or distant metastases, and stable disease (SD).",
+        "clinical_data": {
+          "imaging": [
+            {
+              "type": "Positron emission tomography",
+              "body_part": "lymph node",
+              "modality": "PET",
+              "finding": "no lymph node or distant metastases",
+              "impression": "stable disease (SD)"
+            },
+            {
+              "type": "Computed tomography",
+              "body_part": "lymph node",
+              "modality": "CT",
+              "finding": "no lymph node or distant metastases",
+              "impression": "stable disease (SD)"
+            }
+          ]
+        }
+      }
+    },
+    {
+      "id": "N9",
+      "label": "Step 9",
+      "customData": {
+        "node_id": "I",
+        "node_step_index": 8,
+        "content": "Patient underwent pleurectomy/decortication (P/D) as a curative surgery. Strong adhesions on the mediastinal side were noted, likely due to previous cardiac surgery via median sternotomy.",
+        "clinical_data": {
+          "procedures": [
+            {
+              "name": "Pleurectomy",
+              "approach": "open",
+              "date": null,
+              "location": "pleural cavity",
+              "performed_by": null,
+              "outcome": null
+            },
+            {
+              "name": "Decortication",
+              "approach": "open",
+              "date": null,
+              "location": "pleural cavity",
+              "performed_by": null,
+              "outcome": null
+            },
+            {
+              "name": "Cardiac surgery",
+              "approach": "open",
+              "date": null,
+              "location": "mediastinum",
+              "performed_by": null,
+              "outcome": null
+            }
+          ]
+        }
+      }
+    },
+    {
+      "id": "N10",
+      "label": "Step 10",
+      "customData": {
+        "node_id": "J",
+        "node_step_index": 9,
+        "content": "Extracorporeal circulation placed on standby in preparation for massive bleeding, especially in case of right atrial rupture. Pleurectomy/decortication (P/D) technique without any pleural incision performed to achieve en bloc removal of the entire pleura. A posterolateral incision was made, and a P/D seventh costal bed thoracotomy was performed. Extrapleural dissection was initiated using the fingers.",
+        "clinical_data": {
+          "procedures": [
+            {
+              "name": "Pleurectomy",
+              "approach": "open",
+              "location": "pleura",
+              "outcome": "en bloc removal"
+            },
+            {
+              "name": "Thoracotomy",
+              "approach": "open",
+              "location": "seventh costal bed"
+            },
+            {
+              "name": "Extracorporeal circulation",
+              "status": "standby"
+            }
+          ]
+        }
+      }
+    },
+    {
+      "id": "N11",
+      "label": "Step 11",
+      "customData": {
+        "node_id": "K",
+        "node_step_index": 10,
+        "content": "Tumor apex strongly adhered to the mediastinal side, especially to the back of the sternum, due to previous cardiac surgery, requiring careful peeling.",
+        "clinical_data": {
+          "procedures": [
+            {
+              "name": "Cardiac surgery",
+              "location": "mediastinum",
+              "description": "Tumor apex strongly adhered to the mediastinal side, especially to the back of the sternum, due to previous cardiac surgery, requiring careful peeling."
+            }
+          ]
+        }
+      }
+    },
+    {
+      "id": "N12",
+      "label": "Step 12",
+      "customData": {
+        "node_id": "L",
+        "node_step_index": 11,
+        "content": "Chest CT showed the tumor was in contact with the pericardium, with suspected direct invasion.",
+        "clinical_data": {
+          "imaging": [
+            {
+              "type": "CT of chest",
+              "body_part": "chest",
+              "modality": "CT",
+              "finding": "tumor in contact with the pericardium, with suspected direct invasion"
+            }
+          ]
+        }
+      }
+    },
+    {
+      "id": "N13",
+      "label": "Step 13",
+      "customData": {
+        "node_id": "M",
+        "node_step_index": 12,
+        "content": "Pericardium and right atrium were strongly adherent, but without direct tumor invasion.",
+        "clinical_data": {
+          "imaging": [
+            {
+              "body_part": "Right atrium",
+              "finding": "Pericardium and right atrium were strongly adherent",
+              "impression": "Pericardium and right atrium were strongly adherent, but without direct tumor invasion."
+            }
+          ]
+        }
+      }
+    },
+    {
+      "id": "N14",
+      "label": "Step 14",
+      "customData": {
+        "node_id": "N",
+        "node_step_index": 13,
+        "content": "No pericardial effusion. Polypropylene thread (Prolene, Ethicon) from the past cardiac surgery observed.",
+        "clinical_data": {
+          "imaging": [
+            {
+              "type": "Pericardial effusion",
+              "body_part": "Pericardium",
+              "modality": "other",
+              "finding": "No pericardial effusion",
+              "impression": "No pericardial effusion"
+            }
+          ],
+          "procedures": [
+            {
+              "name": "Cardiac surgery",
+              "approach": "open",
+              "location": "Heart",
+              "outcome": "Polypropylene thread (Prolene, Ethicon) observed"
+            }
+          ]
+        }
+      }
+    },
+    {
+      "id": "N15",
+      "label": "Step 15",
+      "customData": {
+        "node_id": "O",
+        "node_step_index": 14,
+        "content": "Partial resection of the involved pericardium performed without damaging the right atrium.",
+        "clinical_data": {
+          "procedures": [
+            {
+              "name": "Resection",
+              "approach": "open",
+              "location": "pericardium",
+              "outcome": "partial"
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "edges": [
+    {
+      "from": "N1",
+      "to": "N2",
+      "data": {
+        "edge_id": "A_to_B",
+        "branch_flag": true,
+        "content": "Surveillance imaging"
+      }
+    },
+    {
+      "from": "N2",
+      "to": "N3",
+      "data": {
+        "edge_id": "B_to_C",
+        "branch_flag": true,
+        "content": "Further imaging for pleural effusion",
+        "transition_event": {
+          "trigger_type": "imaging",
+          "trigger_entities": [
+            "C0205089"
+          ],
+          "change_type": "progression",
+          "target_domain": "imaging"
+        }
+      }
+    },
+    {
+      "from": "N3",
+      "to": "N4",
+      "data": {
+        "edge_id": "C_to_D",
+        "branch_flag": true,
+        "content": "Biopsy of pleura",
+        "transition_event": {
+          "trigger_type": "procedure",
+          "trigger_entities": [],
+          "change_type": "addition",
+          "target_domain": "procedure"
+        }
+      }
+    },
+    {
+      "from": "N4",
+      "to": "N5",
+      "data": {
+        "edge_id": "D_to_E",
+        "branch_flag": true,
+        "content": "Staging with PET-CT",
+        "transition_event": {
+          "trigger_type": "imaging",
+          "trigger_entities": [],
+          "change_type": "addition",
+          "target_domain": "imaging"
+        }
+      }
+    },
+    {
+      "from": "N5",
+      "to": "N6",
+      "data": {
+        "edge_id": "E_to_F",
+        "branch_flag": true,
+        "content": "Initiation of neoadjuvant chemotherapy",
+        "transition_event": {
+          "trigger_type": "medication_change",
+          "trigger_entities": [
+            "C0008767",
+            "C1635893"
+          ],
+          "change_type": "addition",
+          "target_domain": "medication"
+        }
+      }
+    },
+    {
+      "from": "N6",
+      "to": "N7",
+      "data": {
+        "edge_id": "F_to_G",
+        "branch_flag": true,
+        "content": "Restaging with CT post-chemotherapy",
+        "transition_event": {
+          "trigger_type": "imaging",
+          "trigger_entities": [],
+          "change_type": "addition",
+          "target_domain": "imaging"
+        }
+      }
+    },
+    {
+      "from": "N7",
+      "to": "N8",
+      "data": {
+        "edge_id": "G_to_H",
+        "branch_flag": true,
+        "content": "Restaging with PET-CT post-chemotherapy",
+        "transition_event": {
+          "trigger_type": "imaging",
+          "trigger_entities": [],
+          "change_type": "addition",
+          "target_domain": "imaging"
+        }
+      }
+    },
+    {
+      "from": "N8",
+      "to": "N9",
+      "data": {
+        "edge_id": "H_to_I",
+        "branch_flag": true,
+        "content": "Decision to proceed with pleurectomy/decortication",
+        "transition_event": {
+          "trigger_type": "interpretation",
+          "trigger_entities": [],
+          "change_type": "addition",
+          "target_domain": "procedure"
+        }
+      }
+    },
+    {
+      "from": "N9",
+      "to": "N10",
+      "data": {
+        "edge_id": "I_to_J",
+        "branch_flag": true,
+        "content": "Surgical procedure: Pleurectomy/decortication (P/D)",
+        "transition_event": {
+          "trigger_type": "procedure",
+          "trigger_entities": [],
+          "change_type": "addition",
+          "target_domain": "procedure"
+        }
+      }
+    },
+    {
+      "from": "N10",
+      "to": "N11",
+      "data": {
+        "edge_id": "J_to_K",
+        "branch_flag": true,
+        "content": "Intraoperative findings during pleurectomy/decortication",
+        "transition_event": {
+          "trigger_type": "procedure",
+          "trigger_entities": [],
+          "change_type": "other",
+          "target_domain": "procedure"
+        }
+      }
+    },
+    {
+      "from": "N11",
+      "to": "N12",
+      "data": {
+        "edge_id": "K_to_L",
+        "branch_flag": true,
+        "content": "Post-operative imaging",
+        "transition_event": {
+          "trigger_type": "imaging"
+        }
+      }
+    }
+  ]
+}

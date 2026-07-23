@@ -1,0 +1,13 @@
+Metric,Type,Score
+Silhouette,Graph-Raw,0.153584001036259
+Calinski-Harabasz,Graph-Raw,104.73332224740015
+Silhouette,Text-Raw,0.07591083645820618
+Calinski-Harabasz,Text-Raw,42.47488784790039
+Silhouette,Graph-PCA,0.245933329409935
+Calinski-Harabasz,Graph-PCA,202.0227780098851
+Silhouette,Text-PCA,0.14102740585803986
+Calinski-Harabasz,Text-PCA,80.94355773925781
+Silhouette,Graph-UMAP,0.3969391882419586
+Calinski-Harabasz,Graph-UMAP,476.98089599609375
+Silhouette,Text-UMAP,0.3438512682914734
+Calinski-Harabasz,Text-UMAP,278.81866455078125

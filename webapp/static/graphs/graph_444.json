@@ -1,0 +1,336 @@
+{
+  "nodes": [
+    {
+      "id": "N1",
+      "label": "Step 1",
+      "customData": {
+        "node_id": "A",
+        "node_step_index": 0,
+        "content": "68-year-old woman with a one-month history of right-sided back pain and a 22 pack-year smoking history.",
+        "timestamp": "2023",
+        "clinical_data": {
+          "HPI": [
+            {
+              "summary": "right-sided back pain",
+              "duration": "1 month"
+            }
+          ],
+          "social_history": [
+            {
+              "category": "smoking",
+              "status": "past",
+              "description": "22 pack-year smoking history"
+            }
+          ]
+        }
+      }
+    },
+    {
+      "id": "N2",
+      "label": "Step 2",
+      "customData": {
+        "node_id": "B",
+        "node_step_index": 1,
+        "content": "Patient presented with tracheobronchitis and epiglottitis. Lung cancer was incidentally discovered during scrutiny for tracheobronchitis and epiglottitis.",
+        "timestamp": "2023",
+        "clinical_data": {
+          "diagnoses": [
+            {
+              "code": "410605003",
+              "label": "Tracheobronchitis (disorder)",
+              "status": "active"
+            },
+            {
+              "code": "3698000",
+              "label": "Epiglottitis",
+              "status": "active"
+            },
+            {
+              "code": "254837009",
+              "label": "Primary malignant neoplasm of lung (disorder)",
+              "status": "active"
+            }
+          ]
+        }
+      }
+    },
+    {
+      "id": "N3",
+      "label": "Step 3",
+      "customData": {
+        "node_id": "C",
+        "node_step_index": 2,
+        "content": "Patient diagnosed with Crohn's disease (CD) based on clinical, endoscopic, and histological evidence nine years prior to presentation. Patient suffered two recurrent episodes of Crohn's Disease over the past several years. Colonoscopy showed discontinuous mucosal ulceration at the transverse colon, sigmoid colon, and rectum during the second recurrence of Crohn's Disease. Cobblestone appearance observed at the sigmoid colon. Pathology of colonic specimen showed micro-abscess and cryptitis, supporting the diagnosis of Crohn's Disease. Patient underwent nutritional therapy, mesalazine (4000 mg/day), and adalimumab (80mg every 2 weeks). Gastrointestinal conditions were well-controlled for the previous 3 years.",
+        "clinical_data": {
+          "diagnoses": [
+            {
+              "code": "C0010331",
+              "label": "Crohn's Disease",
+              "status": "historical",
+              "onset_date": null
+            }
+          ],
+          "procedures": [
+            {
+              "name": "Colonoscopy",
+              "approach": "endoscopic",
+              "date": null,
+              "location": "transverse colon, sigmoid colon, and rectum",
+              "performed_by": null,
+              "outcome": null
+            }
+          ],
+          "labs": [
+            {
+              "test": "colonic specimen pathology",
+              "value": "micro-abscess and cryptitis",
+              "unit": null,
+              "flag": "abnormal",
+              "reference_range": null,
+              "timestamp": null
+            }
+          ],
+          "medications": [
+            {
+              "drug": "Mesalazine",
+              "dosage": "4000 mg/day",
+              "frequency": "daily",
+              "modality": "oral",
+              "start_date": null,
+              "end_date": null,
+              "indication": "Crohn's Disease"
+            },
+            {
+              "drug": "Adalimumab",
+              "dosage": "80mg",
+              "frequency": "every 2 weeks",
+              "modality": "subcutaneous",
+              "start_date": null,
+              "end_date": null,
+              "indication": "Crohn's Disease"
+            }
+          ]
+        }
+      }
+    },
+    {
+      "id": "N4",
+      "label": "Step 4",
+      "customData": {
+        "node_id": "D",
+        "node_step_index": 3,
+        "content": "Physical examination showed a body temperature of 36.6 \u00b0C, no audible crackles on auscultation, absence of cutaneous eruptions, and negative neurological examinations.",
+        "clinical_data": {
+          "vitals": [
+            {
+              "type": "Body temperature",
+              "value": "36.6",
+              "unit": "\u00b0C"
+            }
+          ],
+          "ROS": [
+            {
+              "system": "respiratory",
+              "findings": [
+                "No crackles"
+              ]
+            },
+            {
+              "system": "neuro",
+              "findings": [
+                "Negative neurological examination"
+              ]
+            }
+          ]
+        }
+      }
+    },
+    {
+      "id": "N5",
+      "label": "Step 5",
+      "customData": {
+        "node_id": "E",
+        "node_step_index": 4,
+        "content": "CT scan of the chest showed subpleural nodular consolidation (40 mm in diameter) invading the chest wall, two nodules (6mm and 8mm in diameter) in the right upper lobe, a cavitary nodule (21mm in diameter) in the left lower lobe, and reticulonodular shadows in the periphery of the bilateral lower lobes suggesting interstitial pneumonia.",
+        "clinical_data": {
+          "imaging": [
+            {
+              "type": "Subpleural nodular consolidation",
+              "body_part": "Chest",
+              "modality": "CT",
+              "finding": "40 mm in diameter, invading the chest wall",
+              "date": null
+            },
+            {
+              "type": "Nodule",
+              "body_part": "Right upper lobe",
+              "modality": "CT",
+              "finding": "6mm in diameter",
+              "date": null
+            },
+            {
+              "type": "Nodule",
+              "body_part": "Right upper lobe",
+              "modality": "CT",
+              "finding": "8mm in diameter",
+              "date": null
+            },
+            {
+              "type": "Cavitary nodule",
+              "body_part": "Left lower lobe",
+              "modality": "CT",
+              "finding": "21mm in diameter",
+              "date": null
+            },
+            {
+              "type": "Reticulonodular shadows",
+              "body_part": "Bilateral lower lobes",
+              "modality": "CT",
+              "finding": "Periphery",
+              "impression": "Interstitial pneumonia",
+              "date": null
+            }
+          ]
+        }
+      }
+    },
+    {
+      "id": "N6",
+      "label": "Step 6",
+      "customData": {
+        "node_id": "F",
+        "node_step_index": 5,
+        "content": "Oropharyngeal wall, epiglottis and aryepiglottic fold were swollen, with mild enhancement of contrast medium on contrast enhanced computed tomography of the neck. Bronchoscopy revealed swelling of the epiglottis with edematous change and mass-like epiglottis fold. The pyriform recess was not clear. There were nodular and edematous change in the trachea and bilateral main bronchus had an almost cobblestone appearance. Endobronchial biopsy showed infiltration by inflammatory cells (lymphocytes and plasma cells) without atypical or malignant cells. Evaluation for infectious causes of tracheitis and epiglottitis (bacterial, fungi and acid-fast bacilli of expectorated sputum as well as serologic evaluation for Aspergillus species, Cryptococcus species and latent tuberculosis) was negative. Histology of the epiglottic fold also showed infiltration by inflammatory cells. Patient diagnosed with oropharyngitis, epiglottitis and tracheitis associated with Crohn's disease.",
+        "clinical_data": {
+          "imaging": [
+            {
+              "type": "Computed tomography of the neck",
+              "body_part": "Neck",
+              "modality": "CT",
+              "finding": "Oropharyngeal wall, epiglottis and aryepiglottic fold were swollen, with mild enhancement of contrast medium",
+              "impression": "Oropharyngeal wall, epiglottis and aryepiglottic fold were swollen, with mild enhancement of contrast medium"
+            }
+          ],
+          "procedures": [
+            {
+              "name": "Bronchoscopy",
+              "approach": "endoscopic",
+              "location": "Trachea and bilateral main bronchus",
+              "outcome": "Swelling of the epiglottis with edematous change and mass-like epiglottis fold. The pyriform recess was not clear. There were nodular and edematous change in the trachea and bilateral main bronchus had an almost cobblestone appearance."
+            },
+            {
+              "name": "Endobronchial biopsy",
+              "location": "Trachea and bilateral main bronchus",
+              "outcome": "Infiltration by inflammatory cells (lymphocytes and plasma cells) without atypical or malignant cells."
+            }
+          ],
+          "diagnoses": [
+            {
+              "code": "K90.0",
+              "label": "Crohn's disease",
+              "status": "active"
+            },
+            {
+              "code": "J02.9",
+              "label": "Oropharyngitis",
+              "status": "active"
+            },
+            {
+              "code": "J05.1",
+              "label": "Epiglottitis",
+              "status": "active"
+            },
+            {
+              "code": "J04.0",
+              "label": "Tracheitis",
+              "status": "active"
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "edges": [
+    {
+      "from": "N1",
+      "to": "N2",
+      "data": {
+        "edge_id": "A_to_B",
+        "branch_flag": true,
+        "content": "Patient presented with tracheobronchitis and epiglottitis, during which lung cancer was incidentally discovered.",
+        "transition_event": {
+          "trigger_type": "symptom_onset",
+          "trigger_entities": [
+            "C0476479",
+            "C0014493"
+          ],
+          "change_type": "addition",
+          "target_domain": "diagnosis"
+        }
+      }
+    },
+    {
+      "from": "N2",
+      "to": "N3",
+      "data": {
+        "edge_id": "B_to_C",
+        "branch_flag": true,
+        "content": "Patient has a history of Crohn's disease (CD) diagnosed nine years prior to presentation, with two recurrent episodes over the past several years. Gastrointestinal conditions were well-controlled for the previous 3 years with nutritional therapy, mesalazine (4000 mg/day), and adalimumab (80mg every 2 weeks).",
+        "transition_event": {
+          "trigger_type": "interpretation",
+          "trigger_entities": [
+            "C0010331"
+          ],
+          "change_type": "other",
+          "target_domain": "diagnosis"
+        }
+      }
+    },
+    {
+      "from": "N3",
+      "to": "N4",
+      "data": {
+        "edge_id": "C_to_D",
+        "branch_flag": true,
+        "content": "Physical examination showed a body temperature of 36.6 \u00b0C, no audible crackles on auscultation, absence of cutaneous eruptions, and negative neurological examinations."
+      }
+    },
+    {
+      "from": "N4",
+      "to": "N5",
+      "data": {
+        "edge_id": "D_to_E",
+        "branch_flag": true,
+        "content": "CT scan of the chest showed subpleural nodular consolidation (40 mm in diameter) invading the chest wall, two nodules (6mm and 8mm in diameter) in the right upper lobe, a cavitary nodule (21mm in diameter) in the left lower lobe, and reticulonodular shadows in the periphery of the bilateral lower lobes suggesting interstitial pneumonia.",
+        "transition_event": {
+          "trigger_type": "imaging",
+          "trigger_entities": [
+            "C0008757",
+            "C0028328",
+            "C0035409"
+          ],
+          "change_type": "progression",
+          "target_domain": "imaging"
+        }
+      }
+    },
+    {
+      "from": "N5",
+      "to": "N6",
+      "data": {
+        "edge_id": "E_to_F",
+        "branch_flag": true,
+        "content": "Oropharyngeal wall, epiglottis and aryepiglottic fold were swollen, with mild enhancement of contrast medium on contrast enhanced computed tomography of the neck. Bronchoscopy revealed swelling of the epiglottis with edematous change and mass-like epiglottis fold. The pyriform recess was not clear. There were nodular and edematous change in the trachea and bilateral main bronchus had an almost cobblestone appearance. Endobronchial biopsy showed infiltration by inflammatory cells (lymphocytes and plasma cells) without atypical or malignant cells. Evaluation for infectious causes of tracheitis and epiglottitis (bacterial, fungi and acid-fast bacilli of expectorated sputum as well as serologic evaluation for Aspergillus species, Cryptococcus species and latent tuberculosis) was negative. Histology of the epiglottic fold also showed infiltration by inflammatory cells. Patient diagnosed with oropharyngitis, epiglottitis and tracheitis associated with Crohn's disease.",
+        "transition_event": {
+          "trigger_type": "procedure",
+          "trigger_entities": [
+            "C0006266",
+            "C0006266"
+          ],
+          "change_type": "addition",
+          "target_domain": "diagnosis"
+        }
+      }
+    }
+  ]
+}

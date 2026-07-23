@@ -1,0 +1,364 @@
+{
+  "nodes": [
+    {
+      "id": "N1",
+      "label": "Step 1",
+      "customData": {
+        "node_id": "A",
+        "node_step_index": 0,
+        "content": "Axial chest CT: Cancerous mass at the right lower pulmonary lobe invading the posterior mediastinum and involving the inferior pulmonary vein.",
+        "clinical_data": {
+          "imaging": [
+            {
+              "type": "Mass",
+              "body_part": "Lower lobe of right lung",
+              "modality": "CT",
+              "finding": "Cancerous mass invading the posterior mediastinum and involving the inferior pulmonary vein",
+              "impression": "Cancerous mass",
+              "date": null
+            }
+          ]
+        }
+      }
+    },
+    {
+      "id": "N2",
+      "label": "Step 2",
+      "customData": {
+        "node_id": "B",
+        "node_step_index": 1,
+        "content": "Three days after first pembrolizumab administration, the patient experienced dyspnea, productive cough, myalgia and night sweats.",
+        "clinical_data": {
+          "HPI": [
+            {
+              "summary": "Patient experienced dyspnea, productive cough, myalgia and night sweats three days after first pembrolizumab administration.",
+              "onset": "Three days after first pembrolizumab administration",
+              "associated_symptoms": [
+                "Dyspnea",
+                "Productive cough",
+                "Myalgia",
+                "Night sweats"
+              ]
+            }
+          ]
+        }
+      }
+    },
+    {
+      "id": "N3",
+      "label": "Step 3",
+      "customData": {
+        "node_id": "C",
+        "node_step_index": 2,
+        "content": "Patient became hypoxemic with an oxygen saturation of 75%, a heart rate of 120 bpm, a respiratory rate of 20 breaths per minute and a temperature of 38\u00b0C.",
+        "clinical_data": {
+          "vitals": [
+            {
+              "type": "Oxygen saturation",
+              "value": "75",
+              "unit": "%"
+            },
+            {
+              "type": "Heart rate",
+              "value": "120",
+              "unit": "bpm"
+            },
+            {
+              "type": "Respiratory rate",
+              "value": "20",
+              "unit": "breaths per minute"
+            },
+            {
+              "type": "Temperature",
+              "value": "38",
+              "unit": "\u00b0C"
+            }
+          ]
+        }
+      }
+    },
+    {
+      "id": "N4",
+      "label": "Step 4",
+      "customData": {
+        "node_id": "D",
+        "node_step_index": 3,
+        "content": "Chest CT: Diffuse ground glass nodules associated with parenchymal opacities with air bronchogram at the inferior lung lobe in addition to disseminated thickening of the interlobular interstitium related to acute interstitial lung disease.",
+        "clinical_data": {
+          "imaging": [
+            {
+              "type": "Pulmonary CT",
+              "body_part": "Lung",
+              "modality": "CT",
+              "finding": "Diffuse ground glass nodules, parenchymal opacities with air bronchogram at the inferior lung lobe, disseminated thickening of the interlobular interstitium",
+              "impression": "Acute interstitial lung disease"
+            }
+          ]
+        }
+      }
+    },
+    {
+      "id": "N5",
+      "label": "Step 5",
+      "customData": {
+        "node_id": "E",
+        "node_step_index": 4,
+        "content": "Axial chest CT: Diffuse interstial pneumopathy associated with decreased pulmonary mass, thickening of the interlobular interstitium with bronchial wall thickening, and ground glass opacities.",
+        "clinical_data": {
+          "imaging": [
+            {
+              "type": "Chest CT",
+              "body_part": "Lung",
+              "modality": "CT",
+              "finding": "Diffuse interstial pneumopathy, decreased pulmonary mass, thickening of the interlobular interstitium, bronchial wall thickening, ground glass opacities",
+              "impression": "Diffuse interstial pneumopathy associated with decreased pulmonary mass, thickening of the interlobular interstitium with bronchial wall thickening, and ground glass opacities."
+            }
+          ]
+        }
+      }
+    },
+    {
+      "id": "N6",
+      "label": "Step 6",
+      "customData": {
+        "node_id": "F",
+        "node_step_index": 5,
+        "content": "Patient started on intravenous and oral corticotherapy.",
+        "clinical_data": {
+          "medications": [
+            {
+              "drug": "C0010325",
+              "dosage": null,
+              "frequency": null,
+              "modality": "IV",
+              "start_date": null,
+              "end_date": null,
+              "indication": null
+            },
+            {
+              "drug": "C0010325",
+              "dosage": null,
+              "frequency": null,
+              "modality": "oral",
+              "start_date": null,
+              "end_date": null,
+              "indication": null
+            }
+          ]
+        }
+      }
+    },
+    {
+      "id": "N7",
+      "label": "Step 7",
+      "customData": {
+        "node_id": "G",
+        "node_step_index": 6,
+        "content": "Clinical condition worsened with increasing fever.",
+        "clinical_data": {
+          "HPI": [
+            {
+              "summary": "Clinical condition worsened with increasing fever.",
+              "progression": "gradual"
+            }
+          ]
+        }
+      }
+    },
+    {
+      "id": "N8",
+      "label": "Step 8",
+      "customData": {
+        "node_id": "H",
+        "node_step_index": 7,
+        "content": "Chest CT: Exacerbation of the pre-existing lesions, the appearance of several ground-glass areas associated with septal thickening forming the crazy paving pattern.",
+        "clinical_data": {
+          "imaging": [
+            {
+              "type": "Computed tomography of chest",
+              "body_part": "Chest",
+              "modality": "CT",
+              "finding": "Exacerbation of pre-existing lesions, ground-glass areas associated with septal thickening forming crazy paving pattern",
+              "impression": "Exacerbation of pre-existing lesions, ground-glass areas associated with septal thickening forming crazy paving pattern",
+              "date": null
+            }
+          ]
+        }
+      }
+    },
+    {
+      "id": "N9",
+      "label": "Step 9",
+      "customData": {
+        "node_id": "I",
+        "node_step_index": 8,
+        "content": "Bronchoscopy with broncho-alveolar lavage confirmed the diagnosis of pneumocystis pneumonia.",
+        "clinical_data": {
+          "procedures": [
+            {
+              "name": "Bronchoscopy",
+              "approach": "endoscopic",
+              "date": null,
+              "location": "lung",
+              "performed_by": null,
+              "outcome": null
+            },
+            {
+              "name": "Bronchoalveolar Lavage",
+              "approach": "endoscopic",
+              "date": null,
+              "location": "lung",
+              "performed_by": null,
+              "outcome": null
+            }
+          ],
+          "diagnoses": [
+            {
+              "code": "C0032240",
+              "label": "Pneumocystis pneumonia",
+              "status": "active",
+              "onset_date": null
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "edges": [
+    {
+      "from": "N1",
+      "to": "N2",
+      "data": {
+        "edge_id": "A_to_B",
+        "branch_flag": true,
+        "content": "Initiation of pembrolizumab therapy."
+      }
+    },
+    {
+      "from": "N2",
+      "to": "N3",
+      "data": {
+        "edge_id": "B_to_C",
+        "branch_flag": true,
+        "content": "Development of respiratory symptoms and fever.",
+        "transition_event": {
+          "trigger_type": "symptom_onset",
+          "trigger_entities": [
+            "C0013404",
+            "C0010200",
+            "C0231528",
+            "C0028843"
+          ],
+          "change_type": "progression",
+          "target_domain": "symptom"
+        }
+      }
+    },
+    {
+      "from": "N3",
+      "to": "N4",
+      "data": {
+        "edge_id": "C_to_D",
+        "branch_flag": true,
+        "content": "Worsening respiratory status and hypoxemia.",
+        "transition_event": {
+          "trigger_type": "symptom_onset",
+          "trigger_entities": [
+            "C0020581"
+          ],
+          "change_type": "progression",
+          "target_domain": "symptom"
+        }
+      }
+    },
+    {
+      "from": "N4",
+      "to": "N5",
+      "data": {
+        "edge_id": "D_to_E",
+        "branch_flag": true,
+        "content": "Progression of lung abnormalities on imaging.",
+        "transition_event": {
+          "trigger_type": "imaging",
+          "trigger_entities": [
+            "C0205341",
+            "C4025574",
+            "C0242044"
+          ],
+          "change_type": "progression",
+          "target_domain": "imaging"
+        }
+      }
+    },
+    {
+      "from": "N5",
+      "to": "N6",
+      "data": {
+        "edge_id": "E_to_F",
+        "branch_flag": true,
+        "content": "Initiation of corticotherapy.",
+        "transition_event": {
+          "trigger_type": "medication_change",
+          "trigger_entities": [
+            "C0010325"
+          ],
+          "change_type": "addition",
+          "target_domain": "medication"
+        }
+      }
+    },
+    {
+      "from": "N6",
+      "to": "N7",
+      "data": {
+        "edge_id": "F_to_G",
+        "branch_flag": true,
+        "content": "Clinical deterioration despite corticotherapy.",
+        "transition_event": {
+          "trigger_type": "symptom_onset",
+          "trigger_entities": [
+            "C0015967"
+          ],
+          "change_type": "progression",
+          "target_domain": "symptom"
+        }
+      }
+    },
+    {
+      "from": "N7",
+      "to": "N8",
+      "data": {
+        "edge_id": "G_to_H",
+        "branch_flag": true,
+        "content": "Further worsening of lung abnormalities on imaging.",
+        "transition_event": {
+          "trigger_type": "imaging",
+          "trigger_entities": [
+            "C4025574",
+            "C0542342"
+          ],
+          "change_type": "progression",
+          "target_domain": "imaging"
+        }
+      }
+    },
+    {
+      "from": "N8",
+      "to": "N9",
+      "data": {
+        "edge_id": "H_to_I",
+        "branch_flag": true,
+        "content": "Diagnostic confirmation of pneumocystis pneumonia via bronchoscopy and broncho-alveolar lavage.",
+        "transition_event": {
+          "trigger_type": "procedure",
+          "trigger_entities": [
+            "C0006267",
+            "C0447325"
+          ],
+          "change_type": "addition",
+          "target_domain": "diagnosis"
+        }
+      }
+    }
+  ]
+}

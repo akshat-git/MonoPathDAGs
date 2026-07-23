@@ -1,0 +1,13 @@
+This case report describes the clinical course of a patient diagnosed with HIV who subsequently developed lung cancer.
+
+In April 2021, the patient was diagnosed with HIV infection, with an HIV-1 RNA level of 1.04 x 10^5 copies/mL and a CD4+ T cell count of 64.66 cells/µL. Antiretroviral therapy (ART) was initiated in May 2021, consisting of tenofovir disoproxil fumarate, lamivudine, and efavirenz.
+
+By February 2023, the patient's HIV-1 RNA level had decreased to 113 copies/mL, and the CD4+ T cell count had improved to 283 cells/µL. However, low-level viremia persisted. Genotypic resistance testing revealed a K103N mutation. Medication adherence assessment showed an 82% self-reported adherence rate.
+
+In August 2023, chest imaging revealed a left lung mass, which was confirmed as lung squamous cell carcinoma with 40% PD-L1 expression. Contrast-enhanced chest CT demonstrated a left hilar tumor measuring 89 mm × 66 mm, multiple pulmonary nodules, and evidence of hepatic metastases, corresponding to stage IVB (cT4N2M1c) disease.
+
+In November 2023, the patient began combination therapy with carboplatin (AUC 5, day 1) and paclitaxel (175 mg/m², day 1) administered in 21-day cycles, combined with pembrolizumab (200 mg, day 1). The patient subsequently developed Grade 3 myelosuppression (neutrophil count 0.8 × 10^9/L) and Grade 2 peripheral neuropathy.
+
+Also in November 2023, the patient's HIV-1 RNA increased to 233 copies/mL, and the CD4+ T cell count declined to 22.82 cells/µL. The antiretroviral regimen was modified to incorporate albuvirtide (320 mg per dose, administered on days 1, 2, 3, and 8, followed by weekly maintenance doses) in combination with efavirenz, lamivudine, and tenofovir alafenamide. Due to chemotherapy intolerance, the cancer treatment was adjusted to PD-1 inhibitor monotherapy. A contrast-enhanced chest CT demonstrated a large left hilar mass (89 mm × 66 mm) with lobulation, spiculation, pleural indentation, and air bronchogram signs. Multiple nodular densities were present in both lungs with ground-glass opacities in the lower lobes.
+
+A follow-up chest CT in January 2024 showed the evolution of the left hilar mass with associated changes in the surrounding lung parenchyma. The absolute neutrophil count (ANC) recovered from the lowest value of 0.8 × 10^9/L to 1.6 × 10^9/L. Hepatic function parameters were within normal range (ALT 32–45 U/L and AST 28–39 U/L).

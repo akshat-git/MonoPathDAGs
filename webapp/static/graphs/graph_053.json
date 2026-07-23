@@ -1,0 +1,517 @@
+{
+  "nodes": [
+    {
+      "id": "N1",
+      "label": "Step 1",
+      "customData": {
+        "node_id": "A",
+        "node_step_index": 0,
+        "content": "71-year-old male diagnosed with left superior lobe squamous cell carcinoma (cT4N3Mx) on September 20, 2023.",
+        "clinical_data": {
+          "diagnoses": [
+            {
+              "code": "C0007123",
+              "label": "Squamous cell carcinoma",
+              "status": "active",
+              "onset_date": "2023-09-20"
+            }
+          ]
+        }
+      },
+      "custom_id": "graph_053_N0"
+    },
+    {
+      "id": "N2",
+      "label": "Step 2",
+      "customData": {
+        "node_id": "B",
+        "node_step_index": 1,
+        "content": "From October to November 2023, the patient received radiotherapy for lung and mediastinal lesions, with a target dose of 54Gy and an average cardiac dose of 3.4Gy, achieving a partial response (PR).",
+        "clinical_data": {
+          "procedures": [
+            {
+              "name": "Radiotherapy",
+              "date": "2023-10",
+              "location": "lung and mediastinal lesions",
+              "outcome": "Partial response"
+            }
+          ]
+        }
+      },
+      "custom_id": "graph_053_N1"
+    },
+    {
+      "id": "N3",
+      "label": "Step 3",
+      "customData": {
+        "node_id": "C",
+        "node_step_index": 2,
+        "content": "From December 2023 to July 2024, the patient underwent 5 cycles of albumin-bound paclitaxel\u2009+cisplatinchemotherapy, among which the 4th cycle was combined with recombinant human endostatin (Endu). Due to cardiac reactions related to Endu, the treatment was not completed, and the efficacy was stable disease (SD).",
+        "clinical_data": {
+          "medications": [
+            {
+              "drug": "C0030391",
+              "dosage": null,
+              "frequency": null,
+              "modality": null,
+              "start_date": "2023-12",
+              "end_date": "2024-07",
+              "indication": null
+            },
+            {
+              "drug": "C0035954",
+              "dosage": null,
+              "frequency": null,
+              "modality": null,
+              "start_date": "2023-12",
+              "end_date": "2024-07",
+              "indication": null
+            },
+            {
+              "drug": "C1297822",
+              "dosage": null,
+              "frequency": null,
+              "modality": null,
+              "start_date": null,
+              "end_date": null,
+              "indication": null
+            }
+          ],
+          "diagnoses": [
+            {
+              "code": null,
+              "label": "stable disease",
+              "status": "active",
+              "onset_date": null
+            }
+          ]
+        }
+      },
+      "custom_id": "graph_053_N2"
+    },
+    {
+      "id": "N4",
+      "label": "Step 4",
+      "customData": {
+        "node_id": "D",
+        "node_step_index": 3,
+        "content": "In October 2024, the disease progressed, leading to gemcitabine and sintilimab treatment starting on October 21, 2024. Baseline assessment before immunotherapy: Myocardial injury markers and BNP were normal. ECG showed sinus rhythm, unbiased electrical axis, low extremity conduction voltage, complete right bundle branch block, and prolonged Q-TcF interval. Cardiac ultrasound indicated reduced left ventricular diastolic relaxation function but normal systolic function (EF 63%). Patient with a history of cerebral infarction for over 10 years, characterized by mild right-sided limb weakness and intermittent numbness in the upper extremities. Diagnosed with coronary heart disease in May 2024 (without coronary CTA). Long-term management with aspirin and atorvastatin.",
+        "timestamp": "2024-10-21",
+        "clinical_data": {
+          "medications": [
+            {
+              "drug": "aspirin",
+              "dosage": null,
+              "frequency": null,
+              "modality": null,
+              "start_date": null,
+              "end_date": null,
+              "indication": null
+            },
+            {
+              "drug": "atorvastatin",
+              "dosage": null,
+              "frequency": null,
+              "modality": null,
+              "start_date": null,
+              "end_date": null,
+              "indication": null
+            },
+            {
+              "drug": "gemcitabine",
+              "dosage": null,
+              "frequency": null,
+              "modality": null,
+              "start_date": "2024-10-21",
+              "end_date": null,
+              "indication": null
+            },
+            {
+              "drug": "sintilimab",
+              "dosage": null,
+              "frequency": null,
+              "modality": null,
+              "start_date": "2024-10-21",
+              "end_date": null,
+              "indication": null
+            }
+          ],
+          "labs": [
+            {
+              "test": "Myocardial injury markers",
+              "value": "normal",
+              "unit": null,
+              "flag": "normal",
+              "reference_range": null,
+              "timestamp": "2024-10"
+            },
+            {
+              "test": "BNP",
+              "value": "normal",
+              "unit": null,
+              "flag": "normal",
+              "reference_range": null,
+              "timestamp": "2024-10"
+            }
+          ],
+          "imaging": [
+            {
+              "type": "Cardiac ultrasound",
+              "body_part": "Heart",
+              "modality": "Ultrasound",
+              "finding": "reduced left ventricular diastolic relaxation function",
+              "impression": "reduced left ventricular diastolic relaxation function but normal systolic function",
+              "date": "2024-10"
+            }
+          ],
+          "diagnoses": [
+            {
+              "code": null,
+              "label": "cerebral infarction",
+              "status": "historical",
+              "onset_date": null
+            },
+            {
+              "code": null,
+              "label": "coronary heart disease",
+              "status": "active",
+              "onset_date": "2024-05"
+            }
+          ],
+          "vitals": [
+            {
+              "type": "Heart rate",
+              "value": "sinus rhythm",
+              "unit": null,
+              "timestamp": "2024-10"
+            }
+          ]
+        }
+      },
+      "custom_id": "graph_053_N3"
+    },
+    {
+      "id": "N5",
+      "label": "Step 5",
+      "customData": {
+        "node_id": "E",
+        "node_step_index": 4,
+        "content": "On November 28, 2024, the patient manifested shortness of breath, accompanied by cough, yellow sputum, fatigue, and bilateral knee pain.",
+        "timestamp": "2024-11-28",
+        "clinical_data": {
+          "HPI": [
+            {
+              "summary": "Shortness of breath, cough, yellow sputum, fatigue, and bilateral knee pain",
+              "onset": "2024-11-28",
+              "associated_symptoms": [
+                "C0009413",
+                "C0010200",
+                "C0239254",
+                "C0015967",
+                "C0231528"
+              ]
+            }
+          ]
+        }
+      },
+      "custom_id": "graph_053_N4"
+    },
+    {
+      "id": "N6",
+      "label": "Step 6",
+      "customData": {
+        "node_id": "F",
+        "node_step_index": 5,
+        "content": "On December 1, 2024, the patient was admitted to the hospital for worsening shortness of breath. Electrocardiogram showed abnormal Q waves in leads II, III, aVF, and V1-V6, along with ST-segment elevation. Lab results: hypersensitive troponin at 6456.6 pg/ml (reference range: 0\u201334.2 pg/ml), BNP at 650.8 pg/ml (reference range: 0\u2013100 pg/ml), and myoglobin > 1,200 ng/ml (reference range: 0\u2013146.9 ng/ml). Initial treatment: antiplatelet agents (aspirin, clopidogrel), cardioprotective medications (Coenzyme Q10, polarizing solution, nicotinamide), ventricular rate control drugs (metoprolol tartrate, esmolol), heart failure management drugs (recombinant human brain natriuretic peptide), and anti-infective agents (piperacillin-tazobactam, meropenem), without corticosteroids. ECG showed extensive ST-T changes in leads II, III, aVF, and V1-V6, with abnormal Q waves and ST segment elevation. Ectopic rhythm mean ventricular rate, wide QRS tachycardia.",
+        "timestamp": "2024-12-01",
+        "clinical_data": {
+          "vitals": [
+            {
+              "type": "Heart Rate",
+              "value": "unknown",
+              "unit": "bpm",
+              "timestamp": "2024-12-01"
+            }
+          ],
+          "labs": [
+            {
+              "test": "Troponin I",
+              "value": "6456.6",
+              "unit": "pg/ml",
+              "flag": "abnormal",
+              "reference_range": "0\u201334.2 pg/ml",
+              "timestamp": "2024-12-01"
+            },
+            {
+              "test": "Brain Natriuretic Peptide",
+              "value": "650.8",
+              "unit": "pg/ml",
+              "flag": "abnormal",
+              "reference_range": "0\u2013100 pg/ml",
+              "timestamp": "2024-12-01"
+            },
+            {
+              "test": "Myoglobin",
+              "value": "> 1200",
+              "unit": "ng/ml",
+              "flag": "abnormal",
+              "reference_range": "0\u2013146.9 ng/ml",
+              "timestamp": "2024-12-01"
+            }
+          ],
+          "medications": [
+            {
+              "drug": "aspirin",
+              "dosage": null,
+              "frequency": null,
+              "modality": null,
+              "start_date": "2024-12-01",
+              "end_date": null,
+              "indication": "antiplatelet"
+            },
+            {
+              "drug": "clopidogrel",
+              "dosage": null,
+              "frequency": null,
+              "modality": null,
+              "start_date": "2024-12-01",
+              "end_date": null,
+              "indication": "antiplatelet"
+            },
+            {
+              "drug": "Coenzyme Q10",
+              "dosage": null,
+              "frequency": null,
+              "modality": null,
+              "start_date": "2024-12-01",
+              "end_date": null,
+              "indication": "cardioprotective"
+            },
+            {
+              "drug": "polarizing solution",
+              "dosage": null,
+              "frequency": null,
+              "modality": null,
+              "start_date": "2024-12-01",
+              "end_date": null,
+              "indication": "cardioprotective"
+            },
+            {
+              "drug": "nicotinamide",
+              "dosage": null,
+              "frequency": null,
+              "modality": null,
+              "start_date": "2024-12-01",
+              "end_date": null,
+              "indication": "cardioprotective"
+            },
+            {
+              "drug": "metoprolol tartrate",
+              "dosage": null,
+              "frequency": null,
+              "modality": null,
+              "start_date": "2024-12-01",
+              "end_date": null,
+              "indication": "ventricular rate control"
+            },
+            {
+              "drug": "esmolol",
+              "dosage": null,
+              "frequency": null,
+              "modality": null,
+              "start_date": "2024-12-01",
+              "end_date": null,
+              "indication": "ventricular rate control"
+            },
+            {
+              "drug": "recombinant human brain natriuretic peptide",
+              "dosage": null,
+              "frequency": null,
+              "modality": null,
+              "start_date": "2024-12-01",
+              "end_date": null,
+              "indication": "heart failure management"
+            },
+            {
+              "drug": "piperacillin-tazobactam",
+              "dosage": null,
+              "frequency": null,
+              "modality": null
+            }
+          ]
+        }
+      },
+      "custom_id": "graph_053_N5"
+    },
+    {
+      "id": "N7",
+      "label": "Step 7",
+      "customData": {
+        "node_id": "G",
+        "node_step_index": 6,
+        "content": "On December 2, 2024, the patient's symptoms of chest tightness and shortness of breath persisted. Anticoagulant therapy was not initiated owing to the patient's elevated risk of gastrointestinal bleeding secondary to long-term aspirin use. Coronary angiography revealed a 40% stenosis in the left main trunk, a 50% stenosis in",
+        "clinical_data": {
+          "HPI": [
+            {
+              "summary": "Chest tightness and shortness of breath persisted",
+              "onset": "December 2, 2024",
+              "progression": "unknown",
+              "associated_symptoms": [
+                "Shortness of breath"
+              ]
+            }
+          ],
+          "diagnoses": [
+            {
+              "code": "K92.2",
+              "label": "Gastrointestinal bleeding, unspecified",
+              "status": "active",
+              "onset_date": null
+            }
+          ],
+          "medications": [
+            {
+              "drug": "aspirin",
+              "dosage": "unspecified",
+              "frequency": "unspecified",
+              "modality": "oral",
+              "start_date": "unspecified",
+              "end_date": "null",
+              "indication": "unspecified"
+            }
+          ],
+          "procedures": [
+            {
+              "name": "Coronary angiography",
+              "approach": "unspecified",
+              "date": "December 2, 2024",
+              "location": "coronary artery",
+              "performed_by": "unspecified",
+              "outcome": "40% stenosis in the left main trunk, a 50% stenosis"
+            }
+          ]
+        }
+      },
+      "custom_id": "graph_053_N6"
+    }
+  ],
+  "edges": [
+    {
+      "from": "N1",
+      "to": "N2",
+      "data": {
+        "edge_id": "A_to_B",
+        "branch_flag": true,
+        "content": "Patient transitioned from initial diagnosis to receiving radiotherapy for lung and mediastinal lesions.",
+        "transition_event": {
+          "trigger_type": "procedure",
+          "trigger_entities": [
+            "C0034425"
+          ],
+          "change_type": "addition",
+          "target_domain": "procedure",
+          "timestamp": "2023-10"
+        }
+      },
+      "custom_id": "graph_053_N1_N2"
+    },
+    {
+      "from": "N2",
+      "to": "N3",
+      "data": {
+        "edge_id": "B_to_C",
+        "branch_flag": true,
+        "content": "Patient transitioned from radiotherapy to chemotherapy with albumin-bound paclitaxel and cisplatin, with recombinant human endostatin added in the 4th cycle. Treatment was not completed due to cardiac reactions, and efficacy was stable disease.",
+        "transition_event": {
+          "trigger_type": "medication_change",
+          "trigger_entities": [
+            "C0030391",
+            "C0035954",
+            "C1297822"
+          ],
+          "change_type": "addition",
+          "target_domain": "medication",
+          "timestamp": "2023-12"
+        }
+      },
+      "custom_id": "graph_053_N2_N3"
+    },
+    {
+      "from": "N3",
+      "to": "N4",
+      "data": {
+        "edge_id": "C_to_D",
+        "branch_flag": true,
+        "content": "Disease progressed, leading to initiation of gemcitabine and sintilimab treatment. Baseline assessment showed normal myocardial injury markers and BNP, but ECG abnormalities and reduced left ventricular diastolic relaxation function. Patient had a history of cerebral infarction and coronary heart disease, managed with aspirin and atorvastatin.",
+        "transition_event": {
+          "trigger_type": "medication_change",
+          "trigger_entities": [
+            "C0018655",
+            "C4072649"
+          ],
+          "change_type": "addition",
+          "target_domain": "medication",
+          "timestamp": "2024-10-21"
+        }
+      },
+      "custom_id": "graph_053_N3_N4"
+    },
+    {
+      "from": "N4",
+      "to": "N5",
+      "data": {
+        "edge_id": "D_to_E",
+        "branch_flag": true,
+        "content": "Patient developed shortness of breath, cough, yellow sputum, fatigue, and bilateral knee pain.",
+        "transition_event": {
+          "trigger_type": "symptom_onset",
+          "trigger_entities": [
+            "C0009413",
+            "C0010200",
+            "C0239254",
+            "C0015967",
+            "C0231528"
+          ],
+          "change_type": "addition",
+          "target_domain": "symptom",
+          "timestamp": "2024-11-28"
+        }
+      },
+      "custom_id": "graph_053_N4_N5"
+    },
+    {
+      "from": "N5",
+      "to": "N6",
+      "data": {
+        "edge_id": "E_to_F",
+        "branch_flag": true,
+        "content": "Patient was admitted to the hospital for worsening shortness of breath. ECG showed abnormal Q waves and ST-segment elevation. Lab results indicated elevated troponin, BNP, and myoglobin. Initial treatment included antiplatelet agents, cardioprotective medications, ventricular rate control drugs, heart failure management drugs, and anti-infective agents.",
+        "transition_event": {
+          "trigger_type": "symptom_onset",
+          "trigger_entities": [
+            "C0009413"
+          ],
+          "change_type": "progression",
+          "target_domain": "symptom",
+          "timestamp": "2024-12-01"
+        }
+      },
+      "custom_id": "graph_053_N5_N6"
+    },
+    {
+      "from": "N6",
+      "to": "N7",
+      "data": {
+        "edge_id": "F_to_G",
+        "branch_flag": true,
+        "content": "Patient's symptoms of chest tightness and shortness of breath persisted. Anticoagulant therapy was not initiated due to the risk of gastrointestinal bleeding. Coronary angiography revealed stenosis in the left main trunk.",
+        "transition_event": {
+          "trigger_type": "spontaneous",
+          "trigger_entities": [],
+          "change_type": ""
+        }
+      },
+      "custom_id": "graph_053_N6_N7"
+    }
+  ]
+}

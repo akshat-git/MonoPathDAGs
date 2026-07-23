@@ -1,0 +1,241 @@
+{
+  "nodes": [
+    {
+      "id": "N1",
+      "label": "Step 1",
+      "customData": {
+        "node_id": "A",
+        "node_step_index": 0,
+        "content": "44-year-old man with a 24-year smoking history and no significant medical history.",
+        "clinical_data": {
+          "social_history": [
+            {
+              "category": "smoking",
+              "status": "current",
+              "description": "24-year smoking history"
+            }
+          ]
+        }
+      },
+      "custom_id": "graph_044_N0"
+    },
+    {
+      "id": "N2",
+      "label": "Step 2",
+      "customData": {
+        "node_id": "B",
+        "node_step_index": 1,
+        "content": "Enlarged shadow in the right upper mediastinum on chest radiography during physical examination.",
+        "clinical_data": {
+          "imaging": [
+            {
+              "type": "Radiography",
+              "body_part": "Mediastinum",
+              "modality": "X-ray",
+              "finding": "Enlarged shadow in the right upper mediastinum"
+            }
+          ]
+        }
+      },
+      "custom_id": "graph_044_N1"
+    },
+    {
+      "id": "N3",
+      "label": "Step 3",
+      "customData": {
+        "node_id": "C",
+        "node_step_index": 2,
+        "content": "CT scan revealed a mediastinal mass.",
+        "timestamp": "XXXX-XX-XX",
+        "clinical_data": {
+          "imaging": [
+            {
+              "type": "Computed tomography",
+              "body_part": "mediastinum",
+              "modality": "CT",
+              "finding": "mediastinal mass"
+            }
+          ]
+        }
+      },
+      "custom_id": "graph_044_N2"
+    },
+    {
+      "id": "N4",
+      "label": "Step 4",
+      "customData": {
+        "node_id": "D",
+        "node_step_index": 3,
+        "content": "Patient visited the emergency department because of cough, dyspnea, and throat pain.",
+        "timestamp": "XXXX-XX-XX",
+        "clinical_data": {
+          "HPI": [
+            {
+              "summary": "Patient visited the emergency department because of cough, dyspnea, and throat pain.",
+              "associated_symptoms": [
+                "C0010200",
+                "C0013404",
+                "C0040081"
+              ]
+            }
+          ]
+        }
+      },
+      "custom_id": "graph_044_N3"
+    },
+    {
+      "id": "N5",
+      "label": "Step 5",
+      "customData": {
+        "node_id": "E",
+        "node_step_index": 4,
+        "content": "Noncontrast CT 2 weeks prior to admission showed a 5.0 x 5.0 cm tumor in the superior-to-anterior mediastinum. Dynamic CT identified a weakly enhanced tumor in the superior-to-middle mediastinum, which had grown to 9.0 x 7.0 cm over 2 weeks. The right brachiocephalic vein and superior vena cava were highly compressed and narrowed by the mass, and the trachea was left-deviated.",
+        "clinical_data": {
+          "imaging": [
+            {
+              "type": "Tumor",
+              "body_part": "Mediastinum",
+              "modality": "CT",
+              "finding": "5.0 x 5.0 cm tumor in the superior-to-anterior mediastinum",
+              "date": null
+            },
+            {
+              "type": "Tumor",
+              "body_part": "Mediastinum",
+              "modality": "CT",
+              "finding": "Weakly enhanced tumor in the superior-to-middle mediastinum, which had grown to 9.0 x 7.0 cm over 2 weeks",
+              "date": null
+            }
+          ]
+        }
+      },
+      "custom_id": "graph_044_N4"
+    },
+    {
+      "id": "N6",
+      "label": "Step 6",
+      "customData": {
+        "node_id": "F",
+        "node_step_index": 5,
+        "content": "Multiple enlarged mediastinal lymph nodes, including those at the right hilum and contralateral regions. Laboratory tests revealed slightly elevated LDH (296 IU/L) and CRP (3.29 mg/dL) levels. Tumor markers (CYFRA, pro-GRP, CEA, CA19-9) and sIL-2R were all negative. Dynamic CT axial and coronal images at admission.",
+        "clinical_data": {
+          "imaging": [
+            {
+              "type": "Lymph node",
+              "body_part": "Mediastinum",
+              "modality": "CT",
+              "finding": "Multiple enlarged lymph nodes",
+              "impression": "Multiple enlarged mediastinal lymph nodes, including those at the right hilum and contralateral regions.",
+              "date": null
+            }
+          ],
+          "labs": [
+            {
+              "test": "LDH",
+              "value": "296",
+              "unit": "IU/L",
+              "flag": "abnormal",
+              "reference_range": null,
+              "timestamp": null
+            },
+            {
+              "test": "C-Reactive Protein",
+              "value": "3.29",
+              "unit": "mg/dL",
+              "flag": "abnormal",
+              "reference_range": null,
+              "timestamp": null
+            }
+          ]
+        }
+      },
+      "custom_id": "graph_044_N5"
+    }
+  ],
+  "edges": [
+    {
+      "from": "N1",
+      "to": "N2",
+      "data": {
+        "edge_id": "A_to_B",
+        "branch_flag": true,
+        "content": "Patient with a smoking history presented for physical examination.",
+        "transition_event": null
+      },
+      "custom_id": "graph_044_N1_N2"
+    },
+    {
+      "from": "N2",
+      "to": "N3",
+      "data": {
+        "edge_id": "B_to_C",
+        "branch_flag": true,
+        "content": "Follow-up imaging to evaluate enlarged mediastinal shadow.",
+        "transition_event": {
+          "trigger_type": "imaging",
+          "trigger_entities": [
+            "C0205341"
+          ],
+          "change_type": "progression",
+          "target_domain": "imaging"
+        }
+      },
+      "custom_id": "graph_044_N2_N3"
+    },
+    {
+      "from": "N3",
+      "to": "N4",
+      "data": {
+        "edge_id": "C_to_D",
+        "branch_flag": true,
+        "content": "Patient developed respiratory symptoms.",
+        "transition_event": {
+          "trigger_type": "symptom_onset",
+          "trigger_entities": [
+            "C0010200",
+            "C0013404",
+            "C0040081"
+          ],
+          "change_type": "progression",
+          "target_domain": "symptom"
+        }
+      },
+      "custom_id": "graph_044_N3_N4"
+    },
+    {
+      "from": "N4",
+      "to": "N5",
+      "data": {
+        "edge_id": "D_to_E",
+        "branch_flag": true,
+        "content": "Imaging to evaluate cause of cough, dyspnea, and throat pain.",
+        "transition_event": {
+          "trigger_type": "imaging",
+          "trigger_entities": [],
+          "change_type": "progression",
+          "target_domain": "imaging"
+        }
+      },
+      "custom_id": "graph_044_N4_N5"
+    },
+    {
+      "from": "N5",
+      "to": "N6",
+      "data": {
+        "edge_id": "E_to_F",
+        "branch_flag": true,
+        "content": "Further characterization of mediastinal mass and related symptoms.",
+        "transition_event": {
+          "trigger_type": "lab_change",
+          "trigger_entities": [
+            "C0151679",
+            "C0009451"
+          ],
+          "change_type": "progression",
+          "target_domain": "lab"
+        }
+      },
+      "custom_id": "graph_044_N5_N6"
+    }
+  ]
+}

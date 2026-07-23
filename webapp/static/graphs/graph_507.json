@@ -1,0 +1,335 @@
+{
+  "nodes": [
+    {
+      "id": "N1",
+      "label": "Step 1",
+      "customData": {
+        "node_id": "A",
+        "node_step_index": 0,
+        "content": "70-year-old Japanese man experienced occasional pain in the right side of the chest and dyspnea.",
+        "clinical_data": {
+          "HPI": [
+            {
+              "summary": "70-year-old Japanese man experienced occasional pain in the right side of the chest and dyspnea.",
+              "associated_symptoms": [
+                "C0008031",
+                "C0013404"
+              ]
+            }
+          ]
+        }
+      }
+    },
+    {
+      "id": "N2",
+      "label": "Step 2",
+      "customData": {
+        "node_id": "B",
+        "node_step_index": 1,
+        "content": "Diagnosed with malignant pleural mesothelioma. Chest computed tomography (CT) revealed diffuse irregular right pleural thickening (Fig.1).",
+        "clinical_data": {
+          "diagnoses": [
+            {
+              "code": "C38.4",
+              "label": "Malignant pleural mesothelioma",
+              "status": "active"
+            }
+          ],
+          "imaging": [
+            {
+              "type": "Computed tomography",
+              "body_part": "Chest",
+              "modality": "CT",
+              "finding": "diffuse irregular right pleural thickening"
+            }
+          ]
+        }
+      }
+    },
+    {
+      "id": "N3",
+      "label": "Step 3",
+      "customData": {
+        "node_id": "C",
+        "node_step_index": 2,
+        "content": "Underwent right extra-pleural pneumonectomy after three courses of induction chemotherapy.",
+        "clinical_data": {
+          "procedures": [
+            {
+              "name": "Pneumonectomy",
+              "approach": "open",
+              "location": "right extra-pleural"
+            }
+          ],
+          "medications": [
+            {
+              "drug": "Chemotherapy",
+              "modality": "IV",
+              "indication": "cancer",
+              "course": "induction"
+            }
+          ]
+        }
+      }
+    },
+    {
+      "id": "N4",
+      "label": "Step 4",
+      "customData": {
+        "node_id": "D",
+        "node_step_index": 3,
+        "content": "Right main bronchus was cut using a scalpel. The mucosal surface of the bronchial stump was ablated with electrocautery (Monopolar Cut, blend, at 30 W x 30 W, for 1-2 seconds). The bronchial stump was then sutured manually using 3-0 absorbable monofilament sutures.",
+        "clinical_data": {
+          "procedures": [
+            {
+              "name": "Bronchial stump closure",
+              "approach": "open",
+              "date": null,
+              "location": "Right main bronchus",
+              "performed_by": null,
+              "outcome": null
+            },
+            {
+              "name": "Ablation",
+              "approach": "other",
+              "date": null,
+              "location": "mucosal surface of the bronchial stump",
+              "performed_by": null,
+              "outcome": null
+            }
+          ]
+        }
+      }
+    },
+    {
+      "id": "N5",
+      "label": "Step 5",
+      "customData": {
+        "node_id": "E",
+        "node_step_index": 4,
+        "content": "Single ligation suturing technique was used with Sweet\u2019s method. Chest computed tomography (CT) scans show diffuse thickened pleura in the right chest cavity.",
+        "clinical_data": {
+          "procedures": [
+            {
+              "name": "Ligation",
+              "approach": "other",
+              "location": "chest"
+            }
+          ],
+          "imaging": [
+            {
+              "type": "Computed tomography",
+              "body_part": "chest",
+              "modality": "CT",
+              "finding": "diffuse thickened pleura in the right chest cavity"
+            }
+          ]
+        }
+      }
+    },
+    {
+      "id": "N6",
+      "label": "Step 6",
+      "customData": {
+        "node_id": "F",
+        "node_step_index": 5,
+        "content": "No bronchial fistula developed post-operatively.",
+        "clinical_data": {}
+      }
+    },
+    {
+      "id": "N7",
+      "label": "Step 7",
+      "customData": {
+        "node_id": "G",
+        "node_step_index": 6,
+        "content": "Four years after surgery, the patient died of recurrent malignant pleural mesothelioma and underwent autopsy.",
+        "clinical_data": {
+          "diagnoses": [
+            {
+              "code": "C45.0",
+              "label": "Malignant mesothelioma of pleura",
+              "status": "historical",
+              "onset_date": null
+            }
+          ],
+          "procedures": [
+            {
+              "name": "Surgery",
+              "date": null,
+              "outcome": "death"
+            },
+            {
+              "name": "Autopsy",
+              "date": null,
+              "outcome": null
+            }
+          ]
+        }
+      }
+    },
+    {
+      "id": "N8",
+      "label": "Step 8",
+      "customData": {
+        "node_id": "H",
+        "node_step_index": 7,
+        "content": "Autopsy macroscopic evaluation showed tight adhesions and white scars on the main bronchial stump and the intervals between the sutured stitches (Fig.3a).",
+        "clinical_data": {
+          "procedures": [
+            {
+              "name": "Surgical suture",
+              "location": "bronchial stump",
+              "outcome": "tight adhesions and white scars"
+            }
+          ]
+        }
+      }
+    },
+    {
+      "id": "N9",
+      "label": "Step 9",
+      "customData": {
+        "node_id": "I",
+        "node_step_index": 8,
+        "content": "Autopsy microscopic findings showed fewer inflammatory cells around the lesion of mucosal tight adhesion, except for the innermost layer part of the sutured bronchial mucosa (Fig.3b, c). Fewer \u03b1-",
+        "clinical_data": {}
+      }
+    }
+  ],
+  "edges": [
+    {
+      "from": "N1",
+      "to": "N2",
+      "data": {
+        "edge_id": "A_to_B",
+        "branch_flag": true,
+        "content": "Progression of symptoms and diagnostic workup.",
+        "transition_event": {
+          "trigger_type": "symptom_onset",
+          "trigger_entities": [
+            "C0008031",
+            "C0013404"
+          ],
+          "change_type": "progression",
+          "target_domain": "diagnosis"
+        }
+      }
+    },
+    {
+      "from": "N2",
+      "to": "N3",
+      "data": {
+        "edge_id": "B_to_C",
+        "branch_flag": true,
+        "content": "Treatment initiated with chemotherapy followed by surgical resection.",
+        "transition_event": {
+          "trigger_type": "procedure",
+          "trigger_entities": [
+            "Pneumonectomy"
+          ],
+          "change_type": "addition",
+          "target_domain": "procedure"
+        }
+      }
+    },
+    {
+      "from": "N3",
+      "to": "N4",
+      "data": {
+        "edge_id": "C_to_D",
+        "branch_flag": true,
+        "content": "Details of the surgical procedure, specifically bronchial stump closure.",
+        "transition_event": {
+          "trigger_type": "procedure",
+          "trigger_entities": [
+            "Bronchial stump closure"
+          ],
+          "change_type": "other",
+          "target_domain": "procedure"
+        }
+      }
+    },
+    {
+      "from": "N4",
+      "to": "N5",
+      "data": {
+        "edge_id": "D_to_E",
+        "branch_flag": true,
+        "content": "Surgical technique and post-operative imaging findings.",
+        "transition_event": {
+          "trigger_type": "procedure",
+          "trigger_entities": [
+            "Ligation"
+          ],
+          "change_type": "other",
+          "target_domain": "procedure"
+        }
+      }
+    },
+    {
+      "from": "N5",
+      "to": "N6",
+      "data": {
+        "edge_id": "E_to_F",
+        "branch_flag": true,
+        "content": "Post-operative assessment for complications.",
+        "transition_event": {
+          "trigger_type": "interpretation",
+          "trigger_entities": [],
+          "change_type": "resolution",
+          "target_domain": "diagnosis"
+        }
+      }
+    },
+    {
+      "from": "N6",
+      "to": "N7",
+      "data": {
+        "edge_id": "F_to_G",
+        "branch_flag": true,
+        "content": "Long-term outcome and recurrence of the disease leading to death.",
+        "transition_event": {
+          "trigger_type": "progression",
+          "trigger_entities": [
+            "C45.0"
+          ],
+          "change_type": "progression",
+          "target_domain": "diagnosis"
+        }
+      }
+    },
+    {
+      "from": "N7",
+      "to": "N8",
+      "data": {
+        "edge_id": "G_to_H",
+        "branch_flag": true,
+        "content": "Post-mortem macroscopic findings at the bronchial stump.",
+        "transition_event": {
+          "trigger_type": "procedure",
+          "trigger_entities": [
+            "Surgical suture"
+          ],
+          "change_type": "other",
+          "target_domain": "procedure"
+        }
+      }
+    },
+    {
+      "from": "N8",
+      "to": "N9",
+      "data": {
+        "edge_id": "H_to_I",
+        "branch_flag": true,
+        "content": "Post-mortem microscopic findings at the bronchial stump.",
+        "transition_event": {
+          "trigger_type": "interpretation",
+          "trigger_entities": [],
+          "change_type": "other",
+          "target_domain": "lab"
+        }
+      }
+    }
+  ]
+}

@@ -1,0 +1,545 @@
+{
+  "nodes": [
+    {
+      "id": "N1",
+      "label": "Step 1",
+      "customData": {
+        "node_id": "A",
+        "node_step_index": 0,
+        "content": "79-year-old male with small cell lung cancer stage 4 with multiple intra-abdominal metastasis.",
+        "timestamp": "2024-06-07",
+        "clinical_data": {
+          "diagnoses": [
+            {
+              "code": "C34.9",
+              "label": "Lung Cancer",
+              "status": "active"
+            },
+            {
+              "code": "C79.89",
+              "label": "Secondary malignant neoplasm of other specified sites",
+              "status": "active"
+            }
+          ]
+        }
+      }
+    },
+    {
+      "id": "N2",
+      "label": "Step 2",
+      "customData": {
+        "node_id": "B",
+        "node_step_index": 1,
+        "content": "Patient received two cycles of chemotherapy (atezolizumab, etoposide, and carboplatin) administered over a 10-week period. Carboplatin dose was approximately 200 mg/m2 per cycle, totaling 710 mg over two cycles.",
+        "timestamp": "2024",
+        "clinical_data": {
+          "medications": [
+            {
+              "drug": "C0007149",
+              "dosage": "200 mg/m2",
+              "frequency": "per cycle",
+              "modality": "IV",
+              "start_date": null,
+              "end_date": null,
+              "indication": null
+            },
+            {
+              "drug": "C0004137",
+              "dosage": null,
+              "frequency": null,
+              "modality": "IV",
+              "start_date": null,
+              "end_date": null,
+              "indication": null
+            },
+            {
+              "drug": "C1661210",
+              "dosage": null,
+              "frequency": null,
+              "modality": "IV",
+              "start_date": null,
+              "end_date": null,
+              "indication": null
+            }
+          ],
+          "procedures": [
+            {
+              "name": "C0009371",
+              "approach": null,
+              "date": null,
+              "location": null,
+              "performed_by": null,
+              "outcome": null
+            }
+          ]
+        }
+      }
+    },
+    {
+      "id": "N3",
+      "label": "Step 3",
+      "customData": {
+        "node_id": "C",
+        "node_step_index": 2,
+        "content": "One week after the second cycle of chemotherapy, the patient complained of gradually worsening bilateral vision impairment.",
+        "timestamp": null,
+        "clinical_data": {
+          "HPI": [
+            {
+              "summary": "Gradually worsening bilateral vision impairment one week after the second cycle of chemotherapy",
+              "duration": "1 week",
+              "onset": "One week after the second cycle of chemotherapy",
+              "progression": "gradual",
+              "associated_symptoms": [
+                "Vision impairment"
+              ],
+              "exacerbating_factors": [
+                "Chemotherapy"
+              ]
+            }
+          ]
+        }
+      }
+    },
+    {
+      "id": "N4",
+      "label": "Step 4",
+      "customData": {
+        "node_id": "D",
+        "node_step_index": 3,
+        "content": "Patient has a history of hypertension and cataract surgery in the left eye six months prior.",
+        "timestamp": null,
+        "clinical_data": {
+          "diagnoses": [
+            {
+              "code": "I10",
+              "label": "Hypertension",
+              "status": "historical",
+              "onset_date": null
+            }
+          ],
+          "procedures": [
+            {
+              "name": "Cataract extraction",
+              "approach": "other",
+              "date": null,
+              "location": "left eye",
+              "performed_by": null,
+              "outcome": null
+            }
+          ]
+        }
+      }
+    },
+    {
+      "id": "N5",
+      "label": "Step 5",
+      "customData": {
+        "node_id": "E",
+        "node_step_index": 4,
+        "content": "Best-corrected visual acuity (BCVA) was hand motion in both eyes. Intraocular pressures were measured at 19 mmHg in the right eye and 18 mmHg in the left eye.",
+        "timestamp": null,
+        "clinical_data": {
+          "vitals": [
+            {
+              "type": "Intraocular pressure",
+              "value": "19",
+              "unit": "mmHg",
+              "timestamp": null
+            },
+            {
+              "type": "Intraocular pressure",
+              "value": "18",
+              "unit": "mmHg",
+              "timestamp": null
+            }
+          ]
+        }
+      }
+    },
+    {
+      "id": "N6",
+      "label": "Step 6",
+      "customData": {
+        "node_id": "F",
+        "node_step_index": 5,
+        "content": "No relative afferent pupillary defect. Fundus examination showed optic nerve pallor in the left eye and bilateral retinal arterial narrowing with sclerosis. No retinal hemorrhage, cotton wool spot, or neovascularization observed. Optical coherence tomography (OCT) revealed generalized choroidal and retinal thinning in both eyes and mild cystoid macular edema in the right eye. 30-Flicker electroretinogram testing revealed a completely absent cone response in both eyes.",
+        "timestamp": null,
+        "clinical_data": {
+          "imaging": [
+            {
+              "type": "Optical coherence tomography",
+              "body_part": "Eyes",
+              "modality": "OCT",
+              "finding": "generalized choroidal and retinal thinning in both eyes and mild cystoid macular edema in the right eye"
+            },
+            {
+              "type": "Fundus examination",
+              "body_part": "Eyes",
+              "modality": "other",
+              "finding": "optic nerve pallor in the left eye and bilateral retinal arterial narrowing with sclerosis. No retinal hemorrhage, cotton wool spot, or neovascularization observed"
+            }
+          ],
+          "labs": [
+            {
+              "test": "Electroretinogram",
+              "value": "completely absent cone response in both eyes",
+              "unit": null,
+              "flag": "abnormal"
+            }
+          ]
+        }
+      }
+    },
+    {
+      "id": "N7",
+      "label": "Step 7",
+      "customData": {
+        "node_id": "G",
+        "node_step_index": 6,
+        "content": "Fluorescein angiography demonstrated significant delayed filling of the choroidal and arterial circulation and abnormal delayed drainage of venous circulation in the inferior arcade. No evidence of obstructive lesions of arteries or veins. Blood routine test, coagulation function, and orbital magnetic resonance imaging (MRI) did not reveal any abnormalities.",
+        "timestamp": null,
+        "clinical_data": {
+          "imaging": [
+            {
+              "type": "Fluorescein angiography",
+              "body_part": "eye",
+              "modality": "other",
+              "finding": "significant delayed filling of the choroidal and arterial circulation and abnormal delayed drainage of venous circulation in the inferior arcade",
+              "impression": "delayed filling of the choroidal and arterial circulation and abnormal delayed drainage of venous circulation",
+              "date": null
+            },
+            {
+              "type": "orbital magnetic resonance imaging",
+              "body_part": "orbit",
+              "modality": "MRI",
+              "finding": "no abnormalities",
+              "impression": "no abnormalities",
+              "date": null
+            }
+          ],
+          "labs": [
+            {
+              "test": "Blood routine test",
+              "value": "normal",
+              "unit": null,
+              "flag": "normal",
+              "reference_range": null,
+              "timestamp": null
+            },
+            {
+              "test": "coagulation function",
+              "value": "normal",
+              "unit": null,
+              "flag": "normal",
+              "reference_range": null,
+              "timestamp": null
+            }
+          ]
+        }
+      }
+    },
+    {
+      "id": "N8",
+      "label": "Step 8",
+      "customData": {
+        "node_id": "H",
+        "node_step_index": 7,
+        "content": "Diagnosis of ischemic optic neuropathy secondary to carboplatin administration was made.",
+        "timestamp": null,
+        "clinical_data": {
+          "diagnoses": [
+            {
+              "code": "C0270604",
+              "label": "Ischemic optic neuropathy",
+              "status": "active",
+              "onset_date": null
+            }
+          ],
+          "medications": [
+            {
+              "drug": "C0007344",
+              "dosage": null,
+              "frequency": null,
+              "modality": null,
+              "start_date": null,
+              "end_date": null,
+              "indication": "Ischemic optic neuropathy"
+            }
+          ]
+        }
+      }
+    },
+    {
+      "id": "N9",
+      "label": "Step 9",
+      "customData": {
+        "node_id": "I",
+        "node_step_index": 8,
+        "content": "Chemotherapy was planned to be temporarily discontinued pending oncological consultation.",
+        "timestamp": null,
+        "clinical_data": {}
+      }
+    },
+    {
+      "id": "N10",
+      "label": "Step 10",
+      "customData": {
+        "node_id": "J",
+        "node_step_index": 9,
+        "content": "Visual acuity aggravated to no light perception even after the cessation of chemotherapy.",
+        "timestamp": null,
+        "clinical_data": {
+          "HPI": [
+            {
+              "summary": "Visual acuity aggravated to no light perception",
+              "progression": "sudden",
+              "exacerbating_factors": [
+                "chemotherapy"
+              ]
+            }
+          ]
+        }
+      }
+    },
+    {
+      "id": "N11",
+      "label": "Step 11",
+      "customData": {
+        "node_id": "K",
+        "node_step_index": 10,
+        "content": "Fundus photographs and optical coherence tomography (OCT) images showed retinal artery narrowing and sclerosis in both eyes, with more severe manifestations in the peripapillary area. Optical coherence tomography (OCT) revealed generalized choroidal and retinal thinning in both eyes.",
+        "timestamp": null,
+        "clinical_data": {
+          "imaging": [
+            {
+              "type": "Fundus photography",
+              "body_part": "Eye",
+              "modality": "other",
+              "finding": "retinal artery narrowing and sclerosis in both eyes, with more severe manifestations in the peripapillary area"
+            },
+            {
+              "type": "Optical coherence tomography",
+              "body_part": "Eye",
+              "modality": "OCT",
+              "finding": "generalized choroidal and retinal thinning in both eyes"
+            }
+          ]
+        }
+      }
+    },
+    {
+      "id": "N12",
+      "label": "Step 12",
+      "customData": {
+        "node_id": "L",
+        "node_step_index": 11,
+        "content": "Patient received panretinal photocoagulation in combination with chemotherapy using paclitaxel and carboplatin, but experienced progression of retinopathy leading to severe vision impairment.",
+        "timestamp": null,
+        "clinical_data": {
+          "procedures": [
+            {
+              "name": "Panretinal photocoagulation",
+              "date": null
+            }
+          ],
+          "medications": [
+            {
+              "drug": "paclitaxel",
+              "dosage": null,
+              "frequency": null,
+              "modality": null,
+              "start_date": null,
+              "end_date": null,
+              "indication": "retinopathy"
+            },
+            {
+              "drug": "carboplatin",
+              "dosage": null,
+              "frequency": null,
+              "modality": null,
+              "start_date": null,
+              "end_date": null,
+              "indication": "retinopathy"
+            }
+          ],
+          "diagnoses": [
+            {
+              "code": null,
+              "label": "retinopathy",
+              "status": "active",
+              "onset_date": null
+            },
+            {
+              "code": null,
+              "label": "severe vision impairment",
+              "status": "active",
+              "onset_date": null
+            }
+          ]
+        }
+      }
+    },
+    {
+      "id": "N13",
+      "label": "Step 13",
+      "customData": {
+        "node_id": "M",
+        "node_step_index": 12,
+        "content": "Electroretinogram testing showed diminished b-wave amplitudes and prolonged a-wave implicit times during isolated cone response testing with 30 Hz flickering",
+        "clinical_data": {
+          "procedures": [
+            {
+              "name": "Electroretinography",
+              "date": null,
+              "location": "eye",
+              "outcome": "diminished b-wave amplitudes and prolonged a-wave implicit times during isolated cone response testing with 30 Hz flickering"
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "edges": [
+    {
+      "from": "N1",
+      "to": "N2",
+      "data": {
+        "edge_id": "A_to_B",
+        "branch_flag": true,
+        "content": "Initiation of chemotherapy with atezolizumab, etoposide, and carboplatin for small cell lung cancer with intra-abdominal metastasis."
+      }
+    },
+    {
+      "from": "N2",
+      "to": "N3",
+      "data": {
+        "edge_id": "B_to_C",
+        "branch_flag": true,
+        "content": "One week after completing the second cycle of chemotherapy, the patient developed gradually worsening bilateral vision impairment.",
+        "transition_event": {
+          "trigger_type": "symptom_onset",
+          "trigger_entities": [
+            "C0234154"
+          ],
+          "change_type": "progression",
+          "target_domain": "symptom"
+        }
+      }
+    },
+    {
+      "from": "N3",
+      "to": "N4",
+      "data": {
+        "edge_id": "C_to_D",
+        "branch_flag": true,
+        "content": "Relevant past medical history of hypertension and cataract surgery in the left eye six months prior to presentation of vision impairment."
+      }
+    },
+    {
+      "from": "N4",
+      "to": "N5",
+      "data": {
+        "edge_id": "D_to_E",
+        "branch_flag": true,
+        "content": "Vision impairment progressed to hand motion in both eyes. Intraocular pressures were within normal limits.",
+        "transition_event": {
+          "trigger_type": "symptom_onset",
+          "trigger_entities": [
+            "C0234154"
+          ],
+          "change_type": "progression",
+          "target_domain": "symptom"
+        }
+      }
+    },
+    {
+      "from": "N5",
+      "to": "N6",
+      "data": {
+        "edge_id": "E_to_F",
+        "branch_flag": true,
+        "content": "Fundus examination and OCT revealed optic nerve pallor, retinal arterial narrowing, choroidal and retinal thinning, and mild cystoid macular edema. Electroretinogram showed absent cone response.",
+        "transition_event": {
+          "trigger_type": "interpretation",
+          "trigger_entities": [
+            "C0015991",
+            "C0270604"
+          ],
+          "change_type": "progression",
+          "target_domain": "imaging"
+        }
+      }
+    },
+    {
+      "from": "N6",
+      "to": "N7",
+      "data": {
+        "edge_id": "F_to_G",
+        "branch_flag": true,
+        "content": "Fluorescein angiography showed delayed choroidal and arterial filling and abnormal venous drainage. Blood tests and orbital MRI were normal."
+      }
+    },
+    {
+      "from": "N7",
+      "to": "N8",
+      "data": {
+        "edge_id": "G_to_H",
+        "branch_flag": true,
+        "content": "Diagnosis of ischemic optic neuropathy secondary to carboplatin administration was made.",
+        "transition_event": {
+          "trigger_type": "interpretation",
+          "trigger_entities": [
+            "C0270604",
+            "C0007344"
+          ],
+          "change_type": "addition",
+          "target_domain": "diagnosis"
+        }
+      }
+    },
+    {
+      "from": "N8",
+      "to": "N9",
+      "data": {
+        "edge_id": "H_to_I",
+        "branch_flag": true,
+        "content": "Decision to temporarily discontinue chemotherapy pending oncological consultation due to carboplatin induced ischemic optic neuropathy.",
+        "transition_event": {
+          "trigger_type": "medication_change",
+          "trigger_entities": [
+            "C0007344"
+          ],
+          "change_type": "discontinuation",
+          "target_domain": "medication"
+        }
+      }
+    },
+    {
+      "from": "N9",
+      "to": "N10",
+      "data": {
+        "edge_id": "I_to_J",
+        "branch_flag": true,
+        "content": "Despite cessation of chemotherapy, visual acuity worsened to no light perception.",
+        "transition_event": {
+          "trigger_type": "symptom_onset",
+          "trigger_entities": [
+            "C0234154"
+          ],
+          "change_type": "progression",
+          "target_domain": "symptom"
+        }
+      }
+    },
+    {
+      "from": "N10",
+      "to": "N11",
+      "data": {
+        "edge_id": "J_to_K",
+        "branch_flag": true,
+        "content": "Fundus photographs and OCT showed retinal artery narrowing and sclerosis"
+      }
+    }
+  ]
+}

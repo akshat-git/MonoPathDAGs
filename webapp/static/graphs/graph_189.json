@@ -1,0 +1,240 @@
+{
+  "nodes": [
+    {
+      "id": "N1",
+      "label": "Step 1",
+      "customData": {
+        "node_id": "A",
+        "node_step_index": 0,
+        "content": "June 2023, a 59-year-old female patient was admitted due to an allergic reaction to aminopyrine.",
+        "clinical_data": {
+          "allergies": [
+            {
+              "substance": "aminopyrine",
+              "reaction": "allergic reaction",
+              "severity": "unknown",
+              "date_recorded": "2023-06"
+            }
+          ]
+        }
+      }
+    },
+    {
+      "id": "N2",
+      "label": "Step 2",
+      "customData": {
+        "node_id": "B",
+        "node_step_index": 1,
+        "content": "Chest CT scan revealed a mass-like soft tissue density shadow in the posterior basal segment of the right lower lobe (51 mm\u00d734 mm), considered to be lung cancer, with small branches of the pulmonary artery surrounding it, and adjacent right lower pulmonary vein surrounding and compressed; multiple enlarged lymph nodes in the bilateral supraclavicular fossa, mediastinum (2R, 4R, 5 area, 7 area), and bilateral pulmonary hilum, the larger one located in the 4R area, with a short diameter of approximately 10 mm, and a slightly enhanced nodule in the right upper lobe.",
+        "clinical_data": {
+          "imaging": [
+            {
+              "type": "Mass-like soft tissue density shadow",
+              "body_part": "Posterior basal segment of the right lower lobe",
+              "modality": "CT",
+              "finding": "51 mm\u00d734 mm mass-like soft tissue density shadow in the posterior basal segment of the right lower lobe, considered to be lung cancer, with small branches of the pulmonary artery surrounding it, and adjacent right lower pulmonary vein surrounding and compressed; multiple enlarged lymph nodes in the bilateral supraclavicular fossa, mediastinum (2R, 4R, 5 area, 7 area), and bilateral pulmonary hilum, the larger one located in the 4R area, with a short diameter of approximately 10 mm, and a slightly enhanced nodule in the right upper lobe.",
+              "impression": "Lung cancer",
+              "date": null
+            },
+            {
+              "type": "Enlarged lymph nodes",
+              "body_part": "Bilateral supraclavicular fossa, mediastinum (2R, 4R, 5 area, 7 area), and bilateral pulmonary hilum",
+              "modality": "CT",
+              "finding": "Multiple enlarged lymph nodes in the bilateral supraclavicular fossa, mediastinum (2R, 4R, 5 area, 7 area), and bilateral pulmonary hilum, the larger one located in the 4R area, with a short diameter of approximately 10 mm",
+              "impression": "Enlarged lymph nodes",
+              "date": null
+            },
+            {
+              "type": "Nodule",
+              "body_part": "Right upper lobe",
+              "modality": "CT",
+              "finding": "Slightly enhanced nodule in the right upper lobe",
+              "impression": "Nodule",
+              "date": null
+            }
+          ],
+          "diagnoses": [
+            {
+              "code": null,
+              "label": "Lung cancer",
+              "status": "suspected",
+              "onset_date": null
+            }
+          ]
+        }
+      }
+    },
+    {
+      "id": "N3",
+      "label": "Step 3",
+      "customData": {
+        "node_id": "C",
+        "node_step_index": 2,
+        "content": "Head MRI showed abnormal signals in the right frontotemporal region, metastasis was considered.",
+        "clinical_data": {
+          "imaging": [
+            {
+              "type": "MRI of head",
+              "body_part": "Head",
+              "modality": "MRI",
+              "finding": "abnormal signals in the right frontotemporal region",
+              "impression": "metastasis was considered"
+            }
+          ]
+        }
+      }
+    },
+    {
+      "id": "N4",
+      "label": "Step 4",
+      "customData": {
+        "node_id": "D",
+        "node_step_index": 3,
+        "content": "CT-guided percutaneous lung biopsy was performed, and microscopic examination showed typical papillary and micropapillary structures of cancer nests with invasive growth, diagnosed as lung adenocarcinoma, clinical stage cT4N3M1b IVA.",
+        "clinical_data": {
+          "imaging": [
+            {
+              "type": "Computed tomography",
+              "body_part": "Lung",
+              "modality": "CT",
+              "date": null
+            }
+          ],
+          "procedures": [
+            {
+              "name": "Lung biopsy",
+              "approach": "percutaneous",
+              "date": null,
+              "location": "Lung",
+              "performed_by": null,
+              "outcome": null
+            }
+          ],
+          "diagnoses": [
+            {
+              "code": "C34.9",
+              "label": "Lung adenocarcinoma",
+              "status": "active",
+              "onset_date": null
+            }
+          ]
+        }
+      }
+    },
+    {
+      "id": "N5",
+      "label": "Step 5",
+      "customData": {
+        "node_id": "E",
+        "node_step_index": 4,
+        "content": "July 2023, DNA/RNA-based next-generation sequencing (NGS) gene testing of lung adenocarcinoma tissue sections showed: EGFRG719A mutation (exon 18 c.2156G>C, mutation abundance 33.92%); LMNA-NTRK1 fusion mutation [LMNA(chr1:156100564)-NTRK1(chr1:156844698) L2N11]. FISH validation showed NTRK break-apart probe showing separation signals, indicating NTRK fusion positive.",
+        "clinical_data": {
+          "labs": [
+            {
+              "test": "Next Generation Sequencing",
+              "value": "EGFR G719A mutation (exon 18 c.2156G>C, mutation abundance 33.92%)",
+              "unit": "%",
+              "timestamp": "2023-07"
+            },
+            {
+              "test": "Next Generation Sequencing",
+              "value": "LMNA-NTRK1 fusion mutation [LMNA(chr1:156100564)-NTRK1(chr1:156844698) L2N11]",
+              "timestamp": "2023-07"
+            },
+            {
+              "test": "FISH",
+              "value": "NTRK break-apart probe showing separation signals, indicating NTRK fusion positive",
+              "timestamp": "2023-07"
+            }
+          ],
+          "diagnoses": [
+            {
+              "code": "C34",
+              "label": "Lung Adenocarcinoma",
+              "status": "active",
+              "onset_date": null
+            }
+          ]
+        }
+      }
+    },
+    {
+      "id": "N6",
+      "label": "Step 6",
+      "customData": {
+        "node_id": "F",
+        "node_step_index": 5,
+        "content": "July 2023, patient started oral targeted therapy with Afatinib (30 mgqd) due to NGS test results revealing EGFRG719A mutation. One month later, follow",
+        "clinical_data": {
+          "medications": [
+            {
+              "drug": "Afatinib",
+              "dosage": "30 mg",
+              "frequency": "qd",
+              "modality": "oral",
+              "start_date": "2023-07",
+              "end_date": null,
+              "indication": "EGFRG719A mutation"
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "edges": [
+    {
+      "from": "N1",
+      "to": "N2",
+      "data": {
+        "edge_id": "A_to_B",
+        "branch_flag": true,
+        "content": "Patient developed lung lesions and enlarged lymph nodes, suggestive of lung cancer, after presenting with an allergic reaction to aminopyrine."
+      }
+    },
+    {
+      "from": "N2",
+      "to": "N3",
+      "data": {
+        "edge_id": "B_to_C",
+        "branch_flag": true,
+        "content": "Metastasis to the brain was suspected based on MRI findings."
+      }
+    },
+    {
+      "from": "N3",
+      "to": "N4",
+      "data": {
+        "edge_id": "C_to_D",
+        "branch_flag": true,
+        "content": "Lung biopsy confirmed lung adenocarcinoma."
+      }
+    },
+    {
+      "from": "N4",
+      "to": "N5",
+      "data": {
+        "edge_id": "D_to_E",
+        "branch_flag": true,
+        "content": "NGS testing revealed EGFR G719A and LMNA-NTRK1 fusion mutations."
+      }
+    },
+    {
+      "from": "N5",
+      "to": "N6",
+      "data": {
+        "edge_id": "E_to_F",
+        "branch_flag": true,
+        "content": "Afatinib was initiated as targeted therapy due to the EGFR G719A mutation.",
+        "transition_event": {
+          "trigger_type": "medication_change",
+          "trigger_entities": [
+            "C0001543"
+          ],
+          "change_type": "addition",
+          "target_domain": "medication",
+          "timestamp": "2023-07"
+        }
+      }
+    }
+  ]
+}

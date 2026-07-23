@@ -1,0 +1,380 @@
+{
+  "nodes": [
+    {
+      "id": "N1",
+      "label": "Step 1",
+      "customData": {
+        "node_id": "A",
+        "node_step_index": 0,
+        "content": "67-year-old Japanese man diagnosed with locally advanced squamous cell lung cancer.",
+        "clinical_data": {
+          "diagnoses": [
+            {
+              "code": "C0024117",
+              "label": "Squamous cell lung carcinoma",
+              "status": "active",
+              "onset_date": null
+            }
+          ],
+          "social_history": [
+            {
+              "category": "demographics",
+              "status": "current",
+              "description": "Japanese"
+            }
+          ]
+        }
+      }
+    },
+    {
+      "id": "N2",
+      "label": "Step 2",
+      "customData": {
+        "node_id": "B",
+        "node_step_index": 1,
+        "content": "Patient received radical radiotherapy with concurrent carboplatin and paclitaxel followed by durvalumab.",
+        "clinical_data": {
+          "procedures": [
+            {
+              "name": "Radical radiotherapy",
+              "date": null
+            }
+          ],
+          "medications": [
+            {
+              "drug": "carboplatin",
+              "dosage": null,
+              "frequency": null,
+              "modality": null,
+              "start_date": null,
+              "end_date": null,
+              "indication": null
+            },
+            {
+              "drug": "paclitaxel",
+              "dosage": null,
+              "frequency": null,
+              "modality": null,
+              "start_date": null,
+              "end_date": null,
+              "indication": null
+            },
+            {
+              "drug": "durvalumab",
+              "dosage": null,
+              "frequency": null,
+              "modality": null,
+              "start_date": null,
+              "end_date": null,
+              "indication": null
+            }
+          ]
+        }
+      }
+    },
+    {
+      "id": "N3",
+      "label": "Step 3",
+      "customData": {
+        "node_id": "C",
+        "node_step_index": 2,
+        "content": "Patient developed radiation pneumonitis as a result of treatment.",
+        "clinical_data": {
+          "diagnoses": [
+            {
+              "code": "C0242475",
+              "label": "Radiation pneumonitis",
+              "status": "active"
+            }
+          ]
+        }
+      }
+    },
+    {
+      "id": "N4",
+      "label": "Step 4",
+      "customData": {
+        "node_id": "D",
+        "node_step_index": 3,
+        "content": "Patient received steroid treatment for radiation pneumonitis.",
+        "clinical_data": {
+          "medications": [
+            {
+              "drug": "C0037994",
+              "indication": "C0242293"
+            }
+          ]
+        }
+      }
+    },
+    {
+      "id": "N5",
+      "label": "Step 5",
+      "customData": {
+        "node_id": "E",
+        "node_step_index": 4,
+        "content": "Patient experienced a cough that worsened after drinking liquids.",
+        "clinical_data": {
+          "HPI": [
+            {
+              "summary": "Cough worsened after drinking liquids",
+              "exacerbating_factors": [
+                "Liquids"
+              ]
+            }
+          ]
+        }
+      }
+    },
+    {
+      "id": "N6",
+      "label": "Step 6",
+      "customData": {
+        "node_id": "F",
+        "node_step_index": 5,
+        "content": "Chest X-ray revealed a cavity formation in the mediastinum shadow.",
+        "clinical_data": {
+          "imaging": [
+            {
+              "type": "X-ray",
+              "body_part": "Mediastinum",
+              "modality": "X-ray",
+              "finding": "Cavity formation"
+            }
+          ]
+        }
+      }
+    },
+    {
+      "id": "N7",
+      "label": "Step 7",
+      "customData": {
+        "node_id": "G",
+        "node_step_index": 6,
+        "content": "Chest CT scan showed a cavity in the right lower lobe, at the original location of the lung cancer, communicating with the bronchus intermedius.",
+        "clinical_data": {
+          "imaging": [
+            {
+              "type": "Computed tomography",
+              "body_part": "Lung",
+              "modality": "CT",
+              "finding": "Cavity in the right lower lobe communicating with the bronchus intermedius",
+              "date": null
+            }
+          ]
+        }
+      }
+    },
+    {
+      "id": "N8",
+      "label": "Step 8",
+      "customData": {
+        "node_id": "H",
+        "node_step_index": 7,
+        "content": "Broncho-oesophageal fistula diagnosed via oesophagography.",
+        "clinical_data": {
+          "diagnoses": [
+            {
+              "code": "C4086235",
+              "label": "Bronchoesophageal fistula",
+              "status": "active"
+            }
+          ],
+          "imaging": [
+            {
+              "type": "Oesophagography",
+              "finding": "Broncho-oesophageal fistula"
+            }
+          ]
+        }
+      }
+    },
+    {
+      "id": "N9",
+      "label": "Step 9",
+      "customData": {
+        "node_id": "I",
+        "node_step_index": 8,
+        "content": "Axial CT shows a 4 cm cavitary lung lesion.",
+        "clinical_data": {
+          "imaging": [
+            {
+              "type": "Lung lesion",
+              "body_part": "Lung",
+              "modality": "CT",
+              "finding": "4 cm cavitary lesion",
+              "date": null
+            }
+          ]
+        }
+      }
+    },
+    {
+      "id": "N10",
+      "label": "Step 10",
+      "customData": {
+        "node_id": "J",
+        "node_step_index": 9,
+        "content": "Patient received an oesophageal stent for broncho-oesophageal fistula.",
+        "clinical_data": {
+          "procedures": [
+            {
+              "name": "Esophageal Stent Placement",
+              "approach": "endoscopic",
+              "date": null,
+              "location": "esophagus",
+              "performed_by": null,
+              "outcome": null
+            }
+          ],
+          "diagnoses": [
+            {
+              "code": null,
+              "label": "broncho-oesophageal fistula",
+              "status": "active",
+              "onset_date": null
+            }
+          ]
+        }
+      }
+    },
+    {
+      "id": "N11",
+      "label": "Step 11",
+      "customData": {
+        "node_id": "K",
+        "node_step_index": 10,
+        "content": "Patient died of massive hemoptysis.",
+        "clinical_data": {}
+      }
+    },
+    {
+      "id": "N12",
+      "label": "Step 12",
+      "customData": {
+        "node_id": "L",
+        "node_step_index": 11,
+        "content": "Pathological autopsy confirmed the cavity as the origin of bleeding.",
+        "clinical_data": {}
+      }
+    }
+  ],
+  "edges": [
+    {
+      "from": "N1",
+      "to": "N2",
+      "data": {
+        "edge_id": "A_to_B",
+        "branch_flag": true,
+        "content": "Patient received radical radiotherapy with concurrent carboplatin and paclitaxel followed by durvalumab for locally advanced squamous cell lung cancer."
+      }
+    },
+    {
+      "from": "N2",
+      "to": "N3",
+      "data": {
+        "edge_id": "B_to_C",
+        "branch_flag": true,
+        "content": "Patient developed radiation pneumonitis as a result of treatment.",
+        "transition_event": {
+          "trigger_type": "spontaneous",
+          "trigger_entities": [
+            "C0242475"
+          ],
+          "change_type": "progression",
+          "target_domain": "diagnosis"
+        }
+      }
+    },
+    {
+      "from": "N3",
+      "to": "N4",
+      "data": {
+        "edge_id": "C_to_D",
+        "branch_flag": true,
+        "content": "Patient received steroid treatment for radiation pneumonitis.",
+        "transition_event": {
+          "trigger_type": "medication_change",
+          "trigger_entities": [
+            "C0037994",
+            "C0242293"
+          ],
+          "change_type": "addition",
+          "target_domain": "medication"
+        }
+      }
+    },
+    {
+      "from": "N4",
+      "to": "N5",
+      "data": {
+        "edge_id": "D_to_E",
+        "branch_flag": true,
+        "content": "Patient experienced a cough that worsened after drinking liquids."
+      }
+    },
+    {
+      "from": "N5",
+      "to": "N6",
+      "data": {
+        "edge_id": "E_to_F",
+        "branch_flag": true,
+        "content": "Chest X-ray revealed a cavity formation in the mediastinum shadow."
+      }
+    },
+    {
+      "from": "N6",
+      "to": "N7",
+      "data": {
+        "edge_id": "F_to_G",
+        "branch_flag": true,
+        "content": "Chest CT scan showed a cavity in the right lower lobe, at the original location of the lung cancer, communicating with the bronchus intermedius."
+      }
+    },
+    {
+      "from": "N7",
+      "to": "N8",
+      "data": {
+        "edge_id": "G_to_H",
+        "branch_flag": true,
+        "content": "Broncho-oesophageal fistula diagnosed via oesophagography."
+      }
+    },
+    {
+      "from": "N8",
+      "to": "N9",
+      "data": {
+        "edge_id": "H_to_I",
+        "branch_flag": true,
+        "content": "Axial CT shows a 4 cm cavitary lung lesion."
+      }
+    },
+    {
+      "from": "N9",
+      "to": "N10",
+      "data": {
+        "edge_id": "I_to_J",
+        "branch_flag": true,
+        "content": "Patient received an oesophageal stent for broncho-oesophageal fistula."
+      }
+    },
+    {
+      "from": "N10",
+      "to": "N11",
+      "data": {
+        "edge_id": "J_to_K",
+        "branch_flag": true,
+        "content": "Patient died of massive hemoptysis."
+      }
+    },
+    {
+      "from": "N11",
+      "to": "N12",
+      "data": {
+        "edge_id": "K_to_L",
+        "branch_flag": true,
+        "content": "Pathological autopsy confirmed the cavity as the origin of bleeding."
+      }
+    }
+  ]
+}

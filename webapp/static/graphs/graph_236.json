@@ -1,0 +1,136 @@
+{
+  "nodes": [
+    {
+      "id": "N1",
+      "label": "Step 1",
+      "customData": {
+        "node_id": "A",
+        "node_step_index": 0,
+        "content": "82-year-old man with a 6-year history of type 2 diabetes on oral medication, referred to the hospital in March 2018 following a routine chest X-ray due to suspected interstitial lung disease. Patient is an ex\u2010smoker (1.5 pack/day from 20\u201355\u2009years of age) with no history of asbestos exposure or bird rearing and no family history of interstitial lung diseases. No suspicion of new medication or connective tissue disease. March 2018 lab findings: ALT 7\u2009U/L, Anti\u2010RNP Ab (\u2212), Arterial blood gas (room air) Hematology pH\u20097.434, WBC 7500/\u03bcL, LDH 176\u2009U/L, MPO\u2010ANCA (\u2212), PaCO234.6\u2009Torr, Neu 46.6%, CK 56\u2009U/L, PR3\u2010ANCA 5.8\u2009U/mL, PaO271.5\u2009Torr, Lym 40.4%, Glu 166\u2009mg/dL, HCO3\u221224.0\u2009nmol/L, Mono 6.1%, HbA1c 8.4%, Urinalysis, Eos 5.6%, CRP 0.11\u2009mg/dL, Urine protein (\u2212), Pulmonary function (% predicted) Baso 1. %, KL\u20106583\u2009U/mL, Urine OB (\u00b1), VC 3.49\u2009L (115.9%), RBC 4.64\u2009\u00d7\u2009106/\u03bcL, SP\u2010D 228\u2009ng/mL, Urine glucose (\u2212), FVC 3.45\u2009L (118.1%), Hb 14.9 g/dL, \u03b2\u2010D\u2010glucan",
+        "clinical_data": {
+          "diagnoses": [
+            {
+              "code": "E11.9",
+              "label": "Type 2 diabetes mellitus without complications",
+              "status": "active",
+              "onset_date": null
+            },
+            {
+              "code": "77444000",
+              "label": "Interstitial lung disease",
+              "status": "suspected",
+              "onset_date": "2018-03"
+            }
+          ],
+          "social_history": [
+            {
+              "category": "smoking",
+              "status": "past",
+              "description": "1.5 pack/day from 20\u201355 years of age"
+            }
+          ],
+          "labs": [
+            {
+              "test": "Alanine Aminotransferase Measurement",
+              "value": "7",
+              "unit": "U/L",
+              "flag": "normal",
+              "reference_range": null,
+              "timestamp": "2018-03"
+            },
+            {
+              "test": "Anti-RNP Antibody",
+              "value": "negative",
+              "unit": null,
+              "flag": "normal",
+              "reference_range": null,
+              "timestamp": "2018-03"
+            },
+            {
+              "test": "Arterial Blood Gases",
+              "value": null,
+              "unit": null,
+              "flag": "normal",
+              "reference_range": null,
+              "timestamp": "2018-03"
+            },
+            {
+              "test": "pH of Arterial Blood",
+              "value": "7.434",
+              "unit": null,
+              "flag": "normal",
+              "reference_range": null,
+              "timestamp": "2018-03"
+            },
+            {
+              "test": "White Blood Cells",
+              "value": "7500",
+              "unit": "/\u03bcL",
+              "flag": "normal",
+              "reference_range": null,
+              "timestamp": "2018-03"
+            },
+            {
+              "test": "Lactate Dehydrogenase",
+              "value": "176",
+              "unit": "U/L",
+              "flag": "normal",
+              "reference_range": null,
+              "timestamp": "2018-03"
+            },
+            {
+              "test": "Myeloperoxidase Antibodies",
+              "value": "negative",
+              "unit": null,
+              "flag": "normal",
+              "reference_range": null,
+              "timestamp": "2018-03"
+            },
+            {
+              "test": "Partial Pressure of Carbon Dioxide in Arterial Blood",
+              "value": "34.6",
+              "unit": "Torr",
+              "flag": "normal",
+              "reference_range": null,
+              "timestamp": "2018-03"
+            },
+            {
+              "test": "Neutrophils",
+              "value": "46.6",
+              "unit": "%",
+              "flag": "normal",
+              "reference_range": null,
+              "timestamp": "2018-03"
+            },
+            {
+              "test": "Creatine Kinase",
+              "value": "56",
+              "unit": "U/L",
+              "flag": "normal",
+              "reference_range": null,
+              "timestamp": "2018-03"
+            },
+            {
+              "test": "PR3-ANCA",
+              "value": "5.8",
+              "unit": "U/mL",
+              "flag": "normal",
+              "reference_range": null,
+              "timestamp": "2018-03"
+            },
+            {
+              "test": "Partial pressure of oxygen in arterial blood",
+              "value": "71.5",
+              "unit": "Torr",
+              "flag": "normal",
+              "reference_range": null,
+              "timestamp": "2018-03"
+            },
+            {}
+          ]
+        }
+      }
+    }
+  ],
+  "edges": []
+}

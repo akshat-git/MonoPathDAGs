@@ -1,0 +1,282 @@
+{
+  "nodes": [
+    {
+      "id": "N1",
+      "label": "Step 1",
+      "customData": {
+        "node_id": "A",
+        "node_step_index": 0,
+        "content": "58-year-old Chinese male presented for a physical examination on April 20, 2020. Asymptomatic, with no cough, sputum, hemoptysis, chest pain, or dyspnea. No history of diabetes, hypertension, or family history of cancer. Smoking history of over 7 years, with an average of 20\u201340 cigarettes per day, and had abstained from smoking for nearly 30 years.",
+        "clinical_data": {
+          "social_history": [
+            {
+              "category": "smoking",
+              "status": "past",
+              "description": "History of over 7 years, with an average of 20\u201340 cigarettes per day, and had abstained from smoking for nearly 30 years."
+            }
+          ],
+          "HPI": [
+            {
+              "summary": "Asymptomatic, with no cough, sputum, hemoptysis, chest pain, or dyspnea.",
+              "onset": "April 20, 2020"
+            }
+          ]
+        }
+      },
+      "custom_id": "graph_007_N0"
+    },
+    {
+      "id": "N2",
+      "label": "Step 2",
+      "customData": {
+        "node_id": "B",
+        "node_step_index": 1,
+        "content": "Chest CT revealed a 4.0 cm x 3.4 cm mass in the inferior lobe of the right lung, with swollen and fused lymph nodes in the hilum and mediastinum.",
+        "clinical_data": {
+          "imaging": [
+            {
+              "type": "Mass",
+              "body_part": "Lung",
+              "modality": "CT",
+              "finding": "4.0 cm x 3.4 cm mass in the inferior lobe of the right lung, with swollen and fused lymph nodes in the hilum and mediastinum."
+            }
+          ]
+        }
+      },
+      "custom_id": "graph_007_N1"
+    },
+    {
+      "id": "N3",
+      "label": "Step 3",
+      "customData": {
+        "node_id": "C",
+        "node_step_index": 2,
+        "content": "CT-guided lung biopsy revealed lung adenocarcinoma. Immunohistochemical staining positive for Napsin A and TTF1.",
+        "clinical_data": {
+          "imaging": [
+            {
+              "type": "CT guided lung biopsy",
+              "body_part": "Lung",
+              "modality": "CT",
+              "finding": "lung adenocarcinoma",
+              "date": null
+            }
+          ],
+          "diagnoses": [
+            {
+              "code": "C0242397",
+              "label": "Adenocarcinoma of lung",
+              "status": "active",
+              "onset_date": null
+            }
+          ]
+        }
+      },
+      "custom_id": "graph_007_N2"
+    },
+    {
+      "id": "N4",
+      "label": "Step 4",
+      "customData": {
+        "node_id": "D",
+        "node_step_index": 3,
+        "content": "Diagnosis of stage IIIA (T2aN2M0) lung adenocarcinoma confirmed on May 2, 2020.",
+        "timestamp": "2020-05-02",
+        "clinical_data": {
+          "diagnoses": [
+            {
+              "code": "C34.9",
+              "label": "Lung cancer, unspecified",
+              "status": "active",
+              "onset_date": "2020-05-02"
+            }
+          ]
+        }
+      },
+      "custom_id": "graph_007_N3"
+    },
+    {
+      "id": "N5",
+      "label": "Step 5",
+      "customData": {
+        "node_id": "E",
+        "node_step_index": 4,
+        "content": "NGS of tumor tissue from lung puncture identified ELMOD3-ALK (E8: A20) fusion (41.23% abundance) and EML4-ALK (E13: A20) double-ALK fusion (68.21% abundance). ELMOD3-ALK fusion involved exon 8 of ELMOD3 and exon 20 of ALK. ALK fusion confirmed by IHC staining (Ventana D5F3 clone).",
+        "clinical_data": {
+          "diagnoses": [
+            {
+              "code": "C34",
+              "label": "Lung cancer",
+              "status": "active"
+            }
+          ],
+          "imaging": [
+            {
+              "type": "Puncture",
+              "body_part": "Lung",
+              "modality": "other",
+              "finding": "Tumor tissue",
+              "date": null
+            }
+          ],
+          "labs": [
+            {
+              "test": "ELMOD3-ALK (E8: A20) fusion",
+              "value": "41.23%",
+              "unit": "% abundance",
+              "flag": "abnormal"
+            },
+            {
+              "test": "EML4-ALK (E13: A20) double-ALK fusion",
+              "value": "68.21%",
+              "unit": "% abundance",
+              "flag": "abnormal"
+            }
+          ]
+        }
+      },
+      "custom_id": "graph_007_N4"
+    },
+    {
+      "id": "N6",
+      "label": "Step 6",
+      "customData": {
+        "node_id": "F",
+        "node_step_index": 5,
+        "content": "Initiated alectinib therapy at 600 mg twice daily on May 20, 2020, following MDT discussion for potentially resectable NSCLC with ALK rearrangement.",
+        "timestamp": "2020-05-20",
+        "clinical_data": {
+          "medications": [
+            {
+              "drug": "C1698449",
+              "dosage": "600 mg",
+              "frequency": "twice daily",
+              "modality": "oral",
+              "start_date": "2020-05-20",
+              "end_date": null,
+              "indication": "C0027423"
+            }
+          ],
+          "diagnoses": [
+            {
+              "code": "C0027423",
+              "label": "Non-Small Cell Lung Carcinoma",
+              "status": "active",
+              "onset_date": null
+            }
+          ]
+        }
+      },
+      "custom_id": "graph_007_N5"
+    },
+    {
+      "id": "N7",
+      "label": "Step 7",
+      "customData": {
+        "node_id": "G",
+        "node_step_index": 6,
+        "content": "Chest CT scan after 4 months of alectinib therapy showed shrinkage of the primary tumor and a 1.1 cm x 0.6 cm nodule in the inferior lobe of the right lung. No lymph node enlargement. CEA",
+        "clinical_data": {
+          "imaging": [
+            {
+              "type": "CT scan of chest",
+              "body_part": "Lung",
+              "modality": "CT",
+              "finding": "Shrinkage of the primary tumor and a 1.1 cm x 0.6 cm nodule in the inferior lobe of the right lung. No lymph node enlargement.",
+              "date": null
+            }
+          ],
+          "medications": [
+            {
+              "drug": "alectinib",
+              "dosage": null,
+              "frequency": null,
+              "modality": null,
+              "start_date": null,
+              "end_date": null,
+              "indication": null
+            }
+          ]
+        }
+      },
+      "custom_id": "graph_007_N6"
+    }
+  ],
+  "edges": [
+    {
+      "from": "N1",
+      "to": "N2",
+      "data": {
+        "edge_id": "A_to_B",
+        "branch_flag": true,
+        "content": "Patient underwent chest CT."
+      },
+      "custom_id": "graph_007_N1_N2"
+    },
+    {
+      "from": "N2",
+      "to": "N3",
+      "data": {
+        "edge_id": "B_to_C",
+        "branch_flag": true,
+        "content": "CT-guided lung biopsy performed."
+      },
+      "custom_id": "graph_007_N2_N3"
+    },
+    {
+      "from": "N3",
+      "to": "N4",
+      "data": {
+        "edge_id": "C_to_D",
+        "branch_flag": true,
+        "content": "Diagnosis confirmed."
+      },
+      "custom_id": "graph_007_N3_N4"
+    },
+    {
+      "from": "N4",
+      "to": "N5",
+      "data": {
+        "edge_id": "D_to_E",
+        "branch_flag": true,
+        "content": "NGS of tumor tissue performed."
+      },
+      "custom_id": "graph_007_N4_N5"
+    },
+    {
+      "from": "N5",
+      "to": "N6",
+      "data": {
+        "edge_id": "E_to_F",
+        "branch_flag": true,
+        "content": "Initiation of alectinib therapy following MDT discussion.",
+        "transition_event": {
+          "trigger_type": "medication_change",
+          "trigger_entities": [
+            "C1698449"
+          ],
+          "change_type": "addition",
+          "target_domain": "medication",
+          "timestamp": "2020-05-20"
+        }
+      },
+      "custom_id": "graph_007_N5_N6"
+    },
+    {
+      "from": "N6",
+      "to": "N7",
+      "data": {
+        "edge_id": "F_to_G",
+        "branch_flag": true,
+        "content": "Chest CT scan performed after 4 months of alectinib therapy.",
+        "transition_event": {
+          "trigger_type": "procedure",
+          "trigger_entities": [],
+          "change_type": "other",
+          "target_domain": "imaging"
+        }
+      },
+      "custom_id": "graph_007_N6_N7"
+    }
+  ]
+}

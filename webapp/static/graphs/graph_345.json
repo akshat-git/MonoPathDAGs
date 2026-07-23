@@ -1,0 +1,474 @@
+{
+  "nodes": [
+    {
+      "id": "N1",
+      "label": "Step 1",
+      "customData": {
+        "node_id": "A",
+        "node_step_index": 0,
+        "content": "Study enrollment: 21 patients enrolled between January 2014 and January 2019. Two patients excluded before intervention: one with recurrence, one with new ground glass opacities. 19 patients assigned to the intervention. Median age 73 years (range, 53-83).",
+        "clinical_data": {
+          "diagnoses": [
+            {
+              "code": "UMLS:C0034181",
+              "label": "Recurrence",
+              "status": "historical"
+            }
+          ],
+          "imaging": [
+            {
+              "type": "UMLS:C3887540",
+              "body_part": "lung",
+              "modality": "CT",
+              "finding": "ground glass opacity"
+            }
+          ],
+          "demographics": [
+            {
+              "category": "age",
+              "value": "73",
+              "unit": "years"
+            }
+          ]
+        }
+      }
+    },
+    {
+      "id": "N2",
+      "label": "Step 2",
+      "customData": {
+        "node_id": "B",
+        "node_step_index": 1,
+        "content": "Patient characteristics: Stage IIA in 5 patients (23.8%), stage IIB in 3 (14.3%), and stage IIIA in 13 (61.9%). Histopathology: Adenocarcinoma in 14 patients (66.7%), squamous cell carcinoma in 6 (28.6%). Sex: 15 male patients (71.4%), 6 female patients (28.6%). ECOG performance status: 0 in 13 patients (61.9%), 1 in 8 patients (38.1%).",
+        "clinical_data": {
+          "diagnoses": [
+            {
+              "code": "C0242375",
+              "label": "Stage IIA",
+              "status": "active"
+            },
+            {
+              "code": "C0242376",
+              "label": "Stage IIB",
+              "status": "active"
+            },
+            {
+              "code": "C0242378",
+              "label": "Stage IIIA",
+              "status": "active"
+            },
+            {
+              "code": "C0001666",
+              "label": "Adenocarcinoma",
+              "status": "active"
+            },
+            {
+              "code": "C0038454",
+              "label": "Squamous Cell Carcinoma",
+              "status": "active"
+            }
+          ],
+          "functional_status": [
+            {
+              "domain": "performance status",
+              "description": "ECOG performance status",
+              "score": "0",
+              "scale": "ECOG"
+            },
+            {
+              "domain": "performance status",
+              "description": "ECOG performance status",
+              "score": "1",
+              "scale": "ECOG"
+            }
+          ],
+          "social_history": [
+            {
+              "category": "sex",
+              "status": "current",
+              "description": "male"
+            },
+            {
+              "category": "sex",
+              "status": "current",
+              "description": "female"
+            }
+          ]
+        }
+      }
+    },
+    {
+      "id": "N3",
+      "label": "Step 3",
+      "customData": {
+        "node_id": "C",
+        "node_step_index": 2,
+        "content": "Inclusion criteria: Over 20 years of age, completely resected stage II to IIIA NSCLC, ECOG performance status of 0-1, judged unsuitable or unwilling to receive CDDP-based regimen, adequate kidney function (serum creatinine \u22641.5 mg/dL), adequate liver function, and adequate bone marrow function. Surgery completed 4-8 weeks before enrollment.",
+        "clinical_data": {}
+      }
+    },
+    {
+      "id": "N4",
+      "label": "Step 4",
+      "customData": {
+        "node_id": "D",
+        "node_step_index": 3,
+        "content": "Treatment: Four cycles of CBDCA (AUC=5 mg/mL/min, on day 1) and nab-PTX (100 mg/m2, on days 1, 8, and 15) as postoperative adjuvant chemotherapy every 4 weeks within 8 weeks after surgery.",
+        "clinical_data": {
+          "medications": [
+            {
+              "drug": "CBDCA",
+              "dosage": "AUC=5 mg/mL/min",
+              "frequency": "on day 1",
+              "modality": "IV",
+              "start_date": null,
+              "end_date": null,
+              "indication": "postoperative adjuvant chemotherapy"
+            },
+            {
+              "drug": "nab-PTX",
+              "dosage": "100 mg/m2",
+              "frequency": "on days 1, 8, and 15",
+              "modality": "IV",
+              "start_date": null,
+              "end_date": null,
+              "indication": "postoperative adjuvant chemotherapy"
+            }
+          ],
+          "procedures": [
+            {
+              "name": "surgery",
+              "date": null,
+              "location": null,
+              "performed_by": null,
+              "outcome": null
+            }
+          ]
+        }
+      }
+    },
+    {
+      "id": "N5",
+      "label": "Step 5",
+      "customData": {
+        "node_id": "E",
+        "node_step_index": 4,
+        "content": "Chemotherapy was stopped if tumor recurrence was detected or the next cycle was delayed for more than 28 days; occurrence of drug-induced pneumonitis grade 2 or worse; detection of grade 4 or worse nonhematologic toxicities; and deterioration of the patient\u2019s condition due to severe toxicity or worsening comorbidities.",
+        "clinical_data": {
+          "diagnoses": [
+            {
+              "code": "C0027051",
+              "label": "Tumor Recurrence",
+              "status": "active"
+            }
+          ],
+          "allergies": [
+            {
+              "substance": "Drug",
+              "reaction": "Drug-induced pneumonitis",
+              "severity": "moderate"
+            }
+          ]
+        }
+      }
+    },
+    {
+      "id": "N6",
+      "label": "Step 6",
+      "customData": {
+        "node_id": "F",
+        "node_step_index": 5,
+        "content": "Follow-up: Physical examination, laboratory tests, and chest x-ray every 3 months. Chest and abdominal computed tomography (CT) was performed every 6 months. Chest and abdominal CT, brain magnetic resonance imaging or brain CT, and 18F-FDG-PET were performed 2 years after registration.",
+        "clinical_data": {
+          "procedures": [
+            {
+              "name": "Physical examination",
+              "date": "every 3 months"
+            },
+            {
+              "name": "Laboratory test",
+              "date": "every 3 months"
+            },
+            {
+              "name": "Chest X-ray",
+              "date": "every 3 months",
+              "modality": "X-ray",
+              "body_part": "Thorax"
+            },
+            {
+              "name": "Computed tomography of chest",
+              "date": "every 6 months",
+              "modality": "CT",
+              "body_part": "Thorax"
+            },
+            {
+              "name": "Computed tomography of abdomen",
+              "date": "every 6 months",
+              "modality": "CT",
+              "body_part": "Abdomen"
+            },
+            {
+              "name": "Computed tomography of chest",
+              "date": "2 years after registration",
+              "modality": "CT",
+              "body_part": "Thorax"
+            },
+            {
+              "name": "Computed tomography of abdomen",
+              "date": "2 years after registration",
+              "modality": "CT",
+              "body_part": "Abdomen"
+            },
+            {
+              "name": "Magnetic resonance imaging of brain",
+              "date": "2 years after registration",
+              "modality": "MRI",
+              "body_part": "Brain"
+            },
+            {
+              "name": "Computed tomography of brain",
+              "date": "2 years after registration",
+              "modality": "CT",
+              "body_part": "Brain"
+            },
+            {
+              "name": "Positron emission tomography with 18F-FDG",
+              "date": "2 years after registration",
+              "modality": "PET"
+            }
+          ]
+        }
+      }
+    },
+    {
+      "id": "N7",
+      "label": "Step 7",
+      "customData": {
+        "node_id": "G",
+        "node_step_index": 6,
+        "content": "CBDCA (AUC=6 mg/mL/min, on day 1) plus nab-PTX (100 mg/m2, on days 1, 8, 15) administered every 3 weeks produced a significantly higher overall response rate, as well as a 10% improvement in overall survival, than sb-PTX. 12 patients completed the four cycles of adjuvant chemotherapy.",
+        "clinical_data": {
+          "medications": [
+            {
+              "drug": "carboplatin",
+              "dosage": "AUC=6 mg/mL/min",
+              "frequency": "day 1 every 3 weeks",
+              "modality": "IV",
+              "start_date": null,
+              "end_date": null
+            },
+            {
+              "drug": "nab-paclitaxel",
+              "dosage": "100 mg/m2",
+              "frequency": "days 1, 8, 15 every 3 weeks",
+              "modality": "IV",
+              "start_date": null,
+              "end_date": null
+            }
+          ],
+          "procedures": [
+            {
+              "name": "adjuvant chemotherapy",
+              "date": null,
+              "outcome": "completed"
+            }
+          ]
+        }
+      }
+    },
+    {
+      "id": "N8",
+      "label": "Step 8",
+      "customData": {
+        "node_id": "H",
+        "node_step_index": 7,
+        "content": "First-step dose reduction was required in 6 patients (31.6%) owing to the occurrence of grade 3 neutropenia (n=5) and the physicians\u2019 discretion (n=1).",
+        "clinical_data": {
+          "medications": [
+            {
+              "drug": "Neutropenia",
+              "dosage": "dose reduction",
+              "frequency": "First-step",
+              "indication": "Neutropenia"
+            }
+          ],
+          "labs": [
+            {
+              "test": "Neutropenia",
+              "value": "3",
+              "flag": "abnormal"
+            }
+          ]
+        }
+      }
+    },
+    {
+      "id": "N9",
+      "label": "Step 9",
+      "customData": {
+        "node_id": "I",
+        "node_step_index": 8,
+        "content": "Nab-PTX administration on days 8 and 15 was skipped in 1 of 57 cycles and 41 of 57 cycles (71.9%), respectively, most frequently due to grade 3 or 4 neutropenia.",
+        "clinical_data": {
+          "medications": [
+            {
+              "drug": "C0072723",
+              "dosage": null,
+              "frequency": "days 8 and 15",
+              "modality": null,
+              "start_date": null,
+              "end_date": null,
+              "indication": null
+            }
+          ],
+          "labs": [
+            {
+              "test": "C0027947",
+              "value": null,
+              "unit": null,
+              "flag": "abnormal",
+              "reference_range": null,
+              "timestamp": null
+            }
+          ]
+        }
+      }
+    },
+    {
+      "id": "N10",
+      "label": "Step 10",
+      "customData": {
+        "node_id": "J",
+        "node_step_index": 9,
+        "clinical_data": {}
+      }
+    }
+  ],
+  "edges": [
+    {
+      "from": "N1",
+      "to": "N2",
+      "data": {
+        "edge_id": "A_to_B",
+        "branch_flag": true,
+        "content": "Transition from study enrollment to patient characteristics."
+      }
+    },
+    {
+      "from": "N2",
+      "to": "N3",
+      "data": {
+        "edge_id": "B_to_C",
+        "branch_flag": true,
+        "content": "Transition from patient characteristics to inclusion criteria."
+      }
+    },
+    {
+      "from": "N3",
+      "to": "N4",
+      "data": {
+        "edge_id": "C_to_D",
+        "branch_flag": true,
+        "content": "Transition from inclusion criteria to treatment with CBDCA and nab-PTX.",
+        "transition_event": {
+          "trigger_type": "medication_change",
+          "trigger_entities": [
+            "C0007559",
+            "C0058683"
+          ],
+          "change_type": "addition",
+          "target_domain": "medication"
+        }
+      }
+    },
+    {
+      "from": "N4",
+      "to": "N5",
+      "data": {
+        "edge_id": "D_to_E",
+        "branch_flag": true,
+        "content": "Transition from treatment to chemotherapy discontinuation criteria.",
+        "transition_event": {
+          "trigger_type": "interpretation",
+          "trigger_entities": [
+            "C0027051",
+            "C0032329"
+          ],
+          "change_type": "other",
+          "target_domain": "diagnosis"
+        }
+      }
+    },
+    {
+      "from": "N5",
+      "to": "N6",
+      "data": {
+        "edge_id": "E_to_F",
+        "branch_flag": true,
+        "content": "Transition from chemotherapy discontinuation criteria to follow-up procedures."
+      }
+    },
+    {
+      "from": "N6",
+      "to": "N7",
+      "data": {
+        "edge_id": "F_to_G",
+        "branch_flag": true,
+        "content": "Transition from follow-up to CBDCA and nab-PTX administration results.",
+        "transition_event": {
+          "trigger_type": "medication_change",
+          "trigger_entities": [
+            "C0007559",
+            "C0058683"
+          ],
+          "change_type": "addition",
+          "target_domain": "medication"
+        }
+      }
+    },
+    {
+      "from": "N7",
+      "to": "N8",
+      "data": {
+        "edge_id": "G_to_H",
+        "branch_flag": true,
+        "content": "Transition from treatment results to dose reduction due to neutropenia.",
+        "transition_event": {
+          "trigger_type": "lab_change",
+          "trigger_entities": [
+            "C0027947"
+          ],
+          "change_type": "escalation",
+          "target_domain": "lab"
+        }
+      }
+    },
+    {
+      "from": "N8",
+      "to": "N9",
+      "data": {
+        "edge_id": "H_to_I",
+        "branch_flag": true,
+        "content": "Transition from dose reduction to skipped nab-PTX administration due to neutropenia.",
+        "transition_event": {
+          "trigger_type": "medication_change",
+          "trigger_entities": [
+            "C0058683",
+            "C0027947"
+          ],
+          "change_type": "discontinuation",
+          "target_domain": "medication"
+        }
+      }
+    },
+    {
+      "from": "N9",
+      "to": "N10",
+      "data": {
+        "edge_id": "I_to_J",
+        "branch_flag": true,
+        "content": "Transition to end of study."
+      }
+    }
+  ]
+}

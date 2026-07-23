@@ -1,0 +1,201 @@
+{
+  "nodes": [
+    {
+      "id": "N1",
+      "label": "Step 1",
+      "customData": {
+        "node_id": "A",
+        "node_step_index": 0,
+        "content": "Elderly man presented with chest pain and shortness of breath on a background of left lower lobe small cell lung cancer, previously treated with chemotherapy.",
+        "clinical_data": {
+          "diagnoses": [
+            {
+              "code": "C34.3",
+              "label": "Malignant neoplasm of lower lobe, bronchus or lung",
+              "status": "historical",
+              "onset_date": null
+            }
+          ],
+          "HPI": [
+            {
+              "summary": "Elderly man presented with chest pain and shortness of breath",
+              "onset": "unknown",
+              "progression": "unknown",
+              "associated_symptoms": [
+                "Shortness of breath",
+                "Chest pain"
+              ]
+            }
+          ]
+        }
+      }
+    },
+    {
+      "id": "N2",
+      "label": "Step 2",
+      "customData": {
+        "node_id": "B",
+        "node_step_index": 1,
+        "content": "Blood test showed iron deficiency anaemia requiring transfusion.",
+        "clinical_data": {
+          "labs": [
+            {
+              "test": "Iron deficiency anemia",
+              "value": "abnormal",
+              "unit": null,
+              "flag": "abnormal",
+              "reference_range": null,
+              "timestamp": null
+            }
+          ],
+          "procedures": [
+            {
+              "name": "Blood transfusion",
+              "approach": null,
+              "date": null,
+              "location": null,
+              "performed_by": null,
+              "outcome": null
+            }
+          ],
+          "diagnoses": [
+            {
+              "code": "267036007",
+              "label": "Iron deficiency anemia",
+              "status": "active",
+              "onset_date": null
+            }
+          ]
+        }
+      }
+    },
+    {
+      "id": "N3",
+      "label": "Step 3",
+      "customData": {
+        "node_id": "C",
+        "node_step_index": 2,
+        "content": "Oesophagogastroduodenoscopy highlighted an external compression to the distal stomach and a 15\u2009mm round lesion, with a central ulcerated depression and rolled edges in D3, which was suspicious of malignancy.",
+        "clinical_data": {
+          "imaging": [
+            {
+              "type": "esophagogastroduodenoscopy",
+              "body_part": "stomach",
+              "modality": "endoscopy",
+              "finding": "external compression to the distal stomach and a 15 mm round lesion, with a central ulcerated depression and rolled edges in D3",
+              "impression": "suspicious of malignancy"
+            }
+          ]
+        }
+      }
+    },
+    {
+      "id": "N4",
+      "label": "Step 4",
+      "customData": {
+        "node_id": "D",
+        "node_step_index": 3,
+        "content": "Target biopsies confirmed the malignant nature of the lesion with features of small cell neuroendocrine carcinoma, in keeping with a lung metastasis.",
+        "clinical_data": {
+          "diagnoses": [
+            {
+              "code": "C8014",
+              "label": "Small cell neuroendocrine carcinoma",
+              "status": "active"
+            },
+            {
+              "code": "C0376358",
+              "label": "Lung metastasis",
+              "status": "active"
+            }
+          ],
+          "procedures": [
+            {
+              "name": "Biopsy",
+              "approach": "percutaneous",
+              "location": "Lung",
+              "outcome": "positive for malignancy"
+            }
+          ]
+        }
+      }
+    },
+    {
+      "id": "N5",
+      "label": "Step 5",
+      "customData": {
+        "node_id": "E",
+        "node_step_index": 4,
+        "content": "Duodenal mucosa biopsy revealed villi infiltrated by crushed blue small-sized tumour cells, consistent with a poorly differentiated neuroendocrine carcinoma of small cell type with lymphatic invasion. Neoplastic cells are positive for neuroendocrine marker synaptophysin.",
+        "clinical_data": {
+          "diagnoses": [
+            {
+              "code": "C7A.0",
+              "label": "Malignant neuroendocrine tumors",
+              "status": "active",
+              "onset_date": null
+            }
+          ],
+          "labs": [
+            {
+              "test": "C0039075",
+              "value": "positive",
+              "unit": null,
+              "flag": null,
+              "reference_range": null,
+              "timestamp": null
+            }
+          ],
+          "imaging": [
+            {
+              "type": "Biopsy of duodenum",
+              "body_part": "Duodenum",
+              "modality": null,
+              "finding": "villi infiltrated by crushed blue small-sized tumour cells",
+              "impression": "poorly differentiated neuroendocrine carcinoma of small cell type with lymphatic invasion",
+              "date": null
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "edges": [
+    {
+      "from": "N1",
+      "to": "N2",
+      "data": {
+        "edge_id": "A_to_B",
+        "branch_flag": true,
+        "content": "Patient developed iron deficiency anemia requiring transfusion."
+      }
+    },
+    {
+      "from": "N2",
+      "to": "N3",
+      "data": {
+        "edge_id": "B_to_C",
+        "branch_flag": true,
+        "content": "Oesophagogastroduodenoscopy performed."
+      }
+    },
+    {
+      "from": "N3",
+      "to": "N4",
+      "data": {
+        "edge_id": "C_to_D",
+        "branch_flag": true,
+        "content": "Biopsy performed on lesion."
+      }
+    },
+    {
+      "from": "N4",
+      "to": "N5",
+      "data": {
+        "edge_id": "D_to_E",
+        "branch_flag": true,
+        "content": "Duodenal mucosa biopsy performed."
+      }
+    }
+  ]
+}

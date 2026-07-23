@@ -1,0 +1,419 @@
+{
+  "nodes": [
+    {
+      "id": "N1",
+      "label": "Step 1",
+      "customData": {
+        "node_id": "A",
+        "node_step_index": 0,
+        "content": "58-year-old woman with incidentally discovered left superior sulcus mass during evaluation for squamous cell carcinoma of the eyelid.",
+        "clinical_data": {
+          "diagnoses": [
+            {
+              "code": "C44.112",
+              "label": "Squamous cell carcinoma of skin of left eyelid, including canthus",
+              "status": "active"
+            }
+          ],
+          "imaging": [
+            {
+              "type": "Mass",
+              "body_part": "Superior Sulcus",
+              "modality": "incidental finding",
+              "finding": "left superior sulcus mass"
+            }
+          ]
+        }
+      }
+    },
+    {
+      "id": "N2",
+      "label": "Step 2",
+      "customData": {
+        "node_id": "B",
+        "node_step_index": 1,
+        "content": "Imaging studies demonstrated a 6 \u00d7 4.5 \u00d7 3.4 cm primary lung squamous cell carcinoma.",
+        "clinical_data": {
+          "imaging": [
+            {
+              "type": "Primary Lung Squamous Cell Carcinoma",
+              "body_part": "Lung",
+              "modality": "imaging studies",
+              "finding": "6 \u00d7 4.5 \u00d7 3.4 cm"
+            }
+          ],
+          "diagnoses": [
+            {
+              "code": "C0007123",
+              "label": "Squamous cell carcinoma of lung",
+              "status": "active"
+            }
+          ]
+        }
+      }
+    },
+    {
+      "id": "N3",
+      "label": "Step 3",
+      "customData": {
+        "node_id": "C",
+        "node_step_index": 2,
+        "content": "Patient underwent 6 months of chemotherapy and radiation therapy.",
+        "clinical_data": {
+          "procedures": [
+            {
+              "name": "Chemotherapy",
+              "date": null
+            },
+            {
+              "name": "Radiation therapy",
+              "date": null
+            }
+          ]
+        }
+      }
+    },
+    {
+      "id": "N4",
+      "label": "Step 4",
+      "customData": {
+        "node_id": "D",
+        "node_step_index": 3,
+        "content": "Imaging studies showed progression of disease with mediastinal and anterior chest wall involvement.",
+        "clinical_data": {
+          "imaging": [
+            {
+              "type": "Imaging study",
+              "body_part": "Mediastinum",
+              "finding": "Progression of disease",
+              "date": null
+            },
+            {
+              "type": "Imaging study",
+              "body_part": "Anterior chest wall",
+              "finding": "Involvement",
+              "date": null
+            }
+          ]
+        }
+      }
+    },
+    {
+      "id": "N5",
+      "label": "Step 5",
+      "customData": {
+        "node_id": "E",
+        "node_step_index": 4,
+        "content": "Patient underwent open left upper lobectomy with en bloc first rib and partial sternal resection through a trapdoor incision.",
+        "clinical_data": {
+          "procedures": [
+            {
+              "name": "Lobectomy",
+              "approach": "open",
+              "location": "left upper lobe",
+              "performed_by": "unknown",
+              "outcome": "unknown"
+            },
+            {
+              "name": "Resection",
+              "approach": "open",
+              "location": "first rib",
+              "performed_by": "unknown",
+              "outcome": "unknown"
+            },
+            {
+              "name": "Resection",
+              "approach": "open",
+              "location": "sternum",
+              "performed_by": "unknown",
+              "outcome": "unknown"
+            }
+          ]
+        }
+      }
+    },
+    {
+      "id": "N6",
+      "label": "Step 6",
+      "customData": {
+        "node_id": "F",
+        "node_step_index": 5,
+        "content": "Patient discharged on postoperative day 8.",
+        "clinical_data": {}
+      }
+    },
+    {
+      "id": "N7",
+      "label": "Step 7",
+      "customData": {
+        "node_id": "G",
+        "node_step_index": 6,
+        "content": "Patient returned 1 week later with chest wound dehiscence and cultures grew coagulase-positive Staphylococcus aureus.",
+        "clinical_data": {
+          "diagnoses": [
+            {
+              "code": "C0035370",
+              "label": "Staphylococcus aureus",
+              "status": "active"
+            },
+            {
+              "code": "C0428224",
+              "label": "Dehiscence",
+              "status": "active"
+            }
+          ],
+          "HPI": [
+            {
+              "summary": "Chest wound dehiscence",
+              "duration": "1 week",
+              "onset": "1 week later",
+              "progression": "sudden",
+              "associated_symptoms": [
+                "C0035370"
+              ]
+            }
+          ]
+        }
+      }
+    },
+    {
+      "id": "N8",
+      "label": "Step 8",
+      "customData": {
+        "node_id": "H",
+        "node_step_index": 7,
+        "content": "Treatment involved intravenous antibiotics and multiple surgical debridements followed by reconstruction of the chest wall defect with two rotational muscle flaps and a skin graft.",
+        "clinical_data": {
+          "medications": [
+            {
+              "drug": "antibiotics",
+              "modality": "IV"
+            }
+          ],
+          "procedures": [
+            {
+              "name": "surgical debridements",
+              "approach": "open",
+              "location": "chest wall"
+            },
+            {
+              "name": "reconstruction of the chest wall defect",
+              "approach": "open",
+              "location": "chest wall"
+            },
+            {
+              "name": "rotational muscle flaps",
+              "approach": "open",
+              "location": "chest wall"
+            },
+            {
+              "name": "skin graft",
+              "approach": "open",
+              "location": "chest wall"
+            }
+          ]
+        }
+      }
+    },
+    {
+      "id": "N9",
+      "label": "Step 9",
+      "customData": {
+        "node_id": "I",
+        "node_step_index": 8,
+        "content": "Three months later, she had intermittent bleeding from an unhealed portion of the wound.",
+        "clinical_data": {
+          "HPI": [
+            {
+              "summary": "Intermittent bleeding from an unhealed portion of the wound",
+              "duration": "3 months",
+              "onset": "3 months prior",
+              "progression": "intermittent",
+              "associated_symptoms": [
+                "Bleeding"
+              ]
+            }
+          ]
+        }
+      }
+    },
+    {
+      "id": "N10",
+      "label": "Step 10",
+      "customData": {
+        "node_id": "J",
+        "node_step_index": 9,
+        "content": "CTA of the thorax showed a pseudoaneurysm with a small focus of contrast material extravasation from the proximal innominate artery. The aneurysm was assumed to be mycotic, given the patient's history of wound infection.",
+        "clinical_data": {
+          "imaging": [
+            {
+              "type": "Computed tomography angiography",
+              "body_part": "Thorax",
+              "modality": "CT",
+              "finding": "Pseudoaneurysm with a small focus of contrast material extravasation from the proximal innominate artery",
+              "impression": "Aneurysm assumed to be mycotic",
+              "date": null
+            }
+          ],
+          "diagnoses": [
+            {
+              "code": null,
+              "label": "Mycotic aneurysm",
+              "status": "suspected",
+              "onset_date": null
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "edges": [
+    {
+      "from": "N1",
+      "to": "N2",
+      "data": {
+        "edge_id": "A_to_B",
+        "branch_flag": true,
+        "content": "Initial evaluation leads to further imaging and diagnosis of lung cancer.",
+        "transition_event": {
+          "trigger_type": "interpretation",
+          "trigger_entities": [
+            "C44.112"
+          ],
+          "change_type": "progression",
+          "target_domain": "diagnosis"
+        }
+      }
+    },
+    {
+      "from": "N2",
+      "to": "N3",
+      "data": {
+        "edge_id": "B_to_C",
+        "branch_flag": true,
+        "content": "Treatment initiated for lung cancer.",
+        "transition_event": {
+          "trigger_type": "procedure",
+          "trigger_entities": [
+            "C0007123"
+          ],
+          "change_type": "addition",
+          "target_domain": "procedure"
+        }
+      }
+    },
+    {
+      "from": "N3",
+      "to": "N4",
+      "data": {
+        "edge_id": "C_to_D",
+        "branch_flag": true,
+        "content": "Cancer progresses despite initial treatment.",
+        "transition_event": {
+          "trigger_type": "interpretation",
+          "trigger_entities": [
+            "C0007123"
+          ],
+          "change_type": "progression",
+          "target_domain": "imaging"
+        }
+      }
+    },
+    {
+      "from": "N4",
+      "to": "N5",
+      "data": {
+        "edge_id": "D_to_E",
+        "branch_flag": true,
+        "content": "Patient undergoes surgical resection due to disease progression.",
+        "transition_event": {
+          "trigger_type": "procedure",
+          "trigger_entities": [
+            "C0007123"
+          ],
+          "change_type": "addition",
+          "target_domain": "procedure"
+        }
+      }
+    },
+    {
+      "from": "N5",
+      "to": "N6",
+      "data": {
+        "edge_id": "E_to_F",
+        "branch_flag": true,
+        "content": "Patient discharged post-operatively."
+      }
+    },
+    {
+      "from": "N6",
+      "to": "N7",
+      "data": {
+        "edge_id": "F_to_G",
+        "branch_flag": true,
+        "content": "Post-operative complications arise, including wound dehiscence and infection.",
+        "transition_event": {
+          "trigger_type": "symptom_onset",
+          "trigger_entities": [
+            "C0428224",
+            "C0035370"
+          ],
+          "change_type": "addition",
+          "target_domain": "diagnosis"
+        }
+      }
+    },
+    {
+      "from": "N7",
+      "to": "N8",
+      "data": {
+        "edge_id": "G_to_H",
+        "branch_flag": true,
+        "content": "Treatment for wound complications initiated.",
+        "transition_event": {
+          "trigger_type": "procedure",
+          "trigger_entities": [
+            "C0428224",
+            "C0035370"
+          ],
+          "change_type": "addition",
+          "target_domain": "procedure"
+        }
+      }
+    },
+    {
+      "from": "N8",
+      "to": "N9",
+      "data": {
+        "edge_id": "H_to_I",
+        "branch_flag": true,
+        "content": "Continued wound complications.",
+        "transition_event": {
+          "trigger_type": "symptom_onset",
+          "trigger_entities": [
+            "Bleeding"
+          ],
+          "change_type": "progression",
+          "target_domain": "symptom"
+        }
+      }
+    },
+    {
+      "from": "N9",
+      "to": "N10",
+      "data": {
+        "edge_id": "I_to_J",
+        "branch_flag": true,
+        "content": "Imaging reveals pseudoaneurysm, likely mycotic in origin.",
+        "transition_event": {
+          "trigger_type": "interpretation",
+          "trigger_entities": [
+            "Bleeding"
+          ],
+          "change_type": "progression",
+          "target_domain": "imaging"
+        }
+      }
+    }
+  ]
+}

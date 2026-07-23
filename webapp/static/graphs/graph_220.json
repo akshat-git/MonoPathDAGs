@@ -1,0 +1,329 @@
+{
+  "nodes": [
+    {
+      "id": "N1",
+      "label": "Step 1",
+      "customData": {
+        "node_id": "A",
+        "node_step_index": 0,
+        "content": "Patient can present with abdominal pain, weight loss, nausea, and overt bleeding. Weight loss stems from early satiety, inadequate calorie intake and heightened catabolism, with nausea and abdominal pain complicating food intake.",
+        "clinical_data": {
+          "HPI": [
+            {
+              "summary": "Patient presents with abdominal pain, weight loss, nausea, and overt bleeding.",
+              "associated_symptoms": [
+                "C0000729",
+                "C0030193",
+                "C0027497",
+                "C0002871"
+              ]
+            }
+          ]
+        }
+      }
+    },
+    {
+      "id": "N2",
+      "label": "Step 2",
+      "customData": {
+        "node_id": "B",
+        "node_step_index": 1,
+        "content": "GI metastasis from other cancers may result in dysphagia when the oesophagus is involved, alongside symptoms of nausea, vomiting, bloating, and abdominal pain. Metastasis may be seen as nodules or ulcers during endoscopy.",
+        "clinical_data": {
+          "HPI": [
+            {
+              "associated_symptoms": [
+                "Dysphagia",
+                "Nausea",
+                "Vomiting",
+                "Bloating",
+                "Abdominal pain"
+              ]
+            }
+          ],
+          "diagnoses": [
+            {
+              "code": "C0027051",
+              "label": "Metastasis",
+              "status": "active"
+            }
+          ],
+          "procedures": [
+            {
+              "name": "Endoscopy",
+              "location": "Esophagus",
+              "finding": "Nodules or ulcers"
+            }
+          ]
+        }
+      }
+    },
+    {
+      "id": "N3",
+      "label": "Step 3",
+      "customData": {
+        "node_id": "C",
+        "node_step_index": 2,
+        "content": "72-year-old male with Renal clear cell carcinoma presented with Gastric body, Upper GI bleeding and melaena.",
+        "clinical_data": {
+          "diagnoses": [
+            {
+              "code": "C64.1",
+              "label": "Renal cell carcinoma, clear cell type",
+              "status": "active"
+            },
+            {
+              "code": "K92.2",
+              "label": "Gastrointestinal hemorrhage, unspecified",
+              "status": "active"
+            },
+            {
+              "code": "R19.5",
+              "label": "Other stool abnormalities",
+              "status": "active"
+            }
+          ]
+        }
+      }
+    },
+    {
+      "id": "N4",
+      "label": "Step 4",
+      "customData": {
+        "node_id": "D",
+        "node_step_index": 3,
+        "content": "72-year-old male with Renal clear cell carcinoma presented with Gastric body, Abdominal pain and later a fatal upper GI bleeding event.",
+        "clinical_data": {
+          "diagnoses": [
+            {
+              "code": "C64.1",
+              "label": "Renal cell carcinoma, clear cell type",
+              "status": "active"
+            }
+          ],
+          "HPI": [
+            {
+              "summary": "72-year-old male presented with Gastric body, Abdominal pain and later a fatal upper GI bleeding event.",
+              "associated_symptoms": [
+                "Abdominal pain",
+                "Upper gastrointestinal hemorrhage"
+              ]
+            }
+          ]
+        }
+      }
+    },
+    {
+      "id": "N5",
+      "label": "Step 5",
+      "customData": {
+        "node_id": "E",
+        "node_step_index": 4,
+        "content": "69-year-old male with Renal clear cell carcinoma presented with Duodenum, Haematemesis.",
+        "clinical_data": {
+          "diagnoses": [
+            {
+              "code": "C16.4",
+              "label": "Malignant neoplasm of pylorus",
+              "status": "active"
+            },
+            {
+              "code": "C64.9",
+              "label": "Malignant neoplasm of kidney, unspecified",
+              "status": "active"
+            },
+            {
+              "code": "R58",
+              "label": "Haematemesis",
+              "status": "active"
+            }
+          ]
+        }
+      }
+    },
+    {
+      "id": "N6",
+      "label": "Step 6",
+      "customData": {
+        "node_id": "F",
+        "node_step_index": 5,
+        "content": "76-year-old male with Prostate cancer presented with Duodenum, Upper GI bleeding and melaena.",
+        "clinical_data": {
+          "diagnoses": [
+            {
+              "code": "C61",
+              "label": "Prostate cancer",
+              "status": "active"
+            }
+          ],
+          "HPI": [
+            {
+              "summary": "Patient presented with Duodenum, Upper GI bleeding and melaena."
+            }
+          ]
+        }
+      }
+    },
+    {
+      "id": "N7",
+      "label": "Step 7",
+      "customData": {
+        "node_id": "G",
+        "node_step_index": 6,
+        "content": "63-year-old male with Melanoma presented with Duodenum, Upper GI bleeding and melaena.",
+        "clinical_data": {
+          "diagnoses": [
+            {
+              "code": "C43",
+              "label": "Melanoma",
+              "status": "active"
+            }
+          ],
+          "HPI": [
+            {
+              "summary": "Patient presented with Duodenum, Upper GI bleeding and melaena.",
+              "associated_symptoms": [
+                "Upper gastrointestinal hemorrhage",
+                "Melena"
+              ]
+            }
+          ]
+        }
+      }
+    },
+    {
+      "id": "N8",
+      "label": "Step 8",
+      "customData": {
+        "node_id": "H",
+        "node_step_index": 7,
+        "content": "76-year-old male with Non-small cell lung cancer presented with Jejunum, Acute peritonitis due to bowel perforation.",
+        "clinical_data": {
+          "diagnoses": [
+            {
+              "code": "C34",
+              "label": "Non-small cell lung cancer",
+              "status": "active"
+            },
+            {
+              "code": "K57.9",
+              "label": "Jejunum",
+              "status": "active"
+            },
+            {
+              "code": "K65.0",
+              "label": "Acute peritonitis",
+              "status": "active"
+            },
+            {
+              "code": "K56.3",
+              "label": "bowel perforation",
+              "status": "active"
+            }
+          ]
+        }
+      }
+    },
+    {
+      "id": "N9",
+      "label": "Step 9",
+      "customData": {
+        "node_id": "I",
+        "node_step_index": 8,
+        "content": "48-year-old male with Renal cell carcinoma presented with Omentum, Upper GI bleeding and melaena.",
+        "clinical_data": {
+          "diagnoses": [
+            {
+              "code": "C64",
+              "label": "Renal cell carcinoma",
+              "status": "active"
+            }
+          ],
+          "HPI": [
+            {
+              "summary": "Patient presented with Omentum, Upper GI bleeding and melaena.",
+              "associated_symptoms": [
+                "Upper GI bleeding",
+                "melaena"
+              ]
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "edges": [
+    {
+      "from": "N1",
+      "to": "N2",
+      "data": {
+        "edge_id": "A_to_B",
+        "branch_flag": true,
+        "content": "Progression of symptoms and potential for GI metastasis."
+      }
+    },
+    {
+      "from": "N2",
+      "to": "N3",
+      "data": {
+        "edge_id": "B_to_C",
+        "branch_flag": true,
+        "content": "Patient with Renal clear cell carcinoma presenting with Upper GI bleeding and melaena."
+      }
+    },
+    {
+      "from": "N3",
+      "to": "N4",
+      "data": {
+        "edge_id": "C_to_D",
+        "branch_flag": true,
+        "content": "Patient with Renal clear cell carcinoma presenting with Abdominal pain and later a fatal upper GI bleeding event."
+      }
+    },
+    {
+      "from": "N4",
+      "to": "N5",
+      "data": {
+        "edge_id": "D_to_E",
+        "branch_flag": true,
+        "content": "Patient with Renal clear cell carcinoma presenting with Haematemesis."
+      }
+    },
+    {
+      "from": "N5",
+      "to": "N6",
+      "data": {
+        "edge_id": "E_to_F",
+        "branch_flag": true,
+        "content": "Patient with Prostate cancer presenting with Upper GI bleeding and melaena."
+      }
+    },
+    {
+      "from": "N6",
+      "to": "N7",
+      "data": {
+        "edge_id": "F_to_G",
+        "branch_flag": true,
+        "content": "Patient with Melanoma presenting with Upper GI bleeding and melaena."
+      }
+    },
+    {
+      "from": "N7",
+      "to": "N8",
+      "data": {
+        "edge_id": "G_to_H",
+        "branch_flag": true,
+        "content": "Patient with Non-small cell lung cancer presenting with Acute peritonitis due to bowel perforation."
+      }
+    },
+    {
+      "from": "N8",
+      "to": "N9",
+      "data": {
+        "edge_id": "H_to_I",
+        "branch_flag": true,
+        "content": "Patient with Renal cell carcinoma presenting with Upper GI bleeding and melaena."
+      }
+    }
+  ]
+}

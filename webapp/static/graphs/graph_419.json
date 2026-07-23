@@ -1,0 +1,472 @@
+{
+  "nodes": [
+    {
+      "id": "N1",
+      "label": "Step 1",
+      "customData": {
+        "node_id": "A",
+        "node_step_index": 0,
+        "content": "67-year-old woman presented to the Pulmonary Disease Department on September 16, 2020, with cough and phlegm, which started 5 days prior to admission. Patient experienced limb weakness after arrival.",
+        "clinical_data": {
+          "HPI": [
+            {
+              "summary": "67-year-old woman presented with cough and phlegm, which started 5 days prior to admission. Patient experienced limb weakness after arrival.",
+              "onset": "5 days prior to admission",
+              "associated_symptoms": [
+                "cough",
+                "phlegm",
+                "limb weakness"
+              ]
+            }
+          ]
+        }
+      }
+    },
+    {
+      "id": "N2",
+      "label": "Step 2",
+      "customData": {
+        "node_id": "B",
+        "node_step_index": 1,
+        "content": "Patient experienced chest pain, difficulty breathing, frequent coughing and phlegm accumulation before admission. Initial vital signs: blood pressure, 112/80 mmHg; pulse rate, 125 beats per min; breathing rate, 60 breaths per min; and body temperature 38.1 \u00b0C. Patient has flushed cheeks, turbulent nostrils, and rapid breathing.",
+        "clinical_data": {
+          "HPI": [
+            {
+              "summary": "Patient experienced chest pain, difficulty breathing, frequent coughing and phlegm accumulation before admission.",
+              "associated_symptoms": [
+                "C0008031",
+                "C0013404",
+                "C0010200",
+                "C0031289"
+              ]
+            }
+          ],
+          "vitals": [
+            {
+              "type": "C0005766",
+              "value": "112/80",
+              "unit": "mmHg"
+            },
+            {
+              "type": "C0033644",
+              "value": "125",
+              "unit": "beats per min"
+            },
+            {
+              "type": "C0010942",
+              "value": "60",
+              "unit": "breaths per min"
+            },
+            {
+              "type": "C0006141",
+              "value": "38.1",
+              "unit": "\u00b0C"
+            }
+          ],
+          "diagnoses": [
+            {
+              "code": "C0008031",
+              "label": "Chest Pain",
+              "status": "active"
+            },
+            {
+              "code": "C0013404",
+              "label": "Dyspnea",
+              "status": "active"
+            },
+            {
+              "code": "C0010200",
+              "label": "Cough",
+              "status": "active"
+            },
+            {
+              "code": "C0031289",
+              "label": "Phlegm",
+              "status": "active"
+            }
+          ]
+        }
+      }
+    },
+    {
+      "id": "N3",
+      "label": "Step 3",
+      "customData": {
+        "node_id": "C",
+        "node_step_index": 2,
+        "content": "Immunohistochemical analysis of patient tissues showed thyroid transcription factor-1 (TTF-1), Napsin A, cytokeratin 5/6, P40, and AE1AE3, leading to a preliminary determination of lung adenocarcinoma.",
+        "timestamp": "2020",
+        "clinical_data": {
+          "imaging": [
+            {
+              "type": "Immunohistochemical analysis",
+              "body_part": "patient tissues",
+              "modality": "other",
+              "finding": "thyroid transcription factor-1 (TTF-1), Napsin A, cytokeratin 5/6, P40, and AE1AE3",
+              "impression": "lung adenocarcinoma"
+            }
+          ],
+          "diagnoses": [
+            {
+              "code": "C0294472",
+              "label": "Adenocarcinoma of Lung",
+              "status": "suspected"
+            }
+          ]
+        }
+      }
+    },
+    {
+      "id": "N4",
+      "label": "Step 4",
+      "customData": {
+        "node_id": "D",
+        "node_step_index": 3,
+        "content": "Chest CT plain scan on September 17, 2020, revealed bronchial lesions with infectious lesions in both lungs, especially in the upper lobe of the right lung. A larger shadow was observed in the right lung hilum, along with enlarged lymph nodes in the mediastinum and pleural effusion on the right side.",
+        "timestamp": "2020-09-17",
+        "clinical_data": {
+          "imaging": [
+            {
+              "type": "CT of chest",
+              "body_part": "Lung",
+              "modality": "CT",
+              "finding": "bronchial lesions with infectious lesions in both lungs, especially in the upper lobe of the right lung. A larger shadow was observed in the right lung hilum, along with enlarged lymph nodes in the mediastinum and pleural effusion on the right side.",
+              "impression": "bronchial lesions with infectious lesions in both lungs, especially in the upper lobe of the right lung. A larger shadow was observed in the right lung hilum, along with enlarged lymph nodes in the mediastinum and pleural effusion on the right side.",
+              "date": "2020-09-17"
+            }
+          ]
+        }
+      }
+    },
+    {
+      "id": "N5",
+      "label": "Step 5",
+      "customData": {
+        "node_id": "E",
+        "node_step_index": 4,
+        "content": "Complete chest CT enhancement on September 17, 2020, showed a right lung hilum mass, right lung obstructive pneumonia, enlarged lymph nodes in the hilum and mediastinum, and right pleural effusion.",
+        "timestamp": "2020-09-17",
+        "clinical_data": {
+          "imaging": [
+            {
+              "type": "Mass of right lung hilum (finding)",
+              "body_part": "Right lung hilum",
+              "modality": "CT",
+              "finding": "Mass",
+              "impression": "Mass of right lung hilum, right lung obstructive pneumonia, enlarged lymph nodes in the hilum and mediastinum, and right pleural effusion",
+              "date": "2020-09-17"
+            },
+            {
+              "type": "Obstructive pneumonia (finding)",
+              "body_part": "Right lung",
+              "modality": "CT",
+              "finding": "Obstructive pneumonia",
+              "impression": "Mass of right lung hilum, right lung obstructive pneumonia, enlarged lymph nodes in the hilum and mediastinum, and right pleural effusion",
+              "date": "2020-09-17"
+            },
+            {
+              "type": "Enlarged lymph nodes (finding)",
+              "body_part": "Hilum and mediastinum",
+              "modality": "CT",
+              "finding": "Enlarged lymph nodes",
+              "impression": "Mass of right lung hilum, right lung obstructive pneumonia, enlarged lymph nodes in the hilum and mediastinum, and right pleural effusion",
+              "date": "2020-09-17"
+            },
+            {
+              "type": "Pleural effusion (finding)",
+              "body_part": "Right pleura",
+              "modality": "CT",
+              "finding": "Pleural effusion",
+              "impression": "Mass of right lung hilum, right lung obstructive pneumonia, enlarged lymph nodes in the hilum and mediastinum, and right pleural effusion",
+              "date": "2020-09-17"
+            }
+          ]
+        }
+      }
+    },
+    {
+      "id": "N6",
+      "label": "Step 6",
+      "customData": {
+        "node_id": "F",
+        "node_step_index": 5,
+        "content": "Bronchoscopy performed on September 17, 2020.",
+        "timestamp": "2020-09-17",
+        "clinical_data": {
+          "procedures": [
+            {
+              "name": "Bronchoscopy",
+              "date": "2020-09-17"
+            }
+          ]
+        }
+      }
+    },
+    {
+      "id": "N7",
+      "label": "Step 7",
+      "customData": {
+        "node_id": "G",
+        "node_step_index": 6,
+        "content": "Histopathological examination (Z202004957) on September 17, 2020, showed poorly differentiated carcinoma (right upper lobe bronchoscopy biopsy).",
+        "timestamp": "2020-09-17",
+        "clinical_data": {
+          "imaging": [
+            {
+              "date": "2020-09-17",
+              "type": "bronchoscopy",
+              "body_part": "right upper lobe",
+              "modality": "other",
+              "finding": "poorly differentiated carcinoma"
+            }
+          ],
+          "procedures": [
+            {
+              "name": "Bronchoscopy",
+              "date": "2020-09-17",
+              "location": "right upper lobe",
+              "outcome": "poorly differentiated carcinoma"
+            }
+          ]
+        }
+      }
+    },
+    {
+      "id": "N8",
+      "label": "Step 8",
+      "customData": {
+        "node_id": "H",
+        "node_step_index": 7,
+        "content": "Genetic testing (FZ20200424) showed EGFR exon 19-del mutation.",
+        "timestamp": "2020",
+        "clinical_data": {
+          "labs": [
+            {
+              "test": "Genetic testing",
+              "value": "EGFR exon 19-del mutation",
+              "timestamp": "2020-04-24"
+            }
+          ]
+        }
+      }
+    },
+    {
+      "id": "N9",
+      "label": "Step 9",
+      "customData": {
+        "node_id": "J",
+        "node_step_index": 9,
+        "content": "Patient was diagnosed with advanced lung adenocarcinoma with EGFR exon 19-del mutation.",
+        "clinical_data": {
+          "diagnoses": [
+            {
+              "code": "C0678222",
+              "label": "Adenocarcinoma of lung",
+              "status": "active"
+            }
+          ]
+        }
+      }
+    },
+    {
+      "id": "N10",
+      "label": "Step 10",
+      "customData": {
+        "node_id": "K",
+        "node_step_index": 10,
+        "content": "Patient was administered targeted therapy with gefitinib (Yiruisha) 250 mg/d on September 25, 2020, resulting in progression-free survival (PFS) of 16 months.",
+        "timestamp": "2020-09-25",
+        "clinical_data": {
+          "medications": [
+            {
+              "drug": "C1621281",
+              "dosage": "250 mg/d",
+              "frequency": "daily",
+              "modality": "oral",
+              "start_date": "2020-09-25",
+              "end_date": null,
+              "indication": "progression-free survival"
+            }
+          ]
+        }
+      }
+    },
+    {
+      "id": "N11",
+      "label": "Step 11",
+      "customData": {
+        "node_id": "L",
+        "node_step_index": 11,
+        "content": "Follow-up CT scan of the chest and abdomen in December 2021 revealed enhanced pleural effusion on the right side. Bone signals in the right femoral head and left acetabulum suggested tumor metastasis. Peripheral blood gene testing showed no mutation in EGFR 20 exon T790M.",
+        "timestamp": "2021-12",
+        "clinical_data": {
+          "imaging": [
+            {
+              "type": "CT scan",
+              "body_part": "chest and abdomen",
+              "modality": "CT",
+              "finding": "enhanced pleural effusion on the right side",
+              "date": "2021-12"
+            },
+            {
+              "type": "CT scan",
+              "body_part": "chest and abdomen",
+              "modality": "CT",
+              "finding": "Bone signals in the right femoral head and left acetabulum suggested tumor metastasis",
+              "date": "2021-12"
+            }
+          ],
+          "labs": [
+            {
+              "test": "Peripheral blood gene testing",
+              "value": "no mutation in EGFR 20 exon T790M",
+              "timestamp": "2021-12"
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "edges": [
+    {
+      "from": "N1",
+      "to": "N2",
+      "data": {
+        "edge_id": "A_to_B",
+        "branch_flag": true,
+        "content": "Patient's condition worsened with chest pain, difficulty breathing, frequent coughing, and phlegm accumulation. Vital signs deteriorated, showing elevated pulse and breathing rates, and a fever.",
+        "transition_event": {
+          "trigger_type": "symptom_onset",
+          "trigger_entities": [
+            "C0008031",
+            "C0013404",
+            "C0010200",
+            "C0031289"
+          ],
+          "change_type": "progression",
+          "target_domain": "symptom"
+        }
+      }
+    },
+    {
+      "from": "N2",
+      "to": "N3",
+      "data": {
+        "edge_id": "B_to_C",
+        "branch_flag": true,
+        "content": "Immunohistochemical analysis was performed on patient tissues.",
+        "transition_event": {
+          "trigger_type": "procedure",
+          "trigger_entities": [],
+          "change_type": "addition",
+          "target_domain": "procedure"
+        }
+      }
+    },
+    {
+      "from": "N3",
+      "to": "N4",
+      "data": {
+        "edge_id": "C_to_D",
+        "branch_flag": true,
+        "content": "Chest CT plain scan was performed.",
+        "transition_event": {
+          "trigger_type": "procedure",
+          "trigger_entities": [],
+          "change_type": "addition",
+          "target_domain": "imaging",
+          "timestamp": "2020-09-17T00:00:00Z"
+        }
+      }
+    },
+    {
+      "from": "N4",
+      "to": "N5",
+      "data": {
+        "edge_id": "D_to_E",
+        "branch_flag": true,
+        "content": "Complete chest CT enhancement was performed.",
+        "transition_event": {
+          "trigger_type": "procedure",
+          "trigger_entities": [],
+          "change_type": "addition",
+          "target_domain": "imaging",
+          "timestamp": "2020-09-17T00:00:00Z"
+        }
+      }
+    },
+    {
+      "from": "N5",
+      "to": "N6",
+      "data": {
+        "edge_id": "E_to_F",
+        "branch_flag": true,
+        "content": "Bronchoscopy was performed.",
+        "transition_event": {
+          "trigger_type": "procedure",
+          "trigger_entities": [],
+          "change_type": "addition",
+          "target_domain": "procedure",
+          "timestamp": "2020-09-17T00:00:00Z"
+        }
+      }
+    },
+    {
+      "from": "N6",
+      "to": "N7",
+      "data": {
+        "edge_id": "F_to_G",
+        "branch_flag": true,
+        "content": "Histopathological examination was performed.",
+        "transition_event": {
+          "trigger_type": "procedure",
+          "trigger_entities": [],
+          "change_type": "addition",
+          "target_domain": "procedure",
+          "timestamp": "2020-09-17T00:00:00Z"
+        }
+      }
+    },
+    {
+      "from": "N7",
+      "to": "N8",
+      "data": {
+        "edge_id": "G_to_H",
+        "branch_flag": true,
+        "content": "Genetic testing was performed.",
+        "transition_event": {
+          "trigger_type": "procedure",
+          "trigger_entities": [],
+          "change_type": "addition",
+          "target_domain": "lab"
+        }
+      }
+    },
+    {
+      "from": "N8",
+      "to": "N9",
+      "data": {
+        "edge_id": "H_to_J",
+        "branch_flag": true,
+        "content": "Diagnosis of advanced lung adenocarcinoma with EGFR exon 19-del mutation was made.",
+        "transition_event": {
+          "trigger_type": "interpretation",
+          "trigger_entities": [
+            "C0678222"
+          ],
+          "change_type": "addition",
+          "target_domain": "diagnosis"
+        }
+      }
+    },
+    {
+      "from": "N9",
+      "to": "N10",
+      "data": {
+        "edge_id": "J_to_K",
+        "branch_flag": true,
+        "content": "Targeted therapy with gefitinib was initiated."
+      }
+    }
+  ]
+}

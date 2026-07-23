@@ -1,0 +1,377 @@
+{
+  "nodes": [
+    {
+      "id": "N1",
+      "label": "Step 1",
+      "customData": {
+        "node_id": "A",
+        "node_step_index": 0,
+        "content": "72-year-old man receiving alectinib for ALK-positive NSCLC.",
+        "clinical_data": {
+          "medications": [
+            {
+              "drug": "C1697594",
+              "dosage": null,
+              "frequency": null,
+              "modality": null,
+              "start_date": null,
+              "end_date": null,
+              "indication": "C4025435"
+            }
+          ],
+          "diagnoses": [
+            {
+              "code": "C4025435",
+              "label": "ALK-positive Non-Small Cell Lung Carcinoma",
+              "status": "active",
+              "onset_date": null
+            }
+          ]
+        }
+      }
+    },
+    {
+      "id": "N2",
+      "label": "Step 2",
+      "customData": {
+        "node_id": "B",
+        "node_step_index": 1,
+        "content": "Computed tomography showed ground-glass opacity in the lungs, leading to suspicion of drug-induced lung injury from alectinib. Alectinib was discontinued, and steroids were initiated.",
+        "clinical_data": {
+          "imaging": [
+            {
+              "type": "Computed tomography",
+              "body_part": "lungs",
+              "modality": "CT",
+              "finding": "ground-glass opacity",
+              "impression": "suspicion of drug-induced lung injury from alectinib"
+            }
+          ],
+          "medications": [
+            {
+              "drug": "alectinib",
+              "end_date": null
+            },
+            {
+              "drug": "steroids",
+              "modality": "oral"
+            }
+          ],
+          "diagnoses": [
+            {
+              "code": "422586000",
+              "label": "Drug-induced lung disease",
+              "status": "suspected"
+            }
+          ]
+        }
+      }
+    },
+    {
+      "id": "N3",
+      "label": "Step 3",
+      "customData": {
+        "node_id": "C",
+        "node_step_index": 2,
+        "content": "Lung injury showed improvement, and alectinib was switched to lorlatinib 100 mg/d. Renal and liver function were normal at the time of switching.",
+        "clinical_data": {
+          "medications": [
+            {
+              "drug": "C1608658",
+              "dosage": "100 mg/d",
+              "frequency": null,
+              "modality": "oral",
+              "start_date": null,
+              "end_date": null,
+              "indication": null
+            }
+          ],
+          "labs": [
+            {
+              "test": "C0022675",
+              "value": "normal",
+              "unit": null,
+              "flag": "normal",
+              "reference_range": null,
+              "timestamp": null
+            },
+            {
+              "test": "C0023820",
+              "value": "normal",
+              "unit": null,
+              "flag": "normal",
+              "reference_range": null,
+              "timestamp": null
+            }
+          ],
+          "diagnoses": [
+            {
+              "code": null,
+              "label": "Lung injury",
+              "status": "resolved",
+              "onset_date": null
+            }
+          ]
+        }
+      }
+    },
+    {
+      "id": "N4",
+      "label": "Step 4",
+      "customData": {
+        "node_id": "D",
+        "node_step_index": 3,
+        "content": "Patient experienced auditory hallucinations 4 days after lorlatinib initiation, followed by visual hallucinations 3 days later. Diagnosed with grade 2-3 CNS disorder. Concomitant medications: vonoprazan fumarate (10 mg/d), calcium carbonate/cholecalciferol/magnesium carbonate mixture (2 tablets/d), rosuvastatin calcium (2.5 mg/d), aspirin (100 mg/d), trimethoprim/sulfamethoxazole mixture (1 tablets/d), magnesium oxide (990 mg/d), prednisolone (10 mg/d), and torasemide (4 mg/d).",
+        "clinical_data": {
+          "HPI": [
+            {
+              "summary": "Patient experienced auditory hallucinations 4 days after lorlatinib initiation, followed by visual hallucinations 3 days later.",
+              "onset": "4 days after lorlatinib initiation",
+              "progression": "sudden",
+              "associated_symptoms": [
+                "Auditory hallucinations",
+                "Visual hallucinations"
+              ]
+            }
+          ],
+          "medications": [
+            {
+              "drug": "vonoprazan fumarate",
+              "dosage": "10 mg/d",
+              "frequency": "daily"
+            },
+            {
+              "drug": "calcium carbonate/cholecalciferol/magnesium carbonate mixture",
+              "dosage": "2 tablets/d",
+              "frequency": "daily"
+            },
+            {
+              "drug": "rosuvastatin calcium",
+              "dosage": "2.5 mg/d",
+              "frequency": "daily"
+            },
+            {
+              "drug": "aspirin",
+              "dosage": "100 mg/d",
+              "frequency": "daily"
+            },
+            {
+              "drug": "trimethoprim/sulfamethoxazole mixture",
+              "dosage": "1 tablets/d",
+              "frequency": "daily"
+            },
+            {
+              "drug": "magnesium oxide",
+              "dosage": "990 mg/d",
+              "frequency": "daily"
+            },
+            {
+              "drug": "prednisolone",
+              "dosage": "10 mg/d",
+              "frequency": "daily"
+            },
+            {
+              "drug": "torasemide",
+              "dosage": "4 mg/d",
+              "frequency": "daily"
+            }
+          ],
+          "diagnoses": [
+            {
+              "code": "SNOMED:271597002",
+              "label": "Central nervous system disorder",
+              "status": "active"
+            }
+          ]
+        }
+      }
+    },
+    {
+      "id": "N5",
+      "label": "Step 5",
+      "customData": {
+        "node_id": "E",
+        "node_step_index": 4,
+        "content": "Lorlatinib was discontinued the day after the onset of visual hallucinations. Visual and auditory hallucinations persisted for a further 3 days before disappearing on day 4 after discontinuation.",
+        "clinical_data": {
+          "medications": [
+            {
+              "drug": "Lorlatinib",
+              "end_date": "the day after the onset of visual hallucinations"
+            }
+          ],
+          "HPI": [
+            {
+              "summary": "Visual and auditory hallucinations persisted for a further 3 days before disappearing on day 4 after discontinuation.",
+              "duration": "3 days",
+              "progression": "fluctuating",
+              "associated_symptoms": [
+                "Visual hallucinations",
+                "Auditory hallucinations"
+              ],
+              "alleviating_factors": [
+                "discontinuation of Lorlatinib"
+              ]
+            }
+          ]
+        }
+      }
+    },
+    {
+      "id": "N6",
+      "label": "Step 6",
+      "customData": {
+        "node_id": "F",
+        "node_step_index": 5,
+        "content": "Lorlatinib was restarted at 50 mg/d on day 5 after discontinuation, and the visual and auditory hallucinations reappeared the following day. Visual hallucinations were less powerful and auditory hallucinations were about half as loud as before.",
+        "clinical_data": {
+          "medications": [
+            {
+              "drug": "C1608955",
+              "dosage": "50 mg/d",
+              "frequency": "daily",
+              "modality": "oral",
+              "start_date": "day 5",
+              "end_date": null
+            }
+          ],
+          "HPI": [
+            {
+              "progression": "sudden",
+              "associated_symptoms": [
+                "C0019271",
+                "C0002953"
+              ],
+              "onset": "the following day"
+            }
+          ]
+        }
+      }
+    },
+    {
+      "id": "N7",
+      "label": "Step 7",
+      "customData": {
+        "node_id": "G",
+        "node_step_index": 6,
+        "content": "The specific visual hallucinations included curtains approaching him up close",
+        "clinical_data": {
+          "HPI": [
+            {
+              "associated_symptoms": [
+                "Visual hallucinations"
+              ],
+              "summary": "Patient experienced visual hallucinations of curtains approaching him up close."
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "edges": [
+    {
+      "from": "N1",
+      "to": "N2",
+      "data": {
+        "edge_id": "A_to_B",
+        "branch_flag": true,
+        "content": "Ground-glass opacity in the lungs detected via CT scan, leading to suspicion of drug-induced lung injury from alectinib. Alectinib was discontinued, and steroids were initiated.",
+        "transition_event": {
+          "trigger_type": "imaging",
+          "trigger_entities": [
+            "C0024112"
+          ],
+          "change_type": "discontinuation",
+          "target_domain": "medication"
+        }
+      }
+    },
+    {
+      "from": "N2",
+      "to": "N3",
+      "data": {
+        "edge_id": "B_to_C",
+        "branch_flag": true,
+        "content": "Lung injury showed improvement. Alectinib was switched to lorlatinib 100 mg/d. Renal and liver function were normal at the time of switching.",
+        "transition_event": {
+          "trigger_type": "medication_change",
+          "trigger_entities": [
+            "C1697594",
+            "C1608658"
+          ],
+          "change_type": "addition",
+          "target_domain": "medication"
+        }
+      }
+    },
+    {
+      "from": "N3",
+      "to": "N4",
+      "data": {
+        "edge_id": "C_to_D",
+        "branch_flag": true,
+        "content": "Patient experienced auditory hallucinations 4 days after lorlatinib initiation, followed by visual hallucinations 3 days later. Diagnosed with grade 2-3 CNS disorder.",
+        "transition_event": {
+          "trigger_type": "symptom_onset",
+          "trigger_entities": [
+            "C0019271",
+            "C0002953"
+          ],
+          "change_type": "addition",
+          "target_domain": "symptom"
+        }
+      }
+    },
+    {
+      "from": "N4",
+      "to": "N5",
+      "data": {
+        "edge_id": "D_to_E",
+        "branch_flag": true,
+        "content": "Lorlatinib was discontinued the day after the onset of visual hallucinations. Visual and auditory hallucinations persisted for a further 3 days before disappearing on day 4 after discontinuation.",
+        "transition_event": {
+          "trigger_type": "medication_change",
+          "trigger_entities": [
+            "C1608658"
+          ],
+          "change_type": "discontinuation",
+          "target_domain": "medication"
+        }
+      }
+    },
+    {
+      "from": "N5",
+      "to": "N6",
+      "data": {
+        "edge_id": "E_to_F",
+        "branch_flag": true,
+        "content": "Lorlatinib was restarted at 50 mg/d on day 5 after discontinuation, and the visual and auditory hallucinations reappeared the following day. Visual hallucinations were less powerful and auditory hallucinations were about half as loud as before.",
+        "transition_event": {
+          "trigger_type": "medication_change",
+          "trigger_entities": [
+            "C1608658"
+          ],
+          "change_type": "addition",
+          "target_domain": "medication"
+        }
+      }
+    },
+    {
+      "from": "N6",
+      "to": "N7",
+      "data": {
+        "edge_id": "F_to_G",
+        "branch_flag": true,
+        "content": "The specific visual hallucinations included curtains approaching him up close",
+        "transition_event": {
+          "trigger_type": "symptom_onset",
+          "trigger_entities": [
+            "C0042663"
+          ],
+          "change_type": "other",
+          "target_domain": "symptom"
+        }
+      }
+    }
+  ]
+}

@@ -1,0 +1,299 @@
+{
+  "nodes": [
+    {
+      "id": "N1",
+      "label": "Step 1",
+      "customData": {
+        "node_id": "A",
+        "node_step_index": 0,
+        "content": "65-year-old woman with a history of palmoplantar pustulosis presented with a breast mass and a chest mass.",
+        "clinical_data": {
+          "diagnoses": [
+            {
+              "code": "C670823",
+              "label": "Palmoplantar Pustulosis",
+              "status": "historical"
+            },
+            {
+              "code": "C0006141",
+              "label": "Breast Mass",
+              "status": "active"
+            },
+            {
+              "code": "C0241817",
+              "label": "Chest mass",
+              "status": "active"
+            }
+          ]
+        }
+      },
+      "custom_id": "graph_029_N0"
+    },
+    {
+      "id": "N2",
+      "label": "Step 2",
+      "customData": {
+        "node_id": "B",
+        "node_step_index": 1,
+        "content": "Histopathological analysis of biopsy specimens from both the lung mass and the breast mass revealed small cell carcinoma (SCLC) in both lesions. Breast mass determined to be a metastatic lesion from primary SCLC. Comprehensive staging, including contrast-enhanced MRI of the brain and FDG-PET, led to a diagnosis of stage cT2aN3M1c. PET-CT scan revealed multiple bone metastases, peritoneal metastases, and skin metastases in addition to the primary lesion in the right upper lobe and the right breast. Enhanced chest CT examination revealed a primary lesion in the right upper lobe, as well as a heterogeneous mass in the right breast.",
+        "clinical_data": {
+          "diagnoses": [
+            {
+              "code": "C8014",
+              "label": "Small cell carcinoma",
+              "status": "active"
+            },
+            {
+              "code": "C0346851",
+              "label": "Metastatic lesion",
+              "status": "active"
+            },
+            {
+              "code": "C4022922",
+              "label": "Bone metastases",
+              "status": "active"
+            },
+            {
+              "code": "C0031162",
+              "label": "Peritoneal Metastasis",
+              "status": "active"
+            },
+            {
+              "code": "C0037288",
+              "label": "Skin Metastasis",
+              "status": "active"
+            }
+          ],
+          "imaging": [
+            {
+              "type": "C0205078",
+              "body_part": "C0009662",
+              "modality": "MRI",
+              "finding": null,
+              "impression": null
+            },
+            {
+              "type": "C0205078",
+              "body_part": "C0013404",
+              "modality": "PET",
+              "finding": null,
+              "impression": null
+            },
+            {
+              "type": "C0205078",
+              "body_part": "C0008031",
+              "modality": "CT",
+              "finding": null,
+              "impression": null
+            },
+            {
+              "type": "C0205078",
+              "body_part": "C0008031",
+              "modality": "PET",
+              "finding": null,
+              "impression": null
+            },
+            {
+              "type": "C0205078",
+              "body_part": "C0008031",
+              "modality": "CT",
+              "finding": "Heterogeneous mass",
+              "impression": null
+            }
+          ]
+        }
+      },
+      "custom_id": "graph_029_N1"
+    },
+    {
+      "id": "N3",
+      "label": "Step 3",
+      "customData": {
+        "node_id": "C",
+        "node_step_index": 2,
+        "content": "Histological analysis: Hematoxylin and eosin (HE) staining revealed diffuse proliferation of small tumor cells with a high nuclear-to-cytoplasmic (N/C) ratio. Immunohistochemistry: Synaptophysin staining negative, Chromogranin staining negative, INSM1 staining positive.",
+        "clinical_data": {
+          "labs": [
+            {
+              "test": "Synaptophysin staining",
+              "value": "negative"
+            },
+            {
+              "test": "Chromogranin staining",
+              "value": "negative"
+            },
+            {
+              "test": "INSM1 staining",
+              "value": "positive"
+            }
+          ],
+          "imaging": [
+            {
+              "modality": "other",
+              "type": "Hematoxylin and eosin (HE) staining",
+              "finding": "diffuse proliferation of small tumor cells with a high nuclear-to-cytoplasmic (N/C) ratio"
+            }
+          ]
+        }
+      },
+      "custom_id": "graph_029_N2"
+    },
+    {
+      "id": "N4",
+      "label": "Step 4",
+      "customData": {
+        "node_id": "D",
+        "node_step_index": 3,
+        "content": "Initiation of first-line treatment with carboplatin (CBDCA), etoposide (ETP), and durvalumab. Administration sequence: durvalumab, followed by ETP, and then CBDCA. During the first course of treatment, the patient experienced anaphylactic shock while receiving an ETP infusion on day 1. ETP administration was immediately discontinued. Anaphylactic shock treated with cimetidine, dexamethasone, and chlorpheniramine, along with a saline infusion. Treatment switched to combination therapy with cisplatin (CDDP) and irinotecan (CPT-11).",
+        "clinical_data": {
+          "medications": [
+            {
+              "drug": "C0007090",
+              "dosage": null,
+              "frequency": null,
+              "modality": null,
+              "start_date": null,
+              "end_date": null,
+              "indication": null
+            },
+            {
+              "drug": "C0015096",
+              "dosage": null,
+              "frequency": null,
+              "modality": null,
+              "start_date": null,
+              "end_date": null,
+              "indication": null
+            },
+            {
+              "drug": "C4048611",
+              "dosage": null,
+              "frequency": null,
+              "modality": null,
+              "start_date": null,
+              "end_date": null,
+              "indication": null
+            },
+            {
+              "drug": "C0009375",
+              "dosage": null,
+              "frequency": null,
+              "modality": "IV",
+              "start_date": null,
+              "end_date": null,
+              "indication": null
+            },
+            {
+              "drug": "C0008596",
+              "dosage": null,
+              "frequency": null,
+              "modality": null,
+              "start_date": null,
+              "end_date": null,
+              "indication": "C0002876"
+            },
+            {
+              "drug": "C0011629",
+              "dosage": null,
+              "frequency": null,
+              "modality": null,
+              "start_date": null,
+              "end_date": null,
+              "indication": "C0002876"
+            },
+            {
+              "drug": "C0008943",
+              "dosage": null,
+              "frequency": null,
+              "modality": null,
+              "start_date": null,
+              "end_date": null,
+              "indication": "C0002876"
+            },
+            {
+              "drug": "C0008829",
+              "dosage": null,
+              "frequency": null,
+              "modality": null,
+              "start_date": null,
+              "end_date": null,
+              "indication": null
+            },
+            {
+              "drug": "C0022127",
+              "dosage": null,
+              "frequency": null,
+              "modality": null,
+              "start_date": null,
+              "end_date": null,
+              "indication": null
+            }
+          ],
+          "allergies": [
+            {
+              "substance": "C0015096",
+              "reaction": "C0002876",
+              "severity": null,
+              "date_recorded": null
+            }
+          ]
+        }
+      },
+      "custom_id": "graph_029_N3"
+    }
+  ],
+  "edges": [
+    {
+      "from": "N1",
+      "to": "N2",
+      "data": {
+        "edge_id": "A_to_B",
+        "branch_flag": true,
+        "content": "Patient underwent biopsy of breast and chest masses, revealing small cell carcinoma (SCLC) in both lesions. Further staging with MRI, FDG-PET, and CT scans revealed stage cT2aN3M1c SCLC with multiple bone, peritoneal, and skin metastases, in addition to the primary lesion in the right upper lobe and the right breast."
+      },
+      "custom_id": "graph_029_N1_N2"
+    },
+    {
+      "from": "N2",
+      "to": "N3",
+      "data": {
+        "edge_id": "B_to_C",
+        "branch_flag": true,
+        "content": "Histological analysis performed.",
+        "transition_event": {
+          "trigger_type": "procedure",
+          "trigger_entities": [],
+          "change_type": "addition",
+          "target_domain": "imaging"
+        }
+      },
+      "custom_id": "graph_029_N2_N3"
+    },
+    {
+      "from": "N3",
+      "to": "N4",
+      "data": {
+        "edge_id": "C_to_D",
+        "branch_flag": true,
+        "content": "Treatment initiated with carboplatin, etoposide, and durvalumab. Patient experienced anaphylactic shock during etoposide infusion, leading to discontinuation of etoposide and switch to cisplatin and irinotecan.",
+        "transition_event": {
+          "trigger_type": "medication_change",
+          "trigger_entities": [
+            "C0007090",
+            "C0015096",
+            "C4048611",
+            "C0009375",
+            "C0008596",
+            "C0011629",
+            "C0008943",
+            "C0008829",
+            "C0022127"
+          ],
+          "change_type": "discontinuation",
+          "target_domain": "medication"
+        }
+      },
+      "custom_id": "graph_029_N3_N4"
+    }
+  ]
+}

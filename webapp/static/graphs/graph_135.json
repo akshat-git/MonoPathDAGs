@@ -1,0 +1,548 @@
+{
+  "nodes": [
+    {
+      "id": "N1",
+      "label": "Step 1",
+      "customData": {
+        "node_id": "A",
+        "node_step_index": 0,
+        "content": "May 2018: 37-year-old never-smoker woman diagnosed with stage IIIB (cT3 cN2 according to TNM, VIII edition) adenocarcinoma of the left lung. ECOG performance status was 0, and she had no family history of cancer.",
+        "clinical_data": {
+          "diagnoses": [
+            {
+              "code": "C34.3",
+              "label": "Malignant neoplasm of lower lobe, bronchus or lung",
+              "status": "active",
+              "onset_date": "2018-05"
+            }
+          ],
+          "social_history": [
+            {
+              "category": "smoking",
+              "status": "never",
+              "description": "never-smoker"
+            }
+          ]
+        }
+      }
+    },
+    {
+      "id": "N2",
+      "label": "Step 2",
+      "customData": {
+        "node_id": "B",
+        "node_step_index": 1,
+        "content": "Patient underwent neoadjuvant chemotherapy with carboplatin AUC 2 and paclitaxel at 50 mg/sm with concurrent radiotherapy of the left lung (64 Gy in 32 fractions).",
+        "clinical_data": {
+          "medications": [
+            {
+              "drug": "C0007127",
+              "dosage": "AUC 2",
+              "frequency": null,
+              "modality": "IV",
+              "start_date": null,
+              "end_date": null,
+              "indication": "C0006826"
+            },
+            {
+              "drug": "C0030394",
+              "dosage": "50 mg/sm",
+              "frequency": null,
+              "modality": "IV",
+              "start_date": null,
+              "end_date": null,
+              "indication": "C0006826"
+            }
+          ],
+          "procedures": [
+            {
+              "name": "C0034675",
+              "approach": null,
+              "date": null,
+              "location": "left lung",
+              "performed_by": null,
+              "outcome": null
+            }
+          ]
+        }
+      }
+    },
+    {
+      "id": "N3",
+      "label": "Step 3",
+      "customData": {
+        "node_id": "C",
+        "node_step_index": 2,
+        "content": "Patient underwent lobectomy of the left upper lobe, with final diagnosis of adenocarcinoma ypT1b N2, EGFR and ALK wild type, and PD-L1 (tumor proportion score) of 60%.",
+        "clinical_data": {
+          "procedures": [
+            {
+              "name": "Lobectomy",
+              "approach": "open",
+              "date": null,
+              "location": "left upper lobe",
+              "performed_by": null,
+              "outcome": null
+            }
+          ],
+          "diagnoses": [
+            {
+              "code": "C4_Precoordinated",
+              "label": "Adenocarcinoma",
+              "status": "active",
+              "onset_date": null
+            }
+          ],
+          "labs": [
+            {
+              "test": "EGFR",
+              "value": "wild type",
+              "unit": null,
+              "flag": "normal",
+              "reference_range": null,
+              "timestamp": null
+            },
+            {
+              "test": "ALK",
+              "value": "wild type",
+              "unit": null,
+              "flag": "normal",
+              "reference_range": null,
+              "timestamp": null
+            },
+            {
+              "test": "PD-L1 tumor proportion score",
+              "value": "60",
+              "unit": "%",
+              "flag": "normal",
+              "reference_range": null,
+              "timestamp": null
+            }
+          ]
+        }
+      }
+    },
+    {
+      "id": "N4",
+      "label": "Step 4",
+      "customData": {
+        "node_id": "D",
+        "node_step_index": 3,
+        "content": "June 2019: Multiple nodules of the thoracic wall, pleural nodes, and pleural effusion were detected.",
+        "clinical_data": {
+          "imaging": [
+            {
+              "type": "nodule",
+              "body_part": "thoracic wall",
+              "modality": null,
+              "finding": "Multiple nodules",
+              "impression": null,
+              "date": "2019-06"
+            },
+            {
+              "type": "nodule",
+              "body_part": "pleura",
+              "modality": null,
+              "finding": "pleural nodes",
+              "impression": null,
+              "date": "2019-06"
+            },
+            {
+              "type": "Pleural Effusion",
+              "body_part": "pleura",
+              "modality": null,
+              "finding": "pleural effusion",
+              "impression": null,
+              "date": "2019-06"
+            }
+          ]
+        }
+      }
+    },
+    {
+      "id": "N5",
+      "label": "Step 5",
+      "customData": {
+        "node_id": "E",
+        "node_step_index": 4,
+        "content": "Liquid biopsy was performed, excluding the presence of EGFR mutations.",
+        "clinical_data": {
+          "labs": [
+            {
+              "test": "Liquid Biopsy",
+              "finding": "No EGFR mutations"
+            }
+          ]
+        }
+      }
+    },
+    {
+      "id": "N6",
+      "label": "Step 6",
+      "customData": {
+        "node_id": "F",
+        "node_step_index": 5,
+        "content": "Patient started treatment with cisplatin at 75 mg/sm and pemetrexed at 500 mg/sm for four cycles, followed by pemetrexed maintenance, with partial response of disease.",
+        "clinical_data": {
+          "medications": [
+            {
+              "drug": "C0008767",
+              "dosage": "75 mg/sm",
+              "frequency": null,
+              "modality": null,
+              "start_date": null,
+              "end_date": null,
+              "indication": null
+            },
+            {
+              "drug": "C1239847",
+              "dosage": "500 mg/sm",
+              "frequency": null,
+              "modality": null,
+              "start_date": null,
+              "end_date": null,
+              "indication": null
+            },
+            {
+              "drug": "C1239847",
+              "dosage": null,
+              "frequency": null,
+              "modality": null,
+              "start_date": null,
+              "end_date": null,
+              "indication": null
+            }
+          ]
+        }
+      }
+    },
+    {
+      "id": "N7",
+      "label": "Step 7",
+      "customData": {
+        "node_id": "G",
+        "node_step_index": 6,
+        "content": "February 2021: Radiological examination revealed a volumetric increase of the pleural nodes and effusion.",
+        "clinical_data": {
+          "imaging": [
+            {
+              "type": "Radiological examination",
+              "body_part": "Pleural nodes",
+              "modality": null,
+              "finding": "volumetric increase",
+              "impression": "Pleural effusion",
+              "date": "2021-02"
+            }
+          ]
+        }
+      }
+    },
+    {
+      "id": "N8",
+      "label": "Step 8",
+      "customData": {
+        "node_id": "H",
+        "node_step_index": 7,
+        "content": "Thoracoscopy with rebiopsy of the pleural nodes confirmed adenocarcinoma metastasis; no alterations of EGFR, ALK, or ROS1 were detected.",
+        "clinical_data": {
+          "procedures": [
+            {
+              "name": "Thoracoscopy",
+              "approach": "endoscopic",
+              "location": "pleural nodes",
+              "outcome": "adenocarcinoma metastasis confirmed"
+            }
+          ],
+          "diagnoses": [
+            {
+              "code": "C0376358",
+              "label": "Adenocarcinoma",
+              "status": "active",
+              "location": "pleural nodes"
+            },
+            {
+              "code": "C0027651",
+              "label": "Metastasis",
+              "status": "active",
+              "location": "pleural nodes"
+            }
+          ],
+          "labs": [
+            {
+              "test": "EGFR mutation analysis",
+              "value": "no alterations detected",
+              "flag": "normal"
+            },
+            {
+              "test": "ALK mutation analysis",
+              "value": "no alterations detected",
+              "flag": "normal"
+            },
+            {
+              "test": "ROS1 mutation analysis",
+              "value": "no alterations detected",
+              "flag": "normal"
+            }
+          ]
+        }
+      }
+    },
+    {
+      "id": "N9",
+      "label": "Step 9",
+      "customData": {
+        "node_id": "I",
+        "node_step_index": 8,
+        "content": "April to July 2021: Patient was treated with pembrolizumab at 200 mg, achieving a disease progression in lymph nodes and pleural nodes.",
+        "clinical_data": {
+          "medications": [
+            {
+              "drug": "C1874296",
+              "dosage": "200 mg",
+              "frequency": null,
+              "modality": null,
+              "start_date": "2021-04",
+              "end_date": "2021-07",
+              "indication": null
+            }
+          ],
+          "diagnoses": [
+            {
+              "code": null,
+              "label": "disease progression in lymph nodes and pleural nodes",
+              "status": "active",
+              "onset_date": null
+            }
+          ]
+        }
+      }
+    },
+    {
+      "id": "N10",
+      "label": "Step 10",
+      "customData": {
+        "node_id": "J",
+        "node_step_index": 9,
+        "content": "Patient underwent a third-line chemotherapy with gemcitabine at 1000 mg/sm.",
+        "clinical_data": {
+          "medications": [
+            {
+              "drug": "gemcitabine",
+              "dosage": "1000 mg/sm",
+              "frequency": null,
+              "modality": "IV",
+              "start_date": null,
+              "end_date": null,
+              "indication": null
+            }
+          ],
+          "procedures": [
+            {
+              "name": "Chemotherapy",
+              "approach": "IV",
+              "date": null,
+              "location": null,
+              "performed_by": null,
+              "outcome": null
+            }
+          ]
+        }
+      }
+    },
+    {
+      "id": "N11",
+      "label": "Step 11",
+      "customData": {
+        "node_id": "K",
+        "node_step_index": 10,
+        "content": "December 2021: Biopsy of the breast nodules confirmed lung adenocarcinoma metastasis. FoundationOne panel of NGS analysis of the tissue was performed, and a RETfusion (KIF5B-RET) was detected. Patient was asymptomatic and in good clinical conditions (PS ECOG 0).",
+        "clinical_data": {
+          "diagnoses": [
+            {
+              "code": "C34",
+              "label": "Lung adenocarcinoma",
+              "status": "active",
+              "onset_date": "2021-12"
+            },
+            {
+              "code": "C79.31",
+              "label": "Secondary malignant neoplasm of breast",
+              "status": "active",
+              "onset_date": "2021-12"
+            }
+          ],
+          "imaging": [
+            {
+              "type": "Biopsy",
+              "body_part": "Breast",
+              "modality": "other",
+              "finding": "Lung adenocarcinoma metastasis",
+              "date": "2021-12"
+            }
+          ],
+          "procedures": [
+            {
+              "name": "Next Generation Sequencing",
+              "date": "2021-12",
+              "location": "tissue",
+              "outcome": "RETfusion (KIF5B-RET)"
+            }
+          ],
+          "functional_status": [
+            {
+              "domain": "general",
+              "description": "ECOG 0",
+              "score": 0,
+              "scale": "ECOG"
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "edges": [
+    {
+      "from": "N1",
+      "to": "N2",
+      "data": {
+        "edge_id": "A_to_B",
+        "branch_flag": true,
+        "content": "Initiation of neoadjuvant chemotherapy and radiotherapy.",
+        "transition_event": {
+          "trigger_type": "procedure",
+          "trigger_entities": [
+            "C0007127",
+            "C0030394",
+            "C0034675"
+          ],
+          "change_type": "addition",
+          "target_domain": "medication"
+        }
+      }
+    },
+    {
+      "from": "N2",
+      "to": "N3",
+      "data": {
+        "edge_id": "B_to_C",
+        "branch_flag": true,
+        "content": "Surgical resection of the left upper lobe following neoadjuvant therapy, with pathological staging and biomarker analysis.",
+        "transition_event": {
+          "trigger_type": "procedure",
+          "trigger_entities": [
+            "Lobectomy"
+          ],
+          "change_type": "addition",
+          "target_domain": "procedure"
+        }
+      }
+    },
+    {
+      "from": "N3",
+      "to": "N4",
+      "data": {
+        "edge_id": "C_to_D",
+        "branch_flag": true,
+        "content": "Detection of thoracic wall nodules, pleural nodes, and pleural effusion, indicating disease recurrence.",
+        "transition_event": {
+          "trigger_type": "symptom_onset",
+          "trigger_entities": [
+            "nodule",
+            "pleural nodes",
+            "pleural effusion"
+          ],
+          "change_type": "progression",
+          "target_domain": "imaging",
+          "timestamp": "2019-06"
+        }
+      }
+    },
+    {
+      "from": "N4",
+      "to": "N5",
+      "data": {
+        "edge_id": "D_to_E",
+        "branch_flag": true,
+        "content": "Liquid biopsy performed to assess EGFR mutation status.",
+        "transition_event": {
+          "trigger_type": "lab_change",
+          "trigger_entities": [
+            "EGFR"
+          ],
+          "change_type": "reinterpretation",
+          "target_domain": "lab"
+        }
+      }
+    },
+    {
+      "from": "N5",
+      "to": "N6",
+      "data": {
+        "edge_id": "E_to_F",
+        "branch_flag": true,
+        "content": "Initiation of first-line chemotherapy with cisplatin and pemetrexed, followed by pemetrexed maintenance, resulting in partial response.",
+        "transition_event": {
+          "trigger_type": "medication_change",
+          "trigger_entities": [
+            "C0008767",
+            "C1239847"
+          ],
+          "change_type": "addition",
+          "target_domain": "medication"
+        }
+      }
+    },
+    {
+      "from": "N6",
+      "to": "N7",
+      "data": {
+        "edge_id": "F_to_G",
+        "branch_flag": true,
+        "content": "Radiological examination reveals increased pleural nodes and effusion, indicating disease progression.",
+        "transition_event": {
+          "trigger_type": "symptom_onset",
+          "trigger_entities": [
+            "Pleural nodes",
+            "Pleural effusion"
+          ],
+          "change_type": "progression",
+          "target_domain": "imaging",
+          "timestamp": "2021-02"
+        }
+      }
+    },
+    {
+      "from": "N7",
+      "to": "N8",
+      "data": {
+        "edge_id": "G_to_H",
+        "branch_flag": true,
+        "content": "Thoracoscopy confirms adenocarcinoma metastasis in pleural nodes, with negative EGFR, ALK, and ROS1 alterations.",
+        "transition_event": {
+          "trigger_type": "procedure",
+          "trigger_entities": [
+            "Thoracoscopy"
+          ],
+          "change_type": "addition",
+          "target_domain": "procedure"
+        }
+      }
+    },
+    {
+      "from": "N8",
+      "to": "N9",
+      "data": {
+        "edge_id": "H_to_I",
+        "branch_flag": true,
+        "content": "Treatment with pembrolizumab leading to disease progression in lymph nodes and pleural nodes.",
+        "transition_event": {
+          "trigger_type": "medication_change",
+          "trigger_entities": [
+            "C1874296"
+          ],
+          "change_type": ""
+        }
+      }
+    }
+  ]
+}

@@ -1,0 +1,388 @@
+{
+  "nodes": [
+    {
+      "id": "N1",
+      "label": "Step 1",
+      "customData": {
+        "node_id": "A",
+        "node_step_index": 0,
+        "content": "Patient is a female in her 60s, Chinese, Zhuang nationality, junior high school education, married, farmer, poor economic condition, with no history of smoking or alcohol consumption and no family history of lung cancer, presented with chest pain and dyspnea.",
+        "clinical_data": {
+          "social_history": [
+            {
+              "category": "smoking",
+              "status": "never"
+            },
+            {
+              "category": "alcohol",
+              "status": "never"
+            },
+            {
+              "category": "employment",
+              "status": "farmer",
+              "description": "farmer"
+            },
+            {
+              "category": "housing",
+              "description": "poor economic condition"
+            }
+          ],
+          "diagnoses": [
+            {
+              "code": "R07.9",
+              "label": "Chest pain",
+              "status": "active"
+            },
+            {
+              "code": "R06.02",
+              "label": "Shortness of breath",
+              "status": "active"
+            }
+          ],
+          "HPI": [
+            {
+              "summary": "chest pain and dyspnea"
+            }
+          ]
+        }
+      }
+    },
+    {
+      "id": "N2",
+      "label": "Step 2",
+      "customData": {
+        "node_id": "B",
+        "node_step_index": 1,
+        "content": "Patient was diagnosed with advanced metastatic lung adenocarcinoma via pericardial effusion extraction after declining direct tumor biopsy.",
+        "clinical_data": {
+          "diagnoses": [
+            {
+              "code": "C34",
+              "label": "Malignant neoplasm of bronchus and lung",
+              "status": "active",
+              "onset_date": null
+            }
+          ],
+          "procedures": [
+            {
+              "name": "Pericardial effusion extraction",
+              "approach": "percutaneous",
+              "date": null,
+              "location": "pericardial space",
+              "performed_by": null,
+              "outcome": null
+            }
+          ]
+        }
+      }
+    },
+    {
+      "id": "N3",
+      "label": "Step 3",
+      "customData": {
+        "node_id": "C",
+        "node_step_index": 2,
+        "content": "Genetic testing revealed SQSTM1-ALK fusion and anaplastic lymphoma kinase (ALK) gene rearrangement, with SQSTM1 breakpoint at Exon5 chr5:179255851 and ALK breakpoint at Exon20 chr2:29447094. A 39-base pair inversion of the ALK gene was observed at the breakpoint location.",
+        "clinical_data": {
+          "diagnoses": [
+            {
+              "code": "C0454916",
+              "label": "Anaplastic Lymphoma Kinase Positive Neoplasm",
+              "status": "active"
+            }
+          ],
+          "labs": [
+            {
+              "test": "Genetic testing",
+              "value": "SQSTM1-ALK fusion and anaplastic lymphoma kinase (ALK) gene rearrangement, with SQSTM1 breakpoint at Exon5 chr5:179255851 and ALK breakpoint at Exon20 chr2:29447094. A 39-base pair inversion of the ALK gene was observed at the breakpoint location.",
+              "unit": null,
+              "flag": "abnormal"
+            }
+          ]
+        }
+      }
+    },
+    {
+      "id": "N4",
+      "label": "Step 4",
+      "customData": {
+        "node_id": "D",
+        "node_step_index": 3,
+        "content": "Patient was treated with ensartinib at 225 mg QD.",
+        "clinical_data": {
+          "medications": [
+            {
+              "drug": "C0004439",
+              "dosage": "225 mg",
+              "frequency": "QD",
+              "modality": "oral"
+            }
+          ]
+        }
+      }
+    },
+    {
+      "id": "N5",
+      "label": "Step 5",
+      "customData": {
+        "node_id": "E",
+        "node_step_index": 4,
+        "content": "Radiological follow-up showed no extrathoracic metastases. Patient declined a lung tumor biopsy.",
+        "clinical_data": {
+          "imaging": [
+            {
+              "type": "Radiological follow-up",
+              "body_part": "thorax",
+              "modality": "imaging",
+              "finding": "no extrathoracic metastases",
+              "date": null
+            }
+          ],
+          "procedures": [
+            {
+              "name": "Biopsy",
+              "approach": null,
+              "date": null,
+              "location": "lung tumor",
+              "performed_by": null,
+              "outcome": "patient declined"
+            }
+          ]
+        }
+      }
+    },
+    {
+      "id": "N6",
+      "label": "Step 6",
+      "customData": {
+        "node_id": "F",
+        "node_step_index": 5,
+        "content": "Pericardial effusion HE staining revealed 85% tumor cells (Figure 1). TTF1 immunohistochemistry confirmed malignant pericardial effusion originated from lung adenocarcinoma metastasis (Figure 2). ALK immunohistochemistry test showed positive results.",
+        "clinical_data": {
+          "diagnoses": [
+            {
+              "code": "C34",
+              "label": "Malignant neoplasm of bronchus and lung",
+              "status": "active",
+              "onset_date": null
+            },
+            {
+              "code": "C79.8",
+              "label": "Secondary malignant neoplasm of other specified sites",
+              "status": "active",
+              "onset_date": null
+            }
+          ],
+          "imaging": [
+            {
+              "type": "Pericardial effusion",
+              "body_part": "Pericardium",
+              "modality": "HE staining",
+              "finding": "85% tumor cells"
+            },
+            {
+              "type": "Lung adenocarcinoma metastasis",
+              "body_part": "Pericardium",
+              "modality": "immunohistochemistry",
+              "finding": "TTF1 positive"
+            },
+            {
+              "type": "ALK positive",
+              "body_part": "Pericardium",
+              "modality": "immunohistochemistry"
+            }
+          ]
+        }
+      }
+    },
+    {
+      "id": "N7",
+      "label": "Step 7",
+      "customData": {
+        "node_id": "G",
+        "node_step_index": 6,
+        "content": "Patient was found to harbor an unidentified MSH6 S346C mutation.",
+        "clinical_data": {}
+      }
+    },
+    {
+      "id": "N8",
+      "label": "Step 8",
+      "customData": {
+        "node_id": "H",
+        "node_step_index": 7,
+        "content": "After 1 month of treatment with ensartinib, CEA level decreased from 104.97 ng/mL to 5.25 ng/mL, and carbohydrate antigen 125 level decreased from 312.50 \u03bcg/mL to 43.84 \u03bcg/mL. Chest CT scan after 1 month of treatment with ensartinib revealed a reduction in tumor size (Figures 7,8) and pericardial effusion (Figures 9,10). The patient achieved partial response (PR).",
+        "clinical_data": {
+          "labs": [
+            {
+              "test": "C0007683",
+              "value": "5.25",
+              "unit": "ng/mL",
+              "timestamp": null
+            },
+            {
+              "test": "C0007683",
+              "value": "104.97",
+              "unit": "ng/mL",
+              "timestamp": null
+            },
+            {
+              "test": "C0154472",
+              "value": "43.84",
+              "unit": "\u03bcg/mL",
+              "timestamp": null
+            },
+            {
+              "test": "C0154472",
+              "value": "312.50",
+              "unit": "\u03bcg/mL",
+              "timestamp": null
+            }
+          ],
+          "imaging": [
+            {
+              "type": "C0008927",
+              "body_part": "C0008043",
+              "modality": "CT",
+              "finding": "reduction in tumor size",
+              "impression": null,
+              "date": null
+            },
+            {
+              "type": "C0008927",
+              "body_part": "C0008043",
+              "modality": "CT",
+              "finding": "pericardial effusion",
+              "impression": null,
+              "date": null
+            }
+          ],
+          "medications": [
+            {
+              "drug": "ensartinib",
+              "dosage": null,
+              "frequency": null,
+              "modality": null,
+              "start_date": null,
+              "end_date": null,
+              "indication": null
+            }
+          ],
+          "diagnoses": [
+            {
+              "code": "C0032285",
+              "label": "Partial Response",
+              "status": null,
+              "onset_date": null
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "edges": [
+    {
+      "from": "N1",
+      "to": "N2",
+      "data": {
+        "edge_id": "A_to_B",
+        "branch_flag": true,
+        "content": "Initial presentation of chest pain and dyspnea led to further investigation and diagnosis."
+      }
+    },
+    {
+      "from": "N2",
+      "to": "N3",
+      "data": {
+        "edge_id": "B_to_C",
+        "branch_flag": true,
+        "content": "Diagnostic process involving pericardial effusion extraction and subsequent genetic testing to identify specific mutations.",
+        "transition_event": {
+          "trigger_type": "lab_change",
+          "trigger_entities": [
+            "C0454916"
+          ],
+          "change_type": "addition",
+          "target_domain": "diagnosis"
+        }
+      }
+    },
+    {
+      "from": "N3",
+      "to": "N4",
+      "data": {
+        "edge_id": "C_to_D",
+        "branch_flag": true,
+        "content": "Identification of SQSTM1-ALK fusion and ALK gene rearrangement prompted initiation of targeted therapy.",
+        "transition_event": {
+          "trigger_type": "medication_change",
+          "trigger_entities": [
+            "C0004439"
+          ],
+          "change_type": "addition",
+          "target_domain": "medication"
+        }
+      }
+    },
+    {
+      "from": "N4",
+      "to": "N5",
+      "data": {
+        "edge_id": "D_to_E",
+        "branch_flag": true,
+        "content": "Treatment with ensartinib followed by radiological assessment to monitor disease progression and assess for metastases.",
+        "transition_event": {
+          "trigger_type": "procedure",
+          "trigger_entities": [],
+          "change_type": "other",
+          "target_domain": "imaging"
+        }
+      }
+    },
+    {
+      "from": "N5",
+      "to": "N6",
+      "data": {
+        "edge_id": "E_to_F",
+        "branch_flag": true,
+        "content": "Further pathological analysis of pericardial effusion to confirm the origin and characteristics of the tumor cells.",
+        "transition_event": {
+          "trigger_type": "interpretation",
+          "trigger_entities": [
+            "C34",
+            "C79.8"
+          ],
+          "change_type": "addition",
+          "target_domain": "diagnosis"
+        }
+      }
+    },
+    {
+      "from": "N6",
+      "to": "N7",
+      "data": {
+        "edge_id": "F_to_G",
+        "branch_flag": true,
+        "content": "Identification of an MSH6 S346C mutation."
+      }
+    },
+    {
+      "from": "N7",
+      "to": "N8",
+      "data": {
+        "edge_id": "G_to_H",
+        "branch_flag": true,
+        "content": "Monitoring of treatment response through lab values and imaging, indicating a partial response to ensartinib.",
+        "transition_event": {
+          "trigger_type": "lab_change",
+          "trigger_entities": [
+            "C0007683",
+            "C0154472"
+          ],
+          "change_type": "deescalation",
+          "target_domain": "lab"
+        }
+      }
+    }
+  ]
+}

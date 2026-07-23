@@ -1,0 +1,571 @@
+{
+  "nodes": [
+    {
+      "id": "N1",
+      "label": "Step 1",
+      "customData": {
+        "node_id": "A",
+        "node_step_index": 0,
+        "content": "74-year-old man admitted for identification of an abnormal nodular shadow in the right upper lobe found incidentally on CT of the chest. Swollen lymph node measuring 7 x 5 cm palpable in the left neck.",
+        "clinical_data": {
+          "imaging": [
+            {
+              "type": "Pulmonary CT",
+              "body_part": "Lung",
+              "modality": "CT",
+              "finding": "abnormal nodular shadow in the right upper lobe",
+              "date": null
+            }
+          ],
+          "diagnoses": [
+            {
+              "code": "C0238648",
+              "label": "Swollen lymph node",
+              "status": "active",
+              "onset_date": null
+            }
+          ]
+        }
+      }
+    },
+    {
+      "id": "N2",
+      "label": "Step 2",
+      "customData": {
+        "node_id": "B",
+        "node_step_index": 1,
+        "content": "Patient is a 74-year-old man with a 55 pack-year smoking history. No fever, respiratory symptoms, or weight loss in the preceding 3 months. Body temperature was 37.1\u00b0C, heart rate was 88 beats/min, blood pressure was 120/66 mmHg, and peripheral oxygen saturation was 98%. Elastic soft, mobile lymph node was palpable in the left neck without pain. No other swollen lymph nodes were identified in bilateral axillary or groin regions.",
+        "clinical_data": {
+          "social_history": [
+            {
+              "category": "smoking",
+              "status": "past",
+              "description": "55 pack-year smoking history"
+            }
+          ],
+          "vitals": [
+            {
+              "type": "Body temperature",
+              "value": "37.1",
+              "unit": "\u00b0C"
+            },
+            {
+              "type": "Heart rate",
+              "value": "88",
+              "unit": "beats/min"
+            },
+            {
+              "type": "Blood pressure",
+              "value": "120/66",
+              "unit": "mmHg"
+            },
+            {
+              "type": "Peripheral oxygen saturation",
+              "value": "98",
+              "unit": "%"
+            }
+          ]
+        }
+      }
+    },
+    {
+      "id": "N3",
+      "label": "Step 3",
+      "customData": {
+        "node_id": "C",
+        "node_step_index": 2,
+        "content": "Abdomen was non\u2010tender without organomegaly. Laboratory findings: red blood cell count of 4.11\u2009\u00d7\u200910^6/\u03bcl; C\u2010reactive protein, 1.50 mg/dl; lactate dehydrogenase, 416 U/L; alkaline phosphatase, 746 U/L; neuron-specific enolase, 20.7 ng/ml, and soluble interleukin 2 receptor, 5862 U/L. Chest radiography revealed a nodular shadow approximately 2 cm in maximum diameter in the upper right field. CT of the chest revealed a 24\u2009\u00d7\u200921\u2009\u00d7\u200918\u2009mm nodule with a cavity in Segment 1 of the right upper lobe. No swelling of the mediastinal lymph nodes was evident.",
+        "clinical_data": {
+          "labs": [
+            {
+              "test": "C0006419",
+              "value": "1.50",
+              "unit": "mg/dl",
+              "flag": "abnormal"
+            },
+            {
+              "test": "C0023262",
+              "value": "416",
+              "unit": "U/L",
+              "flag": "abnormal"
+            },
+            {
+              "test": "C0002871",
+              "value": "746",
+              "unit": "U/L",
+              "flag": "abnormal"
+            },
+            {
+              "test": "C0225409",
+              "value": "20.7",
+              "unit": "ng/ml",
+              "flag": "normal"
+            },
+            {
+              "test": "C0597414",
+              "value": "5862",
+              "unit": "U/L",
+              "flag": "abnormal"
+            },
+            {
+              "test": "C0003845",
+              "value": "4.11",
+              "unit": "10^6/\u03bcl",
+              "flag": "normal"
+            }
+          ],
+          "imaging": [
+            {
+              "type": "C0015434",
+              "body_part": "C0008031",
+              "modality": "X-ray",
+              "finding": "nodular shadow approximately 2 cm in maximum diameter in the upper right field"
+            },
+            {
+              "type": "C0008925",
+              "body_part": "C0008031",
+              "modality": "CT",
+              "finding": "24\u2009\u00d7\u200921\u2009\u00d7\u200918\u2009mm nodule with a cavity in Segment 1 of the right upper lobe",
+              "impression": "No swelling of the mediastinal lymph nodes was evident."
+            }
+          ]
+        }
+      }
+    },
+    {
+      "id": "N4",
+      "label": "Step 4",
+      "customData": {
+        "node_id": "D",
+        "node_step_index": 3,
+        "content": "FDG-PET: nodule in the right upper lobe with a maximum standardized uptake value (SUVmax) of 9.4. Strong FDG accumulation in the left cervical lymph nodes, both axillary lesions, near the pancreatic head, both external iliac arteries, and the right inguinal lymph nodes. No abnormal FDG accumulation in the liver, bone, adrenal glands, or spleen. MRI of the head showed no abnormalities.",
+        "clinical_data": {
+          "imaging": [
+            {
+              "type": "Nodule",
+              "body_part": "Right upper lobe",
+              "modality": "PET",
+              "finding": "SUVmax of 9.4",
+              "date": null
+            },
+            {
+              "type": "Lymph node",
+              "body_part": "Left cervical",
+              "modality": "PET",
+              "finding": "Strong FDG accumulation",
+              "date": null
+            },
+            {
+              "type": "Lesion",
+              "body_part": "Axillary",
+              "modality": "PET",
+              "finding": "Strong FDG accumulation",
+              "date": null
+            },
+            {
+              "type": "Lymph node",
+              "body_part": "Right inguinal",
+              "modality": "PET",
+              "finding": "Strong FDG accumulation",
+              "date": null
+            },
+            {
+              "type": "Lymph node",
+              "body_part": "External iliac arteries",
+              "modality": "PET",
+              "finding": "Strong FDG accumulation",
+              "date": null
+            },
+            {
+              "type": "Pancreatic head",
+              "body_part": "Pancreatic head",
+              "modality": "PET",
+              "finding": "Strong FDG accumulation",
+              "date": null
+            },
+            {
+              "type": "Head",
+              "body_part": "Head",
+              "modality": "MRI",
+              "finding": "No abnormalities",
+              "date": null
+            }
+          ]
+        }
+      }
+    },
+    {
+      "id": "N5",
+      "label": "Step 5",
+      "customData": {
+        "node_id": "E",
+        "node_step_index": 4,
+        "content": "Transbronchial lung biopsy (TBLB) revealed squamous cell carcinoma of the lung. Left cervical lymph node biopsy was performed. Immunohistochemistry of the lymph node revealed that CD20, CD79a, Bcl\u20102, and CD10 were positive, leading to a diagnosis of diffuse large B-cell lymphoma NOS.",
+        "clinical_data": {
+          "procedures": [
+            {
+              "name": "Transbronchial lung biopsy",
+              "approach": "endoscopic",
+              "location": "lung",
+              "outcome": "squamous cell carcinoma of the lung"
+            },
+            {
+              "name": "Lymph node biopsy",
+              "location": "Left cervical lymph node",
+              "outcome": "diffuse large B-cell lymphoma NOS"
+            }
+          ],
+          "diagnoses": [
+            {
+              "code": "C0024117",
+              "label": "Squamous cell carcinoma of lung",
+              "status": "active"
+            },
+            {
+              "code": "C1306563",
+              "label": "Diffuse large B-cell lymphoma, NOS",
+              "status": "active"
+            }
+          ]
+        }
+      }
+    },
+    {
+      "id": "N6",
+      "label": "Step 6",
+      "customData": {
+        "node_id": "F",
+        "node_step_index": 5,
+        "content": "Lung cancer staged as IA. Malignant lymphoma staged as IVA.",
+        "clinical_data": {
+          "diagnoses": [
+            {
+              "code": "C34",
+              "label": "Lung cancer",
+              "status": "active"
+            },
+            {
+              "code": "C81",
+              "label": "Malignant lymphoma",
+              "status": "active"
+            }
+          ]
+        }
+      }
+    },
+    {
+      "id": "N7",
+      "label": "Step 7",
+      "customData": {
+        "node_id": "G",
+        "node_step_index": 6,
+        "content": "Patient received two courses of R-CHOP (Rituximab + cyclophosphamide + hydroxydaunorubicin + vincristine + prednisolone) therapy for malignant lymphoma. sIL-2R normalized to 466 from 14,003 U/mL.",
+        "clinical_data": {
+          "medications": [
+            {
+              "drug": "C0726734",
+              "dosage": null,
+              "frequency": null,
+              "modality": null,
+              "start_date": null,
+              "end_date": null,
+              "indication": "C0024845"
+            },
+            {
+              "drug": "C0010645",
+              "dosage": null,
+              "frequency": null,
+              "modality": null,
+              "start_date": null,
+              "end_date": null,
+              "indication": "C0024845"
+            },
+            {
+              "drug": "C0020373",
+              "dosage": null,
+              "frequency": null,
+              "modality": null,
+              "start_date": null,
+              "end_date": null,
+              "indication": "C0024845"
+            },
+            {
+              "drug": "C0042864",
+              "dosage": null,
+              "frequency": null,
+              "modality": null,
+              "start_date": null,
+              "end_date": null,
+              "indication": "C0024845"
+            },
+            {
+              "drug": "C0033241",
+              "dosage": null,
+              "frequency": null,
+              "modality": null,
+              "start_date": null,
+              "end_date": null,
+              "indication": "C0024845"
+            }
+          ],
+          "labs": [
+            {
+              "test": "sIL-2R",
+              "value": "466",
+              "unit": "U/mL",
+              "flag": "normal",
+              "reference_range": null,
+              "timestamp": null
+            }
+          ],
+          "diagnoses": [
+            {
+              "code": "C0024845",
+              "label": "Malignant Lymphoma",
+              "status": "active",
+              "onset_date": null
+            }
+          ]
+        }
+      }
+    },
+    {
+      "id": "N8",
+      "label": "Step 8",
+      "customData": {
+        "node_id": "H",
+        "node_step_index": 7,
+        "content": "Chest radiographs and CT of the chest revealed nodular shadows in the right upper lung field that had increased, and new cavities appeared. FDG-PET: maximum SUV in the lung tumor increased from 9.4 to 10.5, but accumulation in the lymphoma lesions remained only in the left inguinal region, with little accumulation in other areas.",
+        "clinical_data": {
+          "imaging": [
+            {
+              "type": "Lung mass",
+              "body_part": "Lung",
+              "modality": "X-ray",
+              "finding": "nodular shadows in the right upper lung field that had increased",
+              "date": null
+            },
+            {
+              "type": "Lung mass",
+              "body_part": "Lung",
+              "modality": "CT",
+              "finding": "nodular shadows in the right upper lung field that had increased, and new cavities appeared",
+              "date": null
+            },
+            {
+              "type": "Lung mass",
+              "body_part": "Lung",
+              "modality": "PET",
+              "finding": "maximum SUV in the lung tumor increased from 9.4 to 10.5",
+              "date": null
+            },
+            {
+              "type": "Lymphoma",
+              "body_part": "Left inguinal region",
+              "modality": "PET",
+              "finding": "accumulation in the lymphoma lesions remained only in the left inguinal region, with little accumulation in other areas",
+              "date": null
+            }
+          ]
+        }
+      }
+    },
+    {
+      "id": "N9",
+      "label": "Step 9",
+      "customData": {
+        "node_id": "I",
+        "node_step_index": 8,
+        "content": "Surgery was then performed for the lung cancer.",
+        "clinical_data": {
+          "procedures": [
+            {
+              "name": "Surgery",
+              "approach": "open",
+              "date": null,
+              "location": "lung",
+              "performed_by": null,
+              "outcome": null
+            }
+          ],
+          "diagnoses": [
+            {
+              "code": "C0024117",
+              "label": "Lung Cancer",
+              "status": "active",
+              "onset_date": null
+            }
+          ]
+        }
+      }
+    },
+    {
+      "id": "N10",
+      "label": "Step 10",
+      "customData": {
+        "node_id": "J",
+        "node_step_index": 9,
+        "content": "Right upper lobectomy and mediast",
+        "clinical_data": {
+          "procedures": [
+            {
+              "name": "Lobectomy",
+              "approach": "open",
+              "location": "Right upper lobe",
+              "performed_by": "unknown",
+              "outcome": "unknown"
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "edges": [
+    {
+      "from": "N1",
+      "to": "N2",
+      "data": {
+        "edge_id": "A_to_B",
+        "branch_flag": true,
+        "content": "Patient history and initial examination findings."
+      }
+    },
+    {
+      "from": "N2",
+      "to": "N3",
+      "data": {
+        "edge_id": "B_to_C",
+        "branch_flag": true,
+        "content": "Laboratory and imaging results reveal elevated inflammatory markers and a nodule in the right upper lobe.",
+        "transition_event": {
+          "trigger_type": "lab_change",
+          "trigger_entities": [
+            "C0006419",
+            "C0023262",
+            "C0002871",
+            "C0597414"
+          ],
+          "change_type": "progression",
+          "target_domain": "lab"
+        }
+      }
+    },
+    {
+      "from": "N3",
+      "to": "N4",
+      "data": {
+        "edge_id": "C_to_D",
+        "branch_flag": true,
+        "content": "FDG-PET shows increased uptake in the lung nodule and multiple lymph node regions.",
+        "transition_event": {
+          "trigger_type": "imaging",
+          "trigger_entities": [],
+          "change_type": "progression",
+          "target_domain": "imaging"
+        }
+      }
+    },
+    {
+      "from": "N4",
+      "to": "N5",
+      "data": {
+        "edge_id": "D_to_E",
+        "branch_flag": true,
+        "content": "Biopsies confirm squamous cell carcinoma of the lung and diffuse large B-cell lymphoma.",
+        "transition_event": {
+          "trigger_type": "procedure",
+          "trigger_entities": [
+            "C0024117",
+            "C1306563"
+          ],
+          "change_type": "addition",
+          "target_domain": "diagnosis"
+        }
+      }
+    },
+    {
+      "from": "N5",
+      "to": "N6",
+      "data": {
+        "edge_id": "E_to_F",
+        "branch_flag": true,
+        "content": "Staging of lung cancer and lymphoma.",
+        "transition_event": {
+          "trigger_type": "interpretation",
+          "trigger_entities": [
+            "C34",
+            "C81"
+          ],
+          "change_type": "progression",
+          "target_domain": "diagnosis"
+        }
+      }
+    },
+    {
+      "from": "N6",
+      "to": "N7",
+      "data": {
+        "edge_id": "F_to_G",
+        "branch_flag": true,
+        "content": "Patient receives R-CHOP therapy, with normalization of sIL-2R levels.",
+        "transition_event": {
+          "trigger_type": "medication_change",
+          "trigger_entities": [
+            "C0726734",
+            "C0010645",
+            "C0020373",
+            "C0042864",
+            "C0033241"
+          ],
+          "change_type": "addition",
+          "target_domain": "medication"
+        }
+      }
+    },
+    {
+      "from": "N7",
+      "to": "N8",
+      "data": {
+        "edge_id": "G_to_H",
+        "branch_flag": true,
+        "content": "Imaging reveals increased lung tumor size and new cavities, with lymphoma lesions responding to treatment except in the left inguinal region.",
+        "transition_event": {
+          "trigger_type": "imaging",
+          "trigger_entities": [],
+          "change_type": "progression",
+          "target_domain": "imaging"
+        }
+      }
+    },
+    {
+      "from": "N8",
+      "to": "N9",
+      "data": {
+        "edge_id": "H_to_I",
+        "branch_flag": true,
+        "content": "Decision to proceed with surgery for lung cancer.",
+        "transition_event": {
+          "trigger_type": "interpretation",
+          "trigger_entities": [
+            "C0024117"
+          ],
+          "change_type": "other",
+          "target_domain": "procedure"
+        }
+      }
+    },
+    {
+      "from": "N9",
+      "to": "N10",
+      "data": {
+        "edge_id": "I_to_J",
+        "branch_flag": true,
+        "content": "Right upper lobectomy performed.",
+        "transition_event": {
+          "trigger_type": "procedure",
+          "trigger_entities": ""
+        }
+      }
+    }
+  ]
+}

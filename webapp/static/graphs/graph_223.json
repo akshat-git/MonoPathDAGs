@@ -1,0 +1,502 @@
+{
+  "nodes": [
+    {
+      "id": "N1",
+      "label": "Step 1",
+      "customData": {
+        "node_id": "A",
+        "node_step_index": 0,
+        "content": "54-year-old male with right clear cell renal cell carcinoma (ccRCC) pT1a, resected in January 2014.",
+        "timestamp": "2014-02",
+        "clinical_data": {
+          "diagnoses": [
+            {
+              "code": "C64.1",
+              "label": "Malignant neoplasm of right kidney, except renal pelvis",
+              "status": "historical",
+              "onset_date": null
+            },
+            {
+              "code": "90683005",
+              "label": "Clear cell renal cell carcinoma",
+              "status": "historical",
+              "onset_date": null
+            }
+          ],
+          "procedures": [
+            {
+              "name": "Resection",
+              "approach": "other",
+              "date": "2014-01",
+              "location": "right kidney",
+              "performed_by": null,
+              "outcome": null
+            }
+          ]
+        }
+      }
+    },
+    {
+      "id": "N2",
+      "label": "Step 2",
+      "customData": {
+        "node_id": "B",
+        "node_step_index": 1,
+        "content": "Two suspect osteolytic lesions localized in the L1 and L2 vertebrae.",
+        "timestamp": "2014-02",
+        "clinical_data": {
+          "imaging": [
+            {
+              "type": "Lesion",
+              "body_part": "Vertebra",
+              "modality": "X-ray",
+              "finding": "Osteolytic lesions",
+              "impression": "Two suspect osteolytic lesions localized in the L1 and L2 vertebrae."
+            }
+          ]
+        }
+      }
+    },
+    {
+      "id": "N3",
+      "label": "Step 3",
+      "customData": {
+        "node_id": "C",
+        "node_step_index": 2,
+        "content": "Bone biopsy confirmed the presence of carcinoma cells compatible with ccRCC in L1 and L2 vertebrae.",
+        "timestamp": "2014-02",
+        "clinical_data": {
+          "procedures": [
+            {
+              "name": "Biopsy",
+              "location": "L1 and L2 vertebrae",
+              "outcome": "presence of carcinoma cells compatible with ccRCC"
+            }
+          ],
+          "diagnoses": [
+            {
+              "code": "C40.0",
+              "label": "Malignant neoplasm of bone and articular cartilage of skull and face",
+              "status": "active"
+            }
+          ]
+        }
+      }
+    },
+    {
+      "id": "N4",
+      "label": "Step 4",
+      "customData": {
+        "node_id": "D",
+        "node_step_index": 3,
+        "content": "Prognostic Motzer risk score was intermediate (i.e., around 10\u201312 months).",
+        "timestamp": "2014-02",
+        "clinical_data": {
+          "diagnoses": [
+            {
+              "code": "C1522943",
+              "label": "Prognosis",
+              "status": "active"
+            }
+          ]
+        }
+      }
+    },
+    {
+      "id": "N5",
+      "label": "Step 5",
+      "customData": {
+        "node_id": "E",
+        "node_step_index": 4,
+        "content": "Patient received antalgic radiation therapy to L1 and L2 for a total dose of 36 Gy and was then started on first-line sunitinib 50 mg per day (4-weeks-on/2-weeks-off schedule) and zoledronic acid.",
+        "timestamp": "2014-03",
+        "clinical_data": {
+          "procedures": [
+            {
+              "name": "Radiation therapy",
+              "approach": "other",
+              "date": null,
+              "location": "L1 and L2",
+              "performed_by": null,
+              "outcome": null
+            }
+          ],
+          "medications": [
+            {
+              "drug": "sunitinib",
+              "dosage": "50 mg per day",
+              "frequency": "4-weeks-on/2-weeks-off schedule",
+              "modality": "oral",
+              "start_date": null,
+              "end_date": null,
+              "indication": null
+            },
+            {
+              "drug": "zoledronic acid",
+              "dosage": null,
+              "frequency": null,
+              "modality": null,
+              "start_date": null,
+              "end_date": null,
+              "indication": null
+            }
+          ]
+        }
+      }
+    },
+    {
+      "id": "N6",
+      "label": "Step 6",
+      "customData": {
+        "node_id": "F",
+        "node_step_index": 5,
+        "content": "Due to G2 asthenia and G2 hand-foot syndrome, the sunitinib schedule was switched to 2-weeks-on/1-week-off, with better tolerability.",
+        "timestamp": "2014-04",
+        "clinical_data": {
+          "medications": [
+            {
+              "drug": "C0974374",
+              "dosage": null,
+              "frequency": "2-weeks-on/1-week-off",
+              "modality": null,
+              "start_date": null,
+              "end_date": null,
+              "indication": null
+            }
+          ],
+          "diagnoses": [
+            {
+              "code": "C0004093",
+              "label": "Asthenia",
+              "status": "active",
+              "onset_date": null
+            },
+            {
+              "code": "C1696409",
+              "label": "Hand-foot syndrome",
+              "status": "active",
+              "onset_date": null
+            }
+          ]
+        }
+      }
+    },
+    {
+      "id": "N7",
+      "label": "Step 7",
+      "customData": {
+        "node_id": "G",
+        "node_step_index": 6,
+        "content": "Patient presented with subclinical hypothyroidism and negative antibodies against thyroglobulin and thyroperoxidase. No L-thyroxine replacement therapy was initiated.",
+        "timestamp": "2015-02",
+        "clinical_data": {
+          "diagnoses": [
+            {
+              "code": "C0342248",
+              "label": "Subclinical Hypothyroidism",
+              "status": "active"
+            }
+          ],
+          "medications": [
+            {
+              "drug": "L-thyroxine",
+              "indication": "Subclinical Hypothyroidism",
+              "status": "withheld"
+            }
+          ]
+        }
+      }
+    },
+    {
+      "id": "N8",
+      "label": "Step 8",
+      "customData": {
+        "node_id": "H",
+        "node_step_index": 7,
+        "content": "Neck ultrasound showed a thyroid gland of normal volume, without nodules or parenchymal abnormalities.",
+        "timestamp": "2015-02",
+        "clinical_data": {
+          "imaging": [
+            {
+              "type": "Thyroid ultrasonography",
+              "body_part": "Thyroid gland",
+              "modality": "Ultrasound",
+              "finding": "Thyroid gland of normal volume, without nodules or parenchymal abnormalities."
+            }
+          ]
+        }
+      }
+    },
+    {
+      "id": "N9",
+      "label": "Step 9",
+      "customData": {
+        "node_id": "I",
+        "node_step_index": 8,
+        "content": "Sunitinib dose reduced to 37.5 mg per day due to worsening hand-foot syndrome.",
+        "timestamp": "2015-03",
+        "clinical_data": {
+          "medications": [
+            {
+              "drug": "C1273498",
+              "dosage": "37.5 mg",
+              "frequency": "per day",
+              "modality": "oral",
+              "start_date": null,
+              "end_date": null,
+              "indication": null
+            }
+          ]
+        }
+      }
+    },
+    {
+      "id": "N10",
+      "label": "Step 10",
+      "customData": {
+        "node_id": "J",
+        "node_step_index": 9,
+        "content": "TSH normalized without therapy after reduction of the sunitinib dose.",
+        "timestamp": "2015-03",
+        "clinical_data": {
+          "medications": [
+            {
+              "drug": "C0974144",
+              "dosage": "reduced",
+              "indication": "Thyroid stimulating hormone level"
+            }
+          ],
+          "labs": [
+            {
+              "test": "C0040448",
+              "value": "normal",
+              "flag": "normal"
+            }
+          ]
+        }
+      }
+    },
+    {
+      "id": "N11",
+      "label": "Step 11",
+      "customData": {
+        "node_id": "K",
+        "node_step_index": 10,
+        "content": "Follow-up neck US showed a thyroid micronodule (4 x 4 x 5 mm, vol 0.042 mL) solid in nature, strongly hypoechoic, with taller-than-wide shape, ill-defined margins, and little peripheral vascularity on Doppler US.",
+        "timestamp": "2016-07",
+        "clinical_data": {
+          "imaging": [
+            {
+              "type": "Thyroid ultrasound",
+              "body_part": "Thyroid",
+              "modality": "Ultrasound",
+              "finding": "Thyroid micronodule (4 x 4 x 5 mm, vol 0.042 mL) solid in nature, strongly hypoechoic, with taller-than-wide shape, ill-defined margins, and little peripheral vascularity on Doppler US"
+            }
+          ]
+        }
+      }
+    },
+    {
+      "id": "N12",
+      "label": "Step 12",
+      "customData": {
+        "node_id": "L",
+        "node_step_index": 11,
+        "content": "Spine MRI showed a suspect metastatic bone lesion in C4 vertebra.",
+        "timestamp": "2017-10",
+        "clinical_data": {
+          "imaging": [
+            {
+              "type": "Magnetic resonance imaging of spine",
+              "body_part": "C4 vertebra",
+              "modality": "MRI",
+              "finding": "suspect metastatic bone lesion"
+            }
+          ]
+        }
+      }
+    },
+    {
+      "id": "N13",
+      "label": "Step 13",
+      "customData": {
+        "node_id": "M",
+        "node_step_index": 12,
+        "content": "Patient continued sunitinib 37.5 mg per day due to stability of the bone lesions at periodic CT and MRI scans.",
+        "clinical_data": {
+          "medications": [
+            {
+              "drug": "sunitinib",
+              "dosage": "37.5 mg",
+              "frequency": "per day",
+              "modality": "oral",
+              "start_date": null,
+              "end_date": null,
+              "indication": "bone lesions"
+            }
+          ],
+          "imaging": [
+            {
+              "type": "CT scan",
+              "body_part": "bone",
+              "modality": "CT",
+              "finding": "stability",
+              "impression": "stability of bone lesions",
+              "date": null
+            },
+            {
+              "type": "MRI scan",
+              "body_part": "bone",
+              "modality": "MRI",
+              "finding": "stability",
+              "impression": "stability of bone lesions",
+              "date": null
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "edges": [
+    {
+      "from": "N1",
+      "to": "N2",
+      "data": {
+        "edge_id": "A_to_B",
+        "branch_flag": true,
+        "content": "Surveillance imaging revealed two suspect osteolytic lesions localized in the L1 and L2 vertebrae."
+      }
+    },
+    {
+      "from": "N2",
+      "to": "N3",
+      "data": {
+        "edge_id": "B_to_C",
+        "branch_flag": true,
+        "content": "Further investigation via bone biopsy confirmed the presence of carcinoma cells compatible with ccRCC in L1 and L2 vertebrae, indicating metastasis."
+      }
+    },
+    {
+      "from": "N3",
+      "to": "N4",
+      "data": {
+        "edge_id": "C_to_D",
+        "branch_flag": true,
+        "content": "Assessment of the patient's overall condition and disease progression resulted in a prognostic Motzer risk score of intermediate."
+      }
+    },
+    {
+      "from": "N4",
+      "to": "N5",
+      "data": {
+        "edge_id": "D_to_E",
+        "branch_flag": true,
+        "content": "Initiation of treatment for metastatic ccRCC with antalgic radiation therapy to L1 and L2, followed by first-line sunitinib and zoledronic acid.",
+        "transition_event": {
+          "trigger_type": "procedure",
+          "trigger_entities": [
+            "C0034342"
+          ],
+          "change_type": "addition",
+          "target_domain": "procedure"
+        }
+      }
+    },
+    {
+      "from": "N5",
+      "to": "N6",
+      "data": {
+        "edge_id": "E_to_F",
+        "branch_flag": true,
+        "content": "Sunitinib schedule adjusted due to Grade 2 asthenia and Grade 2 hand-foot syndrome.",
+        "transition_event": {
+          "trigger_type": "medication_change",
+          "trigger_entities": [
+            "C0974374"
+          ],
+          "change_type": "other",
+          "target_domain": "medication"
+        }
+      }
+    },
+    {
+      "from": "N6",
+      "to": "N7",
+      "data": {
+        "edge_id": "F_to_G",
+        "branch_flag": true,
+        "content": "Patient developed subclinical hypothyroidism, but L-thyroxine replacement therapy was not initiated."
+      }
+    },
+    {
+      "from": "N7",
+      "to": "N8",
+      "data": {
+        "edge_id": "G_to_H",
+        "branch_flag": true,
+        "content": "Further investigation of the thyroid via neck ultrasound showed a thyroid gland of normal volume, without nodules or parenchymal abnormalities."
+      }
+    },
+    {
+      "from": "N8",
+      "to": "N9",
+      "data": {
+        "edge_id": "H_to_I",
+        "branch_flag": true,
+        "content": "Sunitinib dose reduced due to worsening hand-foot syndrome.",
+        "transition_event": {
+          "trigger_type": "medication_change",
+          "trigger_entities": [
+            "C1273498"
+          ],
+          "change_type": "deescalation",
+          "target_domain": "medication"
+        }
+      }
+    },
+    {
+      "from": "N9",
+      "to": "N10",
+      "data": {
+        "edge_id": "I_to_J",
+        "branch_flag": true,
+        "content": "TSH normalized without therapy after reduction of the sunitinib dose.",
+        "transition_event": {
+          "trigger_type": "lab_change",
+          "trigger_entities": [
+            "C0040448"
+          ],
+          "change_type": "resolution",
+          "target_domain": "lab"
+        }
+      }
+    },
+    {
+      "from": "N10",
+      "to": "N11",
+      "data": {
+        "edge_id": "J_to_K",
+        "branch_flag": true,
+        "content": "Follow-up neck US showed a thyroid micronodule with suspicious characteristics."
+      }
+    },
+    {
+      "from": "N11",
+      "to": "N12",
+      "data": {
+        "edge_id": "K_to_L",
+        "branch_flag": true,
+        "content": "Spine MRI showed a suspect metastatic bone lesion in C4 vertebra."
+      }
+    },
+    {
+      "from": "N12",
+      "to": "N13",
+      "data": {
+        "edge_id": "L_to_M",
+        "branch_flag": true,
+        "content": "Patient continued sunitinib due to stability of the bone lesions at periodic CT and MRI scans."
+      }
+    }
+  ]
+}

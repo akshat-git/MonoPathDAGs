@@ -1,0 +1,683 @@
+{
+  "nodes": [
+    {
+      "id": "N1",
+      "label": "Step 1",
+      "customData": {
+        "node_id": "A",
+        "node_step_index": 0,
+        "content": "57-year-old Guatemalan female presented to the emergency department with a 3-month history of persistent cough and globus sensation, initially treated with Symbicort without improvement. She also reported fatigue, dyspnea on exertion, and unintentional weight loss over two weeks. She denied fevers, chills, nausea, hemoptysis, night sweats, joint/bone pain, and other constitutional symptoms.",
+        "clinical_data": {
+          "HPI": [
+            {
+              "summary": "57-year-old female presented with a 3-month history of persistent cough and globus sensation, initially treated with Symbicort without improvement. She also reported fatigue, dyspnea on exertion, and unintentional weight loss over two weeks.",
+              "duration": "3 months",
+              "progression": "unknown",
+              "associated_symptoms": [
+                "C0010200",
+                "C0015967",
+                "C0042071"
+              ]
+            }
+          ],
+          "ROS": [
+            {
+              "system": "constitutional",
+              "findings": [
+                "C0013420",
+                "C0030695"
+              ]
+            }
+          ],
+          "medications": [
+            {
+              "drug": "Symbicort",
+              "indication": "cough",
+              "start_date": null,
+              "end_date": null
+            }
+          ]
+        }
+      }
+    },
+    {
+      "id": "N2",
+      "label": "Step 2",
+      "customData": {
+        "node_id": "B",
+        "node_step_index": 1,
+        "content": "Patient history includes father with lung cancer at age 60, no tobacco use, employment as childcare worker, housecleaner (7 years), and factory worker constructing metal cabinets (7 years).",
+        "clinical_data": {
+          "social_history": [
+            {
+              "category": "smoking",
+              "status": "never",
+              "description": "no tobacco use"
+            }
+          ],
+          "diagnoses": [
+            {
+              "code": "C0024117",
+              "label": "Lung Cancer",
+              "status": "historical"
+            }
+          ]
+        }
+      }
+    },
+    {
+      "id": "N3",
+      "label": "Step 3",
+      "customData": {
+        "node_id": "C",
+        "node_step_index": 2,
+        "content": "Patient was afebrile, tachycardic, hypertensive, with SpO2 of 98% on room air.",
+        "clinical_data": {
+          "vitals": [
+            {
+              "type": "F0777583",
+              "value": "98",
+              "unit": "%",
+              "timestamp": null
+            }
+          ]
+        }
+      }
+    },
+    {
+      "id": "N4",
+      "label": "Step 4",
+      "customData": {
+        "node_id": "D",
+        "node_step_index": 3,
+        "content": "Physical examination revealed right-sided inspiratory crackles and decreased breath sounds throughout the right lung. Procalcitonin 0.22, platelets 456, all other labs within normal limits.",
+        "clinical_data": {
+          "vitals": [
+            {
+              "type": "Breath sounds",
+              "value": "decreased",
+              "unit": null,
+              "timestamp": null
+            }
+          ],
+          "labs": [
+            {
+              "test": "Procalcitonin",
+              "value": "0.22",
+              "unit": null,
+              "flag": "normal",
+              "reference_range": null,
+              "timestamp": null
+            },
+            {
+              "test": "Platelets",
+              "value": "456",
+              "unit": null,
+              "flag": "normal",
+              "reference_range": null,
+              "timestamp": null
+            }
+          ],
+          "physical_exam": [
+            {
+              "finding": "right-sided inspiratory crackles",
+              "location": "right lung"
+            },
+            {
+              "finding": "decreased breath sounds",
+              "location": "right lung"
+            }
+          ]
+        }
+      }
+    },
+    {
+      "id": "N5",
+      "label": "Step 5",
+      "customData": {
+        "node_id": "E",
+        "node_step_index": 4,
+        "content": "Chest X-ray (CXR) showed right-sided pleural effusion, near complete collapse of the ipsilateral lung, and cavitary lesion in the right mid-lung (7.1 cm).",
+        "clinical_data": {
+          "imaging": [
+            {
+              "type": "Radiography (procedure)",
+              "body_part": "Chest",
+              "modality": "X-ray",
+              "finding": "right-sided pleural effusion, near complete collapse of the ipsilateral lung, and cavitary lesion in the right mid-lung",
+              "date": null
+            }
+          ]
+        }
+      }
+    },
+    {
+      "id": "N6",
+      "label": "Step 6",
+      "customData": {
+        "node_id": "F",
+        "node_step_index": 5,
+        "content": "Contrast CT showed right-sided pleural effusion, irregular pleural thickening (>7mm), large centrally necrotized right paratracheal node (2.1 cm), and calcified pleural plaques of the left lung.",
+        "clinical_data": {
+          "imaging": [
+            {
+              "type": "Computed tomography",
+              "body_part": "Pleura",
+              "modality": "CT",
+              "finding": "right-sided pleural effusion",
+              "date": null
+            },
+            {
+              "type": "Computed tomography",
+              "body_part": "Pleura",
+              "modality": "CT",
+              "finding": "irregular pleural thickening (>7mm)",
+              "date": null
+            },
+            {
+              "type": "Computed tomography",
+              "body_part": "Right paratracheal node",
+              "modality": "CT",
+              "finding": "large centrally necrotized right paratracheal node (2.1 cm)",
+              "date": null
+            },
+            {
+              "type": "Computed tomography",
+              "body_part": "Left lung",
+              "modality": "CT",
+              "finding": "calcified pleural plaques of the left lung",
+              "date": null
+            }
+          ]
+        }
+      }
+    },
+    {
+      "id": "N7",
+      "label": "Step 7",
+      "customData": {
+        "node_id": "G",
+        "node_step_index": 6,
+        "content": "CT Chest with contrast axial view: irregular pleural thickening and pleural effusion. Blood cultures, AFB, and staining were performed.",
+        "clinical_data": {
+          "imaging": [
+            {
+              "type": "Chest CT",
+              "body_part": "Pleura",
+              "modality": "CT",
+              "finding": "irregular pleural thickening and pleural effusion"
+            }
+          ],
+          "labs": [
+            {
+              "test": "Blood cultures",
+              "timestamp": null
+            },
+            {
+              "test": "AFB",
+              "timestamp": null
+            },
+            {
+              "test": "staining",
+              "timestamp": null
+            }
+          ]
+        }
+      }
+    },
+    {
+      "id": "N8",
+      "label": "Step 8",
+      "customData": {
+        "node_id": "H",
+        "node_step_index": 7,
+        "content": "Patient was placed in TB isolation and received empirical RIPE therapy (rifampin (RIF), isoniazid (INH), pyrazinamide (PZA), and ethambutol (EMB)) until TB was ruled out.",
+        "clinical_data": {
+          "medications": [
+            {
+              "drug": "C0035424",
+              "dosage": null,
+              "frequency": null,
+              "modality": null,
+              "start_date": null,
+              "end_date": null,
+              "indication": "C0040405"
+            },
+            {
+              "drug": "C0021333",
+              "dosage": null,
+              "frequency": null,
+              "modality": null,
+              "start_date": null,
+              "end_date": null,
+              "indication": "C0040405"
+            },
+            {
+              "drug": "C0034040",
+              "dosage": null,
+              "frequency": null,
+              "modality": null,
+              "start_date": null,
+              "end_date": null,
+              "indication": "C0040405"
+            },
+            {
+              "drug": "C0014874",
+              "dosage": null,
+              "frequency": null,
+              "modality": null,
+              "start_date": null,
+              "end_date": null,
+              "indication": "C0040405"
+            }
+          ],
+          "procedures": [
+            {
+              "name": "C0022249",
+              "approach": null,
+              "date": null,
+              "location": null,
+              "performed_by": null,
+              "outcome": null
+            }
+          ],
+          "diagnoses": [
+            {
+              "code": "C0040405",
+              "label": "Tuberculosis",
+              "status": "suspected",
+              "onset_date": null
+            }
+          ]
+        }
+      }
+    },
+    {
+      "id": "N9",
+      "label": "Step 9",
+      "customData": {
+        "node_id": "I",
+        "node_step_index": 8,
+        "content": "Patient underwent video-assisted thoracotomy surgery with pleural exudate evacuation, pleural resection, decortication, and multilevel intercostal nerve block.",
+        "clinical_data": {
+          "procedures": [
+            {
+              "name": "Thoracotomy",
+              "approach": "other",
+              "date": null,
+              "location": "pleural cavity",
+              "performed_by": null,
+              "outcome": null
+            },
+            {
+              "name": "Exudate Evacuation",
+              "approach": "other",
+              "date": null,
+              "location": "pleural cavity",
+              "performed_by": null,
+              "outcome": null
+            },
+            {
+              "name": "Pleural Resection",
+              "approach": "other",
+              "date": null,
+              "location": "pleural cavity",
+              "performed_by": null,
+              "outcome": null
+            },
+            {
+              "name": "Decortication",
+              "approach": "other",
+              "date": null,
+              "location": "pleural cavity",
+              "performed_by": null,
+              "outcome": null
+            },
+            {
+              "name": "Intercostal Nerve Block",
+              "approach": "other",
+              "date": null,
+              "location": "intercostal nerves",
+              "performed_by": null,
+              "outcome": null
+            }
+          ]
+        }
+      }
+    },
+    {
+      "id": "N10",
+      "label": "Step 10",
+      "customData": {
+        "node_id": "J",
+        "node_step_index": 9,
+        "content": "Pathology report from right pleural frozen sections and pleural exudate showed findings consistent with advanced-stage mesothelioma positive for calretinin, podoplanin (D2-40), and CK5/6. Stain Results: Calretinin Highlights tumor cells, CK 5/6 Highlights tumor cells, D2-40 Highlights tumor cells and vessels, CK7 Highlights tumor cells, WT1 Highlights tumor cells and vessels, CK7 Negative, CK19 Highlights tumor cells, CD3 Highlights reactive T cells, CD20 Highlights reactive T cells, P40 Negative, P63 Negative, TTF-1 Negative, CK20 Negative, CD34 Highlights vessels and nonspecific stromal staining, CD68 Highlights histiocytes, CDX2 Negative, CEA(M) Negative.",
+        "clinical_data": {
+          "labs": [
+            {
+              "test": "Calretinin",
+              "value": "positive",
+              "unit": null,
+              "flag": null,
+              "reference_range": null,
+              "timestamp": null
+            },
+            {
+              "test": "Podoplanin (D2-40)",
+              "value": "positive",
+              "unit": null,
+              "flag": null,
+              "reference_range": null,
+              "timestamp": null
+            },
+            {
+              "test": "CK5/6",
+              "value": "positive",
+              "unit": null,
+              "flag": null,
+              "reference_range": null,
+              "timestamp": null
+            },
+            {
+              "test": "CK7",
+              "value": "positive",
+              "unit": null,
+              "flag": null,
+              "reference_range": null,
+              "timestamp": null
+            },
+            {
+              "test": "WT1",
+              "value": "positive",
+              "unit": null,
+              "flag": null,
+              "reference_range": null,
+              "timestamp": null
+            },
+            {
+              "test": "CK7",
+              "value": "negative",
+              "unit": null,
+              "flag": null,
+              "reference_range": null,
+              "timestamp": null
+            },
+            {
+              "test": "CK19",
+              "value": "positive",
+              "unit": null,
+              "flag": null,
+              "reference_range": null,
+              "timestamp": null
+            },
+            {
+              "test": "CD3",
+              "value": "positive",
+              "unit": null,
+              "flag": null,
+              "reference_range": null,
+              "timestamp": null
+            },
+            {
+              "test": "CD20",
+              "value": "positive",
+              "unit": null,
+              "flag": null,
+              "reference_range": null,
+              "timestamp": null
+            },
+            {
+              "test": "P40",
+              "value": "negative",
+              "unit": null,
+              "flag": null,
+              "reference_range": null,
+              "timestamp": null
+            },
+            {
+              "test": "P63",
+              "value": "negative",
+              "unit": null,
+              "flag": null,
+              "reference_range": null,
+              "timestamp": null
+            },
+            {
+              "test": "TTF-1",
+              "value": "negative",
+              "unit": null,
+              "flag": null,
+              "reference_range": null,
+              "timestamp": null
+            },
+            {
+              "test": "CK20",
+              "value": "negative",
+              "unit": null,
+              "flag": null,
+              "reference_range": null,
+              "timestamp": null
+            },
+            {
+              "test": "CD34",
+              "value": "positive",
+              "unit": null,
+              "flag": null,
+              "reference_range": null,
+              "timestamp": null
+            },
+            {
+              "test": "CD68",
+              "value": "positive",
+              "unit": null,
+              "flag": null,
+              "reference_range": null,
+              "timestamp": null
+            },
+            {
+              "test": "CDX2",
+              "value": "negative",
+              "unit": null,
+              "flag": null,
+              "reference_range": null,
+              "timestamp": null
+            },
+            {
+              "test": "CEA(M)",
+              "value": "negative",
+              "unit": null,
+              "flag": null,
+              "reference_range": null,
+              "timestamp": null
+            }
+          ],
+          "diagnoses": [
+            {
+              "code": null,
+              "label": "advanced-stage mesothelioma",
+              "status": "active",
+              "onset_date": null
+            }
+          ]
+        }
+      }
+    },
+    {
+      "id": "N11",
+      "label": "Step 11",
+      "customData": {
+        "node_id": "K",
+        "node_step_index": 10,
+        "content": "Patient discharged home with outpatient chemotherapy arrangements.",
+        "clinical_data": {}
+      }
+    },
+    {
+      "id": "N12",
+      "label": "Step 12",
+      "customData": {
+        "node_id": "L",
+        "node_step_index": 11,
+        "content": "Patient passed away a month later due to disease progression and associated complications.",
+        "clinical_data": {}
+      }
+    }
+  ],
+  "edges": [
+    {
+      "from": "N1",
+      "to": "N2",
+      "data": {
+        "edge_id": "A_to_B",
+        "branch_flag": true,
+        "content": "Transition from initial presentation to patient history review."
+      }
+    },
+    {
+      "from": "N2",
+      "to": "N3",
+      "data": {
+        "edge_id": "B_to_C",
+        "branch_flag": true,
+        "content": "Transition from patient history to vital signs assessment."
+      }
+    },
+    {
+      "from": "N3",
+      "to": "N4",
+      "data": {
+        "edge_id": "C_to_D",
+        "branch_flag": true,
+        "content": "Transition from vital signs to physical examination and initial lab results.",
+        "transition_event": {
+          "trigger_type": "lab_change",
+          "trigger_entities": [],
+          "change_type": "other",
+          "target_domain": "lab"
+        }
+      }
+    },
+    {
+      "from": "N4",
+      "to": "N5",
+      "data": {
+        "edge_id": "D_to_E",
+        "branch_flag": true,
+        "content": "Transition from physical examination and initial labs to chest X-ray findings.",
+        "transition_event": {
+          "trigger_type": "imaging",
+          "trigger_entities": [],
+          "change_type": "addition",
+          "target_domain": "imaging"
+        }
+      }
+    },
+    {
+      "from": "N5",
+      "to": "N6",
+      "data": {
+        "edge_id": "E_to_F",
+        "branch_flag": true,
+        "content": "Transition from chest X-ray to contrast CT findings.",
+        "transition_event": {
+          "trigger_type": "imaging",
+          "trigger_entities": [],
+          "change_type": "addition",
+          "target_domain": "imaging"
+        }
+      }
+    },
+    {
+      "from": "N6",
+      "to": "N7",
+      "data": {
+        "edge_id": "F_to_G",
+        "branch_flag": true,
+        "content": "Transition from contrast CT to further imaging and lab tests (blood cultures, AFB, staining).",
+        "transition_event": {
+          "trigger_type": "lab_change",
+          "trigger_entities": [],
+          "change_type": "addition",
+          "target_domain": "lab"
+        }
+      }
+    },
+    {
+      "from": "N7",
+      "to": "N8",
+      "data": {
+        "edge_id": "G_to_H",
+        "branch_flag": true,
+        "content": "Transition to TB isolation and empirical RIPE therapy initiation.",
+        "transition_event": {
+          "trigger_type": "medication_change",
+          "trigger_entities": [
+            "C0035424",
+            "C0021333",
+            "C0034040",
+            "C0014874"
+          ],
+          "change_type": "addition",
+          "target_domain": "medication"
+        }
+      }
+    },
+    {
+      "from": "N8",
+      "to": "N9",
+      "data": {
+        "edge_id": "H_to_I",
+        "branch_flag": true,
+        "content": "Transition from empirical TB treatment to video-assisted thoracotomy surgery.",
+        "transition_event": {
+          "trigger_type": "procedure",
+          "trigger_entities": [],
+          "change_type": "addition",
+          "target_domain": "procedure"
+        }
+      }
+    },
+    {
+      "from": "N9",
+      "to": "N10",
+      "data": {
+        "edge_id": "I_to_J",
+        "branch_flag": true,
+        "content": "Transition from surgery to pathology report confirming mesothelioma.",
+        "transition_event": {
+          "trigger_type": "lab_change",
+          "trigger_entities": [],
+          "change_type": "reinterpretation",
+          "target_domain": "diagnosis"
+        }
+      }
+    },
+    {
+      "from": "N10",
+      "to": "N11",
+      "data": {
+        "edge_id": "J_to_K",
+        "branch_flag": true,
+        "content": "Transition from mesothelioma diagnosis to discharge with outpatient chemotherapy arrangements.",
+        "transition_event": {
+          "trigger_type": "medication_change",
+          "trigger_entities": [],
+          "change_type": "addition",
+          "target_domain": "medication"
+        }
+      }
+    },
+    {
+      "from": "N11",
+      "to": "N12",
+      "data": {
+        "edge_id": "K_to_L",
+        "branch_flag": true,
+        "content": "Transition to patient's death due to disease progression.",
+        "transition_event": {
+          "trigger_type": "spontaneous"
+        }
+      }
+    }
+  ]
+}

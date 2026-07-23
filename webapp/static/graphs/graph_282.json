@@ -1,0 +1,369 @@
+{
+  "nodes": [
+    {
+      "id": "N1",
+      "label": "Step 1",
+      "customData": {
+        "node_id": "A",
+        "node_step_index": 0,
+        "content": "67-year-old male diagnosed with advanced adenocarcinoma of the right lung (cT3N0M1a, stage IVA) in March 2021. Tumor proportion score of programmed cell death ligand-1 was 20\u201330%.",
+        "clinical_data": {
+          "diagnoses": [
+            {
+              "code": "C0001637",
+              "label": "Adenocarcinoma",
+              "status": "active",
+              "onset_date": "2021-03"
+            }
+          ],
+          "imaging": [
+            {
+              "body_part": "C0225913",
+              "modality": "CT",
+              "finding": "Tumor",
+              "date": "2021-03"
+            }
+          ]
+        }
+      }
+    },
+    {
+      "id": "N2",
+      "label": "Step 2",
+      "customData": {
+        "node_id": "B",
+        "node_step_index": 1,
+        "content": "Medical history notable for squamous cell carcinoma of the right lung, for which he had received chemoradiotherapy and lung lobectomy of the right upper lobe 19 years ago. Smoking history of 30 pack-years.",
+        "clinical_data": {
+          "diagnoses": [
+            {
+              "code": "C0007123",
+              "label": "Squamous cell carcinoma of lung",
+              "status": "historical",
+              "onset_date": null
+            }
+          ],
+          "procedures": [
+            {
+              "name": "C0158475",
+              "approach": "open",
+              "date": null,
+              "location": "Right upper lobe of lung",
+              "performed_by": null,
+              "outcome": null
+            }
+          ],
+          "social_history": [
+            {
+              "category": "smoking",
+              "status": "past",
+              "description": "30 pack-years"
+            }
+          ]
+        }
+      }
+    },
+    {
+      "id": "N3",
+      "label": "Step 3",
+      "customData": {
+        "node_id": "C",
+        "node_step_index": 2,
+        "content": "April: Immunochemotherapy initiated with nivolumab (360 mg IV every 3 weeks), ipilimumab (1 mg/kg IV every 6 weeks), carboplatin, and pemetrexed as induction therapy. Received 11 cycles of nivolumab and six cycles of ipilimumab combined with carboplatin and pemetrexed for the first two cycles (every 3 weeks). Carcinoembryonic antigen levels decreased from 23.8 ng/mL at referral to 5.2 ng/mL at the 10th cycle of nivolumab.",
+        "clinical_data": {
+          "medications": [
+            {
+              "drug": "C0028328",
+              "dosage": "360 mg",
+              "frequency": "every 3 weeks",
+              "modality": "IV",
+              "start_date": "XXXX-04",
+              "end_date": null,
+              "indication": "Neoplasm"
+            },
+            {
+              "drug": "C0888062",
+              "dosage": "1 mg/kg",
+              "frequency": "every 6 weeks",
+              "modality": "IV",
+              "start_date": "XXXX-04",
+              "end_date": null,
+              "indication": "Neoplasm"
+            },
+            {
+              "drug": "C0007277",
+              "dosage": null,
+              "frequency": "every 3 weeks",
+              "modality": "IV",
+              "start_date": "XXXX-04",
+              "end_date": null,
+              "indication": "Neoplasm"
+            },
+            {
+              "drug": "C0876091",
+              "dosage": null,
+              "frequency": "every 3 weeks",
+              "modality": "IV",
+              "start_date": "XXXX-04",
+              "end_date": null,
+              "indication": "Neoplasm"
+            }
+          ],
+          "labs": [
+            {
+              "test": "C0007099",
+              "value": "23.8",
+              "unit": "ng/mL",
+              "flag": "abnormal",
+              "timestamp": "XXXX"
+            },
+            {
+              "test": "C0007099",
+              "value": "5.2",
+              "unit": "ng/mL",
+              "flag": "abnormal",
+              "timestamp": "XXXX"
+            }
+          ]
+        }
+      }
+    },
+    {
+      "id": "N4",
+      "label": "Step 4",
+      "customData": {
+        "node_id": "D",
+        "node_step_index": 3,
+        "content": "CT scan at the 11th cycle of nivolumab revealed stable disease.",
+        "clinical_data": {
+          "imaging": [
+            {
+              "modality": "CT",
+              "finding": "stable disease",
+              "date": null
+            }
+          ],
+          "medications": [
+            {
+              "drug": "nivolumab",
+              "dosage": null,
+              "frequency": null,
+              "modality": null,
+              "start_date": null,
+              "end_date": null,
+              "indication": null
+            }
+          ]
+        }
+      }
+    },
+    {
+      "id": "N5",
+      "label": "Step 5",
+      "customData": {
+        "node_id": "E",
+        "node_step_index": 4,
+        "content": "October 20: Patient complained of dyspnea and manifested acute respiratory failure (arterial blood oxygen saturation measured by pulse oximetry was 85% under room air conditions). Chest CT scan revealed the emergence of diffuse grand-grass opacity predominantly in the left lower lobe of the lung. The primary lesions in the right lung did not progress. The serum carcinoembryonic antigen was 6.2 ng/mL.",
+        "clinical_data": {
+          "HPI": [
+            {
+              "summary": "Patient complained of dyspnea.",
+              "onset": "October 20"
+            }
+          ],
+          "vitals": [
+            {
+              "type": "Arterial blood oxygen saturation measured by pulse oximetry",
+              "value": "85",
+              "unit": "%",
+              "timestamp": "2020-10-20"
+            }
+          ],
+          "diagnoses": [
+            {
+              "code": "59497007",
+              "label": "Respiratory failure",
+              "status": "active",
+              "onset_date": "2020-10-20"
+            }
+          ],
+          "imaging": [
+            {
+              "type": "CT scan",
+              "body_part": "Chest",
+              "modality": "CT",
+              "finding": "Diffuse grand-grass opacity predominantly in the left lower lobe of the lung.",
+              "date": "2020-10-20"
+            }
+          ],
+          "labs": [
+            {
+              "test": "Carcinoembryonic antigen measurement",
+              "value": "6.2",
+              "unit": "ng/mL",
+              "timestamp": "2020-10-20"
+            }
+          ]
+        }
+      }
+    },
+    {
+      "id": "N6",
+      "label": "Step 6",
+      "customData": {
+        "node_id": "F",
+        "node_step_index": 5,
+        "content": "After two cycles of docetaxel and ramucirumab, diffuse grand-grass opacity in the lungs regressed. Suspected interstitial pneumonitis induced by immunotherapy. Underwent bronchoscopy and bronchoalveolar lavage (BAL) fluid sampling. Transbronchial lung biopsy (TBLB) was withheld concerning complications.",
+        "clinical_data": {
+          "medications": [
+            {
+              "drug": "C0013074",
+              "dosage": null,
+              "frequency": null,
+              "modality": null,
+              "start_date": null,
+              "end_date": null,
+              "indication": "C0009450"
+            },
+            {
+              "drug": "C3258829",
+              "dosage": null,
+              "frequency": null,
+              "modality": null,
+              "start_date": null,
+              "end_date": null,
+              "indication": "C0009450"
+            }
+          ],
+          "imaging": [
+            {
+              "type": "C0205031",
+              "body_part": "C0024077",
+              "modality": "X-ray",
+              "finding": "diffuse grand-grass opacity regressed",
+              "impression": null,
+              "date": null
+            }
+          ],
+          "diagnoses": [
+            {
+              "code": "C0206242",
+              "label": "Interstitial pneumonitis",
+              "status": "suspected",
+              "onset_date": null
+            }
+          ],
+          "procedures": [
+            {
+              "name": "C0006266",
+              "approach": "endoscopic",
+              "date": null,
+              "location": "C0005823",
+              "performed_by": null,
+              "outcome": null
+            },
+            {
+              "name": "C0277955",
+              "approach": "endoscopic",
+              "date": null,
+              "location": "C0024077",
+              "performed_by": null,
+              "outcome": null
+            },
+            {
+              "name": "C0158674",
+              "approach": "other",
+              "date": null,
+              "location": "C0024077",
+              "performed_by": null,
+              "outcome": null
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "edges": [
+    {
+      "from": "N1",
+      "to": "N2",
+      "data": {
+        "edge_id": "A_to_B",
+        "branch_flag": true,
+        "content": "Patient history of squamous cell carcinoma of the right lung treated with chemoradiotherapy and lung lobectomy 19 years prior. Smoking history of 30 pack-years."
+      }
+    },
+    {
+      "from": "N2",
+      "to": "N3",
+      "data": {
+        "edge_id": "B_to_C",
+        "branch_flag": true,
+        "content": "Initiation of immunochemotherapy with nivolumab, ipilimumab, carboplatin, and pemetrexed in April. Carcinoembryonic antigen levels decreased from 23.8 ng/mL to 5.2 ng/mL after 10 cycles of nivolumab.",
+        "transition_event": {
+          "trigger_type": "medication_change",
+          "trigger_entities": [
+            "C0028328",
+            "C0888062",
+            "C0007277",
+            "C0876091"
+          ],
+          "change_type": "addition",
+          "target_domain": "medication",
+          "timestamp": "XXXX-04"
+        }
+      }
+    },
+    {
+      "from": "N3",
+      "to": "N4",
+      "data": {
+        "edge_id": "C_to_D",
+        "branch_flag": true,
+        "content": "CT scan after 11 cycles of nivolumab showed stable disease.",
+        "transition_event": {
+          "trigger_type": "imaging",
+          "trigger_entities": [],
+          "change_type": "other",
+          "target_domain": "imaging"
+        }
+      }
+    },
+    {
+      "from": "N4",
+      "to": "N5",
+      "data": {
+        "edge_id": "D_to_E",
+        "branch_flag": true,
+        "content": "Patient complained of dyspnea and manifested acute respiratory failure with decreased oxygen saturation (85%). Chest CT revealed diffuse grand-grass opacity in the left lower lobe. Serum carcinoembryonic antigen was 6.2 ng/mL.",
+        "transition_event": {
+          "trigger_type": "symptom_onset",
+          "trigger_entities": [
+            "C0013404"
+          ],
+          "change_type": "progression",
+          "target_domain": "symptom",
+          "timestamp": "2020-10-20"
+        }
+      }
+    },
+    {
+      "from": "N5",
+      "to": "N6",
+      "data": {
+        "edge_id": "E_to_F",
+        "branch_flag": true,
+        "content": "After two cycles of docetaxel and ramucirumab, diffuse grand-grass opacity in the lungs regressed. Suspected interstitial pneumonitis induced by immunotherapy. Underwent bronchoscopy and bronchoalveolar lavage (BAL) fluid sampling. Transbronchial lung biopsy (TBLB) was withheld concerning complications.",
+        "transition_event": {
+          "trigger_type": "medication_change",
+          "trigger_entities": [
+            "C0013074",
+            "C3258829"
+          ],
+          "change_type": "addition",
+          "target_domain": "medication"
+        }
+      }
+    }
+  ]
+}

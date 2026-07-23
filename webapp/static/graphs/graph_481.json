@@ -1,0 +1,284 @@
+{
+  "nodes": [
+    {
+      "id": "N1",
+      "label": "Step 1",
+      "customData": {
+        "node_id": "A",
+        "node_step_index": 0,
+        "content": "65-year-old male ex-smoker presented with left shoulder pain and abnormalities on chest radiography. Computed tomography revealed a 4 cm left apical mass.",
+        "clinical_data": {
+          "social_history": [
+            {
+              "category": "smoking",
+              "status": "past",
+              "description": "ex-smoker"
+            }
+          ],
+          "HPI": [
+            {
+              "summary": "left shoulder pain",
+              "onset": "unknown"
+            }
+          ],
+          "imaging": [
+            {
+              "type": "mass",
+              "body_part": "lung apex",
+              "modality": "CT",
+              "finding": "4 cm left apical mass"
+            }
+          ]
+        }
+      }
+    },
+    {
+      "id": "N2",
+      "label": "Step 2",
+      "customData": {
+        "node_id": "B",
+        "node_step_index": 1,
+        "content": "History of tracheostomy due to purulent tonsillitis 10 years ago. Pulmonary function was normal (forced expiratory volume in 1 second 105%; diffusing capacity for carbon monoxide 121%).",
+        "clinical_data": {
+          "procedures": [
+            {
+              "name": "Tracheostomy",
+              "date": "10 years ago",
+              "outcome": "historical"
+            }
+          ],
+          "diagnoses": [
+            {
+              "code": "http://purl.bioontology.org/ontology/ICD10/J03.90",
+              "label": "Acute tonsillitis, unspecified",
+              "status": "historical",
+              "onset_date": "10 years ago"
+            }
+          ],
+          "labs": [
+            {
+              "test": "Forced expiratory volume in 1 second",
+              "value": "105",
+              "unit": "%",
+              "flag": "normal"
+            },
+            {
+              "test": "Diffusing capacity for carbon monoxide",
+              "value": "121",
+              "unit": "%",
+              "flag": "normal"
+            }
+          ]
+        }
+      }
+    },
+    {
+      "id": "N3",
+      "label": "Step 3",
+      "customData": {
+        "node_id": "C",
+        "node_step_index": 2,
+        "content": "Transbronchial biopsy revealed squamous cell carcinoma. PET scan showed no nodal or distant metastases. Endobronchial ultrasound-guided biopsy of the mediastinal lymph nodes (station 4R and 7) negative for malignancy. Tumor invasion of the left subclavian vein and the sternal attachment of the first rib and anterior aspect of the second rib (cT4N0M0). MRI confirmed chest wall and vein invasion, but no apparent invasion to the left subclavian artery or brachial plexus. Left subclavian vein thrombus detected that was not evident on computed tomography at the time of presentation (3-week interval). Preoperative CT of the chest showed the tumor invading close to the sternoclavicular joint and thrombus in the left subclavian vein adjacent to the tumor.",
+        "clinical_data": {
+          "imaging": [
+            {
+              "type": "Positron emission tomography",
+              "body_part": "entire body",
+              "modality": "PET",
+              "finding": "no nodal or distant metastases",
+              "impression": "no nodal or distant metastases",
+              "date": null
+            },
+            {
+              "type": "Computed tomography",
+              "body_part": "chest",
+              "modality": "CT",
+              "finding": "tumor invading close to the sternoclavicular joint and thrombus in the left subclavian vein adjacent to the tumor",
+              "impression": "tumor invading close to the sternoclavicular joint and thrombus in the left subclavian vein adjacent to the tumor",
+              "date": null
+            },
+            {
+              "type": "Magnetic resonance imaging",
+              "body_part": "chest wall and vein",
+              "modality": "MRI",
+              "finding": "chest wall and vein invasion, but no apparent invasion to the left subclavian artery or brachial plexus",
+              "impression": "chest wall and vein invasion, but no apparent invasion to the left subclavian artery or brachial plexus",
+              "date": null
+            }
+          ],
+          "procedures": [
+            {
+              "name": "Transbronchial biopsy",
+              "approach": "other",
+              "date": null,
+              "location": "lung",
+              "performed_by": null,
+              "outcome": null
+            },
+            {
+              "name": "Endobronchial ultrasound-guided biopsy",
+              "approach": "endoscopic",
+              "date": null,
+              "location": "mediastinal lymph nodes",
+              "performed_by": null,
+              "outcome": null
+            }
+          ],
+          "diagnoses": [
+            {
+              "code": "C0038990",
+              "label": "Squamous cell carcinoma",
+              "status": "active",
+              "onset_date": null
+            }
+          ]
+        }
+      }
+    },
+    {
+      "id": "N4",
+      "label": "Step 4",
+      "customData": {
+        "node_id": "D",
+        "node_step_index": 3,
+        "content": "Intraoperative image after resection of the chest wall as well as the left upper lobe.",
+        "clinical_data": {
+          "imaging": [
+            {
+              "type": "Intraoperative image",
+              "body_part": "Chest wall",
+              "modality": "other",
+              "finding": "resection",
+              "date": null
+            },
+            {
+              "type": "Intraoperative image",
+              "body_part": "Left upper lobe",
+              "modality": "other",
+              "finding": "resection",
+              "date": null
+            }
+          ],
+          "procedures": [
+            {
+              "name": "Resection",
+              "approach": "open",
+              "date": null,
+              "location": "Chest wall",
+              "performed_by": null,
+              "outcome": null
+            },
+            {
+              "name": "Resection",
+              "approach": "open",
+              "date": null,
+              "location": "Left upper lobe",
+              "performed_by": null,
+              "outcome": null
+            }
+          ]
+        }
+      }
+    },
+    {
+      "id": "N5",
+      "label": "Step 5",
+      "customData": {
+        "node_id": "E",
+        "node_step_index": 4,
+        "content": "View of the shoulder motion 1 month after surgery.",
+        "clinical_data": {}
+      }
+    },
+    {
+      "id": "N6",
+      "label": "Step 6",
+      "customData": {
+        "node_id": "F",
+        "node_step_index": 5,
+        "content": "Tumor discussed with cardiology department. Risk of pulmonary thrombosis during standard induction therapy was significant even on anticoagulation therapy.",
+        "clinical_data": {
+          "diagnoses": [
+            {
+              "code": "C0034074",
+              "label": "Pulmonary Thrombosis",
+              "status": "suspected"
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "edges": [
+    {
+      "from": "N1",
+      "to": "N2",
+      "data": {
+        "edge_id": "A_to_B",
+        "branch_flag": true,
+        "content": "Interval history and pulmonary function tests performed."
+      }
+    },
+    {
+      "from": "N2",
+      "to": "N3",
+      "data": {
+        "edge_id": "B_to_C",
+        "branch_flag": true,
+        "content": "Diagnostic workup including transbronchial biopsy, PET scan, and endobronchial ultrasound-guided biopsy performed, revealing squamous cell carcinoma with tumor invasion of the left subclavian vein and the sternal attachment of the first rib and anterior aspect of the second rib (cT4N0M0). MRI confirmed chest wall and vein invasion, but no apparent invasion to the left subclavian artery or brachial plexus. Left subclavian vein thrombus detected.",
+        "transition_event": {
+          "trigger_type": "procedure",
+          "trigger_entities": [
+            "C0005542"
+          ],
+          "change_type": "addition",
+          "target_domain": "diagnosis"
+        }
+      }
+    },
+    {
+      "from": "N3",
+      "to": "N4",
+      "data": {
+        "edge_id": "C_to_D",
+        "branch_flag": true,
+        "content": "Resection of the chest wall and left upper lobe performed.",
+        "transition_event": {
+          "trigger_type": "procedure",
+          "trigger_entities": [
+            "C0035210",
+            "C0023447"
+          ],
+          "change_type": "addition",
+          "target_domain": "procedure"
+        }
+      }
+    },
+    {
+      "from": "N4",
+      "to": "N5",
+      "data": {
+        "edge_id": "D_to_E",
+        "branch_flag": true,
+        "content": "One month post-operative follow-up."
+      }
+    },
+    {
+      "from": "N5",
+      "to": "N6",
+      "data": {
+        "edge_id": "E_to_F",
+        "branch_flag": true,
+        "content": "Tumor board discussion with cardiology regarding risk of pulmonary thrombosis during standard induction therapy.",
+        "transition_event": {
+          "trigger_type": "interpretation",
+          "trigger_entities": [
+            "C0034074"
+          ],
+          "change_type": "addition",
+          "target_domain": "diagnosis"
+        }
+      }
+    }
+  ]
+}

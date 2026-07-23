@@ -1,0 +1,365 @@
+{
+  "nodes": [
+    {
+      "id": "N1",
+      "label": "Step 1",
+      "customData": {
+        "node_id": "A",
+        "node_step_index": 0,
+        "content": "Patient underwent palliative radiotherapy to whole cervical spine (20 Gy in 5 fractions), right iliac crest and femur in October 2021.",
+        "clinical_data": {
+          "procedures": [
+            {
+              "name": "Palliative radiotherapy",
+              "date": "2021-10",
+              "location": "cervical spine",
+              "approach": "other"
+            },
+            {
+              "name": "Palliative radiotherapy",
+              "date": "2021-10",
+              "location": "iliac crest",
+              "approach": "other"
+            },
+            {
+              "name": "Palliative radiotherapy",
+              "date": "2021-10",
+              "location": "femur",
+              "approach": "other"
+            }
+          ]
+        }
+      }
+    },
+    {
+      "id": "N2",
+      "label": "Step 2",
+      "customData": {
+        "node_id": "B",
+        "node_step_index": 1,
+        "content": "Patient received four cycles of carboplatin/pemetrexed with partial response in lungs and mediastinal lymph nodes and stable bone metastases.",
+        "clinical_data": {
+          "medications": [
+            {
+              "drug": "C0631476",
+              "dosage": null,
+              "frequency": null,
+              "modality": null,
+              "start_date": null,
+              "end_date": null,
+              "indication": "M1056919"
+            },
+            {
+              "drug": "C1239839",
+              "dosage": null,
+              "frequency": null,
+              "modality": null,
+              "start_date": null,
+              "end_date": null,
+              "indication": "M1056919"
+            }
+          ],
+          "imaging": [
+            {
+              "type": "C0023884",
+              "body_part": "C0024131",
+              "modality": null,
+              "finding": "Partial response",
+              "impression": null,
+              "date": null
+            },
+            {
+              "type": "C0023884",
+              "body_part": "C0025205",
+              "modality": null,
+              "finding": "Partial response",
+              "impression": null,
+              "date": null
+            },
+            {
+              "type": "C0006274",
+              "body_part": "C0005731",
+              "modality": null,
+              "finding": "Stable",
+              "impression": null,
+              "date": null
+            }
+          ]
+        }
+      }
+    },
+    {
+      "id": "N3",
+      "label": "Step 3",
+      "customData": {
+        "node_id": "C",
+        "node_step_index": 2,
+        "content": "Patient commenced on maintenance pembrolizumab (200 mg every 3 weeks) from February 2022 and received seven cycles prior to symptom onset.",
+        "clinical_data": {
+          "medications": [
+            {
+              "drug": "C3828731",
+              "dosage": "200 mg",
+              "frequency": "every 3 weeks",
+              "modality": "IV",
+              "start_date": "2022-02",
+              "end_date": null,
+              "indication": "maintenance"
+            }
+          ]
+        }
+      }
+    },
+    {
+      "id": "N4",
+      "label": "Step 4",
+      "customData": {
+        "node_id": "D",
+        "node_step_index": 3,
+        "content": "Two months following initial presentation, patient underwent a progress FDG-PET/CT which demonstrated increasing size and metabolic activity within at least two liver and multiple skeletal metastases, consistent with disease progression.",
+        "clinical_data": {
+          "imaging": [
+            {
+              "type": "Positron emission tomography/computed tomography",
+              "body_part": "liver",
+              "modality": "PET/CT",
+              "finding": "increasing size and metabolic activity within at least two liver and multiple skeletal metastases",
+              "impression": "consistent with disease progression",
+              "date": null
+            }
+          ]
+        }
+      }
+    },
+    {
+      "id": "N5",
+      "label": "Step 5",
+      "customData": {
+        "node_id": "E",
+        "node_step_index": 4,
+        "content": "Patient was rechallenged with nivolumab monotherapy.",
+        "clinical_data": {
+          "medications": [
+            {
+              "drug": "C1876553",
+              "dosage": null,
+              "frequency": null,
+              "modality": null,
+              "start_date": null,
+              "end_date": null,
+              "indication": null
+            }
+          ]
+        }
+      }
+    },
+    {
+      "id": "N6",
+      "label": "Step 6",
+      "customData": {
+        "node_id": "F",
+        "node_step_index": 5,
+        "content": "Two months later, a progress FDG/PET demonstrated an increase in size and activity of multiple bone and liver metastases.",
+        "clinical_data": {
+          "imaging": [
+            {
+              "type": "Fluorodeoxyglucose-PET",
+              "body_part": "bone and liver",
+              "modality": "PET",
+              "finding": "increase in size and activity of multiple bone and liver metastases",
+              "date": null
+            }
+          ]
+        }
+      }
+    },
+    {
+      "id": "N7",
+      "label": "Step 7",
+      "customData": {
+        "node_id": "G",
+        "node_step_index": 6,
+        "content": "Nivolumab was discontinued and patient was referred to palliative care 6 months after initial presentation.",
+        "clinical_data": {
+          "medications": [
+            {
+              "drug": "Nivolumab",
+              "dosage": null,
+              "frequency": null,
+              "modality": null,
+              "start_date": null,
+              "end_date": null,
+              "indication": null
+            }
+          ],
+          "procedures": [
+            {
+              "name": "Palliative Care",
+              "approach": null,
+              "date": null,
+              "location": null,
+              "performed_by": null,
+              "outcome": null
+            }
+          ]
+        }
+      }
+    },
+    {
+      "id": "N8",
+      "label": "Step 8",
+      "customData": {
+        "node_id": "H",
+        "node_step_index": 7,
+        "content": "Pre-morbidly, patient occasionally required crutches for mobility at home due to severe hip osteoarthritis, but otherwise he was independent with activities of daily living.",
+        "clinical_data": {
+          "functional_status": [
+            {
+              "domain": "mobility",
+              "description": "occasionally required crutches for mobility at home due to severe hip osteoarthritis",
+              "status": "past"
+            },
+            {
+              "domain": "ADLs",
+              "description": "independent with activities of daily living",
+              "status": "past"
+            }
+          ],
+          "diagnoses": [
+            {
+              "code": "54530004",
+              "label": "Osteoarthritis of hip",
+              "status": "historical"
+            }
+          ]
+        }
+      }
+    },
+    {
+      "id": "N9",
+      "label": "Step 9",
+      "customData": {
+        "node_id": "I",
+        "node_step_index": 8,
+        "clinical_data": {}
+      }
+    }
+  ],
+  "edges": [
+    {
+      "from": "N1",
+      "to": "N2",
+      "data": {
+        "edge_id": "A_to_B",
+        "branch_flag": true,
+        "content": "Transition from palliative radiotherapy to carboplatin/pemetrexed chemotherapy."
+      }
+    },
+    {
+      "from": "N2",
+      "to": "N3",
+      "data": {
+        "edge_id": "B_to_C",
+        "branch_flag": true,
+        "content": "Transition from carboplatin/pemetrexed chemotherapy to maintenance pembrolizumab.",
+        "transition_event": {
+          "trigger_type": "medication_change",
+          "trigger_entities": [
+            "C3828731"
+          ],
+          "change_type": "addition",
+          "target_domain": "medication",
+          "timestamp": "2022-02"
+        }
+      }
+    },
+    {
+      "from": "N3",
+      "to": "N4",
+      "data": {
+        "edge_id": "C_to_D",
+        "branch_flag": true,
+        "content": "Transition from maintenance pembrolizumab to disease progression.",
+        "transition_event": {
+          "trigger_type": "symptom_onset",
+          "trigger_entities": [],
+          "change_type": "progression",
+          "target_domain": "diagnosis"
+        }
+      }
+    },
+    {
+      "from": "N4",
+      "to": "N5",
+      "data": {
+        "edge_id": "D_to_E",
+        "branch_flag": true,
+        "content": "Transition from disease progression to rechallenge with nivolumab monotherapy.",
+        "transition_event": {
+          "trigger_type": "medication_change",
+          "trigger_entities": [
+            "C1876553"
+          ],
+          "change_type": "addition",
+          "target_domain": "medication"
+        }
+      }
+    },
+    {
+      "from": "N5",
+      "to": "N6",
+      "data": {
+        "edge_id": "E_to_F",
+        "branch_flag": true,
+        "content": "Transition from nivolumab monotherapy to increase in size and activity of multiple bone and liver metastases.",
+        "transition_event": {
+          "trigger_type": "symptom_onset",
+          "trigger_entities": [],
+          "change_type": "progression",
+          "target_domain": "diagnosis"
+        }
+      }
+    },
+    {
+      "from": "N6",
+      "to": "N7",
+      "data": {
+        "edge_id": "F_to_G",
+        "branch_flag": true,
+        "content": "Transition from disease progression on nivolumab to discontinuation of nivolumab and referral to palliative care.",
+        "transition_event": {
+          "trigger_type": "medication_change",
+          "trigger_entities": [
+            "C1876553"
+          ],
+          "change_type": "discontinuation",
+          "target_domain": "medication"
+        }
+      }
+    },
+    {
+      "from": "N7",
+      "to": "N8",
+      "data": {
+        "edge_id": "G_to_H",
+        "branch_flag": true,
+        "content": "Transition from palliative care referral to pre-morbid functional status.",
+        "transition_event": {
+          "trigger_type": "interpretation",
+          "trigger_entities": [],
+          "change_type": "reinterpretation",
+          "target_domain": "functional_status"
+        }
+      }
+    },
+    {
+      "from": "N8",
+      "to": "N9",
+      "data": {
+        "edge_id": "H_to_I",
+        "branch_flag": true,
+        "content": "Transition to end of case report."
+      }
+    }
+  ]
+}

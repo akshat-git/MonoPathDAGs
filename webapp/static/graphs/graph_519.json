@@ -1,0 +1,623 @@
+{
+  "nodes": [
+    {
+      "id": "N1",
+      "label": "Step 1",
+      "customData": {
+        "node_id": "A",
+        "node_step_index": 0,
+        "content": "48-year-old man with a 28-year history of smoking presented with abnormal shadow in left lung. Diagnosed with lung adenocarcinoma in the left upper lobe with left adrenal metastasis (cT2aN2M1b, Stage IVA) with PD-L1 tumor proportion score of 1-49%.",
+        "clinical_data": {
+          "social_history": [
+            {
+              "category": "smoking",
+              "status": "past",
+              "description": "28-year history of smoking"
+            }
+          ],
+          "diagnoses": [
+            {
+              "code": "C34.9",
+              "label": "Lung adenocarcinoma",
+              "status": "active",
+              "onset_date": null
+            },
+            {
+              "code": "C79.6",
+              "label": "Metastatic cancer of adrenal gland",
+              "status": "active",
+              "onset_date": null
+            }
+          ],
+          "imaging": [
+            {
+              "type": "Shadow",
+              "body_part": "Left lung",
+              "modality": "X-ray",
+              "finding": "abnormal shadow",
+              "impression": "abnormal shadow",
+              "date": null
+            }
+          ]
+        }
+      }
+    },
+    {
+      "id": "N2",
+      "label": "Step 2",
+      "customData": {
+        "node_id": "B",
+        "node_step_index": 1,
+        "content": "Received four cycles of cisplatin, pemetrexed and bevacizumab as first-line therapy, followed by pemetrexed and bevacizumab as maintenance therapy for two cycles.",
+        "clinical_data": {
+          "medications": [
+            {
+              "drug": "C0008893",
+              "dosage": null,
+              "frequency": null,
+              "modality": null,
+              "start_date": null,
+              "end_date": null,
+              "indication": null
+            },
+            {
+              "drug": "C1637444",
+              "dosage": null,
+              "frequency": null,
+              "modality": null,
+              "start_date": null,
+              "end_date": null,
+              "indication": null
+            },
+            {
+              "drug": "C1263434",
+              "dosage": null,
+              "frequency": null,
+              "modality": null,
+              "start_date": null,
+              "end_date": null,
+              "indication": null
+            },
+            {
+              "drug": "C1637444",
+              "dosage": null,
+              "frequency": null,
+              "modality": null,
+              "start_date": null,
+              "end_date": null,
+              "indication": null
+            },
+            {
+              "drug": "C1263434",
+              "dosage": null,
+              "frequency": null,
+              "modality": null,
+              "start_date": null,
+              "end_date": null,
+              "indication": null
+            }
+          ]
+        }
+      }
+    },
+    {
+      "id": "N3",
+      "label": "Step 3",
+      "customData": {
+        "node_id": "C",
+        "node_step_index": 3,
+        "content": "Increase in size of primary lung lesion observed. Treated with pembrolizumab (200 mg/kg every 3 weeks) as second-line therapy.",
+        "clinical_data": {
+          "medications": [
+            {
+              "drug": "C0000970",
+              "dosage": "200 mg/kg",
+              "frequency": "every 3 weeks",
+              "modality": "IV",
+              "start_date": null,
+              "end_date": null,
+              "indication": "Lung lesion"
+            }
+          ],
+          "diagnoses": [
+            {
+              "code": "Lung lesion",
+              "label": "Lung lesion",
+              "status": "active",
+              "onset_date": null
+            }
+          ]
+        }
+      }
+    },
+    {
+      "id": "N4",
+      "label": "Step 4",
+      "customData": {
+        "node_id": "D",
+        "node_step_index": 5,
+        "content": "Eleven days after the second administration of pembrolizumab, patient presented with fever and progressive fatigue and was admitted to hospital. Conjunctiva and skin were icteric. Laboratory examinations revealed: AST 413 U/L, ALT 175 U/L, ALP 1,033 U/L, \u03b3-GTP 649 U/L, total bilirubin 5.4 mg/dL (including 3.9 mg/dL direct bilirubin), platelets 27,000 /\u03bcL and fibrin degradation products 61.3 \u03bcg/mL. Viral etiology (hepatitis B and C virus or cytomegalovirus) and autoimmune origin (antinuclear and antimitochondrial antibodies) were not proven.",
+        "clinical_data": {
+          "labs": [
+            {
+              "test": "Aspartate Aminotransferase Measurement",
+              "value": "413",
+              "unit": "U/L",
+              "flag": "abnormal"
+            },
+            {
+              "test": "Alanine Aminotransferase Measurement",
+              "value": "175",
+              "unit": "U/L",
+              "flag": "abnormal"
+            },
+            {
+              "test": "Alkaline Phosphatase Measurement",
+              "value": "1033",
+              "unit": "U/L",
+              "flag": "abnormal"
+            },
+            {
+              "test": "Gamma-Glutamyl Transferase Measurement",
+              "value": "649",
+              "unit": "U/L",
+              "flag": "abnormal"
+            },
+            {
+              "test": "bilirubin measurement",
+              "value": "5.4",
+              "unit": "mg/dL",
+              "flag": "abnormal"
+            },
+            {
+              "test": "direct bilirubin measurement",
+              "value": "3.9",
+              "unit": "mg/dL",
+              "flag": "abnormal"
+            },
+            {
+              "test": "Platelet count",
+              "value": "27000",
+              "unit": "/\u03bcL",
+              "flag": "abnormal"
+            },
+            {
+              "test": "Fibrin Degradation Products",
+              "value": "61.3",
+              "unit": "\u03bcg/mL",
+              "flag": "abnormal"
+            }
+          ],
+          "HPI": [
+            {
+              "summary": "Patient presented with fever and progressive fatigue",
+              "progression": "progressive"
+            }
+          ],
+          "diagnoses": [
+            {
+              "code": "C0022116",
+              "label": "Fever",
+              "status": "active"
+            },
+            {
+              "code": "C0015672",
+              "label": "Fatigue",
+              "status": "active"
+            }
+          ]
+        }
+      }
+    },
+    {
+      "id": "N5",
+      "label": "Step 5",
+      "customData": {
+        "node_id": "E",
+        "node_step_index": 6,
+        "content": "On admission: Chest X-ray showed a nodular shadow in the left upper lung field. Thoracic computed tomography revealed a 2.6x3.0 cm nodular shadow in the left upper lobe. Enhanced abdominal computed tomography revealed splenomegaly. Abdominal ultrasonography showed a finding suggesting a fatty liver.",
+        "clinical_data": {
+          "imaging": [
+            {
+              "type": "Nodular shadow",
+              "body_part": "Left upper lung field",
+              "modality": "X-ray",
+              "finding": "Nodular shadow in the left upper lung field",
+              "date": null
+            },
+            {
+              "type": "Nodule",
+              "body_part": "Lung",
+              "modality": "CT",
+              "finding": "2.6x3.0 cm nodular shadow in the left upper lobe",
+              "date": null
+            },
+            {
+              "type": "Splenomegaly",
+              "body_part": "Spleen",
+              "modality": "CT",
+              "finding": "Splenomegaly",
+              "date": null
+            },
+            {
+              "type": "Fatty liver",
+              "body_part": "Liver",
+              "modality": "Ultrasound",
+              "finding": "Finding suggesting a fatty liver",
+              "date": null
+            }
+          ]
+        }
+      }
+    },
+    {
+      "id": "N6",
+      "label": "Step 6",
+      "customData": {
+        "node_id": "F",
+        "node_step_index": 7,
+        "content": "Prednisolone 80 mg (1 mg/kg) administered once daily due to suspected drug-induced liver injury caused by pembrolizumab. After prednisolone administration, bilirubin, AST, and ALT decreased, but serum ALP and \u03b3-GTP did not improve.",
+        "clinical_data": {
+          "medications": [
+            {
+              "drug": "C0032463",
+              "dosage": "80 mg (1 mg/kg)",
+              "frequency": "once daily",
+              "modality": "oral",
+              "indication": "drug-induced liver injury"
+            },
+            {
+              "drug": "C4049449",
+              "indication": "drug-induced liver injury"
+            }
+          ],
+          "labs": [
+            {
+              "test": "C0005064",
+              "value": "decreased",
+              "unit": null,
+              "flag": "abnormal"
+            },
+            {
+              "test": "C0004047",
+              "value": "decreased",
+              "unit": null,
+              "flag": "abnormal"
+            },
+            {
+              "test": "C0001758",
+              "value": "decreased",
+              "unit": null,
+              "flag": "abnormal"
+            },
+            {
+              "test": "C0002892",
+              "value": "did not improve",
+              "unit": null,
+              "flag": "abnormal"
+            },
+            {
+              "test": "C0085583",
+              "value": "did not improve",
+              "unit": null,
+              "flag": "abnormal"
+            }
+          ],
+          "diagnoses": [
+            {
+              "code": "C0235954",
+              "label": "Drug-Induced Liver Injury",
+              "status": "suspected"
+            }
+          ]
+        }
+      }
+    },
+    {
+      "id": "N7",
+      "label": "Step 7",
+      "customData": {
+        "node_id": "G",
+        "node_step_index": 8,
+        "content": "Diagnostic liver biopsy performed due to prolonged biliary tract involvement. Histopathology revealed inflammatory cell infiltration of the portal tract and destruction of the interlobular bile duct, with normal parenchyma architecture.",
+        "clinical_data": {
+          "procedures": [
+            {
+              "name": "Liver Biopsy",
+              "date": null,
+              "location": "liver",
+              "outcome": "inflammatory cell infiltration of the portal tract and destruction of the interlobular bile duct, with normal parenchyma architecture"
+            }
+          ],
+          "diagnoses": [
+            {
+              "code": null,
+              "label": "inflammatory cell infiltration of the portal tract",
+              "status": "active",
+              "onset_date": null
+            },
+            {
+              "code": null,
+              "label": "destruction of the interlobular bile duct",
+              "status": "active",
+              "onset_date": null
+            }
+          ]
+        }
+      }
+    },
+    {
+      "id": "N8",
+      "label": "Step 8",
+      "customData": {
+        "node_id": "H",
+        "node_step_index": 9,
+        "content": "Liver biopsy immunohistopathology showed inflammatory cells represented by CD8+ lymphocytes. Pathology findings suggested cholestatic liver injury.",
+        "clinical_data": {
+          "labs": [
+            {
+              "test": "Liver biopsy",
+              "finding": "inflammatory cells represented by CD8+ lymphocytes",
+              "finding2": "cholestatic liver injury"
+            }
+          ]
+        }
+      }
+    },
+    {
+      "id": "N9",
+      "label": "Step 9",
+      "customData": {
+        "node_id": "I",
+        "node_step_index": 10,
+        "content": "Ursodeoxycholic acid (UDCA) 900 mg daily was commenced after pathological finding was obtained, which led to improvement of biliary tract enzymes.",
+        "clinical_data": {
+          "medications": [
+            {
+              "drug": "C0041961",
+              "dosage": "900 mg",
+              "frequency": "daily",
+              "modality": "oral",
+              "start_date": null,
+              "end_date": null
+            }
+          ]
+        }
+      }
+    },
+    {
+      "id": "N10",
+      "label": "Step 10",
+      "customData": {
+        "node_id": "J",
+        "node_step_index": 11,
+        "content": "After 4 weeks of taking prednisolone 80 mg daily, the dosage was tapered to about 10 mg every 2 weeks without any recurrence of hepatitis.",
+        "clinical_data": {
+          "medications": [
+            {
+              "drug": "C0032444",
+              "dosage": "80 mg",
+              "frequency": "daily",
+              "modality": "oral",
+              "start_date": null,
+              "end_date": null,
+              "indication": "hepatitis"
+            }
+          ]
+        }
+      }
+    },
+    {
+      "id": "N11",
+      "label": "Step 11",
+      "customData": {
+        "node_id": "K",
+        "node_step_index": 12,
+        "content": "Primary lesion of the left upper lobe rapidly became enlarged after the improvement of liver injury.",
+        "clinical_data": {
+          "imaging": [
+            {
+              "body_part": "Left upper lobe",
+              "finding": "Primary lesion enlarged",
+              "date": null
+            }
+          ]
+        }
+      }
+    },
+    {
+      "id": "N12",
+      "label": "Step 12",
+      "customData": {
+        "node_id": "L",
+        "node_step_index": 13,
+        "content": "Received docetaxel and ramcirumab as a third-line therapy. General condition quickly worsened due to the progress of lung cancer.",
+        "clinical_data": {
+          "medications": [
+            {
+              "drug": "C0013093",
+              "dosage": null,
+              "frequency": null,
+              "modality": null,
+              "start_date": null,
+              "end_date": null,
+              "indication": "C0024117"
+            },
+            {
+              "drug": "C3150080",
+              "dosage": null,
+              "frequency": null,
+              "modality": null,
+              "start_date": null,
+              "end_date": null,
+              "indication": "C0024117"
+            }
+          ],
+          "diagnoses": [
+            {
+              "code": "C0024117",
+              "label": "Lung Cancer",
+              "status": "active",
+              "onset_date": null
+            }
+          ],
+          "HPI": [
+            {
+              "summary": "General condition quickly worsened due to the progress of lung cancer.",
+              "duration": null,
+              "onset": null,
+              "progression": "sudden",
+              "associated_symptoms": [],
+              "alleviating_factors": [],
+              "exacerbating_factors": []
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "edges": [
+    {
+      "from": "N1",
+      "to": "N2",
+      "data": {
+        "edge_id": "A_to_B",
+        "branch_flag": true,
+        "content": "Patient received first-line therapy for lung adenocarcinoma and adrenal metastasis.",
+        "transition_event": {
+          "trigger_type": "medication_change",
+          "trigger_entities": [
+            "C0008893",
+            "C1637444",
+            "C1263434"
+          ],
+          "change_type": "addition",
+          "target_domain": "medication"
+        }
+      }
+    },
+    {
+      "from": "N2",
+      "to": "N3",
+      "data": {
+        "edge_id": "B_to_C",
+        "branch_flag": true,
+        "content": "Lung lesion increased in size despite first-line therapy.",
+        "transition_event": {
+          "trigger_type": "progression",
+          "trigger_entities": [
+            "Lung lesion"
+          ],
+          "change_type": "progression",
+          "target_domain": "imaging"
+        }
+      }
+    },
+    {
+      "from": "N3",
+      "to": "N4",
+      "data": {
+        "edge_id": "C_to_D",
+        "branch_flag": true,
+        "content": "Patient developed fever, fatigue, jaundice, thrombocytopenia, and elevated liver enzymes after pembrolizumab administration, suggestive of liver injury.",
+        "transition_event": {
+          "trigger_type": "symptom_onset",
+          "trigger_entities": [
+            "C0022116",
+            "C0015672"
+          ],
+          "change_type": "addition",
+          "target_domain": "symptom"
+        }
+      }
+    },
+    {
+      "from": "N4",
+      "to": "N5",
+      "data": {
+        "edge_id": "D_to_E",
+        "branch_flag": true,
+        "content": "Imaging revealed nodular shadow in the left upper lung field, splenomegaly, and fatty liver.",
+        "transition_event": {
+          "trigger_type": "imaging",
+          "trigger_entities": [],
+          "change_type": "progression",
+          "target_domain": "imaging"
+        }
+      }
+    },
+    {
+      "from": "N5",
+      "to": "N6",
+      "data": {
+        "edge_id": "E_to_F",
+        "branch_flag": true,
+        "content": "Prednisolone was administered for suspected drug-induced liver injury. Bilirubin, AST, and ALT decreased, but ALP and \u03b3-GTP did not improve.",
+        "transition_event": {
+          "trigger_type": "medication_change",
+          "trigger_entities": [
+            "C0032463"
+          ],
+          "change_type": "addition",
+          "target_domain": "medication"
+        }
+      }
+    },
+    {
+      "from": "N6",
+      "to": "N7",
+      "data": {
+        "edge_id": "F_to_G",
+        "branch_flag": true,
+        "content": "Liver biopsy performed due to prolonged biliary tract involvement.",
+        "transition_event": {
+          "trigger_type": "procedure",
+          "trigger_entities": [
+            "Liver Biopsy"
+          ],
+          "change_type": "addition",
+          "target_domain": "procedure"
+        }
+      }
+    },
+    {
+      "from": "N7",
+      "to": "N8",
+      "data": {
+        "edge_id": "G_to_H",
+        "branch_flag": true,
+        "content": "Liver biopsy immunohistopathology showed inflammatory cells represented by CD8+ lymphocytes. Pathology findings suggested cholestatic liver injury.",
+        "transition_event": {
+          "trigger_type": "lab_change",
+          "trigger_entities": [],
+          "change_type": "reinterpretation",
+          "target_domain": "lab"
+        }
+      }
+    },
+    {
+      "from": "N8",
+      "to": "N9",
+      "data": {
+        "edge_id": "H_to_I",
+        "branch_flag": true,
+        "content": "Ursodeoxycholic acid (UDCA) was commenced after pathological finding was obtained, which led to improvement of biliary tract enzymes.",
+        "transition_event": {
+          "trigger_type": "medication_change",
+          "trigger_entities": [
+            "C0041961"
+          ],
+          "change_type": "addition",
+          "target_domain": "medication"
+        }
+      }
+    },
+    {
+      "from": "N9",
+      "to": "N10",
+      "data": {
+        "edge_id": "I_to_J"
+      }
+    }
+  ]
+}

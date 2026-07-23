@@ -1,0 +1,395 @@
+{
+  "nodes": [
+    {
+      "id": "N1",
+      "label": "Step 1",
+      "customData": {
+        "node_id": "A",
+        "node_step_index": 0,
+        "content": "46-year-old African American woman with HIV on ART presented with progressively worsening dyspnea, orthopnea, ankle swelling, and NYHA class 3 symptoms for 2 weeks prior to admission. Examination revealed tachycardia, normotension, hypoxemia, distant heart sounds, palpable left supraclavicular lymph node, and multiple axillary lymph nodes.",
+        "clinical_data": {
+          "diagnoses": [
+            {
+              "code": "C0019209",
+              "label": "HIV Infections",
+              "status": "active"
+            }
+          ],
+          "HPI": [
+            {
+              "summary": "Progressively worsening dyspnea, orthopnea, ankle swelling, and NYHA class 3 symptoms for 2 weeks prior to admission.",
+              "duration": "2 weeks",
+              "progression": "gradual",
+              "associated_symptoms": [
+                "C0013404",
+                "C0029031",
+                "C0231257"
+              ]
+            }
+          ],
+          "ROS": [
+            {
+              "system": "respiratory",
+              "findings": [
+                "C0013404"
+              ]
+            },
+            {
+              "system": "cardiovascular",
+              "findings": [
+                "C0029031"
+              ]
+            }
+          ],
+          "vitals": [
+            {
+              "type": "C0040037",
+              "value": "normal",
+              "unit": "mmHg"
+            },
+            {
+              "type": "C0039609",
+              "value": "low",
+              "unit": "mmHg"
+            },
+            {
+              "type": "C0085696",
+              "value": "present"
+            }
+          ],
+          "social_history": [
+            {
+              "category": "race",
+              "status": "current",
+              "description": "African American"
+            }
+          ]
+        }
+      }
+    },
+    {
+      "id": "N2",
+      "label": "Step 2",
+      "customData": {
+        "node_id": "B",
+        "node_step_index": 1,
+        "content": "Patient presented with tenderness in right calf. White blood cell count minimally elevated at 13500 cells/mm3 with 78% neutrophils. D-Dimer elevated at 20 \u00b5g/mL FEU (normal range: 0.00-0.48 \u00b5g/mL FEU). Chest radiograph showed cardiomegaly with no acute infiltrate.",
+        "clinical_data": {
+          "labs": [
+            {
+              "test": "White blood cell count",
+              "value": "13500",
+              "unit": "cells/mm3",
+              "flag": "abnormal"
+            },
+            {
+              "test": "Neutrophils",
+              "value": "78",
+              "unit": "%",
+              "flag": "abnormal"
+            },
+            {
+              "test": "D-dimer",
+              "value": "20",
+              "unit": "\u00b5g/mL FEU",
+              "flag": "abnormal",
+              "reference_range": "0.00-0.48 \u00b5g/mL FEU"
+            }
+          ],
+          "imaging": [
+            {
+              "type": "Chest radiograph",
+              "modality": "X-ray",
+              "finding": "cardiomegaly",
+              "impression": "cardiomegaly"
+            }
+          ],
+          "HPI": [
+            {
+              "summary": "Tenderness in right calf"
+            }
+          ]
+        }
+      }
+    },
+    {
+      "id": "N3",
+      "label": "Step 3",
+      "customData": {
+        "node_id": "C",
+        "node_step_index": 2,
+        "content": "Electrocardiogram showed sinus tachycardia. Echocardiogram revealed moderate pericardial effusion with a normal ejection fraction. Elevated troponin of 0.286 ng/mL (normal range: 0.0-0.034 ng/mL). Pericardiocentesis drained serosanguinous fluid with normal white blood cells count and negative gram staining.",
+        "clinical_data": {
+          "vitals": [
+            {
+              "type": "C0037080",
+              "value": "100-180",
+              "unit": "bpm"
+            }
+          ],
+          "labs": [
+            {
+              "test": "C0041034",
+              "value": "0.286",
+              "unit": "ng/mL",
+              "flag": "abnormal",
+              "reference_range": "0.0-0.034"
+            },
+            {
+              "test": "C0043234",
+              "value": "normal",
+              "unit": null
+            }
+          ],
+          "imaging": [
+            {
+              "type": "C0013604",
+              "body_part": "C0030705",
+              "modality": "Ultrasound",
+              "finding": "moderate pericardial effusion"
+            }
+          ],
+          "procedures": [
+            {
+              "name": "C0031262",
+              "outcome": "fluid drained"
+            }
+          ]
+        }
+      }
+    },
+    {
+      "id": "N4",
+      "label": "Step 4",
+      "customData": {
+        "node_id": "D",
+        "node_step_index": 3,
+        "content": "Venous Doppler of the right lower extremity revealed a deep vein thrombosis and patient was started on heparin drip. Chest computed tomography (CT) angiogram showed no pulmonary embolism, but showed right paratracheal adenopathy, right hilar mass, and subcarinal nodes. CT abdomen/pelvis showed bilateral breast masses, bilateral pleural effusions, bilateral adrenal nodules, and vertebral translucency. Brain magnetic resonance imaging showed 2 lesions, one in the cerebellum and one in the left frontal lobe consistent with metastasis.",
+        "clinical_data": {
+          "imaging": [
+            {
+              "type": "Venous Doppler",
+              "body_part": "right lower extremity",
+              "modality": "Ultrasound",
+              "finding": "deep vein thrombosis"
+            },
+            {
+              "type": "angiography of chest",
+              "body_part": "chest",
+              "modality": "CT",
+              "finding": "no pulmonary embolism, right paratracheal adenopathy, right hilar mass, and subcarinal nodes"
+            },
+            {
+              "type": "CT scan",
+              "body_part": "abdomen/pelvis",
+              "modality": "CT",
+              "finding": "bilateral breast masses, bilateral pleural effusions, bilateral adrenal nodules, and vertebral translucency"
+            },
+            {
+              "type": "MRI",
+              "body_part": "brain",
+              "modality": "MRI",
+              "finding": "2 lesions, one in the cerebellum and one in the left frontal lobe consistent with metastasis"
+            }
+          ],
+          "medications": [
+            {
+              "drug": "heparin",
+              "modality": "IV",
+              "dosage": "drip"
+            }
+          ],
+          "diagnoses": [
+            {
+              "code": "ICD10",
+              "label": "deep vein thrombosis",
+              "status": "active"
+            },
+            {
+              "code": "ICD10",
+              "label": "pulmonary embolism",
+              "status": "suspected"
+            },
+            {
+              "code": "ICD10",
+              "label": "metastasis",
+              "status": "active"
+            }
+          ]
+        }
+      }
+    },
+    {
+      "id": "N5",
+      "label": "Step 5",
+      "customData": {
+        "node_id": "E",
+        "node_step_index": 4,
+        "content": "Absolute CD4 count was 116 cells/\u00b5L (normal range: 500-1750 cells/\u00b5L), CD4 cells percentage was 7% (normal range: 30-61), and T-lymphocyte CD4/CD8 ratio of 0.11 (normal range: 0.86-5.00). Patient was started on prophylactic antibiotics with trimethoprim-sulfamethoxazole in addition to her antiretroviral treatment. Excision biopsy of the supraclavicular lymph node was consistent with metastatic lung adenocarcinoma with a mucin stain positive, immune staining using TTF-1 (thyroid transcription factor-1) positive and GATA-3 negative. Pericardial fluid studies showed malignant large epithelioid cells, favoring metastatic adenocarcinoma.",
+        "clinical_data": {
+          "labs": [
+            {
+              "test": "CD4 Lymphocyte Count",
+              "value": "116",
+              "unit": "cells/\u00b5L",
+              "flag": "abnormal",
+              "reference_range": "500-1750 cells/\u00b5L"
+            },
+            {
+              "test": "CD4 percentage",
+              "value": "7",
+              "unit": "%",
+              "flag": "abnormal",
+              "reference_range": "30-61"
+            },
+            {
+              "test": "T-lymphocyte CD4/CD8 ratio",
+              "value": "0.11",
+              "unit": null,
+              "flag": "abnormal",
+              "reference_range": "0.86-5.00"
+            }
+          ],
+          "medications": [
+            {
+              "drug": "Trimethoprim-Sulfamethoxazole",
+              "indication": "prophylactic antibiotics"
+            }
+          ],
+          "procedures": [
+            {
+              "name": "Excision biopsy",
+              "location": "supraclavicular lymph node",
+              "outcome": "metastatic lung adenocarcinoma"
+            }
+          ],
+          "diagnoses": [
+            {
+              "code": "C34",
+              "label": "Lung Adenocarcinoma",
+              "status": "active"
+            },
+            {
+              "code": "C79.3",
+              "label": "Secondary malignant neoplasm of brain and cerebral meninges",
+              "status": "active"
+            }
+          ],
+          "imaging": [
+            {
+              "type": "Pericardial fluid studies",
+              "finding": "malignant large epithelioid cells",
+              "impression": "metastatic adenocarcinoma"
+            }
+          ]
+        }
+      }
+    },
+    {
+      "id": "N6",
+      "label": "Step 6",
+      "customData": {
+        "node_id": "F",
+        "node_step_index": 5,
+        "content": "Continued worsening dyspnea, prompting further drainage of her re-accumulating pericardial fluid with a pericardial window.",
+        "clinical_data": {
+          "procedures": [
+            {
+              "name": "Pericardial window",
+              "approach": "other",
+              "date": null,
+              "location": "pericardium",
+              "performed_by": null,
+              "outcome": null
+            }
+          ],
+          "HPI": [
+            {
+              "summary": "Continued worsening dyspnea",
+              "duration": null,
+              "onset": null,
+              "progression": "gradual",
+              "associated_symptoms": [],
+              "alleviating_factors": [],
+              "exacerbating_factors": []
+            }
+          ]
+        }
+      }
+    },
+    {
+      "id": "N7",
+      "label": "Step 7",
+      "customData": {
+        "node_id": "G",
+        "node_step_index": 6,
+        "content": "Patient expired as a result of her decompensating status.",
+        "clinical_data": {}
+      }
+    }
+  ],
+  "edges": [
+    {
+      "from": "N1",
+      "to": "N2",
+      "data": {
+        "edge_id": "A_to_B",
+        "branch_flag": true,
+        "content": "Patient developed tenderness in right calf, elevated white blood cell count, elevated D-Dimer, and cardiomegaly."
+      }
+    },
+    {
+      "from": "N2",
+      "to": "N3",
+      "data": {
+        "edge_id": "B_to_C",
+        "branch_flag": true,
+        "content": "Patient had sinus tachycardia, moderate pericardial effusion, elevated troponin, and serosanguinous fluid drained via pericardiocentesis."
+      }
+    },
+    {
+      "from": "N3",
+      "to": "N4",
+      "data": {
+        "edge_id": "C_to_D",
+        "branch_flag": true,
+        "content": "Patient was found to have a deep vein thrombosis in the right lower extremity and started on heparin drip. Imaging revealed right paratracheal adenopathy, right hilar mass, subcarinal nodes, bilateral breast masses, bilateral pleural effusions, bilateral adrenal nodules, vertebral translucency, and brain lesions consistent with metastasis."
+      }
+    },
+    {
+      "from": "N4",
+      "to": "N5",
+      "data": {
+        "edge_id": "D_to_E",
+        "branch_flag": true,
+        "content": "Patient's CD4 count was low, CD4 percentage was low, and T-lymphocyte CD4/CD8 ratio was low. Patient was started on prophylactic antibiotics with trimethoprim-sulfamethoxazole. Biopsy of the supraclavicular lymph node was consistent with metastatic lung adenocarcinoma. Pericardial fluid studies showed malignant large epithelioid cells, favoring metastatic adenocarcinoma.",
+        "transition_event": {
+          "trigger_type": "lab_change",
+          "trigger_entities": [
+            "C0007716"
+          ],
+          "change_type": "progression",
+          "target_domain": "diagnosis"
+        }
+      }
+    },
+    {
+      "from": "N5",
+      "to": "N6",
+      "data": {
+        "edge_id": "E_to_F",
+        "branch_flag": true,
+        "content": "Patient experienced continued worsening dyspnea, prompting further drainage of her re-accumulating pericardial fluid with a pericardial window."
+      }
+    },
+    {
+      "from": "N6",
+      "to": "N7",
+      "data": {
+        "edge_id": "F_to_G",
+        "branch_flag": true,
+        "content": "Patient expired as a result of her decompensating status."
+      }
+    }
+  ]
+}

@@ -1,0 +1,358 @@
+{
+  "nodes": [
+    {
+      "id": "N1",
+      "label": "Step 1",
+      "customData": {
+        "node_id": "A",
+        "node_step_index": 0,
+        "content": "65-year-old never-smoker woman (weight 62 kg) presented in July 2009 with persistent severe mid-back pain.",
+        "timestamp": "2009-07",
+        "clinical_data": {
+          "HPI": [
+            {
+              "summary": "65-year-old woman presented with persistent severe mid-back pain.",
+              "onset": "July 2009",
+              "progression": "unknown",
+              "associated_symptoms": [
+                "Pain"
+              ]
+            }
+          ],
+          "social_history": [
+            {
+              "category": "smoking",
+              "status": "never"
+            }
+          ],
+          "vitals": [
+            {
+              "type": "Weight",
+              "value": "62",
+              "unit": "kg",
+              "timestamp": "2009-07"
+            }
+          ]
+        }
+      }
+    },
+    {
+      "id": "N2",
+      "label": "Step 2",
+      "customData": {
+        "node_id": "B",
+        "node_step_index": 1,
+        "content": "July 6, 2009: Bone scan showed increased 99mTc-labeled methylene diphosphonate uptake at the thoracic 12 level and the third right rib, in addition to hypertrophic pulmonary osteoarthropathy (HPOA) of bilateral femurs and tibias, compatible with bone metastases. Chest CT revealed a 6.87 cm lung mass in the right lower lobe, with a daughter nodule in the same lung lobe.",
+        "timestamp": "2009-07-06",
+        "clinical_data": {
+          "imaging": [
+            {
+              "type": "Bone Scan",
+              "body_part": "Thoracic 12 level",
+              "modality": "other",
+              "finding": "increased 99mTc-labeled methylene diphosphonate uptake",
+              "date": "2009-07-06"
+            },
+            {
+              "type": "Bone Scan",
+              "body_part": "Third right rib",
+              "modality": "other",
+              "finding": "increased 99mTc-labeled methylene diphosphonate uptake",
+              "date": "2009-07-06"
+            },
+            {
+              "type": "Bone Scan",
+              "body_part": "bilateral femurs and tibias",
+              "modality": "other",
+              "finding": "hypertrophic pulmonary osteoarthropathy (HPOA)",
+              "date": "2009-07-06"
+            },
+            {
+              "type": "Chest CT",
+              "body_part": "right lower lobe",
+              "modality": "CT",
+              "finding": "6.87 cm lung mass",
+              "date": "2009-07-06"
+            },
+            {
+              "type": "Chest CT",
+              "body_part": "right lower lobe",
+              "modality": "CT",
+              "finding": "daughter nodule",
+              "date": "2009-07-06"
+            }
+          ],
+          "diagnoses": [
+            {
+              "code": "C0006274",
+              "label": "Bone Metastases",
+              "status": "active",
+              "onset_date": "2009-07-06"
+            }
+          ]
+        }
+      }
+    },
+    {
+      "id": "N3",
+      "label": "Step 3",
+      "customData": {
+        "node_id": "C",
+        "node_step_index": 2,
+        "content": "Right pleural malignant effusion. Lung biopsy showed atypical glands with lepidic and acinar architecture and enlarged and hyperchromatic nuclei. Diagnosis: moderately differentiated pulmonary adenocarcinoma, cT4 N2 M1b Stage IV. EGFR analysis identified the deletion of codon 746\u2013750 in exon 19, resulting in the deletion of the amino acids ELREA.",
+        "clinical_data": {
+          "diagnoses": [
+            {
+              "code": "C34.9",
+              "label": "Malignant neoplasm of unspecified part of bronchus or lung",
+              "status": "active"
+            },
+            {
+              "code": "C78.2",
+              "label": "Secondary malignant neoplasm of pleura",
+              "status": "active"
+            },
+            {
+              "code": "8550/3",
+              "label": "Adenocarcinoma, NOS",
+              "status": "active"
+            }
+          ],
+          "imaging": [
+            {
+              "type": "Effusion",
+              "body_part": "Pleura",
+              "modality": "other",
+              "finding": "Malignant effusion",
+              "impression": "Right pleural malignant effusion"
+            }
+          ],
+          "labs": [
+            {
+              "test": "EGFR analysis",
+              "value": "deletion of codon 746\u2013750 in exon 19, resulting in the deletion of the amino acids ELREA",
+              "unit": null,
+              "flag": "abnormal"
+            }
+          ],
+          "procedures": [
+            {
+              "name": "Biopsy",
+              "approach": null,
+              "date": null,
+              "location": "Lung",
+              "performed_by": null,
+              "outcome": "moderately differentiated pulmonary adenocarcinoma"
+            }
+          ]
+        }
+      }
+    },
+    {
+      "id": "N4",
+      "label": "Step 4",
+      "customData": {
+        "node_id": "D",
+        "node_step_index": 3,
+        "content": "July 20, 2009 - September 21, 2009: Three cycles of full-dose paclitaxel + cisplatin were administered, then discontinued due to grade III sensory neuropathy.",
+        "timestamp": "2009-07-20/2009-09-21",
+        "clinical_data": {
+          "medications": [
+            {
+              "drug": "C0030393",
+              "dosage": "full-dose",
+              "frequency": null,
+              "modality": null,
+              "start_date": "2009-07-20",
+              "end_date": "2009-09-21",
+              "indication": null
+            },
+            {
+              "drug": "C0008891",
+              "dosage": "full-dose",
+              "frequency": null,
+              "modality": null,
+              "start_date": "2009-07-20",
+              "end_date": "2009-09-21",
+              "indication": null
+            }
+          ],
+          "diagnoses": [
+            {
+              "code": "C0270494",
+              "label": "sensory neuropathy",
+              "status": "active",
+              "onset_date": "2009-09-21"
+            }
+          ]
+        }
+      }
+    },
+    {
+      "id": "N5",
+      "label": "Step 5",
+      "customData": {
+        "node_id": "E",
+        "node_step_index": 4,
+        "content": "4th cycle of chemotherapy: Regimen switched to gemcitabine + cisplatin.",
+        "clinical_data": {
+          "medications": [
+            {
+              "drug": "C0017558",
+              "dosage": null,
+              "frequency": null,
+              "modality": null,
+              "start_date": null,
+              "end_date": null,
+              "indication": null
+            },
+            {
+              "drug": "C0008833",
+              "dosage": null,
+              "frequency": null,
+              "modality": null,
+              "start_date": null,
+              "end_date": null,
+              "indication": null
+            }
+          ],
+          "procedures": [
+            {
+              "name": "C0009264",
+              "approach": null,
+              "date": null,
+              "location": null,
+              "performed_by": null,
+              "outcome": null
+            }
+          ]
+        }
+      }
+    },
+    {
+      "id": "N6",
+      "label": "Step 6",
+      "customData": {
+        "node_id": "F",
+        "node_step_index": 5,
+        "content": "Follow-up chest CT showed partial remission.",
+        "clinical_data": {
+          "imaging": [
+            {
+              "type": "363831008",
+              "body_part": "T71770",
+              "modality": "CT",
+              "finding": "Partial remission",
+              "date": null
+            }
+          ]
+        }
+      }
+    },
+    {
+      "id": "N7",
+      "label": "Step 7",
+      "customData": {
+        "node_id": "G",
+        "node_step_index": 6,
+        "content": "Three cycles of paclitaxel + cisplatin and two cycles of gemcitabine + cisplatin were administered.",
+        "clinical_data": {
+          "medications": [
+            {
+              "drug": "C0030371",
+              "dosage": null,
+              "frequency": null,
+              "modality": null,
+              "start_date": null,
+              "end_date": null,
+              "indication": null
+            },
+            {
+              "drug": "C0008353",
+              "dosage": null,
+              "frequency": null,
+              "modality": null,
+              "start_date": null,
+              "end_date": null,
+              "indication": null
+            },
+            {
+              "drug": "C0016767",
+              "dosage": null,
+              "frequency": null,
+              "modality": null,
+              "start_date": null,
+              "end_date": null,
+              "indication": null
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "edges": [
+    {
+      "from": "N1",
+      "to": "N2",
+      "data": {
+        "edge_id": "A_to_B",
+        "branch_flag": true,
+        "content": "Patient presents with back pain, leading to imaging and diagnosis of lung mass and bone metastases."
+      }
+    },
+    {
+      "from": "N2",
+      "to": "N3",
+      "data": {
+        "edge_id": "B_to_C",
+        "branch_flag": true,
+        "content": "Further investigation of lung mass via biopsy, revealing adenocarcinoma with EGFR mutation and malignant pleural effusion."
+      }
+    },
+    {
+      "from": "N3",
+      "to": "N4",
+      "data": {
+        "edge_id": "C_to_D",
+        "branch_flag": true,
+        "content": "Treatment initiated with paclitaxel and cisplatin."
+      }
+    },
+    {
+      "from": "N4",
+      "to": "N5",
+      "data": {
+        "edge_id": "D_to_E",
+        "branch_flag": true,
+        "content": "Chemotherapy regimen changed due to sensory neuropathy.",
+        "transition_event": {
+          "trigger_type": "symptom_onset",
+          "trigger_entities": [
+            "C0270494"
+          ],
+          "change_type": "discontinuation",
+          "target_domain": "medication",
+          "timestamp": "2009-09-21"
+        }
+      }
+    },
+    {
+      "from": "N5",
+      "to": "N6",
+      "data": {
+        "edge_id": "E_to_F",
+        "branch_flag": true,
+        "content": "Patient undergoes follow-up imaging."
+      }
+    },
+    {
+      "from": "N6",
+      "to": "N7",
+      "data": {
+        "edge_id": "F_to_G",
+        "branch_flag": true,
+        "content": "Treatment with paclitaxel + cisplatin and gemcitabine + cisplatin."
+      }
+    }
+  ]
+}

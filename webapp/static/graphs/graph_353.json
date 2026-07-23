@@ -1,0 +1,461 @@
+{
+  "nodes": [
+    {
+      "id": "N1",
+      "label": "Step 1",
+      "customData": {
+        "node_id": "A",
+        "node_step_index": 0,
+        "content": "75-year-old female admitted with recurrent fever, cough, and sputum production for over 8 months. 30-pack-year smoking history, quit 6 months prior. No history of hypertension, coronary artery disease, diabetes, or other chronic illnesses. No abnormal personal, familial, or other psychosocial medical history.",
+        "clinical_data": {
+          "HPI": [
+            {
+              "summary": "75-year-old female admitted with recurrent fever, cough, and sputum production for over 8 months.",
+              "duration": "8 months",
+              "progression": "recurrent",
+              "associated_symptoms": [
+                "C0015967",
+                "C0010200",
+                "C0038438"
+              ]
+            }
+          ],
+          "social_history": [
+            {
+              "category": "smoking",
+              "status": "past",
+              "description": "30-pack-year smoking history, quit 6 months prior."
+            }
+          ]
+        }
+      }
+    },
+    {
+      "id": "N2",
+      "label": "Step 2",
+      "customData": {
+        "node_id": "B",
+        "node_step_index": 1,
+        "content": "CT-guided percutaneous lung biopsy 1 month ago showed inflammation.",
+        "clinical_data": {
+          "procedures": [
+            {
+              "name": "Biopsy of lung",
+              "approach": "percutaneous",
+              "date": "DATE",
+              "location": "lung",
+              "modality": "CT"
+            }
+          ],
+          "imaging": [
+            {
+              "type": "CT scan",
+              "body_part": "lung",
+              "modality": "CT",
+              "date": "DATE"
+            }
+          ]
+        }
+      }
+    },
+    {
+      "id": "N3",
+      "label": "Step 3",
+      "customData": {
+        "node_id": "C",
+        "node_step_index": 2,
+        "content": "1 week of anti-inflammatory treatment with no significant effects. Physical examination revealed no jaundice, bleeding, or rash on skin or mucous membranes. Superficial lymph nodes were not palpable or enlarged. Chest wall symmetry was maintained, with normal respiratory excursions and rhythmic breathing patterns. Auscultation revealed moist rales in the right upper lung field and slightly coarse breath sounds in the right lower and left lung fields, with no pleural friction rubs detected.",
+        "clinical_data": {
+          "ROS": [
+            {
+              "system": "respiratory",
+              "findings": [
+                "Moist rales in the right upper lung field",
+                "Slightly coarse breath sounds in the right lower and left lung fields"
+              ]
+            },
+            {
+              "system": "constitutional",
+              "findings": [
+                "No jaundice",
+                "No bleeding",
+                "No rash on skin or mucous membranes"
+              ]
+            }
+          ],
+          "physical_exam": [
+            {
+              "finding": "Superficial lymph nodes were not palpable or enlarged"
+            },
+            {
+              "finding": "Chest wall symmetry was maintained"
+            },
+            {
+              "finding": "Normal respiratory excursions"
+            },
+            {
+              "finding": "Rhythmic breathing patterns"
+            },
+            {
+              "finding": "No pleural friction rubs detected"
+            }
+          ],
+          "medications": [
+            {
+              "drug": "anti-inflammatory treatment",
+              "duration": "1 week",
+              "effect": "no significant effects"
+            }
+          ]
+        }
+      }
+    },
+    {
+      "id": "N4",
+      "label": "Step 4",
+      "customData": {
+        "node_id": "D",
+        "node_step_index": 3,
+        "content": "Enhanced chest CT scan showed a large consolidation shadow in the right upper lobe, with a central ring of low density. Sputum microbiological culture yielded negative results. Chest CT reveals a large area of consolidation in the upper lobe of the right lung accompanied by multiple enlarged mediastinal lymph nodes. Postcontrast chest CT demonstrates moderate enhancement in the consolidated area of the upper lobe of the right lung, with quasi-round, slightly hypodense lesions within the focus; the boundaries are still clear. 3D reconstruction of the chest CT reveals bronchial narrowing and obstruction in the upper lobe of the right lung.",
+        "clinical_data": {
+          "imaging": [
+            {
+              "type": "Chest CT scan",
+              "body_part": "Right upper lobe",
+              "modality": "CT",
+              "finding": "Large consolidation shadow with a central ring of low density",
+              "date": null
+            },
+            {
+              "type": "Chest CT",
+              "body_part": "Upper lobe of the right lung",
+              "modality": "CT",
+              "finding": "Large area of consolidation accompanied by multiple enlarged mediastinal lymph nodes",
+              "date": null
+            },
+            {
+              "type": "Postcontrast chest CT",
+              "body_part": "Upper lobe of the right lung",
+              "modality": "CT",
+              "finding": "Moderate enhancement in the consolidated area, with quasi-round, slightly hypodense lesions within the focus; the boundaries are still clear",
+              "date": null
+            },
+            {
+              "type": "3D reconstruction of the chest CT",
+              "body_part": "Upper lobe of the right lung",
+              "modality": "CT",
+              "finding": "Bronchial narrowing and obstruction",
+              "date": null
+            }
+          ],
+          "labs": [
+            {
+              "test": "Sputum microbiological culture",
+              "value": "negative",
+              "unit": null,
+              "flag": "normal",
+              "reference_range": null,
+              "timestamp": null
+            }
+          ]
+        }
+      }
+    },
+    {
+      "id": "N5",
+      "label": "Step 5",
+      "customData": {
+        "node_id": "E",
+        "node_step_index": 4,
+        "content": "AFP level of > 2,000 ng/ml, reassessment revealed an AFP level of 15,290.36 ng/ml and a Carcinoembryonic Antigen (CEA) level of 28.1 ng/ml. hCG and estradiol results were normal. Abdominal, pelvic, and cranial CT scans showed no significant abnormalities. Patient\u2019s slightly elevated white blood cell count, normal procalcitonin levels, and negative sputum microbiological culture.",
+        "clinical_data": {
+          "labs": [
+            {
+              "test": "C0001774",
+              "value": "> 2000",
+              "unit": "ng/ml"
+            },
+            {
+              "test": "C0001774",
+              "value": "15290.36",
+              "unit": "ng/ml"
+            },
+            {
+              "test": "C0007666",
+              "value": "28.1",
+              "unit": "ng/ml"
+            },
+            {
+              "test": "C0019251",
+              "value": "normal"
+            },
+            {
+              "test": "C0152004",
+              "value": "normal"
+            },
+            {
+              "test": "C0043539",
+              "value": "slightly elevated"
+            },
+            {
+              "test": "C1416474",
+              "value": "normal"
+            },
+            {
+              "test": "C0239243",
+              "value": "negative"
+            }
+          ],
+          "imaging": [
+            {
+              "type": "CT scan",
+              "body_part": "abdomen",
+              "modality": "CT",
+              "finding": "no significant abnormalities"
+            },
+            {
+              "type": "CT scan",
+              "body_part": "pelvis",
+              "modality": "CT",
+              "finding": "no significant abnormalities"
+            },
+            {
+              "type": "CT scan",
+              "body_part": "cranium",
+              "modality": "CT",
+              "finding": "no significant abnormalities"
+            }
+          ]
+        }
+      }
+    },
+    {
+      "id": "N6",
+      "label": "Step 6",
+      "customData": {
+        "node_id": "F",
+        "node_step_index": 5,
+        "content": "Another lung biopsy was performed, obtaining five samples from different angles, with four samples appearing necrotic. Pathological examination of lesion specimens obtained via biopsy under CT guidance from central, anterior, posterior, left, and right angles. Samples 1 to 4 appeared as \u201cfish-flesh-like\u201d tissue, suggestive of necrosis. Greyish-white solid tissue sample from the lesion.",
+        "clinical_data": {
+          "procedures": [
+            {
+              "name": "Lung Biopsy",
+              "approach": "percutaneous",
+              "date": null,
+              "location": "Lung",
+              "performed_by": null,
+              "outcome": null
+            }
+          ],
+          "imaging": [
+            {
+              "type": "CT guidance",
+              "body_part": "Lung",
+              "modality": "CT",
+              "finding": "lesion",
+              "impression": null,
+              "date": null
+            }
+          ],
+          "labs": [
+            {
+              "test": "Pathological examination",
+              "value": "necrotic",
+              "unit": null,
+              "flag": "abnormal",
+              "reference_range": null,
+              "timestamp": null
+            }
+          ]
+        }
+      }
+    },
+    {
+      "id": "N7",
+      "label": "Step 7",
+      "customData": {
+        "node_id": "G",
+        "node_step_index": 6,
+        "content": "Immunohistochemical analysis of the fifth biopsy sample reveals features consistent with hepatocellular adenoma (HAL). Immunohistochemical findings: TTF-1 negative, Napsin A negative, P40 negative, Syn negative, AFP positive, GPC-3 positive, Arg-1 positive, Hep-1 positive, CK positive, and CK7 negative. Final diagnosis of primary HAL (stage IIIC, T4N3M0).",
+        "clinical_data": {
+          "diagnoses": [
+            {
+              "code": "C0346415",
+              "label": "Hepatocellular Adenoma",
+              "status": "active"
+            }
+          ],
+          "imaging": [
+            {
+              "type": "Immunohistochemical analysis",
+              "body_part": "liver",
+              "modality": "other",
+              "finding": "TTF-1 negative, Napsin A negative, P40 negative, Syn negative, AFP positive, GPC-3 positive, Arg-1 positive, Hep-1 positive, CK positive, and CK7 negative",
+              "impression": "features consistent with hepatocellular adenoma (HAL)"
+            }
+          ]
+        }
+      }
+    },
+    {
+      "id": "N8",
+      "label": "Step 8",
+      "customData": {
+        "node_id": "H",
+        "node_step_index": 7,
+        "content": "Patient prescribed chemotherapy regimen of cisplatin at 40 mg (D1\u2013D3) and albumin-bound paclitaxel at 200 mg (D1). Patient did not undergo standard serological and radiological examinations after treatment due to poor compliance. Patient received one round of chemotherapy.",
+        "clinical_data": {
+          "medications": [
+            {
+              "drug": "C0008772",
+              "dosage": "40 mg",
+              "frequency": "D1-D3",
+              "modality": null,
+              "start_date": null,
+              "end_date": null,
+              "indication": null
+            },
+            {
+              "drug": "C1647913",
+              "dosage": "200 mg",
+              "frequency": "D1",
+              "modality": null,
+              "start_date": null,
+              "end_date": null,
+              "indication": null
+            }
+          ]
+        }
+      }
+    },
+    {
+      "id": "N9",
+      "label": "Step 9",
+      "customData": {
+        "node_id": "I",
+        "node_step_index": 8,
+        "content": "Patient diagnosed with hepatocellular adenoma (HAL). Patient initially treated at another hospital for a mass-like consolidation with central necrosis. CT showed a large lesion (10.7 cm) in the right upper lobe with central necrosis. Lesion tissue was positive for AFP, HepPar-1, and Glypican-3. Patient's serum AFP level was significantly elevated",
+        "clinical_data": {
+          "diagnoses": [
+            {
+              "code": "C0346050",
+              "label": "Hepatocellular Adenoma",
+              "status": "active"
+            }
+          ],
+          "imaging": [
+            {
+              "type": "Lesion",
+              "body_part": "Right Upper Lobe",
+              "modality": "CT",
+              "finding": "Large lesion (10.7 cm) with central necrosis"
+            }
+          ],
+          "labs": [
+            {
+              "test": "Alpha-Fetoproteins",
+              "value": "elevated",
+              "unit": null,
+              "flag": "abnormal"
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "edges": [
+    {
+      "from": "N1",
+      "to": "N2",
+      "data": {
+        "edge_id": "A_to_B",
+        "branch_flag": true,
+        "content": "Patient underwent CT-guided percutaneous lung biopsy 1 month ago."
+      }
+    },
+    {
+      "from": "N2",
+      "to": "N3",
+      "data": {
+        "edge_id": "B_to_C",
+        "branch_flag": true,
+        "content": "Patient received 1 week of anti-inflammatory treatment with no significant effects. Physical examination revealed no jaundice, bleeding, or rash on skin or mucous membranes. Superficial lymph nodes were not palpable or enlarged. Chest wall symmetry was maintained, with normal respiratory excursions and rhythmic breathing patterns. Auscultation revealed moist rales in the right upper lung field and slightly coarse breath sounds in the right lower and left lung fields, with no pleural friction rubs detected.",
+        "transition_event": {
+          "trigger_type": "medication_change",
+          "trigger_entities": [
+            "anti-inflammatory treatment"
+          ],
+          "change_type": "other",
+          "target_domain": "medication"
+        }
+      }
+    },
+    {
+      "from": "N3",
+      "to": "N4",
+      "data": {
+        "edge_id": "C_to_D",
+        "branch_flag": true,
+        "content": "Enhanced chest CT scan showed a large consolidation shadow in the right upper lobe, with a central ring of low density. Sputum microbiological culture yielded negative results. Chest CT reveals a large area of consolidation in the upper lobe of the right lung accompanied by multiple enlarged mediastinal lymph nodes. Postcontrast chest CT demonstrates moderate enhancement in the consolidated area of the upper lobe of the right lung, with quasi-round, slightly hypodense lesions within the focus; the boundaries are still clear. 3D reconstruction of the chest CT reveals bronchial narrowing and obstruction in the upper lobe of the right lung.",
+        "transition_event": {
+          "trigger_type": "imaging",
+          "trigger_entities": [
+            "CT scan"
+          ],
+          "change_type": "progression",
+          "target_domain": "imaging"
+        }
+      }
+    },
+    {
+      "from": "N4",
+      "to": "N5",
+      "data": {
+        "edge_id": "D_to_E",
+        "branch_flag": true,
+        "content": "AFP level of > 2,000 ng/ml, reassessment revealed an AFP level of 15,290.36 ng/ml and a Carcinoembryonic Antigen (CEA) level of 28.1 ng/ml. hCG and estradiol results were normal. Abdominal, pelvic, and cranial CT scans showed no significant abnormalities. Patient\u2019s slightly elevated white blood cell count, normal procalcitonin levels, and negative sputum microbiological culture.",
+        "transition_event": {
+          "trigger_type": "lab_change",
+          "trigger_entities": [
+            "C0001774",
+            "C0007666"
+          ],
+          "change_type": "progression",
+          "target_domain": "lab"
+        }
+      }
+    },
+    {
+      "from": "N5",
+      "to": "N6",
+      "data": {
+        "edge_id": "E_to_F",
+        "branch_flag": true,
+        "content": "Another lung biopsy was performed, obtaining five samples from different angles, with four samples appearing necrotic. Pathological examination of lesion specimens obtained via biopsy under CT guidance from central, anterior, posterior, left, and right angles. Samples 1 to 4 appeared as \u201cfish-flesh-like\u201d tissue, suggestive of necrosis. Greyish-white solid tissue sample from the lesion.",
+        "transition_event": {
+          "trigger_type": "procedure",
+          "trigger_entities": [
+            "Biopsy of lung"
+          ],
+          "change_type": "addition",
+          "target_domain": "procedure"
+        }
+      }
+    },
+    {
+      "from": "N6",
+      "to": "N7",
+      "data": {
+        "edge_id": "F_to_G",
+        "branch_flag": true,
+        "content": "Immunohistochemical analysis of the fifth biopsy sample reveals features consistent with hepatocellular adenoma (HAL). Immunohistochemical findings: TTF-1 negative, Napsin A negative, P40 negative, Syn negative, AFP positive, GPC-3 positive, Arg-1 positive, Hep-1 positive, CK positive, and CK7 negative. Final diagnosis of primary HAL (stage IIIC, T4N3M0).",
+        "transition_event": {
+          "trigger_type": "interpretation",
+          "trigger_entities": [
+            "C0"
+          ]
+        }
+      }
+    }
+  ]
+}

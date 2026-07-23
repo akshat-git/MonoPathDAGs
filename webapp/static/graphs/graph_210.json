@@ -1,0 +1,289 @@
+{
+  "nodes": [
+    {
+      "id": "N1",
+      "label": "Step 1",
+      "customData": {
+        "node_id": "A",
+        "node_step_index": 0,
+        "content": "62-year-old Chinese man presented with 2 months of cough with phlegm and blood in phlegm in September 2019.",
+        "clinical_data": {
+          "HPI": [
+            {
+              "summary": "62-year-old Chinese man presented with 2 months of cough with phlegm and blood in phlegm in September 2019.",
+              "duration": "2 months",
+              "onset": "September 2019",
+              "associated_symptoms": [
+                "C0010200",
+                "C0031375",
+                "C0005764"
+              ]
+            }
+          ]
+        },
+        "timestamp": "2019-09"
+      }
+    },
+    {
+      "id": "N2",
+      "label": "Step 2",
+      "customData": {
+        "node_id": "B",
+        "node_step_index": 1,
+        "content": "Chest CT scan showed a mass at the right lower lobe, multiple nodular thickening with right horizontal fissures, and local atelectasis in the middle and lower lobes of the right lung, accompanied by bilateral pleural effusion and inflammatory lesions (more severe on the right side) and plump mediastinal lymph-nodes. No metastatic lesions detected.",
+        "clinical_data": {
+          "imaging": [
+            {
+              "type": "Mass",
+              "body_part": "Right lower lobe",
+              "modality": "CT",
+              "finding": "Mass at the right lower lobe",
+              "impression": "Mass at the right lower lobe",
+              "date": null
+            },
+            {
+              "type": "Nodular thickening",
+              "body_part": "Right horizontal fissures",
+              "modality": "CT",
+              "finding": "Multiple nodular thickening with right horizontal fissures",
+              "impression": "Multiple nodular thickening with right horizontal fissures",
+              "date": null
+            },
+            {
+              "type": "Atelectasis",
+              "body_part": "Middle and lower lobes of the right lung",
+              "modality": "CT",
+              "finding": "Local atelectasis in the middle and lower lobes of the right lung",
+              "impression": "Local atelectasis in the middle and lower lobes of the right lung",
+              "date": null
+            },
+            {
+              "type": "Pleural Effusion",
+              "body_part": "Pleural cavity",
+              "modality": "CT",
+              "finding": "Bilateral pleural effusion",
+              "impression": "Bilateral pleural effusion",
+              "date": null
+            },
+            {
+              "type": "Inflammatory lesions",
+              "body_part": "Lungs",
+              "modality": "CT",
+              "finding": "Inflammatory lesions (more severe on the right side)",
+              "impression": "Inflammatory lesions (more severe on the right side)",
+              "date": null
+            },
+            {
+              "type": "Lymphadenopathy",
+              "body_part": "Mediastinum",
+              "modality": "CT",
+              "finding": "Plump mediastinal lymph-nodes",
+              "impression": "Plump mediastinal lymph-nodes",
+              "date": null
+            },
+            {
+              "type": "Metastatic lesions",
+              "body_part": "Unknown",
+              "modality": "CT",
+              "finding": "No metastatic lesions detected",
+              "impression": "No metastatic lesions detected",
+              "date": null
+            }
+          ]
+        },
+        "timestamp": "2019-09"
+      }
+    },
+    {
+      "id": "N3",
+      "label": "Step 3",
+      "customData": {
+        "node_id": "C",
+        "node_step_index": 2,
+        "content": "CT-guided biopsy of the lung tumor tissue showed NSCLC, stage IVA (cT3N2M1a). Immunohistochemical analysis revealed positive expression for napsin A, Ki-67, thyroid transcription factor 1 (TTF-1), and negative expression for P40, indicating an adenocarcinoma origin of the lung tumor. Hematoxylin and eosin (HE) staining of the biopsy specimen showed a poorly differentiated tumor tissue.",
+        "clinical_data": {
+          "imaging": [
+            {
+              "type": "CT guided biopsy",
+              "body_part": "Lung",
+              "modality": "CT",
+              "finding": "NSCLC, stage IVA (cT3N2M1a)",
+              "date": null
+            }
+          ],
+          "diagnoses": [
+            {
+              "code": "C0024117",
+              "label": "Non-small cell lung carcinoma",
+              "status": "active",
+              "onset_date": null
+            },
+            {
+              "code": "cT3N2M1a",
+              "label": "stage IVA",
+              "status": "active",
+              "onset_date": null
+            }
+          ],
+          "labs": [
+            {
+              "test": "Napsin A",
+              "value": "positive",
+              "unit": null,
+              "flag": "positive",
+              "reference_range": null,
+              "timestamp": null
+            },
+            {
+              "test": "Ki-67",
+              "value": "positive",
+              "unit": null,
+              "flag": "positive",
+              "reference_range": null,
+              "timestamp": null
+            },
+            {
+              "test": "Thyroid transcription factor 1",
+              "value": "positive",
+              "unit": null,
+              "flag": "positive",
+              "reference_range": null,
+              "timestamp": null
+            },
+            {
+              "test": "P40",
+              "value": "negative",
+              "unit": null,
+              "flag": "negative",
+              "reference_range": null,
+              "timestamp": null
+            },
+            {
+              "test": "Hematoxylin and eosin staining",
+              "value": "poorly differentiated tumor tissue",
+              "unit": null,
+              "flag": "abnormal",
+              "reference_range": null,
+              "timestamp": null
+            }
+          ]
+        },
+        "timestamp": null
+      }
+    },
+    {
+      "id": "N4",
+      "label": "Step 4",
+      "customData": {
+        "node_id": "D",
+        "node_step_index": 3,
+        "content": "DNA-level NGS was performed on the biopsy specimen based on a 10-gene panel (including ALK, BRAF, EGFR, ERBB2, KRAS, MET, PIK3CA, RET, ROS1 and TP53). A novel solute carrier family 8 member A1 (SLC8A1)-ALK fusion type was identified with a mutant allele frequency of 5.98%. RT-PCR and Sanger sequencing confirmed the expression of a BCL11A-ALK fusion on RNA levels, where BCL11A exon 3 rearranged with ALK exon 20. This fusion retained the N-terminal part of BCL11A and the entire kinase domain of ALK. DNA-level analysis revealed a fusion of partial SLC8A1 exon 2 with the last 54 bp of ALK exon 19, and a fusion of partial BCL11A exon 3 with the first 1 bp of ALK exon 20. Fluorescence in situ hybridization (FISH) confirmed ALK rearrangement events on a chromosomal level in the biopsy specimen, showing typical positive ALK-rearrangement signals. No EGFR, TP53 and KRAS mutations or ROS1 rearrangement detected. FISH analysis showed fused red-green signals (negative signal), split red-green signals (positive signal) and single red signals (positive signal) in the patient\u2019s biopsy specimen.",
+        "clinical_data": {
+          "labs": [
+            {
+              "test": "Next Generation Sequencing",
+              "value": "SLC8A1-ALK fusion",
+              "unit": "%",
+              "flag": "abnormal",
+              "reference_range": null,
+              "timestamp": null
+            },
+            {
+              "test": "RT-PCR",
+              "value": "BCL11A-ALK fusion",
+              "unit": null,
+              "flag": "abnormal",
+              "reference_range": null,
+              "timestamp": null
+            },
+            {
+              "test": "Sanger sequencing",
+              "value": "BCL11A-ALK fusion",
+              "unit": null,
+              "flag": "abnormal",
+              "reference_range": null,
+              "timestamp": null
+            },
+            {
+              "test": "Fluorescence in situ hybridization",
+              "value": "ALK rearrangement",
+              "unit": null,
+              "flag": "abnormal",
+              "reference_range": null,
+              "timestamp": null
+            },
+            {
+              "test": "Fluorescence in situ hybridization",
+              "value": "EGFR mutation",
+              "unit": null,
+              "flag": "normal",
+              "reference_range": null,
+              "timestamp": null
+            },
+            {
+              "test": "Fluorescence in situ hybridization",
+              "value": "TP53 mutation",
+              "unit": null,
+              "flag": "normal",
+              "reference_range": null,
+              "timestamp": null
+            },
+            {
+              "test": "Fluorescence in situ hybridization",
+              "value": "KRAS mutation",
+              "unit": null,
+              "flag": "normal",
+              "reference_range": null,
+              "timestamp": null
+            },
+            {
+              "test": "Fluorescence in situ hybridization",
+              "value": "ROS1 rearrangement",
+              "unit": null,
+              "flag": "normal",
+              "reference_range": null,
+              "timestamp": null
+            }
+          ],
+          "diagnoses": [
+            {
+              "code": "C4021",
+              "label": "ALK rearrangement",
+              "status": "active",
+              "onset_date": null
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "edges": [
+    {
+      "from": "N1",
+      "to": "N2",
+      "data": {
+        "edge_id": "A_to_B",
+        "branch_flag": true,
+        "content": "The patient underwent a chest CT scan."
+      }
+    },
+    {
+      "from": "N2",
+      "to": "N3",
+      "data": {
+        "edge_id": "B_to_C",
+        "branch_flag": true,
+        "content": "CT-guided biopsy of the lung tumor tissue was performed."
+      }
+    },
+    {
+      "from": "N3",
+      "to": "N4",
+      "data": {
+        "edge_id": "C_to_D",
+        "branch_flag": true,
+        "content": "DNA-level NGS was performed on the biopsy specimen based on a 10-gene panel."
+      }
+    }
+  ]
+}

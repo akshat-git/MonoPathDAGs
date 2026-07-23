@@ -1,0 +1,338 @@
+{
+  "nodes": [
+    {
+      "id": "N1",
+      "label": "Step 1",
+      "customData": {
+        "node_id": "A",
+        "node_step_index": 0,
+        "content": "58-year-old male presented with cough and dyspnea for several months. He is a long-time smoker with a 31 pack-year history.",
+        "clinical_data": {
+          "HPI": [
+            {
+              "summary": "cough and dyspnea for several months",
+              "duration": "several months"
+            }
+          ],
+          "social_history": [
+            {
+              "category": "smoking",
+              "status": "current",
+              "description": "31 pack-year history"
+            }
+          ]
+        }
+      }
+    },
+    {
+      "id": "N2",
+      "label": "Step 2",
+      "customData": {
+        "node_id": "B",
+        "node_step_index": 1,
+        "content": "Pleurocentesis was performed, with cytologic studies demonstrating atypical cells with hyperchromatic nuclei, prominent nucleoli and abundant eosinophilic and granular cytoplasm consistent with adenocarcinoma.",
+        "clinical_data": {
+          "procedures": [
+            {
+              "name": "Pleurocentesis",
+              "date": null,
+              "location": "pleural space",
+              "outcome": "atypical cells with hyperchromatic nuclei, prominent nucleoli and abundant eosinophilic and granular cytoplasm consistent with adenocarcinoma"
+            }
+          ],
+          "labs": [
+            {
+              "test": "cytologic studies",
+              "value": "atypical cells with hyperchromatic nuclei, prominent nucleoli and abundant eosinophilic and granular cytoplasm",
+              "unit": null,
+              "flag": "abnormal",
+              "reference_range": null,
+              "timestamp": null
+            }
+          ],
+          "diagnoses": [
+            {
+              "code": null,
+              "label": "adenocarcinoma",
+              "status": "suspected",
+              "onset_date": null
+            }
+          ]
+        }
+      }
+    },
+    {
+      "id": "N3",
+      "label": "Step 3",
+      "customData": {
+        "node_id": "C",
+        "node_step_index": 2,
+        "content": "CEA level was 2260 ng/ml (reference value [RV]: <5.0 ng/ml). Chest CT revealed a 6.0-cm long poorly-defined right lower pulmonary lobe tumor with surrounding atelectasis and ipsilateral pleural effusion and a small contralateral pulmonary metastasis. Whole-body CT scan and bone scintigraphy revealed metastases involving the bones, pleura, left lung, and brain. No tumor in the liver was detected and the liver was not cirrhotic.",
+        "clinical_data": {
+          "labs": [
+            {
+              "test": "C0007669",
+              "value": "2260",
+              "unit": "ng/ml",
+              "reference_range": "<5.0 ng/ml",
+              "flag": "abnormal"
+            }
+          ],
+          "imaging": [
+            {
+              "type": "C0008925",
+              "body_part": "C0034232",
+              "modality": "CT",
+              "finding": "6.0-cm long poorly-defined right lower pulmonary lobe tumor with surrounding atelectasis and ipsilateral pleural effusion",
+              "impression": "right lower pulmonary lobe tumor",
+              "date": null
+            },
+            {
+              "type": "C0008925",
+              "body_part": "C0024230",
+              "modality": "CT",
+              "finding": "small contralateral pulmonary metastasis",
+              "impression": "pulmonary metastasis",
+              "date": null
+            },
+            {
+              "type": "C0008925",
+              "body_part": "C0005766",
+              "modality": "CT",
+              "finding": "metastases involving the bones, pleura, left lung, and brain",
+              "impression": "metastases",
+              "date": null
+            },
+            {
+              "type": "C0006252",
+              "body_part": "C0023879",
+              "modality": "other",
+              "finding": "metastases involving the bones, pleura, left lung, and brain",
+              "impression": "metastases",
+              "date": null
+            },
+            {
+              "type": "C0008925",
+              "body_part": "C0023879",
+              "modality": "CT",
+              "finding": "No tumor in the liver was detected and the liver was not cirrhotic",
+              "impression": "No tumor in the liver was detected and the liver was not cirrhotic",
+              "date": null
+            }
+          ]
+        }
+      }
+    },
+    {
+      "id": "N4",
+      "label": "Step 4",
+      "customData": {
+        "node_id": "D",
+        "node_step_index": 3,
+        "content": "Fine needle biopsy of the right pulmonary lower lobe tumor revealed neoplastic cells with abundant eosinophilic cytoplasm and round nuclei arranged concentrically in a solid structure with central necrosis. Immunohistochemistry: TTF-1 negative, Napsin A negative, CK 5/6 negative, p40 negative, CK7 positive, pCEA positive and mCEA positive, rendering the diagnosis of adenocarcinoma of unknown origin.",
+        "clinical_data": {
+          "imaging": [
+            {
+              "type": "Neoplasm of lung (finding)",
+              "body_part": "Lower lobe of right lung",
+              "modality": "Fine needle biopsy",
+              "finding": "Neoplastic cells with abundant eosinophilic cytoplasm and round nuclei arranged concentrically in a solid structure with central necrosis",
+              "impression": "Adenocarcinoma of unknown origin"
+            }
+          ],
+          "diagnoses": [
+            {
+              "code": "C0340583",
+              "label": "Adenocarcinoma, NOS",
+              "status": "active"
+            }
+          ]
+        }
+      }
+    },
+    {
+      "id": "N5",
+      "label": "Step 5",
+      "customData": {
+        "node_id": "E",
+        "node_step_index": 4,
+        "content": "Three cycles of S-1 chemotherapy (tegafur, 5-chloro-2,4-dihydroxypyridine, and potassium oxonate) were administered, with tumor size reduction.",
+        "clinical_data": {
+          "medications": [
+            {
+              "drug": "C0876226",
+              "dosage": null,
+              "frequency": null,
+              "modality": null,
+              "start_date": null,
+              "end_date": null,
+              "indication": "C0006826"
+            },
+            {
+              "drug": "C0583874",
+              "dosage": null,
+              "frequency": null,
+              "modality": null,
+              "start_date": null,
+              "end_date": null,
+              "indication": "C0006826"
+            },
+            {
+              "drug": "C0583875",
+              "dosage": null,
+              "frequency": null,
+              "modality": null,
+              "start_date": null,
+              "end_date": null,
+              "indication": "C0006826"
+            }
+          ]
+        }
+      }
+    },
+    {
+      "id": "N6",
+      "label": "Step 6",
+      "customData": {
+        "node_id": "F",
+        "node_step_index": 5,
+        "content": "Adjuvant radiotherapy and narcotic analgesia were administered.",
+        "clinical_data": {
+          "procedures": [
+            {
+              "name": "Radiotherapy",
+              "approach": "other",
+              "date": null,
+              "location": null,
+              "performed_by": null,
+              "outcome": null
+            }
+          ],
+          "medications": [
+            {
+              "drug": "Narcotic analgesic",
+              "dosage": null,
+              "frequency": null,
+              "modality": null,
+              "start_date": null,
+              "end_date": null,
+              "indication": null
+            }
+          ]
+        }
+      }
+    },
+    {
+      "id": "N7",
+      "label": "Step 7",
+      "customData": {
+        "node_id": "G",
+        "node_step_index": 6,
+        "content": "CT scan at 6 months after diagnosis revealed an increasing size of the tumors in both lungs.",
+        "clinical_data": {
+          "imaging": [
+            {
+              "type": "CT scan",
+              "body_part": "lungs",
+              "modality": "CT",
+              "finding": "increasing size of the tumors",
+              "date": "6 months after diagnosis"
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "edges": [
+    {
+      "from": "N1",
+      "to": "N2",
+      "data": {
+        "edge_id": "A_to_B",
+        "branch_flag": true,
+        "content": "From initial presentation of cough and dyspnea to pleurocentesis revealing adenocarcinoma."
+      }
+    },
+    {
+      "from": "N2",
+      "to": "N3",
+      "data": {
+        "edge_id": "B_to_C",
+        "branch_flag": true,
+        "content": "From adenocarcinoma diagnosis via pleurocentesis to elevated CEA and CT scans revealing extensive metastases.",
+        "transition_event": {
+          "trigger_type": "lab_change",
+          "trigger_entities": [
+            "C0007669"
+          ],
+          "change_type": "progression",
+          "target_domain": "lab"
+        }
+      }
+    },
+    {
+      "from": "N3",
+      "to": "N4",
+      "data": {
+        "edge_id": "C_to_D",
+        "branch_flag": true,
+        "content": "From imaging revealing metastases to fine needle biopsy confirming adenocarcinoma of unknown origin.",
+        "transition_event": {
+          "trigger_type": "procedure",
+          "trigger_entities": [],
+          "change_type": "reinterpretation",
+          "target_domain": "diagnosis"
+        }
+      }
+    },
+    {
+      "from": "N4",
+      "to": "N5",
+      "data": {
+        "edge_id": "D_to_E",
+        "branch_flag": true,
+        "content": "From adenocarcinoma diagnosis to initiation of S-1 chemotherapy with tumor size reduction.",
+        "transition_event": {
+          "trigger_type": "medication_change",
+          "trigger_entities": [
+            "C0876226",
+            "C0583874",
+            "C0583875"
+          ],
+          "change_type": "addition",
+          "target_domain": "medication"
+        }
+      }
+    },
+    {
+      "from": "N5",
+      "to": "N6",
+      "data": {
+        "edge_id": "E_to_F",
+        "branch_flag": true,
+        "content": "From S-1 chemotherapy to adjuvant radiotherapy and narcotic analgesia.",
+        "transition_event": {
+          "trigger_type": "procedure",
+          "trigger_entities": [],
+          "change_type": "addition",
+          "target_domain": "procedure"
+        }
+      }
+    },
+    {
+      "from": "N6",
+      "to": "N7",
+      "data": {
+        "edge_id": "F_to_G",
+        "branch_flag": true,
+        "content": "From adjuvant therapy to CT scan revealing tumor progression in both lungs.",
+        "transition_event": {
+          "trigger_type": "imaging",
+          "trigger_entities": [],
+          "change_type": "progression",
+          "target_domain": "imaging"
+        }
+      }
+    }
+  ]
+}

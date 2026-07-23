@@ -1,0 +1,586 @@
+{
+  "nodes": [
+    {
+      "id": "N1",
+      "label": "Step 1",
+      "customData": {
+        "node_id": "A",
+        "node_step_index": 0,
+        "content": "36-year-old female diagnosed with stage IB cutaneous melanoma, lesion removed from her back. Lesion was histologically grade 2 with no ulceration.",
+        "clinical_data": {
+          "diagnoses": [
+            {
+              "code": "C43.51",
+              "label": "Malignant melanoma of skin of trunk",
+              "status": "active",
+              "onset_date": null
+            }
+          ],
+          "procedures": [
+            {
+              "name": "Excision",
+              "approach": "open",
+              "date": null,
+              "location": "back",
+              "performed_by": null,
+              "outcome": null
+            }
+          ]
+        }
+      },
+      "custom_id": "graph_023_N0"
+    },
+    {
+      "id": "N2",
+      "label": "Step 2",
+      "customData": {
+        "node_id": "B",
+        "node_step_index": 1,
+        "content": "Lymph node scintigraphy and removal of 4 sentinel lymph nodes showed no lymphatic spread of the disease.",
+        "clinical_data": {
+          "imaging": [
+            {
+              "type": "Lymph node scintigraphy",
+              "body_part": "Lymph node",
+              "modality": "other",
+              "finding": "no lymphatic spread of the disease"
+            }
+          ],
+          "procedures": [
+            {
+              "name": "Sentinel lymph node biopsy",
+              "approach": "other",
+              "outcome": "no lymphatic spread of the disease",
+              "location": "Lymph node"
+            }
+          ]
+        }
+      },
+      "custom_id": "graph_023_N1"
+    },
+    {
+      "id": "N3",
+      "label": "Step 3",
+      "customData": {
+        "node_id": "C",
+        "node_step_index": 2,
+        "content": "Yearly follow-up visits at the dermato-oncologist showed no signs of disease relapse or recurrence.",
+        "clinical_data": {}
+      },
+      "custom_id": "graph_023_N2"
+    },
+    {
+      "id": "N4",
+      "label": "Step 4",
+      "customData": {
+        "node_id": "D",
+        "node_step_index": 3,
+        "content": "Patient presented with worsening eyesight in the right eye and was diagnosed with a pigmented choroidal tumor.",
+        "clinical_data": {
+          "diagnoses": [
+            {
+              "code": "C0154193",
+              "label": "Choroidal Neoplasms",
+              "status": "active"
+            }
+          ],
+          "HPI": [
+            {
+              "summary": "Patient presented with worsening eyesight in the right eye",
+              "progression": "worsening",
+              "associated_symptoms": [
+                "C0234547"
+              ]
+            }
+          ]
+        }
+      },
+      "custom_id": "graph_023_N3"
+    },
+    {
+      "id": "N5",
+      "label": "Step 5",
+      "customData": {
+        "node_id": "E",
+        "node_step_index": 4,
+        "content": "Patient underwent brachytherapy for the pigmented choroidal tumor.",
+        "clinical_data": {
+          "procedures": [
+            {
+              "name": "Brachytherapy",
+              "approach": "other",
+              "date": null,
+              "location": "choroid",
+              "performed_by": null,
+              "outcome": null
+            }
+          ],
+          "diagnoses": [
+            {
+              "code": null,
+              "label": "pigmented choroidal tumor",
+              "status": "active",
+              "onset_date": null
+            }
+          ]
+        }
+      },
+      "custom_id": "graph_023_N4"
+    },
+    {
+      "id": "N6",
+      "label": "Step 6",
+      "customData": {
+        "node_id": "F",
+        "node_step_index": 5,
+        "content": "Follow-up with the oncologist revealed metastatic disease throughout the body with a metastasis pattern characteristic of primary cutaneous melanoma.",
+        "clinical_data": {
+          "diagnoses": [
+            {
+              "code": "C43",
+              "label": "Malignant melanoma of skin",
+              "status": "active",
+              "onset_date": null
+            },
+            {
+              "code": "C79.9",
+              "label": "Secondary malignant neoplasm of unspecified site",
+              "status": "active",
+              "onset_date": null
+            }
+          ]
+        }
+      },
+      "custom_id": "graph_023_N5"
+    },
+    {
+      "id": "N7",
+      "label": "Step 7",
+      "customData": {
+        "node_id": "G",
+        "node_step_index": 6,
+        "content": "Systemic cancer treatment with ipilimumab and nivolumab was initiated.",
+        "clinical_data": {
+          "medications": [
+            {
+              "drug": "C0972737",
+              "dosage": null,
+              "frequency": null,
+              "modality": null,
+              "start_date": null,
+              "end_date": null,
+              "indication": "MTHU000764"
+            },
+            {
+              "drug": "C1663708",
+              "dosage": null,
+              "frequency": null,
+              "modality": null,
+              "start_date": null,
+              "end_date": null,
+              "indication": "MTHU000764"
+            }
+          ]
+        }
+      },
+      "custom_id": "graph_023_N6"
+    },
+    {
+      "id": "N8",
+      "label": "Step 8",
+      "customData": {
+        "node_id": "H",
+        "node_step_index": 7,
+        "content": "Choroidal tumor and visual function remained stable for 2 years after brachytherapy.",
+        "clinical_data": {
+          "imaging": [
+            {
+              "type": "Choroidal tumor",
+              "finding": "stable",
+              "date": null
+            }
+          ],
+          "procedures": [
+            {
+              "name": "Brachytherapy",
+              "date": null,
+              "outcome": "stable choroidal tumor and visual function"
+            }
+          ],
+          "functional_status": [
+            {
+              "domain": "vision",
+              "description": "stable"
+            }
+          ]
+        }
+      },
+      "custom_id": "graph_023_N7"
+    },
+    {
+      "id": "N9",
+      "label": "Step 9",
+      "customData": {
+        "node_id": "I",
+        "node_step_index": 8,
+        "content": "At age 41, 5 years after melanoma removal, PET/CT scan showed no pathological processes.",
+        "clinical_data": {
+          "imaging": [
+            {
+              "type": "Positron emission tomography and computed tomography",
+              "body_part": "entire body",
+              "modality": "PET",
+              "finding": "no pathological processes",
+              "impression": "no pathological processes",
+              "date": null
+            },
+            {
+              "type": "Positron emission tomography and computed tomography",
+              "body_part": "entire body",
+              "modality": "CT",
+              "finding": "no pathological processes",
+              "impression": "no pathological processes",
+              "date": null
+            }
+          ],
+          "diagnoses": [
+            {
+              "code": "C0025202",
+              "label": "Malignant melanoma",
+              "status": "historical",
+              "onset_date": null
+            }
+          ]
+        }
+      },
+      "custom_id": "graph_023_N8"
+    },
+    {
+      "id": "N10",
+      "label": "Step 10",
+      "customData": {
+        "node_id": "J",
+        "node_step_index": 9,
+        "content": "Ultrasound scans of axillary, abdominal, and pelvic areas performed 9 and 11 years after cutaneous lesion removal were unremarkable.",
+        "clinical_data": {
+          "imaging": [
+            {
+              "type": "Ultrasound scan",
+              "body_part": "axillary area",
+              "modality": "Ultrasound",
+              "finding": "unremarkable",
+              "date": null
+            },
+            {
+              "type": "Ultrasound scan",
+              "body_part": "abdominal area",
+              "modality": "Ultrasound",
+              "finding": "unremarkable",
+              "date": null
+            },
+            {
+              "type": "Ultrasound scan",
+              "body_part": "pelvic area",
+              "modality": "Ultrasound",
+              "finding": "unremarkable",
+              "date": null
+            }
+          ]
+        }
+      },
+      "custom_id": "graph_023_N9"
+    },
+    {
+      "id": "N11",
+      "label": "Step 11",
+      "customData": {
+        "node_id": "K",
+        "node_step_index": 10,
+        "content": "At age 47, patient referred to ophthalmologist with worsening visual acuity in right eye over the last 3 months.",
+        "clinical_data": {
+          "HPI": [
+            {
+              "summary": "Worsening visual acuity in right eye over the last 3 months",
+              "duration": "3 months",
+              "progression": "worsening",
+              "associated_symptoms": [
+                "Decreased visual acuity"
+              ],
+              "onset": null
+            }
+          ]
+        }
+      },
+      "custom_id": "graph_023_N10"
+    },
+    {
+      "id": "N12",
+      "label": "Step 12",
+      "customData": {
+        "node_id": "L",
+        "node_step_index": 11,
+        "content": "Right eye examination: Best corrected visual acuity 0.7 decimal. Unremarkable anterior segment, lens, intraocular pressure, and vitreous. Fundoscopic examination revealed an elevated pigmented lesion in the supratemporal macula with the largest basal diameter of 7 mm and orange pigment on the surface. B-scan ultrasound showed lesion presented internal homogeneity and low reflectivity, with a prominence of 2.92 mm.",
+        "clinical_data": {
+          "vitals": [
+            {
+              "type": "Intraocular pressure",
+              "value": "unremarkable"
+            }
+          ],
+          "imaging": [
+            {
+              "type": "ocular ultrasonography",
+              "body_part": "eye",
+              "modality": "Ultrasound",
+              "finding": "lesion presented internal homogeneity and low reflectivity, with a prominence of 2.92 mm"
+            }
+          ],
+          "diagnoses": [
+            {
+              "code": "C0242964",
+              "label": "Pigmented Lesion",
+              "status": "active",
+              "onset_date": null
+            }
+          ]
+        }
+      },
+      "custom_id": "graph_023_N11"
+    },
+    {
+      "id": "N13",
+      "label": "Step 13",
+      "customData": {
+        "node_id": "M",
+        "node_step_index": 12,
+        "content": "Optical coherence tomography (OCT) showed subretinal fluid reaching the fovea. Clinical diagnosis of a malignant choroidal tumor was made.",
+        "clinical_data": {
+          "imaging": [
+            {
+              "type": "Optical coherence tomography",
+              "body_part": "fovea",
+              "modality": "OCT",
+              "finding": "subretinal fluid reaching the fovea"
+            }
+          ],
+          "diagnoses": [
+            {
+              "code": "C0007666",
+              "label": "Choroidal Neoplasms",
+              "status": "active"
+            }
+          ]
+        }
+      },
+      "custom_id": "graph_023_N12"
+    },
+    {
+      "id": "N14",
+      "label": "Step 14",
+      "customData": {
+        "node_id": "N",
+        "node_step_index": 13,
+        "content": "Two weeks after the initial presentation, the patient underwent brachytherapy with a ruthenium-106 (Ru-106) plaque, which was placed fovea sparingly. The dose to tumor apex was 88.3 Gy and 189 Gy to the sclera.",
+        "clinical_data": {
+          "procedures": [
+            {
+              "name": "Brachytherapy",
+              "approach": "other",
+              "date": null,
+              "location": "fovea",
+              "performed_by": null,
+              "outcome": null
+            }
+          ]
+        }
+      },
+      "custom_id": "graph_023_N13"
+    },
+    {
+      "id": "N15",
+      "label": "Step 15",
+      "customData": {
+        "node_id": "O",
+        "node_step_index": 14,
+        "content": "Fundus examination revealed a pigmented lesion with orange pigment in the supratemporal macula. B-scan ultrasound exam showed an apical height of 2.92 mm. Subretinal fluid in the projection of the tumor was detected on OCT. Patient referred to oncologist for assessment of systemic spread of the disease.",
+        "clinical_data": {
+          "imaging": [
+            {
+              "type": "Fundus examination",
+              "body_part": "eye",
+              "modality": "other",
+              "finding": "pigmented lesion with orange pigment in the supratemporal macula"
+            },
+            {
+              "type": "B-scan ultrasound exam",
+              "body_part": "eye",
+              "modality": "Ultrasound",
+              "finding": "apical height of 2.92 mm"
+            },
+            {
+              "type": "Optical coherence tomography",
+              "body_part": "eye",
+              "modality": "OCT",
+              "finding": "Subretinal fluid in the projection of the tumor"
+            }
+          ]
+        }
+      },
+      "custom_id": "graph_023_N14"
+    }
+  ],
+  "edges": [
+    {
+      "from": "N1",
+      "to": "N2",
+      "data": {
+        "edge_id": "A_to_B",
+        "branch_flag": true,
+        "content": "Patient underwent lymph node scintigraphy and removal of 4 sentinel lymph nodes.",
+        "transition_event": {
+          "trigger_type": "procedure",
+          "trigger_entities": [
+            "C0005690"
+          ],
+          "change_type": "addition",
+          "target_domain": "procedure"
+        }
+      },
+      "custom_id": "graph_023_N1_N2"
+    },
+    {
+      "from": "N2",
+      "to": "N3",
+      "data": {
+        "edge_id": "B_to_C",
+        "branch_flag": true,
+        "content": "Patient underwent yearly follow-up visits at the dermato-oncologist.",
+        "transition_event": {
+          "trigger_type": "procedure",
+          "trigger_entities": [],
+          "change_type": "addition",
+          "target_domain": "procedure"
+        }
+      },
+      "custom_id": "graph_023_N2_N3"
+    },
+    {
+      "from": "N3",
+      "to": "N4",
+      "data": {
+        "edge_id": "C_to_D",
+        "branch_flag": true,
+        "content": "Patient presented with worsening eyesight in the right eye and was diagnosed with a pigmented choroidal tumor.",
+        "transition_event": {
+          "trigger_type": "symptom_onset",
+          "trigger_entities": [
+            "C0234547"
+          ],
+          "change_type": "progression",
+          "target_domain": "symptom"
+        }
+      },
+      "custom_id": "graph_023_N3_N4"
+    },
+    {
+      "from": "N4",
+      "to": "N5",
+      "data": {
+        "edge_id": "D_to_E",
+        "branch_flag": true,
+        "content": "Patient underwent brachytherapy for the pigmented choroidal tumor.",
+        "transition_event": {
+          "trigger_type": "procedure",
+          "trigger_entities": [
+            "C0006244"
+          ],
+          "change_type": "addition",
+          "target_domain": "procedure"
+        }
+      },
+      "custom_id": "graph_023_N4_N5"
+    },
+    {
+      "from": "N5",
+      "to": "N6",
+      "data": {
+        "edge_id": "E_to_F",
+        "branch_flag": true,
+        "content": "Follow-up with the oncologist revealed metastatic disease throughout the body with a metastasis pattern characteristic of primary cutaneous melanoma.",
+        "transition_event": {
+          "trigger_type": "interpretation",
+          "trigger_entities": [
+            "C0025202",
+            "C0027651"
+          ],
+          "change_type": "progression",
+          "target_domain": "diagnosis"
+        }
+      },
+      "custom_id": "graph_023_N5_N6"
+    },
+    {
+      "from": "N6",
+      "to": "N7",
+      "data": {
+        "edge_id": "F_to_G",
+        "branch_flag": true,
+        "content": "Systemic cancer treatment with ipilimumab and nivolumab was initiated.",
+        "transition_event": {
+          "trigger_type": "medication_change",
+          "trigger_entities": [
+            "C0972737",
+            "C1663708"
+          ],
+          "change_type": "addition",
+          "target_domain": "medication"
+        }
+      },
+      "custom_id": "graph_023_N6_N7"
+    },
+    {
+      "from": "N7",
+      "to": "N8",
+      "data": {
+        "edge_id": "G_to_H",
+        "branch_flag": true,
+        "content": "Choroidal tumor and visual function remained stable for 2 years after brachytherapy.",
+        "transition_event": {
+          "trigger_type": "procedure",
+          "trigger_entities": [
+            "C0006244"
+          ],
+          "change_type": "other",
+          "target_domain": "imaging"
+        }
+      },
+      "custom_id": "graph_023_N7_N8"
+    },
+    {
+      "from": "N8",
+      "to": "N9",
+      "data": {
+        "edge_id": "H_to_I",
+        "branch_flag": true,
+        "content": "At age 41, 5 years after melanoma removal, PET/CT scan showed no pathological processes.",
+        "transition_event": {
+          "trigger_type": "imaging",
+          "trigger_entities": [],
+          "change_type": "resolution",
+          "target_domain": "imaging"
+        }
+      },
+      "custom_id": "graph_023_N8_N9"
+    },
+    {
+      "from": "N9",
+      "to": "N10",
+      "data": {
+        "edge_id": "I_to_J",
+        "branch_flag": true,
+        "content": "Ultrasound scans of axillary, abdominal, and pelvic areas performed 9 and 11"
+      },
+      "custom_id": "graph_023_N9_N10"
+    }
+  ]
+}

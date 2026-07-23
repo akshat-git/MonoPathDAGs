@@ -1,0 +1,391 @@
+{
+  "nodes": [
+    {
+      "id": "N1",
+      "label": "Step 1",
+      "customData": {
+        "node_id": "A",
+        "node_step_index": 0,
+        "content": "Patient has multiple metastases in the frontal lobe, parietal lobe, occipital lobe and right ventricle. Date: November 18, 2019.",
+        "timestamp": "2019-11-18",
+        "clinical_data": {
+          "imaging": [
+            {
+              "type": "Metastasis",
+              "body_part": "Frontal lobe",
+              "modality": "MRI",
+              "date": "2019-11-18"
+            },
+            {
+              "type": "Metastasis",
+              "body_part": "Parietal lobe",
+              "modality": "MRI",
+              "date": "2019-11-18"
+            },
+            {
+              "type": "Metastasis",
+              "body_part": "Occipital lobe",
+              "modality": "MRI",
+              "date": "2019-11-18"
+            },
+            {
+              "type": "Metastasis",
+              "body_part": "Right ventricle",
+              "modality": "MRI",
+              "date": "2019-11-18"
+            }
+          ],
+          "diagnoses": [
+            {
+              "code": "C79.31",
+              "label": "Secondary malignant neoplasm of brain",
+              "status": "active",
+              "onset_date": "2019-11-18"
+            }
+          ]
+        }
+      }
+    },
+    {
+      "id": "N2",
+      "label": "Step 2",
+      "customData": {
+        "node_id": "B",
+        "node_step_index": 1,
+        "content": "Patient's left hilum and left upper lobe tumor slightly smaller than the images of November 16, 2019 (size: 56 mm\u00d740 mm). Carcinomatous lymphangitis of the upper lobe of the left lung is unchanged. Multiple enlarged lymph nodes in the mediastinum show no significant changes. Date: January 3, 2020.",
+        "timestamp": "2020-01-03",
+        "clinical_data": {
+          "imaging": [
+            {
+              "type": "Neoplasm of upper lobe of left lung",
+              "body_part": "Upper lobe of left lung",
+              "modality": "CT",
+              "finding": "Slightly smaller than the images of November 16, 2019 (size: 56 mm\u00d740 mm)",
+              "date": "2020-01-03"
+            },
+            {
+              "type": "Carcinomatous lymphangitis",
+              "body_part": "Upper lobe of the left lung",
+              "modality": "CT",
+              "finding": "Unchanged",
+              "date": "2020-01-03"
+            },
+            {
+              "type": "Lymph node enlargement",
+              "body_part": "Mediastinum",
+              "modality": "CT",
+              "finding": "No significant changes",
+              "date": "2020-01-03"
+            }
+          ]
+        }
+      }
+    },
+    {
+      "id": "N3",
+      "label": "Step 3",
+      "customData": {
+        "node_id": "C",
+        "node_step_index": 2,
+        "content": "Multiple intracranial metastases were significantly smaller and disappeared compared with before. Date: January 5, 2020.",
+        "timestamp": "2020-01-05",
+        "clinical_data": {
+          "imaging": [
+            {
+              "type": "brain imaging",
+              "body_part": "brain",
+              "modality": "unspecified",
+              "finding": "Multiple intracranial metastases were significantly smaller and disappeared",
+              "impression": "improvement in intracranial metastases",
+              "date": "2020-01-05"
+            }
+          ]
+        }
+      }
+    },
+    {
+      "id": "N4",
+      "label": "Step 4",
+      "customData": {
+        "node_id": "D",
+        "node_step_index": 3,
+        "content": "Patient's left hilar tumor with obstructive atelectasis, significantly larger than May 20, 2020 (size: 87 mm\u00d7139 mm). Date: July 3, 2020.",
+        "timestamp": "2020-07-03",
+        "clinical_data": {
+          "imaging": [
+            {
+              "type": "Neoplasm of left hilum (finding)",
+              "body_part": "Hilum",
+              "modality": "CT",
+              "finding": "Tumor",
+              "impression": "Significantly larger than May 20, 2020 (size: 87 mm\u00d7139 mm). Obstructive atelectasis",
+              "date": "2020-07-03"
+            }
+          ],
+          "diagnoses": [
+            {
+              "code": "C0242374",
+              "label": "Atelectasis",
+              "status": "active",
+              "onset_date": "2020-07-03"
+            }
+          ]
+        }
+      }
+    },
+    {
+      "id": "N5",
+      "label": "Step 5",
+      "customData": {
+        "node_id": "E",
+        "node_step_index": 4,
+        "content": "Patient has an enlarged tumor, multiple enlarged lymph nodes in the mediastinum, some of which were larger than before, nodular thickening of the left pleura, more advanced than before, and bilateral pleural effusion. Date: August 27, 2020.",
+        "timestamp": "2020-08-27",
+        "clinical_data": {
+          "imaging": [
+            {
+              "type": "Tumor",
+              "body_part": "Mediastinum",
+              "modality": "CT",
+              "finding": "enlarged",
+              "date": "2020-08-27"
+            },
+            {
+              "type": "Lymph node",
+              "body_part": "Mediastinum",
+              "modality": "CT",
+              "finding": "multiple enlarged",
+              "date": "2020-08-27"
+            },
+            {
+              "type": "Pleural thickening",
+              "body_part": "Left pleura",
+              "modality": "CT",
+              "finding": "nodular",
+              "date": "2020-08-27"
+            },
+            {
+              "type": "Pleural effusion",
+              "body_part": "Pleura",
+              "modality": "CT",
+              "finding": "bilateral",
+              "date": "2020-08-27"
+            }
+          ]
+        }
+      }
+    },
+    {
+      "id": "N6",
+      "label": "Step 6",
+      "customData": {
+        "node_id": "F",
+        "node_step_index": 5,
+        "content": "Patient started Crizotinib capsules 250 mg twice daily. Date: July 15, 2019.",
+        "timestamp": "2019-07-15",
+        "clinical_data": {
+          "medications": [
+            {
+              "drug": "Crizotinib",
+              "dosage": "250 mg",
+              "frequency": "twice daily",
+              "modality": "oral",
+              "start_date": "2019-07-15",
+              "end_date": null
+            }
+          ]
+        }
+      }
+    },
+    {
+      "id": "N7",
+      "label": "Step 7",
+      "customData": {
+        "node_id": "G",
+        "node_step_index": 6,
+        "content": "Four weeks after starting Crizotinib, transaminase levels increased sharply, with aspartate aminotransferase and alanine aminotransferase elevated. Alanine aminotransferase reached 1,225 U/L. Crizotinib capsules were immediately discontinued.",
+        "clinical_data": {
+          "medications": [
+            {
+              "drug": "Crizotinib",
+              "dosage": null,
+              "frequency": null,
+              "modality": null,
+              "start_date": null,
+              "end_date": null,
+              "indication": null
+            }
+          ],
+          "labs": [
+            {
+              "test": "Aspartate Aminotransferase",
+              "value": null,
+              "unit": null,
+              "flag": "abnormal",
+              "reference_range": null,
+              "timestamp": null
+            },
+            {
+              "test": "Alanine Aminotransferase",
+              "value": "1225",
+              "unit": "U/L",
+              "flag": "abnormal",
+              "reference_range": null,
+              "timestamp": null
+            }
+          ]
+        }
+      }
+    },
+    {
+      "id": "N8",
+      "label": "Step 8",
+      "customData": {
+        "node_id": "H",
+        "node_step_index": 7,
+        "content": "Patient restarted Crizotinib capsules at 250 mg once daily. Date: September 9, 2019.",
+        "timestamp": "2019-09-09",
+        "clinical_data": {
+          "medications": [
+            {
+              "drug": "Crizotinib",
+              "dosage": "250 mg",
+              "frequency": "once daily",
+              "modality": "oral",
+              "start_date": "2019-09-09",
+              "end_date": null
+            }
+          ]
+        }
+      }
+    },
+    {
+      "id": "N9",
+      "label": "Step 9",
+      "customData": {
+        "node_id": "I",
+        "node_step_index": 8,
+        "content": "Chest CT: Left hilum and left upper lobe mass",
+        "size": 49,
+        "clinical_data": {
+          "imaging": [
+            {
+              "type": "Mass",
+              "body_part": "Left hilum",
+              "modality": "CT",
+              "finding": "Left hilum and left upper lobe mass",
+              "date": null
+            },
+            {
+              "type": "Mass",
+              "body_part": "Left upper lobe",
+              "modality": "CT",
+              "finding": "Left hilum and left upper lobe mass",
+              "date": null
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "edges": [
+    {
+      "from": "N1",
+      "to": "N2",
+      "data": {
+        "edge_id": "A_to_B",
+        "branch_flag": true,
+        "content": "Interval imaging shows changes in lung and mediastinal lesions since November 18, 2019."
+      }
+    },
+    {
+      "from": "N2",
+      "to": "N3",
+      "data": {
+        "edge_id": "B_to_C",
+        "branch_flag": true,
+        "content": "Interval imaging shows changes in intracranial metastases since January 3, 2020."
+      }
+    },
+    {
+      "from": "N3",
+      "to": "N4",
+      "data": {
+        "edge_id": "C_to_D",
+        "branch_flag": true,
+        "content": "Interval imaging shows changes in left hilar tumor since January 5, 2020."
+      }
+    },
+    {
+      "from": "N4",
+      "to": "N5",
+      "data": {
+        "edge_id": "D_to_E",
+        "branch_flag": true,
+        "content": "Interval imaging shows progression of tumor and lymph node enlargement, pleural thickening, and pleural effusion since July 3, 2020."
+      }
+    },
+    {
+      "from": "N5",
+      "to": "N6",
+      "data": {
+        "edge_id": "E_to_F",
+        "branch_flag": true,
+        "content": "No explicit transition. This edge connects a node describing imaging findings to a node describing medication initiation. It is unclear which imaging findings prompted the medication initiation.",
+        "transition_event": {
+          "trigger_type": "medication_change",
+          "trigger_entities": [
+            "C0000000"
+          ],
+          "change_type": "addition",
+          "target_domain": "medication"
+        }
+      }
+    },
+    {
+      "from": "N6",
+      "to": "N7",
+      "data": {
+        "edge_id": "F_to_G",
+        "branch_flag": true,
+        "content": "Four weeks after starting Crizotinib, transaminase levels increased sharply, with aspartate aminotransferase and alanine aminotransferase elevated. Alanine aminotransferase reached 1,225 U/L. Crizotinib capsules were immediately discontinued.",
+        "transition_event": {
+          "trigger_type": "lab_change",
+          "trigger_entities": [
+            "C0003962",
+            "C0002136"
+          ],
+          "change_type": "escalation",
+          "target_domain": "lab"
+        }
+      }
+    },
+    {
+      "from": "N7",
+      "to": "N8",
+      "data": {
+        "edge_id": "G_to_H",
+        "branch_flag": true,
+        "content": "Patient restarted Crizotinib capsules at 250 mg once daily. Date: September 9, 2019.",
+        "transition_event": {
+          "trigger_type": "medication_change",
+          "trigger_entities": [
+            "C0000000"
+          ],
+          "change_type": "reinterpretation",
+          "target_domain": "medication",
+          "timestamp": "2019-09-09T00:00:00Z"
+        }
+      }
+    },
+    {
+      "from": "N8",
+      "to": "N9",
+      "data": {
+        "edge_id": "H_to_I",
+        "branch_flag": true,
+        "content": "Interval imaging shows changes in the left hilum and left upper lobe mass since September 9, 2019."
+      }
+    }
+  ]
+}

@@ -1,0 +1,395 @@
+{
+  "nodes": [
+    {
+      "id": "N1",
+      "label": "Step 1",
+      "customData": {
+        "node_id": "A",
+        "node_step_index": 0,
+        "content": "78-year-old woman admitted to the hospital with a right lung tumor.",
+        "clinical_data": {
+          "diagnoses": [
+            {
+              "code": "C34.9",
+              "label": "Malignant neoplasm of unspecified part of bronchus or lung",
+              "status": "active",
+              "onset_date": null
+            }
+          ]
+        }
+      }
+    },
+    {
+      "id": "N2",
+      "label": "Step 2",
+      "customData": {
+        "node_id": "B",
+        "node_step_index": 1,
+        "content": "Chest computed tomography (CT) showed a 4.0\u2010cm right upper lobe tumor. Diagnosed with right lung cancer (cT3N0M0, stageIIB).",
+        "clinical_data": {
+          "imaging": [
+            {
+              "type": "Computed tomography",
+              "body_part": "Chest",
+              "modality": "CT",
+              "finding": "4.0\u2010cm right upper lobe tumor"
+            }
+          ],
+          "diagnoses": [
+            {
+              "code": "C0024117",
+              "label": "Lung Cancer",
+              "status": "active",
+              "onset_date": null
+            }
+          ]
+        }
+      }
+    },
+    {
+      "id": "N3",
+      "label": "Step 3",
+      "customData": {
+        "node_id": "C",
+        "node_step_index": 2,
+        "content": "Right upper lobectomy and lymph node dissection was performed.",
+        "clinical_data": {
+          "procedures": [
+            {
+              "name": "Lobectomy",
+              "approach": "open",
+              "location": "Right upper lobe",
+              "performed_by": "unknown",
+              "outcome": "unknown"
+            },
+            {
+              "name": "Lymph node dissection",
+              "approach": "open",
+              "location": "unknown",
+              "performed_by": "unknown",
+              "outcome": "unknown"
+            }
+          ]
+        }
+      }
+    },
+    {
+      "id": "N4",
+      "label": "Step 4",
+      "customData": {
+        "node_id": "D",
+        "node_step_index": 3,
+        "content": "Pathological examination revealed the tumor to be pleomorphic carcinoma (pT3N0M0, stageIIB).",
+        "clinical_data": {
+          "diagnoses": [
+            {
+              "code": "C05.9",
+              "label": "Pleomorphic carcinoma",
+              "status": "active"
+            }
+          ]
+        }
+      }
+    },
+    {
+      "id": "N5",
+      "label": "Step 5",
+      "customData": {
+        "node_id": "E",
+        "node_step_index": 4,
+        "content": "Tumor recurrence (lung, pleura, adrenal gland, and bone) occurred 6 months after surgery.",
+        "clinical_data": {
+          "diagnoses": [
+            {
+              "code": "C34",
+              "label": "Malignant neoplasm of bronchus and lung",
+              "status": "active",
+              "onset_date": null
+            },
+            {
+              "code": "C79.2",
+              "label": "Secondary malignant neoplasm of skin",
+              "status": "active",
+              "onset_date": null
+            },
+            {
+              "code": "C79.4",
+              "label": "Secondary malignant neoplasm of bone and bone marrow",
+              "status": "active",
+              "onset_date": null
+            }
+          ]
+        }
+      }
+    },
+    {
+      "id": "N6",
+      "label": "Step 6",
+      "customData": {
+        "node_id": "F",
+        "node_step_index": 5,
+        "content": "High expression of PD\u2010L1 without other molecular mutations.",
+        "clinical_data": {
+          "labs": [
+            {
+              "test": "Programmed cell death-ligand 1",
+              "value": "High expression",
+              "unit": null,
+              "flag": "abnormal",
+              "reference_range": null,
+              "timestamp": null
+            }
+          ]
+        }
+      }
+    },
+    {
+      "id": "N7",
+      "label": "Step 7",
+      "customData": {
+        "node_id": "G",
+        "node_step_index": 6,
+        "content": "Patient received pembrolizumab monotherapy.",
+        "clinical_data": {
+          "medications": [
+            {
+              "drug": "C4049444",
+              "dosage": null,
+              "frequency": null,
+              "modality": null,
+              "start_date": null,
+              "end_date": null,
+              "indication": null
+            }
+          ]
+        }
+      }
+    },
+    {
+      "id": "N8",
+      "label": "Step 8",
+      "customData": {
+        "node_id": "H",
+        "node_step_index": 7,
+        "content": "After five cycles of pembrolizumab, the recurrent tumors showed shrinkage (Figure1a,b).",
+        "clinical_data": {
+          "medications": [
+            {
+              "drug": "C3831583",
+              "dosage": null,
+              "frequency": null,
+              "modality": null,
+              "start_date": null,
+              "end_date": null,
+              "indication": "C0006826"
+            }
+          ],
+          "imaging": [
+            {
+              "type": "C0040941",
+              "body_part": null,
+              "modality": null,
+              "finding": "shrinkage",
+              "impression": null,
+              "date": null
+            }
+          ],
+          "diagnoses": [
+            {
+              "code": "C0035077",
+              "label": "Recurrence",
+              "status": "active",
+              "onset_date": null
+            }
+          ]
+        }
+      }
+    },
+    {
+      "id": "N9",
+      "label": "Step 9",
+      "customData": {
+        "node_id": "I",
+        "node_step_index": 8,
+        "content": "Skin rash developed after seven cycles of pembrolizumab. Pembrolizumab treatment stopped.",
+        "clinical_data": {
+          "allergies": [
+            {
+              "substance": "pembrolizumab",
+              "reaction": "skin rash",
+              "severity": "unknown"
+            }
+          ],
+          "medications": [
+            {
+              "drug": "pembrolizumab",
+              "end_date": null,
+              "indication": "unknown"
+            }
+          ]
+        }
+      }
+    },
+    {
+      "id": "N10",
+      "label": "Step 10",
+      "customData": {
+        "node_id": "J",
+        "node_step_index": 9,
+        "content": "Pneumonitis occurred 1 month after the development of the skin rash (Figure1c,d).",
+        "clinical_data": {
+          "diagnoses": [
+            {
+              "code": "C0032317",
+              "label": "Pneumonitis",
+              "status": "active",
+              "onset_date": null
+            }
+          ],
+          "HPI": [
+            {
+              "summary": "Pneumonitis",
+              "duration": "1 month",
+              "onset": null,
+              "progression": "sudden",
+              "associated_symptoms": [],
+              "alleviating_factors": [],
+              "exacerbating_factors": []
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "edges": [
+    {
+      "from": "N1",
+      "to": "N2",
+      "data": {
+        "edge_id": "A_to_B",
+        "branch_flag": true,
+        "content": "Initial presentation and diagnosis based on imaging."
+      }
+    },
+    {
+      "from": "N2",
+      "to": "N3",
+      "data": {
+        "edge_id": "B_to_C",
+        "branch_flag": true,
+        "content": "Surgical intervention: Right upper lobectomy and lymph node dissection.",
+        "transition_event": {
+          "trigger_type": "procedure",
+          "trigger_entities": [
+            "C0024117"
+          ],
+          "change_type": "other",
+          "target_domain": "procedure"
+        }
+      }
+    },
+    {
+      "from": "N3",
+      "to": "N4",
+      "data": {
+        "edge_id": "C_to_D",
+        "branch_flag": true,
+        "content": "Pathological examination of resected tumor."
+      }
+    },
+    {
+      "from": "N4",
+      "to": "N5",
+      "data": {
+        "edge_id": "D_to_E",
+        "branch_flag": true,
+        "content": "Tumor recurrence 6 months post-surgery in lung, pleura, adrenal gland, and bone.",
+        "transition_event": {
+          "trigger_type": "spontaneous",
+          "trigger_entities": [
+            "C05.9"
+          ],
+          "change_type": "progression",
+          "target_domain": "diagnosis"
+        }
+      }
+    },
+    {
+      "from": "N5",
+      "to": "N6",
+      "data": {
+        "edge_id": "E_to_F",
+        "branch_flag": true,
+        "content": "Molecular profiling reveals high PD-L1 expression without other mutations."
+      }
+    },
+    {
+      "from": "N6",
+      "to": "N7",
+      "data": {
+        "edge_id": "F_to_G",
+        "branch_flag": true,
+        "content": "Initiation of pembrolizumab monotherapy.",
+        "transition_event": {
+          "trigger_type": "medication_change",
+          "trigger_entities": [
+            "C4049444"
+          ],
+          "change_type": "addition",
+          "target_domain": "medication"
+        }
+      }
+    },
+    {
+      "from": "N7",
+      "to": "N8",
+      "data": {
+        "edge_id": "G_to_H",
+        "branch_flag": true,
+        "content": "Tumor shrinkage observed after five cycles of pembrolizumab.",
+        "transition_event": {
+          "trigger_type": "medication_change",
+          "trigger_entities": [
+            "C4049444"
+          ],
+          "change_type": "other",
+          "target_domain": "imaging"
+        }
+      }
+    },
+    {
+      "from": "N8",
+      "to": "N9",
+      "data": {
+        "edge_id": "H_to_I",
+        "branch_flag": true,
+        "content": "Development of skin rash after seven cycles of pembrolizumab, leading to treatment cessation.",
+        "transition_event": {
+          "trigger_type": "medication_change",
+          "trigger_entities": [
+            "C4049444"
+          ],
+          "change_type": "discontinuation",
+          "target_domain": "medication"
+        }
+      }
+    },
+    {
+      "from": "N9",
+      "to": "N10",
+      "data": {
+        "edge_id": "I_to_J",
+        "branch_flag": true,
+        "content": "Pneumonitis occurs one month after skin rash development.",
+        "transition_event": {
+          "trigger_type": "spontaneous",
+          "trigger_entities": [
+            "C0032317"
+          ],
+          "change_type": "addition",
+          "target_domain": "diagnosis"
+        }
+      }
+    }
+  ]
+}

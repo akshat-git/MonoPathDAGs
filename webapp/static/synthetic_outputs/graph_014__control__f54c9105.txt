@@ -1,0 +1,5 @@
+A patient was diagnosed with lung cancer, specifically Non-Small Cell Lung Cancer (NSCLC). Further investigation revealed the patient had lung squamous cell carcinoma (LUSC). The patient was treated with immunotherapy, including immune checkpoint inhibitors (ICIs) and anti-PD-1/L1 monotherapy. The patient's PD-L1 expression was initially assessed and found to be ≥50% positivity. The patient received PD-1 inhibitor monotherapy.
+
+Later, the patient was treated with chemotherapy. The patient was diagnosed with NSCLC and LUSC. The patient received immunotherapy and chemotherapy. The patient's PD-L1 expression was later found to be 1–49% positivity. The patient received immunotherapy and chemotherapy.
+
+The patient attained complete remission by cyst formation with the combination of tislelizumab and chemotherapy. Chemotherapeutic agents induced immunogenic cell death (ICD) pathway, leading to tumor cells apoptosis, releasing tumor antigens, and T cell activation.

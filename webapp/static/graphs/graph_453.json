@@ -1,0 +1,518 @@
+{
+  "nodes": [
+    {
+      "id": "N1",
+      "label": "Step 1",
+      "customData": {
+        "node_id": "A",
+        "node_step_index": 0,
+        "content": "June 2020: Male patient in his fifth decade of life, caucasian, bank clerk, non-smoker, admitted to Hospital. Routine CT scan showed a spiculated nodule in the left basal pyramid associated with pleural retraction. Past medical history of a myelodysplastic syndrome followed in Hematology outpatient clinic not requiring medical treatment. Cranioencephalic MRI did not show distant metastasis.",
+        "clinical_data": {
+          "imaging": [
+            {
+              "type": "Spiculated nodule",
+              "body_part": "Left basal pyramid",
+              "modality": "CT",
+              "finding": "Spiculated nodule in the left basal pyramid associated with pleural retraction",
+              "date": "2020-06"
+            },
+            {
+              "type": "Cranioencephalic MRI",
+              "modality": "MRI",
+              "finding": "No distant metastasis",
+              "date": "2020-06"
+            }
+          ],
+          "diagnoses": [
+            {
+              "code": "C0026654",
+              "label": "Myelodysplastic syndrome",
+              "status": "historical"
+            }
+          ],
+          "social_history": [
+            {
+              "category": "smoking",
+              "status": "never"
+            },
+            {
+              "category": "employment",
+              "description": "bank clerk"
+            }
+          ]
+        }
+      }
+    },
+    {
+      "id": "N2",
+      "label": "Step 2",
+      "customData": {
+        "node_id": "B",
+        "node_step_index": 1,
+        "content": "PET CT scan showed a left inferior lobe lesion (LIL) with SUV 5, clinical stage cT1bcN0cM0.",
+        "clinical_data": {
+          "imaging": [
+            {
+              "type": "Lesion",
+              "body_part": "Left inferior lobe",
+              "modality": "PET CT",
+              "finding": "SUV 5",
+              "impression": "cT1bcN0cM0"
+            }
+          ]
+        }
+      }
+    },
+    {
+      "id": "N3",
+      "label": "Step 3",
+      "customData": {
+        "node_id": "C",
+        "node_step_index": 2,
+        "content": "Cytology of bronchoalveolar lavage from left inferior lobe lesion (LIL) was positive for poorly differentiated carcinoma, suggestive of adenocarcinoma.",
+        "clinical_data": {
+          "imaging": [
+            {
+              "type": "Bronchoalveolar Lavage",
+              "body_part": "Left Inferior Lobe",
+              "modality": "other",
+              "finding": "Positive for poorly differentiated carcinoma, suggestive of adenocarcinoma."
+            }
+          ],
+          "diagnoses": [
+            {
+              "code": "C0002392",
+              "label": "Adenocarcinoma",
+              "status": "suspected"
+            }
+          ]
+        }
+      }
+    },
+    {
+      "id": "N4",
+      "label": "Step 4",
+      "customData": {
+        "node_id": "D",
+        "node_step_index": 3,
+        "content": "December 2020: Video-Assisted Thoracoscopic lobectomy with lymphadenectomy was performed.",
+        "clinical_data": {
+          "procedures": [
+            {
+              "name": "Lobectomy",
+              "approach": "Video-assisted Thoracoscopic",
+              "date": "2020-12",
+              "location": "Thorax",
+              "performed_by": null,
+              "outcome": null
+            },
+            {
+              "name": "Lymphadenectomy",
+              "approach": "Video-assisted Thoracoscopic",
+              "date": "2020-12",
+              "location": "Thorax",
+              "performed_by": null,
+              "outcome": null
+            }
+          ]
+        }
+      }
+    },
+    {
+      "id": "N5",
+      "label": "Step 5",
+      "customData": {
+        "node_id": "E",
+        "node_step_index": 4,
+        "content": "Histological diagnosis of surgical specimen: pT1c pN2, G2, R0, Stage III A (AJCC 8Th Edition).",
+        "clinical_data": {
+          "diagnoses": [
+            {
+              "code": "SNOMED:254293005",
+              "label": "Stage III A",
+              "status": "active"
+            }
+          ]
+        }
+      }
+    },
+    {
+      "id": "N6",
+      "label": "Step 6",
+      "customData": {
+        "node_id": "F",
+        "node_step_index": 5,
+        "content": "January 2021: Proposed for adjuvant chemotherapy with Cisplatin-Etoposide, but only two cycles were completed.",
+        "clinical_data": {
+          "medications": [
+            {
+              "drug": "C0008767",
+              "dosage": null,
+              "frequency": null,
+              "modality": null,
+              "start_date": "2021-01",
+              "end_date": null,
+              "indication": "adjuvant chemotherapy"
+            },
+            {
+              "drug": "C0014266",
+              "dosage": null,
+              "frequency": null,
+              "modality": null,
+              "start_date": "2021-01",
+              "end_date": null,
+              "indication": "adjuvant chemotherapy"
+            }
+          ],
+          "procedures": [
+            {
+              "name": "C0009331",
+              "approach": null,
+              "date": "2021-01",
+              "location": null,
+              "performed_by": null,
+              "outcome": null
+            }
+          ]
+        }
+      }
+    },
+    {
+      "id": "N7",
+      "label": "Step 7",
+      "customData": {
+        "node_id": "G",
+        "node_step_index": 6,
+        "content": "Patient presented with de novo dorsal pain.",
+        "clinical_data": {
+          "HPI": [
+            {
+              "summary": "Patient presented with de novo dorsal pain."
+            }
+          ]
+        }
+      }
+    },
+    {
+      "id": "N8",
+      "label": "Step 8",
+      "customData": {
+        "node_id": "H",
+        "node_step_index": 7,
+        "content": "Dorsal CT revealed two osteolytic lesions on D1 and D7, de novo.",
+        "clinical_data": {
+          "imaging": [
+            {
+              "type": "Computed tomography",
+              "body_part": "Dorsal spine",
+              "modality": "CT",
+              "finding": "two osteolytic lesions on D1 and D7",
+              "impression": "de novo",
+              "date": null
+            }
+          ]
+        }
+      }
+    },
+    {
+      "id": "N9",
+      "label": "Step 9",
+      "customData": {
+        "node_id": "I",
+        "node_step_index": 8,
+        "content": "MRI Cervical-back-sacral spine, with 4 lesions, de novo.",
+        "clinical_data": {
+          "imaging": [
+            {
+              "type": "Magnetic Resonance Imaging",
+              "body_part": "Cervical spine",
+              "modality": "MRI",
+              "finding": "4 lesions, de novo"
+            },
+            {
+              "type": "Magnetic Resonance Imaging",
+              "body_part": "Back",
+              "modality": "MRI",
+              "finding": "4 lesions, de novo"
+            },
+            {
+              "type": "Magnetic Resonance Imaging",
+              "body_part": "Sacral spine",
+              "modality": "MRI",
+              "finding": "4 lesions, de novo"
+            }
+          ]
+        }
+      }
+    },
+    {
+      "id": "N10",
+      "label": "Step 10",
+      "customData": {
+        "node_id": "J",
+        "node_step_index": 9,
+        "content": "May 2021: Computerized tomography and Magnetic resonance imaging of the cervical-dorsal-sacral spine revealed 4 metastatic bone lesions, including a de novo metastatic lesion in L2.",
+        "clinical_data": {
+          "imaging": [
+            {
+              "type": "Computerized tomography",
+              "body_part": "cervical-dorsal-sacral spine",
+              "modality": "CT",
+              "finding": "4 metastatic bone lesions, including a de novo metastatic lesion in L2",
+              "date": "2021-05"
+            },
+            {
+              "type": "Magnetic resonance imaging",
+              "body_part": "cervical-dorsal-sacral spine",
+              "modality": "MRI",
+              "finding": "4 metastatic bone lesions, including a de novo metastatic lesion in L2",
+              "date": "2021-05"
+            }
+          ]
+        }
+      }
+    },
+    {
+      "id": "N11",
+      "label": "Step 11",
+      "customData": {
+        "node_id": "K",
+        "node_step_index": 10,
+        "content": "Guided biopsy for histological confirmation of bone metastasis.",
+        "clinical_data": {
+          "procedures": [
+            {
+              "name": "Biopsy",
+              "approach": "percutaneous",
+              "location": "bone",
+              "indication": "Metastasis"
+            }
+          ]
+        }
+      }
+    },
+    {
+      "id": "N12",
+      "label": "Step 12",
+      "customData": {
+        "node_id": "L",
+        "node_step_index": 11,
+        "content": "Histology of the left iliac wing bone showed fragments of an adenocarcinoma (CK7\u2009+, Napsin-A\u2009+, TTF1\u2009+\u2009(focal)), compatible with lung adenocarcinoma metastasis.",
+        "clinical_data": {
+          "diagnoses": [
+            {
+              "code": "C34",
+              "label": "Lung cancer",
+              "status": "active",
+              "onset_date": null
+            },
+            {
+              "code": "C79.51",
+              "label": "Secondary malignant neoplasm of bone",
+              "status": "active",
+              "onset_date": null
+            }
+          ],
+          "imaging": [
+            {
+              "type": "imaging",
+              "body_part": "iliac wing bone",
+              "modality": "histology",
+              "finding": "fragments of an adenocarcinoma (CK7\u2009+, Napsin-A\u2009+, TTF1\u2009+\u2009(focal)), compatible with lung adenocarcinoma metastasis.",
+              "impression": "lung adenocarcinoma metastasis",
+              "date": null
+            }
+          ]
+        }
+      }
+    },
+    {
+      "id": "N13",
+      "label": "Step 13",
+      "customData": {
+        "node_id": "M",
+        "node_step_index": 12,
+        "content": "May 2021: Irradiation of lesions with greater probability of complications in the short/medium term\u2014D7, L2, left iliac, with a single fraction of 8 Gy.",
+        "clinical_data": {
+          "procedures": [
+            {
+              "name": "Irradiation",
+              "date": "2021-05",
+              "location": "D7, L2, left iliac",
+              "approach": "other",
+              "outcome": "Complications in the short/medium term"
+            }
+          ]
+        }
+      }
+    },
+    {
+      "id": "N14",
+      "label": "Step 14",
+      "customData": {
+        "node_id": "N",
+        "node_step_index": 13,
+        "content": "May 2021: Next Generation Sequencing(NGS) showed breaking of the ALK gene (2p12).",
+        "clinical_data": {
+          "labs": [
+            {
+              "test": "Next Generation Sequencing",
+              "finding": "ALK gene (2p12) breaking",
+              "date": "2021-05"
+            }
+          ]
+        }
+      }
+    },
+    {
+      "id": "N15",
+      "label": "Step 15",
+      "customData": {
+        "node_id": "O",
+        "node_step_index": 14,
+        "content": "June 2021: Patient started on ALK tyrosine kinase inhibitor (TKI) Alectinib 600 mg twice a day (bid).",
+        "clinical_data": {
+          "medications": [
+            {
+              "drug": "Alectinib",
+              "dosage": "600 mg",
+              "frequency": "twice a day",
+              "modality": "oral",
+              "start_date": "2021-06",
+              "end_date": null,
+              "indication": "ALK tyrosine kinase inhibitor (TKI)"
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "edges": [
+    {
+      "from": "N1",
+      "to": "N2",
+      "data": {
+        "edge_id": "A_to_B",
+        "branch_flag": true,
+        "content": "Patient went from initial CT scan showing a nodule to a PET CT scan showing a left inferior lobe lesion (LIL) with SUV 5, clinical stage cT1bcN0cM0."
+      }
+    },
+    {
+      "from": "N2",
+      "to": "N3",
+      "data": {
+        "edge_id": "B_to_C",
+        "branch_flag": true,
+        "content": "Progression from PET CT scan to cytology of bronchoalveolar lavage from left inferior lobe lesion (LIL) being positive for poorly differentiated carcinoma, suggestive of adenocarcinoma."
+      }
+    },
+    {
+      "from": "N3",
+      "to": "N4",
+      "data": {
+        "edge_id": "C_to_D",
+        "branch_flag": true,
+        "content": "Patient underwent Video-Assisted Thoracoscopic lobectomy with lymphadenectomy."
+      }
+    },
+    {
+      "from": "N4",
+      "to": "N5",
+      "data": {
+        "edge_id": "D_to_E",
+        "branch_flag": true,
+        "content": "Histological diagnosis of surgical specimen: pT1c pN2, G2, R0, Stage III A (AJCC 8Th Edition)."
+      }
+    },
+    {
+      "from": "N5",
+      "to": "N6",
+      "data": {
+        "edge_id": "E_to_F",
+        "branch_flag": true,
+        "content": "Patient proposed for adjuvant chemotherapy with Cisplatin-Etoposide, but only two cycles were completed."
+      }
+    },
+    {
+      "from": "N6",
+      "to": "N7",
+      "data": {
+        "edge_id": "F_to_G",
+        "branch_flag": true,
+        "content": "Patient presented with de novo dorsal pain."
+      }
+    },
+    {
+      "from": "N7",
+      "to": "N8",
+      "data": {
+        "edge_id": "G_to_H",
+        "branch_flag": true,
+        "content": "Dorsal CT revealed two osteolytic lesions on D1 and D7, de novo."
+      }
+    },
+    {
+      "from": "N8",
+      "to": "N9",
+      "data": {
+        "edge_id": "H_to_I",
+        "branch_flag": true,
+        "content": "MRI Cervical-back-sacral spine, with 4 lesions, de novo."
+      }
+    },
+    {
+      "from": "N9",
+      "to": "N10",
+      "data": {
+        "edge_id": "I_to_J",
+        "branch_flag": true,
+        "content": "Computerized tomography and Magnetic resonance imaging of the cervical-dorsal-sacral spine revealed 4 metastatic bone lesions, including a de novo metastatic lesion in L2."
+      }
+    },
+    {
+      "from": "N10",
+      "to": "N11",
+      "data": {
+        "edge_id": "J_to_K",
+        "branch_flag": true,
+        "content": "Guided biopsy for histological confirmation of bone metastasis."
+      }
+    },
+    {
+      "from": "N11",
+      "to": "N12",
+      "data": {
+        "edge_id": "K_to_L",
+        "branch_flag": true,
+        "content": "Histology of the left iliac wing bone showed fragments of an adenocarcinoma (CK7\u2009+, Napsin-A\u2009+, TTF1\u2009+\u2009(focal)), compatible with lung adenocarcinoma metastasis."
+      }
+    },
+    {
+      "from": "N12",
+      "to": "N13",
+      "data": {
+        "edge_id": "L_to_M",
+        "branch_flag": true,
+        "content": "Irradiation of lesions with greater probability of complications in the short/medium term\u2014D7, L2, left iliac, with a single fraction of 8 Gy."
+      }
+    },
+    {
+      "from": "N13",
+      "to": "N14",
+      "data": {
+        "edge_id": "M_to_N",
+        "branch_flag": true,
+        "content": "Next Generation Sequencing(NGS) showed breaking of the ALK gene (2p12)."
+      }
+    },
+    {
+      "from": "N14",
+      "to": "N15",
+      "data": {
+        "edge_id": "N_to_O",
+        "branch_flag": true,
+        "content": "Patient started on ALK tyrosine kinase inhibitor (TKI) Alectinib 600 mg twice a day (bid)."
+      }
+    }
+  ]
+}

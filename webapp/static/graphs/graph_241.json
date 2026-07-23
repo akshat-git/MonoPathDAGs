@@ -1,0 +1,471 @@
+{
+  "nodes": [
+    {
+      "id": "N1",
+      "label": "Step 1",
+      "customData": {
+        "node_id": "A",
+        "node_step_index": 0,
+        "content": "April 2016: 51-year-old male presented with a 2-month history of consistent cough and was admitted. Diagnosis: Poorly differentiated lung adenocarcinoma in the right upper lobe with enlarged ipsilateral mediastinal lymph node and malignant pleural effusion (MPE) confirmed by cytological examination (cT3N2M1a, IVa). Immunohistochemistry: PCK(+), CK7 (focally +), TTF-1(+), CK18(+), CK5/6(-), P63(scattered +), CK14(-), CDX-2(-), CD56(+), CgA(-), Sgn(-), Ki-67(~50%). Patient also has type two diabetes mellitus with an Eastern Cooperative Oncology Group score of 1.",
+        "clinical_data": {
+          "diagnoses": [
+            {
+              "code": "C34.9",
+              "label": "Lung cancer, unspecified",
+              "status": "active",
+              "onset_date": "2016-02"
+            },
+            {
+              "code": "E11.9",
+              "label": "Type 2 diabetes mellitus without complications",
+              "status": "active",
+              "onset_date": null
+            }
+          ],
+          "imaging": [
+            {
+              "type": "Mediastinal lymph node",
+              "body_part": "Mediastinum",
+              "modality": null,
+              "finding": "enlarged",
+              "impression": null,
+              "date": "2016-04"
+            }
+          ],
+          "HPI": [
+            {
+              "summary": "Consistent cough",
+              "duration": "2 months",
+              "onset": null,
+              "progression": null,
+              "associated_symptoms": [],
+              "alleviating_factors": [],
+              "exacerbating_factors": []
+            }
+          ]
+        }
+      }
+    },
+    {
+      "id": "N2",
+      "label": "Step 2",
+      "customData": {
+        "node_id": "B",
+        "node_step_index": 1,
+        "content": "Percutaneous needle biopsy confirmed epidermal growth factor receptor (EGFR) gene mutation (exon 21 L858R).",
+        "clinical_data": {
+          "procedures": [
+            {
+              "name": "Percutaneous needle biopsy",
+              "approach": "percutaneous",
+              "location": null,
+              "performed_by": null,
+              "outcome": null
+            }
+          ],
+          "diagnoses": [
+            {
+              "code": "EGFR",
+              "label": "epidermal growth factor receptor (EGFR) gene mutation (exon 21 L858R)",
+              "status": "active",
+              "onset_date": null
+            }
+          ]
+        }
+      }
+    },
+    {
+      "id": "N3",
+      "label": "Step 3",
+      "customData": {
+        "node_id": "C",
+        "node_step_index": 2,
+        "content": "Patient was prescribed gefitinib (250 mg, QD).",
+        "clinical_data": {
+          "medications": [
+            {
+              "drug": "C0974734",
+              "dosage": "250 mg",
+              "frequency": "QD",
+              "modality": "oral"
+            }
+          ]
+        }
+      }
+    },
+    {
+      "id": "N4",
+      "label": "Step 4",
+      "customData": {
+        "node_id": "D",
+        "node_step_index": 3,
+        "content": "After 4 months of gefitinib treatment, chest computed tomography scan showed excellent radiographic response.",
+        "clinical_data": {
+          "medications": [
+            {
+              "drug": "C0886332",
+              "dosage": null,
+              "frequency": null,
+              "modality": null,
+              "start_date": null,
+              "end_date": null,
+              "indication": null
+            }
+          ],
+          "imaging": [
+            {
+              "type": "C0008955",
+              "body_part": "C0008043",
+              "modality": "CT",
+              "finding": "excellent radiographic response",
+              "impression": null,
+              "date": null
+            }
+          ]
+        }
+      }
+    },
+    {
+      "id": "N5",
+      "label": "Step 5",
+      "customData": {
+        "node_id": "E",
+        "node_step_index": 4,
+        "content": "August 2016: Patient received lobectomy and systematic lymph node dissection under video-assisted thoracoscopic surgery (VATS).",
+        "clinical_data": {
+          "procedures": [
+            {
+              "name": "Lobectomy",
+              "approach": "video-assisted thoracoscopic surgery",
+              "date": "2016-08",
+              "location": "thorax",
+              "performed_by": null,
+              "outcome": null
+            },
+            {
+              "name": "Lymph node dissection",
+              "approach": "video-assisted thoracoscopic surgery",
+              "date": "2016-08",
+              "location": "lymph node",
+              "performed_by": null,
+              "outcome": null
+            }
+          ]
+        }
+      }
+    },
+    {
+      "id": "N6",
+      "label": "Step 6",
+      "customData": {
+        "node_id": "F",
+        "node_step_index": 5,
+        "content": "Intraoperative findings revealed no pleural involvement, confirmed by pleural biopsy.",
+        "clinical_data": {
+          "procedures": [
+            {
+              "name": "Biopsy of pleura",
+              "location": "pleura",
+              "outcome": "no pleural involvement"
+            }
+          ]
+        }
+      }
+    },
+    {
+      "id": "N7",
+      "label": "Step 7",
+      "customData": {
+        "node_id": "G",
+        "node_step_index": 6,
+        "content": "Postoperative day 5: Patient was discharged uneventfully.",
+        "clinical_data": {}
+      }
+    },
+    {
+      "id": "N8",
+      "label": "Step 8",
+      "customData": {
+        "node_id": "H",
+        "node_step_index": 7,
+        "content": "Postoperative pathology: No residual tumor in the right upper lobe nor in the mediastinal lymph node, confirming pathological complete response to gefitinib (ypT0N0M0). Numerous chronic inflammatory cells, foamy histiocytes, and dense fibrosis observed with no viable tumor seen. Immunohistochemistry: PCK(-), EMA(-), CK7(-), TTF-1(-), NapsinA(-), CK5/6(-), P63(-), PGM-1 (inflammatory cells+).",
+        "clinical_data": {
+          "diagnoses": [
+            {
+              "code": "ypT0N0M0",
+              "label": "pathological complete response to gefitinib",
+              "status": "resolved"
+            }
+          ],
+          "imaging": [
+            {
+              "finding": "No residual tumor in the right upper lobe",
+              "body_part": "right upper lobe",
+              "modality": "pathology"
+            },
+            {
+              "finding": "No residual tumor in the mediastinal lymph node",
+              "body_part": "mediastinal lymph node",
+              "modality": "pathology"
+            },
+            {
+              "finding": "Numerous chronic inflammatory cells, foamy histiocytes, and dense fibrosis observed with no viable tumor seen",
+              "modality": "pathology"
+            }
+          ]
+        }
+      }
+    },
+    {
+      "id": "N9",
+      "label": "Step 9",
+      "customData": {
+        "node_id": "I",
+        "node_step_index": 8,
+        "content": "Patient discontinued gefitinib and underwent four cycles of adjuvant chemotherapy (cisplatinum 40 mg on days 1-3 and pemetrexed 800 mg on day 1).",
+        "clinical_data": {
+          "medications": [
+            {
+              "drug": "C0008862",
+              "dosage": "40 mg",
+              "frequency": "days 1-3",
+              "modality": "IV",
+              "start_date": null,
+              "end_date": null,
+              "indication": "adjuvant chemotherapy"
+            },
+            {
+              "drug": "C0978713",
+              "dosage": "800 mg",
+              "frequency": "day 1",
+              "modality": "IV",
+              "start_date": null,
+              "end_date": null,
+              "indication": "adjuvant chemotherapy"
+            },
+            {
+              "drug": "C0978713",
+              "dosage": null,
+              "frequency": null,
+              "modality": null,
+              "start_date": null,
+              "end_date": null,
+              "indication": "C0016716"
+            }
+          ]
+        }
+      }
+    },
+    {
+      "id": "N10",
+      "label": "Step 10",
+      "customData": {
+        "node_id": "J",
+        "node_step_index": 9,
+        "content": "December 2016: Patient finished last course of adjuvant chemotherapy with only grade 2 leukopenia and no grade 3-4 drug-related adverse events.",
+        "clinical_data": {
+          "medications": [
+            {
+              "drug": "C0009264",
+              "indication": "C0007102",
+              "end_date": "2016-12",
+              "modality": "IV"
+            }
+          ],
+          "labs": [
+            {
+              "test": "C0023530",
+              "flag": "abnormal",
+              "timestamp": "2016-12"
+            }
+          ]
+        }
+      }
+    },
+    {
+      "id": "N11",
+      "label": "Step 11",
+      "customData": {
+        "node_id": "K",
+        "node_step_index": 10,
+        "content": "Patient followed up regularly every 3-4 months with chest and abdominal CT scans and tumor biomarkers and annual PET/CT scan.",
+        "clinical_data": {}
+      }
+    },
+    {
+      "id": "N12",
+      "label": "Step 12",
+      "customData": {
+        "node_id": "L",
+        "node_step_index": 11,
+        "content": "October 2021: PET/CT scan revealed no sign of recurrence. Patient is still alive without disease for 62 months after surgery (disease-free survival: 62 months). Recent positron emission tomography/computed tomography of the patient shows no sign of recurrence.",
+        "clinical_data": {
+          "imaging": [
+            {
+              "type": "Positron emission tomography",
+              "body_part": "entire body",
+              "modality": "PET",
+              "finding": "no sign of recurrence",
+              "date": "2021-10"
+            },
+            {
+              "type": "Computed tomography",
+              "body_part": "entire body",
+              "modality": "CT",
+              "finding": "no sign of recurrence",
+              "date": "2021-10"
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "edges": [
+    {
+      "from": "N1",
+      "to": "N2",
+      "data": {
+        "edge_id": "A_to_B",
+        "branch_flag": true,
+        "content": "Diagnosis of poorly differentiated lung adenocarcinoma with MPE and type two diabetes mellitus. Percutaneous needle biopsy performed."
+      }
+    },
+    {
+      "from": "N2",
+      "to": "N3",
+      "data": {
+        "edge_id": "B_to_C",
+        "branch_flag": true,
+        "content": "EGFR gene mutation (exon 21 L858R) confirmed.",
+        "transition_event": {
+          "trigger_type": "lab_change",
+          "trigger_entities": [
+            "EGFR"
+          ],
+          "change_type": "addition",
+          "target_domain": "diagnosis"
+        }
+      }
+    },
+    {
+      "from": "N3",
+      "to": "N4",
+      "data": {
+        "edge_id": "C_to_D",
+        "branch_flag": true,
+        "content": "Patient started on gefitinib (250 mg, QD).",
+        "transition_event": {
+          "trigger_type": "medication_change",
+          "trigger_entities": [
+            "C0974734"
+          ],
+          "change_type": "addition",
+          "target_domain": "medication"
+        }
+      }
+    },
+    {
+      "from": "N4",
+      "to": "N5",
+      "data": {
+        "edge_id": "D_to_E",
+        "branch_flag": true,
+        "content": "Four months of gefitinib treatment resulted in excellent radiographic response.",
+        "transition_event": {
+          "trigger_type": "interpretation",
+          "trigger_entities": [
+            "C0008955",
+            "C0008043"
+          ],
+          "change_type": "progression",
+          "target_domain": "imaging"
+        }
+      }
+    },
+    {
+      "from": "N5",
+      "to": "N6",
+      "data": {
+        "edge_id": "E_to_F",
+        "branch_flag": true,
+        "content": "Patient underwent lobectomy and systematic lymph node dissection under VATS.",
+        "transition_event": {
+          "trigger_type": "procedure",
+          "trigger_entities": [
+            "C0024091",
+            "C0024131"
+          ],
+          "change_type": "addition",
+          "target_domain": "procedure",
+          "timestamp": "2016-08"
+        }
+      }
+    },
+    {
+      "from": "N6",
+      "to": "N7",
+      "data": {
+        "edge_id": "F_to_G",
+        "branch_flag": true,
+        "content": "Intraoperative findings revealed no pleural involvement, confirmed by pleural biopsy."
+      }
+    },
+    {
+      "from": "N7",
+      "to": "N8",
+      "data": {
+        "edge_id": "G_to_H",
+        "branch_flag": true,
+        "content": "Patient discharged uneventfully on postoperative day 5."
+      }
+    },
+    {
+      "from": "N8",
+      "to": "N9",
+      "data": {
+        "edge_id": "H_to_I",
+        "branch_flag": true,
+        "content": "Postoperative pathology showed pathological complete response to gefitinib (ypT0N0M0).",
+        "transition_event": {
+          "trigger_type": "interpretation",
+          "trigger_entities": [
+            "C0016716"
+          ],
+          "change_type": "resolution",
+          "target_domain": "diagnosis"
+        }
+      }
+    },
+    {
+      "from": "N9",
+      "to": "N10",
+      "data": {
+        "edge_id": "I_to_J",
+        "branch_flag": true,
+        "content": "Patient discontinued gefitinib and underwent four cycles of adjuvant chemotherapy (cisplatinum and pemetrexed).",
+        "transition_event": {
+          "trigger_type": "medication_change",
+          "trigger_entities": [
+            "C0974734",
+            "C0008862",
+            "C0978713"
+          ],
+          "change_type": "medication_change",
+          "target_domain": "medication"
+        }
+      }
+    },
+    {
+      "from": "N10",
+      "to": "N11",
+      "data": {
+        "edge_id": "J_to_K",
+        "branch_flag": true,
+        "content": "Patient finished last course of adjuvant chemotherapy with only grade 2 leukopenia.",
+        "transition_event": {
+          "trigger_type": "medication_change"
+        }
+      }
+    }
+  ]
+}

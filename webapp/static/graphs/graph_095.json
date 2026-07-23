@@ -1,0 +1,228 @@
+{
+  "nodes": [
+    {
+      "id": "N1",
+      "label": "Step 1",
+      "customData": {
+        "node_id": "A",
+        "node_step_index": 0,
+        "content": "68-year-old Chinese female non-smoker presented in June 2019 with cough, bloody sputum and slight shortness of breath for more than 2 months.",
+        "clinical_data": {
+          "HPI": [
+            {
+              "summary": "cough, bloody sputum and slight shortness of breath for more than 2 months",
+              "duration": "P2M",
+              "onset": "2019-04",
+              "progression": "gradual",
+              "associated_symptoms": [
+                "C0010200",
+                "C0038990",
+                "C0020582"
+              ]
+            }
+          ],
+          "social_history": [
+            {
+              "category": "smoking",
+              "status": "never",
+              "description": "non-smoker"
+            }
+          ]
+        }
+      }
+    },
+    {
+      "id": "N2",
+      "label": "Step 2",
+      "customData": {
+        "node_id": "B",
+        "node_step_index": 1,
+        "content": "June 2019: CT scan revealed a mass in the right pulmonary lower lobe and no bronchial or lymph node lesions.",
+        "clinical_data": {
+          "imaging": [
+            {
+              "type": "Mass",
+              "body_part": "Lower lobe of right lung",
+              "modality": "CT",
+              "finding": "Mass in the right pulmonary lower lobe and no bronchial or lymph node lesions",
+              "date": "2019-06"
+            }
+          ]
+        }
+      }
+    },
+    {
+      "id": "N3",
+      "label": "Step 3",
+      "customData": {
+        "node_id": "C",
+        "node_step_index": 2,
+        "content": "Underwent a radical resection of the right lower lobe. Pathological examination showed TTF-1(-), CgA(-), Syn(-), NapsinA(-), P40(-), CD5/6(-), CD56(-), MelanA(-), SOX-10(-), S100(-), HMB45(-), KI67 60%(+), CK(+), CKL(+), CKH(+). Initially diagnosed as stage Ib LCLC.",
+        "clinical_data": {
+          "procedures": [
+            {
+              "name": "Radical resection",
+              "approach": "open",
+              "location": "right lower lobe",
+              "outcome": "Pathological examination showed TTF-1(-), CgA(-), Syn(-), NapsinA(-), P40(-), CD5/6(-), CD56(-), MelanA(-), SOX-10(-), S100(-), HMB45(-), KI67 60%(+), CK(+), CKL(+), CKH(+)"
+            }
+          ],
+          "diagnoses": [
+            {
+              "code": "LCLC",
+              "label": "Large cell lung carcinoma",
+              "status": "active",
+              "onset_date": null
+            }
+          ]
+        }
+      }
+    },
+    {
+      "id": "N4",
+      "label": "Step 4",
+      "customData": {
+        "node_id": "D",
+        "node_step_index": 3,
+        "content": "1 month after operation.",
+        "clinical_data": {}
+      }
+    },
+    {
+      "id": "N5",
+      "label": "Step 5",
+      "customData": {
+        "node_id": "E",
+        "node_step_index": 4,
+        "content": "Color ultrasound scan presented a right upper arm metastasis. Multiple fulminant body and mouth lesions found in the right upper arm, right elbow, right waist, and tongue root. Serum neuron specific enolase (NSE) concentration dramatically increased from 12.12 to 30.14 ng/ml.",
+        "clinical_data": {
+          "imaging": [
+            {
+              "type": "Ultrasound scan",
+              "body_part": "Right upper arm",
+              "modality": "Ultrasound",
+              "finding": "Metastasis"
+            }
+          ],
+          "labs": [
+            {
+              "test": "Neuron specific enolase",
+              "value": "30.14",
+              "unit": "ng/ml",
+              "flag": "abnormal"
+            }
+          ],
+          "diagnoses": [
+            {
+              "code": "C0242963",
+              "label": "Metastasis",
+              "status": "active",
+              "onset_date": null
+            }
+          ]
+        }
+      }
+    },
+    {
+      "id": "N6",
+      "label": "Step 6",
+      "customData": {
+        "node_id": "F",
+        "node_step_index": 5,
+        "content": "Pathological examination of the surgical removal",
+        "clinical_data": {
+          "procedures": [
+            {
+              "name": "Surgical removal",
+              "date": null,
+              "location": null,
+              "performed_by": null,
+              "outcome": null
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "edges": [
+    {
+      "from": "N1",
+      "to": "N2",
+      "data": {
+        "edge_id": "A_to_B",
+        "branch_flag": true,
+        "content": "Patient presented with cough, bloody sputum, and shortness of breath. CT scan was performed.",
+        "transition_event": {
+          "trigger_type": "symptom_onset",
+          "trigger_entities": [
+            "C0010200",
+            "C0038990",
+            "C0020582"
+          ],
+          "change_type": "other",
+          "target_domain": "symptom"
+        }
+      }
+    },
+    {
+      "from": "N2",
+      "to": "N3",
+      "data": {
+        "edge_id": "B_to_C",
+        "branch_flag": true,
+        "content": "From CT scan to surgical resection and pathological examination.",
+        "transition_event": {
+          "trigger_type": "procedure",
+          "trigger_entities": [],
+          "change_type": "addition",
+          "target_domain": "procedure"
+        }
+      }
+    },
+    {
+      "from": "N3",
+      "to": "N4",
+      "data": {
+        "edge_id": "C_to_D",
+        "branch_flag": true,
+        "content": "Post-operative period.",
+        "transition_event": {
+          "trigger_type": "spontaneous",
+          "trigger_entities": [],
+          "change_type": "other",
+          "target_domain": "functional_status"
+        }
+      }
+    },
+    {
+      "from": "N4",
+      "to": "N5",
+      "data": {
+        "edge_id": "D_to_E",
+        "branch_flag": true,
+        "content": "Metastasis detected via ultrasound and elevated NSE levels.",
+        "transition_event": {
+          "trigger_type": "lab_change",
+          "trigger_entities": [],
+          "change_type": "progression",
+          "target_domain": "lab"
+        }
+      }
+    },
+    {
+      "from": "N5",
+      "to": "N6",
+      "data": {
+        "edge_id": "E_to_F",
+        "branch_flag": true,
+        "content": "Surgical removal of lesions for pathological examination.",
+        "transition_event": {
+          "trigger_type": "procedure",
+          "trigger_entities": [],
+          "change_type": "addition",
+          "target_domain": "procedure"
+        }
+      }
+    }
+  ]
+}

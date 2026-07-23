@@ -1,0 +1,429 @@
+{
+  "nodes": [
+    {
+      "id": "N1",
+      "label": "Step 1",
+      "customData": {
+        "node_id": "A",
+        "node_step_index": 0,
+        "content": "50-year-old female presented with a 10-day history of low-grade intermittent fever, productive cough, involuntary movements of both upper and lower limbs, vomiting, nausea, and headache. Initial differential diagnosis included community-acquired pneumonia and acute meningoencephalitis. Empirically started on intravenous antibiotics, anti-epileptic medications, and supportive care. On examination, the patient appeared drowsy and somnolent.",
+        "clinical_data": {
+          "HPI": [
+            {
+              "summary": "50-year-old female presented with a 10-day history of low-grade intermittent fever, productive cough, involuntary movements of both upper and lower limbs, vomiting, nausea, and headache.",
+              "duration": "10 days",
+              "onset": null,
+              "progression": "unknown",
+              "associated_symptoms": [
+                "C0015967",
+                "C0010200",
+                "C0231682",
+                "C0042963",
+                "C0027497",
+                "C0018681"
+              ]
+            }
+          ],
+          "diagnoses": [
+            {
+              "code": "C0009404",
+              "label": "Community-acquired pneumonia",
+              "status": "suspected",
+              "onset_date": null
+            },
+            {
+              "code": "C0025249",
+              "label": "Acute meningoencephalitis",
+              "status": "suspected",
+              "onset_date": null
+            }
+          ],
+          "medications": [
+            {
+              "drug": "antibiotics",
+              "dosage": null,
+              "frequency": null,
+              "modality": "IV",
+              "start_date": null,
+              "end_date": null,
+              "indication": null
+            },
+            {
+              "drug": "anti-epileptic medications",
+              "dosage": null,
+              "frequency": null,
+              "modality": "IV",
+              "start_date": null,
+              "end_date": null,
+              "indication": null
+            }
+          ],
+          "mental_status": [
+            {
+              "domain": "consciousness",
+              "finding": "C0013354",
+              "timestamp": null
+            },
+            {
+              "domain": "consciousness",
+              "finding": "C0038724",
+              "timestamp": null
+            }
+          ]
+        }
+      }
+    },
+    {
+      "id": "N2",
+      "label": "Step 2",
+      "customData": {
+        "node_id": "B",
+        "node_step_index": 1,
+        "content": "Vitals: Temperature 38.6\u00b0C, heart rate 108 bpm, blood pressure 130/80 mmHg, respiratory rate 24 breaths per minute, SpO2 95% on room air. Respiratory: Bilateral crepitations on auscultation. Cardiovascular: Normal heart sounds, symmetrical peripheral pulses, no JVD or peripheral edema. Neurological: GCS 9, equal and reactive pupils, brisk DTRs, bilateral extensor Babinski sign.",
+        "clinical_data": {
+          "vitals": [
+            {
+              "type": "Temperature",
+              "value": "38.6",
+              "unit": "\u00b0C"
+            },
+            {
+              "type": "Heart Rate",
+              "value": "108",
+              "unit": "bpm"
+            },
+            {
+              "type": "Blood Pressure",
+              "value": "130/80",
+              "unit": "mmHg"
+            },
+            {
+              "type": "Respiratory Rate",
+              "value": "24",
+              "unit": "breaths per minute"
+            },
+            {
+              "type": "Oxygen Saturation",
+              "value": "95",
+              "unit": "%"
+            }
+          ],
+          "respiratory": [
+            {
+              "findings": [
+                "Crepitations"
+              ],
+              "location": "Bilateral"
+            }
+          ],
+          "cardiovascular": [
+            {
+              "findings": [
+                "Normal heart sounds",
+                "Symmetrical peripheral pulses",
+                "No JVD",
+                "No peripheral edema"
+              ]
+            }
+          ],
+          "neurological": [
+            {
+              "domain": "GCS",
+              "finding": "GCS 9"
+            },
+            {
+              "domain": "Pupils",
+              "finding": "Equal and reactive pupils"
+            },
+            {
+              "domain": "DTRs",
+              "finding": "Brisk DTRs"
+            },
+            {
+              "domain": "Babinski sign",
+              "finding": "Bilateral extensor Babinski sign"
+            }
+          ]
+        }
+      }
+    },
+    {
+      "id": "N3",
+      "label": "Step 3",
+      "customData": {
+        "node_id": "C",
+        "node_step_index": 2,
+        "content": "Abdomen soft, non-tender, no organomegaly or masses, normal bowel sounds. Chest CT: miliary pattern, differential including interstitial lung disease, infectious processes, or inflammatory conditions. Brain MRI with contrast: multiple ring-enhancing intracranial lesions. Preliminary diagnosis: disseminated tuberculosis.",
+        "clinical_data": {
+          "imaging": [
+            {
+              "type": "Chest CT",
+              "body_part": "chest",
+              "modality": "CT",
+              "finding": "miliary pattern",
+              "impression": "differential including interstitial lung disease, infectious processes, or inflammatory conditions"
+            },
+            {
+              "type": "Brain MRI with contrast",
+              "body_part": "brain",
+              "modality": "MRI",
+              "finding": "multiple ring-enhancing intracranial lesions"
+            }
+          ],
+          "diagnoses": [
+            {
+              "code": "Tuberculosis",
+              "label": "disseminated tuberculosis",
+              "status": "suspected"
+            }
+          ]
+        }
+      }
+    },
+    {
+      "id": "N4",
+      "label": "Step 4",
+      "customData": {
+        "node_id": "D",
+        "node_step_index": 3,
+        "content": "Sputum samples were negative for tuberculosis based on AFB staining, culture, and GeneXpert MTB/RIF. Started on anti-tubercular therapy (ATT) with isoniazid, rifampicin, pyrazinamide, and ethambutol due to clinical response. Bronchoscopy was deferred due to patient non-compliance.",
+        "clinical_data": {
+          "labs": [
+            {
+              "test": "T0760818",
+              "value": "negative",
+              "unit": null,
+              "flag": null,
+              "reference_range": null,
+              "timestamp": null
+            }
+          ],
+          "medications": [
+            {
+              "drug": "C0022064",
+              "dosage": null,
+              "frequency": null,
+              "modality": null,
+              "start_date": null,
+              "end_date": null,
+              "indication": "C0040854"
+            },
+            {
+              "drug": "C0021853",
+              "dosage": null,
+              "frequency": null,
+              "modality": null,
+              "start_date": null,
+              "end_date": null,
+              "indication": "C0040854"
+            },
+            {
+              "drug": "C0035656",
+              "dosage": null,
+              "frequency": null,
+              "modality": null,
+              "start_date": null,
+              "end_date": null,
+              "indication": "C0040854"
+            },
+            {
+              "drug": "C0014767",
+              "dosage": null,
+              "frequency": null,
+              "modality": null,
+              "start_date": null,
+              "end_date": null,
+              "indication": "C0040854"
+            }
+          ],
+          "procedures": [
+            {
+              "name": "C0006266",
+              "approach": null,
+              "date": null,
+              "location": null,
+              "performed_by": null,
+              "outcome": null
+            }
+          ],
+          "diagnoses": [
+            {
+              "code": "C0040854",
+              "label": "Tuberculosis",
+              "status": "suspected",
+              "onset_date": null
+            }
+          ]
+        }
+      }
+    },
+    {
+      "id": "N5",
+      "label": "Step 5",
+      "customData": {
+        "node_id": "E",
+        "node_step_index": 4,
+        "content": "Thorax CT: multiple diffusely scattered tiny random nodules in bilateral lung fields. Brain MRI with contrast: multiple intra-axial, ring-enhancing T2 hyperintense lesions with surrounding vasogenic edema.",
+        "clinical_data": {
+          "imaging": [
+            {
+              "type": "Computed tomography of thorax",
+              "body_part": "Lung",
+              "modality": "CT",
+              "finding": "multiple diffusely scattered tiny random nodules in bilateral lung fields"
+            },
+            {
+              "type": "MRI of brain with contrast",
+              "body_part": "Brain",
+              "modality": "MRI",
+              "finding": "multiple intra-axial, ring-enhancing T2 hyperintense lesions with surrounding vasogenic edema"
+            }
+          ]
+        }
+      }
+    },
+    {
+      "id": "N6",
+      "label": "Step 6",
+      "customData": {
+        "node_id": "F",
+        "node_step_index": 5,
+        "content": "New palpable cervical lymph node discovered during daily ward rounds.",
+        "clinical_data": {
+          "HPI": [
+            {
+              "summary": "New palpable cervical lymph node discovered",
+              "onset": "unknown",
+              "progression": "sudden",
+              "associated_symptoms": [
+                "C0024317"
+              ]
+            }
+          ]
+        }
+      }
+    },
+    {
+      "id": "N7",
+      "label": "Step 7",
+      "customData": {
+        "node_id": "G",
+        "node_step_index": 6,
+        "content": "Fine needle aspiration cytology (FNAC) of the lymph node showed features suggestive of malignancy. PET-CT imaging demonstrated metabolically active lesions in the left lung, mediastinum, cervical, and supraclavicular regions, raising suspicion for a primary lung malignancy with metastases.",
+        "clinical_data": {
+          "imaging": [
+            {
+              "type": "Positron emission tomography-computed tomography",
+              "body_part": "lung",
+              "modality": "PET",
+              "finding": "metabolically active lesions",
+              "impression": "primary lung malignancy with metastases",
+              "date": null
+            }
+          ],
+          "procedures": [
+            {
+              "name": "Fine needle aspiration cytology",
+              "approach": "percutaneous",
+              "date": null,
+              "location": "lymph node",
+              "performed_by": null,
+              "outcome": "malignancy"
+            }
+          ]
+        }
+      }
+    },
+    {
+      "id": "N8",
+      "label": "Step 8",
+      "customData": {
+        "node_id": "H",
+        "node_step_index": 7,
+        "content": "CT-guided biopsy of the lung lesion confirmed the diagnosis of adenocarcinoma of the lung with lymph node and neuro-parenchymal metastases.",
+        "clinical_data": {
+          "imaging": [
+            {
+              "type": "Computed tomography guided biopsy",
+              "body_part": "Lung",
+              "modality": "CT",
+              "finding": "adenocarcinoma of the lung with lymph node and neuro-parenchymal metastases"
+            }
+          ],
+          "diagnoses": [
+            {
+              "code": "C34",
+              "label": "Adenocarcinoma of lung",
+              "status": "active"
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "edges": [
+    {
+      "from": "N1",
+      "to": "N2",
+      "data": {
+        "edge_id": "A_to_B",
+        "branch_flag": true,
+        "content": "Patient examination and vital signs assessment."
+      }
+    },
+    {
+      "from": "N2",
+      "to": "N3",
+      "data": {
+        "edge_id": "B_to_C",
+        "branch_flag": true,
+        "content": "Imaging studies performed and preliminary diagnosis considered."
+      }
+    },
+    {
+      "from": "N3",
+      "to": "N4",
+      "data": {
+        "edge_id": "C_to_D",
+        "branch_flag": true,
+        "content": "Sputum samples tested and anti-tubercular therapy initiated."
+      }
+    },
+    {
+      "from": "N4",
+      "to": "N5",
+      "data": {
+        "edge_id": "D_to_E",
+        "branch_flag": true,
+        "content": "Repeat imaging performed to assess treatment response."
+      }
+    },
+    {
+      "from": "N5",
+      "to": "N6",
+      "data": {
+        "edge_id": "E_to_F",
+        "branch_flag": true,
+        "content": "Discovery of new palpable cervical lymph node."
+      }
+    },
+    {
+      "from": "N6",
+      "to": "N7",
+      "data": {
+        "edge_id": "F_to_G",
+        "branch_flag": true,
+        "content": "Lymph node biopsy and PET-CT imaging performed."
+      }
+    },
+    {
+      "from": "N7",
+      "to": "N8",
+      "data": {
+        "edge_id": "G_to_H",
+        "branch_flag": true,
+        "content": "Lung lesion biopsy confirms adenocarcinoma of the lung with metastases."
+      }
+    }
+  ]
+}

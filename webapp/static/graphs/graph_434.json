@@ -1,0 +1,409 @@
+{
+  "nodes": [
+    {
+      "id": "N1",
+      "label": "Step 1",
+      "customData": {
+        "node_id": "A",
+        "node_step_index": 0,
+        "content": "Patient is a 55-year-old female.",
+        "timestamp": "2007-07",
+        "clinical_data": {
+          "social_history": [
+            {
+              "category": "age",
+              "status": "current",
+              "description": "55 years old"
+            },
+            {
+              "category": "gender",
+              "status": "current",
+              "description": "female"
+            }
+          ]
+        }
+      }
+    },
+    {
+      "id": "N2",
+      "label": "Step 2",
+      "customData": {
+        "node_id": "B",
+        "node_step_index": 1,
+        "content": "Patient underwent a modified radical mastectomy in the left breast.",
+        "timestamp": "2007-07",
+        "clinical_data": {
+          "procedures": [
+            {
+              "name": "Modified radical mastectomy",
+              "approach": "open",
+              "location": "left breast"
+            }
+          ]
+        }
+      }
+    },
+    {
+      "id": "N3",
+      "label": "Step 3",
+      "customData": {
+        "node_id": "C",
+        "node_step_index": 2,
+        "content": "Pathological examination revealed invasive ductal carcinoma, WHO grade III. Immunohistochemical analysis revealed positive expression of estrogen receptor (ER) and progesterone receptor (PR), focal positivity for PS2, and negativity for human epidermal growth factor receptor 2 (Her2). Ki67 proliferation index was approximately 20%.",
+        "timestamp": "2007-07",
+        "clinical_data": {
+          "diagnoses": [
+            {
+              "code": "C4021",
+              "label": "Invasive ductal carcinoma",
+              "status": "active"
+            }
+          ],
+          "labs": [
+            {
+              "test": "Estrogen Receptor Assay",
+              "value": "positive",
+              "unit": null,
+              "flag": "positive"
+            },
+            {
+              "test": "Progesterone Receptor Assay",
+              "value": "positive",
+              "unit": null,
+              "flag": "positive"
+            },
+            {
+              "test": "human epidermal growth factor receptor 2",
+              "value": "negative",
+              "unit": null,
+              "flag": "negative"
+            },
+            {
+              "test": "Ki67 proliferation index",
+              "value": "20",
+              "unit": "%",
+              "flag": "abnormal"
+            }
+          ]
+        }
+      }
+    },
+    {
+      "id": "N4",
+      "label": "Step 4",
+      "customData": {
+        "node_id": "D",
+        "node_step_index": 3,
+        "content": "Metastatic spread detected in left axillary lymph nodes (7/18 sampled positive) and left subclavian lymph nodes (1/2 sampled positive).",
+        "clinical_data": {
+          "diagnoses": [
+            {
+              "code": "C77.3",
+              "label": "Secondary and unspecified malignant neoplasm of axilla and upper limb",
+              "status": "active"
+            },
+            {
+              "code": "C77.4",
+              "label": "Secondary and unspecified malignant neoplasm of upper limb",
+              "status": "active"
+            }
+          ],
+          "imaging": [
+            {
+              "type": "Finding of metastatic spread",
+              "body_part": "Left axillary lymph nodes",
+              "modality": "sampled",
+              "finding": "Metastatic spread detected in left axillary lymph nodes (7/18 sampled positive)"
+            },
+            {
+              "type": "Finding of metastatic spread",
+              "body_part": "Left subclavian lymph nodes",
+              "modality": "sampled",
+              "finding": "Metastatic spread detected in left subclavian lymph nodes (1/2 sampled positive)"
+            }
+          ]
+        }
+      }
+    },
+    {
+      "id": "N5",
+      "label": "Step 5",
+      "customData": {
+        "node_id": "E",
+        "node_step_index": 4,
+        "content": "Patient received adjuvant chemotherapy and radiotherapy directed at the left chest wall and supraclavicular area.",
+        "clinical_data": {
+          "procedures": [
+            {
+              "name": "Chemotherapy",
+              "approach": "IV",
+              "date": null,
+              "location": null,
+              "performed_by": null,
+              "outcome": null
+            },
+            {
+              "name": "Radiotherapy",
+              "approach": null,
+              "date": null,
+              "location": "left chest wall and supraclavicular area",
+              "performed_by": null,
+              "outcome": null
+            }
+          ]
+        }
+      }
+    },
+    {
+      "id": "N6",
+      "label": "Step 6",
+      "customData": {
+        "node_id": "F",
+        "node_step_index": 5,
+        "content": "Patient underwent oophorectomy to reduce estrogen levels, followed by 5 years of endocrine therapy due to hormone receptor-positive cancer.",
+        "clinical_data": {
+          "procedures": [
+            {
+              "name": "Oophorectomy",
+              "date": null,
+              "location": null,
+              "performed_by": null,
+              "outcome": null
+            }
+          ],
+          "medications": [
+            {
+              "drug": "Endocrine therapy",
+              "dosage": null,
+              "frequency": null,
+              "modality": null,
+              "start_date": null,
+              "end_date": null,
+              "indication": "Hormone receptor-positive cancer"
+            }
+          ],
+          "diagnoses": [
+            {
+              "code": null,
+              "label": "Hormone receptor-positive cancer",
+              "status": "historical",
+              "onset_date": null
+            }
+          ]
+        }
+      }
+    },
+    {
+      "id": "N7",
+      "label": "Step 7",
+      "customData": {
+        "node_id": "G",
+        "node_step_index": 6,
+        "content": "Postoperative evaluations indicated no signs of residual lesions, confirming complete disease remission.",
+        "clinical_data": {}
+      }
+    },
+    {
+      "id": "N8",
+      "label": "Step 8",
+      "customData": {
+        "node_id": "H",
+        "node_step_index": 7,
+        "content": "Physical examination revealed nodules in the upper left lung.",
+        "timestamp": "2021-08",
+        "clinical_data": {
+          "imaging": [
+            {
+              "body_part": "Lung",
+              "finding": "Nodule",
+              "modality": "Physical Exam",
+              "type": "Lung finding",
+              "impression": "Nodule in the upper left lung"
+            }
+          ]
+        }
+      }
+    },
+    {
+      "id": "N9",
+      "label": "Step 9",
+      "customData": {
+        "node_id": "I",
+        "node_step_index": 8,
+        "content": "CT scan of the chest suggested a 3.3 x 2.4 cm solid nodule in the upper lobe of the left lung.",
+        "timestamp": "2021-08",
+        "clinical_data": {
+          "imaging": [
+            {
+              "type": "CT scan",
+              "body_part": "chest",
+              "modality": "CT",
+              "finding": "3.3 x 2.4 cm solid nodule in the upper lobe of the left lung"
+            }
+          ]
+        }
+      }
+    },
+    {
+      "id": "N10",
+      "label": "Step 10",
+      "customData": {
+        "node_id": "J",
+        "node_step_index": 9,
+        "content": "Patient underwent video-assisted thoracic surgery (VATS) with left upper lobectomy and lymph node dissection.",
+        "timestamp": "2021-09-03",
+        "clinical_data": {
+          "procedures": [
+            {
+              "name": "Video-assisted thoracic surgery",
+              "approach": "endoscopic",
+              "date": null,
+              "location": "left upper lobe",
+              "performed_by": null,
+              "outcome": null
+            },
+            {
+              "name": "Lobectomy",
+              "approach": "endoscopic",
+              "date": null,
+              "location": "left upper lobe",
+              "performed_by": null,
+              "outcome": null
+            },
+            {
+              "name": "Lymph node dissection",
+              "approach": "open",
+              "date": null,
+              "location": "thoracic",
+              "performed_by": null,
+              "outcome": null
+            }
+          ]
+        }
+      }
+    },
+    {
+      "id": "N11",
+      "label": "Step 11",
+      "customData": {
+        "node_id": "K",
+        "clinical_data": {}
+      }
+    }
+  ],
+  "edges": [
+    {
+      "from": "N1",
+      "to": "N2",
+      "data": {
+        "edge_id": "A_to_B",
+        "branch_flag": true,
+        "content": "Patient presents for surgical intervention."
+      }
+    },
+    {
+      "from": "N2",
+      "to": "N3",
+      "data": {
+        "edge_id": "B_to_C",
+        "branch_flag": true,
+        "content": "Pathological examination of the mastectomy specimen."
+      }
+    },
+    {
+      "from": "N3",
+      "to": "N4",
+      "data": {
+        "edge_id": "C_to_D",
+        "branch_flag": true,
+        "content": "Further evaluation reveals metastatic spread."
+      }
+    },
+    {
+      "from": "N4",
+      "to": "N5",
+      "data": {
+        "edge_id": "D_to_E",
+        "branch_flag": true,
+        "content": "Patient receives adjuvant therapy."
+      }
+    },
+    {
+      "from": "N5",
+      "to": "N6",
+      "data": {
+        "edge_id": "E_to_F",
+        "branch_flag": true,
+        "content": "Patient undergoes oophorectomy and endocrine therapy."
+      }
+    },
+    {
+      "from": "N6",
+      "to": "N7",
+      "data": {
+        "edge_id": "F_to_G",
+        "branch_flag": true,
+        "content": "Postoperative evaluations indicate complete disease remission."
+      }
+    },
+    {
+      "from": "N7",
+      "to": "N8",
+      "data": {
+        "edge_id": "G_to_H",
+        "branch_flag": true,
+        "content": "Years later, physical examination reveals new pulmonary nodules.",
+        "transition_event": {
+          "trigger_type": "symptom_onset",
+          "trigger_entities": [
+            "C0206355"
+          ],
+          "change_type": "progression",
+          "target_domain": "imaging",
+          "timestamp": "2021-08"
+        }
+      }
+    },
+    {
+      "from": "N8",
+      "to": "N9",
+      "data": {
+        "edge_id": "H_to_I",
+        "branch_flag": true,
+        "content": "CT scan performed to evaluate pulmonary nodules.",
+        "transition_event": {
+          "trigger_type": "imaging",
+          "trigger_entities": [],
+          "change_type": "progression",
+          "target_domain": "imaging",
+          "timestamp": "2021-08"
+        }
+      }
+    },
+    {
+      "from": "N9",
+      "to": "N10",
+      "data": {
+        "edge_id": "I_to_J",
+        "branch_flag": true,
+        "content": "Patient undergoes VATS with left upper lobectomy and lymph node dissection.",
+        "transition_event": {
+          "trigger_type": "procedure",
+          "trigger_entities": [],
+          "change_type": "addition",
+          "target_domain": "procedure",
+          "timestamp": "2021-09-03"
+        }
+      }
+    },
+    {
+      "from": "N10",
+      "to": "N11",
+      "data": {
+        "edge_id": "J_to_K",
+        "branch_flag": true,
+        "content": "Post-surgical follow-up and management."
+      }
+    }
+  ]
+}

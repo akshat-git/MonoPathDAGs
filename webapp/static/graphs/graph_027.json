@@ -1,0 +1,558 @@
+{
+  "nodes": [
+    {
+      "id": "N1",
+      "label": "Step 1",
+      "customData": {
+        "node_id": "A",
+        "node_step_index": 0,
+        "content": "Patient admitted to the hospital with black stools for 5 hours.",
+        "timestamp": "2024-08-06",
+        "clinical_data": {
+          "HPI": [
+            {
+              "summary": "Patient admitted to the hospital with black stools for 5 hours.",
+              "duration": "5 hours",
+              "onset": "5 hours prior to admission",
+              "associated_symptoms": [
+                "Melena"
+              ]
+            }
+          ]
+        }
+      },
+      "custom_id": "graph_027_N0"
+    },
+    {
+      "id": "N2",
+      "label": "Step 2",
+      "customData": {
+        "node_id": "B",
+        "node_step_index": 1,
+        "content": "74-year-old man with a ground-glass nodule discovered in the upper lobe of the right lung.",
+        "timestamp": "2019",
+        "clinical_data": {
+          "imaging": [
+            {
+              "type": "Ground-glass nodule",
+              "body_part": "Upper lobe of the right lung",
+              "modality": null,
+              "finding": "Ground-glass nodule in the upper lobe of the right lung",
+              "impression": null,
+              "date": null
+            }
+          ]
+        }
+      },
+      "custom_id": "graph_027_N1"
+    },
+    {
+      "id": "N3",
+      "label": "Step 3",
+      "customData": {
+        "node_id": "C",
+        "node_step_index": 2,
+        "content": "Thoracoscopic wedge resection of the right upper and lower lung nodule under general anesthesia.",
+        "timestamp": "2019-07-18",
+        "clinical_data": {
+          "procedures": [
+            {
+              "name": "Thoracoscopic wedge resection",
+              "approach": "thoracoscopic",
+              "location": "right upper and lower lung",
+              "performed_by": null,
+              "outcome": null
+            }
+          ]
+        }
+      },
+      "custom_id": "graph_027_N2"
+    },
+    {
+      "id": "N4",
+      "label": "Step 4",
+      "customData": {
+        "node_id": "D",
+        "node_step_index": 3,
+        "content": "Postoperative pathology revealed invasive adenocarcinoma in the upper lobe of the right lung, with two masses that did not invade the lung membranes, and no cancerous involvement of the anastomotic margins. The lower lobe of the right lung showed microinvasive adenocarcinoma without invasion of the lung membranes, and no cancer involvement at the anastomotic end margins.",
+        "timestamp": "2019",
+        "clinical_data": {
+          "diagnoses": [
+            {
+              "code": "C34.1",
+              "label": "Malignant neoplasm of upper lobe, bronchus or lung",
+              "status": "active",
+              "onset_date": null
+            },
+            {
+              "code": "C34.3",
+              "label": "Malignant neoplasm of lower lobe, bronchus or lung",
+              "status": "active",
+              "onset_date": null
+            }
+          ],
+          "imaging": [
+            {
+              "type": "Finding",
+              "body_part": "Upper lobe of right lung",
+              "modality": "Pathology",
+              "finding": "invasive adenocarcinoma",
+              "impression": "invasive adenocarcinoma in the upper lobe of the right lung",
+              "date": null
+            },
+            {
+              "type": "Finding",
+              "body_part": "Upper lobe of right lung",
+              "modality": "Pathology",
+              "finding": "two masses that did not invade the lung membranes",
+              "impression": "two masses that did not invade the lung membranes",
+              "date": null
+            },
+            {
+              "type": "Finding",
+              "body_part": "Lower lobe of right lung",
+              "modality": "Pathology",
+              "finding": "microinvasive adenocarcinoma without invasion of the lung membranes",
+              "impression": "microinvasive adenocarcinoma without invasion of the lung membranes",
+              "date": null
+            }
+          ]
+        }
+      },
+      "custom_id": "graph_027_N3"
+    },
+    {
+      "id": "N5",
+      "label": "Step 5",
+      "customData": {
+        "node_id": "E",
+        "node_step_index": 4,
+        "content": "Patient hospitalized with a history of right lung cancer surgery 4 years prior. A nodule in the right lung was found to have increased in size over the past 3 days compared with the previous one.",
+        "timestamp": "2023-07-25",
+        "clinical_data": {
+          "diagnoses": [
+            {
+              "code": "C34.9",
+              "label": "Malignant neoplasm of unspecified part of bronchus or lung",
+              "status": "active",
+              "onset_date": null
+            }
+          ],
+          "procedures": [
+            {
+              "name": "11444003",
+              "approach": "open",
+              "date": null,
+              "location": "Right lung",
+              "performed_by": null,
+              "outcome": null
+            }
+          ],
+          "imaging": [
+            {
+              "type": "N0000002241",
+              "body_part": "Right lung",
+              "modality": null,
+              "finding": "nodule increased in size",
+              "impression": null,
+              "date": null
+            }
+          ],
+          "HPI": [
+            {
+              "summary": "Nodule in the right lung increased in size over the past 3 days compared with the previous one.",
+              "duration": "P3D",
+              "onset": null,
+              "progression": "sudden",
+              "associated_symptoms": [],
+              "alleviating_factors": [],
+              "exacerbating_factors": []
+            }
+          ]
+        }
+      },
+      "custom_id": "graph_027_N4"
+    },
+    {
+      "id": "N6",
+      "label": "Step 6",
+      "customData": {
+        "node_id": "F",
+        "node_step_index": 5,
+        "content": "Complete blood examination revealed no significant abnormalities.",
+        "timestamp": null,
+        "clinical_data": {}
+      },
+      "custom_id": "graph_027_N5"
+    },
+    {
+      "id": "N7",
+      "label": "Step 7",
+      "customData": {
+        "node_id": "G",
+        "node_step_index": 6,
+        "content": "CT-guided percutaneous lung nodule aspiration biopsy on July 28, 2023.",
+        "timestamp": "2023-07-28",
+        "clinical_data": {
+          "procedures": [
+            {
+              "name": "Percutaneous aspiration biopsy",
+              "approach": "percutaneous",
+              "date": "2023-07-28",
+              "location": "lung nodule",
+              "modality": "CT-guided"
+            }
+          ]
+        }
+      },
+      "custom_id": "graph_027_N6"
+    },
+    {
+      "id": "N8",
+      "label": "Step 8",
+      "customData": {
+        "node_id": "H",
+        "node_step_index": 7,
+        "content": "Thermal ablation of lung nodule under local anesthesia on August 8, 2023.",
+        "timestamp": "2023-08-08",
+        "clinical_data": {
+          "procedures": [
+            {
+              "name": "Thermal ablation",
+              "date": "2023-08-08",
+              "location": "lung nodule",
+              "approach": "other",
+              "performed_by": "unknown",
+              "outcome": "unknown"
+            }
+          ]
+        }
+      },
+      "custom_id": "graph_027_N7"
+    },
+    {
+      "id": "N9",
+      "label": "Step 9",
+      "customData": {
+        "node_id": "I",
+        "node_step_index": 8,
+        "content": "Regular follow-up chest CT scans of the upper and middle lobe lesions in the right lung, alongside thermal ablation treatment to reduce the lesions compared to those of the previous scan.",
+        "timestamp": null,
+        "clinical_data": {
+          "imaging": [
+            {
+              "type": "Chest CT scan",
+              "body_part": "Lung",
+              "modality": "CT",
+              "finding": "Lesions in the upper and middle lobe of the right lung",
+              "date": null
+            }
+          ],
+          "procedures": [
+            {
+              "name": "Thermal ablation",
+              "date": null,
+              "location": "Right lung",
+              "outcome": "Reduce the lesions"
+            }
+          ]
+        }
+      },
+      "custom_id": "graph_027_N8"
+    },
+    {
+      "id": "N10",
+      "label": "Step 10",
+      "customData": {
+        "node_id": "J",
+        "node_step_index": 9,
+        "content": "Patient admitted to the emergency department for acute upper gastrointestinal hemorrhage after having 3 black stools, large in total amount, without vomiting blood, accompanied by obvious panic and weakness, without fainting, and without abdominal pain and distension.",
+        "timestamp": "2024-01-09",
+        "clinical_data": {
+          "HPI": [
+            {
+              "summary": "Patient admitted to the emergency department for acute upper gastrointestinal hemorrhage.",
+              "onset": "acute",
+              "associated_symptoms": [
+                "weakness",
+                "panic"
+              ]
+            }
+          ],
+          "diagnoses": [
+            {
+              "code": "K92.2",
+              "label": "Gastrointestinal hemorrhage, unspecified",
+              "status": "active"
+            }
+          ]
+        }
+      },
+      "custom_id": "graph_027_N9"
+    },
+    {
+      "id": "N11",
+      "label": "Step 11",
+      "customData": {
+        "node_id": "K",
+        "node_step_index": 10,
+        "content": "Patient with a 30-year history of hypertension, with systolic blood pressure up to 200 mmHg, managed with compound reserpine (2 tablets daily), nifedipine extended-release tablets (1 tablet daily), and captopril (2 tablets daily), resulting in controlled systolic blood pressure at 150 mmHg. Also has a 7-year history of carotid stenosis on the left side and cerebral stenosis. History of right lung cancer surgery 4 years prior and thermal ablation of a right lung tumor 5 months prior.",
+        "timestamp": null,
+        "clinical_data": {
+          "diagnoses": [
+            {
+              "code": "39087009",
+              "label": "Hypertension",
+              "status": "active",
+              "onset_date": null
+            },
+            {
+              "code": "230690007",
+              "label": "Carotid artery stenosis",
+              "status": "active",
+              "onset_date": null
+            },
+            {
+              "code": "70904001",
+              "label": "Cerebral artery stenosis",
+              "status": "active",
+              "onset_date": null
+            },
+            {
+              "code": "363358000",
+              "label": "Primary malignant neoplasm of lung",
+              "status": "historical",
+              "onset_date": null
+            }
+          ],
+          "medications": [
+            {
+              "drug": "C0035053",
+              "dosage": "2 tablets",
+              "frequency": "daily",
+              "modality": "oral",
+              "start_date": null,
+              "end_date": null,
+              "indication": "Hypertension"
+            },
+            {
+              "drug": "C0028340",
+              "dosage": "1 tablet",
+              "frequency": "daily",
+              "modality": "oral",
+              "start_date": null,
+              "end_date": null,
+              "indication": "Hypertension"
+            },
+            {
+              "drug": "C0007069",
+              "dosage": "2 tablets",
+              "frequency": "daily",
+              "modality": "oral",
+              "start_date": null,
+              "end_date": null,
+              "indication": "Hypertension"
+            }
+          ]
+        }
+      },
+      "custom_id": "graph_027_N10"
+    },
+    {
+      "id": "N12",
+      "label": "Step 12",
+      "customData": {
+        "node_id": "L",
+        "node_step_index": 11,
+        "content": "Patient presented with black stool on January 9, 2024 and was found to have a hemoglobin level of 58 g/L.",
+        "timestamp": "",
+        "clinical_data": {
+          "labs": [
+            {
+              "test": "Hemoglobin measurement",
+              "value": "58",
+              "unit": "g/L",
+              "timestamp": "2024-01-09"
+            }
+          ],
+          "HPI": [
+            {
+              "summary": "Patient presented with black stool",
+              "onset": "2024-01-09",
+              "associated_symptoms": [
+                "Black stool"
+              ]
+            }
+          ]
+        }
+      },
+      "custom_id": "graph_027_N11"
+    }
+  ],
+  "edges": [
+    {
+      "from": "N1",
+      "to": "N2",
+      "data": {
+        "edge_id": "A_to_B",
+        "branch_flag": true,
+        "content": "No significant interval change."
+      },
+      "custom_id": "graph_027_N1_N2"
+    },
+    {
+      "from": "N2",
+      "to": "N3",
+      "data": {
+        "edge_id": "B_to_C",
+        "branch_flag": true,
+        "content": "Decision to proceed with surgical resection of lung nodule.",
+        "transition_event": {
+          "trigger_type": "procedure",
+          "trigger_entities": [],
+          "change_type": "addition",
+          "target_domain": "procedure"
+        }
+      },
+      "custom_id": "graph_027_N2_N3"
+    },
+    {
+      "from": "N3",
+      "to": "N4",
+      "data": {
+        "edge_id": "C_to_D",
+        "branch_flag": true,
+        "content": "Postoperative pathology results.",
+        "transition_event": {
+          "trigger_type": "lab_change",
+          "trigger_entities": [],
+          "change_type": "addition",
+          "target_domain": "diagnosis"
+        }
+      },
+      "custom_id": "graph_027_N3_N4"
+    },
+    {
+      "from": "N4",
+      "to": "N5",
+      "data": {
+        "edge_id": "D_to_E",
+        "branch_flag": true,
+        "content": "Surveillance imaging reveals nodule growth.",
+        "transition_event": {
+          "trigger_type": "imaging",
+          "trigger_entities": [],
+          "change_type": "progression",
+          "target_domain": "imaging"
+        }
+      },
+      "custom_id": "graph_027_N4_N5"
+    },
+    {
+      "from": "N5",
+      "to": "N6",
+      "data": {
+        "edge_id": "E_to_F",
+        "branch_flag": true,
+        "content": "Initial workup, including complete blood examination."
+      },
+      "custom_id": "graph_027_N5_N6"
+    },
+    {
+      "from": "N6",
+      "to": "N7",
+      "data": {
+        "edge_id": "F_to_G",
+        "branch_flag": true,
+        "content": "Decision to proceed with CT-guided percutaneous lung nodule aspiration biopsy.",
+        "transition_event": {
+          "trigger_type": "procedure",
+          "trigger_entities": [],
+          "change_type": "addition",
+          "target_domain": "procedure"
+        }
+      },
+      "custom_id": "graph_027_N6_N7"
+    },
+    {
+      "from": "N7",
+      "to": "N8",
+      "data": {
+        "edge_id": "G_to_H",
+        "branch_flag": true,
+        "content": "Decision to proceed with thermal ablation of lung nodule.",
+        "transition_event": {
+          "trigger_type": "procedure",
+          "trigger_entities": [],
+          "change_type": "addition",
+          "target_domain": "procedure"
+        }
+      },
+      "custom_id": "graph_027_N7_N8"
+    },
+    {
+      "from": "N8",
+      "to": "N9",
+      "data": {
+        "edge_id": "H_to_I",
+        "branch_flag": true,
+        "content": "Regular follow-up and thermal ablation treatment.",
+        "transition_event": {
+          "trigger_type": "procedure",
+          "trigger_entities": [],
+          "change_type": "addition",
+          "target_domain": "procedure"
+        }
+      },
+      "custom_id": "graph_027_N8_N9"
+    },
+    {
+      "from": "N9",
+      "to": "N10",
+      "data": {
+        "edge_id": "I_to_J",
+        "branch_flag": true,
+        "content": "Patient presents with acute upper gastrointestinal hemorrhage.",
+        "transition_event": {
+          "trigger_type": "symptom_onset",
+          "trigger_entities": [
+            "C0019057"
+          ],
+          "change_type": "addition",
+          "target_domain": "symptom",
+          "timestamp": "2024-01-09"
+        }
+      },
+      "custom_id": "graph_027_N9_N10"
+    },
+    {
+      "from": "N10",
+      "to": "N11",
+      "data": {
+        "edge_id": "J_to_K",
+        "branch_flag": true,
+        "content": "Review of patient's medical history and current medications."
+      },
+      "custom_id": "graph_027_N10_N11"
+    },
+    {
+      "from": "N11",
+      "to": "N12",
+      "data": {
+        "edge_id": "K_to_L",
+        "branch_flag": true,
+        "content": "Patient presented with black stool and was found to have a hemoglobin level of 58 g/L.",
+        "transition_event": {
+          "trigger_type": "symptom_onset",
+          "trigger_entities": [
+            "C0019057"
+          ],
+          "change_type": "addition",
+          "target_domain": "symptom",
+          "timestamp": "2024-01-09"
+        }
+      },
+      "custom_id": "graph_027_N11_N12"
+    }
+  ]
+}

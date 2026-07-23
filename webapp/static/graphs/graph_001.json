@@ -1,0 +1,344 @@
+{
+  "nodes": [
+    {
+      "id": "N1",
+      "label": "Step 1",
+      "customData": {
+        "node_id": "A",
+        "node_step_index": 0,
+        "content": "44-year-old male presented with right-sided chest pain, dry cough, on-off fever, and hematuria for 2 months. Patient has no history of Antitubercular treatment (ATT) intake and was a tobacco chewer for >20 years. Physical examination revealed decreased air entry on the right side of the lung.",
+        "clinical_data": {
+          "HPI": [
+            {
+              "summary": "right-sided chest pain, dry cough, on-off fever, and hematuria for 2 months",
+              "duration": "2 months",
+              "associated_symptoms": [
+                "C0008031",
+                "C0010200",
+                "C0015967",
+                "C0019062"
+              ]
+            }
+          ],
+          "social_history": [
+            {
+              "category": "tobacco",
+              "status": "current",
+              "description": "tobacco chewer for >20 years"
+            }
+          ]
+        }
+      },
+      "custom_id": "graph_001_N0"
+    },
+    {
+      "id": "N2",
+      "label": "Step 2",
+      "customData": {
+        "node_id": "B",
+        "node_step_index": 1,
+        "content": "Contrast-enhanced computed tomography (CECT) thorax revealed a heterogeneous lesion in the mediastinal region abutting the horizontal fissure and cavitation within. Chest imaging showed multiple centrilobular nodules arranged in a linear branching pattern.",
+        "clinical_data": {
+          "imaging": [
+            {
+              "type": "Computed tomography",
+              "body_part": "Thorax",
+              "modality": "CT",
+              "finding": "heterogeneous lesion in the mediastinal region abutting the horizontal fissure and cavitation within",
+              "date": null
+            },
+            {
+              "type": "Chest imaging",
+              "body_part": "Chest",
+              "modality": null,
+              "finding": "multiple centrilobular nodules arranged in a linear branching pattern",
+              "date": null
+            }
+          ]
+        }
+      },
+      "custom_id": "graph_001_N1"
+    },
+    {
+      "id": "N3",
+      "label": "Step 3",
+      "customData": {
+        "node_id": "C",
+        "node_step_index": 3,
+        "content": "Bronchoscopy with bronchoscopic-guided biopsy and Bronchoalveolar lavage (BAL) was performed. BAL fluid was negative for malignant cells. Biopsy was suggestive of squamous cell carcinoma.",
+        "clinical_data": {
+          "procedures": [
+            {
+              "name": "Bronchoscopy",
+              "approach": "endoscopic",
+              "location": "lung",
+              "outcome": "negative for malignant cells"
+            },
+            {
+              "name": "Biopsy",
+              "approach": "bronchoscopic-guided",
+              "location": "lung",
+              "outcome": "squamous cell carcinoma"
+            }
+          ],
+          "diagnoses": [
+            {
+              "code": "C0007102",
+              "label": "Squamous Cell Carcinoma",
+              "status": "suspected"
+            }
+          ]
+        }
+      },
+      "custom_id": "graph_001_N2"
+    },
+    {
+      "id": "N4",
+      "label": "Step 4",
+      "customData": {
+        "node_id": "D",
+        "node_step_index": 4,
+        "content": "Patient reported decreased and blurring of vision. Ophthalmology opinion was within normal limits.",
+        "clinical_data": {
+          "HPI": [
+            {
+              "summary": "Patient reported decreased and blurring of vision.",
+              "associated_symptoms": [
+                "Blurring of vision"
+              ]
+            }
+          ]
+        }
+      },
+      "custom_id": "graph_001_N3"
+    },
+    {
+      "id": "N5",
+      "label": "Step 5",
+      "customData": {
+        "node_id": "E",
+        "node_step_index": 5,
+        "content": "18F-FDG PET/CT scan revealed a FDG-avid well-defined soft tissue primary mass measuring 5.6 cm x 7.7 cm x 8.3 cm with spiculated margins in the upper lobe of the right lung with collapse and consolidation of right lung. FDG avid metastases to mediastinal, abdominopelvic lymph nodes and right-sided pleural deposits with multiple sub-centimetric to centimetric-sized bilateral lung nodules were noted. Multiple FDG avid brain lesions involving the bilateral cerebral cortex, cerebellum and pituitary. 18F-FDG-PET/CT showed FDG avid bilateral hypodense renal masses (largest measuring 2.8 cm x 2.6 cm), multiple lytic skeletal lesions with soft tissue component involvement, FDG-avid right-sided lung mass with abdominal lymph node, and FDG-avid soft tissue lesion in the pituitary. Also shows another peripheral enhancing hypodense soft tissue lesion in the left cerebral hemisphere. CT and fused PET/CT axial images showing right parietal-occipital bone lytic lesion with soft tissue component involvement. Metabolically active soft tissue lesions were noted involving bilateral kidneys with extensive metastasis as seen in the FDG PET/CT scan.",
+        "clinical_data": {
+          "imaging": [
+            {
+              "type": "Positron emission tomography/computed tomography",
+              "body_part": "lung",
+              "modality": "PET",
+              "finding": "FDG-avid well-defined soft tissue primary mass measuring 5.6 cm x 7.7 cm x 8.3 cm with spiculated margins in the upper lobe of the right lung with collapse and consolidation of right lung",
+              "date": null
+            },
+            {
+              "type": "Positron emission tomography/computed tomography",
+              "body_part": "mediastinal, abdominopelvic lymph nodes",
+              "modality": "PET",
+              "finding": "FDG avid metastases to mediastinal, abdominopelvic lymph nodes and right-sided pleural deposits with multiple sub-centimetric to centimetric-sized bilateral lung nodules",
+              "date": null
+            },
+            {
+              "type": "Positron emission tomography/computed tomography",
+              "body_part": "brain",
+              "modality": "PET",
+              "finding": "Multiple FDG avid brain lesions involving the bilateral cerebral cortex, cerebellum and pituitary",
+              "date": null
+            },
+            {
+              "type": "Positron emission tomography/computed tomography",
+              "body_part": "kidneys",
+              "modality": "PET",
+              "finding": "FDG avid bilateral hypodense renal masses (largest measuring 2.8 cm x 2.6 cm)",
+              "date": null
+            },
+            {
+              "type": "Positron emission tomography/computed tomography",
+              "body_part": "skeletal",
+              "modality": "PET",
+              "finding": "multiple lytic skeletal lesions with soft tissue component involvement",
+              "date": null
+            },
+            {
+              "type": "Positron emission tomography/computed tomography",
+              "body_part": "pituitary",
+              "modality": "PET",
+              "finding": "FDG-avid soft tissue lesion in the pituitary",
+              "date": null
+            },
+            {
+              "type": "Positron emission tomography/computed tomography",
+              "body_part": "left cerebral hemisphere",
+              "modality": "PET",
+              "finding": "peripheral enhancing hypodense soft tissue lesion in the left cerebral hemisphere",
+              "date": null
+            },
+            {
+              "type": "Computed tomography",
+              "body_part": "right parietal-occipital bone",
+              "modality": "CT",
+              "finding": "right parietal-occipital bone lytic lesion with soft tissue component involvement",
+              "date": null
+            },
+            {
+              "type": "Positron emission tomography/computed tomography",
+              "body_part": "kidneys",
+              "modality": "PET",
+              "finding": "Metabolically active soft tissue lesions were noted involving bilateral kidneys with extensive metastasis",
+              "date": null
+            }
+          ]
+        }
+      },
+      "custom_id": "graph_001_N4"
+    },
+    {
+      "id": "N6",
+      "label": "Step 6",
+      "customData": {
+        "node_id": "F",
+        "node_step_index": 7,
+        "content": "Patient presented with severe headaches and blurring of vision for 15 days.",
+        "clinical_data": {
+          "HPI": [
+            {
+              "summary": "Patient presented with severe headaches and blurring of vision for 15 days.",
+              "duration": "15 days",
+              "onset": "unknown",
+              "progression": "unknown",
+              "associated_symptoms": [
+                "C0018681",
+                "C0234587"
+              ]
+            }
+          ]
+        }
+      },
+      "custom_id": "graph_001_N5"
+    },
+    {
+      "id": "N7",
+      "label": "Step 7",
+      "customData": {
+        "node_id": "G",
+        "node_step_index": 9,
+        "content": "Biopsy results confirmed metastatic involvement.",
+        "clinical_data": {
+          "diagnoses": [
+            {
+              "code": "C0009404",
+              "label": "Metastasis",
+              "status": "active"
+            }
+          ],
+          "procedures": [
+            {
+              "name": "Biopsy",
+              "outcome": "positive for metastatic involvement"
+            }
+          ]
+        }
+      },
+      "custom_id": "graph_001_N6"
+    }
+  ],
+  "edges": [
+    {
+      "from": "N1",
+      "to": "N2",
+      "data": {
+        "edge_id": "A_to_B",
+        "branch_flag": true,
+        "content": "Initial presentation and subsequent imaging",
+        "transition_event": {
+          "trigger_type": "imaging",
+          "trigger_entities": [],
+          "change_type": "addition",
+          "target_domain": "imaging"
+        }
+      },
+      "custom_id": "graph_001_N1_N2"
+    },
+    {
+      "from": "N2",
+      "to": "N3",
+      "data": {
+        "edge_id": "B_to_C",
+        "branch_flag": true,
+        "content": "Bronchoscopy and biopsy performed to investigate the lesion",
+        "transition_event": {
+          "trigger_type": "procedure",
+          "trigger_entities": [
+            "Bronchoscopy",
+            "Biopsy"
+          ],
+          "change_type": "addition",
+          "target_domain": "procedure"
+        }
+      },
+      "custom_id": "graph_001_N2_N3"
+    },
+    {
+      "from": "N3",
+      "to": "N4",
+      "data": {
+        "edge_id": "C_to_D",
+        "branch_flag": true,
+        "content": "Patient reported decreased and blurring of vision. Ophthalmology opinion was within normal limits."
+      },
+      "custom_id": "graph_001_N3_N4"
+    },
+    {
+      "from": "N4",
+      "to": "N5",
+      "data": {
+        "edge_id": "D_to_E",
+        "branch_flag": true,
+        "content": "PET/CT scan performed to assess the extent of the disease",
+        "transition_event": {
+          "trigger_type": "imaging",
+          "trigger_entities": [
+            "PET/CT"
+          ],
+          "change_type": "addition",
+          "target_domain": "imaging"
+        }
+      },
+      "custom_id": "graph_001_N4_N5"
+    },
+    {
+      "from": "N5",
+      "to": "N6",
+      "data": {
+        "edge_id": "E_to_F",
+        "branch_flag": true,
+        "content": "Patient presented with severe headaches and blurring of vision.",
+        "transition_event": {
+          "trigger_type": "symptom_onset",
+          "trigger_entities": [
+            "C0018681",
+            "C0234587"
+          ],
+          "change_type": "progression",
+          "target_domain": "symptom"
+        }
+      },
+      "custom_id": "graph_001_N5_N6"
+    },
+    {
+      "from": "N6",
+      "to": "N7",
+      "data": {
+        "edge_id": "F_to_G",
+        "branch_flag": true,
+        "content": "Biopsy results confirmed metastatic involvement.",
+        "transition_event": {
+          "trigger_type": "procedure",
+          "trigger_entities": [
+            "Biopsy"
+          ],
+          "change_type": "reinterpretation",
+          "target_domain": "diagnosis"
+        }
+      },
+      "custom_id": "graph_001_N6_N7"
+    }
+  ]
+}

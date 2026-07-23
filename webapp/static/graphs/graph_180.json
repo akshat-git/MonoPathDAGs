@@ -1,0 +1,392 @@
+{
+  "nodes": [
+    {
+      "id": "N1",
+      "label": "Step 1",
+      "customData": {
+        "node_id": "A",
+        "node_step_index": 0,
+        "content": "58-year-old female non-smoker diagnosed with clinical T1aN3M0 stage IIIB adenocarcinoma (Figure 1(a), (b)).",
+        "clinical_data": {
+          "diagnoses": [
+            {
+              "code": "C0242307",
+              "label": "Adenocarcinoma",
+              "status": "active"
+            }
+          ],
+          "social_history": [
+            {
+              "category": "smoking",
+              "status": "never"
+            }
+          ],
+          "imaging": [
+            {
+              "finding": "T1aN3M0 stage IIIB",
+              "impression": "adenocarcinoma",
+              "date": null
+            }
+          ]
+        }
+      }
+    },
+    {
+      "id": "N2",
+      "label": "Step 2",
+      "customData": {
+        "node_id": "B",
+        "node_step_index": 1,
+        "content": "Received concurrent chemoradiotherapy (cisplatin plus vinorelbine with thoracic radiotherapy of 60\u2009Gy in 30 fractions).",
+        "clinical_data": {
+          "medications": [
+            {
+              "drug": "C0008741",
+              "dosage": null,
+              "frequency": null,
+              "modality": null,
+              "start_date": null,
+              "end_date": null,
+              "indication": "C0006826"
+            },
+            {
+              "drug": "C0042938",
+              "dosage": null,
+              "frequency": null,
+              "modality": null,
+              "start_date": null,
+              "end_date": null,
+              "indication": "C0006826"
+            }
+          ],
+          "procedures": [
+            {
+              "name": "C0035406",
+              "approach": null,
+              "date": null,
+              "location": "C0040034",
+              "performed_by": null,
+              "outcome": null
+            }
+          ]
+        }
+      }
+    },
+    {
+      "id": "N3",
+      "label": "Step 3",
+      "customData": {
+        "node_id": "C",
+        "node_step_index": 2,
+        "content": "Computed tomography (CT) showed a good partial response after three cycles of this regimen.",
+        "clinical_data": {
+          "imaging": [
+            {
+              "type": "Computed tomography",
+              "body_part": null,
+              "modality": "CT",
+              "finding": "good partial response",
+              "impression": "good partial response",
+              "date": null
+            }
+          ]
+        }
+      }
+    },
+    {
+      "id": "N4",
+      "label": "Step 4",
+      "customData": {
+        "node_id": "D",
+        "node_step_index": 3,
+        "content": "Grade 1 radiation pneumonitis was identified on CT, and further consolidation chemotherapy was eventually discontinued.",
+        "clinical_data": {
+          "imaging": [
+            {
+              "type": "Radiation pneumonitis",
+              "body_part": "Lung",
+              "modality": "CT",
+              "finding": "Grade 1 radiation pneumonitis"
+            }
+          ],
+          "diagnoses": [
+            {
+              "code": "233941002",
+              "label": "Radiation pneumonitis",
+              "status": "active"
+            }
+          ],
+          "procedures": [
+            {
+              "name": "Chemotherapy",
+              "outcome": "discontinued"
+            }
+          ]
+        }
+      }
+    },
+    {
+      "id": "N5",
+      "label": "Step 5",
+      "customData": {
+        "node_id": "E",
+        "node_step_index": 4,
+        "content": "Lung cancer lesion and radiation pneumonitis were monitored with CT without any treatment. Four months later, radiation pneumonitis had improved on CT, but progressive disease was identified.",
+        "clinical_data": {
+          "imaging": [
+            {
+              "type": "Lung cancer lesion",
+              "body_part": "Lung",
+              "modality": "CT",
+              "finding": "progressive disease",
+              "date": null
+            },
+            {
+              "type": "Radiation pneumonitis",
+              "body_part": "Lung",
+              "modality": "CT",
+              "finding": "improved",
+              "date": null
+            }
+          ],
+          "diagnoses": [
+            {
+              "code": "C0024117",
+              "label": "Lung cancer",
+              "status": "active",
+              "onset_date": null
+            }
+          ]
+        }
+      }
+    },
+    {
+      "id": "N6",
+      "label": "Step 6",
+      "customData": {
+        "node_id": "F",
+        "node_step_index": 5,
+        "content": "Received 13 cycles of pemetrexed, five cycles of docetaxel, and six cycles of gemcitabine.",
+        "clinical_data": {
+          "medications": [
+            {
+              "drug": "C0974174",
+              "dosage": null,
+              "frequency": null,
+              "modality": null,
+              "start_date": null,
+              "end_date": null,
+              "indication": null
+            },
+            {
+              "drug": "C0013067",
+              "dosage": null,
+              "frequency": null,
+              "modality": null,
+              "start_date": null,
+              "end_date": null,
+              "indication": null
+            },
+            {
+              "drug": "C0017167",
+              "dosage": null,
+              "frequency": null,
+              "modality": null,
+              "start_date": null,
+              "end_date": null,
+              "indication": null
+            }
+          ]
+        }
+      }
+    },
+    {
+      "id": "N7",
+      "label": "Step 7",
+      "customData": {
+        "node_id": "G",
+        "node_step_index": 6,
+        "content": "Multiple brain metastases were identified on magnetic resonance imaging (MRI), and the lesions were treated with Gamma knife radiosurgery.",
+        "clinical_data": {
+          "imaging": [
+            {
+              "type": "Brain MRI",
+              "body_part": "Brain",
+              "modality": "MRI",
+              "finding": "Multiple brain metastases",
+              "impression": "Multiple brain metastases identified",
+              "date": null
+            }
+          ],
+          "procedures": [
+            {
+              "name": "Gamma knife radiosurgery",
+              "approach": "other",
+              "date": null,
+              "location": "Brain",
+              "performed_by": null,
+              "outcome": null
+            }
+          ],
+          "diagnoses": [
+            {
+              "code": "C0242963",
+              "label": "Brain Metastasis",
+              "status": "active",
+              "onset_date": null
+            }
+          ]
+        }
+      }
+    },
+    {
+      "id": "N8",
+      "label": "Step 8",
+      "customData": {
+        "node_id": "H",
+        "node_step_index": 7,
+        "content": "Lung cancer specimen with ALK rearrangement via FISH. Treated with crizotinib as fifth-line therapy for 21 months.",
+        "clinical_data": {
+          "diagnoses": [
+            {
+              "code": "C34",
+              "label": "Lung cancer",
+              "status": "active"
+            }
+          ],
+          "procedures": [
+            {
+              "name": "Fluorescence in situ hybridization",
+              "body_part": "Lung",
+              "outcome": "ALK rearrangement"
+            }
+          ],
+          "medications": [
+            {
+              "drug": "Crizotinib",
+              "indication": "Lung cancer",
+              "modality": "oral",
+              "line_of_therapy": "fifth-line",
+              "duration": "21 months"
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "edges": [
+    {
+      "from": "N1",
+      "to": "N2",
+      "data": {
+        "edge_id": "A_to_B",
+        "branch_flag": true,
+        "content": "Patient received concurrent chemoradiotherapy."
+      }
+    },
+    {
+      "from": "N2",
+      "to": "N3",
+      "data": {
+        "edge_id": "B_to_C",
+        "branch_flag": true,
+        "content": "Patient had a good partial response to chemoradiotherapy.",
+        "transition_event": {
+          "trigger_type": "imaging",
+          "trigger_entities": [
+            "C0009425"
+          ],
+          "change_type": "progression",
+          "target_domain": "imaging"
+        }
+      }
+    },
+    {
+      "from": "N3",
+      "to": "N4",
+      "data": {
+        "edge_id": "C_to_D",
+        "branch_flag": true,
+        "content": "Patient developed grade 1 radiation pneumonitis, leading to discontinuation of consolidation chemotherapy.",
+        "transition_event": {
+          "trigger_type": "lab_change",
+          "trigger_entities": [
+            "233941002"
+          ],
+          "change_type": "addition",
+          "target_domain": "diagnosis"
+        }
+      }
+    },
+    {
+      "from": "N4",
+      "to": "N5",
+      "data": {
+        "edge_id": "D_to_E",
+        "branch_flag": true,
+        "content": "Radiation pneumonitis improved, but progressive disease was identified.",
+        "transition_event": {
+          "trigger_type": "imaging",
+          "trigger_entities": [
+            "C0024117"
+          ],
+          "change_type": "progression",
+          "target_domain": "diagnosis"
+        }
+      }
+    },
+    {
+      "from": "N5",
+      "to": "N6",
+      "data": {
+        "edge_id": "E_to_F",
+        "branch_flag": true,
+        "content": "Patient received pemetrexed, docetaxel, and gemcitabine.",
+        "transition_event": {
+          "trigger_type": "medication_change",
+          "trigger_entities": [
+            "C0974174",
+            "C0013067",
+            "C0017167"
+          ],
+          "change_type": "addition",
+          "target_domain": "medication"
+        }
+      }
+    },
+    {
+      "from": "N6",
+      "to": "N7",
+      "data": {
+        "edge_id": "F_to_G",
+        "branch_flag": true,
+        "content": "Patient developed multiple brain metastases, treated with Gamma knife radiosurgery.",
+        "transition_event": {
+          "trigger_type": "imaging",
+          "trigger_entities": [
+            "C0242963"
+          ],
+          "change_type": "addition",
+          "target_domain": "diagnosis"
+        }
+      }
+    },
+    {
+      "from": "N7",
+      "to": "N8",
+      "data": {
+        "edge_id": "G_to_H",
+        "branch_flag": true,
+        "content": "Lung cancer specimen showed ALK rearrangement. Patient was treated with crizotinib as fifth-line therapy.",
+        "transition_event": {
+          "trigger_type": "medication_change",
+          "trigger_entities": [
+            "Crizotinib"
+          ],
+          "change_type": "addition",
+          "target_domain": "medication"
+        }
+      }
+    }
+  ]
+}

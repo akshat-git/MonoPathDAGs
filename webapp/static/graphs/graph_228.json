@@ -1,0 +1,466 @@
+{
+  "nodes": [
+    {
+      "id": "N1",
+      "label": "Step 1",
+      "customData": {
+        "node_id": "A",
+        "node_step_index": 0,
+        "content": "61-year-old man diagnosed with clinical T3N2M0 stage IIIC lung squamous cell carcinoma with a PD-L1 expression of 1% in June 2018.",
+        "clinical_data": {
+          "diagnoses": [
+            {
+              "code": "C34",
+              "label": "Lung Cancer",
+              "status": "active",
+              "onset_date": "2018-06"
+            },
+            {
+              "code": "93641009",
+              "label": "Squamous cell carcinoma",
+              "status": "active",
+              "onset_date": "2018-06"
+            }
+          ]
+        }
+      }
+    },
+    {
+      "id": "N2",
+      "label": "Step 2",
+      "customData": {
+        "node_id": "B",
+        "node_step_index": 1,
+        "content": "First-line treatment: Chemotherapy with carboplatin and nab-paclitaxel.",
+        "clinical_data": {
+          "medications": [
+            {
+              "drug": "C0293865",
+              "dosage": null,
+              "frequency": null,
+              "modality": null,
+              "start_date": null,
+              "end_date": null,
+              "indication": null
+            },
+            {
+              "drug": "C3888745",
+              "dosage": null,
+              "frequency": null,
+              "modality": null,
+              "start_date": null,
+              "end_date": null,
+              "indication": null
+            }
+          ],
+          "procedures": [
+            {
+              "name": "C0009264",
+              "approach": null,
+              "date": null,
+              "location": null,
+              "performed_by": null,
+              "outcome": null
+            }
+          ]
+        }
+      }
+    },
+    {
+      "id": "N3",
+      "label": "Step 3",
+      "customData": {
+        "node_id": "C",
+        "node_step_index": 2,
+        "content": "Developed difficulty breathing with symptoms of superior vena cava syndrome caused by enlarged mediastinal lymph nodes and carcinomatous pericarditis.",
+        "clinical_data": {
+          "diagnoses": [
+            {
+              "code": "C4047030",
+              "label": "Superior Vena Cava Syndrome",
+              "status": "active"
+            },
+            {
+              "code": "C0024854",
+              "label": "Lymph Nodes, Mediastinal",
+              "status": "active"
+            },
+            {
+              "code": "C0007105",
+              "label": "Carcinomatous Pericarditis",
+              "status": "active"
+            }
+          ],
+          "HPI": [
+            {
+              "summary": "Difficulty breathing",
+              "associated_symptoms": [
+                "C4047030"
+              ]
+            }
+          ]
+        }
+      }
+    },
+    {
+      "id": "N4",
+      "label": "Step 4",
+      "customData": {
+        "node_id": "D",
+        "node_step_index": 3,
+        "content": "Received 1 mg of oral dexamethasone and palliative radiotherapy for lymph node metastases and pericardium with a total dose of 30 Gy in daily fractions of 3 Gy.",
+        "clinical_data": {
+          "medications": [
+            {
+              "drug": "C0011860",
+              "dosage": "1 mg",
+              "modality": "oral"
+            }
+          ],
+          "procedures": [
+            {
+              "name": "C0034498",
+              "location": "lymph node",
+              "outcome": "palliative"
+            }
+          ],
+          "imaging": [
+            {
+              "body_part": "C0030964",
+              "modality": "X-ray",
+              "finding": "metastases"
+            }
+          ]
+        }
+      }
+    },
+    {
+      "id": "N5",
+      "label": "Step 5",
+      "customData": {
+        "node_id": "E",
+        "node_step_index": 4,
+        "content": "CT scan showed progression of adrenal metastasis.",
+        "clinical_data": {
+          "imaging": [
+            {
+              "type": "CT scan",
+              "body_part": "Adrenal gland",
+              "modality": "CT",
+              "finding": "Progression of adrenal metastasis"
+            }
+          ],
+          "diagnoses": [
+            {
+              "code": "C0206345",
+              "label": "Metastasis",
+              "status": "active",
+              "onset_date": null
+            }
+          ]
+        }
+      }
+    },
+    {
+      "id": "N6",
+      "label": "Step 6",
+      "customData": {
+        "node_id": "F",
+        "node_step_index": 5,
+        "content": "Treated with 1,200 mg intravenous atezolizumab.",
+        "clinical_data": {
+          "medications": [
+            {
+              "drug": "atezolizumab",
+              "dosage": "1200 mg",
+              "modality": "IV"
+            }
+          ]
+        }
+      }
+    },
+    {
+      "id": "N7",
+      "label": "Step 7",
+      "customData": {
+        "node_id": "G",
+        "node_step_index": 6,
+        "content": "21 days after atezolizumab administration, patient admitted with relatively well-circumscribed erythema at the previously irradiated skin field.",
+        "clinical_data": {
+          "allergies": [
+            {
+              "substance": "atezolizumab",
+              "reaction": "erythema",
+              "severity": "unknown",
+              "date_recorded": null
+            }
+          ]
+        }
+      }
+    },
+    {
+      "id": "N8",
+      "label": "Step 8",
+      "customData": {
+        "node_id": "H",
+        "node_step_index": 7,
+        "content": "Skin biopsy showed interface dermatitis with perivascular lymphocytic inflammatory cell infiltration. Diagnosed with severe skin disorder (CTCAE version 5.0, Grade 3) related to RRD induced by atezolizumab treatment.",
+        "clinical_data": {
+          "diagnoses": [
+            {
+              "code": "C4721351",
+              "label": "Dermatitis",
+              "status": "active"
+            }
+          ],
+          "procedures": [
+            {
+              "name": "C0005676",
+              "date": null,
+              "location": "Skin",
+              "outcome": null
+            }
+          ]
+        }
+      }
+    },
+    {
+      "id": "N9",
+      "label": "Step 9",
+      "customData": {
+        "node_id": "I",
+        "node_step_index": 8,
+        "content": "Histopathology: Hematoxylin and Eosin staining, Immunohistochemical staining for CD8 and PD-L1.",
+        "clinical_data": {
+          "procedures": [
+            {
+              "name": "Hematoxylin and Eosin staining",
+              "date": null
+            },
+            {
+              "name": "Immunohistochemical staining",
+              "date": null
+            }
+          ]
+        }
+      }
+    },
+    {
+      "id": "N10",
+      "label": "Step 10",
+      "customData": {
+        "node_id": "J",
+        "node_step_index": 9,
+        "content": "Atezolizumab treatment discontinued. Initiated intravenous methylprednisolone (2 mg/kg/day) for 3 days, followed by intravenous methylprednisolone (1 mg/kg/day) for 4 days, and then oral prednisolone reduced to 40 mg/day.",
+        "clinical_data": {
+          "medications": [
+            {
+              "drug": "C0025672",
+              "dosage": "2 mg/kg/day",
+              "frequency": "daily",
+              "modality": "IV",
+              "start_date": null,
+              "end_date": null,
+              "indication": null
+            },
+            {
+              "drug": "C0025672",
+              "dosage": "1 mg/kg/day",
+              "frequency": "daily",
+              "modality": "IV",
+              "start_date": null,
+              "end_date": null,
+              "indication": null
+            },
+            {
+              "drug": "C0032319",
+              "dosage": "40 mg/day",
+              "frequency": "daily",
+              "modality": "oral",
+              "start_date": null,
+              "end_date": null,
+              "indication": null
+            },
+            {
+              "drug": "C3258974",
+              "dosage": null,
+              "frequency": null,
+              "modality": null,
+              "start_date": null,
+              "end_date": null,
+              "indication": null
+            }
+          ]
+        }
+      }
+    },
+    {
+      "id": "N11",
+      "label": "Step 11",
+      "customData": {
+        "node_id": "K",
+        "node_step_index": 10,
+        "content": "Prednisolone tapered by 10 mg per week and stopped 4 weeks after the occurrence of RRD. Skin disorders disappeared two weeks after steroid therapy initiation and did not relapse.",
+        "clinical_data": {
+          "medications": [
+            {
+              "drug": "Prednisolone",
+              "dosage": "tapered by 10 mg per week",
+              "frequency": "weekly",
+              "modality": "oral",
+              "start_date": null,
+              "end_date": null,
+              "indication": null
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "edges": [
+    {
+      "from": "N1",
+      "to": "N2",
+      "data": {
+        "edge_id": "A_to_B",
+        "branch_flag": true,
+        "content": "Initiation of first-line treatment for lung squamous cell carcinoma.",
+        "transition_event": {
+          "trigger_type": "procedure",
+          "trigger_entities": [
+            "C0009264"
+          ],
+          "change_type": "addition",
+          "target_domain": "procedure"
+        }
+      }
+    },
+    {
+      "from": "N2",
+      "to": "N3",
+      "data": {
+        "edge_id": "B_to_C",
+        "branch_flag": true,
+        "content": "Development of difficulty breathing and symptoms of superior vena cava syndrome caused by enlarged mediastinal lymph nodes and carcinomatous pericarditis.",
+        "transition_event": {
+          "trigger_type": "symptom_onset",
+          "trigger_entities": [
+            "C4047030"
+          ],
+          "change_type": "progression",
+          "target_domain": "symptom"
+        }
+      }
+    },
+    {
+      "from": "N3",
+      "to": "N4",
+      "data": {
+        "edge_id": "C_to_D",
+        "branch_flag": true,
+        "content": "Administration of dexamethasone and palliative radiotherapy for lymph node metastases and pericardium.",
+        "transition_event": {
+          "trigger_type": "medication_change",
+          "trigger_entities": [
+            "C0011860"
+          ],
+          "change_type": "addition",
+          "target_domain": "medication"
+        }
+      }
+    },
+    {
+      "from": "N4",
+      "to": "N5",
+      "data": {
+        "edge_id": "D_to_E",
+        "branch_flag": true,
+        "content": "CT scan showing progression of adrenal metastasis.",
+        "transition_event": {
+          "trigger_type": "imaging",
+          "trigger_entities": [],
+          "change_type": "progression",
+          "target_domain": "imaging"
+        }
+      }
+    },
+    {
+      "from": "N5",
+      "to": "N6",
+      "data": {
+        "edge_id": "E_to_F",
+        "branch_flag": true,
+        "content": "Treatment with intravenous atezolizumab.",
+        "transition_event": {
+          "trigger_type": "medication_change",
+          "trigger_entities": [
+            "atezolizumab"
+          ],
+          "change_type": "addition",
+          "target_domain": "medication"
+        }
+      }
+    },
+    {
+      "from": "N6",
+      "to": "N7",
+      "data": {
+        "edge_id": "F_to_G",
+        "branch_flag": true,
+        "content": "Patient admitted with erythema at the previously irradiated skin field after atezolizumab administration.",
+        "transition_event": {
+          "trigger_type": "symptom_onset",
+          "trigger_entities": [
+            "atezolizumab"
+          ],
+          "change_type": "addition",
+          "target_domain": "symptom"
+        }
+      }
+    },
+    {
+      "from": "N7",
+      "to": "N8",
+      "data": {
+        "edge_id": "G_to_H",
+        "branch_flag": true,
+        "content": "Skin biopsy showing interface dermatitis with perivascular lymphocytic inflammatory cell infiltration, diagnosed as severe skin disorder related to RRD induced by atezolizumab treatment.",
+        "transition_event": {
+          "trigger_type": "interpretation",
+          "trigger_entities": [
+            "C4721351"
+          ],
+          "change_type": "addition",
+          "target_domain": "diagnosis"
+        }
+      }
+    },
+    {
+      "from": "N8",
+      "to": "N9",
+      "data": {
+        "edge_id": "H_to_I",
+        "branch_flag": true,
+        "content": "Histopathology performed: Hematoxylin and Eosin staining, Immunohistochemical staining for CD8 and PD-L1.",
+        "transition_event": {
+          "trigger_type": "procedure",
+          "trigger_entities": [],
+          "change_type": "addition",
+          "target_domain": "procedure"
+        }
+      }
+    },
+    {
+      "from": "N9",
+      "to": "N10",
+      "data": {
+        "edge_id": "I_to_J",
+        "branch_flag": true,
+        "content": "Atezolizumab treatment discontinued. Initiation of intravenous methylprednisolone and oral prednisolone.",
+        "transition_event": {
+          "trigger_type": "medication_change"
+        }
+      }
+    }
+  ]
+}

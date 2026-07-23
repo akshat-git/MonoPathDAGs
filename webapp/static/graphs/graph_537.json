@@ -1,0 +1,282 @@
+{
+  "nodes": [
+    {
+      "id": "N1",
+      "label": "Step 1",
+      "customData": {
+        "node_id": "A",
+        "node_step_index": 0,
+        "content": "57-year-old Japanese woman with Eastern Cooperative Oncology Group (ECOG) PS of 3, with ALK-positive advanced NSCLC with abdominal lymph node (fluorescence in situ hybridization-positive, ALK iScore 3 by iAEP immunohistochemistry) and pleural effusion. CT scan demonstrated primary tumor in right lower lobe, 70 mm in diameter, several mediastinal and abdominal lymph node metastases, and plural effusion. Programmed death-ligand 1 expression was 90% using the 22C3 antibody.",
+        "clinical_data": {
+          "diagnoses": [
+            {
+              "code": "C34",
+              "label": "NSCLC",
+              "status": "active"
+            }
+          ],
+          "imaging": [
+            {
+              "type": "CT scan",
+              "body_part": "right lower lobe",
+              "modality": "CT",
+              "finding": "primary tumor, 70 mm in diameter, several mediastinal and abdominal lymph node metastases, and plural effusion"
+            }
+          ]
+        }
+      }
+    },
+    {
+      "id": "N2",
+      "label": "Step 2",
+      "customData": {
+        "node_id": "B",
+        "node_step_index": 1,
+        "content": "After 4 months of alectinib treatment, the patient achieved a partial response, and her ECOG-PS improved to 1.",
+        "clinical_data": {
+          "medications": [
+            {
+              "drug": "alectinib",
+              "start_date": null,
+              "end_date": null
+            }
+          ],
+          "diagnoses": [
+            {
+              "code": "C0032288",
+              "label": "Partial Response",
+              "status": "active",
+              "onset_date": null
+            }
+          ],
+          "functional_status": [
+            {
+              "domain": "ECOG Performance Status",
+              "description": "ECOG-PS improved to 1",
+              "score": "1",
+              "scale": "ECOG"
+            }
+          ]
+        }
+      }
+    },
+    {
+      "id": "N3",
+      "label": "Step 3",
+      "customData": {
+        "node_id": "C",
+        "node_step_index": 2,
+        "content": "CT scan 8 months after introducing alectinib revealed growth of the primary tumor and mediastinal lymph node.",
+        "clinical_data": {
+          "imaging": [
+            {
+              "type": "CT scan",
+              "body_part": "primary tumor",
+              "modality": "CT",
+              "finding": "growth",
+              "date": null
+            },
+            {
+              "type": "CT scan",
+              "body_part": "mediastinal lymph node",
+              "modality": "CT",
+              "finding": "growth",
+              "date": null
+            }
+          ],
+          "medications": [
+            {
+              "drug": "alectinib",
+              "start_date": null,
+              "end_date": null
+            }
+          ]
+        }
+      }
+    },
+    {
+      "id": "N4",
+      "label": "Step 4",
+      "customData": {
+        "node_id": "D",
+        "node_step_index": 3,
+        "content": "Second-line treatment with two cycles of cisplatin (75 mg/m2, day 1, every 3 weeks) and pemetrexed (500 mg/m2, day 1, every 3 weeks) resulted in a partial response, evaluated by thorax-pelvis CT scan every 2 months. Upon completion of four cycles of cisplatin and pemetrexed, rapid progression occurred.",
+        "clinical_data": {
+          "medications": [
+            {
+              "drug": "C0008893",
+              "dosage": "75 mg/m2",
+              "frequency": "every 3 weeks",
+              "modality": "IV",
+              "start_date": null,
+              "end_date": null
+            },
+            {
+              "drug": "C1188744",
+              "dosage": "500 mg/m2",
+              "frequency": "every 3 weeks",
+              "modality": "IV",
+              "start_date": null,
+              "end_date": null
+            }
+          ],
+          "imaging": [
+            {
+              "type": "C0022091",
+              "body_part": "C0039702",
+              "modality": "CT",
+              "finding": "Partial response",
+              "date": null
+            },
+            {
+              "type": "C0022091",
+              "body_part": "C0039702",
+              "modality": "CT",
+              "finding": "Rapid progression",
+              "date": null
+            }
+          ]
+        }
+      }
+    },
+    {
+      "id": "N5",
+      "label": "Step 5",
+      "customData": {
+        "node_id": "E",
+        "node_step_index": 5,
+        "content": "Patient had growth of primary sites and abdominal lymph node, increase of plural effusion, and emergence of pleural dissemination on CT scan. Patient weakened with the ECOG-PS 3 because of anorexia, dyspnea, dysphagia, and cachexia. Pleural effusion was negative for malignancy. Patient underwent a blood transfusion for grade 3 anemia (Common Terminology Criteria for Adverse Events Version (CTCAE) version 4.0) due to chronic disorder.",
+        "clinical_data": {
+          "imaging": [
+            {
+              "type": "CT scan",
+              "body_part": "primary sites",
+              "modality": "CT",
+              "finding": "growth",
+              "date": null
+            },
+            {
+              "type": "CT scan",
+              "body_part": "abdominal lymph node",
+              "modality": "CT",
+              "finding": "growth",
+              "date": null
+            },
+            {
+              "type": "CT scan",
+              "body_part": "pleural effusion",
+              "modality": "CT",
+              "finding": "increase",
+              "date": null
+            },
+            {
+              "type": "CT scan",
+              "body_part": "pleura",
+              "modality": "CT",
+              "finding": "pleural dissemination",
+              "date": null
+            }
+          ],
+          "functional_status": [
+            {
+              "domain": "general",
+              "description": "weakened",
+              "score": 3,
+              "scale": "ECOG-PS"
+            }
+          ],
+          "HPI": [
+            {
+              "summary": "weakened with the ECOG-PS 3",
+              "associated_symptoms": [
+                "anorexia",
+                "dyspnea",
+                "dysphagia",
+                "cachexia"
+              ]
+            }
+          ],
+          "labs": [
+            {
+              "test": "anemia",
+              "value": "grade 3",
+              "unit": "CTCAE v4.0",
+              "flag": "abnormal",
+              "reference_range": null,
+              "timestamp": null
+            }
+          ],
+          "procedures": [
+            {
+              "name": "blood transfusion",
+              "date": null
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "edges": [
+    {
+      "from": "N1",
+      "to": "N2",
+      "data": {
+        "edge_id": "A_to_B",
+        "branch_flag": true,
+        "content": "Initiation of alectinib treatment."
+      }
+    },
+    {
+      "from": "N2",
+      "to": "N3",
+      "data": {
+        "edge_id": "B_to_C",
+        "branch_flag": true,
+        "content": "Continued alectinib treatment.",
+        "transition_event": {
+          "trigger_type": "imaging",
+          "trigger_entities": [
+            "C0009402"
+          ],
+          "change_type": "progression",
+          "target_domain": "imaging"
+        }
+      }
+    },
+    {
+      "from": "N3",
+      "to": "N4",
+      "data": {
+        "edge_id": "C_to_D",
+        "branch_flag": true,
+        "content": "Alectinib discontinued and initiation of cisplatin and pemetrexed.",
+        "transition_event": {
+          "trigger_type": "medication_change",
+          "trigger_entities": [
+            "C0008893",
+            "C1188744"
+          ],
+          "change_type": "addition",
+          "target_domain": "medication"
+        }
+      }
+    },
+    {
+      "from": "N4",
+      "to": "N5",
+      "data": {
+        "edge_id": "D_to_E",
+        "branch_flag": true,
+        "content": "Cisplatin and pemetrexed discontinued due to rapid progression.",
+        "transition_event": {
+          "trigger_type": "imaging",
+          "trigger_entities": [
+            "C0009402"
+          ],
+          "change_type": "progression",
+          "target_domain": "imaging"
+        }
+      }
+    }
+  ]
+}

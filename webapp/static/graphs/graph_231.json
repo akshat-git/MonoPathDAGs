@@ -1,0 +1,575 @@
+{
+  "nodes": [
+    {
+      "id": "N1",
+      "label": "Step 1",
+      "customData": {
+        "node_id": "A",
+        "node_step_index": 0,
+        "content": "63-year-old male presented to the emergency department with a 2-week history of shortness of breath worsening in the upright position. Patient experiences dyspnea (platypnea) and arterial desaturation (orthodeoxia) in the upright position, which improves in the recumbent position, characteristic of Platypnea-orthodeoxia syndrome (POS). Patient presents with position dependent dyspnea and hypoxemia.",
+        "clinical_data": {
+          "HPI": [
+            {
+              "summary": "63-year-old male presented with a 2-week history of shortness of breath worsening in the upright position.",
+              "duration": "2 weeks",
+              "progression": "worsening",
+              "associated_symptoms": [
+                "Shortness of breath"
+              ],
+              "exacerbating_factors": [
+                "Upright position"
+              ],
+              "alleviating_factors": [
+                "Recumbent position"
+              ]
+            }
+          ],
+          "diagnoses": [
+            {
+              "code": "C1706449",
+              "label": "Platypnea-orthodeoxia syndrome",
+              "status": "active"
+            }
+          ],
+          "ROS": [
+            {
+              "system": "respiratory",
+              "findings": [
+                "Dyspnea",
+                "Hypoxemia"
+              ]
+            }
+          ]
+        }
+      }
+    },
+    {
+      "id": "N2",
+      "label": "Step 2",
+      "customData": {
+        "node_id": "B",
+        "node_step_index": 1,
+        "content": "Patient had no relevant medical history. Physical examination showed absent breathing sounds on the left hemithorax. No signs of orthostatic hypotension. Oxygen saturation of 68% in the upright position and 93% in the supine position with 5 L of oxygen suppletion through nasal cannula. Arterial blood gas in the supine position showed a hypoxemia (pH 7.44; pO2 8.1 kPa; pCO2 4.3 kPa; bicarbonate 22 mmol/L).",
+        "clinical_data": {
+          "vitals": [
+            {
+              "type": "Oxygen saturation",
+              "value": "68",
+              "unit": "%",
+              "timestamp": null
+            },
+            {
+              "type": "Oxygen saturation",
+              "value": "93",
+              "unit": "%",
+              "timestamp": null
+            }
+          ],
+          "labs": [
+            {
+              "test": "Arterial blood gas",
+              "value": "7.44",
+              "unit": "pH",
+              "flag": null,
+              "reference_range": null,
+              "timestamp": null
+            },
+            {
+              "test": "Arterial blood gas",
+              "value": "8.1",
+              "unit": "kPa",
+              "flag": null,
+              "reference_range": null,
+              "timestamp": null
+            },
+            {
+              "test": "Arterial blood gas",
+              "value": "4.3",
+              "unit": "kPa",
+              "flag": null,
+              "reference_range": null,
+              "timestamp": null
+            },
+            {
+              "test": "Arterial blood gas",
+              "value": "22",
+              "unit": "mmol/L",
+              "flag": null,
+              "reference_range": null,
+              "timestamp": null
+            }
+          ],
+          "physical_exam": [
+            {
+              "finding": "Absent breathing sounds on the left hemithorax"
+            },
+            {
+              "finding": "No signs of orthostatic hypotension"
+            }
+          ],
+          "medications": [
+            {
+              "drug": "Oxygen",
+              "dosage": "5",
+              "frequency": null,
+              "modality": "nasal cannula",
+              "start_date": null,
+              "end_date": null,
+              "indication": "Hypoxemia"
+            }
+          ],
+          "diagnoses": [
+            {
+              "code": "Hypoxemia",
+              "label": "Hypoxemia",
+              "status": "active",
+              "onset_date": null
+            }
+          ]
+        }
+      }
+    },
+    {
+      "id": "N3",
+      "label": "Step 3",
+      "customData": {
+        "node_id": "C",
+        "node_step_index": 2,
+        "content": "Chest x-ray showed a complete atelectasis of the left lung. Bronchoscopy revealed a complete obstruction caused by adenosquamous bronchial carcinoma in the left main bronchus. Lung perfusion scintigraphy in recumbent position showed clues for absent hypoxic vasoconstriction, because the left lung still showed a perfusion contribution of 30%. Transthoracic echocardiography with agitated salt showed a small PFO with only subtle right-to-left shunting in the upright position.",
+        "clinical_data": {
+          "imaging": [
+            {
+              "type": "Radiography, Thoracic (TUI)",
+              "body_part": "Lung (TUI)",
+              "modality": "X-ray",
+              "finding": "complete atelectasis of the left lung",
+              "impression": "complete atelectasis of the left lung"
+            },
+            {
+              "type": "Lung perfusion scintigraphy (procedure)",
+              "body_part": "Lung (TUI)",
+              "modality": "other",
+              "finding": "absent hypoxic vasoconstriction",
+              "impression": "the left lung still showed a perfusion contribution of 30%"
+            },
+            {
+              "type": "Echocardiography, Transesophageal (procedure)",
+              "body_part": "Heart (TUI)",
+              "modality": "other",
+              "finding": "small PFO with only subtle right-to-left shunting in the upright position",
+              "impression": "small PFO with only subtle right-to-left shunting in the upright position"
+            }
+          ],
+          "procedures": [
+            {
+              "name": "Bronchoscopy (procedure)",
+              "approach": "endoscopic",
+              "location": "left main bronchus",
+              "outcome": "complete obstruction caused by adenosquamous bronchial carcinoma"
+            }
+          ],
+          "diagnoses": [
+            {
+              "code": "C34.9",
+              "label": "Bronchogenic carcinoma, unspecified",
+              "status": "active"
+            }
+          ]
+        }
+      }
+    },
+    {
+      "id": "N4",
+      "label": "Step 4",
+      "customData": {
+        "node_id": "D",
+        "node_step_index": 3,
+        "content": "Platypnea-orthodeoxia syndrome (POS) resolved completely after left sided pneumonectomy.",
+        "clinical_data": {
+          "diagnoses": [
+            {
+              "code": "C0344328",
+              "label": "Platypnea-Orthodeoxia",
+              "status": "resolved"
+            }
+          ],
+          "procedures": [
+            {
+              "name": "C0149560",
+              "approach": "open",
+              "outcome": "C0205090",
+              "location": "left lung"
+            }
+          ]
+        }
+      }
+    },
+    {
+      "id": "N5",
+      "label": "Step 5",
+      "customData": {
+        "node_id": "E",
+        "node_step_index": 4,
+        "content": "Echocardiography 6 months after pneumonectomy showed subtle right-to-left shunting through the PFO. Patient reported gentle shortness of breath with exertion.",
+        "clinical_data": {
+          "imaging": [
+            {
+              "type": "Echocardiography",
+              "body_part": "Heart",
+              "modality": "Ultrasound",
+              "finding": "subtle right-to-left shunting through the PFO",
+              "date": "6 months after pneumonectomy"
+            }
+          ],
+          "HPI": [
+            {
+              "summary": "gentle shortness of breath with exertion"
+            }
+          ]
+        }
+      }
+    },
+    {
+      "id": "N6",
+      "label": "Step 6",
+      "customData": {
+        "node_id": "F",
+        "node_step_index": 5,
+        "content": "Cardiopulmonary exercise testing (CPET) was performed in the upright position with arterial blood sampling due to persistent subtle right-to-left shunting through the PFO and gentle shortness of breath with exertion.",
+        "clinical_data": {
+          "procedures": [
+            {
+              "name": "Cardiopulmonary Exercise Test",
+              "approach": "other",
+              "date": null,
+              "location": null,
+              "performed_by": null,
+              "outcome": null
+            },
+            {
+              "name": "Arterial blood sampling",
+              "approach": "percutaneous",
+              "date": null,
+              "location": null,
+              "performed_by": null,
+              "outcome": null
+            }
+          ],
+          "diagnoses": [
+            {
+              "code": "Q21.1",
+              "label": "Atrial septal defect",
+              "status": "active",
+              "onset_date": null
+            }
+          ],
+          "HPI": [
+            {
+              "summary": "Gentle shortness of breath with exertion",
+              "duration": null,
+              "onset": null,
+              "progression": null,
+              "associated_symptoms": [],
+              "alleviating_factors": [],
+              "exacerbating_factors": []
+            }
+          ]
+        }
+      }
+    },
+    {
+      "id": "N7",
+      "label": "Step 7",
+      "customData": {
+        "node_id": "G",
+        "node_step_index": 6,
+        "content": "Cardiopulmonary exercise testing (CPET) showed no signs of hypoxemia at rest (pO2 12.2kPa) nor with maximum exercise (pO2 13.7kPa). Maximum VO2 was reached 1842ml/min and 120% of predicted.",
+        "clinical_data": {
+          "labs": [
+            {
+              "test": "Partial pressure of oxygen",
+              "value": "12.2",
+              "unit": "kPa",
+              "flag": "normal",
+              "timestamp": null
+            }
+          ],
+          "procedures": [
+            {
+              "name": "Cardiopulmonary Exercise Test",
+              "date": null
+            }
+          ],
+          "vitals": [
+            {
+              "type": "Oxygen Partial Pressure",
+              "value": "13.7",
+              "unit": "kPa",
+              "timestamp": null
+            }
+          ]
+        }
+      }
+    },
+    {
+      "id": "N8",
+      "label": "Step 8",
+      "customData": {
+        "node_id": "H",
+        "node_step_index": 7,
+        "content": "Patient was treated with adjuvant chemotherapy after the pneumonectomy.",
+        "clinical_data": {}
+      }
+    },
+    {
+      "id": "N9",
+      "label": "Step 9",
+      "customData": {
+        "node_id": "I",
+        "node_step_index": 8,
+        "content": "1.5 years after the pneumonectomy multiple suspected lymph nodes and right femur metastasis were found.",
+        "clinical_data": {
+          "diagnoses": [
+            {
+              "code": "C79.51",
+              "label": "Secondary malignant neoplasm of bone",
+              "status": "active",
+              "onset_date": null
+            }
+          ],
+          "imaging": [
+            {
+              "type": "Lymph node",
+              "body_part": "Lymph node",
+              "modality": "unknown",
+              "finding": "suspected metastasis",
+              "impression": "suspected metastasis",
+              "date": null
+            },
+            {
+              "type": "Metastasis",
+              "body_part": "Femur",
+              "modality": "unknown",
+              "finding": "Metastasis",
+              "impression": "Metastasis",
+              "date": null
+            }
+          ]
+        }
+      }
+    },
+    {
+      "id": "N10",
+      "label": "Step 10",
+      "customData": {
+        "node_id": "J",
+        "node_step_index": 9,
+        "content": "The right femur metastasis was treated with radiotherapy.",
+        "clinical_data": {
+          "procedures": [
+            {
+              "name": "Radiotherapy",
+              "approach": "other",
+              "location": "femur",
+              "outcome": "treated"
+            }
+          ]
+        }
+      }
+    },
+    {
+      "id": "N11",
+      "label": "Step 11",
+      "customData": {
+        "node_id": "K",
+        "node_step_index": 10,
+        "content": "Immunotherapy (pembrolizumab) was started because of PDL1 of 70% and no activating mutation.",
+        "clinical_data": {
+          "medications": [
+            {
+              "drug": "C1876447",
+              "dosage": null,
+              "frequency": null,
+              "modality": null,
+              "start_date": null,
+              "end_date": null,
+              "indication": null
+            }
+          ]
+        }
+      }
+    },
+    {
+      "id": "N12",
+      "label": "Step 12",
+      "customData": {
+        "node_id": "L",
+        "node_step_index": 11,
+        "content": "Complete response found after nine months of immunotherapy (pembrolizumab) treatment based on follow-up CT scan. Contrast-enhanced chest CT showed a narrow relation between the central tumour and left main pulmonary artery.",
+        "clinical_data": {
+          "medications": [
+            {
+              "drug": "C1661234",
+              "dosage": null,
+              "frequency": null,
+              "modality": null,
+              "start_date": null,
+              "end_date": null,
+              "indication": null
+            }
+          ],
+          "imaging": [
+            {
+              "type": "C7784444",
+              "body_part": "C0008935",
+              "modality": "CT",
+              "finding": "narrow relation between the central tumour and left main pulmonary artery",
+              "impression": "Complete response found after nine months of immunotherapy (pembrolizumab) treatment",
+              "date": null
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "edges": [
+    {
+      "from": "N1",
+      "to": "N2",
+      "data": {
+        "edge_id": "A_to_B",
+        "branch_flag": true,
+        "content": "Transition from initial presentation to physical examination and lab results. Patient's condition is further characterized with oxygen saturation levels and arterial blood gas analysis.",
+        "transition_event": {
+          "trigger_type": "spontaneous",
+          "trigger_entities": [],
+          "change_type": "progression",
+          "target_domain": "symptom"
+        }
+      }
+    },
+    {
+      "from": "N2",
+      "to": "N3",
+      "data": {
+        "edge_id": "B_to_C",
+        "branch_flag": true,
+        "content": "Transition from physical examination and initial labs to diagnostic imaging and bronchoscopy, revealing the underlying cause of the patient's condition.",
+        "transition_event": {
+          "trigger_type": "procedure",
+          "trigger_entities": [
+            "Bronchoscopy (procedure)",
+            "Radiography, Thoracic (TUI)",
+            "Lung perfusion scintigraphy (procedure)",
+            "Echocardiography, Transesophageal (procedure)"
+          ],
+          "change_type": "addition",
+          "target_domain": "diagnosis"
+        }
+      }
+    },
+    {
+      "from": "N3",
+      "to": "N4",
+      "data": {
+        "edge_id": "C_to_D",
+        "branch_flag": true,
+        "content": "Transition from diagnosis of adenosquamous bronchial carcinoma and associated findings to resolution of Platypnea-orthodeoxia syndrome after left sided pneumonectomy.",
+        "transition_event": {
+          "trigger_type": "procedure",
+          "trigger_entities": [
+            "C0149560"
+          ],
+          "change_type": "resolution",
+          "target_domain": "diagnosis"
+        }
+      }
+    },
+    {
+      "from": "N4",
+      "to": "N5",
+      "data": {
+        "edge_id": "D_to_E",
+        "branch_flag": true,
+        "content": "Transition from resolution of POS after pneumonectomy to follow-up echocardiography and patient-reported shortness of breath with exertion.",
+        "transition_event": {
+          "trigger_type": "spontaneous",
+          "trigger_entities": [],
+          "change_type": "progression",
+          "target_domain": "symptom"
+        }
+      }
+    },
+    {
+      "from": "N5",
+      "to": "N6",
+      "data": {
+        "edge_id": "E_to_F",
+        "branch_flag": true,
+        "content": "Transition from echocardiography findings and patient symptoms to cardiopulmonary exercise testing (CPET) and arterial blood sampling.",
+        "transition_event": {
+          "trigger_type": "procedure",
+          "trigger_entities": [
+            "Cardiopulmonary Exercise Test",
+            "Arterial blood sampling"
+          ],
+          "change_type": "addition",
+          "target_domain": "procedure"
+        }
+      }
+    },
+    {
+      "from": "N6",
+      "to": "N7",
+      "data": {
+        "edge_id": "F_to_G",
+        "branch_flag": true,
+        "content": "Transition from CPET performance to CPET results showing no signs of hypoxemia at rest or with maximum exercise.",
+        "transition_event": {
+          "trigger_type": "lab_change",
+          "trigger_entities": [],
+          "change_type": "resolution",
+          "target_domain": "lab"
+        }
+      }
+    },
+    {
+      "from": "N7",
+      "to": "N8",
+      "data": {
+        "edge_id": "G_to_H",
+        "branch_flag": true,
+        "content": "Transition from CPET results to adjuvant chemotherapy treatment after pneumonectomy.",
+        "transition_event": {
+          "trigger_type": "medication_change",
+          "trigger_entities": [],
+          "change_type": "addition",
+          "target_domain": "medication"
+        }
+      }
+    },
+    {
+      "from": "N8",
+      "to": "N9",
+      "data": {
+        "edge_id": "H_to_I",
+        "branch_flag": true,
+        "content": "Transition from adjuvant chemotherapy to discovery of multiple suspected lymph nodes and right femur metastasis 1.5 years after pneumonectomy.",
+        "transition_event": {
+          "trigger_type": "spontaneous",
+          "trigger_entities": [],
+          "change_type": "progression",
+          "target_domain": "diagnosis"
+        }
+      }
+    },
+    {
+      "from": "N9",
+      "to": "N10",
+      "data": {
+        "edge_id": "I_to_J",
+        "branch_flag": ""
+      }
+    }
+  ]
+}

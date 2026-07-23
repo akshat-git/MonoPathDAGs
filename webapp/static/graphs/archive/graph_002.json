@@ -1,0 +1,433 @@
+{
+  "nodes": [
+    {
+      "id": "N1",
+      "label": "Step 1",
+      "customData": {
+        "node_id": "A",
+        "node_step_index": 0,
+        "timestamp": "2019-03-26",
+        "content": "Patient, female, 61 years old, underwent right middle and lower lobe resection + systematic lymph node dissection + closed thoracic drainage due to a lung mass.",
+        "clinical_data": {
+          "procedures": [
+            {
+              "name": "Lobectomy",
+              "approach": "open",
+              "date": null,
+              "location": "Right middle lobe",
+              "performed_by": null,
+              "outcome": null
+            },
+            {
+              "name": "Lobectomy",
+              "approach": "open",
+              "date": null,
+              "location": "Right lower lobe",
+              "performed_by": null,
+              "outcome": null
+            },
+            {
+              "name": "Lymph node dissection",
+              "approach": "open",
+              "date": null,
+              "location": "Thorax",
+              "performed_by": null,
+              "outcome": null
+            },
+            {
+              "name": "Thoracic drainage",
+              "approach": "closed",
+              "date": null,
+              "location": "Thorax",
+              "performed_by": null,
+              "outcome": null
+            }
+          ],
+          "diagnoses": [
+            {
+              "code": null,
+              "label": "Lung mass",
+              "status": "active",
+              "onset_date": null
+            }
+          ]
+        }
+      },
+      "custom_id": "graph_002_N0"
+    },
+    {
+      "id": "N2",
+      "label": "Step 2",
+      "customData": {
+        "node_id": "B",
+        "node_step_index": 1,
+        "timestamp": "2019-03-26",
+        "content": "Intraoperative findings: tumor located at the opening of the right lower lobe bronchus, approximately 4 cm \u00d7 3 cm in size.",
+        "clinical_data": {
+          "imaging": [
+            {
+              "type": "Neoplasm",
+              "body_part": "Bronchus",
+              "modality": "Intraoperative findings",
+              "finding": "tumor located at the opening of the right lower lobe bronchus, approximately 4 cm \u00d7 3 cm in size"
+            }
+          ]
+        }
+      },
+      "custom_id": "graph_002_N1"
+    },
+    {
+      "id": "N3",
+      "label": "Step 3",
+      "customData": {
+        "node_id": "C",
+        "node_step_index": 2,
+        "timestamp": "2019-03-26",
+        "content": "Postoperative pathology: poorly differentiated LCNEC with metastasis to groups 3, 7, and 11 lymph nodes.",
+        "clinical_data": {
+          "diagnoses": [
+            {
+              "code": "C80.1",
+              "label": "Poorly differentiated neuroendocrine carcinoma",
+              "status": "active"
+            },
+            {
+              "code": "C77.9",
+              "label": "Metastasis to lymph nodes",
+              "status": "active"
+            }
+          ]
+        }
+      },
+      "custom_id": "graph_002_N2"
+    },
+    {
+      "id": "N4",
+      "label": "Step 4",
+      "customData": {
+        "node_id": "D",
+        "node_step_index": 3,
+        "content": "Tumor stage: T2aN2M0, stage IIIA. Immunohistochemistry (IHC): TTF-1 (+), Napsin A (-), Vimentin (-), CKp (+), CK5/6 (-), CK7 (+), P40 (-), Syn (+), CgA (+), CD56 (+), Ki-67 (proliferation index: 60%), ALK (+). NGS: EML4-ALK fusion mutation present.",
+        "clinical_data": {
+          "diagnoses": [
+            {
+              "code": "C34",
+              "label": "Malignant neoplasm of bronchus and lung",
+              "status": "active"
+            }
+          ],
+          "imaging": [
+            {
+              "type": "TNM staging",
+              "body_part": "lung",
+              "modality": "other",
+              "finding": "T2aN2M0, stage IIIA"
+            }
+          ],
+          "labs": [
+            {
+              "test": "TTF-1",
+              "value": "positive",
+              "unit": null,
+              "flag": null
+            },
+            {
+              "test": "Napsin A",
+              "value": "negative",
+              "unit": null,
+              "flag": null
+            },
+            {
+              "test": "Vimentin",
+              "value": "negative",
+              "unit": null,
+              "flag": null
+            },
+            {
+              "test": "CKp",
+              "value": "positive",
+              "unit": null,
+              "flag": null
+            },
+            {
+              "test": "CK5/6",
+              "value": "negative",
+              "unit": null,
+              "flag": null
+            },
+            {
+              "test": "CK7",
+              "value": "positive",
+              "unit": null,
+              "flag": null
+            },
+            {
+              "test": "P40",
+              "value": "negative",
+              "unit": null,
+              "flag": null
+            },
+            {
+              "test": "Synaptophysin",
+              "value": "positive",
+              "unit": null,
+              "flag": null
+            },
+            {
+              "test": "Chromogranin A",
+              "value": "positive",
+              "unit": null,
+              "flag": null
+            },
+            {
+              "test": "CD56",
+              "value": "positive",
+              "unit": null,
+              "flag": null
+            },
+            {
+              "test": "Ki-67",
+              "value": "60",
+              "unit": "%",
+              "flag": null
+            },
+            {
+              "test": "ALK",
+              "value": "positive",
+              "unit": null,
+              "flag": null
+            },
+            {
+              "test": "EML4-ALK fusion mutation",
+              "value": "present",
+              "unit": null,
+              "flag": null
+            }
+          ]
+        }
+      },
+      "custom_id": "graph_002_N3"
+    },
+    {
+      "id": "N5",
+      "label": "Step 5",
+      "customData": {
+        "node_id": "E",
+        "node_step_index": 4,
+        "content": "Postoperative treatment: paclitaxel + lobaplatin chemotherapy combined with crizotinib 250 mg bid.",
+        "clinical_data": {
+          "medications": [
+            {
+              "drug": "C0030393",
+              "dosage": "250 mg",
+              "frequency": "bid",
+              "modality": "oral",
+              "indication": "Neoplasm",
+              "start_date": null,
+              "end_date": null
+            },
+            {
+              "drug": "C0030393",
+              "dosage": null,
+              "frequency": null,
+              "modality": null,
+              "indication": "Neoplasm",
+              "start_date": null,
+              "end_date": null
+            },
+            {
+              "drug": "C0009375",
+              "dosage": null,
+              "frequency": null,
+              "modality": null,
+              "indication": "Neoplasm",
+              "start_date": null,
+              "end_date": null
+            }
+          ]
+        }
+      },
+      "custom_id": "graph_002_N4"
+    },
+    {
+      "id": "N6",
+      "label": "Step 6",
+      "customData": {
+        "node_id": "F",
+        "node_step_index": 5,
+        "content": "Patient experienced severe gastrointestinal adverse reactions after 1 cycle of chemotherapy and stopped chemotherapy, continuing with oral crizotinib targeted therapy. Crizotinib was discontinued in 2022-04 due to severe drug-induced skin rash. During medication, the lesions were stable, with no postoperative tumor recurrence or interstitial pneumonia.",
+        "clinical_data": {
+          "medications": [
+            {
+              "drug": "C0975717",
+              "dosage": null,
+              "frequency": null,
+              "modality": "oral",
+              "start_date": null,
+              "end_date": "2022-04",
+              "indication": null
+            }
+          ],
+          "diagnoses": [
+            {
+              "code": null,
+              "label": "postoperative tumor recurrence",
+              "status": "historical",
+              "onset_date": null
+            },
+            {
+              "code": null,
+              "label": "interstitial pneumonia",
+              "status": "historical",
+              "onset_date": null
+            }
+          ],
+          "allergies": [
+            {
+              "substance": null,
+              "reaction": "drug-induced skin rash",
+              "severity": "severe",
+              "date_recorded": null
+            }
+          ]
+        }
+      },
+      "custom_id": "graph_002_N5"
+    },
+    {
+      "id": "N7",
+      "label": "Step 7",
+      "customData": {
+        "node_id": "G",
+        "node_step_index": 6,
+        "timestamp": "2023-08",
+        "content": "PET/CT at another hospital showed slight narrowing of the left main bronchus.",
+        "clinical_data": {
+          "imaging": [
+            {
+              "type": "Positron emission tomography",
+              "body_part": "Left main bronchus",
+              "modality": "PET/CT",
+              "finding": "slight narrowing"
+            }
+          ]
+        }
+      },
+      "custom_id": "graph_002_N6"
+    }
+  ],
+  "edges": [
+    {
+      "from": "N1",
+      "to": "N2",
+      "data": {
+        "edge_id": "A_to_B",
+        "branch_flag": true,
+        "content": "Patient underwent right middle and lower lobe resection + systematic lymph node dissection + closed thoracic drainage due to a lung mass. Transition to intraoperative findings.",
+        "transition_event": {
+          "trigger_type": "procedure",
+          "trigger_entities": [
+            "C0023853"
+          ],
+          "change_type": "other",
+          "target_domain": "imaging",
+          "timestamp": "2019-03-26T00:00:00Z"
+        }
+      },
+      "custom_id": "graph_002_N1_N2"
+    },
+    {
+      "from": "N2",
+      "to": "N3",
+      "data": {
+        "edge_id": "B_to_C",
+        "branch_flag": true,
+        "content": "Intraoperative findings of a 4cm x 3cm tumor at the opening of the right lower lobe bronchus. Transition to postoperative pathology.",
+        "transition_event": {
+          "trigger_type": "procedure",
+          "trigger_entities": [
+            "C0023853"
+          ],
+          "change_type": "other",
+          "target_domain": "diagnosis",
+          "timestamp": "2019-03-26T00:00:00Z"
+        }
+      },
+      "custom_id": "graph_002_N2_N3"
+    },
+    {
+      "from": "N3",
+      "to": "N4",
+      "data": {
+        "edge_id": "C_to_D",
+        "branch_flag": true,
+        "content": "Postoperative pathology revealed poorly differentiated LCNEC with metastasis to groups 3, 7, and 11 lymph nodes. Transition to tumor staging and immunohistochemistry results.",
+        "transition_event": {
+          "trigger_type": "interpretation",
+          "trigger_entities": [
+            "C0027051",
+            "C0027048"
+          ],
+          "change_type": "other",
+          "target_domain": "diagnosis"
+        }
+      },
+      "custom_id": "graph_002_N3_N4"
+    },
+    {
+      "from": "N4",
+      "to": "N5",
+      "data": {
+        "edge_id": "D_to_E",
+        "branch_flag": true,
+        "content": "Tumor stage T2aN2M0, stage IIIA with IHC results: TTF-1 (+), Napsin A (-), Vimentin (-), CKp (+), CK5/6 (-), CK7 (+), P40 (-), Syn (+), CgA (+), CD56 (+), Ki-67 (60%), ALK (+). NGS: EML4-ALK fusion mutation present. Transition to postoperative treatment.",
+        "transition_event": {
+          "trigger_type": "interpretation",
+          "trigger_entities": [
+            "C0027051",
+            "C0027048"
+          ],
+          "change_type": "other",
+          "target_domain": "medication"
+        }
+      },
+      "custom_id": "graph_002_N4_N5"
+    },
+    {
+      "from": "N5",
+      "to": "N6",
+      "data": {
+        "edge_id": "E_to_F",
+        "branch_flag": true,
+        "content": "Postoperative treatment with paclitaxel + lobaplatin chemotherapy combined with crizotinib 250 mg bid. Transition to adverse reactions and medication changes.",
+        "transition_event": {
+          "trigger_type": "medication_change",
+          "trigger_entities": [
+            "C0030393",
+            "C0009375"
+          ],
+          "change_type": "discontinuation",
+          "target_domain": "medication"
+        }
+      },
+      "custom_id": "graph_002_N5_N6"
+    },
+    {
+      "from": "N6",
+      "to": "N7",
+      "data": {
+        "edge_id": "F_to_G",
+        "branch_flag": true,
+        "content": "Patient experienced severe gastrointestinal adverse reactions after 1 cycle of chemotherapy and stopped chemotherapy, continuing with oral crizotinib targeted therapy. Crizotinib was discontinued in 2022-04 due to severe drug-induced skin rash. During medication, the lesions were stable, with no postoperative tumor recurrence or interstitial pneumonia. Transition to PET/CT findings.",
+        "transition_event": {
+          "trigger_type": "spontaneous",
+          "trigger_entities": [],
+          "change_type": "other",
+          "target_domain": "imaging",
+          "timestamp": "2023-08T00:00:"
+        }
+      },
+      "custom_id": "graph_002_N6_N7"
+    }
+  ]
+}

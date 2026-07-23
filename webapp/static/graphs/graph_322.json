@@ -1,0 +1,487 @@
+{
+  "nodes": [
+    {
+      "id": "N1",
+      "label": "Step 1",
+      "customData": {
+        "node_id": "A",
+        "node_step_index": 0,
+        "content": "43-year-old man presented to the hospital with persistent left chest pain. History of smoking (Brinkman index: 460).",
+        "clinical_data": {
+          "social_history": [
+            {
+              "category": "smoking",
+              "status": "current",
+              "description": "Brinkman index: 460"
+            }
+          ],
+          "HPI": [
+            {
+              "summary": "persistent left chest pain"
+            }
+          ]
+        }
+      }
+    },
+    {
+      "id": "N2",
+      "label": "Step 2",
+      "customData": {
+        "node_id": "B",
+        "node_step_index": 1,
+        "content": "Chest computed tomography (CT) scan revealed a mass in the left upper lobe.",
+        "clinical_data": {
+          "imaging": [
+            {
+              "type": "Computed tomography",
+              "body_part": "Left upper lobe",
+              "modality": "CT",
+              "finding": "mass"
+            }
+          ]
+        }
+      }
+    },
+    {
+      "id": "N3",
+      "label": "Step 3",
+      "customData": {
+        "node_id": "C",
+        "node_step_index": 2,
+        "content": "Underwent left upper lobe lung resection.",
+        "clinical_data": {
+          "procedures": [
+            {
+              "name": "Resection of upper lobe of left lung",
+              "approach": "open",
+              "location": "left upper lobe",
+              "body_part": "lung"
+            }
+          ]
+        }
+      }
+    },
+    {
+      "id": "N4",
+      "label": "Step 4",
+      "customData": {
+        "node_id": "D",
+        "node_step_index": 3,
+        "content": "Resected tumor composed of poorly differentiated carcinoma and partly composed of a glandular structure. Immunohistochemical staining: TTF\u20101 (SP141) negative, SMARCA2 (HPA029981) partial loss, SMARCA4 (EPNCIR111A) loss, PD\u2010L1 (28\u20108) 0%. Diagnosed with SMARCA4\u2010deficient poorly differentiated lung adenocarcinoma. Pathological stage T4N0M0 stage IIIA.",
+        "clinical_data": {
+          "diagnoses": [
+            {
+              "code": "C34.9",
+              "label": "Lung cancer, unspecified",
+              "status": "active"
+            }
+          ],
+          "imaging": [
+            {
+              "type": "Finding",
+              "body_part": "Lung",
+              "modality": "Immunohistochemical staining",
+              "finding": "TTF\u20101 (SP141) negative, SMARCA2 (HPA029981) partial loss, SMARCA4 (EPNCIR111A) loss, PD\u2010L1 (28\u20108) 0%"
+            }
+          ],
+          "procedures": [
+            {
+              "name": "Resection",
+              "location": "Tumor",
+              "outcome": "Resected"
+            }
+          ]
+        }
+      }
+    },
+    {
+      "id": "N5",
+      "label": "Step 5",
+      "customData": {
+        "node_id": "E",
+        "node_step_index": 4,
+        "content": "Next-generation sequencing (Oncomine Cancer Research Panel): absence of driver alterations for lung cancer. Whole-exon sequencing: tumor mutation burden (TMB) at 396 mutations.",
+        "clinical_data": {
+          "labs": [
+            {
+              "test": "Tumor mutation burden",
+              "value": "396",
+              "unit": "mutations"
+            }
+          ],
+          "imaging": [
+            {
+              "modality": "other",
+              "type": "Next-generation sequencing",
+              "finding": "absence of driver alterations for lung cancer"
+            },
+            {
+              "modality": "other",
+              "type": "Whole-exon sequencing"
+            }
+          ]
+        }
+      }
+    },
+    {
+      "id": "N6",
+      "label": "Step 6",
+      "customData": {
+        "node_id": "F",
+        "node_step_index": 5,
+        "content": "Two months after surgery, multiple lung metastases rapidly developed, and the patient was diagnosed with recurrence.",
+        "clinical_data": {
+          "diagnoses": [
+            {
+              "code": "C0024117",
+              "label": "Lung Metastasis",
+              "status": "active",
+              "onset_date": null
+            },
+            {
+              "code": "C0205852",
+              "label": "Recurrence",
+              "status": "active",
+              "onset_date": null
+            }
+          ],
+          "imaging": [
+            {
+              "type": "C0205333",
+              "body_part": "C0024109",
+              "modality": "other",
+              "finding": "multiple lung metastases",
+              "impression": "multiple lung metastases rapidly developed",
+              "date": null
+            }
+          ]
+        }
+      }
+    },
+    {
+      "id": "N7",
+      "label": "Step 7",
+      "customData": {
+        "node_id": "G",
+        "node_step_index": 6,
+        "content": "Treated with four cycles of carboplatin (AUC 5\u20136, day 1), paclitaxel (180\u2010200 mg/m2, day 1), and bevacizumab (15 mg/kg, day 1); best overall response: stable disease.",
+        "clinical_data": {
+          "medications": [
+            {
+              "drug": "C0007129",
+              "dosage": "AUC 5-6",
+              "frequency": "every 21 days",
+              "modality": "IV",
+              "start_date": null,
+              "end_date": null,
+              "indication": null
+            },
+            {
+              "drug": "C0030382",
+              "dosage": "180-200 mg/m2",
+              "frequency": "every 21 days",
+              "modality": "IV",
+              "start_date": null,
+              "end_date": null,
+              "indication": null
+            },
+            {
+              "drug": "C1263458",
+              "dosage": "15 mg/kg",
+              "frequency": "every 21 days",
+              "modality": "IV",
+              "start_date": null,
+              "end_date": null,
+              "indication": null
+            }
+          ]
+        }
+      }
+    },
+    {
+      "id": "N8",
+      "label": "Step 8",
+      "customData": {
+        "node_id": "H",
+        "node_step_index": 7,
+        "content": "Followed by four cycles of docetaxel (50\u201060 mg/m2, day 1) and ramucirumab (10 mg/kg, day 1); best overall response: stable disease.",
+        "clinical_data": {
+          "medications": [
+            {
+              "drug": "C0013084",
+              "dosage": "50-60 mg/m2",
+              "frequency": "day 1",
+              "modality": "IV",
+              "start_date": null,
+              "end_date": null,
+              "indication": null
+            },
+            {
+              "drug": "C3258977",
+              "dosage": "10 mg/kg",
+              "frequency": "day 1",
+              "modality": "IV",
+              "start_date": null,
+              "end_date": null,
+              "indication": null
+            }
+          ]
+        }
+      }
+    },
+    {
+      "id": "N9",
+      "label": "Step 9",
+      "customData": {
+        "node_id": "I",
+        "node_step_index": 8,
+        "content": "After two cycles of pemetrexed (500 mg/m2, day 1; best overall response: progressive disease), nivolumab (3 mg/kg, day 1, every 2 weeks) was administered as a fourth\u2010line treatment.",
+        "clinical_data": {
+          "medications": [
+            {
+              "drug": "C0886229",
+              "dosage": "500 mg/m2",
+              "frequency": "day 1",
+              "modality": "IV",
+              "start_date": null,
+              "end_date": null,
+              "indication": null
+            },
+            {
+              "drug": "C3653406",
+              "dosage": "3 mg/kg",
+              "frequency": "every 2 weeks",
+              "modality": "IV",
+              "start_date": null,
+              "end_date": null,
+              "indication": null
+            }
+          ]
+        }
+      }
+    },
+    {
+      "id": "N10",
+      "label": "Step 10",
+      "customData": {
+        "node_id": "J",
+        "node_step_index": 9,
+        "content": "After four doses of nivolumab, obvious reduction in the lung metastases was observed.",
+        "clinical_data": {
+          "medications": [
+            {
+              "drug": "C1277655",
+              "dosage": null,
+              "frequency": null,
+              "modality": null,
+              "start_date": null,
+              "end_date": null,
+              "indication": "C0006826"
+            }
+          ],
+          "imaging": [
+            {
+              "type": "C0205035",
+              "body_part": "C0024134",
+              "modality": null,
+              "finding": "reduction in the lung metastases",
+              "impression": null,
+              "date": null
+            }
+          ]
+        }
+      }
+    },
+    {
+      "id": "N11",
+      "label": "Step 11",
+      "customData": {
+        "node_id": "K",
+        "node_step_index": 10,
+        "content": "Chest CT images after 22 doses of nivolumab showed continuous lesion shrinkage (best overall response: partial response). Disease control has been maintained for more than 14 months since the start of nivolumab treatment.",
+        "clinical_data": {
+          "medications": [
+            {
+              "drug": "C3876331",
+              "dosage": null,
+              "frequency": null,
+              "modality": null,
+              "start_date": null,
+              "end_date": null,
+              "indication": null
+            }
+          ],
+          "imaging": [
+            {
+              "type": "C0205340",
+              "body_part": "C0008043",
+              "modality": "CT",
+              "finding": "lesion shrinkage",
+              "impression": "partial response",
+              "date": null
+            }
+          ],
+          "diagnoses": [
+            {
+              "code": null,
+              "label": "Disease control",
+              "status": "active",
+              "onset_date": null
+            }
+          ]
+        }
+      }
+    },
+    {
+      "id": "N12",
+      "label": "Step 12",
+      "customData": {
+        "node_id": "L",
+        "node_step_index": 11,
+        "content": "Baseline Chest computed tomography images before nivolumab treatment.",
+        "clinical_data": {
+          "imaging": [
+            {
+              "type": "Chest computed tomography",
+              "body_part": "chest",
+              "modality": "CT",
+              "date": null
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "edges": [
+    {
+      "from": "N1",
+      "to": "N2",
+      "data": {
+        "edge_id": "A_to_B",
+        "branch_flag": true,
+        "content": "Patient presented with persistent left chest pain and a history of smoking.",
+        "transition_event": {
+          "trigger_type": "symptom_onset",
+          "trigger_entities": [
+            "C0011581"
+          ],
+          "change_type": "onset",
+          "target_domain": "symptom"
+        }
+      }
+    },
+    {
+      "from": "N2",
+      "to": "N3",
+      "data": {
+        "edge_id": "B_to_C",
+        "branch_flag": true,
+        "content": "Chest CT scan revealed a mass in the left upper lobe.",
+        "transition_event": {
+          "trigger_type": "imaging",
+          "trigger_entities": [],
+          "change_type": "addition",
+          "target_domain": "imaging"
+        }
+      }
+    },
+    {
+      "from": "N3",
+      "to": "N4",
+      "data": {
+        "edge_id": "C_to_D",
+        "branch_flag": true,
+        "content": "Patient underwent left upper lobe lung resection.",
+        "transition_event": {
+          "trigger_type": "procedure",
+          "trigger_entities": [],
+          "change_type": "addition",
+          "target_domain": "procedure"
+        }
+      }
+    },
+    {
+      "from": "N4",
+      "to": "N5",
+      "data": {
+        "edge_id": "D_to_E",
+        "branch_flag": true,
+        "content": "Resected tumor was diagnosed as SMARCA4\u2010deficient poorly differentiated lung adenocarcinoma, pathological stage T4N0M0 stage IIIA. Immunohistochemical staining: TTF\u20101 (SP141) negative, SMARCA2 (HPA029981) partial loss, SMARCA4 (EPNCIR111A) loss, PD\u2010L1 (28\u20108) 0%.",
+        "transition_event": {
+          "trigger_type": "interpretation",
+          "trigger_entities": [],
+          "change_type": "addition",
+          "target_domain": "diagnosis"
+        }
+      }
+    },
+    {
+      "from": "N5",
+      "to": "N6",
+      "data": {
+        "edge_id": "E_to_F",
+        "branch_flag": true,
+        "content": "Next-generation sequencing showed absence of driver alterations for lung cancer. Whole-exon sequencing: tumor mutation burden (TMB) at 396 mutations.",
+        "transition_event": {
+          "trigger_type": "lab_change",
+          "trigger_entities": [],
+          "change_type": "addition",
+          "target_domain": "lab"
+        }
+      }
+    },
+    {
+      "from": "N6",
+      "to": "N7",
+      "data": {
+        "edge_id": "F_to_G",
+        "branch_flag": true,
+        "content": "Two months after surgery, multiple lung metastases rapidly developed, and the patient was diagnosed with recurrence.",
+        "transition_event": {
+          "trigger_type": "symptom_onset",
+          "trigger_entities": [
+            "C0024117",
+            "C0205852"
+          ],
+          "change_type": "progression",
+          "target_domain": "diagnosis"
+        }
+      }
+    },
+    {
+      "from": "N7",
+      "to": "N8",
+      "data": {
+        "edge_id": "G_to_H",
+        "branch_flag": true,
+        "content": "Treated with four cycles of carboplatin, paclitaxel, and bevacizumab; best overall response: stable disease.",
+        "transition_event": {
+          "trigger_type": "medication_change",
+          "trigger_entities": [
+            "C0007129",
+            "C0030382",
+            "C1263458"
+          ],
+          "change_type": "addition",
+          "target_domain": "medication"
+        }
+      }
+    },
+    {
+      "from": "N8",
+      "to": "N9",
+      "data": {
+        "edge_id": "H_to_I",
+        "branch_flag": true,
+        "content": "Followed by four cycles of docetaxel and ramucirumab; best overall response: stable disease.",
+        "transition_event": {
+          "trigger_type": "medication_change",
+          "trigger_entities": [
+            "C0013084",
+            "C32"
+          ]
+        }
+      }
+    }
+  ]
+}

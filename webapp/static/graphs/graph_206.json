@@ -1,0 +1,372 @@
+{
+  "nodes": [
+    {
+      "id": "N1",
+      "label": "Step 1",
+      "customData": {
+        "node_id": "A",
+        "node_step_index": 0,
+        "content": "26-year-old woman presented with severe lower abdominal pain, dysmenorrhea, deep dyspareunia, dyschezia and occasional rectal bleeding. Examination showed restricted uterine mobility and a rectovaginal nodule.",
+        "clinical_data": {
+          "HPI": [
+            {
+              "summary": "26-year-old woman presented with severe lower abdominal pain, dysmenorrhea, deep dyspareunia, dyschezia and occasional rectal bleeding.",
+              "associated_symptoms": [
+                "C0000729",
+                "C0014782",
+                "C0013060",
+                "C0013423",
+                "C0036341"
+              ]
+            }
+          ],
+          "diagnoses": [
+            {
+              "code": "C0014782",
+              "label": "Dysmenorrhea",
+              "status": "active"
+            },
+            {
+              "code": "C0013060",
+              "label": "Dyspareunia",
+              "status": "active"
+            },
+            {
+              "code": "C0013423",
+              "label": "Dyschezia",
+              "status": "active"
+            },
+            {
+              "code": "C0036341",
+              "label": "Rectal Bleeding",
+              "status": "active"
+            }
+          ],
+          "procedures": [
+            {
+              "name": "Physical Examination",
+              "location": "Uterus",
+              "finding": "Restricted uterine mobility"
+            },
+            {
+              "name": "Physical Examination",
+              "location": "Rectovaginal",
+              "finding": "Rectovaginal nodule"
+            }
+          ]
+        }
+      }
+    },
+    {
+      "id": "N2",
+      "label": "Step 2",
+      "customData": {
+        "node_id": "B",
+        "node_step_index": 1,
+        "content": "Mirena coil placed for cyclical symptoms, but symptoms persisted.",
+        "clinical_data": {
+          "procedures": [
+            {
+              "name": "Intrauterine Device Insertion",
+              "date": null,
+              "location": "uterus",
+              "outcome": "symptoms persisted"
+            }
+          ]
+        }
+      }
+    },
+    {
+      "id": "N3",
+      "label": "Step 3",
+      "customData": {
+        "node_id": "C",
+        "node_step_index": 2,
+        "content": "Started on gonadotrophin-releasing hormone analogues (GNRHa) with add-back hormone replacement therapy (HRT), and was given a preliminary diagnosis of endometriosis.",
+        "clinical_data": {
+          "medications": [
+            {
+              "drug": "gonadotrophin-releasing hormone analogues",
+              "dosage": null,
+              "frequency": null,
+              "modality": null,
+              "start_date": null,
+              "end_date": null,
+              "indication": "Endometriosis"
+            },
+            {
+              "drug": "hormone replacement therapy",
+              "dosage": null,
+              "frequency": null,
+              "modality": null,
+              "start_date": null,
+              "end_date": null,
+              "indication": null
+            }
+          ],
+          "diagnoses": [
+            {
+              "code": null,
+              "label": "Endometriosis",
+              "status": "suspected",
+              "onset_date": null
+            }
+          ]
+        }
+      }
+    },
+    {
+      "id": "N4",
+      "label": "Step 4",
+      "customData": {
+        "node_id": "D",
+        "node_step_index": 3,
+        "content": "MRI revealed multiple clear cystic structures in the pelvis, adenomyosis, bilateral endometriomas and adhesions between the uterus and posterior rectosigmoid junction.",
+        "clinical_data": {
+          "imaging": [
+            {
+              "type": "Magnetic Resonance Imaging",
+              "body_part": "Pelvis",
+              "modality": "MRI",
+              "finding": "multiple clear cystic structures",
+              "impression": "adenomyosis, bilateral endometriomas and adhesions between the uterus and posterior rectosigmoid junction"
+            }
+          ],
+          "diagnoses": [
+            {
+              "code": "C0264274",
+              "label": "Adenomyosis",
+              "status": "active"
+            },
+            {
+              "code": "C0014181",
+              "label": "Endometrioma",
+              "status": "active"
+            },
+            {
+              "code": "C0001572",
+              "label": "Adhesion",
+              "status": "active",
+              "location": "uterus and posterior rectosigmoid junction"
+            }
+          ]
+        }
+      }
+    },
+    {
+      "id": "N5",
+      "label": "Step 5",
+      "customData": {
+        "node_id": "E",
+        "node_step_index": 4,
+        "content": "T2 sagittal MRI through the mid-pelvis showed the uterus has a large focal area of adenomyosis and is tethered to the rectum by deep infiltrating endometriosis. Posterior to this, there is a multiloculated fluid collection, histologically proven mesothelioma.",
+        "clinical_data": {
+          "imaging": [
+            {
+              "type": "Magnetic resonance imaging",
+              "body_part": "pelvis",
+              "modality": "MRI",
+              "finding": "uterus has a large focal area of adenomyosis and is tethered to the rectum by deep infiltrating endometriosis",
+              "date": null
+            }
+          ],
+          "diagnoses": [
+            {
+              "code": "C0025541",
+              "label": "Mesothelioma",
+              "status": "active",
+              "onset_date": null
+            }
+          ]
+        }
+      }
+    },
+    {
+      "id": "N6",
+      "label": "Step 6",
+      "customData": {
+        "node_id": "F",
+        "node_step_index": 5,
+        "content": "Diagnostic laparoscopy performed due to imaging not being entirely consistent with the diagnosis of endometriosis.",
+        "clinical_data": {
+          "procedures": [
+            {
+              "name": "Laparoscopy",
+              "approach": "laparoscopic",
+              "date": null,
+              "location": null,
+              "performed_by": null,
+              "outcome": null
+            }
+          ],
+          "diagnoses": [
+            {
+              "code": null,
+              "label": "endometriosis",
+              "status": "suspected",
+              "onset_date": null
+            }
+          ],
+          "imaging": [
+            {
+              "type": null,
+              "body_part": null,
+              "modality": null,
+              "finding": "not being entirely consistent with the diagnosis of endometriosis",
+              "impression": null,
+              "date": null
+            }
+          ]
+        }
+      }
+    },
+    {
+      "id": "N7",
+      "label": "Step 7",
+      "customData": {
+        "node_id": "G",
+        "node_step_index": 6,
+        "content": "MRI showed a separate endometrioma cranial to the bladder and uterine fundus. T2 axial MRI through the mid-pelvis showed bilateral endometriomas with intervening multiloculated fluid collections, histologically proven to represent mesothelioma.",
+        "clinical_data": {
+          "imaging": [
+            {
+              "type": "MRI",
+              "body_part": "pelvis",
+              "modality": "MRI",
+              "finding": "endometrioma cranial to the bladder and uterine fundus",
+              "date": null
+            },
+            {
+              "type": "MRI",
+              "body_part": "pelvis",
+              "modality": "MRI",
+              "finding": "bilateral endometriomas with intervening multiloculated fluid collections",
+              "date": null
+            }
+          ],
+          "diagnoses": [
+            {
+              "code": "C0025202",
+              "label": "Mesothelioma",
+              "status": "active",
+              "onset_date": null
+            },
+            {
+              "code": "C0267404",
+              "label": "Endometrioma",
+              "status": "active",
+              "onset_date": null
+            }
+          ]
+        }
+      }
+    },
+    {
+      "id": "N8",
+      "label": "Step 8",
+      "customData": {
+        "node_id": "H",
+        "node_step_index": "",
+        "clinical_data": {}
+      }
+    }
+  ],
+  "edges": [
+    {
+      "from": "N1",
+      "to": "N2",
+      "data": {
+        "edge_id": "A_to_B",
+        "branch_flag": true,
+        "content": "Patient symptoms persisted despite Mirena coil placement."
+      }
+    },
+    {
+      "from": "N2",
+      "to": "N3",
+      "data": {
+        "edge_id": "B_to_C",
+        "branch_flag": true,
+        "content": "Patient was started on gonadotrophin-releasing hormone analogues (GNRHa) with add-back hormone replacement therapy (HRT), with a preliminary diagnosis of endometriosis.",
+        "transition_event": {
+          "trigger_type": "medication_change",
+          "trigger_entities": [
+            "gonadotrophin-releasing hormone analogues",
+            "hormone replacement therapy"
+          ],
+          "change_type": "addition",
+          "target_domain": "medication"
+        }
+      }
+    },
+    {
+      "from": "N3",
+      "to": "N4",
+      "data": {
+        "edge_id": "C_to_D",
+        "branch_flag": true,
+        "content": "MRI revealed multiple clear cystic structures in the pelvis, adenomyosis, bilateral endometriomas and adhesions between the uterus and posterior rectosigmoid junction.",
+        "transition_event": {
+          "trigger_type": "imaging",
+          "trigger_entities": [],
+          "change_type": "progression",
+          "target_domain": "imaging"
+        }
+      }
+    },
+    {
+      "from": "N4",
+      "to": "N5",
+      "data": {
+        "edge_id": "D_to_E",
+        "branch_flag": true,
+        "content": "T2 sagittal MRI through the mid-pelvis showed the uterus has a large focal area of adenomyosis and is tethered to the rectum by deep infiltrating endometriosis. Posterior to this, there is a multiloculated fluid collection, histologically proven mesothelioma.",
+        "transition_event": {
+          "trigger_type": "imaging",
+          "trigger_entities": [],
+          "change_type": "progression",
+          "target_domain": "imaging"
+        }
+      }
+    },
+    {
+      "from": "N5",
+      "to": "N6",
+      "data": {
+        "edge_id": "E_to_F",
+        "branch_flag": true,
+        "content": "Diagnostic laparoscopy performed due to imaging not being entirely consistent with the diagnosis of endometriosis.",
+        "transition_event": {
+          "trigger_type": "procedure",
+          "trigger_entities": [],
+          "change_type": "other",
+          "target_domain": "procedure"
+        }
+      }
+    },
+    {
+      "from": "N6",
+      "to": "N7",
+      "data": {
+        "edge_id": "F_to_G",
+        "branch_flag": true,
+        "content": "MRI showed a separate endometrioma cranial to the bladder and uterine fundus. T2 axial MRI through the mid-pelvis showed bilateral endometriomas with intervening multiloculated fluid collections, histologically proven to represent mesothelioma.",
+        "transition_event": {
+          "trigger_type": "imaging",
+          "trigger_entities": [],
+          "change_type": "progression",
+          "target_domain": "imaging"
+        }
+      }
+    },
+    {
+      "from": "N7",
+      "to": "N8",
+      "data": {
+        "edge_id": "G_to_H",
+        "branch_flag": true,
+        "content": ""
+      }
+    }
+  ]
+}

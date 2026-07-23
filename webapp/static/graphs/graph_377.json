@@ -1,0 +1,469 @@
+{
+  "nodes": [
+    {
+      "id": "N1",
+      "label": "Step 1",
+      "customData": {
+        "node_id": "A",
+        "node_step_index": 0,
+        "content": "42-year-old male presented with acute right-sided abdominal pain, vomiting, dysuria and fever. Pain was in the right lower abdomen and aggravated by movement. He had nausea and non-bilious vomiting. He had painful micturition with concentrated urine. Collection date 2021 Apr.",
+        "clinical_data": {
+          "HPI": [
+            {
+              "summary": "acute right-sided abdominal pain, vomiting, dysuria and fever",
+              "onset": "acute",
+              "progression": "sudden",
+              "associated_symptoms": [
+                "nausea",
+                "vomiting",
+                "dysuria",
+                "fever"
+              ],
+              "exacerbating_factors": [
+                "movement"
+              ]
+            }
+          ]
+        }
+      }
+    },
+    {
+      "id": "N2",
+      "label": "Step 2",
+      "customData": {
+        "node_id": "B",
+        "node_step_index": 1,
+        "content": "Patient history of working as a construction worker for 15 years, 8-hour shifts, 6 days a week. No prior abdominal trauma or surgery. No weight loss, diabetes, hypertension, tuberculosis or pancreatitis. Patient has been handling asbestos daily for >10 years.",
+        "clinical_data": {
+          "social_history": [
+            {
+              "category": "employment",
+              "status": "past",
+              "description": "Construction worker for 15 years, 8-hour shifts, 6 days a week."
+            },
+            {
+              "category": "exposure",
+              "status": "past",
+              "description": "Patient has been handling asbestos daily for >10 years."
+            }
+          ]
+        }
+      }
+    },
+    {
+      "id": "N3",
+      "label": "Step 3",
+      "customData": {
+        "node_id": "C",
+        "node_step_index": 2,
+        "content": "Physical examination showed: Heart rate 120 bpm, blood pressure 110/70 mm Hg, temperature 39\u00b0C, distension and guarding in the right iliac and umbilical region. Chest radiology and cardiogram were normal. Sputum was negative for acid-fast bacilli.",
+        "clinical_data": {
+          "vitals": [
+            {
+              "type": "Heart Rate",
+              "value": "120",
+              "unit": "bpm"
+            },
+            {
+              "type": "Blood Pressure",
+              "value": "110/70",
+              "unit": "mm Hg"
+            },
+            {
+              "type": "Temperature",
+              "value": "39",
+              "unit": "\u00b0C"
+            }
+          ],
+          "imaging": [
+            {
+              "type": "Radiography",
+              "body_part": "Chest",
+              "modality": "X-ray",
+              "finding": "normal"
+            }
+          ]
+        }
+      }
+    },
+    {
+      "id": "N4",
+      "label": "Step 4",
+      "customData": {
+        "node_id": "D",
+        "node_step_index": 3,
+        "content": "Labs showed: Haemoglobin 10.4 g/dl, white blood cell 6400 per microlitre, serum creatinine 0.9 mg/dl, alanine-aminotransferase 16 IU/L, aspartate-transferase 51 IU/L, lipase 149 IU/L, amylase 49 IU/L, serum Na + 129 mmol/L, Glucose 146 mg/dl, partial pressure of oxygen 54 mm Hg. Urine microscopy showed numerous red blood cells.",
+        "clinical_data": {
+          "labs": [
+            {
+              "test": "Hemoglobin measurement",
+              "value": "10.4",
+              "unit": "g/dl",
+              "flag": "abnormal"
+            },
+            {
+              "test": "White blood cell count",
+              "value": "6400",
+              "unit": "per microlitre",
+              "flag": "normal"
+            },
+            {
+              "test": "Serum creatinine measurement",
+              "value": "0.9",
+              "unit": "mg/dl",
+              "flag": "normal"
+            },
+            {
+              "test": "Alanine aminotransferase measurement",
+              "value": "16",
+              "unit": "IU/L",
+              "flag": "normal"
+            },
+            {
+              "test": "Aspartate aminotransferase measurement",
+              "value": "51",
+              "unit": "IU/L",
+              "flag": "abnormal"
+            },
+            {
+              "test": "Lipase measurement",
+              "value": "149",
+              "unit": "IU/L",
+              "flag": "abnormal"
+            },
+            {
+              "test": "Amylase measurement",
+              "value": "49",
+              "unit": "IU/L",
+              "flag": "normal"
+            },
+            {
+              "test": "Sodium measurement",
+              "value": "129",
+              "unit": "mmol/L",
+              "flag": "abnormal"
+            },
+            {
+              "test": "Glucose measurement",
+              "value": "146",
+              "unit": "mg/dl",
+              "flag": "abnormal"
+            },
+            {
+              "test": "Partial pressure of oxygen",
+              "value": "54",
+              "unit": "mm Hg",
+              "flag": "abnormal"
+            }
+          ],
+          "labs_microscopy": [
+            {
+              "test": "Urine microscopy",
+              "finding": "Numerous red blood cells"
+            }
+          ]
+        }
+      }
+    },
+    {
+      "id": "N5",
+      "label": "Step 5",
+      "customData": {
+        "node_id": "E",
+        "node_step_index": 4,
+        "content": "Abdominal ultrasound showed a well-defined intra-abdominal cyst with clear echoes situated in the pelvis compressing and displacing the urinary bladder to the left. The rest of the organs were normal.",
+        "clinical_data": {
+          "imaging": [
+            {
+              "type": "Cyst",
+              "body_part": "Pelvis",
+              "modality": "Ultrasound",
+              "finding": "Well-defined intra-abdominal cyst with clear echoes compressing and displacing the urinary bladder to the left",
+              "impression": "Well-defined intra-abdominal cyst with clear echoes compressing and displacing the urinary bladder to the left"
+            }
+          ]
+        }
+      }
+    },
+    {
+      "id": "N6",
+      "label": "Step 6",
+      "customData": {
+        "node_id": "F",
+        "node_step_index": 5,
+        "content": "CT scan showed a solitary well defined intraperitoneal cyst consisting of fluid showing low attenuation. The wall of the cyst was 1 cm thick, with no contrast enhancement. It was situated in the pelvis compressing the urinary bladder. No free fluid was observed.",
+        "clinical_data": {
+          "imaging": [
+            {
+              "type": "Cyst (T0011059)",
+              "body_part": "Pelvis (A0030354)",
+              "modality": "CT",
+              "finding": "Solitary well defined intraperitoneal cyst consisting of fluid showing low attenuation. The wall of the cyst was 1 cm thick, with no contrast enhancement. It was situated in the pelvis compressing the urinary bladder. No free fluid was observed.",
+              "impression": "Solitary well defined intraperitoneal cyst compressing the urinary bladder."
+            }
+          ]
+        }
+      }
+    },
+    {
+      "id": "N7",
+      "label": "Step 7",
+      "customData": {
+        "node_id": "G",
+        "node_step_index": 6,
+        "content": "Contrast-enhanced CT scan of the abdomen showed a solitary cyst with a non-enhancing wall separate from the urinary bladder. The pancreas was normal, as also the rest of the abdominal organs. There was no ascites. It had no communication with either the bowel or the urinary bladder.",
+        "clinical_data": {
+          "imaging": [
+            {
+              "type": "CT scan of abdomen",
+              "body_part": "abdomen",
+              "modality": "CT",
+              "finding": "solitary cyst with a non-enhancing wall separate from the urinary bladder",
+              "impression": "solitary cyst with a non-enhancing wall separate from the urinary bladder",
+              "date": null
+            },
+            {
+              "type": "CT scan of abdomen",
+              "body_part": "pancreas",
+              "modality": "CT",
+              "finding": "pancreas was normal",
+              "impression": "pancreas was normal",
+              "date": null
+            },
+            {
+              "type": "CT scan of abdomen",
+              "body_part": "abdominal organs",
+              "modality": "CT",
+              "finding": "rest of the abdominal organs normal",
+              "impression": "rest of the abdominal organs normal",
+              "date": null
+            },
+            {
+              "type": "CT scan of abdomen",
+              "body_part": "abdomen",
+              "modality": "CT",
+              "finding": "no ascites",
+              "impression": "no ascites",
+              "date": null
+            }
+          ]
+        }
+      }
+    },
+    {
+      "id": "N8",
+      "label": "Step 8",
+      "customData": {
+        "node_id": "H",
+        "node_step_index": 7,
+        "content": "Laparotomy revealed a large intra-abdominal cyst in the pelvis, compressing the superior aspect of the urinary bladder. The cyst was free from the mesentery, omentum, and mesocolon, with no connection to the anterior abdominal wall, umbilicus, or urinary bladder.",
+        "clinical_data": {
+          "procedures": [
+            {
+              "name": "Laparotomy",
+              "approach": "open",
+              "location": "abdomen",
+              "outcome": "revealed a large intra-abdominal cyst in the pelvis"
+            }
+          ],
+          "imaging": [
+            {
+              "type": "Cyst",
+              "body_part": "pelvis",
+              "modality": "intra-abdominal",
+              "finding": "large intra-abdominal cyst in the pelvis, compressing the superior aspect of the urinary bladder"
+            }
+          ]
+        }
+      }
+    },
+    {
+      "id": "N9",
+      "label": "Step 9",
+      "customData": {
+        "node_id": "I",
+        "node_step_index": 8,
+        "content": "Gross examination of the cyst revealed a blackish wall suggestive of infarction and clear fluid within.",
+        "clinical_data": {
+          "imaging": [
+            {
+              "finding": "blackish wall suggestive of infarction",
+              "impression": "cyst with blackish wall suggestive of infarction",
+              "modality": "Gross examination",
+              "type": "cyst"
+            }
+          ]
+        }
+      }
+    },
+    {
+      "id": "N10",
+      "label": "Step 10",
+      "customData": {
+        "node_id": "J",
+        "node_step_index": 9,
+        "content": "Complete excision of the cyst was performed.",
+        "clinical_data": {
+          "procedures": [
+            {
+              "name": "Excision",
+              "approach": "open",
+              "outcome": "complete"
+            }
+          ]
+        }
+      }
+    },
+    {
+      "id": "N11",
+      "label": "Step 11",
+      "customData": {
+        "node_id": "K",
+        "node_step_index": 10,
+        "content": "Patient was given third-generation cephalosporins for 3 days.",
+        "clinical_data": {
+          "medications": [
+            {
+              "drug": "cephalosporins",
+              "dosage": null,
+              "frequency": null,
+              "modality": null,
+              "start_date": null,
+              "end_date": null,
+              "indication": null
+            }
+          ]
+        }
+      }
+    },
+    {
+      "id": "N12",
+      "label": "Step 12",
+      "customData": {
+        "node_id": "L",
+        "node_step_index": 11,
+        "content": "Fluid culture showed no bacterial growth.",
+        "clinical_data": {}
+      }
+    },
+    {
+      "id": "N13",
+      "label": "Step 13",
+      "customData": {
+        "node_id": "M",
+        "node_step_index": 12,
+        "clinical_data": {}
+      }
+    }
+  ],
+  "edges": [
+    {
+      "from": "N1",
+      "to": "N2",
+      "data": {
+        "edge_id": "A_to_B",
+        "branch_flag": true,
+        "content": "Transition from initial presentation to patient history."
+      }
+    },
+    {
+      "from": "N2",
+      "to": "N3",
+      "data": {
+        "edge_id": "B_to_C",
+        "branch_flag": true,
+        "content": "Transition from patient history to physical examination findings, including vital signs and chest radiology results."
+      }
+    },
+    {
+      "from": "N3",
+      "to": "N4",
+      "data": {
+        "edge_id": "C_to_D",
+        "branch_flag": true,
+        "content": "Transition from physical examination to lab results, including blood tests and urine microscopy."
+      }
+    },
+    {
+      "from": "N4",
+      "to": "N5",
+      "data": {
+        "edge_id": "D_to_E",
+        "branch_flag": true,
+        "content": "Transition from lab results to abdominal ultrasound findings, revealing an intra-abdominal cyst."
+      }
+    },
+    {
+      "from": "N5",
+      "to": "N6",
+      "data": {
+        "edge_id": "E_to_F",
+        "branch_flag": true,
+        "content": "Transition from abdominal ultrasound to CT scan findings, further characterizing the intra-abdominal cyst."
+      }
+    },
+    {
+      "from": "N6",
+      "to": "N7",
+      "data": {
+        "edge_id": "F_to_G",
+        "branch_flag": true,
+        "content": "Transition from CT scan to contrast-enhanced CT scan, providing more detailed information about the cyst and surrounding organs."
+      }
+    },
+    {
+      "from": "N7",
+      "to": "N8",
+      "data": {
+        "edge_id": "G_to_H",
+        "branch_flag": true,
+        "content": "Transition from contrast-enhanced CT scan to laparotomy findings, confirming the presence and characteristics of the cyst."
+      }
+    },
+    {
+      "from": "N8",
+      "to": "N9",
+      "data": {
+        "edge_id": "H_to_I",
+        "branch_flag": true,
+        "content": "Transition from laparotomy to gross examination of the cyst, revealing a blackish wall suggestive of infarction."
+      }
+    },
+    {
+      "from": "N9",
+      "to": "N10",
+      "data": {
+        "edge_id": "I_to_J",
+        "branch_flag": true,
+        "content": "Transition from gross examination to complete excision of the cyst."
+      }
+    },
+    {
+      "from": "N10",
+      "to": "N11",
+      "data": {
+        "edge_id": "J_to_K",
+        "branch_flag": true,
+        "content": "Transition from cyst excision to administration of third-generation cephalosporins."
+      }
+    },
+    {
+      "from": "N11",
+      "to": "N12",
+      "data": {
+        "edge_id": "K_to_L",
+        "branch_flag": true,
+        "content": "Transition from antibiotic administration to fluid culture results, showing no bacterial growth."
+      }
+    },
+    {
+      "from": "N12",
+      "to": "N13",
+      "data": {
+        "edge_id": "L_to_M",
+        "branch_flag": true,
+        "content": "Transition from fluid culture results to final state."
+      }
+    }
+  ]
+}

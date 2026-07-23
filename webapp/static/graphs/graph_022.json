@@ -1,0 +1,502 @@
+{
+  "nodes": [
+    {
+      "id": "N1",
+      "label": "Step 1",
+      "customData": {
+        "node_id": "A",
+        "node_step_index": 0,
+        "content": "77-year-old man presented with left-sided hearing loss, otalgia, and a red mass in the left external auditory canal (EAC) that persisted for several weeks. Medical history includes hypertension, hyperlipidemia, and right-sided hearing loss due to chronic otitis media. Heavy smoker with no medical history of malignancy. Physical examination revealed a red, soft mass measuring approximately 20 mm occupying the left EAC.",
+        "clinical_data": {
+          "HPI": [
+            {
+              "summary": "77-year-old man presented with left-sided hearing loss, otalgia, and a red mass in the left external auditory canal (EAC) that persisted for several weeks.",
+              "duration": "several weeks",
+              "associated_symptoms": [
+                "C0018787",
+                "C0029307"
+              ]
+            }
+          ],
+          "diagnoses": [
+            {
+              "code": "C0019343",
+              "label": "Hearing Loss, Unilateral",
+              "status": "active",
+              "onset_date": null
+            },
+            {
+              "code": "C0029307",
+              "label": "Otalgia",
+              "status": "active",
+              "onset_date": null
+            }
+          ],
+          "social_history": [
+            {
+              "category": "smoking",
+              "status": "current",
+              "description": "Heavy smoker"
+            }
+          ],
+          "allergies": [],
+          "medications": [],
+          "vitals": [],
+          "labs": [],
+          "imaging": [],
+          "procedures": [],
+          "ROS": [],
+          "functional_status": [],
+          "mental_status": [],
+          "physical_exam": [
+            {
+              "finding": "red mass in the left external auditory canal (EAC)",
+              "location": "left external auditory canal (EAC)",
+              "size": "20 mm"
+            }
+          ],
+          "past_medical_history": [
+            {
+              "diagnosis": "C0020448",
+              "status": "historical"
+            },
+            {
+              "diagnosis": "C0019205",
+              "status": "historical"
+            },
+            {
+              "diagnosis": "C0029687",
+              "status": "historical"
+            }
+          ]
+        }
+      },
+      "custom_id": "graph_022_N0"
+    },
+    {
+      "id": "N2",
+      "label": "Step 2",
+      "customData": {
+        "node_id": "B",
+        "node_step_index": 1,
+        "content": "CT scan revealed masses in the left EAC and middle ear, right upper lung lobe, and pancreatic body. The EAC mass filled the entire canal and extended into the mastoid (CT and MRI findings). Laboratory tests showed normal Span-1 and DUPAN2 levels, elevated ProGRP (698 pg/mL) and NSE (31.1 ng/mL). Pure-tone audiometry (PTA) revealed bilateral mixed hearing loss, averaging 72.5 dB in the right ear and 78.8 dB in the left ear (500, 1000, 2000, and 4000 Hz).",
+        "clinical_data": {
+          "imaging": [
+            {
+              "type": "Mass",
+              "body_part": "External Auditory Canal",
+              "modality": "CT",
+              "finding": "Mass in the left EAC filling the entire canal",
+              "impression": "Mass in the left EAC filling the entire canal and extending into the mastoid",
+              "date": null
+            },
+            {
+              "type": "Mass",
+              "body_part": "Middle Ear",
+              "modality": "CT",
+              "finding": "Mass in the middle ear",
+              "impression": "Mass in the middle ear",
+              "date": null
+            },
+            {
+              "type": "Mass",
+              "body_part": "Right Upper Lung Lobe",
+              "modality": "CT",
+              "finding": "Mass in the right upper lung lobe",
+              "impression": "Mass in the right upper lung lobe",
+              "date": null
+            },
+            {
+              "type": "Mass",
+              "body_part": "Pancreatic Body",
+              "modality": "CT",
+              "finding": "Mass in the pancreatic body",
+              "impression": "Mass in the pancreatic body",
+              "date": null
+            },
+            {
+              "type": "Mass",
+              "body_part": "External Auditory Canal",
+              "modality": "MRI",
+              "finding": "Mass in the left EAC filling the entire canal",
+              "impression": "Mass in the left EAC filling the entire canal and extending into the mastoid",
+              "date": null
+            }
+          ],
+          "labs": [
+            {
+              "test": "Span-1",
+              "value": "normal",
+              "unit": null,
+              "flag": "normal",
+              "reference_range": null,
+              "timestamp": null
+            },
+            {
+              "test": "DUPAN2",
+              "value": "normal",
+              "unit": null,
+              "flag": "normal",
+              "reference_range": null,
+              "timestamp": null
+            },
+            {
+              "test": "ProGRP",
+              "value": "698",
+              "unit": "pg/mL",
+              "flag": "abnormal",
+              "reference_range": null,
+              "timestamp": null
+            },
+            {
+              "test": "Neuron-specific enolase",
+              "value": "31.1",
+              "unit": "ng/mL",
+              "flag": "abnormal",
+              "reference_range": null,
+              "timestamp": null
+            }
+          ],
+          "procedures": [
+            {
+              "name": "Pure-tone audiometry",
+              "approach": "other",
+              "date": null,
+              "location": "ear",
+              "performed_by": null,
+              "outcome": null
+            }
+          ],
+          "functional_status": [
+            {
+              "domain": "hearing",
+              "description": "bilateral mixed hearing loss, averaging 72.5 dB in the right ear and 78.8 dB in the left ear (500, 1000, 2000, and 4000 Hz)",
+              "score": null,
+              "scale": null
+            }
+          ]
+        }
+      },
+      "custom_id": "graph_022_N1"
+    },
+    {
+      "id": "N3",
+      "label": "Step 3",
+      "customData": {
+        "node_id": "C",
+        "node_step_index": 2,
+        "content": "Red mass occupying the external auditory canal before chemotherapy. Regression of the mass after chemotherapy. Computed tomography findings: The mass in right upper lobe of lung. The mass in the pancreatic body. Biopsies were obtained from the EAC mass, lung mass, and pancreatic mass to differentiate between primary and metastatic EAC carcinoma. Destruction of left mastoid.",
+        "clinical_data": {
+          "imaging": [
+            {
+              "type": "Mass",
+              "body_part": "Right upper lobe of lung",
+              "modality": "CT",
+              "finding": "Mass in right upper lobe of lung"
+            },
+            {
+              "type": "Mass",
+              "body_part": "Pancreatic body",
+              "modality": "CT",
+              "finding": "Mass in the pancreatic body"
+            }
+          ],
+          "procedures": [
+            {
+              "name": "Biopsy",
+              "location": "External auditory canal",
+              "outcome": "Obtained"
+            },
+            {
+              "name": "Biopsy",
+              "location": "Lung mass",
+              "outcome": "Obtained"
+            },
+            {
+              "name": "Biopsy",
+              "location": "Pancreatic mass",
+              "outcome": "Obtained"
+            }
+          ],
+          "diagnoses": [
+            {
+              "code": "C0277746",
+              "label": "Carcinoma",
+              "status": "suspected",
+              "onset_date": null
+            }
+          ]
+        }
+      },
+      "custom_id": "graph_022_N2"
+    },
+    {
+      "id": "N4",
+      "label": "Step 4",
+      "customData": {
+        "node_id": "D",
+        "node_step_index": 3,
+        "content": "Pathology from all lesions revealed small cell tumors with a high nuclear\u2010to\u2010cytoplasmic ratio on Hematoxylin and eosin staining. Immunohistochemical staining demonstrated positivity for synaptophysin, chromogranin A, and cytokeratin AE1/3, whereas CK20 was negative in all lesions. Biopsy specimens confirmed small cell lung cancer (SCLC), and thyroid transcription factor\u20101 (TTF\u20101) positivity in the EAC and pancreatic lesions suggested a primary tumor in the lung.",
+        "clinical_data": {
+          "diagnoses": [
+            {
+              "code": "C34",
+              "label": "Small cell lung cancer",
+              "status": "active"
+            }
+          ],
+          "imaging": [
+            {
+              "type": "Lesion",
+              "body_part": "Lung",
+              "modality": "biopsy",
+              "finding": "small cell tumors with a high nuclear\u2010to\u2010cytoplasmic ratio on Hematoxylin and eosin staining",
+              "date": null
+            },
+            {
+              "type": "Lesion",
+              "body_part": "Esophagogastric anastomosis",
+              "modality": "biopsy",
+              "finding": "small cell tumors with a high nuclear\u2010to\u2010cytoplasmic ratio on Hematoxylin and eosin staining",
+              "date": null
+            },
+            {
+              "type": "Lesion",
+              "body_part": "Pancreas",
+              "modality": "biopsy",
+              "finding": "small cell tumors with a high nuclear\u2010to\u2010cytoplasmic ratio on Hematoxylin and eosin staining",
+              "date": null
+            }
+          ]
+        }
+      },
+      "custom_id": "graph_022_N3"
+    },
+    {
+      "id": "N5",
+      "label": "Step 5",
+      "customData": {
+        "node_id": "E",
+        "node_step_index": 4,
+        "content": "Initiated chemotherapy with carboplatin, etoposide, and zoledronic acid for bone metastases. Metastatic lesions in the EAC and middle ear reduced in size. Hearing impairment and otalgia improved. Pure-tone audiometry (PTA) showed improvement in left-sided mixed hearing loss, with average threshold reducing to 57.5 dB.",
+        "clinical_data": {
+          "medications": [
+            {
+              "drug": "Carboplatin",
+              "dosage": null,
+              "frequency": null,
+              "modality": null,
+              "start_date": null,
+              "end_date": null,
+              "indication": "Bone metastases"
+            },
+            {
+              "drug": "Etoposide",
+              "dosage": null,
+              "frequency": null,
+              "modality": null,
+              "start_date": null,
+              "end_date": null,
+              "indication": "Bone metastases"
+            },
+            {
+              "drug": "Zoledronic acid",
+              "dosage": null,
+              "frequency": null,
+              "modality": null,
+              "start_date": null,
+              "end_date": null,
+              "indication": "Bone metastases"
+            }
+          ],
+          "diagnoses": [
+            {
+              "code": "C79.5",
+              "label": "Secondary malignant neoplasm of bone and bone marrow",
+              "status": "active",
+              "onset_date": null
+            }
+          ],
+          "imaging": [
+            {
+              "type": "Lesion",
+              "body_part": "External Auditory Canal",
+              "modality": null,
+              "finding": "Metastatic lesions reduced in size",
+              "impression": "Response to chemotherapy",
+              "date": null
+            },
+            {
+              "type": "Lesion",
+              "body_part": "Middle ear",
+              "modality": null,
+              "finding": "Metastatic lesions reduced in size",
+              "impression": "Response to chemotherapy",
+              "date": null
+            }
+          ],
+          "HPI": [
+            {
+              "summary": "Hearing impairment and otalgia improved",
+              "duration": null,
+              "onset": null,
+              "progression": "gradual",
+              "associated_symptoms": [
+                "Hearing impairment",
+                "Otalgia"
+              ],
+              "alleviating_factors": [
+                "Chemotherapy"
+              ],
+              "exacerbating_factors": []
+            }
+          ],
+          "labs": [
+            {
+              "test": "Pure-tone audiometry",
+              "value": "57.5",
+              "unit": "dB",
+              "flag": "unknown",
+              "reference_range": null,
+              "timestamp": null
+            }
+          ]
+        }
+      },
+      "custom_id": "graph_022_N4"
+    },
+    {
+      "id": "N6",
+      "label": "Step 6",
+      "customData": {
+        "node_id": "F",
+        "node_step_index": 5,
+        "content": "Patient died 15 months later. Autopsy revealed resolution of EAC lesions grossly. CT imaging revealed mastoid destruction and tumor invasion into the EAC. Patient experienced severe hearing loss but regained the ability to understand conversations as the tumor shrank. Otalgia resolved, opioid therapy discontinued.",
+        "clinical_data": {
+          "diagnoses": [
+            {
+              "code": "C44.212",
+              "label": "Skin cancer of right ear and external auricular canal",
+              "status": "historical"
+            }
+          ],
+          "imaging": [
+            {
+              "type": "CT scan",
+              "body_part": "Mastoid",
+              "modality": "CT",
+              "finding": "Mastoid destruction and tumor invasion into the EAC",
+              "date": null
+            }
+          ],
+          "HPI": [
+            {
+              "summary": "Otalgia resolved, opioid therapy discontinued.",
+              "alleviating_factors": [
+                "Treatment"
+              ]
+            }
+          ],
+          "medications": [
+            {
+              "drug": "Opioid",
+              "dosage": null,
+              "frequency": null,
+              "modality": null,
+              "start_date": null,
+              "end_date": null,
+              "indication": "Otalgia"
+            }
+          ]
+        }
+      },
+      "custom_id": "graph_022_N5"
+    }
+  ],
+  "edges": [
+    {
+      "from": "N1",
+      "to": "N2",
+      "data": {
+        "edge_id": "A_to_B",
+        "branch_flag": true,
+        "content": "Progression of symptoms and imaging findings.",
+        "transition_event": {
+          "trigger_type": "imaging",
+          "trigger_entities": [],
+          "change_type": "progression",
+          "target_domain": "imaging"
+        }
+      },
+      "custom_id": "graph_022_N1_N2"
+    },
+    {
+      "from": "N2",
+      "to": "N3",
+      "data": {
+        "edge_id": "B_to_C",
+        "branch_flag": true,
+        "content": "Treatment and biopsies performed.",
+        "transition_event": {
+          "trigger_type": "procedure",
+          "trigger_entities": [],
+          "change_type": "addition",
+          "target_domain": "procedure"
+        }
+      },
+      "custom_id": "graph_022_N2_N3"
+    },
+    {
+      "from": "N3",
+      "to": "N4",
+      "data": {
+        "edge_id": "C_to_D",
+        "branch_flag": true,
+        "content": "Pathology results confirm SCLC.",
+        "transition_event": {
+          "trigger_type": "lab_change",
+          "trigger_entities": [],
+          "change_type": "reinterpretation",
+          "target_domain": "diagnosis"
+        }
+      },
+      "custom_id": "graph_022_N3_N4"
+    },
+    {
+      "from": "N4",
+      "to": "N5",
+      "data": {
+        "edge_id": "D_to_E",
+        "branch_flag": true,
+        "content": "Chemotherapy initiated, metastatic lesions reduced, hearing and otalgia improved.",
+        "transition_event": {
+          "trigger_type": "medication_change",
+          "trigger_entities": [
+            "C0007668",
+            "C0015068",
+            "C0301873"
+          ],
+          "change_type": "addition",
+          "target_domain": "medication"
+        }
+      },
+      "custom_id": "graph_022_N4_N5"
+    },
+    {
+      "from": "N5",
+      "to": "N6",
+      "data": {
+        "edge_id": "E_to_F",
+        "branch_flag": true,
+        "content": "Patient death, autopsy findings, and symptom resolution.",
+        "transition_event": {
+          "trigger_type": "spontaneous",
+          "trigger_entities": [],
+          "change_type": "resolution",
+          "target_domain": "symptom"
+        }
+      },
+      "custom_id": "graph_022_N5_N6"
+    }
+  ]
+}

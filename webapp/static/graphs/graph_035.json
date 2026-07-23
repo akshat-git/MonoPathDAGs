@@ -1,0 +1,360 @@
+{
+  "nodes": [
+    {
+      "id": "N1",
+      "label": "Step 1",
+      "customData": {
+        "node_id": "A",
+        "node_step_index": 0,
+        "content": "78-year-old male with a 25-pack-year smoking history diagnosed with clinical stage IIA lung cancer in the left upper lobe.",
+        "clinical_data": {
+          "social_history": [
+            {
+              "category": "smoking",
+              "status": "past",
+              "description": "25-pack-year history"
+            }
+          ],
+          "diagnoses": [
+            {
+              "code": "C0684272",
+              "label": "Lung cancer",
+              "status": "active",
+              "onset_date": null
+            }
+          ]
+        }
+      },
+      "custom_id": "graph_035_N0"
+    },
+    {
+      "id": "N2",
+      "label": "Step 2",
+      "customData": {
+        "node_id": "B",
+        "node_step_index": 1,
+        "content": "Patient underwent lobectomy combined with chest wall resection.",
+        "clinical_data": {
+          "procedures": [
+            {
+              "name": "Lobectomy",
+              "approach": "open",
+              "location": "chest",
+              "outcome": "completed"
+            },
+            {
+              "name": "Chest wall resection",
+              "approach": "open",
+              "location": "chest",
+              "outcome": "completed"
+            }
+          ]
+        }
+      },
+      "custom_id": "graph_035_N1"
+    },
+    {
+      "id": "N3",
+      "label": "Step 3",
+      "customData": {
+        "node_id": "C",
+        "node_step_index": 2,
+        "content": "Histopathological examination indicated pleomorphic carcinoma of the lung (pT3N0M0, stage IIB, with chest wall invasion). The tumor was positive for the BRAF-V600E mutation in the AmoyDx pan lung cancer PCR panel, with a 95% tumor proportion score of programmed death ligand 1 (PD-L1) staining.",
+        "clinical_data": {
+          "diagnoses": [
+            {
+              "code": "C34",
+              "label": "Lung Cancer",
+              "status": "active"
+            }
+          ],
+          "labs": [
+            {
+              "test": "BRAF-V600E mutation",
+              "value": "positive",
+              "unit": null,
+              "flag": "abnormal"
+            },
+            {
+              "test": "programmed death ligand 1 (PD-L1) staining",
+              "value": "95%",
+              "unit": "tumor proportion score",
+              "flag": "abnormal"
+            }
+          ],
+          "imaging": [
+            {
+              "type": "Carcinoma",
+              "body_part": "Lung",
+              "modality": "Histopathological examination",
+              "finding": "pleomorphic carcinoma",
+              "impression": "pleomorphic carcinoma"
+            }
+          ]
+        }
+      },
+      "custom_id": "graph_035_N2"
+    },
+    {
+      "id": "N4",
+      "label": "Step 4",
+      "customData": {
+        "node_id": "D",
+        "node_step_index": 3,
+        "content": "Patient admitted to the hospital emergently two months after lobectomy due to abdominal pain and difficulty eating. Appendicitis was initially suspected, and antibiotic treatment was initiated.",
+        "clinical_data": {
+          "diagnoses": [
+            {
+              "code": "R10.4",
+              "label": "Abdominal pain",
+              "status": "active"
+            },
+            {
+              "code": "R63.3",
+              "label": "Difficulty in feeding and management of feeding problems",
+              "status": "active"
+            },
+            {
+              "code": "K37",
+              "label": "Unspecified appendicitis",
+              "status": "suspected"
+            }
+          ],
+          "procedures": [
+            {
+              "name": "Lobectomy",
+              "date": "unknown"
+            }
+          ],
+          "medications": [
+            {
+              "drug": "Antibiotic",
+              "indication": "Appendicitis",
+              "start_date": "unknown"
+            }
+          ]
+        }
+      },
+      "custom_id": "graph_035_N3"
+    },
+    {
+      "id": "N5",
+      "label": "Step 5",
+      "customData": {
+        "node_id": "E",
+        "node_step_index": 4,
+        "content": "Follow-up CT revealed jejunal intussusception, dilatation of the upper small intestine, mass lesions in the pancreatic head, appendix, and hepatic flexure, and multiple enlarged abdominal lymph nodes.",
+        "clinical_data": {
+          "imaging": [
+            {
+              "type": "CT",
+              "body_part": "jejunum",
+              "modality": "CT",
+              "finding": "intussusception"
+            },
+            {
+              "type": "CT",
+              "body_part": "upper small intestine",
+              "modality": "CT",
+              "finding": "dilatation"
+            },
+            {
+              "type": "CT",
+              "body_part": "pancreatic head",
+              "modality": "CT",
+              "finding": "mass lesion"
+            },
+            {
+              "type": "CT",
+              "body_part": "appendix",
+              "modality": "CT",
+              "finding": "mass lesion"
+            },
+            {
+              "type": "CT",
+              "body_part": "hepatic flexure",
+              "modality": "CT",
+              "finding": "mass lesion"
+            },
+            {
+              "type": "CT",
+              "body_part": "abdomen",
+              "modality": "CT",
+              "finding": "multiple enlarged lymph nodes"
+            }
+          ]
+        }
+      },
+      "custom_id": "graph_035_N4"
+    },
+    {
+      "id": "N6",
+      "label": "Step 6",
+      "customData": {
+        "node_id": "F",
+        "node_step_index": 5,
+        "content": "Electrolyte levels: sodium 140 mEq/L, potassium 3.8 mEq/L, chloride 107 mEq/L, magnesium 2.0 mg/dL, corrected calcium 9.6 mg/dL. No electrolyte abnormalities observed.",
+        "clinical_data": {
+          "labs": [
+            {
+              "test": "Sodium",
+              "value": "140",
+              "unit": "mEq/L",
+              "flag": "normal"
+            },
+            {
+              "test": "Potassium",
+              "value": "3.8",
+              "unit": "mEq/L",
+              "flag": "normal"
+            },
+            {
+              "test": "Chloride",
+              "value": "107",
+              "unit": "mEq/L",
+              "flag": "normal"
+            },
+            {
+              "test": "Magnesium",
+              "value": "2.0",
+              "unit": "mg/dL",
+              "flag": "normal"
+            },
+            {
+              "test": "Corrected Calcium",
+              "value": "9.6",
+              "unit": "mg/dL",
+              "flag": "normal"
+            }
+          ]
+        }
+      },
+      "custom_id": "graph_035_N5"
+    },
+    {
+      "id": "N7",
+      "label": "Step 7",
+      "customData": {
+        "node_id": "G",
+        "node_step_index": 6,
+        "content": "Patient underwent enteroscopy. Endoscopic findings revealed a neoplastic lesion in the upper jejunum with a narrowed lumen. Histology confirmed malignant lesion consistent with metastatic pleomorphic carcinoma of the lung. The intussusception was reduced, and an ileus tube was placed.",
+        "clinical_data": {
+          "procedures": [
+            {
+              "name": "Enteroscopy",
+              "date": null,
+              "location": "upper jejunum",
+              "outcome": null
+            },
+            {
+              "name": "Intubation",
+              "approach": "other",
+              "date": null,
+              "location": "ileum",
+              "outcome": null
+            }
+          ],
+          "imaging": [
+            {
+              "type": "Endoscopic procedure",
+              "body_part": "jejunum",
+              "modality": "other",
+              "finding": "neoplastic lesion",
+              "impression": "narrowed lumen",
+              "date": null
+            }
+          ],
+          "diagnoses": [
+            {
+              "code": "C0007123",
+              "label": "Carcinoma, Pleomorphic",
+              "status": "active",
+              "onset_date": null
+            },
+            {
+              "code": "C0024117",
+              "label": "Lung Neoplasms",
+              "status": "active",
+              "onset_date": null
+            },
+            {
+              "code": "C0021834",
+              "label": "Intussusception",
+              "status": "resolved",
+              "onset_date": null
+            },
+            {
+              "code": "C0020463",
+              "label": "Ileus",
+              "status": "active",
+              "onset_date": null
+            }
+          ]
+        }
+      },
+      "custom_id": "graph_035_N6"
+    }
+  ],
+  "edges": [
+    {
+      "from": "N1",
+      "to": "N2",
+      "data": {
+        "edge_id": "A_to_B",
+        "branch_flag": true,
+        "content": "Patient with clinical stage IIA lung cancer in the left upper lobe underwent surgical intervention."
+      },
+      "custom_id": "graph_035_N1_N2"
+    },
+    {
+      "from": "N2",
+      "to": "N3",
+      "data": {
+        "edge_id": "B_to_C",
+        "branch_flag": true,
+        "content": "Post-surgical histopathological examination and molecular profiling."
+      },
+      "custom_id": "graph_035_N2_N3"
+    },
+    {
+      "from": "N3",
+      "to": "N4",
+      "data": {
+        "edge_id": "C_to_D",
+        "branch_flag": true,
+        "content": "Two months post-lobectomy, patient presents with new abdominal symptoms, initially suspected to be appendicitis."
+      },
+      "custom_id": "graph_035_N3_N4"
+    },
+    {
+      "from": "N4",
+      "to": "N5",
+      "data": {
+        "edge_id": "D_to_E",
+        "branch_flag": true,
+        "content": "Abdominal pain and difficulty eating prompted further imaging."
+      },
+      "custom_id": "graph_035_N4_N5"
+    },
+    {
+      "from": "N5",
+      "to": "N6",
+      "data": {
+        "edge_id": "E_to_F",
+        "branch_flag": true,
+        "content": "Electrolyte levels were assessed."
+      },
+      "custom_id": "graph_035_N5_N6"
+    },
+    {
+      "from": "N6",
+      "to": "N7",
+      "data": {
+        "edge_id": "F_to_G",
+        "branch_flag": true,
+        "content": "Enteroscopy performed to investigate the cause of abdominal symptoms and CT findings."
+      },
+      "custom_id": "graph_035_N6_N7"
+    }
+  ]
+}

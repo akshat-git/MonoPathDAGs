@@ -1,0 +1,383 @@
+{
+  "nodes": [
+    {
+      "id": "N1",
+      "label": "Step 1",
+      "customData": {
+        "node_id": "A",
+        "node_step_index": 0,
+        "content": "Patient in his 50s diagnosed with NSCLC (T2aN2M1c, Stage IVB) with metastases to the bone. Primary site was the upper lobe of the right lung.",
+        "clinical_data": {
+          "diagnoses": [
+            {
+              "code": "C0678222",
+              "label": "Non-small cell lung carcinoma",
+              "status": "active",
+              "onset_date": null
+            },
+            {
+              "code": "C0005932",
+              "label": "bone metastases",
+              "status": "active",
+              "onset_date": null
+            }
+          ],
+          "imaging": [
+            {
+              "body_part": "C0225923",
+              "modality": "other",
+              "finding": "Primary site was the upper lobe of the right lung",
+              "impression": "Primary site was the upper lobe of the right lung"
+            }
+          ]
+        }
+      }
+    },
+    {
+      "id": "N2",
+      "label": "Step 2",
+      "customData": {
+        "node_id": "B",
+        "node_step_index": 1,
+        "content": "Cancer size was 25 mm with invasion of the visceral pleura. No EGFR or KRAS mutations, RET, ALK, ROS1, or ALK fusion genes mutations. No other driver genetic mutations. PD-L1 (22C3) tumor proportion score was 100%.",
+        "clinical_data": {
+          "diagnoses": [
+            {
+              "code": "C34",
+              "label": "Malignant neoplasm of bronchus and lung",
+              "status": "active",
+              "onset_date": null
+            }
+          ],
+          "labs": [
+            {
+              "test": "PD-L1 (22C3) tumor proportion score",
+              "value": "100",
+              "unit": "%",
+              "flag": "normal"
+            }
+          ],
+          "imaging": [
+            {
+              "finding": "Cancer size was 25 mm with invasion of the visceral pleura",
+              "date": null
+            }
+          ]
+        }
+      }
+    },
+    {
+      "id": "N3",
+      "label": "Step 3",
+      "customData": {
+        "node_id": "C",
+        "node_step_index": 2,
+        "content": "History of alcohol intake of 40 g/day up to the point of starting treatment for lung cancer. Smoked 30 cigarettes per day for 30 years.",
+        "clinical_data": {
+          "social_history": [
+            {
+              "category": "alcohol",
+              "status": "past",
+              "description": "History of alcohol intake of 40 g/day up to the point of starting treatment for lung cancer."
+            },
+            {
+              "category": "smoking",
+              "status": "past",
+              "description": "Smoked 30 cigarettes per day for 30 years."
+            }
+          ]
+        }
+      }
+    },
+    {
+      "id": "N4",
+      "label": "Step 4",
+      "customData": {
+        "node_id": "D",
+        "node_step_index": 3,
+        "content": "Received four courses of carboplatin, pemetrexed, and pembrolizumab with a partial response.",
+        "clinical_data": {
+          "medications": [
+            {
+              "drug": "C0293934",
+              "dosage": null,
+              "frequency": null,
+              "modality": null,
+              "start_date": null,
+              "end_date": null,
+              "indication": null
+            },
+            {
+              "drug": "C1637448",
+              "dosage": null,
+              "frequency": null,
+              "modality": null,
+              "start_date": null,
+              "end_date": null,
+              "indication": null
+            },
+            {
+              "drug": "C4049449",
+              "dosage": null,
+              "frequency": null,
+              "modality": null,
+              "start_date": null,
+              "end_date": null,
+              "indication": null
+            }
+          ]
+        }
+      }
+    },
+    {
+      "id": "N5",
+      "label": "Step 5",
+      "customData": {
+        "node_id": "E",
+        "node_step_index": 4,
+        "content": "Received four courses of maintenance therapy with pemetrexed and pembrolizumab.",
+        "clinical_data": {
+          "medications": [
+            {
+              "drug": "C0972734",
+              "dosage": null,
+              "frequency": null,
+              "modality": null,
+              "start_date": null,
+              "end_date": null,
+              "indication": null
+            },
+            {
+              "drug": "C1663708",
+              "dosage": null,
+              "frequency": null,
+              "modality": null,
+              "start_date": null,
+              "end_date": null,
+              "indication": null
+            }
+          ]
+        }
+      }
+    },
+    {
+      "id": "N6",
+      "label": "Step 6",
+      "customData": {
+        "node_id": "F",
+        "node_step_index": 5,
+        "content": "Day 194 after starting pembrolizumab, the patient developed fever of 38\u00b0C and diarrhea. CT revealed a ground-glass opacity in the right lung. Diagnosed with immune-related pneumonitis CTCAE grade 1.",
+        "clinical_data": {
+          "vitals": [
+            {
+              "type": "Fever",
+              "value": "38",
+              "unit": "\u00b0C",
+              "timestamp": "Day 194"
+            }
+          ],
+          "diagnoses": [
+            {
+              "code": "immune-related pneumonitis",
+              "label": "immune-related pneumonitis",
+              "status": "active",
+              "onset_date": "Day 194"
+            }
+          ],
+          "imaging": [
+            {
+              "type": "ground-glass opacity",
+              "body_part": "right lung",
+              "modality": "CT",
+              "finding": "ground-glass opacity",
+              "impression": "ground-glass opacity",
+              "date": "Day 194"
+            }
+          ]
+        }
+      }
+    },
+    {
+      "id": "N7",
+      "label": "Step 7",
+      "customData": {
+        "node_id": "G",
+        "node_step_index": 6,
+        "content": "Received palliative radiation therapy for sacroiliac metastases, total dose of irradiation was 30 Gy/10 fr.",
+        "clinical_data": {
+          "procedures": [
+            {
+              "name": "Palliative radiation therapy",
+              "approach": "other",
+              "date": null,
+              "location": "sacroiliac",
+              "performed_by": null,
+              "outcome": null
+            }
+          ],
+          "diagnoses": [
+            {
+              "code": null,
+              "label": "sacroiliac metastases",
+              "status": "active",
+              "onset_date": null
+            }
+          ]
+        }
+      }
+    },
+    {
+      "id": "N8",
+      "label": "Step 8",
+      "customData": {
+        "node_id": "H",
+        "node_step_index": 7,
+        "content": "Diagnosed with immune-related colitis CTCAE grade 2. Pemetrexed and pembrolizumab were discontinued and he was started on prednisolone at a dose of 0.5 mg/kg/day.",
+        "clinical_data": {
+          "diagnoses": [
+            {
+              "code": "C0009335",
+              "label": "Colitis",
+              "status": "active"
+            }
+          ],
+          "medications": [
+            {
+              "drug": "C0032317",
+              "dosage": "0.5 mg/kg/day",
+              "frequency": "daily",
+              "modality": "oral",
+              "start_date": null,
+              "end_date": null
+            },
+            {
+              "drug": "C0889472",
+              "dosage": null,
+              "frequency": null,
+              "modality": null,
+              "start_date": null,
+              "end_date": null
+            },
+            {
+              "drug": "C3456946",
+              "dosage": null,
+              "frequency": null,
+              "modality": null,
+              "start_date": null,
+              "end_date": null
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "edges": [
+    {
+      "from": "N1",
+      "to": "N2",
+      "data": {
+        "edge_id": "A_to_B",
+        "branch_flag": true,
+        "content": "Transition from initial diagnosis and staging to detailed molecular characterization of the tumor."
+      }
+    },
+    {
+      "from": "N2",
+      "to": "N3",
+      "data": {
+        "edge_id": "B_to_C",
+        "branch_flag": true,
+        "content": "Transition from tumor characterization to patient's relevant social history."
+      }
+    },
+    {
+      "from": "N3",
+      "to": "N4",
+      "data": {
+        "edge_id": "C_to_D",
+        "branch_flag": true,
+        "content": "Transition from patient history to first-line treatment with carboplatin, pemetrexed, and pembrolizumab, resulting in a partial response.",
+        "transition_event": {
+          "trigger_type": "medication_change",
+          "trigger_entities": [
+            "C0293934",
+            "C1637448",
+            "C4049449"
+          ],
+          "change_type": "addition",
+          "target_domain": "medication"
+        }
+      }
+    },
+    {
+      "from": "N4",
+      "to": "N5",
+      "data": {
+        "edge_id": "D_to_E",
+        "branch_flag": true,
+        "content": "Transition from initial treatment to maintenance therapy with pemetrexed and pembrolizumab.",
+        "transition_event": {
+          "trigger_type": "medication_change",
+          "trigger_entities": [
+            "C0293934",
+            "C1637448",
+            "C4049449"
+          ],
+          "change_type": "discontinuation",
+          "target_domain": "medication"
+        }
+      }
+    },
+    {
+      "from": "N5",
+      "to": "N6",
+      "data": {
+        "edge_id": "E_to_F",
+        "branch_flag": true,
+        "content": "Transition to immune-related pneumonitis after starting pembrolizumab, CTCAE grade 1, with fever and diarrhea.",
+        "transition_event": {
+          "trigger_type": "symptom_onset",
+          "trigger_entities": [
+            "C0015967",
+            "C0011991"
+          ],
+          "change_type": "addition",
+          "target_domain": "symptom",
+          "timestamp": "Day 194"
+        }
+      }
+    },
+    {
+      "from": "N6",
+      "to": "N7",
+      "data": {
+        "edge_id": "F_to_G",
+        "branch_flag": true,
+        "content": "Transition to palliative radiation therapy for sacroiliac metastases.",
+        "transition_event": {
+          "trigger_type": "procedure",
+          "trigger_entities": [],
+          "change_type": "addition",
+          "target_domain": "procedure"
+        }
+      }
+    },
+    {
+      "from": "N7",
+      "to": "N8",
+      "data": {
+        "edge_id": "G_to_H",
+        "branch_flag": true,
+        "content": "Transition to immune-related colitis CTCAE grade 2, leading to discontinuation of pemetrexed and pembrolizumab and initiation of prednisolone.",
+        "transition_event": {
+          "trigger_type": "symptom_onset",
+          "trigger_entities": [
+            "C0009335"
+          ],
+          "change_type": "addition",
+          "target_domain": "symptom"
+        }
+      }
+    }
+  ]
+}

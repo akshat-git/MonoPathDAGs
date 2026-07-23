@@ -1,0 +1,291 @@
+{
+  "nodes": [
+    {
+      "id": "N1",
+      "label": "Step 1",
+      "customData": {
+        "node_id": "A",
+        "node_step_index": 0,
+        "content": "73-year-old East Asian woman admitted to Pulmonology Department in November 2022 for evaluation of abnormal chest CT scan. No respiratory symptoms like cough or dyspnea. Medical history of hypertension, no smoking history, and no family history of cancer.",
+        "clinical_data": {
+          "social_history": [
+            {
+              "category": "smoking",
+              "status": "never",
+              "description": "no smoking history"
+            }
+          ],
+          "diagnoses": [
+            {
+              "code": "SNOMED:59621000",
+              "label": "Hypertension",
+              "status": "active"
+            }
+          ],
+          "imaging": [
+            {
+              "type": "UMLS:C0008031",
+              "body_part": "UMLS:C0008031",
+              "modality": "CT",
+              "finding": "abnormal",
+              "date": "2022-11"
+            }
+          ],
+          "HPI": [
+            {
+              "summary": "Evaluation of abnormal chest CT scan. No respiratory symptoms like cough or dyspnea.",
+              "associated_symptoms": [
+                "UMLS:C0010200",
+                "UMLS:C0013404"
+              ]
+            }
+          ]
+        },
+        "timestamp": "2022-11"
+      },
+      "custom_id": "graph_026_N0"
+    },
+    {
+      "id": "N2",
+      "label": "Step 2",
+      "customData": {
+        "node_id": "B",
+        "node_step_index": 1,
+        "content": "Chest CT revealed a 1.1-cm spiculated nodule in the right middle lobe (RML), multiple pleural nodules with mild pleural thickening, and fibrotic lesions in the right upper lobe (RUL).",
+        "clinical_data": {
+          "imaging": [
+            {
+              "type": "Pulmonary CT Angiogram",
+              "body_part": "Lung",
+              "modality": "CT",
+              "finding": "1.1-cm spiculated nodule in the right middle lobe (RML), multiple pleural nodules with mild pleural thickening, and fibrotic lesions in the right upper lobe (RUL).",
+              "impression": "Spiculated nodule, pleural nodules, pleural thickening, fibrotic lesions"
+            }
+          ]
+        },
+        "timestamp": "2022-11"
+      },
+      "custom_id": "graph_026_N1"
+    },
+    {
+      "id": "N3",
+      "label": "Step 3",
+      "customData": {
+        "node_id": "C",
+        "node_step_index": 2,
+        "content": "Linear endobronchial ultrasound-guided transbronchial needle aspiration (EBUS-TBNA) of enlarged lymph node 7 revealed metastatic adenocarcinoma with ALK rearrangement, wild type EGFR mutation, and echinoderm microtubule-associated protein-like 4 (EML 4)-ALK fusion. First biopsy of the mediastinal 7th lymph node: H&E staining of the lymph node, positive for ALK stain of the lymph node.",
+        "clinical_data": {
+          "procedures": [
+            {
+              "name": "Endobronchial ultrasound-guided transbronchial needle aspiration",
+              "approach": "endoscopic",
+              "location": "lymph node 7",
+              "outcome": "metastatic adenocarcinoma with ALK rearrangement, wild type EGFR mutation, and echinoderm microtubule-associated protein-like 4 (EML 4)-ALK fusion"
+            },
+            {
+              "name": "Biopsy",
+              "location": "mediastinal 7th lymph node",
+              "outcome": "positive for ALK stain of the lymph node"
+            }
+          ],
+          "diagnoses": [
+            {
+              "code": "C0002392",
+              "label": "Adenocarcinoma",
+              "status": "active"
+            },
+            {
+              "label": "ALK rearrangement",
+              "status": "active"
+            },
+            {
+              "label": "wild type EGFR mutation",
+              "status": "active"
+            },
+            {
+              "label": "echinoderm microtubule-associated protein-like 4 (EML 4)-ALK fusion",
+              "status": "active"
+            }
+          ],
+          "imaging": [
+            {
+              "modality": "Ultrasound",
+              "body_part": "Lymph Node",
+              "finding": "enlarged lymph node 7"
+            }
+          ]
+        }
+      },
+      "custom_id": "graph_026_N2"
+    },
+    {
+      "id": "N4",
+      "label": "Step 4",
+      "customData": {
+        "node_id": "D",
+        "node_step_index": 3,
+        "content": "PET-CT revealed pleural, multiple enhancing nodules with lymph nodes metastasis, leading to a diagnosis of stage IV lung cancer (T2N2M1a).",
+        "clinical_data": {
+          "imaging": [
+            {
+              "type": "Positron emission tomography",
+              "body_part": "pleural",
+              "modality": "PET",
+              "finding": "multiple enhancing nodules with lymph nodes metastasis",
+              "impression": "stage IV lung cancer (T2N2M1a)",
+              "date": null
+            }
+          ],
+          "diagnoses": [
+            {
+              "code": "C0024117",
+              "label": "Lung Cancer",
+              "status": "active",
+              "onset_date": null
+            }
+          ]
+        }
+      },
+      "custom_id": "graph_026_N3"
+    },
+    {
+      "id": "N5",
+      "label": "Step 5",
+      "customData": {
+        "node_id": "E",
+        "node_step_index": 4,
+        "content": "Targeted mutation chemotherapy with alectinib was initiated and continued for a period of one and a half years. Follow-up chest CT scans during treatment with alectinib demonstrated a reduction in the lung mass and pleural metastatic lesions.",
+        "clinical_data": {
+          "medications": [
+            {
+              "drug": "C1697484",
+              "dosage": null,
+              "frequency": null,
+              "modality": null,
+              "start_date": null,
+              "end_date": null,
+              "indication": null
+            }
+          ],
+          "imaging": [
+            {
+              "type": "C0205954",
+              "body_part": "C0024134",
+              "modality": "CT",
+              "finding": "reduction in the lung mass and pleural metastatic lesions",
+              "impression": null,
+              "date": null
+            }
+          ]
+        }
+      },
+      "custom_id": "graph_026_N4"
+    },
+    {
+      "id": "N6",
+      "label": "Step 6",
+      "customData": {
+        "node_id": "F",
+        "node_step_index": 5,
+        "content": "July 2024: Chest CT showed the previously observed main mass in the RML",
+        "RUL": "H&E staining of RUL consolidation, negative result",
+        "clinical_data": {
+          "imaging": [
+            {
+              "type": "Computed tomography",
+              "body_part": "Chest",
+              "modality": "CT",
+              "finding": "Main mass in the RML",
+              "date": "2024-07"
+            }
+          ]
+        }
+      },
+      "custom_id": "graph_026_N5"
+    }
+  ],
+  "edges": [
+    {
+      "from": "N1",
+      "to": "N2",
+      "data": {
+        "edge_id": "A_to_B",
+        "branch_flag": true,
+        "content": "Initial presentation with abnormal chest CT scan leading to further investigation."
+      },
+      "custom_id": "graph_026_N1_N2"
+    },
+    {
+      "from": "N2",
+      "to": "N3",
+      "data": {
+        "edge_id": "B_to_C",
+        "branch_flag": true,
+        "content": "Chest CT findings prompted EBUS-TBNA of enlarged lymph node 7.",
+        "transition_event": {
+          "trigger_type": "imaging",
+          "trigger_entities": [
+            "C0008031"
+          ],
+          "change_type": "progression",
+          "target_domain": "diagnosis"
+        }
+      },
+      "custom_id": "graph_026_N2_N3"
+    },
+    {
+      "from": "N3",
+      "to": "N4",
+      "data": {
+        "edge_id": "C_to_D",
+        "branch_flag": true,
+        "content": "EBUS-TBNA results and PET-CT findings led to diagnosis of stage IV lung cancer.",
+        "transition_event": {
+          "trigger_type": "lab_change",
+          "trigger_entities": [
+            "C0002392"
+          ],
+          "change_type": "progression",
+          "target_domain": "diagnosis"
+        }
+      },
+      "custom_id": "graph_026_N3_N4"
+    },
+    {
+      "from": "N4",
+      "to": "N5",
+      "data": {
+        "edge_id": "D_to_E",
+        "branch_flag": true,
+        "content": "Diagnosis of stage IV lung cancer prompted initiation of targeted mutation chemotherapy with alectinib.",
+        "transition_event": {
+          "trigger_type": "medication_change",
+          "trigger_entities": [
+            "C1697484"
+          ],
+          "change_type": "addition",
+          "target_domain": "medication"
+        }
+      },
+      "custom_id": "graph_026_N4_N5"
+    },
+    {
+      "from": "N5",
+      "to": "N6",
+      "data": {
+        "edge_id": "E_to_F",
+        "branch_flag": true,
+        "content": "Follow-up chest CT scans during treatment with alectinib demonstrated a reduction in the lung mass and pleural metastatic lesions, but in July 2024, Chest CT showed the previously observed main mass in the RML",
+        "transition_event": {
+          "trigger_type": "imaging",
+          "trigger_entities": [
+            "C0205954"
+          ],
+          "change_type": "progression",
+          "target_domain": "imaging"
+        }
+      },
+      "custom_id": "graph_026_N5_N6"
+    }
+  ]
+}

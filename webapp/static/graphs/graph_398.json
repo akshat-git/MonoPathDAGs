@@ -1,0 +1,404 @@
+{
+  "nodes": [
+    {
+      "id": "N1",
+      "label": "Step 1",
+      "customData": {
+        "node_id": "A",
+        "node_step_index": 0,
+        "content": "Patient is a Japanese woman in her 70s.",
+        "clinical_data": {
+          "social_history": [
+            {
+              "category": "housing",
+              "description": "Japanese woman in her 70s"
+            }
+          ]
+        }
+      }
+    },
+    {
+      "id": "N2",
+      "label": "Step 2",
+      "customData": {
+        "node_id": "B",
+        "node_step_index": 1,
+        "content": "In 1994, the patient was diagnosed with Xeroderma pigmentosum variant (XPV) and underwent resection for skin cancer.",
+        "timestamp": "1994",
+        "clinical_data": {
+          "diagnoses": [
+            {
+              "code": "C0042529",
+              "label": "Xeroderma pigmentosum variant",
+              "status": "historical",
+              "onset_date": "1994"
+            },
+            {
+              "code": "C0007097",
+              "label": "Skin cancer",
+              "status": "historical",
+              "onset_date": "1994"
+            }
+          ],
+          "procedures": [
+            {
+              "name": "C0158755",
+              "approach": "open",
+              "date": "1994",
+              "location": "skin",
+              "performed_by": "unknown",
+              "outcome": "unknown"
+            }
+          ]
+        }
+      }
+    },
+    {
+      "id": "N3",
+      "label": "Step 3",
+      "customData": {
+        "node_id": "C",
+        "node_step_index": 2,
+        "content": "In 2009, the patient underwent resection surgery for squamous cell carcinoma (SCC) of the lower lip.",
+        "timestamp": "2009",
+        "clinical_data": {
+          "procedures": [
+            {
+              "name": "Resection",
+              "date": "2009",
+              "location": "lower lip",
+              "outcome": null
+            }
+          ],
+          "diagnoses": [
+            {
+              "code": "C0007105",
+              "label": "Squamous Cell Carcinoma",
+              "status": "historical",
+              "onset_date": "2009"
+            }
+          ]
+        }
+      }
+    },
+    {
+      "id": "N4",
+      "label": "Step 4",
+      "customData": {
+        "node_id": "D",
+        "node_step_index": 3,
+        "content": "In 2011, the patient underwent resection surgery for squamous cell carcinoma (SCC) of the upper lip.",
+        "timestamp": "2011",
+        "clinical_data": {
+          "procedures": [
+            {
+              "name": "Resection",
+              "date": "2011",
+              "location": "Upper lip",
+              "outcome": null
+            }
+          ],
+          "diagnoses": [
+            {
+              "code": "C0038571",
+              "label": "Squamous cell carcinoma",
+              "status": "historical",
+              "onset_date": "2011"
+            }
+          ]
+        }
+      }
+    },
+    {
+      "id": "N5",
+      "label": "Step 5",
+      "customData": {
+        "node_id": "E",
+        "node_step_index": 4,
+        "content": "In 2014, the patient underwent resection surgery for recurrent squamous cell carcinoma (SCC) of the lower lip and artificial joint replacement surgery for left knee osteoarthritis.",
+        "timestamp": "2014",
+        "clinical_data": {
+          "procedures": [
+            {
+              "name": "Squamous cell carcinoma resection",
+              "approach": "open",
+              "date": "2014",
+              "location": "lower lip"
+            },
+            {
+              "name": "Artificial joint replacement",
+              "date": "2014",
+              "location": "left knee",
+              "indication": "Osteoarthritis"
+            }
+          ],
+          "diagnoses": [
+            {
+              "code": "C0007104",
+              "label": "Squamous Cell Carcinoma",
+              "status": "historical",
+              "onset_date": "2014"
+            },
+            {
+              "code": "C0029408",
+              "label": "Osteoarthritis",
+              "status": "historical",
+              "onset_date": "2014"
+            }
+          ]
+        }
+      }
+    },
+    {
+      "id": "N6",
+      "label": "Step 6",
+      "customData": {
+        "node_id": "F",
+        "node_step_index": 5,
+        "content": "In 2015, the patient underwent endoscopic sphincterotomy for removal of common bile duct stones.",
+        "timestamp": "2015",
+        "clinical_data": {
+          "procedures": [
+            {
+              "name": "Endoscopic sphincterotomy",
+              "date": "2015",
+              "location": "common bile duct",
+              "outcome": "removal of common bile duct stones",
+              "approach": "endoscopic"
+            }
+          ]
+        }
+      }
+    },
+    {
+      "id": "N7",
+      "label": "Step 7",
+      "customData": {
+        "node_id": "G",
+        "node_step_index": 6,
+        "content": "In 2016, the patient underwent laparoscopic cholecystectomy for gallbladder stones.",
+        "timestamp": "2016",
+        "clinical_data": {
+          "procedures": [
+            {
+              "name": "Laparoscopic cholecystectomy",
+              "approach": "laparoscopic",
+              "date": "2016",
+              "location": "Gallbladder"
+            }
+          ],
+          "diagnoses": [
+            {
+              "code": "UMLS:C0017170",
+              "label": "Gallstones",
+              "status": "historical",
+              "onset_date": null
+            }
+          ]
+        }
+      }
+    },
+    {
+      "id": "N8",
+      "label": "Step 8",
+      "customData": {
+        "node_id": "H",
+        "node_step_index": 7,
+        "content": "In 2017, the patient underwent bilateral intraocular lens insertion for cataracts in both eyes.",
+        "timestamp": "2017",
+        "clinical_data": {
+          "procedures": [
+            {
+              "name": "Intraocular lens insertion",
+              "approach": "other",
+              "date": "2017",
+              "location": "both eyes",
+              "performed_by": null,
+              "outcome": null
+            }
+          ],
+          "diagnoses": [
+            {
+              "code": "C0009205",
+              "label": "Cataract",
+              "status": "historical",
+              "onset_date": null
+            }
+          ]
+        }
+      }
+    },
+    {
+      "id": "N9",
+      "label": "Step 9",
+      "customData": {
+        "node_id": "I",
+        "node_step_index": 8,
+        "content": "In 2017, the patient underwent left external beak incision enforcement for glaucoma due to left exfoliation syndrome.",
+        "timestamp": "2017",
+        "clinical_data": {
+          "procedures": [
+            {
+              "name": "Incision of beak",
+              "date": "2017",
+              "location": "left eye",
+              "outcome": "enforcement",
+              "approach": "external"
+            }
+          ],
+          "diagnoses": [
+            {
+              "code": "C0242570",
+              "label": "Glaucoma",
+              "status": "historical",
+              "onset_date": "2017"
+            },
+            {
+              "code": "C0344365",
+              "label": "Exfoliation Syndrome",
+              "status": "historical",
+              "onset_date": "2017"
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "edges": [
+    {
+      "from": "N1",
+      "to": "N2",
+      "data": {
+        "edge_id": "A_to_B",
+        "branch_flag": true,
+        "content": "Patient developed Xeroderma pigmentosum variant (XPV) and skin cancer, requiring resection.",
+        "transition_event": {
+          "trigger_type": "symptom_onset",
+          "trigger_entities": [
+            "C0042529",
+            "C0007097"
+          ],
+          "change_type": "progression",
+          "target_domain": "diagnosis",
+          "timestamp": "1994"
+        }
+      }
+    },
+    {
+      "from": "N2",
+      "to": "N3",
+      "data": {
+        "edge_id": "B_to_C",
+        "branch_flag": true,
+        "content": "Patient developed squamous cell carcinoma (SCC) of the lower lip, requiring resection surgery.",
+        "transition_event": {
+          "trigger_type": "symptom_onset",
+          "trigger_entities": [
+            "C0007105"
+          ],
+          "change_type": "progression",
+          "target_domain": "diagnosis",
+          "timestamp": "2009"
+        }
+      }
+    },
+    {
+      "from": "N3",
+      "to": "N4",
+      "data": {
+        "edge_id": "C_to_D",
+        "branch_flag": true,
+        "content": "Patient developed squamous cell carcinoma (SCC) of the upper lip, requiring resection surgery.",
+        "transition_event": {
+          "trigger_type": "symptom_onset",
+          "trigger_entities": [
+            "C0038571"
+          ],
+          "change_type": "progression",
+          "target_domain": "diagnosis",
+          "timestamp": "2011"
+        }
+      }
+    },
+    {
+      "from": "N4",
+      "to": "N5",
+      "data": {
+        "edge_id": "D_to_E",
+        "branch_flag": true,
+        "content": "Patient developed recurrent squamous cell carcinoma (SCC) of the lower lip and left knee osteoarthritis, requiring resection and artificial joint replacement surgery.",
+        "transition_event": {
+          "trigger_type": "symptom_onset",
+          "trigger_entities": [
+            "C0007104",
+            "C0029408"
+          ],
+          "change_type": "progression",
+          "target_domain": "diagnosis",
+          "timestamp": "2014"
+        }
+      }
+    },
+    {
+      "from": "N5",
+      "to": "N6",
+      "data": {
+        "edge_id": "E_to_F",
+        "branch_flag": true,
+        "content": "Patient developed common bile duct stones, requiring endoscopic sphincterotomy.",
+        "transition_event": {
+          "trigger_type": "symptom_onset",
+          "trigger_entities": [],
+          "change_type": "progression",
+          "target_domain": "procedure",
+          "timestamp": "2015"
+        }
+      }
+    },
+    {
+      "from": "N6",
+      "to": "N7",
+      "data": {
+        "edge_id": "F_to_G",
+        "branch_flag": true,
+        "content": "Patient developed gallbladder stones, requiring laparoscopic cholecystectomy.",
+        "transition_event": {
+          "trigger_type": "symptom_onset",
+          "trigger_entities": [
+            "UMLS:C0017170"
+          ],
+          "change_type": "progression",
+          "target_domain": "diagnosis",
+          "timestamp": "2016"
+        }
+      }
+    },
+    {
+      "from": "N7",
+      "to": "N8",
+      "data": {
+        "edge_id": "G_to_H",
+        "branch_flag": true,
+        "content": "Patient developed cataracts in both eyes, requiring bilateral intraocular lens insertion.",
+        "transition_event": {
+          "trigger_type": "symptom_onset",
+          "trigger_entities": [
+            "C0009205"
+          ],
+          "change_type": "progression",
+          "target_domain": "diagnosis",
+          "timestamp": "2017"
+        }
+      }
+    },
+    {
+      "from": "N8",
+      "to": "N9",
+      "data": {
+        "edge_id": "H_to_I",
+        "branch_flag": true,
+        "content": "Patient developed glaucoma due to left exfoliation syndrome, requiring left external beak incision enforcement."
+      }
+    }
+  ]
+}

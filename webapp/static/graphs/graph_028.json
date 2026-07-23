@@ -1,0 +1,258 @@
+{
+  "nodes": [
+    {
+      "id": "N1",
+      "label": "Step 1",
+      "customData": {
+        "node_id": "A",
+        "node_step_index": 0,
+        "content": "84-year-old woman with a history of type 2 diabetes mellitus, arthritis, and hypertension presented to the clinic with an incidental finding of an enlarging solitary lung nodule. She denied shortness of breath, cough, chest pain, hemoptysis, palpitation, fever, and recent illness.",
+        "clinical_data": {
+          "diagnoses": [
+            {
+              "code": "C0011860",
+              "label": "Type 2 Diabetes Mellitus",
+              "status": "historical"
+            },
+            {
+              "code": "C0003864",
+              "label": "Arthritis",
+              "status": "historical"
+            },
+            {
+              "code": "C0020538",
+              "label": "Hypertension",
+              "status": "historical"
+            }
+          ],
+          "HPI": [
+            {
+              "summary": "84-year-old woman presented to the clinic with an incidental finding of an enlarging solitary lung nodule.",
+              "associated_symptoms": []
+            }
+          ],
+          "ROS": [
+            {
+              "system": "respiratory",
+              "findings": [
+                "C0037171"
+              ]
+            },
+            {
+              "system": "cardiovascular",
+              "findings": [
+                "C0030246"
+              ]
+            },
+            {
+              "system": "constitutional",
+              "findings": [
+                "C0015967",
+                "C0009450"
+              ]
+            }
+          ],
+          "imaging": [
+            {
+              "type": "Lung nodule",
+              "body_part": "Lung",
+              "modality": "other",
+              "finding": "enlarging solitary lung nodule"
+            }
+          ]
+        }
+      },
+      "custom_id": "graph_028_N0"
+    },
+    {
+      "id": "N2",
+      "label": "Step 2",
+      "customData": {
+        "node_id": "B",
+        "node_step_index": 1,
+        "content": "Lung nodule measured 0.9 \u00d7 0.8 cm 4 years prior. Recent chest CT scan showed a 1.3 \u00d7 1.2 cm well circumscribed lesion. PET/CT scan revealed a 1.4 cm nodule with an avidity of 3.8 without any metastatic or nodal involvement.",
+        "clinical_data": {
+          "imaging": [
+            {
+              "type": "Lung nodule",
+              "body_part": "Lung",
+              "modality": "CT",
+              "finding": "0.9 \u00d7 0.8 cm",
+              "date": null
+            },
+            {
+              "type": "Lung lesion",
+              "body_part": "Lung",
+              "modality": "CT",
+              "finding": "1.3 \u00d7 1.2 cm well circumscribed",
+              "date": null
+            },
+            {
+              "type": "Lung nodule",
+              "body_part": "Lung",
+              "modality": "PET/CT",
+              "finding": "1.4 cm nodule with an avidity of 3.8 without any metastatic or nodal involvement",
+              "date": null
+            }
+          ]
+        }
+      },
+      "custom_id": "graph_028_N1"
+    },
+    {
+      "id": "N3",
+      "label": "Step 3",
+      "customData": {
+        "node_id": "C",
+        "node_step_index": 2,
+        "content": "Head CT without contrast revealed mild white matter hypoattenuation, but no evidence of acute hemorrhage, mass effect, or extra-axial collection. Imaged portions of the skull, mastoid air cells, nasopharynx, and parotid gland are unremarkable. Impression: probable mild chronic small-vessel white matter ischemia, but no evidence of any meningioma or suspicious nodule was found in the brain.",
+        "clinical_data": {
+          "imaging": [
+            {
+              "type": "CT of head without contrast",
+              "body_part": "Head",
+              "modality": "CT",
+              "finding": "Mild white matter hypoattenuation",
+              "impression": "Probable mild chronic small-vessel white matter ischemia, no evidence of meningioma or suspicious nodule",
+              "date": null
+            }
+          ]
+        }
+      },
+      "custom_id": "graph_028_N2"
+    },
+    {
+      "id": "N4",
+      "label": "Step 4",
+      "customData": {
+        "node_id": "D",
+        "node_step_index": 3,
+        "content": "Differential diagnoses included carcinoid tumor, non-small-cell lung cancer, or a hamartoma. Patient underwent a robotic-assisted left VATS wedge resection of the left upper lobe under general anesthesia to remove the nodule. No distant metastasis observed. Nodule was greater than 0.8cm in size and increased in size over the preceding four years.",
+        "clinical_data": {
+          "diagnoses": [
+            {
+              "code": "C0007105",
+              "label": "Carcinoid Tumor",
+              "status": "suspected"
+            },
+            {
+              "code": "C0024093",
+              "label": "Non-Small Cell Lung Carcinoma",
+              "status": "suspected"
+            },
+            {
+              "code": "C0018694",
+              "label": "Hamartoma",
+              "status": "suspected"
+            }
+          ],
+          "procedures": [
+            {
+              "name": "C1517577",
+              "approach": "robotic-assisted",
+              "date": null,
+              "location": "Left upper lobe",
+              "performed_by": null,
+              "outcome": null
+            },
+            {
+              "name": "C0878500",
+              "approach": "endoscopic",
+              "date": null,
+              "location": "Left upper lobe",
+              "performed_by": null,
+              "outcome": null
+            },
+            {
+              "name": "C0159344",
+              "approach": "other",
+              "date": null,
+              "location": "Left upper lobe",
+              "performed_by": null,
+              "outcome": null
+            }
+          ],
+          "imaging": [
+            {
+              "type": "C0024134",
+              "body_part": "Left upper lobe",
+              "modality": null,
+              "finding": "Nodule",
+              "impression": null,
+              "date": null
+            }
+          ]
+        }
+      },
+      "custom_id": "graph_028_N3"
+    },
+    {
+      "id": "N5",
+      "label": "Step 5",
+      "customData": {
+        "node_id": "E",
+        "node_step_index": 4,
+        "clinical_data": {}
+      },
+      "custom_id": "graph_028_N4"
+    }
+  ],
+  "edges": [
+    {
+      "from": "N1",
+      "to": "N2",
+      "data": {
+        "edge_id": "A_to_B",
+        "branch_flag": true,
+        "content": "Lung nodule incidentally found on imaging, prompting further investigation with chest CT and PET/CT scans."
+      },
+      "custom_id": "graph_028_N1_N2"
+    },
+    {
+      "from": "N2",
+      "to": "N3",
+      "data": {
+        "edge_id": "B_to_C",
+        "branch_flag": true,
+        "content": "Further workup with Head CT without contrast to rule out metastasis.",
+        "transition_event": {
+          "trigger_type": "imaging",
+          "trigger_entities": [],
+          "change_type": "addition",
+          "target_domain": "imaging"
+        }
+      },
+      "custom_id": "graph_028_N2_N3"
+    },
+    {
+      "from": "N3",
+      "to": "N4",
+      "data": {
+        "edge_id": "C_to_D",
+        "branch_flag": true,
+        "content": "Differential diagnoses considered, leading to robotic-assisted left VATS wedge resection of the left upper lobe.",
+        "transition_event": {
+          "trigger_type": "interpretation",
+          "trigger_entities": [
+            "C0007105",
+            "C0024093",
+            "C0018694"
+          ],
+          "change_type": "other",
+          "target_domain": "diagnosis"
+        }
+      },
+      "custom_id": "graph_028_N3_N4"
+    },
+    {
+      "from": "N4",
+      "to": "N5",
+      "data": {
+        "edge_id": "D_to_E",
+        "branch_flag": true,
+        "content": "Post-operative period following robotic-assisted left VATS wedge resection."
+      },
+      "custom_id": "graph_028_N4_N5"
+    }
+  ]
+}

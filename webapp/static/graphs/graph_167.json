@@ -1,0 +1,366 @@
+{
+  "nodes": [
+    {
+      "id": "N1",
+      "label": "Step 1",
+      "customData": {
+        "node_id": "A",
+        "node_step_index": 0,
+        "content": "October 2018: 58-year-old male with a history of depression and a smoking history of 1 pack/day for 38 years presented to the hospital.",
+        "clinical_data": {
+          "social_history": [
+            {
+              "category": "smoking",
+              "status": "current",
+              "description": "1 pack/day for 38 years"
+            }
+          ],
+          "diagnoses": [
+            {
+              "code": "354900005",
+              "label": "Depression",
+              "status": "historical",
+              "onset_date": "2018-10"
+            }
+          ]
+        }
+      }
+    },
+    {
+      "id": "N2",
+      "label": "Step 2",
+      "customData": {
+        "node_id": "B",
+        "node_step_index": 1,
+        "content": "Chest CT showed a tumor in the right upper lung lobe with mediastinal invasion, SVC constriction and enlarged mediastinal lymph nodes.",
+        "clinical_data": {
+          "imaging": [
+            {
+              "type": "tumor",
+              "body_part": "right upper lung lobe",
+              "modality": "CT",
+              "finding": "mediastinal invasion, SVC constriction and enlarged mediastinal lymph nodes"
+            }
+          ]
+        }
+      }
+    },
+    {
+      "id": "N3",
+      "label": "Step 3",
+      "customData": {
+        "node_id": "C",
+        "node_step_index": 2,
+        "content": "Transbronchial lung biopsy revealed adenocarcinoma.",
+        "clinical_data": {
+          "procedures": [
+            {
+              "name": "Transbronchial lung biopsy",
+              "date": null,
+              "location": "lung",
+              "outcome": "adenocarcinoma"
+            }
+          ],
+          "diagnoses": [
+            {
+              "code": "C0002827",
+              "label": "Adenocarcinoma",
+              "status": "active",
+              "onset_date": null
+            }
+          ]
+        }
+      }
+    },
+    {
+      "id": "N4",
+      "label": "Step 4",
+      "customData": {
+        "node_id": "D",
+        "node_step_index": 3,
+        "content": "Mutational analysis for EGFR, ALK, ROS1, and BRAF were negative. PD-L1 tumor proportion score was 20%. Brain MRI showed brain metastases. PET/CT showed no other distant metastases.",
+        "clinical_data": {
+          "labs": [
+            {
+              "test": "EGFR mutation analysis",
+              "value": "negative"
+            },
+            {
+              "test": "ALK mutation analysis",
+              "value": "negative"
+            },
+            {
+              "test": "ROS1 mutation analysis",
+              "value": "negative"
+            },
+            {
+              "test": "BRAF mutation analysis",
+              "value": "negative"
+            },
+            {
+              "test": "PD-L1 tumor proportion score",
+              "value": "20%",
+              "unit": "%"
+            }
+          ],
+          "imaging": [
+            {
+              "type": "Brain MRI",
+              "body_part": "brain",
+              "modality": "MRI",
+              "finding": "brain metastases"
+            },
+            {
+              "type": "PET/CT",
+              "finding": "no other distant metastases",
+              "modality": "PET/CT"
+            }
+          ]
+        }
+      }
+    },
+    {
+      "id": "N5",
+      "label": "Step 5",
+      "customData": {
+        "node_id": "E",
+        "node_step_index": 4,
+        "content": "cT4N2M1c, stage IVB lung adenocarcinoma. Patient underwent stereotactic radiotherapy for brain metastases, followed by 4 cycles of cisplatin (75 mg/m2) with pemetrexed (500 mg/m2) as first-line therapy and 3 cycles of pembrolizumab (200 mg/body) as second-line therapy.",
+        "clinical_data": {
+          "diagnoses": [
+            {
+              "code": "C34.9",
+              "label": "Lung cancer, unspecified",
+              "status": "active",
+              "onset_date": null
+            },
+            {
+              "code": "C79.31",
+              "label": "Secondary malignant neoplasm of brain",
+              "status": "active",
+              "onset_date": null
+            }
+          ],
+          "procedures": [
+            {
+              "name": "Stereotactic Radiosurgery",
+              "approach": "other",
+              "date": null,
+              "location": "brain",
+              "performed_by": null,
+              "outcome": null
+            }
+          ],
+          "medications": [
+            {
+              "drug": "Cisplatin",
+              "dosage": "75 mg/m2",
+              "frequency": "every cycle",
+              "modality": "IV",
+              "start_date": null,
+              "end_date": null,
+              "indication": "Lung adenocarcinoma"
+            },
+            {
+              "drug": "Pemetrexed",
+              "dosage": "500 mg/m2",
+              "frequency": "every cycle",
+              "modality": "IV",
+              "start_date": null,
+              "end_date": null,
+              "indication": "Lung adenocarcinoma"
+            },
+            {
+              "drug": "Pembrolizumab",
+              "dosage": "200 mg/body",
+              "frequency": "every cycle",
+              "modality": "IV",
+              "start_date": null,
+              "end_date": null,
+              "indication": "Lung adenocarcinoma"
+            }
+          ]
+        }
+      }
+    },
+    {
+      "id": "N6",
+      "label": "Step 6",
+      "customData": {
+        "node_id": "F",
+        "node_step_index": 5,
+        "content": "Chemotherapies were ineffective, and the patients was considered to have progressive disease (PD) based on the Response Evaluation Criteria in Solid Tumors (RECIST) criteria. Chest radiography showed massive left pleural effusion and pericardial effusion.",
+        "clinical_data": {
+          "imaging": [
+            {
+              "type": "Radiography (procedure)",
+              "body_part": "Chest",
+              "modality": "X-ray",
+              "finding": "massive left pleural effusion and pericardial effusion"
+            }
+          ],
+          "diagnoses": [
+            {
+              "code": "C0034093",
+              "label": "Progressive Disease",
+              "status": "active"
+            }
+          ]
+        }
+      }
+    },
+    {
+      "id": "N7",
+      "label": "Step 7",
+      "customData": {
+        "node_id": "G",
+        "node_step_index": 6,
+        "content": "May 2019: Patient was admitted to the hospital. Admission chest X-ray showed a mediastinal mass, left pleural effusion and enlarged cardiac silhouette. Contrast-enhanced computed tomography revealed superior vena cava obstruction by a large lung mass with mediastinal invasion, left pleural effusion and marked pericardial effusion. Chest CT illustrated SVC obstruction and chest wall collaterals.",
+        "clinical_data": {
+          "imaging": [
+            {
+              "type": "Mediastinal mass",
+              "body_part": "Mediastinum",
+              "modality": "X-ray",
+              "finding": "Mediastinal mass",
+              "date": "2019-05"
+            },
+            {
+              "type": "Pleural Effusion",
+              "body_part": "Left Pleura",
+              "modality": "X-ray",
+              "finding": "Pleural effusion",
+              "date": "2019-05"
+            },
+            {
+              "type": "Enlarged cardiac silhouette",
+              "body_part": "Heart",
+              "modality": "X-ray",
+              "finding": "Enlarged cardiac silhouette",
+              "date": "2019-05"
+            },
+            {
+              "type": "Superior vena cava obstruction",
+              "body_part": "Superior vena cava",
+              "modality": "CT",
+              "finding": "Superior vena cava obstruction",
+              "date": "2019-05"
+            },
+            {
+              "type": "Lung mass",
+              "body_part": "Lung",
+              "modality": "CT",
+              "finding": "Large lung mass with mediastinal invasion",
+              "date": "2019-05"
+            },
+            {
+              "type": "Pleural Effusion",
+              "body_part": "Left Pleura",
+              "modality": "CT",
+              "finding": "Pleural effusion",
+              "date": "2019-05"
+            },
+            {
+              "type": "Pericardial effusion",
+              "body_part": "Pericardium",
+              "modality": "CT",
+              "finding": "Marked pericardial effusion",
+              "date": "2019-05"
+            },
+            {
+              "type": "Superior vena cava obstruction",
+              "body_part": "Superior vena cava",
+              "modality": "CT",
+              "finding": "SVC obstruction and chest wall collaterals",
+              "date": "2019-05"
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "edges": [
+    {
+      "from": "N1",
+      "to": "N2",
+      "data": {
+        "edge_id": "A_to_B",
+        "branch_flag": true,
+        "content": "Patient presented to the hospital with a history of depression and smoking. Subsequent chest CT revealed a tumor in the right upper lung lobe with mediastinal invasion, SVC constriction, and enlarged mediastinal lymph nodes."
+      }
+    },
+    {
+      "from": "N2",
+      "to": "N3",
+      "data": {
+        "edge_id": "B_to_C",
+        "branch_flag": true,
+        "content": "Following the chest CT findings, a transbronchial lung biopsy was performed, which revealed adenocarcinoma."
+      }
+    },
+    {
+      "from": "N3",
+      "to": "N4",
+      "data": {
+        "edge_id": "C_to_D",
+        "branch_flag": true,
+        "content": "After the adenocarcinoma diagnosis, mutational analysis and further imaging were performed. Mutational analysis for EGFR, ALK, ROS1, and BRAF were negative. PD-L1 tumor proportion score was 20%. Brain MRI showed brain metastases. PET/CT showed no other distant metastases."
+      }
+    },
+    {
+      "from": "N4",
+      "to": "N5",
+      "data": {
+        "edge_id": "D_to_E",
+        "branch_flag": true,
+        "content": "Based on the diagnostic workup, the patient was diagnosed with cT4N2M1c, stage IVB lung adenocarcinoma. The patient then underwent stereotactic radiotherapy for brain metastases, followed by 4 cycles of cisplatin with pemetrexed as first-line therapy and 3 cycles of pembrolizumab as second-line therapy.",
+        "transition_event": {
+          "trigger_type": "interpretation",
+          "trigger_entities": [
+            "C34.9",
+            "C79.31"
+          ],
+          "change_type": "addition",
+          "target_domain": "diagnosis"
+        }
+      }
+    },
+    {
+      "from": "N5",
+      "to": "N6",
+      "data": {
+        "edge_id": "E_to_F",
+        "branch_flag": true,
+        "content": "Despite treatment, the chemotherapies were ineffective, and the patient was considered to have progressive disease (PD) based on the RECIST criteria. Chest radiography showed massive left pleural effusion and pericardial effusion.",
+        "transition_event": {
+          "trigger_type": "interpretation",
+          "trigger_entities": [
+            "C0034093"
+          ],
+          "change_type": "progression",
+          "target_domain": "diagnosis"
+        }
+      }
+    },
+    {
+      "from": "N6",
+      "to": "N7",
+      "data": {
+        "edge_id": "F_to_G",
+        "branch_flag": true,
+        "content": "The patient's condition worsened, leading to hospital admission in May 2019. Admission chest X-ray showed a mediastinal mass, left pleural effusion, and enlarged cardiac silhouette. Contrast-enhanced computed tomography revealed superior vena cava obstruction by a large lung mass with mediastinal invasion, left pleural effusion, and marked pericardial effusion. Chest CT illustrated SVC obstruction and chest wall collaterals.",
+        "transition_event": {
+          "trigger_type": "symptom_onset",
+          "trigger_entities": [
+            "C0024844",
+            "C0032230",
+            "C0238163"
+          ],
+          "change_type": "progression",
+          "target_domain": "symptom",
+          "timestamp": "2019-05-01T00:00:00Z"
+        }
+      }
+    }
+  ]
+}

@@ -1,0 +1,547 @@
+{
+  "nodes": [
+    {
+      "id": "N1",
+      "label": "Step 1",
+      "customData": {
+        "node_id": "A",
+        "node_step_index": 0,
+        "content": "77-year-old asymptomatic man with abnormal shadow in the right middle lung field on radiograph. 2.5-pack-year smoking history. History of prostate cancer surgery at 61 years old and inguinal hernia surgery at 75 years old. Blood pressure, 117/53 mmHg; pulse rate, 59 beats/min; body temperature, 35.8\u00b0C; percutaneous oxygen saturation, 98%.",
+        "clinical_data": {
+          "social_history": [
+            {
+              "category": "smoking",
+              "status": "past",
+              "description": "2.5-pack-year smoking history"
+            }
+          ],
+          "diagnoses": [
+            {
+              "code": "C0033404",
+              "label": "Prostate cancer",
+              "status": "historical",
+              "onset_date": null
+            }
+          ],
+          "vitals": [
+            {
+              "type": "C0006252",
+              "value": "117/53",
+              "unit": "mmHg"
+            },
+            {
+              "type": "C0033614",
+              "value": "59",
+              "unit": "beats/min"
+            },
+            {
+              "type": "C0006141",
+              "value": "35.8",
+              "unit": "\u00b0C"
+            },
+            {
+              "type": "C1704347",
+              "value": "98",
+              "unit": "%"
+            }
+          ],
+          "imaging": [
+            {
+              "type": "C0205048",
+              "body_part": "C0225937",
+              "modality": "X-ray",
+              "finding": "abnormal shadow",
+              "impression": null,
+              "date": null
+            }
+          ],
+          "procedures": [
+            {
+              "name": "C0033405",
+              "approach": null,
+              "date": null,
+              "location": null,
+              "performed_by": null,
+              "outcome": null
+            },
+            {
+              "name": "C0019294",
+              "approach": null,
+              "date": null,
+              "location": null,
+              "performed_by": null,
+              "outcome": null
+            }
+          ]
+        }
+      }
+    },
+    {
+      "id": "N2",
+      "label": "Step 2",
+      "customData": {
+        "node_id": "B",
+        "node_step_index": 1,
+        "content": "Neck and supraclavicular lymph nodes were non-palpable. Tumor markers (carcinoembryonic antigen, cytokeratin 19 fragment, pro-gastrin-releasing peptide, prostate-specific antigen) were normal. Chest radiography revealed an ill-defined patchy shadow, 20 mm in size, in the right middle lung field. CT revealed a 20 mm subpleural ground-glass opacity with pleural indentation and spiculation in the superior segment of the right lower lobe (S6) area.",
+        "clinical_data": {
+          "imaging": [
+            {
+              "type": "Radiography",
+              "body_part": "Chest",
+              "modality": "X-ray",
+              "finding": "ill-defined patchy shadow, 20 mm in size, in the right middle lung field",
+              "impression": "ill-defined patchy shadow",
+              "date": null
+            },
+            {
+              "type": "ground-glass opacity",
+              "body_part": "lung",
+              "modality": "CT",
+              "finding": "20 mm subpleural ground-glass opacity with pleural indentation and spiculation in the superior segment of the right lower lobe (S6) area",
+              "impression": "ground-glass opacity",
+              "date": null
+            }
+          ],
+          "labs": [
+            {
+              "test": "Carcinoembryonic antigen",
+              "value": "normal",
+              "unit": null,
+              "flag": "normal",
+              "reference_range": null,
+              "timestamp": null
+            },
+            {
+              "test": "Cytokeratin 19 fragment",
+              "value": "normal",
+              "unit": null,
+              "flag": "normal",
+              "reference_range": null,
+              "timestamp": null
+            },
+            {
+              "test": "Pro-gastrin-releasing peptide",
+              "value": "normal",
+              "unit": null,
+              "flag": "normal",
+              "reference_range": null,
+              "timestamp": null
+            },
+            {
+              "test": "Prostate-specific antigen",
+              "value": "normal",
+              "unit": null,
+              "flag": "normal",
+              "reference_range": null,
+              "timestamp": null
+            }
+          ]
+        }
+      }
+    },
+    {
+      "id": "N3",
+      "label": "Step 3",
+      "customData": {
+        "node_id": "C",
+        "node_step_index": 2,
+        "content": "FDG-PET: FDG uptake (SUVmax=2.0) in the nodular shadow in the right S6. Abnormal FDG accumulation (SUVmax=approximately 6.0) in the bilateral ribs, lumbar vertebrae, bilateral femurs, and left ilium. No FDG accumulation in regional lymph nodes. MRI: No intracranial metastases. Enhancements in the parietal bone, left temporal bone, and cervical spine, suggestive of bone marrow reversion.",
+        "clinical_data": {
+          "imaging": [
+            {
+              "type": "Fluorodeoxyglucose-PET",
+              "body_part": "lung",
+              "modality": "PET",
+              "finding": "FDG uptake (SUVmax=2.0) in the nodular shadow in the right S6",
+              "date": null
+            },
+            {
+              "type": "Fluorodeoxyglucose-PET",
+              "body_part": "ribs",
+              "modality": "PET",
+              "finding": "Abnormal FDG accumulation (SUVmax=approximately 6.0) in the bilateral ribs",
+              "date": null
+            },
+            {
+              "type": "Fluorodeoxyglucose-PET",
+              "body_part": "lumbar vertebrae",
+              "modality": "PET",
+              "finding": "Abnormal FDG accumulation (SUVmax=approximately 6.0) in the lumbar vertebrae",
+              "date": null
+            },
+            {
+              "type": "Fluorodeoxyglucose-PET",
+              "body_part": "femur",
+              "modality": "PET",
+              "finding": "Abnormal FDG accumulation (SUVmax=approximately 6.0) in the bilateral femurs",
+              "date": null
+            },
+            {
+              "type": "Fluorodeoxyglucose-PET",
+              "body_part": "ilium",
+              "modality": "PET",
+              "finding": "Abnormal FDG accumulation (SUVmax=approximately 6.0) in the left ilium",
+              "date": null
+            },
+            {
+              "type": "Fluorodeoxyglucose-PET",
+              "body_part": "regional lymph nodes",
+              "modality": "PET",
+              "finding": "No FDG accumulation in regional lymph nodes",
+              "date": null
+            },
+            {
+              "type": "MRI",
+              "body_part": "brain",
+              "modality": "MRI",
+              "finding": "No intracranial metastases",
+              "date": null
+            },
+            {
+              "type": "MRI",
+              "body_part": "parietal bone",
+              "modality": "MRI",
+              "finding": "Enhancements in the parietal bone, suggestive of bone marrow reversion",
+              "date": null
+            },
+            {
+              "type": "MRI",
+              "body_part": "temporal bone",
+              "modality": "MRI",
+              "finding": "Enhancements in the left temporal bone, suggestive of bone marrow reversion",
+              "date": null
+            },
+            {
+              "type": "MRI",
+              "body_part": "cervical spine",
+              "modality": "MRI",
+              "finding": "Enhancements in the cervical spine, suggestive of bone marrow reversion",
+              "date": null
+            }
+          ]
+        }
+      }
+    },
+    {
+      "id": "N4",
+      "label": "Step 4",
+      "customData": {
+        "node_id": "D",
+        "node_step_index": 3,
+        "content": "CT-guided percutaneous biopsy of the lung nodule: Fibrosis of the alveolar tissue and moderately differentiated adenocarcinoma with an acinar pattern within the fibrosis.",
+        "clinical_data": {
+          "imaging": [
+            {
+              "type": "Lung nodule",
+              "body_part": "Lung",
+              "modality": "CT",
+              "finding": "Fibrosis of the alveolar tissue and moderately differentiated adenocarcinoma with an acinar pattern within the fibrosis"
+            }
+          ],
+          "procedures": [
+            {
+              "name": "Biopsy",
+              "approach": "percutaneous",
+              "location": "Lung",
+              "performed_by": "Radiologist",
+              "outcome": "Fibrosis of the alveolar tissue and moderately differentiated adenocarcinoma with an acinar pattern within the fibrosis"
+            }
+          ],
+          "diagnoses": [
+            {
+              "code": "C0002395",
+              "label": "Adenocarcinoma, Moderately Differentiated",
+              "status": "active"
+            },
+            {
+              "code": "C0016064",
+              "label": "Fibrosis",
+              "status": "active"
+            }
+          ]
+        }
+      }
+    },
+    {
+      "id": "N5",
+      "label": "Step 5",
+      "customData": {
+        "node_id": "E",
+        "node_step_index": 4,
+        "content": "Lung adenocarcinoma [positive for an epidermal growth factor receptor mutation (L858R)]. Clinical stage IVB (cT1bN0M1c) with multiple bone metastases. MRI of the pelvic cavity: lesions diffusely spread over the lumbar spine, pelvis, and femur with a high signal intensity on T2-weighted, short TI inversion recovery, and diffusion-weighted imaging and a low signal intensity on T1-weighted phase contrast imaging, suggesting the possibility of re-conversion to the red marrow.",
+        "clinical_data": {
+          "diagnoses": [
+            {
+              "code": "C34.9",
+              "label": "Lung adenocarcinoma",
+              "status": "active"
+            },
+            {
+              "code": "C79.51",
+              "label": "bone metastases",
+              "status": "active"
+            }
+          ],
+          "imaging": [
+            {
+              "type": "MRI of the pelvic cavity",
+              "body_part": "pelvic cavity",
+              "modality": "MRI",
+              "finding": "lesions diffusely spread over the lumbar spine, pelvis, and femur with a high signal intensity on T2-weighted, short TI inversion recovery, and diffusion-weighted imaging and a low signal intensity on T1-weighted phase contrast imaging, suggesting the possibility of re-conversion to the red marrow."
+            }
+          ]
+        }
+      }
+    },
+    {
+      "id": "N6",
+      "label": "Step 6",
+      "customData": {
+        "node_id": "F",
+        "node_step_index": 5,
+        "content": "Areas in the red bone marrow had a high SUVmax. CT-guided biopsy of the left iliac bone: infiltrated with small atypical lymphocyte-like cells (CD5-positive, CD20-positive, CD43-positive, CD3-negative, CD10-negative, CD33-negative, and cyclin D1-negative) along the bone trabeculae without lung cancer metastases, leading to a diagnosis of a low-grade B-cell lymphoma. Bone marrow examination: B-cell clusters in some areas, CD20 positivity, and CD5 positivity, consistent with low-grade B-cell lymphoma, chronic lymphocytic leukemia (CLL)/small lymphocytic lymphoma (SLL).",
+        "clinical_data": {
+          "imaging": [
+            {
+              "type": "Positron emission tomography",
+              "body_part": "Red bone marrow",
+              "modality": "PET",
+              "finding": "high SUVmax"
+            }
+          ],
+          "procedures": [
+            {
+              "name": "Biopsy",
+              "approach": "percutaneous",
+              "date": null,
+              "location": "Left iliac bone"
+            }
+          ],
+          "labs": [
+            {
+              "test": "CD5",
+              "value": "positive"
+            },
+            {
+              "test": "CD20",
+              "value": "positive"
+            },
+            {
+              "test": "CD43",
+              "value": "positive"
+            },
+            {
+              "test": "CD3",
+              "value": "negative"
+            },
+            {
+              "test": "CD10",
+              "value": "negative"
+            },
+            {
+              "test": "CD33",
+              "value": "negative"
+            },
+            {
+              "test": "cyclin D1",
+              "value": "negative"
+            }
+          ],
+          "diagnoses": [
+            {
+              "code": "C0424290",
+              "label": "B-cell lymphoma, low grade",
+              "status": "active"
+            },
+            {
+              "code": "C0345740",
+              "label": "Chronic Lymphocytic Leukemia",
+              "status": "active"
+            },
+            {
+              "code": "C1306564",
+              "label": "Small Lymphocytic Lymphoma",
+              "status": "active"
+            }
+          ]
+        }
+      }
+    },
+    {
+      "id": "N7",
+      "label": "Step 7",
+      "customData": {
+        "node_id": "G",
+        "node_step_index": 6,
+        "content": "Lung cancer clinical stage: cT1bN0M0, stage IA2. MRI of the pelvic cavity: diffuse high-signal lesions in the lumbar spine, pelvis, and femur on T1-weighted in-phase images and diffusion-weighted images; these lesions have a low signal on T1-weighted out-of-phase images. FDG-PET/CT: uptake of FDG in the left ilium. CT-guided percutaneous needle biopsy of the left iliac bone.",
+        "clinical_data": {
+          "diagnoses": [
+            {
+              "code": "C34",
+              "label": "Lung cancer",
+              "status": "active",
+              "onset_date": null
+            }
+          ],
+          "imaging": [
+            {
+              "type": "MRI of the pelvic cavity",
+              "body_part": "pelvic cavity",
+              "modality": "MRI",
+              "finding": "diffuse high-signal lesions in the lumbar spine, pelvis, and femur on T1-weighted in-phase images and diffusion-weighted images; these lesions have a low signal on T1-weighted out-of-phase images",
+              "impression": "diffuse high-signal lesions in the lumbar spine, pelvis, and femur",
+              "date": null
+            },
+            {
+              "type": "FDG-PET/CT",
+              "body_part": "ilium",
+              "modality": "PET",
+              "finding": "uptake of FDG in the left ilium",
+              "impression": "uptake of FDG in the left ilium",
+              "date": null
+            }
+          ],
+          "procedures": [
+            {
+              "name": "biopsy of the left iliac bone",
+              "approach": "percutaneous",
+              "date": null,
+              "location": "left iliac bone",
+              "performed_by": null,
+              "outcome": null
+            }
+          ]
+        }
+      }
+    },
+    {
+      "id": "N8",
+      "label": "Step 8",
+      "customData": {
+        "node_id": "H",
+        "node_step_index": 7,
+        "content": "Iliac biopsy: infiltration of small",
+        "Immunohistochemistry": "tumor cells positive for CD20 and CD5 and negative for CD3",
+        "clinical_data": {
+          "procedures": [
+            {
+              "name": "Biopsy",
+              "location": "Iliac",
+              "finding": "infiltration of small"
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "edges": [
+    {
+      "from": "N1",
+      "to": "N2",
+      "data": {
+        "edge_id": "A_to_B",
+        "branch_flag": true,
+        "content": "Initial radiographic abnormality in right middle lung field prompts further investigation with tumor markers and chest CT."
+      }
+    },
+    {
+      "from": "N2",
+      "to": "N3",
+      "data": {
+        "edge_id": "B_to_C",
+        "branch_flag": true,
+        "content": "Further imaging with FDG-PET and MRI to investigate lung lesion and potential metastases.",
+        "transition_event": {
+          "trigger_type": "imaging",
+          "trigger_entities": [
+            "C0205048",
+            "C0010332"
+          ],
+          "change_type": "addition",
+          "target_domain": "imaging"
+        }
+      }
+    },
+    {
+      "from": "N3",
+      "to": "N4",
+      "data": {
+        "edge_id": "C_to_D",
+        "branch_flag": true,
+        "content": "CT-guided biopsy performed on lung nodule to determine pathology.",
+        "transition_event": {
+          "trigger_type": "procedure",
+          "trigger_entities": [
+            "C0005826"
+          ],
+          "change_type": "addition",
+          "target_domain": "procedure"
+        }
+      }
+    },
+    {
+      "from": "N4",
+      "to": "N5",
+      "data": {
+        "edge_id": "D_to_E",
+        "branch_flag": true,
+        "content": "Diagnosis of moderately differentiated adenocarcinoma with EGFR mutation and bone metastases, leading to stage IVB lung cancer.",
+        "transition_event": {
+          "trigger_type": "interpretation",
+          "trigger_entities": [
+            "C0002395",
+            "C0016064",
+            "C0015710"
+          ],
+          "change_type": "progression",
+          "target_domain": "diagnosis"
+        }
+      }
+    },
+    {
+      "from": "N5",
+      "to": "N6",
+      "data": {
+        "edge_id": "E_to_F",
+        "branch_flag": true,
+        "content": "Further investigation of bone lesions reveals a second primary malignancy: low-grade B-cell lymphoma/CLL/SLL.",
+        "transition_event": {
+          "trigger_type": "interpretation",
+          "trigger_entities": [
+            "C0424290",
+            "C0345740",
+            "C1306564"
+          ],
+          "change_type": "addition",
+          "target_domain": "diagnosis"
+        }
+      }
+    },
+    {
+      "from": "N6",
+      "to": "N7",
+      "data": {
+        "edge_id": "F_to_G",
+        "branch_flag": true,
+        "content": "Lung cancer restaged to IA2, further imaging of pelvic cavity and biopsy of left iliac bone.",
+        "transition_event": {
+          "trigger_type": "reinterpretation",
+          "trigger_entities": [
+            "C34"
+          ],
+          "change_type": "reinterpretation",
+          "target_domain": "diagnosis"
+        }
+      }
+    },
+    {
+      "from": "N7",
+      "to": "N8",
+      "data": {
+        "edge_id": "G_to_H",
+        "branch_flag": true,
+        "content": "Iliac biopsy confirms infiltration of small tumor cells positive for CD20 and CD5 and negative for CD3."
+      }
+    }
+  ]
+}

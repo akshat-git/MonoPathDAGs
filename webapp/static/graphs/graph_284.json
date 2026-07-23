@@ -1,0 +1,91 @@
+{
+  "nodes": [
+    {
+      "id": "N1",
+      "label": "Step 1",
+      "customData": {
+        "node_id": "A",
+        "node_step_index": 0,
+        "content": "31-year-old Asian woman presented for evaluation of an incidentally found left lung nodule. Patient had mild COVID-19 and influenza, resulting in a prolonged cough that lasted over 6 weeks. Chest X-ray and CT scan of the chest revealed a 2.7-cm well-circumscribed nodule in the lingula abutting the major fissure. Patient was asymptomatic with no other respiratory concerns, except for cough. PET scan showed FDG uptake in the lung nodule in the lingula abutting the major fissure. No associated FDG-avid hilar or mediastinal adenopathy. Robotic bronchoscopy with fine-needle biopsy of the nodule was performed. Cytologic evaluation showed papillary fragments with sclerotic stroma lined by cuboidal cells, in a background of round polygonal epithelial cells with abundant cytoplasm. Immunoperoxidase staining showed tumor cells diffusely positive for thyroid transcription factor-1 (TTF-1), patchy positive for pankeratin, and negative for chromogranin. Progesterone receptor expression was noted in 70% of the tumor cells. Diagnosis of sclerosing pneumocytoma was made. Patient is currently scheduled to undergo resection of the left lung via robotic-assisted thoracic surgery.",
+        "clinical_data": {
+          "diagnoses": [
+            {
+              "code": "C34.3",
+              "label": "Malignant neoplasm of lower lobe, bronchus or lung",
+              "status": "active",
+              "onset_date": null
+            }
+          ],
+          "imaging": [
+            {
+              "type": "Lung nodule",
+              "body_part": "Lung",
+              "modality": "X-ray",
+              "finding": "2.7-cm well-circumscribed nodule in the lingula abutting the major fissure",
+              "impression": "Lung nodule",
+              "date": null
+            },
+            {
+              "type": "Lung nodule",
+              "body_part": "Lung",
+              "modality": "CT",
+              "finding": "2.7-cm well-circumscribed nodule in the lingula abutting the major fissure",
+              "impression": "Lung nodule",
+              "date": null
+            },
+            {
+              "type": "Lung nodule",
+              "body_part": "Lung",
+              "modality": "PET",
+              "finding": "FDG uptake in the lung nodule in the lingula abutting the major fissure. No associated FDG-avid hilar or mediastinal adenopathy.",
+              "impression": "Lung nodule",
+              "date": null
+            }
+          ],
+          "procedures": [
+            {
+              "name": "Bronchoscopy with fine-needle biopsy",
+              "approach": "endoscopic",
+              "date": null,
+              "location": "Lung nodule",
+              "performed_by": null,
+              "outcome": "Diagnosis of sclerosing pneumocytoma"
+            },
+            {
+              "name": "Resection of the left lung",
+              "approach": "robotic-assisted thoracic surgery",
+              "date": null,
+              "location": "Left lung",
+              "performed_by": null,
+              "outcome": null
+            }
+          ],
+          "HPI": [
+            {
+              "summary": "Patient had mild COVID-19 and influenza, resulting in a prolonged cough that lasted over 6 weeks.",
+              "duration": "6 weeks",
+              "onset": null,
+              "progression": "unknown",
+              "associated_symptoms": [
+                "Cough"
+              ],
+              "alleviating_factors": [],
+              "exacerbating_factors": []
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "edges": [
+    {
+      "from": "N1",
+      "to": "N1",
+      "data": {
+        "edge_id": "A_to_A",
+        "branch_flag": true,
+        "content": "Diagnosis of sclerosing pneumocytoma was made, and the patient is scheduled to undergo resection of the left lung via robotic-assisted thoracic surgery."
+      }
+    }
+  ]
+}

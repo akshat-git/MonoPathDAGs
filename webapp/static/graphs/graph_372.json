@@ -1,0 +1,357 @@
+{
+  "nodes": [
+    {
+      "id": "N1",
+      "label": "Step 1",
+      "customData": {
+        "node_id": "A",
+        "node_step_index": 0,
+        "content": "In 2015, the patient underwent a right upper lobe lung resection with ilo-mediastinic lymph node dissection. Histo-pathological examination revealed an EGFR exon19 deletion mutated adenocarcinoma.",
+        "clinical_data": {
+          "procedures": [
+            {
+              "name": "Lung resection",
+              "approach": "open",
+              "date": "2015",
+              "location": "right upper lobe",
+              "outcome": null
+            },
+            {
+              "name": "Lymph node dissection",
+              "approach": "open",
+              "date": "2015",
+              "location": "ilo-mediastinic",
+              "outcome": null
+            }
+          ],
+          "diagnoses": [
+            {
+              "code": null,
+              "label": "EGFR exon19 deletion mutated adenocarcinoma",
+              "status": "historical",
+              "onset_date": "2015"
+            }
+          ]
+        },
+        "timestamp": "2015"
+      }
+    },
+    {
+      "id": "N2",
+      "label": "Step 2",
+      "customData": {
+        "node_id": "B",
+        "node_step_index": 1,
+        "content": "The patient received four courses of adjuvant chemotherapy with cisplatin plus gemcitabine.",
+        "clinical_data": {
+          "medications": [
+            {
+              "drug": "C0008833",
+              "dosage": null,
+              "frequency": null,
+              "modality": null,
+              "start_date": null,
+              "end_date": null,
+              "indication": "Adjuvant chemotherapy"
+            },
+            {
+              "drug": "C0017558",
+              "dosage": null,
+              "frequency": null,
+              "modality": null,
+              "start_date": null,
+              "end_date": null,
+              "indication": "Adjuvant chemotherapy"
+            }
+          ],
+          "procedures": [
+            {
+              "name": "Chemotherapy",
+              "approach": null,
+              "date": null,
+              "location": null,
+              "performed_by": null,
+              "outcome": null
+            }
+          ]
+        }
+      }
+    },
+    {
+      "id": "N3",
+      "label": "Step 3",
+      "customData": {
+        "node_id": "C",
+        "node_step_index": 2,
+        "content": "In 2018, targeted therapy with osimertinib was started, resulting in a partial response according to RECIST criteria.",
+        "clinical_data": {
+          "medications": [
+            {
+              "drug": "C1705874",
+              "start_date": "2018",
+              "end_date": null,
+              "indication": "Neoplasm",
+              "dosage": null,
+              "frequency": null,
+              "modality": null
+            }
+          ]
+        },
+        "timestamp": "2018"
+      }
+    },
+    {
+      "id": "N4",
+      "label": "Step 4",
+      "customData": {
+        "node_id": "D",
+        "node_step_index": 3,
+        "content": "On April 1, 2020, the patient was referred for acute onset of progressive shortness of breath and dry cough. Physical examination revealed moderate inspiratory retraction and diffuse inspiratory wheezing. Body temperature was 36.8 \u00b0C, heart rate 68 bpm, blood pressure 125/80 mm Hg, respiratory rate 25 per minute, and oxygen saturation 98% with 3 L/min oxygen supplement. ECOG PS was 2.",
+        "clinical_data": {
+          "HPI": [
+            {
+              "summary": "acute onset of progressive shortness of breath and dry cough",
+              "onset": "2020-04-01",
+              "progression": "progressive",
+              "associated_symptoms": [
+                "C0004096",
+                "C0023246"
+              ]
+            }
+          ],
+          "vitals": [
+            {
+              "type": "C0006141",
+              "value": "36.8",
+              "unit": "\u00b0C",
+              "timestamp": "2020-04-01"
+            },
+            {
+              "type": "C0019561",
+              "value": "68",
+              "unit": "bpm",
+              "timestamp": "2020-04-01"
+            },
+            {
+              "type": "C0005766",
+              "value": "125/80",
+              "unit": "mm Hg",
+              "timestamp": "2020-04-01"
+            },
+            {
+              "type": "C0035222",
+              "value": "25",
+              "unit": "per minute",
+              "timestamp": "2020-04-01"
+            },
+            {
+              "type": "C0020237",
+              "value": "98",
+              "unit": "%",
+              "timestamp": "2020-04-01"
+            }
+          ],
+          "physical_exam": [
+            {
+              "finding": "moderate inspiratory retraction",
+              "timestamp": "2020-04-01"
+            },
+            {
+              "finding": "diffuse inspiratory wheezing",
+              "timestamp": "2020-04-01"
+            }
+          ],
+          "functional_status": [
+            {
+              "domain": "general",
+              "description": "ECOG PS",
+              "score": "2",
+              "scale": "ECOG"
+            }
+          ]
+        },
+        "timestamp": "2020-04-01"
+      }
+    },
+    {
+      "id": "N5",
+      "label": "Step 5",
+      "customData": {
+        "node_id": "E",
+        "node_step_index": 4,
+        "content": "Laboratory investigations showed normal LDH, CRP, and procalcitonin levels. Nasopharyngeal swab was negative for SARS-CoV-2 RNA by RT-PCR. CT scan of the thorax showed progressive disease in the superior mediastinum with significant reduction of the tracheal lumen.",
+        "clinical_data": {
+          "labs": [
+            {
+              "test": "Lactate Dehydrogenase Measurement",
+              "value": "normal",
+              "unit": null,
+              "flag": "normal",
+              "reference_range": null,
+              "timestamp": null
+            },
+            {
+              "test": "C-Reactive Protein Measurement",
+              "value": "normal",
+              "unit": null,
+              "flag": "normal",
+              "reference_range": null,
+              "timestamp": null
+            },
+            {
+              "test": "Procalcitonin Measurement",
+              "value": "normal",
+              "unit": null,
+              "flag": "normal",
+              "reference_range": null,
+              "timestamp": null
+            },
+            {
+              "test": "SARS-CoV-2 RNA detection by reverse transcription polymerase chain reaction technique",
+              "value": "negative",
+              "unit": null,
+              "flag": "normal",
+              "reference_range": null,
+              "timestamp": null
+            }
+          ],
+          "imaging": [
+            {
+              "type": "Computed tomography",
+              "body_part": "thorax",
+              "modality": "CT",
+              "finding": "progressive disease in the superior mediastinum with significant reduction of the tracheal lumen",
+              "impression": null,
+              "date": null
+            }
+          ]
+        }
+      }
+    },
+    {
+      "id": "N6",
+      "label": "Step 6",
+      "customData": {
+        "node_id": "F",
+        "node_step_index": 5,
+        "content": "Palliative mediastinal radiotherapy was planned and methylprednisolone 40 mg bid was initiated.",
+        "clinical_data": {
+          "medications": [
+            {
+              "drug": "C0025564",
+              "dosage": "40 mg",
+              "frequency": "bid",
+              "modality": "oral",
+              "start_date": null,
+              "end_date": null,
+              "indication": null
+            }
+          ],
+          "procedures": [
+            {
+              "name": "C0034864",
+              "approach": null,
+              "date": null,
+              "location": "C0025067",
+              "performed_by": null,
+              "outcome": null
+            }
+          ]
+        }
+      }
+    },
+    {
+      "id": "N7",
+      "label": "Step 7",
+      "customData": {
+        "node_id": "G",
+        "node_step_index": 6,
+        "content": "Chest CT scan showed a huge reduction of the trachea lumen (2 mm) due to mediastinal pathological tissue.",
+        "clinical_data": {
+          "imaging": [
+            {
+              "type": "Computed tomography of chest",
+              "body_part": "Trachea",
+              "modality": "CT",
+              "finding": "Huge reduction of the trachea lumen (2 mm) due to mediastinal pathological tissue."
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "edges": [
+    {
+      "from": "N1",
+      "to": "N2",
+      "data": {
+        "edge_id": "A_to_B",
+        "branch_flag": true,
+        "content": "Transition from lung resection and diagnosis of EGFR exon19 deletion mutated adenocarcinoma to adjuvant chemotherapy with cisplatin plus gemcitabine."
+      }
+    },
+    {
+      "from": "N2",
+      "to": "N3",
+      "data": {
+        "edge_id": "B_to_C",
+        "branch_flag": true,
+        "content": "Transition from adjuvant chemotherapy to targeted therapy with osimertinib, resulting in a partial response."
+      }
+    },
+    {
+      "from": "N3",
+      "to": "N4",
+      "data": {
+        "edge_id": "C_to_D",
+        "branch_flag": true,
+        "content": "Transition from targeted therapy with osimertinib to acute onset of progressive shortness of breath and dry cough, moderate inspiratory retraction and diffuse inspiratory wheezing. Vitals: Temperature 36.8 \u00b0C, heart rate 68 bpm, blood pressure 125/80 mm Hg, respiratory rate 25 per minute, and oxygen saturation 98% with 3 L/min oxygen supplement. ECOG PS was 2.",
+        "transition_event": {
+          "trigger_type": "symptom_onset",
+          "trigger_entities": [
+            "C0004096",
+            "C0023246"
+          ],
+          "change_type": "progression",
+          "target_domain": "symptom",
+          "timestamp": "2020-04-01T00:00:00Z"
+        }
+      }
+    },
+    {
+      "from": "N4",
+      "to": "N5",
+      "data": {
+        "edge_id": "D_to_E",
+        "branch_flag": true,
+        "content": "Transition from acute onset of progressive shortness of breath and dry cough to normal LDH, CRP, and procalcitonin levels. Nasopharyngeal swab was negative for SARS-CoV-2 RNA by RT-PCR. CT scan of the thorax showed progressive disease in the superior mediastinum with significant reduction of the tracheal lumen."
+      }
+    },
+    {
+      "from": "N5",
+      "to": "N6",
+      "data": {
+        "edge_id": "E_to_F",
+        "branch_flag": true,
+        "content": "Transition from progressive disease in the superior mediastinum to palliative mediastinal radiotherapy being planned and methylprednisolone 40 mg bid being initiated.",
+        "transition_event": {
+          "trigger_type": "medication_change",
+          "trigger_entities": [
+            "C0025564"
+          ],
+          "change_type": "addition",
+          "target_domain": "medication"
+        }
+      }
+    },
+    {
+      "from": "N6",
+      "to": "N7",
+      "data": {
+        "edge_id": "F_to_G",
+        "branch_flag": true,
+        "content": "Transition from palliative mediastinal radiotherapy and methylprednisolone initiation to chest CT scan showing a huge reduction of the trachea lumen (2 mm) due to mediastinal pathological tissue."
+      }
+    }
+  ]
+}

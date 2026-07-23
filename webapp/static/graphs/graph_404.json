@@ -1,0 +1,492 @@
+{
+  "nodes": [
+    {
+      "id": "N1",
+      "label": "Step 1",
+      "customData": {
+        "node_id": "A",
+        "node_step_index": 0,
+        "content": "72-year-old male presented with progressive dysphagia, retrosternal pain, intermittent cough, and significant weight loss over two years, worsening in the last month.",
+        "clinical_data": {
+          "HPI": [
+            {
+              "summary": "72-year-old male presented with progressive dysphagia, retrosternal pain, intermittent cough, and significant weight loss over two years, worsening in the last month.",
+              "duration": "2 years",
+              "progression": "gradual",
+              "associated_symptoms": [
+                "Dysphagia",
+                "Retrosternal pain",
+                "Intermittent cough",
+                "Significant weight loss"
+              ]
+            }
+          ]
+        }
+      }
+    },
+    {
+      "id": "N2",
+      "label": "Step 2",
+      "customData": {
+        "node_id": "B",
+        "node_step_index": 1,
+        "content": "Chest CT (July 4, 2022) revealed a right upper lung mass and right pleural effusion.",
+        "timestamp": "2022-07-04",
+        "clinical_data": {
+          "imaging": [
+            {
+              "type": "Mass of right upper lobe of lung",
+              "body_part": "Right upper lobe of lung",
+              "modality": "CT",
+              "finding": "Mass",
+              "date": "2022-07-04"
+            },
+            {
+              "type": "Pleural Effusion",
+              "body_part": "Pleural cavity",
+              "modality": "CT",
+              "finding": "Right pleural effusion",
+              "date": "2022-07-04"
+            }
+          ]
+        }
+      }
+    },
+    {
+      "id": "N3",
+      "label": "Step 3",
+      "customData": {
+        "node_id": "C",
+        "node_step_index": 2,
+        "content": "Right pleural puncture confirmed lung adenocarcinoma by pathology. Immunohistochemical staining showed positive expression of cytokeratin (CK) 7, carcinoembryonic antigen, and thyroid transcription factor-1 (TTF-1).",
+        "clinical_data": {
+          "procedures": [
+            {
+              "name": "Pleural puncture",
+              "location": "Right pleura",
+              "outcome": "Lung adenocarcinoma confirmed by pathology"
+            }
+          ],
+          "diagnoses": [
+            {
+              "code": "C0206339",
+              "label": "Adenocarcinoma of lung",
+              "status": "active",
+              "location": "Right lung"
+            }
+          ],
+          "labs": [
+            {
+              "test": "Cytokeratin 7",
+              "value": "positive",
+              "unit": "expression"
+            },
+            {
+              "test": "Carcinoembryonic antigen",
+              "value": "positive",
+              "unit": "expression"
+            },
+            {
+              "test": "Thyroid transcription factor-1",
+              "value": "positive",
+              "unit": "expression"
+            }
+          ]
+        }
+      }
+    },
+    {
+      "id": "N4",
+      "label": "Step 4",
+      "customData": {
+        "node_id": "D",
+        "node_step_index": 3,
+        "content": "PIK3CA mutations detected via next-generation sequencing. Endoscopy report at a local hospital led to a suspected diagnosis of jackhammer esophagus, based on an esophageal high-resolution manometry report, low resting pressure of the upper esophagus sphincter, normal pressure of the lower esophagus sphincter, and locally increased pressure in the middle and lower esophagus without normal peristalsis (Chicago classification II and III).",
+        "clinical_data": {
+          "labs": [
+            {
+              "test": "PIK3CA gene mutation",
+              "value": "detected",
+              "unit": null,
+              "flag": "abnormal",
+              "reference_range": null,
+              "timestamp": null
+            }
+          ],
+          "diagnoses": [
+            {
+              "code": null,
+              "label": "jackhammer esophagus",
+              "status": "suspected",
+              "onset_date": null
+            }
+          ],
+          "procedures": [
+            {
+              "name": "esophageal high-resolution manometry",
+              "approach": null,
+              "date": null,
+              "location": "esophagus",
+              "performed_by": null,
+              "outcome": null
+            },
+            {
+              "name": "endoscopy",
+              "approach": "endoscopic",
+              "date": null,
+              "location": "esophagus",
+              "performed_by": null,
+              "outcome": null
+            }
+          ]
+        }
+      }
+    },
+    {
+      "id": "N5",
+      "label": "Step 5",
+      "customData": {
+        "node_id": "E",
+        "node_step_index": 4,
+        "content": "Patient had been suffering from hypertension for several years. Mild tenderness in the right chest was identified by palpation.",
+        "clinical_data": {
+          "diagnoses": [
+            {
+              "code": "C0020538",
+              "label": "Hypertension",
+              "status": "active"
+            }
+          ]
+        }
+      }
+    },
+    {
+      "id": "N6",
+      "label": "Step 6",
+      "customData": {
+        "node_id": "F",
+        "node_step_index": 5,
+        "content": "Carcinoembryonic antigen = 5.42 ng/mL and neuron-specific enolase = 19.22 ng/mL. Esophagogram revealed grade I dilation of the esophageal lumen, segmental stenosis of the distal esophagus, and delayed emptying of barium contrast agent from the esophagus. Endoscopy revealed a 2 cm long segment of concentric esophageal stenosis 35\u201337 cm away from the incisors, with apparently normal overlying mucosa. The cardia had normal contraction and relaxation.",
+        "clinical_data": {
+          "labs": [
+            {
+              "test": "C1457554",
+              "value": "5.42",
+              "unit": "ng/mL"
+            },
+            {
+              "test": "C0205833",
+              "value": "19.22",
+              "unit": "ng/mL"
+            }
+          ],
+          "imaging": [
+            {
+              "type": "Esophagogram",
+              "body_part": "Esophagus",
+              "modality": "X-ray",
+              "finding": "grade I dilation of the esophageal lumen, segmental stenosis of the distal esophagus, and delayed emptying of barium contrast agent from the esophagus"
+            }
+          ],
+          "procedures": [
+            {
+              "name": "Endoscopy",
+              "location": "Esophagus",
+              "finding": "2 cm long segment of concentric esophageal stenosis 35\u201337 cm away from the incisors, with apparently normal overlying mucosa",
+              "cardia": "normal contraction and relaxation"
+            }
+          ]
+        }
+      }
+    },
+    {
+      "id": "N7",
+      "label": "Step 7",
+      "customData": {
+        "node_id": "G",
+        "node_step_index": 6,
+        "content": "Serum albumin level changed from below 40 g/L pre-POEM to above 40 g/L post-POEM.",
+        "clinical_data": {
+          "labs": [
+            {
+              "test": "Albumin measurement",
+              "value": "below 40",
+              "unit": "g/L",
+              "flag": "abnormal"
+            },
+            {
+              "test": "Albumin measurement",
+              "value": "above 40",
+              "unit": "g/L",
+              "flag": "normal"
+            }
+          ],
+          "procedures": [
+            {
+              "name": "Peroral endoscopic myotomy",
+              "outcome": "Improved serum albumin"
+            }
+          ]
+        }
+      }
+    },
+    {
+      "id": "N8",
+      "label": "Step 8",
+      "customData": {
+        "node_id": "H",
+        "node_step_index": 7,
+        "content": "CT revealed abnormality of the right 9th and 10th ribs and enlargement of mediastinal lymph nodes. Thickening of the wall in the lower esophagus far from the lung space-occupying lesion was also observed. Diagnosed with right upper lung adenocarcinoma with multiple rib and mediastinal lymph node metastases and right malignant pleural effusion. Clinically staged as cT1bN0M1c, IVB.",
+        "clinical_data": {
+          "imaging": [
+            {
+              "type": "Computed tomography",
+              "body_part": "Rib",
+              "modality": "CT",
+              "finding": "abnormality of the right 9th and 10th ribs",
+              "date": null
+            },
+            {
+              "type": "Computed tomography",
+              "body_part": "Mediastinal lymph nodes",
+              "modality": "CT",
+              "finding": "enlargement of mediastinal lymph nodes",
+              "date": null
+            },
+            {
+              "type": "Computed tomography",
+              "body_part": "Lower esophagus",
+              "modality": "CT",
+              "finding": "Thickening of the wall in the lower esophagus",
+              "date": null
+            }
+          ],
+          "diagnoses": [
+            {
+              "code": "C0279829",
+              "label": "Adenocarcinoma of lung",
+              "status": "active",
+              "onset_date": null
+            },
+            {
+              "code": "C0009402",
+              "label": "Malignant pleural effusion",
+              "status": "active",
+              "onset_date": null
+            },
+            {
+              "code": "C0027651",
+              "label": "Metastasis",
+              "status": "active",
+              "onset_date": null
+            }
+          ]
+        }
+      }
+    },
+    {
+      "id": "N9",
+      "label": "Step 9",
+      "customData": {
+        "node_id": "I",
+        "node_step_index": 8,
+        "content": "Post-POEM diagnosis confirmed esophageal muscle metastasis arising from lung adenocarcinoma.",
+        "clinical_data": {
+          "diagnoses": [
+            {
+              "code": "C0009404",
+              "label": "Esophageal Metastasis",
+              "status": "active"
+            },
+            {
+              "code": "C0206339",
+              "label": "Lung Adenocarcinoma",
+              "status": "active"
+            }
+          ]
+        }
+      }
+    },
+    {
+      "id": "N10",
+      "label": "Step 10",
+      "customData": {
+        "node_id": "J",
+        "node_step_index": 9,
+        "content": "Individualized POEM procedure performed on July 14, 2022 to alleviate dysphagia before chemotherapy. Submucosal injection at the level of the middle esophagus, 5 cm proximal to the level of stenosis. Longitudinal tunnel created until the level of the stenosis was reached. Inner circular myotomy of the esophagus performed to expand the tunnel space, beginning 3 cm distal to the mucosal entry.",
+        "timestamp": "2022-07-14",
+        "clinical_data": {
+          "procedures": [
+            {
+              "name": "Peroral endoscopic myotomy",
+              "approach": "endoscopic",
+              "date": "2022-07-14",
+              "location": "esophagus",
+              "outcome": "alleviate dysphagia"
+            }
+          ]
+        }
+      }
+    },
+    {
+      "id": "N11",
+      "label": "Step 11",
+      "customData": {
+        "node_id": "K",
+        "node_step_index": 10,
+        "clinical_data": {}
+      }
+    }
+  ],
+  "edges": [
+    {
+      "from": "N1",
+      "to": "N2",
+      "data": {
+        "edge_id": "A_to_B",
+        "branch_flag": true,
+        "content": "Patient's symptoms led to initial imaging.",
+        "transition_event": {
+          "trigger_type": "symptom_onset",
+          "trigger_entities": [
+            "C0013067",
+            "C0033578",
+            "C0010427",
+            "C0042071"
+          ],
+          "change_type": "progression",
+          "target_domain": "imaging",
+          "timestamp": "2022-07-04T00:00:00Z"
+        }
+      }
+    },
+    {
+      "from": "N2",
+      "to": "N3",
+      "data": {
+        "edge_id": "B_to_C",
+        "branch_flag": true,
+        "content": "Imaging findings prompted pleural puncture and pathological analysis.",
+        "transition_event": {
+          "trigger_type": "procedure",
+          "trigger_entities": [],
+          "change_type": "addition",
+          "target_domain": "diagnosis"
+        }
+      }
+    },
+    {
+      "from": "N3",
+      "to": "N4",
+      "data": {
+        "edge_id": "C_to_D",
+        "branch_flag": true,
+        "content": "Further molecular testing and outside endoscopy reports provided additional diagnostic information.",
+        "transition_event": {
+          "trigger_type": "lab_change",
+          "trigger_entities": [],
+          "change_type": "addition",
+          "target_domain": "diagnosis"
+        }
+      }
+    },
+    {
+      "from": "N4",
+      "to": "N5",
+      "data": {
+        "edge_id": "D_to_E",
+        "branch_flag": true,
+        "content": "Assessment of patient's existing conditions and physical exam findings.",
+        "transition_event": {
+          "trigger_type": "spontaneous",
+          "trigger_entities": [],
+          "change_type": "other",
+          "target_domain": "diagnosis"
+        }
+      }
+    },
+    {
+      "from": "N5",
+      "to": "N6",
+      "data": {
+        "edge_id": "E_to_F",
+        "branch_flag": true,
+        "content": "Lab tests and esophagogram/endoscopy performed to further investigate esophageal symptoms.",
+        "transition_event": {
+          "trigger_type": "lab_change",
+          "trigger_entities": [],
+          "change_type": "addition",
+          "target_domain": "lab"
+        }
+      }
+    },
+    {
+      "from": "N6",
+      "to": "N7",
+      "data": {
+        "edge_id": "F_to_G",
+        "branch_flag": true,
+        "content": "Serum albumin levels changed post-POEM.",
+        "transition_event": {
+          "trigger_type": "procedure",
+          "trigger_entities": [],
+          "change_type": "other",
+          "target_domain": "lab"
+        }
+      }
+    },
+    {
+      "from": "N7",
+      "to": "N8",
+      "data": {
+        "edge_id": "G_to_H",
+        "branch_flag": true,
+        "content": "CT imaging revealed further disease progression and metastasis.",
+        "transition_event": {
+          "trigger_type": "imaging",
+          "trigger_entities": [],
+          "change_type": "progression",
+          "target_domain": "diagnosis"
+        }
+      }
+    },
+    {
+      "from": "N8",
+      "to": "N9",
+      "data": {
+        "edge_id": "H_to_I",
+        "branch_flag": true,
+        "content": "Post-POEM diagnosis confirmed esophageal muscle metastasis.",
+        "transition_event": {
+          "trigger_type": "interpretation",
+          "trigger_entities": [],
+          "change_type": "addition",
+          "target_domain": "diagnosis"
+        }
+      }
+    },
+    {
+      "from": "N9",
+      "to": "N10",
+      "data": {
+        "edge_id": "I_to_J",
+        "branch_flag": true,
+        "content": "Individualized POEM procedure performed to alleviate dysphagia before chemotherapy.",
+        "transition_event": {
+          "trigger_type": "procedure",
+          "trigger_entities": [],
+          "change_type": "addition",
+          "target_domain": "procedure",
+          "timestamp": "2022-07-14T00:00:00Z"
+        }
+      }
+    },
+    {
+      "from": "N10",
+      "to": "N11",
+      "data": {
+        "edge_id": "J_to_K"
+      }
+    }
+  ]
+}

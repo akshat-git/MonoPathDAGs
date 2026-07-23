@@ -1,0 +1,246 @@
+{
+  "nodes": [
+    {
+      "id": "N1",
+      "label": "Step 1",
+      "customData": {
+        "node_id": "A",
+        "node_step_index": 0,
+        "content": "66-year-old man presented with cough, sputum, chest tightness and pain persisting for 1 month. Patient received cefaclor and azithromycin at a local clinic with no tangible alleviation.",
+        "clinical_data": {
+          "HPI": [
+            {
+              "summary": "66-year-old man presented with cough, sputum, chest tightness and pain persisting for 1 month.",
+              "duration": "1 month",
+              "progression": "unknown",
+              "associated_symptoms": [
+                "C0010200",
+                "C0038990",
+                "C0008031",
+                "C0032288"
+              ]
+            }
+          ],
+          "medications": [
+            {
+              "drug": "C0007648",
+              "dosage": null,
+              "frequency": null,
+              "modality": null,
+              "start_date": null,
+              "end_date": null,
+              "indication": null
+            },
+            {
+              "drug": "C0004517",
+              "dosage": null,
+              "frequency": null,
+              "modality": null,
+              "start_date": null,
+              "end_date": null,
+              "indication": null
+            }
+          ]
+        }
+      },
+      "custom_id": "graph_077_N0"
+    },
+    {
+      "id": "N2",
+      "label": "Step 2",
+      "customData": {
+        "node_id": "B",
+        "node_step_index": 1,
+        "content": "Chest X-ray revealed a space-occupying mass in the left lung. Patient was hospitalised on 10 September 2023.",
+        "timestamp": "2023-09-10",
+        "clinical_data": {
+          "imaging": [
+            {
+              "type": "Space-occupying lesion (T017139)",
+              "body_part": "Lung (A0007271)",
+              "modality": "X-ray",
+              "finding": "Space-occupying mass",
+              "date": null
+            }
+          ],
+          "hospitalizations": [
+            {
+              "start_date": "2023-09-10"
+            }
+          ]
+        }
+      },
+      "custom_id": "graph_077_N1"
+    },
+    {
+      "id": "N3",
+      "label": "Step 3",
+      "customData": {
+        "node_id": "C",
+        "node_step_index": 2,
+        "content": "Laboratory investigations were normal. CT imaging demonstrated irregularly shaped soft tissue masses in both the upper and lower lobes of the left lung, characterised by irregular margins, lobulation, spiculation and pleural indentation. The masses exhibited inhomogeneous enhancement. Initial pulmonary CT images showed an irregular soft tissue mass measuring approximately 4.7 cm\u00d73.8 cm in the upper lobe of the left lung, with lobulated and spiculated margins and partial bronchioles truncated near the hilum.",
+        "clinical_data": {
+          "imaging": [
+            {
+              "type": "Mass (finding)",
+              "body_part": "Lung",
+              "modality": "CT",
+              "finding": "Irregularly shaped soft tissue masses in both the upper and lower lobes of the left lung, characterised by irregular margins, lobulation, spiculation and pleural indentation. The masses exhibited inhomogeneous enhancement.",
+              "impression": "Irregular soft tissue mass measuring approximately 4.7 cm\u00d73.8 cm in the upper lobe of the left lung, with lobulated and spiculated margins and partial bronchioles truncated near the hilum.",
+              "date": null
+            }
+          ],
+          "labs": [
+            {
+              "test": "Laboratory investigations",
+              "value": "normal",
+              "unit": null,
+              "flag": "normal",
+              "reference_range": null,
+              "timestamp": null
+            }
+          ]
+        }
+      },
+      "custom_id": "graph_077_N2"
+    },
+    {
+      "id": "N4",
+      "label": "Step 4",
+      "customData": {
+        "node_id": "D",
+        "node_step_index": 3,
+        "content": "Oval mass in the lower lobe of the lung, measuring about 2.3 \u00d7 1.7 cm, with lobulated, spiculated margins and pleural retraction signs. PET-CT showed high-density lesions in both the upper and lower lobes of the left lung, with increased glucose metabolism (SUV values of 8.8 and 7.4, respectively). Multiple enlarged lymph nodes were detected in the mediastinum and interlobular spaces. Pathogenic bacteria culture, Gene-Xpert detection and metagenomic next-generation sequencing of bronchoalveolar lavage fluid and lung tissue were all negative.",
+        "clinical_data": {
+          "imaging": [
+            {
+              "type": "Mass",
+              "body_part": "Lower lobe of the lung",
+              "modality": "CT",
+              "finding": "Oval mass, measuring about 2.3 \u00d7 1.7 cm, with lobulated, spiculated margins and pleural retraction signs",
+              "date": null
+            },
+            {
+              "type": "Lesion",
+              "body_part": "Upper lobe of the left lung",
+              "modality": "PET-CT",
+              "finding": "High-density lesions with increased glucose metabolism (SUV value of 8.8)",
+              "date": null
+            },
+            {
+              "type": "Lesion",
+              "body_part": "Lower lobe of the left lung",
+              "modality": "PET-CT",
+              "finding": "High-density lesions with increased glucose metabolism (SUV value of 7.4)",
+              "date": null
+            },
+            {
+              "type": "Lymph node",
+              "body_part": "Mediastinum",
+              "modality": "PET-CT",
+              "finding": "Multiple enlarged lymph nodes",
+              "date": null
+            },
+            {
+              "type": "Lymph node",
+              "body_part": "Interlobular spaces",
+              "modality": "PET-CT",
+              "finding": "Multiple enlarged lymph nodes",
+              "date": null
+            }
+          ],
+          "labs": [
+            {
+              "test": "Pathogenic bacteria culture",
+              "value": "negative",
+              "unit": null,
+              "flag": "normal",
+              "reference_range": null,
+              "timestamp": null
+            },
+            {
+              "test": "Gene-Xpert detection",
+              "value": "negative",
+              "unit": null,
+              "flag": "normal",
+              "reference_range": null,
+              "timestamp": null
+            },
+            {
+              "test": "Metagenomic next-generation sequencing",
+              "value": "negative",
+              "unit": null,
+              "flag": "normal",
+              "reference_range": null,
+              "timestamp": null
+            }
+          ]
+        }
+      },
+      "custom_id": "graph_077_N3"
+    }
+  ],
+  "edges": [
+    {
+      "from": "N1",
+      "to": "N2",
+      "data": {
+        "edge_id": "A_to_B",
+        "branch_flag": true,
+        "content": "Patient transitioned from outpatient setting with persistent respiratory symptoms to inpatient setting after imaging revealed a space-occupying mass in the left lung.",
+        "transition_event": {
+          "trigger_type": "imaging",
+          "trigger_entities": [
+            "T017139",
+            "A0007271"
+          ],
+          "change_type": "progression",
+          "target_domain": "imaging",
+          "timestamp": "2023-09-10T00:00:00Z"
+        }
+      },
+      "custom_id": "graph_077_N1_N2"
+    },
+    {
+      "from": "N2",
+      "to": "N3",
+      "data": {
+        "edge_id": "B_to_C",
+        "branch_flag": true,
+        "content": "Patient underwent further laboratory and CT imaging after hospitalization.",
+        "transition_event": {
+          "trigger_type": "procedure",
+          "trigger_entities": [
+            "Laboratory investigations",
+            "CT imaging"
+          ],
+          "change_type": "addition",
+          "target_domain": "imaging"
+        }
+      },
+      "custom_id": "graph_077_N2_N3"
+    },
+    {
+      "from": "N3",
+      "to": "N4",
+      "data": {
+        "edge_id": "C_to_D",
+        "branch_flag": true,
+        "content": "Further characterization of lung mass with CT and PET-CT imaging, cultures, and genetic testing.",
+        "transition_event": {
+          "trigger_type": "procedure",
+          "trigger_entities": [
+            "CT imaging",
+            "PET-CT",
+            "Pathogenic bacteria culture",
+            "Gene-Xpert detection",
+            "Metagenomic next-generation sequencing"
+          ],
+          "change_type": "addition",
+          "target_domain": "imaging"
+        }
+      },
+      "custom_id": "graph_077_N3_N4"
+    }
+  ]
+}

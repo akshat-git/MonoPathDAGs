@@ -1,0 +1,373 @@
+{
+  "nodes": [
+    {
+      "id": "N1",
+      "label": "Step 1",
+      "customData": {
+        "node_id": "A",
+        "node_step_index": 0,
+        "content": "Urine culture and urine cytology were negative.",
+        "clinical_data": {
+          "labs": [
+            {
+              "test": "UMLS:C0042129",
+              "value": "negative",
+              "unit": null,
+              "flag": "normal"
+            },
+            {
+              "test": "UMLS:C0347014",
+              "value": "negative",
+              "unit": null,
+              "flag": "normal"
+            }
+          ]
+        }
+      }
+    },
+    {
+      "id": "N2",
+      "label": "Step 2",
+      "customData": {
+        "node_id": "B",
+        "node_step_index": 1,
+        "content": "Cystoscopy showed diffuse mucosal redness and bleeding.",
+        "clinical_data": {
+          "procedures": [
+            {
+              "name": "Cystoscopy",
+              "approach": "endoscopic",
+              "location": "bladder",
+              "finding": "diffuse mucosal redness and bleeding"
+            }
+          ]
+        }
+      }
+    },
+    {
+      "id": "N3",
+      "label": "Step 3",
+      "customData": {
+        "node_id": "C",
+        "node_step_index": 2,
+        "content": "Patient was started on methylprednisolone 60 mg/day (1 mg/kg). Symptoms and cystoscopic inflammatory findings improved immediately.",
+        "clinical_data": {
+          "medications": [
+            {
+              "drug": "C0025524",
+              "dosage": "60 mg/day",
+              "frequency": "daily",
+              "modality": "oral",
+              "start_date": null,
+              "end_date": null,
+              "indication": null
+            }
+          ]
+        }
+      }
+    },
+    {
+      "id": "N4",
+      "label": "Step 4",
+      "customData": {
+        "node_id": "D",
+        "node_step_index": 3,
+        "content": "Methylprednisolone was reduced to 20 mg/day and the patient was discharged home while continuing methylprednisolone 20 mg/day.",
+        "clinical_data": {
+          "medications": [
+            {
+              "drug": "C0025727",
+              "dosage": "20 mg/day",
+              "frequency": "daily",
+              "modality": "oral",
+              "start_date": null,
+              "end_date": null,
+              "indication": null
+            }
+          ]
+        }
+      }
+    },
+    {
+      "id": "N5",
+      "label": "Step 5",
+      "customData": {
+        "node_id": "E",
+        "node_step_index": 4,
+        "content": "One month after discharge, the patient experienced a recurrence of glans penile pain, micturition pain, and pyuria. Cystoscopy revealed inflammatory findings in the bladder mucosa.",
+        "clinical_data": {
+          "HPI": [
+            {
+              "summary": "Recurrence of glans penile pain, micturition pain, and pyuria one month after discharge.",
+              "duration": "1 month",
+              "onset": "1 month after discharge",
+              "progression": "unknown",
+              "associated_symptoms": [
+                "Pain",
+                "Pyuria"
+              ]
+            }
+          ],
+          "diagnoses": [
+            {
+              "code": "Inflammatory findings",
+              "label": "Inflammatory findings in the bladder mucosa",
+              "status": "active",
+              "onset_date": null
+            }
+          ]
+        }
+      }
+    },
+    {
+      "id": "N6",
+      "label": "Step 6",
+      "customData": {
+        "node_id": "F",
+        "node_step_index": 5,
+        "content": "Urine culture was negative again.",
+        "clinical_data": {
+          "labs": [
+            {
+              "test": "UMLS:C0042134",
+              "value": "negative",
+              "unit": null,
+              "flag": "normal"
+            }
+          ]
+        }
+      }
+    },
+    {
+      "id": "N7",
+      "label": "Step 7",
+      "customData": {
+        "node_id": "G",
+        "node_step_index": 6,
+        "content": "One month after discharge, the dose of methylprednisolone was gradually increased, but symptoms markedly enhanced. The dose of methylprednisolone was increased to 60 mg/day, 3 weeks after the recurrence of symptoms.",
+        "clinical_data": {
+          "medications": [
+            {
+              "drug": "C0025309",
+              "dosage": "60 mg/day",
+              "frequency": "daily",
+              "modality": "oral",
+              "start_date": null,
+              "end_date": null,
+              "indication": "recurrence of symptoms"
+            }
+          ],
+          "HPI": [
+            {
+              "summary": "Symptoms markedly enhanced one month after discharge, despite gradual increase in methylprednisolone dose. Symptoms recurred 3 weeks prior to methylprednisolone dose increase.",
+              "duration": "1 month",
+              "onset": null,
+              "progression": "fluctuating",
+              "associated_symptoms": [],
+              "alleviating_factors": [],
+              "exacerbating_factors": []
+            }
+          ]
+        }
+      }
+    },
+    {
+      "id": "N8",
+      "label": "Step 8",
+      "customData": {
+        "node_id": "H",
+        "node_step_index": 7,
+        "content": "After increasing the dose of methylprednisolone to 60\u2009mg/day, the symptoms and pyuria improved. It was difficult to reduce the dose of methylprednisolone below 40\u2009mg/day.",
+        "clinical_data": {
+          "medications": [
+            {
+              "drug": "C0025307",
+              "dosage": "60 mg/day",
+              "frequency": "daily",
+              "modality": "oral",
+              "indication": null
+            },
+            {
+              "drug": "C0025307",
+              "dosage": "40 mg/day",
+              "frequency": "daily",
+              "modality": "oral",
+              "indication": null
+            }
+          ],
+          "labs": [
+            {
+              "test": "Pyuria",
+              "value": "positive",
+              "flag": "abnormal"
+            }
+          ],
+          "HPI": [
+            {
+              "summary": "Symptoms improved after increasing methylprednisolone dose.",
+              "alleviating_factors": [
+                "C0025307"
+              ]
+            }
+          ]
+        }
+      }
+    },
+    {
+      "id": "N9",
+      "label": "Step 9",
+      "customData": {
+        "node_id": "I",
+        "node_step_index": 8,
+        "content": "Infliximab (5\u2009mg/kg) administered in conjunction with methylprednisolone. Symptoms of steroid\u2010resistant cystitis were relieved early by concomitant use of infliximab.",
+        "clinical_data": {
+          "medications": [
+            {
+              "drug": "C0678157",
+              "dosage": "5 mg/kg",
+              "frequency": null,
+              "modality": null,
+              "start_date": null,
+              "end_date": null,
+              "indication": "C0010623"
+            },
+            {
+              "drug": "C0025307",
+              "dosage": null,
+              "frequency": null,
+              "modality": null,
+              "start_date": null,
+              "end_date": null,
+              "indication": "C0010623"
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "edges": [
+    {
+      "from": "N1",
+      "to": "N2",
+      "data": {
+        "edge_id": "A_to_B",
+        "branch_flag": true,
+        "content": "Progression from negative urine culture and cytology to cystoscopic findings."
+      }
+    },
+    {
+      "from": "N2",
+      "to": "N3",
+      "data": {
+        "edge_id": "B_to_C",
+        "branch_flag": true,
+        "content": "Initiation of methylprednisolone treatment following cystoscopy.",
+        "transition_event": {
+          "trigger_type": "medication_change",
+          "trigger_entities": [
+            "C0025524"
+          ],
+          "change_type": "addition",
+          "target_domain": "medication"
+        }
+      }
+    },
+    {
+      "from": "N3",
+      "to": "N4",
+      "data": {
+        "edge_id": "C_to_D",
+        "branch_flag": true,
+        "content": "Reduction of methylprednisolone dosage prior to discharge.",
+        "transition_event": {
+          "trigger_type": "medication_change",
+          "trigger_entities": [
+            "C0025727"
+          ],
+          "change_type": "deescalation",
+          "target_domain": "medication"
+        }
+      }
+    },
+    {
+      "from": "N4",
+      "to": "N5",
+      "data": {
+        "edge_id": "D_to_E",
+        "branch_flag": true,
+        "content": "Recurrence of symptoms one month after discharge.",
+        "transition_event": {
+          "trigger_type": "symptom_onset",
+          "trigger_entities": [
+            "C0239288",
+            "C0025797",
+            "C0036384"
+          ],
+          "change_type": "progression",
+          "target_domain": "symptom"
+        }
+      }
+    },
+    {
+      "from": "N5",
+      "to": "N6",
+      "data": {
+        "edge_id": "E_to_F",
+        "branch_flag": true,
+        "content": "Urine culture remains negative despite symptom recurrence."
+      }
+    },
+    {
+      "from": "N6",
+      "to": "N7",
+      "data": {
+        "edge_id": "F_to_G",
+        "branch_flag": true,
+        "content": "Escalation of methylprednisolone dosage due to symptom recurrence.",
+        "transition_event": {
+          "trigger_type": "medication_change",
+          "trigger_entities": [
+            "C0025309"
+          ],
+          "change_type": "escalation",
+          "target_domain": "medication"
+        }
+      }
+    },
+    {
+      "from": "N7",
+      "to": "N8",
+      "data": {
+        "edge_id": "G_to_H",
+        "branch_flag": true,
+        "content": "Improvement of symptoms and pyuria after increasing methylprednisolone dose.",
+        "transition_event": {
+          "trigger_type": "medication_change",
+          "trigger_entities": [
+            "C0025307"
+          ],
+          "change_type": "escalation",
+          "target_domain": "medication"
+        }
+      }
+    },
+    {
+      "from": "N8",
+      "to": "N9",
+      "data": {
+        "edge_id": "H_to_I",
+        "branch_flag": true,
+        "content": "Administration of infliximab in conjunction with methylprednisolone for steroid-resistant cystitis.",
+        "transition_event": {
+          "trigger_type": "medication_change",
+          "trigger_entities": [
+            "C0678157",
+            "C0025307"
+          ],
+          "change_type": "addition",
+          "target_domain": "medication"
+        }
+      }
+    }
+  ]
+}

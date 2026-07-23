@@ -1,0 +1,21 @@
+{
+    "version": "2.0.0",
+    "tasks": [
+      {
+        "label": "Run current file as -m module",
+        "type": "shell",
+        "command": "/bin/bash",
+        "args": [
+          "-c",
+          "source .venv/bin/activate && .vscode/run_module.sh \"$0\"",
+          "${file}"
+        ],
+        "presentation": {
+          "reveal": "always"
+        },
+        "problemMatchers": [
+          "$eslint-compact"
+        ]
+      }
+    ]
+  }

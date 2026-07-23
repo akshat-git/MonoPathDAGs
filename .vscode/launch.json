@@ -1,0 +1,12 @@
+{
+    "version": "0.2.0",
+    "configurations": [
+      {
+        "name": "▶ Run task: python -m module via script",
+        "type": "shell",
+        "request": "launch",
+        "command": "${workspaceFolder}/.vscode/run_module.sh",
+        "args": ["${file}"]
+      }
+    ]
+  }

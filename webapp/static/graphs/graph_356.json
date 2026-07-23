@@ -1,0 +1,672 @@
+{
+  "nodes": [
+    {
+      "id": "N1",
+      "label": "Step 1",
+      "customData": {
+        "node_id": "A",
+        "node_step_index": 0,
+        "content": "71-year-old man diagnosed with advanced non-small cell lung carcinoma and pleura and lymph node metastasis.",
+        "clinical_data": {
+          "diagnoses": [
+            {
+              "code": "C34",
+              "label": "Malignant neoplasm of bronchus and lung",
+              "status": "active"
+            },
+            {
+              "code": "C79.2",
+              "label": "Malignant secondary neoplasm of skin",
+              "status": "active"
+            },
+            {
+              "code": "C77",
+              "label": "Secondary and unspecified malignant neoplasm of lymph nodes",
+              "status": "active"
+            }
+          ]
+        }
+      }
+    },
+    {
+      "id": "N2",
+      "label": "Step 2",
+      "customData": {
+        "node_id": "B",
+        "node_step_index": 1,
+        "content": "Received carboplatin, paclitaxel, bevacizumab and atezolizumab every 3 weeks as first-line chemotherapy for 4 months.",
+        "clinical_data": {
+          "medications": [
+            {
+              "drug": "C0007077",
+              "dosage": null,
+              "frequency": "every 3 weeks",
+              "modality": null,
+              "start_date": null,
+              "end_date": null,
+              "indication": "C0009262"
+            },
+            {
+              "drug": "C0030383",
+              "dosage": null,
+              "frequency": "every 3 weeks",
+              "modality": null,
+              "start_date": null,
+              "end_date": null,
+              "indication": "C0009262"
+            },
+            {
+              "drug": "C1263455",
+              "dosage": null,
+              "frequency": "every 3 weeks",
+              "modality": null,
+              "start_date": null,
+              "end_date": null,
+              "indication": "C0009262"
+            },
+            {
+              "drug": "C4049449",
+              "dosage": null,
+              "frequency": "every 3 weeks",
+              "modality": null,
+              "start_date": null,
+              "end_date": null,
+              "indication": "C0009262"
+            }
+          ],
+          "diagnoses": [
+            {
+              "code": "C0009262",
+              "label": "Neoplasm",
+              "status": "active",
+              "onset_date": null
+            }
+          ]
+        }
+      }
+    },
+    {
+      "id": "N3",
+      "label": "Step 3",
+      "customData": {
+        "node_id": "C",
+        "node_step_index": 2,
+        "content": "Docetaxel and ramucirumab were administered as second-line treatment.",
+        "clinical_data": {
+          "medications": [
+            {
+              "drug": "C0013067",
+              "dosage": null,
+              "frequency": null,
+              "modality": null,
+              "start_date": null,
+              "end_date": null,
+              "indication": null
+            },
+            {
+              "drug": "C3269952",
+              "dosage": null,
+              "frequency": null,
+              "modality": null,
+              "start_date": null,
+              "end_date": null,
+              "indication": null
+            }
+          ]
+        }
+      }
+    },
+    {
+      "id": "N4",
+      "label": "Step 4",
+      "customData": {
+        "node_id": "D",
+        "node_step_index": 3,
+        "content": "The patient had three episodes of ileocecal diverticulitis following chemotherapy, all of which were treated conservatively with antimicrobials and fasting therapy.",
+        "clinical_data": {
+          "diagnoses": [
+            {
+              "code": "313140002",
+              "label": "Ileocecal diverticulitis",
+              "status": "historical"
+            }
+          ],
+          "procedures": [
+            {
+              "name": "Antimicrobial therapy",
+              "approach": "other",
+              "outcome": "treated"
+            },
+            {
+              "name": "Fasting therapy",
+              "approach": "other",
+              "outcome": "treated"
+            }
+          ]
+        }
+      }
+    },
+    {
+      "id": "N5",
+      "label": "Step 5",
+      "customData": {
+        "node_id": "E",
+        "node_step_index": 4,
+        "content": "The patient presented with the fourth diverticulitis episode, accompanied by fever and abdominal pain that had worsened over 5 days. Physical examination revealed tenderness and rigidity throughout the abdomen. Body temperature was 37.7\u00b0C. Laboratory data indicated inflammation, with a WBC count of 21400/\u03bcL and a CRP level of 23.8 mg/dL. Abdominal CT imaging showed ascites and intra-abdominal free air around the right-side colon.",
+        "clinical_data": {
+          "HPI": [
+            {
+              "summary": "Patient presented with the fourth diverticulitis episode, accompanied by fever and abdominal pain that had worsened over 5 days.",
+              "duration": "5 days",
+              "progression": "worsened",
+              "associated_symptoms": [
+                "Abdominal pain",
+                "Fever"
+              ]
+            }
+          ],
+          "vitals": [
+            {
+              "type": "Body temperature",
+              "value": "37.7",
+              "unit": "\u00b0C"
+            }
+          ],
+          "labs": [
+            {
+              "test": "White blood cell count",
+              "value": "21400",
+              "unit": "/\u03bcL",
+              "flag": "abnormal"
+            },
+            {
+              "test": "C-reactive protein",
+              "value": "23.8",
+              "unit": "mg/dL",
+              "flag": "abnormal"
+            }
+          ],
+          "imaging": [
+            {
+              "type": "Abdominal CT imaging",
+              "body_part": "Abdomen",
+              "modality": "CT",
+              "finding": "ascites and intra-abdominal free air around the right-side colon"
+            }
+          ],
+          "diagnoses": [
+            {
+              "code": "54808006",
+              "label": "Diverticulitis",
+              "status": "active"
+            }
+          ]
+        }
+      }
+    },
+    {
+      "id": "N6",
+      "label": "Step 6",
+      "customData": {
+        "node_id": "F",
+        "node_step_index": 5,
+        "content": "The patient underwent emergency laparotomy with a midline incision. Surveying the small bowel revealed that ileal perforation occurred only a few centimeters proximal to the ileocolic valve. The patient underwent ileocecal resection, ileostomy and a colonic mucous fistula.",
+        "clinical_data": {
+          "procedures": [
+            {
+              "name": "Laparotomy",
+              "approach": "open",
+              "date": null,
+              "location": "abdomen",
+              "performed_by": null,
+              "outcome": null
+            },
+            {
+              "name": "Small bowel resection",
+              "approach": "open",
+              "date": null,
+              "location": "ileum",
+              "performed_by": null,
+              "outcome": null
+            },
+            {
+              "name": "Ileocecal resection",
+              "approach": "open",
+              "date": null,
+              "location": "ileocecal valve",
+              "performed_by": null,
+              "outcome": null
+            },
+            {
+              "name": "Ileostomy",
+              "approach": "open",
+              "date": null,
+              "location": "ileum",
+              "performed_by": null,
+              "outcome": null
+            },
+            {
+              "name": "Colonic mucous fistula",
+              "approach": "open",
+              "date": null,
+              "location": "colon",
+              "performed_by": null,
+              "outcome": null
+            }
+          ],
+          "diagnoses": [
+            {
+              "code": "C0021842",
+              "label": "Ileal Perforation",
+              "status": "active",
+              "onset_date": null
+            }
+          ]
+        }
+      }
+    },
+    {
+      "id": "N7",
+      "label": "Step 7",
+      "customData": {
+        "node_id": "G",
+        "node_step_index": 6,
+        "content": "Surgically resected specimen macroscopic findings indicated multiple ileal diverticula, with one perforated on the mesenteric border.",
+        "clinical_data": {
+          "procedures": [
+            {
+              "name": "Surgical resection",
+              "approach": "open",
+              "location": "ileum",
+              "outcome": "resection of ileal diverticula"
+            }
+          ],
+          "diagnoses": [
+            {
+              "code": "SNOMED:76752002",
+              "label": "Diverticulum of ileum",
+              "status": "active"
+            },
+            {
+              "code": "UMLS:C0262423",
+              "label": "Perforation",
+              "status": "active",
+              "location": "ileal diverticulum"
+            }
+          ],
+          "imaging": [
+            {
+              "body_part": "Ileum",
+              "finding": "multiple ileal diverticula, with one perforated on the mesenteric border"
+            }
+          ]
+        }
+      }
+    },
+    {
+      "id": "N8",
+      "label": "Step 8",
+      "customData": {
+        "node_id": "H",
+        "node_step_index": 7,
+        "content": "Histopathology revealed a pseudodiverticulum at the perforation site, with mucosal depression through the muscularis propria and inflammatory cell infiltration with abscess formation penetrating the serous surface.",
+        "clinical_data": {
+          "diagnoses": [
+            {
+              "code": "C0034240",
+              "label": "Pseudodiverticulum",
+              "status": "active"
+            },
+            {
+              "code": "C0031333",
+              "label": "Perforation",
+              "status": "active"
+            },
+            {
+              "code": "C0021821",
+              "label": "Inflammation",
+              "status": "active"
+            },
+            {
+              "code": "C0000768",
+              "label": "Abscess",
+              "status": "active"
+            }
+          ]
+        }
+      }
+    },
+    {
+      "id": "N9",
+      "label": "Step 9",
+      "customData": {
+        "node_id": "I",
+        "node_step_index": 8,
+        "content": "Postoperative course was uneventful, and the patient was discharged 24 days after surgery.",
+        "clinical_data": {}
+      }
+    },
+    {
+      "id": "N10",
+      "label": "Step 10",
+      "customData": {
+        "node_id": "J",
+        "node_step_index": 9,
+        "content": "The patient opted for chemotherapy again and died about 6 months after the surgery.",
+        "clinical_data": {}
+      }
+    },
+    {
+      "id": "N11",
+      "label": "Step 11",
+      "customData": {
+        "node_id": "K",
+        "node_step_index": 10,
+        "content": "49-year-old male with appendicitis who underwent ileocecal resection.",
+        "clinical_data": {
+          "diagnoses": [
+            {
+              "code": "C0003604",
+              "label": "Appendicitis",
+              "status": "active"
+            }
+          ],
+          "procedures": [
+            {
+              "name": "C0267559",
+              "approach": "open",
+              "location": "Ileocecal valve"
+            }
+          ]
+        }
+      }
+    },
+    {
+      "id": "N12",
+      "label": "Step 12",
+      "customData": {
+        "node_id": "L",
+        "node_step_index": 11,
+        "content": "Patient with appendectomy, inguinal hernia, and heart failure taking various medications for sigmoid diverticulitis who underwent right hemicolectomy.",
+        "clinical_data": {
+          "procedures": [
+            {
+              "name": "Appendectomy",
+              "approach": "other",
+              "date": null,
+              "location": null,
+              "performed_by": null,
+              "outcome": null
+            },
+            {
+              "name": "Right hemicolectomy",
+              "approach": "other",
+              "date": null,
+              "location": null,
+              "performed_by": null,
+              "outcome": null
+            }
+          ],
+          "diagnoses": [
+            {
+              "code": "54722006",
+              "label": "Inguinal hernia",
+              "status": "historical",
+              "onset_date": null
+            },
+            {
+              "code": "84114007",
+              "label": "Heart failure",
+              "status": "active",
+              "onset_date": null
+            },
+            {
+              "code": "447534005",
+              "label": "Sigmoid diverticulitis",
+              "status": "active",
+              "onset_date": null
+            }
+          ]
+        }
+      }
+    },
+    {
+      "id": "N13",
+      "label": "Step 13",
+      "customData": {
+        "node_id": "M",
+        "node_step_index": 12,
+        "content": "30-year-old male who underwent segmental ileal resection for diverticulitis.",
+        "clinical_data": {
+          "procedures": [
+            {
+              "name": "Segmental resection of ileum",
+              "approach": "open",
+              "date": null,
+              "location": "ileum",
+              "performed_by": null,
+              "outcome": null
+            }
+          ],
+          "diagnoses": [
+            {
+              "code": "UMLS:C0012682",
+              "label": "Diverticulitis",
+              "status": "historical",
+              "onset_date": null
+            }
+          ]
+        }
+      }
+    },
+    {
+      "id": "N14",
+      "label": "Step 14",
+      "customData": {
+        "node_id": "N",
+        "node_step_index": 13,
+        "content": "75-year-old male with penetration of terminal ileum who underwent right hemicolectomy for diverticulitis.",
+        "clinical_data": {
+          "diagnoses": [
+            {
+              "code": "K57.30",
+              "label": "Diverticulitis of large intestine without perforation or abscess without bleeding",
+              "status": "historical"
+            }
+          ],
+          "procedures": [
+            {
+              "name": "Right hemicolectomy",
+              "approach": "open",
+              "date": null,
+              "location": "terminal ileum",
+              "performed_by": null,
+              "outcome": null
+            }
+          ]
+        }
+      }
+    },
+    {
+      "id": "N15",
+      "label": "Step 15",
+      "customData": {
+        "node_id": "O",
+        "node_step_index": 14,
+        "content": "65-year-old male with hypertension and angina who underwent elective surgery for sigmoid diverticulitis.",
+        "clinical_data": {
+          "diagnoses": [
+            {
+              "code": "5362006",
+              "label": "Diverticulitis of sigmoid colon",
+              "status": "active"
+            },
+            {
+              "code": "73211009",
+              "label": "Hypertension",
+              "status": "active"
+            },
+            {
+              "code": "25358001",
+              "label": "Angina",
+              "status": "active"
+            }
+          ],
+          "procedures": [
+            {
+              "name": "Elective surgery",
+              "approach": "open",
+              "location": "Sigmoid colon"
+            }
+          ]
+        }
+      }
+    },
+    {
+      "id": "N16",
+      "label": "Step 16",
+      "customData": {
+        "node_id": "P",
+        "node_step_index": "",
+        "clinical_data": {}
+      }
+    }
+  ],
+  "edges": [
+    {
+      "from": "N1",
+      "to": "N2",
+      "data": {
+        "edge_id": "A_to_B",
+        "branch_flag": true,
+        "content": "Initiation of first-line chemotherapy."
+      }
+    },
+    {
+      "from": "N2",
+      "to": "N3",
+      "data": {
+        "edge_id": "B_to_C",
+        "branch_flag": true,
+        "content": "Progression to second-line treatment due to advanced non-small cell lung carcinoma."
+      }
+    },
+    {
+      "from": "N3",
+      "to": "N4",
+      "data": {
+        "edge_id": "C_to_D",
+        "branch_flag": true,
+        "content": "Development of ileocecal diverticulitis following chemotherapy."
+      }
+    },
+    {
+      "from": "N4",
+      "to": "N5",
+      "data": {
+        "edge_id": "D_to_E",
+        "branch_flag": true,
+        "content": "Recurrent diverticulitis episode with worsening symptoms and signs of peritonitis."
+      }
+    },
+    {
+      "from": "N5",
+      "to": "N6",
+      "data": {
+        "edge_id": "E_to_F",
+        "branch_flag": true,
+        "content": "Emergency laparotomy due to ileal perforation."
+      }
+    },
+    {
+      "from": "N6",
+      "to": "N7",
+      "data": {
+        "edge_id": "F_to_G",
+        "branch_flag": true,
+        "content": "Macroscopic findings of resected specimen."
+      }
+    },
+    {
+      "from": "N7",
+      "to": "N8",
+      "data": {
+        "edge_id": "G_to_H",
+        "branch_flag": true,
+        "content": "Histopathological analysis of resected specimen."
+      }
+    },
+    {
+      "from": "N8",
+      "to": "N9",
+      "data": {
+        "edge_id": "H_to_I",
+        "branch_flag": true,
+        "content": "Postoperative recovery."
+      }
+    },
+    {
+      "from": "N9",
+      "to": "N10",
+      "data": {
+        "edge_id": "I_to_J",
+        "branch_flag": true,
+        "content": "Patient's decision to resume chemotherapy and subsequent death."
+      }
+    },
+    {
+      "from": "N10",
+      "to": "N11",
+      "data": {
+        "edge_id": "J_to_K",
+        "branch_flag": true,
+        "content": "New patient with appendicitis undergoing ileocecal resection."
+      }
+    },
+    {
+      "from": "N11",
+      "to": "N12",
+      "data": {
+        "edge_id": "K_to_L",
+        "branch_flag": true,
+        "content": "New patient with appendectomy, inguinal hernia, and heart failure taking various medications for sigmoid diverticulitis who underwent right hemicolectomy."
+      }
+    },
+    {
+      "from": "N12",
+      "to": "N13",
+      "data": {
+        "edge_id": "L_to_M",
+        "branch_flag": true,
+        "content": "New patient undergoing segmental ileal resection for diverticulitis."
+      }
+    },
+    {
+      "from": "N13",
+      "to": "N14",
+      "data": {
+        "edge_id": "M_to_N",
+        "branch_flag": true,
+        "content": "New patient with penetration of terminal ileum undergoing right hemicolectomy for diverticulitis."
+      }
+    },
+    {
+      "from": "N14",
+      "to": "N15",
+      "data": {
+        "edge_id": "N_to_O",
+        "branch_flag": true,
+        "content": "New patient with hypertension and angina undergoing elective surgery for sigmoid diverticulitis."
+      }
+    },
+    {
+      "from": "N15",
+      "to": "N16",
+      "data": {
+        "edge_id": "O_to_P",
+        "branch_flag": true,
+        "content": "End of case report."
+      }
+    }
+  ]
+}

@@ -1,0 +1,338 @@
+{
+  "nodes": [
+    {
+      "id": "N1",
+      "label": "Step 1",
+      "customData": {
+        "node_id": "A",
+        "node_step_index": 0,
+        "content": "66-year-old man with a history of smoking 20 cigarettes per day until the age of 50, abstained for the past 16 years, and cerebral infarction, for which he takes 25 mg of clopidogrel.",
+        "clinical_data": {
+          "social_history": [
+            {
+              "category": "smoking",
+              "status": "past",
+              "description": "20 cigarettes per day until the age of 50, abstained for the past 16 years"
+            }
+          ],
+          "medications": [
+            {
+              "drug": "clopidogrel",
+              "dosage": "25 mg",
+              "frequency": null,
+              "modality": null,
+              "start_date": null,
+              "end_date": null,
+              "indication": "cerebral infarction"
+            }
+          ],
+          "diagnoses": [
+            {
+              "code": null,
+              "label": "cerebral infarction",
+              "status": "historical",
+              "onset_date": null
+            }
+          ]
+        }
+      },
+      "custom_id": "graph_049_N0"
+    },
+    {
+      "id": "N2",
+      "label": "Step 2",
+      "customData": {
+        "node_id": "B",
+        "node_step_index": 1,
+        "content": "Chest radiography during a routine medical checkup revealed a 3 cm mass in the left middle lung field.",
+        "clinical_data": {
+          "imaging": [
+            {
+              "type": "Radiography (procedure)",
+              "body_part": "Lung",
+              "modality": "X-ray",
+              "finding": "3 cm mass in the left middle lung field",
+              "date": null
+            }
+          ]
+        }
+      },
+      "custom_id": "graph_049_N1"
+    },
+    {
+      "id": "N3",
+      "label": "Step 3",
+      "customData": {
+        "node_id": "C",
+        "node_step_index": 2,
+        "content": "Hypertension, managed with candesartan 4 mg. Blood tests revealed no significant abnormalities. Carcinoembryonic antigen at 2.1 ng/mL, squamous cell carcinoma antigen at 1.5 ng/mL, and cytokeratin 19 fragment at 0.9 ng/mL. Contrast-enhanced CT imaging showed a ground-glass nodule with a maximum diameter of 4.6 cm and a solid component measuring 4 cm, located in S9/10 of the left lower lobe. Absence of emphysema.",
+        "clinical_data": {
+          "medications": [
+            {
+              "drug": "C0974744",
+              "dosage": "4 mg",
+              "frequency": null,
+              "modality": null,
+              "start_date": null,
+              "end_date": null,
+              "indication": "C0020538"
+            }
+          ],
+          "labs": [
+            {
+              "test": "C0007097",
+              "value": "2.1",
+              "unit": "ng/mL",
+              "flag": null,
+              "reference_range": null,
+              "timestamp": null
+            },
+            {
+              "test": "C0162673",
+              "value": "1.5",
+              "unit": "ng/mL",
+              "flag": null,
+              "reference_range": null,
+              "timestamp": null
+            },
+            {
+              "test": "C1297544",
+              "value": "0.9",
+              "unit": "ng/mL",
+              "flag": null,
+              "reference_range": null,
+              "timestamp": null
+            }
+          ],
+          "imaging": [
+            {
+              "type": "C0205341",
+              "body_part": "C0442624",
+              "modality": "CT",
+              "finding": "ground-glass nodule with a maximum diameter of 4.6 cm and a solid component measuring 4 cm",
+              "impression": null,
+              "date": null
+            }
+          ],
+          "diagnoses": [
+            {
+              "code": "C0024117",
+              "label": "Hypertension",
+              "status": "active",
+              "onset_date": null
+            }
+          ]
+        }
+      },
+      "custom_id": "graph_049_N2"
+    },
+    {
+      "id": "N4",
+      "label": "Step 4",
+      "customData": {
+        "node_id": "D",
+        "node_step_index": 3,
+        "content": "Pulmonary function tests indicated normal respiratory capacity. Contrast-enhanced CT: No emphysematous changes or inflammation were observed at the pneumatocele site. Part-solid nodule measuring 1.6 \u00d7 1.4 cm, with a 1.5 cm solid component, was detected in S9/10 of the left lower lobe. Part-solid nodule with a maximum diameter of 4.6 cm and a solid component measuring 4.1 cm was observed.",
+        "clinical_data": {
+          "labs": [
+            {
+              "test": "Pulmonary function test",
+              "value": "normal",
+              "unit": null,
+              "flag": "normal"
+            }
+          ],
+          "imaging": [
+            {
+              "type": "Nodule",
+              "body_part": "Lung",
+              "modality": "CT",
+              "finding": "Part-solid nodule measuring 1.6 \u00d7 1.4 cm, with a 1.5 cm solid component, was detected in S9/10 of the left lower lobe.",
+              "impression": null
+            },
+            {
+              "type": "Nodule",
+              "body_part": "Lung",
+              "modality": "CT",
+              "finding": "Part-solid nodule with a maximum diameter of 4.6 cm and a solid component measuring 4.1 cm was observed.",
+              "impression": null
+            }
+          ]
+        }
+      },
+      "custom_id": "graph_049_N3"
+    },
+    {
+      "id": "N5",
+      "label": "Step 5",
+      "customData": {
+        "node_id": "E",
+        "node_step_index": 4,
+        "content": "PET-CT: Mild accumulation in the mass in the left lower lobe, with an SUVmax of 2.04. No evidence of distant metastasis. Fluorodeoxyglucose accumulation was detected in the tumor in the left lower lobe, with an SUVmax of 2.04. Contrast-enhanced MRI of the head revealed no abnormalities suggestive of brain metastasis.",
+        "clinical_data": {
+          "imaging": [
+            {
+              "type": "Positron emission tomography/computed tomography",
+              "body_part": "lower lobe of left lung",
+              "modality": "PET-CT",
+              "finding": "Mild accumulation in the mass",
+              "impression": "No evidence of distant metastasis",
+              "date": null
+            },
+            {
+              "type": "Fluorodeoxyglucose accumulation",
+              "body_part": "lower lobe of left lung",
+              "modality": "PET",
+              "finding": "Fluorodeoxyglucose accumulation was detected in the tumor",
+              "impression": null,
+              "date": null
+            },
+            {
+              "type": "Magnetic resonance imaging",
+              "body_part": "head",
+              "modality": "MRI",
+              "finding": "no abnormalities",
+              "impression": "no abnormalities suggestive of brain metastasis",
+              "date": null
+            }
+          ]
+        }
+      },
+      "custom_id": "graph_049_N4"
+    },
+    {
+      "id": "N6",
+      "label": "Step 6",
+      "customData": {
+        "node_id": "F",
+        "node_step_index": 5,
+        "content": "Bronchoscopy: transbronchial lung biopsy and brushing/irrigation cytology showed no evidence of cancer. Suspected stage IB primary lung cancer. Surgical biopsy followed by lobectomy planned.",
+        "clinical_data": {
+          "procedures": [
+            {
+              "name": "Bronchoscopy",
+              "date": null,
+              "location": "lung",
+              "outcome": "no evidence of cancer"
+            },
+            {
+              "name": "Biopsy",
+              "date": null,
+              "location": "lung",
+              "outcome": null
+            },
+            {
+              "name": "Lobectomy",
+              "date": null,
+              "location": "lung",
+              "outcome": null
+            }
+          ],
+          "diagnoses": [
+            {
+              "code": null,
+              "label": "Suspected stage IB primary lung cancer",
+              "status": "suspected",
+              "onset_date": null
+            }
+          ],
+          "imaging": [
+            {
+              "type": null,
+              "body_part": "lung",
+              "modality": null,
+              "finding": null,
+              "impression": null,
+              "date": null
+            }
+          ]
+        }
+      },
+      "custom_id": "graph_049_N5"
+    }
+  ],
+  "edges": [
+    {
+      "from": "N1",
+      "to": "N2",
+      "data": {
+        "edge_id": "A_to_B",
+        "branch_flag": true,
+        "content": "Transition from patient's history and routine checkup to discovery of lung mass."
+      },
+      "custom_id": "graph_049_N1_N2"
+    },
+    {
+      "from": "N2",
+      "to": "N3",
+      "data": {
+        "edge_id": "B_to_C",
+        "branch_flag": true,
+        "content": "Further investigation of lung mass with CT imaging and blood tests.",
+        "transition_event": {
+          "trigger_type": "imaging",
+          "trigger_entities": [
+            "C0205341"
+          ],
+          "change_type": "progression",
+          "target_domain": "imaging"
+        }
+      },
+      "custom_id": "graph_049_N2_N3"
+    },
+    {
+      "from": "N3",
+      "to": "N4",
+      "data": {
+        "edge_id": "C_to_D",
+        "branch_flag": true,
+        "content": "Pulmonary function tests and follow-up CT imaging to assess the lung nodule.",
+        "transition_event": {
+          "trigger_type": "lab_change",
+          "trigger_entities": [
+            "Pulmonary function test"
+          ],
+          "change_type": "other",
+          "target_domain": "lab"
+        }
+      },
+      "custom_id": "graph_049_N3_N4"
+    },
+    {
+      "from": "N4",
+      "to": "N5",
+      "data": {
+        "edge_id": "D_to_E",
+        "branch_flag": true,
+        "content": "PET-CT and MRI of the head to evaluate the lung nodule and rule out metastasis.",
+        "transition_event": {
+          "trigger_type": "imaging",
+          "trigger_entities": [
+            "Positron emission tomography/computed tomography"
+          ],
+          "change_type": "progression",
+          "target_domain": "imaging"
+        }
+      },
+      "custom_id": "graph_049_N4_N5"
+    },
+    {
+      "from": "N5",
+      "to": "N6",
+      "data": {
+        "edge_id": "E_to_F",
+        "branch_flag": true,
+        "content": "Bronchoscopy and biopsy to determine the nature of the lung nodule, leading to a suspected diagnosis and planned surgical intervention.",
+        "transition_event": {
+          "trigger_type": "procedure",
+          "trigger_entities": [
+            "Bronchoscopy"
+          ],
+          "change_type": "other",
+          "target_domain": "procedure"
+        }
+      },
+      "custom_id": "graph_049_N5_N6"
+    }
+  ]
+}

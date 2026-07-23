@@ -1,0 +1,314 @@
+{
+  "nodes": [
+    {
+      "id": "N1",
+      "label": "Step 1",
+      "customData": {
+        "node_id": "A",
+        "node_step_index": 0,
+        "content": "In July 2023, the patient experienced frequent headaches, forgetfulness, and uncontrollable hand tremors. The patient has an Eastern Cooperative Oncology Group Performance Status of 1 (ECOG PS 1). The patient has a 25-year smoking history, averaging 20 cigarettes a day, without comorbidities.",
+        "clinical_data": {
+          "HPI": [
+            {
+              "summary": "Patient experienced frequent headaches, forgetfulness, and uncontrollable hand tremors.",
+              "onset": "July 2023",
+              "progression": "unknown",
+              "associated_symptoms": [
+                "Headache",
+                "Forgetfulness",
+                "Hand tremor"
+              ]
+            }
+          ],
+          "functional_status": [
+            {
+              "domain": "general",
+              "description": "Eastern Cooperative Oncology Group Performance Status of 1 (ECOG PS 1)",
+              "score": 1,
+              "scale": "ECOG PS"
+            }
+          ],
+          "social_history": [
+            {
+              "category": "smoking",
+              "status": "current",
+              "description": "25-year smoking history, averaging 20 cigarettes a day"
+            }
+          ]
+        }
+      },
+      "custom_id": "graph_043_N0"
+    },
+    {
+      "id": "N2",
+      "label": "Step 2",
+      "customData": {
+        "node_id": "B",
+        "node_step_index": 1,
+        "content": "In August 2023, a 45-year-old female presented with metastatic lung cancer and a family history positive for malignancy (mother suffered from lung and cervical cancer). MRI of the endocranium (07/23) showed an expansive frontal lesion in diameter of 3.9 \u00d7 3.4 \u00d7 3.8 cm, bordered by extensive perifocal vasogenic edema with a compressive effect on the surrounding brain parenchyma, and a smaller cerebellar lesion on the left hemisphere of the brain.",
+        "clinical_data": {
+          "diagnoses": [
+            {
+              "code": "C34",
+              "label": "Lung Cancer",
+              "status": "active",
+              "onset_date": null
+            },
+            {
+              "code": "C79.31",
+              "label": "Secondary malignant neoplasm of brain",
+              "status": "active",
+              "onset_date": null
+            }
+          ],
+          "imaging": [
+            {
+              "type": "MRI of endocranium",
+              "body_part": "Endocranium",
+              "modality": "MRI",
+              "finding": "Expansive frontal lesion in diameter of 3.9 \u00d7 3.4 \u00d7 3.8 cm, bordered by extensive perifocal vasogenic edema with a compressive effect on the surrounding brain parenchyma, and a smaller cerebellar lesion on the left hemisphere of the brain",
+              "impression": "Metastatic lung cancer",
+              "date": "2023-07"
+            }
+          ],
+          "social_history": [
+            {
+              "category": "family history",
+              "status": "positive",
+              "description": "Mother suffered from lung and cervical cancer"
+            }
+          ]
+        }
+      },
+      "custom_id": "graph_043_N1"
+    },
+    {
+      "id": "N3",
+      "label": "Step 3",
+      "customData": {
+        "node_id": "C",
+        "node_step_index": 2,
+        "content": "MSCT of the chest (08/23) revealed a 28 \u00d7 31 \u00d7 29 mm spiculated tumor in the left upper lobe, located posteriorly along the aorta, left a pulmonalis, and along the incision. Mediastinal lymphadenopathy was present, with the largest lymph node measuring approximately 25 \u00d7 16 mm. The tumor was staged as T4N2M1, clinical stage 4.",
+        "clinical_data": {
+          "imaging": [
+            {
+              "type": "Mass",
+              "body_part": "Lung",
+              "modality": "CT",
+              "finding": "28 \u00d7 31 \u00d7 29 mm spiculated tumor in the left upper lobe, located posteriorly along the aorta, left a pulmonalis, and along the incision",
+              "date": "2023-08-23"
+            },
+            {
+              "type": "Lymphadenopathy",
+              "body_part": "Mediastinum",
+              "modality": "CT",
+              "finding": "Mediastinal lymphadenopathy, with the largest lymph node measuring approximately 25 \u00d7 16 mm",
+              "date": "2023-08-23"
+            }
+          ],
+          "diagnoses": [
+            {
+              "code": "T4N2M1",
+              "label": "Stage 4 Lung Cancer",
+              "status": "active"
+            }
+          ]
+        }
+      },
+      "custom_id": "graph_043_N2"
+    },
+    {
+      "id": "N4",
+      "label": "Step 4",
+      "customData": {
+        "node_id": "D",
+        "node_step_index": 3,
+        "content": "The patient underwent surgery for a tumor in the frontal region of the left hemisphere of the brain.",
+        "clinical_data": {
+          "procedures": [
+            {
+              "name": "Surgery",
+              "location": "frontal region of the left hemisphere of the brain",
+              "date": null
+            }
+          ]
+        }
+      },
+      "custom_id": "graph_043_N3"
+    },
+    {
+      "id": "N5",
+      "label": "Step 5",
+      "customData": {
+        "node_id": "E",
+        "node_step_index": 4,
+        "content": "The cerebellar tumor was treated with X-knife radiosurgery. Pathohistological analysis of brain metastasis revealed primary lung adenocarcinoma. Molecular testing showed PD-L1 TPS 55%, ALK expression absent, EGFR wild type. Pembrolizumab treatment was initiated due to PD-L1 expression > 50%.",
+        "clinical_data": {
+          "procedures": [
+            {
+              "name": "Stereotactic radiosurgery",
+              "approach": "other",
+              "date": null,
+              "location": "cerebellum",
+              "performed_by": null,
+              "outcome": null
+            }
+          ],
+          "diagnoses": [
+            {
+              "code": "C34",
+              "label": "primary lung adenocarcinoma",
+              "status": "active",
+              "onset_date": null
+            },
+            {
+              "code": "C79.31",
+              "label": "Brain metastasis",
+              "status": "active",
+              "onset_date": null
+            }
+          ],
+          "labs": [
+            {
+              "test": "PD-L1 TPS",
+              "value": "55",
+              "unit": "%",
+              "flag": "normal",
+              "reference_range": null,
+              "timestamp": null
+            },
+            {
+              "test": "ALK expression",
+              "value": "absent",
+              "unit": null,
+              "flag": "normal",
+              "reference_range": null,
+              "timestamp": null
+            },
+            {
+              "test": "EGFR",
+              "value": "wild type",
+              "unit": null,
+              "flag": "normal",
+              "reference_range": null,
+              "timestamp": null
+            }
+          ],
+          "medications": [
+            {
+              "drug": "Pembrolizumab",
+              "dosage": null,
+              "frequency": null,
+              "modality": "IV",
+              "start_date": null,
+              "end_date": null,
+              "indication": "PD-L1 expression > 50%"
+            }
+          ]
+        }
+      },
+      "custom_id": "graph_043_N4"
+    },
+    {
+      "id": "N6",
+      "label": "Step 6",
+      "customData": {
+        "node_id": "F",
+        "node_step_index": 5,
+        "content": "In October 2023, follow-up MSCT of the chest and abdomen (10/23) showed the first immune unconfirmed progressive disease (iUPD) in the upper left lobe, with the tumor measuring 32 \u00d7 68 \u00d7 70 mm. Lymph Nodes (LNs) conglomerate from group 4L and 5 measured 37 \u00d7 45 \u00d7 40 mm. Pericardial effusion was 14 mm. Endocranial MRI (10/23) showed stable disease (SD).",
+        "clinical_data": {
+          "imaging": [
+            {
+              "type": "Computed tomography",
+              "body_part": "Chest",
+              "modality": "CT",
+              "finding": "immune unconfirmed progressive disease (iUPD) in the upper left lobe, with the tumor measuring 32 \u00d7 68 \u00d7 70 mm",
+              "date": "2023-10"
+            },
+            {
+              "type": "Computed tomography",
+              "body_part": "Abdomen",
+              "modality": "CT",
+              "finding": "immune unconfirmed progressive disease (iUPD) in the upper left lobe, with the tumor measuring 32 \u00d7 68 \u00d7 70 mm",
+              "date": "2023-10"
+            },
+            {
+              "type": "Computed tomography",
+              "body_part": "Lymph Nodes (LNs) conglomerate from group 4L and 5",
+              "modality": "CT",
+              "finding": "Lymph Nodes (LNs) conglomerate from group 4L and 5 measured 37 \u00d7 45 \u00d7 40 mm",
+              "date": "2023-10"
+            },
+            {
+              "type": "Computed tomography",
+              "body_part": "Pericardium",
+              "modality": "CT",
+              "finding": "Pericardial effusion was 14 mm",
+              "date": "2023-10"
+            },
+            {
+              "type": "Magnetic resonance imaging",
+              "body_part": "Endocranial",
+              "modality": "MRI",
+              "finding": "stable disease (SD)",
+              "date": "2023-10"
+            }
+          ]
+        }
+      },
+      "custom_id": "graph_043_N5"
+    }
+  ],
+  "edges": [
+    {
+      "from": "N1",
+      "to": "N2",
+      "data": {
+        "edge_id": "A_to_B",
+        "branch_flag": true,
+        "content": "Patient transitioned from experiencing headaches, forgetfulness, and hand tremors to being diagnosed with metastatic lung cancer with brain lesions."
+      },
+      "custom_id": "graph_043_N1_N2"
+    },
+    {
+      "from": "N2",
+      "to": "N3",
+      "data": {
+        "edge_id": "B_to_C",
+        "branch_flag": true,
+        "content": "Lung cancer was further staged via MSCT of the chest, revealing a spiculated tumor and mediastinal lymphadenopathy, leading to a T4N2M1 stage 4 diagnosis."
+      },
+      "custom_id": "graph_043_N2_N3"
+    },
+    {
+      "from": "N3",
+      "to": "N4",
+      "data": {
+        "edge_id": "C_to_D",
+        "branch_flag": true,
+        "content": "Patient underwent surgery for a tumor in the frontal region of the left hemisphere of the brain."
+      },
+      "custom_id": "graph_043_N3_N4"
+    },
+    {
+      "from": "N4",
+      "to": "N5",
+      "data": {
+        "edge_id": "D_to_E",
+        "branch_flag": true,
+        "content": "The cerebellar tumor was treated with X-knife radiosurgery. Pathohistological analysis revealed primary lung adenocarcinoma. Pembrolizumab treatment was initiated due to PD-L1 expression > 50%."
+      },
+      "custom_id": "graph_043_N4_N5"
+    },
+    {
+      "from": "N5",
+      "to": "N6",
+      "data": {
+        "edge_id": "E_to_F",
+        "branch_flag": true,
+        "content": "Follow-up imaging showed immune unconfirmed progressive disease (iUPD) in the upper left lobe, lymph node conglomerate, pericardial effusion, and stable disease in the endocranium."
+      },
+      "custom_id": "graph_043_N5_N6"
+    }
+  ]
+}

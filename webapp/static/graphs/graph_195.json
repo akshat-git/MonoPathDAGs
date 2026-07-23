@@ -1,0 +1,457 @@
+{
+  "nodes": [
+    {
+      "id": "N1",
+      "label": "Step 1",
+      "customData": {
+        "node_id": "A",
+        "node_step_index": 0,
+        "content": "Patient with a 7-year postdiagnosis of mesothelioma, performance status of zero, chronically distorted intrathoracic anatomy due to previous mesothelioma surgery, a dehisced diaphragmatic patch, and a loculated pneumothorax.",
+        "clinical_data": {
+          "diagnoses": [
+            {
+              "code": "C0025345",
+              "label": "Mesothelioma",
+              "status": "active",
+              "onset_date": null
+            }
+          ],
+          "procedures": [
+            {
+              "name": "Surgery",
+              "approach": null,
+              "date": null,
+              "location": "intrathoracic",
+              "performed_by": null,
+              "outcome": null
+            }
+          ]
+        }
+      }
+    },
+    {
+      "id": "N2",
+      "label": "Step 2",
+      "customData": {
+        "node_id": "B",
+        "node_step_index": 1,
+        "content": "Postprocedure chest radiograph showing satisfactory indwelling pleural catheter (IPC) placement in chronic right hydropneumothorax.",
+        "clinical_data": {
+          "imaging": [
+            {
+              "type": "Radiography (procedure)",
+              "body_part": "Chest",
+              "modality": "X-ray",
+              "finding": "satisfactory indwelling pleural catheter (IPC) placement",
+              "impression": "satisfactory indwelling pleural catheter (IPC) placement in chronic right hydropneumothorax",
+              "date": null
+            }
+          ],
+          "procedures": [
+            {
+              "name": "Indwelling pleural catheter insertion",
+              "approach": "percutaneous",
+              "date": null,
+              "location": "Right Pleural Cavity",
+              "performed_by": null,
+              "outcome": "satisfactory"
+            }
+          ],
+          "diagnoses": [
+            {
+              "code": "SNOMED:307340007",
+              "label": "Hydropneumothorax",
+              "status": "active",
+              "onset_date": null
+            }
+          ]
+        }
+      }
+    },
+    {
+      "id": "N3",
+      "label": "Step 3",
+      "customData": {
+        "node_id": "C",
+        "node_step_index": 2,
+        "content": "One and a half hours postprocedure, the patient had a witnessed sudden drop in conscious level with associated seizure-like activity.",
+        "clinical_data": {
+          "HPI": [
+            {
+              "summary": "Sudden drop in conscious level with associated seizure-like activity one and a half hours postprocedure",
+              "onset": "One and a half hours postprocedure",
+              "progression": "sudden",
+              "associated_symptoms": [
+                "Seizure"
+              ]
+            }
+          ]
+        }
+      }
+    },
+    {
+      "id": "N4",
+      "label": "Step 4",
+      "customData": {
+        "node_id": "D",
+        "node_step_index": 3,
+        "content": "Patient assessed by the cardiac arrest team. Blood pressure, heart rate and oxygen saturations were maintained within the reference range. Glasgow Coma Scale (GCS) was 4 (eyes opening 1, verbal response 1 and motor response 2). General examination did not demonstrate any peripheral stigmata of systemic air embolism and no retinal air bubbles were seen in funduscopic examination. Acute stroke was suspected.",
+        "clinical_data": {
+          "vitals": [
+            {
+              "type": "Blood pressure",
+              "value": "within reference range"
+            },
+            {
+              "type": "Heart rate",
+              "value": "within reference range"
+            },
+            {
+              "type": "Oxygen saturation",
+              "value": "within reference range"
+            }
+          ],
+          "mental_status": [
+            {
+              "domain": "consciousness",
+              "finding": "Glasgow Coma Scale (GCS) 4",
+              "timestamp": null
+            }
+          ],
+          "diagnoses": [
+            {
+              "code": null,
+              "label": "Acute stroke",
+              "status": "suspected",
+              "onset_date": null
+            }
+          ]
+        }
+      }
+    },
+    {
+      "id": "N5",
+      "label": "Step 5",
+      "customData": {
+        "node_id": "E",
+        "node_step_index": 4,
+        "content": "Urgent CT head performed.",
+        "clinical_data": {
+          "imaging": [
+            {
+              "type": "Computed tomography",
+              "body_part": "Head",
+              "modality": "CT",
+              "date": null
+            }
+          ]
+        }
+      }
+    },
+    {
+      "id": "N6",
+      "label": "Step 6",
+      "customData": {
+        "node_id": "F",
+        "node_step_index": 5,
+        "content": "Repeat blood tests revealed: WCC 9.4 x 10^9/L, haemoglobin 107 g/L, platelet 408 x 10^9/L, blood urea 4.0 mmol/L, serum creatinine 73 umol/L, estimated glomerular filtration rate >90, C reactive protein 70 mg/L, alanine transaminase 9 iu/L.",
+        "clinical_data": {
+          "labs": [
+            {
+              "test": "White blood cell count",
+              "value": "9.4",
+              "unit": "x 10^9/L",
+              "flag": "normal"
+            },
+            {
+              "test": "Hemoglobin",
+              "value": "107",
+              "unit": "g/L",
+              "flag": "abnormal"
+            },
+            {
+              "test": "Platelet count",
+              "value": "408",
+              "unit": "x 10^9/L",
+              "flag": "normal"
+            },
+            {
+              "test": "Blood urea",
+              "value": "4.0",
+              "unit": "mmol/L",
+              "flag": "normal"
+            },
+            {
+              "test": "Serum creatinine",
+              "value": "73",
+              "unit": "umol/L",
+              "flag": "normal"
+            },
+            {
+              "test": "Estimated glomerular filtration rate",
+              "value": ">90",
+              "unit": "mL/min/1.73 m^2",
+              "flag": "normal"
+            },
+            {
+              "test": "C-Reactive Protein",
+              "value": "70",
+              "unit": "mg/L",
+              "flag": "abnormal"
+            },
+            {
+              "test": "Alanine transaminase",
+              "value": "9",
+              "unit": "iu/L",
+              "flag": "normal"
+            }
+          ]
+        }
+      }
+    },
+    {
+      "id": "N7",
+      "label": "Step 7",
+      "customData": {
+        "node_id": "G",
+        "node_step_index": 6,
+        "content": "ECG showed sinus rhythm with no ischaemic changes.",
+        "clinical_data": {
+          "imaging": [
+            {
+              "type": "Electrocardiogram",
+              "body_part": "heart",
+              "modality": "ECG",
+              "finding": "sinus rhythm with no ischaemic changes"
+            }
+          ]
+        }
+      }
+    },
+    {
+      "id": "N8",
+      "label": "Step 8",
+      "customData": {
+        "node_id": "H",
+        "node_step_index": 7,
+        "content": "CT head revealed multiple serpiginous pockets of air along the cerebral fissure, suggestive of an embolism, and multiple wedge-shaped areas of infarction involving the cerebral hemispheres.",
+        "clinical_data": {
+          "imaging": [
+            {
+              "type": "CT head",
+              "body_part": "head",
+              "modality": "CT",
+              "finding": "multiple serpiginous pockets of air along the cerebral fissure, suggestive of an embolism, and multiple wedge-shaped areas of infarction involving the cerebral hemispheres"
+            }
+          ]
+        }
+      }
+    },
+    {
+      "id": "N9",
+      "label": "Step 9",
+      "customData": {
+        "node_id": "I",
+        "node_step_index": 8,
+        "content": "CT chest revealed satisfactory positioning of the IPC with no aetiology for the acute deterioration.",
+        "clinical_data": {
+          "imaging": [
+            {
+              "type": "11618008",
+              "body_part": "71853004",
+              "modality": "CT",
+              "finding": "satisfactory positioning of the IPC",
+              "date": null
+            }
+          ]
+        }
+      }
+    },
+    {
+      "id": "N10",
+      "label": "Step 10",
+      "customData": {
+        "node_id": "J",
+        "node_step_index": 9,
+        "content": "Patient admitted to the intensive care unit for high flow oxygen therapy and head down ventilation.",
+        "clinical_data": {
+          "procedures": [
+            {
+              "name": "High-flow nasal cannula therapy",
+              "approach": "other",
+              "location": "nasal passages",
+              "outcome": "administered"
+            },
+            {
+              "name": "Head-down tilt",
+              "approach": "other",
+              "location": "whole body",
+              "outcome": "administered"
+            }
+          ]
+        }
+      }
+    },
+    {
+      "id": "N11",
+      "label": "Step 11",
+      "customData": {
+        "node_id": "K",
+        "node_step_index": 10,
+        "content": "",
+        "clinical_data": {}
+      }
+    }
+  ],
+  "edges": [
+    {
+      "from": "N1",
+      "to": "N2",
+      "data": {
+        "edge_id": "A_to_B",
+        "branch_flag": true,
+        "content": "Indwelling pleural catheter (IPC) placement in chronic right hydropneumothorax."
+      }
+    },
+    {
+      "from": "N2",
+      "to": "N3",
+      "data": {
+        "edge_id": "B_to_C",
+        "branch_flag": true,
+        "content": "Sudden drop in conscious level with associated seizure-like activity.",
+        "transition_event": {
+          "trigger_type": "spontaneous",
+          "trigger_entities": [],
+          "change_type": "progression",
+          "target_domain": "symptom",
+          "timestamp": null
+        }
+      }
+    },
+    {
+      "from": "N3",
+      "to": "N4",
+      "data": {
+        "edge_id": "C_to_D",
+        "branch_flag": true,
+        "content": "Assessment by the cardiac arrest team. Blood pressure, heart rate and oxygen saturations were maintained within the reference range. Glasgow Coma Scale (GCS) was 4. General examination did not demonstrate any peripheral stigmata of systemic air embolism and no retinal air bubbles were seen in funduscopic examination. Acute stroke was suspected."
+      }
+    },
+    {
+      "from": "N4",
+      "to": "N5",
+      "data": {
+        "edge_id": "D_to_E",
+        "branch_flag": true,
+        "content": "Urgent CT head performed.",
+        "transition_event": {
+          "trigger_type": "procedure",
+          "trigger_entities": [
+            "C0155618"
+          ],
+          "change_type": "addition",
+          "target_domain": "imaging",
+          "timestamp": null
+        }
+      }
+    },
+    {
+      "from": "N5",
+      "to": "N6",
+      "data": {
+        "edge_id": "E_to_F",
+        "branch_flag": true,
+        "content": "Repeat blood tests performed.",
+        "transition_event": {
+          "trigger_type": "lab_change",
+          "trigger_entities": [],
+          "change_type": "addition",
+          "target_domain": "lab",
+          "timestamp": null
+        }
+      }
+    },
+    {
+      "from": "N6",
+      "to": "N7",
+      "data": {
+        "edge_id": "F_to_G",
+        "branch_flag": true,
+        "content": "ECG performed.",
+        "transition_event": {
+          "trigger_type": "procedure",
+          "trigger_entities": [
+            "C0014449"
+          ],
+          "change_type": "addition",
+          "target_domain": "imaging",
+          "timestamp": null
+        }
+      }
+    },
+    {
+      "from": "N7",
+      "to": "N8",
+      "data": {
+        "edge_id": "G_to_H",
+        "branch_flag": true,
+        "content": "CT head revealed multiple serpiginous pockets of air along the cerebral fissure, suggestive of an embolism, and multiple wedge-shaped areas of infarction involving the cerebral hemispheres.",
+        "transition_event": {
+          "trigger_type": "interpretation",
+          "trigger_entities": [
+            "C0014449"
+          ],
+          "change_type": "reinterpretation",
+          "target_domain": "imaging",
+          "timestamp": null
+        }
+      }
+    },
+    {
+      "from": "N8",
+      "to": "N9",
+      "data": {
+        "edge_id": "H_to_I",
+        "branch_flag": true,
+        "content": "CT chest performed.",
+        "transition_event": {
+          "trigger_type": "procedure",
+          "trigger_entities": [
+            "C0008927"
+          ],
+          "change_type": "addition",
+          "target_domain": "imaging",
+          "timestamp": null
+        }
+      }
+    },
+    {
+      "from": "N9",
+      "to": "N10",
+      "data": {
+        "edge_id": "I_to_J",
+        "branch_flag": true,
+        "content": "Patient admitted to the intensive care unit for high flow oxygen therapy and head down ventilation.",
+        "transition_event": {
+          "trigger_type": "procedure",
+          "trigger_entities": [
+            "C0020626",
+            "C0042769"
+          ],
+          "change_type": "addition",
+          "target_domain": "procedure",
+          "timestamp": null
+        }
+      }
+    },
+    {
+      "from": "N10",
+      "to": "N11",
+      "data": {
+        "edge_id": "J_to_K",
+        "branch_flag": true
+      }
+    }
+  ]
+}

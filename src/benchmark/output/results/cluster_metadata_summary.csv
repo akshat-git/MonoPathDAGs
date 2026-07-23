@@ -1,0 +1,5 @@
+cluster,has_metastasis,top_cancers,top_specific_cancers
+0,"{""true"": 0.7311827956989247, ""false"": 0.26881720430107525}","['cancer'] (8), ['cancer', 'tumor'] (6), ['lung cancer'] (5)","[""lung adenocarcinoma""] (6), [""lung cancer""] (5), [] (4)"
+1,"{""true"": 0.6115107913669064, ""false"": 0.38848920863309355}","['cancer'] (11), ['lung cancer'] (8), [] (6)","[] (9), [""lung cancer""] (5), [""adenocarcinoma""] (4)"
+2,"{""true"": 0.847457627118644, ""false"": 0.15254237288135594}","['cancer', 'tumor'] (13), ['cancer'] (10), ['tumor'] (8)","[""lung adenocarcinoma""] (4), [""adenocarcinoma""] (4), [""small cell lung cancer""] (3)"
+3,"{""true"": 0.7611940298507462, ""false"": 0.23880597014925373}","['cancer', 'tumor'] (17), ['cancer'] (14), ['lung cancer'] (10)","[""lung adenocarcinoma""] (12), [""NSCLC""] (3), [""adenocarcinoma""] (3)"

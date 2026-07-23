@@ -1,0 +1,366 @@
+{
+  "nodes": [
+    {
+      "id": "N1",
+      "label": "Step 1",
+      "customData": {
+        "node_id": "A",
+        "node_step_index": 0,
+        "content": "Patient is a 69-year-old man who underwent right nephrectomy in September 2017 for right renal cell carcinoma (RCC). The tumor size was 8.0 x 7.0 x 7.0 cm, clinical stage 3, clear cell type histology, grade 2. The tumor was histologically solid, with hemorrhage, necrosis, scarring, and pseudocapsule formation, and infiltrated into the renal parenchyma. The tumor spread to the right renal vein, but no infiltration into the inferior vena cava was observed. Patient had localized right pleural metastases.",
+        "clinical_data": {
+          "diagnoses": [
+            {
+              "code": "C64.9",
+              "label": "Renal cell carcinoma, unspecified",
+              "status": "historical",
+              "onset_date": "2017-09"
+            },
+            {
+              "code": "C79.2",
+              "label": "Secondary malignant neoplasm of skin",
+              "status": "active"
+            }
+          ],
+          "procedures": [
+            {
+              "name": "T116103",
+              "approach": "open",
+              "date": "2017-09",
+              "location": "Right kidney",
+              "performed_by": "unknown",
+              "outcome": "unknown"
+            }
+          ],
+          "imaging": [
+            {
+              "type": "Finding of metastasis",
+              "body_part": "Pleura",
+              "modality": "unknown",
+              "finding": "localized right pleural metastases",
+              "impression": "metastases",
+              "date": "unknown"
+            }
+          ]
+        }
+      }
+    },
+    {
+      "id": "N2",
+      "label": "Step 2",
+      "customData": {
+        "node_id": "B",
+        "node_step_index": 1,
+        "content": "Post-nephrectomy, the patient did not receive adjuvant chemotherapy and was asymptomatic with regular follow-up CT scans of the chest and abdomen every three months.",
+        "clinical_data": {
+          "procedures": [
+            {
+              "name": "Nephrectomy",
+              "date": null
+            }
+          ],
+          "imaging": [
+            {
+              "type": "CT scan",
+              "body_part": "chest and abdomen",
+              "modality": "CT",
+              "date": null
+            }
+          ]
+        }
+      }
+    },
+    {
+      "id": "N3",
+      "label": "Step 3",
+      "customData": {
+        "node_id": "C",
+        "node_step_index": 2,
+        "content": "March 2020: Patient presented with right chest pain and dyspnea. CT scan revealed right pleural effusion and multiple pleural masses.",
+        "timestamp": "2020-03",
+        "clinical_data": {
+          "HPI": [
+            {
+              "summary": "Patient presented with right chest pain and dyspnea.",
+              "onset": "March 2020",
+              "associated_symptoms": [
+                "Dyspnea"
+              ]
+            }
+          ],
+          "imaging": [
+            {
+              "type": "CT scan",
+              "body_part": "right chest",
+              "modality": "CT",
+              "finding": "right pleural effusion and multiple pleural masses",
+              "date": "2020-03"
+            }
+          ]
+        }
+      }
+    },
+    {
+      "id": "N4",
+      "label": "Step 4",
+      "customData": {
+        "node_id": "D",
+        "node_step_index": 3,
+        "content": "No abnormal radiologic findings in other organs. Two pleural effusion tests were performed before surgery, both cytological results were class I.",
+        "clinical_data": {
+          "imaging": [
+            {
+              "finding": "No abnormal radiologic findings in other organs."
+            }
+          ],
+          "labs": [
+            {
+              "test": "Pleural effusion test",
+              "value": "class I",
+              "flag": "normal"
+            }
+          ]
+        }
+      }
+    },
+    {
+      "id": "N5",
+      "label": "Step 5",
+      "customData": {
+        "node_id": "E",
+        "node_step_index": 4,
+        "content": "One month after initial presentation: No new abnormal radiologic findings, but CT confirmed that the tumors obviously grew.",
+        "clinical_data": {
+          "imaging": [
+            {
+              "modality": "CT",
+              "finding": "Tumors grew",
+              "date": "Not specified"
+            }
+          ]
+        }
+      }
+    },
+    {
+      "id": "N6",
+      "label": "Step 6",
+      "customData": {
+        "node_id": "F",
+        "node_step_index": 5,
+        "content": "Thoracoscopy revealed multiple reddish, soft, bleeding encapsulated tumors in the intrathoracic region. Intrathoracic tumor resection was performed under general anesthesia. Histological diagnosis confirmed pleural metastasis from clear cell type RCC.",
+        "clinical_data": {
+          "imaging": [
+            {
+              "modality": "other",
+              "type": "Thoracoscopy",
+              "finding": "multiple reddish, soft, bleeding encapsulated tumors in the intrathoracic region",
+              "body_part": "Intrathoracic region"
+            }
+          ],
+          "procedures": [
+            {
+              "name": "Tumor resection",
+              "location": "Intrathoracic region",
+              "approach": "open",
+              "performed_by": "unknown",
+              "outcome": "unknown"
+            }
+          ],
+          "diagnoses": [
+            {
+              "code": "unknown",
+              "label": "pleural metastasis from clear cell type RCC",
+              "status": "active"
+            }
+          ]
+        }
+      }
+    },
+    {
+      "id": "N7",
+      "label": "Step 7",
+      "customData": {
+        "node_id": "G",
+        "node_step_index": 6,
+        "content": "Pleural fluid cytology showed no malignant cells. Eight bleeding tumors were completely resected, with the largest measuring 5.0 x 3.8 x 2.2 cm.",
+        "clinical_data": {
+          "imaging": [
+            {
+              "modality": "other",
+              "finding": "Pleural fluid cytology showed no malignant cells"
+            }
+          ],
+          "procedures": [
+            {
+              "name": "resection",
+              "approach": "open",
+              "location": "tumor",
+              "outcome": "complete"
+            }
+          ]
+        }
+      }
+    },
+    {
+      "id": "N8",
+      "label": "Step 8",
+      "customData": {
+        "node_id": "H",
+        "node_step_index": 7,
+        "content": "Currently being treated with pembrolizumab plus axitinib.",
+        "clinical_data": {
+          "medications": [
+            {
+              "drug": "C0004527",
+              "dosage": null,
+              "frequency": null,
+              "modality": null,
+              "start_date": null,
+              "end_date": null,
+              "indication": null
+            },
+            {
+              "drug": "C1613779",
+              "dosage": null,
+              "frequency": null,
+              "modality": null,
+              "start_date": null,
+              "end_date": null,
+              "indication": null
+            }
+          ]
+        }
+      }
+    },
+    {
+      "id": "N9",
+      "label": "Step 9",
+      "customData": {
+        "node_id": "I",
+        "node_step_index": 8,
+        "content": "Non-enhanced CT shows multiple right pleural tumors with pleural effusion. Non",
+        "clinical_data": {
+          "imaging": [
+            {
+              "type": "tumor",
+              "body_part": "pleura",
+              "modality": "CT",
+              "finding": "multiple right pleural tumors with pleural effusion",
+              "impression": "multiple right pleural tumors with pleural effusion"
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "edges": [
+    {
+      "from": "N1",
+      "to": "N2",
+      "data": {
+        "edge_id": "A_to_B",
+        "branch_flag": true,
+        "content": "Surveillance post-nephrectomy."
+      }
+    },
+    {
+      "from": "N2",
+      "to": "N3",
+      "data": {
+        "edge_id": "B_to_C",
+        "branch_flag": true,
+        "content": "Interval development of right chest pain and dyspnea.",
+        "transition_event": {
+          "trigger_type": "symptom_onset",
+          "trigger_entities": [
+            "C0008031",
+            "C0020118"
+          ],
+          "change_type": "progression",
+          "target_domain": "symptom",
+          "timestamp": "2020-03"
+        }
+      }
+    },
+    {
+      "from": "N3",
+      "to": "N4",
+      "data": {
+        "edge_id": "C_to_D",
+        "branch_flag": true,
+        "content": "Workup for pleural effusion."
+      }
+    },
+    {
+      "from": "N4",
+      "to": "N5",
+      "data": {
+        "edge_id": "D_to_E",
+        "branch_flag": true,
+        "content": "Tumor growth despite pleural effusion tests being negative for malignant cells.",
+        "transition_event": {
+          "trigger_type": "interpretation",
+          "trigger_entities": [],
+          "change_type": "progression",
+          "target_domain": "imaging"
+        }
+      }
+    },
+    {
+      "from": "N5",
+      "to": "N6",
+      "data": {
+        "edge_id": "E_to_F",
+        "branch_flag": true,
+        "content": "Thoracoscopy and resection of intrathoracic tumors."
+      }
+    },
+    {
+      "from": "N6",
+      "to": "N7",
+      "data": {
+        "edge_id": "F_to_G",
+        "branch_flag": true,
+        "content": "Complete resection of bleeding tumors, pleural fluid cytology negative for malignant cells.",
+        "transition_event": {
+          "trigger_type": "procedure",
+          "trigger_entities": [],
+          "change_type": "resolution",
+          "target_domain": "imaging"
+        }
+      }
+    },
+    {
+      "from": "N7",
+      "to": "N8",
+      "data": {
+        "edge_id": "G_to_H",
+        "branch_flag": true,
+        "content": "Initiation of pembrolizumab plus axitinib therapy.",
+        "transition_event": {
+          "trigger_type": "medication_change",
+          "trigger_entities": [
+            "C0004527",
+            "C1613779"
+          ],
+          "change_type": "addition",
+          "target_domain": "medication"
+        }
+      }
+    },
+    {
+      "from": "N8",
+      "to": "N9",
+      "data": {
+        "edge_id": "H_to_I",
+        "branch_flag": true,
+        "content": "Continued presence of pleural tumors and effusion despite treatment.",
+        "transition_event": {
+          "trigger_type": "interpretation",
+          "trigger_entities": [],
+          "change_type": "progression",
+          "target_domain": "imaging"
+        }
+      }
+    }
+  ]
+}

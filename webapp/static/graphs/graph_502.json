@@ -1,0 +1,500 @@
+{
+  "nodes": [
+    {
+      "id": "N1",
+      "label": "Step 1",
+      "customData": {
+        "node_id": "A",
+        "node_step_index": 0,
+        "content": "Sixty-four-year-old Chinese woman with a ten-year history of diabetes and hypertension presented with serious dizziness and vomiting in a month.",
+        "clinical_data": {
+          "diagnoses": [
+            {
+              "code": "C0011860",
+              "label": "Diabetes Mellitus",
+              "status": "historical",
+              "onset_date": null
+            },
+            {
+              "code": "C0020538",
+              "label": "Hypertension",
+              "status": "historical",
+              "onset_date": null
+            }
+          ],
+          "HPI": [
+            {
+              "summary": "Serious dizziness and vomiting for one month.",
+              "duration": "P1M",
+              "onset": null,
+              "progression": "unknown",
+              "associated_symptoms": [
+                "C0012833",
+                "C0042963"
+              ],
+              "alleviating_factors": [],
+              "exacerbating_factors": []
+            }
+          ]
+        }
+      }
+    },
+    {
+      "id": "N2",
+      "label": "Step 2",
+      "customData": {
+        "node_id": "B",
+        "node_step_index": 1,
+        "timestamp": "2017-10",
+        "content": "Positron emission tomography (PET) indicated a nodular lesion in left upper lung with diffuse bilateral lung metastases and multiple intraventricular masses. Magnetic resonance imaging (MRI) of brain showed a mass at the posterior horn of the right lateral ventricle and the IV ventricle, respectively.",
+        "clinical_data": {
+          "imaging": [
+            {
+              "type": "Nodular lesion",
+              "body_part": "Lung",
+              "modality": "PET",
+              "finding": "Nodular lesion in left upper lung with diffuse bilateral lung metastases",
+              "impression": "Nodular lesion in left upper lung with diffuse bilateral lung metastases"
+            },
+            {
+              "type": "Mass",
+              "body_part": "Brain",
+              "modality": "MRI",
+              "finding": "Mass at the posterior horn of the right lateral ventricle and the IV ventricle",
+              "impression": "Mass at the posterior horn of the right lateral ventricle and the IV ventricle"
+            }
+          ]
+        }
+      }
+    },
+    {
+      "id": "N3",
+      "label": "Step 3",
+      "customData": {
+        "node_id": "C",
+        "node_step_index": 2,
+        "timestamp": "2017-10",
+        "content": "T1 brain MRI: isointense lesions with heterogeneous enhancement on contrast. T2 brain MRI: hyperintense masses, remarkable dilation and hydrocephalus of upper cerebral ventricle and parenchyma edema around encephalocoele. No obvious involvement of brain parenchyma. Chest CT: 1 cm x 1 cm irregular nodule in the upper lobe of left lung, with diffuse bilateral pulmonary metastases.",
+        "clinical_data": {
+          "imaging": [
+            {
+              "type": "Magnetic Resonance Imaging",
+              "body_part": "Brain",
+              "modality": "MRI",
+              "finding": "isointense lesions with heterogeneous enhancement on contrast",
+              "date": null
+            },
+            {
+              "type": "Magnetic Resonance Imaging",
+              "body_part": "Brain",
+              "modality": "MRI",
+              "finding": "hyperintense masses, remarkable dilation and hydrocephalus of upper cerebral ventricle and parenchyma edema around encephalocoele",
+              "date": null
+            },
+            {
+              "type": "Computed Tomography",
+              "body_part": "Chest",
+              "modality": "CT",
+              "finding": "1 cm x 1 cm irregular nodule in the upper lobe of left lung, with diffuse bilateral pulmonary metastases",
+              "date": null
+            }
+          ]
+        }
+      }
+    },
+    {
+      "id": "N4",
+      "label": "Step 4",
+      "customData": {
+        "node_id": "D",
+        "node_step_index": 3,
+        "timestamp": "2017-10",
+        "content": "Contrast-enhanced MRI of brain: heterogeneously enhancing lesions at the posterior horn of the right lateral ventricle and the IV ventricle, with upper ventricle hydrocephalus and edema of the surrounding parenchyma.",
+        "clinical_data": {
+          "imaging": [
+            {
+              "type": "Magnetic Resonance Imaging",
+              "body_part": "Brain",
+              "modality": "MRI",
+              "finding": "heterogeneously enhancing lesions at the posterior horn of the right lateral ventricle and the IV ventricle, with upper ventricle hydrocephalus and edema of the surrounding parenchyma"
+            }
+          ]
+        }
+      }
+    },
+    {
+      "id": "N5",
+      "label": "Step 5",
+      "customData": {
+        "node_id": "E",
+        "node_step_index": 4,
+        "timestamp": "2017-10",
+        "content": "T2FLAIR brain MRI: slightly higher signal of the masses.",
+        "clinical_data": {
+          "imaging": [
+            {
+              "type": "Brain MRI",
+              "body_part": "Brain",
+              "modality": "MRI",
+              "finding": "slightly higher signal of the masses"
+            }
+          ]
+        }
+      }
+    },
+    {
+      "id": "N6",
+      "label": "Step 6",
+      "customData": {
+        "node_id": "F",
+        "node_step_index": 5,
+        "timestamp": "2017-10",
+        "content": "Lung adenocarcinoma was histopathologically diagnosed by endobronchial ultrasound transbronchial needle aspiration (EBUS-TBNA). EGFR mutation in exon 18 (G719X).",
+        "clinical_data": {
+          "diagnoses": [
+            {
+              "code": "C34.9",
+              "label": "Lung adenocarcinoma",
+              "status": "active"
+            }
+          ],
+          "procedures": [
+            {
+              "name": "Endobronchial ultrasound transbronchial needle aspiration",
+              "approach": "endoscopic",
+              "location": "lung"
+            }
+          ],
+          "labs": [
+            {
+              "test": "EGFR mutation in exon 18 (G719X)",
+              "value": "positive",
+              "flag": "abnormal"
+            }
+          ]
+        }
+      }
+    },
+    {
+      "id": "N7",
+      "label": "Step 7",
+      "customData": {
+        "node_id": "G",
+        "node_step_index": 6,
+        "timestamp": "2017-10",
+        "content": "Afatinib was administered at a dose of 30 mg qd.",
+        "clinical_data": {
+          "medications": [
+            {
+              "drug": "Afatinib",
+              "dosage": "30 mg",
+              "frequency": "qd",
+              "modality": "oral"
+            }
+          ]
+        }
+      }
+    },
+    {
+      "id": "N8",
+      "label": "Step 8",
+      "customData": {
+        "node_id": "H",
+        "node_step_index": 7,
+        "timestamp": "2017-11",
+        "content": "Symptoms improved significantly within one month of Afatinib treatment.",
+        "clinical_data": {
+          "medications": [
+            {
+              "drug": "C1777241",
+              "indication": "symptom"
+            }
+          ],
+          "HPI": [
+            {
+              "progression": "gradual",
+              "alleviating_factors": [
+                "C1777241"
+              ],
+              "duration": "1 month"
+            }
+          ]
+        }
+      }
+    },
+    {
+      "id": "N9",
+      "label": "Step 9",
+      "customData": {
+        "node_id": "I",
+        "node_step_index": 8,
+        "timestamp": "2018-09",
+        "content": "Three months after Afatinib treatment: Reevaluation showed partial remission in both lung and brain lesions. Bilateral lung nodules evidently shrunk. Intraventricular lesions and surrounding area of edema observably shrunk with restored ventricular dilatation.",
+        "clinical_data": {
+          "imaging": [
+            {
+              "type": "Lung lesion",
+              "body_part": "Lung",
+              "modality": null,
+              "finding": "Partial remission, nodules shrunk",
+              "impression": "Partial remission in lung lesions",
+              "date": null
+            },
+            {
+              "type": "Brain lesion",
+              "body_part": "Brain",
+              "modality": null,
+              "finding": "Partial remission, intraventricular lesions and surrounding area of edema observably shrunk with restored ventricular dilatation.",
+              "impression": "Partial remission in brain lesions",
+              "date": null
+            }
+          ],
+          "medications": [
+            {
+              "drug": "Afatinib",
+              "dosage": null,
+              "frequency": null,
+              "modality": null,
+              "start_date": null,
+              "end_date": null,
+              "indication": null
+            }
+          ]
+        }
+      }
+    },
+    {
+      "id": "N10",
+      "label": "Step 10",
+      "customData": {
+        "node_id": "J",
+        "node_step_index": 9,
+        "timestamp": "2018-07",
+        "content": "Repeated CT of chest showed bilateral pulmonary nodules increased and enlarged, while intracerebral lesions remained stable.",
+        "clinical_data": {
+          "imaging": [
+            {
+              "type": "Pulmonary nodule",
+              "body_part": "Lung",
+              "modality": "CT",
+              "finding": "increased and enlarged",
+              "date": null
+            },
+            {
+              "type": "Intracerebral lesion",
+              "body_part": "Brain",
+              "modality": "CT",
+              "finding": "stable",
+              "date": null
+            }
+          ]
+        }
+      }
+    },
+    {
+      "id": "N11",
+      "label": "Step 11",
+      "customData": {
+        "node_id": "K",
+        "node_step_index": 10,
+        "timestamp": "2018-07",
+        "content": "Ten months after targeted therapy: Lesions of lung progressed. Masses in the brain remain stable.",
+        "clinical_data": {
+          "imaging": [
+            {
+              "body_part": "Lung",
+              "finding": "Lesions progressed",
+              "date": null
+            },
+            {
+              "body_part": "Brain",
+              "finding": "Masses remain stable",
+              "date": null
+            }
+          ]
+        }
+      }
+    },
+    {
+      "id": "N12",
+      "label": "Step 12",
+      "customData": {
+        "node_id": "L",
+        "node_step_index": 11,
+        "timestamp": "2018-08",
+        "content": "Severe headache and dizziness reoccurred half a month later and the symptoms aggravated rapidly afterwards.",
+        "clinical_data": {
+          "HPI": [
+            {
+              "summary": "Severe headache and dizziness reoccurred and aggravated rapidly.",
+              "duration": "half a month",
+              "onset": "half a month ago",
+              "progression": "rapid",
+              "associated_symptoms": [
+                "dizziness",
+                "headache"
+              ]
+            }
+          ]
+        }
+      }
+    },
+    {
+      "id": "N13",
+      "label": "Step 13",
+      "customData": {
+        "node_id": "M",
+        "node_step_index": 12,
+        "timestamp": "2018-09",
+        "clinical_data": {}
+      }
+    }
+  ],
+  "edges": [
+    {
+      "from": "N1",
+      "to": "N2",
+      "data": {
+        "edge_id": "A_to_B",
+        "branch_flag": true,
+        "content": "Patient went from initial presentation to imaging revealing lung and brain lesions."
+      }
+    },
+    {
+      "from": "N2",
+      "to": "N3",
+      "data": {
+        "edge_id": "B_to_C",
+        "branch_flag": true,
+        "content": "Further characterization of lung and brain lesions via T1 and T2 brain MRI and chest CT."
+      }
+    },
+    {
+      "from": "N3",
+      "to": "N4",
+      "data": {
+        "edge_id": "C_to_D",
+        "branch_flag": true,
+        "content": "Contrast-enhanced MRI of brain further details the lesions."
+      }
+    },
+    {
+      "from": "N4",
+      "to": "N5",
+      "data": {
+        "edge_id": "D_to_E",
+        "branch_flag": true,
+        "content": "T2FLAIR brain MRI shows slightly higher signal of the masses."
+      }
+    },
+    {
+      "from": "N5",
+      "to": "N6",
+      "data": {
+        "edge_id": "E_to_F",
+        "branch_flag": true,
+        "content": "Diagnosis of lung adenocarcinoma confirmed via EBUS-TBNA, revealing EGFR mutation in exon 18 (G719X)."
+      }
+    },
+    {
+      "from": "N6",
+      "to": "N7",
+      "data": {
+        "edge_id": "F_to_G",
+        "branch_flag": true,
+        "content": "Afatinib initiated as targeted therapy.",
+        "transition_event": {
+          "trigger_type": "medication_change",
+          "trigger_entities": [
+            "C1777241"
+          ],
+          "change_type": "addition",
+          "target_domain": "medication"
+        }
+      }
+    },
+    {
+      "from": "N7",
+      "to": "N8",
+      "data": {
+        "edge_id": "G_to_H",
+        "branch_flag": true,
+        "content": "Patient's symptoms improved significantly after one month of Afatinib treatment.",
+        "transition_event": {
+          "trigger_type": "medication_change",
+          "trigger_entities": [
+            "C1777241"
+          ],
+          "change_type": "other",
+          "target_domain": "symptom"
+        }
+      }
+    },
+    {
+      "from": "N8",
+      "to": "N9",
+      "data": {
+        "edge_id": "H_to_I",
+        "branch_flag": true,
+        "content": "Three months after Afatinib treatment, reevaluation showed partial remission in both lung and brain lesions."
+      }
+    },
+    {
+      "from": "N9",
+      "to": "N10",
+      "data": {
+        "edge_id": "I_to_J",
+        "branch_flag": true,
+        "content": "Repeated CT of chest showed bilateral pulmonary nodules increased and enlarged, while intracerebral lesions remained stable.",
+        "transition_event": {
+          "trigger_type": "imaging",
+          "trigger_entities": [],
+          "change_type": "progression",
+          "target_domain": "imaging"
+        }
+      }
+    },
+    {
+      "from": "N10",
+      "to": "N11",
+      "data": {
+        "edge_id": "J_to_K",
+        "branch_flag": true,
+        "content": "Ten months after targeted therapy, lung lesions progressed while brain masses remained stable.",
+        "transition_event": {
+          "trigger_type": "interpretation",
+          "trigger_entities": [],
+          "change_type": "progression",
+          "target_domain": "imaging"
+        }
+      }
+    },
+    {
+      "from": "N11",
+      "to": "N12",
+      "data": {
+        "edge_id": "K_to_L",
+        "branch_flag": true,
+        "content": "Severe headache and dizziness reoccurred and rapidly aggravated half a month later.",
+        "transition_event": {
+          "trigger_type": "symptom_onset",
+          "trigger_entities": [
+            "C0018681",
+            "C0012833"
+          ],
+          "change_type": "progression",
+          "target_domain": "symptom"
+        }
+      }
+    },
+    {
+      "from": "N12",
+      "to": "N13",
+      "data": {
+        "edge_id": "L_to_M",
+        "branch_flag": true,
+        "content": "Further progression of disease."
+      }
+    }
+  ]
+}

@@ -1,0 +1,530 @@
+{
+  "nodes": [
+    {
+      "id": "N1",
+      "label": "Step 1",
+      "customData": {
+        "node_id": "A",
+        "node_step_index": 0,
+        "content": "59-year-old immunocompetent Chinese female presented to respiratory clinic on July 25, 2018 with unilateral pleural effusion and a 2-year history of unexplained pleural effusion and pleural thickening. Medical history includes 20 years of large artery stenosis and seven years of controlled hypertension. No history of smoking or alcohol consumption.",
+        "clinical_data": {
+          "diagnoses": [
+            {
+              "code": "C0032285",
+              "label": "Pleural Effusion",
+              "status": "active",
+              "onset_date": null
+            },
+            {
+              "code": "C0238410",
+              "label": "Pleural thickening",
+              "status": "active",
+              "onset_date": null
+            },
+            {
+              "code": "C0344978",
+              "label": "Large artery stenosis",
+              "status": "historical",
+              "onset_date": null
+            },
+            {
+              "code": "C0020538",
+              "label": "Hypertension",
+              "status": "historical",
+              "onset_date": null
+            }
+          ],
+          "social_history": [
+            {
+              "category": "smoking",
+              "status": "never",
+              "description": null
+            },
+            {
+              "category": "alcohol",
+              "status": "never",
+              "description": null
+            }
+          ],
+          "HPI": [
+            {
+              "summary": "Unexplained pleural effusion and pleural thickening",
+              "duration": "2 years",
+              "onset": null,
+              "progression": "unknown",
+              "associated_symptoms": [],
+              "alleviating_factors": [],
+              "exacerbating_factors": []
+            }
+          ]
+        }
+      }
+    },
+    {
+      "id": "N2",
+      "label": "Step 2",
+      "customData": {
+        "node_id": "B",
+        "node_step_index": 1,
+        "content": "Patient denied fever, cough, rash, joint pain, or chronic diarrhea. No history of trauma, travel, or surgery, and no family history of malignancy or connective tissue disease (CTD). Blood, urine, stool tests, as well as biochemical, coagulation, and thyroid function tests were within normal limits. CA125 245.2 U/mL (Normal range: 0.0-22.0 U/mL).",
+        "clinical_data": {
+          "ROS": [
+            {
+              "system": "constitutional",
+              "findings": [
+                "no fever"
+              ]
+            },
+            {
+              "system": "respiratory",
+              "findings": [
+                "no cough"
+              ]
+            },
+            {
+              "system": "GI",
+              "findings": [
+                "no chronic diarrhea"
+              ]
+            }
+          ],
+          "social_history": [
+            {
+              "category": "travel",
+              "status": "never",
+              "description": "no history of travel"
+            }
+          ],
+          "labs": [
+            {
+              "test": "CA125",
+              "value": "245.2",
+              "unit": "U/mL",
+              "flag": "abnormal",
+              "reference_range": "0.0-22.0 U/mL"
+            }
+          ]
+        }
+      }
+    },
+    {
+      "id": "N3",
+      "label": "Step 3",
+      "customData": {
+        "node_id": "C",
+        "node_step_index": 2,
+        "content": "Infections including tuberculosis and human immunodeficiency virus (HIV) were ruled out. CTD was not considered. CT scan of the chest revealed multiple high-density shadows, enlarged lymph nodes in the mediastinum, massive pleural effusion in the left thoracic cavity and small pleural nodular lesions thickening the pleura.",
+        "clinical_data": {
+          "imaging": [
+            {
+              "type": "CT scan of the chest",
+              "body_part": "chest",
+              "modality": "CT",
+              "finding": "multiple high-density shadows, enlarged lymph nodes in the mediastinum, massive pleural effusion in the left thoracic cavity and small pleural nodular lesions thickening the pleura"
+            }
+          ],
+          "diagnoses": [
+            {
+              "code": "C0006422",
+              "label": "Tuberculosis",
+              "status": "ruled out"
+            },
+            {
+              "code": "C0019405",
+              "label": "HIV",
+              "status": "ruled out"
+            }
+          ]
+        }
+      }
+    },
+    {
+      "id": "N4",
+      "label": "Step 4",
+      "customData": {
+        "node_id": "D",
+        "node_step_index": 3,
+        "content": "Bronchoscopy and thoracoscopy examinations demonstrated only mild chronic inflammation without any evidence of infection or malignancy. GI endoscopy was carried out.",
+        "clinical_data": {
+          "procedures": [
+            {
+              "name": "Bronchoscopy",
+              "approach": "endoscopic",
+              "location": "bronchial tree",
+              "outcome": "mild chronic inflammation, no evidence of infection or malignancy"
+            },
+            {
+              "name": "Thoracoscopy",
+              "approach": "endoscopic",
+              "location": "thorax",
+              "outcome": "mild chronic inflammation, no evidence of infection or malignancy"
+            },
+            {
+              "name": "Gastrointestinal Endoscopy",
+              "approach": "endoscopic",
+              "location": "gastrointestinal tract"
+            }
+          ]
+        }
+      }
+    },
+    {
+      "id": "N5",
+      "label": "Step 5",
+      "customData": {
+        "node_id": "E",
+        "node_step_index": 4,
+        "content": "Second colonoscopy confirmed left-sided pleural effusion associated with rectal diffuse large B-cell lymphoma (DLBCL).",
+        "clinical_data": {
+          "imaging": [
+            {
+              "type": "Colonoscopy",
+              "body_part": "Colon",
+              "modality": "other",
+              "finding": "left-sided pleural effusion",
+              "impression": "left-sided pleural effusion associated with rectal diffuse large B-cell lymphoma (DLBCL)",
+              "date": null
+            }
+          ],
+          "diagnoses": [
+            {
+              "code": "C0424290",
+              "label": "Diffuse large B-cell lymphoma",
+              "status": "active",
+              "onset_date": null
+            }
+          ]
+        }
+      }
+    },
+    {
+      "id": "N6",
+      "label": "Step 6",
+      "customData": {
+        "node_id": "F",
+        "node_step_index": 5,
+        "content": "Symptoms and pleural effusion disappeared after traditional Chinese medicine treatment.",
+        "clinical_data": {}
+      }
+    },
+    {
+      "id": "N7",
+      "label": "Step 7",
+      "customData": {
+        "node_id": "G",
+        "node_step_index": 6,
+        "content": "Chest CT revealed multiple high-density shadows, mediastinal lymph node metastatic nodules, and left pleural effusion.",
+        "clinical_data": {
+          "imaging": [
+            {
+              "type": "Computed tomography of chest",
+              "body_part": "Chest",
+              "modality": "CT",
+              "finding": "multiple high-density shadows, mediastinal lymph node metastatic nodules, and left pleural effusion"
+            }
+          ]
+        }
+      }
+    },
+    {
+      "id": "N8",
+      "label": "Step 8",
+      "customData": {
+        "node_id": "H",
+        "node_step_index": 7,
+        "content": "Autofluorescence bronchoscopy revealed smooth bronchial mucosa and unobstructed bronchial lumen.",
+        "clinical_data": {}
+      }
+    },
+    {
+      "id": "N9",
+      "label": "Step 9",
+      "customData": {
+        "node_id": "I",
+        "node_step_index": 8,
+        "content": "Histopathology of the parietal pleura revealed fibrous tissue hyperplasia accompanied by lymphoid and mesodermal tissue hyperplasia.",
+        "clinical_data": {
+          "imaging": [
+            {
+              "type": "Histopathology",
+              "body_part": "Parietal pleura",
+              "modality": "other",
+              "finding": "fibrous tissue hyperplasia accompanied by lymphoid and mesodermal tissue hyperplasia"
+            }
+          ]
+        }
+      }
+    },
+    {
+      "id": "N10",
+      "label": "Step 10",
+      "customData": {
+        "node_id": "J",
+        "node_step_index": 9,
+        "content": "Histopathology and immunohistochemistry of rectal excision specimens showed CD19 (+), CD20 (+), CD79a (+), CD30 (+), Bcl-2 (partial +), Bcl-6 (+), \u03ba (partial +), CD10 (+), PAX-5 (+), CD38 (partial +), and Ki-67 (50%+), consistent with diffuse large B-cell lymphoma (DLBCL) cells.",
+        "clinical_data": {
+          "diagnoses": [
+            {
+              "code": "C83.3",
+              "label": "Diffuse large B-cell lymphoma",
+              "status": "active"
+            }
+          ],
+          "labs": [
+            {
+              "test": "CD19",
+              "value": "positive",
+              "unit": null,
+              "flag": "positive"
+            },
+            {
+              "test": "CD20",
+              "value": "positive",
+              "unit": null,
+              "flag": "positive"
+            },
+            {
+              "test": "CD79a",
+              "value": "positive",
+              "unit": null,
+              "flag": "positive"
+            },
+            {
+              "test": "CD30",
+              "value": "positive",
+              "unit": null,
+              "flag": "positive"
+            },
+            {
+              "test": "Bcl-2",
+              "value": "partial positive",
+              "unit": null,
+              "flag": "positive"
+            },
+            {
+              "test": "Bcl-6",
+              "value": "positive",
+              "unit": null,
+              "flag": "positive"
+            },
+            {
+              "test": "\u03ba",
+              "value": "partial positive",
+              "unit": null,
+              "flag": "positive"
+            },
+            {
+              "test": "CD10",
+              "value": "positive",
+              "unit": null,
+              "flag": "positive"
+            },
+            {
+              "test": "PAX-5",
+              "value": "positive",
+              "unit": null,
+              "flag": "positive"
+            },
+            {
+              "test": "CD38",
+              "value": "partial positive",
+              "unit": null,
+              "flag": "positive"
+            },
+            {
+              "test": "Ki-67",
+              "value": "50%+",
+              "unit": null,
+              "flag": "positive"
+            }
+          ]
+        }
+      }
+    },
+    {
+      "id": "N11",
+      "label": "Step 11",
+      "customData": {
+        "node_id": "K",
+        "node_step_index": 10,
+        "content": "Patient had recurrent unilateral pleural effusion three times, which resolved spontaneously without treatment. Patient refused FDG-PET/CT due to cost but underwent two colonoscopies, thoracoscopy, and bronchoscopy.",
+        "clinical_data": {
+          "imaging": [
+            {
+              "type": "Pleural Effusion",
+              "body_part": "Pleural cavity",
+              "modality": "other",
+              "finding": "Recurrent unilateral pleural effusion",
+              "impression": "Recurrent unilateral pleural effusion resolved spontaneously without treatment",
+              "date": null
+            }
+          ],
+          "procedures": [
+            {
+              "name": "Colonoscopy",
+              "approach": "endoscopic",
+              "date": null,
+              "location": "Colon",
+              "performed_by": null,
+              "outcome": null
+            },
+            {
+              "name": "Thoracoscopy",
+              "approach": "endoscopic",
+              "date": null,
+              "location": "Thorax",
+              "performed_by": null,
+              "outcome": null
+            },
+            {
+              "name": "Bronchoscopy",
+              "approach": "endoscopic",
+              "date": null,
+              "location": "Bronchus",
+              "performed_by": null,
+              "outcome": null
+            }
+          ]
+        }
+      }
+    },
+    {
+      "id": "N12",
+      "label": "Step 12",
+      "customData": {
+        "node_id": "L",
+        "node_step_index": 11,
+        "content": "Multiple polypoid appearance in the rectum raised the suspicion of GI lymphoid infiltration.",
+        "clinical_data": {
+          "diagnoses": [
+            {
+              "code": "C0346838",
+              "label": "Lymphoid infiltration",
+              "status": "suspected"
+            }
+          ],
+          "imaging": [
+            {
+              "body_part": "C0034714",
+              "finding": "Multiple polypoid appearance",
+              "modality": "other"
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "edges": [
+    {
+      "from": "N1",
+      "to": "N2",
+      "data": {
+        "edge_id": "A_to_B",
+        "branch_flag": true,
+        "content": "Initial presentation with pleural effusion and thickening. Further examination reveals absence of fever, cough, rash, joint pain, or chronic diarrhea. Blood, urine, stool tests, biochemical, coagulation, and thyroid function tests were normal. CA125 elevated at 245.2 U/mL."
+      }
+    },
+    {
+      "from": "N2",
+      "to": "N3",
+      "data": {
+        "edge_id": "B_to_C",
+        "branch_flag": true,
+        "content": "Ruling out infections and CTD. CT scan shows high-density shadows, enlarged mediastinal lymph nodes, massive left pleural effusion, and pleural nodular lesions."
+      }
+    },
+    {
+      "from": "N3",
+      "to": "N4",
+      "data": {
+        "edge_id": "C_to_D",
+        "branch_flag": true,
+        "content": "Bronchoscopy and thoracoscopy show mild chronic inflammation without infection or malignancy. GI endoscopy performed."
+      }
+    },
+    {
+      "from": "N4",
+      "to": "N5",
+      "data": {
+        "edge_id": "D_to_E",
+        "branch_flag": true,
+        "content": "Second colonoscopy reveals left-sided pleural effusion associated with rectal diffuse large B-cell lymphoma (DLBCL)."
+      }
+    },
+    {
+      "from": "N5",
+      "to": "N6",
+      "data": {
+        "edge_id": "E_to_F",
+        "branch_flag": true,
+        "content": "Treatment with traditional Chinese medicine leads to resolution of symptoms and pleural effusion.",
+        "transition_event": {
+          "trigger_type": "medication_change",
+          "trigger_entities": [],
+          "change_type": "addition",
+          "target_domain": "symptom"
+        }
+      }
+    },
+    {
+      "from": "N6",
+      "to": "N7",
+      "data": {
+        "edge_id": "F_to_G",
+        "branch_flag": true,
+        "content": "Follow-up chest CT reveals multiple high-density shadows, mediastinal lymph node metastatic nodules, and left pleural effusion, indicating recurrence.",
+        "transition_event": {
+          "trigger_type": "spontaneous",
+          "trigger_entities": [],
+          "change_type": "progression",
+          "target_domain": "imaging"
+        }
+      }
+    },
+    {
+      "from": "N7",
+      "to": "N8",
+      "data": {
+        "edge_id": "G_to_H",
+        "branch_flag": true,
+        "content": "Autofluorescence bronchoscopy shows normal bronchial mucosa and lumen."
+      }
+    },
+    {
+      "from": "N8",
+      "to": "N9",
+      "data": {
+        "edge_id": "H_to_I",
+        "branch_flag": true,
+        "content": "Parietal pleura histopathology reveals fibrous, lymphoid, and mesodermal tissue hyperplasia."
+      }
+    },
+    {
+      "from": "N9",
+      "to": "N10",
+      "data": {
+        "edge_id": "I_to_J",
+        "branch_flag": true,
+        "content": "Rectal excision specimen histopathology and immunohistochemistry confirm diffuse large B-cell lymphoma (DLBCL) with specific marker expression."
+      }
+    },
+    {
+      "from": "N10",
+      "to": "N11",
+      "data": {
+        "edge_id": "J_to_K",
+        "branch_flag": true,
+        "content": "Recurrent unilateral pleural effusion three times, resolving spontaneously. Patient refuses FDG-PET/CT but undergoes colonoscopies, thoracoscopy, and bronchoscopy."
+      }
+    },
+    {
+      "from": "N11",
+      "to": "N12",
+      "data": {
+        "edge_id": "K_to_L",
+        "branch_flag": true,
+        "content": "Multiple polypoid appearance in the rectum raises suspicion of GI lymphoid infiltration."
+      }
+    }
+  ]
+}

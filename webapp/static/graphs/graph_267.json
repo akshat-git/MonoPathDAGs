@@ -1,0 +1,581 @@
+{
+  "nodes": [
+    {
+      "id": "N1",
+      "label": "Step 1",
+      "customData": {
+        "node_id": "A",
+        "node_step_index": 0,
+        "content": "59-year-old male diagnosed with lung adenocarcinoma, staged as cT1bN2M0 Stage IIIA.",
+        "clinical_data": {
+          "diagnoses": [
+            {
+              "code": "C34.9",
+              "label": "Lung cancer, unspecified",
+              "status": "active",
+              "onset_date": null
+            },
+            {
+              "code": "93724009",
+              "label": "Adenocarcinoma of lung",
+              "status": "active",
+              "onset_date": null
+            }
+          ]
+        }
+      }
+    },
+    {
+      "id": "N2",
+      "label": "Step 2",
+      "customData": {
+        "node_id": "B",
+        "node_step_index": 1,
+        "content": "Chemotherapy initiated 10 years ago, with 10 different anticancer drugs administered, with cycles of growth and reduction. Complete remission not achieved.",
+        "clinical_data": {
+          "medications": [
+            {
+              "drug": "Antineoplastic Agents",
+              "dosage": null,
+              "frequency": null,
+              "modality": null,
+              "start_date": null,
+              "end_date": null,
+              "indication": "cancer"
+            }
+          ],
+          "diagnoses": [
+            {
+              "code": "C0006826",
+              "label": "Cancer",
+              "status": "active",
+              "onset_date": null
+            }
+          ]
+        }
+      }
+    },
+    {
+      "id": "N3",
+      "label": "Step 3",
+      "customData": {
+        "node_id": "C",
+        "node_step_index": 2,
+        "content": "Cervical spine metastasis detected two years ago.",
+        "clinical_data": {
+          "diagnoses": [
+            {
+              "code": "C79.31",
+              "label": "Secondary malignant neoplasm of brain and cerebral meninges from other sites",
+              "status": "historical",
+              "onset_date": null
+            }
+          ]
+        }
+      }
+    },
+    {
+      "id": "N4",
+      "label": "Step 4",
+      "customData": {
+        "node_id": "D",
+        "node_step_index": 3,
+        "content": "Patient underwent radiation therapy (20Gy/5Fr) for cervical metastasis.",
+        "clinical_data": {
+          "procedures": [
+            {
+              "name": "Radiation therapy",
+              "approach": "other",
+              "date": null,
+              "location": "Cervical metastasis",
+              "performed_by": null,
+              "outcome": null
+            }
+          ]
+        }
+      }
+    },
+    {
+      "id": "N5",
+      "label": "Step 5",
+      "customData": {
+        "node_id": "E",
+        "node_step_index": 4,
+        "content": "Patient experienced sudden neck pain during farming work, followed by progressive quadriparesis and urinary dysfunction, presented to emergency department three days after onset of neck pain.",
+        "clinical_data": {
+          "HPI": [
+            {
+              "summary": "Sudden neck pain during farming work, followed by progressive quadriparesis and urinary dysfunction",
+              "onset": "Three days prior to presentation",
+              "progression": "progressive",
+              "associated_symptoms": [
+                "Quadriparesis",
+                "Urinary dysfunction",
+                "Neck pain"
+              ]
+            }
+          ]
+        }
+      }
+    },
+    {
+      "id": "N6",
+      "label": "Step 6",
+      "customData": {
+        "node_id": "F",
+        "node_step_index": 5,
+        "content": "On presentation to the emergency department, the patient could walk with assistance, but symptoms worsened during examination. Developed quadriparesis (manual muscle testing (MMT) grading: 1/5), bilateral hand sensory disturbance, and urinary retention.",
+        "clinical_data": {
+          "HPI": [
+            {
+              "summary": "Patient presented to the emergency department with ability to walk with assistance, but symptoms worsened during examination.",
+              "progression": "sudden"
+            }
+          ],
+          "functional_status": [
+            {
+              "domain": "mobility",
+              "description": "Could walk with assistance on presentation.",
+              "score": null,
+              "scale": null
+            }
+          ],
+          "diagnoses": [
+            {
+              "code": "29468001",
+              "label": "Quadriplegia",
+              "status": "active",
+              "onset_date": null
+            },
+            {
+              "code": "267024001",
+              "label": "Urinary retention",
+              "status": "active",
+              "onset_date": null
+            }
+          ],
+          "physical_exam": [
+            {
+              "finding": "Quadriparesis",
+              "details": "manual muscle testing (MMT) grading: 1/5"
+            },
+            {
+              "finding": "Bilateral hand sensory disturbance"
+            }
+          ]
+        }
+      }
+    },
+    {
+      "id": "N7",
+      "label": "Step 7",
+      "customData": {
+        "node_id": "G",
+        "node_step_index": 6,
+        "content": "Emergency MRI revealed cervical epidural fluid collection with spinal cord compression.",
+        "clinical_data": {
+          "imaging": [
+            {
+              "type": "Magnetic Resonance Imaging",
+              "body_part": "Cervical Spine",
+              "modality": "MRI",
+              "finding": "cervical epidural fluid collection with spinal cord compression"
+            }
+          ]
+        }
+      }
+    },
+    {
+      "id": "N8",
+      "label": "Step 8",
+      "customData": {
+        "node_id": "H",
+        "node_step_index": 7,
+        "content": "Cervical MRI taken two months prior to presentation showed no evident epidural fluid collection.",
+        "clinical_data": {
+          "imaging": [
+            {
+              "type": "Magnetic Resonance Imaging",
+              "body_part": "Cervical spine",
+              "modality": "MRI",
+              "finding": "no evident epidural fluid collection",
+              "date": "XXXX-XX"
+            }
+          ]
+        }
+      }
+    },
+    {
+      "id": "N9",
+      "label": "Step 9",
+      "customData": {
+        "node_id": "I",
+        "node_step_index": 8,
+        "content": "Acute cervical epidural hematoma was suspected, and emergency surgery was performed, including drainage and partial C3 laminectomy, complete C4,5 laminectomy, and partial C6 laminectomy for decompression. Intraoperative findings showed no clear hematoma but light yellow serous exudate in the epidural space. The intradural space was examined but appeared normal without hematoma.",
+        "clinical_data": {
+          "procedures": [
+            {
+              "name": "Laminectomy",
+              "approach": "open",
+              "date": null,
+              "location": "C3, C4, C5, C6",
+              "performed_by": null,
+              "outcome": null
+            },
+            {
+              "name": "Drainage",
+              "approach": "open",
+              "date": null,
+              "location": "cervical epidural space",
+              "performed_by": null,
+              "outcome": null
+            }
+          ],
+          "imaging": [
+            {
+              "type": "epidural hematoma",
+              "body_part": "cervical spine",
+              "modality": null,
+              "finding": "no clear hematoma",
+              "impression": "no clear hematoma",
+              "date": null
+            }
+          ]
+        }
+      }
+    },
+    {
+      "id": "N10",
+      "label": "Step 10",
+      "customData": {
+        "node_id": "J",
+        "node_step_index": 9,
+        "content": "Cervical spine CT (sagittal image) obtained two months before symptom onset showed no obvious epidural effusion.",
+        "clinical_data": {
+          "imaging": [
+            {
+              "type": "Computed tomography",
+              "body_part": "Cervical spine",
+              "modality": "CT",
+              "finding": "no obvious epidural effusion",
+              "date": null
+            }
+          ]
+        }
+      }
+    },
+    {
+      "id": "N11",
+      "label": "Step 11",
+      "customData": {
+        "node_id": "K",
+        "node_step_index": 10,
+        "content": "C3 lamina suggested bone metastasis from lung cancer.",
+        "clinical_data": {
+          "imaging": [
+            {
+              "body_part": "C3 lamina",
+              "finding": "bone metastasis",
+              "impression": "bone metastasis from lung cancer"
+            }
+          ],
+          "diagnoses": [
+            {
+              "code": "C0024117",
+              "label": "Lung Cancer",
+              "status": "suspected"
+            }
+          ]
+        }
+      }
+    },
+    {
+      "id": "N12",
+      "label": "Step 12",
+      "customData": {
+        "node_id": "L",
+        "node_step_index": 11,
+        "content": "Postoperative cervical spine CT (sagittal image) showed no obvious cervical epidural hematoma was observed intraoperatively, however, serous light yellow effusion was noted.",
+        "clinical_data": {
+          "imaging": [
+            {
+              "type": "Computed tomography of cervical spine",
+              "body_part": "Cervical spine",
+              "modality": "CT",
+              "finding": "no obvious cervical epidural hematoma",
+              "date": null
+            }
+          ],
+          "procedures": [
+            {
+              "name": "Intraoperative observation",
+              "outcome": "serous light yellow effusion noted",
+              "date": null
+            }
+          ]
+        }
+      }
+    },
+    {
+      "id": "N13",
+      "label": "Step 13",
+      "customData": {
+        "node_id": "M",
+        "node_step_index": 12,
+        "content": "C3 lamina, which had bone metastasis from lung cancer, was partially resected. During drilling, when a partial hole was made in the ligamentum flavum, light yellow serous fluid spurted from the C3 epidural space. The fluid accumulation was also observed.",
+        "clinical_data": {
+          "diagnoses": [
+            {
+              "code": "C0006826",
+              "label": "bone metastasis from lung cancer",
+              "status": "active"
+            }
+          ],
+          "procedures": [
+            {
+              "name": "Partial resection",
+              "location": "C3 lamina",
+              "outcome": "partial hole made in the ligamentum flavum"
+            }
+          ],
+          "imaging": [
+            {
+              "body_part": "C3 epidural space",
+              "finding": "fluid accumulation",
+              "modality": "other"
+            }
+          ]
+        }
+      }
+    },
+    {
+      "id": "N14",
+      "label": "Step 14",
+      "customData": {
+        "node_id": "N",
+        "node_step_index": 13,
+        "content": "In the immediate postoperative period, the patient achieved full muscle strength (MMT grading: 5/5) in all extremities, with only mild weakness (MMT grading: 4/5) remaining in the right flexor digitorum profundus and right abductor digiti minimi.",
+        "clinical_data": {
+          "functional_status": [
+            {
+              "domain": "mobility",
+              "description": "full muscle strength in all extremities",
+              "score": "5/5",
+              "scale": "MMT grading"
+            },
+            {
+              "domain": "mobility",
+              "description": "mild weakness in the right flexor digitorum profundus and right abductor digiti minimi",
+              "score": "4/5",
+              "scale": "MMT grading"
+            }
+          ]
+        }
+      }
+    },
+    {
+      "id": "N15",
+      "label": "Step 15",
+      "customData": {
+        "node_id": "O",
+        "node_step_index": 14,
+        "content": "Patient recovered the ability to walk independently.",
+        "clinical_data": {}
+      }
+    },
+    {
+      "id": "N16",
+      "label": "Step 16",
+      "customData": {
+        "node_id": "P",
+        "node_step_index": 15,
+        "content": "Spinal myelography on postoperative day 10 showed no evident arachnoid cyst or CSF leakage at the cervical level.",
+        "clinical_data": {
+          "imaging": [
+            {
+              "type": "Myelography",
+              "body_part": "Cervical spine",
+              "modality": "X-ray",
+              "finding": "No evident arachnoid cyst or CSF leakage",
+              "date": "postoperative day 10"
+            }
+          ]
+        }
+      }
+    },
+    {
+      "id": "N17",
+      "label": "Step 17",
+      "customData": {
+        "node_id": "Q",
+        "node_step_index": 16,
+        "content": "Cervical myelography CT (sagittal image) obtained 10 days after operation showed no apparent cervical epidural contrast leakage.",
+        "clinical_data": {
+          "imaging": [
+            {
+              "type": "Myelography",
+              "body_part": "Cervical spinal cord",
+              "modality": "CT",
+              "finding": "no apparent cervical epidural contrast leakage",
+              "date": null
+            }
+          ]
+        }
+      }
+    },
+    {
+      "id": "N18",
+      "label": "Step 18",
+      "customData": {
+        "node_id": "R",
+        "node_step_index": 17,
+        "content": "On postoperative day 20",
+        "grading": "4/5",
+        "clinical_data": {}
+      }
+    }
+  ],
+  "edges": [
+    {
+      "from": "N1",
+      "to": "N2",
+      "data": {
+        "edge_id": "A_to_B",
+        "branch_flag": true,
+        "content": "Initiation of chemotherapy for lung adenocarcinoma.",
+        "transition_event": {
+          "trigger_type": "medication_change",
+          "trigger_entities": [
+            "C0006826"
+          ],
+          "change_type": "addition",
+          "target_domain": "medication"
+        }
+      }
+    },
+    {
+      "from": "N2",
+      "to": "N3",
+      "data": {
+        "edge_id": "B_to_C",
+        "branch_flag": true,
+        "content": "Development of cervical spine metastasis during chemotherapy treatment.",
+        "transition_event": {
+          "trigger_type": "progression",
+          "trigger_entities": [
+            "C0006826"
+          ],
+          "change_type": "progression",
+          "target_domain": "diagnosis"
+        }
+      }
+    },
+    {
+      "from": "N3",
+      "to": "N4",
+      "data": {
+        "edge_id": "C_to_D",
+        "branch_flag": true,
+        "content": "Radiation therapy administered for cervical spine metastasis.",
+        "transition_event": {
+          "trigger_type": "procedure",
+          "trigger_entities": [
+            "C0034497"
+          ],
+          "change_type": "addition",
+          "target_domain": "procedure"
+        }
+      }
+    },
+    {
+      "from": "N4",
+      "to": "N5",
+      "data": {
+        "edge_id": "D_to_E",
+        "branch_flag": true,
+        "content": "Sudden onset of neck pain during farming work, followed by progressive quadriparesis and urinary dysfunction.",
+        "transition_event": {
+          "trigger_type": "symptom_onset",
+          "trigger_entities": [
+            "C0027097",
+            "C0034085",
+            "C0231525"
+          ],
+          "change_type": "progression",
+          "target_domain": "symptom"
+        }
+      }
+    },
+    {
+      "from": "N5",
+      "to": "N6",
+      "data": {
+        "edge_id": "E_to_F",
+        "branch_flag": true,
+        "content": "Worsening of quadriparesis, development of bilateral hand sensory disturbance, and urinary retention on presentation to the emergency department.",
+        "transition_event": {
+          "trigger_type": "progression",
+          "trigger_entities": [
+            "C0027097",
+            "C0036423",
+            "C0231525"
+          ],
+          "change_type": "progression",
+          "target_domain": "symptom"
+        }
+      }
+    },
+    {
+      "from": "N6",
+      "to": "N7",
+      "data": {
+        "edge_id": "F_to_G",
+        "branch_flag": true,
+        "content": "Emergency MRI reveals cervical epidural fluid collection with spinal cord compression.",
+        "transition_event": {
+          "trigger_type": "imaging",
+          "trigger_entities": [
+            "C0009427",
+            "C0037943"
+          ],
+          "change_type": "addition",
+          "target_domain": "imaging"
+        }
+      }
+    },
+    {
+      "from": "N7",
+      "to": "N8",
+      "data": {
+        "edge_id": "G_to_H",
+        "branch_flag": true,
+        "content": "Comparison to previous cervical MRI showing no epidural fluid collection.",
+        "transition_event": {
+          "trigger_type": "imaging",
+          "trigger_entities": [
+            "C0009427"
+          ],
+          "change_type": "progression",
+          "target_domain": "imaging"
+        }
+      }
+    },
+    {
+      "from": "N8",
+      "to": "N9",
+      "data": {
+        "edge_id": "H_to_I",
+        "branch_flag": true,
+        "content": "Emergency surgery performed for suspected acute cervical epidural hematoma, revealing light yellow serous exudate instead.",
+        "transition_event": {
+          "trigger_type": "procedure",
+          "trigger_entities": [
+            "C0019097",
+            "C0022644"
+          ],
+          "change_type": "addition"
+        }
+      }
+    }
+  ]
+}

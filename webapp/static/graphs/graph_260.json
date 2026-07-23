@@ -1,0 +1,482 @@
+{
+  "nodes": [
+    {
+      "id": "N1",
+      "label": "Step 1",
+      "customData": {
+        "node_id": "A",
+        "node_step_index": 0,
+        "content": "67-year-old man presented with acute-onset hemoptysis, cough, and mild dyspnea for the past 7 years. He has a 40 pack-year history of smoking and type 2 diabetes diagnosed > 13 years ago.",
+        "clinical_data": {
+          "HPI": [
+            {
+              "summary": "acute-onset hemoptysis, cough, and mild dyspnea",
+              "duration": "7 years",
+              "onset": "acute",
+              "progression": "unknown",
+              "associated_symptoms": [
+                "C0018943",
+                "C0010200",
+                "C0013404"
+              ]
+            }
+          ],
+          "social_history": [
+            {
+              "category": "smoking",
+              "status": "past",
+              "description": "40 pack-year history"
+            }
+          ],
+          "diagnoses": [
+            {
+              "code": "C0011849",
+              "label": "Diabetes Mellitus, Type 2",
+              "status": "active",
+              "onset_date": null
+            }
+          ]
+        }
+      }
+    },
+    {
+      "id": "N2",
+      "label": "Step 2",
+      "customData": {
+        "node_id": "B",
+        "node_step_index": 1,
+        "content": "HRCT showed usual interstitial pneumonia (UIP) pattern with traction bronchiectasis and peripheral honeycombing, bibasilar-predominant. A non-enhancing nodular opacity in the right upper lobe, suggesting pulmonary tuberculosis, and a 25-mm contrast-enhancing nodule in the right lower lobe were also observed.",
+        "clinical_data": {
+          "imaging": [
+            {
+              "type": "HRCT",
+              "body_part": "lung",
+              "modality": "CT",
+              "finding": "usual interstitial pneumonia (UIP) pattern with traction bronchiectasis and peripheral honeycombing, bibasilar-predominant",
+              "impression": "usual interstitial pneumonia (UIP) pattern",
+              "date": null
+            },
+            {
+              "type": "opacity",
+              "body_part": "right upper lobe",
+              "modality": "CT",
+              "finding": "non-enhancing nodular opacity",
+              "impression": "suggesting pulmonary tuberculosis",
+              "date": null
+            },
+            {
+              "type": "nodule",
+              "body_part": "right lower lobe",
+              "modality": "CT",
+              "finding": "25-mm contrast-enhancing nodule",
+              "impression": null,
+              "date": null
+            }
+          ],
+          "diagnoses": [
+            {
+              "code": "69899005",
+              "label": "Pulmonary tuberculosis (disease)",
+              "status": "suspected",
+              "onset_date": null
+            }
+          ]
+        }
+      }
+    },
+    {
+      "id": "N3",
+      "label": "Step 3",
+      "customData": {
+        "node_id": "C",
+        "node_step_index": 2,
+        "content": "Diagnosis of IPF based on clinical and radiological features.",
+        "clinical_data": {
+          "diagnoses": [
+            {
+              "code": "C0242085",
+              "label": "Idiopathic Pulmonary Fibrosis",
+              "status": "active"
+            }
+          ],
+          "imaging": [
+            {
+              "finding": "radiological features"
+            }
+          ]
+        }
+      }
+    },
+    {
+      "id": "N4",
+      "label": "Step 4",
+      "customData": {
+        "node_id": "D",
+        "node_step_index": 3,
+        "content": "Neoplasm demonstrated in the sub-segmental posterior basal segment of the right lower lobe with bronchoscopy.",
+        "clinical_data": {
+          "imaging": [
+            {
+              "type": "Neoplasm",
+              "body_part": "Posterior basal segment of the right lower lobe",
+              "modality": "bronchoscopy",
+              "finding": "Neoplasm demonstrated"
+            }
+          ]
+        }
+      }
+    },
+    {
+      "id": "N5",
+      "label": "Step 5",
+      "customData": {
+        "node_id": "E",
+        "node_step_index": 4,
+        "content": "Biopsy of the tumor revealed pulmonary squamous cell lung cancer. Bronchoalveolar lavage (BAL) sample from the right upper lobe was negative for Mycobacterium tuberculosis (MTB) and cytology.",
+        "clinical_data": {
+          "diagnoses": [
+            {
+              "code": "C0034479",
+              "label": "Squamous cell carcinoma of lung",
+              "status": "active"
+            }
+          ],
+          "procedures": [
+            {
+              "name": "C0005738",
+              "approach": "other",
+              "location": "Lung",
+              "outcome": "C0034479"
+            },
+            {
+              "name": "C0268313",
+              "approach": "endoscopic",
+              "location": "Right upper lobe of lung"
+            }
+          ],
+          "labs": [
+            {
+              "test": "C0026607",
+              "value": "negative",
+              "test_type": "cytology",
+              "location": "Right upper lobe of lung"
+            },
+            {
+              "test": "C0026607",
+              "value": "negative",
+              "test_type": "Mycobacterium tuberculosis",
+              "location": "Right upper lobe of lung"
+            }
+          ]
+        }
+      }
+    },
+    {
+      "id": "N6",
+      "label": "Step 6",
+      "customData": {
+        "node_id": "F",
+        "node_step_index": 5,
+        "content": "Clinically staged as T1cN0M0, indicating no evidence of metastatic cancer.",
+        "clinical_data": {
+          "diagnoses": [
+            {
+              "code": null,
+              "label": "T1cN0M0",
+              "status": "active"
+            }
+          ]
+        }
+      }
+    },
+    {
+      "id": "N7",
+      "label": "Step 7",
+      "customData": {
+        "node_id": "G",
+        "node_step_index": 6,
+        "content": "Initial chest CT scan showed a tumor in the right lower lobe.",
+        "clinical_data": {
+          "imaging": [
+            {
+              "type": "Tumor",
+              "body_part": "Right Lower Lobe",
+              "modality": "CT",
+              "finding": "Tumor"
+            }
+          ]
+        }
+      }
+    },
+    {
+      "id": "N8",
+      "label": "Step 8",
+      "customData": {
+        "node_id": "H",
+        "node_step_index": 7,
+        "content": "Follow-up chest radiograph revealed complete regression of the tumor 1 month after the first cycle of chemotherapy.",
+        "clinical_data": {
+          "imaging": [
+            {
+              "type": "Radiography (procedure)",
+              "body_part": "Thorax",
+              "modality": "X-ray",
+              "finding": "complete regression of the tumor",
+              "date": null
+            }
+          ]
+        }
+      }
+    },
+    {
+      "id": "N9",
+      "label": "Step 9",
+      "customData": {
+        "node_id": "I",
+        "node_step_index": 8,
+        "content": "Complete disappearance of the tumor 2 years after the first presentation.",
+        "clinical_data": {
+          "diagnoses": [
+            {
+              "code": "C0242391",
+              "label": "Tumor regression",
+              "status": "resolved",
+              "onset_date": null
+            }
+          ]
+        }
+      }
+    },
+    {
+      "id": "N10",
+      "label": "Step 10",
+      "customData": {
+        "node_id": "J",
+        "node_step_index": 9,
+        "content": "Serial chest CT scan showing enlargement of nodular opacities in the right upper lobe.",
+        "clinical_data": {
+          "imaging": [
+            {
+              "type": "opacity",
+              "body_part": "right upper lobe",
+              "modality": "CT",
+              "finding": "enlargement of nodular opacities",
+              "date": null
+            }
+          ]
+        }
+      }
+    },
+    {
+      "id": "N11",
+      "label": "Step 11",
+      "customData": {
+        "node_id": "K",
+        "node_step_index": 10,
+        "content": "Mycobacterium tuberculosis was cultured from the sputum sample submitted at the last evaluation.",
+        "clinical_data": {
+          "labs": [
+            {
+              "test": "C0026737",
+              "value": "positive",
+              "unit": null,
+              "flag": "abnormal",
+              "reference_range": null,
+              "timestamp": null
+            }
+          ],
+          "diagnoses": [
+            {
+              "code": "C0026736",
+              "label": "Tuberculosis",
+              "status": "active",
+              "onset_date": null
+            }
+          ]
+        }
+      }
+    },
+    {
+      "id": "N12",
+      "label": "Step 12",
+      "customData": {
+        "node_id": "L",
+        "node_step_index": 11,
+        "content": "Patient diagnosed with pulmonary TB.",
+        "clinical_data": {
+          "diagnoses": [
+            {
+              "code": "C0034134",
+              "label": "Pulmonary tuberculosis",
+              "status": "active"
+            }
+          ]
+        }
+      }
+    },
+    {
+      "id": "N13",
+      "label": "Step 13",
+      "customData": {
+        "node_id": "M",
+        "node_step_index": 12,
+        "content": "Serial bronchoscopy showed complete regression of the intrabronchial neoplasm in the subsegmental posterior basal segment of the",
+        "clinical_data": {}
+      }
+    }
+  ],
+  "edges": [
+    {
+      "from": "N1",
+      "to": "N2",
+      "data": {
+        "edge_id": "A_to_B",
+        "branch_flag": true,
+        "content": "Transition from initial presentation to HRCT imaging findings.",
+        "transition_event": {
+          "trigger_type": "imaging",
+          "trigger_entities": [],
+          "change_type": "progression",
+          "target_domain": "imaging"
+        }
+      }
+    },
+    {
+      "from": "N2",
+      "to": "N3",
+      "data": {
+        "edge_id": "B_to_C",
+        "branch_flag": true,
+        "content": "Transition from HRCT findings to diagnosis of IPF.",
+        "transition_event": {
+          "trigger_type": "interpretation",
+          "trigger_entities": [
+            "C0242085"
+          ],
+          "change_type": "addition",
+          "target_domain": "diagnosis"
+        }
+      }
+    },
+    {
+      "from": "N3",
+      "to": "N4",
+      "data": {
+        "edge_id": "C_to_D",
+        "branch_flag": true,
+        "content": "Transition from IPF diagnosis to neoplasm demonstration via bronchoscopy.",
+        "transition_event": {
+          "trigger_type": "procedure",
+          "trigger_entities": [],
+          "change_type": "addition",
+          "target_domain": "imaging"
+        }
+      }
+    },
+    {
+      "from": "N4",
+      "to": "N5",
+      "data": {
+        "edge_id": "D_to_E",
+        "branch_flag": true,
+        "content": "Transition from neoplasm demonstration to biopsy revealing squamous cell lung cancer and negative TB bronchoalveolar lavage.",
+        "transition_event": {
+          "trigger_type": "procedure",
+          "trigger_entities": [
+            "C0005738",
+            "C0268313"
+          ],
+          "change_type": "addition",
+          "target_domain": "diagnosis"
+        }
+      }
+    },
+    {
+      "from": "N5",
+      "to": "N6",
+      "data": {
+        "edge_id": "E_to_F",
+        "branch_flag": true,
+        "content": "Transition from lung cancer diagnosis to clinical staging.",
+        "transition_event": {
+          "trigger_type": "interpretation",
+          "trigger_entities": [],
+          "change_type": "addition",
+          "target_domain": "diagnosis"
+        }
+      }
+    },
+    {
+      "from": "N6",
+      "to": "N7",
+      "data": {
+        "edge_id": "F_to_G",
+        "branch_flag": true,
+        "content": "Transition from clinical staging to initial chest CT scan showing tumor.",
+        "transition_event": {
+          "trigger_type": "imaging",
+          "trigger_entities": [],
+          "change_type": "addition",
+          "target_domain": "imaging"
+        }
+      }
+    },
+    {
+      "from": "N7",
+      "to": "N8",
+      "data": {
+        "edge_id": "G_to_H",
+        "branch_flag": true,
+        "content": "Transition from initial tumor finding to complete regression after chemotherapy.",
+        "transition_event": {
+          "trigger_type": "medication_change",
+          "trigger_entities": [],
+          "change_type": "addition",
+          "target_domain": "imaging"
+        }
+      }
+    },
+    {
+      "from": "N8",
+      "to": "N9",
+      "data": {
+        "edge_id": "H_to_I",
+        "branch_flag": true,
+        "content": "Transition from tumor regression after chemotherapy to complete disappearance of the tumor.",
+        "transition_event": {
+          "trigger_type": "spontaneous",
+          "trigger_entities": [],
+          "change_type": "resolution",
+          "target_domain": "diagnosis"
+        }
+      }
+    },
+    {
+      "from": "N9",
+      "to": "N10",
+      "data": {
+        "edge_id": "I_to_J",
+        "branch_flag": true,
+        "content": "Transition from complete tumor disappearance to enlargement of nodular opacities on chest CT.",
+        "transition_event": {
+          "trigger_type": "imaging",
+          "trigger_entities": [],
+          "change_type": "progression",
+          "target_domain": "imaging"
+        }
+      }
+    },
+    {
+      "from": "N10",
+      "to": "N11",
+      "data": {
+        "edge_id": "J_to_K",
+        "branch_flag": true,
+        "content": "Transition from nodular opacities to positive Mycobacterium tuberculosis culture.",
+        "transition_event": {
+          "trigger_type": "lab_change"
+        }
+      }
+    }
+  ]
+}

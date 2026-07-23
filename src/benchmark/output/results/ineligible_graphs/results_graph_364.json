@@ -1,0 +1,22 @@
+{
+  "status": "success",
+  "reconstructed_narrative": "No data available to reconstruct narrative.",
+  "bertscore": {
+    "precision": 0.629133939743042,
+    "recall": 0.5601757764816284,
+    "f1": 0.5926557183265686
+  },
+  "bleu": 3.5349650226494987e-53,
+  "rouge1": 0.005571030640668524,
+  "rougeL": 0.005571030640668524,
+  "topology": {
+    "is_acyclic": true,
+    "timestamps_in_order": true,
+    "weakly_connected_components": 0,
+    "avg_in_degree": 0.0,
+    "node_count": 0,
+    "edge_count": 0,
+    "density": 0.0
+  },
+  "trajectory_embedding": null
+}

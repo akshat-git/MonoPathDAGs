@@ -1,0 +1,297 @@
+{
+  "nodes": [
+    {
+      "id": "N1",
+      "label": "Step 1",
+      "customData": {
+        "node_id": "A",
+        "node_step_index": 0,
+        "content": "February 2021: 59-year-old woman with a never smoking history presented with a 2.7 x 3.0 cm left lower lobe (LLL) mass. PET scan revealed avidity in the LLL mass (SUV 6.8 units) and regional lymph nodes (LNs) (SUV 3.1\u20134.9 units).",
+        "clinical_data": {
+          "imaging": [
+            {
+              "type": "Mass",
+              "body_part": "Left lower lobe",
+              "modality": "CT",
+              "finding": "2.7 x 3.0 cm mass",
+              "date": "2021-02"
+            },
+            {
+              "type": "Metabolic Activity",
+              "body_part": "Left lower lobe mass",
+              "modality": "PET",
+              "finding": "SUV 6.8 units",
+              "date": "2021-02"
+            },
+            {
+              "type": "Metabolic Activity",
+              "body_part": "Regional lymph nodes",
+              "modality": "PET",
+              "finding": "SUV 3.1\u20134.9 units",
+              "date": "2021-02"
+            }
+          ],
+          "social_history": [
+            {
+              "category": "smoking",
+              "status": "never"
+            }
+          ]
+        },
+        "timestamp": "2021-02"
+      }
+    },
+    {
+      "id": "N2",
+      "label": "Step 2",
+      "customData": {
+        "node_id": "B",
+        "node_step_index": 1,
+        "content": "Brain MRI was negative for metastatic disease. Biopsies revealed poorly differentiated squamous cell carcinoma with metastasis to the pleura, stage cT3N2M1a/IVa. March 2021: Started carboplatin, paclitaxel, and pembrolizumab. Chest CT on completion of four cycles revealed that the LLL mass had decreased to 1.5 \u00d7 1.4 cm. The mass was consolidated with 50 Gy of radiation.",
+        "clinical_data": {
+          "imaging": [
+            {
+              "type": "Magnetic resonance imaging of brain",
+              "body_part": "Brain",
+              "modality": "MRI",
+              "finding": "negative for metastatic disease",
+              "date": null
+            },
+            {
+              "type": "Chest CT",
+              "body_part": "Chest",
+              "modality": "CT",
+              "finding": "LLL mass had decreased to 1.5 \u00d7 1.4 cm",
+              "date": null
+            }
+          ],
+          "diagnoses": [
+            {
+              "code": "C0007271",
+              "label": "Squamous Cell Carcinoma",
+              "status": "active",
+              "onset_date": null
+            },
+            {
+              "code": "C0206331",
+              "label": "Metastasis to the pleura",
+              "status": "active",
+              "onset_date": null
+            }
+          ],
+          "procedures": [
+            {
+              "name": "Biopsy",
+              "date": null,
+              "location": null,
+              "performed_by": null,
+              "outcome": null
+            },
+            {
+              "name": "Radiation Therapy",
+              "date": null,
+              "location": "Mass",
+              "performed_by": null,
+              "outcome": null
+            }
+          ],
+          "medications": [
+            {
+              "drug": "C0007667",
+              "dosage": null,
+              "frequency": null,
+              "modality": null,
+              "start_date": "2021-03",
+              "end_date": null,
+              "indication": "Squamous Cell Carcinoma"
+            },
+            {
+              "drug": "C0030384",
+              "dosage": null,
+              "frequency": null,
+              "modality": null,
+              "start_date": "2021-03",
+              "end_date": null,
+              "indication": "Squamous Cell Carcinoma"
+            },
+            {
+              "drug": "C4070269",
+              "dosage": null,
+              "frequency": null,
+              "modality": null,
+              "start_date": "2021-03",
+              "end_date": null,
+              "indication": "Squamous Cell Carcinoma"
+            }
+          ]
+        },
+        "timestamp": "2021-03"
+      }
+    },
+    {
+      "id": "N3",
+      "label": "Step 3",
+      "customData": {
+        "node_id": "C",
+        "node_step_index": 2,
+        "content": "Chest CT 3 months after radiation revealed that the LLL mass increased to 2.0 cm with new left hilar lymphadenopathy. December 2021: Nivolumab was started. After 3 months of nivolumab, a chest CT revealed that the LLL mass had increased to 3.4 cm with new left infrahilar adenopathy.",
+        "clinical_data": {
+          "imaging": [
+            {
+              "type": "Mass",
+              "body_part": "Left lower lobe of lung",
+              "modality": "CT",
+              "finding": "Increased to 2.0 cm",
+              "date": "2021-09",
+              "impression": "LLL mass increased"
+            },
+            {
+              "type": "Lymphadenopathy",
+              "body_part": "Left hilum",
+              "modality": "CT",
+              "finding": "New",
+              "date": "2021-09",
+              "impression": "New left hilar lymphadenopathy"
+            },
+            {
+              "type": "Mass",
+              "body_part": "Left lower lobe of lung",
+              "modality": "CT",
+              "finding": "Increased to 3.4 cm",
+              "date": "2022-03",
+              "impression": "LLL mass increased"
+            },
+            {
+              "type": "Adenopathy",
+              "body_part": "Left infrahilar",
+              "modality": "CT",
+              "finding": "New",
+              "date": "2022-03",
+              "impression": "New left infrahilar adenopathy"
+            }
+          ],
+          "medications": [
+            {
+              "drug": "Nivolumab",
+              "start_date": "2021-12"
+            }
+          ]
+        },
+        "timestamp": "2021-12"
+      }
+    },
+    {
+      "id": "N4",
+      "label": "Step 4",
+      "customData": {
+        "node_id": "D",
+        "node_step_index": 3,
+        "content": "Biopsy of the LLL mass: aBRD2::NUTM1 gene fusion was identified by RNA-based next-generation sequencing (NGS). Immunohistochemistry (IHC) for NUT was positive, altering the diagnosis to NUT carcinoma. May 2022: Started docetaxel and ramucirumab. September 2022: Chest CT revealed a stable LLL mass after 4 months of docetaxel and ramucirumab.",
+        "clinical_data": {
+          "diagnoses": [
+            {
+              "code": "C4021881",
+              "label": "NUT midline carcinoma",
+              "status": "active"
+            }
+          ],
+          "procedures": [
+            {
+              "name": "Biopsy",
+              "location": "Left lower lobe of lung",
+              "date": null,
+              "outcome": "aBRD2::NUTM1 gene fusion identified by RNA-based next-generation sequencing (NGS). Immunohistochemistry (IHC) for NUT was positive"
+            }
+          ],
+          "medications": [
+            {
+              "drug": "C0012734",
+              "dosage": null,
+              "frequency": null,
+              "modality": null,
+              "start_date": "2022-05",
+              "end_date": "2022-09",
+              "indication": "NUT midline carcinoma"
+            },
+            {
+              "drug": "C3267709",
+              "dosage": null,
+              "frequency": null,
+              "modality": null,
+              "start_date": "2022-05",
+              "end_date": "2022-09",
+              "indication": "NUT midline carcinoma"
+            }
+          ],
+          "imaging": [
+            {
+              "type": "C0008955",
+              "body_part": "Left lower lobe of lung",
+              "modality": "CT",
+              "finding": "stable mass",
+              "impression": "stable mass",
+              "date": "2022-09"
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "edges": [
+    {
+      "from": "N1",
+      "to": "N2",
+      "data": {
+        "edge_id": "A_to_B",
+        "branch_flag": true,
+        "content": "Progression of LLL mass and regional lymph nodes, followed by negative brain MRI, biopsies revealing poorly differentiated squamous cell carcinoma with metastasis to the pleura, stage cT3N2M1a/IVa. Initiation of carboplatin, paclitaxel, and pembrolizumab. Reduction in LLL mass size after four cycles, followed by consolidation with radiation.",
+        "transition_event": {
+          "trigger_type": "diagnosis",
+          "trigger_entities": [
+            "C0007271",
+            "C0206331"
+          ],
+          "change_type": "addition",
+          "target_domain": "diagnosis",
+          "timestamp": "2021-03"
+        }
+      }
+    },
+    {
+      "from": "N2",
+      "to": "N3",
+      "data": {
+        "edge_id": "B_to_C",
+        "branch_flag": true,
+        "content": "LLL mass decreased to 1.5 x 1.4 cm with radiation, then increased to 2.0 cm with new left hilar lymphadenopathy. Nivolumab was started, but the LLL mass increased to 3.4 cm with new left infrahilar adenopathy.",
+        "transition_event": {
+          "trigger_type": "medication_change",
+          "trigger_entities": [
+            "Nivolumab"
+          ],
+          "change_type": "addition",
+          "target_domain": "medication",
+          "timestamp": "2021-12"
+        }
+      }
+    },
+    {
+      "from": "N3",
+      "to": "N4",
+      "data": {
+        "edge_id": "C_to_D",
+        "branch_flag": true,
+        "content": "LLL mass increased to 3.4 cm with new left infrahilar adenopathy. Biopsy revealed aBRD2::NUTM1 gene fusion, IHC positive for NUT, altering the diagnosis to NUT carcinoma. Docetaxel and ramucirumab were started, resulting in a stable LLL mass after 4 months.",
+        "transition_event": {
+          "trigger_type": "diagnosis",
+          "trigger_entities": [
+            "C4021881"
+          ],
+          "change_type": "reinterpretation",
+          "target_domain": "diagnosis",
+          "timestamp": "2022-04"
+        }
+      }
+    }
+  ]
+}

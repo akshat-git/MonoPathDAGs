@@ -1,0 +1,448 @@
+{
+  "nodes": [
+    {
+      "id": "N1",
+      "label": "Step 1",
+      "customData": {
+        "node_id": "A",
+        "node_step_index": 0,
+        "content": "Patient admitted on May 29, 2024 with symmetrical erythematous papules and plaques throughout the body, dry and scaly skin, severe pruritus, and visible scratch marks.",
+        "timestamp": "2024-05-29",
+        "clinical_data": {
+          "HPI": [
+            {
+              "summary": "Symmetrical erythematous papules and plaques throughout the body, dry and scaly skin, severe pruritus, and visible scratch marks.",
+              "onset": "May 29, 2024",
+              "progression": "unknown",
+              "associated_symptoms": [
+                "Pruritus"
+              ]
+            }
+          ]
+        }
+      }
+    },
+    {
+      "id": "N2",
+      "label": "Step 2",
+      "customData": {
+        "node_id": "B",
+        "node_step_index": 1,
+        "content": "Dermatopathologic biopsy of leg skin showing epidermal hyperkeratosis, hyperkeratosis, superficial crusting, hypertrophy of the stratum spinosum, and mass infiltration of lymphocytes, histiocytes, and plasma cells around superficial dermal vessels. PAS stain (-).",
+        "clinical_data": {
+          "imaging": [
+            {
+              "type": "Biopsy",
+              "body_part": "Leg skin",
+              "modality": "other",
+              "finding": "Epidermal hyperkeratosis, hyperkeratosis, superficial crusting, hypertrophy of the stratum spinosum, and mass infiltration of lymphocytes, histiocytes, and plasma cells around superficial dermal vessels. PAS stain (-).",
+              "impression": "Dermatopathologic biopsy of leg skin",
+              "date": null
+            }
+          ]
+        }
+      }
+    },
+    {
+      "id": "N3",
+      "label": "Step 3",
+      "customData": {
+        "node_id": "C",
+        "node_step_index": 2,
+        "content": "Mild eosinophilia [0.57 * 109/L (normal, 0.02-0.52)], 1.2% basophils (normal, 0-1), and 117.20 KIU/L serum IgE (normal, 0-100).",
+        "clinical_data": {
+          "labs": [
+            {
+              "test": "Eosinophils",
+              "value": "0.57",
+              "unit": "* 109/L",
+              "flag": "abnormal",
+              "reference_range": "0.02-0.52"
+            },
+            {
+              "test": "Basophils",
+              "value": "1.2",
+              "unit": "%",
+              "flag": "abnormal",
+              "reference_range": "0-1"
+            },
+            {
+              "test": "Serum IgE",
+              "value": "117.20",
+              "unit": "KIU/L",
+              "flag": "abnormal",
+              "reference_range": "0-100"
+            }
+          ]
+        }
+      }
+    },
+    {
+      "id": "N4",
+      "label": "Step 4",
+      "customData": {
+        "node_id": "D",
+        "node_step_index": 3,
+        "content": "Treatment: compound betamethasone intramuscular injection (1 mL of 5 mg betamethasone dipropionate with 2 mg betamethasone sodium phosphate, both measured as betamethasone); ST, topical application of topical 1:1 mixture of triamceinolone acetonide acetate cream (1.5%) and allantoin cream; BID. Additional chlorphenamine maleate tablets 5 mg were prescribed; PO, QN for intense itching at night.",
+        "clinical_data": {
+          "medications": [
+            {
+              "drug": "C0005444",
+              "dosage": "1 mL",
+              "frequency": null,
+              "modality": "IM",
+              "start_date": null,
+              "end_date": null
+            },
+            {
+              "drug": "C0041143",
+              "dosage": null,
+              "frequency": "BID",
+              "modality": "topical",
+              "start_date": null,
+              "end_date": null
+            },
+            {
+              "drug": "C0008131",
+              "dosage": "5 mg",
+              "frequency": "QN",
+              "modality": "PO",
+              "start_date": null,
+              "end_date": null,
+              "indication": "C0022110"
+            }
+          ]
+        }
+      }
+    },
+    {
+      "id": "N5",
+      "label": "Step 5",
+      "customData": {
+        "node_id": "E",
+        "node_step_index": 4,
+        "content": "Genetic testing revealed KIF5B-exon24-RET-exon11 fusion variant (15.18% variant rate). Patient diagnosed with secondary malignant tumor of the frontal lobe and NSCLC via genetic testing.",
+        "clinical_data": {
+          "diagnoses": [
+            {
+              "code": "C79.31",
+              "label": "Secondary malignant neoplasm of brain, frontal lobe",
+              "status": "active"
+            },
+            {
+              "code": "C34",
+              "label": "NSCLC",
+              "status": "active"
+            }
+          ],
+          "labs": [
+            {
+              "test": "Genetic testing",
+              "value": "KIF5B-exon24-RET-exon11 fusion variant (15.18% variant rate)",
+              "unit": "%",
+              "flag": "abnormal"
+            }
+          ]
+        }
+      }
+    },
+    {
+      "id": "N6",
+      "label": "Step 6",
+      "customData": {
+        "node_id": "F",
+        "node_step_index": 5,
+        "content": "Developed a secondary malignancy tumor in the brain. Selpercatinib treatment was selected. Patient had no history of ICI use and never developed a more severe generalized eczema-like flakiness and dry skin.",
+        "clinical_data": {
+          "diagnoses": [
+            {
+              "code": "C71.9",
+              "label": "Malignant neoplasm of brain, unspecified",
+              "status": "active"
+            }
+          ],
+          "medications": [
+            {
+              "drug": "Selpercatinib",
+              "indication": "Malignant neoplasm of brain, unspecified"
+            }
+          ]
+        }
+      }
+    },
+    {
+      "id": "N7",
+      "label": "Step 7",
+      "customData": {
+        "node_id": "G",
+        "node_step_index": 6,
+        "content": "Patient prescribed 4 weeks of selpercatinib as a subsequent treatment, starting selpercatinib 160 mg PO BID on April 17, 2024.",
+        "timestamp": "2024-04-17",
+        "clinical_data": {
+          "medications": [
+            {
+              "drug": "selpercatinib",
+              "dosage": "160 mg",
+              "frequency": "BID",
+              "modality": "PO",
+              "start_date": "2024-04-17",
+              "end_date": null,
+              "indication": "subsequent treatment"
+            }
+          ]
+        }
+      }
+    },
+    {
+      "id": "N8",
+      "label": "Step 8",
+      "customData": {
+        "node_id": "H",
+        "node_step_index": 7,
+        "content": "Around May 15, 2024, patient developed erythematous papules on the face and neck, with intolerable itching. Routine blood tests revealed no abnormalities.",
+        "timestamp": "2024-05-15",
+        "clinical_data": {
+          "HPI": [
+            {
+              "onset": "2024-05-15",
+              "progression": "sudden",
+              "associated_symptoms": [
+                "Intolerable itching"
+              ],
+              "summary": "Patient developed erythematous papules on the face and neck"
+            }
+          ],
+          "diagnoses": [
+            {
+              "code": "R21",
+              "label": "Rash and other nonspecific skin eruption",
+              "status": "active",
+              "onset_date": "2024-05-15"
+            }
+          ],
+          "labs": [
+            {
+              "test": "Complete blood count",
+              "value": "normal",
+              "flag": "normal",
+              "timestamp": "2024-05-15"
+            }
+          ]
+        }
+      }
+    },
+    {
+      "id": "N9",
+      "label": "Step 9",
+      "customData": {
+        "node_id": "I",
+        "node_step_index": 8,
+        "content": "Patient self-administered oral prednisone acetate tablets, 5 mg irregularly for over a week, which resolved skin lesions on the face and neck.",
+        "clinical_data": {
+          "medications": [
+            {
+              "drug": "C0032741",
+              "dosage": "5 mg",
+              "frequency": "irregularly",
+              "modality": "oral",
+              "start_date": null,
+              "end_date": null,
+              "indication": "skin lesions on the face and neck"
+            }
+          ]
+        }
+      }
+    },
+    {
+      "id": "N10",
+      "label": "Step 10",
+      "customData": {
+        "node_id": "J",
+        "node_step_index": 9,
+        "content": "Eczema-like changes subsequently manifested on the abdomen, back, and extremities, with the most severe skin lesions observed on the hands, exhibiting significant cracking and desquamation.",
+        "clinical_data": {
+          "HPI": [
+            {
+              "summary": "Eczema-like changes on abdomen, back, and extremities, with severe skin lesions on hands exhibiting cracking and desquamation.",
+              "progression": "gradual",
+              "associated_symptoms": [
+                "Desquamation"
+              ],
+              "onset": "unknown"
+            }
+          ]
+        }
+      }
+    },
+    {
+      "id": "N11",
+      "label": "Step 11",
+      "customData": {
+        "node_id": "K",
+        "node_step_index": 10,
+        "content": "On June 7, 2024, the patient returned to the clinic with significantly improved skin lesions and approaching normal skin morphology.",
+        "timestamp": "2024-06-07",
+        "clinical_data": {
+          "diagnoses": [
+            {
+              "code": "UMLS:C0263554",
+              "label": "Skin lesion",
+              "status": "resolved",
+              "onset_date": null
+            }
+          ]
+        }
+      }
+    },
+    {
+      "id": "N12",
+      "label": "Step 12",
+      "customData": {
+        "node_id": "L",
+        "node_step_index": 11,
+        "content": "Patient used only topical glucocorticoid cream, with a gradual",
+        "clinical_data": {}
+      }
+    }
+  ],
+  "edges": [
+    {
+      "from": "N1",
+      "to": "N2",
+      "data": {
+        "edge_id": "A_to_B",
+        "branch_flag": true,
+        "content": "Initial presentation and subsequent biopsy to investigate the cause of the skin condition."
+      }
+    },
+    {
+      "from": "N2",
+      "to": "N3",
+      "data": {
+        "edge_id": "B_to_C",
+        "branch_flag": true,
+        "content": "Lab results indicating eosinophilia and elevated IgE levels."
+      }
+    },
+    {
+      "from": "N3",
+      "to": "N4",
+      "data": {
+        "edge_id": "C_to_D",
+        "branch_flag": true,
+        "content": "Treatment initiated with betamethasone injection, topical triamcinolone/allantoin, and chlorphenamine for itching.",
+        "transition_event": {
+          "trigger_type": "medication_change",
+          "trigger_entities": [
+            "C0005444",
+            "C0041143",
+            "C0008131"
+          ],
+          "change_type": "addition",
+          "target_domain": "medication"
+        }
+      }
+    },
+    {
+      "from": "N4",
+      "to": "N5",
+      "data": {
+        "edge_id": "D_to_E",
+        "branch_flag": true,
+        "content": "Genetic testing reveals KIF5B-RET fusion, leading to diagnoses of secondary malignant tumor of the frontal lobe and NSCLC.",
+        "transition_event": {
+          "trigger_type": "lab_change",
+          "trigger_entities": [],
+          "change_type": "addition",
+          "target_domain": "diagnosis"
+        }
+      }
+    },
+    {
+      "from": "N5",
+      "to": "N6",
+      "data": {
+        "edge_id": "E_to_F",
+        "branch_flag": true,
+        "content": "Development of a secondary malignancy tumor in the brain, leading to the selection of selpercatinib treatment.",
+        "transition_event": {
+          "trigger_type": "diagnosis",
+          "trigger_entities": [
+            "C71.9"
+          ],
+          "change_type": "progression",
+          "target_domain": "diagnosis"
+        }
+      }
+    },
+    {
+      "from": "N6",
+      "to": "N7",
+      "data": {
+        "edge_id": "F_to_G",
+        "branch_flag": true,
+        "content": "Selpercatinib prescribed as subsequent treatment.",
+        "transition_event": {
+          "trigger_type": "medication_change",
+          "trigger_entities": [
+            "Selpercatinib"
+          ],
+          "change_type": "addition",
+          "target_domain": "medication",
+          "timestamp": "2024-04-17T00:00:00Z"
+        }
+      }
+    },
+    {
+      "from": "N7",
+      "to": "N8",
+      "data": {
+        "edge_id": "G_to_H",
+        "branch_flag": true,
+        "content": "Development of erythematous papules on the face and neck with intolerable itching.",
+        "transition_event": {
+          "trigger_type": "symptom_onset",
+          "trigger_entities": [
+            "C0015672",
+            "C0022110"
+          ],
+          "change_type": "progression",
+          "target_domain": "symptom",
+          "timestamp": "2024-05-15T00:00:00Z"
+        }
+      }
+    },
+    {
+      "from": "N8",
+      "to": "N9",
+      "data": {
+        "edge_id": "H_to_I",
+        "branch_flag": true,
+        "content": "Self-administration of oral prednisone acetate, leading to resolution of skin lesions on the face and neck.",
+        "transition_event": {
+          "trigger_type": "medication_change",
+          "trigger_entities": [
+            "C0032741"
+          ],
+          "change_type": "addition",
+          "target_domain": "medication"
+        }
+      }
+    },
+    {
+      "from": "N9",
+      "to": "N10",
+      "data": {
+        "edge_id": "I_to_J",
+        "branch_flag": true,
+        "content": "Manifestation of eczema-like changes on the abdomen, back, and extremities, with severe skin lesions on the hands.",
+        "transition_event": {
+          "trigger_type": "symptom_onset",
+          "trigger_entities": [
+            "C0014400"
+          ]
+        }
+      }
+    }
+  ]
+}

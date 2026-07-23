@@ -1,0 +1,332 @@
+{
+  "nodes": [
+    {
+      "id": "N1",
+      "label": "Step 1",
+      "customData": {
+        "node_id": "A",
+        "node_step_index": 0,
+        "content": "Patient is a 46-year-old male non-smoker presenting in December 2007 with right supraclavicular lymphadenopathy.",
+        "timestamp": "2007-12",
+        "clinical_data": {
+          "diagnoses": [
+            {
+              "code": "C0346921",
+              "label": "Lymphadenopathy",
+              "status": "active",
+              "onset_date": "2007-12"
+            }
+          ],
+          "social_history": [
+            {
+              "category": "smoking",
+              "status": "never",
+              "description": "non-smoker"
+            }
+          ]
+        }
+      }
+    },
+    {
+      "id": "N2",
+      "label": "Step 2",
+      "customData": {
+        "node_id": "B",
+        "node_step_index": 1,
+        "content": "Excisional biopsy of the right supraclavicular lymph node was performed. Histopathology showed small cell lung cancer (SCLC) with small to medium size cells, high nuclear/cytoplasmic ratio, salt and pepper chromatin with inconspicuous nucleoli, nuclear molding, and high mitotic activity. Immunostaining of the lymph node biopsy showed the tumor cells expressed synaptophysin and chromogranin and discontinuous cytokeratin markers. TTF-1 was also positive. Imaging was performed with PET/CT showing a 5 cm right hilar mass and right paratracheal lymphadenopathy and no disease elsewhere including a negative brain MRI.",
+        "clinical_data": {
+          "procedures": [
+            {
+              "name": "Excisional biopsy",
+              "approach": "other",
+              "date": null,
+              "location": "right supraclavicular lymph node",
+              "performed_by": null,
+              "outcome": null
+            }
+          ],
+          "diagnoses": [
+            {
+              "code": "C0007107",
+              "label": "Small cell lung cancer",
+              "status": "active",
+              "onset_date": null
+            }
+          ],
+          "imaging": [
+            {
+              "type": "Positron emission tomography/computed tomography",
+              "body_part": "hilar mass",
+              "modality": "PET",
+              "finding": "5 cm right hilar mass and right paratracheal lymphadenopathy",
+              "impression": null,
+              "date": null
+            },
+            {
+              "type": "Magnetic resonance imaging",
+              "body_part": "brain",
+              "modality": "MRI",
+              "finding": "no disease elsewhere",
+              "impression": null,
+              "date": null
+            }
+          ],
+          "labs": [
+            {
+              "test": "Synaptophysin",
+              "value": "positive",
+              "unit": null,
+              "flag": null,
+              "reference_range": null,
+              "timestamp": null
+            },
+            {
+              "test": "Chromogranin",
+              "value": "positive",
+              "unit": null,
+              "flag": null,
+              "reference_range": null,
+              "timestamp": null
+            },
+            {
+              "test": "Cytokeratin",
+              "value": "positive",
+              "unit": null,
+              "flag": null,
+              "reference_range": null,
+              "timestamp": null
+            },
+            {
+              "test": "TTF-1",
+              "value": "positive",
+              "unit": null,
+              "flag": null,
+              "reference_range": null,
+              "timestamp": null
+            }
+          ]
+        },
+        "timestamp": "2007-12"
+      }
+    },
+    {
+      "id": "N3",
+      "label": "Step 3",
+      "customData": {
+        "node_id": "C",
+        "node_step_index": 2,
+        "content": "PD-L1 immunostain was negative in the initial biopsy and subsequent biopsied metastatic sites. The patient was diagnosed with limited stage small cell lung cancer (SCLC).",
+        "clinical_data": {
+          "diagnoses": [
+            {
+              "code": "C34.9",
+              "label": "Lung Cancer",
+              "status": "active"
+            }
+          ],
+          "labs": [
+            {
+              "test": "PD-L1 immunostain",
+              "value": "negative",
+              "flag": "abnormal"
+            }
+          ]
+        },
+        "timestamp": "2007-12"
+      }
+    },
+    {
+      "id": "N4",
+      "label": "Step 4",
+      "customData": {
+        "node_id": "D",
+        "node_step_index": 3,
+        "content": "The patient was treated with cisplatin and etoposide and concurrent radiation therapy. The patient achieved a complete response after 6 cycles of chemotherapy and subsequently underwent prophylactic cranial irradiation.",
+        "clinical_data": {
+          "medications": [
+            {
+              "drug": "C0008868",
+              "dosage": null,
+              "frequency": null,
+              "modality": null,
+              "start_date": null,
+              "end_date": null,
+              "indication": null
+            },
+            {
+              "drug": "C0015057",
+              "dosage": null,
+              "frequency": null,
+              "modality": null,
+              "start_date": null,
+              "end_date": null,
+              "indication": null
+            }
+          ],
+          "procedures": [
+            {
+              "name": "C0010339",
+              "approach": null,
+              "date": null,
+              "location": "head",
+              "performed_by": null,
+              "outcome": null
+            }
+          ]
+        }
+      }
+    },
+    {
+      "id": "N5",
+      "label": "Step 5",
+      "customData": {
+        "node_id": "E",
+        "node_step_index": 4,
+        "content": "The patient was monitored clinically and by imaging every 3 months.",
+        "clinical_data": {}
+      }
+    },
+    {
+      "id": "N6",
+      "label": "Step 6",
+      "customData": {
+        "node_id": "F",
+        "node_step_index": 5,
+        "content": "May 2009: Disease relapsed with left supraclavicular lymphadenopathy, confirmed by excisional biopsy.",
+        "timestamp": "2009-05",
+        "clinical_data": {
+          "diagnoses": [
+            {
+              "code": "C0006234",
+              "label": "Disease relapse",
+              "status": "active",
+              "onset_date": "2009-05"
+            }
+          ],
+          "imaging": [
+            {
+              "type": "C0441713",
+              "body_part": "C0038540",
+              "modality": "other",
+              "finding": "lymphadenopathy",
+              "impression": "Disease relapsed with left supraclavicular lymphadenopathy",
+              "date": "2009-05"
+            }
+          ],
+          "procedures": [
+            {
+              "name": "C0162735",
+              "approach": "other",
+              "date": "2009-05",
+              "location": "left supraclavicular region",
+              "performed_by": "unknown",
+              "outcome": "confirmed"
+            }
+          ]
+        }
+      }
+    },
+    {
+      "id": "N7",
+      "label": "Step 7",
+      "customData": {
+        "node_id": "G",
+        "node_step_index": 6,
+        "content": "The patient underwent radiation therapy with concurrent cisplatin and etoposide for 2 cycles, followed by 4 cycles of oral topotecan. The patient had a complete response again that lasted for one year.",
+        "clinical_data": {
+          "procedures": [
+            {
+              "name": "Radiation therapy",
+              "date": null
+            }
+          ],
+          "medications": [
+            {
+              "drug": "cisplatin",
+              "dosage": null,
+              "frequency": null,
+              "modality": null,
+              "start_date": null,
+              "end_date": null,
+              "indication": null
+            },
+            {
+              "drug": "etoposide",
+              "dosage": null,
+              "frequency": null,
+              "modality": null,
+              "start_date": null,
+              "end_date": null,
+              "indication": null
+            },
+            {
+              "drug": "topotecan",
+              "dosage": null,
+              "frequency": null,
+              "modality": "oral",
+              "start_date": null,
+              "end_date": null,
+              "indication": null
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "edges": [
+    {
+      "from": "N1",
+      "to": "N2",
+      "data": {
+        "edge_id": "A_to_B",
+        "branch_flag": true,
+        "content": "Patient presented with right supraclavicular lymphadenopathy, leading to further investigation."
+      }
+    },
+    {
+      "from": "N2",
+      "to": "N3",
+      "data": {
+        "edge_id": "B_to_C",
+        "branch_flag": true,
+        "content": "Biopsy and imaging results led to further characterization of the tumor."
+      }
+    },
+    {
+      "from": "N3",
+      "to": "N4",
+      "data": {
+        "edge_id": "C_to_D",
+        "branch_flag": true,
+        "content": "Diagnosis of limited stage SCLC prompted treatment."
+      }
+    },
+    {
+      "from": "N4",
+      "to": "N5",
+      "data": {
+        "edge_id": "D_to_E",
+        "branch_flag": true,
+        "content": "Treatment completion led to monitoring."
+      }
+    },
+    {
+      "from": "N5",
+      "to": "N6",
+      "data": {
+        "edge_id": "E_to_F",
+        "branch_flag": true,
+        "content": "Surveillance identified disease relapse."
+      }
+    },
+    {
+      "from": "N6",
+      "to": "N7",
+      "data": {
+        "edge_id": "F_to_G",
+        "branch_flag": true,
+        "content": "Relapse prompted further treatment."
+      }
+    }
+  ]
+}

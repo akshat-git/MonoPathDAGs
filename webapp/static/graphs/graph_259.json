@@ -1,0 +1,272 @@
+{
+  "nodes": [
+    {
+      "id": "N1",
+      "label": "Step 1",
+      "customData": {
+        "node_id": "A",
+        "node_step_index": 0,
+        "content": "63-year-old man with abnormal shadow on screening chest radiograph. Smoked 2 packs of cigarettes daily for 40 years. Routine laboratory findings and serum levels of tumor markers were within normal limits.",
+        "clinical_data": {
+          "imaging": [
+            {
+              "type": "Radiography, Thoracic",
+              "body_part": "Thorax",
+              "modality": "X-ray",
+              "finding": "abnormal shadow",
+              "impression": "abnormal shadow"
+            }
+          ],
+          "social_history": [
+            {
+              "category": "smoking",
+              "status": "current",
+              "description": "Smoked 2 packs of cigarettes daily for 40 years"
+            }
+          ]
+        }
+      }
+    },
+    {
+      "id": "N2",
+      "label": "Step 2",
+      "customData": {
+        "node_id": "B",
+        "node_step_index": 1,
+        "content": "Chest computed tomography revealed a 3.6-cm, well defined, lobulated, solid mass in the right peripheral S5 segment.",
+        "clinical_data": {
+          "imaging": [
+            {
+              "type": "Computed tomography",
+              "body_part": "Chest",
+              "modality": "CT",
+              "finding": "3.6-cm, well defined, lobulated, solid mass in the right peripheral S5 segment"
+            }
+          ]
+        }
+      }
+    },
+    {
+      "id": "N3",
+      "label": "Step 3",
+      "customData": {
+        "node_id": "C",
+        "node_step_index": 2,
+        "content": "Positron emission tomography showed 18F-fluorodeoxyglucose accumulation with a maximum standardized uptake value of 14.0. Mass identified as a non-small cell lung carcinoma on transbronchial lung biopsy and diagnosed as cT2aN0M0, stage IB.",
+        "clinical_data": {
+          "imaging": [
+            {
+              "type": "Positron emission tomography",
+              "body_part": "lung",
+              "modality": "PET",
+              "finding": "18F-fluorodeoxyglucose accumulation with a maximum standardized uptake value of 14.0",
+              "date": null
+            }
+          ],
+          "diagnoses": [
+            {
+              "code": "C34.9",
+              "label": "Non-small cell lung carcinoma",
+              "status": "active",
+              "onset_date": null
+            }
+          ],
+          "procedures": [
+            {
+              "name": "Transbronchial lung biopsy",
+              "approach": "endoscopic",
+              "date": null,
+              "location": "lung",
+              "performed_by": null,
+              "outcome": null
+            }
+          ]
+        }
+      }
+    },
+    {
+      "id": "N4",
+      "label": "Step 4",
+      "customData": {
+        "node_id": "D",
+        "node_step_index": 3,
+        "content": "Right middle lobectomy and systematic lymph node dissection performed. Resected tumor was 4.0 x 2.5 x 2.0 cm with distinct margins.",
+        "clinical_data": {
+          "procedures": [
+            {
+              "name": "Lobectomy",
+              "approach": "open",
+              "location": "Right middle lobe",
+              "outcome": "resection of tumor"
+            },
+            {
+              "name": "Lymph node dissection",
+              "approach": "open",
+              "location": "systematic",
+              "outcome": "resection of tumor"
+            }
+          ],
+          "imaging": [
+            {
+              "type": "tumor size",
+              "body_part": "right middle lobe",
+              "modality": "surgical resection",
+              "finding": "4.0 x 2.5 x 2.0 cm",
+              "impression": "distinct margins"
+            }
+          ]
+        }
+      }
+    },
+    {
+      "id": "N5",
+      "label": "Step 5",
+      "customData": {
+        "node_id": "E",
+        "node_step_index": 4,
+        "content": "Microscopic examination showed the tumor consisted of large cells with large round nuclei, distinct nucleoli, and scant cytoplasm, with many rosette-like structures. Immunohistochemical analyses showed that the tumor was diffusely positive for CD56, and negative for chromogranin and synaptophysin. Final pathological diagnosis was LCNEC, and the pathological stage of the tumor was T2aN0M0, stage IB. Bronchial epithelium around the primary tumor was extensively invaded by the tumor cells.",
+        "clinical_data": {
+          "diagnoses": [
+            {
+              "code": "C34.9",
+              "label": "Lung cancer, unspecified",
+              "status": "active"
+            }
+          ],
+          "imaging": [
+            {
+              "type": "Neoplasm",
+              "body_part": "Bronchial Epithelium",
+              "modality": "Microscopic Examination",
+              "finding": "Tumor cells extensively invaded bronchial epithelium",
+              "impression": "LCNEC"
+            }
+          ]
+        }
+      }
+    },
+    {
+      "id": "N6",
+      "label": "Step 6",
+      "customData": {
+        "node_id": "F",
+        "node_step_index": 5,
+        "content": "30 months after surgery, the patient complained of continuous cough. Computed tomography revealed a thickened right upper bronchus. Bronchoscopy showed that the epithelium of the right upper bronchus was reddish and thick, with prolongation of the longitudinal folds on auto-fluorescence imaging. Transbronchial biopsy yielded a pathological diagnosis of LCNEC with bronchial intraepithelial recurrence.",
+        "clinical_data": {
+          "imaging": [
+            {
+              "type": "Computed tomography",
+              "body_part": "right upper bronchus",
+              "modality": "CT",
+              "finding": "thickened right upper bronchus"
+            }
+          ],
+          "procedures": [
+            {
+              "name": "Bronchoscopy",
+              "approach": "endoscopic",
+              "location": "right upper bronchus",
+              "finding": "epithelium of the right upper bronchus was reddish and thick, with prolongation of the longitudinal folds on auto-fluorescence imaging"
+            },
+            {
+              "name": "Transbronchial biopsy",
+              "location": "right upper bronchus",
+              "outcome": "LCNEC with bronchial intraepithelial recurrence"
+            }
+          ],
+          "HPI": [
+            {
+              "summary": "continuous cough",
+              "duration": "30 months"
+            }
+          ],
+          "diagnoses": [
+            {
+              "code": "LCNEC",
+              "label": "Large cell neuroendocrine carcinoma",
+              "status": "active"
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "edges": [
+    {
+      "from": "N1",
+      "to": "N2",
+      "data": {
+        "edge_id": "A_to_B",
+        "branch_flag": true,
+        "content": "Patient underwent chest computed tomography."
+      }
+    },
+    {
+      "from": "N2",
+      "to": "N3",
+      "data": {
+        "edge_id": "B_to_C",
+        "branch_flag": true,
+        "content": "Patient underwent positron emission tomography and transbronchial lung biopsy.",
+        "transition_event": {
+          "trigger_type": "procedure",
+          "trigger_entities": [
+            "C0005767"
+          ],
+          "change_type": "addition",
+          "target_domain": "diagnosis"
+        }
+      }
+    },
+    {
+      "from": "N3",
+      "to": "N4",
+      "data": {
+        "edge_id": "C_to_D",
+        "branch_flag": true,
+        "content": "Patient underwent right middle lobectomy and systematic lymph node dissection.",
+        "transition_event": {
+          "trigger_type": "procedure",
+          "trigger_entities": [
+            "C0023843",
+            "C0024135"
+          ],
+          "change_type": "addition",
+          "target_domain": "procedure"
+        }
+      }
+    },
+    {
+      "from": "N4",
+      "to": "N5",
+      "data": {
+        "edge_id": "D_to_E",
+        "branch_flag": true,
+        "content": "Microscopic examination and immunohistochemical analyses performed on resected tumor.",
+        "transition_event": {
+          "trigger_type": "procedure",
+          "trigger_entities": [],
+          "change_type": "reinterpretation",
+          "target_domain": "diagnosis"
+        }
+      }
+    },
+    {
+      "from": "N5",
+      "to": "N6",
+      "data": {
+        "edge_id": "E_to_F",
+        "branch_flag": true,
+        "content": "30 months after surgery, the patient complained of continuous cough. Computed tomography, bronchoscopy, and transbronchial biopsy were performed.",
+        "transition_event": {
+          "trigger_type": "symptom_onset",
+          "trigger_entities": [
+            "C0010200"
+          ],
+          "change_type": "progression",
+          "target_domain": "symptom"
+        }
+      }
+    }
+  ]
+}

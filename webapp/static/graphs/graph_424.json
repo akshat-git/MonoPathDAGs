@@ -1,0 +1,309 @@
+{
+  "nodes": [
+    {
+      "id": "N1",
+      "label": "Step 1",
+      "customData": {
+        "node_id": "A",
+        "node_step_index": 0,
+        "content": "55-year-old male presented with a 3-month history of persistent cough and was referred to the hospital in June 2022.",
+        "clinical_data": {
+          "HPI": [
+            {
+              "summary": "55-year-old male presented with a 3-month history of persistent cough",
+              "duration": "3 months",
+              "onset": "June 2022",
+              "associated_symptoms": [
+                "C0010200"
+              ]
+            }
+          ]
+        }
+      }
+    },
+    {
+      "id": "N2",
+      "label": "Step 2",
+      "customData": {
+        "node_id": "B",
+        "node_step_index": 1,
+        "content": "June 30th: CT scan of the chest revealed a solid mass in the right hilar lobe, accompanied by cancerous lymphadenitis and mediastinal lymph node metastasis. Pericardial and pleural involvement with large pericardial effusion and small right-sided pleural effusion.",
+        "timestamp": "2022-06-30",
+        "clinical_data": {
+          "imaging": [
+            {
+              "type": "CT scan",
+              "body_part": "chest",
+              "modality": "CT",
+              "finding": "solid mass in the right hilar lobe, cancerous lymphadenitis, mediastinal lymph node metastasis, pericardial and pleural involvement, large pericardial effusion, small right-sided pleural effusion",
+              "impression": "solid mass in the right hilar lobe, cancerous lymphadenitis, mediastinal lymph node metastasis, pericardial and pleural involvement, large pericardial effusion, small right-sided pleural effusion",
+              "date": "2023-06-30"
+            }
+          ]
+        }
+      }
+    },
+    {
+      "id": "N3",
+      "label": "Step 3",
+      "customData": {
+        "node_id": "C",
+        "node_step_index": 2,
+        "content": "July 6th: Puncture biopsy of the posterior segment of the right upper lung apex showed adenocarcinoma. IHC staining: TTF-1(+), P40(-), CK(+), CK5/6(-), Napsin-A(+), CK7(+), Syn(-), CgA(-), CD56(-). Diagnosis of moderately to poorly differentiated adenocarcinoma established based on biopsy specimen H&E staining.",
+        "timestamp": "2022-07-06",
+        "clinical_data": {
+          "procedures": [
+            {
+              "name": "Puncture biopsy",
+              "date": "2023-07-06",
+              "location": "posterior segment of the right upper lung apex"
+            }
+          ],
+          "diagnoses": [
+            {
+              "code": "C0001884",
+              "label": "Adenocarcinoma",
+              "status": "active",
+              "onset_date": "2023-07-06"
+            }
+          ],
+          "labs": [
+            {
+              "test": "TTF-1",
+              "value": "positive"
+            },
+            {
+              "test": "P40",
+              "value": "negative"
+            },
+            {
+              "test": "CK",
+              "value": "positive"
+            },
+            {
+              "test": "CK5/6",
+              "value": "negative"
+            },
+            {
+              "test": "Napsin-A",
+              "value": "positive"
+            },
+            {
+              "test": "CK7",
+              "value": "positive"
+            },
+            {
+              "test": "Syn",
+              "value": "negative"
+            },
+            {
+              "test": "CgA",
+              "value": "negative"
+            },
+            {
+              "test": "CD56",
+              "value": "negative"
+            }
+          ]
+        }
+      }
+    },
+    {
+      "id": "N4",
+      "label": "Step 4",
+      "customData": {
+        "node_id": "D",
+        "node_step_index": 3,
+        "content": "Baseline enhanced CT scan shows tumors in the lungs before alectinib treatment. Tumor decreased significantly according to chest CT evaluation after 12 weeks and 24 weeks of alectinib treatment.",
+        "clinical_data": {
+          "imaging": [
+            {
+              "type": "CT scan",
+              "body_part": "lungs",
+              "modality": "CT",
+              "finding": "tumors",
+              "date": null
+            },
+            {
+              "type": "Chest CT",
+              "body_part": "chest",
+              "modality": "CT",
+              "finding": "Tumor decreased significantly",
+              "date": null
+            }
+          ],
+          "medications": [
+            {
+              "drug": "alectinib",
+              "dosage": null,
+              "frequency": null,
+              "modality": "oral",
+              "start_date": null,
+              "end_date": null,
+              "indication": "tumors in the lungs"
+            }
+          ]
+        }
+      }
+    },
+    {
+      "id": "N5",
+      "label": "Step 5",
+      "customData": {
+        "node_id": "E",
+        "node_step_index": 4,
+        "content": "IHC analyses indicated the tumor sections being positive for TTF-1 and ALK-D5F3, negative for P40. Representative H&E staining of tumor section showed adenocarcinoma cells.",
+        "clinical_data": {
+          "imaging": [
+            {
+              "type": "Immunohistochemistry",
+              "body_part": "tumor section",
+              "modality": "other",
+              "finding": "positive for TTF-1 and ALK-D5F3, negative for P40"
+            }
+          ],
+          "diagnoses": [
+            {
+              "code": "SNOMED:84801008",
+              "label": "Adenocarcinoma",
+              "status": "active"
+            }
+          ]
+        }
+      }
+    },
+    {
+      "id": "N6",
+      "label": "Step 6",
+      "customData": {
+        "node_id": "F",
+        "node_step_index": 5,
+        "content": "47-year-old female patient presented.",
+        "clinical_data": {
+          "demographics": [
+            {
+              "age": "47",
+              "sex": "female"
+            }
+          ]
+        }
+      }
+    },
+    {
+      "id": "N7",
+      "label": "Step 7",
+      "customData": {
+        "node_id": "G",
+        "node_step_index": 6,
+        "content": "April 18",
+        "2022": "enhanced CT scan revealed mediastinal lung cancer in the upper lobe of the left lung, with enlarged lymph nodes in the mediastinum and left hilum. April",
+        "clinical_data": {}
+      }
+    }
+  ],
+  "edges": [
+    {
+      "from": "N1",
+      "to": "N2",
+      "data": {
+        "edge_id": "A_to_B",
+        "branch_flag": true,
+        "content": "Patient developed solid mass in the right hilar lobe, accompanied by cancerous lymphadenitis and mediastinal lymph node metastasis. Pericardial and pleural involvement with large pericardial effusion and small right-sided pleural effusion.",
+        "transition_event": {
+          "trigger_type": "symptom_onset",
+          "trigger_entities": [
+            "C0010200"
+          ],
+          "change_type": "progression",
+          "target_domain": "imaging",
+          "timestamp": "2022-06-30T00:00:00Z"
+        }
+      }
+    },
+    {
+      "from": "N2",
+      "to": "N3",
+      "data": {
+        "edge_id": "B_to_C",
+        "branch_flag": true,
+        "content": "Puncture biopsy of the posterior segment of the right upper lung apex showed adenocarcinoma. IHC staining: TTF-1(+), P40(-), CK(+), CK5/6(-), Napsin-A(+), CK7(+), Syn(-), CgA(-), CD56(-). Diagnosis of moderately to poorly differentiated adenocarcinoma established based on biopsy specimen H&E staining.",
+        "transition_event": {
+          "trigger_type": "procedure",
+          "trigger_entities": [
+            "C0001884"
+          ],
+          "change_type": "addition",
+          "target_domain": "diagnosis",
+          "timestamp": "2022-07-06T00:00:00Z"
+        }
+      }
+    },
+    {
+      "from": "N3",
+      "to": "N4",
+      "data": {
+        "edge_id": "C_to_D",
+        "branch_flag": true,
+        "content": "Tumor decreased significantly according to chest CT evaluation after 12 weeks and 24 weeks of alectinib treatment.",
+        "transition_event": {
+          "trigger_type": "medication_change",
+          "trigger_entities": [
+            "C1697446"
+          ],
+          "change_type": "addition",
+          "target_domain": "medication"
+        }
+      }
+    },
+    {
+      "from": "N4",
+      "to": "N5",
+      "data": {
+        "edge_id": "D_to_E",
+        "branch_flag": true,
+        "content": "IHC analyses indicated the tumor sections being positive for TTF-1 and ALK-D5F3, negative for P40. Representative H&E staining of tumor section showed adenocarcinoma cells.",
+        "transition_event": {
+          "trigger_type": "lab_change",
+          "trigger_entities": [
+            "C0001884"
+          ],
+          "change_type": "reinterpretation",
+          "target_domain": "diagnosis"
+        }
+      }
+    },
+    {
+      "from": "N5",
+      "to": "N6",
+      "data": {
+        "edge_id": "E_to_F",
+        "branch_flag": true,
+        "content": "New patient presented.",
+        "transition_event": {
+          "trigger_type": "spontaneous",
+          "trigger_entities": [],
+          "change_type": "other",
+          "target_domain": "functional_status"
+        }
+      }
+    },
+    {
+      "from": "N6",
+      "to": "N7",
+      "data": {
+        "edge_id": "F_to_G",
+        "branch_flag": true,
+        "content": "enhanced CT scan revealed mediastinal lung cancer in the upper lobe of the left lung, with enlarged lymph nodes in the mediastinum and left hilum.",
+        "transition_event": {
+          "trigger_type": "symptom_onset",
+          "trigger_entities": [
+            "C0009760"
+          ],
+          "change_type": "progression",
+          "target_domain": "imaging",
+          "timestamp": "2022-04-18T00:00:00Z"
+        }
+      }
+    }
+  ]
+}

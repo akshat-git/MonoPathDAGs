@@ -1,0 +1,493 @@
+{
+  "nodes": [
+    {
+      "id": "N1",
+      "label": "Step 1",
+      "customData": {
+        "node_id": "A",
+        "node_step_index": 0,
+        "content": "55-year-old male presented to the emergency department with nausea, vomiting, abdominal pain, and constipation for 3 days. Similar, less severe presentations occurred in previous weeks. Past medical history includes obesity and prediabetes. Past social history includes a 30-pack-year smoking history.",
+        "clinical_data": {
+          "HPI": [
+            {
+              "summary": "55-year-old male presented with nausea, vomiting, abdominal pain, and constipation for 3 days.",
+              "duration": "P3D",
+              "onset": null,
+              "progression": "unknown",
+              "associated_symptoms": [
+                "nausea",
+                "vomiting",
+                "abdominal pain",
+                "constipation"
+              ]
+            }
+          ],
+          "diagnoses": [
+            {
+              "code": "238133007",
+              "label": "Obesity (finding)",
+              "status": "active",
+              "onset_date": null
+            },
+            {
+              "code": "613950008",
+              "label": "Prediabetes",
+              "status": "active",
+              "onset_date": null
+            }
+          ],
+          "social_history": [
+            {
+              "category": "smoking",
+              "status": "past",
+              "description": "30-pack-year smoking history"
+            }
+          ]
+        }
+      }
+    },
+    {
+      "id": "N2",
+      "label": "Step 2",
+      "customData": {
+        "node_id": "B",
+        "node_step_index": 1,
+        "content": "Patient examination revealed tachycardia, diffusely distended and mildly tender abdomen without rebound tenderness, and overactive bowel sounds. Blood investigations, including liver and renal function tests, lipase, and calcium, were within normal range. White blood cell count was 14.9 (normal range 4.5 to 11.0\u2009\u00d7\u2009109/uL), indicating leukocytosis.",
+        "clinical_data": {
+          "vitals": [
+            {
+              "type": "C0039231",
+              "value": "numeric",
+              "unit": "beats per minute",
+              "timestamp": "null"
+            }
+          ],
+          "labs": [
+            {
+              "test": "C0043259",
+              "value": "14.9",
+              "unit": "10^9/L",
+              "flag": "abnormal",
+              "reference_range": "4.5 to 11.0",
+              "timestamp": "null"
+            },
+            {
+              "test": "C0151883",
+              "value": "normal range",
+              "unit": null,
+              "flag": "normal",
+              "reference_range": null,
+              "timestamp": "null"
+            },
+            {
+              "test": "C0151737",
+              "value": "normal range",
+              "unit": null,
+              "flag": "normal",
+              "reference_range": null,
+              "timestamp": "null"
+            },
+            {
+              "test": "C0023884",
+              "value": "normal range",
+              "unit": null,
+              "flag": "normal",
+              "reference_range": null,
+              "timestamp": "null"
+            },
+            {
+              "test": "C0006826",
+              "value": "normal range",
+              "unit": null,
+              "flag": "normal",
+              "reference_range": null,
+              "timestamp": "null"
+            }
+          ]
+        }
+      }
+    },
+    {
+      "id": "N3",
+      "label": "Step 3",
+      "customData": {
+        "node_id": "C",
+        "node_step_index": 2,
+        "content": "Elevated C reactive protein of 15 mg/L (normal <5 mg/L). Stool tests for occult blood and calprotectin were negative. QuantiFERON-TBGold test was negative. CT scan with contrast of abdomen and pelvis revealed features suggestive of small bowel obstruction.",
+        "clinical_data": {
+          "labs": [
+            {
+              "test": "C reactive protein",
+              "value": "15",
+              "unit": "mg/L",
+              "flag": "abnormal",
+              "reference_range": "<5 mg/L"
+            }
+          ],
+          "imaging": [
+            {
+              "type": "CT scan",
+              "body_part": "abdomen and pelvis",
+              "modality": "CT",
+              "finding": "features suggestive of small bowel obstruction"
+            }
+          ]
+        }
+      }
+    },
+    {
+      "id": "N4",
+      "label": "Step 4",
+      "customData": {
+        "node_id": "D",
+        "node_step_index": 3,
+        "content": "CT scan with contrast of abdomen and pelvis showed fecalization of the small bowel and dilated proximal segments, and irregular wall thickening of the short segment distal ileum with only partial narrowing of the lumen.",
+        "clinical_data": {
+          "imaging": [
+            {
+              "type": "CT scan",
+              "body_part": "abdomen and pelvis",
+              "modality": "CT",
+              "finding": "fecalization of the small bowel and dilated proximal segments, and irregular wall thickening of the short segment distal ileum with only partial narrowing of the lumen"
+            }
+          ]
+        }
+      }
+    },
+    {
+      "id": "N5",
+      "label": "Step 5",
+      "customData": {
+        "node_id": "E",
+        "node_step_index": 4,
+        "content": "Upper and lower gastrointestinal endoscopies were essentially unremarkable.",
+        "clinical_data": {
+          "procedures": [
+            {
+              "name": "Upper gastrointestinal endoscopy",
+              "approach": "endoscopic",
+              "outcome": "unremarkable"
+            },
+            {
+              "name": "Lower gastrointestinal endoscopy",
+              "approach": "endoscopic",
+              "outcome": "unremarkable"
+            }
+          ]
+        }
+      }
+    },
+    {
+      "id": "N6",
+      "label": "Step 6",
+      "customData": {
+        "node_id": "F",
+        "node_step_index": 5,
+        "content": "Conservative management was offered to the patient, which had a relatively well response.",
+        "clinical_data": {}
+      }
+    },
+    {
+      "id": "N7",
+      "label": "Step 7",
+      "customData": {
+        "node_id": "G",
+        "node_step_index": 6,
+        "content": "Patient discharged home with a follow\u2010up magnetic resonance (MR) enterography. Axial T2 fat saturated image from the MR enterography study shows asymmetrical small bowel wall thickening and adjacent mesenteric lymphadenopathy with no significant mechanical cause for intestinal obstruction.",
+        "clinical_data": {
+          "imaging": [
+            {
+              "type": "Magnetic resonance enterography",
+              "body_part": "Small bowel",
+              "modality": "MRI",
+              "finding": "Asymmetrical small bowel wall thickening and adjacent mesenteric lymphadenopathy",
+              "impression": "No significant mechanical cause for intestinal obstruction"
+            }
+          ]
+        }
+      }
+    },
+    {
+      "id": "N8",
+      "label": "Step 8",
+      "customData": {
+        "node_id": "H",
+        "node_step_index": 7,
+        "content": "CT scans with contrast of the chest, abdomen, and pelvis were ordered. Coronal reformatted image of a contrast CT study of the chest shows a solid infiltrative right hilar soft tissue density mass invading the mediastinum.",
+        "clinical_data": {
+          "imaging": [
+            {
+              "type": "Computed tomography",
+              "body_part": "Chest",
+              "modality": "CT",
+              "finding": "Solid infiltrative right hilar soft tissue density mass invading the mediastinum",
+              "date": null
+            },
+            {
+              "type": "Computed tomography",
+              "body_part": "Abdomen",
+              "modality": "CT",
+              "finding": null,
+              "date": null
+            },
+            {
+              "type": "Computed tomography",
+              "body_part": "Pelvis",
+              "modality": "CT",
+              "finding": null,
+              "date": null
+            }
+          ]
+        }
+      }
+    },
+    {
+      "id": "N9",
+      "label": "Step 9",
+      "customData": {
+        "node_id": "I",
+        "node_step_index": 8,
+        "content": "Bronchoscopy with endobronchial washing and brushing and endobronchial biopsy of the anterior segment of the right upper lobe were inconclusive.",
+        "clinical_data": {
+          "procedures": [
+            {
+              "name": "Bronchoscopy",
+              "approach": "endoscopic",
+              "location": "anterior segment of the right upper lobe",
+              "outcome": "inconclusive"
+            }
+          ]
+        }
+      }
+    },
+    {
+      "id": "N10",
+      "label": "Step 10",
+      "customData": {
+        "node_id": "J",
+        "node_step_index": 9,
+        "content": "Endobronchial ultrasound\u2010guided fine needle aspiration (EBUS\u2010FNA) of right hilar and subcarinal lymph node confirmed a cytological diagnosis of metastatic SCLC. Malignant cells staining was positive for neuroendocrine markers CD56 and synaptophysin.",
+        "clinical_data": {
+          "procedures": [
+            {
+              "name": "Endobronchial ultrasound-guided fine needle aspiration",
+              "approach": "endoscopic",
+              "location": "right hilar and subcarinal lymph node",
+              "outcome": "cytological diagnosis of metastatic SCLC"
+            }
+          ],
+          "diagnoses": [
+            {
+              "code": "C0007118",
+              "label": "Small cell lung carcinoma",
+              "status": "active"
+            }
+          ]
+        }
+      }
+    },
+    {
+      "id": "N11",
+      "label": "Step 11",
+      "customData": {
+        "node_id": "K",
+        "node_step_index": 10,
+        "content": "EBUS\u2010FNA of mediastinal lymph node: smear of small cell carcinoma cells admixed with small lymphocytes (Pap stain). ",
+        "clinical_data": {
+          "procedures": [
+            {
+              "name": "Endobronchial ultrasound-guided transbronchial needle aspiration",
+              "approach": "endoscopic",
+              "location": "mediastinal lymph node",
+              "outcome": "smear of small cell carcinoma cells admixed with small lymphocytes"
+            }
+          ],
+          "diagnoses": [
+            {
+              "code": "C8014",
+              "label": "Small cell carcinoma",
+              "status": "active"
+            }
+          ]
+        }
+      }
+    },
+    {
+      "id": "N12",
+      "label": "Step 12",
+      "customData": {
+        "node_id": "L",
+        "node_step_index": 11,
+        "content": "Cell block from the EBUS-FNA sample showing strong and extensive staining with Synaptophysin (immunohistochemical stain).",
+        "clinical_data": {
+          "labs": [
+            {
+              "test": "Synaptophysin",
+              "value": "strong and extensive staining",
+              "unit": null,
+              "flag": null,
+              "reference_range": null,
+              "timestamp": null
+            }
+          ]
+        }
+      }
+    },
+    {
+      "id": "N13",
+      "label": "Step 13",
+      "customData": {
+        "node_id": "M",
+        "node_step_index": 12,
+        "content": "Positron emission tomography CT scan (PET\u2010CT) findings were suggestive of extensive stage SCLC.",
+        "clinical_data": {
+          "imaging": [
+            {
+              "type": "Positron emission tomography CT scan",
+              "body_part": null,
+              "modality": "PET",
+              "finding": "suggestive of extensive stage SCLC",
+              "impression": "extensive stage SCLC",
+              "date": null
+            }
+          ],
+          "diagnoses": [
+            {
+              "code": null,
+              "label": "extensive stage SCLC",
+              "status": "suspected",
+              "onset_date": null
+            }
+          ]
+        }
+      }
+    },
+    {
+      "id": "N14",
+      "label": "Step 14",
+      "customData": {
+        "node_id": "N",
+        "clinical_data": {}
+      }
+    }
+  ],
+  "edges": [
+    {
+      "from": "N1",
+      "to": "N2",
+      "data": {
+        "edge_id": "A_to_B",
+        "branch_flag": true,
+        "content": "Patient progressed from initial presentation to examination and blood investigations."
+      }
+    },
+    {
+      "from": "N2",
+      "to": "N3",
+      "data": {
+        "edge_id": "B_to_C",
+        "branch_flag": true,
+        "content": "Patient progressed from initial blood investigations to elevated C reactive protein and CT scan."
+      }
+    },
+    {
+      "from": "N3",
+      "to": "N4",
+      "data": {
+        "edge_id": "C_to_D",
+        "branch_flag": true,
+        "content": "CT scan findings further detailed."
+      }
+    },
+    {
+      "from": "N4",
+      "to": "N5",
+      "data": {
+        "edge_id": "D_to_E",
+        "branch_flag": true,
+        "content": "Upper and lower gastrointestinal endoscopies performed."
+      }
+    },
+    {
+      "from": "N5",
+      "to": "N6",
+      "data": {
+        "edge_id": "E_to_F",
+        "branch_flag": true,
+        "content": "Conservative management initiated."
+      }
+    },
+    {
+      "from": "N6",
+      "to": "N7",
+      "data": {
+        "edge_id": "F_to_G",
+        "branch_flag": true,
+        "content": "Patient discharged with follow-up MR enterography."
+      }
+    },
+    {
+      "from": "N7",
+      "to": "N8",
+      "data": {
+        "edge_id": "G_to_H",
+        "branch_flag": true,
+        "content": "CT scans of chest, abdomen, and pelvis ordered, revealing a right hilar mass."
+      }
+    },
+    {
+      "from": "N8",
+      "to": "N9",
+      "data": {
+        "edge_id": "H_to_I",
+        "branch_flag": true,
+        "content": "Bronchoscopy performed, results inconclusive."
+      }
+    },
+    {
+      "from": "N9",
+      "to": "N10",
+      "data": {
+        "edge_id": "I_to_J",
+        "branch_flag": true,
+        "content": "EBUS-FNA confirmed metastatic SCLC."
+      }
+    },
+    {
+      "from": "N10",
+      "to": "N11",
+      "data": {
+        "edge_id": "J_to_K",
+        "branch_flag": true,
+        "content": "EBUS-FNA of mediastinal lymph node further confirmed small cell carcinoma."
+      }
+    },
+    {
+      "from": "N11",
+      "to": "N12",
+      "data": {
+        "edge_id": "K_to_L",
+        "branch_flag": true,
+        "content": "Cell block from EBUS-FNA sample showed strong Synaptophysin staining."
+      }
+    },
+    {
+      "from": "N12",
+      "to": "N13",
+      "data": {
+        "edge_id": "L_to_M",
+        "branch_flag": true,
+        "content": "PET-CT scan suggested extensive stage SCLC."
+      }
+    },
+    {
+      "from": "N13",
+      "to": "N14",
+      "data": {
+        "edge_id": "M_to_N",
+        "branch_flag": true,
+        "content": "Further progression of the case."
+      }
+    }
+  ]
+}

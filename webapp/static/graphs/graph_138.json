@@ -1,0 +1,274 @@
+{
+  "nodes": [
+    {
+      "id": "N1",
+      "label": "Step 1",
+      "customData": {
+        "node_id": "A",
+        "node_step_index": 0,
+        "content": "October 2020: 47-year-old woman with elevated carcinoembryonic antigen (CEA) level of 14.18 ug/L. Gastrointestinal endoscopy was negative.",
+        "clinical_data": {
+          "labs": [
+            {
+              "test": "C0007097",
+              "value": "14.18",
+              "unit": "ug/L",
+              "timestamp": "2020-10"
+            }
+          ],
+          "diagnoses": [
+            {
+              "code": "R93.5",
+              "label": "Abnormal results of diagnostic imaging of other body structures",
+              "status": "suspected",
+              "onset_date": "2020-10"
+            }
+          ],
+          "imaging": [
+            {
+              "type": "C0017168",
+              "body_part": "C0017168",
+              "modality": "endoscopy",
+              "finding": "negative",
+              "date": "2020-10"
+            }
+          ]
+        },
+        "timestamp": "2020-10"
+      }
+    },
+    {
+      "id": "N2",
+      "label": "Step 2",
+      "customData": {
+        "node_id": "B",
+        "node_step_index": 1,
+        "content": "3 months later: Chest CT showed a 26.7 mm x 24.1 mm solid nodule in the right upper lobe.",
+        "clinical_data": {
+          "imaging": [
+            {
+              "type": "Lung CT",
+              "body_part": "Right upper lobe",
+              "modality": "CT",
+              "finding": "26.7 mm x 24.1 mm solid nodule",
+              "date": null
+            }
+          ]
+        }
+      }
+    },
+    {
+      "id": "N3",
+      "label": "Step 3",
+      "customData": {
+        "node_id": "C",
+        "node_step_index": 2,
+        "content": "June 7th 2021: Chest CT showed a 36.7 mm x 34.1 mm mass in the right upper lobe with irregular shape, lobulation, spiculation, pleural indentation, and vessel convergence. Enhanced contrast CT showed slight enlargement of station 4R lymph node with 10 mm short axis.",
+        "clinical_data": {
+          "imaging": [
+            {
+              "type": "Mass",
+              "body_part": "Right upper lobe of lung",
+              "modality": "CT",
+              "finding": "36.7 mm x 34.1 mm mass with irregular shape, lobulation, spiculation, pleural indentation, and vessel convergence",
+              "date": "2021-06-07"
+            },
+            {
+              "type": "Lymph node enlargement",
+              "body_part": "Station 4R lymph node",
+              "modality": "CT",
+              "finding": "Slight enlargement with 10 mm short axis",
+              "date": "2021-06-07"
+            }
+          ]
+        },
+        "timestamp": "2021-06-07"
+      }
+    },
+    {
+      "id": "N4",
+      "label": "Step 4",
+      "customData": {
+        "node_id": "D",
+        "node_step_index": 3,
+        "content": "Patient had lab tests and imaging: CEA was 26.96 ug/L, squamous cell carcinoma antigen was 1.98 ng/mL, CYFRA 21-1 was 3.12 ng/mL, and pro-gastric releasing peptide was 65 ng/L. PET-CT showed a 40 mm x 39 mm x 34 mm mass highly suspected of lung cancer with SUV 14.6. Swollen mediastinal lymph nodes 3A and 4R had high uptake (SUV max = 4.5). Brain MRI and bone scan were negative. CT guided pulmonary biopsy showed poorly differentiated lung adenocarcinoma with neuroendocrinization.",
+        "clinical_data": {
+          "labs": [
+            {
+              "test": "C0007644",
+              "value": "26.96",
+              "unit": "ug/L"
+            },
+            {
+              "test": "C1297596",
+              "value": "1.98",
+              "unit": "ng/mL"
+            },
+            {
+              "test": "C1418954",
+              "value": "3.12",
+              "unit": "ng/mL"
+            },
+            {
+              "test": "C1418956",
+              "value": "65",
+              "unit": "ng/L"
+            }
+          ],
+          "imaging": [
+            {
+              "type": "C0024144",
+              "body_part": "C0024144",
+              "modality": "PET",
+              "finding": "40 mm x 39 mm x 34 mm mass highly suspected of lung cancer with SUV 14.6"
+            },
+            {
+              "type": "C0024144",
+              "body_part": "C0024144",
+              "modality": "CT",
+              "finding": "40 mm x 39 mm x 34 mm mass highly suspected of lung cancer with SUV 14.6"
+            },
+            {
+              "type": "C0024857",
+              "body_part": "C0025582",
+              "modality": "PET",
+              "finding": "Swollen mediastinal lymph nodes 3A and 4R had high uptake (SUV max = 4.5)"
+            },
+            {
+              "type": "C0024857",
+              "body_part": "C0025582",
+              "modality": "CT",
+              "finding": "Swollen mediastinal lymph nodes 3A and 4R had high uptake (SUV max = 4.5)"
+            },
+            {
+              "type": "C0023248",
+              "body_part": "C0007342",
+              "modality": "MRI",
+              "finding": "negative"
+            },
+            {
+              "type": "C0005972",
+              "body_part": "C0005972",
+              "modality": "other",
+              "finding": "negative"
+            }
+          ],
+          "procedures": [
+            {
+              "name": "C0005823",
+              "approach": "percutaneous",
+              "location": "C0024144",
+              "outcome": "C0206357"
+            }
+          ],
+          "diagnoses": [
+            {
+              "code": "C0206357",
+              "label": "Poorly differentiated lung adenocarcinoma with neuroendocrinization",
+              "status": "active"
+            }
+          ]
+        }
+      }
+    },
+    {
+      "id": "N5",
+      "label": "Step 5",
+      "customData": {
+        "node_id": "E",
+        "node_step_index": 4,
+        "content": "Patient received right upper lobectomy with systemic lymph node dissection",
+        "clinical_data": {
+          "procedures": [
+            {
+              "name": "Right upper lobectomy",
+              "approach": "open",
+              "location": "right upper lobe",
+              "outcome": "completed"
+            },
+            {
+              "name": "Lymph node dissection",
+              "approach": "open",
+              "location": "systemic",
+              "outcome": "completed"
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "edges": [
+    {
+      "from": "N1",
+      "to": "N2",
+      "data": {
+        "edge_id": "A_to_B",
+        "branch_flag": true,
+        "content": "3 months after initial presentation with elevated CEA, a chest CT was performed.",
+        "transition_event": {
+          "trigger_type": "imaging",
+          "trigger_entities": [
+            "C0006264"
+          ],
+          "change_type": "progression",
+          "target_domain": "imaging"
+        }
+      }
+    },
+    {
+      "from": "N2",
+      "to": "N3",
+      "data": {
+        "edge_id": "B_to_C",
+        "branch_flag": true,
+        "content": "Follow-up chest CT approximately 5 months later.",
+        "transition_event": {
+          "trigger_type": "imaging",
+          "trigger_entities": [
+            "C0006264"
+          ],
+          "change_type": "progression",
+          "target_domain": "imaging"
+        }
+      }
+    },
+    {
+      "from": "N3",
+      "to": "N4",
+      "data": {
+        "edge_id": "C_to_D",
+        "branch_flag": true,
+        "content": "Further workup with labs, PET-CT, brain MRI, bone scan, and CT guided pulmonary biopsy.",
+        "transition_event": {
+          "trigger_type": "imaging",
+          "trigger_entities": [
+            "C0024144",
+            "C0006264",
+            "C0023248",
+            "C0005972"
+          ],
+          "change_type": "progression",
+          "target_domain": "imaging"
+        }
+      }
+    },
+    {
+      "from": "N4",
+      "to": "N5",
+      "data": {
+        "edge_id": "D_to_E",
+        "branch_flag": true,
+        "content": "Patient underwent surgical intervention.",
+        "transition_event": {
+          "trigger_type": "procedure",
+          "trigger_entities": [
+            "C0023924",
+            "C0024857"
+          ],
+          "change_type": "addition",
+          "target_domain": "procedure"
+        }
+      }
+    }
+  ]
+}

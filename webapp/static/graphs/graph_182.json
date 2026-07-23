@@ -1,0 +1,321 @@
+{
+  "nodes": [
+    {
+      "id": "N1",
+      "label": "Step 1",
+      "customData": {
+        "node_id": "A",
+        "node_step_index": 0,
+        "content": "58-year-old male with a right hilar lung occupying lesion found on chest CT on 2019-05-12.",
+        "clinical_data": {
+          "imaging": [
+            {
+              "type": "Lung mass",
+              "body_part": "Hilar region",
+              "modality": "CT",
+              "finding": "occupying lesion",
+              "date": "2019-05-12"
+            }
+          ]
+        },
+        "timestamp": "2019-05-12"
+      }
+    },
+    {
+      "id": "N2",
+      "label": "Step 2",
+      "customData": {
+        "node_id": "B",
+        "node_step_index": 1,
+        "content": "Biopsy of the right hilar lung lesion revealed adenocarcinoma. Patient has diabetes.",
+        "clinical_data": {
+          "diagnoses": [
+            {
+              "code": "C0007097",
+              "label": "Adenocarcinoma",
+              "status": "active"
+            },
+            {
+              "code": "C0011849",
+              "label": "Diabetes Mellitus",
+              "status": "active"
+            }
+          ],
+          "procedures": [
+            {
+              "name": "C0005734",
+              "approach": "other",
+              "location": "Lung",
+              "outcome": "C0007097"
+            }
+          ]
+        }
+      }
+    },
+    {
+      "id": "N3",
+      "label": "Step 3",
+      "customData": {
+        "node_id": "C",
+        "node_step_index": 2,
+        "content": "Systemic evaluation revealed pericardial and sacrococcygeal metastases. Next-generation sequencing identified a HER2 mutation (p.Y772_A775dupYVMA) and a BRCA2 germline mutation with PD-L1 (-) and microsatellite stability. Diagnosed with advanced-stage lung adenocarcinoma (cT3N0M1c [pericardial and sacral metastases], stage IVB) with an Eastern Cooperative Oncology Group performance status (ECOG PS) of 1. Pericardial effusion was drained.",
+        "clinical_data": {
+          "diagnoses": [
+            {
+              "code": "C34",
+              "label": "Lung adenocarcinoma",
+              "status": "active",
+              "onset_date": null
+            }
+          ],
+          "imaging": [
+            {
+              "type": "Metastasis",
+              "body_part": "Pericardium",
+              "modality": "other",
+              "finding": "pericardial metastases",
+              "impression": "pericardial metastases",
+              "date": null
+            },
+            {
+              "type": "Metastasis",
+              "body_part": "Sacrococcygeal",
+              "modality": "other",
+              "finding": "sacrococcygeal metastases",
+              "impression": "sacrococcygeal metastases",
+              "date": null
+            }
+          ],
+          "procedures": [
+            {
+              "name": "Pericardiocentesis",
+              "approach": "other",
+              "date": null,
+              "location": "Pericardial space",
+              "performed_by": null,
+              "outcome": "Drainage of pericardial effusion"
+            }
+          ],
+          "functional_status": [
+            {
+              "domain": "general",
+              "description": "Eastern Cooperative Oncology Group performance status (ECOG PS) of 1",
+              "score": "1",
+              "scale": "ECOG"
+            }
+          ]
+        }
+      }
+    },
+    {
+      "id": "N4",
+      "label": "Step 4",
+      "customData": {
+        "node_id": "D",
+        "node_step_index": 3,
+        "content": "Patient received one cycle of cisplatin, followed by six cycles of first-line chemotherapy (pemetrexed plus cisplatin plus bevacizumab) and four cycles of maintenance therapy, achieving partial response (PR) at each efficacy evaluation. Progression-free survival (PFS) from first-line treatment was 11.3 months.",
+        "clinical_data": {
+          "medications": [
+            {
+              "drug": "C0008767",
+              "dosage": null,
+              "frequency": null,
+              "modality": null,
+              "start_date": null,
+              "end_date": null,
+              "indication": null
+            },
+            {
+              "drug": "C0070601",
+              "dosage": null,
+              "frequency": null,
+              "modality": null,
+              "start_date": null,
+              "end_date": null,
+              "indication": null
+            },
+            {
+              "drug": "C0008767",
+              "dosage": null,
+              "frequency": null,
+              "modality": null,
+              "start_date": null,
+              "end_date": null,
+              "indication": null
+            },
+            {
+              "drug": "C1441409",
+              "dosage": null,
+              "frequency": null,
+              "modality": null,
+              "start_date": null,
+              "end_date": null,
+              "indication": null
+            }
+          ]
+        }
+      }
+    },
+    {
+      "id": "N5",
+      "label": "Step 5",
+      "customData": {
+        "node_id": "E",
+        "node_step_index": 4,
+        "content": "In May 2020, patient had progressive disease (PD) and received a second-line immuno-chemotherapy regimen (paclitaxel albumin plus pembrolizumab plus bevacizumab), achieving partial response (PR) after two cycles. Paclitaxel albumin was discontinued due to bone pain.",
+        "clinical_data": {
+          "medications": [
+            {
+              "drug": "C0030393",
+              "dosage": null,
+              "frequency": null,
+              "modality": null,
+              "start_date": "2020-05",
+              "end_date": null,
+              "indication": "C0012634"
+            },
+            {
+              "drug": "C1658905",
+              "dosage": null,
+              "frequency": null,
+              "modality": null,
+              "start_date": "2020-05",
+              "end_date": null,
+              "indication": "C0012634"
+            },
+            {
+              "drug": "C0004944",
+              "dosage": null,
+              "frequency": null,
+              "modality": null,
+              "start_date": "2020-05",
+              "end_date": null,
+              "indication": "C0012634"
+            }
+          ],
+          "diagnoses": [
+            {
+              "code": "C0012634",
+              "label": "Disease Progression",
+              "status": "active",
+              "onset_date": "2020-05"
+            }
+          ]
+        }
+      }
+    },
+    {
+      "id": "N6",
+      "label": "Step 6",
+      "customData": {
+        "node_id": "F",
+        "node_step_index": 5,
+        "content": "After two cycles of second-line immuno-chemotherapy, new frontal lobe and lung metastases were observed on imaging.",
+        "clinical_data": {
+          "imaging": [
+            {
+              "type": "metastasis",
+              "body_part": "frontal lobe",
+              "modality": "imaging",
+              "finding": "new",
+              "date": null
+            },
+            {
+              "type": "metastasis",
+              "body_part": "lung",
+              "modality": "imaging",
+              "finding": "new",
+              "date": null
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "edges": [
+    {
+      "from": "N1",
+      "to": "N2",
+      "data": {
+        "edge_id": "A_to_B",
+        "branch_flag": true,
+        "content": "Progression from lung lesion to biopsy revealing adenocarcinoma, patient also has diabetes."
+      }
+    },
+    {
+      "from": "N2",
+      "to": "N3",
+      "data": {
+        "edge_id": "B_to_C",
+        "branch_flag": true,
+        "content": "Systemic evaluation revealed pericardial and sacrococcygeal metastases. Next-generation sequencing identified a HER2 mutation (p.Y772_A775dupYVMA) and a BRCA2 germline mutation with PD-L1 (-) and microsatellite stability. Diagnosed with advanced-stage lung adenocarcinoma (cT3N0M1c [pericardial and sacral metastases], stage IVB) with an Eastern Cooperative Oncology Group performance status (ECOG PS) of 1. Pericardial effusion was drained.",
+        "transition_event": {
+          "trigger_type": "interpretation",
+          "trigger_entities": [
+            "C0007097",
+            "C0011849"
+          ],
+          "change_type": "progression",
+          "target_domain": "diagnosis"
+        }
+      }
+    },
+    {
+      "from": "N3",
+      "to": "N4",
+      "data": {
+        "edge_id": "C_to_D",
+        "branch_flag": true,
+        "content": "Patient received one cycle of cisplatin, followed by six cycles of first-line chemotherapy (pemetrexed plus cisplatin plus bevacizumab) and four cycles of maintenance therapy, achieving partial response (PR) at each efficacy evaluation. Progression-free survival (PFS) from first-line treatment was 11.3 months.",
+        "transition_event": {
+          "trigger_type": "medication_change",
+          "trigger_entities": [
+            "C0008767",
+            "C0070601",
+            "C1441409"
+          ],
+          "change_type": "addition",
+          "target_domain": "medication"
+        }
+      }
+    },
+    {
+      "from": "N4",
+      "to": "N5",
+      "data": {
+        "edge_id": "D_to_E",
+        "branch_flag": true,
+        "content": "In May 2020, patient had progressive disease (PD) and received a second-line immuno-chemotherapy regimen (paclitaxel albumin plus pembrolizumab plus bevacizumab), achieving partial response (PR) after two cycles. Paclitaxel albumin was discontinued due to bone pain.",
+        "transition_event": {
+          "trigger_type": "medication_change",
+          "trigger_entities": [
+            "C0030393",
+            "C1658905",
+            "C0004944"
+          ],
+          "change_type": "addition",
+          "target_domain": "medication",
+          "timestamp": "2020-05-01T00:00:00Z"
+        }
+      }
+    },
+    {
+      "from": "N5",
+      "to": "N6",
+      "data": {
+        "edge_id": "E_to_F",
+        "branch_flag": true,
+        "content": "After two cycles of second-line immuno-chemotherapy, new frontal lobe and lung metastases were observed on imaging.",
+        "transition_event": {
+          "trigger_type": "imaging",
+          "trigger_entities": [
+            "C0027051",
+            "C0024077"
+          ],
+          "change_type": "progression",
+          "target_domain": "imaging"
+        }
+      }
+    }
+  ]
+}

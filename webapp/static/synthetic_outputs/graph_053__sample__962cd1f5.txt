@@ -1,0 +1,15 @@
+**Clinical Case Report**
+
+A 71-year-old male was diagnosed with left superior lobe squamous cell carcinoma (cT4N3Mx) on September 20, 2023.
+
+From October to November 2023, the patient received radiotherapy for lung and mediastinal lesions, with a target dose of 54Gy and an average cardiac dose of 3.4Gy, achieving a partial response (PR).
+
+From December 2023 to July 2024, the patient underwent 5 cycles of albumin-bound paclitaxel + cisplatin chemotherapy, among which the 4th cycle was combined with recombinant human endostatin (Endu). Due to cardiac reactions related to Endu, the treatment was not completed, and the efficacy was stable disease (SD).
+
+In October 2024, the disease progressed, leading to gemcitabine and sintilimab treatment starting on October 21, 2024. Baseline assessment before immunotherapy: Myocardial injury markers and BNP were normal. ECG showed sinus rhythm, unbiased electrical axis, low extremity conduction voltage, complete right bundle branch block, and prolonged Q-TcF interval. Cardiac ultrasound indicated reduced left ventricular diastolic relaxation function but normal systolic function (EF 63%). The patient had a history of cerebral infarction for over 10 years, characterized by mild right-sided limb weakness and intermittent numbness in the upper extremities. He was diagnosed with coronary heart disease in May 2024 (without coronary CTA) and was on long-term management with aspirin and atorvastatin.
+
+On November 28, 2024, the patient manifested shortness of breath, accompanied by cough, yellow sputum, fatigue, and bilateral knee pain.
+
+On December 1, 2024, the patient was admitted to the hospital for worsening shortness of breath. Electrocardiogram showed abnormal Q waves in leads II, III, aVF, and V1-V6, along with ST-segment elevation. Lab results: hypersensitive troponin at 6456.6 pg/ml (reference range: 0–34.2 pg/ml), BNP at 650.8 pg/ml (reference range: 0–100 pg/ml), and myoglobin > 1,200 ng/ml (reference range: 0–146.9 ng/ml). Initial treatment included antiplatelet agents (aspirin, clopidogrel), cardioprotective medications (Coenzyme Q10, polarizing solution, nicotinamide), ventricular rate control drugs (metoprolol tartrate, esmolol), heart failure management drugs (recombinant human brain natriuretic peptide), and anti-infective agents (piperacillin-tazobactam, meropenem), without corticosteroids. ECG showed extensive ST-T changes in leads II, III, aVF, and V1-V6, with abnormal Q waves and ST segment elevation. Ectopic rhythm mean ventricular rate, wide QRS tachycardia.
+
+On December 2, 2024, the patient's symptoms of chest tightness and shortness of breath persisted. Anticoagulant therapy was not initiated owing to the patient's elevated risk of gastrointestinal bleeding secondary to long-term aspirin use. Coronary angiography revealed a 40% stenosis in the left main trunk, a 50% stenosis in.

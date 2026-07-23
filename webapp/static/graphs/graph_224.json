@@ -1,0 +1,530 @@
+{
+  "nodes": [
+    {
+      "id": "N1",
+      "label": "Step 1",
+      "customData": {
+        "node_id": "A",
+        "node_step_index": 0,
+        "content": "67-year-old right-handed female presented to the hospital with a headache which began the day prior. Patient with no known cancer history presented with aneurysmal hemorrhage, initially presumed to be mycotic in etiology due to the lesion\u2019s location and morphology.",
+        "clinical_data": {
+          "HPI": [
+            {
+              "summary": "67-year-old female presented with a headache which began the day prior.",
+              "onset": "the day prior",
+              "duration": "the day prior"
+            }
+          ],
+          "diagnoses": [
+            {
+              "code": "C0018681",
+              "label": "Hemorrhage",
+              "status": "active",
+              "onset_date": null
+            }
+          ]
+        }
+      }
+    },
+    {
+      "id": "N2",
+      "label": "Step 2",
+      "customData": {
+        "node_id": "B",
+        "node_step_index": 1,
+        "content": "Intraoperative pathology revealed non-small-cell adenocarcinoma.",
+        "clinical_data": {
+          "diagnoses": [
+            {
+              "code": "C2334",
+              "label": "Non-Small Cell Lung Carcinoma",
+              "status": "active"
+            },
+            {
+              "code": "C4031",
+              "label": "Adenocarcinoma",
+              "status": "active"
+            }
+          ]
+        }
+      }
+    },
+    {
+      "id": "N3",
+      "label": "Step 3",
+      "customData": {
+        "node_id": "C",
+        "node_step_index": 2,
+        "content": "Imaging of the chest, abdomen, and pelvis did not reveal a culprit lesion, rendering lung adenocarcinoma an unlikely source and leaving breast adenocarcinoma as the leading primary diagnosis among adenocarcinoma of other distant sites.",
+        "clinical_data": {
+          "imaging": [
+            {
+              "type": "Imaging of chest, abdomen, and pelvis",
+              "body_part": "chest, abdomen, and pelvis",
+              "modality": null,
+              "finding": "no culprit lesion",
+              "impression": "lung adenocarcinoma unlikely, breast adenocarcinoma leading primary diagnosis",
+              "date": null
+            }
+          ],
+          "diagnoses": [
+            {
+              "code": null,
+              "label": "lung adenocarcinoma",
+              "status": "suspected",
+              "onset_date": null
+            },
+            {
+              "code": null,
+              "label": "breast adenocarcinoma",
+              "status": "suspected",
+              "onset_date": null
+            }
+          ]
+        }
+      }
+    },
+    {
+      "id": "N4",
+      "label": "Step 4",
+      "customData": {
+        "node_id": "D",
+        "node_step_index": 3,
+        "content": "Head CT revealed a 4.7 x 3.8 x 2.2 cm right parietal intraparenchymal hemorrhage and 1 cm left parietal intraparenchymal hemorrhage. CTA revealed a spot sign with vascular pouch in the region of the right-sided hemorrhage, raising concern for mycotic aneurysm or a dural AV fistula. Patient was neurologically intact upon initial presentation.",
+        "clinical_data": {
+          "imaging": [
+            {
+              "type": "Computed tomography of head",
+              "body_part": "Head",
+              "modality": "CT",
+              "finding": "4.7 x 3.8 x 2.2 cm right parietal intraparenchymal hemorrhage and 1 cm left parietal intraparenchymal hemorrhage",
+              "date": null
+            },
+            {
+              "type": "Computed tomography angiography",
+              "body_part": "Head",
+              "modality": "CT",
+              "finding": "spot sign with vascular pouch in the region of the right-sided hemorrhage",
+              "impression": "concern for mycotic aneurysm or a dural AV fistula",
+              "date": null
+            }
+          ]
+        }
+      }
+    },
+    {
+      "id": "N5",
+      "label": "Step 5",
+      "customData": {
+        "node_id": "E",
+        "node_step_index": 4,
+        "content": "Patient suddenly became lethargic with facial asymmetry and left hemiparesis.",
+        "clinical_data": {
+          "HPI": [
+            {
+              "summary": "Sudden onset of lethargy, facial asymmetry, and left hemiparesis.",
+              "onset": "sudden",
+              "progression": "sudden",
+              "associated_symptoms": [
+                "C0023394",
+                "C0235057",
+                "C0015672"
+              ]
+            }
+          ]
+        }
+      }
+    },
+    {
+      "id": "N6",
+      "label": "Step 6",
+      "customData": {
+        "node_id": "F",
+        "node_step_index": 5,
+        "content": "Repeat head CT revealed enlargement of the right-sided hematoma to 5.8 \u00d7 5.5 \u00d7 5.0 cm with 1.3 cm brain compression and midline shift. Right parietal hemorrhage. Left parietal hemorrhage. Axial CTA revealing the vascular lesion in the hematoma.",
+        "clinical_data": {
+          "imaging": [
+            {
+              "type": "CT of head",
+              "body_part": "head",
+              "modality": "CT",
+              "finding": "enlargement of the right-sided hematoma to 5.8 \u00d7 5.5 \u00d7 5.0 cm with 1.3 cm brain compression and midline shift",
+              "date": null
+            },
+            {
+              "type": "CT of head",
+              "body_part": "head",
+              "modality": "CT",
+              "finding": "Right parietal hemorrhage",
+              "date": null
+            },
+            {
+              "type": "CT of head",
+              "body_part": "head",
+              "modality": "CT",
+              "finding": "Left parietal hemorrhage",
+              "date": null
+            },
+            {
+              "type": "Axial CTA",
+              "body_part": "head",
+              "modality": "CT",
+              "finding": "vascular lesion in the hematoma",
+              "date": null
+            }
+          ]
+        }
+      }
+    },
+    {
+      "id": "N7",
+      "label": "Step 7",
+      "customData": {
+        "node_id": "G",
+        "node_step_index": 6,
+        "content": "Axial non-contrast head CT revealed expanding intraparenchymal hemorrhage pattern with mass effect. Angiogram revealed a distal cortical middle cerebral artery (MCA) fusiform aneurysm, raising suspicion for mycotic etiology given the location. Patient underwent stereotactic right parietal minicraniotomy.",
+        "clinical_data": {
+          "imaging": [
+            {
+              "type": "Computed tomography of head without contrast (procedure)",
+              "body_part": "Head",
+              "modality": "CT",
+              "finding": "expanding intraparenchymal hemorrhage pattern with mass effect",
+              "date": null
+            },
+            {
+              "type": "Cerebral angiography (procedure)",
+              "body_part": "Brain",
+              "modality": "Angiogram",
+              "finding": "distal cortical middle cerebral artery (MCA) fusiform aneurysm",
+              "impression": "suspicion for mycotic etiology given the location",
+              "date": null
+            }
+          ],
+          "procedures": [
+            {
+              "name": "Stereotactic surgery",
+              "approach": "minicraniotomy",
+              "date": null,
+              "location": "right parietal",
+              "performed_by": null,
+              "outcome": null
+            }
+          ]
+        }
+      }
+    },
+    {
+      "id": "N8",
+      "label": "Step 8",
+      "customData": {
+        "node_id": "H",
+        "node_step_index": 7,
+        "content": "Partial intraparenchymal hematoma evacuation. Pseudoaneurysm capsule identified along the distal posterior parietal MCA branches with two clear superficial outflow vessels. Aneurysm isolated and excised; specimen sent for pathology and cultures. Transesophageal echocardiogram negative for endocarditis or atrial myxoma. Intraoperative and blood cultures negative for infectious process.",
+        "clinical_data": {
+          "procedures": [
+            {
+              "name": "Hematoma evacuation",
+              "approach": "open",
+              "location": "intraparenchymal",
+              "outcome": "partial"
+            },
+            {
+              "name": "Excision",
+              "location": "distal posterior parietal MCA branches",
+              "performed_by": "surgeon",
+              "outcome": "isolated"
+            }
+          ],
+          "imaging": [
+            {
+              "type": "Pseudoaneurysm",
+              "body_part": "distal posterior parietal MCA branches",
+              "modality": "intraoperative",
+              "finding": "capsule identified"
+            },
+            {
+              "type": "Transesophageal echocardiogram",
+              "finding": "negative for endocarditis or atrial myxoma"
+            }
+          ],
+          "labs": [
+            {
+              "test": "blood cultures",
+              "value": "negative",
+              "finding": "negative for infectious process"
+            }
+          ]
+        }
+      }
+    },
+    {
+      "id": "N9",
+      "label": "Step 9",
+      "customData": {
+        "node_id": "I",
+        "node_step_index": 8,
+        "content": "Head CTs demonstrated small contralateral hemorrhage without evidence of vascular pathology or metastatic disease on cerebral angiography or MRI. Pathology was consistent with metastatic non-small-cell adenocarcinoma within the aneurysmal wall, with immunohistochemistry staining positive for CK7 and negative for CK 5/6, CK 20, TTF-1, and p63. CT of the chest, abdomen, and pelvis was obtained and was negative for a malignancy source. Histopathology was reviewed by multiple pathologists, with breast cancer determined as the most likely source of the adenocarcinomatous morphology, especially in the context of negative CT chest/abdomen/ pelvis.",
+        "clinical_data": {
+          "imaging": [
+            {
+              "type": "Computed tomography of head",
+              "body_part": "Head",
+              "modality": "CT",
+              "finding": "small contralateral hemorrhage",
+              "impression": "small contralateral hemorrhage"
+            },
+            {
+              "type": "Cerebral angiography",
+              "body_part": "Brain",
+              "modality": "other",
+              "finding": "no evidence of vascular pathology or metastatic disease",
+              "impression": "no evidence of vascular pathology or metastatic disease"
+            },
+            {
+              "type": "Magnetic resonance imaging of brain",
+              "body_part": "Brain",
+              "modality": "MRI",
+              "finding": "no evidence of vascular pathology or metastatic disease",
+              "impression": "no evidence of vascular pathology or metastatic disease"
+            },
+            {
+              "type": "Computed tomography of chest, abdomen, and pelvis",
+              "body_part": "Chest, abdomen, and pelvis",
+              "modality": "CT",
+              "finding": "negative for a malignancy source",
+              "impression": "negative for a malignancy source"
+            }
+          ],
+          "diagnoses": [
+            {
+              "code": "C0006826",
+              "label": "Metastatic Non-Small Cell Lung Carcinoma",
+              "status": "active"
+            },
+            {
+              "code": "C0006127",
+              "label": "Breast Cancer",
+              "status": "suspected"
+            }
+          ],
+          "procedures": [
+            {
+              "name": "Immunohistochemistry staining",
+              "outcome": "positive for CK7 and negative for CK 5/6, CK 20, TTF-1, and p63"
+            },
+            {
+              "name": "Histopathology",
+              "outcome": "metastatic non-small-cell adenocarcinoma within the aneurysmal wall"
+            }
+          ]
+        }
+      }
+    },
+    {
+      "id": "N10",
+      "label": "Step 10",
+      "customData": {
+        "node_id": "J",
+        "node_step_index": 9,
+        "content": "Pseudoaneurysm detected angiographically. Microsurgical resection performed with hematoma evacuation. PET scan planned to determine the location of the underlying malignancy.",
+        "clinical_data": {
+          "imaging": [
+            {
+              "type": "Pseudoaneurysm",
+              "body_part": "Unknown",
+              "modality": "Angiography",
+              "finding": "Detected",
+              "impression": "Pseudoaneurysm detected angiographically.",
+              "date": null
+            },
+            {
+              "type": "Neoplasm",
+              "body_part": "Unknown",
+              "modality": "PET",
+              "finding": "Unknown",
+              "impression": "PET scan planned to determine the location of the underlying malignancy.",
+              "date": null
+            }
+          ],
+          "procedures": [
+            {
+              "name": "Microsurgical resection",
+              "approach": "microsurgical",
+              "date": null,
+              "location": "Unknown",
+              "performed_by": "Unknown",
+              "outcome": "Unknown"
+            },
+            {
+              "name": "Hematoma evacuation",
+              "approach": "microsurgical",
+              "date": null,
+              "location": "Unknown",
+              "performed_by": "Unknown",
+              "outcome": "Unknown"
+            }
+          ]
+        }
+      }
+    },
+    {
+      "id": "N11",
+      "label": "Step 11",
+      "customData": {
+        "node_id": "K",
+        "node_step_index": 10,
+        "content": "Patient recovered neurologically but developed pneumonia and sepsis 2 weeks later. Family elected hospice care.",
+        "clinical_data": {
+          "diagnoses": [
+            {
+              "code": "233604007",
+              "label": "Pneumonia (disorder)",
+              "status": "active"
+            },
+            {
+              "code": "703053008",
+              "label": "Sepsis (disorder)",
+              "status": "active"
+            }
+          ],
+          "procedures": [
+            {
+              "name": "Hospice care",
+              "date": null
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "edges": [
+    {
+      "from": "N1",
+      "to": "N2",
+      "data": {
+        "edge_id": "A_to_B",
+        "branch_flag": true,
+        "content": "Patient's condition evolved from initial presentation with headache and suspected mycotic aneurysm to a confirmed diagnosis of non-small-cell adenocarcinoma based on intraoperative pathology."
+      }
+    },
+    {
+      "from": "N2",
+      "to": "N3",
+      "data": {
+        "edge_id": "B_to_C",
+        "branch_flag": true,
+        "content": "Following the diagnosis of non-small-cell adenocarcinoma, imaging was performed to identify the primary source, leading to the consideration of lung and breast adenocarcinoma as potential origins.",
+        "transition_event": {
+          "trigger_type": "imaging",
+          "trigger_entities": [],
+          "change_type": "other",
+          "target_domain": "diagnosis"
+        }
+      }
+    },
+    {
+      "from": "N3",
+      "to": "N4",
+      "data": {
+        "edge_id": "C_to_D",
+        "branch_flag": true,
+        "content": "Initial imaging revealed intraparenchymal hemorrhages and a vascular pouch, raising concern for mycotic aneurysm or dural AV fistula. Patient was neurologically intact.",
+        "transition_event": {
+          "trigger_type": "imaging",
+          "trigger_entities": [],
+          "change_type": "other",
+          "target_domain": "imaging"
+        }
+      }
+    },
+    {
+      "from": "N4",
+      "to": "N5",
+      "data": {
+        "edge_id": "D_to_E",
+        "branch_flag": true,
+        "content": "Patient's neurological status acutely declined, marked by the sudden onset of lethargy, facial asymmetry, and left hemiparesis.",
+        "transition_event": {
+          "trigger_type": "symptom_onset",
+          "trigger_entities": [
+            "C0023394",
+            "C0235057",
+            "C0015672"
+          ],
+          "change_type": "progression",
+          "target_domain": "symptom"
+        }
+      }
+    },
+    {
+      "from": "N5",
+      "to": "N6",
+      "data": {
+        "edge_id": "E_to_F",
+        "branch_flag": true,
+        "content": "Repeat imaging showed enlargement of the hematoma with brain compression and midline shift, confirming right parietal hemorrhage and revealing the vascular lesion within the hematoma.",
+        "transition_event": {
+          "trigger_type": "imaging",
+          "trigger_entities": [],
+          "change_type": "progression",
+          "target_domain": "imaging"
+        }
+      }
+    },
+    {
+      "from": "N6",
+      "to": "N7",
+      "data": {
+        "edge_id": "F_to_G",
+        "branch_flag": true,
+        "content": "Further imaging revealed an expanding intraparenchymal hemorrhage and a distal cortical MCA fusiform aneurysm, leading to suspicion for mycotic etiology. The patient underwent stereotactic right parietal minicraniotomy.",
+        "transition_event": {
+          "trigger_type": "procedure",
+          "trigger_entities": [],
+          "change_type": "addition",
+          "target_domain": "procedure"
+        }
+      }
+    },
+    {
+      "from": "N7",
+      "to": "N8",
+      "data": {
+        "edge_id": "G_to_H",
+        "branch_flag": true,
+        "content": "Partial hematoma evacuation was performed, and a pseudoaneurysm capsule was identified. The aneurysm was isolated and excised. Tests for endocarditis, atrial myxoma, and infectious processes were negative.",
+        "transition_event": {
+          "trigger_type": "procedure",
+          "trigger_entities": [],
+          "change_type": "other",
+          "target_domain": "procedure"
+        }
+      }
+    },
+    {
+      "from": "N8",
+      "to": "N9",
+      "data": {
+        "edge_id": "H_to_I",
+        "branch_flag": true,
+        "content": "Post-operative imaging showed small contralateral hemorrhage without vascular pathology or metastatic disease. Pathology confirmed metastatic non-small-cell adenocarcinoma, with breast cancer considered the most likely source.",
+        "transition_event": {
+          "trigger_type": "interpretation",
+          "trigger_entities": [],
+          "change_type": "reinterpretation",
+          "target_domain": "diagnosis"
+        }
+      }
+    },
+    {
+      "from": "N9",
+      "to": "N10",
+      "data": {
+        "edge_id": "I_to_J",
+        "branch_flag": true,
+        "content": "Pseudoaneurysm detected angiographically. Microsurgical resection performed with hematoma"
+      }
+    }
+  ]
+}

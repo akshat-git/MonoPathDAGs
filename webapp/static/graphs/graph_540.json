@@ -1,0 +1,343 @@
+{
+  "nodes": [
+    {
+      "id": "N1",
+      "label": "Step 1",
+      "customData": {
+        "node_id": "A",
+        "node_step_index": 0,
+        "content": "62-year-old female with non-small cell lung cancer (NSCLC) and pre-existing vitiligo, presenting with cough and chest tightness.",
+        "clinical_data": {
+          "diagnoses": [
+            {
+              "code": "C34.9",
+              "label": "Non-small cell lung cancer",
+              "status": "active"
+            },
+            {
+              "code": "L80",
+              "label": "Vitiligo",
+              "status": "historical"
+            }
+          ],
+          "HPI": [
+            {
+              "summary": "Patient presenting with cough and chest tightness.",
+              "associated_symptoms": [
+                "cough",
+                "chest tightness"
+              ]
+            }
+          ]
+        }
+      }
+    },
+    {
+      "id": "N2",
+      "label": "Step 2",
+      "customData": {
+        "node_id": "B",
+        "node_step_index": 1,
+        "content": "Patient treated with anti-programmed cell death-1 (anti-PD-1) therapy.",
+        "clinical_data": {
+          "medications": [
+            {
+              "drug": "C4025399",
+              "dosage": null,
+              "frequency": null,
+              "modality": null,
+              "start_date": null,
+              "end_date": null,
+              "indication": null
+            }
+          ]
+        }
+      }
+    },
+    {
+      "id": "N3",
+      "label": "Step 3",
+      "customData": {
+        "node_id": "C",
+        "node_step_index": 2,
+        "content": "Skin depigmentation aggravated within 6 months of anti-PD-1 antibody treatment.",
+        "clinical_data": {
+          "HPI": [
+            {
+              "summary": "Skin depigmentation aggravated within 6 months of anti-PD-1 antibody treatment.",
+              "duration": "6 months",
+              "progression": "gradual",
+              "exacerbating_factors": [
+                "anti-PD-1 antibody treatment"
+              ]
+            }
+          ]
+        }
+      }
+    },
+    {
+      "id": "N4",
+      "label": "Step 4",
+      "customData": {
+        "node_id": "D",
+        "node_step_index": 3,
+        "content": "November 2017: Chest CT reveals space-occupying lesions and large pleural effusion in the right lung. Diagnosed with stage IV lung adenocarcinoma with negative EGFR/ALK/ROS1 mutations. History of vitiligo for 10 years.",
+        "timestamp": "2017-11",
+        "clinical_data": {
+          "imaging": [
+            {
+              "type": "Computed tomography",
+              "body_part": "Chest",
+              "modality": "CT",
+              "finding": "space-occupying lesions and large pleural effusion in the right lung",
+              "date": "2017-11"
+            }
+          ],
+          "diagnoses": [
+            {
+              "code": "C34",
+              "label": "Lung adenocarcinoma",
+              "status": "active",
+              "onset_date": "2017-11"
+            },
+            {
+              "code": "L80",
+              "label": "Vitiligo",
+              "status": "historical",
+              "onset_date": null
+            }
+          ]
+        }
+      }
+    },
+    {
+      "id": "N5",
+      "label": "Step 5",
+      "customData": {
+        "node_id": "E",
+        "node_step_index": 4,
+        "content": "December 2017: Patient received 6 cycles of SHR-1210 combined with pemetrexed and carboplatin, followed by 29 cycles of SHR-1210 in combination with pemetrexed.",
+        "timestamp": "2017-12",
+        "clinical_data": {
+          "medications": [
+            {
+              "drug": "pemetrexed",
+              "dosage": null,
+              "frequency": null,
+              "modality": null,
+              "start_date": "2017-12",
+              "end_date": null,
+              "indication": null
+            },
+            {
+              "drug": "carboplatin",
+              "dosage": null,
+              "frequency": null,
+              "modality": null,
+              "start_date": "2017-12",
+              "end_date": null,
+              "indication": null
+            }
+          ]
+        }
+      }
+    },
+    {
+      "id": "N6",
+      "label": "Step 6",
+      "customData": {
+        "node_id": "F",
+        "node_step_index": 5,
+        "content": "February 2018: After two cycles of treatment (6 weeks), lung cancer was effectively controlled, efficacy evaluation was stable disease (Figure 1B). Patient suffered from grade 1 hypothyroidism (CTCAE 4.0).",
+        "timestamp": "2018-02",
+        "clinical_data": {
+          "diagnoses": [
+            {
+              "code": "C0024117",
+              "label": "Lung Cancer",
+              "status": "active",
+              "onset_date": null
+            },
+            {
+              "code": "C0020676",
+              "label": "Hypothyroidism",
+              "status": "active",
+              "onset_date": "2018-02"
+            }
+          ]
+        }
+      }
+    },
+    {
+      "id": "N7",
+      "label": "Step 7",
+      "customData": {
+        "node_id": "G",
+        "node_step_index": 6,
+        "content": "February 28, 2018: 75\u03bcg levothyroxine administered once a day to control the immune-related hypothyroidism.",
+        "timestamp": "2018-02-28",
+        "clinical_data": {
+          "medications": [
+            {
+              "drug": "C0023929",
+              "dosage": "75\u03bcg",
+              "frequency": "once a day",
+              "modality": "oral",
+              "start_date": "2018-02-28",
+              "end_date": null,
+              "indication": "C0020644"
+            }
+          ],
+          "diagnoses": [
+            {
+              "code": "C0020644",
+              "label": "Hypothyroidism",
+              "status": "active",
+              "onset_date": "2018-02-28"
+            }
+          ]
+        }
+      }
+    },
+    {
+      "id": "N8",
+      "label": "Step 8",
+      "customData": {
+        "node_id": "H",
+        "node_step_index": 7,
+        "content": "After treatment with SHR-1210 combined with pemetrexed and carboplatin, tumor density gradually decreased. Vitiligo rapidly aggravated with depigmentation of the skin over the whole body in just half a year. Facial depigmentation area began to expand around the mouth and eyes, and the depigmentation lesions gradually appeared in other parts of the body, such as the inguinal region, cheeks, limbs, etc. Hair",
+        "clinical_data": {
+          "medications": [
+            {
+              "drug": "C0007684",
+              "indication": "C0009402"
+            },
+            {
+              "drug": "C0007668",
+              "indication": "C0009402"
+            }
+          ],
+          "diagnoses": [
+            {
+              "code": "C0042739",
+              "label": "Vitiligo",
+              "status": "active"
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "edges": [
+    {
+      "from": "N1",
+      "to": "N2",
+      "data": {
+        "edge_id": "A_to_B",
+        "branch_flag": true,
+        "content": "Initiation of treatment for NSCLC."
+      }
+    },
+    {
+      "from": "N2",
+      "to": "N3",
+      "data": {
+        "edge_id": "B_to_C",
+        "branch_flag": true,
+        "content": "Adverse reaction to anti-PD-1 therapy.",
+        "transition_event": {
+          "trigger_type": "medication_change",
+          "trigger_entities": [
+            "C4025399"
+          ],
+          "change_type": "other",
+          "target_domain": "symptom"
+        }
+      }
+    },
+    {
+      "from": "N3",
+      "to": "N4",
+      "data": {
+        "edge_id": "C_to_D",
+        "branch_flag": true,
+        "content": "Further disease characterization and staging.",
+        "transition_event": {
+          "trigger_type": "imaging",
+          "trigger_entities": [],
+          "change_type": "progression",
+          "target_domain": "diagnosis",
+          "timestamp": "2017-11"
+        }
+      }
+    },
+    {
+      "from": "N4",
+      "to": "N5",
+      "data": {
+        "edge_id": "D_to_E",
+        "branch_flag": true,
+        "content": "Treatment regimen initiated.",
+        "transition_event": {
+          "trigger_type": "medication_change",
+          "trigger_entities": [
+            "pemetrexed",
+            "carboplatin"
+          ],
+          "change_type": "addition",
+          "target_domain": "medication",
+          "timestamp": "2017-12"
+        }
+      }
+    },
+    {
+      "from": "N5",
+      "to": "N6",
+      "data": {
+        "edge_id": "E_to_F",
+        "branch_flag": true,
+        "content": "Treatment response and adverse events.",
+        "transition_event": {
+          "trigger_type": "interpretation",
+          "trigger_entities": [],
+          "change_type": "other",
+          "target_domain": "diagnosis",
+          "timestamp": "2018-02"
+        }
+      }
+    },
+    {
+      "from": "N6",
+      "to": "N7",
+      "data": {
+        "edge_id": "F_to_G",
+        "branch_flag": true,
+        "content": "Management of hypothyroidism.",
+        "transition_event": {
+          "trigger_type": "medication_change",
+          "trigger_entities": [
+            "C0023929"
+          ],
+          "change_type": "addition",
+          "target_domain": "medication",
+          "timestamp": "2018-02-28"
+        }
+      }
+    },
+    {
+      "from": "N7",
+      "to": "N8",
+      "data": {
+        "edge_id": "G_to_H",
+        "branch_flag": true,
+        "content": "Continued treatment and disease progression.",
+        "transition_event": {
+          "trigger_type": "procedure",
+          "trigger_entities": [],
+          "change_type": "other",
+          "target_domain": "diagnosis"
+        }
+      }
+    }
+  ]
+}

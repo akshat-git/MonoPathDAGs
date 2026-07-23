@@ -1,0 +1,292 @@
+{
+  "nodes": [
+    {
+      "id": "N1",
+      "label": "Step 1",
+      "customData": {
+        "node_id": "A",
+        "node_step_index": 0,
+        "content": "50-year-old Asian male presented on November 17, 2020, with month-long blood-tainted sputum and dull chest and back pain.",
+        "timestamp": "2020-11-17",
+        "clinical_data": {
+          "HPI": [
+            {
+              "summary": "50-year-old Asian male presented with month-long blood-tainted sputum and dull chest and back pain.",
+              "duration": "1 month",
+              "onset": "10-17-2020",
+              "associated_symptoms": [
+                "blood-tainted sputum",
+                "dull chest pain",
+                "dull back pain"
+              ]
+            }
+          ]
+        }
+      }
+    },
+    {
+      "id": "N2",
+      "label": "Step 2",
+      "customData": {
+        "node_id": "B",
+        "node_step_index": 1,
+        "content": "CT and PET-CT scans revealed a potentially malignant nodule (27 mm \u00d7 17 mm \u00d7 21 mm) in the anterior segment of the left upper lung lobe, along with pleural metastasis.",
+        "clinical_data": {
+          "imaging": [
+            {
+              "type": "Lung CT",
+              "body_part": "Left upper lung lobe",
+              "modality": "CT",
+              "finding": "potentially malignant nodule (27 mm \u00d7 17 mm \u00d7 21 mm)",
+              "impression": "potentially malignant nodule",
+              "date": null
+            },
+            {
+              "type": "PET-CT scan",
+              "body_part": "Pleura",
+              "modality": "PET-CT",
+              "finding": "pleural metastasis",
+              "impression": "pleural metastasis",
+              "date": null
+            }
+          ]
+        }
+      }
+    },
+    {
+      "id": "N3",
+      "label": "Step 3",
+      "customData": {
+        "node_id": "C",
+        "node_step_index": 2,
+        "content": "Biopsy confirmed adenocarcinoma of the lung with elevated CEA level of 53.28 ng/mL. Tumor carried the EGFRp. L858R mutation confirmed by DNA next-generation sequencing (NGS) of plasma cell-free DNA (cfDNA).",
+        "clinical_data": {
+          "diagnoses": [
+            {
+              "code": "C2350963",
+              "label": "Adenocarcinoma of Lung",
+              "status": "active"
+            }
+          ],
+          "labs": [
+            {
+              "test": "2721",
+              "value": "53.28",
+              "unit": "ng/mL",
+              "flag": "abnormal"
+            }
+          ],
+          "imaging": [
+            {
+              "type": "Finding related to lung",
+              "body_part": "Lung",
+              "modality": "Biopsy",
+              "finding": "Adenocarcinoma"
+            }
+          ]
+        }
+      }
+    },
+    {
+      "id": "N4",
+      "label": "Step 4",
+      "customData": {
+        "node_id": "D",
+        "node_step_index": 4,
+        "content": "Patient started on oral osimertinib therapy, leading to symptom resolution and sustained shrinkage.",
+        "treatment": "oral osimertinib",
+        "clinical_data": {
+          "medications": [
+            {
+              "drug": "C1444754",
+              "dosage": null,
+              "frequency": null,
+              "modality": "oral",
+              "start_date": null,
+              "end_date": null,
+              "indication": null
+            }
+          ],
+          "HPI": [
+            {
+              "summary": "symptom resolution and sustained shrinkage",
+              "duration": null,
+              "onset": null,
+              "progression": null,
+              "associated_symptoms": [],
+              "alleviating_factors": [
+                "C1444754"
+              ],
+              "exacerbating_factors": []
+            }
+          ]
+        }
+      }
+    },
+    {
+      "id": "N5",
+      "label": "Step 5",
+      "customData": {
+        "node_id": "E",
+        "node_step_index": 5,
+        "content": "Follow-up PET-CT scan on May 1, 2023, showed tumor enlargement (13 mm \u00d7 12 mm \u00d7 17 mm).",
+        "timestamp": "2023-05-01",
+        "clinical_data": {
+          "imaging": [
+            {
+              "type": "Neoplasm",
+              "body_part": "Unknown",
+              "modality": "PET-CT",
+              "finding": "Tumor enlargement (13 mm \u00d7 12 mm \u00d7 17 mm)",
+              "impression": "Tumor enlargement",
+              "date": "2023-05-01"
+            }
+          ]
+        }
+      }
+    },
+    {
+      "id": "N6",
+      "label": "Step 6",
+      "customData": {
+        "node_id": "F",
+        "node_step_index": 6,
+        "content": "Patient underwent wedge resection on May 7, 2023, with removal of nodular pleural thickening. Pathology revealed a 15 mm \u00d7 14 mm \u00d7 13 mm moderately differentiated tumor consisting of acinar adenocarcinoma (70%), papillary adenocarcinoma (25%), and micropapillary adenocarcinoma (5%). Lymph node metastasis was positive, and tumor cell infiltration into the pleura was surgically removed. No vessel carcinoma embolus or neural or pleural invasion was observed.",
+        "timestamp": "2023-05-07",
+        "clinical_data": {
+          "procedures": [
+            {
+              "name": "Wedge resection",
+              "date": "2023-05-07",
+              "outcome": "removal of nodular pleural thickening"
+            }
+          ],
+          "diagnoses": [
+            {
+              "code": "C2350423",
+              "label": "acinar adenocarcinoma",
+              "status": "active"
+            },
+            {
+              "code": "C0937173",
+              "label": "papillary adenocarcinoma",
+              "status": "active"
+            },
+            {
+              "code": "C4021848",
+              "label": "micropapillary adenocarcinoma",
+              "status": "active"
+            },
+            {
+              "code": "C0024239",
+              "label": "Lymph node metastasis",
+              "status": "active"
+            }
+          ],
+          "imaging": [
+            {
+              "finding": "nodular pleural thickening",
+              "date": "2023-05-07"
+            }
+          ]
+        }
+      }
+    },
+    {
+      "id": "N7",
+      "label": "Step 7",
+      "customData": {
+        "node_id": "G",
+        "node_step_index": 7,
+        "content": "NGS of tumor specimen indicated EGFRp.L858R mutation.",
+        "clinical_data": {
+          "diagnoses": [
+            {
+              "code": "C2677429",
+              "label": "EGFR L858R mutation",
+              "status": "active"
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "edges": [
+    {
+      "from": "N1",
+      "to": "N2",
+      "data": {
+        "edge_id": "A_to_B",
+        "branch_flag": true,
+        "content": "Initial presentation and subsequent imaging to investigate the cause of the patient's symptoms."
+      }
+    },
+    {
+      "from": "N2",
+      "to": "N3",
+      "data": {
+        "edge_id": "B_to_C",
+        "branch_flag": true,
+        "content": "Biopsy performed to determine the nature of the lung nodule and pleural metastasis."
+      }
+    },
+    {
+      "from": "N3",
+      "to": "N4",
+      "data": {
+        "edge_id": "C_to_D",
+        "branch_flag": true,
+        "content": "Initiation of targeted therapy based on the confirmed diagnosis and EGFR mutation status.",
+        "transition_event": {
+          "trigger_type": "medication_change",
+          "trigger_entities": [
+            "C1444754"
+          ],
+          "change_type": "addition",
+          "target_domain": "medication"
+        }
+      }
+    },
+    {
+      "from": "N4",
+      "to": "N5",
+      "data": {
+        "edge_id": "D_to_E",
+        "branch_flag": true,
+        "content": "Surveillance imaging to monitor treatment response.",
+        "transition_event": {
+          "trigger_type": "interpretation",
+          "trigger_entities": [],
+          "change_type": "progression",
+          "target_domain": "imaging",
+          "timestamp": "2023-05-01T00:00:00Z"
+        }
+      }
+    },
+    {
+      "from": "N5",
+      "to": "N6",
+      "data": {
+        "edge_id": "E_to_F",
+        "branch_flag": true,
+        "content": "Surgical intervention due to tumor enlargement.",
+        "transition_event": {
+          "trigger_type": "procedure",
+          "trigger_entities": [],
+          "change_type": "addition",
+          "target_domain": "procedure",
+          "timestamp": "2023-05-07T00:00:00Z"
+        }
+      }
+    },
+    {
+      "from": "N6",
+      "to": "N7",
+      "data": {
+        "edge_id": "F_to_G",
+        "branch_flag": true,
+        "content": "Further genetic testing of the tumor specimen obtained during surgery."
+      }
+    }
+  ]
+}

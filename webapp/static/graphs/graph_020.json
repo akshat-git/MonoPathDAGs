@@ -1,0 +1,554 @@
+{
+  "nodes": [
+    {
+      "id": "N1",
+      "label": "Step 1",
+      "customData": {
+        "node_id": "A",
+        "node_step_index": 0,
+        "content": "59-year-old male farmer with a history of hypertension and long-term smoking presented with redness and pain in the second toe of his right foot following a field injury, persisting for two weeks.",
+        "clinical_data": {
+          "HPI": [
+            {
+              "summary": "59-year-old male farmer presented with redness and pain in the second toe of his right foot following a field injury, persisting for two weeks.",
+              "duration": "2 weeks",
+              "onset": "following a field injury",
+              "progression": "unknown",
+              "associated_symptoms": [
+                "redness",
+                "pain"
+              ]
+            }
+          ],
+          "social_history": [
+            {
+              "category": "smoking",
+              "status": "current",
+              "description": "long-term smoking"
+            }
+          ],
+          "diagnoses": [
+            {
+              "code": "http://purl.bioontology.org/ontology/SNOMEDCT/59621000",
+              "label": "Hypertension",
+              "status": "historical"
+            }
+          ]
+        }
+      },
+      "custom_id": "graph_020_N0"
+    },
+    {
+      "id": "N2",
+      "label": "Step 2",
+      "customData": {
+        "node_id": "B",
+        "node_step_index": 1,
+        "content": "One week later, the patient developed redness and persistent pain in the left lumbar and groin areas, which was accompanied by coughing, expectoration, and a fever peaking at 38 \u00b0C.",
+        "clinical_data": {
+          "HPI": [
+            {
+              "summary": "Patient developed redness and persistent pain in the left lumbar and groin areas one week later.",
+              "onset": "One week later",
+              "progression": "sudden",
+              "associated_symptoms": [
+                "Redness",
+                "Pain"
+              ]
+            },
+            {
+              "summary": "Patient experienced coughing, expectoration, and a fever peaking at 38 \u00b0C.",
+              "associated_symptoms": [
+                "Coughing",
+                "Expectoration",
+                "Fever"
+              ]
+            }
+          ],
+          "vitals": [
+            {
+              "type": "Fever",
+              "value": "38",
+              "unit": "\u00b0C"
+            }
+          ]
+        }
+      },
+      "custom_id": "graph_020_N1"
+    },
+    {
+      "id": "N3",
+      "label": "Step 3",
+      "customData": {
+        "node_id": "C",
+        "node_step_index": 2,
+        "content": "Admitted to a local hospital. Initial blood tests and a chest CT scan suggested the possibility of a bacterial infection (Table1).",
+        "clinical_data": {
+          "labs": [
+            {
+              "test": "Blood test",
+              "timestamp": null
+            }
+          ],
+          "imaging": [
+            {
+              "type": "CT of chest",
+              "body_part": "Chest",
+              "modality": "CT",
+              "date": null
+            }
+          ],
+          "diagnoses": [
+            {
+              "code": "B0004944",
+              "label": "Bacterial Infections",
+              "status": "suspected",
+              "onset_date": null
+            }
+          ]
+        }
+      },
+      "custom_id": "graph_020_N2"
+    },
+    {
+      "id": "N4",
+      "label": "Step 4",
+      "customData": {
+        "node_id": "D",
+        "node_step_index": 3,
+        "content": "Patient was treated with piperacillin-tazobactam (4.5 g q8 h) for a week with no improvement.",
+        "clinical_data": {
+          "medications": [
+            {
+              "drug": "C0724449",
+              "dosage": "4.5 g",
+              "frequency": "q8 h",
+              "modality": "IV",
+              "start_date": null,
+              "end_date": null,
+              "indication": null
+            }
+          ]
+        }
+      },
+      "custom_id": "graph_020_N3"
+    },
+    {
+      "id": "N5",
+      "label": "Step 5",
+      "customData": {
+        "node_id": "E",
+        "node_step_index": 4,
+        "content": "Patient transferred to the hospital with the following vital signs: body temperature 39.1 \u00b0C, heart rate 136 bpm, respiratory rate 36 breaths/minute, blood pressure 140/75 mmHg, and oxygen saturation 85%. Patient was stuporous, responsive to vocal stimuli yet unable to answer questions, with bilateral pupils which were equal, round, and reactive to light.",
+        "clinical_data": {
+          "vitals": [
+            {
+              "type": "Body Temperature",
+              "value": "39.1",
+              "unit": "\u00b0C"
+            },
+            {
+              "type": "Heart Rate",
+              "value": "136",
+              "unit": "bpm"
+            },
+            {
+              "type": "Respiratory Rate",
+              "value": "36",
+              "unit": "breaths/minute"
+            },
+            {
+              "type": "Blood Pressure",
+              "value": "140/75",
+              "unit": "mmHg"
+            },
+            {
+              "type": "Oxygen Saturation",
+              "value": "85",
+              "unit": "%"
+            }
+          ],
+          "mental_status": [
+            {
+              "domain": "consciousness",
+              "finding": "stuporous"
+            },
+            {
+              "domain": "responsiveness",
+              "finding": "responsive to vocal stimuli"
+            },
+            {
+              "domain": "speech",
+              "finding": "unable to answer questions"
+            },
+            {
+              "domain": "pupils",
+              "finding": "equal, round, and reactive to light"
+            }
+          ]
+        }
+      },
+      "custom_id": "graph_020_N4"
+    },
+    {
+      "id": "N6",
+      "label": "Step 6",
+      "customData": {
+        "node_id": "F",
+        "node_step_index": 5,
+        "content": "Irregular heartbeat and coarse breath sounds in both lungs (no rales). HIV, AIGA, blood G test, GM test, and blood cultures were negative. Chest/brain CT scans were performed (Table1 and Fig.2(a, d)). Serial sputum cultures were conducted over three consecutive days; the initial specimen was inadequate (WBC < 10/LPF, epithelial cells 201/LPF).",
+        "clinical_data": {
+          "vitals": [
+            {
+              "type": "Heart rate (finding)",
+              "value": "irregular",
+              "unit": null,
+              "timestamp": null
+            }
+          ],
+          "diagnoses": [
+            {
+              "code": "B20",
+              "label": "HIV",
+              "status": "historical",
+              "onset_date": null
+            }
+          ],
+          "labs": [
+            {
+              "test": "Blood culture",
+              "value": "negative",
+              "unit": null,
+              "flag": "normal",
+              "reference_range": null,
+              "timestamp": null
+            },
+            {
+              "test": "Sputum culture",
+              "value": "inadequate",
+              "unit": null,
+              "flag": "abnormal",
+              "reference_range": null,
+              "timestamp": null
+            }
+          ],
+          "imaging": [
+            {
+              "type": "CT scan",
+              "body_part": "Chest",
+              "modality": "CT",
+              "finding": null,
+              "impression": null,
+              "date": null
+            },
+            {
+              "type": "CT scan",
+              "body_part": "Brain",
+              "modality": "CT",
+              "finding": null,
+              "impression": null,
+              "date": null
+            }
+          ]
+        }
+      },
+      "custom_id": "graph_020_N5"
+    },
+    {
+      "id": "N7",
+      "label": "Step 7",
+      "customData": {
+        "node_id": "G",
+        "node_step_index": 6,
+        "content": "Subsequent sputum specimens exhibited cellular profiles consistent with lower respiratory origin (WBC 35\u201350/LPF, epithelial cells 5\u20138/LPF), with persistent isolation of Burkholderia cepacia (2/2 cultures).",
+        "clinical_data": {
+          "labs": [
+            {
+              "test": "White blood cell count",
+              "value": "35-50",
+              "unit": "/LPF",
+              "flag": "abnormal"
+            },
+            {
+              "test": "Epithelial cells",
+              "value": "5-8",
+              "unit": "/LPF",
+              "flag": "abnormal"
+            },
+            {
+              "test": "Burkholderia cepacia culture",
+              "value": "positive",
+              "unit": "2/2 cultures"
+            }
+          ]
+        }
+      },
+      "custom_id": "graph_020_N6"
+    },
+    {
+      "id": "N8",
+      "label": "Step 8",
+      "customData": {
+        "node_id": "H",
+        "node_step_index": 7,
+        "content": "Week 3: Patient experienced cough, expectoration, fever, left lumbar/groin erythema/pain. White blood cell count (\u00d710\u2079/L): 15.41, Neutrophil count (\u00d710\u2079/L): 6.3, Neutrophil percentage: 92.6, Albumin(g/L): 29, C-reactive protein(\u03bcmol/L): 90.8, Procalcitonin(ng/mL): 3.05, N-terminal pro b-type natriuretic peptide(pg/mL): 10675, Alanine aminotransferase(U/L): 11, Aspartate aminotransferase(U/L): 16, Creatinine(\u03bcmol/L): 295.5.",
+        "clinical_data": {
+          "HPI": [
+            {
+              "summary": "Patient experienced cough, expectoration, fever, left lumbar/groin erythema/pain.",
+              "duration": "1 week",
+              "onset": "3 weeks prior to current encounter",
+              "progression": "unknown",
+              "associated_symptoms": [
+                "cough",
+                "expectoration",
+                "fever",
+                "erythema",
+                "pain"
+              ],
+              "alleviating_factors": [],
+              "exacerbating_factors": []
+            }
+          ],
+          "labs": [
+            {
+              "test": "White blood cell count",
+              "value": "15.41",
+              "unit": "\u00d710\u2079/L",
+              "flag": "abnormal",
+              "reference_range": null,
+              "timestamp": null
+            },
+            {
+              "test": "Neutrophil count",
+              "value": "6.3",
+              "unit": "\u00d710\u2079/L",
+              "flag": "abnormal",
+              "reference_range": null,
+              "timestamp": null
+            },
+            {
+              "test": "Neutrophil percentage",
+              "value": "92.6",
+              "unit": "%",
+              "flag": "abnormal",
+              "reference_range": null,
+              "timestamp": null
+            },
+            {
+              "test": "Albumin",
+              "value": "29",
+              "unit": "g/L",
+              "flag": "abnormal",
+              "reference_range": null,
+              "timestamp": null
+            },
+            {
+              "test": "C-reactive protein",
+              "value": "90.8",
+              "unit": "\u03bcmol/L",
+              "flag": "abnormal",
+              "reference_range": null,
+              "timestamp": null
+            },
+            {
+              "test": "Procalcitonin",
+              "value": "3.05",
+              "unit": "ng/mL",
+              "flag": "abnormal",
+              "reference_range": null,
+              "timestamp": null
+            },
+            {
+              "test": "N-terminal pro b-type natriuretic peptide",
+              "value": "10675",
+              "unit": "pg/mL",
+              "flag": "abnormal",
+              "reference_range": null,
+              "timestamp": null
+            },
+            {
+              "test": "Alanine aminotransferase",
+              "value": "11",
+              "unit": "U/L",
+              "flag": "normal",
+              "reference_range": null,
+              "timestamp": null
+            },
+            {
+              "test": "Aspartate aminotransferase",
+              "value": "16",
+              "unit": "U/L",
+              "flag": "normal",
+              "reference_range": null,
+              "timestamp": null
+            },
+            {
+              "test": "Creatinine",
+              "value": "295.5",
+              "unit": "\u03bcmol/L",
+              "flag": "abnormal",
+              "reference_range": null,
+              "timestamp": null
+            }
+          ]
+        }
+      },
+      "custom_id": "graph_020_N7"
+    },
+    {
+      "id": "N9",
+      "label": "Step 9",
+      "customData": {
+        "node_id": "I",
+        "node_step_index": 8,
+        "content": "Week 4: Patient experienced stupor and hypoxia (SpO\u2082 85%). Cardiac: atrial fibrillation. White blood cell count (\u00d710\u2079/L): 10.01, Neutrophil count (\u00d710\u2079/L): 10.08, Neutrophil percentage: 92.8, Albumin(g/L): 22.8, C-reactive protein(\u03bcmol/L): 176.8, Procalcitonin(ng/mL): 30.58. Electrocardiogram indicated atrial fibrillation. Antimicrobial susceptibility testing indicated sensitivity to meropenem (MIC 4 \u03bcg/mL).",
+        "clinical_data": {
+          "vitals": [
+            {
+              "type": "SpO2",
+              "value": "85",
+              "unit": "%"
+            }
+          ],
+          "labs": [
+            {
+              "test": "White blood cell count",
+              "value": "10.01",
+              "unit": "x10^9/L"
+            },
+            {
+              "test": "Neutrophil count",
+              "value": "10.08",
+              "unit": "x10^9/L"
+            },
+            {
+              "test": "Neutrophil percentage",
+              "value": "92.8",
+              "unit": "%"
+            },
+            {
+              "test": "Albumin",
+              "value": "22.8",
+              "unit": "g/L"
+            },
+            {
+              "test": "C-reactive protein",
+              "value": "176.8",
+              "unit": "\u03bcmol/L"
+            },
+            {
+              "test": "Procalcitonin",
+              "value": "30.58",
+              "unit": "ng/mL"
+            }
+          ],
+          "diagnoses": [
+            {
+              "code": "Atrial fibrillation",
+              "label": "Atrial fibrillation",
+              "status": "active"
+            }
+          ],
+          "mental_status": [
+            {
+              "domain": "consciousness",
+              "finding": "stupor"
+            }
+          ],
+          "medications": [
+            {
+              "drug": "Meropenem",
+              "indication": "infection",
+              "sensitivity": "sensitive",
+              "MIC": "4 \u03bcg/mL"
+            }
+          ]
+        }
+      },
+      "custom_id": "graph_020_N8"
+    }
+  ],
+  "edges": [
+    {
+      "from": "N1",
+      "to": "N2",
+      "data": {
+        "edge_id": "A_to_B",
+        "branch_flag": true,
+        "content": "Patient transitioned from toe redness/pain to lumbar/groin redness/pain, coughing, expectoration, and fever."
+      },
+      "custom_id": "graph_020_N1_N2"
+    },
+    {
+      "from": "N2",
+      "to": "N3",
+      "data": {
+        "edge_id": "B_to_C",
+        "branch_flag": true,
+        "content": "Patient was admitted to a local hospital, and initial tests suggested a possible bacterial infection."
+      },
+      "custom_id": "graph_020_N2_N3"
+    },
+    {
+      "from": "N3",
+      "to": "N4",
+      "data": {
+        "edge_id": "C_to_D",
+        "branch_flag": true,
+        "content": "Patient was treated with piperacillin-tazobactam."
+      },
+      "custom_id": "graph_020_N3_N4"
+    },
+    {
+      "from": "N4",
+      "to": "N5",
+      "data": {
+        "edge_id": "D_to_E",
+        "branch_flag": true,
+        "content": "Patient transferred to the hospital with worsening vital signs and altered mental status despite treatment."
+      },
+      "custom_id": "graph_020_N4_N5"
+    },
+    {
+      "from": "N5",
+      "to": "N6",
+      "data": {
+        "edge_id": "E_to_F",
+        "branch_flag": true,
+        "content": "Further testing including cultures and CT scans were performed, with initial negative results for HIV, AIGA, blood G test, GM test, and blood cultures."
+      },
+      "custom_id": "graph_020_N5_N6"
+    },
+    {
+      "from": "N6",
+      "to": "N7",
+      "data": {
+        "edge_id": "F_to_G",
+        "branch_flag": true,
+        "content": "Sputum specimens confirmed Burkholderia cepacia infection."
+      },
+      "custom_id": "graph_020_N6_N7"
+    },
+    {
+      "from": "N7",
+      "to": "N8",
+      "data": {
+        "edge_id": "G_to_H",
+        "branch_flag": true,
+        "content": "Patient experienced persistent symptoms and abnormal lab values."
+      },
+      "custom_id": "graph_020_N7_N8"
+    },
+    {
+      "from": "N8",
+      "to": "N9",
+      "data": {
+        "edge_id": "H_to_I",
+        "branch_flag": true,
+        "content": "Patient developed stupor, hypoxia, and atrial fibrillation, with worsening lab values. Antimicrobial susceptibility testing indicated sensitivity to meropenem."
+      },
+      "custom_id": "graph_020_N8_N9"
+    }
+  ]
+}

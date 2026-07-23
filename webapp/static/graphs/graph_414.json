@@ -1,0 +1,208 @@
+{
+  "nodes": [
+    {
+      "id": "N1",
+      "label": "Step 1",
+      "customData": {
+        "node_id": "A",
+        "node_step_index": 0,
+        "content": "64-year-old man presented with a 6-month cough and 2 months of shortness of breath. History of smoking 10 cigarettes per day for 15 years, quit 1 year prior. No other medical history. One month prior to presentation, chest skiagram and CT of the chest revealed a left lung mass at an outside hospital.",
+        "clinical_data": {
+          "HPI": [
+            {
+              "summary": "64-year-old man presented with a 6-month cough and 2 months of shortness of breath.",
+              "duration": "6 months",
+              "onset": "6 months prior",
+              "progression": "unknown",
+              "associated_symptoms": [
+                "cough",
+                "shortness of breath"
+              ]
+            }
+          ],
+          "social_history": [
+            {
+              "category": "smoking",
+              "status": "past",
+              "description": "smoked 10 cigarettes per day for 15 years, quit 1 year prior"
+            }
+          ],
+          "imaging": [
+            {
+              "type": "Lung mass",
+              "body_part": "Lung",
+              "modality": "X-ray",
+              "finding": "left lung mass",
+              "date": "one month prior to presentation"
+            },
+            {
+              "type": "Lung mass",
+              "body_part": "Lung",
+              "modality": "CT",
+              "finding": "left lung mass",
+              "date": "one month prior to presentation"
+            }
+          ]
+        }
+      }
+    },
+    {
+      "id": "N2",
+      "label": "Step 2",
+      "customData": {
+        "node_id": "B",
+        "node_step_index": 1,
+        "content": "CT-guided biopsy of the lung mass revealed necrotic material. PET scan advised. Clinical examination revealed a respiratory rate of 18 per minute, and impaired percussion note along with decreased intensity of breath sounds over the left upper hemithorax. Haemoglobin of 116 g/L (normal range 130\u2013170 g/L), total cell counts of 10.9 \u00d7 109/L (normal 4\u201311\u00d7109/L) with a differential of 60% polymorphs, 18.7% lymphocytes, 11.9% eosinophils and 8.6% monocytes.",
+        "clinical_data": {
+          "imaging": [
+            {
+              "type": "CT guided biopsy",
+              "body_part": "Lung",
+              "modality": "CT",
+              "finding": "necrotic material"
+            },
+            {
+              "type": "PET scan",
+              "body_part": "Lung",
+              "modality": "PET"
+            }
+          ],
+          "vitals": [
+            {
+              "type": "Respiratory rate",
+              "value": "18",
+              "unit": "per minute"
+            }
+          ],
+          "labs": [
+            {
+              "test": "Hemoglobin",
+              "value": "116",
+              "unit": "g/L",
+              "flag": "abnormal",
+              "reference_range": "130-170 g/L"
+            },
+            {
+              "test": "Total cell count",
+              "value": "10.9",
+              "unit": "x 10^9/L",
+              "flag": "abnormal",
+              "reference_range": "4-11 x 10^9/L"
+            },
+            {
+              "test": "Polymorphs",
+              "value": "60",
+              "unit": "%"
+            },
+            {
+              "test": "Lymphocytes",
+              "value": "18.7",
+              "unit": "%"
+            },
+            {
+              "test": "Eosinophils",
+              "value": "11.9",
+              "unit": "%"
+            },
+            {
+              "test": "Monocytes",
+              "value": "8.6",
+              "unit": "%"
+            }
+          ],
+          "HPI": [
+            {
+              "summary": "impaired percussion note along with decreased intensity of breath sounds over the left upper hemithorax"
+            }
+          ]
+        }
+      }
+    },
+    {
+      "id": "N3",
+      "label": "Step 3",
+      "customData": {
+        "node_id": "C",
+        "node_step_index": 2,
+        "content": "Total serum protein 8.1 g/dL (normal range 6.6\u20138.3 g/dL), albumin 3.3 g/dL (normal range 3.5\u20135.2 g/dL). PET-CT revealed a FDG-avid left lingular lung mass measuring 89\u00d788\u00d771 mL with SUVmax of 14.35, and an FDG avid intraluminal plug (SUVmax 8.13) within the left upper lobe bronchus, with enlarged FDG avid subcarinal lymph node and complete lingular collapse. Bronchoscopy revealed an endoluminal plug with jelly-like consistency completely occluding the left upper lobe bronchus. The left upper lobe lumen was cleared using a combination of biopsy forceps and snare and a lingular growth was identified from which, biopsy was taken. Histopathology revealed necrotic fragments with colonisation of fungal organisms morphologically resembling Aspergillus, along with infiltration of the subepithelium with atypical cells. By immunohistochemistry, the latter cells were positive for vimentin and thyroid transcription factor-1, and were negative for EBV-LMP1, p63, synaptophysin and chromogranin, favouring a diagnosis of poorly differentiated adenocarcinoma of lung.",
+        "clinical_data": {
+          "labs": [
+            {
+              "test": "Total protein measurement",
+              "value": "8.1",
+              "unit": "g/dL",
+              "flag": "normal",
+              "reference_range": "6.6\u20138.3 g/dL"
+            },
+            {
+              "test": "Albumin measurement",
+              "value": "3.3",
+              "unit": "g/dL",
+              "flag": "abnormal",
+              "reference_range": "3.5\u20135.2 g/dL"
+            }
+          ],
+          "imaging": [
+            {
+              "type": "Positron emission tomography and computed tomography",
+              "body_part": "Lung",
+              "modality": "PET-CT",
+              "finding": "FDG-avid left lingular lung mass measuring 89\u00d788\u00d771 mL with SUVmax of 14.35, and an FDG avid intraluminal plug (SUVmax 8.13) within the left upper lobe bronchus, with enlarged FDG avid subcarinal lymph node and complete lingular collapse."
+            }
+          ],
+          "procedures": [
+            {
+              "name": "Bronchoscopy",
+              "location": "left upper lobe bronchus",
+              "outcome": "left upper lobe lumen was cleared using a combination of biopsy forceps and snare and a lingular growth was identified from which, biopsy was taken."
+            },
+            {
+              "name": "Biopsy",
+              "location": "lingular growth"
+            }
+          ],
+          "diagnoses": [
+            {
+              "code": "C0006572",
+              "label": "Adenocarcinoma of lung",
+              "status": "active"
+            },
+            {
+              "code": "C0004173",
+              "label": "Aspergillosis",
+              "status": "active"
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "edges": [
+    {
+      "from": "N1",
+      "to": "N2",
+      "data": {
+        "edge_id": "A_to_B",
+        "branch_flag": true,
+        "content": "From initial presentation with cough, shortness of breath, and a known lung mass to further investigation with CT-guided biopsy, PET scan, clinical examination, and lab tests revealing abnormal hemoglobin and total cell counts."
+      }
+    },
+    {
+      "from": "N2",
+      "to": "N3",
+      "data": {
+        "edge_id": "B_to_C",
+        "branch_flag": true,
+        "content": "From abnormal lab values and impaired percussion to PET-CT scan revealing FDG-avid lung mass, intraluminal plug, enlarged lymph node, lingular collapse, bronchoscopy revealing endoluminal plug, and histopathology revealing adenocarcinoma of lung and aspergillosis.",
+        "transition_event": {
+          "trigger_type": "lab_change",
+          "trigger_entities": [
+            "C0020538"
+          ],
+          "change_type": "progression",
+          "target_domain": "lab"
+        }
+      }
+    }
+  ]
+}

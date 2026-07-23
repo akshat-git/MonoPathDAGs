@@ -1,0 +1,234 @@
+{
+  "nodes": [
+    {
+      "id": "N1",
+      "label": "Step 1",
+      "customData": {
+        "node_id": "A",
+        "node_step_index": 0,
+        "content": "32-year-old female with a 5-month history of recurrent dry cough (approximately 30 times a day, lasting 2-3 minutes each time) and no fever. Treated at a local hospital without imaging.",
+        "clinical_data": {
+          "HPI": [
+            {
+              "summary": "32-year-old female with a 5-month history of recurrent dry cough (approximately 30 times a day, lasting 2-3 minutes each time) and no fever.",
+              "duration": "P5M",
+              "onset": null,
+              "progression": "fluctuating",
+              "associated_symptoms": [
+                "C0010200"
+              ]
+            }
+          ]
+        }
+      }
+    },
+    {
+      "id": "N2",
+      "label": "Step 2",
+      "customData": {
+        "node_id": "B",
+        "node_step_index": 1,
+        "content": "One week prior to admission on 2022-04-14, patient underwent a lower segment caesarean section under epidural anesthesia at a local hospital due to hypoxemia and reduced fetal movement. Gestational age was 37 weeks. Patient admitted to the hospital on 2022-04-14 due to repeated cough for 5 months, shortness of breath for 1 week, and aggravation for 1 day after delivery.",
+        "timestamp": "2022-04-14",
+        "clinical_data": {
+          "procedures": [
+            {
+              "name": "Lower segment cesarean section",
+              "date": "2022-04-07",
+              "approach": "other",
+              "location": "local hospital",
+              "performed_by": "unknown",
+              "outcome": "unknown"
+            }
+          ],
+          "HPI": [
+            {
+              "summary": "Repeated cough for 5 months, shortness of breath for 1 week, and aggravation for 1 day after delivery",
+              "duration": "5 months",
+              "onset": "5 months prior to admission",
+              "progression": "aggravated",
+              "associated_symptoms": [
+                "Shortness of breath"
+              ]
+            }
+          ],
+          "diagnoses": [
+            {
+              "code": "Hypoxemia",
+              "label": "Hypoxemia",
+              "status": "historical",
+              "onset_date": "2022-04-07"
+            }
+          ]
+        }
+      }
+    },
+    {
+      "id": "N3",
+      "label": "Step 3",
+      "customData": {
+        "node_id": "C",
+        "node_step_index": 3,
+        "content": "Patient transferred to the hospital for hypoxemia. Physical examination: Temperature 36.6 \u2103, Heart rate 110 / min, Respiratory rate 35 / min, Blood pressure 132 / 92mmHg, Pulse oxygen saturation 81% (Oxygen concentration 100%, endotracheal intubation ventilator assisted breathing). Patient was conscious, and had cyanosis on lips and nails. Respiratory sounds of both lower lungs were reduced, and scattered wet rales were heard in both lungs.",
+        "clinical_data": {
+          "vitals": [
+            {
+              "type": "Temperature finding (T0041336)",
+              "value": "36.6",
+              "unit": "\u2103"
+            },
+            {
+              "type": "Heart Rate (T0018705)",
+              "value": "110",
+              "unit": "/min"
+            },
+            {
+              "type": "Respiratory Rate (T0038645)",
+              "value": "35",
+              "unit": "/min"
+            },
+            {
+              "type": "Blood pressure (T0005772)",
+              "value": "132/92",
+              "unit": "mmHg"
+            },
+            {
+              "type": "Oxygen saturation (T0234315)",
+              "value": "81",
+              "unit": "%"
+            }
+          ],
+          "diagnoses": [
+            {
+              "code": "T0020463",
+              "label": "Hypoxemia",
+              "status": "active"
+            }
+          ],
+          "physical_exam": [
+            {
+              "finding": "cyanosis on lips and nails"
+            },
+            {
+              "finding": "reduced respiratory sounds of both lower lungs"
+            },
+            {
+              "finding": "scattered wet rales were heard in both lungs"
+            }
+          ]
+        }
+      }
+    },
+    {
+      "id": "N4",
+      "label": "Step 4",
+      "customData": {
+        "node_id": "D",
+        "node_step_index": 4,
+        "content": "2022-04-14, chest CT at local hospital showed multiple exudative lesions in both lungs, multiple bone destruction in the thoracic vertebrae, and pathological fracture of the 7th rib on the right and the 2nd and 6th ribs on the left.",
+        "timestamp": "2022-04-14",
+        "clinical_data": {
+          "imaging": [
+            {
+              "type": "Computed tomography",
+              "body_part": "Thorax",
+              "modality": "CT",
+              "finding": "multiple exudative lesions in both lungs, multiple bone destruction in the thoracic vertebrae, and pathological fracture of the 7th rib on the right and the 2nd and 6th ribs on the left",
+              "date": "2022-04-14"
+            }
+          ]
+        }
+      }
+    },
+    {
+      "id": "N5",
+      "label": "Step 5",
+      "customData": {
+        "node_id": "E",
+        "node_step_index": 5,
+        "content": "2022-05-02, reexamination of chest CT showed multiple patchy high-density shadows in both lungs with blurred",
+        "clinical_data": {
+          "imaging": [
+            {
+              "type": "Chest CT",
+              "body_part": "Lung",
+              "modality": "CT",
+              "finding": "multiple patchy high-density shadows in both lungs with blurred",
+              "date": "2022-05-02"
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "edges": [
+    {
+      "from": "N1",
+      "to": "N2",
+      "data": {
+        "edge_id": "A_to_B",
+        "branch_flag": true,
+        "content": "Patient's condition progressed from recurrent dry cough over 5 months to include shortness of breath and hypoxemia, leading to a cesarean section and subsequent hospital admission.",
+        "transition_event": {
+          "trigger_type": "symptom_onset",
+          "trigger_entities": [
+            "C0010200",
+            "C0038454",
+            "C0020463"
+          ],
+          "change_type": "progression",
+          "target_domain": "symptom"
+        }
+      }
+    },
+    {
+      "from": "N2",
+      "to": "N3",
+      "data": {
+        "edge_id": "B_to_C",
+        "branch_flag": true,
+        "content": "Following admission for hypoxemia, the patient's physical examination revealed elevated heart and respiratory rates, decreased oxygen saturation despite supplemental oxygen, cyanosis, reduced lung sounds, and wet rales.",
+        "transition_event": {
+          "trigger_type": "interpretation",
+          "trigger_entities": [
+            "C0020463"
+          ],
+          "change_type": "progression",
+          "target_domain": "vital_sign"
+        }
+      }
+    },
+    {
+      "from": "N3",
+      "to": "N4",
+      "data": {
+        "edge_id": "C_to_D",
+        "branch_flag": true,
+        "content": "Chest CT imaging revealed multiple exudative lesions in both lungs, bone destruction in the thoracic vertebrae, and rib fractures.",
+        "transition_event": {
+          "trigger_type": "imaging",
+          "trigger_entities": [],
+          "change_type": "addition",
+          "target_domain": "imaging",
+          "timestamp": "2022-04-14"
+        }
+      }
+    },
+    {
+      "from": "N4",
+      "to": "N5",
+      "data": {
+        "edge_id": "D_to_E",
+        "branch_flag": true,
+        "content": "Follow-up chest CT showed multiple patchy high-density shadows in both lungs with blurred margins.",
+        "transition_event": {
+          "trigger_type": "imaging",
+          "trigger_entities": [],
+          "change_type": "other",
+          "target_domain": "imaging",
+          "timestamp": "2022-05-02"
+        }
+      }
+    }
+  ]
+}

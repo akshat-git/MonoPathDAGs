@@ -1,0 +1,571 @@
+{
+  "nodes": [
+    {
+      "id": "N1",
+      "label": "Step 1",
+      "customData": {
+        "node_id": "A",
+        "node_step_index": 0,
+        "content": "Patient diagnosed with malignant pleural mesothelioma (MPM) and underwent pleurectomy/decortication (P/D).",
+        "clinical_data": {
+          "diagnoses": [
+            {
+              "code": "C0678270",
+              "label": "Malignant pleural mesothelioma",
+              "status": "active"
+            }
+          ],
+          "procedures": [
+            {
+              "name": "Pleurectomy",
+              "approach": "open",
+              "location": "pleural cavity"
+            },
+            {
+              "name": "Decortication",
+              "approach": "open",
+              "location": "pleural cavity"
+            }
+          ]
+        }
+      }
+    },
+    {
+      "id": "N2",
+      "label": "Step 2",
+      "customData": {
+        "node_id": "B",
+        "node_step_index": 1,
+        "content": "Postoperative air leak developed, resulting in empyema.",
+        "clinical_data": {
+          "diagnoses": [
+            {
+              "code": "C0014164",
+              "label": "Empyema",
+              "status": "active"
+            }
+          ]
+        }
+      }
+    },
+    {
+      "id": "N3",
+      "label": "Step 3",
+      "customData": {
+        "node_id": "C",
+        "node_step_index": 2,
+        "content": "Residual thoracic airspace (RTS) developed after P/D.",
+        "clinical_data": {
+          "diagnoses": [
+            {
+              "code": "C4086454",
+              "label": "Residual thoracic airspace",
+              "status": "active"
+            }
+          ]
+        }
+      }
+    },
+    {
+      "id": "N4",
+      "label": "Step 4",
+      "customData": {
+        "node_id": "D",
+        "node_step_index": 3,
+        "content": "Attempted transbronchial spigot insertion for fistulous pyothorax in RTS; some spigots penetrated the empyema cavity.",
+        "clinical_data": {
+          "procedures": [
+            {
+              "name": "Transbronchial spigot insertion",
+              "approach": "endoscopic",
+              "location": "bronchial tree",
+              "outcome": "some spigots penetrated the empyema cavity"
+            }
+          ],
+          "diagnoses": [
+            {
+              "code": "pyothorax",
+              "label": "pyothorax",
+              "status": "active"
+            },
+            {
+              "code": "fistula",
+              "label": "fistula",
+              "status": "active"
+            }
+          ]
+        }
+      }
+    },
+    {
+      "id": "N5",
+      "label": "Step 5",
+      "customData": {
+        "node_id": "E",
+        "node_step_index": 4,
+        "content": "Patient underwent 2 courses of cisplatin and pemetrexed therapy following right pleurectomy/decortication (P/D).",
+        "clinical_data": {
+          "medications": [
+            {
+              "drug": "C0008676",
+              "dosage": null,
+              "frequency": null,
+              "modality": null,
+              "start_date": null,
+              "end_date": null,
+              "indication": "M1053734"
+            },
+            {
+              "drug": "C1239844",
+              "dosage": null,
+              "frequency": null,
+              "modality": null,
+              "start_date": null,
+              "end_date": null,
+              "indication": "M1053734"
+            }
+          ],
+          "procedures": [
+            {
+              "name": "C0205741",
+              "approach": null,
+              "date": null,
+              "location": "C0032288",
+              "performed_by": null,
+              "outcome": null
+            },
+            {
+              "name": "C0159139",
+              "approach": null,
+              "date": null,
+              "location": "C0011447",
+              "performed_by": null,
+              "outcome": null
+            }
+          ]
+        }
+      }
+    },
+    {
+      "id": "N6",
+      "label": "Step 6",
+      "customData": {
+        "node_id": "F",
+        "node_step_index": 5,
+        "content": "Prolonged postoperative air leakage occurred, but pleurodesis was not required. Chest tube was removed on postoperative day 16.",
+        "clinical_data": {}
+      }
+    },
+    {
+      "id": "N7",
+      "label": "Step 7",
+      "customData": {
+        "node_id": "G",
+        "node_step_index": 6,
+        "content": "Patient received two additional courses of pemetrexed in combination with cisplatin.",
+        "clinical_data": {
+          "medications": [
+            {
+              "drug": "C0008893",
+              "dosage": null,
+              "frequency": null,
+              "modality": "IV",
+              "start_date": null,
+              "end_date": null,
+              "indication": null
+            },
+            {
+              "drug": "C1645444",
+              "dosage": null,
+              "frequency": null,
+              "modality": "IV",
+              "start_date": null,
+              "end_date": null,
+              "indication": null
+            }
+          ]
+        }
+      }
+    },
+    {
+      "id": "N8",
+      "label": "Step 8",
+      "customData": {
+        "node_id": "H",
+        "node_step_index": 7,
+        "content": "Chest CT showed persistent RTS in the right chest cavity throughout the postoperative follow-up period (Figure 1A).",
+        "clinical_data": {
+          "imaging": [
+            {
+              "type": "Computed tomography",
+              "body_part": "Chest cavity",
+              "modality": "CT",
+              "finding": "persistent RTS",
+              "date": null
+            }
+          ]
+        }
+      }
+    },
+    {
+      "id": "N9",
+      "label": "Step 9",
+      "customData": {
+        "node_id": "I",
+        "node_step_index": 8,
+        "content": "Chest CT at 6 months after surgery showed nodules on the surface of the right lung, which gradually increased in size and were diagnosed as recurrence of mesothelioma.",
+        "clinical_data": {
+          "imaging": [
+            {
+              "type": "Nodule",
+              "body_part": "Lung",
+              "modality": "CT",
+              "finding": "Nodules on the surface of the right lung, which gradually increased in size",
+              "impression": "recurrence of mesothelioma",
+              "date": null
+            }
+          ],
+          "diagnoses": [
+            {
+              "code": "C0025202",
+              "label": "Mesothelioma",
+              "status": "active",
+              "onset_date": null
+            }
+          ]
+        }
+      }
+    },
+    {
+      "id": "N10",
+      "label": "Step 10",
+      "customData": {
+        "node_id": "J",
+        "node_step_index": 9,
+        "content": "Nivolumab and Ipilimumab combination therapy started 10 months post-surgery, then discontinued shortly after the first course due to grade 2 pneumonitis.",
+        "clinical_data": {
+          "medications": [
+            {
+              "drug": "C1168589",
+              "dosage": null,
+              "frequency": null,
+              "modality": null,
+              "start_date": null,
+              "end_date": null,
+              "indication": null
+            },
+            {
+              "drug": "C4049449",
+              "dosage": null,
+              "frequency": null,
+              "modality": null,
+              "start_date": null,
+              "end_date": null,
+              "indication": null
+            }
+          ],
+          "diagnoses": [
+            {
+              "code": "C0206205",
+              "label": "Pneumonitis",
+              "status": "active",
+              "onset_date": null
+            }
+          ]
+        }
+      }
+    },
+    {
+      "id": "N11",
+      "label": "Step 11",
+      "customData": {
+        "node_id": "K",
+        "node_step_index": 10,
+        "content": "Oral prednisolone (30 mg/day) administered for pneumonitis, which improved, and prednisolone was reduced to 5 mg/day.",
+        "clinical_data": {
+          "medications": [
+            {
+              "drug": "C0032463",
+              "dosage": "30 mg/day",
+              "frequency": "daily",
+              "modality": "oral",
+              "indication": "C0032285"
+            },
+            {
+              "drug": "C0032463",
+              "dosage": "5 mg/day",
+              "frequency": "daily",
+              "modality": "oral"
+            }
+          ]
+        }
+      }
+    },
+    {
+      "id": "N12",
+      "label": "Step 12",
+      "customData": {
+        "node_id": "L",
+        "node_step_index": 11,
+        "content": "Twelve months post-surgery, CT scan showed enlarged RTS and small fluid retention in the airspace without lung consolidation (Figure 1B). Patient was asymptomatic and followed up.",
+        "clinical_data": {
+          "imaging": [
+            {
+              "type": "Computed tomography",
+              "body_part": "Lung",
+              "modality": "CT",
+              "finding": "Enlarged RTS and small fluid retention in the airspace without lung consolidation",
+              "date": "12 months post-surgery"
+            }
+          ]
+        }
+      }
+    },
+    {
+      "id": "N13",
+      "label": "Step 13",
+      "customData": {
+        "node_id": "M",
+        "node_step_index": 12,
+        "content": "Approximately 3 weeks later, coughing developed. Chest X-ray showed air-fluid level (Figure 1C), suggesting fluid accumulation in the RTS.",
+        "clinical_data": {
+          "imaging": [
+            {
+              "type": "Radiography, Thoracic (TUI)",
+              "body_part": "Thorax (TUI)",
+              "modality": "X-ray",
+              "finding": "Air-fluid level",
+              "date": null
+            }
+          ],
+          "HPI": [
+            {
+              "summary": "Coughing developed",
+              "onset": "3 weeks prior",
+              "progression": "sudden"
+            }
+          ]
+        }
+      }
+    },
+    {
+      "id": "N14",
+      "label": "Step 14",
+      "customData": {
+        "node_id": "N",
+        "node_step_index": 13,
+        "content": "Patient underwent thoracic drainage, which revealed air leakage and purulent fluid, leading to a diagnosis of fistulous pyothorax.",
+        "clinical_data": {
+          "procedures": [
+            {
+              "name": "Thoracic drainage",
+              "date": null,
+              "location": "thorax",
+              "outcome": "air leakage and purulent fluid"
+            }
+          ],
+          "diagnoses": [
+            {
+              "code": null,
+              "label": "fistulous pyothorax",
+              "status": "active",
+              "onset_date": null
+            }
+          ]
+        }
+      }
+    },
+    {
+      "id": "N15",
+      "label": "Step 15",
+      "customData": {
+        "node_id": "O",
+        "node_step_index": 14,
+        "content": "Chest CT identified the responsible bronchus in the right middle lobe (Figure1D).",
+        "clinical_data": {
+          "imaging": [
+            {
+              "type": "Computed tomography",
+              "body_part": "Chest",
+              "modality": "CT",
+              "finding": "responsible bronchus in the right middle lobe"
+            }
+          ]
+        }
+      }
+    },
+    {
+      "id": "N16",
+      "label": "Step 16",
+      "customData": {
+        "node_id": "P",
+        "node_step_index": 15,
+        "content": "Bronchial embolization with endobronchial spigot (EWS) was attempted but failed due to EWS penetration into the empyema cavity.",
+        "clinical_data": {
+          "procedures": [
+            {
+              "name": "Bronchial embolization",
+              "approach": "endoscopic",
+              "outcome": "failed"
+            }
+          ]
+        }
+      }
+    },
+    {
+      "id": "N17",
+      "label": "Step 17",
+      "customData": {
+        "node_id": "Q",
+        "node_step_index": 16,
+        "clinical_data": {}
+      }
+    }
+  ],
+  "edges": [
+    {
+      "from": "N1",
+      "to": "N2",
+      "data": {
+        "edge_id": "A_to_B",
+        "branch_flag": true,
+        "content": "Postoperative complication following pleurectomy/decortication (P/D)."
+      }
+    },
+    {
+      "from": "N2",
+      "to": "N3",
+      "data": {
+        "edge_id": "B_to_C",
+        "branch_flag": true,
+        "content": "Empyema led to the development of residual thoracic airspace (RTS)."
+      }
+    },
+    {
+      "from": "N3",
+      "to": "N4",
+      "data": {
+        "edge_id": "C_to_D",
+        "branch_flag": true,
+        "content": "Attempt to treat RTS with transbronchial spigot insertion."
+      }
+    },
+    {
+      "from": "N4",
+      "to": "N5",
+      "data": {
+        "edge_id": "D_to_E",
+        "branch_flag": true,
+        "content": "Initiation of adjuvant chemotherapy with cisplatin and pemetrexed following surgery."
+      }
+    },
+    {
+      "from": "N5",
+      "to": "N6",
+      "data": {
+        "edge_id": "E_to_F",
+        "branch_flag": true,
+        "content": "Postoperative course following chemotherapy."
+      }
+    },
+    {
+      "from": "N6",
+      "to": "N7",
+      "data": {
+        "edge_id": "F_to_G",
+        "branch_flag": true,
+        "content": "Additional chemotherapy courses with pemetrexed and cisplatin."
+      }
+    },
+    {
+      "from": "N7",
+      "to": "N8",
+      "data": {
+        "edge_id": "G_to_H",
+        "branch_flag": true,
+        "content": "Imaging follow-up showing persistent RTS."
+      }
+    },
+    {
+      "from": "N8",
+      "to": "N9",
+      "data": {
+        "edge_id": "H_to_I",
+        "branch_flag": true,
+        "content": "Disease progression with recurrence of mesothelioma."
+      }
+    },
+    {
+      "from": "N9",
+      "to": "N10",
+      "data": {
+        "edge_id": "I_to_J",
+        "branch_flag": true,
+        "content": "Initiation of immunotherapy with nivolumab and ipilimumab, complicated by pneumonitis."
+      }
+    },
+    {
+      "from": "N10",
+      "to": "N11",
+      "data": {
+        "edge_id": "J_to_K",
+        "branch_flag": true,
+        "content": "Treatment of pneumonitis with oral prednisolone."
+      }
+    },
+    {
+      "from": "N11",
+      "to": "N12",
+      "data": {
+        "edge_id": "K_to_L",
+        "branch_flag": true,
+        "content": "Follow-up imaging showing enlarged RTS and fluid retention."
+      }
+    },
+    {
+      "from": "N12",
+      "to": "N13",
+      "data": {
+        "edge_id": "L_to_M",
+        "branch_flag": true,
+        "content": "Development of cough and imaging findings suggestive of fluid accumulation."
+      }
+    },
+    {
+      "from": "N13",
+      "to": "N14",
+      "data": {
+        "edge_id": "M_to_N",
+        "branch_flag": true,
+        "content": "Thoracic drainage revealing fistulous pyothorax."
+      }
+    },
+    {
+      "from": "N14",
+      "to": "N15",
+      "data": {
+        "edge_id": "N_to_O",
+        "branch_flag": true,
+        "content": "Identification of the responsible bronchus via chest CT."
+      }
+    },
+    {
+      "from": "N15",
+      "to": "N16",
+      "data": {
+        "edge_id": "O_to_P",
+        "branch_flag": true,
+        "content": "Attempted bronchial embolization with endobronchial spigot (EWS)."
+      }
+    },
+    {
+      "from": "N16",
+      "to": "N17",
+      "data": {
+        "edge_id": "P_to_Q",
+        "branch_flag": true,
+        "content": "Failed bronchial embolization."
+      }
+    }
+  ]
+}

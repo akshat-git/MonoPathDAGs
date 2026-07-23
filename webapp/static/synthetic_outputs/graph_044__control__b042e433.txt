@@ -1,0 +1,7 @@
+A patient presented with cough, dyspnea, and throat pain. Imaging revealed a rapidly enlarging mediastinal mass, specifically a rapidly enlarging mediastinal tumor, causing enlargement of the right upper mediastinal shadow. The tumor was weakly enhanced and compressed the right brachiocephalic vein, narrowed the superior vena cava, and deviated the trachea to the left. Enlarged mediastinal lymph nodes were also observed. Laboratory findings showed elevated LDH and CRP levels.
+
+Histopathological examination revealed extensive necrosis and clusters of large pleomorphic cells with prominent nucleoli and nuclear atypia. Immunohistochemical staining showed EMA and AE1/AE3 positivity, along with SMARCA4 deficiency.
+
+The patient was initially treated with radiation therapy and chemotherapy (carboplatin and nab-paclitaxel), but the mediastinal mass proved resistant. Treatment with immune checkpoint inhibitors (atezolizumab) was also ineffective.
+
+The patient subsequently developed brain metastasis, which was treated with stereotactic radiation therapy. Further disease progression led to liver metastases, right supraclavicular lymph node metastases, and upper abdominal lymph node metastases. Ultimately, the patient developed respiratory failure.

@@ -1,0 +1,275 @@
+{
+  "nodes": [
+    {
+      "id": "N1",
+      "label": "Step 1",
+      "customData": {
+        "node_id": "A",
+        "node_step_index": 0,
+        "content": "67-year-old woman presented with a three-year history of progressive loss of strength affecting proximal muscles in upper and lower limbs, marked by difficulties in climbing stairs and walking. Symptoms initially fluctuated but became continuous at the time of assessment. No bulbar or respiratory symptoms were reported.",
+        "clinical_data": {
+          "HPI": [
+            {
+              "summary": "67-year-old woman presented with a three-year history of progressive loss of strength affecting proximal muscles in upper and lower limbs, marked by difficulties in climbing stairs and walking. Symptoms initially fluctuated but became continuous at the time of assessment. No bulbar or respiratory symptoms were reported.",
+              "duration": "P3Y",
+              "onset": null,
+              "progression": "gradual",
+              "associated_symptoms": [
+                "Weakness",
+                "Difficulty climbing stairs",
+                "Difficulty walking"
+              ]
+            }
+          ]
+        }
+      }
+    },
+    {
+      "id": "N2",
+      "label": "Step 2",
+      "customData": {
+        "node_id": "B",
+        "node_step_index": 1,
+        "content": "Past medical history of small cell carcinoma of the lung treated with carboplatin and etoposide. Smoker since age 16 and moderate alcohol drinker. Manual muscle strength testing revealed 5-/5 in proximal upper limbs and 4+/5 in proximal lower limbs. Sensation preserved to all modalities.",
+        "clinical_data": {
+          "diagnoses": [
+            {
+              "code": "C8014",
+              "label": "Small cell carcinoma of lung",
+              "status": "historical"
+            }
+          ],
+          "medications": [
+            {
+              "drug": "C706",
+              "dosage": null,
+              "frequency": null,
+              "modality": null,
+              "start_date": null,
+              "end_date": null,
+              "indication": "Small cell carcinoma of lung"
+            },
+            {
+              "drug": "C1320",
+              "dosage": null,
+              "frequency": null,
+              "modality": null,
+              "start_date": null,
+              "end_date": null,
+              "indication": "Small cell carcinoma of lung"
+            }
+          ],
+          "social_history": [
+            {
+              "category": "smoking",
+              "status": "current",
+              "description": "Smoker since age 16"
+            },
+            {
+              "category": "alcohol",
+              "status": "current",
+              "description": "Moderate alcohol drinker"
+            }
+          ]
+        }
+      }
+    },
+    {
+      "id": "N3",
+      "label": "Step 3",
+      "customData": {
+        "node_id": "C",
+        "node_step_index": 2,
+        "content": "Diagnosis of Myasthenia Gravis (MG) confirmed via repetitive nerve stimulation (RNS) and single-fibre electromyography (EMG). Bicipital, patellar and Achilles deep tendon reflexes were absent bilaterally. Electroneurography (nerve conduction studies (NCS)) revealed normal motor and sensory conduction velocities and expected characteristics of the evoked potentials.",
+        "clinical_data": {
+          "diagnoses": [
+            {
+              "code": "C0027051",
+              "label": "Myasthenia Gravis",
+              "status": "active"
+            }
+          ],
+          "procedures": [
+            {
+              "name": "Repetitive nerve stimulation",
+              "date": null
+            },
+            {
+              "name": "Electromyography",
+              "date": null
+            },
+            {
+              "name": "Electroneurography",
+              "date": null
+            }
+          ]
+        }
+      }
+    },
+    {
+      "id": "N4",
+      "label": "Step 4",
+      "customData": {
+        "node_id": "D",
+        "node_step_index": 3,
+        "content": "Needle EMG of the right vastus lateralis muscle showed no abnormalities. RNS test of the right median nerve showed a >10% amplitude drop from the fourth to the first potential. Single-fibre EMG of the right vastus lateralis muscle showed increased jitter in four of six pairs, with an increased average jitter value and one block.",
+        "clinical_data": {
+          "procedures": [
+            {
+              "name": "Electromyography, Needle",
+              "body_part": "Vastus Lateralis Muscle",
+              "location": "right vastus lateralis muscle",
+              "finding": "no abnormalities"
+            },
+            {
+              "name": "Repetitive Nerve Stimulation",
+              "body_part": "Median Nerve",
+              "location": "right median nerve",
+              "finding": ">10% amplitude drop from the fourth to the first potential"
+            },
+            {
+              "name": "Single Fiber Electromyography",
+              "body_part": "Vastus Lateralis Muscle",
+              "location": "right vastus lateralis muscle",
+              "finding": "increased jitter in four of six pairs, with an increased average jitter value and one block"
+            }
+          ]
+        }
+      }
+    },
+    {
+      "id": "N5",
+      "label": "Step 5",
+      "customData": {
+        "node_id": "E",
+        "node_step_index": 4,
+        "content": "Single-fibre EMG of the right vastus lateralis muscle showed the presence of an increased jitter and blocking. Anti-acetylcholine receptor (anti-AchR) antibodies (Ab) testing was initially negative (0.38 IU/mL), then showed a grey area of positivity (0.75 IU/mL). After one year, a control analysis showed a positive anti-AchR Ab value of 1.15 IU/mL.",
+        "clinical_data": {
+          "labs": [
+            {
+              "test": "Acetylcholine Receptor Antibodies",
+              "value": "0.38",
+              "unit": "IU/mL",
+              "flag": "negative"
+            },
+            {
+              "test": "Acetylcholine Receptor Antibodies",
+              "value": "0.75",
+              "unit": "IU/mL",
+              "flag": "unknown"
+            },
+            {
+              "test": "Acetylcholine Receptor Antibodies",
+              "value": "1.15",
+              "unit": "IU/mL",
+              "flag": "positive"
+            }
+          ],
+          "procedures": [
+            {
+              "name": "Electromyography procedure",
+              "location": "right vastus lateralis muscle",
+              "finding": "increased jitter and blocking"
+            }
+          ]
+        }
+      }
+    },
+    {
+      "id": "N6",
+      "label": "Step 6",
+      "customData": {
+        "node_id": "F",
+        "node_step_index": 5,
+        "content": "Chest radiograph and computerised tomography (CT) showed no thymoma.",
+        "clinical_data": {
+          "imaging": [
+            {
+              "type": "Radiography, Thoracic (TUI)",
+              "body_part": "Thorax (TUI)",
+              "modality": "X-ray",
+              "finding": "no thymoma",
+              "impression": "no thymoma"
+            },
+            {
+              "type": "Computed tomography (TUI)",
+              "body_part": "Thorax (TUI)",
+              "modality": "CT",
+              "finding": "no thymoma",
+              "impression": "no thymoma"
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "edges": [
+    {
+      "from": "N1",
+      "to": "N2",
+      "data": {
+        "edge_id": "A_to_B",
+        "branch_flag": true,
+        "content": "Transition from initial presentation to past medical history and examination findings. Patient has a history of small cell carcinoma of the lung treated with carboplatin and etoposide, is a smoker, and moderate alcohol drinker. Examination reveals proximal muscle weakness."
+      }
+    },
+    {
+      "from": "N2",
+      "to": "N3",
+      "data": {
+        "edge_id": "B_to_C",
+        "branch_flag": true,
+        "content": "Transition from examination to diagnosis. Myasthenia Gravis (MG) diagnosis confirmed via repetitive nerve stimulation (RNS) and single-fibre electromyography (EMG). Deep tendon reflexes are absent bilaterally. Electroneurography (NCS) results are normal."
+      }
+    },
+    {
+      "from": "N3",
+      "to": "N4",
+      "data": {
+        "edge_id": "C_to_D",
+        "branch_flag": true,
+        "content": "Transition from initial MG diagnosis to more detailed EMG findings. Needle EMG of the right vastus lateralis muscle showed no abnormalities. RNS test of the right median nerve showed a >10% amplitude drop. Single-fibre EMG of the right vastus lateralis muscle showed increased jitter and one block.",
+        "transition_event": {
+          "trigger_type": "procedure",
+          "trigger_entities": [
+            "C0014341"
+          ],
+          "change_type": "progression",
+          "target_domain": "diagnosis"
+        }
+      }
+    },
+    {
+      "from": "N4",
+      "to": "N5",
+      "data": {
+        "edge_id": "D_to_E",
+        "branch_flag": true,
+        "content": "Transition from EMG findings to antibody testing results. Single-fibre EMG of the right vastus lateralis muscle showed increased jitter and blocking. Anti-acetylcholine receptor (anti-AchR) antibodies (Ab) testing was initially negative, then showed a grey area of positivity, and finally a positive value after one year.",
+        "transition_event": {
+          "trigger_type": "lab_change",
+          "trigger_entities": [
+            "C0151704"
+          ],
+          "change_type": "progression",
+          "target_domain": "diagnosis"
+        }
+      }
+    },
+    {
+      "from": "N5",
+      "to": "N6",
+      "data": {
+        "edge_id": "E_to_F",
+        "branch_flag": true,
+        "content": "Transition from antibody testing to imaging results. Chest radiograph and computerised tomography (CT) showed no thymoma.",
+        "transition_event": {
+          "trigger_type": "imaging",
+          "trigger_entities": [],
+          "change_type": "other",
+          "target_domain": "imaging"
+        }
+      }
+    }
+  ]
+}

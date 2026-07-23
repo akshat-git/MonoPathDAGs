@@ -1,0 +1,304 @@
+{
+  "nodes": [
+    {
+      "id": "N1",
+      "label": "Step 1",
+      "customData": {
+        "node_id": "A",
+        "node_step_index": 0,
+        "content": "Late 60s woman with a 50 pack-year smoking history.",
+        "clinical_data": {
+          "social_history": [
+            {
+              "category": "smoking",
+              "status": "past",
+              "description": "50 pack-year smoking history"
+            }
+          ]
+        }
+      }
+    },
+    {
+      "id": "N2",
+      "label": "Step 2",
+      "customData": {
+        "node_id": "B",
+        "node_step_index": 1,
+        "content": "Lung cancer screening CT scan revealed a 1.9 cm tumor in the right middle lobe. Patient was asymptomatic with no cough, weight loss, hemoptysis, chest pain, or shortness of breath.",
+        "clinical_data": {
+          "imaging": [
+            {
+              "type": "Lung cancer screening",
+              "body_part": "Right middle lobe",
+              "modality": "CT",
+              "finding": "1.9 cm tumor",
+              "date": null
+            }
+          ],
+          "HPI": [
+            {
+              "summary": "Patient was asymptomatic",
+              "associated_symptoms": [
+                "C0010200",
+                "C0042066",
+                "C0018932",
+                "C0008031",
+                "C0021535"
+              ]
+            }
+          ],
+          "diagnoses": [
+            {
+              "code": "C0024117",
+              "label": "Lung Cancer",
+              "status": "suspected",
+              "onset_date": null
+            }
+          ]
+        }
+      }
+    },
+    {
+      "id": "N3",
+      "label": "Step 3",
+      "customData": {
+        "node_id": "C",
+        "node_step_index": 2,
+        "content": "CT-guided biopsy confirmed adenocarcinoma.",
+        "clinical_data": {
+          "procedures": [
+            {
+              "name": "Biopsy",
+              "approach": "percutaneous",
+              "modality": "CT",
+              "finding": "adenocarcinoma"
+            }
+          ]
+        }
+      }
+    },
+    {
+      "id": "N4",
+      "label": "Step 4",
+      "customData": {
+        "node_id": "D",
+        "node_step_index": 3,
+        "content": "Right middle lobectomy and lymph node dissection performed.",
+        "clinical_data": {
+          "procedures": [
+            {
+              "name": "Lobectomy",
+              "approach": "open",
+              "location": "right middle lobe",
+              "performed_by": "unknown",
+              "outcome": "unknown"
+            },
+            {
+              "name": "Lymph node dissection",
+              "approach": "open",
+              "location": "unknown",
+              "performed_by": "unknown",
+              "outcome": "unknown"
+            }
+          ]
+        }
+      }
+    },
+    {
+      "id": "N5",
+      "label": "Step 5",
+      "customData": {
+        "node_id": "E",
+        "node_step_index": 4,
+        "content": "Pathologic report revealed a well-differentiated adenocarcinoma (ADC) without lymph node or pleural involvement, staged as a pathologic T1b lesion, consistent with stage I lung cancer. Medical history included chronic obstructive pulmonary disease (COPD), coronary artery disease, heart failure, anxiety, depression and prior non-Hodgkin\u2019s lymphoma treated with CHOP, radiation therapy, and stem cell rescue, resulting in long-term remission. Family history of breast and lung cancers, chronic smoker, and had occupational exposure to sandblasting and grinding dusts.",
+        "clinical_data": {
+          "diagnoses": [
+            {
+              "code": "C34",
+              "label": "Lung Cancer",
+              "status": "active",
+              "onset_date": null
+            },
+            {
+              "code": "439601009",
+              "label": "Chronic obstructive lung disease",
+              "status": "active",
+              "onset_date": null
+            },
+            {
+              "code": "53741008",
+              "label": "Coronary artery disease",
+              "status": "active",
+              "onset_date": null
+            },
+            {
+              "code": "84114007",
+              "label": "Heart failure",
+              "status": "active",
+              "onset_date": null
+            },
+            {
+              "code": "36952005",
+              "label": "Anxiety disorder",
+              "status": "active",
+              "onset_date": null
+            },
+            {
+              "code": "35489007",
+              "label": "Depression",
+              "status": "active",
+              "onset_date": null
+            },
+            {
+              "code": "119047003",
+              "label": "Non-Hodgkin's lymphoma",
+              "status": "historical",
+              "onset_date": null
+            }
+          ],
+          "social_history": [
+            {
+              "category": "smoking",
+              "status": "current",
+              "description": "chronic smoker"
+            },
+            {
+              "category": "employment",
+              "status": "past",
+              "description": "had occupational exposure to sandblasting and grinding dusts"
+            }
+          ]
+        }
+      }
+    },
+    {
+      "id": "N6",
+      "label": "Step 6",
+      "customData": {
+        "node_id": "F",
+        "node_step_index": 5,
+        "content": "Five years later, a follow-up CT scan revealed a new 1.6 cm subpleural nodule in the right upper lobe (RUL).",
+        "clinical_data": {
+          "imaging": [
+            {
+              "type": "Lung CT",
+              "body_part": "Right upper lobe",
+              "modality": "CT",
+              "finding": "1.6 cm subpleural nodule",
+              "date": null
+            }
+          ]
+        }
+      }
+    },
+    {
+      "id": "N7",
+      "label": "Step 7",
+      "customData": {
+        "node_id": "G",
+        "node_step_index": 6,
+        "content": "PET imaging showed hypermetabolic activity in the RUL lesion and right hilar node. Navigational bronchoscopy and EBUS revealed two tumors: the RUL lesion and an incidental finding of endobronchial tissue obscuring the right lower lobe (RLL) superior subsegment. Pathology confirmed a poorly-differentiated small cell carcinoma (",
+        "clinical_data": {
+          "imaging": [
+            {
+              "type": "hypermetabolic activity",
+              "body_part": "Right upper lobe lesion",
+              "modality": "PET",
+              "finding": "hypermetabolic activity",
+              "date": null
+            },
+            {
+              "type": "hypermetabolic activity",
+              "body_part": "right hilar node",
+              "modality": "PET",
+              "finding": "hypermetabolic activity",
+              "date": null
+            }
+          ],
+          "procedures": [
+            {
+              "name": "Bronchoscopy",
+              "approach": "endoscopic",
+              "date": null,
+              "location": "Right upper lobe",
+              "performed_by": null,
+              "outcome": null
+            },
+            {
+              "name": "Endobronchial ultrasound",
+              "approach": "endoscopic",
+              "date": null,
+              "location": "Right upper lobe",
+              "performed_by": null,
+              "outcome": null
+            }
+          ],
+          "diagnoses": [
+            {
+              "code": "C80.1",
+              "label": "Poorly differentiated small cell carcinoma",
+              "status": "active",
+              "onset_date": null
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "edges": [
+    {
+      "from": "N1",
+      "to": "N2",
+      "data": {
+        "edge_id": "A_to_B",
+        "branch_flag": true,
+        "content": "Patient went for lung cancer screening."
+      }
+    },
+    {
+      "from": "N2",
+      "to": "N3",
+      "data": {
+        "edge_id": "B_to_C",
+        "branch_flag": true,
+        "content": "Workup of lung nodule."
+      }
+    },
+    {
+      "from": "N3",
+      "to": "N4",
+      "data": {
+        "edge_id": "C_to_D",
+        "branch_flag": true,
+        "content": "Treatment of adenocarcinoma."
+      }
+    },
+    {
+      "from": "N4",
+      "to": "N5",
+      "data": {
+        "edge_id": "D_to_E",
+        "branch_flag": true,
+        "content": "Post-operative pathology report and medical history review."
+      }
+    },
+    {
+      "from": "N5",
+      "to": "N6",
+      "data": {
+        "edge_id": "E_to_F",
+        "branch_flag": true,
+        "content": "Surveillance imaging."
+      }
+    },
+    {
+      "from": "N6",
+      "to": "N7",
+      "data": {
+        "edge_id": "F_to_G",
+        "branch_flag": true,
+        "content": "Workup of new lung nodule."
+      }
+    }
+  ]
+}

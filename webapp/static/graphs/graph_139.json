@@ -1,0 +1,395 @@
+{
+  "nodes": [
+    {
+      "id": "N1",
+      "label": "Step 1",
+      "customData": {
+        "node_id": "A",
+        "node_step_index": 0,
+        "content": "2016: Patient received lung cancer resection.",
+        "clinical_data": {
+          "procedures": [
+            {
+              "name": "Lung resection",
+              "date": "2016",
+              "location": "lung",
+              "outcome": "resection"
+            }
+          ],
+          "diagnoses": [
+            {
+              "code": "C0024117",
+              "label": "Lung cancer",
+              "status": "historical",
+              "onset_date": "2016"
+            }
+          ]
+        }
+      }
+    },
+    {
+      "id": "N2",
+      "label": "Step 2",
+      "customData": {
+        "node_id": "B",
+        "node_step_index": 1,
+        "content": "Patient presented at the hospital with a small oval-bounded mass in the left adrenal gland. The mass was first discovered during a routine follow-up CT examination.",
+        "clinical_data": {
+          "imaging": [
+            {
+              "type": "Mass",
+              "body_part": "Adrenal Gland",
+              "modality": "CT",
+              "finding": "small oval-bounded mass in the left adrenal gland"
+            }
+          ]
+        }
+      }
+    },
+    {
+      "id": "N3",
+      "label": "Step 3",
+      "customData": {
+        "node_id": "C",
+        "node_step_index": 2,
+        "content": "Two-year follow-up: The left adrenal gland mass increased in size from 1 cm to 3.5 cm (maximum cross section) based on CT imaging.",
+        "clinical_data": {
+          "imaging": [
+            {
+              "type": "Mass of adrenal gland (finding) (T0001297)",
+              "body_part": "Left adrenal gland (T0001271)",
+              "modality": "CT",
+              "finding": "increased in size from 1 cm to 3.5 cm",
+              "date": null
+            }
+          ]
+        }
+      }
+    },
+    {
+      "id": "N4",
+      "label": "Step 4",
+      "customData": {
+        "node_id": "D",
+        "node_step_index": 3,
+        "content": "2018: Enhanced CT showed the left adrenal gland mass was significantly larger than in 2016 and displayed ring enhancement with unenhanced flocculent exudate around it, accompanied by thickened renal peritoneal fascia.",
+        "clinical_data": {
+          "imaging": [
+            {
+              "type": "Mass",
+              "body_part": "Adrenal Gland, Left",
+              "modality": "CT",
+              "finding": "Significantly larger than in 2016; Ring enhancement with unenhanced flocculent exudate around it; Thickened renal peritoneal fascia",
+              "date": "2018"
+            }
+          ]
+        }
+      }
+    },
+    {
+      "id": "N5",
+      "label": "Step 5",
+      "customData": {
+        "node_id": "E",
+        "node_step_index": 4,
+        "content": "Enhanced CT scan showed obvious ring enhancement of the left adrenal mass in the arterial and venous phases (axial, coronal, and sagittal views). Abdomen physical exam unremarkable. Epinephrine, 24-hour urinary catecholamine, aldosterone and plasma cortisol levels were all within normal range.",
+        "clinical_data": {
+          "imaging": [
+            {
+              "type": "Adrenal mass",
+              "body_part": "Adrenal gland",
+              "modality": "CT",
+              "finding": "ring enhancement",
+              "impression": "obvious ring enhancement of the left adrenal mass in the arterial and venous phases",
+              "date": null
+            }
+          ],
+          "labs": [
+            {
+              "test": "Epinephrine",
+              "value": "normal range",
+              "unit": null,
+              "flag": "normal",
+              "reference_range": null,
+              "timestamp": null
+            },
+            {
+              "test": "24-hour urinary catecholamine",
+              "value": "normal range",
+              "unit": null,
+              "flag": "normal",
+              "reference_range": null,
+              "timestamp": null
+            },
+            {
+              "test": "Aldosterone",
+              "value": "normal range",
+              "unit": null,
+              "flag": "normal",
+              "reference_range": null,
+              "timestamp": null
+            },
+            {
+              "test": "Plasma cortisol",
+              "value": "normal range",
+              "unit": null,
+              "flag": "normal",
+              "reference_range": null,
+              "timestamp": null
+            }
+          ]
+        }
+      }
+    },
+    {
+      "id": "N6",
+      "label": "Step 6",
+      "customData": {
+        "node_id": "F",
+        "node_step_index": 5,
+        "content": "Dual-phase enhanced CT scan: the mass displayed ring enhancement surrounded by unenhanced flocculent exudate. Diagnosis of adrenal metastases was made based on the CT imaging findings and the patient\u2019s history of lung cancer.",
+        "clinical_data": {
+          "imaging": [
+            {
+              "type": "CT scan",
+              "body_part": "adrenal gland",
+              "modality": "CT",
+              "finding": "mass with ring enhancement surrounded by unenhanced flocculent exudate",
+              "impression": "adrenal metastases",
+              "date": null
+            }
+          ],
+          "diagnoses": [
+            {
+              "code": null,
+              "label": "adrenal metastases",
+              "status": "active",
+              "onset_date": null
+            },
+            {
+              "code": null,
+              "label": "lung cancer",
+              "status": "historical",
+              "onset_date": null
+            }
+          ]
+        }
+      }
+    },
+    {
+      "id": "N7",
+      "label": "Step 7",
+      "customData": {
+        "node_id": "G",
+        "node_step_index": 6,
+        "content": "Patient underwent retroperitoneal laparoscopic partial resection of the left adrenal gland under general anesthesia.",
+        "clinical_data": {
+          "procedures": [
+            {
+              "name": "Laparoscopic partial adrenalectomy",
+              "approach": "laparoscopic",
+              "location": "left adrenal gland",
+              "performed_by": "unknown",
+              "outcome": "resection"
+            }
+          ]
+        }
+      }
+    },
+    {
+      "id": "N8",
+      "label": "Step 8",
+      "customData": {
+        "node_id": "H",
+        "node_step_index": 7,
+        "content": "Postoperative pathology indicated left adrenal adipose tissue and hemangiomatous hyperplasia.",
+        "clinical_data": {
+          "diagnoses": [
+            {
+              "code": "C0205309",
+              "label": "Adrenal Hemangioma",
+              "status": "active"
+            },
+            {
+              "code": "C0001643",
+              "label": "Adipose Tissue",
+              "status": "active"
+            }
+          ]
+        }
+      }
+    },
+    {
+      "id": "N9",
+      "label": "Step 9",
+      "customData": {
+        "node_id": "I",
+        "node_step_index": 8,
+        "content": "Diagnosis of adrenal angiomyolipoma was reached.",
+        "clinical_data": {
+          "diagnoses": [
+            {
+              "code": "C0341508",
+              "label": "Adrenal Angiomyolipoma",
+              "status": "active"
+            }
+          ]
+        }
+      }
+    },
+    {
+      "id": "N10",
+      "label": "Step 10",
+      "customData": {
+        "node_id": "J",
+        "node_step_index": 9,
+        "content": "Seven days post-resection: Patient recovered with no surgery-related complications and was discharged.",
+        "clinical_data": {}
+      }
+    },
+    {
+      "id": "N11",
+      "label": "Step 11",
+      "customData": {
+        "node_id": "K",
+        "node_step_index": 10,
+        "content": "Three-month follow-up: the patient was alive and had experienced no recurrence after the operation.",
+        "clinical_data": {
+          "procedures": [
+            {
+              "outcome": "no recurrence"
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "edges": [
+    {
+      "from": "N1",
+      "to": "N2",
+      "data": {
+        "edge_id": "A_to_B",
+        "branch_flag": true,
+        "content": "Transition from lung cancer resection to presentation with a small oval-bounded mass in the left adrenal gland discovered during a routine follow-up CT examination."
+      }
+    },
+    {
+      "from": "N2",
+      "to": "N3",
+      "data": {
+        "edge_id": "B_to_C",
+        "branch_flag": true,
+        "content": "Two-year follow-up showing the left adrenal gland mass increased in size from 1 cm to 3.5 cm based on CT imaging."
+      }
+    },
+    {
+      "from": "N3",
+      "to": "N4",
+      "data": {
+        "edge_id": "C_to_D",
+        "branch_flag": true,
+        "content": "Progression of adrenal mass size and characteristics on imaging."
+      }
+    },
+    {
+      "from": "N4",
+      "to": "N5",
+      "data": {
+        "edge_id": "D_to_E",
+        "branch_flag": true,
+        "content": "Further characterization of the adrenal mass via enhanced CT scan and unremarkable abdomen physical exam and normal hormone levels.",
+        "transition_event": {
+          "trigger_type": "lab_change",
+          "trigger_entities": [],
+          "change_type": "other",
+          "target_domain": "lab"
+        }
+      }
+    },
+    {
+      "from": "N5",
+      "to": "N6",
+      "data": {
+        "edge_id": "E_to_F",
+        "branch_flag": true,
+        "content": "Dual-phase enhanced CT scan showing ring enhancement surrounded by unenhanced flocculent exudate, leading to a diagnosis of adrenal metastases based on CT imaging findings and patient's history of lung cancer.",
+        "transition_event": {
+          "trigger_type": "interpretation",
+          "trigger_entities": [],
+          "change_type": "addition",
+          "target_domain": "diagnosis"
+        }
+      }
+    },
+    {
+      "from": "N6",
+      "to": "N7",
+      "data": {
+        "edge_id": "F_to_G",
+        "branch_flag": true,
+        "content": "Patient underwent retroperitoneal laparoscopic partial resection of the left adrenal gland under general anesthesia.",
+        "transition_event": {
+          "trigger_type": "procedure",
+          "trigger_entities": [],
+          "change_type": "addition",
+          "target_domain": "procedure"
+        }
+      }
+    },
+    {
+      "from": "N7",
+      "to": "N8",
+      "data": {
+        "edge_id": "G_to_H",
+        "branch_flag": true,
+        "content": "Postoperative pathology indicated left adrenal adipose tissue and hemangiomatous hyperplasia.",
+        "transition_event": {
+          "trigger_type": "interpretation",
+          "trigger_entities": [],
+          "change_type": "reinterpretation",
+          "target_domain": "diagnosis"
+        }
+      }
+    },
+    {
+      "from": "N8",
+      "to": "N9",
+      "data": {
+        "edge_id": "H_to_I",
+        "branch_flag": true,
+        "content": "Diagnosis of adrenal angiomyolipoma was reached.",
+        "transition_event": {
+          "trigger_type": "interpretation",
+          "trigger_entities": [],
+          "change_type": "reinterpretation",
+          "target_domain": "diagnosis"
+        }
+      }
+    },
+    {
+      "from": "N9",
+      "to": "N10",
+      "data": {
+        "edge_id": "I_to_J",
+        "branch_flag": true,
+        "content": "Seven days post-resection: Patient recovered with no surgery-related complications and was discharged.",
+        "transition_event": {
+          "trigger_type": "spontaneous",
+          "trigger_entities": [],
+          "change_type": "resolution",
+          "target_domain": "functional_status"
+        }
+      }
+    },
+    {
+      "from": "N10",
+      "to": "N11",
+      "data": {
+        "edge_id": "J_to_K",
+        "branch_flag": true,
+        "content": "Three-month follow-up: the patient was alive and had experienced no recurrence after the operation."
+      }
+    }
+  ]
+}

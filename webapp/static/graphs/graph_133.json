@@ -1,0 +1,545 @@
+{
+  "nodes": [
+    {
+      "id": "N1",
+      "label": "Step 1",
+      "customData": {
+        "node_id": "A",
+        "node_step_index": 0,
+        "content": "63-year-old Caucasian female presented to the emergency department with 2 months of progressively worsening shortness of breath, loss of appetite, and weight loss (15 pounds). She also reported worsening fatigue limiting her ability to exercise, and also dyspnea with mild-moderate exertion. The patient denied any additional constitutional symptoms. Medical history notable for hypothyroidism secondary to Hashimoto thyroiditis and well-controlled essential hypertension.",
+        "clinical_data": {
+          "HPI": [
+            {
+              "summary": "63-year-old female presented with 2 months of progressively worsening shortness of breath, loss of appetite, and weight loss (15 pounds). She also reported worsening fatigue limiting her ability to exercise, and also dyspnea with mild-moderate exertion. The patient denied any additional constitutional symptoms.",
+              "duration": "2 months",
+              "progression": "gradual",
+              "associated_symptoms": [
+                "Shortness of breath",
+                "Loss of appetite",
+                "Weight loss",
+                "Fatigue",
+                "Dyspnea"
+              ]
+            }
+          ],
+          "diagnoses": [
+            {
+              "code": "C0020528",
+              "label": "Hypothyroidism",
+              "status": "active",
+              "onset_date": null
+            },
+            {
+              "code": "C0018545",
+              "label": "Essential hypertension",
+              "status": "active",
+              "onset_date": null
+            },
+            {
+              "code": "C0271485",
+              "label": "Hashimoto thyroiditis",
+              "status": "historical",
+              "onset_date": null
+            }
+          ]
+        }
+      }
+    },
+    {
+      "id": "N2",
+      "label": "Step 2",
+      "customData": {
+        "node_id": "B",
+        "node_step_index": 1,
+        "content": "BMI 17.06 kg/m3. Negative colonoscopy 3 months prior. Intermittent social tobacco use (1\u20132 cigarettes at parties/social gatherings over 5 years in her early 30s). Occasional alcohol use. No illicit drug use. Healthy lifestyle with focus on healthy eating and outdoor bicycling.",
+        "clinical_data": {
+          "vitals": [
+            {
+              "type": "Body Mass Index",
+              "value": "17.06",
+              "unit": "kg/m3"
+            }
+          ],
+          "procedures": [
+            {
+              "name": "Colonoscopy",
+              "date": "3 months prior",
+              "outcome": "negative"
+            }
+          ],
+          "social_history": [
+            {
+              "category": "smoking",
+              "status": "past",
+              "description": "Intermittent social tobacco use (1\u20132 cigarettes at parties/social gatherings over 5 years in her early 30s)"
+            },
+            {
+              "category": "alcohol",
+              "status": "current",
+              "description": "Occasional alcohol use"
+            },
+            {
+              "category": "drug use",
+              "status": "never",
+              "description": "No illicit drug use"
+            }
+          ]
+        }
+      }
+    },
+    {
+      "id": "N3",
+      "label": "Step 3",
+      "customData": {
+        "node_id": "C",
+        "node_step_index": 2,
+        "content": "One week before admission, the patient underwent primary care directed evaluation with a computed tomography angiogram (CTA) showing diffuse nodular opacities throughout the lungs bilaterally with areas of coalescence and no lymphovascular invasion. Family history notable for type II diabetes mellitus and obesity. Differential included infectious versus inflammatory processes, interstitial lung disease, or lymphangitic carcinomatosis. The patient was considered high risk for fungal and atypical mycobacterial infections due to living in mid-west and thin body habitus.",
+        "clinical_data": {
+          "imaging": [
+            {
+              "type": "Computed tomography angiography",
+              "body_part": "Lungs",
+              "modality": "CT",
+              "finding": "diffuse nodular opacities throughout the lungs bilaterally with areas of coalescence and no lymphovascular invasion",
+              "date": null
+            }
+          ],
+          "diagnoses": [
+            {
+              "code": "E11",
+              "label": "type II diabetes mellitus",
+              "status": "historical",
+              "onset_date": null
+            },
+            {
+              "code": "E66",
+              "label": "obesity",
+              "status": "historical",
+              "onset_date": null
+            }
+          ],
+          "social_history": [
+            {
+              "category": "housing",
+              "status": "current",
+              "description": "living in mid-west"
+            }
+          ]
+        }
+      }
+    },
+    {
+      "id": "N4",
+      "label": "Step 4",
+      "customData": {
+        "node_id": "D",
+        "node_step_index": 3,
+        "content": "Upon admission: temperature of 37.6 \u00b0C, blood pressure of 138/92 mmHg, heart rate of 116, respiratory rate of 39, and oxygen saturation of 97%. Comprehensive metabolic panel: sodium 134 mmol/L, lactic acid 2.0 mmol/L, alanine transaminase (ALT) 54 U/L, and alkaline phosphatase 140 U/L.",
+        "clinical_data": {
+          "vitals": [
+            {
+              "type": "C0040957",
+              "value": "37.6",
+              "unit": "\u00b0C"
+            },
+            {
+              "type": "C0006277",
+              "value": "138/92",
+              "unit": "mmHg"
+            },
+            {
+              "type": "C0019221",
+              "value": "116",
+              "unit": "beats/min"
+            },
+            {
+              "type": "C0035242",
+              "value": "39",
+              "unit": "breaths/min"
+            },
+            {
+              "type": "C0238341",
+              "value": "97",
+              "unit": "%"
+            }
+          ],
+          "labs": [
+            {
+              "test": "C0037400",
+              "value": "134",
+              "unit": "mmol/L"
+            },
+            {
+              "test": "C0023249",
+              "value": "2.0",
+              "unit": "mmol/L"
+            },
+            {
+              "test": "C0001791",
+              "value": "54",
+              "unit": "U/L"
+            },
+            {
+              "test": "C0002894",
+              "value": "140",
+              "unit": "U/L"
+            }
+          ]
+        }
+      }
+    },
+    {
+      "id": "N5",
+      "label": "Step 5",
+      "customData": {
+        "node_id": "E",
+        "node_step_index": 4,
+        "content": "Procalcitonin < 0.05 ng/mL, C-reactive protein (CRP) 5.3 mg/dL, sedimentation rate (ESR) 80 mm/h, white blood count 23.91 \u00d7 103/uL with 95% neutrophils. Urinalysis negative. CT without contrast with calcium score (3 years prior): calcium score of zero in all branches and a 7 mm nodule in the left lower lobe.",
+        "clinical_data": {
+          "labs": [
+            {
+              "test": "Procalcitonin measurement",
+              "value": "<0.05",
+              "unit": "ng/mL",
+              "flag": "normal"
+            },
+            {
+              "test": "C-Reactive Protein",
+              "value": "5.3",
+              "unit": "mg/dL",
+              "flag": "abnormal"
+            },
+            {
+              "test": "Erythrocyte Sedimentation Rate",
+              "value": "80",
+              "unit": "mm/h",
+              "flag": "abnormal"
+            },
+            {
+              "test": "Leukocyte Count",
+              "value": "23.91",
+              "unit": "x 103/uL",
+              "flag": "abnormal"
+            },
+            {
+              "test": "Neutrophils Percent",
+              "value": "95",
+              "unit": "%",
+              "flag": "abnormal"
+            },
+            {
+              "test": "Urinalysis",
+              "value": "negative"
+            }
+          ],
+          "imaging": [
+            {
+              "type": "Computed tomography",
+              "body_part": "Lung",
+              "modality": "CT",
+              "finding": "7 mm nodule in the left lower lobe",
+              "date": "3 years prior"
+            }
+          ]
+        }
+      }
+    },
+    {
+      "id": "N6",
+      "label": "Step 6",
+      "customData": {
+        "node_id": "F",
+        "node_step_index": 5,
+        "content": "Admission day imaging: Chest X-ray showing a right pneumothorax with a 3.2 cm pleural separation, prominent diffuse bilateral interstitial alveolar opacities. CT chest with and without contrast showing diffuse nodular opacities throughout the lungs with areas of coalescence, in addition to small bilateral pleural effusions. PET showing diffuse hypermetabolic interstitial and airspace abnormality of the lungs without lymphadenopathy (or distant lesions), in addition to right hydropneumothorax and left pleural effusion. Empiric antibiotics started.",
+        "clinical_data": {
+          "imaging": [
+            {
+              "type": "Radiography, Thoracic (TUI)",
+              "body_part": "Thorax (TUI)",
+              "modality": "X-ray",
+              "finding": "pneumothorax",
+              "impression": "right pneumothorax with a 3.2 cm pleural separation, prominent diffuse bilateral interstitial alveolar opacities",
+              "date": null
+            },
+            {
+              "type": "Computed tomography (TUI)",
+              "body_part": "Thorax (TUI)",
+              "modality": "CT",
+              "finding": "nodular opacities",
+              "impression": "diffuse nodular opacities throughout the lungs with areas of coalescence, in addition to small bilateral pleural effusions",
+              "date": null
+            },
+            {
+              "type": "Positron emission tomography (TUI)",
+              "body_part": "Lung (TUI)",
+              "modality": "PET",
+              "finding": "hypermetabolic interstitial and airspace abnormality",
+              "impression": "diffuse hypermetabolic interstitial and airspace abnormality of the lungs without lymphadenopathy (or distant lesions), in addition to right hydropneumothorax and left pleural effusion",
+              "date": null
+            }
+          ],
+          "medications": [
+            {
+              "drug": "Antibiotic (TUI)",
+              "dosage": null,
+              "frequency": null,
+              "modality": null,
+              "start_date": null,
+              "end_date": null,
+              "indication": null
+            }
+          ]
+        }
+      }
+    },
+    {
+      "id": "N7",
+      "label": "Step 7",
+      "customData": {
+        "node_id": "G",
+        "node_step_index": 6,
+        "content": "Respiratory film array negative for SARS-CoV-2, urine streptococcus and legionella antigens, cryptosporidium, cytomegalovirus, histoplasma, aspergillus, herpes simplex virus, and clostridium difficile.",
+        "clinical_data": {
+          "imaging": [
+            {
+              "type": "Radiography",
+              "body_part": "Respiratory system",
+              "modality": "X-ray",
+              "finding": "negative for SARS-CoV-2",
+              "impression": "negative for SARS-CoV-2"
+            }
+          ],
+          "labs": [
+            {
+              "test": "Streptococcus pneumoniae urine antigen test",
+              "value": "negative",
+              "flag": "normal"
+            },
+            {
+              "test": "Legionella urine antigen test",
+              "value": "negative",
+              "flag": "normal"
+            },
+            {
+              "test": "Cryptosporidium test",
+              "value": "negative",
+              "flag": "normal"
+            },
+            {
+              "test": "Cytomegalovirus test",
+              "value": "negative",
+              "flag": "normal"
+            },
+            {
+              "test": "Histoplasma test",
+              "value": "negative",
+              "flag": "normal"
+            },
+            {
+              "test": "Aspergillus test",
+              "value": "negative",
+              "flag": "normal"
+            },
+            {
+              "test": "Herpes simplex virus test",
+              "value": "negative",
+              "flag": "normal"
+            },
+            {
+              "test": "Clostridium difficile test",
+              "value": "negative",
+              "flag": "normal"
+            }
+          ]
+        }
+      }
+    },
+    {
+      "id": "N8",
+      "label": "Step 8",
+      "customData": {
+        "node_id": "H",
+        "node_step_index": 7,
+        "content": "Bronchoscopy with right middle lung biopsy and bronchial washings showing lepidic predominant adenocarcinoma, interpreted as primary lesion without stromal or lymphovascular invasion.",
+        "clinical_data": {
+          "procedures": [
+            {
+              "name": "Bronchoscopy",
+              "approach": "endoscopic",
+              "location": "right middle lung",
+              "outcome": "lepidic predominant adenocarcinoma, interpreted as primary lesion without stromal or lymphovascular invasion"
+            },
+            {
+              "name": "Biopsy",
+              "approach": "percutaneous",
+              "location": "right middle lung",
+              "outcome": "lepidic predominant adenocarcinoma, interpreted as primary lesion without stromal or lymphovascular invasion"
+            }
+          ],
+          "diagnoses": [
+            {
+              "code": "C34.9",
+              "label": "Adenocarcinoma of lung",
+              "status": "active"
+            }
+          ]
+        }
+      }
+    },
+    {
+      "id": "N9",
+      "label": "Step 9",
+      "customData": {
+        "node_id": "I",
+        "node_step_index": 8,
+        "content": "Iatrogenic right apical pneumothorax picked up on post procedure chest X-ray (CXR) showing a right pneumothorax with 3.2 cm pleural separation and prominent diffuse bilateral interstitial alveolar opacities. A 14 French right anterior chest tube was placed on suction.",
+        "clinical_data": {
+          "imaging": [
+            {
+              "type": "Pneumothorax",
+              "body_part": "Right apical lung",
+              "modality": "X-ray",
+              "finding": "Right pneumothorax with 3.2 cm pleural separation and prominent diffuse bilateral interstitial alveolar opacities",
+              "date": null
+            }
+          ],
+          "procedures": [
+            {
+              "name": "Chest tube placement",
+              "approach": "anterior",
+              "date": null,
+              "location": "right chest",
+              "performed_by": null,
+              "outcome": null
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "edges": [
+    {
+      "from": "N1",
+      "to": "N2",
+      "data": {
+        "edge_id": "A_to_B",
+        "branch_flag": true,
+        "content": "Patient history and lifestyle details."
+      }
+    },
+    {
+      "from": "N2",
+      "to": "N3",
+      "data": {
+        "edge_id": "B_to_C",
+        "branch_flag": true,
+        "content": "Primary care evaluation with CTA showing diffuse nodular opacities throughout the lungs bilaterally. Differential included infectious versus inflammatory processes, interstitial lung disease, or lymphangitic carcinomatosis.",
+        "transition_event": {
+          "trigger_type": "procedure",
+          "trigger_entities": [
+            "C0009335"
+          ],
+          "change_type": "addition",
+          "target_domain": "imaging"
+        }
+      }
+    },
+    {
+      "from": "N3",
+      "to": "N4",
+      "data": {
+        "edge_id": "C_to_D",
+        "branch_flag": true,
+        "content": "Patient admission and initial vital signs and lab results.",
+        "transition_event": {
+          "trigger_type": "spontaneous",
+          "trigger_entities": [],
+          "change_type": "progression",
+          "target_domain": "symptom"
+        }
+      }
+    },
+    {
+      "from": "N4",
+      "to": "N5",
+      "data": {
+        "edge_id": "D_to_E",
+        "branch_flag": true,
+        "content": "Further lab results and imaging history.",
+        "transition_event": {
+          "trigger_type": "lab_change",
+          "trigger_entities": [],
+          "change_type": "addition",
+          "target_domain": "lab"
+        }
+      }
+    },
+    {
+      "from": "N5",
+      "to": "N6",
+      "data": {
+        "edge_id": "E_to_F",
+        "branch_flag": true,
+        "content": "Admission day imaging showing right pneumothorax and diffuse nodular opacities. Empiric antibiotics started.",
+        "transition_event": {
+          "trigger_type": "medication_change",
+          "trigger_entities": [
+            "C0002722"
+          ],
+          "change_type": "addition",
+          "target_domain": "medication"
+        }
+      }
+    },
+    {
+      "from": "N6",
+      "to": "N7",
+      "data": {
+        "edge_id": "F_to_G",
+        "branch_flag": true,
+        "content": "Respiratory film array and other tests negative for various infections.",
+        "transition_event": {
+          "trigger_type": "lab_change",
+          "trigger_entities": [],
+          "change_type": "resolution",
+          "target_domain": "diagnosis"
+        }
+      }
+    },
+    {
+      "from": "N7",
+      "to": "N8",
+      "data": {
+        "edge_id": "G_to_H",
+        "branch_flag": true,
+        "content": "Bronchoscopy and biopsy showing lepidic predominant adenocarcinoma.",
+        "transition_event": {
+          "trigger_type": "procedure",
+          "trigger_entities": [
+            "C0006279",
+            "C0005675"
+          ],
+          "change_type": "addition",
+          "target_domain": "diagnosis"
+        }
+      }
+    },
+    {
+      "from": "N8",
+      "to": "N9",
+      "data": {
+        "edge_id": "H_to_I",
+        "branch_flag": true,
+        "content": "Iatrogenic right apical pneumothorax post bronchoscopy, chest tube placed.",
+        "transition_event": {
+          "trigger_type": "procedure",
+          "trigger_entities": [
+            "C0032228"
+          ],
+          "change_type": "addition",
+          "target_domain": "diagnosis"
+        }
+      }
+    }
+  ]
+}

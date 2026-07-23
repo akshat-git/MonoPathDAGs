@@ -1,0 +1,346 @@
+{
+  "nodes": [
+    {
+      "id": "N1",
+      "label": "Step 1",
+      "customData": {
+        "node_id": "A",
+        "node_step_index": 0,
+        "content": "71-year-old female with hypertension for 3 years, taking oral valsartan capsules.",
+        "clinical_data": {
+          "diagnoses": [
+            {
+              "code": "396254005",
+              "label": "Essential hypertension",
+              "status": "active",
+              "onset_date": null
+            }
+          ],
+          "medications": [
+            {
+              "drug": "valsartan",
+              "dosage": null,
+              "frequency": null,
+              "modality": "oral",
+              "start_date": null,
+              "end_date": null,
+              "indication": "Essential hypertension"
+            }
+          ]
+        }
+      }
+    },
+    {
+      "id": "N2",
+      "label": "Step 2",
+      "customData": {
+        "node_id": "B",
+        "node_step_index": 1,
+        "content": "Patient with bone marrow-metastatic colon cancer presenting with sepsis and fever (peak temperature of 39 \u00b0C) 3 hours prior to admission accompanied by chills. No cough, expectoration, pharyngeal pain, abdominal pain, diarrhea, increased urination frequency, increased urination urgency, or perianal pain.",
+        "clinical_data": {
+          "diagnoses": [
+            {
+              "code": "C18",
+              "label": "Colon cancer",
+              "status": "active"
+            },
+            {
+              "code": "C79.51",
+              "label": "Bone metastases",
+              "status": "active"
+            },
+            {
+              "code": "R65.20",
+              "label": "Sepsis",
+              "status": "active"
+            }
+          ],
+          "vitals": [
+            {
+              "type": "Fever",
+              "value": "39",
+              "unit": "\u00b0C",
+              "timestamp": null
+            }
+          ],
+          "HPI": [
+            {
+              "summary": "Patient with bone marrow-metastatic colon cancer presenting with sepsis and fever (peak temperature of 39 \u00b0C) 3 hours prior to admission accompanied by chills.",
+              "duration": "3 hours",
+              "onset": null,
+              "progression": "sudden",
+              "associated_symptoms": [
+                "Chills"
+              ],
+              "alleviating_factors": [],
+              "exacerbating_factors": []
+            }
+          ],
+          "ROS": [
+            {
+              "system": "respiratory",
+              "findings": [
+                "No cough",
+                "No expectoration"
+              ]
+            },
+            {
+              "system": "GI",
+              "findings": [
+                "No abdominal pain",
+                "No diarrhea"
+              ]
+            },
+            {
+              "system": "GU",
+              "findings": [
+                "No increased urination frequency",
+                "No increased urination urgency",
+                "No perianal pain"
+              ]
+            },
+            {
+              "system": "ENT",
+              "findings": [
+                "No pharyngeal pain"
+              ]
+            }
+          ]
+        }
+      }
+    },
+    {
+      "id": "N3",
+      "label": "Step 3",
+      "customData": {
+        "node_id": "C",
+        "node_step_index": 2,
+        "content": "CT abdomen showed a 3 x 4 cm soft tissue mass in the right ascending colon. 18F-fluorodeoxyglucose PET showed significantly high uptake of 18F-FDG in the right ascending colon mass, with SUVMax=8. 18F- fluorodeoxyglucose PET showed high signals in the ascending colon and left radius. Thrombocytopenia (TCP) present due to bone marrow metastasis, surgery and endoscopy were contraindicated.",
+        "clinical_data": {
+          "imaging": [
+            {
+              "type": "Mass",
+              "body_part": "Ascending colon",
+              "modality": "CT",
+              "finding": "3 x 4 cm soft tissue mass",
+              "date": null
+            },
+            {
+              "type": "Fluorodeoxyglucose F-18",
+              "body_part": "Ascending colon mass",
+              "modality": "PET",
+              "finding": "Significantly high uptake of 18F-FDG",
+              "impression": "SUVMax=8",
+              "date": null
+            },
+            {
+              "type": "Fluorodeoxyglucose F-18",
+              "body_part": "Ascending colon",
+              "modality": "PET",
+              "finding": "High signals",
+              "date": null
+            },
+            {
+              "type": "Fluorodeoxyglucose F-18",
+              "body_part": "Left radius",
+              "modality": "PET",
+              "finding": "High signals",
+              "date": null
+            }
+          ],
+          "labs": [
+            {
+              "test": "Thrombocytes",
+              "value": "low",
+              "unit": null,
+              "flag": "abnormal",
+              "reference_range": null,
+              "timestamp": null
+            }
+          ],
+          "diagnoses": [
+            {
+              "code": "C80",
+              "label": "Malignant neoplasm, without specification of site",
+              "status": "active",
+              "onset_date": null
+            },
+            {
+              "code": "C79.51",
+              "label": "Secondary malignant neoplasm of bone",
+              "status": "active",
+              "onset_date": null
+            }
+          ]
+        }
+      }
+    },
+    {
+      "id": "N4",
+      "label": "Step 4",
+      "customData": {
+        "node_id": "D",
+        "node_step_index": 3,
+        "content": "Patient received conservative medical treatment including anti-inflammatory therapy with meropenem (0.5 g intravenously every 6 h), intravenous human immunoglobulin (5 g daily), erythrocyte suspension (4 units), and platelets (10 units).",
+        "clinical_data": {
+          "medications": [
+            {
+              "drug": "C0974442",
+              "dosage": "0.5 g",
+              "frequency": "every 6 h",
+              "modality": "IV",
+              "start_date": null,
+              "end_date": null,
+              "indication": "anti-inflammatory therapy"
+            },
+            {
+              "drug": "C0021934",
+              "dosage": "5 g",
+              "frequency": "daily",
+              "modality": "IV",
+              "start_date": null,
+              "end_date": null,
+              "indication": null
+            }
+          ],
+          "procedures": [
+            {
+              "name": "C0014322",
+              "approach": null,
+              "date": null,
+              "location": null,
+              "performed_by": null,
+              "outcome": null
+            },
+            {
+              "name": "C0032072",
+              "approach": null,
+              "date": null,
+              "location": null,
+              "performed_by": null,
+              "outcome": null
+            }
+          ]
+        }
+      }
+    },
+    {
+      "id": "N5",
+      "label": "Step 5",
+      "customData": {
+        "node_id": "E",
+        "node_step_index": 4,
+        "content": "Final diagnosis: Ascending colon malignant tumor. The tumor progressed, and the patient died 3 weeks later.",
+        "clinical_data": {
+          "diagnoses": [
+            {
+              "code": "C18.2",
+              "label": "Ascending colon malignant tumor",
+              "status": "historical"
+            }
+          ]
+        }
+      }
+    },
+    {
+      "id": "N6",
+      "label": "Step 6",
+      "customData": {
+        "node_id": "F",
+        "node_step_index": 5,
+        "content": "Insulin micropumps were continuously used to control blood glucose levels.",
+        "clinical_data": {
+          "medications": [
+            {
+              "drug": "C0022061",
+              "modality": "subcutaneous",
+              "dosage": null,
+              "frequency": "continuously",
+              "start_date": null,
+              "end_date": null,
+              "indication": "C0005767"
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "edges": [
+    {
+      "from": "N1",
+      "to": "N2",
+      "data": {
+        "edge_id": "A_to_B",
+        "branch_flag": true,
+        "content": "Patient transitioned from stable hypertension management to presenting with sepsis and fever, indicating a significant change in clinical status."
+      }
+    },
+    {
+      "from": "N2",
+      "to": "N3",
+      "data": {
+        "edge_id": "B_to_C",
+        "branch_flag": true,
+        "content": "Sepsis and fever prompted imaging and further investigation, revealing the extent and activity of the colon cancer and bone marrow metastasis.",
+        "transition_event": {
+          "trigger_type": "symptom_onset",
+          "trigger_entities": [
+            "C0015967",
+            "C0015967"
+          ],
+          "change_type": "progression",
+          "target_domain": "diagnosis"
+        }
+      }
+    },
+    {
+      "from": "N3",
+      "to": "N4",
+      "data": {
+        "edge_id": "C_to_D",
+        "branch_flag": true,
+        "content": "Due to the patient's condition and contraindications for surgery and endoscopy, a conservative medical treatment approach was initiated to manage the sepsis and related complications.",
+        "transition_event": {
+          "trigger_type": "procedure",
+          "trigger_entities": [],
+          "change_type": "addition",
+          "target_domain": "procedure"
+        }
+      }
+    },
+    {
+      "from": "N4",
+      "to": "N5",
+      "data": {
+        "edge_id": "D_to_E",
+        "branch_flag": true,
+        "content": "Despite medical treatment, the tumor progressed, leading to the patient's death three weeks later, marking a terminal stage in the disease progression.",
+        "transition_event": {
+          "trigger_type": "interpretation",
+          "trigger_entities": [
+            "C18.2"
+          ],
+          "change_type": "progression",
+          "target_domain": "diagnosis"
+        }
+      }
+    },
+    {
+      "from": "N5",
+      "to": "N6",
+      "data": {
+        "edge_id": "E_to_F",
+        "branch_flag": true,
+        "content": "Insulin micropumps were continuously used to control blood glucose levels.",
+        "transition_event": {
+          "trigger_type": "medication_change",
+          "trigger_entities": [
+            "C0022061"
+          ],
+          "change_type": "addition",
+          "target_domain": "medication"
+        }
+      }
+    }
+  ]
+}

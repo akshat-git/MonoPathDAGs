@@ -1,0 +1,264 @@
+{
+  "nodes": [
+    {
+      "id": "N1",
+      "label": "Step 1",
+      "customData": {
+        "node_id": "A",
+        "node_step_index": 0,
+        "content": "66-year-old female non-smoker presented in May 2019 with shortness of breath and was admitted to a local hospital. Chest CT revealed a spiculated mass in the left upper lobe, multiple pulmonary nodules, mediastinal lymphadenopathy, and pericardial effusion. Lung adenocarcinoma was diagnosed through a bronchoscopic biopsy. Molecular testing detected a p.L858R mutation in epidermal growth factor (EGFR) exon 21. Metastases confirmed in the lung, liver, pericardium, bone, brain, and distant lymph nodes. Tumor stage cT4N3M1c (stage IV B).",
+        "clinical_data": {
+          "diagnoses": [
+            {
+              "code": "C34.9",
+              "label": "Lung adenocarcinoma",
+              "status": "active",
+              "onset_date": "2019-05"
+            },
+            {
+              "code": "C79.9",
+              "label": "Metastatic cancer, unspecified",
+              "status": "active"
+            }
+          ],
+          "imaging": [
+            {
+              "type": "CT of chest",
+              "body_part": "Chest",
+              "modality": "CT",
+              "finding": "spiculated mass in the left upper lobe, multiple pulmonary nodules, mediastinal lymphadenopathy, and pericardial effusion",
+              "date": "2019-05"
+            }
+          ],
+          "social_history": [
+            {
+              "category": "smoking",
+              "status": "never",
+              "description": "non-smoker"
+            }
+          ]
+        }
+      }
+    },
+    {
+      "id": "N2",
+      "label": "Step 2",
+      "customData": {
+        "node_id": "B",
+        "node_step_index": 1,
+        "content": "Prescribed gefitinib with a progression-free period of 7 months. Switched to osimertinib treatment because EGFR exon 20 p.T790M (+) was detected in the progressive pleural fluid. Four months after osimertinib initiation, disease progressed with bone and brain metastases.",
+        "clinical_data": {
+          "medications": [
+            {
+              "drug": "gefitinib",
+              "dosage": null,
+              "frequency": null,
+              "modality": null,
+              "start_date": null,
+              "end_date": null,
+              "indication": null
+            },
+            {
+              "drug": "osimertinib",
+              "dosage": null,
+              "frequency": null,
+              "modality": null,
+              "start_date": null,
+              "end_date": null,
+              "indication": null
+            }
+          ],
+          "diagnoses": [
+            {
+              "code": null,
+              "label": "bone metastases",
+              "status": "active",
+              "onset_date": null
+            },
+            {
+              "code": null,
+              "label": "brain metastases",
+              "status": "active",
+              "onset_date": null
+            }
+          ],
+          "labs": [
+            {
+              "test": "EGFR exon 20 p.T790M",
+              "value": "positive",
+              "unit": null,
+              "flag": "abnormal",
+              "reference_range": null,
+              "timestamp": null
+            }
+          ]
+        }
+      }
+    },
+    {
+      "id": "N3",
+      "label": "Step 3",
+      "customData": {
+        "node_id": "C",
+        "node_step_index": 2,
+        "content": "Patient suffered intestinal obstruction without clear cause, and underwent abdominal surgery at age 13. Intestinal obstruction recurred twice around 2003 and 2006.",
+        "clinical_data": {
+          "diagnoses": [
+            {
+              "code": "C0021845",
+              "label": "Intestinal Obstruction",
+              "status": "historical",
+              "onset_date": null
+            }
+          ],
+          "procedures": [
+            {
+              "name": "C0000727",
+              "approach": "open",
+              "date": null,
+              "location": "abdomen",
+              "performed_by": null,
+              "outcome": null
+            }
+          ],
+          "HPI": [
+            {
+              "summary": "Patient suffered intestinal obstruction without clear cause, and underwent abdominal surgery at age 13. Intestinal obstruction recurred twice around 2003 and 2006.",
+              "duration": null,
+              "onset": null,
+              "progression": "fluctuating",
+              "associated_symptoms": [],
+              "alleviating_factors": [],
+              "exacerbating_factors": []
+            }
+          ]
+        }
+      }
+    },
+    {
+      "id": "N4",
+      "label": "Step 4",
+      "customData": {
+        "node_id": "D",
+        "node_step_index": 3,
+        "content": "Received four cycles of pemetrexed, carboplatin, bevacizumab, and pembrolizumab starting in August 2020, followed by two cycles of pemetrexed and pembrolizumab as maintenance therapy. Stable disease (SD) achieved and persisted after 2 cycles of ICIs combined treatment.",
+        "clinical_data": {
+          "medications": [
+            {
+              "drug": "C0889436",
+              "dosage": null,
+              "frequency": null,
+              "modality": null,
+              "start_date": "2020-08",
+              "end_date": null,
+              "indication": null
+            },
+            {
+              "drug": "C0007668",
+              "dosage": null,
+              "frequency": null,
+              "modality": null,
+              "start_date": "2020-08",
+              "end_date": null,
+              "indication": null
+            },
+            {
+              "drug": "C1621994",
+              "dosage": null,
+              "frequency": null,
+              "modality": null,
+              "start_date": "2020-08",
+              "end_date": null,
+              "indication": null
+            },
+            {
+              "drug": "C4047444",
+              "dosage": null,
+              "frequency": null,
+              "modality": null,
+              "start_date": "2020-08",
+              "end_date": null,
+              "indication": null
+            },
+            {
+              "drug": "C0889436",
+              "dosage": null,
+              "frequency": null,
+              "modality": null,
+              "start_date": null,
+              "end_date": null,
+              "indication": null
+            },
+            {
+              "drug": "C4047444",
+              "dosage": null,
+              "frequency": null,
+              "modality": null,
+              "start_date": null,
+              "end_date": null,
+              "indication": null
+            }
+          ],
+          "diagnoses": [
+            {
+              "code": "C0009450",
+              "label": "Disease",
+              "status": "active",
+              "onset_date": null
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "edges": [
+    {
+      "from": "N1",
+      "to": "N2",
+      "data": {
+        "edge_id": "A_to_B",
+        "branch_flag": true,
+        "content": "Patient initially prescribed gefitinib with a progression-free period of 7 months, then switched to osimertinib treatment after EGFR exon 20 p.T790M (+) was detected in the progressive pleural fluid. Four months after osimertinib initiation, disease progressed with bone and brain metastases.",
+        "transition_event": {
+          "trigger_type": "medication_change",
+          "trigger_entities": [
+            "C0016727",
+            "C1612391"
+          ],
+          "change_type": "addition",
+          "target_domain": "medication"
+        }
+      }
+    },
+    {
+      "from": "N2",
+      "to": "N3",
+      "data": {
+        "edge_id": "B_to_C",
+        "branch_flag": true,
+        "content": "Patient suffered intestinal obstruction without clear cause, and underwent abdominal surgery at age 13. Intestinal obstruction recurred twice around 2003 and 2006."
+      }
+    },
+    {
+      "from": "N3",
+      "to": "N4",
+      "data": {
+        "edge_id": "C_to_D",
+        "branch_flag": true,
+        "content": "Patient received four cycles of pemetrexed, carboplatin, bevacizumab, and pembrolizumab starting in August 2020, followed by two cycles of pemetrexed and pembrolizumab as maintenance therapy. Stable disease (SD) achieved and persisted after 2 cycles of ICIs combined treatment.",
+        "transition_event": {
+          "trigger_type": "medication_change",
+          "trigger_entities": [
+            "C0889436",
+            "C0007668",
+            "C1621994",
+            "C4047444"
+          ],
+          "change_type": "addition",
+          "target_domain": "medication",
+          "timestamp": "2020-08"
+        }
+      }
+    }
+  ]
+}

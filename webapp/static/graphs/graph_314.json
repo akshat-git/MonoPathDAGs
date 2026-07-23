@@ -1,0 +1,568 @@
+{
+  "nodes": [
+    {
+      "id": "N1",
+      "label": "Step 1",
+      "customData": {
+        "node_id": "A",
+        "node_step_index": 0,
+        "content": "69-year-old Japanese man with worsening shortness of breath. Current smoker (40 pack-years) with a family history of lung cancer. Height 166.5 cm, bodyweight 62.0 kg.",
+        "clinical_data": {
+          "social_history": [
+            {
+              "category": "smoking",
+              "status": "current",
+              "description": "40 pack-years"
+            }
+          ],
+          "diagnoses": [
+            {
+              "code": "C0006264",
+              "label": "Lung Cancer",
+              "status": "historical",
+              "onset_date": null
+            }
+          ],
+          "vitals": [
+            {
+              "type": "Height",
+              "value": "166.5",
+              "unit": "cm"
+            },
+            {
+              "type": "Body Weight",
+              "value": "62.0",
+              "unit": "kg"
+            }
+          ],
+          "HPI": [
+            {
+              "summary": "worsening shortness of breath",
+              "progression": "gradual"
+            }
+          ]
+        }
+      }
+    },
+    {
+      "id": "N2",
+      "label": "Step 2",
+      "customData": {
+        "node_id": "B",
+        "node_step_index": 1,
+        "content": "Patient status: Temperature 37.5\u00b0C, heart rate 110 bpm, blood pressure 146/106 mmHg, oxygen saturation 91% on 4 l/min oxygen at rest. ECOG performance status 1. Laboratory results: Serum carcinoembryonic antigen 7.3 ng/ml, progastrin-releasing peptide 140 pg/ml, neuron-specific enolase 132.0 ng/ml. Chest CT: Giant left lung mass with massive left pleural effusion causing mediastinal shift to the right.",
+        "clinical_data": {
+          "vitals": [
+            {
+              "type": "Body Temperature",
+              "value": "37.5",
+              "unit": "\u00b0C"
+            },
+            {
+              "type": "Heart Rate",
+              "value": "110",
+              "unit": "bpm"
+            },
+            {
+              "type": "Blood Pressure",
+              "value": "146/106",
+              "unit": "mmHg"
+            },
+            {
+              "type": "Oxygen Saturation",
+              "value": "91",
+              "unit": "%"
+            }
+          ],
+          "labs": [
+            {
+              "test": "Carcinoembryonic Antigen Measurement",
+              "value": "7.3",
+              "unit": "ng/ml"
+            },
+            {
+              "test": "Pro-Gastrin-Releasing Peptide Measurement",
+              "value": "140",
+              "unit": "pg/ml"
+            },
+            {
+              "test": "Neuron-Specific Enolase Measurement",
+              "value": "132.0",
+              "unit": "ng/ml"
+            }
+          ],
+          "imaging": [
+            {
+              "type": "Chest CT",
+              "body_part": "Lung",
+              "modality": "CT",
+              "finding": "Giant left lung mass with massive left pleural effusion causing mediastinal shift to the right."
+            }
+          ],
+          "functional_status": [
+            {
+              "domain": "General",
+              "description": "ECOG performance status",
+              "score": "1",
+              "scale": "ECOG"
+            }
+          ]
+        }
+      }
+    },
+    {
+      "id": "N3",
+      "label": "Step 3",
+      "customData": {
+        "node_id": "C",
+        "node_step_index": 2,
+        "content": "Left-sided thoracentesis: Exudative pleural effusion with lymphocyte predominance. Cytology: Adenocarcinoma cells, negative for thyroid transcription factor-1 and napsin A. Insufficient tumor cells for definitive diagnosis. Dyspnea improved after left-sided chest tube drainage on the fifth day.",
+        "clinical_data": {
+          "procedures": [
+            {
+              "name": "Thoracentesis",
+              "approach": "percutaneous",
+              "location": "left side",
+              "outcome": "Exudative pleural effusion with lymphocyte predominance"
+            },
+            {
+              "name": "Chest tube drainage",
+              "location": "left side",
+              "outcome": "Dyspnea improved",
+              "date": "fifth day"
+            }
+          ],
+          "labs": [
+            {
+              "test": "Cytology",
+              "value": "Adenocarcinoma cells",
+              "flag": "abnormal"
+            }
+          ],
+          "diagnoses": [
+            {
+              "code": "C0001405",
+              "label": "Adenocarcinoma",
+              "status": "suspected"
+            }
+          ]
+        }
+      }
+    },
+    {
+      "id": "N4",
+      "label": "Step 4",
+      "customData": {
+        "node_id": "D",
+        "node_step_index": 3,
+        "content": "Cytological examination of the left pleural effusion: Round tumor cells negative for adenocarcinoma. Subsequent left pleural effusion cytology: Nondiagnostic. Transbronchial lung biopsy from left S4 (day 12): Nondiagnostic.",
+        "clinical_data": {
+          "labs": [
+            {
+              "test": "Cytological examination",
+              "body_part": "Pleural cavity structure",
+              "finding": "Round tumor cells negative for adenocarcinoma",
+              "location": "left pleural effusion"
+            },
+            {
+              "test": "Cytological examination",
+              "finding": "Nondiagnostic",
+              "location": "left pleural effusion"
+            }
+          ],
+          "procedures": [
+            {
+              "name": "Transbronchial lung biopsy",
+              "location": "left S4",
+              "date": "day 12",
+              "outcome": "Nondiagnostic"
+            }
+          ]
+        }
+      }
+    },
+    {
+      "id": "N5",
+      "label": "Step 5",
+      "customData": {
+        "node_id": "E",
+        "node_step_index": 4,
+        "content": "Thoracoscopic pleural biopsy (day 21): Features of SCLC, adenocarcinoma, and spindle\u2010shaped cell tumor, with C\u2010SCLC (Figure2).",
+        "clinical_data": {
+          "procedures": [
+            {
+              "name": "Thoracoscopic pleural biopsy",
+              "date": "day 21",
+              "finding": "Features of SCLC, adenocarcinoma, and spindle\u2010shaped cell tumor, with C\u2010SCLC"
+            }
+          ],
+          "diagnoses": [
+            {
+              "code": "C0007097",
+              "label": "Small cell lung carcinoma",
+              "status": "active"
+            },
+            {
+              "code": "C0001673",
+              "label": "Adenocarcinoma",
+              "status": "active"
+            },
+            {
+              "label": "Spindle\u2010shaped cell tumor",
+              "status": "active"
+            }
+          ]
+        }
+      }
+    },
+    {
+      "id": "N6",
+      "label": "Step 6",
+      "customData": {
+        "node_id": "F",
+        "node_step_index": 5,
+        "content": "PD-L1 tumor proportion score less than 1%. Post-thoracoscopy, respiratory and general conditions rapidly worsened. Patient died on day 34. Autopsy: Large, erupted tumor occupying almost the entire lower lobe of the left lung with circumferential adhesion and infiltration of the left chest wall and diaphragm.",
+        "clinical_data": {
+          "diagnoses": [
+            {
+              "code": "C34.3",
+              "label": "Malignant neoplasm of lower lobe, bronchus or lung",
+              "status": "active"
+            }
+          ],
+          "procedures": [
+            {
+              "name": "Thoracoscopy",
+              "date": null,
+              "outcome": "Respiratory and general conditions rapidly worsened"
+            }
+          ],
+          "labs": [
+            {
+              "test": "PD-L1 tumor proportion score",
+              "value": "<1",
+              "unit": "%",
+              "flag": "abnormal"
+            }
+          ]
+        }
+      }
+    },
+    {
+      "id": "N7",
+      "label": "Step 7",
+      "customData": {
+        "node_id": "G",
+        "node_step_index": 6,
+        "content": "Microscopic findings: Mass composed of SCLC (60%), spindle\u2010shaped cell tumor (30%), and adenocarcinoma (10%). Diagnosis: Combined small cell lung carcinoma (C-SCLC) including three tumor components. Pleural biopsy specimen: small-cell lung carcinoma, adenocarcinoma, and spindle-shaped cell tumors.",
+        "clinical_data": {
+          "diagnoses": [
+            {
+              "code": "C0346401",
+              "label": "Small cell lung carcinoma",
+              "status": "active"
+            },
+            {
+              "code": "C0001673",
+              "label": "Adenocarcinoma",
+              "status": "active"
+            }
+          ],
+          "imaging": [
+            {
+              "type": "biopsy",
+              "body_part": "pleura",
+              "modality": "other",
+              "finding": "small-cell lung carcinoma, adenocarcinoma, and spindle-shaped cell tumors"
+            }
+          ]
+        }
+      }
+    },
+    {
+      "id": "N8",
+      "label": "Step 8",
+      "customData": {
+        "node_id": "H",
+        "node_step_index": 7,
+        "content": "Laboratory data on admission: WBC 11700 /\u03bcl, Neutrophils 86.5 %, Lymphocytes 7.7 %, Eosinophils 0.3 %, Monocytes 5.2 %, RBC 4.65 \u00d7 106 /\u03bcl, Hb 14.4 g/dl, Ht 41.9 %, Platelets 30.9 \u00d7 104 /\u03bcl, TP 6.2 g/dl, Alb 2.8 g/dl, T\u2010bil 1.4 mg/dl, CRP 6.46 mg/dl, AST 51 IU/l, ALT 38 IU/l, Glucose 258 mg/dl, HbA1c 7.8 %, LDH 737 IU/l, BUN 4.2 mg/dl, Cre 0.72 mg/dl, Na.",
+        "clinical_data": {
+          "labs": [
+            {
+              "test": "White blood cell count",
+              "value": "11700",
+              "unit": "/\u03bcl",
+              "flag": "abnormal"
+            },
+            {
+              "test": "Neutrophils",
+              "value": "86.5",
+              "unit": "%",
+              "flag": "abnormal"
+            },
+            {
+              "test": "Lymphocytes",
+              "value": "7.7",
+              "unit": "%",
+              "flag": "abnormal"
+            },
+            {
+              "test": "Eosinophils",
+              "value": "0.3",
+              "unit": "%",
+              "flag": "abnormal"
+            },
+            {
+              "test": "Monocytes",
+              "value": "5.2",
+              "unit": "%",
+              "flag": "normal"
+            },
+            {
+              "test": "Red blood cell count",
+              "value": "4.65",
+              "unit": "\u00d7 106 /\u03bcl",
+              "flag": "normal"
+            },
+            {
+              "test": "Hemoglobin",
+              "value": "14.4",
+              "unit": "g/dl",
+              "flag": "normal"
+            },
+            {
+              "test": "Hematocrit",
+              "value": "41.9",
+              "unit": "%",
+              "flag": "normal"
+            },
+            {
+              "test": "Platelets",
+              "value": "30.9",
+              "unit": "\u00d7 104 /\u03bcl",
+              "flag": "normal"
+            },
+            {
+              "test": "Total protein",
+              "value": "6.2",
+              "unit": "g/dl",
+              "flag": "abnormal"
+            },
+            {
+              "test": "Albumin",
+              "value": "2.8",
+              "unit": "g/dl",
+              "flag": "abnormal"
+            },
+            {
+              "test": "Total bilirubin",
+              "value": "1.4",
+              "unit": "mg/dl",
+              "flag": "abnormal"
+            },
+            {
+              "test": "C-reactive protein",
+              "value": "6.46",
+              "unit": "mg/dl",
+              "flag": "abnormal"
+            },
+            {
+              "test": "Aspartate transaminase",
+              "value": "51",
+              "unit": "IU/l",
+              "flag": "abnormal"
+            },
+            {
+              "test": "Alanine transaminase",
+              "value": "38",
+              "unit": "IU/l",
+              "flag": "normal"
+            },
+            {
+              "test": "Glucose",
+              "value": "258",
+              "unit": "mg/dl",
+              "flag": "abnormal"
+            },
+            {
+              "test": "Hemoglobin A1c",
+              "value": "7.8",
+              "unit": "%",
+              "flag": "abnormal"
+            },
+            {
+              "test": "Lactate dehydrogenase",
+              "value": "737",
+              "unit": "IU/l",
+              "flag": "abnormal"
+            },
+            {
+              "test": "Blood urea nitrogen",
+              "value": "4.2",
+              "unit": "mg/dl",
+              "flag": "normal"
+            },
+            {
+              "test": "Creatinine",
+              "value": "0.72",
+              "unit": "mg/dl",
+              "flag": "normal"
+            },
+            {
+              "test": "Sodium"
+            }
+          ]
+        }
+      }
+    },
+    {
+      "id": "N9",
+      "label": "Step 9",
+      "customData": {
+        "node_id": "I",
+        "node_step_index": 8,
+        "content": "Small\u2010cell lung carcinoma lesion positive for insulinoma\u2010associated protein 1. Tumor increased in size rapidly. Patient's respiratory condition and performance status worsened.",
+        "clinical_data": {
+          "diagnoses": [
+            {
+              "code": "C8014",
+              "label": "Small cell carcinoma of lung",
+              "status": "active"
+            }
+          ],
+          "imaging": [
+            {
+              "type": "Lesion",
+              "body_part": "Lung",
+              "finding": "Tumor increased in size rapidly"
+            }
+          ],
+          "HPI": [
+            {
+              "progression": "rapid",
+              "associated_symptoms": [
+                "Respiratory condition worsened",
+                "Performance status worsened"
+              ]
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "edges": [
+    {
+      "from": "N1",
+      "to": "N2",
+      "data": {
+        "edge_id": "A_to_B",
+        "branch_flag": true,
+        "content": "Patient's condition progresses from initial presentation to include vital sign abnormalities, elevated tumor markers, and imaging findings indicative of a large lung mass with pleural effusion."
+      }
+    },
+    {
+      "from": "N2",
+      "to": "N3",
+      "data": {
+        "edge_id": "B_to_C",
+        "branch_flag": true,
+        "content": "Thoracentesis performed, revealing exudative pleural effusion with adenocarcinoma cells. Chest tube drainage improves dyspnea.",
+        "transition_event": {
+          "trigger_type": "procedure",
+          "trigger_entities": [
+            "C0040159"
+          ],
+          "change_type": "addition",
+          "target_domain": "procedure"
+        }
+      }
+    },
+    {
+      "from": "N3",
+      "to": "N4",
+      "data": {
+        "edge_id": "C_to_D",
+        "branch_flag": true,
+        "content": "Further cytological examinations and a transbronchial lung biopsy yield nondiagnostic or negative results for adenocarcinoma.",
+        "transition_event": {
+          "trigger_type": "lab_change",
+          "trigger_entities": [
+            "C0001405"
+          ],
+          "change_type": "reinterpretation",
+          "target_domain": "diagnosis"
+        }
+      }
+    },
+    {
+      "from": "N4",
+      "to": "N5",
+      "data": {
+        "edge_id": "D_to_E",
+        "branch_flag": true,
+        "content": "Thoracoscopic pleural biopsy reveals features of SCLC, adenocarcinoma, and spindle\u2010shaped cell tumor, with C\u2010SCLC.",
+        "transition_event": {
+          "trigger_type": "procedure",
+          "trigger_entities": [
+            "C0005690"
+          ],
+          "change_type": "addition",
+          "target_domain": "procedure"
+        }
+      }
+    },
+    {
+      "from": "N5",
+      "to": "N6",
+      "data": {
+        "edge_id": "E_to_F",
+        "branch_flag": true,
+        "content": "PD-L1 tumor proportion score is low. Post-thoracoscopy, the patient's respiratory and general conditions rapidly worsen, leading to death. Autopsy reveals a large tumor occupying the lower lobe of the left lung.",
+        "transition_event": {
+          "trigger_type": "interpretation",
+          "trigger_entities": [
+            "C4024279"
+          ],
+          "change_type": "progression",
+          "target_domain": "symptom"
+        }
+      }
+    },
+    {
+      "from": "N6",
+      "to": "N7",
+      "data": {
+        "edge_id": "F_to_G",
+        "branch_flag": true,
+        "content": "Microscopic findings confirm the presence of SCLC (60%), spindle\u2010shaped cell tumor (30%), and adenocarcinoma (10%), leading to a diagnosis of combined small cell lung carcinoma (C-SCLC).",
+        "transition_event": {
+          "trigger_type": "interpretation",
+          "trigger_entities": [
+            "C0007097",
+            "C0001673"
+          ],
+          "change_type": "reinterpretation",
+          "target_domain": "diagnosis"
+        }
+      }
+    },
+    {
+      "from": "N7",
+      "to": "N8",
+      "data": {
+        "edge_id": "G_to_H",
+        "branch_flag": true,
+        "content": "Laboratory data on admission reveals abnormalities in WBC count, neutrophil percentage, lymphocyte percentage, eosinophil percentage, total protein, albumin, total bilirubin, CRP, AST, glucose, HbA1c, and LDH."
+      }
+    },
+    {
+      "from": "N8",
+      "to": "N9",
+      "data": {
+        "edge_id": "H_to_I",
+        "branch_flag": true,
+        "content": "Small\u2010cell lung carcinoma lesion positive for insulinoma\u2010associated protein 1. Tumor increased in size rapidly. Patient's respiratory condition and performance status worsened."
+      }
+    }
+  ]
+}

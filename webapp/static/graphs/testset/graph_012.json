@@ -1,0 +1,328 @@
+{
+  "nodes": [
+    {
+      "id": "N1",
+      "label": "Step 1",
+      "customData": {
+        "node_id": "A",
+        "node_step_index": 0,
+        "content": "79-year-old male, height 174 cm, weight 65 kg, BMI 21.5 kg/m\u00b2, with a smoking history of two packs per day for 55 years (Brinkman Index 1100). History of total thyroidectomy five years prior for papillary thyroid carcinoma (PTC). Comorbidities include chronic obstructive pulmonary disease and hypertension.",
+        "clinical_data": {
+          "social_history": [
+            {
+              "category": "smoking",
+              "status": "past",
+              "description": "two packs per day for 55 years (Brinkman Index 1100)"
+            }
+          ],
+          "diagnoses": [
+            {
+              "code": "C0009404",
+              "label": "Chronic Obstructive Airway Disease",
+              "status": "active"
+            },
+            {
+              "code": "C0020538",
+              "label": "Hypertension",
+              "status": "active"
+            },
+            {
+              "code": "C0279738",
+              "label": "Papillary Thyroid Carcinoma",
+              "status": "historical"
+            }
+          ],
+          "procedures": [
+            {
+              "name": "C0158554",
+              "date": null,
+              "location": "Thyroid gland",
+              "outcome": null
+            }
+          ]
+        }
+      },
+      "custom_id": "graph_012_N0"
+    },
+    {
+      "id": "N2",
+      "label": "Step 2",
+      "customData": {
+        "node_id": "B",
+        "node_step_index": 1,
+        "content": "Six years ago, the patient was found to have left cervical lymphadenopathy of unknown origin, suspected to be cervical lymph node metastasis of papillary thyroid carcinoma (PTC).",
+        "clinical_data": {
+          "diagnoses": [
+            {
+              "code": "C0346403",
+              "label": "Papillary carcinoma of thyroid",
+              "status": "suspected",
+              "onset_date": null
+            }
+          ],
+          "imaging": [
+            {
+              "type": "C0024311",
+              "body_part": "C0007664",
+              "modality": "other",
+              "finding": "Left cervical lymphadenopathy of unknown origin",
+              "impression": "Left cervical lymphadenopathy of unknown origin",
+              "date": null
+            }
+          ]
+        }
+      },
+      "custom_id": "graph_012_N1"
+    },
+    {
+      "id": "N3",
+      "label": "Step 3",
+      "customData": {
+        "node_id": "C",
+        "node_step_index": 2,
+        "content": "Five years ago, the patient underwent total thyroidectomy and left cervical lymph node dissection. Histopathology revealed multiple papillary thyroid microcarcinomas (pT1a [m], pEx0, pN1b 4/10, pStage IVA) with negative surgical margins.",
+        "clinical_data": {
+          "procedures": [
+            {
+              "name": "Thyroidectomy, total",
+              "date": null,
+              "location": "thyroid gland",
+              "outcome": null,
+              "approach": null,
+              "performed_by": null
+            },
+            {
+              "name": "Lymph node dissection",
+              "date": null,
+              "location": "left cervical lymph node",
+              "outcome": null,
+              "approach": null,
+              "performed_by": null
+            }
+          ],
+          "diagnoses": [
+            {
+              "code": "C73",
+              "label": "Malignant neoplasm of thyroid gland",
+              "status": "historical",
+              "onset_date": null
+            }
+          ]
+        }
+      },
+      "custom_id": "graph_012_N2"
+    },
+    {
+      "id": "N4",
+      "label": "Step 4",
+      "customData": {
+        "node_id": "D",
+        "node_step_index": 3,
+        "content": "Patient was treated with radioiodine therapy (Iodine-131).",
+        "clinical_data": {
+          "medications": [
+            {
+              "drug": "C0021843",
+              "dosage": null,
+              "frequency": null,
+              "modality": null,
+              "start_date": null,
+              "end_date": null,
+              "indication": null
+            }
+          ]
+        }
+      },
+      "custom_id": "graph_012_N3"
+    },
+    {
+      "id": "N5",
+      "label": "Step 5",
+      "customData": {
+        "node_id": "E",
+        "node_step_index": 4,
+        "content": "Two years prior to current encounter, a nodule in the right upper lobe of the lung was identified and monitored with chest CT scans. Increase in nodule density observed compared to two years prior, prompting a transbronchial biopsy; however, no definitive diagnosis was made. Tumor markers (CYFRA, CEA, SLX, ProGRP, NSE) were within normal limits.",
+        "clinical_data": {
+          "imaging": [
+            {
+              "type": "Lung nodule",
+              "body_part": "Right upper lobe of lung",
+              "modality": "CT",
+              "finding": "Increase in nodule density",
+              "date": null
+            }
+          ],
+          "procedures": [
+            {
+              "name": "Transbronchial biopsy",
+              "date": null,
+              "outcome": "No definitive diagnosis"
+            }
+          ],
+          "labs": [
+            {
+              "test": "CYFRA 21-1",
+              "value": "within normal limits",
+              "flag": "normal"
+            },
+            {
+              "test": "Carcinoembryonic antigen",
+              "value": "within normal limits",
+              "flag": "normal"
+            },
+            {
+              "test": "Sialyl Lewis X-i antigen",
+              "value": "within normal limits",
+              "flag": "normal"
+            },
+            {
+              "test": "Pro-gastrin-releasing peptide",
+              "value": "within normal limits",
+              "flag": "normal"
+            },
+            {
+              "test": "Neuron-specific enolase",
+              "value": "within normal limits",
+              "flag": "normal"
+            }
+          ]
+        }
+      },
+      "custom_id": "graph_012_N4"
+    },
+    {
+      "id": "N6",
+      "label": "Step 6",
+      "customData": {
+        "node_id": "F",
+        "node_step_index": 5,
+        "content": "Serum thyroglobulin levels showed a gradual increase over time, with a preoperative value of 47.7 ng/mL. Chest X-rays showed no abnormalities, while chest CT scans revealed an irregular nodule measuring 15\u00d714 mm in the S1 segment of the right upper lobe. No hilar lymphadenopathy was detected. Pulmonary function and electrocardiogram tests showed no abnormalities.",
+        "clinical_data": {
+          "labs": [
+            {
+              "test": "Thyroglobulin Measurement",
+              "value": "47.7",
+              "unit": "ng/mL",
+              "flag": "abnormal"
+            }
+          ],
+          "imaging": [
+            {
+              "type": "Lung X-Ray",
+              "body_part": "Thorax",
+              "modality": "X-ray",
+              "finding": "no abnormalities",
+              "date": null
+            },
+            {
+              "type": "CT chest",
+              "body_part": "Thorax",
+              "modality": "CT",
+              "finding": "irregular nodule measuring 15\u00d714 mm in the S1 segment of the right upper lobe",
+              "impression": "irregular nodule measuring 15\u00d714 mm in the S1 segment of the right upper lobe",
+              "date": null
+            }
+          ]
+        }
+      },
+      "custom_id": "graph_012_N5"
+    },
+    {
+      "id": "N7",
+      "label": "Step 7",
+      "customData": {
+        "node_id": "G",
+        "node_step_index": 6,
+        "content": "A surgical plan was made to perform intraoperative rapid diagnosis, followed by right upper",
+        "clinical_data": {}
+      },
+      "custom_id": "graph_012_N6"
+    }
+  ],
+  "edges": [
+    {
+      "from": "N1",
+      "to": "N2",
+      "data": {
+        "edge_id": "A_to_B",
+        "branch_flag": true,
+        "content": "Development of left cervical lymphadenopathy of unknown origin, suspected to be cervical lymph node metastasis of papillary thyroid carcinoma (PTC) six years ago."
+      },
+      "custom_id": "graph_012_N1_N2"
+    },
+    {
+      "from": "N2",
+      "to": "N3",
+      "data": {
+        "edge_id": "B_to_C",
+        "branch_flag": true,
+        "content": "Patient underwent total thyroidectomy and left cervical lymph node dissection five years ago.",
+        "transition_event": {
+          "trigger_type": "procedure",
+          "trigger_entities": [
+            "C0158554"
+          ],
+          "change_type": "addition",
+          "target_domain": "procedure"
+        }
+      },
+      "custom_id": "graph_012_N2_N3"
+    },
+    {
+      "from": "N3",
+      "to": "N4",
+      "data": {
+        "edge_id": "C_to_D",
+        "branch_flag": true,
+        "content": "Patient was treated with radioiodine therapy (Iodine-131).",
+        "transition_event": {
+          "trigger_type": "medication_change",
+          "trigger_entities": [
+            "C0021843"
+          ],
+          "change_type": "addition",
+          "target_domain": "medication"
+        }
+      },
+      "custom_id": "graph_012_N3_N4"
+    },
+    {
+      "from": "N4",
+      "to": "N5",
+      "data": {
+        "edge_id": "D_to_E",
+        "branch_flag": true,
+        "content": "Two years prior to current encounter, a nodule in the right upper lobe of the lung was identified and monitored with chest CT scans. Increase in nodule density observed compared to two years prior, prompting a transbronchial biopsy; however, no definitive diagnosis was made. Tumor markers (CYFRA, CEA, SLX, ProGRP, NSE) were within normal limits."
+      },
+      "custom_id": "graph_012_N4_N5"
+    },
+    {
+      "from": "N5",
+      "to": "N6",
+      "data": {
+        "edge_id": "E_to_F",
+        "branch_flag": true,
+        "content": "Serum thyroglobulin levels showed a gradual increase over time, with a preoperative value of 47.7 ng/mL. Chest X-rays showed no abnormalities, while chest CT scans revealed an irregular nodule measuring 15\u00d714 mm in the S1 segment of the right upper lobe. No hilar lymphadenopathy was detected. Pulmonary function and electrocardiogram tests showed no abnormalities.",
+        "transition_event": {
+          "trigger_type": "lab_change",
+          "trigger_entities": [
+            "C0196343"
+          ],
+          "change_type": "progression",
+          "target_domain": "lab"
+        }
+      },
+      "custom_id": "graph_012_N5_N6"
+    },
+    {
+      "from": "N6",
+      "to": "N7",
+      "data": {
+        "edge_id": "F_to_G",
+        "branch_flag": true,
+        "content": "A surgical plan was made to perform intraoperative rapid diagnosis, followed by right upper"
+      },
+      "custom_id": "graph_012_N6_N7"
+    }
+  ]
+}

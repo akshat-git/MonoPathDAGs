@@ -1,0 +1,494 @@
+{
+  "nodes": [
+    {
+      "id": "N1",
+      "label": "Step 1",
+      "customData": {
+        "node_id": "A",
+        "node_step_index": 0,
+        "content": "52-year-old male with a history of psoriasis, received durvalumab (10 mg/kg intravenously every 2 weeks) as adjuvant treatment for stage 3b non-small cell lung carcinoma of the right upper lobe, following chemo-radiotherapy. Completed 1 year (26 cycles) of durvalumab.",
+        "clinical_data": {
+          "medications": [
+            {
+              "drug": "C4042702",
+              "dosage": "10 mg/kg",
+              "frequency": "every 2 weeks",
+              "modality": "IV",
+              "start_date": null,
+              "end_date": null,
+              "indication": "non-small cell lung carcinoma"
+            }
+          ],
+          "diagnoses": [
+            {
+              "code": "C0684249",
+              "label": "non-small cell lung carcinoma",
+              "status": "active",
+              "onset_date": null
+            },
+            {
+              "code": "C0036414",
+              "label": "Psoriasis",
+              "status": "historical",
+              "onset_date": null
+            }
+          ]
+        }
+      }
+    },
+    {
+      "id": "N2",
+      "label": "Step 2",
+      "customData": {
+        "node_id": "B",
+        "node_step_index": 1,
+        "content": "At cycle 11 of durvalumab treatment, the patient reported dry mouth and sicca symptoms. Examination showed no unstimulated or stimulated parotid saliva production. Ultrasonography showed moderate changes in SG topography (HOCEVAR score 14/48). Schirmer's test was positive (4 mm tear fluid /5 min), and ocular staining score (OSS) was negative (0).",
+        "clinical_data": {
+          "medications": [
+            {
+              "drug": "C0013134",
+              "indication": "C0006722"
+            }
+          ],
+          "HPI": [
+            {
+              "summary": "Patient reported dry mouth and sicca symptoms at cycle 11 of durvalumab treatment.",
+              "onset": "Cycle 11 of durvalumab treatment",
+              "associated_symptoms": [
+                "C0013134",
+                "C0036593"
+              ]
+            }
+          ],
+          "diagnoses": [
+            {
+              "code": "C0013134",
+              "label": "Dry Mouth",
+              "status": "active"
+            },
+            {
+              "code": "C0036593",
+              "label": "Sicca Syndrome",
+              "status": "active"
+            }
+          ],
+          "imaging": [
+            {
+              "type": "Ultrasonography",
+              "body_part": "Parotid Gland",
+              "modality": "Ultrasound",
+              "finding": "Moderate changes in SG topography",
+              "impression": "Moderate changes in SG topography"
+            }
+          ],
+          "labs": [
+            {
+              "test": "Schirmer's test",
+              "value": "4",
+              "unit": "mm",
+              "flag": "abnormal"
+            }
+          ]
+        }
+      }
+    },
+    {
+      "id": "N3",
+      "label": "Step 3",
+      "customData": {
+        "node_id": "C",
+        "node_step_index": 2,
+        "content": "Parotid salivary gland biopsy performed. Unstimulated whole saliva: 0 ml/min. Stimulated whole saliva: 0 ml/min. Unstimulated parotid saliva: Left 0 ml/min, Right 0 ml/min. Stimulated parotid saliva: Left 0 ml/min, Right 0 ml/min. Unstimulated submandibular/sublingual saliva: Left + Right 0 ml/min. Stimulated submandibular/sublingual saliva: Left + Right 0 ml/min. Focus score (foci/4mm2): 1.0.",
+        "clinical_data": {
+          "procedures": [
+            {
+              "name": "Biopsy",
+              "approach": "percutaneous",
+              "location": "Parotid salivary gland"
+            }
+          ],
+          "labs": [
+            {
+              "test": "Unstimulated whole saliva",
+              "value": "0",
+              "unit": "ml/min"
+            },
+            {
+              "test": "Stimulated whole saliva",
+              "value": "0",
+              "unit": "ml/min"
+            },
+            {
+              "test": "Unstimulated parotid saliva, Left",
+              "value": "0",
+              "unit": "ml/min"
+            },
+            {
+              "test": "Unstimulated parotid saliva, Right",
+              "value": "0",
+              "unit": "ml/min"
+            },
+            {
+              "test": "Stimulated parotid saliva, Left",
+              "value": "0",
+              "unit": "ml/min"
+            },
+            {
+              "test": "Stimulated parotid saliva, Right",
+              "value": "0",
+              "unit": "ml/min"
+            },
+            {
+              "test": "Unstimulated submandibular/sublingual saliva, Left + Right",
+              "value": "0",
+              "unit": "ml/min"
+            },
+            {
+              "test": "Stimulated submandibular/sublingual saliva, Left + Right",
+              "value": "0",
+              "unit": "ml/min"
+            },
+            {
+              "test": "Focus score",
+              "value": "1.0",
+              "unit": "foci/4mm2"
+            }
+          ]
+        }
+      }
+    },
+    {
+      "id": "N4",
+      "label": "Step 4",
+      "customData": {
+        "node_id": "D",
+        "node_step_index": 3,
+        "content": "Parotid salivary gland biopsy results: Lymphoepithelial lesions (LELs) absent. Germinal Center absent. IgG plasma cells absent. Ultrasound score 14/48.",
+        "clinical_data": {
+          "labs": [
+            {
+              "test": "Biopsy",
+              "value": "Lymphoepithelial lesions (LELs) absent. Germinal Center absent. IgG plasma cells absent.",
+              "unit": null,
+              "flag": "normal",
+              "reference_range": null,
+              "timestamp": null
+            }
+          ],
+          "imaging": [
+            {
+              "type": "Ultrasound",
+              "body_part": "Parotid salivary gland",
+              "modality": "Ultrasound",
+              "finding": "Ultrasound score 14/48",
+              "impression": null,
+              "date": null
+            }
+          ]
+        }
+      }
+    },
+    {
+      "id": "N5",
+      "label": "Step 5",
+      "customData": {
+        "node_id": "E",
+        "node_step_index": 4,
+        "content": "Patient with pSS. Ocular staining score (OSS) 0. Schirmer's test (mm/5min) 4. ANA titre 1:160. SSA +. Patient was not capable of producing unstimulated parotid saliva, produced reduced volumes of stimulated parotid saliva.",
+        "clinical_data": {
+          "labs": [
+            {
+              "test": "Antinuclear Antibody",
+              "value": "1:160",
+              "unit": "titre",
+              "flag": "abnormal"
+            },
+            {
+              "test": "SSA Antibody",
+              "value": "+",
+              "flag": "abnormal"
+            }
+          ],
+          "diagnoses": [
+            {
+              "code": "pSS",
+              "label": "primary Sjogren's syndrome",
+              "status": "active"
+            }
+          ],
+          "procedures": [
+            {
+              "name": "Schirmer test",
+              "outcome": "4 mm/5min"
+            },
+            {
+              "name": "Saliva Stimulation Test",
+              "outcome": "reduced volumes of stimulated parotid saliva"
+            },
+            {
+              "name": "Saliva Flow Test",
+              "outcome": "Patient was not capable of producing unstimulated parotid saliva"
+            }
+          ]
+        }
+      }
+    },
+    {
+      "id": "N6",
+      "label": "Step 6",
+      "customData": {
+        "node_id": "F",
+        "node_step_index": 5,
+        "content": "Patient with pSS also demonstrated SSA autoantibody positivity, a positive ultrasound score (26/48), and positive test results for ocular dryness. Ki67 staining in striated ducts of sicca control, pSS and post-anti-PD-L1 therapy tissue. High molecular weight cytokeratins (hmwCK) to mark SD cells. AQP5 and K7 double immunostaining of sicca control, pSS and post-anti-PD-L1 therapy tissue.",
+        "clinical_data": {
+          "diagnoses": [
+            {
+              "code": "C0268393",
+              "label": "Sjogren's Syndrome",
+              "status": "active"
+            }
+          ],
+          "labs": [
+            {
+              "test": "C0151717",
+              "value": "positive",
+              "unit": null,
+              "flag": null,
+              "reference_range": null
+            }
+          ],
+          "imaging": [
+            {
+              "type": "C0205360",
+              "body_part": "C0041654",
+              "modality": "Ultrasound",
+              "finding": "positive ultrasound score (26/48)",
+              "impression": null
+            }
+          ]
+        }
+      }
+    },
+    {
+      "id": "N7",
+      "label": "Step 7",
+      "customData": {
+        "node_id": "G",
+        "node_step_index": 6,
+        "content": "Following anti PD-L1 therapy: 275 Ki67+cells/mm2 were detected, of which 85% (equal to 230 cells /mm2) were located within the ID-like epithelial structures. The remaining Ki67+cells were located in SDs. CD4 immunostaining. CD8 immunostaining.",
+        "clinical_data": {
+          "labs": [
+            {
+              "test": "Ki-67 protein",
+              "value": "275",
+              "unit": "cells/mm2",
+              "flag": "abnormal"
+            }
+          ],
+          "procedures": [
+            {
+              "name": "Immunostaining",
+              "location": "CD4",
+              "performed_by": "pathology"
+            },
+            {
+              "name": "Immunostaining",
+              "location": "CD8",
+              "performed_by": "pathology"
+            }
+          ]
+        }
+      }
+    },
+    {
+      "id": "N8",
+      "label": "Step 8",
+      "customData": {
+        "node_id": "H",
+        "node_step_index": 7,
+        "content": "Parotid salivary gland biopsy post PD-L1 blockade: CD45+ leukocytes present throughout the biopsy, both periductally and dispersed between the epithelial cells of the parenchyma. p16+ cells present in SG tissue at a frequency of 51/mm2, of which 95% (48 cells/mm2) were located in the ID-like epithelial structures. Parotid SG contains mostly CD4+T cell infiltrate and does not resemble pSS Parotid SG gross pathology. Sicca control parotid SGs show dispersed, scarce CD45+cell presence, no focal CD45+cell presence, no focal lymphocytic sialadentitis, no LELs, germinal centers or IgG plasma cell presence.",
+        "clinical_data": {
+          "procedures": [
+            {
+              "name": "Biopsy",
+              "approach": "other",
+              "date": null,
+              "location": "Parotid salivary gland",
+              "performed_by": null,
+              "outcome": null
+            }
+          ],
+          "labs": [
+            {
+              "test": "CD45+ leukocytes",
+              "value": "present",
+              "unit": null,
+              "flag": "abnormal",
+              "reference_range": null,
+              "timestamp": null
+            },
+            {
+              "test": "p16+ cells",
+              "value": "51",
+              "unit": "cells/mm2",
+              "flag": "abnormal",
+              "reference_range": null,
+              "timestamp": null
+            },
+            {
+              "test": "CD4+T cell infiltrate",
+              "value": "mostly",
+              "unit": null,
+              "flag": "abnormal",
+              "reference_range": null,
+              "timestamp": null
+            }
+          ]
+        }
+      }
+    },
+    {
+      "id": "N9",
+      "label": "Step 9",
+      "customData": {
+        "node_id": "I",
+        "clinical_data": {}
+      }
+    }
+  ],
+  "edges": [
+    {
+      "from": "N1",
+      "to": "N2",
+      "data": {
+        "edge_id": "A_to_B",
+        "branch_flag": true,
+        "content": "Initiation of durvalumab treatment followed by the onset of dry mouth and sicca symptoms.",
+        "transition_event": {
+          "trigger_type": "symptom_onset",
+          "trigger_entities": [
+            "C0013134",
+            "C0036593"
+          ],
+          "change_type": "addition",
+          "target_domain": "symptom"
+        }
+      }
+    },
+    {
+      "from": "N2",
+      "to": "N3",
+      "data": {
+        "edge_id": "B_to_C",
+        "branch_flag": true,
+        "content": "Evaluation of sicca symptoms with parotid salivary gland biopsy and saliva production measurements.",
+        "transition_event": {
+          "trigger_type": "procedure",
+          "trigger_entities": [
+            "C0005767"
+          ],
+          "change_type": "addition",
+          "target_domain": "procedure"
+        }
+      }
+    },
+    {
+      "from": "N3",
+      "to": "N4",
+      "data": {
+        "edge_id": "C_to_D",
+        "branch_flag": true,
+        "content": "Parotid salivary gland biopsy results show absence of lymphoepithelial lesions, germinal center, and IgG plasma cells.",
+        "transition_event": {
+          "trigger_type": "lab_change",
+          "trigger_entities": [],
+          "change_type": "reinterpretation",
+          "target_domain": "lab"
+        }
+      }
+    },
+    {
+      "from": "N4",
+      "to": "N5",
+      "data": {
+        "edge_id": "D_to_E",
+        "branch_flag": true,
+        "content": "Diagnosis of pSS based on clinical findings and lab results.",
+        "transition_event": {
+          "trigger_type": "interpretation",
+          "trigger_entities": [
+            "pSS"
+          ],
+          "change_type": "addition",
+          "target_domain": "diagnosis"
+        }
+      }
+    },
+    {
+      "from": "N5",
+      "to": "N6",
+      "data": {
+        "edge_id": "E_to_F",
+        "branch_flag": true,
+        "content": "Further characterization of pSS with autoantibody positivity, ultrasound score, and ocular dryness tests.",
+        "transition_event": {
+          "trigger_type": "lab_change",
+          "trigger_entities": [
+            "C0151717"
+          ],
+          "change_type": "addition",
+          "target_domain": "lab"
+        }
+      }
+    },
+    {
+      "from": "N6",
+      "to": "N7",
+      "data": {
+        "edge_id": "F_to_G",
+        "branch_flag": true,
+        "content": "Analysis of Ki67 staining following anti-PD-L1 therapy.",
+        "transition_event": {
+          "trigger_type": "lab_change",
+          "trigger_entities": [
+            "C0022627"
+          ],
+          "change_type": "addition",
+          "target_domain": "lab"
+        }
+      }
+    },
+    {
+      "from": "N7",
+      "to": "N8",
+      "data": {
+        "edge_id": "G_to_H",
+        "branch_flag": true,
+        "content": "Parotid salivary gland biopsy post PD-L1 blockade shows CD45+ leukocytes, p16+ cells, and CD4+T cell infiltrate.",
+        "transition_event": {
+          "trigger_type": "procedure",
+          "trigger_entities": [
+            "C0005767"
+          ],
+          "change_type": "addition",
+          "target_domain": "procedure"
+        }
+      }
+    },
+    {
+      "from": "N8",
+      "to": "N9",
+      "data": {
+        "edge_id": "H_to_I",
+        "branch_flag": true,
+        "content": "Transition to node I",
+        "transition_event": {
+          "trigger_type": "spontaneous",
+          "trigger_entities": [],
+          "change_type": "other",
+          "target_domain": "functional_status"
+        }
+      }
+    }
+  ]
+}

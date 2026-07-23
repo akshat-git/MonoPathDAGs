@@ -1,0 +1,344 @@
+{
+  "nodes": [
+    {
+      "id": "N1",
+      "label": "Step 1",
+      "customData": {
+        "node_id": "A",
+        "node_step_index": 0,
+        "content": "67-year-old male presented in 2016 with stage IIIA NSCLC (adenocarcinoma).",
+        "clinical_data": {
+          "diagnoses": [
+            {
+              "code": "C34.9",
+              "label": "Malignant neoplasm of unspecified part of bronchus or lung",
+              "status": "active",
+              "onset_date": "2016"
+            }
+          ]
+        }
+      },
+      "custom_id": "graph_067_N0"
+    },
+    {
+      "id": "N2",
+      "label": "Step 2",
+      "customData": {
+        "node_id": "B",
+        "node_step_index": 1,
+        "content": "Patient underwent right middle lobectomy, followed by adjuvant carboplatin/paclitaxel and postoperative radiotherapy (PORT).",
+        "clinical_data": {
+          "procedures": [
+            {
+              "name": "Radiation therapy",
+              "approach": null,
+              "date": null,
+              "location": null,
+              "performed_by": null,
+              "outcome": null
+            }
+          ],
+          "medications": [
+            {
+              "drug": "Carboplatin",
+              "dosage": null,
+              "frequency": null,
+              "modality": "IV",
+              "start_date": null,
+              "end_date": null,
+              "indication": null
+            },
+            {
+              "drug": "Paclitaxel",
+              "dosage": null,
+              "frequency": null,
+              "modality": "IV",
+              "start_date": null,
+              "end_date": null,
+              "indication": null
+            }
+          ]
+        }
+      },
+      "custom_id": "graph_067_N1"
+    },
+    {
+      "id": "N3",
+      "label": "Step 3",
+      "customData": {
+        "node_id": "C",
+        "node_step_index": 2,
+        "content": "In 2022, the patient developed metastatic disease in the right lung, liver, and brain.",
+        "clinical_data": {
+          "diagnoses": [
+            {
+              "code": "C79.9",
+              "label": "Secondary malignant neoplasm of unspecified site",
+              "status": "active",
+              "onset_date": "2022"
+            },
+            {
+              "code": "C78.0",
+              "label": "Secondary malignant neoplasm of lung",
+              "status": "active",
+              "onset_date": "2022"
+            },
+            {
+              "code": "C78.7",
+              "label": "Secondary malignant neoplasm of liver and intrahepatic bile duct",
+              "status": "active",
+              "onset_date": "2022"
+            },
+            {
+              "code": "C79.31",
+              "label": "Secondary malignant neoplasm of brain",
+              "status": "active",
+              "onset_date": "2022"
+            }
+          ]
+        }
+      },
+      "custom_id": "graph_067_N2"
+    },
+    {
+      "id": "N4",
+      "label": "Step 4",
+      "customData": {
+        "node_id": "D",
+        "node_step_index": 3,
+        "content": "Upper and lower GI endoscopy was performed due to microcytosis, which suggested a possible gastrointestinal primary, but no lesions were identified.",
+        "clinical_data": {
+          "procedures": [
+            {
+              "name": "Upper gastrointestinal endoscopy",
+              "date": null,
+              "location": "gastrointestinal tract",
+              "outcome": "no lesions identified"
+            },
+            {
+              "name": "Lower gastrointestinal endoscopy",
+              "date": null,
+              "location": "gastrointestinal tract",
+              "outcome": "no lesions identified"
+            }
+          ],
+          "labs": [
+            {
+              "test": "Microcytosis",
+              "value": null,
+              "unit": null,
+              "flag": "abnormal"
+            }
+          ]
+        }
+      },
+      "custom_id": "graph_067_N3"
+    },
+    {
+      "id": "N5",
+      "label": "Step 5",
+      "customData": {
+        "node_id": "E",
+        "node_step_index": 4,
+        "content": "Stereotactic radiation to the single brain metastasis.",
+        "clinical_data": {
+          "imaging": [
+            {
+              "type": "Brain metastasis",
+              "body_part": "Brain",
+              "modality": "Stereotactic radiation",
+              "finding": "single brain metastasis"
+            }
+          ]
+        }
+      },
+      "custom_id": "graph_067_N4"
+    },
+    {
+      "id": "N6",
+      "label": "Step 6",
+      "customData": {
+        "node_id": "F",
+        "node_step_index": 5,
+        "content": "Received infusional 5-fluorouracil/oxaliplatin (FOLFOX) empirically.",
+        "clinical_data": {
+          "medications": [
+            {
+              "drug": "C0016344",
+              "dosage": null,
+              "frequency": null,
+              "modality": "IV",
+              "start_date": null,
+              "end_date": null,
+              "indication": null
+            },
+            {
+              "drug": "C0029453",
+              "dosage": null,
+              "frequency": null,
+              "modality": "IV",
+              "start_date": null,
+              "end_date": null,
+              "indication": null
+            }
+          ]
+        }
+      },
+      "custom_id": "graph_067_N5"
+    },
+    {
+      "id": "N7",
+      "label": "Step 7",
+      "customData": {
+        "node_id": "G",
+        "node_step_index": 6,
+        "content": "Histopathological analysis of liver lesions identified a spindle cell carcinoma likely pulmonary in origin despite atypical features. High proliferative Ki-67 index (90%).",
+        "clinical_data": {
+          "imaging": [
+            {
+              "body_part": "Liver (T-D770)",
+              "finding": "spindle cell carcinoma",
+              "impression": "likely pulmonary in origin despite atypical features"
+            }
+          ],
+          "labs": [
+            {
+              "test": "Ki-67 protein (Gene)",
+              "value": "90",
+              "unit": "%",
+              "flag": "abnormal"
+            }
+          ]
+        }
+      },
+      "custom_id": "graph_067_N6"
+    },
+    {
+      "id": "N8",
+      "label": "Step 8",
+      "customData": {
+        "node_id": "H",
+        "node_step_index": 7,
+        "content": "Received nine weekly doses of docetaxel with modest shrinkage (approximately 10-15%).",
+        "clinical_data": {
+          "medications": [
+            {
+              "drug": "C0013087",
+              "dosage": null,
+              "frequency": "weekly",
+              "modality": null,
+              "start_date": null,
+              "end_date": null,
+              "indication": null
+            }
+          ]
+        }
+      },
+      "custom_id": "graph_067_N7"
+    },
+    {
+      "id": "N9",
+      "label": "Step 9",
+      "customData": {
+        "node_id": "I",
+        "node_step_index": 8,
+        "content": "Liver biopsy showed metastatic spindle cell carcinoma on H&E stain. Sections demonstrated a spindle cell neoplasm with significant mitotic activity and focal necrosis. Immunohistochemistry showed the tumor cells positive for AE1/AE3 and CK8/18, but negative for Alk-1, CK7, CK20, CDX-2, and CD117.",
+        "clinical_data": {
+          "imaging": [
+            {
+              "type": "Biopsy",
+              "body_part": "Liver",
+              "modality": "other",
+              "finding": "metastatic spindle cell carcinoma on H&E stain. Sections demonstrated a spindle cell neoplasm with significant mitotic activity and focal necrosis. Immunohistochemistry showed the tumor cells positive for AE1/AE3 and CK8/18, but negative for Alk-1, CK7, CK20, CDX-2, and CD117.",
+              "impression": "metastatic spindle cell carcinoma",
+              "date": null
+            }
+          ]
+        }
+      },
+      "custom_id": "graph_067_N8"
+    }
+  ],
+  "edges": [
+    {
+      "from": "N1",
+      "to": "N2",
+      "data": {
+        "edge_id": "A_to_B",
+        "branch_flag": true,
+        "content": "Treatment for stage IIIA NSCLC (adenocarcinoma)."
+      },
+      "custom_id": "graph_067_N1_N2"
+    },
+    {
+      "from": "N2",
+      "to": "N3",
+      "data": {
+        "edge_id": "B_to_C",
+        "branch_flag": true,
+        "content": "Disease progression despite prior treatment."
+      },
+      "custom_id": "graph_067_N2_N3"
+    },
+    {
+      "from": "N3",
+      "to": "N4",
+      "data": {
+        "edge_id": "C_to_D",
+        "branch_flag": true,
+        "content": "Evaluation for possible gastrointestinal primary due to microcytosis."
+      },
+      "custom_id": "graph_067_N3_N4"
+    },
+    {
+      "from": "N4",
+      "to": "N5",
+      "data": {
+        "edge_id": "D_to_E",
+        "branch_flag": true,
+        "content": "Treatment of brain metastasis."
+      },
+      "custom_id": "graph_067_N4_N5"
+    },
+    {
+      "from": "N5",
+      "to": "N6",
+      "data": {
+        "edge_id": "E_to_F",
+        "branch_flag": true,
+        "content": "Empirical chemotherapy regimen initiated."
+      },
+      "custom_id": "graph_067_N5_N6"
+    },
+    {
+      "from": "N6",
+      "to": "N7",
+      "data": {
+        "edge_id": "F_to_G",
+        "branch_flag": true,
+        "content": "Pathological analysis of liver lesions."
+      },
+      "custom_id": "graph_067_N6_N7"
+    },
+    {
+      "from": "N7",
+      "to": "N8",
+      "data": {
+        "edge_id": "G_to_H",
+        "branch_flag": true,
+        "content": "Treatment with docetaxel."
+      },
+      "custom_id": "graph_067_N7_N8"
+    },
+    {
+      "from": "N8",
+      "to": "N9",
+      "data": {
+        "edge_id": "H_to_I",
+        "branch_flag": true,
+        "content": "Further characterization of liver metastasis via biopsy."
+      },
+      "custom_id": "graph_067_N8_N9"
+    }
+  ]
+}

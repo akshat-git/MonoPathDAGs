@@ -1,0 +1,200 @@
+{
+  "nodes": [
+    {
+      "id": "N1",
+      "label": "Step 1",
+      "customData": {
+        "node_id": "A",
+        "node_step_index": 0,
+        "content": "49-year-old male, heavy smoker (37 pack-years), admitted to local hospital with acute abdominal pain. No history of chronic diseases.",
+        "clinical_data": {
+          "social_history": [
+            {
+              "category": "smoking",
+              "status": "current",
+              "description": "37 pack-years"
+            }
+          ],
+          "HPI": [
+            {
+              "summary": "acute abdominal pain"
+            }
+          ]
+        }
+      },
+      "custom_id": "graph_054_N0"
+    },
+    {
+      "id": "N2",
+      "label": "Step 2",
+      "customData": {
+        "node_id": "B",
+        "node_step_index": 1,
+        "content": "Enhanced CT scan revealed a 4.0 cm soft tissue mass within the lumen of the small intestine and mid-lower intestine intussusception. Enhanced CT scan showing a well-defined soft tissue mass in the lumen of the ileum.",
+        "clinical_data": {
+          "imaging": [
+            {
+              "type": "Computed tomography",
+              "body_part": "Small intestine",
+              "modality": "CT",
+              "finding": "4.0 cm soft tissue mass within the lumen of the small intestine and mid-lower intestine intussusception",
+              "date": null
+            },
+            {
+              "type": "Computed tomography",
+              "body_part": "Ileum",
+              "modality": "CT",
+              "finding": "well-defined soft tissue mass in the lumen of the ileum",
+              "date": null
+            }
+          ]
+        }
+      },
+      "custom_id": "graph_054_N1"
+    },
+    {
+      "id": "N3",
+      "label": "Step 3",
+      "customData": {
+        "node_id": "C",
+        "node_step_index": 2,
+        "content": "Admitted to the general surgery ward. Intussusception surgery performed on April 8, 2019. An irregular, hard, solid white mass involving the intestine was identified during surgery. Underwent complete resection of the mass with a partial small intestine resection.",
+        "clinical_data": {
+          "procedures": [
+            {
+              "name": "Intussusception surgery",
+              "date": "2019-04-08",
+              "location": "small intestine",
+              "approach": "open",
+              "outcome": "complete resection of the mass with a partial small intestine resection"
+            }
+          ],
+          "imaging": [
+            {
+              "finding": "irregular, hard, solid white mass involving the intestine",
+              "modality": "other",
+              "body_part": "intestine"
+            }
+          ]
+        }
+      },
+      "custom_id": "graph_054_N2"
+    },
+    {
+      "id": "N4",
+      "label": "Step 4",
+      "customData": {
+        "node_id": "D",
+        "node_step_index": 3,
+        "content": "Resected specimen: multinodular mass with a tan-white cut surface and firm consistency, thin envelope observed in the periphery of the mass. Histology: tumor located within the submucosa and lamina propria of the intestinal wall with mucosal erosion, neoplastic cells embedded within the inflammatory background. Diagnosis: ALK-positive inflammatory myofibroblastic tumor (IMT), highly suspicious for epithelioid inflammatory myofibroblastic sarcoma (EIMS). Immunohistochemistry: ALK(5A4) positive in neoplastic cells.",
+        "clinical_data": {
+          "diagnoses": [
+            {
+              "code": "C49.A3",
+              "label": "Epithelioid inflammatory myofibroblastic sarcoma",
+              "status": "suspected"
+            }
+          ],
+          "imaging": [
+            {
+              "type": "mass",
+              "body_part": "intestinal wall",
+              "modality": "histology",
+              "finding": "tumor located within the submucosa and lamina propria of the intestinal wall with mucosal erosion, neoplastic cells embedded within the inflammatory background"
+            }
+          ]
+        }
+      },
+      "custom_id": "graph_054_N3"
+    },
+    {
+      "id": "N5",
+      "label": "Step 5",
+      "customData": {
+        "node_id": "E",
+        "node_step_index": 4,
+        "content": "Pathology: neoplastic components of fat spindle-shaped cells and large epithelioid cells with ovoid nuclei interwoven with each other distributed in the background of many neutrophil cells. Mitotic activity was frequent (up to 10 per 10 high-power fields)",
+        "Immunohistochemistry": "neoplastic cells showed moderate cytoplasmic positivity for ALK (OTI1H7) and were negative for CD30, CD45, desmin, smooth muscle actin, DOG1, CD117, CD34, and S-100 protein. Neoplastic cells were positive for ALK-V (D5F3) (cytoplasmic pattern), ALK (5A4), thyroid transcription factor 1 (TTF-1, 8G7G3), TTF-1(SPT2), epithelial membrane antigen (EMA), cytokeratin AE1/AE3, and cytokeratin seven (CK",
+        "clinical_data": {
+          "labs": [
+            {
+              "test": "Pathology",
+              "finding": "neoplastic components of fat spindle-shaped cells and large epithelioid cells with ovoid nuclei interwoven with each other distributed in the background of many neutrophil cells. Mitotic activity was frequent (up to 10 per 10 high-power fields)"
+            }
+          ]
+        }
+      },
+      "custom_id": "graph_054_N4"
+    }
+  ],
+  "edges": [
+    {
+      "from": "N1",
+      "to": "N2",
+      "data": {
+        "edge_id": "A_to_B",
+        "branch_flag": true,
+        "content": "Transition from initial presentation of abdominal pain to CT scan findings.",
+        "transition_event": {
+          "trigger_type": "symptom_onset",
+          "trigger_entities": [
+            "C0000729"
+          ],
+          "change_type": "progression",
+          "target_domain": "symptom"
+        }
+      },
+      "custom_id": "graph_054_N1_N2"
+    },
+    {
+      "from": "N2",
+      "to": "N3",
+      "data": {
+        "edge_id": "B_to_C",
+        "branch_flag": true,
+        "content": "Transition from CT scan findings to surgical intervention.",
+        "transition_event": {
+          "trigger_type": "procedure",
+          "trigger_entities": [
+            "C0022084"
+          ],
+          "change_type": "addition",
+          "target_domain": "procedure"
+        }
+      },
+      "custom_id": "graph_054_N2_N3"
+    },
+    {
+      "from": "N3",
+      "to": "N4",
+      "data": {
+        "edge_id": "C_to_D",
+        "branch_flag": true,
+        "content": "Transition from surgical findings to initial pathological diagnosis.",
+        "transition_event": {
+          "trigger_type": "lab_change",
+          "trigger_entities": [],
+          "change_type": "addition",
+          "target_domain": "diagnosis"
+        }
+      },
+      "custom_id": "graph_054_N3_N4"
+    },
+    {
+      "from": "N4",
+      "to": "N5",
+      "data": {
+        "edge_id": "D_to_E",
+        "branch_flag": true,
+        "content": "Transition from initial pathological diagnosis to detailed pathology and immunohistochemistry results.",
+        "transition_event": {
+          "trigger_type": "lab_change",
+          "trigger_entities": [],
+          "change_type": "reinterpretation",
+          "target_domain": "diagnosis"
+        }
+      },
+      "custom_id": "graph_054_N4_N5"
+    }
+  ]
+}

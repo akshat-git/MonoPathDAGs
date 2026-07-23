@@ -1,0 +1,261 @@
+{
+  "nodes": [
+    {
+      "id": "N1",
+      "label": "Step 1",
+      "customData": {
+        "node_id": "A",
+        "node_step_index": 0,
+        "content": "61-year-old male with longstanding abdominal pain, discomfort, bloating, and loss of appetite. No history of chronic disease. Medications prescribed by general practitioners failed to relieve symptoms.",
+        "clinical_data": {
+          "HPI": [
+            {
+              "summary": "61-year-old male with longstanding abdominal pain, discomfort, bloating, and loss of appetite.",
+              "duration": "longstanding",
+              "associated_symptoms": [
+                "Abdominal pain",
+                "Discomfort",
+                "Bloating",
+                "Loss of appetite"
+              ]
+            }
+          ],
+          "social_history": [
+            {
+              "category": "drug use",
+              "status": "never",
+              "description": "No history of chronic disease."
+            },
+            {
+              "category": "alcohol",
+              "status": "never",
+              "description": "No history of chronic disease."
+            },
+            {
+              "category": "smoking",
+              "status": "never",
+              "description": "No history of chronic disease."
+            }
+          ]
+        }
+      }
+    },
+    {
+      "id": "N2",
+      "label": "Step 2",
+      "customData": {
+        "node_id": "B",
+        "node_step_index": 1,
+        "content": "Mild abdominal pain persisted for several years, with increased frequency in the last few weeks. No history of smoking, alcohol consumption, or previous abdominal surgery. Physical examination reveals mild epigastric tenderness.",
+        "clinical_data": {
+          "HPI": [
+            {
+              "summary": "Mild abdominal pain persisted for several years, with increased frequency in the last few weeks.",
+              "duration": "several years",
+              "progression": "fluctuating",
+              "onset": "several years ago",
+              "associated_symptoms": [
+                "Pain"
+              ]
+            }
+          ],
+          "social_history": [
+            {
+              "category": "smoking",
+              "status": "never"
+            },
+            {
+              "category": "alcohol",
+              "status": "never"
+            }
+          ]
+        }
+      }
+    },
+    {
+      "id": "N3",
+      "label": "Step 3",
+      "customData": {
+        "node_id": "C",
+        "node_step_index": 2,
+        "content": "Hemogram and biochemistry panel within normal limits. Abdominal CT detected multiple loculated collection areas in the abdomen, largest in subdiaphragmatic area at the anterior of the liver, adjacent to hepatic segments 8, 4, and 5, measuring 4.7 x 11 x 10 cm. No solid components or pathological contrast enhancement. Indirect hemagglutination test result < 1/80.",
+        "clinical_data": {
+          "labs": [
+            {
+              "test": "Complete Blood Count",
+              "value": "normal",
+              "flag": "normal"
+            },
+            {
+              "test": "Biochemistry panel",
+              "value": "normal",
+              "flag": "normal"
+            },
+            {
+              "test": "Indirect hemagglutination test",
+              "value": "< 1/80"
+            }
+          ],
+          "imaging": [
+            {
+              "type": "CT Abdomen",
+              "body_part": "abdomen",
+              "modality": "CT",
+              "finding": "multiple loculated collection areas in the abdomen, largest in subdiaphragmatic area at the anterior of the liver, adjacent to hepatic segments 8, 4, and 5, measuring 4.7 x 11 x 10 cm. No solid components or pathological contrast enhancement."
+            }
+          ]
+        }
+      }
+    },
+    {
+      "id": "N4",
+      "label": "Step 4",
+      "customData": {
+        "node_id": "D",
+        "node_step_index": 3,
+        "content": "Diagnostic laparotomy revealed a 10 x 15 cm yellowish-pink, soft, fluid-filled multiloculated cystic mass adhered to the anterior surface of the liver. Numerous similar small cystic lesions were scattered on the right paracolic area and peritoneal surfaces. All cystic lesions were excised with LigaSure and electrocautery. Appendectomy was performed.",
+        "clinical_data": {
+          "imaging": [
+            {
+              "body_part": "Liver",
+              "modality": "other",
+              "finding": "10 x 15 cm yellowish-pink, soft, fluid-filled multiloculated cystic mass adhered to the anterior surface of the liver",
+              "date": null
+            }
+          ],
+          "procedures": [
+            {
+              "name": "Laparotomy",
+              "approach": "open",
+              "date": null,
+              "location": "abdomen",
+              "performed_by": null,
+              "outcome": null
+            },
+            {
+              "name": "Excision of cystic lesions",
+              "approach": "open",
+              "date": null,
+              "location": "right paracolic area and peritoneal surfaces",
+              "performed_by": null,
+              "outcome": null
+            },
+            {
+              "name": "Appendectomy",
+              "approach": "open",
+              "date": null,
+              "location": "abdomen",
+              "performed_by": null,
+              "outcome": null
+            }
+          ]
+        }
+      }
+    },
+    {
+      "id": "N5",
+      "label": "Step 5",
+      "customData": {
+        "node_id": "E",
+        "node_step_index": 4,
+        "content": "Axial and coronal CT scan of the abdomen shows a cystic mass (4.7 x 11 x 10 cm) compressing the liver and located at the subdiaphragmatic area adjacent to the liver, with no pathologic contrast enhancement. Gross appearance of surgically excised septated cystic tumor measuring 10 x 15 cm.",
+        "clinical_data": {
+          "imaging": [
+            {
+              "type": "Cystic mass",
+              "body_part": "Abdomen",
+              "modality": "CT",
+              "finding": "Cystic mass (4.7 x 11 x 10 cm) compressing the liver and located at the subdiaphragmatic area adjacent to the liver, with no pathologic contrast enhancement.",
+              "date": null
+            }
+          ],
+          "procedures": [
+            {
+              "name": "Excision",
+              "approach": "open",
+              "date": null,
+              "location": "Abdomen",
+              "performed_by": null,
+              "outcome": null
+            }
+          ]
+        }
+      }
+    },
+    {
+      "id": "N6",
+      "label": "Step 6",
+      "customData": {
+        "node_id": "F",
+        "node_step_index": 5,
+        "content": "Patient was discharged on postoperative day 5 after an uneventful follow-up.",
+        "clinical_data": {}
+      }
+    }
+  ],
+  "edges": [
+    {
+      "from": "N1",
+      "to": "N2",
+      "data": {
+        "edge_id": "A_to_B",
+        "branch_flag": true,
+        "content": "Patient's abdominal pain persists and increases in frequency over several years."
+      }
+    },
+    {
+      "from": "N2",
+      "to": "N3",
+      "data": {
+        "edge_id": "B_to_C",
+        "branch_flag": true,
+        "content": "Workup including hemogram, biochemistry panel, and abdominal CT is performed to investigate the cause of abdominal pain.",
+        "transition_event": {
+          "trigger_type": "procedure",
+          "trigger_entities": [],
+          "change_type": "addition",
+          "target_domain": "imaging"
+        }
+      }
+    },
+    {
+      "from": "N3",
+      "to": "N4",
+      "data": {
+        "edge_id": "C_to_D",
+        "branch_flag": true,
+        "content": "Based on CT findings, diagnostic laparotomy is performed.",
+        "transition_event": {
+          "trigger_type": "procedure",
+          "trigger_entities": [],
+          "change_type": "addition",
+          "target_domain": "procedure"
+        }
+      }
+    },
+    {
+      "from": "N4",
+      "to": "N5",
+      "data": {
+        "edge_id": "D_to_E",
+        "branch_flag": true,
+        "content": "Post-operative imaging and gross examination of the excised mass are performed.",
+        "transition_event": {
+          "trigger_type": "procedure",
+          "trigger_entities": [],
+          "change_type": "addition",
+          "target_domain": "imaging"
+        }
+      }
+    },
+    {
+      "from": "N5",
+      "to": "N6",
+      "data": {
+        "edge_id": "E_to_F",
+        "branch_flag": true,
+        "content": "Patient recovers and is discharged after an uneventful follow-up."
+      }
+    }
+  ]
+}

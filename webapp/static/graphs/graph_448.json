@@ -1,0 +1,279 @@
+{
+  "nodes": [
+    {
+      "id": "N1",
+      "label": "Step 1",
+      "customData": {
+        "node_id": "A",
+        "node_step_index": 0,
+        "content": "Patient presented with right peritoneal cyst. CT scan ruled out hydronephrosis but revealed bilateral cystic masses.",
+        "clinical_data": {
+          "imaging": [
+            {
+              "type": "CT scan",
+              "body_part": "peritoneal",
+              "modality": "CT",
+              "finding": "right peritoneal cyst",
+              "date": null
+            },
+            {
+              "type": "CT scan",
+              "body_part": "kidney",
+              "modality": "CT",
+              "finding": "ruled out hydronephrosis",
+              "date": null
+            },
+            {
+              "type": "CT scan",
+              "body_part": "abdomen",
+              "modality": "CT",
+              "finding": "bilateral cystic masses",
+              "date": null
+            }
+          ]
+        }
+      }
+    },
+    {
+      "id": "N2",
+      "label": "Step 2",
+      "customData": {
+        "node_id": "B",
+        "node_step_index": 1,
+        "content": "Pathology report demonstrated bilateral peritoneal (multilocular) inclusion cysts. Pelvic MRI demonstrated non-complicated cystic lesions bilaterally, most likely peritoneal inclusion cysts, and uterine duplication anomalies.",
+        "clinical_data": {
+          "imaging": [
+            {
+              "type": "Peritoneal inclusion cyst",
+              "body_part": "Peritoneum",
+              "modality": "MRI",
+              "finding": "non-complicated cystic lesions bilaterally",
+              "impression": "most likely peritoneal inclusion cysts, and uterine duplication anomalies"
+            }
+          ],
+          "diagnoses": [
+            {
+              "code": "C0346408",
+              "label": "Peritoneal inclusion cyst",
+              "status": "active"
+            }
+          ]
+        }
+      }
+    },
+    {
+      "id": "N3",
+      "label": "Step 3",
+      "customData": {
+        "node_id": "C",
+        "node_step_index": 2,
+        "content": "Patient underwent cyst drainage under interventional radiology, draining brown fluid; pathology showed no evidence of malignant cells; pain level decreased, and patient was discharged home.",
+        "clinical_data": {
+          "procedures": [
+            {
+              "name": "Cyst drainage",
+              "approach": "percutaneous",
+              "location": "abdomen",
+              "performed_by": "interventional radiology",
+              "outcome": "pain level decreased"
+            }
+          ],
+          "labs": [
+            {
+              "test": "Pathology",
+              "value": "no evidence of malignant cells",
+              "flag": "normal"
+            }
+          ]
+        }
+      }
+    },
+    {
+      "id": "N4",
+      "label": "Step 4",
+      "customData": {
+        "node_id": "D",
+        "node_step_index": 3,
+        "content": "Two weeks later, patient had the same complaint, and her abdominal pain became more severe, but there were no signs of infection. CT of the abdomen and pelvis showed fluid reaccumulating within the cyst.",
+        "clinical_data": {
+          "HPI": [
+            {
+              "summary": "Patient had the same complaint two weeks later.",
+              "duration": "2 weeks",
+              "progression": "unknown"
+            }
+          ],
+          "imaging": [
+            {
+              "type": "CT scan",
+              "body_part": "abdomen and pelvis",
+              "modality": "CT",
+              "finding": "fluid reaccumulating within the cyst",
+              "date": null
+            }
+          ],
+          "diagnoses": [
+            {
+              "code": "71961005",
+              "label": "Abdominal pain",
+              "status": "active",
+              "onset_date": null
+            }
+          ]
+        }
+      }
+    },
+    {
+      "id": "N5",
+      "label": "Step 5",
+      "customData": {
+        "node_id": "E",
+        "node_step_index": 4,
+        "content": "Patient underwent laparotomy with bilateral excision of the peritoneal inclusion cyst; sigmoid colon was injured intraoperatively by a less than 1 cm laceration.",
+        "clinical_data": {
+          "procedures": [
+            {
+              "name": "Laparotomy",
+              "approach": "open",
+              "date": null,
+              "location": "peritoneal cavity",
+              "performed_by": null,
+              "outcome": null
+            },
+            {
+              "name": "Excision of peritoneal inclusion cyst",
+              "approach": "open",
+              "date": null,
+              "location": "peritoneal cavity",
+              "performed_by": null,
+              "outcome": null
+            },
+            {
+              "name": "Repair of sigmoid colon laceration",
+              "approach": "open",
+              "date": null,
+              "location": "sigmoid colon",
+              "performed_by": null,
+              "outcome": null
+            }
+          ]
+        }
+      }
+    },
+    {
+      "id": "N6",
+      "label": "Step 6",
+      "customData": {
+        "node_id": "F",
+        "node_step_index": 5,
+        "content": "Post-operatively, colocutaneous fistula and pelvic collections developed. Fistula was managed conservatively for two weeks with complete resolution, and the fluid collections were drained by interventional radiology.",
+        "clinical_data": {
+          "diagnoses": [
+            {
+              "code": "C0409709",
+              "label": "Colocutaneous fistula",
+              "status": "active"
+            }
+          ],
+          "procedures": [
+            {
+              "name": "Drainage",
+              "approach": "percutaneous",
+              "location": "pelvic",
+              "performed_by": "interventional radiology",
+              "outcome": "complete resolution"
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "edges": [
+    {
+      "from": "N1",
+      "to": "N2",
+      "data": {
+        "edge_id": "A_to_B",
+        "branch_flag": true,
+        "content": "Initial CT scan findings led to further investigation and a pathology report.",
+        "transition_event": {
+          "trigger_type": "imaging",
+          "trigger_entities": [
+            "C0346408"
+          ],
+          "change_type": "addition",
+          "target_domain": "diagnosis"
+        }
+      }
+    },
+    {
+      "from": "N2",
+      "to": "N3",
+      "data": {
+        "edge_id": "B_to_C",
+        "branch_flag": true,
+        "content": "Cyst drainage performed to alleviate symptoms.",
+        "transition_event": {
+          "trigger_type": "procedure",
+          "trigger_entities": [
+            "Cyst drainage"
+          ],
+          "change_type": "addition",
+          "target_domain": "procedure"
+        }
+      }
+    },
+    {
+      "from": "N3",
+      "to": "N4",
+      "data": {
+        "edge_id": "C_to_D",
+        "branch_flag": true,
+        "content": "Recurrence of symptoms and fluid reaccumulation within the cyst.",
+        "transition_event": {
+          "trigger_type": "symptom_onset",
+          "trigger_entities": [
+            "71961005"
+          ],
+          "change_type": "progression",
+          "target_domain": "symptom"
+        }
+      }
+    },
+    {
+      "from": "N4",
+      "to": "N5",
+      "data": {
+        "edge_id": "D_to_E",
+        "branch_flag": true,
+        "content": "Patient underwent laparotomy with bilateral excision of the peritoneal inclusion cyst; sigmoid colon was injured intraoperatively by a less than 1 cm laceration.",
+        "transition_event": {
+          "trigger_type": "procedure",
+          "trigger_entities": [
+            "Laparotomy",
+            "Excision of peritoneal inclusion cyst"
+          ],
+          "change_type": "addition",
+          "target_domain": "procedure"
+        }
+      }
+    },
+    {
+      "from": "N5",
+      "to": "N6",
+      "data": {
+        "edge_id": "E_to_F",
+        "branch_flag": true,
+        "content": "Post-operative complications developed, including colocutaneous fistula and pelvic collections.",
+        "transition_event": {
+          "trigger_type": "symptom_onset",
+          "trigger_entities": [
+            "C0409709"
+          ],
+          "change_type": "addition",
+          "target_domain": "diagnosis"
+        }
+      }
+    }
+  ]
+}

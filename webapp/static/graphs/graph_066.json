@@ -1,0 +1,184 @@
+{
+  "nodes": [
+    {
+      "id": "N1",
+      "label": "Step 1",
+      "customData": {
+        "node_id": "A",
+        "node_step_index": 0,
+        "content": "59-year-old woman presented with a cough. Lung CT scan revealed a 52x53 mm space-occupying lesion in the left lower lobe accompanied by peripheral obstructive inflammation, atelectasis, and multiple enlarged lymph nodes in the mediastinum, located behind and below the left main bronchus, as well as adjacent to the left lower pulmonary vein. Lung cancer with hilar lymph node metastasis diagnosed. R0 resection deemed not possible. Lung puncture biopsy revealed keratinized squamous cell carcinoma. Immunohistochemical staining: CK5/6 positive, P63 positive, P40 positive, Ki-67 positive (10%), Napsin A negative, and CK7 negative. Diagnosed with left lower lobe squamous cell carcinoma (T3N2bM0, Stage IIIB).",
+        "clinical_data": {
+          "imaging": [
+            {
+              "type": "Space-occupying lesion",
+              "body_part": "Left lower lobe",
+              "modality": "CT",
+              "finding": "52x53 mm space-occupying lesion in the left lower lobe accompanied by peripheral obstructive inflammation, atelectasis, and multiple enlarged lymph nodes in the mediastinum, located behind and below the left main bronchus, as well as adjacent to the left lower pulmonary vein.",
+              "impression": "Lung cancer with hilar lymph node metastasis",
+              "date": null
+            }
+          ],
+          "procedures": [
+            {
+              "name": "Lung puncture biopsy",
+              "approach": "percutaneous",
+              "date": null,
+              "location": "Left lower lobe",
+              "performed_by": null,
+              "outcome": "keratinized squamous cell carcinoma"
+            }
+          ],
+          "diagnoses": [
+            {
+              "code": null,
+              "label": "left lower lobe squamous cell carcinoma (T3N2bM0, Stage IIIB)",
+              "status": "active",
+              "onset_date": null
+            }
+          ]
+        }
+      },
+      "custom_id": "graph_066_N0"
+    },
+    {
+      "id": "N2",
+      "label": "Step 2",
+      "customData": {
+        "node_id": "B",
+        "node_step_index": 1,
+        "content": "Treatment: Six cycles of albumin-bound paclitaxel (100 mg/m\u00b2 on day 1, day 8, and day 15), cisplatin (75 mg/m\u00b2 on day 1), and carrelizumab (200 mg on day 1). Chest CT reexamination revealed that the left lower lung lesion had significantly reduced to approximately 23x25 mm. Lymph nodes remained visible.",
+        "clinical_data": {
+          "medications": [
+            {
+              "drug": "C0050544",
+              "dosage": "100 mg/m\u00b2",
+              "frequency": "day 1, day 8, and day 15",
+              "modality": "IV",
+              "indication": "Lung lesion"
+            },
+            {
+              "drug": "C0008849",
+              "dosage": "75 mg/m\u00b2",
+              "frequency": "day 1",
+              "modality": "IV",
+              "indication": "Lung lesion"
+            },
+            {
+              "drug": "carrelizumab",
+              "dosage": "200 mg",
+              "frequency": "day 1",
+              "modality": "IV",
+              "indication": "Lung lesion"
+            }
+          ],
+          "imaging": [
+            {
+              "type": "Lung lesion",
+              "body_part": "Left lower lung",
+              "modality": "CT",
+              "finding": "Significantly reduced to approximately 23x25 mm",
+              "date": null
+            }
+          ]
+        }
+      },
+      "custom_id": "graph_066_N1"
+    },
+    {
+      "id": "N3",
+      "label": "Step 3",
+      "customData": {
+        "node_id": "C",
+        "node_step_index": 2,
+        "content": "Underwent radiotherapy, with a dose of 2 Gy per fraction, administered over a total of 30 fractions. After ten fractions of radiotherapy, the patient developed dyspnea and fever, with a maximum temperature of 38.5\u00b0C. Re-examination of the chest CT showed that the left lower lung lesion had significantly enlarged to a size of 50 \u00d7 51 mm. A lung puncture biopsy of the enlarged part of the lesion was performed, and the pathological findings of the biopsy indicated squamous cell carcinoma. Immunohistochemical staining was positive for CK5/6, P63, and P40, and negative for Napsin A, Syn, and TTF-1. Delayed HPD after 5 months of immunotherapy was confirmed.",
+        "clinical_data": {
+          "procedures": [
+            {
+              "name": "Radiotherapy",
+              "date": null,
+              "location": null,
+              "outcome": null
+            }
+          ],
+          "imaging": [
+            {
+              "type": "Computed tomography of chest",
+              "body_part": "chest",
+              "modality": "CT",
+              "finding": "left lower lung lesion significantly enlarged to a size of 50 \u00d7 51 mm",
+              "date": null
+            }
+          ],
+          "diagnoses": [
+            {
+              "code": "C0007123",
+              "label": "Squamous cell carcinoma",
+              "status": "active",
+              "onset_date": null
+            }
+          ],
+          "HPI": [
+            {
+              "summary": "Patient developed dyspnea and fever after ten fractions of radiotherapy",
+              "onset": null,
+              "progression": "sudden",
+              "associated_symptoms": [
+                "Dyspnea",
+                "Fever"
+              ]
+            }
+          ],
+          "vitals": [
+            {
+              "type": "Fever",
+              "value": "38.5",
+              "unit": "\u00b0C",
+              "timestamp": null
+            }
+          ]
+        }
+      },
+      "custom_id": "graph_066_N2"
+    }
+  ],
+  "edges": [
+    {
+      "from": "N1",
+      "to": "N2",
+      "data": {
+        "edge_id": "A_to_B",
+        "branch_flag": true,
+        "content": "Initiation of treatment with six cycles of albumin-bound paclitaxel (100 mg/m\u00b2 on day 1, day 8, and day 15), cisplatin (75 mg/m\u00b2 on day 1), and carrelizumab (200 mg on day 1).",
+        "transition_event": {
+          "trigger_type": "medication_change",
+          "trigger_entities": [
+            "C0050544",
+            "C0008849",
+            "carrelizumab"
+          ],
+          "change_type": "addition",
+          "target_domain": "medication"
+        }
+      },
+      "custom_id": "graph_066_N1_N2"
+    },
+    {
+      "from": "N2",
+      "to": "N3",
+      "data": {
+        "edge_id": "B_to_C",
+        "branch_flag": true,
+        "content": "Following chemotherapy, the patient underwent radiotherapy (2 Gy per fraction, 30 fractions total). After ten fractions, the patient developed dyspnea and fever (max 38.5\u00b0C). Chest CT showed enlargement of the left lower lung lesion to 50 \u00d7 51 mm. Lung puncture biopsy confirmed squamous cell carcinoma. Delayed HPD after 5 months of immunotherapy was confirmed.",
+        "transition_event": {
+          "trigger_type": "procedure",
+          "trigger_entities": [
+            "radiotherapy"
+          ],
+          "change_type": "addition",
+          "target_domain": "procedure"
+        }
+      },
+      "custom_id": "graph_066_N2_N3"
+    }
+  ]
+}

@@ -1,0 +1,578 @@
+{
+  "nodes": [
+    {
+      "id": "N1",
+      "label": "Step 1",
+      "customData": {
+        "node_id": "A",
+        "node_step_index": 0,
+        "content": "81-year-old never-smoker man with a history of nonischemic heart disease, benign prostatic hyperplasia, and dyslipidemia presented with dyschromic chest and abdomen skin lesions. Physical examination revealed dyschromic macules on the chest and right shoulder. ECOG performance status was 2, requiring continuous oxygen therapy.",
+        "clinical_data": {
+          "diagnoses": [
+            {
+              "code": "C0019208",
+              "label": "Heart Disease",
+              "status": "historical"
+            },
+            {
+              "code": "C0005671",
+              "label": "Benign Prostatic Hyperplasia",
+              "status": "historical"
+            },
+            {
+              "code": "C0012634",
+              "label": "Dyslipidemia",
+              "status": "historical"
+            }
+          ],
+          "HPI": [
+            {
+              "summary": "Patient presented with dyschromic chest and abdomen skin lesions.",
+              "onset": "unknown",
+              "progression": "unknown",
+              "associated_symptoms": [
+                "Dyschromia"
+              ]
+            }
+          ],
+          "social_history": [
+            {
+              "category": "smoking",
+              "status": "never"
+            }
+          ],
+          "ROS": [
+            {
+              "system": "constitutional",
+              "findings": [
+                "C1704425"
+              ]
+            }
+          ]
+        }
+      }
+    },
+    {
+      "id": "N2",
+      "label": "Step 2",
+      "customData": {
+        "node_id": "B",
+        "node_step_index": 1,
+        "content": "October 2022 CT scan revealed thickening in the retrohilar and paramediastinal regions of the lower right lobe, bilateral pleural effusion, carcinomatous lymphangitis, axillary, mediastinal, and retroperitoneal lymphadenopathies, and a solid pancreatic lesion with infiltration of the spleen and left adrenal gland.",
+        "clinical_data": {
+          "imaging": [
+            {
+              "type": "CT scan",
+              "body_part": "lower right lobe",
+              "modality": "CT",
+              "finding": "thickening in the retrohilar and paramediastinal regions",
+              "date": "2022-10"
+            },
+            {
+              "type": "CT scan",
+              "body_part": "pleural space",
+              "modality": "CT",
+              "finding": "bilateral pleural effusion",
+              "date": "2022-10"
+            },
+            {
+              "type": "CT scan",
+              "body_part": "lung",
+              "modality": "CT",
+              "finding": "carcinomatous lymphangitis",
+              "date": "2022-10"
+            },
+            {
+              "type": "CT scan",
+              "body_part": "axillary lymph nodes",
+              "modality": "CT",
+              "finding": "axillary lymphadenopathies",
+              "date": "2022-10"
+            },
+            {
+              "type": "CT scan",
+              "body_part": "mediastinal lymph nodes",
+              "modality": "CT",
+              "finding": "mediastinal lymphadenopathies",
+              "date": "2022-10"
+            },
+            {
+              "type": "CT scan",
+              "body_part": "retroperitoneal lymph nodes",
+              "modality": "CT",
+              "finding": "retroperitoneal lymphadenopathies",
+              "date": "2022-10"
+            },
+            {
+              "type": "CT scan",
+              "body_part": "pancreas",
+              "modality": "CT",
+              "finding": "solid pancreatic lesion with infiltration of the spleen and left adrenal gland",
+              "date": "2022-10"
+            }
+          ]
+        }
+      }
+    },
+    {
+      "id": "N3",
+      "label": "Step 3",
+      "customData": {
+        "node_id": "C",
+        "node_step_index": 2,
+        "content": "Biopsy of skin lesions showed enteric-pattern adenocarcinoma with immunohistochemistry positive for CK20, CDX2, CK7, and villin, and negative for TTF1. Gastroscopy and colonoscopy were negative. Molecular profiling revealed BRAF p.V600E mutation and CTNNB1 S45F mutations. Histopathologic examination reveals vascular neoplastic emboli in the dermis of chest skin. The tumor has a solid and cribriform architecture and enteric differentiation being positive for cytokeratin 7, CDX2, and villin.",
+        "clinical_data": {
+          "diagnoses": [
+            {
+              "code": "C80.1",
+              "label": "Malignant (primary) neoplasm, unspecified, of skin",
+              "status": "active"
+            },
+            {
+              "code": "C80",
+              "label": "Malignant neoplasm without specification of location",
+              "status": "active"
+            }
+          ],
+          "labs": [
+            {
+              "test": "Cytokeratin 20",
+              "value": "positive",
+              "unit": null,
+              "flag": "positive",
+              "reference_range": null
+            },
+            {
+              "test": "CDX2",
+              "value": "positive",
+              "unit": null,
+              "flag": "positive",
+              "reference_range": null
+            },
+            {
+              "test": "Cytokeratin 7",
+              "value": "positive",
+              "unit": null,
+              "flag": "positive",
+              "reference_range": null
+            },
+            {
+              "test": "Villin",
+              "value": "positive",
+              "unit": null,
+              "flag": "positive",
+              "reference_range": null
+            },
+            {
+              "test": "TTF1",
+              "value": "negative",
+              "unit": null,
+              "flag": "negative",
+              "reference_range": null
+            }
+          ],
+          "imaging": [
+            {
+              "type": "Biopsy",
+              "body_part": "Skin lesions",
+              "modality": "other",
+              "finding": "Enteric-pattern adenocarcinoma",
+              "impression": "Enteric-pattern adenocarcinoma"
+            }
+          ]
+        }
+      }
+    },
+    {
+      "id": "N4",
+      "label": "Step 4",
+      "customData": {
+        "node_id": "D",
+        "node_step_index": 4,
+        "content": "November 2022, the patient initiated targeted therapy with dabrafenib (200 mg/d) and trametinib (1.5 mg/d).",
+        "clinical_data": {
+          "medications": [
+            {
+              "drug": "C1608955",
+              "dosage": "200 mg/d",
+              "frequency": null,
+              "modality": null,
+              "start_date": "2022-11",
+              "end_date": null,
+              "indication": null
+            },
+            {
+              "drug": "C3258435",
+              "dosage": "1.5 mg/d",
+              "frequency": null,
+              "modality": null,
+              "start_date": "2022-11",
+              "end_date": null,
+              "indication": null
+            }
+          ]
+        }
+      }
+    },
+    {
+      "id": "N5",
+      "label": "Step 5",
+      "customData": {
+        "node_id": "E",
+        "node_step_index": 5,
+        "content": "After 3 weeks of targeted therapy with dabrafenib and trametinib, objective reduction of skin lesions on the chest and abdomen was observed. The patient experienced G2 rash as a side effect. Clinical conditions gradually improved, and oxygen therapy was no longer required.",
+        "clinical_data": {
+          "medications": [
+            {
+              "drug": "C0886437",
+              "dosage": null,
+              "frequency": null,
+              "modality": null,
+              "start_date": null,
+              "end_date": null,
+              "indication": null
+            },
+            {
+              "drug": "C1641799",
+              "dosage": null,
+              "frequency": null,
+              "modality": null,
+              "start_date": null,
+              "end_date": null,
+              "indication": null
+            }
+          ],
+          "diagnoses": [
+            {
+              "code": "C0037284",
+              "label": "Skin Lesion",
+              "status": "active",
+              "onset_date": null
+            }
+          ],
+          "HPI": [
+            {
+              "summary": "Objective reduction of skin lesions on the chest and abdomen was observed after 3 weeks of targeted therapy with dabrafenib and trametinib. Clinical conditions gradually improved, and oxygen therapy was no longer required.",
+              "duration": "3 weeks",
+              "onset": null,
+              "progression": "gradual",
+              "associated_symptoms": [],
+              "alleviating_factors": [
+                "dabrafenib",
+                "trametinib"
+              ],
+              "exacerbating_factors": []
+            }
+          ],
+          "allergies": [
+            {
+              "substance": "dabrafenib",
+              "reaction": "C4021904",
+              "severity": "moderate",
+              "date_recorded": null
+            }
+          ]
+        }
+      }
+    },
+    {
+      "id": "N6",
+      "label": "Step 6",
+      "customData": {
+        "node_id": "F",
+        "node_step_index": 6,
+        "content": "After 3 months of targeted therapy with dabrafenib and trametinib, a new skin biopsy revealed a complete response and dermal fibrosis.",
+        "clinical_data": {
+          "medications": [
+            {
+              "drug": "C0886430",
+              "dosage": null,
+              "frequency": null,
+              "modality": null,
+              "start_date": null,
+              "end_date": null,
+              "indication": "C0007106"
+            },
+            {
+              "drug": "C1952428",
+              "dosage": null,
+              "frequency": null,
+              "modality": null,
+              "start_date": null,
+              "end_date": null,
+              "indication": "C0007106"
+            }
+          ],
+          "procedures": [
+            {
+              "name": "C0005734",
+              "approach": null,
+              "date": null,
+              "location": "C0225374",
+              "performed_by": null,
+              "outcome": null
+            }
+          ],
+          "diagnoses": [
+            {
+              "code": "C0007106",
+              "label": "Malignant melanoma",
+              "status": "resolved",
+              "onset_date": null
+            }
+          ]
+        }
+      }
+    },
+    {
+      "id": "N7",
+      "label": "Step 7",
+      "customData": {
+        "node_id": "G",
+        "node_step_index": 7,
+        "content": "After approximately 3 months of treatment with dabrafenib and trametinib, a reevaluation CT scan revealed reduction in size of all known disease sites, with the complete resolution of the skin lesions.",
+        "clinical_data": {
+          "imaging": [
+            {
+              "type": "CT scan",
+              "finding": "reduction in size of all known disease sites, with the complete resolution of the skin lesions"
+            }
+          ],
+          "medications": [
+            {
+              "drug": "dabrafenib",
+              "duration": "3 months"
+            },
+            {
+              "drug": "trametinib",
+              "duration": "3 months"
+            }
+          ]
+        }
+      }
+    },
+    {
+      "id": "N8",
+      "label": "Step 8",
+      "customData": {
+        "node_id": "H",
+        "node_step_index": 8,
+        "content": "Approximately 6 months after the initiation of treatment with dabrafenib and trametinib, the CT scan revealed a multisite disease progression, along with the onset of novel skin lesions in the chest. Eastern Cooperative Oncology Group performance status remained stable.",
+        "clinical_data": {
+          "imaging": [
+            {
+              "type": "CT scan",
+              "finding": "multisite disease progression",
+              "date": null
+            }
+          ],
+          "diagnoses": [
+            {
+              "code": null,
+              "label": "disease progression",
+              "status": "active",
+              "onset_date": null
+            }
+          ],
+          "medications": [
+            {
+              "drug": "dabrafenib",
+              "dosage": null,
+              "frequency": null,
+              "modality": null,
+              "start_date": null,
+              "end_date": null,
+              "indication": null
+            },
+            {
+              "drug": "trametinib",
+              "dosage": null,
+              "frequency": null,
+              "modality": null,
+              "start_date": null,
+              "end_date": null,
+              "indication": null
+            }
+          ],
+          "HPI": [
+            {
+              "summary": "onset of novel skin lesions in the chest",
+              "duration": null,
+              "onset": null,
+              "progression": null,
+              "associated_symptoms": [],
+              "alleviating_factors": [],
+              "exacerbating_factors": []
+            }
+          ],
+          "functional_status": [
+            {
+              "domain": "general",
+              "description": "Eastern Cooperative Oncology Group performance status remained stable",
+              "score": null,
+              "scale": "ECOG"
+            }
+          ]
+        }
+      }
+    },
+    {
+      "id": "N9",
+      "label": "Step 9",
+      "customData": {
+        "node_id": "I",
+        "node_step_index": 9,
+        "content": "The patient was addressed to best supportive care.",
+        "clinical_data": {}
+      }
+    },
+    {
+      "id": "N10",
+      "label": "Step 10",
+      "customData": {
+        "node_id": "J",
+        "node_step_index": 10,
+        "content": "The patient died in August 2023.",
+        "clinical_data": {}
+      }
+    }
+  ],
+  "edges": [
+    {
+      "from": "N1",
+      "to": "N2",
+      "data": {
+        "edge_id": "A_to_B",
+        "branch_flag": true,
+        "content": "Patient's condition progressed from initial presentation to the discovery of widespread metastatic disease on CT scan."
+      }
+    },
+    {
+      "from": "N2",
+      "to": "N3",
+      "data": {
+        "edge_id": "B_to_C",
+        "branch_flag": true,
+        "content": "Further investigation of the patient's condition via biopsy of skin lesions, gastroscopy, colonoscopy, and molecular profiling to determine the type and characteristics of the cancer.",
+        "transition_event": {
+          "trigger_type": "procedure",
+          "trigger_entities": [],
+          "change_type": "addition",
+          "target_domain": "diagnosis"
+        }
+      }
+    },
+    {
+      "from": "N3",
+      "to": "N4",
+      "data": {
+        "edge_id": "C_to_D",
+        "branch_flag": true,
+        "content": "Initiation of targeted therapy with dabrafenib and trametinib based on the molecular profiling results.",
+        "transition_event": {
+          "trigger_type": "medication_change",
+          "trigger_entities": [
+            "C1608955",
+            "C3258435"
+          ],
+          "change_type": "addition",
+          "target_domain": "medication",
+          "timestamp": "2022-11"
+        }
+      }
+    },
+    {
+      "from": "N4",
+      "to": "N5",
+      "data": {
+        "edge_id": "D_to_E",
+        "branch_flag": true,
+        "content": "Patient's response to targeted therapy with reduction of skin lesions and improvement in clinical condition, but also experienced a G2 rash as a side effect.",
+        "transition_event": {
+          "trigger_type": "medication_change",
+          "trigger_entities": [
+            "C1608955",
+            "C3258435"
+          ],
+          "change_type": "other",
+          "target_domain": "symptom"
+        }
+      }
+    },
+    {
+      "from": "N5",
+      "to": "N6",
+      "data": {
+        "edge_id": "E_to_F",
+        "branch_flag": true,
+        "content": "Continued targeted therapy leading to a complete response in skin biopsy and dermal fibrosis.",
+        "transition_event": {
+          "trigger_type": "procedure",
+          "trigger_entities": [],
+          "change_type": "reinterpretation",
+          "target_domain": "diagnosis"
+        }
+      }
+    },
+    {
+      "from": "N6",
+      "to": "N7",
+      "data": {
+        "edge_id": "F_to_G",
+        "branch_flag": true,
+        "content": "Reevaluation CT scan reveals reduction in size of all known disease sites, with the complete resolution of the skin lesions after approximately 3 months of treatment with dabrafenib and trametinib.",
+        "transition_event": {
+          "trigger_type": "imaging",
+          "trigger_entities": [],
+          "change_type": "resolution",
+          "target_domain": "imaging"
+        }
+      }
+    },
+    {
+      "from": "N7",
+      "to": "N8",
+      "data": {
+        "edge_id": "G_to_H",
+        "branch_flag": true,
+        "content": "Disease progression after approximately 6 months of treatment with dabrafenib and trametinib, along with the onset of novel skin lesions in the chest.",
+        "transition_event": {
+          "trigger_type": "imaging",
+          "trigger_entities": [],
+          "change_type": "progression",
+          "target_domain": "imaging"
+        }
+      }
+    },
+    {
+      "from": "N8",
+      "to": "N9",
+      "data": {
+        "edge_id": "H_to_I",
+        "branch_flag": true,
+        "content": "Due to disease progression, the patient was addressed to best supportive care.",
+        "transition_event": {
+          "trigger_type": "interpretation",
+          "trigger_entities": [],
+          "change_type": "other",
+          "target_domain": "procedure"
+        }
+      }
+    },
+    {
+      "from": "N9",
+      "to": "N10",
+      "data": {
+        "edge_id": "I_to_J",
+        "branch_flag": true,
+        "content": "The patient died.",
+        "transition_event": {
+          "trigger_type": "spontaneous",
+          "trigger_entities": [],
+          "change_type": "other",
+          "target_domain": "functional_status"
+        }
+      }
+    }
+  ]
+}

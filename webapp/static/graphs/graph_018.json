@@ -1,0 +1,351 @@
+{
+  "nodes": [
+    {
+      "id": "N1",
+      "label": "Step 1",
+      "customData": {
+        "node_id": "A",
+        "node_step_index": 0,
+        "content": "52-year-old male diagnosed with primary lung adenocarcinoma in 2023.",
+        "clinical_data": {
+          "diagnoses": [
+            {
+              "code": "C34",
+              "label": "Primary lung adenocarcinoma",
+              "status": "active",
+              "onset_date": "2023"
+            }
+          ]
+        }
+      },
+      "custom_id": "graph_018_N0"
+    },
+    {
+      "id": "N2",
+      "label": "Step 2",
+      "customData": {
+        "node_id": "B",
+        "node_step_index": 1,
+        "content": "Patient presented with severe, debilitating shoulder pain (VAS 9) in the low dorsal area.",
+        "clinical_data": {
+          "HPI": [
+            {
+              "summary": "severe, debilitating shoulder pain in the low dorsal area",
+              "associated_symptoms": [
+                "C0036153"
+              ]
+            }
+          ],
+          "vitals": [
+            {
+              "type": "Visual Analog Scale",
+              "value": "9",
+              "unit": null
+            }
+          ]
+        }
+      },
+      "custom_id": "graph_018_N1"
+    },
+    {
+      "id": "N3",
+      "label": "Step 3",
+      "customData": {
+        "node_id": "C",
+        "node_step_index": 2,
+        "content": "CT scan revealed a compression fracture of the T8 vertebral body with multiple fracture lines and a mixed lytic-sclerotic tumor component, with the lytic aspect being more prominent in the anterior portion of the vertebral body.",
+        "clinical_data": {
+          "imaging": [
+            {
+              "type": "Computed tomography",
+              "body_part": "T8 vertebral body",
+              "modality": "CT",
+              "finding": "Compression fracture with multiple fracture lines and a mixed lytic-sclerotic tumor component, with the lytic aspect being more prominent in the anterior portion of the vertebral body.",
+              "impression": "Compression fracture of the T8 vertebral body with mixed lytic-sclerotic tumor component"
+            }
+          ]
+        }
+      },
+      "custom_id": "graph_018_N2"
+    },
+    {
+      "id": "N4",
+      "label": "Step 4",
+      "customData": {
+        "node_id": "D",
+        "node_step_index": 3,
+        "content": "Mild posterior wall prominence without significant stenosis of the vertebral canal.",
+        "clinical_data": {
+          "imaging": [
+            {
+              "type": "Posterior wall prominence",
+              "body_part": "Vertebral canal",
+              "modality": "X-ray",
+              "finding": "Mild posterior wall prominence without significant stenosis",
+              "impression": "Mild posterior wall prominence without significant stenosis"
+            }
+          ]
+        }
+      },
+      "custom_id": "graph_018_N3"
+    },
+    {
+      "id": "N5",
+      "label": "Step 5",
+      "customData": {
+        "node_id": "T",
+        "node_step_index": 19,
+        "content": "Patient has a pathological fracture of the T8 vertebra due to metastasis.",
+        "clinical_data": {
+          "diagnoses": [
+            {
+              "code": "C79.5",
+              "label": "Secondary malignant neoplasm of bone and bone marrow",
+              "status": "active",
+              "onset_date": null
+            },
+            {
+              "code": "M84.48",
+              "label": "Pathological fracture, other site",
+              "status": "active",
+              "onset_date": null
+            }
+          ]
+        }
+      },
+      "custom_id": "graph_018_N4"
+    },
+    {
+      "id": "N6",
+      "label": "Step 6",
+      "customData": {
+        "node_id": "U",
+        "node_step_index": 20,
+        "content": "Treated with microwave ablation and the SpineJack system due to an isolated, irregular compression fracture.",
+        "clinical_data": {
+          "procedures": [
+            {
+              "name": "Microwave Ablation",
+              "approach": "other",
+              "location": "spine",
+              "outcome": "treated"
+            },
+            {
+              "name": "SpineJack system",
+              "approach": "other",
+              "location": "spine",
+              "outcome": "treated"
+            }
+          ],
+          "diagnoses": [
+            {
+              "code": "compression fracture",
+              "label": "compression fracture",
+              "status": "active"
+            }
+          ]
+        }
+      },
+      "custom_id": "graph_018_N5"
+    },
+    {
+      "id": "N7",
+      "label": "Step 7",
+      "customData": {
+        "node_id": "P",
+        "node_step_index": 15,
+        "content": "Initial CT scan to assess the lesion\u2019s size, location, and radiological characteristics.",
+        "clinical_data": {
+          "imaging": [
+            {
+              "type": "Computed tomography",
+              "body_part": "lesion",
+              "modality": "CT",
+              "finding": "size, location, and radiological characteristics"
+            }
+          ]
+        }
+      },
+      "custom_id": "graph_018_N6"
+    },
+    {
+      "id": "N8",
+      "label": "Step 8",
+      "customData": {
+        "node_id": "S",
+        "node_step_index": 18,
+        "content": "Patient positioned prone, and conscious sedation is administered using continuous intravenous infusion of fentanyl citrate (0.1 mg/2 mL diluted 1:10 with saline).",
+        "clinical_data": {
+          "medications": [
+            {
+              "drug": "C0016007",
+              "dosage": "0.1 mg",
+              "modality": "IV",
+              "indication": "conscious sedation"
+            }
+          ],
+          "procedures": [
+            {
+              "name": "conscious sedation",
+              "approach": "IV",
+              "performed_by": "unknown"
+            }
+          ]
+        }
+      },
+      "custom_id": "graph_018_N7"
+    },
+    {
+      "id": "N9",
+      "label": "Step 9",
+      "customData": {
+        "node_id": "V",
+        "node_step_index": 21,
+        "content": "Lidocaine (1\u20132%) is administered subcutaneously at the incision site using a 22-gauge intramuscular needle.",
+        "clinical_data": {
+          "medications": [
+            {
+              "drug": "C0023642",
+              "dosage": "1-2%",
+              "modality": "subcutaneous"
+            }
+          ]
+        }
+      },
+      "custom_id": "graph_018_N8"
+    },
+    {
+      "id": "N10",
+      "label": "Step 10",
+      "customData": {
+        "node_id": "W",
+        "node_step_index": 22,
+        "content": "Bupivacaine (0.25%\u20130.5%) is infiltrated around the periosteum using an 18-gauge spinal needle (88 mm). Needle placement is verified with fluoroscopic and",
+        "clinical_data": {
+          "medications": [
+            {
+              "drug": "C0006401",
+              "dosage": "0.25%-0.5%",
+              "modality": "other",
+              "indication": "C0003123"
+            }
+          ],
+          "procedures": [
+            {
+              "name": "C0016581",
+              "approach": "percutaneous",
+              "location": "periosteum"
+            }
+          ],
+          "imaging": [
+            {
+              "modality": "X-ray"
+            }
+          ]
+        }
+      },
+      "custom_id": "graph_018_N9"
+    }
+  ],
+  "edges": [
+    {
+      "from": "N1",
+      "to": "N2",
+      "data": {
+        "edge_id": "A_to_B",
+        "branch_flag": true,
+        "content": "Progression from lung adenocarcinoma diagnosis to presentation with severe shoulder pain."
+      },
+      "custom_id": "graph_018_N1_N2"
+    },
+    {
+      "from": "N2",
+      "to": "N3",
+      "data": {
+        "edge_id": "B_to_C",
+        "branch_flag": true,
+        "content": "Shoulder pain prompts CT scan."
+      },
+      "custom_id": "graph_018_N2_N3"
+    },
+    {
+      "from": "N3",
+      "to": "N4",
+      "data": {
+        "edge_id": "C_to_D",
+        "branch_flag": true,
+        "content": "Further characterization of vertebral canal."
+      },
+      "custom_id": "graph_018_N3_N4"
+    },
+    {
+      "from": "N4",
+      "to": "N5",
+      "data": {
+        "edge_id": "D_to_T",
+        "branch_flag": true,
+        "content": "Diagnosis of pathological fracture due to metastasis."
+      },
+      "custom_id": "graph_018_N4_N5"
+    },
+    {
+      "from": "N5",
+      "to": "N6",
+      "data": {
+        "edge_id": "T_to_U",
+        "branch_flag": true,
+        "content": "Treatment of pathological fracture with microwave ablation and SpineJack system.",
+        "transition_event": {
+          "trigger_type": "procedure",
+          "trigger_entities": [
+            "microwave ablation",
+            "SpineJack system"
+          ],
+          "change_type": "addition",
+          "target_domain": "procedure"
+        }
+      },
+      "custom_id": "graph_018_N5_N6"
+    },
+    {
+      "from": "N6",
+      "to": "N7",
+      "data": {
+        "edge_id": "U_to_P",
+        "branch_flag": true,
+        "content": "Initial CT scan to assess the lesion\u2019s size, location, and radiological characteristics."
+      },
+      "custom_id": "graph_018_N6_N7"
+    },
+    {
+      "from": "N7",
+      "to": "N8",
+      "data": {
+        "edge_id": "P_to_S",
+        "branch_flag": true,
+        "content": "Patient positioned prone, and conscious sedation is administered using continuous intravenous infusion of fentanyl citrate."
+      },
+      "custom_id": "graph_018_N7_N8"
+    },
+    {
+      "from": "N8",
+      "to": "N9",
+      "data": {
+        "edge_id": "S_to_V",
+        "branch_flag": true,
+        "content": "Lidocaine is administered subcutaneously at the incision site."
+      },
+      "custom_id": "graph_018_N8_N9"
+    },
+    {
+      "from": "N9",
+      "to": "N10",
+      "data": {
+        "edge_id": "V_to_W",
+        "branch_flag": true,
+        "content": "Bupivacaine is infiltrated around the periosteum, verified with fluoroscopic guidance."
+      },
+      "custom_id": "graph_018_N9_N10"
+    }
+  ]
+}

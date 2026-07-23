@@ -1,0 +1,304 @@
+{
+  "nodes": [
+    {
+      "id": "N1",
+      "label": "Step 1",
+      "customData": {
+        "node_id": "A",
+        "node_step_index": 0,
+        "content": "73-year-old male with lung cancer underwent bone scintigraphy for disease staging.",
+        "clinical_data": {
+          "imaging": [
+            {
+              "type": "Bone scintigraphy",
+              "body_part": "bone",
+              "modality": "other",
+              "finding": null,
+              "impression": "disease staging",
+              "date": null
+            }
+          ],
+          "diagnoses": [
+            {
+              "code": "C0024117",
+              "label": "Lung Cancer",
+              "status": "active",
+              "onset_date": null
+            }
+          ],
+          "social_history": [
+            {
+              "category": "age",
+              "status": "current",
+              "description": "73-year-old"
+            },
+            {
+              "category": "gender",
+              "status": "current",
+              "description": "male"
+            }
+          ]
+        }
+      }
+    },
+    {
+      "id": "N2",
+      "label": "Step 2",
+      "customData": {
+        "node_id": "B",
+        "node_step_index": 1,
+        "content": "Planar whole-body bone scintigraphy was performed in the anterior and posterior projections 3 hours after the injection of 740 MBq (20 mCi) of 99m technetium hydroxymethylene diphosphonate (99mTc-HMDP).",
+        "clinical_data": {
+          "imaging": [
+            {
+              "type": "Bone scintigraphy",
+              "body_part": "Whole body",
+              "modality": "other",
+              "finding": null,
+              "impression": null,
+              "date": null
+            }
+          ],
+          "medications": [
+            {
+              "drug": "Technetium Tc-99m hydroxymethylene diphosphonate",
+              "dosage": "740 MBq",
+              "frequency": null,
+              "modality": "IV",
+              "start_date": null,
+              "end_date": null,
+              "indication": null
+            }
+          ]
+        }
+      }
+    },
+    {
+      "id": "N3",
+      "label": "Step 3",
+      "customData": {
+        "node_id": "C",
+        "node_step_index": 2,
+        "content": "Bone scintigraphy images incidentally demonstrated diffuse myocardial tracer uptake. Cardiac amyloidosis was suspected, although the patient had no symptoms at this time.",
+        "clinical_data": {
+          "imaging": [
+            {
+              "type": "Bone scintigraphy",
+              "body_part": "Myocardium",
+              "modality": "other",
+              "finding": "diffuse myocardial tracer uptake",
+              "impression": "Cardiac amyloidosis suspected"
+            }
+          ],
+          "diagnoses": [
+            {
+              "code": "C0002725",
+              "label": "Amyloidosis",
+              "status": "suspected"
+            }
+          ],
+          "HPI": [
+            {
+              "summary": "No symptoms at this time"
+            }
+          ]
+        }
+      }
+    },
+    {
+      "id": "N4",
+      "label": "Step 4",
+      "customData": {
+        "node_id": "D",
+        "node_step_index": 3,
+        "content": "Cardiac uptake on planar imaging at 3 hours was grade 3, indicating uptake greater than rib uptake with mild rib uptake. SPECT showed strong uptake in the ventricular septum.",
+        "clinical_data": {
+          "imaging": [
+            {
+              "type": "Cardiac uptake",
+              "body_part": "Ventricular septum",
+              "modality": "SPECT",
+              "finding": "strong uptake"
+            },
+            {
+              "type": "Cardiac uptake",
+              "modality": "planar imaging",
+              "finding": "uptake greater than rib uptake with mild rib uptake",
+              "date": "3 hours"
+            }
+          ]
+        }
+      }
+    },
+    {
+      "id": "N5",
+      "label": "Step 5",
+      "customData": {
+        "node_id": "E",
+        "node_step_index": 4,
+        "content": "Cardiac magnetic resonance imaging (CMR) showed widespread subendocardial and partly transmural enhancement of the left ventricular myocardium on delayed postcontrast T1-weighted images. 18F-FDG PET/CT revealed tracer uptake (SUVmax=6.2) in the left ventricle wall. Cardiac ultrasound showed a dilated left atrium and left ventricle diastolic dysfunction. Ejection fraction estimated at 55%.",
+        "clinical_data": {
+          "imaging": [
+            {
+              "type": "Cardiac magnetic resonance imaging",
+              "body_part": "Left ventricular myocardium",
+              "modality": "MRI",
+              "finding": "widespread subendocardial and partly transmural enhancement on delayed postcontrast T1-weighted images"
+            },
+            {
+              "type": "18F-FDG PET/CT",
+              "body_part": "Left ventricle wall",
+              "modality": "PET",
+              "finding": "tracer uptake (SUVmax=6.2)"
+            },
+            {
+              "type": "Cardiac ultrasound",
+              "body_part": "Left atrium",
+              "modality": "Ultrasound",
+              "finding": "dilated"
+            },
+            {
+              "type": "Cardiac ultrasound",
+              "body_part": "Left ventricle",
+              "modality": "Ultrasound",
+              "finding": "diastolic dysfunction"
+            }
+          ],
+          "vitals": [
+            {
+              "type": "Ejection fraction",
+              "value": "55",
+              "unit": "%"
+            }
+          ]
+        }
+      }
+    },
+    {
+      "id": "N6",
+      "label": "Step 6",
+      "customData": {
+        "node_id": "F",
+        "node_step_index": 5,
+        "content": "Interventricular septum (IVS) and left ventricular posterior wall (LVPW) were slightly thicker (13 mm). No monoclonal protein was identified. Endomyocardial biopsy demonstrated diffuse amyloid deposition in the stroma of the myocardium with haematoxylin-eosin staining.",
+        "clinical_data": {
+          "imaging": [
+            {
+              "type": "Heart structure (T-001)",
+              "body_part": "Interventricular septum (T-023)",
+              "modality": "other",
+              "finding": "slightly thicker (13 mm)"
+            },
+            {
+              "type": "Heart structure (T-001)",
+              "body_part": "Left ventricular posterior wall (T-023)",
+              "modality": "other",
+              "finding": "slightly thicker (13 mm)"
+            }
+          ],
+          "labs": [
+            {
+              "test": "Monoclonal protein (T-060)",
+              "value": "No",
+              "flag": "normal"
+            }
+          ],
+          "procedures": [
+            {
+              "name": "Endomyocardial biopsy (T-061)",
+              "location": "Myocardium (T-023)",
+              "outcome": "diffuse amyloid deposition in the stroma of the myocardium with haematoxylin-eosin staining"
+            }
+          ],
+          "diagnoses": [
+            {
+              "code": "C0002754",
+              "label": "Amyloidosis",
+              "status": "active"
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "edges": [
+    {
+      "from": "N1",
+      "to": "N2",
+      "data": {
+        "edge_id": "A_to_B",
+        "branch_flag": true,
+        "content": "Patient underwent bone scintigraphy for lung cancer staging, followed by planar whole-body bone scintigraphy with 99mTc-HMDP."
+      }
+    },
+    {
+      "from": "N2",
+      "to": "N3",
+      "data": {
+        "edge_id": "B_to_C",
+        "branch_flag": true,
+        "content": "Bone scintigraphy incidentally showed diffuse myocardial tracer uptake, raising suspicion for cardiac amyloidosis.",
+        "transition_event": {
+          "trigger_type": "interpretation",
+          "trigger_entities": [
+            "C0024117",
+            "C0002725"
+          ],
+          "change_type": "addition",
+          "target_domain": "diagnosis"
+        }
+      }
+    },
+    {
+      "from": "N3",
+      "to": "N4",
+      "data": {
+        "edge_id": "C_to_D",
+        "branch_flag": true,
+        "content": "Cardiac uptake on planar imaging was grade 3, with SPECT showing strong uptake in the ventricular septum.",
+        "transition_event": {
+          "trigger_type": "imaging",
+          "trigger_entities": [
+            "C0002725"
+          ],
+          "change_type": "progression",
+          "target_domain": "imaging"
+        }
+      }
+    },
+    {
+      "from": "N4",
+      "to": "N5",
+      "data": {
+        "edge_id": "D_to_E",
+        "branch_flag": true,
+        "content": "CMR showed subendocardial and transmural enhancement of the left ventricular myocardium. PET/CT revealed tracer uptake in the left ventricle wall. Cardiac ultrasound showed a dilated left atrium and left ventricle diastolic dysfunction. Ejection fraction estimated at 55%.",
+        "transition_event": {
+          "trigger_type": "imaging",
+          "trigger_entities": [
+            "C0002725"
+          ],
+          "change_type": "progression",
+          "target_domain": "imaging"
+        }
+      }
+    },
+    {
+      "from": "N5",
+      "to": "N6",
+      "data": {
+        "edge_id": "E_to_F",
+        "branch_flag": true,
+        "content": "IVS and LVPW were slightly thicker. No monoclonal protein was identified. Endomyocardial biopsy demonstrated diffuse amyloid deposition in the stroma of the myocardium.",
+        "transition_event": {
+          "trigger_type": "procedure",
+          "trigger_entities": [
+            "C0002725"
+          ],
+          "change_type": "progression",
+          "target_domain": "diagnosis"
+        }
+      }
+    }
+  ]
+}

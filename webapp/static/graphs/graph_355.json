@@ -1,0 +1,352 @@
+{
+  "nodes": [
+    {
+      "id": "N1",
+      "label": "Step 1",
+      "customData": {
+        "node_id": "A",
+        "node_step_index": 0,
+        "content": "72-year-old male heavy smoker (50 pack-years) found to have a 2.9 cm x 2.6 cm space-occupying lesion near the lung hilum and mild fibrotic changes of unclear origin during a routine examination in December 2020.",
+        "timestamp": "2020-12",
+        "clinical_data": {
+          "social_history": [
+            {
+              "category": "smoking",
+              "status": "past",
+              "description": "heavy smoker (50 pack-years)"
+            }
+          ],
+          "imaging": [
+            {
+              "type": "Space-occupying lesion",
+              "body_part": "Lung hilum",
+              "modality": "other",
+              "finding": "2.9 cm x 2.6 cm space-occupying lesion near the lung hilum and mild fibrotic changes",
+              "impression": "2.9 cm x 2.6 cm space-occupying lesion near the lung hilum and mild fibrotic changes of unclear origin",
+              "date": "2020-12"
+            }
+          ]
+        }
+      }
+    },
+    {
+      "id": "N2",
+      "label": "Step 2",
+      "customData": {
+        "node_id": "B",
+        "node_step_index": 1,
+        "content": "Diagnosis of squamous cell lung carcinoma (SqCLC; T1N1MO, stage IIb) confirmed via EBUS-TBNA pathological examination and PET-CT.",
+        "timestamp": "2020-12",
+        "clinical_data": {
+          "diagnoses": [
+            {
+              "code": "C0009402",
+              "label": "Squamous cell carcinoma of lung",
+              "status": "active",
+              "onset_date": null
+            }
+          ],
+          "imaging": [
+            {
+              "type": "Positron emission tomography",
+              "body_part": "Lung",
+              "modality": "PET",
+              "finding": null,
+              "impression": null,
+              "date": null
+            },
+            {
+              "type": "Computed tomography",
+              "body_part": "Lung",
+              "modality": "CT",
+              "finding": null,
+              "impression": null,
+              "date": null
+            }
+          ],
+          "procedures": [
+            {
+              "name": "Endobronchial ultrasound-guided transbronchial needle aspiration",
+              "approach": "endoscopic",
+              "date": null,
+              "location": "Lung",
+              "performed_by": null,
+              "outcome": null
+            }
+          ]
+        }
+      }
+    },
+    {
+      "id": "N3",
+      "label": "Step 3",
+      "customData": {
+        "node_id": "C",
+        "node_step_index": 2,
+        "content": "Genomic sequencing showed no driver mutation for targeted therapy (ALK(\u2212), BRAF(\u2212), BRCA1(\u2212), BRCA2(\u2212), EGFR(\u2212), ERBB2(HER2)(\u2212), FGFR2(\u2212), FGFR3(\u2212), KIT(\u2212), KRAS(\u2212), MET(\u2212), NRAS(\u2212), NTRK1(\u2212), NTRK2 (\u2013), NTRK3(\u2212), PDGFRA(\u2212), RET(\u2212), ROS1(\u2212), and IDH2(+)).",
+        "timestamp": "2020-12",
+        "clinical_data": {
+          "labs": [
+            {
+              "test": "IDH2 gene",
+              "value": "positive"
+            }
+          ],
+          "diagnoses": [
+            {
+              "code": "C0444688",
+              "label": "Mutation",
+              "status": "active"
+            }
+          ]
+        }
+      }
+    },
+    {
+      "id": "N4",
+      "label": "Step 4",
+      "customData": {
+        "node_id": "D",
+        "node_step_index": 3,
+        "content": "PD-L1 positive (TPS=25%, IPS<1%, tested using a Ventana SP263 assay), with tumor mutation burden of 7.26 Muts/Mb (tested using a next-generation sequencing (NGS) panel and paired with peripheral blood sample sequencing).",
+        "timestamp": "2020-12",
+        "clinical_data": {
+          "labs": [
+            {
+              "test": "Tumor Mutation Burden",
+              "value": "7.26",
+              "unit": "Muts/Mb"
+            }
+          ]
+        }
+      }
+    },
+    {
+      "id": "N5",
+      "label": "Step 5",
+      "customData": {
+        "node_id": "E",
+        "node_step_index": 4,
+        "content": "Genetic mutations related to immunotherapy: CD274(-), PDCD1LG2(-), MLH1(-), MSH2(-), MSH6(-), PMS2(-), POLD1(-), POLE(-), TP53(+), ATM(-), ATR(-), BRIP1(-), CHEK2(-), FANCA(-), RAD50(-), PALB2(-), CHEK1(-), MRE11(-), PBRM1(-), MDM2(-), MDM4(-), DNMT3A(-), JAK1(-), JAK2(+), PTEN(-), STK11(-), CCND1(-), FGF19(-), FGF3(-), FGF4(-).",
+        "timestamp": null,
+        "clinical_data": {
+          "diagnoses": [
+            {
+              "code": "C0006826",
+              "label": "Mutation",
+              "status": "active"
+            }
+          ],
+          "genetic_mutations": [
+            {
+              "gene": "CD274",
+              "status": "negative"
+            },
+            {
+              "gene": "PDCD1LG2",
+              "status": "negative"
+            },
+            {
+              "gene": "MLH1",
+              "status": "negative"
+            },
+            {
+              "gene": "MSH2",
+              "status": "negative"
+            },
+            {
+              "gene": "MSH6",
+              "status": "negative"
+            },
+            {
+              "gene": "PMS2",
+              "status": "negative"
+            },
+            {
+              "gene": "POLD1",
+              "status": "negative"
+            },
+            {
+              "gene": "POLE",
+              "status": "negative"
+            },
+            {
+              "gene": "TP53",
+              "status": "positive"
+            },
+            {
+              "gene": "ATM",
+              "status": "negative"
+            },
+            {
+              "gene": "ATR",
+              "status": "negative"
+            },
+            {
+              "gene": "BRIP1",
+              "status": "negative"
+            },
+            {
+              "gene": "CHEK2",
+              "status": "negative"
+            },
+            {
+              "gene": "FANCA",
+              "status": "negative"
+            },
+            {
+              "gene": "RAD50",
+              "status": "negative"
+            },
+            {
+              "gene": "PALB2",
+              "status": "negative"
+            },
+            {
+              "gene": "CHEK1",
+              "status": "negative"
+            },
+            {
+              "gene": "MRE11",
+              "status": "negative"
+            },
+            {
+              "gene": "PBRM1",
+              "status": "negative"
+            },
+            {
+              "gene": "MDM2",
+              "status": "negative"
+            },
+            {
+              "gene": "MDM4",
+              "status": "negative"
+            },
+            {
+              "gene": "DNMT3A",
+              "status": "negative"
+            },
+            {
+              "gene": "JAK1",
+              "status": "negative"
+            },
+            {
+              "gene": "JAK2",
+              "status": "positive"
+            },
+            {
+              "gene": "PTEN",
+              "status": "negative"
+            },
+            {
+              "gene": "STK11",
+              "status": "negative"
+            },
+            {
+              "gene": "CCND1",
+              "status": "negative"
+            },
+            {
+              "gene": "FGF19",
+              "status": "negative"
+            },
+            {
+              "gene": "FGF3",
+              "status": "negative"
+            },
+            {
+              "gene": "FGF4",
+              "status": "negative"
+            }
+          ]
+        }
+      }
+    },
+    {
+      "id": "N6",
+      "label": "Step 6",
+      "customData": {
+        "node_id": "F",
+        "node_step_index": 5,
+        "content": "",
+        "clinical_data": {}
+      }
+    }
+  ],
+  "edges": [
+    {
+      "from": "N1",
+      "to": "N2",
+      "data": {
+        "edge_id": "A_to_B",
+        "branch_flag": true,
+        "content": "Transition from initial finding of a space-occupying lesion to diagnosis of squamous cell lung carcinoma (SqCLC; T1N1MO, stage IIb) confirmed via EBUS-TBNA pathological examination and PET-CT.",
+        "transition_event": {
+          "trigger_type": "interpretation",
+          "trigger_entities": [
+            "C0009402"
+          ],
+          "change_type": "addition",
+          "target_domain": "diagnosis",
+          "timestamp": "2020-12"
+        }
+      }
+    },
+    {
+      "from": "N2",
+      "to": "N3",
+      "data": {
+        "edge_id": "B_to_C",
+        "branch_flag": true,
+        "content": "Transition from diagnosis of SqCLC to genomic sequencing results showing no driver mutation for targeted therapy (ALK(\u2212), BRAF(\u2212), BRCA1(\u2212), BRCA2(\u2212), EGFR(\u2212), ERBB2(HER2)(\u2212), FGFR2(\u2212), FGFR3(\u2212), KIT(\u2212), KRAS(\u2212), MET(\u2212), NRAS(\u2212), NTRK1(\u2212), NTRK2 (\u2013), NTRK3(\u2212), PDGFRA(\u2212), RET(\u2212), ROS1(\u2212), and IDH2(+)).",
+        "transition_event": {
+          "trigger_type": "lab_change",
+          "trigger_entities": [],
+          "change_type": "other",
+          "target_domain": "lab",
+          "timestamp": "2020-12"
+        }
+      }
+    },
+    {
+      "from": "N3",
+      "to": "N4",
+      "data": {
+        "edge_id": "C_to_D",
+        "branch_flag": true,
+        "content": "Transition from genomic sequencing results to PD-L1 positive (TPS=25%, IPS<1%, tested using a Ventana SP263 assay), with tumor mutation burden of 7.26 Muts/Mb (tested using a next-generation sequencing (NGS) panel and paired with peripheral blood sample sequencing).",
+        "transition_event": {
+          "trigger_type": "lab_change",
+          "trigger_entities": [],
+          "change_type": "other",
+          "target_domain": "lab",
+          "timestamp": "2020-12"
+        }
+      }
+    },
+    {
+      "from": "N4",
+      "to": "N5",
+      "data": {
+        "edge_id": "D_to_E",
+        "branch_flag": true,
+        "content": "Transition from PD-L1 and TMB results to genetic mutations related to immunotherapy: CD274(-), PDCD1LG2(-), MLH1(-), MSH2(-), MSH6(-), PMS2(-), POLD1(-), POLE(-), TP53(+), ATM(-), ATR(-), BRIP1(-), CHEK2(-), FANCA(-), RAD50(-), PALB2(-), CHEK1(-), MRE11(-), PBRM1(-), MDM2(-), MDM4(-), DNMT3A(-), JAK1(-), JAK2(+), PTEN(-), STK11(-), CCND1(-), FGF19(-), FGF3(-), FGF4(-).",
+        "transition_event": {
+          "trigger_type": "lab_change",
+          "trigger_entities": [],
+          "change_type": "other",
+          "target_domain": "lab"
+        }
+      }
+    },
+    {
+      "from": "N5",
+      "to": "N6",
+      "data": {
+        "edge_id": "E_to_F",
+        "branch_flag": true,
+        "content": "Transition to an empty node."
+      }
+    }
+  ]
+}

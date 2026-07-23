@@ -1,0 +1,327 @@
+{
+  "nodes": [
+    {
+      "id": "N1",
+      "label": "Step 1",
+      "customData": {
+        "node_id": "A",
+        "node_step_index": 0,
+        "content": "72-year-old man with no smoking history underwent a right upper lobectomy for adenosquamous carcinoma.",
+        "clinical_data": {
+          "procedures": [
+            {
+              "name": "Right upper lobectomy",
+              "date": null,
+              "location": "Right upper lobe",
+              "approach": "open"
+            }
+          ],
+          "diagnoses": [
+            {
+              "code": "C44294",
+              "label": "Adenosquamous Carcinoma",
+              "status": "active",
+              "onset_date": null
+            }
+          ],
+          "social_history": [
+            {
+              "category": "smoking",
+              "status": "never",
+              "description": "no smoking history"
+            }
+          ]
+        }
+      }
+    },
+    {
+      "id": "N2",
+      "label": "Step 2",
+      "customData": {
+        "node_id": "B",
+        "node_step_index": 1,
+        "content": "Preoperative fluorine\u201018 fluorodeoxyglucose positron emission tomography\u2010CT scan showed no metastasis.",
+        "clinical_data": {
+          "imaging": [
+            {
+              "type": "Fluorine-18 fluorodeoxyglucose positron emission tomography-CT scan",
+              "body_part": null,
+              "modality": "PET",
+              "finding": "no metastasis",
+              "impression": "no metastasis",
+              "date": null
+            }
+          ]
+        }
+      }
+    },
+    {
+      "id": "N3",
+      "label": "Step 3",
+      "customData": {
+        "node_id": "C",
+        "node_step_index": 2,
+        "content": "Resected specimen showed adenosquamous carcinoma measuring 6.5 cm x 4 cm x 3.5 cm with visceral pleural invasion and lymphovascular permeation. Surgical margins were clear and the resected intrathoracic lymph nodes were free of metastasis (pathological stage IIB [pT3N0M0]).",
+        "clinical_data": {
+          "diagnoses": [
+            {
+              "code": "C34",
+              "label": "Malignant neoplasm of bronchus and lung",
+              "status": "active"
+            }
+          ],
+          "imaging": [
+            {
+              "type": "imaging",
+              "body_part": "lung",
+              "modality": "CT",
+              "finding": "adenosquamous carcinoma measuring 6.5 cm x 4 cm x 3.5 cm with visceral pleural invasion and lymphovascular permeation",
+              "impression": "adenosquamous carcinoma measuring 6.5 cm x 4 cm x 3.5 cm with visceral pleural invasion and lymphovascular permeation"
+            }
+          ],
+          "procedures": [
+            {
+              "name": "surgical resection",
+              "approach": "open",
+              "location": "intrathoracic",
+              "outcome": "clear surgical margins and resected intrathoracic lymph nodes were free of metastasis"
+            }
+          ]
+        }
+      }
+    },
+    {
+      "id": "N4",
+      "label": "Step 4",
+      "customData": {
+        "node_id": "D",
+        "node_step_index": 3,
+        "content": "Adjuvant chemotherapy with cisplatin 75 mg/m2 on day 1 and vinorelbine 25 mg/m2 on days 1 and 8 every three weeks for four cycles.",
+        "clinical_data": {
+          "medications": [
+            {
+              "drug": "C0008868",
+              "dosage": "75 mg/m2",
+              "frequency": "every three weeks",
+              "modality": "IV",
+              "start_date": null,
+              "end_date": null,
+              "indication": "adjuvant chemotherapy"
+            },
+            {
+              "drug": "C0042903",
+              "dosage": "25 mg/m2",
+              "frequency": "days 1 and 8 every three weeks",
+              "modality": "IV",
+              "start_date": null,
+              "end_date": null,
+              "indication": "adjuvant chemotherapy"
+            }
+          ]
+        }
+      }
+    },
+    {
+      "id": "N5",
+      "label": "Step 5",
+      "customData": {
+        "node_id": "E",
+        "node_step_index": 4,
+        "content": "Repeat CT examination eight months post-surgery showed a recurrent tumor at the apex of the remaining right lung measuring 7.0 cm x 6.6 cm x 3.7 cm.",
+        "clinical_data": {
+          "imaging": [
+            {
+              "type": "Neoplasm, recurrent (finding)",
+              "body_part": "Lung",
+              "modality": "CT",
+              "finding": "Recurrent tumor at the apex of the remaining right lung measuring 7.0 cm x 6.6 cm x 3.7 cm",
+              "date": "None"
+            }
+          ]
+        }
+      }
+    },
+    {
+      "id": "N6",
+      "label": "Step 6",
+      "customData": {
+        "node_id": "F",
+        "node_step_index": 5,
+        "content": "Surgical resection of the recurrent tumor and reconstruction of the chest wall was performed. Histopathological examination revealed a high grade pleomorphic sarcoma with no epithelial elements.",
+        "clinical_data": {
+          "procedures": [
+            {
+              "name": "Surgical resection",
+              "approach": "open",
+              "location": "chest wall",
+              "outcome": "resection of recurrent tumor"
+            },
+            {
+              "name": "Reconstruction of chest wall",
+              "approach": "open",
+              "location": "chest wall"
+            }
+          ],
+          "diagnoses": [
+            {
+              "code": "C0340539",
+              "label": "Pleomorphic Sarcoma",
+              "status": "active"
+            }
+          ],
+          "imaging": [
+            {
+              "finding": "recurrent tumor",
+              "body_part": "chest wall"
+            }
+          ],
+          "labs": [
+            {
+              "test": "Histopathological examination",
+              "value": "high grade pleomorphic sarcoma with no epithelial elements",
+              "flag": "abnormal"
+            }
+          ]
+        }
+      }
+    },
+    {
+      "id": "N7",
+      "label": "Step 7",
+      "customData": {
+        "node_id": "G",
+        "node_step_index": 6,
+        "content": "Tumor cells were strongly positive for vimentin and negative for cytokeratin (CK) 5 and 6, and thyroid transcription factor-1 (TTF-1). Malignant glandular component made up of dysplastic cells arranged in distinct confluent glandular-cribriform clusters.",
+        "clinical_data": {
+          "labs": [
+            {
+              "test": "Vimentin",
+              "value": "positive",
+              "flag": "abnormal"
+            },
+            {
+              "test": "Cytokeratin 5",
+              "value": "negative",
+              "flag": "abnormal"
+            },
+            {
+              "test": "Cytokeratin 6",
+              "value": "negative",
+              "flag": "abnormal"
+            },
+            {
+              "test": "Thyroid Transcription Factor-1",
+              "value": "negative",
+              "flag": "abnormal"
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "edges": [
+    {
+      "from": "N1",
+      "to": "N2",
+      "data": {
+        "edge_id": "A_to_B",
+        "branch_flag": true,
+        "content": "Evaluation for metastasis after right upper lobectomy for adenosquamous carcinoma.",
+        "transition_event": {
+          "trigger_type": "procedure",
+          "trigger_entities": [
+            "C0751549"
+          ],
+          "change_type": "other",
+          "target_domain": "imaging"
+        }
+      }
+    },
+    {
+      "from": "N2",
+      "to": "N3",
+      "data": {
+        "edge_id": "B_to_C",
+        "branch_flag": true,
+        "content": "Pathological findings post-resection.",
+        "transition_event": {
+          "trigger_type": "procedure",
+          "trigger_entities": [
+            "C0751549"
+          ],
+          "change_type": "other",
+          "target_domain": "diagnosis"
+        }
+      }
+    },
+    {
+      "from": "N3",
+      "to": "N4",
+      "data": {
+        "edge_id": "C_to_D",
+        "branch_flag": true,
+        "content": "Initiation of adjuvant chemotherapy following surgical resection.",
+        "transition_event": {
+          "trigger_type": "medication_change",
+          "trigger_entities": [
+            "C0008868",
+            "C0042903"
+          ],
+          "change_type": "addition",
+          "target_domain": "medication"
+        }
+      }
+    },
+    {
+      "from": "N4",
+      "to": "N5",
+      "data": {
+        "edge_id": "D_to_E",
+        "branch_flag": true,
+        "content": "Surveillance imaging reveals tumor recurrence.",
+        "transition_event": {
+          "trigger_type": "spontaneous",
+          "trigger_entities": [],
+          "change_type": "progression",
+          "target_domain": "imaging"
+        }
+      }
+    },
+    {
+      "from": "N5",
+      "to": "N6",
+      "data": {
+        "edge_id": "E_to_F",
+        "branch_flag": true,
+        "content": "Surgical resection of recurrent tumor and chest wall reconstruction.",
+        "transition_event": {
+          "trigger_type": "procedure",
+          "trigger_entities": [
+            "C0751549"
+          ],
+          "change_type": "other",
+          "target_domain": "procedure"
+        }
+      }
+    },
+    {
+      "from": "N6",
+      "to": "N7",
+      "data": {
+        "edge_id": "F_to_G",
+        "branch_flag": true,
+        "content": "Histopathological examination and tumor marker analysis following resection of recurrent tumor.",
+        "transition_event": {
+          "trigger_type": "lab_change",
+          "trigger_entities": [
+            "C0042963",
+            "C0175633",
+            "C1445730"
+          ],
+          "change_type": "reinterpretation",
+          "target_domain": "diagnosis"
+        }
+      }
+    }
+  ]
+}

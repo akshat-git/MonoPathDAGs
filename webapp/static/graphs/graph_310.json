@@ -1,0 +1,258 @@
+{
+  "nodes": [
+    {
+      "id": "N1",
+      "label": "Step 1",
+      "customData": {
+        "node_id": "A",
+        "node_step_index": 0,
+        "content": "41-year-old male construction worker presented on October 21, 2021, with a 1-month cough without hemoptysis and with slight chest discomfort.",
+        "clinical_data": {
+          "HPI": [
+            {
+              "summary": "41-year-old male construction worker presented with a 1-month cough without hemoptysis and with slight chest discomfort.",
+              "duration": "1 month",
+              "onset": null,
+              "progression": "unknown",
+              "associated_symptoms": [
+                "C0010200"
+              ]
+            }
+          ],
+          "diagnoses": [
+            {
+              "code": "R05",
+              "label": "Cough",
+              "status": "active",
+              "onset_date": null
+            }
+          ],
+          "social_history": [
+            {
+              "category": "employment",
+              "status": "current",
+              "description": "construction worker"
+            }
+          ]
+        }
+      }
+    },
+    {
+      "id": "N2",
+      "label": "Step 2",
+      "customData": {
+        "node_id": "B",
+        "node_step_index": 1,
+        "content": "Enhanced CT scan of the chest, abdomen, and pelvis revealed a 4.5 cm x 5.6 cm tumor in the right middle lobe of the lung with metastasis to the right hilar and mediastinal lymph nodes, a 3.2 cm x 1 cm mass in the greater curvature of the stomach, and multiple lymph node metastases in the abdomen. PET-CT showed peripheral type lung cancer in the right middle lobe with multiple lymph node metastases in the mediastinum and right hilar region, lung metastasis in the left upper lobe, rib metastasis in the 9th rib on the left side, and obstructive inflammation and atelectasis in the right middle lobe of the lung.",
+        "clinical_data": {
+          "imaging": [
+            {
+              "type": "CT scan",
+              "body_part": "chest, abdomen, and pelvis",
+              "modality": "CT",
+              "finding": "4.5 cm x 5.6 cm tumor in the right middle lobe of the lung with metastasis to the right hilar and mediastinal lymph nodes, a 3.2 cm x 1 cm mass in the greater curvature of the stomach, and multiple lymph node metastases in the abdomen.",
+              "impression": "metastasis",
+              "date": null
+            },
+            {
+              "type": "PET-CT",
+              "body_part": "chest, abdomen, and pelvis",
+              "modality": "PET",
+              "finding": "peripheral type lung cancer in the right middle lobe with multiple lymph node metastases in the mediastinum and right hilar region, lung metastasis in the left upper lobe, rib metastasis in the 9th rib on the left side, and obstructive inflammation and atelectasis in the right middle lobe of the lung.",
+              "impression": "metastasis",
+              "date": null
+            }
+          ],
+          "diagnoses": [
+            {
+              "code": "C34",
+              "label": "lung cancer",
+              "status": "active",
+              "onset_date": null
+            },
+            {
+              "code": "C16",
+              "label": "stomach cancer",
+              "status": "active",
+              "onset_date": null
+            }
+          ]
+        }
+      }
+    },
+    {
+      "id": "N3",
+      "label": "Step 3",
+      "customData": {
+        "node_id": "C",
+        "node_step_index": 2,
+        "content": "Bronchoscopy biopsy of the lung tumor showed poorly differentiated adenocarcinoma in the inner side of the right middle lobe. Immunohistochemistry: CK7 (+), CK20 (-), CDX2 (-), TTF-1 (+), Napsin-A (+), CK5/6 (-), p63 (-), P40 (-), Ki-67 (80%+). Genetic testing: no mutations or amplification in EGFR1, HER2, BRAF, ALK, KRAS, MET, NRAS, RET, TP53, ROS1, MAP2K1, PIK3CA, NTRK1, NTRK2, and NTRK3. Transbronchoscopic needle aspiration biopsy of lymph nodes in group 7 and 4R showed malignant tumor cells, suggesting non-small cell carcinoma. Gastric endoscopy pathology revealed adenocarcinoma in the gastric body, suspected to originate from lung adenocarcinoma based on immunohistochemistry and patient history. Immunohistochemistry staining results: TTF-1 (+), Napsin-A (+), CK7 (weakly positive), CDX2 (-), CK20 (-), Ki-67 (60%+).",
+        "clinical_data": {
+          "imaging": [
+            {
+              "type": "Bronchoscopy",
+              "body_part": "Lung",
+              "modality": "other",
+              "finding": "poorly differentiated adenocarcinoma in the inner side of the right middle lobe",
+              "date": null
+            }
+          ],
+          "labs": [
+            {
+              "test": "CK7",
+              "value": "positive",
+              "unit": null,
+              "flag": "positive",
+              "reference_range": null,
+              "timestamp": null
+            },
+            {
+              "test": "CK20",
+              "value": "negative",
+              "unit": null,
+              "flag": "negative",
+              "reference_range": null,
+              "timestamp": null
+            },
+            {
+              "test": "CDX2",
+              "value": "negative",
+              "unit": null,
+              "flag": "negative",
+              "reference_range": null,
+              "timestamp": null
+            },
+            {
+              "test": "TTF-1",
+              "value": "positive",
+              "unit": null,
+              "flag": "positive",
+              "reference_range": null,
+              "timestamp": null
+            },
+            {
+              "test": "Napsin-A",
+              "value": "positive",
+              "unit": null,
+              "flag": "positive",
+              "reference_range": null,
+              "timestamp": null
+            },
+            {
+              "test": "CK5/6",
+              "value": "negative",
+              "unit": null,
+              "flag": "negative",
+              "reference_range": null,
+              "timestamp": null
+            },
+            {
+              "test": "p63",
+              "value": "negative",
+              "unit": null,
+              "flag": "negative",
+              "reference_range": null,
+              "timestamp": null
+            },
+            {
+              "test": "P40",
+              "value": "negative",
+              "unit": null,
+              "flag": "negative",
+              "reference_range": null,
+              "timestamp": null
+            },
+            {
+              "test": "Ki-67",
+              "value": "80",
+              "unit": "%",
+              "flag": "abnormal",
+              "reference_range": null,
+              "timestamp": null
+            },
+            {
+              "test": "EGFR1 mutation",
+              "value": "no mutations or amplification",
+              "unit": null,
+              "flag": "negative",
+              "reference_range": null,
+              "timestamp": null
+            },
+            {
+              "test": "HER2 mutation",
+              "value": "no mutations or amplification",
+              "unit": null,
+              "flag": "negative",
+              "reference_range": null,
+              "timestamp": null
+            },
+            {
+              "test": "BRAF mutation",
+              "value": "no mutations or amplification",
+              "unit": null,
+              "flag": "negative",
+              "reference_range": null,
+              "timestamp": null
+            },
+            {
+              "test": "ALK mutation",
+              "value": "no mutations or amplification",
+              "unit": null,
+              "flag": "negative",
+              "reference_range": null,
+              "timestamp": null
+            },
+            {
+              "test": "KRAS mutation",
+              "value": "no mutations or amplification",
+              "unit": null,
+              "flag": "negative",
+              "reference_range": null,
+              "timestamp": null
+            },
+            {
+              "test": "MET mutation",
+              "value": "no mutations or amplification",
+              "unit": null,
+              "flag": "negative",
+              "reference_range": null,
+              "timestamp": null
+            },
+            {
+              "test": "NRAS mutation",
+              "value": "no mutations or amplification",
+              "unit": null,
+              "flag": "negative",
+              "reference_range": null,
+              "timestamp": null
+            },
+            {
+              "test": "RET mutation",
+              "value": "no mutations or amplification"
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "edges": [
+    {
+      "from": "N1",
+      "to": "N2",
+      "data": {
+        "edge_id": "A_to_B",
+        "branch_flag": true,
+        "content": "Patient went from initial presentation of cough and chest discomfort to undergoing enhanced CT scan and PET-CT which revealed lung cancer with metastasis to hilar and mediastinal lymph nodes, stomach mass, and multiple lymph node metastases in the abdomen."
+      }
+    },
+    {
+      "from": "N2",
+      "to": "N3",
+      "data": {
+        "edge_id": "B_to_C",
+        "branch_flag": true,
+        "content": "Patient underwent bronchoscopy and gastric endoscopy which revealed poorly differentiated adenocarcinoma in the right middle lobe and adenocarcinoma in the gastric body, suspected to originate from lung adenocarcinoma based on immunohistochemistry and patient history. Genetic testing showed no mutations or amplification in EGFR1, HER2, BRAF, ALK, KRAS, MET, NRAS, RET, TP53, ROS1, MAP2K1, PIK3CA, NTRK1, NTRK2, and NTRK3."
+      }
+    }
+  ]
+}

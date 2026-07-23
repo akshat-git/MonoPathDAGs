@@ -1,0 +1,312 @@
+{
+  "nodes": [
+    {
+      "id": "N1",
+      "label": "Step 1",
+      "customData": {
+        "node_id": "A",
+        "node_step_index": 0,
+        "content": "72-year-old former smoker with cT2aN3M1c stage IVB lung squamous cell carcinoma presented with dyspnea and cough.",
+        "clinical_data": {
+          "diagnoses": [
+            {
+              "code": "C34",
+              "label": "Lung Cancer",
+              "status": "active",
+              "onset_date": null
+            },
+            {
+              "code": "C448715",
+              "label": "stage IVB lung squamous cell carcinoma",
+              "status": "active",
+              "onset_date": null
+            }
+          ],
+          "social_history": [
+            {
+              "category": "smoking",
+              "status": "past",
+              "description": "former smoker"
+            }
+          ],
+          "HPI": [
+            {
+              "summary": "patient presented with dyspnea and cough",
+              "duration": null,
+              "onset": null,
+              "progression": "unknown",
+              "associated_symptoms": [
+                "R06.02",
+                "R05"
+              ],
+              "alleviating_factors": [],
+              "exacerbating_factors": []
+            }
+          ]
+        }
+      }
+    },
+    {
+      "id": "N2",
+      "label": "Step 2",
+      "customData": {
+        "node_id": "B",
+        "node_step_index": 1,
+        "content": "Patient reached complete response to pembrolizumab treatment but suffered from grade 2 chemotherapy-induced peripheral neuropathy (CIP).",
+        "clinical_data": {
+          "medications": [
+            {
+              "drug": "C0030705",
+              "indication": "C0009450"
+            }
+          ],
+          "diagnoses": [
+            {
+              "code": "C0085648",
+              "label": "Peripheral neuropathy",
+              "status": "active",
+              "onset_date": null
+            }
+          ]
+        }
+      }
+    },
+    {
+      "id": "N3",
+      "label": "Step 3",
+      "customData": {
+        "node_id": "C",
+        "node_step_index": 2,
+        "content": "Pembrolizumab treatment was discontinued due to pembrolizumab\u2010related pneumonitis. Patient was receiving prednisolone (PSL, 50\u2009mg/day).",
+        "clinical_data": {
+          "medications": [
+            {
+              "drug": "C0032463",
+              "dosage": "50 mg/day",
+              "frequency": "daily",
+              "modality": "oral",
+              "indication": "C0032463",
+              "start_date": null,
+              "end_date": null
+            }
+          ],
+          "allergies": [
+            {
+              "substance": "pembrolizumab",
+              "reaction": "pneumonitis",
+              "severity": null,
+              "date_recorded": null
+            }
+          ]
+        }
+      }
+    },
+    {
+      "id": "N4",
+      "label": "Step 4",
+      "customData": {
+        "node_id": "D",
+        "node_step_index": 3,
+        "content": "CIP was partially relieved by steroid treatment. Steroid dose was reduced by 5-10 mg every 2 weeks and finally reduced to 5 mg/day. On admission, the patient was hypoxemic (SpO2 88% at room air) but had no fever. Blood tests revealed high white blood cell (WBC) (12,900/\u03bcL) and C-reactive protein (CRP) (15.1 mg/dL) levels.",
+        "clinical_data": {
+          "medications": [
+            {
+              "drug": "C0037974",
+              "dosage": "5-10 mg",
+              "frequency": "every 2 weeks",
+              "modality": "oral",
+              "indication": "C0007097"
+            },
+            {
+              "drug": "C0037974",
+              "dosage": "5 mg/day",
+              "modality": "oral",
+              "indication": "C0007097"
+            }
+          ],
+          "vitals": [
+            {
+              "type": "C0040242",
+              "value": "88",
+              "unit": "%",
+              "timestamp": null
+            }
+          ],
+          "labs": [
+            {
+              "test": "C0043259",
+              "value": "12900",
+              "unit": "/\u03bcL",
+              "flag": "abnormal"
+            },
+            {
+              "test": "C0009451",
+              "value": "15.1",
+              "unit": "mg/dL",
+              "flag": "abnormal"
+            }
+          ],
+          "diagnoses": [
+            {
+              "code": "C0007097",
+              "label": "CIP",
+              "status": "active"
+            },
+            {
+              "code": "C0020515",
+              "label": "Hypoxemia",
+              "status": "active"
+            }
+          ]
+        }
+      }
+    },
+    {
+      "id": "N5",
+      "label": "Step 5",
+      "customData": {
+        "node_id": "E",
+        "node_step_index": 4,
+        "content": "Serum levels of lactate dehydrogenase (LD) and Krebs von den Lungen (KL)-6 were normal. Serological tests for autoantibodies against specific antigens were all negative. Chest computed tomography (CT) revealed new bilateral diffuse infiltrative and ground-glass opacification in both lung fields, with partial attenuation of a previous infiltrative shadow in the right upper lobe. Bronchoalveolar lavage fluid was negative for microbes.",
+        "clinical_data": {
+          "labs": [
+            {
+              "test": "Lactate Dehydrogenase Measurement",
+              "value": "normal",
+              "unit": null,
+              "flag": "normal"
+            }
+          ],
+          "imaging": [
+            {
+              "type": "Computed tomography of chest",
+              "body_part": "Lung",
+              "modality": "CT",
+              "finding": "Bilateral diffuse infiltrative and ground-glass opacification in both lung fields, with partial attenuation of a previous infiltrative shadow in the right upper lobe."
+            }
+          ]
+        }
+      }
+    },
+    {
+      "id": "N6",
+      "label": "Step 6",
+      "customData": {
+        "node_id": "F",
+        "node_step_index": 5,
+        "content": "Histological examination of a transbronchial lung biopsy specimen revealed organization and lymphocyte infiltration in the alveolar spaces. No malignant findings were observed. Patient was diagnosed with grade 3 ICI-related steroid-refractory organizing pneumonia caused by pembrolizumab. Chest CT 3 months before admission showed consolidation and ground\u2010glass opacities with an air",
+        "clinical_data": {
+          "diagnoses": [
+            {
+              "code": "C536372",
+              "label": "Organizing Pneumonia",
+              "status": "active",
+              "onset_date": null
+            }
+          ],
+          "medications": [
+            {
+              "drug": "C4049447",
+              "dosage": null,
+              "frequency": null,
+              "modality": null,
+              "start_date": null,
+              "end_date": null,
+              "indication": "ICI-related pneumonitis"
+            }
+          ],
+          "imaging": [
+            {
+              "type": "C4026743",
+              "body_part": "C716480",
+              "modality": "CT",
+              "finding": "Consolidation",
+              "impression": "Ground-glass opacity",
+              "date": null
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "edges": [
+    {
+      "from": "N1",
+      "to": "N2",
+      "data": {
+        "edge_id": "A_to_B",
+        "branch_flag": true,
+        "content": "Patient with lung squamous cell carcinoma responded to pembrolizumab but developed grade 2 chemotherapy-induced peripheral neuropathy (CIP)."
+      }
+    },
+    {
+      "from": "N2",
+      "to": "N3",
+      "data": {
+        "edge_id": "B_to_C",
+        "branch_flag": true,
+        "content": "Pembrolizumab was discontinued due to pembrolizumab\u2010related pneumonitis. Patient was started on prednisolone (PSL, 50\u2009mg/day).",
+        "transition_event": {
+          "trigger_type": "medication_change",
+          "trigger_entities": [
+            "C0030705",
+            "C0032463"
+          ],
+          "change_type": "addition",
+          "target_domain": "medication"
+        }
+      }
+    },
+    {
+      "from": "N3",
+      "to": "N4",
+      "data": {
+        "edge_id": "C_to_D",
+        "branch_flag": true,
+        "content": "CIP was partially relieved by steroid treatment. Steroid dose was reduced to 5 mg/day. Patient was hypoxemic (SpO2 88% at room air) with high WBC (12,900/\u03bcL) and CRP (15.1 mg/dL) levels.",
+        "transition_event": {
+          "trigger_type": "medication_change",
+          "trigger_entities": [
+            "C0037974"
+          ],
+          "change_type": "deescalation",
+          "target_domain": "medication"
+        }
+      }
+    },
+    {
+      "from": "N4",
+      "to": "N5",
+      "data": {
+        "edge_id": "D_to_E",
+        "branch_flag": true,
+        "content": "LD and KL-6 were normal. Autoantibody tests were negative. Chest CT showed new bilateral diffuse infiltrative and ground-glass opacification, with partial attenuation of a previous shadow.",
+        "transition_event": {
+          "trigger_type": "lab_change",
+          "trigger_entities": [
+            "C0022924"
+          ],
+          "change_type": "resolution",
+          "target_domain": "lab"
+        }
+      }
+    },
+    {
+      "from": "N5",
+      "to": "N6",
+      "data": {
+        "edge_id": "E_to_F",
+        "branch_flag": true,
+        "content": "Lung biopsy revealed organization and lymphocyte infiltration. No malignant findings. Patient diagnosed with grade 3 ICI-related steroid-refractory organizing pneumonia caused by pembrolizumab.",
+        "transition_event": {
+          "trigger_type": "interpretation",
+          "trigger_entities": [
+            "C536372"
+          ],
+          "change_type": "addition",
+          "target_domain": "diagnosis"
+        }
+      }
+    }
+  ]
+}

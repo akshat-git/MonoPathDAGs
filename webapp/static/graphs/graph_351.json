@@ -1,0 +1,491 @@
+{
+  "nodes": [
+    {
+      "id": "N1",
+      "label": "Step 1",
+      "customData": {
+        "node_id": "A",
+        "node_step_index": 0,
+        "content": "70-year-old woman taking oral steroids with tapering after an acute exacerbation of idiopathic pulmonary fibrosis (IPF).",
+        "clinical_data": {
+          "medications": [
+            {
+              "drug": "C0037994",
+              "dosage": null,
+              "frequency": null,
+              "modality": "oral",
+              "start_date": null,
+              "end_date": null,
+              "indication": "C0034069"
+            }
+          ],
+          "diagnoses": [
+            {
+              "code": "C0242080",
+              "label": "idiopathic pulmonary fibrosis",
+              "status": "active",
+              "onset_date": null
+            }
+          ]
+        }
+      }
+    },
+    {
+      "id": "N2",
+      "label": "Step 2",
+      "customData": {
+        "node_id": "B",
+        "node_step_index": 1,
+        "content": "Diagnosed with stage IIIB squamous cell lung cancer by transbronchial lung biopsy from left hilum 6 months before admission. Declined chemotherapy due to anorexia. Started tegafur/gimeracil/oteracil.",
+        "clinical_data": {
+          "diagnoses": [
+            {
+              "code": "C34.9",
+              "label": "Malignant neoplasm of bronchus or lung, unspecified",
+              "status": "active",
+              "onset_date": null
+            }
+          ],
+          "procedures": [
+            {
+              "name": "Transbronchial lung biopsy",
+              "approach": "endoscopic",
+              "date": null,
+              "location": "left hilum",
+              "performed_by": null,
+              "outcome": null
+            }
+          ],
+          "medications": [
+            {
+              "drug": "tegafur/gimeracil/oteracil",
+              "dosage": null,
+              "frequency": null,
+              "modality": "oral",
+              "start_date": null,
+              "end_date": null,
+              "indication": "squamous cell lung cancer"
+            }
+          ],
+          "HPI": [
+            {
+              "summary": "Declined chemotherapy due to anorexia",
+              "duration": null,
+              "onset": null,
+              "progression": "unknown",
+              "associated_symptoms": [
+                "anorexia"
+              ],
+              "alleviating_factors": [],
+              "exacerbating_factors": []
+            }
+          ]
+        }
+      }
+    },
+    {
+      "id": "N3",
+      "label": "Step 3",
+      "customData": {
+        "node_id": "C",
+        "node_step_index": 2,
+        "content": "36 days after starting chemotherapy (tegafur/gimeracil/oteracil), presented with a 5-day history of chest pain, exacerbation of cough and severe palpitations. Blood pressure was 120/67\u2009mm Hg, and heart rate was 88 bpm.",
+        "clinical_data": {
+          "HPI": [
+            {
+              "duration": "5 days",
+              "associated_symptoms": [
+                "Chest pain",
+                "Exacerbation of cough",
+                "Severe palpitations"
+              ]
+            }
+          ],
+          "medications": [
+            {
+              "drug": "tegafur/gimeracil/oteracil",
+              "start_date": "36 days ago"
+            }
+          ],
+          "vitals": [
+            {
+              "type": "Blood pressure",
+              "value": "120/67",
+              "unit": "mm Hg"
+            },
+            {
+              "type": "Heart rate",
+              "value": "88",
+              "unit": "bpm"
+            }
+          ]
+        }
+      }
+    },
+    {
+      "id": "N4",
+      "label": "Step 4",
+      "customData": {
+        "node_id": "D",
+        "node_step_index": 3,
+        "content": "Chest CT revealed known lung cancer on the left hilum, abutting the pericardium, which had invaded the mediastinum, causing pneumopericardium and pneumomediastinum.",
+        "clinical_data": {
+          "imaging": [
+            {
+              "type": "Computed tomography of chest (procedure)",
+              "body_part": "Thorax",
+              "modality": "CT",
+              "finding": "Lung cancer on the left hilum, abutting the pericardium, which had invaded the mediastinum, causing pneumopericardium and pneumomediastinum.",
+              "impression": "Lung cancer with mediastinal invasion, pneumopericardium, and pneumomediastinum."
+            }
+          ],
+          "diagnoses": [
+            {
+              "code": "C34",
+              "label": "Malignant neoplasm of bronchus and lung",
+              "status": "active"
+            },
+            {
+              "code": "57480004",
+              "label": "Pneumomediastinum",
+              "status": "active"
+            },
+            {
+              "code": "23394009",
+              "label": "Pneumopericardium",
+              "status": "active"
+            }
+          ]
+        }
+      }
+    },
+    {
+      "id": "N5",
+      "label": "Step 5",
+      "customData": {
+        "node_id": "E",
+        "node_step_index": 4,
+        "content": "Physical examination revealed jugular vein distention (JVD) in the sitting position and muffled heart sounds. Echocardiography showed no reduction in ejection fraction, although the pneumopericardium prevented detailed observation. Chest CT scan shows squamous cell lung cancer on the left hilum that invades the mediastinum, pneumomediastinum and pneumopericardium with an anterior extent, and idiopathic pulmonary fibrosis (IPF).",
+        "clinical_data": {
+          "vitals": [
+            {
+              "type": "Jugular venous distension",
+              "value": "present",
+              "unit": "binary",
+              "timestamp": null
+            }
+          ],
+          "diagnoses": [
+            {
+              "code": "C0024146",
+              "label": "Squamous cell carcinoma of lung",
+              "status": "active",
+              "onset_date": null
+            },
+            {
+              "code": "C0242092",
+              "label": "Idiopathic pulmonary fibrosis",
+              "status": "active",
+              "onset_date": null
+            }
+          ],
+          "imaging": [
+            {
+              "type": "Echocardiography",
+              "body_part": "Heart",
+              "modality": "Ultrasound",
+              "finding": "no reduction in ejection fraction",
+              "impression": "Pneumopericardium prevented detailed observation",
+              "date": null
+            },
+            {
+              "type": "Chest CT scan",
+              "body_part": "Lung",
+              "modality": "CT",
+              "finding": "Squamous cell lung cancer on the left hilum that invades the mediastinum, pneumomediastinum and pneumopericardium with an anterior extent",
+              "impression": "Squamous cell lung cancer on the left hilum that invades the mediastinum, pneumomediastinum and pneumopericardium with an anterior extent, and idiopathic pulmonary fibrosis (IPF)",
+              "date": null
+            }
+          ],
+          "HPI": [
+            {
+              "summary": "Muffled heart sounds",
+              "duration": null,
+              "onset": null,
+              "progression": "unknown",
+              "associated_symptoms": [],
+              "alleviating_factors": [],
+              "exacerbating_factors": []
+            }
+          ]
+        }
+      }
+    },
+    {
+      "id": "N6",
+      "label": "Step 6",
+      "customData": {
+        "node_id": "F",
+        "node_step_index": 5,
+        "content": "Fluoroscopy-guided urgent pericardiocentesis was performed through the superior margin of the left fifth rib, and air was aspirated. JVD, dyspnoea and chest pain improved.",
+        "clinical_data": {
+          "procedures": [
+            {
+              "name": "Pericardiocentesis",
+              "approach": "percutaneous",
+              "date": null,
+              "location": "pericardial space",
+              "performed_by": null,
+              "outcome": "improved"
+            }
+          ],
+          "HPI": [
+            {
+              "summary": "JVD, dyspnoea and chest pain improved after pericardiocentesis",
+              "duration": null,
+              "onset": null,
+              "progression": null,
+              "associated_symptoms": [],
+              "alleviating_factors": [],
+              "exacerbating_factors": []
+            }
+          ]
+        }
+      }
+    },
+    {
+      "id": "N7",
+      "label": "Step 7",
+      "customData": {
+        "node_id": "G",
+        "node_step_index": 6,
+        "content": "Follow-up CT the next day and the fourth day after admission showed the pneumopericardium was shrinking.",
+        "clinical_data": {
+          "imaging": [
+            {
+              "type": "Computed tomography",
+              "body_part": "Pericardium",
+              "modality": "CT",
+              "finding": "Pneumopericardium shrinking",
+              "date": "Next day after admission"
+            },
+            {
+              "type": "Computed tomography",
+              "body_part": "Pericardium",
+              "modality": "CT",
+              "finding": "Pneumopericardium shrinking",
+              "date": "Fourth day after admission"
+            }
+          ]
+        }
+      }
+    },
+    {
+      "id": "N8",
+      "label": "Step 8",
+      "customData": {
+        "node_id": "H",
+        "node_step_index": 7,
+        "content": "Patient was discharged on the fifth day since most of the air from the pneumopericardium had been absorbed.",
+        "clinical_data": {
+          "diagnoses": [
+            {
+              "code": "C0032224",
+              "label": "Pneumopericardium",
+              "status": "resolved"
+            }
+          ]
+        }
+      }
+    },
+    {
+      "id": "N9",
+      "label": "Step 9",
+      "customData": {
+        "node_id": "I",
+        "node_step_index": 8,
+        "content": "CT scan 3 days after pericardiocentesis showed pneumomediastinum shrinkage and no recognisable pneumopericardium.",
+        "clinical_data": {
+          "imaging": [
+            {
+              "type": "Computed tomography",
+              "body_part": "Mediastinum",
+              "modality": "CT",
+              "finding": "Pneumomediastinum shrinkage",
+              "date": null
+            },
+            {
+              "type": "Computed tomography",
+              "body_part": "Pericardium",
+              "modality": "CT",
+              "finding": "No recognisable pneumopericardium",
+              "date": null
+            }
+          ],
+          "procedures": [
+            {
+              "name": "Pericardiocentesis",
+              "date": null
+            }
+          ]
+        }
+      }
+    },
+    {
+      "id": "N10",
+      "label": "Step 10",
+      "customData": {
+        "node_id": "J",
+        "node_step_index": 9,
+        "content": "Patient died 6 months after discharge due to the progression of lung cancer, with no recurrence of pneumopericardium.",
+        "clinical_data": {
+          "diagnoses": [
+            {
+              "code": "C34",
+              "label": "Malignant neoplasm of bronchus and lung",
+              "status": "historical"
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "edges": [
+    {
+      "from": "N1",
+      "to": "N2",
+      "data": {
+        "edge_id": "A_to_B",
+        "branch_flag": true,
+        "content": "Patient with IPF develops stage IIIB squamous cell lung cancer and declines chemotherapy due to anorexia, starting tegafur/gimeracil/oteracil instead."
+      }
+    },
+    {
+      "from": "N2",
+      "to": "N3",
+      "data": {
+        "edge_id": "B_to_C",
+        "branch_flag": true,
+        "content": "36 days after starting tegafur/gimeracil/oteracil, patient presents with chest pain, cough exacerbation, and palpitations.",
+        "transition_event": {
+          "trigger_type": "medication_change",
+          "trigger_entities": [
+            "tegafur/gimeracil/oteracil"
+          ],
+          "change_type": "other",
+          "target_domain": "symptom",
+          "timestamp": null
+        }
+      }
+    },
+    {
+      "from": "N3",
+      "to": "N4",
+      "data": {
+        "edge_id": "C_to_D",
+        "branch_flag": true,
+        "content": "Chest CT reveals lung cancer invading the mediastinum, causing pneumopericardium and pneumomediastinum.",
+        "transition_event": {
+          "trigger_type": "imaging",
+          "trigger_entities": [
+            "Computed tomography of chest (procedure)"
+          ],
+          "change_type": "progression",
+          "target_domain": "imaging",
+          "timestamp": null
+        }
+      }
+    },
+    {
+      "from": "N4",
+      "to": "N5",
+      "data": {
+        "edge_id": "D_to_E",
+        "branch_flag": true,
+        "content": "Physical exam shows JVD and muffled heart sounds. Echocardiography is limited by pneumopericardium. Chest CT confirms lung cancer invading mediastinum with pneumomediastinum and pneumopericardium, and IPF.",
+        "transition_event": {
+          "trigger_type": "symptom_onset",
+          "trigger_entities": [
+            "Jugular venous distension",
+            "Muffled heart sounds"
+          ],
+          "change_type": "progression",
+          "target_domain": "symptom",
+          "timestamp": null
+        }
+      }
+    },
+    {
+      "from": "N5",
+      "to": "N6",
+      "data": {
+        "edge_id": "E_to_F",
+        "branch_flag": true,
+        "content": "Urgent pericardiocentesis is performed, aspirating air, and improving JVD, dyspnoea, and chest pain.",
+        "transition_event": {
+          "trigger_type": "procedure",
+          "trigger_entities": [
+            "Pericardiocentesis"
+          ],
+          "change_type": "resolution",
+          "target_domain": "symptom",
+          "timestamp": null
+        }
+      }
+    },
+    {
+      "from": "N6",
+      "to": "N7",
+      "data": {
+        "edge_id": "F_to_G",
+        "branch_flag": true,
+        "content": "Follow-up CT scans show shrinking pneumopericardium.",
+        "transition_event": {
+          "trigger_type": "imaging",
+          "trigger_entities": [
+            "Computed tomography"
+          ],
+          "change_type": "resolution",
+          "target_domain": "imaging",
+          "timestamp": null
+        }
+      }
+    },
+    {
+      "from": "N7",
+      "to": "N8",
+      "data": {
+        "edge_id": "G_to_H",
+        "branch_flag": true,
+        "content": "Patient discharged on the fifth day, with most air from pneumopericardium absorbed.",
+        "transition_event": {
+          "trigger_type": "spontaneous",
+          "trigger_entities": [
+            "Pneumopericardium"
+          ],
+          "change_type": "resolution",
+          "target_domain": "diagnosis",
+          "timestamp": null
+        }
+      }
+    },
+    {
+      "from": "N8",
+      "to": "N9",
+      "data": {
+        "edge_id": "H_to_I",
+        "branch_flag": true,
+        "content": "CT scan 3 days after pericardiocentesis shows pneumomediastinum shrinkage and no recognisable pneumopericardium.",
+        "transition_event": {
+          "trigger_type": "imaging",
+          "trigger_entities": [
+            "Computed tomography"
+          ],
+          "change_type": "resolution",
+          "target_domain": "imaging",
+          "timestamp": null
+        }
+      }
+    }
+  ]
+}

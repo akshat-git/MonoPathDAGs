@@ -1,0 +1,365 @@
+{
+  "nodes": [
+    {
+      "id": "N1",
+      "label": "Step 1",
+      "customData": {
+        "node_id": "A",
+        "node_step_index": 0,
+        "content": "Patient is a current smoker with a 50-pack-year smoking history.",
+        "clinical_data": {
+          "social_history": [
+            {
+              "category": "smoking",
+              "status": "current",
+              "description": "50-pack-year smoking history"
+            }
+          ]
+        }
+      }
+    },
+    {
+      "id": "N2",
+      "label": "Step 2",
+      "customData": {
+        "node_id": "B",
+        "node_step_index": 1,
+        "content": "Patient presented with bilateral lung nodules and a suspicious left adrenal gland lesion.",
+        "clinical_data": {
+          "imaging": [
+            {
+              "type": "Lung Nodule",
+              "body_part": "Lung",
+              "modality": null,
+              "finding": "bilateral lung nodules",
+              "impression": null,
+              "date": null
+            },
+            {
+              "type": "Adrenal Gland Lesion",
+              "body_part": "Adrenal Gland",
+              "modality": null,
+              "finding": "suspicious left adrenal gland lesion",
+              "impression": null,
+              "date": null
+            }
+          ]
+        }
+      }
+    },
+    {
+      "id": "N3",
+      "label": "Step 3",
+      "customData": {
+        "node_id": "C",
+        "node_step_index": 2,
+        "content": "Diagnostic biopsy showed metastatic lung adenocarcinoma; scant tissue limited PD-L1 expression.",
+        "clinical_data": {
+          "diagnoses": [
+            {
+              "code": "C34",
+              "label": "Lung cancer",
+              "status": "active"
+            }
+          ],
+          "procedures": [
+            {
+              "name": "Biopsy",
+              "date": null,
+              "location": "lung",
+              "outcome": "metastatic lung adenocarcinoma"
+            }
+          ],
+          "labs": [
+            {
+              "test": "PD-L1 expression",
+              "value": "scant",
+              "unit": null,
+              "flag": "abnormal",
+              "reference_range": null,
+              "timestamp": null
+            }
+          ]
+        }
+      }
+    },
+    {
+      "id": "N4",
+      "label": "Step 4",
+      "customData": {
+        "node_id": "D",
+        "node_step_index": 3,
+        "content": "MSK IMPACT tissue platform demonstrated no targetable mutations, but was notable for TP53 and ARID1A mutations.",
+        "clinical_data": {
+          "labs": [
+            {
+              "test": "MSK IMPACT tissue platform",
+              "value": "TP53 and ARID1A mutations",
+              "unit": null,
+              "flag": "abnormal",
+              "reference_range": null,
+              "timestamp": null
+            }
+          ]
+        }
+      }
+    },
+    {
+      "id": "N5",
+      "label": "Step 5",
+      "customData": {
+        "node_id": "E",
+        "node_step_index": 4,
+        "content": "MSK-ACCESS liquid biopsy platform was congruous with the initial tissue biopsy, but additional mutations were discovered and were notable for detectable alterations in TP53, ARID1A, KEAP1, MAP2K and SMARCA4.",
+        "clinical_data": {
+          "labs": [
+            {
+              "test": "Liquid Biopsy",
+              "finding": "detectable alterations in TP53, ARID1A, KEAP1, MAP2K and SMARCA4",
+              "modality": "MSK-ACCESS",
+              "date": null
+            }
+          ]
+        }
+      }
+    },
+    {
+      "id": "N6",
+      "label": "Step 6",
+      "customData": {
+        "node_id": "F",
+        "node_step_index": 5,
+        "content": "Patient received carboplatin, pemetrexed, and pembrolizumab with excellent clinical and complete radiological response.",
+        "clinical_data": {
+          "medications": [
+            {
+              "drug": "C0007129",
+              "dosage": null,
+              "frequency": null,
+              "modality": null,
+              "start_date": null,
+              "end_date": null,
+              "indication": null
+            },
+            {
+              "drug": "C1646451",
+              "dosage": null,
+              "frequency": null,
+              "modality": null,
+              "start_date": null,
+              "end_date": null,
+              "indication": null
+            },
+            {
+              "drug": "C1710544",
+              "dosage": null,
+              "frequency": null,
+              "modality": null,
+              "start_date": null,
+              "end_date": null,
+              "indication": null
+            }
+          ],
+          "diagnoses": [
+            {
+              "code": null,
+              "label": "complete radiological response",
+              "status": null,
+              "onset_date": null
+            }
+          ]
+        }
+      }
+    },
+    {
+      "id": "N7",
+      "label": "Step 7",
+      "customData": {
+        "node_id": "G",
+        "node_step_index": 6,
+        "content": "Patient benefitted from PD-1 blockade for more than a year, but later developed what was initially suspected to be radiological progression. Investigation with clinical examination, radiology and comprehensive molecular profiling with tissue and liquid biopsy of the new pulmonary nodule revealed an alternate explanation.",
+        "clinical_data": {
+          "diagnoses": [
+            {
+              "code": "C0034094",
+              "label": "Pulmonary Nodule",
+              "status": "suspected"
+            }
+          ],
+          "procedures": [
+            {
+              "name": "C0007951",
+              "approach": "other",
+              "date": null,
+              "location": "Lung",
+              "performed_by": null,
+              "outcome": null
+            },
+            {
+              "name": "Biopsy",
+              "approach": "other",
+              "date": null,
+              "location": "Lung",
+              "performed_by": null,
+              "outcome": null
+            }
+          ],
+          "medications": [
+            {
+              "drug": "PD-1 Blockade",
+              "dosage": null,
+              "frequency": null,
+              "modality": null,
+              "start_date": null,
+              "end_date": null,
+              "indication": null
+            }
+          ],
+          "imaging": [
+            {
+              "type": "Radiology",
+              "body_part": "Lung",
+              "modality": null,
+              "finding": "Progression",
+              "impression": null,
+              "date": null
+            }
+          ]
+        }
+      }
+    },
+    {
+      "id": "N8",
+      "label": "Step 8",
+      "customData": {
+        "node_id": "H",
+        "node_step_index": 7,
+        "content": "After four cycles of combination therapy, both carboplatin and pemetrexed were ceased and pembrolizumab was continued as maintenance therapy every 3 weeks.",
+        "clinical_data": {
+          "medications": [
+            {
+              "drug": "C0007146",
+              "dosage": null,
+              "frequency": "every 3 weeks",
+              "modality": null,
+              "start_date": null,
+              "end_date": null,
+              "indication": null
+            },
+            {
+              "drug": "C0007097",
+              "dosage": null,
+              "frequency": null,
+              "modality": null,
+              "start_date": null,
+              "end_date": null,
+              "indication": null
+            },
+            {
+              "drug": "C0978741",
+              "dosage": null,
+              "frequency": null,
+              "modality": null,
+              "start_date": null,
+              "end_date": null,
+              "indication": null
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "edges": [
+    {
+      "from": "N1",
+      "to": "N2",
+      "data": {
+        "edge_id": "A_to_B",
+        "branch_flag": true,
+        "content": "Transition from smoking history to presentation with bilateral lung nodules and a suspicious left adrenal gland lesion."
+      }
+    },
+    {
+      "from": "N2",
+      "to": "N3",
+      "data": {
+        "edge_id": "B_to_C",
+        "branch_flag": true,
+        "content": "Transition from imaging findings to diagnostic biopsy showing metastatic lung adenocarcinoma with scant PD-L1 expression."
+      }
+    },
+    {
+      "from": "N3",
+      "to": "N4",
+      "data": {
+        "edge_id": "C_to_D",
+        "branch_flag": true,
+        "content": "Transition from initial biopsy results to MSK IMPACT tissue platform results showing TP53 and ARID1A mutations."
+      }
+    },
+    {
+      "from": "N4",
+      "to": "N5",
+      "data": {
+        "edge_id": "D_to_E",
+        "branch_flag": true,
+        "content": "Transition from MSK IMPACT tissue platform to MSK-ACCESS liquid biopsy platform results showing detectable alterations in TP53, ARID1A, KEAP1, MAP2K and SMARCA4."
+      }
+    },
+    {
+      "from": "N5",
+      "to": "N6",
+      "data": {
+        "edge_id": "E_to_F",
+        "branch_flag": true,
+        "content": "Transition from liquid biopsy results to treatment with carboplatin, pemetrexed, and pembrolizumab, resulting in excellent clinical and complete radiological response.",
+        "transition_event": {
+          "trigger_type": "medication_change",
+          "trigger_entities": [
+            "C0007129",
+            "C1646451",
+            "C1710544"
+          ],
+          "change_type": "addition",
+          "target_domain": "medication"
+        }
+      }
+    },
+    {
+      "from": "N6",
+      "to": "N7",
+      "data": {
+        "edge_id": "F_to_G",
+        "branch_flag": true,
+        "content": "Transition from initial treatment response to suspected radiological progression after more than a year of PD-1 blockade, prompting further investigation.",
+        "transition_event": {
+          "trigger_type": "progression",
+          "trigger_entities": [
+            "C0034094"
+          ],
+          "change_type": "progression",
+          "target_domain": "imaging"
+        }
+      }
+    },
+    {
+      "from": "N7",
+      "to": "N8",
+      "data": {
+        "edge_id": "G_to_H",
+        "branch_flag": true,
+        "content": "Transition from suspected progression to cessation of carboplatin and pemetrexed after four cycles of combination therapy, with continuation of pembrolizumab as maintenance therapy.",
+        "transition_event": {
+          "trigger_type": "medication_change",
+          "trigger_entities": [
+            "C0007146",
+            "C0007097",
+            "C0978741"
+          ],
+          "change_type": "discontinuation",
+          "target_domain": "medication"
+        }
+      }
+    }
+  ]
+}

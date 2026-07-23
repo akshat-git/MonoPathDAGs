@@ -1,0 +1,337 @@
+{
+  "nodes": [
+    {
+      "id": "N1",
+      "label": "Step 1",
+      "customData": {
+        "node_id": "A",
+        "node_step_index": 0,
+        "content": "72-year-old female with no significant medical history referred for evaluation of suspected malignant right-sided pleural effusion.",
+        "clinical_data": {}
+      }
+    },
+    {
+      "id": "N2",
+      "label": "Step 2",
+      "customData": {
+        "node_id": "B",
+        "node_step_index": 1,
+        "content": "Chest CT showed circumferential nodular right-sided pleural thickening with associated pleural effusion and a 2-cm nodule in the right lower lobe.",
+        "clinical_data": {
+          "imaging": [
+            {
+              "type": "Pleural thickening (finding)",
+              "body_part": "Pleura",
+              "modality": "CT",
+              "finding": "circumferential nodular right-sided pleural thickening",
+              "date": null
+            },
+            {
+              "type": "Pleural Effusion",
+              "body_part": "Pleura",
+              "modality": "CT",
+              "finding": "Pleural effusion",
+              "date": null
+            },
+            {
+              "type": "Nodule",
+              "body_part": "Right lower lobe",
+              "modality": "CT",
+              "finding": "2-cm nodule in the right lower lobe",
+              "date": null
+            }
+          ]
+        }
+      }
+    },
+    {
+      "id": "N3",
+      "label": "Step 3",
+      "customData": {
+        "node_id": "C",
+        "node_step_index": 2,
+        "content": "Thoracic ultrasound (TUS) showed a simple effusion and 500 mL of dark brown fluid (degraded haemoglobin) was aspirated.",
+        "clinical_data": {
+          "imaging": [
+            {
+              "type": "Thoracic ultrasound",
+              "body_part": "Thorax",
+              "modality": "Ultrasound",
+              "finding": "simple effusion"
+            }
+          ],
+          "procedures": [
+            {
+              "name": "Aspiration",
+              "location": "Thorax",
+              "outcome": "500 mL of dark brown fluid (degraded haemoglobin) was aspirated"
+            }
+          ]
+        }
+      }
+    },
+    {
+      "id": "N4",
+      "label": "Step 4",
+      "customData": {
+        "node_id": "D",
+        "node_step_index": 3,
+        "content": "Patient re-presented with chest pain three days after initial aspiration.",
+        "clinical_data": {
+          "HPI": [
+            {
+              "summary": "Patient re-presented with chest pain three days after initial aspiration.",
+              "duration": "P3D",
+              "onset": "relative to initial aspiration",
+              "progression": "unknown",
+              "associated_symptoms": [
+                "C0008031"
+              ]
+            }
+          ]
+        }
+      }
+    },
+    {
+      "id": "N5",
+      "label": "Step 5",
+      "customData": {
+        "node_id": "E",
+        "node_step_index": 4,
+        "content": "Chest X-ray (CXR) and CT scan showed reaccumulation of the pleural effusion. Thoracic ultrasound (TUS) showed the effusion was heavily septated.",
+        "clinical_data": {
+          "imaging": [
+            {
+              "type": "X-ray",
+              "body_part": "chest",
+              "modality": "X-ray",
+              "finding": "reaccumulation of the pleural effusion"
+            },
+            {
+              "type": "CT scan",
+              "body_part": "chest",
+              "modality": "CT",
+              "finding": "reaccumulation of the pleural effusion"
+            },
+            {
+              "type": "Thoracic ultrasound",
+              "body_part": "chest",
+              "modality": "Ultrasound",
+              "finding": "effusion was heavily septated"
+            }
+          ]
+        }
+      }
+    },
+    {
+      "id": "N6",
+      "label": "Step 6",
+      "customData": {
+        "node_id": "F",
+        "node_step_index": 5,
+        "content": "A 12-Fr ICD was inserted into the septated collection under ultrasound guidance, draining minimal dark sanguineous fluid with a pleural fluid/serum haematocrit ratio of 0.58, suggestive of interval pleural haemorrhage.",
+        "clinical_data": {
+          "procedures": [
+            {
+              "name": "Insertion of ICD",
+              "approach": "percutaneous",
+              "location": "pleural space",
+              "performed_by": "unknown",
+              "outcome": "drainage of pleural fluid",
+              "modality": "ultrasound guidance"
+            }
+          ],
+          "labs": [
+            {
+              "test": "Hematocrit",
+              "value": "0.58",
+              "unit": "ratio",
+              "comment": "pleural fluid/serum"
+            }
+          ],
+          "diagnoses": [
+            {
+              "code": "unknown",
+              "label": "Pleural hemorrhage",
+              "status": "active"
+            }
+          ]
+        }
+      }
+    },
+    {
+      "id": "N7",
+      "label": "Step 7",
+      "customData": {
+        "node_id": "G",
+        "node_step_index": 6,
+        "content": "A single dose of intrapleural alteplase 10 mg was given 30 min after ICD insertion resulting in a further 1400 mL of drain output.",
+        "clinical_data": {
+          "medications": [
+            {
+              "drug": "C0002271",
+              "dosage": "10 mg",
+              "modality": "intrapleural",
+              "start_date": null,
+              "end_date": null,
+              "indication": null
+            }
+          ],
+          "procedures": [
+            {
+              "name": "C0159345",
+              "date": null,
+              "location": "pleural cavity",
+              "outcome": "increased drain output"
+            }
+          ]
+        }
+      }
+    },
+    {
+      "id": "N8",
+      "label": "Step 8",
+      "customData": {
+        "node_id": "H",
+        "node_step_index": 7,
+        "content": "Repeat CXR showed a significant reduction in the volume of effusion and revealed underlying trapped lung. Fluid cytology was positive for lung adenocarcinoma and haemoglobin remained stable.",
+        "clinical_data": {
+          "imaging": [
+            {
+              "type": "Chest X-ray",
+              "body_part": "Lung",
+              "modality": "X-ray",
+              "finding": "Significant reduction in the volume of effusion and revealed underlying trapped lung",
+              "date": null
+            }
+          ],
+          "labs": [
+            {
+              "test": "Fluid cytology",
+              "value": "positive",
+              "unit": null,
+              "flag": "abnormal",
+              "reference_range": null,
+              "timestamp": null
+            },
+            {
+              "test": "Hemoglobin",
+              "value": "stable",
+              "unit": null,
+              "flag": "normal",
+              "reference_range": null,
+              "timestamp": null
+            }
+          ],
+          "diagnoses": [
+            {
+              "code": "C0024141",
+              "label": "Lung adenocarcinoma",
+              "status": "active",
+              "onset_date": null
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "edges": [
+    {
+      "from": "N1",
+      "to": "N2",
+      "data": {
+        "edge_id": "A_to_B",
+        "branch_flag": true,
+        "content": "Patient presented for evaluation of suspected malignant right-sided pleural effusion. Chest CT showed circumferential nodular right-sided pleural thickening with associated pleural effusion and a 2-cm nodule in the right lower lobe."
+      }
+    },
+    {
+      "from": "N2",
+      "to": "N3",
+      "data": {
+        "edge_id": "B_to_C",
+        "branch_flag": true,
+        "content": "Chest CT findings led to Thoracic ultrasound (TUS) which showed a simple effusion. Aspiration yielded 500 mL of dark brown fluid (degraded haemoglobin)."
+      }
+    },
+    {
+      "from": "N3",
+      "to": "N4",
+      "data": {
+        "edge_id": "C_to_D",
+        "branch_flag": true,
+        "content": "Initial aspiration led to patient re-presentation with chest pain three days later.",
+        "transition_event": {
+          "trigger_type": "procedure",
+          "trigger_entities": [
+            "C0159345"
+          ],
+          "change_type": "other",
+          "target_domain": "symptom",
+          "timestamp": null
+        }
+      }
+    },
+    {
+      "from": "N4",
+      "to": "N5",
+      "data": {
+        "edge_id": "D_to_E",
+        "branch_flag": true,
+        "content": "Chest pain prompted CXR and CT scan, which showed reaccumulation of the pleural effusion. TUS showed the effusion was heavily septated."
+      }
+    },
+    {
+      "from": "N5",
+      "to": "N6",
+      "data": {
+        "edge_id": "E_to_F",
+        "branch_flag": true,
+        "content": "Reaccumulation of septated pleural effusion led to insertion of 12-Fr ICD, draining minimal dark sanguineous fluid. Pleural fluid/serum haematocrit ratio of 0.58, suggestive of interval pleural haemorrhage.",
+        "transition_event": {
+          "trigger_type": "imaging",
+          "trigger_entities": [],
+          "change_type": "progression",
+          "target_domain": "imaging",
+          "timestamp": null
+        }
+      }
+    },
+    {
+      "from": "N6",
+      "to": "N7",
+      "data": {
+        "edge_id": "F_to_G",
+        "branch_flag": true,
+        "content": "ICD insertion followed by a single dose of intrapleural alteplase 10 mg, resulting in a further 1400 mL of drain output.",
+        "transition_event": {
+          "trigger_type": "medication_change",
+          "trigger_entities": [
+            "C0002271"
+          ],
+          "change_type": "addition",
+          "target_domain": "medication",
+          "timestamp": null
+        }
+      }
+    },
+    {
+      "from": "N7",
+      "to": "N8",
+      "data": {
+        "edge_id": "G_to_H",
+        "branch_flag": true,
+        "content": "Alteplase administration led to repeat CXR showing a significant reduction in the volume of effusion and revealed underlying trapped lung. Fluid cytology was positive for lung adenocarcinoma and haemoglobin remained stable.",
+        "transition_event": {
+          "trigger_type": "medication_change",
+          "trigger_entities": [
+            "C0002271"
+          ],
+          "change_type": "other",
+          "target_domain": "imaging",
+          "timestamp": null
+        }
+      }
+    }
+  ]
+}

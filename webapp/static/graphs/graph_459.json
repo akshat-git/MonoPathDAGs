@@ -1,0 +1,327 @@
+{
+  "nodes": [
+    {
+      "id": "N1",
+      "label": "Step 1",
+      "customData": {
+        "node_id": "A",
+        "node_step_index": 0,
+        "content": "54-year-old Chinese male presented with abdominal distension, fatigue, and weight loss.",
+        "clinical_data": {
+          "HPI": [
+            {
+              "summary": "54-year-old Chinese male presented with abdominal distension, fatigue, and weight loss.",
+              "associated_symptoms": [
+                "C0009391",
+                "C0015967",
+                "C0042061"
+              ]
+            }
+          ]
+        }
+      }
+    },
+    {
+      "id": "N2",
+      "label": "Step 2",
+      "customData": {
+        "node_id": "B",
+        "node_step_index": 1,
+        "content": "Diagnosed with gastro and duodenal inflammation by gastroscopy and anemia at a local hospital. Abdominal ultrasound showed no signs of abnormality.",
+        "clinical_data": {
+          "diagnoses": [
+            {
+              "code": "443244005",
+              "label": "Gastrointestinal inflammation",
+              "status": "active"
+            },
+            {
+              "code": "267036007",
+              "label": "Duodenal inflammation",
+              "status": "active"
+            },
+            {
+              "code": "267036007",
+              "label": "Anemia",
+              "status": "active"
+            }
+          ],
+          "procedures": [
+            {
+              "name": "428251009",
+              "approach": "endoscopic",
+              "date": null,
+              "location": "stomach",
+              "performed_by": null,
+              "outcome": null
+            }
+          ],
+          "imaging": [
+            {
+              "type": "246458004",
+              "body_part": "18214008",
+              "modality": "Ultrasound",
+              "finding": "No signs of abnormality",
+              "impression": null,
+              "date": null
+            }
+          ]
+        }
+      }
+    },
+    {
+      "id": "N3",
+      "label": "Step 3",
+      "customData": {
+        "node_id": "C",
+        "node_step_index": 2,
+        "content": "Symptoms aggravated within two weeks.",
+        "clinical_data": {}
+      }
+    },
+    {
+      "id": "N4",
+      "label": "Step 4",
+      "customData": {
+        "node_id": "D",
+        "node_step_index": 3,
+        "content": "Preoperative contrast-enhanced CT showed multiple polypoid lesions in small intestine causing intussusceptions and obstruction. No masses were seen in lung, liver, or pancreas.",
+        "clinical_data": {
+          "imaging": [
+            {
+              "type": "Computed tomography angiography",
+              "body_part": "Small intestine",
+              "modality": "CT",
+              "finding": "Multiple polypoid lesions causing intussusceptions and obstruction",
+              "impression": "Multiple polypoid lesions causing intussusceptions and obstruction"
+            },
+            {
+              "type": "Computed tomography angiography",
+              "body_part": "Lung",
+              "modality": "CT",
+              "finding": "No masses seen",
+              "impression": "No masses seen"
+            },
+            {
+              "type": "Computed tomography angiography",
+              "body_part": "Liver",
+              "modality": "CT",
+              "finding": "No masses seen",
+              "impression": "No masses seen"
+            },
+            {
+              "type": "Computed tomography angiography",
+              "body_part": "Pancreas",
+              "modality": "CT",
+              "finding": "No masses seen",
+              "impression": "No masses seen"
+            }
+          ]
+        }
+      }
+    },
+    {
+      "id": "N5",
+      "label": "Step 5",
+      "customData": {
+        "node_id": "E",
+        "node_step_index": 4,
+        "content": "Laparotomy revealed approximately 1,000 mL ascites in the peritoneal cavity and many polypoid lumps in small bowel with enlarged regional lymph nodes.",
+        "clinical_data": {
+          "procedures": [
+            {
+              "name": "Laparotomy",
+              "approach": "open",
+              "date": null,
+              "location": "peritoneal cavity",
+              "performed_by": null,
+              "outcome": null
+            }
+          ],
+          "imaging": [
+            {
+              "type": "Ascites",
+              "body_part": "peritoneal cavity",
+              "modality": null,
+              "finding": "approximately 1,000 mL",
+              "impression": null,
+              "date": null
+            }
+          ],
+          "diagnoses": [
+            {
+              "code": null,
+              "label": "polypoid lumps in small bowel",
+              "status": "active",
+              "onset_date": null
+            },
+            {
+              "code": null,
+              "label": "enlarged regional lymph nodes",
+              "status": "active",
+              "onset_date": null
+            }
+          ]
+        }
+      }
+    },
+    {
+      "id": "N6",
+      "label": "Step 6",
+      "customData": {
+        "node_id": "F",
+        "node_step_index": 5,
+        "content": "Segmental resection of jejunum and proximal ileum (300 cm total, distal margin 160 cm to ileocecal valve) was performed, along with removal of seven mesentery lymph nodes.  More than 100 round polypoid masses (1.5-2.6 cm diameter) were found dispersing along the resected intestinal lumen.",
+        "clinical_data": {
+          "procedures": [
+            {
+              "name": "Segmental resection of jejunum and proximal ileum",
+              "approach": "open",
+              "date": null,
+              "location": "jejunum and proximal ileum",
+              "performed_by": null,
+              "outcome": null
+            },
+            {
+              "name": "Removal of mesentery lymph nodes",
+              "approach": "open",
+              "date": null,
+              "location": "mesentery",
+              "performed_by": null,
+              "outcome": null
+            }
+          ],
+          "imaging": [
+            {
+              "type": "Polypoid mass",
+              "body_part": "intestinal lumen",
+              "modality": null,
+              "finding": "More than 100 round polypoid masses (1.5-2.6 cm diameter) were found dispersing along the resected intestinal lumen.",
+              "impression": null,
+              "date": null
+            }
+          ]
+        }
+      }
+    },
+    {
+      "id": "N7",
+      "label": "Step 7",
+      "customData": {
+        "node_id": "G",
+        "node_step_index": 6,
+        "content": "Metastases found in all resected lymph nodes. Microscopy showed pleomorphic cells with giant nuclei and epithelioid cells in complex form without clear separation.  Lesion composition: 30% epithelioid",
+        "Immunohistochemistry": "Vimentin(+), CK(+), CK8(+), CK18(+), CD34(+), CD68(+), S-100(-), Dog-1(-), CD11",
+        "clinical_data": {
+          "diagnoses": [
+            {
+              "code": "C77",
+              "label": "Secondary and unspecified malignant neoplasm of lymph node",
+              "status": "active"
+            }
+          ],
+          "imaging": [
+            {
+              "type": "Lymph Node Imaging",
+              "body_part": "Lymph Nodes",
+              "modality": "Microscopy",
+              "finding": "Metastases",
+              "impression": "Pleomorphic cells with giant nuclei and epithelioid cells in complex form without clear separation."
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "edges": [
+    {
+      "from": "N1",
+      "to": "N2",
+      "data": {
+        "edge_id": "A_to_B",
+        "branch_flag": true,
+        "content": "Initial presentation and workup at local hospital.",
+        "transition_event": null
+      }
+    },
+    {
+      "from": "N2",
+      "to": "N3",
+      "data": {
+        "edge_id": "B_to_C",
+        "branch_flag": true,
+        "content": "Worsening of symptoms.",
+        "transition_event": {
+          "trigger_type": "spontaneous",
+          "trigger_entities": [],
+          "change_type": "progression",
+          "target_domain": "symptom"
+        }
+      }
+    },
+    {
+      "from": "N3",
+      "to": "N4",
+      "data": {
+        "edge_id": "C_to_D",
+        "branch_flag": true,
+        "content": "CT imaging to investigate worsening symptoms.",
+        "transition_event": {
+          "trigger_type": "procedure",
+          "trigger_entities": [
+            "C0009451"
+          ],
+          "change_type": "addition",
+          "target_domain": "imaging"
+        }
+      }
+    },
+    {
+      "from": "N4",
+      "to": "N5",
+      "data": {
+        "edge_id": "D_to_E",
+        "branch_flag": true,
+        "content": "Laparotomy performed based on CT findings.",
+        "transition_event": {
+          "trigger_type": "procedure",
+          "trigger_entities": [
+            "C0022938"
+          ],
+          "change_type": "addition",
+          "target_domain": "procedure"
+        }
+      }
+    },
+    {
+      "from": "N5",
+      "to": "N6",
+      "data": {
+        "edge_id": "E_to_F",
+        "branch_flag": true,
+        "content": "Surgical resection of affected bowel segment and lymph nodes.",
+        "transition_event": {
+          "trigger_type": "procedure",
+          "trigger_entities": [],
+          "change_type": "addition",
+          "target_domain": "procedure"
+        }
+      }
+    },
+    {
+      "from": "N6",
+      "to": "N7",
+      "data": {
+        "edge_id": "F_to_G",
+        "branch_flag": true,
+        "content": "Pathological analysis of resected tissue.",
+        "transition_event": {
+          "trigger_type": "lab_change",
+          "trigger_entities": [],
+          "change_type": "addition",
+          "target_domain": "diagnosis"
+        }
+      }
+    }
+  ]
+}

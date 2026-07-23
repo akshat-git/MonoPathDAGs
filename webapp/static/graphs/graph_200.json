@@ -1,0 +1,372 @@
+{
+  "nodes": [
+    {
+      "id": "N1",
+      "label": "Step 1",
+      "customData": {
+        "node_id": "A",
+        "node_step_index": 0,
+        "content": "71-year-old man with a 40-pack-year smoking history presented with left chest pain.",
+        "clinical_data": {
+          "social_history": [
+            {
+              "category": "smoking",
+              "status": "past",
+              "description": "40-pack-year smoking history"
+            }
+          ],
+          "HPI": [
+            {
+              "summary": "left chest pain"
+            }
+          ]
+        }
+      }
+    },
+    {
+      "id": "N2",
+      "label": "Step 2",
+      "customData": {
+        "node_id": "B",
+        "node_step_index": 1,
+        "content": "Diagnosed with pulmonary adenocarcinoma in the left upper lobe, stage cT4N2M0 and IIIB.",
+        "clinical_data": {
+          "diagnoses": [
+            {
+              "code": "C0242375",
+              "label": "Adenocarcinoma of lung",
+              "status": "active",
+              "onset_date": null
+            }
+          ],
+          "imaging": [
+            {
+              "type": "imaging",
+              "body_part": "Left Upper Lobe",
+              "modality": "imaging",
+              "finding": "Pulmonary adenocarcinoma",
+              "impression": "Pulmonary adenocarcinoma in the left upper lobe, stage cT4N2M0 and IIIB.",
+              "date": null
+            }
+          ]
+        }
+      }
+    },
+    {
+      "id": "N3",
+      "label": "Step 3",
+      "customData": {
+        "node_id": "C",
+        "node_step_index": 2,
+        "content": "Thyroid nodules detected on CT. PET-CT revealed strong uptake of 18F-fluorodeoxyglucose (SUVmax 15.33) in the lung tumor and slightly lower uptake (SUVmax 3.59) in the thyroid tumor.",
+        "clinical_data": {
+          "imaging": [
+            {
+              "type": "Thyroid nodule",
+              "body_part": "Thyroid gland",
+              "modality": "CT",
+              "finding": "Thyroid nodules detected"
+            },
+            {
+              "type": "Lung tumor",
+              "body_part": "Lung",
+              "modality": "PET-CT",
+              "finding": "Strong uptake of 18F-fluorodeoxyglucose (SUVmax 15.33)",
+              "impression": "Strong uptake of 18F-fluorodeoxyglucose (SUVmax 15.33)"
+            },
+            {
+              "type": "Thyroid tumor",
+              "body_part": "Thyroid gland",
+              "modality": "PET-CT",
+              "finding": "Slightly lower uptake (SUVmax 3.59)",
+              "impression": "Slightly lower uptake (SUVmax 3.59)"
+            }
+          ]
+        }
+      }
+    },
+    {
+      "id": "N4",
+      "label": "Step 4",
+      "customData": {
+        "node_id": "D",
+        "node_step_index": 3,
+        "content": "Biopsy of a thyroid sample did not reveal any malignant cells; however, the findings were indicative of a primary differentiated thyroid carcinoma or a benign thyroid tumor.",
+        "clinical_data": {
+          "diagnoses": [
+            {
+              "code": "C0376370",
+              "label": "Thyroid carcinoma",
+              "status": "suspected"
+            },
+            {
+              "code": "C0040085",
+              "label": "Thyroid tumor",
+              "status": "suspected"
+            }
+          ],
+          "procedures": [
+            {
+              "name": "Biopsy",
+              "location": "Thyroid",
+              "outcome": "Negative for malignant cells"
+            }
+          ]
+        }
+      }
+    },
+    {
+      "id": "N5",
+      "label": "Step 5",
+      "customData": {
+        "node_id": "E",
+        "node_step_index": 4,
+        "content": "Patient responded to first-line radiochemotherapy. Progression to pulmonary metastasis noted 10 months after the diagnosis.",
+        "clinical_data": {
+          "diagnoses": [
+            {
+              "code": "C0242963",
+              "label": "Pulmonary Metastasis",
+              "status": "active",
+              "onset_date": null
+            }
+          ]
+        }
+      }
+    },
+    {
+      "id": "N6",
+      "label": "Step 6",
+      "customData": {
+        "node_id": "F",
+        "node_step_index": 5,
+        "content": "Nivolumab started as second-line therapy. After 12 cycles of nivolumab, CT revealed complete response of the pulmonary metastasis to treatment.",
+        "clinical_data": {
+          "medications": [
+            {
+              "drug": "C1168538",
+              "dosage": null,
+              "frequency": null,
+              "modality": null,
+              "start_date": null,
+              "end_date": null,
+              "indication": null
+            }
+          ],
+          "imaging": [
+            {
+              "type": "C0205381",
+              "body_part": "C0034154",
+              "modality": "CT",
+              "finding": "complete response of the pulmonary metastasis to treatment",
+              "impression": null,
+              "date": null
+            }
+          ]
+        }
+      }
+    },
+    {
+      "id": "N7",
+      "label": "Step 7",
+      "customData": {
+        "node_id": "G",
+        "node_step_index": 6,
+        "content": "After 32 cycles of nivolumab, the patient developed pain in the left neck. CT revealed rapid growth of the thyroid tumor with tracheal deviation and left cervical lymphadenopathy.",
+        "clinical_data": {
+          "diagnoses": [
+            {
+              "code": "C73",
+              "label": "Malignant neoplasm of thyroid gland",
+              "status": "active"
+            }
+          ],
+          "imaging": [
+            {
+              "type": "CT of neck",
+              "body_part": "Neck",
+              "modality": "CT",
+              "finding": "Rapid growth of the thyroid tumor with tracheal deviation and left cervical lymphadenopathy",
+              "impression": "Rapid growth of the thyroid tumor with tracheal deviation and left cervical lymphadenopathy"
+            }
+          ],
+          "medications": [
+            {
+              "drug": "C1663195",
+              "dosage": null,
+              "frequency": null,
+              "modality": null,
+              "start_date": null,
+              "end_date": null,
+              "indication": "Malignant neoplasm of thyroid gland"
+            }
+          ],
+          "HPI": [
+            {
+              "summary": "Pain in the left neck",
+              "onset": null,
+              "progression": "rapid",
+              "associated_symptoms": [],
+              "alleviating_factors": [],
+              "exacerbating_factors": []
+            }
+          ]
+        }
+      }
+    },
+    {
+      "id": "N8",
+      "label": "Step 8",
+      "customData": {
+        "node_id": "H",
+        "node_step_index": 7,
+        "content": "Biopsies of the thyroid tumor and left cervical lymph node were performed. Histological examination suggested that the thyroid tumor and left cervical lymph nodes were composed of poorly differentiated tumor cells with milder nucleolar pleomorphy and hypertrophy compared with the previously biopsied lung tumor tissue. Immunohistochemical staining showed that the thyroid tumor cells were partially positive for cytokeratin (CK) and strongly positive for vimentin",
+        "clinical_data": {
+          "procedures": [
+            {
+              "name": "Biopsy",
+              "location": "Thyroid tumor",
+              "date": null
+            },
+            {
+              "name": "Biopsy",
+              "location": "Left cervical lymph node",
+              "date": null
+            }
+          ],
+          "labs": [
+            {
+              "test": "Cytokeratin (CK)",
+              "value": "positive",
+              "unit": null,
+              "flag": null,
+              "reference_range": null,
+              "timestamp": null
+            },
+            {
+              "test": "Vimentin",
+              "value": "positive",
+              "unit": null,
+              "flag": null,
+              "reference_range": null,
+              "timestamp": null
+            }
+          ],
+          "diagnoses": [
+            {
+              "code": null,
+              "label": "Poorly differentiated tumor cells",
+              "status": "active",
+              "onset_date": null
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "edges": [
+    {
+      "from": "N1",
+      "to": "N2",
+      "data": {
+        "edge_id": "A_to_B",
+        "branch_flag": true,
+        "content": "Initial diagnosis and staging of lung cancer following presentation with chest pain."
+      }
+    },
+    {
+      "from": "N2",
+      "to": "N3",
+      "data": {
+        "edge_id": "B_to_C",
+        "branch_flag": true,
+        "content": "Detection of thyroid nodules on CT scan, followed by PET-CT imaging to assess metabolic activity in both lung and thyroid tumors."
+      }
+    },
+    {
+      "from": "N3",
+      "to": "N4",
+      "data": {
+        "edge_id": "C_to_D",
+        "branch_flag": true,
+        "content": "Biopsy performed on thyroid sample to evaluate for malignancy.",
+        "transition_event": {
+          "trigger_type": "procedure",
+          "trigger_entities": [
+            "C0005767"
+          ],
+          "change_type": "other",
+          "target_domain": "diagnosis"
+        }
+      }
+    },
+    {
+      "from": "N4",
+      "to": "N5",
+      "data": {
+        "edge_id": "D_to_E",
+        "branch_flag": true,
+        "content": "Patient undergoes first-line radiochemotherapy with initial response, followed by disease progression with pulmonary metastasis.",
+        "transition_event": {
+          "trigger_type": "interpretation",
+          "trigger_entities": [
+            "C0242963"
+          ],
+          "change_type": "progression",
+          "target_domain": "diagnosis"
+        }
+      }
+    },
+    {
+      "from": "N5",
+      "to": "N6",
+      "data": {
+        "edge_id": "E_to_F",
+        "branch_flag": true,
+        "content": "Initiation of nivolumab as second-line therapy, resulting in complete response of pulmonary metastasis after 12 cycles.",
+        "transition_event": {
+          "trigger_type": "medication_change",
+          "trigger_entities": [
+            "C1168538"
+          ],
+          "change_type": "addition",
+          "target_domain": "medication"
+        }
+      }
+    },
+    {
+      "from": "N6",
+      "to": "N7",
+      "data": {
+        "edge_id": "F_to_G",
+        "branch_flag": true,
+        "content": "After 32 cycles of nivolumab, patient develops left neck pain, and CT reveals rapid growth of thyroid tumor with tracheal deviation and left cervical lymphadenopathy.",
+        "transition_event": {
+          "trigger_type": "symptom_onset",
+          "trigger_entities": [
+            "C0027051"
+          ],
+          "change_type": "progression",
+          "target_domain": "symptom"
+        }
+      }
+    },
+    {
+      "from": "N7",
+      "to": "N8",
+      "data": {
+        "edge_id": "G_to_H",
+        "branch_flag": true,
+        "content": "Biopsies of thyroid tumor and left cervical lymph node performed, revealing poorly differentiated tumor cells with specific immunohistochemical staining patterns.",
+        "transition_event": {
+          "trigger_type": "procedure",
+          "trigger_entities": [
+            "C0005767"
+          ],
+          "change_type": "reinterpretation",
+          "target_domain": "diagnosis"
+        }
+      }
+    }
+  ]
+}

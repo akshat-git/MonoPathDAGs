@@ -1,0 +1,344 @@
+{
+  "nodes": [
+    {
+      "id": "N1",
+      "label": "Step 1",
+      "customData": {
+        "node_id": "A",
+        "node_step_index": 0,
+        "content": "64-year-old man presented with cough and chest X-ray findings showing right pleural effusion and a right hilar mass. Significant facial edema was observed.",
+        "clinical_data": {
+          "diagnoses": [
+            {
+              "code": "R05",
+              "label": "Cough",
+              "status": "active"
+            }
+          ],
+          "imaging": [
+            {
+              "type": "Radiography",
+              "body_part": "Chest",
+              "modality": "X-ray",
+              "finding": "right pleural effusion and a right hilar mass"
+            }
+          ],
+          "HPI": [
+            {
+              "summary": "cough"
+            }
+          ],
+          "physical_exam": [
+            {
+              "finding": "facial edema"
+            }
+          ]
+        }
+      }
+    },
+    {
+      "id": "N2",
+      "label": "Step 2",
+      "customData": {
+        "node_id": "B",
+        "node_step_index": 1,
+        "content": "Chest CT showed superior vena cava (SVC) syndrome.",
+        "clinical_data": {
+          "imaging": [
+            {
+              "type": "Superior Vena Cava Syndrome",
+              "body_part": "Superior Vena Cava",
+              "modality": "CT",
+              "finding": "SVC syndrome"
+            }
+          ]
+        }
+      }
+    },
+    {
+      "id": "N3",
+      "label": "Step 3",
+      "customData": {
+        "node_id": "C",
+        "node_step_index": 2,
+        "content": "Transbronchial biopsy confirmed the diagnosis of Small Cell Lung Cancer (SCLC) histologically.",
+        "clinical_data": {
+          "diagnoses": [
+            {
+              "code": "C0024083",
+              "label": "Small cell lung carcinoma",
+              "status": "active"
+            }
+          ],
+          "procedures": [
+            {
+              "name": "C0041307",
+              "approach": "endoscopic",
+              "location": "Lung",
+              "outcome": "Confirmed diagnosis"
+            }
+          ]
+        }
+      }
+    },
+    {
+      "id": "N4",
+      "label": "Step 4",
+      "customData": {
+        "node_id": "D",
+        "node_step_index": 3,
+        "content": "Whole-body search indicated right hilar, mediastinal, right supraclavicular, aortic, and superior mediastinal lymph node metastasis and pleural effusion. Enhanced brain MRI revealed no brain metastases. No abnormal findings were found in the abdomen. Patient was diagnosed with extensive SCLC.",
+        "clinical_data": {
+          "imaging": [
+            {
+              "type": "Lymph node metastasis",
+              "body_part": "Right hilar",
+              "modality": "Whole-body search",
+              "finding": "Lymph node metastasis",
+              "impression": "Right hilar, mediastinal, right supraclavicular, aortic, and superior mediastinal lymph node metastasis",
+              "date": null
+            },
+            {
+              "type": "Pleural effusion",
+              "body_part": "Pleural space",
+              "modality": "Whole-body search",
+              "finding": "Pleural effusion",
+              "impression": "Pleural effusion",
+              "date": null
+            },
+            {
+              "type": "Brain MRI",
+              "body_part": "Brain",
+              "modality": "MRI",
+              "finding": "No brain metastases",
+              "impression": "No brain metastases",
+              "date": null
+            },
+            {
+              "type": "Abdomen imaging",
+              "body_part": "Abdomen",
+              "modality": "Unknown",
+              "finding": "No abnormal findings",
+              "impression": "No abnormal findings",
+              "date": null
+            }
+          ],
+          "diagnoses": [
+            {
+              "code": "C34",
+              "label": "Small cell lung cancer",
+              "status": "active",
+              "onset_date": null
+            }
+          ]
+        }
+      }
+    },
+    {
+      "id": "N5",
+      "label": "Step 5",
+      "customData": {
+        "node_id": "E",
+        "node_step_index": 4,
+        "content": "Histological findings of the transbronchial biopsy of the tumor showed small-cell lung cancer. H&E x400, CD56\u00d7400, chromogranin A x400, synaptophysin x100.",
+        "clinical_data": {
+          "diagnoses": [
+            {
+              "code": "C0006826",
+              "label": "Small Cell Lung Carcinoma",
+              "status": "active"
+            }
+          ],
+          "procedures": [
+            {
+              "name": "C0151773",
+              "approach": "endoscopic",
+              "location": "lung",
+              "outcome": "diagnosis"
+            }
+          ],
+          "imaging": [
+            {
+              "type": "C0006264",
+              "body_part": "C0024091",
+              "modality": "other",
+              "finding": "tumor"
+            }
+          ]
+        }
+      }
+    },
+    {
+      "id": "N6",
+      "label": "Step 6",
+      "customData": {
+        "node_id": "F",
+        "node_step_index": 5,
+        "content": "Patient started on first-line treatment with carboplatin (area under the curve [AUC] 6\u2009mg\u00b7mL\u207b\u00b9\u00b7min\u207b\u00b9) and etoposide (100\u2009mg\u00b7m\u207b\u00b2).",
+        "clinical_data": {
+          "medications": [
+            {
+              "drug": "C0007138",
+              "dosage": "AUC 6 mg\u00b7mL\u207b\u00b9\u00b7min\u207b\u00b9",
+              "frequency": null,
+              "modality": null,
+              "start_date": null,
+              "end_date": null,
+              "indication": null
+            },
+            {
+              "drug": "C0015096",
+              "dosage": "100 mg\u00b7m\u207b\u00b2",
+              "frequency": null,
+              "modality": null,
+              "start_date": null,
+              "end_date": null,
+              "indication": null
+            }
+          ]
+        }
+      }
+    },
+    {
+      "id": "N7",
+      "label": "Step 7",
+      "customData": {
+        "node_id": "G",
+        "node_step_index": 6,
+        "content": "Right pneumothorax observed on day 4, chest tube drainage initiated.",
+        "clinical_data": {
+          "imaging": [
+            {
+              "type": "Pneumothorax",
+              "body_part": "Right lung",
+              "modality": "X-ray",
+              "finding": "Pneumothorax",
+              "date": "Day 4"
+            }
+          ],
+          "procedures": [
+            {
+              "name": "Chest tube drainage",
+              "date": "Day 4"
+            }
+          ]
+        }
+      }
+    },
+    {
+      "id": "N8",
+      "label": "Step 8",
+      "customData": {
+        "node_id": "H",
+        "node_step_index": 7,
+        "content": "Empirical administration of ampicillin/sulbactam started on day 6 due to fever and right thoracic empyema.",
+        "clinical_data": {
+          "medications": [
+            {
+              "drug": "C0699734",
+              "dosage": null,
+              "frequency": null,
+              "modality": null,
+              "start_date": null,
+              "end_date": null,
+              "indication": "C0015967"
+            }
+          ],
+          "diagnoses": [
+            {
+              "code": "C0014178",
+              "label": "Empyema",
+              "status": "active",
+              "onset_date": null
+            }
+          ],
+          "HPI": [
+            {
+              "summary": "Fever",
+              "duration": null,
+              "onset": null,
+              "progression": null,
+              "associated_symptoms": [],
+              "alleviating_factors": [],
+              "exacerbating_factors": []
+            }
+          ]
+        }
+      }
+    },
+    {
+      "id": "N9",
+      "label": "Step 9",
+      "customData": {
+        "node_id": "I",
+        "node_step_index": "",
+        "clinical_data": {}
+      }
+    }
+  ],
+  "edges": [
+    {
+      "from": "N1",
+      "to": "N2",
+      "data": {
+        "edge_id": "A_to_B",
+        "branch_flag": true,
+        "content": "Patient progressed from initial presentation with cough, chest X-ray findings of right pleural effusion and a right hilar mass, and facial edema to a chest CT showing superior vena cava (SVC) syndrome."
+      }
+    },
+    {
+      "from": "N2",
+      "to": "N3",
+      "data": {
+        "edge_id": "B_to_C",
+        "branch_flag": true,
+        "content": "SVC syndrome was further investigated via transbronchial biopsy."
+      }
+    },
+    {
+      "from": "N3",
+      "to": "N4",
+      "data": {
+        "edge_id": "C_to_D",
+        "branch_flag": true,
+        "content": "Following confirmation of SCLC, a whole-body search was performed to assess the extent of the disease."
+      }
+    },
+    {
+      "from": "N4",
+      "to": "N5",
+      "data": {
+        "edge_id": "D_to_E",
+        "branch_flag": true,
+        "content": "Histological analysis of the transbronchial biopsy was performed."
+      }
+    },
+    {
+      "from": "N5",
+      "to": "N6",
+      "data": {
+        "edge_id": "E_to_F",
+        "branch_flag": true,
+        "content": "Patient initiated first-line treatment for SCLC."
+      }
+    },
+    {
+      "from": "N6",
+      "to": "N7",
+      "data": {
+        "edge_id": "F_to_G",
+        "branch_flag": true,
+        "content": "Patient developed right pneumothorax as a complication of treatment or disease progression."
+      }
+    },
+    {
+      "from": "N7",
+      "to": "N8",
+      "data": {
+        "edge_id": "G_to_H",
+        "branch_flag": true,
+        "content": "Patient developed fever and right thoracic empyema, leading to empirical antibiotic treatment."
+      }
+    }
+  ]
+}

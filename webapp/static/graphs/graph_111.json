@@ -1,0 +1,549 @@
+{
+  "nodes": [
+    {
+      "id": "N1",
+      "label": "Step 1",
+      "customData": {
+        "node_id": "A",
+        "node_step_index": 0,
+        "content": "34-year-old male presented with a tumor in the upper lobe of the right lung and an enlarged right upper paratracheal lymph node detected via CT and PET. Diagnosed with stage IIIB adenocarcinoma (ADC) of the lung (cT3N2M0) after pathological assessment of CT-guided biopsy. Targeted next-generation sequencing (NGS) of 14 genes detected an EML4-ALK rearrangement (EML4: exon6-ALK:exon20) with an allele frequency of 26.2%.",
+        "clinical_data": {
+          "diagnoses": [
+            {
+              "code": "C34.9",
+              "label": "Malignant neoplasm of bronchus or lung, unspecified",
+              "status": "active",
+              "onset_date": null
+            }
+          ],
+          "imaging": [
+            {
+              "type": "finding",
+              "body_part": "Lung",
+              "modality": "CT",
+              "finding": "tumor in the upper lobe of the right lung",
+              "impression": "tumor in the upper lobe of the right lung",
+              "date": null
+            },
+            {
+              "type": "finding",
+              "body_part": "Lymph Node",
+              "modality": "CT",
+              "finding": "enlarged right upper paratracheal lymph node",
+              "impression": "enlarged right upper paratracheal lymph node",
+              "date": null
+            },
+            {
+              "type": "finding",
+              "body_part": "Lung",
+              "modality": "PET",
+              "finding": "tumor in the upper lobe of the right lung",
+              "impression": "tumor in the upper lobe of the right lung",
+              "date": null
+            },
+            {
+              "type": "finding",
+              "body_part": "Lymph Node",
+              "modality": "PET",
+              "finding": "enlarged right upper paratracheal lymph node",
+              "impression": "enlarged right upper paratracheal lymph node",
+              "date": null
+            }
+          ],
+          "labs": [
+            {
+              "test": "Next Generation Sequencing",
+              "value": "EML4-ALK rearrangement (EML4: exon6-ALK:exon20)",
+              "unit": null,
+              "flag": null,
+              "reference_range": null,
+              "timestamp": null
+            }
+          ]
+        }
+      }
+    },
+    {
+      "id": "N2",
+      "label": "Step 2",
+      "customData": {
+        "node_id": "B",
+        "node_step_index": 1,
+        "content": "Patient received one cycle of neoadjuvant chemotherapy with pemetrexed (800 mg) and carboplatin (AUC=5), but the tumor did not shrink.",
+        "clinical_data": {
+          "medications": [
+            {
+              "drug": "C0973818",
+              "dosage": "800 mg",
+              "frequency": "one cycle",
+              "modality": "IV",
+              "start_date": null,
+              "end_date": null,
+              "indication": null
+            },
+            {
+              "drug": "C0007268",
+              "dosage": "AUC=5",
+              "frequency": "one cycle",
+              "modality": "IV",
+              "start_date": null,
+              "end_date": null,
+              "indication": null
+            }
+          ],
+          "procedures": [
+            {
+              "name": "C0009264",
+              "approach": null,
+              "date": null,
+              "location": null,
+              "performed_by": null,
+              "outcome": "no response"
+            }
+          ]
+        }
+      }
+    },
+    {
+      "id": "N3",
+      "label": "Step 3",
+      "customData": {
+        "node_id": "C",
+        "node_step_index": 2,
+        "content": "Patient received 8 weeks of neoadjuvant targeted therapy with ceritinib (450 mg/day).",
+        "clinical_data": {
+          "medications": [
+            {
+              "drug": "C1263481",
+              "dosage": "450 mg/day",
+              "frequency": "daily",
+              "modality": "oral",
+              "start_date": null,
+              "end_date": null,
+              "indication": "Neoadjuvant therapy"
+            }
+          ]
+        }
+      }
+    },
+    {
+      "id": "N4",
+      "label": "Step 4",
+      "customData": {
+        "node_id": "D",
+        "node_step_index": 3,
+        "content": "Chest CT after 4 weeks of ceritinib treatment revealed a partial response (PR) with a 38% tumor shrinkage.",
+        "clinical_data": {
+          "imaging": [
+            {
+              "type": "Computed tomography of chest",
+              "body_part": "Chest",
+              "modality": "CT",
+              "finding": "Partial response to ceritinib treatment",
+              "impression": "38% tumor shrinkage",
+              "date": null
+            }
+          ],
+          "medications": [
+            {
+              "drug": "Ceritinib",
+              "dosage": null,
+              "frequency": null,
+              "modality": "oral",
+              "start_date": null,
+              "end_date": null,
+              "indication": "tumor shrinkage"
+            }
+          ]
+        }
+      }
+    },
+    {
+      "id": "N5",
+      "label": "Step 5",
+      "customData": {
+        "node_id": "E",
+        "node_step_index": 4,
+        "content": "After another 4 weeks of neoadjuvant ceritinib treatment, the lung tumor further shrank by 55%, with a decrease in SUVmax from 28.04 to 9.51. Enlarged lymph nodes subsided. Mild diarrhea reported as an adverse effect of ceritinib treatment.",
+        "clinical_data": {
+          "medications": [
+            {
+              "drug": "C0086747",
+              "dosage": null,
+              "frequency": null,
+              "modality": null,
+              "start_date": null,
+              "end_date": null,
+              "indication": "C0024117"
+            }
+          ],
+          "imaging": [
+            {
+              "type": "C0205035",
+              "body_part": "C0024117",
+              "modality": "PET",
+              "finding": "lung tumor shrank by 55%",
+              "impression": null,
+              "date": null
+            }
+          ],
+          "labs": [
+            {
+              "test": "SUVmax",
+              "value": "9.51",
+              "unit": null,
+              "flag": null,
+              "reference_range": null,
+              "timestamp": null
+            }
+          ],
+          "diagnoses": [
+            {
+              "code": null,
+              "label": "Enlarged lymph nodes",
+              "status": "resolved",
+              "onset_date": null
+            }
+          ],
+          "HPI": [
+            {
+              "summary": "Mild diarrhea reported as an adverse effect of ceritinib treatment.",
+              "duration": null,
+              "onset": null,
+              "progression": null,
+              "associated_symptoms": [
+                "C0011991"
+              ],
+              "alleviating_factors": null,
+              "exacerbating_factors": null
+            }
+          ]
+        }
+      }
+    },
+    {
+      "id": "N6",
+      "label": "Step 6",
+      "customData": {
+        "node_id": "F",
+        "node_step_index": 5,
+        "content": "After one cycle of chemotherapy, the tumor and the lymph node remained stable. After eight weeks of ceritinib treatment, the maximum diameters of primary lung (PL) tumor and right upper paratracheal lymph node (LN2R) are 25.2 and 6.4 mm, respectively, with an SUVmax of 9.51 and 2.88. Hematoxylin\u2013eosin (HE) staining of samples punctured before neoadjuvant ceritinib shows nests of tumor cells with necrosis. IHC examinations reveal positive ALK (D5F3), CK7, P63, P40, and negative TTF\u20101, supporting a diagnosis of adenocarcinoma (ADC).",
+        "clinical_data": {
+          "imaging": [
+            {
+              "type": "Primary Lung Tumor Size",
+              "body_part": "Lung",
+              "modality": "CT",
+              "finding": "25.2 mm",
+              "date": null
+            },
+            {
+              "type": "Right Upper Paratracheal Lymph Node Size",
+              "body_part": "Right Upper Paratracheal Lymph Node",
+              "modality": "CT",
+              "finding": "6.4 mm",
+              "date": null
+            },
+            {
+              "type": "SUVmax",
+              "body_part": "Primary Lung Tumor",
+              "modality": "PET",
+              "finding": "9.51",
+              "date": null
+            },
+            {
+              "type": "SUVmax",
+              "body_part": "Right Upper Paratracheal Lymph Node",
+              "modality": "PET",
+              "finding": "2.88",
+              "date": null
+            }
+          ],
+          "procedures": [
+            {
+              "name": "Puncture",
+              "date": null,
+              "location": null,
+              "performed_by": null,
+              "outcome": null
+            }
+          ],
+          "diagnoses": [
+            {
+              "code": "C0002392",
+              "label": "Adenocarcinoma",
+              "status": "active",
+              "onset_date": null
+            }
+          ],
+          "medications": [
+            {
+              "drug": "C3221179",
+              "dosage": null,
+              "frequency": null,
+              "modality": "oral",
+              "start_date": null,
+              "end_date": null,
+              "indication": "Neoadjuvant"
+            }
+          ]
+        }
+      }
+    },
+    {
+      "id": "N7",
+      "label": "Step 7",
+      "customData": {
+        "node_id": "G",
+        "node_step_index": 6,
+        "content": "Post-neoadjuvant ceritinib surgical resection: Significant decrease in tumor cells, interstitial fibrosis, and scattered lymphocytes in the tumor bed. Round tumor cell nests with eosinophilic cytoplasm and vesicular nuclei are seen. IHC: ALK (D5F3)+, CK7+, TTF-1+, P63+, P40+; histology consistent with adenocarcinoma (ASC). Right upper paratracheal lymph node also shows scattered nests of tumor cells with eosinophilic cytoplasm and vesicular nuclei. IHC: ALK (D5F3)+, CK7+, TTF-1+, P63+, P40+; histology consistent with adenocarcinoma (ASC).",
+        "clinical_data": {
+          "imaging": [
+            {
+              "modality": "other",
+              "body_part": "Paratracheal Lymph Node",
+              "finding": "Scattered nests of tumor cells with eosinophilic cytoplasm and vesicular nuclei",
+              "impression": "Histology consistent with adenocarcinoma (ASC)"
+            }
+          ],
+          "procedures": [
+            {
+              "name": "surgical resection",
+              "outcome": "Significant decrease in tumor cells, interstitial fibrosis, and scattered lymphocytes in the tumor bed"
+            }
+          ],
+          "diagnoses": [
+            {
+              "code": "C00.336",
+              "label": "Adenocarcinoma",
+              "status": "active"
+            }
+          ]
+        }
+      }
+    },
+    {
+      "id": "N8",
+      "label": "Step 8",
+      "customData": {
+        "node_id": "H",
+        "node_step_index": 7,
+        "content": "Baseline biopsy revealed adenocarcinoma (ACC). Comparison of the tissue NGS sequencing results before and after ceritinib administration revealed a decrease in the allele frequency of EML4\u2010ALK, from 26.2 to 2.3%.",
+        "clinical_data": {
+          "diagnoses": [
+            {
+              "code": "C2388400",
+              "label": "Adenocarcinoma",
+              "status": "active",
+              "onset_date": null
+            }
+          ],
+          "labs": [
+            {
+              "test": "Allele Frequency",
+              "value": "26.2",
+              "unit": "%",
+              "flag": "abnormal",
+              "reference_range": null,
+              "timestamp": null
+            }
+          ],
+          "procedures": [
+            {
+              "name": "Biopsy",
+              "approach": null,
+              "date": null,
+              "location": null,
+              "performed_by": null,
+              "outcome": null
+            }
+          ],
+          "medications": [
+            {
+              "drug": "Ceritinib",
+              "dosage": null,
+              "frequency": null,
+              "modality": "oral",
+              "start_date": null,
+              "end_date": null,
+              "indication": "Adenocarcinoma"
+            }
+          ]
+        }
+      }
+    },
+    {
+      "id": "N9",
+      "label": "Step 9",
+      "customData": {
+        "node_id": "I",
+        "node_step_index": 8,
+        "content": "Patient underwent video-assisted thoracoscopic surgery (VATS) right upper lobectomy seven days after the last dose of ceritinib.",
+        "clinical_data": {
+          "procedures": [
+            {
+              "name": "Video-assisted thoracoscopic surgery",
+              "approach": "endoscopic",
+              "date": null,
+              "location": "right upper lobe",
+              "performed_by": null,
+              "outcome": null
+            },
+            {
+              "name": "Lobectomy",
+              "approach": "endoscopic",
+              "date": null,
+              "location": "right upper lobe",
+              "performed_by": null,
+              "outcome": null
+            }
+          ],
+          "medications": [
+            {
+              "drug": "Ceritinib",
+              "dosage": null,
+              "frequency": null,
+              "modality": "oral",
+              "start_date": null,
+              "end_date": null,
+              "indication": null
+            }
+          ]
+        }
+      }
+    },
+    {
+      "id": "N10",
+      "label": "Step 10",
+      "customData": {
+        "node_id": "J",
+        "node_step_index": 9,
+        "content": "Complete surgical resection (R0) achieved with mild adhesions and a small amount of bleeding intraoperatively. Postoperative pathological examination revealed extensive tumor necrosis with less than 10%",
+        "clinical_data": {
+          "procedures": [
+            {
+              "name": "Surgical resection",
+              "outcome": "Complete surgical resection (R0)"
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "edges": [
+    {
+      "from": "N1",
+      "to": "N2",
+      "data": {
+        "edge_id": "A_to_B",
+        "branch_flag": true,
+        "content": "Initiation of neoadjuvant chemotherapy with pemetrexed and carboplatin.",
+        "transition_event": {
+          "trigger_type": "medication_change",
+          "trigger_entities": [
+            "C0973818",
+            "C0007268"
+          ],
+          "change_type": "addition",
+          "target_domain": "medication"
+        }
+      }
+    },
+    {
+      "from": "N2",
+      "to": "N3",
+      "data": {
+        "edge_id": "B_to_C",
+        "branch_flag": true,
+        "content": "Chemotherapy with pemetrexed and carboplatin was ineffective. Neoadjuvant targeted therapy with ceritinib initiated.",
+        "transition_event": {
+          "trigger_type": "medication_change",
+          "trigger_entities": [
+            "C0973818",
+            "C0007268",
+            "C1263481"
+          ],
+          "change_type": "addition",
+          "target_domain": "medication"
+        }
+      }
+    },
+    {
+      "from": "N3",
+      "to": "N4",
+      "data": {
+        "edge_id": "C_to_D",
+        "branch_flag": true,
+        "content": "After 4 weeks of ceritinib, chest CT revealed a partial response with 38% tumor shrinkage.",
+        "transition_event": {
+          "trigger_type": "imaging",
+          "trigger_entities": [],
+          "change_type": "progression",
+          "target_domain": "imaging"
+        }
+      }
+    },
+    {
+      "from": "N4",
+      "to": "N5",
+      "data": {
+        "edge_id": "D_to_E",
+        "branch_flag": true,
+        "content": "After another 4 weeks of ceritinib, the lung tumor further shrank by 55%, SUVmax decreased, and enlarged lymph nodes subsided. Mild diarrhea reported as an adverse effect.",
+        "transition_event": {
+          "trigger_type": "symptom_onset",
+          "trigger_entities": [
+            "C0011991"
+          ],
+          "change_type": "addition",
+          "target_domain": "symptom"
+        }
+      }
+    },
+    {
+      "from": "N5",
+      "to": "N6",
+      "data": {
+        "edge_id": "E_to_F",
+        "branch_flag": true,
+        "content": "After one cycle of chemotherapy, the tumor and the lymph node remained stable. After eight weeks of ceritinib treatment, the maximum diameters of primary lung (PL) tumor and right upper paratracheal lymph node (LN2R) are 25.2 and 6.4 mm, respectively, with an SUVmax of 9.51 and 2.88. Hematoxylin\u2013eosin (HE) staining of samples punctured before neoadjuvant ceritinib shows nests of tumor cells with necrosis. IHC examinations reveal positive ALK (D5F3), CK7, P63, P40, and negative TTF\u20101, supporting a diagnosis of adenocarcinoma (ADC).",
+        "transition_event": {
+          "trigger_type": "interpretation",
+          "trigger_entities": [],
+          "change_type": "reinterpretation",
+          "target_domain": "diagnosis"
+        }
+      }
+    },
+    {
+      "from": "N6",
+      "to": "N7",
+      "data": {
+        "edge_id": "F_to_G",
+        "branch_flag": true,
+        "content": "Post-neoadjuvant ceritinib surgical resection.",
+        "transition_event": {
+          "trigger_type": "procedure",
+          "trigger_entities": [
+            "C0038742"
+          ],
+          "change_type": "addition",
+          "target_domain": "procedure"
+        }
+      }
+    },
+    {
+      "from": "N7",
+      "to": "N8",
+      "data": {
+        "edge_id": "G_to_H",
+        "branch_flag": true,
+        "content": "Baseline biopsy revealed adenocarcinoma (ACC). Comparison of the tissue NGS sequencing results before and after ceritinib administration revealed a decrease in the allele frequency of EML4\u2010ALK, from 26.2 to 2.3%.",
+        "transition_event": {
+          "trigger_type": "lab_change",
+          "trigger_entities": []
+        }
+      }
+    }
+  ]
+}

@@ -1,0 +1,449 @@
+{
+  "nodes": [
+    {
+      "id": "N1",
+      "label": "Step 1",
+      "customData": {
+        "node_id": "A",
+        "node_step_index": 0,
+        "content": "April 2021: Diagnosed with HIV infection, HIV-1 RNA 1.04 x 10^5 copies/mL, CD4+ T cell count 64.66 cells/\u00b5L.",
+        "clinical_data": {
+          "diagnoses": [
+            {
+              "code": "C0019693",
+              "label": "HIV infection",
+              "status": "active",
+              "onset_date": "2021-04"
+            }
+          ],
+          "labs": [
+            {
+              "test": "C0019705",
+              "value": "1.04 x 10^5",
+              "unit": "copies/mL",
+              "flag": "abnormal",
+              "timestamp": "2021-04"
+            },
+            {
+              "test": "C0007717",
+              "value": "64.66",
+              "unit": "cells/\u00b5L",
+              "flag": "abnormal",
+              "timestamp": "2021-04"
+            }
+          ]
+        }
+      },
+      "custom_id": "graph_021_N0"
+    },
+    {
+      "id": "N2",
+      "label": "Step 2",
+      "customData": {
+        "node_id": "B",
+        "node_step_index": 1,
+        "content": "May 2021: Initiated antiretroviral therapy with tenofovir disoproxil fumarate, lamivudine, and efavirenz.",
+        "clinical_data": {
+          "medications": [
+            {
+              "drug": "C0040069",
+              "dosage": null,
+              "frequency": null,
+              "modality": null,
+              "start_date": "2021-05",
+              "end_date": null,
+              "indication": "C0019424"
+            },
+            {
+              "drug": "C0022941",
+              "dosage": null,
+              "frequency": null,
+              "modality": null,
+              "start_date": "2021-05",
+              "end_date": null,
+              "indication": "C0019424"
+            },
+            {
+              "drug": "C0014429",
+              "dosage": null,
+              "frequency": null,
+              "modality": null,
+              "start_date": "2021-05",
+              "end_date": null,
+              "indication": "C0019424"
+            }
+          ]
+        }
+      },
+      "custom_id": "graph_021_N1"
+    },
+    {
+      "id": "N3",
+      "label": "Step 3",
+      "customData": {
+        "node_id": "C",
+        "node_step_index": 2,
+        "content": "February 2023: HIV-1 RNA 113 copies/mL, CD4+ T cell count 283 cells/\u00b5L, low-level viremia persisted, genotypic resistance testing revealed K103N mutation. Medication adherence assessment showed an 82% self-reported adherence rate.",
+        "clinical_data": {
+          "labs": [
+            {
+              "test": "HIV-1 RNA measurement",
+              "value": "113",
+              "unit": "copies/mL",
+              "timestamp": "2023-02"
+            },
+            {
+              "test": "CD4+ T cell count",
+              "value": "283",
+              "unit": "cells/\u00b5L",
+              "timestamp": "2023-02"
+            }
+          ],
+          "diagnoses": [
+            {
+              "code": "C0019693",
+              "label": "HIV-1 Infection",
+              "status": "active",
+              "onset_date": null
+            }
+          ],
+          "medications": [
+            {
+              "drug": "Antiretroviral therapy",
+              "dosage": null,
+              "frequency": null,
+              "modality": null,
+              "start_date": null,
+              "end_date": null,
+              "indication": "C0019693"
+            }
+          ],
+          "HPI": [
+            {
+              "summary": "Low-level viremia persisted despite antiretroviral therapy.",
+              "duration": null,
+              "onset": null,
+              "progression": "fluctuating",
+              "associated_symptoms": [],
+              "alleviating_factors": [],
+              "exacerbating_factors": []
+            }
+          ],
+          "social_history": [
+            {
+              "category": "medication adherence",
+              "status": "current",
+              "description": "Self-reported adherence rate of 82%"
+            }
+          ]
+        }
+      },
+      "custom_id": "graph_021_N2"
+    },
+    {
+      "id": "N4",
+      "label": "Step 4",
+      "customData": {
+        "node_id": "D",
+        "node_step_index": 3,
+        "content": "August 2023: Chest imaging revealed a left lung mass, confirmed as lung squamous cell carcinoma with TPS 40% PD-L1 expression. Contrast-enhanced chest CT demonstrated a left hilar tumor measuring 89 mm \u00d7 66 mm, multiple pulmonary nodules, and evidence of hepatic metastases, corresponding to stage IVB (cT4N2M1c) disease.",
+        "clinical_data": {
+          "imaging": [
+            {
+              "type": "Lung mass",
+              "body_part": "Lung",
+              "modality": "imaging",
+              "finding": "Left lung mass",
+              "date": "2023-08"
+            },
+            {
+              "type": "Tumor",
+              "body_part": "Hilar",
+              "modality": "CT",
+              "finding": "Left hilar tumor measuring 89 mm \u00d7 66 mm",
+              "date": "2023-08"
+            },
+            {
+              "type": "Pulmonary nodule",
+              "body_part": "Lung",
+              "modality": "CT",
+              "finding": "Multiple pulmonary nodules",
+              "date": "2023-08"
+            },
+            {
+              "type": "Metastasis",
+              "body_part": "Liver",
+              "modality": "CT",
+              "finding": "Hepatic metastases",
+              "date": "2023-08"
+            }
+          ],
+          "diagnoses": [
+            {
+              "code": "C0024117",
+              "label": "Squamous cell carcinoma of lung",
+              "status": "active",
+              "onset_date": "2023-08"
+            }
+          ]
+        }
+      },
+      "custom_id": "graph_021_N3"
+    },
+    {
+      "id": "N5",
+      "label": "Step 5",
+      "customData": {
+        "node_id": "E",
+        "node_step_index": 4,
+        "content": "November 2023: Initiated combination therapy with carboplatin (AUC 5, day 1) and paclitaxel (175 mg/m\u00b2, day 1) administered in 21-day cycles, combined with pembrolizumab (200 mg, day 1).",
+        "clinical_data": {
+          "medications": [
+            {
+              "drug": "C0007127",
+              "dosage": "AUC 5",
+              "frequency": "every 21 days",
+              "modality": "IV",
+              "start_date": "2023-11",
+              "end_date": null
+            },
+            {
+              "drug": "C0030393",
+              "dosage": "175 mg/m\u00b2",
+              "frequency": "every 21 days",
+              "modality": "IV",
+              "start_date": "2023-11",
+              "end_date": null
+            },
+            {
+              "drug": "C4049447",
+              "dosage": "200 mg",
+              "frequency": "every 21 days",
+              "modality": "IV",
+              "start_date": "2023-11",
+              "end_date": null
+            }
+          ]
+        }
+      },
+      "custom_id": "graph_021_N4"
+    },
+    {
+      "id": "N6",
+      "label": "Step 6",
+      "customData": {
+        "node_id": "F",
+        "node_step_index": 5,
+        "content": "Developed Grade 3 myelosuppression (neutrophil count 0.8\u2009\u00d7\u2009109/L) and Grade 2 peripheral neuropathy.",
+        "clinical_data": {
+          "labs": [
+            {
+              "test": "Neutrophil count",
+              "value": "0.8",
+              "unit": "10^9/L",
+              "flag": "abnormal"
+            }
+          ],
+          "diagnoses": [
+            {
+              "code": "Myelosuppression",
+              "label": "Myelosuppression",
+              "status": "active"
+            },
+            {
+              "code": "Peripheral neuropathy",
+              "label": "Peripheral neuropathy",
+              "status": "active"
+            }
+          ]
+        }
+      },
+      "custom_id": "graph_021_N5"
+    },
+    {
+      "id": "N7",
+      "label": "Step 7",
+      "customData": {
+        "node_id": "G",
+        "node_step_index": 6,
+        "content": "November 2023: HIV-1 RNA increased to 233 copies/mL, CD4+ T cell count declined to 22.82 cells/\u00b5L. Antiretroviral regimen was modified to incorporate albuvirtide (320 mg per dose, administered on days 1, 2, 3, and 8, followed by weekly maintenance doses) in combination with efavirenz, lamivudine, and tenofovir alafenamide. Cancer treatment adjusted to PD-1 inhibitor monotherapy due to chemotherapy intolerance. Contrast-enhanced chest CT demonstrating a large left hilar mass (89 mm \u00d7 66 mm) with lobulation, spiculation, pleural indentation, and air bronchogram signs. Multiple nodular densities are present in both lungs with ground-glass opacities in the lower lobes.",
+        "clinical_data": {
+          "labs": [
+            {
+              "test": "HIV-1 RNA",
+              "value": "233",
+              "unit": "copies/mL",
+              "timestamp": "2023-11"
+            },
+            {
+              "test": "CD4+ T cell count",
+              "value": "22.82",
+              "unit": "cells/\u00b5L",
+              "timestamp": "2023-11"
+            }
+          ],
+          "medications": [
+            {
+              "drug": "albuvirtide",
+              "dosage": "320 mg per dose",
+              "frequency": "days 1, 2, 3, and 8, followed by weekly maintenance doses",
+              "modality": "other",
+              "start_date": "2023-11"
+            },
+            {
+              "drug": "efavirenz",
+              "start_date": "2023-11"
+            },
+            {
+              "drug": "lamivudine",
+              "start_date": "2023-11"
+            },
+            {
+              "drug": "tenofovir alafenamide",
+              "start_date": "2023-11"
+            },
+            {
+              "drug": "PD-1 inhibitor",
+              "modality": "monotherapy",
+              "indication": "Cancer treatment",
+              "start_date": "2023-11"
+            }
+          ],
+          "imaging": [
+            {
+              "type": "mass",
+              "body_part": "left hilar",
+              "modality": "CT",
+              "finding": "large left hilar mass (89 mm \u00d7 66 mm) with lobulation, spiculation, pleural indentation, and air bronchogram signs",
+              "date": "2023-11"
+            },
+            {
+              "type": "nodular densities",
+              "body_part": "lungs",
+              "modality": "CT",
+              "finding": "Multiple nodular densities are present in both lungs with ground-glass opacities in the lower lobes",
+              "date": "2023-11"
+            }
+          ]
+        }
+      },
+      "custom_id": "graph_021_N6"
+    },
+    {
+      "id": "N8",
+      "label": "Step 8",
+      "customData": {
+        "node_id": "H",
+        "node_step_index": 7,
+        "content": "January 2024: Follow-up chest CT showing the evolution of the left hilar mass with associated changes in the surrounding lung parenchyma. ANC recovered from the lowest value of 0.8\u2009\u00d7\u2009109/L to 1.6\u2009\u00d7\u2009109/L. Hepatic function parameters within normal range (ALT 32\u201345 U/L and AST 28\u201339 U/L)",
+        "2023": "Genotypic resistance testing showed no major or minor resistance-associated mutations. Medication adherence evaluation revealed a suboptimal level of adherence, as",
+        "clinical_data": {
+          "imaging": [
+            {
+              "type": "Chest CT",
+              "body_part": "Lung",
+              "modality": "CT",
+              "finding": "Evolution of the left hilar mass with associated changes in the surrounding lung parenchyma.",
+              "date": "2024-01"
+            }
+          ],
+          "labs": [
+            {
+              "test": "Absolute Neutrophil Count",
+              "value": "1.6",
+              "unit": "10^9/L",
+              "timestamp": "2024-01"
+            },
+            {
+              "test": "Alanine Aminotransferase",
+              "value": "32-45",
+              "unit": "U/L",
+              "flag": "normal",
+              "timestamp": "2024-01"
+            },
+            {
+              "test": "Aspartate Aminotransferase",
+              "value": "28-39",
+              "unit": "U/L",
+              "flag": "normal",
+              "timestamp": "2024-01"
+            }
+          ]
+        }
+      },
+      "custom_id": "graph_021_N7"
+    }
+  ],
+  "edges": [
+    {
+      "from": "N1",
+      "to": "N2",
+      "data": {
+        "edge_id": "A_to_B",
+        "branch_flag": true,
+        "content": "Transition from HIV diagnosis to initiation of antiretroviral therapy."
+      },
+      "custom_id": "graph_021_N1_N2"
+    },
+    {
+      "from": "N2",
+      "to": "N3",
+      "data": {
+        "edge_id": "B_to_C",
+        "branch_flag": true,
+        "content": "Persistence of low-level viremia and detection of K103N mutation despite antiretroviral therapy, with self-reported adherence of 82%."
+      },
+      "custom_id": "graph_021_N2_N3"
+    },
+    {
+      "from": "N3",
+      "to": "N4",
+      "data": {
+        "edge_id": "C_to_D",
+        "branch_flag": true,
+        "content": "Development and diagnosis of stage IVB lung squamous cell carcinoma with hepatic metastases."
+      },
+      "custom_id": "graph_021_N3_N4"
+    },
+    {
+      "from": "N4",
+      "to": "N5",
+      "data": {
+        "edge_id": "D_to_E",
+        "branch_flag": true,
+        "content": "Initiation of combination chemotherapy (carboplatin and paclitaxel) with pembrolizumab."
+      },
+      "custom_id": "graph_021_N4_N5"
+    },
+    {
+      "from": "N5",
+      "to": "N6",
+      "data": {
+        "edge_id": "E_to_F",
+        "branch_flag": true,
+        "content": "Development of Grade 3 myelosuppression and Grade 2 peripheral neuropathy, likely secondary to chemotherapy."
+      },
+      "custom_id": "graph_021_N5_N6"
+    },
+    {
+      "from": "N6",
+      "to": "N7",
+      "data": {
+        "edge_id": "F_to_G",
+        "branch_flag": true,
+        "content": "Increase in HIV-1 RNA and decline in CD4+ T cell count. Modification of antiretroviral regimen to include albuvirtide. Adjustment of cancer treatment to PD-1 inhibitor monotherapy due to chemotherapy intolerance. Imaging shows large left hilar mass and multiple nodular densities in both lungs."
+      },
+      "custom_id": "graph_021_N6_N7"
+    },
+    {
+      "from": "N7",
+      "to": "N8",
+      "data": {
+        "edge_id": "G_to_H",
+        "branch_flag": true,
+        "content": "Follow-up chest CT showing evolution of the left hilar mass. Improvement in ANC. Hepatic function parameters within normal range."
+      },
+      "custom_id": "graph_021_N7_N8"
+    }
+  ]
+}

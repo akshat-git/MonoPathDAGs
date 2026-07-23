@@ -1,0 +1,449 @@
+{
+  "nodes": [
+    {
+      "id": "N1",
+      "label": "Step 1",
+      "customData": {
+        "node_id": "A",
+        "node_step_index": 0,
+        "content": "66-year-old woman with no history of smoking or other medical history.",
+        "timestamp": "2025-02-13",
+        "clinical_data": {
+          "social_history": [
+            {
+              "category": "smoking",
+              "status": "never"
+            }
+          ]
+        }
+      },
+      "custom_id": "graph_033_N0"
+    },
+    {
+      "id": "N2",
+      "label": "Step 2",
+      "customData": {
+        "node_id": "B",
+        "node_step_index": 1,
+        "content": "Chest CT showed an 18 mm nodule in the S9 region of the right lower lobe, suspected to be primary lung cancer.",
+        "timestamp": "2025-02-13",
+        "clinical_data": {
+          "imaging": [
+            {
+              "type": "Lung CT (Computed Tomography of the Lungs)",
+              "body_part": "Right lower lobe",
+              "modality": "CT",
+              "finding": "18 mm nodule in the S9 region",
+              "impression": "suspected to be primary lung cancer"
+            }
+          ],
+          "diagnoses": [
+            {
+              "code": "C0024117",
+              "label": "Lung Cancer",
+              "status": "suspected"
+            }
+          ]
+        }
+      },
+      "custom_id": "graph_033_N1"
+    },
+    {
+      "id": "N3",
+      "label": "Step 3",
+      "customData": {
+        "node_id": "C",
+        "node_step_index": 2,
+        "content": "CT-guided lung biopsy revealed lung adenocarcinoma.",
+        "timestamp": "2025-02-13",
+        "clinical_data": {
+          "imaging": [
+            {
+              "type": "Computed tomography guided biopsy (procedure)",
+              "body_part": "Lung",
+              "modality": "CT",
+              "finding": "lung adenocarcinoma",
+              "impression": "lung adenocarcinoma"
+            }
+          ],
+          "diagnoses": [
+            {
+              "code": "C0242397",
+              "label": "Adenocarcinoma of lung",
+              "status": "active"
+            }
+          ],
+          "procedures": [
+            {
+              "name": "Computed tomography guided biopsy (procedure)",
+              "approach": "percutaneous",
+              "location": "Lung",
+              "outcome": "lung adenocarcinoma"
+            }
+          ]
+        }
+      },
+      "custom_id": "graph_033_N2"
+    },
+    {
+      "id": "N4",
+      "label": "Step 4",
+      "customData": {
+        "node_id": "D",
+        "node_step_index": 3,
+        "content": "PET/CT showed FDG accumulation in #11i lymph node suspicious for metastasis. Preoperative staging was c-T1bN1M0 Stage IIB.",
+        "timestamp": "2025-02-13",
+        "clinical_data": {
+          "imaging": [
+            {
+              "type": "Positron emission tomography/computed tomography",
+              "body_part": "Lymph node",
+              "modality": "PET",
+              "finding": "FDG accumulation",
+              "impression": "suspicious for metastasis"
+            }
+          ],
+          "diagnoses": [
+            {
+              "code": "T1bN1M0",
+              "label": "Stage IIB",
+              "status": "active"
+            }
+          ]
+        }
+      },
+      "custom_id": "graph_033_N3"
+    },
+    {
+      "id": "N5",
+      "label": "Step 5",
+      "customData": {
+        "node_id": "E",
+        "node_step_index": 4,
+        "content": "Preoperative imaging revealed a 9 mm bronchobiliary fistula (BD) communicating with the right main bronchus below the tracheal bifurcation.",
+        "timestamp": "2025-02-13",
+        "clinical_data": {
+          "imaging": [
+            {
+              "type": "Bronchobiliary fistula",
+              "body_part": "Right main bronchus",
+              "modality": "imaging",
+              "finding": "9 mm bronchobiliary fistula communicating with the right main bronchus below the tracheal bifurcation"
+            }
+          ]
+        }
+      },
+      "custom_id": "graph_033_N4"
+    },
+    {
+      "id": "N6",
+      "label": "Step 6",
+      "customData": {
+        "node_id": "F",
+        "node_step_index": 5,
+        "content": "Planned robotic thoracoscopic surgery including right lower lobectomy and mediastinal lymph node dissection.",
+        "timestamp": "2025-02-13",
+        "clinical_data": {
+          "procedures": [
+            {
+              "name": "Thoracoscopic surgery",
+              "approach": "robotic",
+              "date": null,
+              "location": "mediastinal lymph node",
+              "performed_by": null,
+              "outcome": null
+            },
+            {
+              "name": "Lobectomy",
+              "approach": "robotic",
+              "date": null,
+              "location": "right lower lobe",
+              "performed_by": null,
+              "outcome": null
+            },
+            {
+              "name": "Lymph node dissection",
+              "approach": "robotic",
+              "date": null,
+              "location": "mediastinum",
+              "performed_by": null,
+              "outcome": null
+            }
+          ]
+        }
+      },
+      "custom_id": "graph_033_N5"
+    },
+    {
+      "id": "N7",
+      "label": "Step 7",
+      "customData": {
+        "node_id": "G",
+        "node_step_index": 6,
+        "content": "Lower mediastinal lymph node dissection and bronchobiliary fistula (BD) repair performed. The bronchobiliary fistula (BD) was ligated with ENDOLOOP\u00ae PDS II Ligature. #11i lymph node was enlarged but without invasion, and there was no lymph node metastasis on frozen pathology. Right lower lobectomy performed. The bronchobiliary fistula (BD) and lower lobe bronchial stumps were covered with pericardial fat tissue.",
+        "timestamp": "2025-02-13",
+        "clinical_data": {
+          "procedures": [
+            {
+              "name": "Lymph Node Dissection",
+              "approach": "other",
+              "location": "Lower mediastinal lymph node",
+              "outcome": "No lymph node metastasis on frozen pathology"
+            },
+            {
+              "name": "Bronchobiliary fistula repair",
+              "approach": "other",
+              "outcome": "Bronchobiliary fistula ligated"
+            },
+            {
+              "name": "Right lower lobectomy",
+              "location": "Right lower lobe"
+            }
+          ]
+        }
+      },
+      "custom_id": "graph_033_N6"
+    },
+    {
+      "id": "N8",
+      "label": "Step 8",
+      "customData": {
+        "node_id": "H",
+        "node_step_index": 7,
+        "content": "Patient discharged without postoperative complications. Pathology showed no lymph node metastases. Diagnosis was p-T1bN0M0 stage IA2.",
+        "timestamp": "2025-02-13",
+        "clinical_data": {
+          "diagnoses": [
+            {
+              "code": "C0346944",
+              "label": "p-T1bN0M0 stage IA2",
+              "status": "resolved"
+            }
+          ]
+        }
+      },
+      "custom_id": "graph_033_N7"
+    },
+    {
+      "id": "N9",
+      "label": "Step 9",
+      "customData": {
+        "node_id": "I",
+        "node_step_index": 8,
+        "content": "Chest CT 6 months post-operation showed no recurrence of lung cancer, but air was detected in the bronchobiliary fistula (BD), suggesting an opening of the diverticulum.",
+        "timestamp": "2025-08-13",
+        "clinical_data": {
+          "imaging": [
+            {
+              "type": "Computed tomography of chest",
+              "body_part": "Chest",
+              "modality": "CT",
+              "finding": "no recurrence of lung cancer, air detected in the bronchobiliary fistula (BD), suggesting an opening of the diverticulum",
+              "impression": "no recurrence of lung cancer, air detected in the bronchobiliary fistula (BD), suggesting an opening of the diverticulum",
+              "date": "6 months post-operation"
+            }
+          ]
+        }
+      },
+      "custom_id": "graph_033_N8"
+    },
+    {
+      "id": "N10",
+      "label": "Step 10",
+      "customData": {
+        "node_id": "J",
+        "node_step_index": 9,
+        "content": "Follow-up CT 6 months after the operation showed air in the bronchobiliary fistula (BD), suggesting an opening of the diverticulum.",
+        "timestamp": "2025-08-13",
+        "clinical_data": {
+          "imaging": [
+            {
+              "type": "Computed tomography",
+              "body_part": "bronchobiliary fistula",
+              "modality": "CT",
+              "finding": "air",
+              "date": "6 months after the operation"
+            }
+          ]
+        }
+      },
+      "custom_id": "graph_033_N9"
+    },
+    {
+      "id": "N11",
+      "label": "Step 11",
+      "customData": {
+        "node_id": "K",
+        "node_step_index": 10,
+        "content": "Recanalization of the bronchobiliary fistula (BD) may have occurred due to hydrolysis of the absorbable thread (ENDOLOOP\u00ae PDS II Ligature) used during the initial ligation.",
+        "timestamp": "2025-08-13",
+        "clinical_data": {
+          "procedures": [
+            {
+              "name": "ligation",
+              "approach": "other",
+              "outcome": "recanalization",
+              "location": "bronchobiliary fistula"
+            }
+          ]
+        }
+      },
+      "custom_id": "graph_033_N10"
+    }
+  ],
+  "edges": [
+    {
+      "from": "N1",
+      "to": "N2",
+      "data": {
+        "edge_id": "A_to_B",
+        "branch_flag": true,
+        "content": "Initial presentation and imaging."
+      },
+      "custom_id": "graph_033_N1_N2"
+    },
+    {
+      "from": "N2",
+      "to": "N3",
+      "data": {
+        "edge_id": "B_to_C",
+        "branch_flag": true,
+        "content": "Biopsy to confirm diagnosis.",
+        "transition_event": {
+          "trigger_type": "procedure",
+          "trigger_entities": [
+            "C0242397"
+          ],
+          "change_type": "addition",
+          "target_domain": "diagnosis"
+        }
+      },
+      "custom_id": "graph_033_N2_N3"
+    },
+    {
+      "from": "N3",
+      "to": "N4",
+      "data": {
+        "edge_id": "C_to_D",
+        "branch_flag": true,
+        "content": "Further staging with PET/CT.",
+        "transition_event": {
+          "trigger_type": "imaging",
+          "trigger_entities": [],
+          "change_type": "progression",
+          "target_domain": "diagnosis"
+        }
+      },
+      "custom_id": "graph_033_N3_N4"
+    },
+    {
+      "from": "N4",
+      "to": "N5",
+      "data": {
+        "edge_id": "D_to_E",
+        "branch_flag": true,
+        "content": "Preoperative imaging reveals bronchobiliary fistula."
+      },
+      "custom_id": "graph_033_N4_N5"
+    },
+    {
+      "from": "N5",
+      "to": "N6",
+      "data": {
+        "edge_id": "E_to_F",
+        "branch_flag": true,
+        "content": "Planned surgical intervention.",
+        "transition_event": {
+          "trigger_type": "interpretation",
+          "trigger_entities": [],
+          "change_type": "addition",
+          "target_domain": "procedure"
+        }
+      },
+      "custom_id": "graph_033_N5_N6"
+    },
+    {
+      "from": "N6",
+      "to": "N7",
+      "data": {
+        "edge_id": "F_to_G",
+        "branch_flag": true,
+        "content": "Surgical intervention: lobectomy, lymph node dissection, and fistula repair.",
+        "transition_event": {
+          "trigger_type": "procedure",
+          "trigger_entities": [],
+          "change_type": "other",
+          "target_domain": "procedure"
+        }
+      },
+      "custom_id": "graph_033_N6_N7"
+    },
+    {
+      "from": "N7",
+      "to": "N8",
+      "data": {
+        "edge_id": "G_to_H",
+        "branch_flag": true,
+        "content": "Postoperative pathology and discharge.",
+        "transition_event": {
+          "trigger_type": "interpretation",
+          "trigger_entities": [],
+          "change_type": "resolution",
+          "target_domain": "diagnosis"
+        }
+      },
+      "custom_id": "graph_033_N7_N8"
+    },
+    {
+      "from": "N8",
+      "to": "N9",
+      "data": {
+        "edge_id": "H_to_I",
+        "branch_flag": true,
+        "content": "Follow-up imaging shows no recurrence but possible fistula opening.",
+        "transition_event": {
+          "trigger_type": "imaging",
+          "trigger_entities": [],
+          "change_type": "other",
+          "target_domain": "imaging",
+          "timestamp": "2025-08-13"
+        }
+      },
+      "custom_id": "graph_033_N8_N9"
+    },
+    {
+      "from": "N9",
+      "to": "N10",
+      "data": {
+        "edge_id": "I_to_J",
+        "branch_flag": true,
+        "content": "Follow-up imaging confirms air in the bronchobiliary fistula.",
+        "transition_event": {
+          "trigger_type": "imaging",
+          "trigger_entities": [],
+          "change_type": "progression",
+          "target_domain": "imaging",
+          "timestamp": "2025-08-13"
+        }
+      },
+      "custom_id": "graph_033_N9_N10"
+    },
+    {
+      "from": "N10",
+      "to": "N11",
+      "data": {
+        "edge_id": "J_to_K",
+        "branch_flag": true,
+        "content": "Interpretation: Recanalization of the fistula due to thread hydrolysis.",
+        "transition_event": {
+          "trigger_type": "interpretation",
+          "trigger_entities": [],
+          "change_type": "reinterpretation",
+          "target_domain": "procedure",
+          "timestamp": "2025-08-13"
+        }
+      },
+      "custom_id": "graph_033_N10_N11"
+    }
+  ]
+}

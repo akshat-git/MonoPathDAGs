@@ -1,0 +1,475 @@
+{
+  "nodes": [
+    {
+      "id": "N1",
+      "label": "Step 1",
+      "customData": {
+        "node_id": "A",
+        "node_step_index": 0,
+        "content": "April 2022: 64-year-old male presented with blood-tinged sputum of unknown etiology, estimated volume ~5 ml.",
+        "clinical_data": {
+          "HPI": [
+            {
+              "summary": "64-year-old male presented with blood-tinged sputum of unknown etiology, estimated volume ~5 ml.",
+              "onset": "April 2022",
+              "progression": "unknown",
+              "associated_symptoms": [
+                "Blood-tinged sputum"
+              ]
+            }
+          ]
+        }
+      }
+    },
+    {
+      "id": "N2",
+      "label": "Step 2",
+      "customData": {
+        "node_id": "B",
+        "node_step_index": 1,
+        "content": "May 2022: Patient encountered a recurring episode of hemoptysis with similar attributes and volume, prompting a chest CT scan at Xingyi People's Hospital (Xingyi, China). Imaging examination identified a lesion in the posterior segment of the right lower lobe, accompanied by slight bronchial dilation and distal infection, measuring ~2.8\u00d73.2 cm.",
+        "clinical_data": {
+          "imaging": [
+            {
+              "type": "Lesion (finding)",
+              "body_part": "Posterior segment of the right lower lobe",
+              "modality": "CT",
+              "finding": "Lesion in the posterior segment of the right lower lobe, accompanied by slight bronchial dilation and distal infection",
+              "impression": "Lesion in the posterior segment of the right lower lobe, accompanied by slight bronchial dilation and distal infection",
+              "date": "2022-05"
+            }
+          ],
+          "HPI": [
+            {
+              "summary": "Recurring episode of hemoptysis with similar attributes and volume",
+              "onset": "2022-05",
+              "progression": "recurring",
+              "associated_symptoms": [
+                "Hemoptysis"
+              ]
+            }
+          ]
+        }
+      }
+    },
+    {
+      "id": "N3",
+      "label": "Step 3",
+      "customData": {
+        "node_id": "C",
+        "node_step_index": 2,
+        "content": "Patient was administered antitussive (10 mg codeine, taken orally twice daily), hemostatic (10 units posterior pituitary hormone dissolved in 250 ml 10% glucose solution for intravenous infusion) and anti-infective therapies (1.5 g cefuroxime sodium in 100 ml 0.9% sodium chloride solution administered via intravenous infusion, once every 8 h), but the patient's clinical status did not demonstrate any notable improvement.",
+        "clinical_data": {
+          "medications": [
+            {
+              "drug": "C0009440",
+              "dosage": "10 mg",
+              "frequency": "twice daily",
+              "modality": "oral",
+              "indication": "C0041096"
+            },
+            {
+              "drug": "C0032384",
+              "dosage": "10 units",
+              "modality": "IV"
+            },
+            {
+              "drug": "C0007837",
+              "dosage": "1.5 g",
+              "frequency": "every 8 h",
+              "modality": "IV"
+            }
+          ]
+        }
+      }
+    },
+    {
+      "id": "N4",
+      "label": "Step 4",
+      "customData": {
+        "node_id": "D",
+        "node_step_index": 3,
+        "content": "5 days pre-admission: Axial and coronal CT scans of the chest show a mass in the right lower lung.",
+        "clinical_data": {
+          "imaging": [
+            {
+              "type": "CT scan",
+              "body_part": "chest",
+              "modality": "CT",
+              "finding": "mass in the right lower lung",
+              "date": null
+            }
+          ]
+        }
+      }
+    },
+    {
+      "id": "N5",
+      "label": "Step 5",
+      "customData": {
+        "node_id": "E",
+        "node_step_index": 4,
+        "content": "1 day post-admission: Axial and coronal CT scans of the chest show a right lower lung patch with cavitation. Lung cancer was suspected and infectious lesions complicated with abscess formation could not be ruled out.",
+        "clinical_data": {
+          "imaging": [
+            {
+              "type": "Computed tomography",
+              "body_part": "Chest",
+              "modality": "CT",
+              "finding": "right lower lung patch with cavitation",
+              "impression": "Lung cancer was suspected and infectious lesions complicated with abscess formation could not be ruled out."
+            }
+          ],
+          "diagnoses": [
+            {
+              "code": "C0024117",
+              "label": "Lung cancer",
+              "status": "suspected"
+            }
+          ]
+        }
+      }
+    },
+    {
+      "id": "N6",
+      "label": "Step 6",
+      "customData": {
+        "node_id": "F",
+        "node_step_index": 5,
+        "content": "6 days post-recurrence of hemoptysis: Patient transferred to the Affiliated Hospital of Guizhou Medical University for further evaluation. Patient has a smoking history of >40 years, consuming ~15 cigarettes daily, and had abstained from smoking for 1 week. Physical examination revealed diminished breath sounds on the right side. Blood cell evaluations showed elevated inflammatory markers, including white blood cells, absolute neutrophils and neutrophil percentage.",
+        "clinical_data": {
+          "HPI": [
+            {
+              "summary": "Recurrence of hemoptysis 6 days prior to transfer",
+              "duration": "6 days",
+              "onset": "6 days prior",
+              "progression": "unknown",
+              "associated_symptoms": [
+                "Hemoptysis"
+              ]
+            }
+          ],
+          "social_history": [
+            {
+              "category": "smoking",
+              "status": "past",
+              "description": ">40 years, ~15 cigarettes daily, abstained for 1 week"
+            }
+          ],
+          "ROS": [
+            {
+              "system": "respiratory",
+              "findings": [
+                "Diminished breath sounds on the right side"
+              ]
+            }
+          ],
+          "labs": [
+            {
+              "test": "White blood cells",
+              "value": "elevated",
+              "unit": null,
+              "flag": "abnormal"
+            },
+            {
+              "test": "Absolute neutrophils",
+              "value": "elevated",
+              "unit": null,
+              "flag": "abnormal"
+            },
+            {
+              "test": "Neutrophil percentage",
+              "value": "elevated",
+              "unit": null,
+              "flag": "abnormal"
+            }
+          ]
+        }
+      }
+    },
+    {
+      "id": "N7",
+      "label": "Step 7",
+      "customData": {
+        "node_id": "G",
+        "node_step_index": 6,
+        "content": "Post-admission: Coagulation parameters, pulmonary function tests, whole-body bone scintigraphy and cranial CT findings all exhibited normal results. Chest CT scan exhibited patchy opacities in the right lower lobe with the presence of a cavity, measuring ~5.7\u00d74.5 cm. The lesion was suspected to be indicative of lung cancer.",
+        "clinical_data": {
+          "labs": [
+            {
+              "test": "Coagulation parameters",
+              "value": "normal",
+              "flag": "normal"
+            },
+            {
+              "test": "Pulmonary function tests",
+              "value": "normal",
+              "flag": "normal"
+            }
+          ],
+          "imaging": [
+            {
+              "type": "Whole-body bone scintigraphy",
+              "body_part": "whole body",
+              "modality": "other",
+              "finding": "normal"
+            },
+            {
+              "type": "CT scan",
+              "body_part": "cranium",
+              "modality": "CT",
+              "finding": "normal"
+            },
+            {
+              "type": "CT scan",
+              "body_part": "chest",
+              "modality": "CT",
+              "finding": "patchy opacities in the right lower lobe with the presence of a cavity, measuring ~5.7\u00d74.5 cm",
+              "impression": "suspected to be indicative of lung cancer"
+            }
+          ],
+          "diagnoses": [
+            {
+              "code": "C0024117",
+              "label": "Lung Cancer",
+              "status": "suspected"
+            }
+          ]
+        }
+      }
+    },
+    {
+      "id": "N8",
+      "label": "Step 8",
+      "customData": {
+        "node_id": "H",
+        "node_step_index": 7,
+        "content": "2 days post-admission: Patient developed a high fever, with a maximum temperature reaching 39.2\u00b0C.",
+        "clinical_data": {
+          "vitals": [
+            {
+              "type": "Fever",
+              "value": "39.2",
+              "unit": "\u00b0C"
+            }
+          ]
+        }
+      }
+    },
+    {
+      "id": "N9",
+      "label": "Step 9",
+      "customData": {
+        "node_id": "I",
+        "node_step_index": 8,
+        "content": "Post-admission: Empirical antibiotic therapy with cefuroxime sodium was initiated (1.5 g cefuroxime sodium in 100 ml 0.9% sodium chloride solution administered via intravenous infusion, once every 8 h).",
+        "clinical_data": {
+          "medications": [
+            {
+              "drug": "C0007670",
+              "dosage": "1.5 g",
+              "frequency": "every 8 h",
+              "modality": "IV",
+              "start_date": null,
+              "end_date": null,
+              "indication": null
+            }
+          ]
+        }
+      }
+    },
+    {
+      "id": "N10",
+      "label": "Step 10",
+      "customData": {
+        "node_id": "J",
+        "node_step_index": 9,
+        "content": "Day 3 post-admission: Antibiotic treatment was switched to piperacillin (4.5 g piperacillin sodium in 100 ml 0.9% sodium chloride solution administered via intravenous infusion, once every 8 h) due to persistent fever.",
+        "clinical_data": {
+          "medications": [
+            {
+              "drug": "C0035208",
+              "dosage": "4.5 g",
+              "frequency": "every 8 h",
+              "modality": "IV",
+              "start_date": null,
+              "end_date": null,
+              "indication": "C0015967"
+            }
+          ]
+        }
+      }
+    },
+    {
+      "id": "N11",
+      "label": "Step 11",
+      "customData": {
+        "node_id": "K",
+        "node_step_index": 10,
+        "content": "Day 3 post-admission: Bronchoscopy with biopsies from the middle right bronchus and the posterior segment of the right lower lobe were performed; findings were inconclusive for lung cancer.",
+        "clinical_data": {
+          "procedures": [
+            {
+              "name": "Bronchoscopy",
+              "date": "Day 3 post-admission",
+              "location": "middle right bronchus and the posterior segment of the right lower lobe",
+              "outcome": "inconclusive for lung cancer"
+            }
+          ]
+        }
+      }
+    },
+    {
+      "id": "N12",
+      "label": "Step 12",
+      "customData": {
+        "node_id": "L",
+        "clinical_data": {}
+      }
+    }
+  ],
+  "edges": [
+    {
+      "from": "N1",
+      "to": "N2",
+      "data": {
+        "edge_id": "A_to_B",
+        "branch_flag": true,
+        "content": "Progression from blood-tinged sputum to recurring hemoptysis, leading to initial chest CT scan."
+      }
+    },
+    {
+      "from": "N2",
+      "to": "N3",
+      "data": {
+        "edge_id": "B_to_C",
+        "branch_flag": true,
+        "content": "Administration of antitussive, hemostatic, and anti-infective therapies following the identification of a lesion in the right lower lobe.",
+        "transition_event": {
+          "trigger_type": "medication_change",
+          "trigger_entities": [
+            "C0009440",
+            "C0032384",
+            "C0007837"
+          ],
+          "change_type": "addition",
+          "target_domain": "medication"
+        }
+      }
+    },
+    {
+      "from": "N3",
+      "to": "N4",
+      "data": {
+        "edge_id": "C_to_D",
+        "branch_flag": true,
+        "content": "Lack of improvement with initial therapies, followed by repeat imaging.",
+        "transition_event": {
+          "trigger_type": "interpretation",
+          "trigger_entities": [],
+          "change_type": "progression",
+          "target_domain": "symptom"
+        }
+      }
+    },
+    {
+      "from": "N4",
+      "to": "N5",
+      "data": {
+        "edge_id": "D_to_E",
+        "branch_flag": true,
+        "content": "Progression of findings on chest CT, leading to suspicion of lung cancer and possible abscess.",
+        "transition_event": {
+          "trigger_type": "interpretation",
+          "trigger_entities": [
+            "C0024117"
+          ],
+          "change_type": "progression",
+          "target_domain": "imaging"
+        }
+      }
+    },
+    {
+      "from": "N5",
+      "to": "N6",
+      "data": {
+        "edge_id": "E_to_F",
+        "branch_flag": true,
+        "content": "Recurrence of hemoptysis and transfer to another hospital for further evaluation, revealing smoking history, diminished breath sounds, and elevated inflammatory markers.",
+        "transition_event": {
+          "trigger_type": "symptom_onset",
+          "trigger_entities": [
+            "C0018943"
+          ],
+          "change_type": "progression",
+          "target_domain": "symptom"
+        }
+      }
+    },
+    {
+      "from": "N6",
+      "to": "N7",
+      "data": {
+        "edge_id": "F_to_G",
+        "branch_flag": true,
+        "content": "Further investigations including labs and imaging, with continued suspicion of lung cancer.",
+        "transition_event": {
+          "trigger_type": "lab_change",
+          "trigger_entities": [],
+          "change_type": "other",
+          "target_domain": "lab"
+        }
+      }
+    },
+    {
+      "from": "N7",
+      "to": "N8",
+      "data": {
+        "edge_id": "G_to_H",
+        "branch_flag": true,
+        "content": "Development of high fever.",
+        "transition_event": {
+          "trigger_type": "symptom_onset",
+          "trigger_entities": [
+            "C0015967"
+          ],
+          "change_type": "addition",
+          "target_domain": "symptom"
+        }
+      }
+    },
+    {
+      "from": "N8",
+      "to": "N9",
+      "data": {
+        "edge_id": "H_to_I",
+        "branch_flag": true,
+        "content": "Initiation of empirical antibiotic therapy with cefuroxime sodium.",
+        "transition_event": {
+          "trigger_type": "medication_change",
+          "trigger_entities": [
+            "C0007670"
+          ],
+          "change_type": "addition",
+          "target_domain": "medication"
+        }
+      }
+    },
+    {
+      "from": "N9",
+      "to": "N10",
+      "data": {
+        "edge_id": "I_to_J",
+        "branch_flag": true,
+        "content": "Switch to piperacillin due to persistent fever.",
+        "transition_event": {
+          "trigger_type": "medication_change",
+          "trigger_entities": [
+            "C0035208"
+          ],
+          "change_type": "addition"
+        }
+      }
+    }
+  ]
+}

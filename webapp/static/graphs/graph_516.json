@@ -1,0 +1,279 @@
+{
+  "nodes": [
+    {
+      "id": "N1",
+      "label": "Step 1",
+      "customData": {
+        "node_id": "A",
+        "node_step_index": 0,
+        "content": "March 2019: 54-year-old woman with an ECOG score of 1 presented with hoarseness and cough without an obvious cause. Enhanced chest CT scan revealed a nodule in the left upper lobe and mediastinal lymph node metastases in the pulmonary artery.",
+        "clinical_data": {
+          "functional_status": [
+            {
+              "domain": "ADLs",
+              "description": "ECOG score of 1",
+              "score": "1",
+              "scale": "ECOG"
+            }
+          ],
+          "HPI": [
+            {
+              "summary": "hoarseness and cough without an obvious cause",
+              "onset": "March 2019",
+              "associated_symptoms": [
+                "C0019684",
+                "C0010200"
+              ]
+            }
+          ],
+          "imaging": [
+            {
+              "type": "nodule",
+              "body_part": "left upper lobe",
+              "modality": "CT",
+              "finding": "nodule in the left upper lobe and mediastinal lymph node metastases in the pulmonary artery",
+              "date": "2019-03"
+            },
+            {
+              "type": "metastases",
+              "body_part": "mediastinal lymph node",
+              "modality": "CT",
+              "finding": "nodule in the left upper lobe and mediastinal lymph node metastases in the pulmonary artery",
+              "date": "2019-03"
+            }
+          ]
+        }
+      }
+    },
+    {
+      "id": "N2",
+      "label": "Step 2",
+      "customData": {
+        "node_id": "B",
+        "node_step_index": 1,
+        "content": "Pathological diagnosis of lung adenocarcinoma via bronchoscopy. Brain MRI and whole-body bone scan showed no metastatic disease. Preliminary staging: cT2N2M0 IIIA.",
+        "clinical_data": {
+          "diagnoses": [
+            {
+              "code": "C0294042",
+              "label": "Adenocarcinoma of lung",
+              "status": "active"
+            }
+          ],
+          "imaging": [
+            {
+              "type": "Magnetic resonance imaging of brain",
+              "body_part": "Brain",
+              "modality": "MRI",
+              "finding": "no metastatic disease"
+            },
+            {
+              "type": "Bone scan",
+              "body_part": "Whole body",
+              "modality": "other",
+              "finding": "no metastatic disease"
+            }
+          ],
+          "procedures": [
+            {
+              "name": "Bronchoscopy",
+              "outcome": "Pathological diagnosis of lung adenocarcinoma"
+            }
+          ]
+        }
+      }
+    },
+    {
+      "id": "N3",
+      "label": "Step 3",
+      "customData": {
+        "node_id": "C",
+        "node_step_index": 2,
+        "content": "Patient enrolled in a phase III clinical trial evaluating sintilimab as consolidation therapy for unresectable, locally advanced NSCLC (stage III) without disease progression after radical CCRT.",
+        "clinical_data": {
+          "diagnoses": [
+            {
+              "code": "C34",
+              "label": "Non-small cell lung cancer",
+              "status": "active"
+            }
+          ],
+          "procedures": [
+            {
+              "name": "Combined chemotherapy and radiation therapy",
+              "approach": "other",
+              "location": "lung",
+              "outcome": "no disease progression"
+            }
+          ],
+          "medications": [
+            {
+              "drug": "sintilimab",
+              "modality": "IV",
+              "indication": "Non-small cell lung cancer"
+            }
+          ]
+        }
+      }
+    },
+    {
+      "id": "N4",
+      "label": "Step 4",
+      "customData": {
+        "node_id": "D",
+        "node_step_index": 3,
+        "content": "Patient received two cycles of induction chemotherapy which ended in May 2019, followed by CCRT which ended in July 2019. CCRT consisted of 30 fractions of 2.0 Gy each, for a total of 60.0 Gy. The mean lung dose (MLD) was 13.5 Gy, with 17% of the lung receiving a dose of 20 Gy (V20) and 53% of the lung receiving a dose of 5 Gy (V5). Chest CT after CCRT showed a partial response (PR) (30.3% lesion reduction).",
+        "clinical_data": {
+          "medications": [
+            {
+              "drug": "Chemotherapy",
+              "start_date": "2019-05",
+              "end_date": "2019-05",
+              "indication": "Cancer"
+            }
+          ],
+          "procedures": [
+            {
+              "name": "Chemoradiotherapy",
+              "date": "2019-07",
+              "outcome": "Partial response"
+            }
+          ],
+          "imaging": [
+            {
+              "type": "CT of chest",
+              "body_part": "Lung",
+              "modality": "CT",
+              "finding": "Partial response",
+              "date": "2019-07"
+            }
+          ]
+        }
+      }
+    },
+    {
+      "id": "N5",
+      "label": "Step 5",
+      "customData": {
+        "node_id": "E",
+        "node_step_index": 4,
+        "content": "Patient received consolidation sintilimab every 3 weeks. Three months after RT, during the third cycle of sintilimab treatment, the patient experienced pneumonitis with a slight cough, with imaging showing consolidation in the left lower lobe. Pneumonitis was diagnosed as a mild form of grade II RP.",
+        "clinical_data": {
+          "medications": [
+            {
+              "drug": "sintilimab",
+              "dosage": null,
+              "frequency": "every 3 weeks",
+              "modality": null,
+              "start_date": null,
+              "end_date": null,
+              "indication": "consolidation"
+            }
+          ],
+          "diagnoses": [
+            {
+              "code": null,
+              "label": "pneumonitis",
+              "status": "active",
+              "onset_date": null
+            }
+          ],
+          "imaging": [
+            {
+              "type": null,
+              "body_part": "left lower lobe",
+              "modality": null,
+              "finding": "consolidation",
+              "impression": null,
+              "date": null
+            }
+          ],
+          "HPI": [
+            {
+              "summary": "Patient experienced pneumonitis with a slight cough",
+              "duration": null,
+              "onset": null,
+              "progression": null,
+              "associated_symptoms": [
+                "cough"
+              ],
+              "alleviating_factors": [],
+              "exacerbating_factors": []
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "edges": [
+    {
+      "from": "N1",
+      "to": "N2",
+      "data": {
+        "edge_id": "A_to_B",
+        "branch_flag": true,
+        "content": "Transition from initial presentation with hoarseness, cough, and lung nodule to pathological diagnosis of lung adenocarcinoma.",
+        "transition_event": {
+          "trigger_type": "procedure",
+          "trigger_entities": [
+            "C0294042"
+          ],
+          "change_type": "addition",
+          "target_domain": "diagnosis"
+        }
+      }
+    },
+    {
+      "from": "N2",
+      "to": "N3",
+      "data": {
+        "edge_id": "B_to_C",
+        "branch_flag": true,
+        "content": "Transition from lung adenocarcinoma diagnosis to enrollment in a clinical trial evaluating sintilimab as consolidation therapy for unresectable, locally advanced NSCLC.",
+        "transition_event": {
+          "trigger_type": "medication_change",
+          "trigger_entities": [
+            "sintilimab"
+          ],
+          "change_type": "addition",
+          "target_domain": "medication"
+        }
+      }
+    },
+    {
+      "from": "N3",
+      "to": "N4",
+      "data": {
+        "edge_id": "C_to_D",
+        "branch_flag": true,
+        "content": "Transition from enrollment in clinical trial to receiving induction chemotherapy and CCRT.",
+        "transition_event": {
+          "trigger_type": "procedure",
+          "trigger_entities": [
+            "Chemoradiotherapy"
+          ],
+          "change_type": "addition",
+          "target_domain": "procedure"
+        }
+      }
+    },
+    {
+      "from": "N4",
+      "to": "N5",
+      "data": {
+        "edge_id": "D_to_E",
+        "branch_flag": true,
+        "content": "Transition from CCRT completion with partial response to experiencing pneumonitis during sintilimab treatment.",
+        "transition_event": {
+          "trigger_type": "symptom_onset",
+          "trigger_entities": [
+            "pneumonitis",
+            "cough"
+          ],
+          "change_type": "addition",
+          "target_domain": "symptom"
+        }
+      }
+    }
+  ]
+}

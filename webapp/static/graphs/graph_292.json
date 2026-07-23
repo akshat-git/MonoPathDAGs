@@ -1,0 +1,320 @@
+{
+  "nodes": [
+    {
+      "id": "N1",
+      "label": "Step 1",
+      "customData": {
+        "node_id": "A",
+        "node_step_index": 0,
+        "content": "66-year-old Caucasian woman with a history of depression presented with several weeks of intermittent pain in the right upper back in 2018.",
+        "clinical_data": {
+          "HPI": [
+            {
+              "summary": "Intermittent pain in the right upper back for several weeks",
+              "onset": "2018",
+              "duration": "several weeks",
+              "progression": "fluctuating",
+              "associated_symptoms": [
+                "Pain"
+              ],
+              "alleviating_factors": [],
+              "exacerbating_factors": []
+            }
+          ],
+          "diagnoses": [
+            {
+              "code": "26633009",
+              "label": "Depression",
+              "status": "historical",
+              "onset_date": null
+            }
+          ],
+          "social_history": [
+            {
+              "category": "race",
+              "status": "current",
+              "description": "Caucasian"
+            }
+          ]
+        },
+        "timestamp": "2018"
+      }
+    },
+    {
+      "id": "N2",
+      "label": "Step 2",
+      "customData": {
+        "node_id": "B",
+        "node_step_index": 1,
+        "content": "CT scan of the chest, abdomen, and pelvis showed a 2.9 cm \u00d7 2.6 cm spiculated lesion in the right inferior hilar region of the lung without diffuse parenchymal disease, subcarinal and hilar lymphadenopathy, multiple liver lesions measuring up to 2.5 cm, and a nodular density near the left adrenal gland.",
+        "clinical_data": {
+          "imaging": [
+            {
+              "type": "Lesion",
+              "body_part": "Lung",
+              "modality": "CT",
+              "finding": "2.9 cm \u00d7 2.6 cm spiculated lesion in the right inferior hilar region",
+              "impression": "Lesion in the right inferior hilar region of the lung",
+              "date": null
+            },
+            {
+              "type": "Lymphadenopathy",
+              "body_part": "Subcarinal and hilar",
+              "modality": "CT",
+              "finding": "subcarinal and hilar lymphadenopathy",
+              "impression": "subcarinal and hilar lymphadenopathy",
+              "date": null
+            },
+            {
+              "type": "Lesion",
+              "body_part": "Liver",
+              "modality": "CT",
+              "finding": "multiple liver lesions measuring up to 2.5 cm",
+              "impression": "multiple liver lesions",
+              "date": null
+            },
+            {
+              "type": "Nodule",
+              "body_part": "Adrenal gland",
+              "modality": "CT",
+              "finding": "nodular density near the left adrenal gland",
+              "impression": "nodular density near the left adrenal gland",
+              "date": null
+            }
+          ]
+        },
+        "timestamp": "2018"
+      }
+    },
+    {
+      "id": "N3",
+      "label": "Step 3",
+      "customData": {
+        "node_id": "C",
+        "node_step_index": 2,
+        "content": "Biopsy of a single liver lesion revealed CK7+, TTF1+ lung adenocarcinoma with high PD-L1 expression (>50%).",
+        "clinical_data": {
+          "imaging": [
+            {
+              "body_part": "Liver",
+              "modality": "Biopsy",
+              "finding": "CK7+, TTF1+ lung adenocarcinoma with high PD-L1 expression (>50%)"
+            }
+          ],
+          "diagnoses": [
+            {
+              "code": "C34",
+              "label": "Lung Adenocarcinoma",
+              "status": "active"
+            }
+          ]
+        },
+        "timestamp": "2018"
+      }
+    },
+    {
+      "id": "N4",
+      "label": "Step 4",
+      "customData": {
+        "node_id": "D",
+        "node_step_index": 3,
+        "content": "Diagnosed with stage IV (cT1cN2M1c) NSCLC.",
+        "clinical_data": {
+          "diagnoses": [
+            {
+              "code": "C0678222",
+              "label": "Non-small cell lung carcinoma stage IV",
+              "status": "active"
+            }
+          ]
+        }
+      }
+    },
+    {
+      "id": "N5",
+      "label": "Step 5",
+      "customData": {
+        "node_id": "E",
+        "node_step_index": 4,
+        "content": "Started on pembrolizumab 200 mg IV every 3 weeks.",
+        "clinical_data": {
+          "medications": [
+            {
+              "drug": "C1874574",
+              "dosage": "200 mg",
+              "frequency": "every 3 weeks",
+              "modality": "IV",
+              "start_date": null,
+              "end_date": null,
+              "indication": null
+            }
+          ]
+        }
+      }
+    },
+    {
+      "id": "N6",
+      "label": "Step 6",
+      "customData": {
+        "node_id": "F",
+        "node_step_index": 5,
+        "content": "After two cycles of immunotherapy, disease progressed, and switched to second-line alectinib 600 mg twice daily based on repeat molecular sequencing that revealed an EML4-ALK rearrangement.",
+        "clinical_data": {
+          "medications": [
+            {
+              "drug": "C0726473",
+              "dosage": "600 mg",
+              "frequency": "twice daily",
+              "modality": "oral",
+              "start_date": null,
+              "end_date": null,
+              "indication": "EML4-ALK rearrangement"
+            }
+          ],
+          "diagnoses": [
+            {
+              "code": "EML4-ALK rearrangement",
+              "label": "EML4-ALK rearrangement",
+              "status": "active",
+              "onset_date": null
+            }
+          ]
+        }
+      }
+    },
+    {
+      "id": "N7",
+      "label": "Step 7",
+      "customData": {
+        "node_id": "G",
+        "node_step_index": 6,
+        "content": "Day 26 of alectinib: patient was hospitalized with hypoxia and respiratory symptoms. Day 26 of alectinib: patient presented to the hospital with acute dyspnea and hypoxia requiring 100% FiO2 by face mask. CT scan of the chest showed new diffuse, bilateral ground-glass opacities along with moderate, bilateral pleural effusions. Basic infectious work-up, consisting of blood and",
+        "clinical_data": {
+          "medications": [
+            {
+              "drug": "C1705474",
+              "dosage": null,
+              "frequency": null,
+              "modality": null,
+              "start_date": null,
+              "end_date": null,
+              "indication": null
+            }
+          ],
+          "HPI": [
+            {
+              "summary": "Patient presented to the hospital with acute dyspnea and hypoxia.",
+              "duration": null,
+              "onset": "acute",
+              "progression": null,
+              "associated_symptoms": [
+                "C0020110"
+              ],
+              "alleviating_factors": [],
+              "exacerbating_factors": []
+            }
+          ],
+          "imaging": [
+            {
+              "type": "C0008925",
+              "body_part": "C0008043",
+              "modality": "CT",
+              "finding": "New diffuse, bilateral ground-glass opacities along with moderate, bilateral pleural effusions.",
+              "impression": null,
+              "date": null
+            }
+          ],
+          "diagnoses": [
+            {
+              "code": "C0020110",
+              "label": "Hypoxia",
+              "status": "active",
+              "onset_date": null
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "edges": [
+    {
+      "from": "N1",
+      "to": "N2",
+      "data": {
+        "edge_id": "A_to_B",
+        "branch_flag": true,
+        "content": "From initial presentation of intermittent right upper back pain to detection of lung lesion and other abnormalities via CT scan."
+      }
+    },
+    {
+      "from": "N2",
+      "to": "N3",
+      "data": {
+        "edge_id": "B_to_C",
+        "branch_flag": true,
+        "content": "From CT scan findings to biopsy of liver lesion revealing lung adenocarcinoma."
+      }
+    },
+    {
+      "from": "N3",
+      "to": "N4",
+      "data": {
+        "edge_id": "C_to_D",
+        "branch_flag": true,
+        "content": "From biopsy results to diagnosis of stage IV NSCLC."
+      }
+    },
+    {
+      "from": "N4",
+      "to": "N5",
+      "data": {
+        "edge_id": "D_to_E",
+        "branch_flag": true,
+        "content": "From diagnosis of stage IV NSCLC to initiation of pembrolizumab treatment.",
+        "transition_event": {
+          "trigger_type": "medication_change",
+          "trigger_entities": [
+            "C1874574"
+          ],
+          "change_type": "addition",
+          "target_domain": "medication"
+        }
+      }
+    },
+    {
+      "from": "N5",
+      "to": "N6",
+      "data": {
+        "edge_id": "E_to_F",
+        "branch_flag": true,
+        "content": "From pembrolizumab treatment to disease progression and switch to alectinib due to EML4-ALK rearrangement.",
+        "transition_event": {
+          "trigger_type": "medication_change",
+          "trigger_entities": [
+            "C1874574",
+            "C0726473"
+          ],
+          "change_type": "discontinuation",
+          "target_domain": "medication"
+        }
+      }
+    },
+    {
+      "from": "N6",
+      "to": "N7",
+      "data": {
+        "edge_id": "F_to_G",
+        "branch_flag": true,
+        "content": "From alectinib treatment to hospitalization with hypoxia and respiratory symptoms, along with new ground-glass opacities and pleural effusions.",
+        "transition_event": {
+          "trigger_type": "symptom_onset",
+          "trigger_entities": [
+            "C0020110"
+          ],
+          "change_type": "progression",
+          "target_domain": "symptom"
+        }
+      }
+    }
+  ]
+}

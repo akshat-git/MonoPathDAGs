@@ -1,0 +1,241 @@
+{
+  "nodes": [
+    {
+      "id": "N1",
+      "label": "Step 1",
+      "customData": {
+        "node_id": "A",
+        "node_step_index": 0,
+        "content": "46-year-old man with hypertension and dyslipidemia diagnosed 4 months prior. New-onset diabetes mellitus (DM) diagnosed 1 month prior (on oral anti-diabetic drugs).",
+        "clinical_data": {
+          "diagnoses": [
+            {
+              "code": "C0020538",
+              "label": "Hypertension",
+              "status": "active",
+              "onset_date": null
+            },
+            {
+              "code": "C0011457",
+              "label": "Hyperlipidemia",
+              "status": "active",
+              "onset_date": null
+            },
+            {
+              "code": "C0011849",
+              "label": "Diabetes Mellitus",
+              "status": "active",
+              "onset_date": null
+            }
+          ]
+        }
+      }
+    },
+    {
+      "id": "N2",
+      "label": "Step 2",
+      "customData": {
+        "node_id": "B",
+        "node_step_index": 1,
+        "content": "Referred to emergency department for hypokalemia of 2.5 mEq/L [reference value (RV): 3.5\u20135.1]. Symptoms include paresthesias, weakness, anorexia, asthenia, and marked weight loss (about 10 kg) over a month.",
+        "clinical_data": {
+          "labs": [
+            {
+              "test": "Hypokalemia",
+              "value": "2.5",
+              "unit": "mEq/L",
+              "flag": "abnormal",
+              "reference_range": "3.5\u20135.1"
+            }
+          ],
+          "HPI": [
+            {
+              "summary": "Paresthesias, weakness, anorexia, asthenia, and marked weight loss (about 10 kg) over a month.",
+              "duration": "1 month",
+              "associated_symptoms": [
+                "Paresthesia",
+                "Weakness",
+                "Anorexia",
+                "Asthenia",
+                "Weight loss"
+              ]
+            }
+          ]
+        }
+      }
+    },
+    {
+      "id": "N3",
+      "label": "Step 3",
+      "customData": {
+        "node_id": "C",
+        "node_step_index": 2,
+        "content": "Suspicion of endogenous hypercortisolism [morning ACTH 146.0 ng/L (RV: 9.0-52.0) and cortisol 44.5 ug/dL (RV: 5.0-25.0)] on ambulatory analysis. Mild peripheral oedema. Admitted to the Endocrinology department for further investigation. Hormonal study revealed a midnight serum cortisol level of 36.2 ug/dL (RV: <7.5), midnight salivary cortisol 4.2 ug/dL (RV: <0.3) and 24 h-urinary free cortisol (UFC) 6210.0 ug/24 h [reference value (RV): 36.0\u2013137.0]. Result of 1 mg overnight dexamethasone suppression test was 42.6ug/dL [reference value (RV: <1.8)]. Serum potassium level of 3.0 mEq/L [reference value (RV: 3.5\u20135.1)]. Low-dose dexamethasone suppression test was compatible with Cushing's syndrome (CS), and a further high-dose dexamethasone suppression test showed no suppression of cortisol levels.",
+        "clinical_data": {
+          "labs": [
+            {
+              "test": "C0004222",
+              "value": "146.0",
+              "unit": "ng/L",
+              "flag": "abnormal",
+              "reference_range": "9.0-52.0",
+              "timestamp": null
+            },
+            {
+              "test": "C0010172",
+              "value": "44.5",
+              "unit": "ug/dL",
+              "flag": "abnormal",
+              "reference_range": "5.0-25.0",
+              "timestamp": null
+            },
+            {
+              "test": "C0205831",
+              "value": "36.2",
+              "unit": "ug/dL",
+              "flag": "abnormal",
+              "reference_range": "<7.5",
+              "timestamp": null
+            },
+            {
+              "test": "C1706255",
+              "value": "4.2",
+              "unit": "ug/dL",
+              "flag": "abnormal",
+              "reference_range": "<0.3",
+              "timestamp": null
+            },
+            {
+              "test": "C0282724",
+              "value": "6210.0",
+              "unit": "ug/24 h",
+              "flag": "abnormal",
+              "reference_range": "36.0\u2013137.0",
+              "timestamp": null
+            },
+            {
+              "test": "C0278524",
+              "value": "42.6",
+              "unit": "ug/dL",
+              "flag": "abnormal",
+              "reference_range": "<1.8",
+              "timestamp": null
+            },
+            {
+              "test": "C0022888",
+              "value": "3.0",
+              "unit": "mEq/L",
+              "flag": "abnormal",
+              "reference_range": "3.5\u20135.1",
+              "timestamp": null
+            }
+          ],
+          "diagnoses": [
+            {
+              "code": "C0010456",
+              "label": "Hypercortisolism",
+              "status": "suspected",
+              "onset_date": null
+            },
+            {
+              "code": "C0010449",
+              "label": "Cushing's Syndrome",
+              "status": "suspected",
+              "onset_date": null
+            }
+          ],
+          "findings": [
+            {
+              "finding": "Mild peripheral oedema"
+            }
+          ],
+          "medications": [
+            {
+              "drug": "C0011616",
+              "dosage": "1 mg",
+              "frequency": "overnight",
+              "modality": "oral",
+              "start_date": null,
+              "end_date": null,
+              "indication": "C0010449"
+            }
+          ]
+        }
+      }
+    },
+    {
+      "id": "N4",
+      "label": "Step 4",
+      "customData": {
+        "node_id": "D",
+        "node_step_index": 3,
+        "content": "ACTH and cortisol levels during low-dose dexamethasone test: Cortisol 8 a.m. Baseline 38.3 ug/dL",
+        "RV": 6.2,
+        "clinical_data": {
+          "labs": [
+            {
+              "test": "C0010174",
+              "value": "38.3",
+              "unit": "ug/dL",
+              "timestamp": "morning"
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "edges": [
+    {
+      "from": "N1",
+      "to": "N2",
+      "data": {
+        "edge_id": "A_to_B",
+        "branch_flag": true,
+        "content": "Patient's condition progresses from newly diagnosed diabetes, hypertension, and dyslipidemia to hypokalemia with associated symptoms.",
+        "transition_event": {
+          "trigger_type": "lab_change",
+          "trigger_entities": [
+            "C0022888"
+          ],
+          "change_type": "progression",
+          "target_domain": "lab"
+        }
+      }
+    },
+    {
+      "from": "N2",
+      "to": "N3",
+      "data": {
+        "edge_id": "B_to_C",
+        "branch_flag": true,
+        "content": "Hypokalemia and associated symptoms lead to suspicion of endogenous hypercortisolism and admission for further investigation.",
+        "transition_event": {
+          "trigger_type": "interpretation",
+          "trigger_entities": [
+            "C0022888",
+            "C0010456"
+          ],
+          "change_type": "progression",
+          "target_domain": "diagnosis"
+        }
+      }
+    },
+    {
+      "from": "N3",
+      "to": "N4",
+      "data": {
+        "edge_id": "C_to_D",
+        "branch_flag": true,
+        "content": "Further testing with low-dose dexamethasone suppression test to evaluate Cushing's syndrome.",
+        "transition_event": {
+          "trigger_type": "procedure",
+          "trigger_entities": [
+            "C0278524"
+          ],
+          "change_type": "other",
+          "target_domain": "procedure"
+        }
+      }
+    }
+  ]
+}

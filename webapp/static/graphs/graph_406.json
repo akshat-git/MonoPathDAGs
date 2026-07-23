@@ -1,0 +1,459 @@
+{
+  "nodes": [
+    {
+      "id": "N1",
+      "label": "Step 1",
+      "customData": {
+        "node_id": "A",
+        "node_step_index": 0,
+        "content": "78-year-old woman presented with a one-month history of anorexia, malaise, and weight loss of 5 kg. Elevated CA 19-9 level of 12,603 U/mL (normal range: <39 U/mL). Patient has a previous history of valvular and ischemic cardiomyopathy, status post aortic valve replacement two years prior, type 2 diabetes mellitus, and arterial hypertension. Patient denies smoking.",
+        "clinical_data": {
+          "HPI": [
+            {
+              "summary": "78-year-old woman presented with a one-month history of anorexia, malaise, and weight loss of 5 kg.",
+              "duration": "1 month",
+              "onset": null,
+              "progression": "unknown",
+              "associated_symptoms": [
+                "Anorexia",
+                "Malaise",
+                "Weight loss"
+              ],
+              "alleviating_factors": [],
+              "exacerbating_factors": []
+            }
+          ],
+          "labs": [
+            {
+              "test": "CA 19-9 level",
+              "value": "12603",
+              "unit": "U/mL",
+              "flag": "abnormal",
+              "reference_range": "<39 U/mL",
+              "timestamp": null
+            }
+          ],
+          "diagnoses": [
+            {
+              "code": null,
+              "label": "valvular cardiomyopathy",
+              "status": "historical",
+              "onset_date": null
+            },
+            {
+              "code": null,
+              "label": "ischemic cardiomyopathy",
+              "status": "historical",
+              "onset_date": null
+            },
+            {
+              "code": "E11.9",
+              "label": "type 2 diabetes mellitus",
+              "status": "active",
+              "onset_date": null
+            },
+            {
+              "code": "I10",
+              "label": "arterial hypertension",
+              "status": "active",
+              "onset_date": null
+            }
+          ],
+          "procedures": [
+            {
+              "name": "aortic valve replacement",
+              "approach": "open",
+              "date": null,
+              "location": null,
+              "performed_by": null,
+              "outcome": null
+            }
+          ],
+          "social_history": [
+            {
+              "category": "smoking",
+              "status": "never",
+              "description": "Patient denies smoking."
+            }
+          ]
+        }
+      }
+    },
+    {
+      "id": "N2",
+      "label": "Step 2",
+      "customData": {
+        "node_id": "B",
+        "node_step_index": 1,
+        "content": "Patient admitted for workup. Physical examination unremarkable. Labs: Aspartate aminotransferase 75 U/L (normal <32 U/L), alanine aminotransferase 62 U/L (normal <33 U/L), alkaline phosphatase 150 U/L (normal 35-105 U/L), and gamma-glutamyl transpeptidase 200 U/L (normal <40 U/L), without hyperbilirubinemia.",
+        "clinical_data": {
+          "labs": [
+            {
+              "test": "Aspartate aminotransferase measurement",
+              "value": "75",
+              "unit": "U/L",
+              "flag": "abnormal",
+              "reference_range": "<32 U/L"
+            },
+            {
+              "test": "Alanine aminotransferase measurement",
+              "value": "62",
+              "unit": "U/L",
+              "flag": "abnormal",
+              "reference_range": "<33 U/L"
+            },
+            {
+              "test": "Alkaline phosphatase measurement",
+              "value": "150",
+              "unit": "U/L",
+              "flag": "abnormal",
+              "reference_range": "35-105 U/L"
+            },
+            {
+              "test": "Gamma-glutamyl transpeptidase measurement",
+              "value": "200",
+              "unit": "U/L",
+              "flag": "abnormal",
+              "reference_range": "<40 U/L"
+            }
+          ],
+          "physical_exam": [
+            {
+              "finding": "unremarkable"
+            }
+          ]
+        }
+      }
+    },
+    {
+      "id": "N3",
+      "label": "Step 3",
+      "customData": {
+        "node_id": "C",
+        "node_step_index": 2,
+        "content": "Hemoglobin 13.3 g/L (12.0-15.0), Leucocyte 5.6 x109/L (4.0-10.0), Platelets 177 x109/L (150-410), PT 11.3 seconds (9.7-11.8), INR 1.1 (<1.2), aPTT 24.9 seconds (20.6-29.5), Sodium 141 mmol/L (136-145), Potassium 3.77 mmol/L (3.5-5.1), Chloride 101.1 mmol/L (98-107), Calcium 9.3 mg/dL (8.8-10.2), Phosphate 3.5 mg/dL (2.5-4.5), Magnesium 1.8 mg/dL (1.6-2.6), Aspartate aminotransferase 86 U/L (<32), Alanine aminotransferase 50 U/L (<33), Alkaline phosphatase 175 U/L (35-105), Gamma-glutamyl transpeptidase 286 U/L (<40), Total bilirubin 0.6 mg/dL (<1.2), Lactate dehydrogenase 254 U/L (135-214), Creatinine 0.87 mg/dL (0.7-1.2), Urea 46 mg/dL (<50), Albumin 4.1 g/dL (3.97-4.94), Creatine kinase 63 U/L (39-308), Reactive C protein 1.01 mg/dL (<0.5), CA 19-9 12,603 U/mL (<39).",
+        "clinical_data": {
+          "labs": [
+            {
+              "test": "Hemoglobin",
+              "value": "13.3",
+              "unit": "g/L",
+              "flag": "normal",
+              "reference_range": "12.0-15.0"
+            },
+            {
+              "test": "Leucocyte",
+              "value": "5.6",
+              "unit": "x109/L",
+              "flag": "normal",
+              "reference_range": "4.0-10.0"
+            },
+            {
+              "test": "Platelets",
+              "value": "177",
+              "unit": "x109/L",
+              "flag": "normal",
+              "reference_range": "150-410"
+            },
+            {
+              "test": "Prothrombin time",
+              "value": "11.3",
+              "unit": "seconds",
+              "flag": "normal",
+              "reference_range": "9.7-11.8"
+            },
+            {
+              "test": "INR",
+              "value": "1.1",
+              "flag": "normal",
+              "reference_range": "<1.2"
+            },
+            {
+              "test": "aPTT",
+              "value": "24.9",
+              "unit": "seconds",
+              "flag": "normal",
+              "reference_range": "20.6-29.5"
+            },
+            {
+              "test": "Sodium",
+              "value": "141",
+              "unit": "mmol/L",
+              "flag": "normal",
+              "reference_range": "136-145"
+            },
+            {
+              "test": "Potassium",
+              "value": "3.77",
+              "unit": "mmol/L",
+              "flag": "normal",
+              "reference_range": "3.5-5.1"
+            },
+            {
+              "test": "Chloride",
+              "value": "101.1",
+              "unit": "mmol/L",
+              "flag": "normal",
+              "reference_range": "98-107"
+            },
+            {
+              "test": "Calcium",
+              "value": "9.3",
+              "unit": "mg/dL",
+              "flag": "normal",
+              "reference_range": "8.8-10.2"
+            },
+            {
+              "test": "Phosphate",
+              "value": "3.5",
+              "unit": "mg/dL",
+              "flag": "normal",
+              "reference_range": "2.5-4.5"
+            },
+            {
+              "test": "Magnesium",
+              "value": "1.8",
+              "unit": "mg/dL",
+              "flag": "normal",
+              "reference_range": "1.6-2.6"
+            },
+            {
+              "test": "Aspartate aminotransferase",
+              "value": "86",
+              "unit": "U/L",
+              "flag": "abnormal",
+              "reference_range": "<32"
+            },
+            {
+              "test": "Alanine aminotransferase",
+              "value": "50",
+              "unit": "U/L",
+              "flag": "abnormal",
+              "reference_range": "<33"
+            },
+            {
+              "test": "Alkaline phosphatase",
+              "value": "175",
+              "unit": "U/L",
+              "flag": "abnormal",
+              "reference_range": "35-105"
+            },
+            {
+              "test": "Gamma-glutamyl transpeptidase",
+              "value": "286",
+              "unit": "U/L",
+              "flag": "abnormal",
+              "reference_range": "<40"
+            },
+            {
+              "test": "Total bilirubin",
+              "value": "0.6",
+              "unit": "mg/dL",
+              "flag": "normal"
+            }
+          ]
+        }
+      }
+    },
+    {
+      "id": "N4",
+      "label": "Step 4",
+      "customData": {
+        "node_id": "D",
+        "node_step_index": 3,
+        "content": "Thoraco-abdomino-pelvic CT scan showed diffuse pulmonary emphysema and a heterogenous condensation in the lower right lobe, suggestive of an infectious process sequela. Common gastrointestinal neoplasms were excluded with a digestive endoscopy and a colonoscopy. A magnetic resonance cholangiopancreatography (MRCP) excluded lesions in the biliary tract.",
+        "clinical_data": {
+          "imaging": [
+            {
+              "type": "Computed tomography of thorax, abdomen and pelvis",
+              "body_part": "Thorax, abdomen and pelvis",
+              "modality": "CT",
+              "finding": "diffuse pulmonary emphysema and a heterogenous condensation in the lower right lobe",
+              "impression": "suggestive of an infectious process sequela"
+            },
+            {
+              "type": "Magnetic resonance cholangiopancreatography",
+              "body_part": "biliary tract",
+              "modality": "MRI",
+              "finding": "no lesions",
+              "impression": "no lesions"
+            }
+          ],
+          "procedures": [
+            {
+              "name": "digestive endoscopy",
+              "outcome": "Common gastrointestinal neoplasms were excluded"
+            },
+            {
+              "name": "colonoscopy",
+              "outcome": "Common gastrointestinal neoplasms were excluded"
+            }
+          ]
+        }
+      }
+    },
+    {
+      "id": "N5",
+      "label": "Step 5",
+      "customData": {
+        "node_id": "E",
+        "node_step_index": 4,
+        "content": "Pelvic examination and endocavitary ultrasound were normal. Urinary cytologic examination showed some atypical urothelial cells, but direct cystoscopy did not reveal pathologic findings, and a urologic CT scan excluded alterations in the urinary system. CA 19-9 decreased to 1984 U/mL. Patient regained appetite and weight.",
+        "clinical_data": {
+          "imaging": [
+            {
+              "type": "CT scan",
+              "body_part": "Urinary system",
+              "modality": "CT",
+              "finding": "excluded alterations",
+              "impression": "no alterations in the urinary system"
+            },
+            {
+              "type": "Ultrasound",
+              "body_part": "Pelvis",
+              "modality": "Ultrasound",
+              "finding": "normal",
+              "impression": "normal"
+            }
+          ],
+          "labs": [
+            {
+              "test": "CA 19-9",
+              "value": "1984",
+              "unit": "U/mL",
+              "flag": "abnormal"
+            },
+            {
+              "test": "Urinary cytologic examination",
+              "value": "atypical urothelial cells",
+              "flag": "abnormal"
+            }
+          ],
+          "procedures": [
+            {
+              "name": "Cystoscopy",
+              "approach": "endoscopic",
+              "outcome": "no pathologic findings"
+            }
+          ],
+          "HPI": [
+            {
+              "summary": "Patient regained appetite and weight."
+            }
+          ]
+        }
+      }
+    },
+    {
+      "id": "N6",
+      "label": "Step 6",
+      "customData": {
+        "node_id": "F",
+        "node_step_index": 5,
+        "content": "18F-FDG PET/CT revealed densification in the inferior right pulmonary lobe and positive adenopathic peribronchial infiltration from that area up to the mediastinum (stations",
+        "clinical_data": {
+          "imaging": [
+            {
+              "type": "Positron emission tomography/computed tomography",
+              "body_part": "Lung",
+              "modality": "PET/CT",
+              "finding": "densification in the inferior right pulmonary lobe and positive adenopathic peribronchial infiltration from that area up to the mediastinum",
+              "date": null
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "edges": [
+    {
+      "from": "N1",
+      "to": "N2",
+      "data": {
+        "edge_id": "A_to_B",
+        "branch_flag": true,
+        "content": "Patient admitted for workup due to anorexia, malaise, weight loss, and elevated CA 19-9. Transition from outpatient to inpatient setting.",
+        "transition_event": {
+          "trigger_type": "symptom_onset",
+          "trigger_entities": [
+            "C0003126",
+            "C0024537",
+            "C0042065"
+          ],
+          "change_type": "progression",
+          "target_domain": "symptom"
+        }
+      }
+    },
+    {
+      "from": "N2",
+      "to": "N3",
+      "data": {
+        "edge_id": "B_to_C",
+        "branch_flag": true,
+        "content": "Lab results show elevated liver enzymes (AST, ALT, ALP, GGT) without hyperbilirubinemia. Transition from initial lab findings to more comprehensive lab panel.",
+        "transition_event": {
+          "trigger_type": "lab_change",
+          "trigger_entities": [
+            "C0015672",
+            "C0015649",
+            "C0005827",
+            "C0017574"
+          ],
+          "change_type": "progression",
+          "target_domain": "lab"
+        }
+      }
+    },
+    {
+      "from": "N3",
+      "to": "N4",
+      "data": {
+        "edge_id": "C_to_D",
+        "branch_flag": true,
+        "content": "Imaging performed to investigate elevated CA 19-9 and abnormal liver function tests. Common gastrointestinal neoplasms were excluded. MRCP excluded lesions in the biliary tract.",
+        "transition_event": {
+          "trigger_type": "procedure",
+          "trigger_entities": [
+            "C0013181",
+            "C0009072"
+          ],
+          "change_type": "other",
+          "target_domain": "procedure"
+        }
+      }
+    },
+    {
+      "from": "N4",
+      "to": "N5",
+      "data": {
+        "edge_id": "D_to_E",
+        "branch_flag": true,
+        "content": "Further workup including pelvic examination, endocavitary ultrasound, urinary cytology, cystoscopy, and urologic CT scan. CA 19-9 decreased, and patient regained appetite and weight.",
+        "transition_event": {
+          "trigger_type": "lab_change",
+          "trigger_entities": [
+            "C0007272"
+          ],
+          "change_type": "deescalation",
+          "target_domain": "lab"
+        }
+      }
+    },
+    {
+      "from": "N5",
+      "to": "N6",
+      "data": {
+        "edge_id": "E_to_F",
+        "branch_flag": true,
+        "content": "18F-FDG PET/CT performed, revealing densification in the inferior right pulmonary lobe and positive adenopathic peribronchial infiltration from that area up to the mediastinum.",
+        "transition_event": {
+          "trigger_type": "imaging",
+          "trigger_entities": [],
+          "change_type": "progression",
+          "target_domain": "imaging"
+        }
+      }
+    }
+  ]
+}

@@ -1,0 +1,96 @@
+{
+  "nodes": [
+    {
+      "id": "N1",
+      "label": "Step 1",
+      "customData": {
+        "node_id": "A",
+        "node_step_index": 0,
+        "content": "Patient underwent contrast-enhanced CT for indications including breast cancer (11%), colon cancer (10%), and lung cancer or nodules (10%). Body regions scanned included the abdomen (73%) and thorax (62%). Static imaging was performed. Gender: Male/Female (%): 41.0/59.0.",
+        "clinical_data": {
+          "imaging": [
+            {
+              "type": "Computed tomography",
+              "body_part": "Abdomen",
+              "modality": "CT",
+              "date": null
+            },
+            {
+              "type": "Computed tomography",
+              "body_part": "Thorax",
+              "modality": "CT",
+              "date": null
+            }
+          ],
+          "diagnoses": [
+            {
+              "code": "C0006127",
+              "label": "Breast cancer",
+              "status": "suspected",
+              "onset_date": null
+            },
+            {
+              "code": "C0009402",
+              "label": "Colon cancer",
+              "status": "suspected",
+              "onset_date": null
+            },
+            {
+              "code": "C0024117",
+              "label": "Lung cancer",
+              "status": "suspected",
+              "onset_date": null
+            }
+          ]
+        }
+      },
+      "custom_id": "graph_085_N0"
+    },
+    {
+      "id": "N2",
+      "label": "Step 2",
+      "customData": {
+        "node_id": "B",
+        "node_step_index": 1,
+        "content": "Intravenous contrast injection performed. Injection site: Left antecubital vein (40%), Right antecubital vein (60%). Contrast volume: 90-130 mL (mean 119.5 mL). Injection rate: 2.8-4.5 mL/s (mean 3.6 mL/s). Saline flush volume: 20-30 mL.",
+        "clinical_data": {
+          "procedures": [
+            {
+              "name": "Injection",
+              "approach": "IV",
+              "location": "Left antecubital vein",
+              "outcome": "performed"
+            },
+            {
+              "name": "Injection",
+              "approach": "IV",
+              "location": "Right antecubital vein",
+              "outcome": "performed"
+            }
+          ]
+        }
+      },
+      "custom_id": "graph_085_N1"
+    }
+  ],
+  "edges": [
+    {
+      "from": "N1",
+      "to": "N2",
+      "data": {
+        "edge_id": "A_to_B",
+        "branch_flag": true,
+        "content": "Patient underwent intravenous contrast injection in preparation for CT imaging.",
+        "transition_event": {
+          "trigger_type": "procedure",
+          "trigger_entities": [
+            "C0332172"
+          ],
+          "change_type": "addition",
+          "target_domain": "imaging"
+        }
+      },
+      "custom_id": "graph_085_N1_N2"
+    }
+  ]
+}

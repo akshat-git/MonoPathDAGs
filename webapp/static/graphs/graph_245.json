@@ -1,0 +1,278 @@
+{
+  "nodes": [
+    {
+      "id": "N1",
+      "label": "Step 1",
+      "customData": {
+        "node_id": "A",
+        "node_step_index": 0,
+        "content": "70-year-old male, current smoker, admitted with recurrent cough and sputum, with an aggravation of 1 week. Patient has poor oral hygiene and is a smoker with alcohol drinking.",
+        "clinical_data": {
+          "HPI": [
+            {
+              "summary": "recurrent cough and sputum, with an aggravation of 1 week",
+              "duration": "1 week",
+              "progression": "sudden"
+            }
+          ],
+          "social_history": [
+            {
+              "category": "smoking",
+              "status": "current"
+            },
+            {
+              "category": "alcohol",
+              "status": "current"
+            }
+          ]
+        }
+      }
+    },
+    {
+      "id": "N2",
+      "label": "Step 2",
+      "customData": {
+        "node_id": "B",
+        "node_step_index": 1,
+        "content": "Chest CT showed a 35*24 mm area of lung consolidation in the lower part of the right hilus. Contrast-enhanced scan showed significant enhancement with a slightly less enhanced mass shadow inside, with right pleural effusion. Several enlarged lymph nodes were also observed in the mediastinum and right lung hilus.",
+        "clinical_data": {
+          "imaging": [
+            {
+              "type": "CT of chest",
+              "body_part": "Lung",
+              "modality": "CT",
+              "finding": "35*24 mm area of lung consolidation in the lower part of the right hilus",
+              "date": null
+            },
+            {
+              "type": "CT of chest",
+              "body_part": "Lung",
+              "modality": "CT",
+              "finding": "Significant enhancement with a slightly less enhanced mass shadow inside",
+              "date": null
+            },
+            {
+              "type": "CT of chest",
+              "body_part": "Pleural Space",
+              "modality": "CT",
+              "finding": "Right pleural effusion",
+              "date": null
+            },
+            {
+              "type": "CT of chest",
+              "body_part": "Mediastinum",
+              "modality": "CT",
+              "finding": "Several enlarged lymph nodes",
+              "date": null
+            },
+            {
+              "type": "CT of chest",
+              "body_part": "Right lung hilus",
+              "modality": "CT",
+              "finding": "Several enlarged lymph nodes",
+              "date": null
+            }
+          ]
+        }
+      }
+    },
+    {
+      "id": "N3",
+      "label": "Step 3",
+      "customData": {
+        "node_id": "C",
+        "node_step_index": 2,
+        "content": "Lung lesions progressed on chest CT after broad-spectrum antibiotic treatment.",
+        "clinical_data": {
+          "imaging": [
+            {
+              "type": "Lung lesion",
+              "body_part": "Lung",
+              "modality": "CT",
+              "finding": "progressed",
+              "date": null
+            }
+          ]
+        }
+      }
+    },
+    {
+      "id": "N4",
+      "label": "Step 4",
+      "customData": {
+        "node_id": "D",
+        "node_step_index": 3,
+        "content": "Ultrasound-guided lung biopsy was performed. Bronchoaspirate was taken for microbiological examination, with no neoplastic tissue in a pathology test. Colonies of microorganisms morphologically corresponding to actinomyces were found within purulent masses, with sulfur particles.",
+        "clinical_data": {
+          "imaging": [
+            {
+              "type": "Lung ultrasound",
+              "body_part": "Lung",
+              "modality": "Ultrasound",
+              "finding": "Not specified",
+              "impression": "Ultrasound-guided lung biopsy was performed.",
+              "date": null
+            }
+          ],
+          "procedures": [
+            {
+              "name": "Lung biopsy",
+              "approach": "percutaneous",
+              "date": null,
+              "location": "Lung",
+              "performed_by": null,
+              "outcome": null
+            },
+            {
+              "name": "Bronchoaspirate",
+              "approach": "endoscopic",
+              "date": null,
+              "location": "Lung",
+              "performed_by": null,
+              "outcome": null
+            }
+          ],
+          "labs": [
+            {
+              "test": "Microbiological examination",
+              "value": "Colonies of microorganisms morphologically corresponding to actinomyces were found within purulent masses, with sulfur particles.",
+              "unit": null,
+              "flag": "abnormal",
+              "reference_range": null,
+              "timestamp": null
+            },
+            {
+              "test": "Pathology test",
+              "value": "no neoplastic tissue",
+              "unit": null,
+              "flag": "normal",
+              "reference_range": null,
+              "timestamp": null
+            }
+          ]
+        }
+      }
+    },
+    {
+      "id": "N5",
+      "label": "Step 5",
+      "customData": {
+        "node_id": "E",
+        "node_step_index": 4,
+        "content": "Positive gram stain, GMS, and PAS. Pathology test of the right lower lung lesion showed necrotic material with bacterial masses and what appeared to be \"sulfur particles\", numerous neutrophil exudates and foci of epithelioid cells, acid-fast staining(\u2212), Gram(+), GMS(+), and PAS(+).",
+        "clinical_data": {
+          "labs": [
+            {
+              "test": "Gram stain",
+              "value": "positive"
+            },
+            {
+              "test": "GMS stain",
+              "value": "positive"
+            },
+            {
+              "test": "PAS stain",
+              "value": "positive"
+            },
+            {
+              "test": "acid-fast staining",
+              "value": "negative"
+            }
+          ],
+          "imaging": [
+            {
+              "body_part": "lower lung",
+              "finding": "lesion",
+              "modality": "Pathology test"
+            }
+          ]
+        }
+      }
+    },
+    {
+      "id": "N6",
+      "label": "Step 6",
+      "customData": {
+        "node_id": "F",
+        "node_step_index": 5,
+        "content": "Treatment initiated with penicillin G at a dose of 720 units/day for 2 months. Following intravenous antibiotic treatment, cough and sputum subsided, and the well-",
+        "clinical_data": {
+          "medications": [
+            {
+              "drug": "Penicillin G",
+              "dosage": "720 units/day",
+              "frequency": null,
+              "modality": "IV",
+              "start_date": null,
+              "end_date": null,
+              "indication": null
+            }
+          ],
+          "HPI": [
+            {
+              "summary": "Cough and sputum subsided following intravenous antibiotic treatment",
+              "duration": null,
+              "onset": null,
+              "progression": null,
+              "associated_symptoms": [
+                "cough",
+                "sputum"
+              ],
+              "alleviating_factors": [
+                "intravenous antibiotic treatment"
+              ],
+              "exacerbating_factors": []
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "edges": [
+    {
+      "from": "N1",
+      "to": "N2",
+      "data": {
+        "edge_id": "A_to_B",
+        "branch_flag": true,
+        "content": "Patient presented with recurrent cough and sputum, and chest CT was performed revealing lung consolidation, pleural effusion, and enlarged lymph nodes."
+      }
+    },
+    {
+      "from": "N2",
+      "to": "N3",
+      "data": {
+        "edge_id": "B_to_C",
+        "branch_flag": true,
+        "content": "Broad-spectrum antibiotics were administered, but lung lesions progressed."
+      }
+    },
+    {
+      "from": "N3",
+      "to": "N4",
+      "data": {
+        "edge_id": "C_to_D",
+        "branch_flag": true,
+        "content": "Due to the progression of lung lesions, an ultrasound-guided lung biopsy and bronchoaspirate were performed."
+      }
+    },
+    {
+      "from": "N4",
+      "to": "N5",
+      "data": {
+        "edge_id": "D_to_E",
+        "branch_flag": true,
+        "content": "Microbiological examination and pathology tests were performed, revealing actinomyces, necrotic material, bacterial masses, sulfur particles, and positive staining results."
+      }
+    },
+    {
+      "from": "N5",
+      "to": "N6",
+      "data": {
+        "edge_id": "E_to_F",
+        "branch_flag": true,
+        "content": "Based on the pathology results, treatment was initiated with penicillin G."
+      }
+    }
+  ]
+}

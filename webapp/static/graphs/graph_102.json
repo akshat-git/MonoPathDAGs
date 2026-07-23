@@ -1,0 +1,379 @@
+{
+  "nodes": [
+    {
+      "id": "N1",
+      "label": "Step 1",
+      "customData": {
+        "node_id": "A",
+        "node_step_index": 0,
+        "content": "April 2015: 27-year-old male diagnosed with left upper lung adenocarcinoma by biopsy. Performance status score of 1. Clinical stage cT3N2M0 (stage IIIA, 7thUICC/AJCC). Initial tumor considered unresectable due to adjacency to the pericardium and regional lymph node metastasis at the ipsilateral mediastinum.",
+        "clinical_data": {
+          "diagnoses": [
+            {
+              "code": "C34.3",
+              "label": "Malignant neoplasm of lower lobe, bronchus or lung",
+              "status": "active",
+              "onset_date": "2015-04"
+            }
+          ],
+          "imaging": [
+            {
+              "type": "imaging",
+              "body_part": "lung",
+              "modality": "biopsy",
+              "finding": "adenocarcinoma",
+              "date": "2015-04"
+            }
+          ],
+          "functional_status": [
+            {
+              "domain": "performance status",
+              "description": "performance status score of 1",
+              "score": "1",
+              "scale": "ECOG"
+            }
+          ]
+        }
+      }
+    },
+    {
+      "id": "N2",
+      "label": "Step 2",
+      "customData": {
+        "node_id": "B",
+        "node_step_index": 1,
+        "content": "Histological features of the adenocarcinoma: solid growth with mucus production (60%) and acinar growth (40%).",
+        "clinical_data": {
+          "diagnoses": [
+            {
+              "code": "C23.9",
+              "label": "Malignant neoplasm of gallbladder, unspecified",
+              "status": "active"
+            }
+          ]
+        }
+      }
+    },
+    {
+      "id": "N3",
+      "label": "Step 3",
+      "customData": {
+        "node_id": "C",
+        "node_step_index": 2,
+        "content": "Patient received three cycles of gemcitabine (1250mg/m2, day 1 and day 8) plus cisplatin (75 mg/m2, day 1).",
+        "clinical_data": {
+          "medications": [
+            {
+              "drug": "C0016621",
+              "dosage": "1250mg/m2",
+              "frequency": "day 1 and day 8",
+              "modality": "IV",
+              "start_date": null,
+              "end_date": null,
+              "indication": null
+            },
+            {
+              "drug": "C0008833",
+              "dosage": "75 mg/m2",
+              "frequency": "day 1",
+              "modality": "IV",
+              "start_date": null,
+              "end_date": null,
+              "indication": null
+            }
+          ],
+          "procedures": [
+            {
+              "name": "C4720708",
+              "approach": null,
+              "date": null,
+              "location": null,
+              "performed_by": null,
+              "outcome": null
+            }
+          ]
+        }
+      }
+    },
+    {
+      "id": "N4",
+      "label": "Step 4",
+      "customData": {
+        "node_id": "D",
+        "node_step_index": 3,
+        "content": "Positive ALK expression detected by Ventana immunohistochemistry (IHC) staining.",
+        "clinical_data": {
+          "labs": [
+            {
+              "test": "Immunohistochemistry stain (procedure)",
+              "value": "Positive",
+              "unit": null,
+              "flag": "positive",
+              "reference_range": null,
+              "timestamp": null
+            }
+          ]
+        }
+      }
+    },
+    {
+      "id": "N5",
+      "label": "Step 5",
+      "customData": {
+        "node_id": "E",
+        "node_step_index": 4,
+        "content": "Contrast chest computed tomography (CT) after 3 cycles of gemcitabine plus cisplatin showed that the primary tumor remained stable according to the RECIST 1.1 criteria compared with the initial CT scan.",
+        "clinical_data": {
+          "imaging": [
+            {
+              "type": "Computed tomography",
+              "body_part": "chest",
+              "modality": "CT",
+              "finding": "primary tumor remained stable",
+              "date": null
+            }
+          ],
+          "medications": [
+            {
+              "drug": "Gemcitabine",
+              "dosage": null,
+              "frequency": null,
+              "modality": null,
+              "start_date": null,
+              "end_date": null,
+              "indication": null
+            },
+            {
+              "drug": "Cisplatin",
+              "dosage": null,
+              "frequency": null,
+              "modality": null,
+              "start_date": null,
+              "end_date": null,
+              "indication": null
+            }
+          ]
+        }
+      }
+    },
+    {
+      "id": "N6",
+      "label": "Step 6",
+      "customData": {
+        "node_id": "F",
+        "node_step_index": 5,
+        "content": "Crizotinib (250 mg, bid) adopted, replacing the initial treatment.",
+        "clinical_data": {
+          "medications": [
+            {
+              "drug": "Crizotinib",
+              "dosage": "250 mg",
+              "frequency": "bid",
+              "modality": "oral"
+            }
+          ]
+        }
+      }
+    },
+    {
+      "id": "N7",
+      "label": "Step 7",
+      "customData": {
+        "node_id": "G",
+        "node_step_index": 6,
+        "content": "Within 2 months of Crizotinib treatment, the patient was downstaged to cT2aN2M0.",
+        "clinical_data": {
+          "medications": [
+            {
+              "drug": "C0974738",
+              "indication": "C0006826"
+            }
+          ]
+        }
+      }
+    },
+    {
+      "id": "N8",
+      "label": "Step 8",
+      "customData": {
+        "node_id": "H",
+        "node_step_index": 7,
+        "content": "September 2015: video-assisted thoracic surgery (VATS) with left upper lobectomy plus lymph node dissection and partial pericardial resection performed. Pathological stage was ypT2aN2M0.",
+        "clinical_data": {
+          "procedures": [
+            {
+              "name": "Video-assisted thoracic surgery",
+              "approach": "endoscopic",
+              "date": "2015-09",
+              "location": "left upper lobe",
+              "outcome": "resection"
+            },
+            {
+              "name": "Lymph node dissection",
+              "date": "2015-09",
+              "location": "mediastinal lymph nodes"
+            },
+            {
+              "name": "Pericardial resection",
+              "date": "2015-09",
+              "location": "pericardium",
+              "outcome": "partial resection"
+            }
+          ],
+          "diagnoses": [
+            {
+              "code": "T2a",
+              "label": "ypT2aN2M0",
+              "status": "historical"
+            }
+          ]
+        }
+      }
+    },
+    {
+      "id": "N9",
+      "label": "Step 9",
+      "customData": {
+        "node_id": "I",
+        "node_step_index": 8,
+        "content": "Postoperative radiotherapy (PORT) performed with a total dose of 50 Gy in 25 fractions.",
+        "clinical_data": {
+          "procedures": [
+            {
+              "name": "Postoperative radiotherapy",
+              "date": null,
+              "approach": null,
+              "location": null,
+              "performed_by": null,
+              "outcome": null
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "edges": [
+    {
+      "from": "N1",
+      "to": "N2",
+      "data": {
+        "edge_id": "A_to_B",
+        "branch_flag": true,
+        "content": "Initial diagnosis of left upper lung adenocarcinoma with clinical staging information."
+      }
+    },
+    {
+      "from": "N2",
+      "to": "N3",
+      "data": {
+        "edge_id": "B_to_C",
+        "branch_flag": true,
+        "content": "Histological features of the adenocarcinoma are further specified.",
+        "transition_event": {
+          "trigger_type": "interpretation",
+          "trigger_entities": [
+            "C0006826"
+          ],
+          "change_type": "other",
+          "target_domain": "diagnosis"
+        }
+      }
+    },
+    {
+      "from": "N3",
+      "to": "N4",
+      "data": {
+        "edge_id": "C_to_D",
+        "branch_flag": true,
+        "content": "Treatment with gemcitabine and cisplatin initiated.",
+        "transition_event": {
+          "trigger_type": "medication_change",
+          "trigger_entities": [
+            "C0016621",
+            "C0008833"
+          ],
+          "change_type": "addition",
+          "target_domain": "medication"
+        }
+      }
+    },
+    {
+      "from": "N4",
+      "to": "N5",
+      "data": {
+        "edge_id": "D_to_E",
+        "branch_flag": true,
+        "content": "ALK expression detected.",
+        "transition_event": {
+          "trigger_type": "lab_change",
+          "trigger_entities": [],
+          "change_type": "addition",
+          "target_domain": "lab"
+        }
+      }
+    },
+    {
+      "from": "N5",
+      "to": "N6",
+      "data": {
+        "edge_id": "E_to_F",
+        "branch_flag": true,
+        "content": "CT scan shows stable disease after gemcitabine and cisplatin.",
+        "transition_event": {
+          "trigger_type": "imaging",
+          "trigger_entities": [],
+          "change_type": "other",
+          "target_domain": "imaging"
+        }
+      }
+    },
+    {
+      "from": "N6",
+      "to": "N7",
+      "data": {
+        "edge_id": "F_to_G",
+        "branch_flag": true,
+        "content": "Crizotinib initiated, replacing prior treatment.",
+        "transition_event": {
+          "trigger_type": "medication_change",
+          "trigger_entities": [
+            "C0974738"
+          ],
+          "change_type": "addition",
+          "target_domain": "medication"
+        }
+      }
+    },
+    {
+      "from": "N7",
+      "to": "N8",
+      "data": {
+        "edge_id": "G_to_H",
+        "branch_flag": true,
+        "content": "Downstaging after Crizotinib treatment.",
+        "transition_event": {
+          "trigger_type": "interpretation",
+          "trigger_entities": [],
+          "change_type": "deescalation",
+          "target_domain": "diagnosis"
+        }
+      }
+    },
+    {
+      "from": "N8",
+      "to": "N9",
+      "data": {
+        "edge_id": "H_to_I",
+        "branch_flag": true,
+        "content": "Surgical resection performed.",
+        "transition_event": {
+          "trigger_type": "procedure",
+          "trigger_entities": [],
+          "change_type": "addition",
+          "target_domain": "procedure",
+          "timestamp": "2015-09-01T00:00:00Z"
+        }
+      }
+    }
+  ]
+}

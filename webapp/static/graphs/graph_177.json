@@ -1,0 +1,213 @@
+{
+  "nodes": [
+    {
+      "id": "N1",
+      "label": "Step 1",
+      "customData": {
+        "node_id": "A",
+        "node_step_index": 0,
+        "content": "65-year-old man referred to hospital due to findings suggestive of primary lung cancer. Medical history of right renal pelvis cancer 12 years ago and bladder cancer 11 years ago. Current smoker (45 pack-years) and was not exposed to asbestos.",
+        "timestamp": "2021-04-21",
+        "clinical_data": {
+          "social_history": [
+            {
+              "category": "smoking",
+              "status": "current",
+              "description": "45 pack-years"
+            },
+            {
+              "category": "asbestos exposure",
+              "status": "never",
+              "description": "was not exposed to asbestos"
+            }
+          ],
+          "diagnoses": [
+            {
+              "code": "C0027051",
+              "label": "Renal Pelvis Cancer",
+              "status": "historical",
+              "onset_date": null
+            },
+            {
+              "code": "C0005856",
+              "label": "Bladder Cancer",
+              "status": "historical",
+              "onset_date": null
+            },
+            {
+              "code": "C0024117",
+              "label": "Lung Cancer",
+              "status": "suspected",
+              "onset_date": null
+            }
+          ]
+        }
+      }
+    },
+    {
+      "id": "N2",
+      "label": "Step 2",
+      "customData": {
+        "node_id": "B",
+        "node_step_index": 1,
+        "content": "CT showed an 18-mm spiculated nodule in the right middle lobe.",
+        "timestamp": "2021-04-21",
+        "clinical_data": {
+          "imaging": [
+            {
+              "type": "Nodule",
+              "body_part": "Right middle lobe",
+              "modality": "CT",
+              "finding": "18-mm spiculated nodule"
+            }
+          ]
+        }
+      }
+    },
+    {
+      "id": "N3",
+      "label": "Step 3",
+      "customData": {
+        "node_id": "C",
+        "node_step_index": 2,
+        "content": "Preoperative CT showed a 10-mm pleural soft tissue density nodule with osteal protrusion anterior to the tubercle of the right sixth rib.",
+        "timestamp": "2021-04-21",
+        "clinical_data": {
+          "imaging": [
+            {
+              "type": "Pleural soft tissue density nodule",
+              "body_part": "Right sixth rib",
+              "modality": "CT",
+              "finding": "10-mm pleural soft tissue density nodule with osteal protrusion anterior to the tubercle",
+              "date": null
+            }
+          ]
+        }
+      }
+    },
+    {
+      "id": "N4",
+      "label": "Step 4",
+      "customData": {
+        "node_id": "D",
+        "node_step_index": 3,
+        "content": "Intraoperative findings revealed that the pleural lesion arose from the parietal pleura, not the visceral pleura, and showed a whitish lobulated shape.",
+        "timestamp": "2021-04-21",
+        "clinical_data": {
+          "procedures": [
+            {
+              "name": "Intraoperative findings",
+              "location": "pleural cavity",
+              "outcome": "pleural lesion arose from the parietal pleura, not the visceral pleura, and showed a whitish lobulated shape"
+            }
+          ]
+        }
+      }
+    },
+    {
+      "id": "N5",
+      "label": "Step 5",
+      "customData": {
+        "node_id": "E",
+        "node_step_index": 4,
+        "content": "Macroscopic pathological findings for the resected pleural lesion showed a 10-mm whitish solid nodule. Microscopic examination of the resected pleural lesion revealed benign fibrous tissue with layered collagen fibers. The lesion was diagnosed as reactive fibrous tissue rather than a fibrous tumor.",
+        "timestamp": "2021-04-21",
+        "clinical_data": {
+          "imaging": [
+            {
+              "type": "Pleural lesion",
+              "body_part": "Pleura",
+              "modality": "Macroscopic pathological findings",
+              "finding": "10-mm whitish solid nodule",
+              "impression": "benign fibrous tissue with layered collagen fibers"
+            }
+          ],
+          "diagnoses": [
+            {
+              "code": "Reactive fibrous tissue",
+              "label": "Reactive fibrous tissue",
+              "status": "resolved"
+            }
+          ]
+        }
+      }
+    },
+    {
+      "id": "N6",
+      "label": "Step 6",
+      "customData": {
+        "node_id": "F",
+        "node_step_index": 5,
+        "content": "The spiculated nodule in the right middle lobe was pathologically diagnosed as papillary adenocarcinoma.",
+        "timestamp": "2021-04-21",
+        "clinical_data": {
+          "diagnoses": [
+            {
+              "code": "C0542374",
+              "label": "Papillary adenocarcinoma",
+              "status": "active",
+              "onset_date": null
+            }
+          ],
+          "imaging": [
+            {
+              "type": "C1706257",
+              "body_part": "C0225904",
+              "modality": null,
+              "finding": "Spiculated nodule",
+              "impression": null,
+              "date": null
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "edges": [
+    {
+      "from": "N1",
+      "to": "N2",
+      "data": {
+        "edge_id": "A_to_B",
+        "branch_flag": true,
+        "content": "Patient underwent CT imaging."
+      }
+    },
+    {
+      "from": "N2",
+      "to": "N3",
+      "data": {
+        "edge_id": "B_to_C",
+        "branch_flag": true,
+        "content": "Preoperative CT imaging was performed."
+      }
+    },
+    {
+      "from": "N3",
+      "to": "N4",
+      "data": {
+        "edge_id": "C_to_D",
+        "branch_flag": true,
+        "content": "Patient underwent intraoperative examination."
+      }
+    },
+    {
+      "from": "N4",
+      "to": "N5",
+      "data": {
+        "edge_id": "D_to_E",
+        "branch_flag": true,
+        "content": "Resected pleural lesion was sent for pathological examination."
+      }
+    },
+    {
+      "from": "N5",
+      "to": "N6",
+      "data": {
+        "edge_id": "E_to_F",
+        "branch_flag": true,
+        "content": "The spiculated nodule in the right middle lobe was sent for pathological examination."
+      }
+    }
+  ]
+}

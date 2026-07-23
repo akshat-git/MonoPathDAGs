@@ -1,0 +1,293 @@
+{
+  "nodes": [
+    {
+      "id": "N1",
+      "label": "Step 1",
+      "customData": {
+        "node_id": "A",
+        "node_step_index": 0,
+        "content": "Patient had a 9 mm endometrial polyp with feeder vessel. CA-125 was 14 kIU/L. Thyroid stimulating hormone serum concentration was 1.4 mIU/L.",
+        "clinical_data": {
+          "labs": [
+            {
+              "test": "CA125 Antigen",
+              "value": "14",
+              "unit": "kIU/L"
+            },
+            {
+              "test": "Thyrotropin",
+              "value": "1.4",
+              "unit": "mIU/L"
+            }
+          ],
+          "diagnoses": [
+            {
+              "code": "C0278355",
+              "label": "Endometrial Polyp",
+              "status": "active"
+            }
+          ],
+          "imaging": [
+            {
+              "type": "Polyp",
+              "body_part": "Endometrium",
+              "modality": "Ultrasound",
+              "finding": "9 mm endometrial polyp with feeder vessel"
+            }
+          ]
+        }
+      }
+    },
+    {
+      "id": "N2",
+      "label": "Step 2",
+      "customData": {
+        "node_id": "B",
+        "node_step_index": 1,
+        "content": "Laparoscopy revealed a smooth and bulky left ovary and a small volume of green fluid in the rectovaginal pouch.",
+        "clinical_data": {
+          "imaging": [
+            {
+              "type": "Laparoscopy",
+              "body_part": "Left ovary",
+              "modality": "other",
+              "finding": "smooth and bulky",
+              "date": null
+            },
+            {
+              "type": "Laparoscopy",
+              "body_part": "Rectovaginal pouch",
+              "modality": "other",
+              "finding": "small volume of green fluid",
+              "date": null
+            }
+          ]
+        }
+      }
+    },
+    {
+      "id": "N3",
+      "label": "Step 3",
+      "customData": {
+        "node_id": "C",
+        "node_step_index": 2,
+        "content": "During surgery, a 3 cm pink sea-anemone-like structure attached to the sigmoid peritoneum was found incidentally, adjacent to the left ovarian surface. The lesion was excised with a margin of peritoneum for histologic evaluation. Remainder of the pelvic and abdominal organs and peritoneum appeared normal. Hysteroscopy was unremarkable other than for a small endometrial polyp, which was excised.",
+        "clinical_data": {
+          "procedures": [
+            {
+              "name": "Excision",
+              "approach": "open",
+              "location": "sigmoid peritoneum",
+              "outcome": "removed"
+            },
+            {
+              "name": "Hysteroscopy",
+              "outcome": "unremarkable"
+            },
+            {
+              "name": "Polypectomy",
+              "location": "endometrium",
+              "outcome": "excised"
+            }
+          ],
+          "imaging": [
+            {
+              "type": "Hysteroscopy",
+              "finding": "small endometrial polyp"
+            }
+          ]
+        }
+      }
+    },
+    {
+      "id": "N4",
+      "label": "Step 4",
+      "customData": {
+        "node_id": "D",
+        "node_step_index": 3,
+        "content": "Microscopic evaluation of the peritoneal lesion showed well-defined papillary structures and benign papillary mesothelial proliferation consistent with Well-Differentiated Papillary Mesothelioma (WDPM).",
+        "clinical_data": {
+          "diagnoses": [
+            {
+              "code": "C45.1",
+              "label": "Mesothelioma of peritoneum",
+              "status": "active",
+              "onset_date": null
+            }
+          ]
+        }
+      }
+    },
+    {
+      "id": "N5",
+      "label": "Step 5",
+      "customData": {
+        "node_id": "E",
+        "node_step_index": 4,
+        "content": "Pathology report of the peritoneal lesion showed no cytological atypia or infiltrative features. Immunohistochemical staining demonstrated calretinin and CK 5/6 positivity within the mesothelial lining, consistent with well-differentiated papillary mesothelioma of the bowel peritoneum. Pathology report of the excised ovary demonstrated a struma ovarii consisting of benign thyroid tissue, mature fibroadipose connective tissue, and a variety of epithelia.",
+        "clinical_data": {
+          "diagnoses": [
+            {
+              "code": "C48.1",
+              "label": "Malignant neoplasm of specified parts of peritoneum",
+              "status": "active",
+              "onset_date": null
+            },
+            {
+              "code": "254832003",
+              "label": "Struma ovarii",
+              "status": "active",
+              "onset_date": null
+            }
+          ],
+          "imaging": [
+            {
+              "type": "Peritoneal lesion",
+              "body_part": "Peritoneum",
+              "modality": "Pathology report",
+              "finding": "no cytological atypia or infiltrative features",
+              "impression": "no cytological atypia or infiltrative features",
+              "date": null
+            },
+            {
+              "type": "Ovary",
+              "body_part": "Ovary",
+              "modality": "Pathology report",
+              "finding": "struma ovarii consisting of benign thyroid tissue, mature fibroadipose connective tissue, and a variety of epithelia",
+              "impression": "struma ovarii consisting of benign thyroid tissue, mature fibroadipose connective tissue, and a variety of epithelia",
+              "date": null
+            }
+          ]
+        }
+      }
+    },
+    {
+      "id": "N6",
+      "label": "Step 6",
+      "customData": {
+        "node_id": "F",
+        "node_step_index": 5,
+        "content": "Fallopian tube was normal. Cytological evaluation of the ascites found mesothelial cells and chronic inflammatory exudate. Ascitic microbiology was unremarkable. Retrospective review of pre-operative imaging was unable to visualize the WDPM.",
+        "clinical_data": {
+          "imaging": [
+            {
+              "body_part": "Fallopian tube",
+              "finding": "normal"
+            }
+          ],
+          "labs": [
+            {
+              "test": "Cytological evaluation of the ascites",
+              "finding": "mesothelial cells and chronic inflammatory exudate"
+            },
+            {
+              "test": "Ascitic microbiology",
+              "finding": "unremarkable"
+            }
+          ]
+        }
+      }
+    },
+    {
+      "id": "N7",
+      "label": "Step 7",
+      "customData": {
+        "node_id": "G",
+        "node_step_index": 6,
+        "content": "At 6-week post-operative follow-up, the patient reported an uncomplicated recovery and resolution of the pelvic pain. Post-operative staging magnetic resonance imaging scan and transvaginal pelvic ultrasound scan showed no evidence of residual disease. Post-operative cross-sectional imaging did not detect any abnormality.",
+        "clinical_data": {
+          "imaging": [
+            {
+              "type": "Magnetic resonance imaging",
+              "body_part": "Pelvis",
+              "modality": "MRI",
+              "finding": "no evidence of residual disease",
+              "date": null
+            },
+            {
+              "type": "Pelvic ultrasound",
+              "body_part": "Pelvis",
+              "modality": "Ultrasound",
+              "finding": "no evidence of residual disease",
+              "date": null
+            },
+            {
+              "type": "Cross-sectional imaging",
+              "body_part": null,
+              "modality": null,
+              "finding": "did not detect any abnormality",
+              "date": null
+            }
+          ],
+          "HPI": [
+            {
+              "summary": "resolution of the pelvic pain",
+              "duration": null,
+              "onset": null,
+              "progression": null,
+              "associated_symptoms": [],
+              "alleviating_factors": [],
+              "exacerbating_factors": []
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "edges": [
+    {
+      "from": "N1",
+      "to": "N2",
+      "data": {
+        "edge_id": "A_to_B",
+        "branch_flag": true,
+        "content": "Patient underwent laparoscopy."
+      }
+    },
+    {
+      "from": "N2",
+      "to": "N3",
+      "data": {
+        "edge_id": "B_to_C",
+        "branch_flag": true,
+        "content": "Patient underwent surgery."
+      }
+    },
+    {
+      "from": "N3",
+      "to": "N4",
+      "data": {
+        "edge_id": "C_to_D",
+        "branch_flag": true,
+        "content": "Microscopic evaluation of the peritoneal lesion was performed."
+      }
+    },
+    {
+      "from": "N4",
+      "to": "N5",
+      "data": {
+        "edge_id": "D_to_E",
+        "branch_flag": true,
+        "content": "Pathology report of the peritoneal lesion and excised ovary was performed."
+      }
+    },
+    {
+      "from": "N5",
+      "to": "N6",
+      "data": {
+        "edge_id": "E_to_F",
+        "branch_flag": true,
+        "content": "Fallopian tube and ascites were evaluated."
+      }
+    },
+    {
+      "from": "N6",
+      "to": "N7",
+      "data": {
+        "edge_id": "F_to_G",
+        "branch_flag": true,
+        "content": "Patient underwent 6-week post-operative follow-up."
+      }
+    }
+  ]
+}

@@ -1,0 +1,603 @@
+{
+  "nodes": [
+    {
+      "id": "N1",
+      "label": "Step 1",
+      "customData": {
+        "node_id": "A",
+        "node_step_index": 0,
+        "content": "83-year-old male admitted on October 30, 2019, with cough, expectoration, and hemoptysis for 1 week. History of tuberculosis for more than 30 years, chronic bronchitis, and emphysema for 10 years.",
+        "clinical_data": {
+          "diagnoses": [
+            {
+              "code": "69860004",
+              "label": "Pulmonary tuberculosis",
+              "status": "historical",
+              "onset_date": null
+            },
+            {
+              "code": "10744005",
+              "label": "Chronic bronchitis",
+              "status": "active",
+              "onset_date": null
+            },
+            {
+              "code": "87433001",
+              "label": "Emphysema",
+              "status": "active",
+              "onset_date": null
+            }
+          ],
+          "HPI": [
+            {
+              "summary": "Cough, expectoration, and hemoptysis for 1 week",
+              "duration": "1 week",
+              "onset": null,
+              "progression": "unknown",
+              "associated_symptoms": [],
+              "alleviating_factors": [],
+              "exacerbating_factors": []
+            }
+          ]
+        }
+      }
+    },
+    {
+      "id": "N2",
+      "label": "Step 2",
+      "customData": {
+        "node_id": "B",
+        "node_step_index": 1,
+        "content": "Chest CT revealed an irregular mass (5.3\u00d72.6 cm) in the upper lobe of the left lung. PET/CT showed multiple lymph node and bone metastases.",
+        "clinical_data": {
+          "imaging": [
+            {
+              "type": "Mass",
+              "body_part": "Upper lobe of the left lung",
+              "modality": "CT",
+              "finding": "Irregular mass (5.3\u00d72.6 cm)",
+              "date": null
+            },
+            {
+              "type": "Metastasis",
+              "body_part": "Lymph node",
+              "modality": "PET/CT",
+              "finding": "Multiple lymph node metastases",
+              "date": null
+            },
+            {
+              "type": "Metastasis",
+              "body_part": "Bone",
+              "modality": "PET/CT",
+              "finding": "Bone metastases",
+              "date": null
+            }
+          ]
+        }
+      }
+    },
+    {
+      "id": "N3",
+      "label": "Step 3",
+      "customData": {
+        "node_id": "C",
+        "node_step_index": 2,
+        "content": "Transthoracic core needle biopsy of the lung mass showed tumor cell characteristics with adenoid and stratified structures and visible nuclear division. Immunohistochemistry: TTF-1, CK7, SPA, napsin-A and Ki-67 (10%) positive; villin, P63 and P40 negative. Diagnosed with stage IV (T4aN2M1) invasive lung adenocarcinoma.",
+        "clinical_data": {
+          "imaging": [
+            {
+              "type": "Needle biopsy",
+              "body_part": "Lung",
+              "modality": "other",
+              "finding": "Lung mass",
+              "date": null
+            }
+          ],
+          "diagnoses": [
+            {
+              "code": "C34",
+              "label": "Lung cancer",
+              "status": "active",
+              "onset_date": null
+            },
+            {
+              "code": "C34.9",
+              "label": "Lung adenocarcinoma",
+              "status": "active",
+              "onset_date": null
+            }
+          ]
+        }
+      }
+    },
+    {
+      "id": "N4",
+      "label": "Step 4",
+      "customData": {
+        "node_id": "D",
+        "node_step_index": 3,
+        "content": "On December 6, 2019, NGS identified a novel PTH2R-ALK fusion in the patient\u2019s tumor tissue, composed of exon 1 of PTH2R gene and exon 20\u201329 of ALK gene. Fluorescence in situ hybridization confirmed ALK positivity.",
+        "clinical_data": {
+          "diagnoses": [
+            {
+              "code": "C0086582",
+              "label": "Tumor",
+              "status": "active",
+              "onset_date": "2019-12-06"
+            }
+          ],
+          "labs": [
+            {
+              "test": "Next Generation Sequencing",
+              "value": "PTH2R-ALK fusion",
+              "timestamp": "2019-12-06"
+            },
+            {
+              "test": "Fluorescence in situ hybridization",
+              "value": "ALK positivity",
+              "timestamp": "2019-12-06"
+            }
+          ]
+        }
+      }
+    },
+    {
+      "id": "N5",
+      "label": "Step 5",
+      "customData": {
+        "node_id": "E",
+        "node_step_index": 4,
+        "content": "Patient started oral crizotinib 250 mg BID from December 12, 2019. After 10 days, the patient developed mild nausea without vomiting.",
+        "clinical_data": {
+          "medications": [
+            {
+              "drug": "Crizotinib",
+              "dosage": "250 mg",
+              "frequency": "BID",
+              "modality": "oral",
+              "start_date": "2019-12-12",
+              "end_date": null
+            }
+          ],
+          "HPI": [
+            {
+              "summary": "Patient developed mild nausea without vomiting after starting crizotinib.",
+              "onset": "2019-12-22",
+              "progression": "sudden",
+              "associated_symptoms": [
+                "Nausea"
+              ]
+            }
+          ]
+        }
+      }
+    },
+    {
+      "id": "N6",
+      "label": "Step 6",
+      "customData": {
+        "node_id": "F",
+        "node_step_index": 5,
+        "content": "Liver function reexamination revealed elevated ALT and AST levels (3-4 times higher than baseline), indicating mild liver function impairment. Treated with polyene phosphatidylcholine for liver protection.",
+        "timestamp": "2020",
+        "clinical_data": {
+          "labs": [
+            {
+              "test": "Alanine Aminotransferase Measurement",
+              "value": "3-4 times higher than baseline",
+              "unit": null,
+              "flag": "abnormal",
+              "reference_range": null,
+              "timestamp": null
+            },
+            {
+              "test": "Aspartate Aminotransferase Measurement",
+              "value": "3-4 times higher than baseline",
+              "unit": null,
+              "flag": "abnormal",
+              "reference_range": null,
+              "timestamp": null
+            }
+          ],
+          "diagnoses": [
+            {
+              "code": "C0023892",
+              "label": "Liver Function Impairment",
+              "status": "active",
+              "onset_date": null
+            }
+          ],
+          "medications": [
+            {
+              "drug": "Polyene phosphatidylcholine",
+              "dosage": null,
+              "frequency": null,
+              "modality": null,
+              "start_date": null,
+              "end_date": null,
+              "indication": "Liver protection"
+            }
+          ]
+        }
+      }
+    },
+    {
+      "id": "N7",
+      "label": "Step 7",
+      "customData": {
+        "node_id": "G",
+        "node_step_index": 6,
+        "content": "Follow-up CT on January 18, 2020, showed the left lung mass decreased to 1.47x0.89 cm, indicating a partial response to treatment.",
+        "clinical_data": {
+          "imaging": [
+            {
+              "type": "Lung mass",
+              "body_part": "Left lung",
+              "modality": "CT",
+              "finding": "Decreased to 1.47x0.89 cm",
+              "impression": "Partial response to treatment",
+              "date": "2020-01-18"
+            }
+          ]
+        }
+      }
+    },
+    {
+      "id": "N8",
+      "label": "Step 8",
+      "customData": {
+        "node_id": "H",
+        "node_step_index": 7,
+        "content": "NGS results showed PTH2R-ALK fusion breakpoint.",
+        "clinical_data": {
+          "labs": [
+            {
+              "test": "Next Generation Sequencing",
+              "value": "PTH2R-ALK fusion breakpoint",
+              "unit": null,
+              "flag": "abnormal",
+              "reference_range": null,
+              "timestamp": null
+            }
+          ]
+        }
+      }
+    },
+    {
+      "id": "N9",
+      "label": "Step 9",
+      "customData": {
+        "node_id": "I",
+        "node_step_index": 8,
+        "content": "Fluorescence in situ hybridization (FISH) image showed a split signal with a frequency of 25% (400x magnification).",
+        "clinical_data": {
+          "imaging": [
+            {
+              "type": "Fluorescence in situ hybridization",
+              "modality": "other",
+              "finding": "split signal with a frequency of 25%",
+              "impression": "split signal with a frequency of 25%"
+            }
+          ]
+        }
+      }
+    },
+    {
+      "id": "N10",
+      "label": "Step 10",
+      "customData": {
+        "node_id": "J",
+        "node_step_index": 9,
+        "content": "Liver Function Tests Before Crizotinib Treatment: ALT 14.0 U/L, AST 16.0 U/L, \u03b3-GT 18.0 U/L, ALP 71.0 U/L, LDH 150.0 U/L, TBIL 29.7 \u03bcmol/L.",
+        "clinical_data": {
+          "labs": [
+            {
+              "test": "Alanine Aminotransferase Measurement",
+              "value": "14.0",
+              "unit": "U/L",
+              "timestamp": null
+            },
+            {
+              "test": "Aspartate Aminotransferase Measurement",
+              "value": "16.0",
+              "unit": "U/L",
+              "timestamp": null
+            },
+            {
+              "test": "Gamma-Glutamyl Transferase Measurement",
+              "value": "18.0",
+              "unit": "U/L",
+              "timestamp": null
+            },
+            {
+              "test": "Alkaline Phosphatase Measurement",
+              "value": "71.0",
+              "unit": "U/L",
+              "timestamp": null
+            },
+            {
+              "test": "Lactate Dehydrogenase Measurement",
+              "value": "150.0",
+              "unit": "U/L",
+              "timestamp": null
+            },
+            {
+              "test": "Total Bilirubin Measurement",
+              "value": "29.7",
+              "unit": "\u03bcmol/L",
+              "timestamp": null
+            }
+          ]
+        }
+      }
+    },
+    {
+      "id": "N11",
+      "label": "Step 11",
+      "customData": {
+        "node_id": "K",
+        "node_step_index": 10,
+        "content": "Liver Function Tests After Crizotinib Treatment: ALT 205.0 U/L, AST 114.0 U/L, \u03b3-GT 69.0 U/L, ALP 105.0 U/L, LDH 389.0 U/L, TBIL 7.1 \u03bcmol/L.",
+        "clinical_data": {
+          "labs": [
+            {
+              "test": "Alanine Aminotransferase Measurement",
+              "value": "205.0",
+              "unit": "U/L",
+              "flag": "abnormal"
+            },
+            {
+              "test": "Aspartate Aminotransferase Measurement",
+              "value": "114.0",
+              "unit": "U/L",
+              "flag": "abnormal"
+            },
+            {
+              "test": "Gamma-Glutamyl Transferase Measurement",
+              "value": "69.0",
+              "unit": "U/L",
+              "flag": "abnormal"
+            },
+            {
+              "test": "Alkaline Phosphatase Measurement",
+              "value": "105.0",
+              "unit": "U/L",
+              "flag": "normal"
+            },
+            {
+              "test": "Lactate Dehydrogenase Measurement",
+              "value": "389.0",
+              "unit": "U/L",
+              "flag": "abnormal"
+            },
+            {
+              "test": "Total Bilirubin",
+              "value": "7.1",
+              "unit": "\u03bcmol/L",
+              "flag": "normal"
+            }
+          ],
+          "medications": [
+            {
+              "drug": "Crizotinib",
+              "indication": "cancer"
+            }
+          ]
+        }
+      }
+    },
+    {
+      "id": "N12",
+      "label": "Step 12",
+      "customData": {
+        "node_id": "L",
+        "node_step_index": 11,
+        "content": "Patient switched to alectinib 1200 mg BID due to intolerable hepatotoxicity.",
+        "timestamp": "2020-01-20",
+        "clinical_data": {
+          "medications": [
+            {
+              "drug": "alectinib",
+              "dosage": "1200 mg BID",
+              "frequency": null,
+              "modality": "oral",
+              "start_date": null,
+              "end_date": null,
+              "indication": null
+            }
+          ]
+        }
+      }
+    },
+    {
+      "id": "N13",
+      "label": "Step 13",
+      "customData": {
+        "node_id": "M",
+        "node_step_index": 12,
+        "content": "Alectinib dosage reduced to 600 mg BID after 1 week due to swelling in legs and fatigue. Symptoms slightly eased with spironolactone.",
+        "timestamp": "2020-01-27",
+        "clinical_data": {
+          "medications": [
+            {
+              "drug": "C1697599",
+              "dosage": "600 mg",
+              "frequency": "BID",
+              "modality": "oral",
+              "start_date": null,
+              "end_date": null,
+              "indication": null
+            },
+            {
+              "drug": "C0037940",
+              "dosage": null,
+              "frequency": null,
+              "modality": "oral",
+              "start_date": null,
+              "end_date": null,
+              "indication": "C0013404"
+            }
+          ],
+          "HPI": [
+            {
+              "summary": "Swelling in legs and fatigue",
+              "duration": "1 week",
+              "onset": null,
+              "progression": null,
+              "associated_symptoms": [
+                "C0015967",
+                "C0015672"
+              ],
+              "alleviating_factors": [
+                "C0037940"
+              ],
+              "exacerbating_factors": []
+            }
+          ]
+        }
+      }
+    },
+    {
+      "id": "N14",
+      "label": "Step 14",
+      "customData": {
+        "node_id": "N",
+        "node_step_index": 13,
+        "content": "Carcinoembryonic antigen decreased after one month of",
+        "clinical_data": {}
+      }
+    }
+  ],
+  "edges": [
+    {
+      "from": "N1",
+      "to": "N2",
+      "data": {
+        "edge_id": "A_to_B",
+        "branch_flag": true,
+        "content": "Patient's condition progressed from initial symptoms to the discovery of a lung mass and metastases.",
+        "transition_event": {
+          "trigger_type": "symptom_onset",
+          "trigger_entities": [
+            "C0010200",
+            "C0015967",
+            "C0019058"
+          ],
+          "change_type": "progression",
+          "target_domain": "diagnosis"
+        }
+      }
+    },
+    {
+      "from": "N2",
+      "to": "N3",
+      "data": {
+        "edge_id": "B_to_C",
+        "branch_flag": true,
+        "content": "Biopsy of the lung mass confirmed invasive lung adenocarcinoma.",
+        "transition_event": {
+          "trigger_type": "procedure",
+          "trigger_entities": [
+            "C0005683",
+            "C0024144"
+          ],
+          "change_type": "addition",
+          "target_domain": "diagnosis"
+        }
+      }
+    },
+    {
+      "from": "N3",
+      "to": "N4",
+      "data": {
+        "edge_id": "C_to_D",
+        "branch_flag": true,
+        "content": "NGS identified a novel PTH2R-ALK fusion in the patient\u2019s tumor tissue, confirmed by FISH.",
+        "transition_event": {
+          "trigger_type": "lab_change",
+          "trigger_entities": [],
+          "change_type": "addition",
+          "target_domain": "diagnosis",
+          "timestamp": "2019-12-06"
+        }
+      }
+    },
+    {
+      "from": "N4",
+      "to": "N5",
+      "data": {
+        "edge_id": "D_to_E",
+        "branch_flag": true,
+        "content": "Patient started oral crizotinib 250 mg BID from December 12, 2019 and developed mild nausea without vomiting after 10 days.",
+        "transition_event": {
+          "trigger_type": "medication_change",
+          "trigger_entities": [
+            "C0887513"
+          ],
+          "change_type": "addition",
+          "target_domain": "medication",
+          "timestamp": "2019-12-12"
+        }
+      }
+    },
+    {
+      "from": "N5",
+      "to": "N6",
+      "data": {
+        "edge_id": "E_to_F",
+        "branch_flag": true,
+        "content": "Liver function reexamination revealed elevated ALT and AST levels, indicating mild liver function impairment. Treated with polyene phosphatidylcholine for liver protection.",
+        "transition_event": {
+          "trigger_type": "lab_change",
+          "trigger_entities": [
+            "C0151747",
+            "C0151737"
+          ],
+          "change_type": "progression",
+          "target_domain": "lab"
+        }
+      }
+    },
+    {
+      "from": "N6",
+      "to": "N7",
+      "data": {
+        "edge_id": "F_to_G",
+        "branch_flag": true,
+        "content": "Follow-up CT showed the left lung mass decreased to 1.47x0.89 cm, indicating a partial response to treatment.",
+        "transition_event": {
+          "trigger_type": "imaging",
+          "trigger_entities": [],
+          "change_type": "resolution",
+          "target_domain": "imaging",
+          "timestamp": "2020-01-18"
+        }
+      }
+    },
+    {
+      "from": "N7",
+      "to": "N8",
+      "data": {
+        "edge_id": "G_to_H",
+        "branch_flag": true,
+        "content": "NGS results showed PTH2R-ALK fusion breakpoint.",
+        "transition_event": {
+          "trigger_type": "lab_change",
+          "trigger_entities": [],
+          "change_type": "other",
+          "target_domain": "lab"
+        }
+      }
+    },
+    {
+      "from": "N8",
+      "to": "N9",
+      "data": {
+        "edge_id": "H_to_I",
+        "branch_flag": true,
+        "content": "Fluorescence in situ hybridization (FISH) image showed a split signal with a frequency of 25% (400x magnification).",
+        "transition_event": ""
+      }
+    }
+  ]
+}

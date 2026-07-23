@@ -1,0 +1,479 @@
+{
+  "nodes": [
+    {
+      "id": "N1",
+      "label": "Step 1",
+      "customData": {
+        "node_id": "A",
+        "node_step_index": 0,
+        "content": "73-year-old female presented with bilateral chest wall discomfort, exertional breathlessness, and chronic fatigue in March 2025.",
+        "clinical_data": {
+          "HPI": [
+            {
+              "summary": "73-year-old female presented with bilateral chest wall discomfort, exertional breathlessness, and chronic fatigue.",
+              "onset": "March 2025",
+              "associated_symptoms": [
+                "C0008031",
+                "C0231283",
+                "C0015967"
+              ]
+            }
+          ]
+        }
+      },
+      "custom_id": "graph_009_N0"
+    },
+    {
+      "id": "N2",
+      "label": "Step 2",
+      "customData": {
+        "node_id": "B",
+        "node_step_index": 1,
+        "content": "Chest radiograph showed a left lung opacification.",
+        "clinical_data": {
+          "imaging": [
+            {
+              "type": "Radiography (procedure)",
+              "body_part": "Lung",
+              "modality": "X-ray",
+              "finding": "opacification",
+              "date": null
+            }
+          ]
+        }
+      },
+      "custom_id": "graph_009_N1"
+    },
+    {
+      "id": "N3",
+      "label": "Step 3",
+      "customData": {
+        "node_id": "C",
+        "node_step_index": 2,
+        "content": "CT and PET-CT scan confirmed a 53 mm avid left upper lobe mass with associated hilar and mediastinal lymphadenopathy (T3N2M0).",
+        "clinical_data": {
+          "imaging": [
+            {
+              "type": "Mass",
+              "body_part": "Left upper lobe",
+              "modality": "CT",
+              "finding": "53 mm avid left upper lobe mass with associated hilar and mediastinal lymphadenopathy",
+              "impression": "T3N2M0"
+            },
+            {
+              "type": "Mass",
+              "body_part": "Left upper lobe",
+              "modality": "PET",
+              "finding": "53 mm avid left upper lobe mass with associated hilar and mediastinal lymphadenopathy",
+              "impression": "T3N2M0"
+            }
+          ]
+        }
+      },
+      "custom_id": "graph_009_N2"
+    },
+    {
+      "id": "N4",
+      "label": "Step 4",
+      "customData": {
+        "node_id": "D",
+        "node_step_index": 3,
+        "content": "Endobronchial ultrasound scan and biopsy (EBUS) sampling of station 11L confirmed lung adenocarcinoma metastasis.",
+        "clinical_data": {
+          "imaging": [
+            {
+              "type": "Endobronchial ultrasound",
+              "body_part": "Lung",
+              "modality": "Ultrasound",
+              "finding": "adenocarcinoma metastasis"
+            }
+          ],
+          "procedures": [
+            {
+              "name": "Biopsy",
+              "approach": "endoscopic",
+              "location": "station 11L"
+            }
+          ],
+          "diagnoses": [
+            {
+              "code": "C34",
+              "label": "Lung cancer",
+              "status": "active"
+            }
+          ]
+        }
+      },
+      "custom_id": "graph_009_N3"
+    },
+    {
+      "id": "N5",
+      "label": "Step 5",
+      "customData": {
+        "node_id": "E",
+        "node_step_index": 4,
+        "content": "Molecular testing showed 60% PD-L1 positivity. PD-L1 staining appeared positive. Other immunohistochemistry (ALK/ROS/NTRK) was negative. Lung function: 51% forced expiratory volume (FEV1) (1.21) and 73% diffusing capacity of the lungs for carbon monoxide (DLCO).",
+        "clinical_data": {
+          "labs": [
+            {
+              "test": "Forced expiratory volume in one second",
+              "value": "51",
+              "unit": "%"
+            },
+            {
+              "test": "Diffusing capacity of the lungs for carbon monoxide",
+              "value": "73",
+              "unit": "%"
+            }
+          ],
+          "diagnoses": [
+            {
+              "code": "PD-L1",
+              "label": "Programmed cell death 1 ligand 1",
+              "status": "active"
+            }
+          ]
+        }
+      },
+      "custom_id": "graph_009_N4"
+    },
+    {
+      "id": "N6",
+      "label": "Step 6",
+      "customData": {
+        "node_id": "F",
+        "node_step_index": 5,
+        "content": "Patient consented to radical treatment with four weeks of radiotherapy dosed at 55 Gy/20 with concurrent chemotherapy.",
+        "clinical_data": {
+          "procedures": [
+            {
+              "name": "Radiotherapy",
+              "approach": "other",
+              "date": null,
+              "location": null,
+              "performed_by": null,
+              "outcome": null
+            },
+            {
+              "name": "Chemotherapy",
+              "approach": "other",
+              "date": null,
+              "location": null,
+              "performed_by": null,
+              "outcome": null
+            }
+          ]
+        }
+      },
+      "custom_id": "graph_009_N5"
+    },
+    {
+      "id": "N7",
+      "label": "Step 7",
+      "customData": {
+        "node_id": "G",
+        "node_step_index": 6,
+        "content": "Initial scan post radiotherapy showed a limited response to treatment (Figure2).",
+        "clinical_data": {
+          "imaging": [
+            {
+              "modality": "other",
+              "finding": "limited response to treatment"
+            }
+          ],
+          "procedures": [
+            {
+              "name": "Radiotherapy",
+              "outcome": "limited response"
+            }
+          ]
+        }
+      },
+      "custom_id": "graph_009_N6"
+    },
+    {
+      "id": "N8",
+      "label": "Step 8",
+      "customData": {
+        "node_id": "H",
+        "node_step_index": 7,
+        "content": "Subsequent CT scan in a year showed that there was no tumor visible on axial images but there was apparent collapse of the left lung base (Figure3).",
+        "clinical_data": {
+          "imaging": [
+            {
+              "type": "CT scan",
+              "body_part": "left lung base",
+              "modality": "CT",
+              "finding": "collapse",
+              "date": "in a year"
+            }
+          ]
+        }
+      },
+      "custom_id": "graph_009_N7"
+    },
+    {
+      "id": "N9",
+      "label": "Step 9",
+      "customData": {
+        "node_id": "I",
+        "node_step_index": 8,
+        "content": "Post radiotherapy imaging showed complete response to treatment. Two small bullae seen in the post aspect of the lower lobe.",
+        "clinical_data": {
+          "imaging": [
+            {
+              "modality": "other",
+              "type": "imaging",
+              "finding": "complete response to treatment",
+              "date": null
+            },
+            {
+              "modality": "other",
+              "type": "imaging",
+              "body_part": "lower lobe",
+              "finding": "Two small bullae seen in the post aspect of the lower lobe.",
+              "date": null
+            }
+          ]
+        }
+      },
+      "custom_id": "graph_009_N8"
+    },
+    {
+      "id": "N10",
+      "label": "Step 10",
+      "customData": {
+        "node_id": "J",
+        "node_step_index": 9,
+        "content": "Five months later follow-up scan showed upward curving of the lower segmental bronchi and pulmonary vessels.",
+        "clinical_data": {
+          "imaging": [
+            {
+              "type": "scan",
+              "body_part": "lower segmental bronchi",
+              "modality": "CT",
+              "finding": "upward curving",
+              "date": null
+            },
+            {
+              "type": "scan",
+              "body_part": "pulmonary vessels",
+              "modality": "CT",
+              "finding": "upward curving",
+              "date": null
+            }
+          ]
+        }
+      },
+      "custom_id": "graph_009_N9"
+    },
+    {
+      "id": "N11",
+      "label": "Step 11",
+      "customData": {
+        "node_id": "K",
+        "node_step_index": 10,
+        "content": "Imaging showed two small bullae initially seen in the post aspect of the lower lobe relocated to the upper zone anteriorly. Lung torsion with 180-degree rotation was diagnosed.",
+        "clinical_data": {
+          "imaging": [
+            {
+              "type": "Pulmonary imaging",
+              "body_part": "Lower lobe of lung",
+              "modality": "unknown",
+              "finding": "two small bullae initially seen in the post aspect",
+              "impression": "Lung torsion with 180-degree rotation was diagnosed."
+            },
+            {
+              "type": "Pulmonary imaging",
+              "body_part": "Upper zone of lung",
+              "modality": "unknown",
+              "finding": "two small bullae relocated to the upper zone anteriorly",
+              "impression": "Lung torsion with 180-degree rotation was diagnosed."
+            }
+          ],
+          "diagnoses": [
+            {
+              "code": "407830003",
+              "label": "Lung torsion",
+              "status": "active"
+            }
+          ]
+        }
+      },
+      "custom_id": "graph_009_N10"
+    },
+    {
+      "id": "N12",
+      "label": "Step 12",
+      "customData": {
+        "node_id": "L",
+        "node_step_index": 11,
+        "content": "Follow-up imaging 12 months after previous imaging demonstrated migration of the emphysematous bullae anteriorly and superiorly towards the apex of the lung.",
+        "clinical_data": {
+          "imaging": [
+            {
+              "type": "Pulmonary Emphysema",
+              "body_part": "Lung",
+              "modality": "imaging",
+              "finding": "migration of the emphysematous bullae anteriorly and superiorly towards the apex of the lung",
+              "date": null
+            }
+          ]
+        }
+      },
+      "custom_id": "graph_009_N11"
+    },
+    {
+      "id": "N13",
+      "label": "Step 13",
+      "customData": {
+        "node_id": "M",
+        "node_step_index": 12,
+        "content": "CT imaging showed left lung base collapse and tapering/curved orientation of the lower lobe segmental bronchi and pulmonary vessels of the right lung, indicating twisting of the lobe. Lung torsion with 180-degree rotation was diagnosed, likely caused by radiotherapy. Patient was asymptomatic and managed conservatively.",
+        "clinical_data": {
+          "imaging": [
+            {
+              "type": "Computed tomography",
+              "body_part": "Lung",
+              "modality": "CT",
+              "finding": "left lung base collapse and tapering/curved orientation of the lower lobe segmental bronchi and pulmonary vessels of the right lung, indicating twisting of the lobe",
+              "impression": "Lung torsion with 180-degree rotation",
+              "date": null
+            }
+          ],
+          "diagnoses": [
+            {
+              "code": "40773007",
+              "label": "Lung torsion",
+              "status": "active",
+              "onset_date": null
+            }
+          ]
+        }
+      },
+      "custom_id": "graph_009_N12"
+    }
+  ],
+  "edges": [
+    {
+      "from": "N1",
+      "to": "N2",
+      "data": {
+        "edge_id": "A_to_B",
+        "branch_flag": true,
+        "content": "Patient's chest radiograph showed a left lung opacification."
+      },
+      "custom_id": "graph_009_N1_N2"
+    },
+    {
+      "from": "N2",
+      "to": "N3",
+      "data": {
+        "edge_id": "B_to_C",
+        "branch_flag": true,
+        "content": "CT and PET-CT scan confirmed a 53 mm avid left upper lobe mass with associated hilar and mediastinal lymphadenopathy (T3N2M0)."
+      },
+      "custom_id": "graph_009_N2_N3"
+    },
+    {
+      "from": "N3",
+      "to": "N4",
+      "data": {
+        "edge_id": "C_to_D",
+        "branch_flag": true,
+        "content": "Endobronchial ultrasound scan and biopsy (EBUS) sampling of station 11L confirmed lung adenocarcinoma metastasis."
+      },
+      "custom_id": "graph_009_N3_N4"
+    },
+    {
+      "from": "N4",
+      "to": "N5",
+      "data": {
+        "edge_id": "D_to_E",
+        "branch_flag": true,
+        "content": "Molecular testing showed 60% PD-L1 positivity. PD-L1 staining appeared positive. Other immunohistochemistry (ALK/ROS/NTRK) was negative. Lung function: 51% forced expiratory volume (FEV1) (1.21) and 73% diffusing capacity of the lungs for carbon monoxide (DLCO)."
+      },
+      "custom_id": "graph_009_N4_N5"
+    },
+    {
+      "from": "N5",
+      "to": "N6",
+      "data": {
+        "edge_id": "E_to_F",
+        "branch_flag": true,
+        "content": "Patient consented to radical treatment with four weeks of radiotherapy dosed at 55 Gy/20 with concurrent chemotherapy."
+      },
+      "custom_id": "graph_009_N5_N6"
+    },
+    {
+      "from": "N6",
+      "to": "N7",
+      "data": {
+        "edge_id": "F_to_G",
+        "branch_flag": true,
+        "content": "Initial scan post radiotherapy showed a limited response to treatment (Figure2)."
+      },
+      "custom_id": "graph_009_N6_N7"
+    },
+    {
+      "from": "N7",
+      "to": "N8",
+      "data": {
+        "edge_id": "G_to_H",
+        "branch_flag": true,
+        "content": "Subsequent CT scan in a year showed that there was no tumor visible on axial images but there was apparent collapse of the left lung base (Figure3)."
+      },
+      "custom_id": "graph_009_N7_N8"
+    },
+    {
+      "from": "N8",
+      "to": "N9",
+      "data": {
+        "edge_id": "H_to_I",
+        "branch_flag": true,
+        "content": "Post radiotherapy imaging showed complete response to treatment. Two small bullae seen in the post aspect of the lower lobe."
+      },
+      "custom_id": "graph_009_N8_N9"
+    },
+    {
+      "from": "N9",
+      "to": "N10",
+      "data": {
+        "edge_id": "I_to_J",
+        "branch_flag": true,
+        "content": "Five months later follow-up scan showed upward curving of the lower segmental bronchi and pulmonary vessels."
+      },
+      "custom_id": "graph_009_N9_N10"
+    },
+    {
+      "from": "N10",
+      "to": "N11",
+      "data": {
+        "edge_id": "J_to_K",
+        "branch_flag": true,
+        "content": "Imaging showed two small bullae initially seen in the post aspect of the lower lobe relocated to the upper zone anteriorly. Lung torsion with 180-degree rotation was diagnosed."
+      },
+      "custom_id": "graph_009_N10_N11"
+    },
+    {
+      "from": "N11",
+      "to": "N12",
+      "data": {
+        "edge_id": "K_to_L",
+        "branch_flag": true,
+        "content": "Follow-up imaging 12 months after previous imaging demonstrated migration of the emphysematous bullae anteriorly and superiorly towards the apex of the lung."
+      },
+      "custom_id": "graph_009_N11_N12"
+    },
+    {
+      "from": "N12",
+      "to": "N13",
+      "data": {
+        "edge_id": "L_to_M",
+        "branch_flag": true,
+        "content": "CT imaging showed left lung base collapse and tapering/curved orientation of the lower lobe segmental bronchi and pulmonary vessels of the right lung, indicating twisting of the lobe. Lung torsion with 180-degree rotation was diagnosed, likely caused by radiotherapy. Patient was asymptomatic and managed conservatively."
+      },
+      "custom_id": "graph_009_N12_N13"
+    }
+  ]
+}

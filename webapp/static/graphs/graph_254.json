@@ -1,0 +1,343 @@
+{
+  "nodes": [
+    {
+      "id": "N1",
+      "label": "Step 1",
+      "customData": {
+        "node_id": "A",
+        "node_step_index": 0,
+        "content": "53-year-old man from the Mediterranean coast area admitted with fever, fatigue, no weight loss, and prolonged pancytopenia beginning three weeks after a first cycle of maintenance chemotherapy with pemetrexed (500 mg/m2) after 4 cycles of chemotherapy combining cis-platinum and pemetrexed. Diagnosis: extended stage 4 lung adenocarcinoma\u2014pT1bN2M+\u2014Non mutated EGFR\u2014ALK, ROS, PDL1 negative. No past medical history, no blood transfusion nor travel abroad. ECOG performance status was 1, Body Mass Index (BMI) 27, and Body Surface Area (BSA) 2.",
+        "timestamp": "2024-04-01",
+        "clinical_data": {
+          "diagnoses": [
+            {
+              "code": "C34",
+              "label": "Lung cancer",
+              "status": "active",
+              "onset_date": null
+            },
+            {
+              "code": "C80",
+              "label": "Metastatic cancer",
+              "status": "active",
+              "onset_date": null
+            }
+          ],
+          "medications": [
+            {
+              "drug": "C0887504",
+              "dosage": "500 mg/m2",
+              "frequency": null,
+              "modality": null,
+              "start_date": null,
+              "end_date": null,
+              "indication": "C34"
+            },
+            {
+              "drug": "C0008832",
+              "dosage": null,
+              "frequency": null,
+              "modality": null,
+              "start_date": null,
+              "end_date": null,
+              "indication": "C34"
+            }
+          ],
+          "HPI": [
+            {
+              "summary": "Fever, fatigue, no weight loss, and prolonged pancytopenia beginning three weeks after chemotherapy",
+              "duration": "3 weeks",
+              "onset": null,
+              "progression": null,
+              "associated_symptoms": [
+                "C0015967",
+                "C0015672",
+                "C0030355"
+              ],
+              "alleviating_factors": [],
+              "exacerbating_factors": []
+            }
+          ],
+          "functional_status": [
+            {
+              "domain": "general",
+              "description": "ECOG performance status 1",
+              "score": "1",
+              "scale": "ECOG"
+            }
+          ],
+          "vitals": [
+            {
+              "type": "Body Mass Index",
+              "value": "27",
+              "unit": null,
+              "timestamp": null
+            },
+            {
+              "type": "Body Surface Area",
+              "value": "2",
+              "unit": null,
+              "timestamp": null
+            }
+          ]
+        }
+      }
+    },
+    {
+      "id": "N2",
+      "label": "Step 2",
+      "customData": {
+        "node_id": "B",
+        "node_step_index": 1,
+        "content": "Physical examination revealed pallor and moderate splenomegaly without peripheral lymphadenopathy or skin lesions. Laboratory studies after filgrastim injections (5 \u00b5g/kg daily for 10 days) showed: white-cell count of 1600/mm3, neutrophile count of 570/mm3, eosinophil count of 0/mm3, platelet count of 70,000/mm3, hemoglobin level of 7.7 g/dL, MCV 83 fl, MCH 26.1 pg, and C reactive protein (CRP) test was 105.3 mg/L.",
+        "clinical_data": {
+          "vitals": [
+            {
+              "type": "Hemoglobin",
+              "value": "7.7",
+              "unit": "g/dL"
+            }
+          ],
+          "labs": [
+            {
+              "test": "White blood cell count",
+              "value": "1600",
+              "unit": "/mm3"
+            },
+            {
+              "test": "Neutrophil count",
+              "value": "570",
+              "unit": "/mm3"
+            },
+            {
+              "test": "Eosinophil count",
+              "value": "0",
+              "unit": "/mm3"
+            },
+            {
+              "test": "Platelet count",
+              "value": "70000",
+              "unit": "/mm3"
+            },
+            {
+              "test": "Mean corpuscular volume",
+              "value": "83",
+              "unit": "fl"
+            },
+            {
+              "test": "Mean corpuscular hemoglobin",
+              "value": "26.1",
+              "unit": "pg"
+            },
+            {
+              "test": "C-Reactive Protein",
+              "value": "105.3",
+              "unit": "mg/L"
+            }
+          ],
+          "physical_exam": [
+            {
+              "finding": "Pallor"
+            },
+            {
+              "finding": "Splenomegaly",
+              "severity": "moderate"
+            },
+            {
+              "finding": "No peripheral lymphadenopathy"
+            },
+            {
+              "finding": "No skin lesions"
+            }
+          ],
+          "medications": [
+            {
+              "drug": "Filgrastim",
+              "dosage": "5 \u00b5g/kg",
+              "frequency": "daily",
+              "modality": "injections",
+              "duration": "10 days"
+            }
+          ]
+        }
+      }
+    },
+    {
+      "id": "N3",
+      "label": "Step 3",
+      "customData": {
+        "node_id": "C",
+        "node_step_index": 2,
+        "content": "Renal and liver function tests, blood glucose, electrolytes, serum ferritin, and iron were normal. Plasma levels for vitamin B12 and folate were normal, with 253 pmole/L and 27.1 nmole/L, respectively. Blood cultures and tests for SARS-CoV-2 and HIV were negative, and cytomegalovirus infection was ruled out. Bone marrow aspiration cytology revealed normal trilineage hematopoiesis with Leishmania amastigotes observed both outside and within the cytoplasm of a macrophage.",
+        "clinical_data": {
+          "labs": [
+            {
+              "test": "Renal function tests",
+              "value": "normal",
+              "flag": "normal"
+            },
+            {
+              "test": "Liver function tests",
+              "value": "normal",
+              "flag": "normal"
+            },
+            {
+              "test": "Blood glucose",
+              "value": "normal",
+              "flag": "normal"
+            },
+            {
+              "test": "Electrolytes",
+              "value": "normal",
+              "flag": "normal"
+            },
+            {
+              "test": "Serum ferritin",
+              "value": "normal",
+              "flag": "normal"
+            },
+            {
+              "test": "Iron",
+              "value": "normal",
+              "flag": "normal"
+            },
+            {
+              "test": "Vitamin B12",
+              "value": "253",
+              "unit": "pmole/L",
+              "flag": "normal"
+            },
+            {
+              "test": "Folate",
+              "value": "27.1",
+              "unit": "nmole/L",
+              "flag": "normal"
+            },
+            {
+              "test": "Blood cultures",
+              "value": "negative"
+            },
+            {
+              "test": "SARS-CoV-2",
+              "value": "negative"
+            },
+            {
+              "test": "HIV",
+              "value": "negative"
+            },
+            {
+              "test": "Cytomegalovirus infection",
+              "value": "ruled out"
+            }
+          ],
+          "procedures": [
+            {
+              "name": "Bone marrow aspiration cytology",
+              "outcome": "normal trilineage hematopoiesis with Leishmania amastigotes observed both outside and within the cytoplasm of a macrophage"
+            }
+          ],
+          "diagnoses": [
+            {
+              "code": "Leishmania",
+              "label": "Leishmania amastigotes observed both outside and within the cytoplasm of a macrophage",
+              "status": "active"
+            }
+          ]
+        }
+      }
+    },
+    {
+      "id": "N4",
+      "label": "Step 4",
+      "customData": {
+        "node_id": "E",
+        "node_step_index": 4,
+        "content": "Diagnosis of visceral leishmaniasis confirmed by PCR testing on stained slides with May-Grunwald Giemsa (MGG). Maintenance chemotherapy was suspended",
+        "clinical_data": {
+          "diagnoses": [
+            {
+              "code": "C0023407",
+              "label": "Visceral Leishmaniasis",
+              "status": "active"
+            }
+          ],
+          "labs": [
+            {
+              "test": "Polymerase Chain Reaction test",
+              "value": "positive",
+              "unit": null,
+              "flag": "abnormal"
+            }
+          ],
+          "medications": [
+            {
+              "drug": "chemotherapy",
+              "dosage": null,
+              "frequency": null,
+              "modality": null,
+              "start_date": null,
+              "end_date": null,
+              "indication": null
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "edges": [
+    {
+      "from": "N1",
+      "to": "N2",
+      "data": {
+        "edge_id": "A_to_B",
+        "branch_flag": true,
+        "content": "Patient presents with pancytopenia post-chemotherapy. Physical exam reveals pallor and splenomegaly. Lab results show decreased white blood cell, neutrophil, platelet, and hemoglobin levels, along with elevated CRP.",
+        "transition_event": {
+          "trigger_type": "lab_change",
+          "trigger_entities": [
+            "C0041645",
+            "C0027044",
+            "C0013492",
+            "C0020272"
+          ],
+          "change_type": "progression",
+          "target_domain": "lab"
+        }
+      }
+    },
+    {
+      "from": "N2",
+      "to": "N3",
+      "data": {
+        "edge_id": "B_to_C",
+        "branch_flag": true,
+        "content": "Further lab investigations reveal normal renal and liver function, blood glucose, electrolytes, serum ferritin, iron, vitamin B12, and folate levels. Blood cultures, SARS-CoV-2, HIV, and cytomegalovirus tests are negative. Bone marrow aspiration cytology shows normal trilineage hematopoiesis but reveals Leishmania amastigotes.",
+        "transition_event": {
+          "trigger_type": "lab_change",
+          "trigger_entities": [
+            "C0023404"
+          ],
+          "change_type": "addition",
+          "target_domain": "diagnosis"
+        }
+      }
+    },
+    {
+      "from": "N3",
+      "to": "N4",
+      "data": {
+        "edge_id": "C_to_E",
+        "branch_flag": true,
+        "content": "Visceral leishmaniasis diagnosis confirmed by PCR. Maintenance chemotherapy suspended.",
+        "transition_event": {
+          "trigger_type": "interpretation",
+          "trigger_entities": [
+            "C0023407"
+          ],
+          "change_type": "addition",
+          "target_domain": "diagnosis"
+        }
+      }
+    }
+  ]
+}

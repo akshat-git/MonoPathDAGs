@@ -1,0 +1,293 @@
+{
+  "nodes": [
+    {
+      "id": "N1",
+      "label": "Step 1",
+      "customData": {
+        "node_id": "A",
+        "node_step_index": 0,
+        "content": "56-year-old male with occupational exposure to asbestos as a tunnel inspector presented to the emergency room with cough, low back pain, and abdominal pain.",
+        "clinical_data": {
+          "HPI": [
+            {
+              "summary": "56-year-old male presented to the emergency room with cough, low back pain, and abdominal pain.",
+              "associated_symptoms": [
+                "C0010200",
+                "C0023333",
+                "C0000729"
+              ]
+            }
+          ],
+          "social_history": [
+            {
+              "category": "employment",
+              "status": "current",
+              "description": "tunnel inspector with occupational exposure to asbestos"
+            }
+          ]
+        }
+      },
+      "custom_id": "graph_065_N0"
+    },
+    {
+      "id": "N2",
+      "label": "Step 2",
+      "customData": {
+        "node_id": "B",
+        "node_step_index": 1,
+        "timestamp": "2023-10-28",
+        "content": "CT angiogram of the chest showed a large left pleural effusion tracking to the lung apex with near complete opacification of the left lower lobe, 6-cm left lower lobe mass, and 4-cm left hilar mass with mediastinal adenopathy and pleural nodularity.",
+        "clinical_data": {
+          "imaging": [
+            {
+              "type": "CT angiogram of the chest",
+              "body_part": "chest",
+              "modality": "CT",
+              "finding": "large left pleural effusion tracking to the lung apex with near complete opacification of the left lower lobe, 6-cm left lower lobe mass, and 4-cm left hilar mass with mediastinal adenopathy and pleural nodularity"
+            }
+          ]
+        }
+      },
+      "custom_id": "graph_065_N1"
+    },
+    {
+      "id": "N3",
+      "label": "Step 3",
+      "customData": {
+        "node_id": "C",
+        "node_step_index": 2,
+        "timestamp": "2023-11-09",
+        "content": "Underwent left video-assisted thorascopic surgery with total left lung decortication, removal of fibrin deposits, and placement of a pleural drainage catheter requiring daily drainage.",
+        "clinical_data": {
+          "procedures": [
+            {
+              "name": "Video-assisted thoracic surgery",
+              "approach": "endoscopic",
+              "date": null,
+              "location": "left lung",
+              "performed_by": null,
+              "outcome": null
+            },
+            {
+              "name": "Decortication",
+              "approach": "open",
+              "date": null,
+              "location": "left lung",
+              "performed_by": null,
+              "outcome": null
+            },
+            {
+              "name": "Pleural drainage catheter placement",
+              "approach": "percutaneous",
+              "date": null,
+              "location": "pleural space",
+              "performed_by": null,
+              "outcome": null
+            }
+          ]
+        }
+      },
+      "custom_id": "graph_065_N2"
+    },
+    {
+      "id": "N4",
+      "label": "Step 4",
+      "customData": {
+        "node_id": "D",
+        "node_step_index": 3,
+        "timestamp": "2023-11-29",
+        "content": "Pathology from left pleural mass: malignant epithelial neoplasm with 70% spindle cell and 30% epithelioid cell components consistent with biphasic MPM. PET imaging confirmed advanced disease with extensive left-sided pleural involvement, bilateral mediastinal adenopathy, adrenal, and scattered bone lesions. CT images at baseline demonstrating large pleural and mediastinal disease with no spinal involvement.",
+        "clinical_data": {
+          "imaging": [
+            {
+              "type": "Pleural mass",
+              "body_part": "Pleura",
+              "modality": "PET",
+              "finding": "advanced disease with extensive left-sided pleural involvement, bilateral mediastinal adenopathy, adrenal, and scattered bone lesions",
+              "impression": "advanced disease",
+              "date": null
+            },
+            {
+              "type": "Pleural and mediastinal disease",
+              "body_part": "Pleura and mediastinum",
+              "modality": "CT",
+              "finding": "large pleural and mediastinal disease with no spinal involvement",
+              "impression": "large pleural and mediastinal disease",
+              "date": null
+            }
+          ],
+          "diagnoses": [
+            {
+              "code": null,
+              "label": "malignant epithelial neoplasm with 70% spindle cell and 30% epithelioid cell components consistent with biphasic MPM",
+              "status": "active",
+              "onset_date": null
+            }
+          ]
+        }
+      },
+      "custom_id": "graph_065_N3"
+    },
+    {
+      "id": "N5",
+      "label": "Step 5",
+      "customData": {
+        "node_id": "E",
+        "node_step_index": 4,
+        "timestamp": "2023-12-04",
+        "content": "Began receiving immune checkpoint inhibitor (ICI) therapy with nivolumab and ipilimumab, with initial improvement in pleural drainage output.",
+        "clinical_data": {
+          "medications": [
+            {
+              "drug": "C0079074",
+              "dosage": null,
+              "frequency": null,
+              "modality": null,
+              "start_date": null,
+              "end_date": null,
+              "indication": null
+            },
+            {
+              "drug": "C1663663",
+              "dosage": null,
+              "frequency": null,
+              "modality": null,
+              "start_date": null,
+              "end_date": null,
+              "indication": null
+            }
+          ],
+          "procedures": [
+            {
+              "name": "C0085614",
+              "approach": null,
+              "date": null,
+              "location": "pleural cavity",
+              "performed_by": null,
+              "outcome": "improvement"
+            }
+          ]
+        }
+      },
+      "custom_id": "graph_065_N4"
+    },
+    {
+      "id": "N6",
+      "label": "Step 6",
+      "customData": {
+        "node_id": "F",
+        "node_step_index": 5,
+        "content": "Patient presented with lower back pain, lower extremity numbness, and inability to walk after one cycle of therapy.",
+        "clinical_data": {
+          "HPI": [
+            {
+              "summary": "Patient presented with lower back pain, lower extremity numbness, and inability to walk after one cycle of therapy.",
+              "associated_symptoms": [
+                "lower back pain",
+                "lower extremity numbness",
+                "inability to walk"
+              ]
+            }
+          ]
+        }
+      },
+      "custom_id": "graph_065_N5"
+    }
+  ],
+  "edges": [
+    {
+      "from": "N1",
+      "to": "N2",
+      "data": {
+        "edge_id": "A_to_B",
+        "branch_flag": true,
+        "content": "Patient presented to the emergency room with cough, low back pain, and abdominal pain. CT angiogram of the chest was performed.",
+        "transition_event": {
+          "trigger_type": "symptom_onset",
+          "trigger_entities": [
+            "C0010200",
+            "C0023333",
+            "C0000729"
+          ],
+          "change_type": "other",
+          "target_domain": "imaging",
+          "timestamp": "2023-10-28"
+        }
+      },
+      "custom_id": "graph_065_N1_N2"
+    },
+    {
+      "from": "N2",
+      "to": "N3",
+      "data": {
+        "edge_id": "B_to_C",
+        "branch_flag": true,
+        "content": "CT angiogram showed a large left pleural effusion tracking to the lung apex with near complete opacification of the left lower lobe, 6-cm left lower lobe mass, and 4-cm left hilar mass with mediastinal adenopathy and pleural nodularity. Underwent left video-assisted thorascopic surgery with total left lung decortication, removal of fibrin deposits, and placement of a pleural drainage catheter requiring daily drainage.",
+        "transition_event": {
+          "trigger_type": "procedure",
+          "trigger_entities": [],
+          "change_type": "addition",
+          "target_domain": "procedure",
+          "timestamp": "2023-11-09"
+        }
+      },
+      "custom_id": "graph_065_N2_N3"
+    },
+    {
+      "from": "N3",
+      "to": "N4",
+      "data": {
+        "edge_id": "C_to_D",
+        "branch_flag": true,
+        "content": "Patient underwent left video-assisted thorascopic surgery with total left lung decortication, removal of fibrin deposits, and placement of a pleural drainage catheter requiring daily drainage. Pathology and PET imaging were performed.",
+        "transition_event": {
+          "trigger_type": "procedure",
+          "trigger_entities": [],
+          "change_type": "other",
+          "target_domain": "diagnosis",
+          "timestamp": "2023-11-29"
+        }
+      },
+      "custom_id": "graph_065_N3_N4"
+    },
+    {
+      "from": "N4",
+      "to": "N5",
+      "data": {
+        "edge_id": "D_to_E",
+        "branch_flag": true,
+        "content": "Pathology from left pleural mass: malignant epithelial neoplasm with 70% spindle cell and 30% epithelioid cell components consistent with biphasic MPM. PET imaging confirmed advanced disease with extensive left-sided pleural involvement, bilateral mediastinal adenopathy, adrenal, and scattered bone lesions. CT images at baseline demonstrating large pleural and mediastinal disease with no spinal involvement. Began receiving immune checkpoint inhibitor (ICI) therapy with nivolumab and ipilimumab, with initial improvement in pleural drainage output.",
+        "transition_event": {
+          "trigger_type": "medication_change",
+          "trigger_entities": [
+            "C0079074",
+            "C1663663"
+          ],
+          "change_type": "addition",
+          "target_domain": "medication",
+          "timestamp": "2023-12-04"
+        }
+      },
+      "custom_id": "graph_065_N4_N5"
+    },
+    {
+      "from": "N5",
+      "to": "N6",
+      "data": {
+        "edge_id": "E_to_F",
+        "branch_flag": true,
+        "content": "Patient began receiving immune checkpoint inhibitor (ICI) therapy with nivolumab and ipilimumab, with initial improvement in pleural drainage output. Patient presented with lower back pain, lower extremity numbness, and inability to walk after one cycle of therapy.",
+        "transition_event": {
+          "trigger_type": "medication_change",
+          "trigger_entities": [
+            "C0079074",
+            "C1663663"
+          ],
+          "change_type": "other",
+          "target_domain": "symptom"
+        }
+      },
+      "custom_id": "graph_065_N5_N6"
+    }
+  ]
+}

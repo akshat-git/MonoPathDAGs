@@ -1,0 +1,334 @@
+{
+  "nodes": [
+    {
+      "id": "N1",
+      "label": "Step 1",
+      "customData": {
+        "node_id": "A",
+        "node_step_index": 0,
+        "content": "Patient presented with acute severe leg and back pain.",
+        "clinical_data": {
+          "HPI": [
+            {
+              "summary": "Patient presented with acute severe leg and back pain."
+            }
+          ]
+        }
+      }
+    },
+    {
+      "id": "N2",
+      "label": "Step 2",
+      "customData": {
+        "node_id": "B",
+        "node_step_index": 1,
+        "content": "Patient has a surgical history of a right breast tumor that was presumed benign.",
+        "clinical_data": {
+          "procedures": [
+            {
+              "name": "Excision of tumor of breast",
+              "approach": "open",
+              "location": "right breast",
+              "outcome": "benign"
+            }
+          ]
+        }
+      }
+    },
+    {
+      "id": "N3",
+      "label": "Step 3",
+      "customData": {
+        "node_id": "C",
+        "node_step_index": 2,
+        "content": "Patient has a smoking history of 35 pack-years.",
+        "clinical_data": {
+          "social_history": [
+            {
+              "category": "smoking",
+              "status": "past",
+              "description": "35 pack-years"
+            }
+          ]
+        }
+      }
+    },
+    {
+      "id": "N4",
+      "label": "Step 4",
+      "customData": {
+        "node_id": "D",
+        "node_step_index": 3,
+        "content": "Patient has a family history of lung cancer (mother, unspecified) and sister died at age 51.",
+        "clinical_data": {
+          "social_history": [
+            {
+              "category": "family history",
+              "status": "positive",
+              "description": "Lung cancer in mother (unspecified) and sister died at age 51."
+            }
+          ]
+        }
+      }
+    },
+    {
+      "id": "N5",
+      "label": "Step 5",
+      "customData": {
+        "node_id": "E",
+        "node_step_index": 4,
+        "content": "Symptoms worsened for 2 weeks.",
+        "clinical_data": {
+          "HPI": [
+            {
+              "summary": "Symptoms worsened",
+              "duration": "2 weeks",
+              "progression": "gradual"
+            }
+          ]
+        }
+      }
+    },
+    {
+      "id": "N6",
+      "label": "Step 6",
+      "customData": {
+        "node_id": "F",
+        "node_step_index": 5,
+        "content": "Spinal MRI revealed extensive lesions concerning for metastases. Pathologic fracture at the eleventh thoracic vertebra (T11) was noted, with a pending pathologic fracture in the right femur.",
+        "clinical_data": {
+          "imaging": [
+            {
+              "type": "Spinal MRI",
+              "body_part": "Spine",
+              "modality": "MRI",
+              "finding": "extensive lesions concerning for metastases",
+              "date": null
+            }
+          ],
+          "diagnoses": [
+            {
+              "code": "Pathologic fracture",
+              "label": "Pathologic fracture at the eleventh thoracic vertebra (T11)",
+              "status": "active",
+              "onset_date": null
+            },
+            {
+              "code": "Pathologic fracture",
+              "label": "pending pathologic fracture in the right femur",
+              "status": "suspected",
+              "onset_date": null
+            }
+          ]
+        }
+      }
+    },
+    {
+      "id": "N7",
+      "label": "Step 7",
+      "customData": {
+        "node_id": "G",
+        "node_step_index": 6,
+        "content": "Patient was admitted to the hospital for workup and further imaging.",
+        "clinical_data": {
+          "procedures": [
+            {
+              "name": "Hospital admission",
+              "date": null,
+              "location": "hospital"
+            }
+          ]
+        }
+      }
+    },
+    {
+      "id": "N8",
+      "label": "Step 8",
+      "customData": {
+        "node_id": "H",
+        "node_step_index": 7,
+        "content": "Thorax CT scan showed mass-like consolidation in the left lower lobe with adjacent satellite nodularity and interlobular septal thickening, multiple pulmonary nodules in the right lower lobe and enlarged hilar and mediastinal lymph nodes.",
+        "clinical_data": {
+          "imaging": [
+            {
+              "type": "CT scan of thorax",
+              "body_part": "Thorax",
+              "modality": "CT",
+              "finding": "mass-like consolidation in the left lower lobe with adjacent satellite nodularity and interlobular septal thickening, multiple pulmonary nodules in the right lower lobe and enlarged hilar and mediastinal lymph nodes"
+            }
+          ]
+        }
+      }
+    },
+    {
+      "id": "N9",
+      "label": "Step 9",
+      "customData": {
+        "node_id": "I",
+        "node_step_index": 8,
+        "content": "NGS and CMA revealed hot-spot KRAS exon 2 p.G12D mutation and 7 DNA copy-number aberrations (CNAs) in primary and metastatic tumor specimens, along with 7 CNAs exclusive to the metastatic tumor specimen.",
+        "clinical_data": {
+          "labs": [
+            {
+              "test": "KRAS gene",
+              "value": "p.G12D mutation",
+              "unit": null,
+              "flag": "abnormal",
+              "reference_range": null,
+              "timestamp": null
+            }
+          ],
+          "diagnoses": [
+            {
+              "code": null,
+              "label": "DNA copy-number aberrations (CNAs)",
+              "status": "active",
+              "onset_date": null
+            }
+          ]
+        }
+      }
+    },
+    {
+      "id": "N10",
+      "label": "Step 10",
+      "customData": {
+        "node_id": "J",
+        "node_step_index": 9,
+        "content": "Brain MRI demonstrated multifocal metastatic disease of the calvarium, infundibular masses, and a clival lesion.",
+        "clinical_data": {
+          "imaging": [
+            {
+              "type": "Magnetic Resonance Imaging of Brain",
+              "body_part": "Brain",
+              "modality": "MRI",
+              "finding": "multifocal metastatic disease of the calvarium, infundibular masses, and a clival lesion"
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "edges": [
+    {
+      "from": "N1",
+      "to": "N2",
+      "data": {
+        "edge_id": "A_to_B",
+        "branch_flag": true,
+        "content": "No significant change or progression between the patient's initial presentation and their past surgical history."
+      }
+    },
+    {
+      "from": "N2",
+      "to": "N3",
+      "data": {
+        "edge_id": "B_to_C",
+        "branch_flag": true,
+        "content": "No significant change or progression between the patient's past surgical history and their smoking history."
+      }
+    },
+    {
+      "from": "N3",
+      "to": "N4",
+      "data": {
+        "edge_id": "C_to_D",
+        "branch_flag": true,
+        "content": "No significant change or progression between the patient's smoking history and their family history."
+      }
+    },
+    {
+      "from": "N4",
+      "to": "N5",
+      "data": {
+        "edge_id": "D_to_E",
+        "branch_flag": true,
+        "content": "Worsening of the patient's symptoms."
+      }
+    },
+    {
+      "from": "N5",
+      "to": "N6",
+      "data": {
+        "edge_id": "E_to_F",
+        "branch_flag": true,
+        "content": "Spinal MRI revealed extensive lesions concerning for metastases and pathologic fractures.",
+        "transition_event": {
+          "trigger_type": "imaging",
+          "trigger_entities": [
+            "C0015911",
+            "C0262424"
+          ],
+          "change_type": "progression",
+          "target_domain": "imaging"
+        }
+      }
+    },
+    {
+      "from": "N6",
+      "to": "N7",
+      "data": {
+        "edge_id": "F_to_G",
+        "branch_flag": true,
+        "content": "Patient admitted to the hospital for workup and further imaging.",
+        "transition_event": {
+          "trigger_type": "procedure",
+          "trigger_entities": [
+            "C0019790"
+          ],
+          "change_type": "addition",
+          "target_domain": "procedure"
+        }
+      }
+    },
+    {
+      "from": "N7",
+      "to": "N8",
+      "data": {
+        "edge_id": "G_to_H",
+        "branch_flag": true,
+        "content": "Thorax CT scan revealed mass-like consolidation, pulmonary nodules, and enlarged lymph nodes.",
+        "transition_event": {
+          "trigger_type": "imaging",
+          "trigger_entities": [],
+          "change_type": "progression",
+          "target_domain": "imaging"
+        }
+      }
+    },
+    {
+      "from": "N8",
+      "to": "N9",
+      "data": {
+        "edge_id": "H_to_I",
+        "branch_flag": true,
+        "content": "NGS and CMA revealed KRAS mutation and DNA copy-number aberrations.",
+        "transition_event": {
+          "trigger_type": "lab_change",
+          "trigger_entities": [
+            "C0022650"
+          ],
+          "change_type": "addition",
+          "target_domain": "lab"
+        }
+      }
+    },
+    {
+      "from": "N9",
+      "to": "N10",
+      "data": {
+        "edge_id": "I_to_J",
+        "branch_flag": true,
+        "content": "Brain MRI demonstrated multifocal metastatic disease.",
+        "transition_event": {
+          "trigger_type": "imaging",
+          "trigger_entities": [
+            "C0027651"
+          ],
+          "change_type": "progression",
+          "target_domain": "imaging"
+        }
+      }
+    }
+  ]
+}

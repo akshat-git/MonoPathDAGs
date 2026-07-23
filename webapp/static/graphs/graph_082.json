@@ -1,0 +1,441 @@
+{
+  "nodes": [
+    {
+      "id": "N1",
+      "label": "Step 1",
+      "customData": {
+        "node_id": "A",
+        "node_step_index": 0,
+        "content": "Patient presented with symptoms of intracranial hypertension, including nausea and vomiting.",
+        "clinical_data": {
+          "HPI": [
+            {
+              "summary": "Patient presented with symptoms of intracranial hypertension, including nausea and vomiting.",
+              "associated_symptoms": [
+                "nausea",
+                "vomiting"
+              ]
+            }
+          ],
+          "diagnoses": [
+            {
+              "code": "30704000",
+              "label": "Intracranial hypertension",
+              "status": "active"
+            }
+          ]
+        }
+      },
+      "custom_id": "graph_082_N0"
+    },
+    {
+      "id": "N2",
+      "label": "Step 2",
+      "customData": {
+        "node_id": "B",
+        "node_step_index": 1,
+        "content": "Brain MRI suggested leptomeningeal metastases.",
+        "clinical_data": {
+          "imaging": [
+            {
+              "type": "Magnetic resonance imaging of brain",
+              "body_part": "Brain",
+              "modality": "MRI",
+              "finding": "leptomeningeal metastases",
+              "impression": "leptomeningeal metastases"
+            }
+          ]
+        }
+      },
+      "custom_id": "graph_082_N1"
+    },
+    {
+      "id": "N3",
+      "label": "Step 3",
+      "customData": {
+        "node_id": "C",
+        "node_step_index": 2,
+        "content": "Lumbar puncture was performed, and cerebrospinal fluid cytology confirmed leptomeningeal metastases.",
+        "clinical_data": {
+          "procedures": [
+            {
+              "name": "Lumbar puncture",
+              "date": null,
+              "location": null,
+              "performed_by": null,
+              "outcome": null,
+              "approach": null
+            }
+          ],
+          "labs": [
+            {
+              "test": "Cerebrospinal fluid cytology",
+              "value": "positive",
+              "unit": null,
+              "flag": "abnormal",
+              "reference_range": null,
+              "timestamp": null
+            }
+          ],
+          "diagnoses": [
+            {
+              "code": null,
+              "label": "leptomeningeal metastases",
+              "status": "active",
+              "onset_date": null
+            }
+          ]
+        }
+      },
+      "custom_id": "graph_082_N2"
+    },
+    {
+      "id": "N4",
+      "label": "Step 4",
+      "customData": {
+        "node_id": "D",
+        "node_step_index": 3,
+        "content": "An Ommaya reservoir was installed.",
+        "clinical_data": {
+          "procedures": [
+            {
+              "name": "Ommaya reservoir insertion",
+              "approach": "other",
+              "date": null,
+              "location": "intracranial",
+              "performed_by": null,
+              "outcome": null
+            }
+          ]
+        }
+      },
+      "custom_id": "graph_082_N3"
+    },
+    {
+      "id": "N5",
+      "label": "Step 5",
+      "customData": {
+        "node_id": "E",
+        "node_step_index": 4,
+        "content": "Patient harbored both EGFR and somatic BRCA2 mutations.",
+        "clinical_data": {
+          "diagnoses": [
+            {
+              "code": "C0597663",
+              "label": "EGFR mutation",
+              "status": "active"
+            },
+            {
+              "code": "C4082407",
+              "label": "BRCA2 mutation",
+              "status": "active"
+            }
+          ]
+        }
+      },
+      "custom_id": "graph_082_N4"
+    },
+    {
+      "id": "N6",
+      "label": "Step 6",
+      "customData": {
+        "node_id": "F",
+        "node_step_index": 5,
+        "content": "Durable response to Olaparib lasting approximately 21 months.",
+        "clinical_data": {
+          "medications": [
+            {
+              "drug": "C0886339",
+              "dosage": null,
+              "frequency": null,
+              "modality": null,
+              "start_date": null,
+              "end_date": null,
+              "indication": null
+            }
+          ],
+          "HPI": [
+            {
+              "summary": "Durable response to Olaparib lasting approximately 21 months.",
+              "duration": "21 months",
+              "onset": null,
+              "progression": null,
+              "associated_symptoms": [],
+              "alleviating_factors": [],
+              "exacerbating_factors": []
+            }
+          ]
+        }
+      },
+      "custom_id": "graph_082_N5"
+    },
+    {
+      "id": "N7",
+      "label": "Step 7",
+      "customData": {
+        "node_id": "G",
+        "node_step_index": 6,
+        "content": "Treatment sequence: Initial monotherapy with Olaparib, followed by combination therapy with intrathecal chemotherapy, and eventually a triple combination of Olaparib, Furmonertinib, and intrathecal chemotherapy.",
+        "clinical_data": {
+          "medications": [
+            {
+              "drug": "C0886339",
+              "dosage": null,
+              "frequency": null,
+              "modality": null,
+              "start_date": null,
+              "end_date": null,
+              "indication": null
+            },
+            {
+              "drug": "Furmonertinib",
+              "dosage": null,
+              "frequency": null,
+              "modality": "intrathecal",
+              "start_date": null,
+              "end_date": null,
+              "indication": null
+            }
+          ],
+          "procedures": [
+            {
+              "name": "intrathecal chemotherapy",
+              "approach": "intrathecal",
+              "date": null,
+              "location": null,
+              "performed_by": null,
+              "outcome": null
+            }
+          ]
+        }
+      },
+      "custom_id": "graph_082_N6"
+    },
+    {
+      "id": "N8",
+      "label": "Step 8",
+      "customData": {
+        "node_id": "Z",
+        "node_step_index": 25,
+        "content": "Intrathecal pemetrexed 50mg every 4 weeks was administrated since October 2021.",
+        "timestamp": "2021-10",
+        "clinical_data": {
+          "medications": [
+            {
+              "drug": "pemetrexed",
+              "dosage": "50mg",
+              "frequency": "every 4 weeks",
+              "modality": "intrathecal",
+              "start_date": "2021-10",
+              "end_date": null,
+              "indication": null
+            }
+          ]
+        }
+      },
+      "custom_id": "graph_082_N7"
+    },
+    {
+      "id": "N9",
+      "label": "Step 9",
+      "customData": {
+        "node_id": "H",
+        "node_step_index": 7,
+        "content": "Symptoms of leptomeningeal metastases worsened dramatically, including lethargy, unresponsiveness, difficulty in eating and swallowing, necessitating intravenous nutritional support. ECOG performance status (PS) declined to 4. October 25, 2021 CSF ctDNA Assay: EGFR p.L858R AF(9.7%), BRCA2 p.L2368Ffs*24 AF(6.3%), TSC2 p.F897L",
+        "timestamp": "2021-10-25",
+        "clinical_data": {
+          "HPI": [
+            {
+              "summary": "Symptoms of leptomeningeal metastases worsened dramatically, including lethargy, unresponsiveness, difficulty in eating and swallowing.",
+              "progression": "sudden",
+              "associated_symptoms": [
+                "lethargy",
+                "unresponsiveness",
+                "difficulty in eating",
+                "difficulty in swallowing"
+              ]
+            }
+          ],
+          "functional_status": [
+            {
+              "domain": "ADLs",
+              "description": "ECOG performance status (PS) declined to 4.",
+              "score": "4",
+              "scale": "ECOG"
+            }
+          ],
+          "labs": [
+            {
+              "test": "CSF ctDNA Assay",
+              "value": "EGFR p.L858R AF(9.7%), BRCA2 p.L2368Ffs*24 AF(6.3%), TSC2 p.F897L",
+              "timestamp": "2021-10-25"
+            }
+          ],
+          "diagnoses": [
+            {
+              "code": "C4946",
+              "label": "Leptomeningeal Metastasis",
+              "status": "active"
+            }
+          ]
+        }
+      },
+      "custom_id": "graph_082_N8"
+    }
+  ],
+  "edges": [
+    {
+      "from": "N1",
+      "to": "N2",
+      "data": {
+        "edge_id": "A_to_B",
+        "branch_flag": true,
+        "content": "Progression of intracranial hypertension symptoms.",
+        "transition_event": {
+          "trigger_type": "symptom_onset",
+          "trigger_entities": [
+            "C0027497",
+            "C0042963",
+            "C0038990"
+          ],
+          "change_type": "progression",
+          "target_domain": "symptom"
+        }
+      },
+      "custom_id": "graph_082_N1_N2"
+    },
+    {
+      "from": "N2",
+      "to": "N3",
+      "data": {
+        "edge_id": "B_to_C",
+        "branch_flag": true,
+        "content": "Further investigation to confirm leptomeningeal metastases.",
+        "transition_event": {
+          "trigger_type": "imaging",
+          "trigger_entities": [
+            "C0542703"
+          ],
+          "change_type": "other",
+          "target_domain": "diagnosis"
+        }
+      },
+      "custom_id": "graph_082_N2_N3"
+    },
+    {
+      "from": "N3",
+      "to": "N4",
+      "data": {
+        "edge_id": "C_to_D",
+        "branch_flag": true,
+        "content": "Placement of Ommaya reservoir for treatment delivery.",
+        "transition_event": {
+          "trigger_type": "procedure",
+          "trigger_entities": [
+            "C0441712"
+          ],
+          "change_type": "addition",
+          "target_domain": "procedure"
+        }
+      },
+      "custom_id": "graph_082_N3_N4"
+    },
+    {
+      "from": "N4",
+      "to": "N5",
+      "data": {
+        "edge_id": "D_to_E",
+        "branch_flag": true,
+        "content": "Identification of EGFR and BRCA2 mutations.",
+        "transition_event": {
+          "trigger_type": "lab_change",
+          "trigger_entities": [
+            "C0597663",
+            "C4082407"
+          ],
+          "change_type": "addition",
+          "target_domain": "diagnosis"
+        }
+      },
+      "custom_id": "graph_082_N4_N5"
+    },
+    {
+      "from": "N5",
+      "to": "N6",
+      "data": {
+        "edge_id": "E_to_F",
+        "branch_flag": true,
+        "content": "Initiation of Olaparib therapy.",
+        "transition_event": {
+          "trigger_type": "medication_change",
+          "trigger_entities": [
+            "C0886339"
+          ],
+          "change_type": "addition",
+          "target_domain": "medication"
+        }
+      },
+      "custom_id": "graph_082_N5_N6"
+    },
+    {
+      "from": "N6",
+      "to": "N7",
+      "data": {
+        "edge_id": "F_to_G",
+        "branch_flag": true,
+        "content": "Treatment escalation to combination therapy.",
+        "transition_event": {
+          "trigger_type": "medication_change",
+          "trigger_entities": [
+            "C0886339",
+            "Furmonertinib"
+          ],
+          "change_type": "escalation",
+          "target_domain": "medication"
+        }
+      },
+      "custom_id": "graph_082_N6_N7"
+    },
+    {
+      "from": "N7",
+      "to": "N8",
+      "data": {
+        "edge_id": "G_to_Z",
+        "branch_flag": true,
+        "content": "Administration of intrathecal pemetrexed.",
+        "transition_event": {
+          "trigger_type": "medication_change",
+          "trigger_entities": [
+            "pemetrexed"
+          ],
+          "change_type": "addition",
+          "target_domain": "medication",
+          "timestamp": "2021-10"
+        }
+      },
+      "custom_id": "graph_082_N7_N8"
+    },
+    {
+      "from": "N8",
+      "to": "N9",
+      "data": {
+        "edge_id": "Z_to_H",
+        "branch_flag": true,
+        "content": "Worsening of leptomeningeal metastases symptoms and decline in functional status.",
+        "transition_event": {
+          "trigger_type": "symptom_onset",
+          "trigger_entities": [
+            "C0023390",
+            "C0234170",
+            "C0232332",
+            "C0014262"
+          ],
+          "change_type": "progression",
+          "target_domain": "symptom",
+          "timestamp": "20"
+        }
+      },
+      "custom_id": "graph_082_N8_N9"
+    }
+  ]
+}

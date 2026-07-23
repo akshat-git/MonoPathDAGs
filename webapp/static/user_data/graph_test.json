@@ -1,0 +1,301 @@
+{
+  "nodes": [
+    {
+      "id": "N1",
+      "label": "Step 1",
+      "customData": {
+        "node_id": "A",
+        "node_step_index": 0,
+        "content": "65-year-old man diagnosed with small cell lung cancer (SCLC) (cT4N3M1c) with right cerebellar metastasis and invasion of the trachea and mediastinum four months prior to presentation.",
+        "clinical_data": {
+          "diagnoses": [
+            {
+              "code": "C34.9",
+              "label": "Small cell lung cancer",
+              "status": "active",
+              "onset_date": null
+            },
+            {
+              "code": "C79.81",
+              "label": "Secondary malignant neoplasm of cerebellar",
+              "status": "active",
+              "onset_date": null
+            }
+          ]
+        }
+      }
+    },
+    {
+      "id": "N2",
+      "label": "Step 2",
+      "customData": {
+        "node_id": "B",
+        "node_step_index": 1,
+        "content": "Patient underwent chemotherapy with four cycles of carboplatin/etoposide, followed by secondary chemotherapy with amrubicin.",
+        "clinical_data": {
+          "medications": [
+            {
+              "drug": "C0007129",
+              "dosage": null,
+              "frequency": null,
+              "modality": null,
+              "start_date": null,
+              "end_date": null,
+              "indication": null
+            },
+            {
+              "drug": "C0015087",
+              "dosage": null,
+              "frequency": null,
+              "modality": null,
+              "start_date": null,
+              "end_date": null,
+              "indication": null
+            },
+            {
+              "drug": "C1320494",
+              "dosage": null,
+              "frequency": null,
+              "modality": null,
+              "start_date": null,
+              "end_date": null,
+              "indication": null
+            }
+          ],
+          "procedures": [
+            {
+              "name": "C0007089",
+              "approach": null,
+              "date": null,
+              "location": null,
+              "performed_by": null,
+              "outcome": null
+            }
+          ]
+        }
+      }
+    },
+    {
+      "id": "N3",
+      "label": "Step 3",
+      "customData": {
+        "node_id": "C",
+        "node_step_index": 2,
+        "content": "Patient experienced right ocular pain and blurred vision one month prior to presentation and was referred to hospital with suspected uveitis of the right eye.",
+        "clinical_data": {
+          "HPI": [
+            {
+              "summary": "Patient experienced right ocular pain and blurred vision one month prior to presentation.",
+              "duration": "1 month",
+              "onset": "1 month prior to presentation",
+              "associated_symptoms": [
+                "blurred vision"
+              ],
+              "location": "right eye"
+            }
+          ],
+          "diagnoses": [
+            {
+              "code": "C0042095",
+              "label": "Uveitis",
+              "status": "suspected",
+              "location": "right eye"
+            }
+          ]
+        }
+      }
+    },
+    {
+      "id": "N4",
+      "label": "Step 4",
+      "customData": {
+        "node_id": "D",
+        "node_step_index": 3,
+        "content": "Anterior chamber cytology was performed, leading to a diagnosis of neovascular glaucoma, which was managed with an intravitreal aflibercept injection. Visual acuity was 0.1 OD (uncorrectable) and 0.4 (0.5 \u00d7 S \u2212 1.75 D A \u00d7 85\u00b0).",
+        "clinical_data": {
+          "procedures": [
+            {
+              "name": "Aflibercept intravitreal injection",
+              "approach": "intravitreal",
+              "date": null,
+              "location": "eye",
+              "performed_by": null,
+              "outcome": null
+            }
+          ],
+          "diagnoses": [
+            {
+              "code": "43204008",
+              "label": "Neovascular glaucoma",
+              "status": "active",
+              "onset_date": null
+            }
+          ],
+          "labs": [
+            {
+              "test": "Cytology",
+              "value": null,
+              "unit": null,
+              "flag": null,
+              "reference_range": null,
+              "timestamp": null
+            }
+          ],
+          "vitals": [
+            {
+              "type": "Visual acuity",
+              "value": "0.1",
+              "unit": null,
+              "timestamp": null
+            },
+            {
+              "type": "Visual acuity",
+              "value": "0.4",
+              "unit": null,
+              "timestamp": null
+            }
+          ]
+        }
+      }
+    },
+    {
+      "id": "N5",
+      "label": "Step 5",
+      "customData": {
+        "node_id": "E",
+        "node_step_index": 4,
+        "content": "Right eye examination revealed intraocular pressure (IOP) of 55 mm Hg (OD) and 11 mm Hg (OS), corneal stromal edema, 3+ cells in the anterior chamber, and neovascularization of the iris at the pupillary border.",
+        "clinical_data": {
+          "vitals": [
+            {
+              "type": "Intraocular pressure",
+              "value": "55",
+              "unit": "mm Hg",
+              "timestamp": null
+            },
+            {
+              "type": "Intraocular pressure",
+              "value": "11",
+              "unit": "mm Hg",
+              "timestamp": null
+            }
+          ],
+          "diagnoses": [
+            {
+              "code": "Neovascularization of iris",
+              "label": "Neovascularization of iris",
+              "status": "active",
+              "onset_date": null
+            },
+            {
+              "code": "Corneal stromal edema",
+              "label": "Corneal stromal edema",
+              "status": "active",
+              "onset_date": null
+            }
+          ],
+          "ROS": [
+            {
+              "system": "ocular",
+              "findings": [
+                "Cells in anterior chamber"
+              ]
+            }
+          ]
+        }
+      }
+    },
+    {
+      "id": "N6",
+      "label": "Step 6",
+      "customData": {
+        "node_id": "F",
+        "node_step_index": 5,
+        "content": "Right eye examination revealed numerous irregular grayish-white masses on the corneal surface and scattered in the anterior chamber. Grade 1.5 nuclear sclerosis was also observed. Gonioscopy showed a whitish irregular mass originating from the anterior iris surface and extending to the anterior part of the trabecular meshwork. The anterior segment of the left eye was normal. The patient presented with posterior corneal deposits containing pigment, inflammation of the iris and ciliary body, scattered white masses in the posterior cornea, mid-anterior chamber, anterior chamber angle, and iris rubeosis.",
+        "clinical_data": {
+          "imaging": [
+            {
+              "body_part": "Eye (T-D012853)",
+              "modality": "other",
+              "finding": "numerous irregular grayish-white masses on the corneal surface",
+              "date": null
+            }
+          ],
+          "diagnoses": [
+            {
+              "code": "C0271157",
+              "label": "nuclear sclerosis",
+              "status": "active",
+              "onset_date": null
+            },
+            {
+              "code": "C0022106",
+              "label": "Inflammation of the iris",
+              "status": "active",
+              "onset_date": null
+            },
+            {
+              "code": "C0008653",
+              "label": "Inflammation of the ciliary body",
+              "status": "active",
+              "onset_date": null
+            },
+            {
+              "code": "C0235443",
+              "label": "Iris Rubeosis",
+              "status": "active",
+              "onset_date": null
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "edges": [
+    {
+      "from": "N1",
+      "to": "N2",
+      "data": {
+        "edge_id": "A_to_B",
+        "branch_flag": true,
+        "content": "Patient underwent chemotherapy"
+      }
+    },
+    {
+      "from": "N2",
+      "to": "N3",
+      "data": {
+        "edge_id": "B_to_C",
+        "branch_flag": true,
+        "content": "Patient experienced right ocular pain and blurred vision one month prior to presentation and was referred to hospital with suspected uveitis of the right eye."
+      }
+    },
+    {
+      "from": "N3",
+      "to": "N4",
+      "data": {
+        "edge_id": "C_to_D",
+        "branch_flag": true,
+        "content": "Anterior chamber cytology was performed, leading to a diagnosis of neovascular glaucoma, which was managed with an intravitreal aflibercept injection."
+      }
+    },
+    {
+      "from": "N4",
+      "to": "N5",
+      "data": {
+        "edge_id": "D_to_E",
+        "branch_flag": true,
+        "content": "Right eye examination revealed intraocular pressure (IOP) of 55 mm Hg (OD) and 11 mm Hg (OS), corneal stromal edema, 3+ cells in the anterior chamber, and neovascularization of the iris at the pupillary border."
+      }
+    },
+    {
+      "from": "N5",
+      "to": "N6",
+      "data": {
+        "edge_id": "E_to_F",
+        "branch_flag": true,
+        "content": "Right eye examination revealed numerous irregular grayish-white masses on the corneal surface and scattered in the anterior chamber. Grade 1.5 nuclear sclerosis was also observed. Gonioscopy showed a whitish irregular mass originating from the anterior iris surface and extending to the anterior part of the trabecular meshwork. The anterior segment of the left eye was normal. The patient presented with posterior corneal deposits containing pigment, inflammation of the iris and ciliary body, scattered white masses in the posterior cornea, mid-anterior chamber, anterior chamber angle, and iris rubeosis."
+      }
+    }
+  ]
+}

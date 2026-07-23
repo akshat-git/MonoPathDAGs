@@ -1,0 +1,339 @@
+{
+  "nodes": [
+    {
+      "id": "N1",
+      "label": "Step 1",
+      "customData": {
+        "node_id": "A",
+        "node_step_index": 0,
+        "content": "70-year-old ex-smoker with a 25 pack-year smoking history, hypertension, and ischemic heart disease (status post percutaneous coronary intervention) presented with 3 months of hemoptysis.",
+        "clinical_data": {
+          "social_history": [
+            {
+              "category": "smoking",
+              "status": "past",
+              "description": "25 pack-year smoking history"
+            }
+          ],
+          "diagnoses": [
+            {
+              "code": "39474000",
+              "label": "Hypertension",
+              "status": "active"
+            },
+            {
+              "code": "53741008",
+              "label": "Ischemic heart disease",
+              "status": "active"
+            }
+          ],
+          "HPI": [
+            {
+              "summary": "Hemoptysis",
+              "duration": "3 months"
+            }
+          ],
+          "procedures": [
+            {
+              "name": "Percutaneous coronary intervention",
+              "date": null
+            }
+          ]
+        }
+      }
+    },
+    {
+      "id": "N2",
+      "label": "Step 2",
+      "customData": {
+        "node_id": "B",
+        "node_step_index": 1,
+        "content": "CT scan of the thorax showed a well-circumscribed lesion in the upper lobe of the right lung and mediastinal lymphadenopathy. PET scan showed an upper lobe lesion in the right lung and metabolically avid right hilar and right para-tracheal lymph nodes.",
+        "clinical_data": {
+          "imaging": [
+            {
+              "type": "CT scan of the thorax",
+              "body_part": "thorax",
+              "modality": "CT",
+              "finding": "well-circumscribed lesion in the upper lobe of the right lung and mediastinal lymphadenopathy"
+            },
+            {
+              "type": "PET scan",
+              "body_part": "lung",
+              "modality": "PET",
+              "finding": "upper lobe lesion in the right lung and metabolically avid right hilar and right para-tracheal lymph nodes"
+            }
+          ]
+        }
+      }
+    },
+    {
+      "id": "N3",
+      "label": "Step 3",
+      "customData": {
+        "node_id": "C",
+        "node_step_index": 2,
+        "content": "Radiological staging: cT3N2M0 (Stage III-B). CT-guided biopsy of the lung lesion revealed non-small cell carcinoma favoring adenocarcinoma on histopathology. Immunohistochemistry: cytokeratin positive, TTF1 focally positive, p40 negative, and CD56 negative. EGFR PCR: no mutation detected.",
+        "clinical_data": {
+          "imaging": [
+            {
+              "type": "CT scan",
+              "body_part": "Lung",
+              "modality": "CT",
+              "finding": "cT3N2M0 (Stage III-B)",
+              "impression": "Radiological staging",
+              "date": null
+            }
+          ],
+          "procedures": [
+            {
+              "name": "Biopsy",
+              "approach": "percutaneous",
+              "date": null,
+              "location": "Lung lesion",
+              "performed_by": null,
+              "outcome": null
+            }
+          ],
+          "diagnoses": [
+            {
+              "code": "C0009372",
+              "label": "Non-Small Cell Lung Carcinoma",
+              "status": "active",
+              "onset_date": null
+            },
+            {
+              "code": "C0001481",
+              "label": "Adenocarcinoma",
+              "status": "active",
+              "onset_date": null
+            }
+          ],
+          "labs": [
+            {
+              "test": "Cytokeratin",
+              "value": "positive",
+              "unit": null,
+              "flag": "positive",
+              "reference_range": null,
+              "timestamp": null
+            },
+            {
+              "test": "TTF1",
+              "value": "focally positive",
+              "unit": null,
+              "flag": "positive",
+              "reference_range": null,
+              "timestamp": null
+            },
+            {
+              "test": "p40",
+              "value": "negative",
+              "unit": null,
+              "flag": "negative",
+              "reference_range": null,
+              "timestamp": null
+            },
+            {
+              "test": "CD56",
+              "value": "negative",
+              "unit": null,
+              "flag": "negative",
+              "reference_range": null,
+              "timestamp": null
+            },
+            {
+              "test": "EGFR PCR",
+              "value": "no mutation detected",
+              "unit": null,
+              "flag": "negative",
+              "reference_range": null,
+              "timestamp": null
+            }
+          ]
+        }
+      }
+    },
+    {
+      "id": "N4",
+      "label": "Step 4",
+      "customData": {
+        "node_id": "D",
+        "node_step_index": 3,
+        "content": "Fluorescence in situ hybridization (FISH) was negative for ALK gene rearrangement. Immunohistochemistry for PDL1 clone SP142 was positive for more than 50% TPS (total proportion score).",
+        "clinical_data": {
+          "labs": [
+            {
+              "test": "Fluorescence in situ hybridization",
+              "value": "negative",
+              "finding": "ALK gene rearrangement"
+            },
+            {
+              "test": "Immunohistochemistry for PDL1 clone SP142",
+              "value": "positive",
+              "finding": "more than 50% TPS"
+            }
+          ]
+        }
+      }
+    },
+    {
+      "id": "N5",
+      "label": "Step 5",
+      "customData": {
+        "node_id": "E",
+        "node_step_index": 4,
+        "content": "Patient underwent upfront thoracotomy, leading to a right lung upper lobe lobectomy and mediastinal staging, resulting in pathological stage T3N0.",
+        "clinical_data": {
+          "procedures": [
+            {
+              "name": "Thoracotomy",
+              "approach": "open",
+              "date": null,
+              "location": "chest",
+              "performed_by": null,
+              "outcome": null
+            },
+            {
+              "name": "Lobectomy",
+              "approach": "open",
+              "date": null,
+              "location": "right lung upper lobe",
+              "performed_by": null,
+              "outcome": null
+            },
+            {
+              "name": "Mediastinal staging",
+              "approach": null,
+              "date": null,
+              "location": "mediastinum",
+              "performed_by": null,
+              "outcome": null
+            }
+          ],
+          "diagnoses": [
+            {
+              "code": null,
+              "label": "T3N0",
+              "status": "active",
+              "onset_date": null
+            }
+          ]
+        }
+      }
+    },
+    {
+      "id": "N6",
+      "label": "Step 6",
+      "customData": {
+        "node_id": "F",
+        "node_step_index": 5,
+        "content": "PET scan performed after surgery showed interval progression with hyper-metabolic pleural-based nodules, nodules in the right lung middle lobe and horizontal fissure, right para-tracheal and internal mammary lymphadenopathy",
+        "clinical_data": {
+          "imaging": [
+            {
+              "type": "Positron emission tomography",
+              "body_part": "pleural cavity",
+              "modality": "PET",
+              "finding": "hypermetabolic pleural-based nodules",
+              "date": null
+            },
+            {
+              "type": "Positron emission tomography",
+              "body_part": "lung",
+              "modality": "PET",
+              "finding": "nodules in the right lung middle lobe and horizontal fissure",
+              "date": null
+            },
+            {
+              "type": "Positron emission tomography",
+              "body_part": "lymph node",
+              "modality": "PET",
+              "finding": "right para-tracheal and internal mammary lymphadenopathy",
+              "date": null
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "edges": [
+    {
+      "from": "N1",
+      "to": "N2",
+      "data": {
+        "edge_id": "A_to_B",
+        "branch_flag": true,
+        "content": "Patient with hemoptysis underwent imaging.",
+        "transition_event": {
+          "trigger_type": "symptom_onset",
+          "trigger_entities": [
+            "C0018944"
+          ],
+          "change_type": "other",
+          "target_domain": "imaging"
+        }
+      }
+    },
+    {
+      "from": "N2",
+      "to": "N3",
+      "data": {
+        "edge_id": "B_to_C",
+        "branch_flag": true,
+        "content": "Imaging findings led to biopsy and diagnosis.",
+        "transition_event": {
+          "trigger_type": "interpretation",
+          "trigger_entities": [],
+          "change_type": "addition",
+          "target_domain": "diagnosis"
+        }
+      }
+    },
+    {
+      "from": "N3",
+      "to": "N4",
+      "data": {
+        "edge_id": "C_to_D",
+        "branch_flag": true,
+        "content": "Further biomarker testing was performed.",
+        "transition_event": {
+          "trigger_type": "lab_change",
+          "trigger_entities": [],
+          "change_type": "addition",
+          "target_domain": "lab"
+        }
+      }
+    },
+    {
+      "from": "N4",
+      "to": "N5",
+      "data": {
+        "edge_id": "D_to_E",
+        "branch_flag": true,
+        "content": "Patient underwent surgical resection.",
+        "transition_event": {
+          "trigger_type": "procedure",
+          "trigger_entities": [],
+          "change_type": "addition",
+          "target_domain": "procedure"
+        }
+      }
+    },
+    {
+      "from": "N5",
+      "to": "N6",
+      "data": {
+        "edge_id": "E_to_F",
+        "branch_flag": true,
+        "content": "Post-operative imaging showed disease progression.",
+        "transition_event": {
+          "trigger_type": "procedure",
+          "trigger_entities": [],
+          "change_type": "progression",
+          "target_domain": "imaging"
+        }
+      }
+    }
+  ]
+}

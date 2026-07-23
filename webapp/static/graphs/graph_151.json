@@ -1,0 +1,222 @@
+{
+  "nodes": [
+    {
+      "id": "N1",
+      "label": "Step 1",
+      "customData": {
+        "node_id": "A",
+        "node_step_index": 0,
+        "content": "76-year-old woman was referred to the hospital for a nodule in the right upper lobe.",
+        "clinical_data": {
+          "imaging": [
+            {
+              "type": "Nodule",
+              "body_part": "Right Upper Lobe",
+              "modality": null,
+              "finding": "Nodule in the right upper lobe",
+              "impression": null,
+              "date": null
+            }
+          ]
+        }
+      }
+    },
+    {
+      "id": "N2",
+      "label": "Step 2",
+      "customData": {
+        "node_id": "B",
+        "node_step_index": 1,
+        "content": "CT scan of the chest revealed a 2.3 x 1.6 cm nodule in the right upper lobe.",
+        "clinical_data": {
+          "imaging": [
+            {
+              "type": "Lung CT",
+              "body_part": "Right upper lobe",
+              "modality": "CT",
+              "finding": "2.3 x 1.6 cm nodule"
+            }
+          ]
+        }
+      }
+    },
+    {
+      "id": "N3",
+      "label": "Step 3",
+      "customData": {
+        "node_id": "C",
+        "node_step_index": 2,
+        "content": "Diagnosed with pulmonary adenocarcinoma (cT1bN0M0, stage IA, according to the TNM classification of the Union for International Cancer Control (UICC), 7th edition; cT1cN0M0, stage 1A3, according to the UICC, 8th edition). No smoking history.",
+        "clinical_data": {
+          "diagnoses": [
+            {
+              "code": "C0242375",
+              "label": "Adenocarcinoma of lung",
+              "status": "active",
+              "onset_date": null
+            }
+          ],
+          "social_history": [
+            {
+              "category": "smoking",
+              "status": "never",
+              "description": "No smoking history"
+            }
+          ]
+        }
+      }
+    },
+    {
+      "id": "N4",
+      "label": "Step 4",
+      "customData": {
+        "node_id": "D",
+        "node_step_index": 3,
+        "content": "Patient has comorbidities of hypertension and hyperlipidemia. Right upper lobectomy performed in November 2015, pathological stage pT1bN2M0, stage IIIA. Genomic analysis revealed EGFR gene mutation L858R in exon 21. Immunohistochemical analysis revealed a programmed death-ligand 1 (PD-L1) tumor proportion score (TPS) of < 1%.",
+        "clinical_data": {
+          "diagnoses": [
+            {
+              "code": "59620008",
+              "label": "Hypertension",
+              "status": "active"
+            },
+            {
+              "code": "248150002",
+              "label": "Hyperlipidemia",
+              "status": "active"
+            },
+            {
+              "code": "254291000",
+              "label": "Non-small cell lung carcinoma",
+              "status": "active"
+            }
+          ],
+          "procedures": [
+            {
+              "name": "174900005",
+              "date": "2015-11",
+              "location": "Right upper lobe",
+              "approach": "open",
+              "outcome": "resection"
+            }
+          ],
+          "labs": [
+            {
+              "test": "EGFR gene mutation L858R",
+              "value": "positive",
+              "unit": null,
+              "flag": "abnormal"
+            },
+            {
+              "test": "Programmed death-ligand 1 (PD-L1) tumor proportion score (TPS)",
+              "value": "< 1",
+              "unit": "%",
+              "flag": "abnormal"
+            }
+          ]
+        }
+      }
+    },
+    {
+      "id": "N5",
+      "label": "Step 5",
+      "customData": {
+        "node_id": "E",
+        "node_step_index": 4,
+        "content": "Multiple mediastinal and right hilar lymph node metastases found in February 2018. Radiation therapy alone was selected. Radiation therapy amounting to a total dose of 60.0 Gy, distributed in 30 fractions, was performed over a period of 6 weeks. 3D radiotherapy-planning technique used. 40.0 Gy was distributed in 20 fractions using opposing anterior-posterior fields over the first 4 weeks. An additional 20.0 Gy was distributed in 10 fractions using 10 beams over the subsequent 2 weeks, covering multiple mediastinal lymph node metastases but sparing the spinal cord and hilum of the left lung. The planning target volume included multiple mediastinal and right hilar lymph nodes, with a 10 mm margin.",
+        "clinical_data": {
+          "imaging": [
+            {
+              "type": "Lymph Node",
+              "body_part": "Mediastinum",
+              "modality": null,
+              "finding": "metastases",
+              "impression": "Multiple mediastinal and right hilar lymph node metastases",
+              "date": "2018-02"
+            },
+            {
+              "type": "Lymph Node",
+              "body_part": "Hilar",
+              "modality": null,
+              "finding": "metastases",
+              "impression": "Multiple mediastinal and right hilar lymph node metastases",
+              "date": "2018-02"
+            }
+          ],
+          "procedures": [
+            {
+              "name": "Radiation therapy",
+              "approach": null,
+              "date": null,
+              "location": "multiple mediastinal lymph node metastases and right hilar lymph nodes",
+              "performed_by": null,
+              "outcome": null
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "edges": [
+    {
+      "from": "N1",
+      "to": "N2",
+      "data": {
+        "edge_id": "A_to_B",
+        "branch_flag": true,
+        "content": "Initial detection and characterization of a nodule."
+      }
+    },
+    {
+      "from": "N2",
+      "to": "N3",
+      "data": {
+        "edge_id": "B_to_C",
+        "branch_flag": true,
+        "content": "Diagnosis of pulmonary adenocarcinoma based on imaging findings.",
+        "transition_event": {
+          "trigger_type": "interpretation",
+          "trigger_entities": [
+            "C0242375"
+          ],
+          "change_type": "addition",
+          "target_domain": "diagnosis"
+        }
+      }
+    },
+    {
+      "from": "N3",
+      "to": "N4",
+      "data": {
+        "edge_id": "C_to_D",
+        "branch_flag": true,
+        "content": "Further characterization of the adenocarcinoma, including surgical resection, staging, and genomic analysis. Comorbidities noted.",
+        "transition_event": {
+          "trigger_type": "procedure",
+          "trigger_entities": [
+            "174900005"
+          ],
+          "change_type": "addition",
+          "target_domain": "procedure",
+          "timestamp": "2015-11"
+        }
+      }
+    },
+    {
+      "from": "N4",
+      "to": "N5",
+      "data": {
+        "edge_id": "D_to_E",
+        "branch_flag": true,
+        "content": "Disease progression with lymph node metastases, leading to radiation therapy.",
+        "transition_event": {
+          "trigger_type": "imaging",
+          "trigger_entities": [],
+          "change_type": "progression",
+          "target_domain": "imaging",
+          "timestamp": "2018-02"
+        }
+      }
+    }
+  ]
+}

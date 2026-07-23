@@ -1,0 +1,230 @@
+{
+  "nodes": [
+    {
+      "id": "N1",
+      "label": "Step 1",
+      "customData": {
+        "node_id": "A",
+        "node_step_index": 0,
+        "content": "April 2021: Patient presented with recurrent lower abdominal pain persisting for 6 months.",
+        "clinical_data": {
+          "HPI": [
+            {
+              "summary": "recurrent lower abdominal pain",
+              "duration": "6 months",
+              "onset": "April 2021"
+            }
+          ]
+        }
+      },
+      "custom_id": "graph_041_N0"
+    },
+    {
+      "id": "N2",
+      "label": "Step 2",
+      "customData": {
+        "node_id": "B",
+        "node_step_index": 1,
+        "content": "April 2021: Gastrointestinal color Doppler ultrasound and abdominal CT at an external hospital suggested a space-occupying lesion in the small intestine, indicative of a potential malignant tumor.",
+        "clinical_data": {
+          "imaging": [
+            {
+              "type": "Space-occupying lesion (T0187301)",
+              "body_part": "Small Intestine (UMLS: C0023246)",
+              "modality": "Ultrasound",
+              "finding": "Space-occupying lesion in the small intestine",
+              "date": "2021-04"
+            },
+            {
+              "type": "Space-occupying lesion (T0187301)",
+              "body_part": "Abdomen (UMLS: C0000726)",
+              "modality": "CT",
+              "finding": "Space-occupying lesion in the small intestine",
+              "impression": "potential malignant tumor",
+              "date": "2021-04"
+            }
+          ],
+          "diagnoses": [
+            {
+              "code": "C0242392",
+              "label": "Malignant tumor",
+              "status": "suspected",
+              "onset_date": "2021-04"
+            }
+          ]
+        }
+      },
+      "custom_id": "graph_041_N1"
+    },
+    {
+      "id": "N3",
+      "label": "Step 3",
+      "customData": {
+        "node_id": "C",
+        "node_step_index": 2,
+        "content": "April 2021: Contrast-enhanced abdominal CT at a tertiary (3A) hospital in Chongqing showed thickening of the small intestinal wall in the left mid-to-lower abdomen, accompanied by mass formation and multiple surrounding lesions, suggestive of small intestinal malignancy with lymph node metastasis and possible pelvic peritoneal involvement.",
+        "clinical_data": {
+          "imaging": [
+            {
+              "type": "Small intestinal wall thickening",
+              "body_part": "Small intestine",
+              "modality": "CT",
+              "finding": "mass formation and multiple surrounding lesions",
+              "impression": "small intestinal malignancy with lymph node metastasis and possible pelvic peritoneal involvement",
+              "date": "2021-04"
+            }
+          ]
+        }
+      },
+      "custom_id": "graph_041_N2"
+    },
+    {
+      "id": "N4",
+      "label": "Step 4",
+      "customData": {
+        "node_id": "D",
+        "node_step_index": 3,
+        "content": "Patient had no respiratory symptoms such as cough, sputum production, or shortness of breath.",
+        "clinical_data": {
+          "ROS": [
+            {
+              "system": "respiratory",
+              "findings": [
+                "no cough",
+                "no sputum production",
+                "no shortness of breath"
+              ]
+            }
+          ]
+        }
+      },
+      "custom_id": "graph_041_N3"
+    },
+    {
+      "id": "N5",
+      "label": "Step 5",
+      "customData": {
+        "node_id": "E",
+        "node_step_index": 4,
+        "content": "Comprehensive chest CT identified a space-occupying lesion in the apical-posterior segment of the left upper lobe, highly indicative of lung cancer, with enlarged mediastinal lymph nodes (stations 5 and 10L), suggesting potential metastasis.",
+        "clinical_data": {
+          "imaging": [
+            {
+              "type": "Space-occupying lesion (T017403)",
+              "body_part": "Lung (A0007271)",
+              "modality": "CT",
+              "finding": "Space-occupying lesion in the apical-posterior segment of the left upper lobe, highly indicative of lung cancer, with enlarged mediastinal lymph nodes (stations 5 and 10L), suggesting potential metastasis.",
+              "impression": "Lung cancer",
+              "date": null
+            }
+          ],
+          "diagnoses": [
+            {
+              "code": "C0024117",
+              "label": "Lung Cancer",
+              "status": "suspected",
+              "onset_date": null
+            }
+          ]
+        }
+      },
+      "custom_id": "graph_041_N4"
+    },
+    {
+      "id": "N6",
+      "label": "Step 6",
+      "customData": {
+        "node_id": "F",
+        "node_step_index": 5,
+        "content": "Needle biopsies were performed on the lung, mediastinal lymph nodes, and the small intestinal mass. All three lesions demonstrated features of high-grade neuroendocrine carcinoma, with suspected small-cell carcinoma based on morphological and immunohistochemical (IHC) findings.",
+        "clinical_data": {
+          "procedures": [
+            {
+              "name": "Needle biopsy",
+              "approach": "percutaneous",
+              "location": "Lung",
+              "outcome": "high-grade neuroendocrine carcinoma, with suspected small-cell carcinoma"
+            },
+            {
+              "name": "Needle biopsy",
+              "approach": "percutaneous",
+              "location": "Mediastinal lymph nodes",
+              "outcome": "high-grade neuroendocrine carcinoma, with suspected small-cell carcinoma"
+            },
+            {
+              "name": "Needle biopsy",
+              "approach": "percutaneous",
+              "location": "Small intestinal mass",
+              "outcome": "high-grade neuroendocrine carcinoma, with suspected small-cell carcinoma"
+            }
+          ],
+          "diagnoses": [
+            {
+              "code": "C0027497",
+              "label": "Neuroendocrine Carcinoma",
+              "status": "active"
+            },
+            {
+              "code": "C0007105",
+              "label": "Small Cell Carcinoma",
+              "status": "suspected"
+            }
+          ]
+        }
+      },
+      "custom_id": "graph_041_N5"
+    }
+  ],
+  "edges": [
+    {
+      "from": "N1",
+      "to": "N2",
+      "data": {
+        "edge_id": "A_to_B",
+        "branch_flag": true,
+        "content": "Patient transitioned from presenting with recurrent abdominal pain to undergoing imaging that suggested a potential malignant tumor in the small intestine."
+      },
+      "custom_id": "graph_041_N1_N2"
+    },
+    {
+      "from": "N2",
+      "to": "N3",
+      "data": {
+        "edge_id": "B_to_C",
+        "branch_flag": true,
+        "content": "Further imaging at a tertiary hospital refined the diagnosis, suggesting small intestinal malignancy with lymph node metastasis and possible pelvic peritoneal involvement."
+      },
+      "custom_id": "graph_041_N2_N3"
+    },
+    {
+      "from": "N3",
+      "to": "N4",
+      "data": {
+        "edge_id": "C_to_D",
+        "branch_flag": true,
+        "content": "Assessment for respiratory symptoms was negative."
+      },
+      "custom_id": "graph_041_N3_N4"
+    },
+    {
+      "from": "N4",
+      "to": "N5",
+      "data": {
+        "edge_id": "D_to_E",
+        "branch_flag": true,
+        "content": "Comprehensive chest CT identified a space-occupying lesion in the left upper lobe, highly indicative of lung cancer, with enlarged mediastinal lymph nodes, suggesting potential metastasis."
+      },
+      "custom_id": "graph_041_N4_N5"
+    },
+    {
+      "from": "N5",
+      "to": "N6",
+      "data": {
+        "edge_id": "E_to_F",
+        "branch_flag": true,
+        "content": "Needle biopsies were performed on the lung, mediastinal lymph nodes, and the small intestinal mass, revealing high-grade neuroendocrine carcinoma, with suspected small-cell carcinoma."
+      },
+      "custom_id": "graph_041_N5_N6"
+    }
+  ]
+}

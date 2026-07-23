@@ -1,0 +1,527 @@
+{
+  "nodes": [
+    {
+      "id": "N1",
+      "label": "Step 1",
+      "customData": {
+        "node_id": "A",
+        "node_step_index": 0,
+        "content": "Patient had COVID-19 1 week before noticing memory problems.",
+        "clinical_data": {
+          "diagnoses": [
+            {
+              "code": "UMLS:C4723573",
+              "label": "COVID-19",
+              "status": "historical",
+              "onset_date": null
+            }
+          ],
+          "HPI": [
+            {
+              "summary": "Patient had COVID-19 1 week before noticing memory problems.",
+              "duration": "1 week",
+              "onset": null,
+              "progression": "unknown",
+              "associated_symptoms": [
+                "Memory problems"
+              ],
+              "alleviating_factors": [],
+              "exacerbating_factors": []
+            }
+          ]
+        }
+      },
+      "custom_id": "graph_070_N0"
+    },
+    {
+      "id": "N2",
+      "label": "Step 2",
+      "customData": {
+        "node_id": "B",
+        "node_step_index": 1,
+        "content": "Lumpectomy performed 2 days after memory problems were noticed.",
+        "clinical_data": {
+          "procedures": [
+            {
+              "name": "Lumpectomy",
+              "date": null
+            }
+          ],
+          "HPI": [
+            {
+              "summary": "Memory problems noticed 2 days prior to lumpectomy",
+              "duration": "2 days",
+              "onset": null
+            }
+          ]
+        }
+      },
+      "custom_id": "graph_070_N1"
+    },
+    {
+      "id": "N3",
+      "label": "Step 3",
+      "customData": {
+        "node_id": "C",
+        "node_step_index": 2,
+        "content": "Pathology report revealed infiltrative breast carcinoma of mixed type (80% non-specific, 20% lobular), histoprognostic grade I (2-2-1), histological tumour size of 30 mm along the long axis, lymphocytic stromal infiltrate estimated at 10%, without endovascular carcinomatous emboli and no involvement of perineural sheaths. Pathology report revealed ductal carcinoma in situ, intermediate grade, cribriform type, representing 10% of the total tumour surface. Immunohistochemistry showed oestrogen receptors (95%), progesterone receptors (80%), proliferation index (10%), and no HER2 overexpression (score 0). Right axillary sentinel lymph nodes showed no metastasis (0/5). ",
+        "clinical_data": {
+          "diagnoses": [
+            {
+              "code": "C50.9",
+              "label": "Breast carcinoma",
+              "status": "active",
+              "onset_date": null
+            },
+            {
+              "code": "C50",
+              "label": "Ductal carcinoma in situ",
+              "status": "active",
+              "onset_date": null
+            }
+          ],
+          "labs": [
+            {
+              "test": "Estrogen receptor",
+              "value": "95",
+              "unit": "%",
+              "flag": "normal"
+            },
+            {
+              "test": "Progesterone receptor",
+              "value": "80",
+              "unit": "%",
+              "flag": "normal"
+            },
+            {
+              "test": "proliferation index",
+              "value": "10",
+              "unit": "%",
+              "flag": "normal"
+            },
+            {
+              "test": "HER2",
+              "value": "0",
+              "unit": "score",
+              "flag": "normal"
+            }
+          ],
+          "imaging": [
+            {
+              "type": "Sentinel lymph node biopsy",
+              "body_part": "axillary lymph nodes",
+              "modality": "other",
+              "finding": "no metastasis",
+              "impression": "no metastasis",
+              "date": null
+            }
+          ]
+        }
+      },
+      "custom_id": "graph_070_N2"
+    },
+    {
+      "id": "N4",
+      "label": "Step 4",
+      "customData": {
+        "node_id": "D",
+        "node_step_index": 3,
+        "content": "Diagnosis of anti-LGI1 limbic encephalitis associated with early-stage breast cancer. MRI, EEG and positive anti-LGI1 antibodies supported the diagnosis of anti-LGI1 AE.",
+        "clinical_data": {
+          "diagnoses": [
+            {
+              "code": "C4085340",
+              "label": "Limbic encephalitis",
+              "status": "active"
+            },
+            {
+              "code": "C0599446",
+              "label": "Breast cancer",
+              "status": "active"
+            }
+          ],
+          "labs": [
+            {
+              "test": "C4721494",
+              "value": "positive",
+              "unit": null,
+              "flag": "abnormal",
+              "reference_range": null,
+              "timestamp": null
+            }
+          ],
+          "imaging": [
+            {
+              "type": "C0023885",
+              "body_part": null,
+              "modality": "MRI",
+              "finding": null,
+              "impression": null,
+              "date": null
+            }
+          ],
+          "procedures": [
+            {
+              "name": "C0013872",
+              "approach": null,
+              "date": null,
+              "location": null,
+              "performed_by": null,
+              "outcome": null
+            }
+          ]
+        }
+      },
+      "custom_id": "graph_070_N3"
+    },
+    {
+      "id": "N5",
+      "label": "Step 5",
+      "customData": {
+        "node_id": "E",
+        "node_step_index": 4,
+        "content": "PET scan identified breast tumour.",
+        "clinical_data": {
+          "imaging": [
+            {
+              "type": "positron emission tomography",
+              "body_part": "breast",
+              "modality": "PET",
+              "finding": "tumour"
+            }
+          ]
+        }
+      },
+      "custom_id": "graph_070_N4"
+    },
+    {
+      "id": "N6",
+      "label": "Step 6",
+      "customData": {
+        "node_id": "F",
+        "node_step_index": 5,
+        "content": "Resection of breast tumour with immunohistopathological analysis. Pathological stage (UICC, eighth edition 2017) was determined as pT2 N0 (sn) G1 R.",
+        "clinical_data": {
+          "procedures": [
+            {
+              "name": "Resection of breast tumor",
+              "date": null,
+              "location": "breast"
+            }
+          ],
+          "diagnoses": [
+            {
+              "code": null,
+              "label": "pT2 N0 (sn) G1 R",
+              "status": "active"
+            }
+          ]
+        }
+      },
+      "custom_id": "graph_070_N5"
+    },
+    {
+      "id": "N7",
+      "label": "Step 7",
+      "customData": {
+        "node_id": "G",
+        "node_step_index": 6,
+        "content": "Immunosuppressive treatment was started within 24 hours of admission.",
+        "clinical_data": {
+          "medications": [
+            {
+              "drug": "Immunosuppressive agent",
+              "start_date": null
+            }
+          ]
+        }
+      },
+      "custom_id": "graph_070_N6"
+    },
+    {
+      "id": "N8",
+      "label": "Step 8",
+      "customData": {
+        "node_id": "H",
+        "node_step_index": 7,
+        "content": "PNS care score: clinical level: 3 points, laboratory: 0, tumour level: not consistent with antibody, 1 point, total score of 4, indicating a possible PNS. ",
+        "clinical_data": {
+          "diagnoses": [
+            {
+              "code": "C0446144",
+              "label": "Paraneoplastic Syndrome",
+              "status": "suspected"
+            }
+          ]
+        }
+      },
+      "custom_id": "graph_070_N7"
+    },
+    {
+      "id": "N9",
+      "label": "Step 9",
+      "customData": {
+        "node_id": "I",
+        "node_step_index": 8,
+        "content": "Patient recovered gradually, with no recurrence of headaches or focal epileptic seizures since hospitalisation. Partial retrograde and anterograde amnesia persisted during the initial week, followed by a slow and steady improvement.",
+        "clinical_data": {
+          "HPI": [
+            {
+              "summary": "Patient recovered gradually with no recurrence of headaches or focal epileptic seizures since hospitalization.",
+              "progression": "gradual",
+              "associated_symptoms": [
+                "Headache",
+                "Focal epileptic seizure"
+              ]
+            }
+          ],
+          "mental_status": [
+            {
+              "domain": "memory",
+              "finding": "Partial retrograde and anterograde amnesia",
+              "timestamp": null
+            }
+          ]
+        }
+      },
+      "custom_id": "graph_070_N8"
+    },
+    {
+      "id": "N10",
+      "label": "Step 10",
+      "customData": {
+        "node_id": "J",
+        "node_step_index": 9,
+        "content": "Patient returned to work with 80% of her previous time work 12 months after being discharged.",
+        "clinical_data": {}
+      },
+      "custom_id": "graph_070_N9"
+    },
+    {
+      "id": "N11",
+      "label": "Step 11",
+      "customData": {
+        "node_id": "K",
+        "node_step_index": 10,
+        "content": "Neuropsychological evaluation at baseline showed impairment in verbal episodic memory (Free and Cued Selective Reminding Test) and visual episodic memory (recall of the Rey\u2013Osterrieth complex figure). After 6 months of treatment, objective cognitive improvement was observed.",
+        "clinical_data": {
+          "procedures": [
+            {
+              "name": "Neuropsychological evaluation",
+              "date": null,
+              "location": null,
+              "performed_by": null,
+              "outcome": null,
+              "approach": null
+            }
+          ],
+          "mental_status": [
+            {
+              "domain": "memory",
+              "finding": "Impairment in verbal episodic memory",
+              "timestamp": null
+            },
+            {
+              "domain": "memory",
+              "finding": "Impairment in visual episodic memory",
+              "timestamp": null
+            }
+          ],
+          "functional_status": [
+            {
+              "domain": "cognition",
+              "description": "Objective cognitive improvement",
+              "score": null,
+              "scale": null
+            }
+          ]
+        }
+      },
+      "custom_id": "graph_070_N10"
+    },
+    {
+      "id": "N12",
+      "label": "Step 12",
+      "customData": {
+        "node_id": "L",
+        "node_step_index": 11,
+        "content": "Whole-body FDG-18 PET scan revealed a moderately hypermetabolic lesion in the right breast. Breast biopsy revealed non-specific (ductal) infiltrative breast carcinoma, histoprognostic grade (SBRm/Nottingham) grade II (3-2-1), without ductal carcinoma in situ. Immunohistochemistry showed oestrogen receptors (100%) and progesterone receptors (80%). The proliferation index was at 10%, and there was a low immunohistochemical overexpression of HER2 (score 1+). Patient relies heavily on family to validate memories, constantly questioning the accuracy of recollections. Sleep disturbances and a consistent weight loss of approximately one kilogram per week. Patient experiencing pervasive fatigue",
+        "clinical_data": {
+          "imaging": [
+            {
+              "type": "Fluorodeoxyglucose F-18-PET",
+              "body_part": "Breast",
+              "modality": "PET",
+              "finding": "moderately hypermetabolic lesion in the right breast",
+              "impression": "moderately hypermetabolic lesion in the right breast"
+            }
+          ],
+          "diagnoses": [
+            {
+              "code": "C0006274",
+              "label": "Breast Carcinoma",
+              "status": "active"
+            }
+          ],
+          "labs": [
+            {
+              "test": "Estrogen Receptor Measurement",
+              "value": "100%",
+              "unit": "%"
+            },
+            {
+              "test": "Progesterone Receptor Measurement",
+              "value": "80%",
+              "unit": "%"
+            },
+            {
+              "test": "HER2 immunohistochemical overexpression",
+              "value": "1+",
+              "unit": "score"
+            },
+            {
+              "test": "proliferation index",
+              "value": "10%",
+              "unit": "%"
+            }
+          ],
+          "mental_status": [
+            {
+              "domain": "memory",
+              "finding": "relies heavily on family to validate memories, constantly questioning the accuracy of recollections"
+            }
+          ],
+          "HPI": [
+            {
+              "summary": "Sleep disturbances and a consistent weight loss of approximately one kilogram per week. Patient experiencing pervasive fatigue"
+            }
+          ]
+        }
+      },
+      "custom_id": "graph_070_N11"
+    }
+  ],
+  "edges": [
+    {
+      "from": "N1",
+      "to": "N2",
+      "data": {
+        "edge_id": "A_to_B",
+        "branch_flag": true,
+        "content": "Patient developed memory problems following COVID-19 infection, leading to lumpectomy 2 days later."
+      },
+      "custom_id": "graph_070_N1_N2"
+    },
+    {
+      "from": "N2",
+      "to": "N3",
+      "data": {
+        "edge_id": "B_to_C",
+        "branch_flag": true,
+        "content": "Lumpectomy revealed infiltrative breast carcinoma of mixed type (80% non-specific, 20% lobular), histoprognostic grade I (2-2-1), histological tumour size of 30 mm along the long axis, lymphocytic stromal infiltrate estimated at 10%, without endovascular carcinomatous emboli and no involvement of perineural sheaths. Pathology report revealed ductal carcinoma in situ, intermediate grade, cribriform type, representing 10% of the total tumour surface. Immunohistochemistry showed oestrogen receptors (95%), progesterone receptors (80%), proliferation index (10%), and no HER2 overexpression (score 0). Right axillary sentinel lymph nodes showed no metastasis (0/5)."
+      },
+      "custom_id": "graph_070_N2_N3"
+    },
+    {
+      "from": "N3",
+      "to": "N4",
+      "data": {
+        "edge_id": "C_to_D",
+        "branch_flag": true,
+        "content": "Based on pathology report and memory problems, patient was diagnosed with anti-LGI1 limbic encephalitis associated with early-stage breast cancer. MRI, EEG and positive anti-LGI1 antibodies supported the diagnosis of anti-LGI1 AE.",
+        "transition_event": {
+          "trigger_type": "interpretation",
+          "trigger_entities": [
+            "C50.9",
+            "C4721494",
+            "C0023885",
+            "C0013872"
+          ],
+          "change_type": "addition",
+          "target_domain": "diagnosis"
+        }
+      },
+      "custom_id": "graph_070_N3_N4"
+    },
+    {
+      "from": "N4",
+      "to": "N5",
+      "data": {
+        "edge_id": "D_to_E",
+        "branch_flag": true,
+        "content": "PET scan was performed to further investigate the breast cancer diagnosis."
+      },
+      "custom_id": "graph_070_N4_N5"
+    },
+    {
+      "from": "N5",
+      "to": "N6",
+      "data": {
+        "edge_id": "E_to_F",
+        "branch_flag": true,
+        "content": "PET scan identified breast tumour, leading to resection of breast tumour with immunohistopathological analysis. Pathological stage (UICC, eighth edition 2017) was determined as pT2 N0 (sn) G1 R."
+      },
+      "custom_id": "graph_070_N5_N6"
+    },
+    {
+      "from": "N6",
+      "to": "N7",
+      "data": {
+        "edge_id": "F_to_G",
+        "branch_flag": true,
+        "content": "Following resection, immunosuppressive treatment was started within 24 hours of admission."
+      },
+      "custom_id": "graph_070_N6_N7"
+    },
+    {
+      "from": "N7",
+      "to": "N8",
+      "data": {
+        "edge_id": "G_to_H",
+        "branch_flag": true,
+        "content": "PNS care score was calculated, indicating a possible PNS."
+      },
+      "custom_id": "graph_070_N7_N8"
+    },
+    {
+      "from": "N8",
+      "to": "N9",
+      "data": {
+        "edge_id": "H_to_I",
+        "branch_flag": true,
+        "content": "Patient recovered gradually, with no recurrence of headaches or focal epileptic seizures since hospitalisation. Partial retrograde and anterograde amnesia persisted during the initial week, followed by a slow and steady improvement."
+      },
+      "custom_id": "graph_070_N8_N9"
+    },
+    {
+      "from": "N9",
+      "to": "N10",
+      "data": {
+        "edge_id": "I_to_J",
+        "branch_flag": true,
+        "content": "Patient's condition improved to the point where she returned to work with 80% of her previous time work 12 months after being discharged."
+      },
+      "custom_id": "graph_070_N9_N10"
+    },
+    {
+      "from": "N10",
+      "to": "N11",
+      "data": {
+        "edge_id": "J_to_K",
+        "branch_flag": true,
+        "content": "Neuropsychological evaluation at baseline showed impairment in verbal episodic memory (Free and Cued Selective Reminding Test) and visual episodic memory (recall of the Rey\u2013Osterrieth complex figure). After 6 months of treatment, objective cognitive improvement was observed."
+      },
+      "custom_id": "graph_070_N10_N11"
+    },
+    {
+      "from": "N11",
+      "to": "N12",
+      "data": {
+        "edge_id": "K_to_L",
+        "branch_flag": true,
+        "content": "Whole-body FDG-18 PET scan revealed a moderately hypermetabolic lesion in the right breast. Breast biopsy revealed non-specific (ductal) infiltrative breast carcinoma, histoprognostic grade (SBRm/Nottingham) grade II (3-2-1), without ductal carcinoma in situ. Immunohistochemistry showed oestrogen receptors (100"
+      },
+      "custom_id": "graph_070_N11_N12"
+    }
+  ]
+}

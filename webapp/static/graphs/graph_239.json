@@ -1,0 +1,615 @@
+{
+  "nodes": [
+    {
+      "id": "N1",
+      "label": "Step 1",
+      "customData": {
+        "node_id": "A",
+        "node_step_index": 0,
+        "content": "74-year-old male with recurrent mediastinal lymph node metastasis of lung adenocarcinoma 3 years after surgery. History of smoking 40 cigarettes per day for 40 years (80 pack-years), quit in late 50s. Pulmonary function test showed forced expiratory volume in 1 s was 23.5% of the predicted value, indicating GOLD stage 4 COPD.",
+        "clinical_data": {
+          "diagnoses": [
+            {
+              "code": "C34",
+              "label": "lung adenocarcinoma",
+              "status": "active"
+            },
+            {
+              "code": "403473009",
+              "label": "Chronic obstructive lung disease",
+              "status": "active"
+            }
+          ],
+          "social_history": [
+            {
+              "category": "smoking",
+              "status": "past",
+              "description": "40 cigarettes per day for 40 years (80 pack-years), quit in late 50s"
+            }
+          ],
+          "labs": [
+            {
+              "test": "Forced expiratory volume in 1 second",
+              "value": "23.5",
+              "unit": "% predicted",
+              "flag": "abnormal"
+            }
+          ]
+        }
+      }
+    },
+    {
+      "id": "N2",
+      "label": "Step 2",
+      "customData": {
+        "node_id": "B",
+        "node_step_index": 1,
+        "content": "Patient was hospitalized and administered concurrent chemoradiotherapy (CRT) with 7 cycles of chemotherapy with weekly carboplatin (AUC = 2) and paclitaxel.",
+        "clinical_data": {
+          "medications": [
+            {
+              "drug": "C0007147",
+              "dosage": "AUC = 2",
+              "frequency": "weekly",
+              "modality": "IV",
+              "start_date": null,
+              "end_date": null,
+              "indication": "C0007147"
+            },
+            {
+              "drug": "C0030393",
+              "dosage": null,
+              "frequency": "weekly",
+              "modality": "IV",
+              "start_date": null,
+              "end_date": null,
+              "indication": "C0030393"
+            }
+          ],
+          "procedures": [
+            {
+              "name": "C0007159",
+              "approach": null,
+              "date": null,
+              "location": null,
+              "performed_by": null,
+              "outcome": null
+            }
+          ]
+        }
+      }
+    },
+    {
+      "id": "N3",
+      "label": "Step 3",
+      "customData": {
+        "node_id": "C",
+        "node_step_index": 2,
+        "content": "Patient experienced grade 3 esophagitis symptoms 18 days after the start of concurrent chemoradiotherapy (CRT), and was administered nonsteroidal anti-inflammatory drugs and sodium alginate. Patient also suffered from constipation due to chemotherapy and was administered magnesium oxide and sennoside.",
+        "clinical_data": {
+          "diagnoses": [
+            {
+              "code": "C0015672",
+              "label": "Esophagitis",
+              "status": "active",
+              "onset_date": null
+            },
+            {
+              "code": "C0009806",
+              "label": "Constipation",
+              "status": "active",
+              "onset_date": null
+            }
+          ],
+          "medications": [
+            {
+              "drug": "Nonsteroidal anti-inflammatory drug",
+              "dosage": null,
+              "frequency": null,
+              "modality": "oral",
+              "start_date": null,
+              "end_date": null,
+              "indication": "Esophagitis"
+            },
+            {
+              "drug": "C0037253",
+              "dosage": null,
+              "frequency": null,
+              "modality": "oral",
+              "start_date": null,
+              "end_date": null,
+              "indication": "Constipation"
+            },
+            {
+              "drug": "C0036641",
+              "dosage": null,
+              "frequency": null,
+              "modality": "oral",
+              "start_date": null,
+              "end_date": null,
+              "indication": "Constipation"
+            },
+            {
+              "drug": "Sodium alginate",
+              "dosage": null,
+              "frequency": null,
+              "modality": "oral",
+              "start_date": null,
+              "end_date": null,
+              "indication": "Esophagitis"
+            }
+          ],
+          "HPI": [
+            {
+              "summary": "Patient experienced grade 3 esophagitis symptoms 18 days after the start of concurrent chemoradiotherapy (CRT)",
+              "duration": "18 days",
+              "onset": null,
+              "progression": "sudden",
+              "associated_symptoms": [],
+              "alleviating_factors": [],
+              "exacerbating_factors": []
+            }
+          ]
+        }
+      }
+    },
+    {
+      "id": "N4",
+      "label": "Step 4",
+      "customData": {
+        "node_id": "D",
+        "node_step_index": 3,
+        "content": "Patient developed febrile neutropenia on the 32nd day of concurrent chemoradiotherapy (CRT), and tazobactam/piperacillin (4.5 g intravenously every 8 h) and filgrastim (75 \u03bcg/day subcutaneously) were administered.",
+        "clinical_data": {
+          "diagnoses": [
+            {
+              "code": "C0027832",
+              "label": "Febrile Neutropenia",
+              "status": "active"
+            }
+          ],
+          "medications": [
+            {
+              "drug": "C0724477",
+              "dosage": "4.5 g",
+              "frequency": "every 8 h",
+              "modality": "IV",
+              "indication": "Febrile Neutropenia"
+            },
+            {
+              "drug": "C0016178",
+              "dosage": "75 \u03bcg/day",
+              "modality": "subcutaneous",
+              "indication": "Febrile Neutropenia"
+            }
+          ]
+        }
+      }
+    },
+    {
+      "id": "N5",
+      "label": "Step 5",
+      "customData": {
+        "node_id": "E",
+        "node_step_index": 4,
+        "content": "Radiation therapy was suspended for 3 days, then resumed. Patient experienced daily vomiting from the 35th day onward, with a large amount of vomiting on the 38th day. Abdominal examination showed distension and tenderness throughout the abdomen without signs of peritoneal irritation. Laboratory findings: increased lactate (11.5 mmol/L), WBC 12,300/\u03bcL, CRP 17.21 mg/dL, BUN 46.6 mg/dL, Cr 2.83 mg/dL.",
+        "clinical_data": {
+          "procedures": [
+            {
+              "name": "Radiation therapy",
+              "date": null,
+              "outcome": "suspended"
+            },
+            {
+              "name": "Radiation therapy",
+              "date": null,
+              "outcome": "resumed"
+            }
+          ],
+          "HPI": [
+            {
+              "summary": "Patient experienced daily vomiting from the 35th day onward, with a large amount of vomiting on the 38th day.",
+              "onset": "35th day",
+              "progression": "daily",
+              "associated_symptoms": [
+                "Vomiting"
+              ]
+            }
+          ],
+          "physical_exam": [
+            {
+              "finding": "Abdominal distension",
+              "body_part": "abdomen"
+            },
+            {
+              "finding": "Abdominal tenderness",
+              "body_part": "abdomen"
+            },
+            {
+              "finding": "No signs of peritoneal irritation",
+              "body_part": "abdomen"
+            }
+          ],
+          "labs": [
+            {
+              "test": "Lactate",
+              "value": "11.5",
+              "unit": "mmol/L",
+              "flag": "abnormal"
+            },
+            {
+              "test": "White blood cell count",
+              "value": "12300",
+              "unit": "/\u03bcL",
+              "flag": "abnormal"
+            },
+            {
+              "test": "C-reactive protein",
+              "value": "17.21",
+              "unit": "mg/dL",
+              "flag": "abnormal"
+            },
+            {
+              "test": "Blood urea nitrogen",
+              "value": "46.6",
+              "unit": "mg/dL",
+              "flag": "abnormal"
+            },
+            {
+              "test": "Creatinine",
+              "value": "2.83",
+              "unit": "mg/dL",
+              "flag": "abnormal"
+            }
+          ]
+        }
+      }
+    },
+    {
+      "id": "N6",
+      "label": "Step 6",
+      "customData": {
+        "node_id": "F",
+        "node_step_index": 5,
+        "content": "Contrast-enhanced CT showed extensive pneumatosis from the esophagus to the stomach and upper part of the small intestine, minute gas in the portal vein, but no obvious intestinal ischemia. A nasogastric tube was inserted for gastric decompression.",
+        "clinical_data": {
+          "imaging": [
+            {
+              "type": "Computed tomography angiography",
+              "body_part": "Esophagus",
+              "modality": "CT",
+              "finding": "pneumatosis from the esophagus to the stomach and upper part of the small intestine",
+              "date": null
+            },
+            {
+              "type": "Computed tomography angiography",
+              "body_part": "Portal vein",
+              "modality": "CT",
+              "finding": "minute gas in the portal vein",
+              "date": null
+            },
+            {
+              "type": "Computed tomography angiography",
+              "body_part": "Intestine",
+              "modality": "CT",
+              "finding": "no obvious intestinal ischemia",
+              "date": null
+            }
+          ],
+          "procedures": [
+            {
+              "name": "Nasogastric intubation",
+              "date": null,
+              "outcome": "gastric decompression"
+            }
+          ]
+        }
+      }
+    },
+    {
+      "id": "N7",
+      "label": "Step 7",
+      "customData": {
+        "node_id": "G",
+        "node_step_index": 6,
+        "content": "Lactate level reduced to 2.5 mmol/L. Conservative treatment with fasting, fluid replacement, and meropenem (1 g intravenously every 12 h) administration in the intensive care unit was performed.",
+        "clinical_data": {
+          "labs": [
+            {
+              "test": "Lactate level",
+              "value": "2.5",
+              "unit": "mmol/L"
+            }
+          ],
+          "medications": [
+            {
+              "drug": "Meropenem",
+              "dosage": "1 g",
+              "frequency": "every 12 h",
+              "modality": "IV"
+            }
+          ],
+          "procedures": [
+            {
+              "name": "fluid replacement"
+            },
+            {
+              "name": "fasting"
+            }
+          ]
+        }
+      }
+    },
+    {
+      "id": "N8",
+      "label": "Step 8",
+      "customData": {
+        "node_id": "H",
+        "node_step_index": 7,
+        "content": "Four days after the onset of pneumatosis intestinalis (PI), CT showed marked improvement of pneumatosis, and laboratory findings also improved.",
+        "clinical_data": {
+          "imaging": [
+            {
+              "type": "Computed tomography",
+              "body_part": "intestines",
+              "modality": "CT",
+              "finding": "marked improvement of pneumatosis",
+              "date": null
+            }
+          ],
+          "diagnoses": [
+            {
+              "code": "31481000087105",
+              "label": "Pneumatosis intestinalis",
+              "status": "resolved",
+              "onset_date": null
+            }
+          ],
+          "labs": [
+            {
+              "test": "Laboratory findings",
+              "value": "improved",
+              "unit": null,
+              "flag": "normal",
+              "reference_range": null,
+              "timestamp": null
+            }
+          ]
+        }
+      }
+    },
+    {
+      "id": "N9",
+      "label": "Step 9",
+      "customData": {
+        "node_id": "I",
+        "node_step_index": 8,
+        "content": "Upper gastrointestinal endoscopy revealed an all-around esophageal ulcer that was covered with a white coat, and no obvious fistula was found. Pneumatosis occurred due to the inflow of gas into the submucosa from this esophageal lesion.",
+        "clinical_data": {
+          "imaging": [
+            {
+              "type": "Endoscopy",
+              "body_part": "Esophagus",
+              "modality": "other",
+              "finding": "All-around esophageal ulcer covered with a white coat",
+              "date": null
+            }
+          ],
+          "diagnoses": [
+            {
+              "code": "56778009",
+              "label": "Esophageal ulcer",
+              "status": "active",
+              "onset_date": null
+            },
+            {
+              "code": "56023001",
+              "label": "Pneumatosis",
+              "status": "active",
+              "onset_date": null
+            }
+          ]
+        }
+      }
+    },
+    {
+      "id": "N10",
+      "label": "Step 10",
+      "customData": {
+        "node_id": "J",
+        "node_step_index": 9,
+        "content": "Oral intake was resumed, and his condition improved. CRT was discontinued after 48 Gy of irradiation and 4 cycles of chemotherapy (7 cycles planned). After hospital discharge, he attended the hospital as an outpatient and did not relapse for PI and lung cancer.",
+        "clinical_data": {
+          "procedures": [
+            {
+              "name": "Chemoradiotherapy",
+              "date": null,
+              "outcome": "improved"
+            }
+          ],
+          "diagnoses": [
+            {
+              "code": "C34",
+              "label": "Lung Cancer",
+              "status": "resolved",
+              "onset_date": null
+            }
+          ]
+        }
+      }
+    },
+    {
+      "id": "N11",
+      "label": "Step 11",
+      "customData": {
+        "node_id": "K",
+        "node_step_index": 10,
+        "content": "Upper gastrointestinal endoscopy showed an all-around ulcer covered with a white coat, map-like ulcer, and friable in the esophagus. Pneumatosis was distributed from the esophagus to the stomach and intestinal tract, and upper gastrointestinal endoscopy showed esophageal lesions.",
+        "clinical_data": {
+          "imaging": [
+            {
+              "type": "Upper gastrointestinal endoscopy",
+              "body_part": "esophagus",
+              "modality": "endoscopy",
+              "finding": "all-around ulcer covered with a white coat, map-like ulcer, and friable",
+              "date": null
+            },
+            {
+              "type": "Upper gastrointestinal endoscopy",
+              "body_part": "esophagus",
+              "modality": "endoscopy",
+              "finding": "esophageal lesions",
+              "date": null
+            }
+          ],
+          "diagnoses": [
+            {
+              "code": "7194000",
+              "label": "Pneumatosis",
+              "status": "active",
+              "onset_date": null
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "edges": [
+    {
+      "from": "N1",
+      "to": "N2",
+      "data": {
+        "edge_id": "A_to_B",
+        "branch_flag": true,
+        "content": "Initiation of concurrent chemoradiotherapy (CRT)."
+      }
+    },
+    {
+      "from": "N2",
+      "to": "N3",
+      "data": {
+        "edge_id": "B_to_C",
+        "branch_flag": true,
+        "content": "Development of grade 3 esophagitis and constipation as a result of concurrent chemoradiotherapy (CRT).",
+        "transition_event": {
+          "trigger_type": "symptom_onset",
+          "trigger_entities": [
+            "C0015672",
+            "C0009806"
+          ],
+          "change_type": "addition",
+          "target_domain": "symptom"
+        }
+      }
+    },
+    {
+      "from": "N3",
+      "to": "N4",
+      "data": {
+        "edge_id": "C_to_D",
+        "branch_flag": true,
+        "content": "Development of febrile neutropenia as a result of concurrent chemoradiotherapy (CRT).",
+        "transition_event": {
+          "trigger_type": "symptom_onset",
+          "trigger_entities": [
+            "C0027832"
+          ],
+          "change_type": "addition",
+          "target_domain": "symptom"
+        }
+      }
+    },
+    {
+      "from": "N4",
+      "to": "N5",
+      "data": {
+        "edge_id": "D_to_E",
+        "branch_flag": true,
+        "content": "Patient experienced daily vomiting, abdominal distension and tenderness, and abnormal lab findings (increased lactate, WBC, CRP, BUN, Cr).",
+        "transition_event": {
+          "trigger_type": "symptom_onset",
+          "trigger_entities": [
+            "C0042963"
+          ],
+          "change_type": "addition",
+          "target_domain": "symptom"
+        }
+      }
+    },
+    {
+      "from": "N5",
+      "to": "N6",
+      "data": {
+        "edge_id": "E_to_F",
+        "branch_flag": true,
+        "content": "CT scan reveals extensive pneumatosis, minute gas in the portal vein, but no obvious intestinal ischemia.",
+        "transition_event": {
+          "trigger_type": "imaging",
+          "trigger_entities": [],
+          "change_type": "progression",
+          "target_domain": "imaging"
+        }
+      }
+    },
+    {
+      "from": "N6",
+      "to": "N7",
+      "data": {
+        "edge_id": "F_to_G",
+        "branch_flag": true,
+        "content": "Lactate level reduced. Initiation of conservative treatment with fasting, fluid replacement, and meropenem administration.",
+        "transition_event": {
+          "trigger_type": "lab_change",
+          "trigger_entities": [],
+          "change_type": "deescalation",
+          "target_domain": "lab"
+        }
+      }
+    },
+    {
+      "from": "N7",
+      "to": "N8",
+      "data": {
+        "edge_id": "G_to_H",
+        "branch_flag": true,
+        "content": "Improvement of pneumatosis and laboratory findings.",
+        "transition_event": {
+          "trigger_type": "imaging",
+          "trigger_entities": [],
+          "change_type": "resolution",
+          "target_domain": "imaging"
+        }
+      }
+    },
+    {
+      "from": "N8",
+      "to": "N9",
+      "data": {
+        "edge_id": "H_to_I",
+        "branch_flag": true,
+        "content": "Upper gastrointestinal endoscopy reveals an all-around esophageal ulcer covered with a white coat, and no obvious fistula was found. Pneumatosis occurred due to the inflow of gas into the submucosa from this esophageal lesion.",
+        "transition_event": {
+          "trigger_type": "imaging",
+          "trigger_entities": [],
+          "change_type": "reinterpretation",
+          "target_domain": "imaging"
+        }
+      }
+    },
+    {
+      "from": "N9",
+      "to": "N10",
+      "data": {
+        "edge_id": "I_to_J",
+        "branch_flag": true,
+        "content": "Oral intake was resumed, and his condition improved. CRT was discontinued after 48 Gy of irradiation and 4 cycles of chemotherapy. Patient did not relapse for PI and lung cancer after hospital discharge.",
+        "transition_event": {
+          "trigger_type": "procedure",
+          "trigger_entities": [
+            "C0007159"
+          ]
+        }
+      }
+    }
+  ]
+}

@@ -1,0 +1,411 @@
+{
+  "nodes": [
+    {
+      "id": "N1",
+      "label": "Step 1",
+      "customData": {
+        "node_id": "A",
+        "node_step_index": 0,
+        "content": "November 2018: 55-year-old male presented with cough with sputum, chest distress, and breathlessness. CT scan revealed a lung mass in the lower left lobe. Brain MRI revealed brain metastases in the left frontal lobe and insula.",
+        "timestamp": "2018-11",
+        "clinical_data": {
+          "HPI": [
+            {
+              "summary": "55-year-old male presented with cough with sputum, chest distress, and breathlessness.",
+              "onset": "November 2018",
+              "associated_symptoms": [
+                "C0010200",
+                "C0008031",
+                "C0020678"
+              ]
+            }
+          ],
+          "imaging": [
+            {
+              "type": "Lung mass",
+              "body_part": "Lower left lobe",
+              "modality": "CT",
+              "date": "2018-11",
+              "finding": "Lung mass in the lower left lobe"
+            },
+            {
+              "type": "Brain metastases",
+              "body_part": "Left frontal lobe and insula",
+              "modality": "MRI",
+              "date": "2018-11",
+              "finding": "Brain metastases in the left frontal lobe and insula"
+            }
+          ]
+        }
+      }
+    },
+    {
+      "id": "N2",
+      "label": "Step 2",
+      "customData": {
+        "node_id": "B",
+        "node_step_index": 1,
+        "content": "November 19, 2018: Percutaneous lung biopsy confirmed adenocarcinoma. Clinically diagnosed with stage IVa lung adenocarcinoma (cT1cN1M1b) with an EGFR 19del mutation detected through NGS.",
+        "timestamp": "2018-11-19",
+        "clinical_data": {
+          "diagnoses": [
+            {
+              "code": "C0002827",
+              "label": "Adenocarcinoma",
+              "status": "active",
+              "onset_date": "2018-11-19"
+            },
+            {
+              "code": "C0024117",
+              "label": "Lung Adenocarcinoma",
+              "status": "active",
+              "onset_date": "2018-11-19"
+            }
+          ],
+          "procedures": [
+            {
+              "name": "C0162645",
+              "approach": "percutaneous",
+              "date": "2018-11-19",
+              "location": "lung",
+              "performed_by": null,
+              "outcome": null
+            }
+          ],
+          "labs": [
+            {
+              "test": "EGFR 19del mutation",
+              "value": "detected",
+              "unit": null,
+              "flag": "abnormal",
+              "reference_range": null,
+              "timestamp": "2018-11-19"
+            }
+          ]
+        }
+      }
+    },
+    {
+      "id": "N3",
+      "label": "Step 3",
+      "customData": {
+        "node_id": "C",
+        "node_step_index": 2,
+        "content": "December 3, 2018: Gefitinib (250 mg, once a day) was administered. Variant allele frequencies (VAFs) of the detected EGFR 19del mutation were 19.6%.",
+        "timestamp": "2018-12-03",
+        "clinical_data": {
+          "medications": [
+            {
+              "drug": "Gefitinib",
+              "dosage": "250 mg",
+              "frequency": "once a day",
+              "modality": "oral",
+              "start_date": "2018-12-03"
+            }
+          ],
+          "labs": [
+            {
+              "test": "Variant allele frequencies",
+              "value": "19.6%",
+              "unit": "%",
+              "timestamp": "2018-12-03"
+            }
+          ],
+          "diagnoses": [
+            {
+              "code": "EGFR 19del",
+              "label": "EGFR 19del mutation",
+              "status": "active",
+              "onset_date": "2018-12-03"
+            }
+          ]
+        }
+      }
+    },
+    {
+      "id": "N4",
+      "label": "Step 4",
+      "customData": {
+        "node_id": "D",
+        "node_step_index": 3,
+        "content": "December 31st 2018: Chest CT scans showed significant reduction in the original lung mass. Brain metastases almost disappeared. Partial remission (PR) and complete remission (CR) were achieved respectively.",
+        "timestamp": "2018-12-31",
+        "clinical_data": {
+          "imaging": [
+            {
+              "type": "Computed tomography",
+              "body_part": "Chest",
+              "modality": "CT",
+              "finding": "significant reduction in the original lung mass",
+              "date": "2018-12-31"
+            },
+            {
+              "type": "Computed tomography",
+              "body_part": "Brain",
+              "modality": "CT",
+              "finding": "Brain metastases almost disappeared",
+              "date": "2018-12-31"
+            }
+          ],
+          "diagnoses": [
+            {
+              "code": "C34",
+              "label": "Lung mass",
+              "status": "resolved",
+              "onset_date": null
+            },
+            {
+              "code": "C79.31",
+              "label": "Brain metastases",
+              "status": "resolved",
+              "onset_date": null
+            }
+          ]
+        }
+      }
+    },
+    {
+      "id": "N5",
+      "label": "Step 5",
+      "customData": {
+        "node_id": "E",
+        "node_step_index": 4,
+        "content": "January 2019 - June 2019: Received 6 cycles of PC regimen (pemetrexed 1 g and carboplatin 500 mg).",
+        "timestamp": "2019-01/2019-06",
+        "clinical_data": {
+          "medications": [
+            {
+              "drug": "C0974732",
+              "dosage": "1 g",
+              "frequency": "every cycle",
+              "modality": "IV",
+              "start_date": "2019-01",
+              "end_date": "2019-06",
+              "indication": "Neoplasm"
+            },
+            {
+              "drug": "C0007268",
+              "dosage": "500 mg",
+              "frequency": "every cycle",
+              "modality": "IV",
+              "start_date": "2019-01",
+              "end_date": "2019-06",
+              "indication": "Neoplasm"
+            }
+          ]
+        }
+      }
+    },
+    {
+      "id": "N6",
+      "label": "Step 6",
+      "customData": {
+        "node_id": "F",
+        "node_step_index": 5,
+        "content": "July 2019 - November 2019: Maintained with single pemetrexed (1 g) chemotherapy for 5 cycles. Regular follow-up shows partial remission (PR).",
+        "timestamp": "2019-07/2019-11",
+        "clinical_data": {
+          "medications": [
+            {
+              "drug": "C0070709",
+              "dosage": "1 g",
+              "frequency": "every 3 weeks",
+              "modality": "IV",
+              "start_date": "2019-07",
+              "end_date": "2019-11",
+              "indication": "cancer"
+            }
+          ],
+          "diagnoses": [
+            {
+              "code": "C0030705",
+              "label": "Partial remission",
+              "status": "active",
+              "onset_date": "2019-11"
+            }
+          ]
+        }
+      }
+    },
+    {
+      "id": "N7",
+      "label": "Step 7",
+      "customData": {
+        "node_id": "G",
+        "node_step_index": 6,
+        "content": "December 3, 2019: Brain MRI revealed a new craniocerebral metastasis.",
+        "timestamp": "2019-12-03",
+        "clinical_data": {
+          "imaging": [
+            {
+              "type": "Craniocerebral MRI",
+              "body_part": "Brain",
+              "modality": "MRI",
+              "finding": "New craniocerebral metastasis",
+              "date": "2019-12-03"
+            }
+          ],
+          "diagnoses": [
+            {
+              "code": "C0206324",
+              "label": "metastasis",
+              "status": "active",
+              "onset_date": "2019-12-03"
+            }
+          ]
+        }
+      }
+    },
+    {
+      "id": "N8",
+      "label": "Step 8",
+      "customData": {
+        "node_id": "H",
+        "node_step_index": 7,
+        "content": "December 18, 2019 to December 31, 2019: Administered gefitinib continually (no EGFR mutation detected) combined with brain intensity modulated radiation therapy (IMRT) (DT 3000cGy/10F whole brain).",
+        "timestamp": "2019-12-1",
+        "clinical_data": {
+          "medications": [
+            {
+              "drug": "C0974086",
+              "dosage": null,
+              "frequency": "continually",
+              "modality": null,
+              "start_date": "2019-12-18",
+              "end_date": "2019-12-31",
+              "indication": null
+            }
+          ],
+          "procedures": [
+            {
+              "name": "C1704453",
+              "approach": null,
+              "date": "2019-12-18",
+              "location": "brain",
+              "performed_by": null,
+              "outcome": null
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "edges": [
+    {
+      "from": "N1",
+      "to": "N2",
+      "data": {
+        "edge_id": "A_to_B",
+        "branch_flag": true,
+        "content": "From initial presentation with cough, chest distress, and breathlessness, the patient underwent a percutaneous lung biopsy which confirmed adenocarcinoma. NGS revealed EGFR 19del mutation, leading to a diagnosis of stage IVa lung adenocarcinoma (cT1cN1M1b)."
+      }
+    },
+    {
+      "from": "N2",
+      "to": "N3",
+      "data": {
+        "edge_id": "B_to_C",
+        "branch_flag": true,
+        "content": "Following diagnosis of stage IVa lung adenocarcinoma with EGFR 19del mutation, Gefitinib (250 mg, once a day) was initiated.",
+        "transition_event": {
+          "trigger_type": "medication_change",
+          "trigger_entities": [
+            "C0085753"
+          ],
+          "change_type": "addition",
+          "target_domain": "medication",
+          "timestamp": "2018-12-03"
+        }
+      }
+    },
+    {
+      "from": "N3",
+      "to": "N4",
+      "data": {
+        "edge_id": "C_to_D",
+        "branch_flag": true,
+        "content": "Following Gefitinib treatment, chest CT scans showed significant reduction in the original lung mass and brain metastases almost disappeared, achieving partial remission (PR) and complete remission (CR) respectively.",
+        "transition_event": {
+          "trigger_type": "imaging",
+          "trigger_entities": [
+            "C0009425",
+            "C0034091"
+          ],
+          "change_type": "resolution",
+          "target_domain": "imaging",
+          "timestamp": "2018-12-31"
+        }
+      }
+    },
+    {
+      "from": "N4",
+      "to": "N5",
+      "data": {
+        "edge_id": "D_to_E",
+        "branch_flag": true,
+        "content": "Following initial response to Gefitinib, the patient received 6 cycles of PC regimen (pemetrexed 1 g and carboplatin 500 mg).",
+        "transition_event": {
+          "trigger_type": "medication_change",
+          "trigger_entities": [
+            "C0974732",
+            "C0007268"
+          ],
+          "change_type": "addition",
+          "target_domain": "medication",
+          "timestamp": "2019-01"
+        }
+      }
+    },
+    {
+      "from": "N5",
+      "to": "N6",
+      "data": {
+        "edge_id": "E_to_F",
+        "branch_flag": true,
+        "content": "After completing 6 cycles of PC regimen, the patient was maintained with single agent pemetrexed (1 g) chemotherapy for 5 cycles, with regular follow-up showing partial remission (PR).",
+        "transition_event": {
+          "trigger_type": "medication_change",
+          "trigger_entities": [
+            "C0070709"
+          ],
+          "change_type": "addition",
+          "target_domain": "medication",
+          "timestamp": "2019-07"
+        }
+      }
+    },
+    {
+      "from": "N6",
+      "to": "N7",
+      "data": {
+        "edge_id": "F_to_G",
+        "branch_flag": true,
+        "content": "Despite maintenance therapy with pemetrexed, a brain MRI revealed a new craniocerebral metastasis.",
+        "transition_event": {
+          "trigger_type": "imaging",
+          "trigger_entities": [
+            "C0206324"
+          ],
+          "change_type": "progression",
+          "target_domain": "imaging",
+          "timestamp": "2019-12-03"
+        }
+      }
+    },
+    {
+      "from": "N7",
+      "to": "N8",
+      "data": {
+        "edge_id": "G_to_H",
+        "branch_flag": true,
+        "content": "Following the detection of a new craniocerebral metastasis, the patient was administered gefitinib continually (no EGFR mutation detected) combined with brain intensity modulated radiation therapy (IMRT) (DT 3000cGy/10F whole brain).",
+        "transition_event": {
+          "trigger_type": "procedure",
+          "trigger_entities": [
+            "C1704"
+          ]
+        }
+      }
+    }
+  ]
+}

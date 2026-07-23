@@ -1,0 +1,5 @@
+[
+    { "graph_identifier": "graph_001", "status": "incomplete" },
+    { "graph_identifier": "graph_002", "status": "completed" },
+    { "graph_identifier": "graph_003", "status": "completed" }
+  ]

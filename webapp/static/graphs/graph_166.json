@@ -1,0 +1,536 @@
+{
+  "nodes": [
+    {
+      "id": "N1",
+      "label": "Step 1",
+      "customData": {
+        "node_id": "A",
+        "node_step_index": 0,
+        "content": "48-year-old male presented to the Emergency Room with a 3-day history of worsening widespread joint pain and swelling, resulting in total debility and being bedbound. Joint swelling and pain started suddenly and was generalized to all four limbs, with the left knee being particularly painful and swollen. The patient also reported anorexia, nausea, and a lack of energy for about 2 weeks.",
+        "clinical_data": {
+          "HPI": [
+            {
+              "summary": "48-year-old male presented to the Emergency Room with a 3-day history of worsening widespread joint pain and swelling, resulting in total debility and being bedbound. Joint swelling and pain started suddenly and was generalized to all four limbs, with the left knee being particularly painful and swollen. The patient also reported anorexia, nausea, and a lack of energy for about 2 weeks.",
+              "duration": "3 days",
+              "onset": "sudden",
+              "progression": "worsening",
+              "associated_symptoms": [
+                "Anorexia",
+                "Nausea",
+                "Lack of energy"
+              ]
+            }
+          ]
+        }
+      }
+    },
+    {
+      "id": "N2",
+      "label": "Step 2",
+      "customData": {
+        "node_id": "B",
+        "node_step_index": 1,
+        "content": "Past surgical history of ORIF left tibia with nail placement following a traumatic tibial fracture. Social history: daily marijuana use, 1 pack per day smoker for 30 years, no alcohol or drug use, unemployed. Physical exam: BP 116/65, T 98.5 degrees Fahrenheit, RR 16, SPO2 100% on room air. Extremities: moderate dactylitis of all fingers and toes, pain to palpation of hands and feet, left knee pain with restricted movement, pain and swelling over left ankle, widespread finger clubbing.",
+        "clinical_data": {
+          "procedures": [
+            {
+              "name": "Open Reduction Internal Fixation of Tibia",
+              "approach": "open",
+              "location": "left tibia",
+              "outcome": "nail placement",
+              "date": null
+            }
+          ],
+          "social_history": [
+            {
+              "category": "smoking",
+              "status": "current",
+              "description": "1 pack per day for 30 years"
+            },
+            {
+              "category": "drug use",
+              "status": "current",
+              "description": "daily marijuana use"
+            },
+            {
+              "category": "alcohol",
+              "status": "never",
+              "description": "no alcohol use"
+            },
+            {
+              "category": "employment",
+              "status": "current",
+              "description": "unemployed"
+            }
+          ],
+          "vitals": [
+            {
+              "type": "Blood pressure",
+              "value": "116/65",
+              "unit": "mmHg"
+            },
+            {
+              "type": "Body temperature",
+              "value": "98.5",
+              "unit": "degrees Fahrenheit"
+            },
+            {
+              "type": "Respiratory rate",
+              "value": "16",
+              "unit": "breaths per minute"
+            },
+            {
+              "type": "Oxygen saturation",
+              "value": "100",
+              "unit": "%",
+              "description": "on room air"
+            }
+          ],
+          "physical_exam": [
+            {
+              "finding": "moderate dactylitis of all fingers and toes"
+            },
+            {
+              "finding": "pain to palpation of hands and feet"
+            },
+            {
+              "finding": "left knee pain with restricted movement"
+            },
+            {
+              "finding": "pain and swelling over left ankle"
+            },
+            {
+              "finding": "widespread finger clubbing"
+            }
+          ]
+        }
+      }
+    },
+    {
+      "id": "N3",
+      "label": "Step 3",
+      "customData": {
+        "node_id": "C",
+        "node_step_index": 2,
+        "content": "Microcytic anemia (new from 1 year prior). Chest X-ray: large oval mass in right upper lobe, may represent bulla or soft tissue mass. Admitted to general medical floor and worked up for arthritis (rheumatoid arthritis, seronegative spondyloarthropathy, disseminated gonococcal infection, or septic arthritis). Started on scheduled NSAIDs and oral glucocorticoids for symptomatic treatment of arthritis.",
+        "clinical_data": {
+          "diagnoses": [
+            {
+              "code": "D50",
+              "label": "Iron deficiency anemia",
+              "status": "active",
+              "onset_date": null
+            },
+            {
+              "code": "M06.9",
+              "label": "Rheumatoid arthritis, unspecified",
+              "status": "suspected",
+              "onset_date": null
+            },
+            {
+              "code": "M45",
+              "label": "Ankylosing spondylitis",
+              "status": "suspected",
+              "onset_date": null
+            },
+            {
+              "code": "A54.86",
+              "label": "Disseminated gonococcal infection",
+              "status": "suspected",
+              "onset_date": null
+            },
+            {
+              "code": "M00.9",
+              "label": "Septic arthritis, unspecified",
+              "status": "suspected",
+              "onset_date": null
+            }
+          ],
+          "imaging": [
+            {
+              "type": "Radiography",
+              "body_part": "Thorax",
+              "modality": "X-ray",
+              "finding": "large oval mass in right upper lobe, may represent bulla or soft tissue mass",
+              "impression": "large oval mass in right upper lobe, may represent bulla or soft tissue mass",
+              "date": null
+            }
+          ],
+          "medications": [
+            {
+              "drug": "NSAIDs",
+              "dosage": null,
+              "frequency": "scheduled",
+              "modality": "oral",
+              "start_date": null,
+              "end_date": null,
+              "indication": "arthritis"
+            },
+            {
+              "drug": "Glucocorticoids",
+              "dosage": null,
+              "frequency": null,
+              "modality": "oral",
+              "start_date": null,
+              "end_date": null,
+              "indication": "arthritis"
+            }
+          ]
+        }
+      }
+    },
+    {
+      "id": "N4",
+      "label": "Step 4",
+      "customData": {
+        "node_id": "D",
+        "node_step_index": 3,
+        "content": "Chest x-ray revealed a large lung mass. Follow-up CT scan revealed severe emphysema and a 6.5 cm x 8.7 cm x 5.8 cm mass in the right upper lobe. Comprehensive metabolic panel performed.",
+        "clinical_data": {
+          "imaging": [
+            {
+              "type": "Lung mass",
+              "body_part": "Lung",
+              "modality": "X-ray",
+              "finding": "large lung mass"
+            },
+            {
+              "type": "Lung mass",
+              "body_part": "Right upper lobe",
+              "modality": "CT",
+              "finding": "6.5 cm x 8.7 cm x 5.8 cm mass",
+              "impression": "severe emphysema"
+            }
+          ],
+          "labs": [
+            {
+              "test": "Comprehensive metabolic panel"
+            }
+          ]
+        }
+      }
+    },
+    {
+      "id": "N5",
+      "label": "Step 5",
+      "customData": {
+        "node_id": "E",
+        "node_step_index": 4,
+        "content": "Urinalysis performed. Acute hepatitis panel: negative. HIV screen: negative. Sedimentation rate: 125 mm/HR (reference 0\u201315).",
+        "clinical_data": {
+          "labs": [
+            {
+              "test": "Urinalysis",
+              "value": "performed"
+            },
+            {
+              "test": "Acute hepatitis panel",
+              "value": "negative"
+            },
+            {
+              "test": "HIV screen",
+              "value": "negative"
+            },
+            {
+              "test": "Sedimentation rate",
+              "value": "125",
+              "unit": "mm/HR",
+              "reference_range": "0\u201315",
+              "flag": "abnormal"
+            }
+          ]
+        }
+      }
+    },
+    {
+      "id": "N6",
+      "label": "Step 6",
+      "customData": {
+        "node_id": "F",
+        "node_step_index": 5,
+        "content": "Labs: C-reactive protein 261 mg/L (high). Iron profile: Iron 22 mcg/dL (low), TIBC 173 mcg/dL (low), Iron Saturation 13% (low), Ferritin 1330 ng/mL (high). ANA screen: negative. Rheumatoid factor: negative.",
+        "clinical_data": {
+          "labs": [
+            {
+              "test": "C-reactive protein",
+              "value": "261",
+              "unit": "mg/L",
+              "flag": "abnormal"
+            },
+            {
+              "test": "Iron",
+              "value": "22",
+              "unit": "mcg/dL",
+              "flag": "abnormal"
+            },
+            {
+              "test": "TIBC",
+              "value": "173",
+              "unit": "mcg/dL",
+              "flag": "abnormal"
+            },
+            {
+              "test": "Iron Saturation",
+              "value": "13",
+              "unit": "%",
+              "flag": "abnormal"
+            },
+            {
+              "test": "Ferritin",
+              "value": "1330",
+              "unit": "ng/mL",
+              "flag": "abnormal"
+            },
+            {
+              "test": "ANA screen",
+              "value": "negative",
+              "flag": "normal"
+            },
+            {
+              "test": "Rheumatoid factor",
+              "value": "negative",
+              "flag": "normal"
+            }
+          ]
+        }
+      }
+    },
+    {
+      "id": "N7",
+      "label": "Step 7",
+      "customData": {
+        "node_id": "G",
+        "node_step_index": 6,
+        "content": "Labs: Anti-CCP antibodies: negative. Gonorrhea and chlamydia PCR: negative. HLA B-27: negative. Parvovirus: IgG positive, IgM negative.",
+        "clinical_data": {
+          "labs": [
+            {
+              "test": "Anti-CCP antibodies",
+              "value": "negative"
+            },
+            {
+              "test": "Gonorrhea PCR",
+              "value": "negative"
+            },
+            {
+              "test": "Chlamydia PCR",
+              "value": "negative"
+            },
+            {
+              "test": "HLA B-27",
+              "value": "negative"
+            },
+            {
+              "test": "Parvovirus IgG",
+              "value": "positive"
+            },
+            {
+              "test": "Parvovirus IgM",
+              "value": "negative"
+            }
+          ]
+        }
+      }
+    },
+    {
+      "id": "N8",
+      "label": "Step 8",
+      "customData": {
+        "node_id": "H",
+        "node_step_index": 7,
+        "content": "Labs: ANCA screen: negative. Alpha 1 Antitrypsin: 231 mg/dL (high). Direct Coombs test: negative. Uric acid: 3 mg/dL (low).",
+        "clinical_data": {
+          "labs": [
+            {
+              "test": "ANCA screen",
+              "value": "negative"
+            },
+            {
+              "test": "Alpha 1 Antitrypsin",
+              "value": "231",
+              "unit": "mg/dL",
+              "flag": "abnormal"
+            },
+            {
+              "test": "Direct Coombs test",
+              "value": "negative"
+            },
+            {
+              "test": "Uric acid",
+              "value": "3",
+              "unit": "mg/dL",
+              "flag": "abnormal"
+            }
+          ]
+        }
+      }
+    },
+    {
+      "id": "N9",
+      "label": "Step 9",
+      "customData": {
+        "node_id": "I",
+        "node_step_index": 8,
+        "content": "TSH: 2.6 uIU/mL. Fungal immunodiffusion for Aspergillus, Coccidioides, Histoplasma, and Blastomyces: negative. Lung biopsy: Poorly differentiated non-small-cell carcinoma with numerous giant/anaplastic tumor cells. Pulmonary vessels enhance homogeneously bilaterally without evidence for filling defects.",
+        "clinical_data": {
+          "labs": [
+            {
+              "test": "Thyroid stimulating hormone measurement",
+              "value": "2.6",
+              "unit": "uIU/mL"
+            }
+          ],
+          "diagnoses": [
+            {
+              "code": "C4483",
+              "label": "Poorly differentiated non-small-cell carcinoma",
+              "status": "active"
+            }
+          ],
+          "imaging": [
+            {
+              "body_part": "Lung",
+              "modality": "biopsy",
+              "finding": "Poorly differentiated non-small-cell carcinoma with numerous giant/anaplastic tumor cells"
+            }
+          ]
+        }
+      }
+    },
+    {
+      "id": "N10",
+      "label": "Step 10",
+      "customData": {
+        "node_id": "J",
+        "node_step_index": 9,
+        "content": "Biopsy showed aggressive Non-small-cell carcinoma favoring adenocarcinoma. No metastatic disease was seen on imaging. Not a surgical candidate due to severe underlying emphysema. Instructions to follow up urgently with oncology for a PET scan, chemotherapy, and radiation.",
+        "clinical_data": {
+          "diagnoses": [
+            {
+              "code": "C2388671",
+              "label": "Non-Small Cell Lung Carcinoma",
+              "status": "active"
+            },
+            {
+              "code": "C0001757",
+              "label": "Adenocarcinoma",
+              "status": "active"
+            },
+            {
+              "code": "C0014139",
+              "label": "Emphysema",
+              "status": "active"
+            }
+          ],
+          "imaging": [
+            {
+              "finding": "No metastatic disease",
+              "impression": "No metastatic disease"
+            }
+          ],
+          "procedures": [
+            {
+              "name": "C0005767",
+              "approach": "percutaneous",
+              "outcome": "C0005767"
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "edges": [
+    {
+      "from": "N1",
+      "to": "N2",
+      "data": {
+        "edge_id": "A_to_B",
+        "branch_flag": true,
+        "content": "Transition from initial presentation to physical exam and history review. Patient's history of ORIF left tibia with nail placement following a traumatic tibial fracture and social history of daily marijuana use, 1 pack per day smoker for 30 years, no alcohol or drug use, unemployed are noted. Physical exam reveals moderate dactylitis of all fingers and toes, pain to palpation of hands and feet, left knee pain with restricted movement, pain and swelling over left ankle, widespread finger clubbing. Vitals: BP 116/65, T 98.5 degrees Fahrenheit, RR 16, SPO2 100% on room air."
+      }
+    },
+    {
+      "from": "N2",
+      "to": "N3",
+      "data": {
+        "edge_id": "B_to_C",
+        "branch_flag": true,
+        "content": "Transition from physical exam to initial workup and treatment. Microcytic anemia is noted (new from 1 year prior). Chest X-ray shows a large oval mass in right upper lobe, may represent bulla or soft tissue mass. Patient is admitted and worked up for arthritis (rheumatoid arthritis, seronegative spondyloarthropathy, disseminated gonococcal infection, or septic arthritis). Started on scheduled NSAIDs and oral glucocorticoids for symptomatic treatment of arthritis.",
+        "transition_event": {
+          "trigger_type": "medication_change",
+          "trigger_entities": [
+            "C0027541",
+            "C0018209"
+          ],
+          "change_type": "addition",
+          "target_domain": "medication"
+        }
+      }
+    },
+    {
+      "from": "N3",
+      "to": "N4",
+      "data": {
+        "edge_id": "C_to_D",
+        "branch_flag": true,
+        "content": "Transition from initial imaging to follow-up imaging. Chest x-ray revealed a large lung mass. Follow-up CT scan revealed severe emphysema and a 6.5 cm x 8.7 cm x 5.8 cm mass in the right upper lobe. Comprehensive metabolic panel performed.",
+        "transition_event": {
+          "trigger_type": "imaging",
+          "trigger_entities": [
+            "C0205168"
+          ],
+          "change_type": "progression",
+          "target_domain": "imaging"
+        }
+      }
+    },
+    {
+      "from": "N4",
+      "to": "N5",
+      "data": {
+        "edge_id": "D_to_E",
+        "branch_flag": true,
+        "content": "Transition from imaging to further lab investigations. Urinalysis performed. Acute hepatitis panel: negative. HIV screen: negative. Sedimentation rate: 125 mm/HR (reference 0\u201315).",
+        "transition_event": {
+          "trigger_type": "lab_change",
+          "trigger_entities": [
+            "C0042050",
+            "C0019604"
+          ],
+          "change_type": "other",
+          "target_domain": "lab"
+        }
+      }
+    },
+    {
+      "from": "N5",
+      "to": "N6",
+      "data": {
+        "edge_id": "E_to_F",
+        "branch_flag": true,
+        "content": "Transition from initial labs to further lab investigations. C-reactive protein 261 mg/L (high). Iron profile: Iron 22 mcg/dL (low), TIBC 173 mcg/dL (low), Iron Saturation 13% (low), Ferritin 1330 ng/mL (high). ANA screen: negative. Rheumatoid factor: negative.",
+        "transition_event": {
+          "trigger_type": "lab_change",
+          "trigger_entities": [
+            "C0009450",
+            "C0022248"
+          ],
+          "change_type": "other",
+          "target_domain": "lab"
+        }
+      }
+    },
+    {
+      "from": "N6",
+      "to": "N7",
+      "data": {
+        "edge_id": "F_to_G",
+        "branch_flag": true,
+        "content": "Transition from lab results to more specific infectious disease and rheumatologic testing. Anti-CCP antibodies: negative. Gonorrhea and chlamydia PCR: negative. HLA B-27: negative. Parvovirus: IgG positive, IgM negative.",
+        "transition_event": {
+          "trigger_type": ""
+        }
+      }
+    }
+  ]
+}

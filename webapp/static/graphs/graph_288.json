@@ -1,0 +1,409 @@
+{
+  "nodes": [
+    {
+      "id": "N1",
+      "label": "Step 1",
+      "customData": {
+        "node_id": "A",
+        "node_step_index": 0,
+        "content": "60-year-old man diagnosed with locally advanced NSCLC (cT3N1M0, stage IIIA).",
+        "clinical_data": {
+          "diagnoses": [
+            {
+              "code": "C0027051",
+              "label": "Non-Small Cell Lung Carcinoma",
+              "status": "active",
+              "onset_date": null
+            }
+          ]
+        }
+      }
+    },
+    {
+      "id": "N2",
+      "label": "Step 2",
+      "customData": {
+        "node_id": "B",
+        "node_step_index": 1,
+        "content": "Patient underwent concurrent chemoradiotherapy with two cycles of cisplatin (60\u2009mg/m2) plus tegafur\u2010gimeracil\u2010oteracil (120\u2009mg/day) in combination with concurrent radiotherapy (60 Gy/30 fr).",
+        "clinical_data": {
+          "medications": [
+            {
+              "drug": "C0008833",
+              "dosage": "60 mg/m2",
+              "frequency": null,
+              "modality": null,
+              "start_date": null,
+              "end_date": null,
+              "indication": null
+            },
+            {
+              "drug": "tegafur\u2010gimeracil\u2010oteracil",
+              "dosage": "120 mg/day",
+              "frequency": null,
+              "modality": null,
+              "start_date": null,
+              "end_date": null,
+              "indication": null
+            }
+          ],
+          "procedures": [
+            {
+              "name": "C0030678",
+              "approach": null,
+              "date": null,
+              "location": null,
+              "performed_by": null,
+              "outcome": null
+            }
+          ]
+        }
+      }
+    },
+    {
+      "id": "N3",
+      "label": "Step 3",
+      "customData": {
+        "node_id": "C",
+        "node_step_index": 2,
+        "content": "Developed grade 3 neutropenia and thrombocytopenia, requiring dose reduction in the second course of chemotherapy.",
+        "clinical_data": {
+          "labs": [
+            {
+              "test": "Neutropenia",
+              "value": "grade 3",
+              "flag": "abnormal"
+            },
+            {
+              "test": "Thrombocytopenia",
+              "value": "grade 3",
+              "flag": "abnormal"
+            }
+          ]
+        }
+      }
+    },
+    {
+      "id": "N4",
+      "label": "Step 4",
+      "customData": {
+        "node_id": "D",
+        "node_step_index": 3,
+        "content": "Completed chemoradiotherapy.",
+        "clinical_data": {}
+      }
+    },
+    {
+      "id": "N5",
+      "label": "Step 5",
+      "customData": {
+        "node_id": "E",
+        "node_step_index": 4,
+        "content": "Maintenance therapy with durvalumab was postponed due to sustained thrombocytopenia.",
+        "clinical_data": {
+          "medications": [
+            {
+              "drug": "C3876459",
+              "dosage": null,
+              "frequency": null,
+              "modality": null,
+              "start_date": null,
+              "end_date": null,
+              "indication": null
+            }
+          ],
+          "labs": [
+            {
+              "test": "C0040034",
+              "value": null,
+              "unit": null,
+              "flag": null,
+              "reference_range": null,
+              "timestamp": null
+            }
+          ]
+        }
+      }
+    },
+    {
+      "id": "N6",
+      "label": "Step 6",
+      "customData": {
+        "node_id": "F",
+        "node_step_index": 5,
+        "content": "Coagulation test showed hyperfibrinolysis.",
+        "clinical_data": {
+          "labs": [
+            {
+              "test": "Hyperfibrinolysis",
+              "value": "positive",
+              "unit": null,
+              "flag": "abnormal"
+            }
+          ]
+        }
+      }
+    },
+    {
+      "id": "N7",
+      "label": "Step 7",
+      "customData": {
+        "node_id": "G",
+        "node_step_index": 6,
+        "content": "Durvalumab initiated one month later after platelet count recovered to 142 x 10^3/\u03bcL.",
+        "clinical_data": {
+          "medications": [
+            {
+              "drug": "Durvalumab",
+              "start_date": " date one month later"
+            }
+          ],
+          "labs": [
+            {
+              "test": "Platelet count",
+              "value": "142",
+              "unit": "x 10^3/\u03bcL"
+            }
+          ]
+        }
+      }
+    },
+    {
+      "id": "N8",
+      "label": "Step 8",
+      "customData": {
+        "node_id": "H",
+        "node_step_index": 7,
+        "content": "Thrombocytopenia emerged soon after durvalumab initiation, with platelet count at a minimum level of 55 x 10^3/\u03bcL, despite normal hemoglobin concentration and white cell counts.",
+        "clinical_data": {
+          "labs": [
+            {
+              "test": "Platelet count",
+              "value": "55",
+              "unit": "x 10^3/\u03bcL",
+              "flag": "abnormal"
+            }
+          ],
+          "diagnoses": [
+            {
+              "code": "D69.6",
+              "label": "Thrombocytopenia, unspecified",
+              "status": "active"
+            }
+          ],
+          "medications": [
+            {
+              "drug": "Durvalumab",
+              "indication": "Thrombocytopenia"
+            }
+          ]
+        }
+      }
+    },
+    {
+      "id": "N9",
+      "label": "Step 9",
+      "customData": {
+        "node_id": "I",
+        "node_step_index": 8,
+        "content": "Durvalumab discontinued after five cycles because thrombocytopenia did not ameliorate.",
+        "clinical_data": {
+          "medications": [
+            {
+              "drug": "Durvalumab",
+              "dosage": null,
+              "frequency": null,
+              "modality": null,
+              "start_date": null,
+              "end_date": null,
+              "indication": null
+            }
+          ],
+          "diagnoses": [
+            {
+              "code": "Thrombocytopenia",
+              "label": "Thrombocytopenia",
+              "status": "active",
+              "onset_date": null
+            }
+          ]
+        }
+      }
+    },
+    {
+      "id": "N10",
+      "label": "Step 10",
+      "customData": {
+        "node_id": "J",
+        "node_step_index": 9,
+        "content": "Platelet-associated IgG (PA-IgG) level approximately twice the normal level.",
+        "clinical_data": {
+          "labs": [
+            {
+              "test": "Platelet-associated IgG",
+              "value": "approximately twice the normal level",
+              "unit": null,
+              "flag": "abnormal"
+            }
+          ]
+        }
+      }
+    },
+    {
+      "id": "N11",
+      "label": "Step 11",
+      "customData": {
+        "node_id": "K",
+        "node_step_index": 10,
+        "content": "Bone marrow examination: normoplastic, no cancer invasion, blastic proliferation, myelodysplasia, or myelofibrosis, megakaryocyte depletion demonstrated. Bone marrow smear: nucleated cell counts 56 000/\u03bcL, slight hypoplasia.",
+        "clinical_data": {
+          "labs": [
+            {
+              "test": "Bone marrow examination",
+              "finding": "normoplastic, no cancer invasion, blastic proliferation, myelodysplasia, or myelofibrosis, megakaryocyte depletion demonstrated"
+            },
+            {
+              "test": "Bone marrow smear",
+              "value": "56000",
+              "unit": "/\u03bcL",
+              "finding": "slight hypoplasia"
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "edges": [
+    {
+      "from": "N1",
+      "to": "N2",
+      "data": {
+        "edge_id": "A_to_B",
+        "branch_flag": true,
+        "content": "Initiation of concurrent chemoradiotherapy with cisplatin and tegafur\u2010gimeracil\u2010oteracil in combination with radiotherapy for locally advanced NSCLC."
+      }
+    },
+    {
+      "from": "N2",
+      "to": "N3",
+      "data": {
+        "edge_id": "B_to_C",
+        "branch_flag": true,
+        "content": "Development of grade 3 neutropenia and thrombocytopenia during chemoradiotherapy.",
+        "transition_event": {
+          "trigger_type": "lab_change",
+          "trigger_entities": [
+            "C0029307",
+            "C0040034"
+          ],
+          "change_type": "progression",
+          "target_domain": "lab"
+        }
+      }
+    },
+    {
+      "from": "N3",
+      "to": "N4",
+      "data": {
+        "edge_id": "C_to_D",
+        "branch_flag": true,
+        "content": "Completion of chemoradiotherapy, following dose reduction due to neutropenia and thrombocytopenia."
+      }
+    },
+    {
+      "from": "N4",
+      "to": "N5",
+      "data": {
+        "edge_id": "D_to_E",
+        "branch_flag": true,
+        "content": "Postponement of durvalumab maintenance therapy due to sustained thrombocytopenia.",
+        "transition_event": {
+          "trigger_type": "medication_change",
+          "trigger_entities": [
+            "C3876459"
+          ],
+          "change_type": "discontinuation",
+          "target_domain": "medication"
+        }
+      }
+    },
+    {
+      "from": "N5",
+      "to": "N6",
+      "data": {
+        "edge_id": "E_to_F",
+        "branch_flag": true,
+        "content": "Detection of hyperfibrinolysis on coagulation test."
+      }
+    },
+    {
+      "from": "N6",
+      "to": "N7",
+      "data": {
+        "edge_id": "F_to_G",
+        "branch_flag": true,
+        "content": "Initiation of durvalumab maintenance therapy one month later, after platelet count recovery.",
+        "transition_event": {
+          "trigger_type": "medication_change",
+          "trigger_entities": [
+            "C3876459"
+          ],
+          "change_type": "addition",
+          "target_domain": "medication"
+        }
+      }
+    },
+    {
+      "from": "N7",
+      "to": "N8",
+      "data": {
+        "edge_id": "G_to_H",
+        "branch_flag": true,
+        "content": "Emergence of thrombocytopenia soon after durvalumab initiation, with a platelet count of 55 x 10^3/\u03bcL.",
+        "transition_event": {
+          "trigger_type": "symptom_onset",
+          "trigger_entities": [
+            "C0040034"
+          ],
+          "change_type": "progression",
+          "target_domain": "symptom"
+        }
+      }
+    },
+    {
+      "from": "N8",
+      "to": "N9",
+      "data": {
+        "edge_id": "H_to_I",
+        "branch_flag": true,
+        "content": "Durvalumab discontinued after five cycles due to persistent thrombocytopenia.",
+        "transition_event": {
+          "trigger_type": "medication_change",
+          "trigger_entities": [
+            "C3876459"
+          ],
+          "change_type": "discontinuation",
+          "target_domain": "medication"
+        }
+      }
+    },
+    {
+      "from": "N9",
+      "to": "N10",
+      "data": {
+        "edge_id": "I_to_J",
+        "branch_flag": true,
+        "content": "Elevated platelet-associated IgG (PA-IgG) level."
+      }
+    },
+    {
+      "from": "N10",
+      "to": "N11",
+      "data": {
+        "edge_id": "J_to_K",
+        "branch_flag": true,
+        "content": "Bone marrow examination reveals normoplastic marrow with megakaryocyte depletion and slight hypoplasia on smear."
+      }
+    }
+  ]
+}

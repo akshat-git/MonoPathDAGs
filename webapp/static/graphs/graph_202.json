@@ -1,0 +1,342 @@
+{
+  "nodes": [
+    {
+      "id": "N1",
+      "label": "Step 1",
+      "customData": {
+        "node_id": "A",
+        "node_step_index": 0,
+        "content": "39-year-old man presented with episodes of dyspnea 6 months prior to hospital admission. Past medical and family histories were unremarkable.",
+        "clinical_data": {
+          "HPI": [
+            {
+              "summary": "39-year-old man presented with episodes of dyspnea 6 months prior to hospital admission.",
+              "duration": "6 months",
+              "onset": "6 months prior to hospital admission",
+              "progression": "unknown",
+              "associated_symptoms": [
+                "Dyspnea"
+              ]
+            }
+          ],
+          "social_history": [
+            {
+              "category": "family history",
+              "status": "unremarkable",
+              "description": "unremarkable"
+            }
+          ]
+        }
+      }
+    },
+    {
+      "id": "N2",
+      "label": "Step 2",
+      "customData": {
+        "node_id": "B",
+        "node_step_index": 1,
+        "content": "Chest computed tomography (CT) revealed multiple pulmonary nodules in a diffuse pattern, accompanied by bilateral pleural effusion.",
+        "clinical_data": {
+          "imaging": [
+            {
+              "type": "Pulmonary nodule",
+              "body_part": "Lung",
+              "modality": "CT",
+              "finding": "multiple pulmonary nodules in a diffuse pattern",
+              "impression": "multiple pulmonary nodules in a diffuse pattern, accompanied by bilateral pleural effusion",
+              "date": null
+            },
+            {
+              "type": "Pleural Effusion",
+              "body_part": "Pleura",
+              "modality": "CT",
+              "finding": "bilateral pleural effusion",
+              "impression": "multiple pulmonary nodules in a diffuse pattern, accompanied by bilateral pleural effusion",
+              "date": null
+            }
+          ]
+        }
+      }
+    },
+    {
+      "id": "N3",
+      "label": "Step 3",
+      "customData": {
+        "node_id": "C",
+        "node_step_index": 2,
+        "content": "Aspiration of the pleural effusion was bloody, and analysis of the fluid confirmed that it was an exudate.",
+        "clinical_data": {
+          "labs": [
+            {
+              "test": "Pleural Effusion Analysis",
+              "value": "exudate",
+              "unit": null,
+              "flag": null,
+              "reference_range": null,
+              "timestamp": null
+            }
+          ],
+          "procedures": [
+            {
+              "name": "Aspiration",
+              "approach": null,
+              "date": null,
+              "location": "pleural effusion",
+              "performed_by": null,
+              "outcome": null
+            }
+          ]
+        }
+      }
+    },
+    {
+      "id": "N4",
+      "label": "Step 4",
+      "customData": {
+        "node_id": "D",
+        "node_step_index": 3,
+        "content": "Pleural biopsy was performed. Gross examination showed 4 irregular pieces of cream-gray, soft and rubbery tissue measuring 1.5x1x0.3 cm together. Microscopic examination showed portions of neoplastic tissue, as well as fragments of fibrous connective tissue with mesothelium lining infiltrated by a neoplasm composed of large cells with round to oval nuclei and a moderate amount of clear cytoplasm. Mild nuclear pleomorphism and intercellular capillary-sized vessels were two noteworthy findings.",
+        "clinical_data": {
+          "procedures": [
+            {
+              "name": "Pleural biopsy",
+              "date": null,
+              "location": "pleural cavity"
+            }
+          ],
+          "imaging": [
+            {
+              "type": "Neoplasm",
+              "body_part": "Pleural cavity",
+              "modality": "Microscopic examination",
+              "finding": "portions of neoplastic tissue, as well as fragments of fibrous connective tissue with mesothelium lining infiltrated by a neoplasm composed of large cells with round to oval nuclei and a moderate amount of clear cytoplasm. Mild nuclear pleomorphism and intercellular capillary-sized vessels"
+            }
+          ]
+        }
+      }
+    },
+    {
+      "id": "N5",
+      "label": "Step 5",
+      "customData": {
+        "node_id": "E",
+        "node_step_index": 4,
+        "content": "Immunohistochemistry study revealed tumor cells were strongly positive for CD10, Carbonic anhydrase IX, EMA, Pan CK and showed negative results for CK7, CK20, NapsinA, TTF1, Calretinin, WT1, CDX2, Inhibin and PSA. Tumor was diagnosed to be compatible with metastatic RCC, of the clear cell type.",
+        "clinical_data": {
+          "diagnoses": [
+            {
+              "code": "C0007083",
+              "label": "Clear cell renal cell carcinoma",
+              "status": "active"
+            },
+            {
+              "code": "C0025202",
+              "label": "Neoplasm Metastasis",
+              "status": "active"
+            }
+          ],
+          "labs": [
+            {
+              "test": "C0007134",
+              "value": "positive",
+              "unit": null,
+              "flag": null,
+              "reference_range": null
+            },
+            {
+              "test": "C1445740",
+              "value": "positive",
+              "unit": null,
+              "flag": null,
+              "reference_range": null
+            },
+            {
+              "test": "C0223840",
+              "value": "positive",
+              "unit": null,
+              "flag": null,
+              "reference_range": null
+            },
+            {
+              "test": "C0225424",
+              "value": "positive",
+              "unit": null,
+              "flag": null,
+              "reference_range": null
+            },
+            {
+              "test": "C0007134",
+              "value": "negative",
+              "unit": null,
+              "flag": null,
+              "reference_range": null
+            },
+            {
+              "test": "C0007134",
+              "value": "negative",
+              "unit": null,
+              "flag": null,
+              "reference_range": null
+            },
+            {
+              "test": "C0007134",
+              "value": "negative",
+              "unit": null,
+              "flag": null,
+              "reference_range": null
+            },
+            {
+              "test": "C0007134",
+              "value": "negative",
+              "unit": null,
+              "flag": null,
+              "reference_range": null
+            },
+            {
+              "test": "C0007134",
+              "value": "negative",
+              "unit": null,
+              "flag": null,
+              "reference_range": null
+            },
+            {
+              "test": "C0007134",
+              "value": "negative",
+              "unit": null,
+              "flag": null,
+              "reference_range": null
+            },
+            {
+              "test": "C0007134",
+              "value": "negative",
+              "unit": null,
+              "flag": null,
+              "reference_range": null
+            }
+          ]
+        }
+      }
+    },
+    {
+      "id": "N6",
+      "label": "Step 6",
+      "customData": {
+        "node_id": "F",
+        "node_step_index": 5,
+        "content": "Abdominal contrast computed tomography (CT) showed a 3 cm right renal mass.",
+        "clinical_data": {
+          "imaging": [
+            {
+              "type": "Computed tomography",
+              "body_part": "kidney",
+              "modality": "CT",
+              "finding": "3 cm right renal mass"
+            }
+          ]
+        }
+      }
+    },
+    {
+      "id": "N7",
+      "label": "Step 7",
+      "customData": {
+        "node_id": "G",
+        "node_step_index": 6,
+        "content": "Partial nephrectomy to remove the mass was performed.",
+        "clinical_data": {
+          "procedures": [
+            {
+              "name": "Partial nephrectomy",
+              "approach": "open",
+              "location": "kidney",
+              "outcome": "removed mass"
+            }
+          ]
+        }
+      }
+    },
+    {
+      "id": "N8",
+      "label": "Step 8",
+      "customData": {
+        "node_id": "H",
+        "node_step_index": 7,
+        "content": "Histopathology of the mass revealed clear cell",
+        "clinical_data": {
+          "diagnoses": [
+            {
+              "code": "C4022",
+              "label": "Clear cell sarcoma",
+              "status": "active"
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "edges": [
+    {
+      "from": "N1",
+      "to": "N2",
+      "data": {
+        "edge_id": "A_to_B",
+        "branch_flag": true,
+        "content": "Patient developed multiple pulmonary nodules in a diffuse pattern, accompanied by bilateral pleural effusion."
+      }
+    },
+    {
+      "from": "N2",
+      "to": "N3",
+      "data": {
+        "edge_id": "B_to_C",
+        "branch_flag": true,
+        "content": "Pleural effusion was aspirated and found to be bloody exudate."
+      }
+    },
+    {
+      "from": "N3",
+      "to": "N4",
+      "data": {
+        "edge_id": "C_to_D",
+        "branch_flag": true,
+        "content": "Pleural biopsy was performed and microscopic examination showed portions of neoplastic tissue, as well as fragments of fibrous connective tissue with mesothelium lining infiltrated by a neoplasm composed of large cells with round to oval nuclei and a moderate amount of clear cytoplasm. Mild nuclear pleomorphism and intercellular capillary-sized vessels were two noteworthy findings."
+      }
+    },
+    {
+      "from": "N4",
+      "to": "N5",
+      "data": {
+        "edge_id": "D_to_E",
+        "branch_flag": true,
+        "content": "Immunohistochemistry study revealed tumor cells were strongly positive for CD10, Carbonic anhydrase IX, EMA, Pan CK and showed negative results for CK7, CK20, NapsinA, TTF1, Calretinin, WT1, CDX2, Inhibin and PSA. Tumor was diagnosed to be compatible with metastatic RCC, of the clear cell type."
+      }
+    },
+    {
+      "from": "N5",
+      "to": "N6",
+      "data": {
+        "edge_id": "E_to_F",
+        "branch_flag": true,
+        "content": "Abdominal contrast computed tomography (CT) showed a 3 cm right renal mass."
+      }
+    },
+    {
+      "from": "N6",
+      "to": "N7",
+      "data": {
+        "edge_id": "F_to_G",
+        "branch_flag": true,
+        "content": "Partial nephrectomy to remove the mass was performed."
+      }
+    },
+    {
+      "from": "N7",
+      "to": "N8",
+      "data": {
+        "edge_id": "G_to_H",
+        "branch_flag": true,
+        "content": "Histopathology of the mass revealed clear cell"
+      }
+    }
+  ]
+}

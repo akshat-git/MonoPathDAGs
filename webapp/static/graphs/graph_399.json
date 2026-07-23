@@ -1,0 +1,350 @@
+{
+  "nodes": [
+    {
+      "id": "N1",
+      "label": "Step 1",
+      "customData": {
+        "node_id": "A",
+        "node_step_index": 0,
+        "content": "73-year-old female presented with unsteadiness, headaches, and difficulty walking. The patient was a current smoker. No abnormalities were noted on screening performed two years earlier.",
+        "clinical_data": {
+          "HPI": [
+            {
+              "summary": "73-year-old female presented with unsteadiness, headaches, and difficulty walking.",
+              "associated_symptoms": [
+                "C0018681",
+                "C0018681",
+                "C0014544"
+              ]
+            }
+          ],
+          "social_history": [
+            {
+              "category": "smoking",
+              "status": "current"
+            }
+          ]
+        }
+      }
+    },
+    {
+      "id": "N2",
+      "label": "Step 2",
+      "customData": {
+        "node_id": "B",
+        "node_step_index": 1,
+        "content": "Diagnosis of treatment-na\u00efve extensive-stage SCLC with multiple symptomatic brain metastases, including a >3.8-cm cerebellar lesion and two adjacent lesions.",
+        "clinical_data": {
+          "diagnoses": [
+            {
+              "code": "C34",
+              "label": "Small cell lung cancer",
+              "status": "active"
+            },
+            {
+              "code": "C79.31",
+              "label": "Secondary malignant neoplasm of brain",
+              "status": "active"
+            }
+          ],
+          "imaging": [
+            {
+              "type": "Lesion",
+              "body_part": "Cerebellum",
+              "modality": "MRI",
+              "finding": ">3.8-cm cerebellar lesion",
+              "date": null
+            },
+            {
+              "type": "Lesion",
+              "body_part": "Brain",
+              "modality": "MRI",
+              "finding": "Two adjacent lesions",
+              "date": null
+            }
+          ]
+        }
+      }
+    },
+    {
+      "id": "N3",
+      "label": "Step 3",
+      "customData": {
+        "node_id": "C",
+        "node_step_index": 2,
+        "content": "Karnofsky performance scale (KPS) score of 60. Contrast-enhanced (CE) MRI of the brain revealed 15 enhancing lesions, including a large cerebellar lesion (\u22653.8 cm, 17.7 cm3), all of which were indicative of BMs. CE-T1-WIs show a well-demarcated lesion with the dominance of the peripheral enhancement (3.8 cm in the maximum diameter, 17.7 cm3in the volume) on CE-T1-WIs is observed as the heterogeneous intensity mass associated with mild perilesional edema on T2-WI. The lesion reaches the cerebellar surface at the ventrolateral and caudal sides and appears to extend beyond it in some areas. In the ipsilateral hemisphere, a 1.1 cm solid lesion (0.8 cm3) is located adjacent to the 3.8 cm lesion, and a 0.9 cm lesion (0.3 cm3) is located less than 1 cm away from the 3.8 cm lesion.",
+        "clinical_data": {
+          "functional_status": [
+            {
+              "domain": "general",
+              "description": "Karnofsky performance scale score of 60",
+              "score": 60,
+              "scale": "Karnofsky performance scale"
+            }
+          ],
+          "imaging": [
+            {
+              "type": "brain MRI",
+              "body_part": "brain",
+              "modality": "MRI",
+              "finding": "15 enhancing lesions",
+              "date": null
+            },
+            {
+              "type": "brain MRI",
+              "body_part": "cerebellum",
+              "modality": "MRI",
+              "finding": "large cerebellar lesion (\u22653.8 cm, 17.7 cm3)",
+              "date": null
+            },
+            {
+              "type": "brain MRI",
+              "body_part": "brain",
+              "modality": "MRI",
+              "finding": "well-demarcated lesion with the dominance of the peripheral enhancement (3.8 cm in the maximum diameter, 17.7 cm3in the volume)",
+              "date": null
+            },
+            {
+              "type": "brain MRI",
+              "body_part": "brain",
+              "modality": "MRI",
+              "finding": "heterogeneous intensity mass associated with mild perilesional edema",
+              "date": null
+            },
+            {
+              "type": "brain MRI",
+              "body_part": "cerebellum",
+              "modality": "MRI",
+              "finding": "lesion reaches the cerebellar surface at the ventrolateral and caudal sides and appears to extend beyond it in some areas",
+              "date": null
+            },
+            {
+              "type": "brain MRI",
+              "body_part": "cerebellum",
+              "modality": "MRI",
+              "finding": "1.1 cm solid lesion (0.8 cm3) is located adjacent to the 3.8 cm lesion",
+              "date": null
+            },
+            {
+              "type": "brain MRI",
+              "body_part": "cerebellum",
+              "modality": "MRI",
+              "finding": "0.9 cm lesion (0.3 cm3) is located less than 1 cm away from the 3.8 cm lesion",
+              "date": null
+            }
+          ],
+          "diagnoses": [
+            {
+              "code": "C0242964",
+              "label": "Brain Metastasis",
+              "status": "active",
+              "onset_date": null
+            }
+          ]
+        }
+      }
+    },
+    {
+      "id": "N4",
+      "label": "Step 4",
+      "customData": {
+        "node_id": "D",
+        "node_step_index": 3,
+        "content": "Brain radiotherapy and CIT were concurrently performed for the ES-SCLC. Concurrent conventional WBRT without local boost and chemoimmunotherapy resulted in remarkable regression of the brain metastases without local progression for 20 months. Thirteen days after the initial MRI scan, the neurological symptoms had stabilized. WBRT (30 Gy in 10 fractions) with two-dimensional irradiation using two opposed fields was initiated. Etoposide plus carboplatin (EC) was administered one day after WBRT initiation, and atezolizumab was administered seven days after WBRT completion.",
+        "clinical_data": {
+          "procedures": [
+            {
+              "name": "Radiotherapy of brain",
+              "date": null,
+              "approach": null,
+              "location": "brain",
+              "performed_by": null,
+              "outcome": null
+            },
+            {
+              "name": "Whole brain radiation therapy",
+              "date": null,
+              "approach": null,
+              "location": "brain",
+              "performed_by": null,
+              "outcome": null
+            }
+          ],
+          "medications": [
+            {
+              "drug": "etoposide",
+              "dosage": null,
+              "frequency": null,
+              "modality": null,
+              "start_date": null,
+              "end_date": null,
+              "indication": "small cell lung cancer"
+            },
+            {
+              "drug": "carboplatin",
+              "dosage": null,
+              "frequency": null,
+              "modality": null,
+              "start_date": null,
+              "end_date": null,
+              "indication": "small cell lung cancer"
+            },
+            {
+              "drug": "atezolizumab",
+              "dosage": null,
+              "frequency": null,
+              "modality": null,
+              "start_date": null,
+              "end_date": null,
+              "indication": "small cell lung cancer"
+            }
+          ],
+          "imaging": [
+            {
+              "type": "MRI scan",
+              "body_part": "brain",
+              "modality": "MRI",
+              "finding": "brain metastases regression",
+              "impression": "brain metastases regression",
+              "date": null
+            }
+          ]
+        }
+      }
+    },
+    {
+      "id": "N5",
+      "label": "Step 5",
+      "customData": {
+        "node_id": "E",
+        "node_step_index": 4,
+        "content": "At 4.9 months after WBRT initiation, the large cerebellar lesion remarkably decreased in size, along with significant attenuation of the enhancing effect, and the two adjacent lesions regressed completely. Before WBRT initiation, nine out of the 15 lesions are visible as solid enhancing masses. The right cerebellar lesion regressed markedly. At 4.9 months after WBRT initiation, all nine lesions regressed",
+        "clinical_data": {
+          "imaging": [
+            {
+              "type": "Lesion",
+              "body_part": "Cerebellum",
+              "modality": "MRI",
+              "finding": "Decreased in size",
+              "date": "4.9 months after WBRT initiation"
+            },
+            {
+              "type": "Lesion",
+              "body_part": "Cerebellum",
+              "modality": "MRI",
+              "finding": "Attenuation of enhancing effect",
+              "date": "4.9 months after WBRT initiation"
+            },
+            {
+              "type": "Lesion",
+              "body_part": "Cerebellum",
+              "modality": "MRI",
+              "finding": "Regressed completely",
+              "date": "4.9 months after WBRT initiation"
+            },
+            {
+              "type": "Lesion",
+              "body_part": "Cerebellum",
+              "modality": "MRI",
+              "finding": "Solid enhancing masses",
+              "date": "Before WBRT initiation"
+            },
+            {
+              "type": "Lesion",
+              "body_part": "Cerebellum",
+              "modality": "MRI",
+              "finding": "Regressed markedly",
+              "date": "Before WBRT initiation"
+            },
+            {
+              "type": "Lesion",
+              "body_part": "Cerebellum",
+              "modality": "MRI",
+              "finding": "Regressed",
+              "date": "4.9 months after WBRT initiation"
+            }
+          ],
+          "procedures": [
+            {
+              "name": "Whole Brain Radiation Therapy",
+              "date": "4.9 months prior"
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "edges": [
+    {
+      "from": "N1",
+      "to": "N2",
+      "data": {
+        "edge_id": "A_to_B",
+        "branch_flag": true,
+        "content": "Transition from initial presentation to diagnosis of extensive-stage SCLC with brain metastases.",
+        "transition_event": {
+          "trigger_type": "interpretation",
+          "trigger_entities": [
+            "C0009402",
+            "C0023893",
+            "C0242964"
+          ],
+          "change_type": "addition",
+          "target_domain": "diagnosis"
+        }
+      }
+    },
+    {
+      "from": "N2",
+      "to": "N3",
+      "data": {
+        "edge_id": "B_to_C",
+        "branch_flag": true,
+        "content": "Detailed imaging and functional status assessment revealing multiple brain metastases and a KPS score of 60.",
+        "transition_event": {
+          "trigger_type": "procedure",
+          "trigger_entities": [
+            "C0025425"
+          ],
+          "change_type": "addition",
+          "target_domain": "imaging"
+        }
+      }
+    },
+    {
+      "from": "N3",
+      "to": "N4",
+      "data": {
+        "edge_id": "C_to_D",
+        "branch_flag": true,
+        "content": "Initiation of concurrent brain radiotherapy and chemoimmunotherapy (CIT) for extensive-stage SCLC.",
+        "transition_event": {
+          "trigger_type": "procedure",
+          "trigger_entities": [
+            "C0030678",
+            "C0017558"
+          ],
+          "change_type": "addition",
+          "target_domain": "procedure"
+        }
+      }
+    },
+    {
+      "from": "N4",
+      "to": "N5",
+      "data": {
+        "edge_id": "D_to_E",
+        "branch_flag": true,
+        "content": "Significant regression of brain metastases observed 4.9 months after WBRT initiation.",
+        "transition_event": {
+          "trigger_type": "procedure",
+          "trigger_entities": [
+            "C0042865"
+          ],
+          "change_type": "resolution",
+          "target_domain": "imaging"
+        }
+      }
+    }
+  ]
+}

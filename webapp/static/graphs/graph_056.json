@@ -1,0 +1,417 @@
+{
+  "nodes": [
+    {
+      "id": "N1",
+      "label": "Step 1",
+      "customData": {
+        "node_id": "A",
+        "node_step_index": 0,
+        "content": "Patient's cancer had no driver gene mutations.",
+        "clinical_data": {}
+      },
+      "custom_id": "graph_056_N0"
+    },
+    {
+      "id": "N2",
+      "label": "Step 2",
+      "customData": {
+        "node_id": "B",
+        "node_step_index": 1,
+        "content": "First-line chemotherapy with cisplatin, pemetrexed, and pembrolizumab was administered.",
+        "clinical_data": {
+          "medications": [
+            {
+              "drug": "C0008833",
+              "dosage": null,
+              "frequency": null,
+              "modality": null,
+              "start_date": null,
+              "end_date": null,
+              "indication": null
+            },
+            {
+              "drug": "C1645495",
+              "dosage": null,
+              "frequency": null,
+              "modality": null,
+              "start_date": null,
+              "end_date": null,
+              "indication": null
+            },
+            {
+              "drug": "C1776551",
+              "dosage": null,
+              "frequency": null,
+              "modality": null,
+              "start_date": null,
+              "end_date": null,
+              "indication": null
+            }
+          ],
+          "procedures": [
+            {
+              "name": "C0009331",
+              "approach": null,
+              "date": null,
+              "location": null,
+              "performed_by": null,
+              "outcome": null
+            }
+          ]
+        }
+      },
+      "custom_id": "graph_056_N1"
+    },
+    {
+      "id": "N3",
+      "label": "Step 3",
+      "customData": {
+        "node_id": "C",
+        "node_step_index": 2,
+        "content": "Second-line chemotherapy with docetaxel and ramucirumab was administered.",
+        "clinical_data": {
+          "medications": [
+            {
+              "drug": "C0013069",
+              "dosage": null,
+              "frequency": null,
+              "modality": null,
+              "start_date": null,
+              "end_date": null,
+              "indication": null
+            },
+            {
+              "drug": "C3258974",
+              "dosage": null,
+              "frequency": null,
+              "modality": null,
+              "start_date": null,
+              "end_date": null,
+              "indication": null
+            }
+          ],
+          "procedures": [
+            {
+              "name": "C0009331",
+              "approach": null,
+              "date": null,
+              "location": null,
+              "performed_by": null,
+              "outcome": null
+            }
+          ]
+        }
+      },
+      "custom_id": "graph_056_N2"
+    },
+    {
+      "id": "N4",
+      "label": "Step 4",
+      "customData": {
+        "node_id": "D",
+        "node_step_index": 3,
+        "content": "Chemotherapy was delayed for approximately one month due to the development of a perianal abscess, which required surgical intervention under local anesthesia.",
+        "clinical_data": {
+          "procedures": [
+            {
+              "name": "Surgical intervention",
+              "approach": "other",
+              "location": "perianal",
+              "performed_by": "unknown",
+              "outcome": "unknown",
+              "date": "unknown"
+            }
+          ]
+        }
+      },
+      "custom_id": "graph_056_N3"
+    },
+    {
+      "id": "N5",
+      "label": "Step 5",
+      "customData": {
+        "node_id": "E",
+        "node_step_index": 4,
+        "content": "Patient developed dyspnea the day following surgery.",
+        "clinical_data": {
+          "HPI": [
+            {
+              "summary": "Patient developed dyspnea the day following surgery.",
+              "onset": "the day following surgery",
+              "associated_symptoms": [
+                "Dyspnea"
+              ]
+            }
+          ]
+        }
+      },
+      "custom_id": "graph_056_N4"
+    },
+    {
+      "id": "N6",
+      "label": "Step 6",
+      "customData": {
+        "node_id": "F",
+        "node_step_index": 5,
+        "content": "Four days after symptom onset, the patient was admitted and was alert, afebrile (36.3 \u00b0C), slightly hypotensive with reduced pulse pressure (blood pressure 106/86 mmHg), and hypoxemic (oxygen saturation 85% on room air). Tachycardia (101 beats per minute) was present. No adventitious heart or lung sounds were noted.",
+        "clinical_data": {
+          "vitals": [
+            {
+              "type": "Body temperature",
+              "value": "36.3",
+              "unit": "\u00b0C"
+            },
+            {
+              "type": "Blood pressure",
+              "value": "106/86",
+              "unit": "mmHg"
+            },
+            {
+              "type": "Oxygen saturation",
+              "value": "85",
+              "unit": "%",
+              "condition": "on room air"
+            },
+            {
+              "type": "Heart rate",
+              "value": "101",
+              "unit": "beats per minute"
+            }
+          ],
+          "diagnoses": [
+            {
+              "code": "HP:0001892",
+              "label": "Hypoxemia",
+              "status": "active"
+            },
+            {
+              "code": "HP:0001945",
+              "label": "Tachycardia",
+              "status": "active"
+            },
+            {
+              "code": "HP:0002627",
+              "label": "Hypotension",
+              "status": "active"
+            }
+          ],
+          "HPI": [
+            {
+              "summary": "Symptom onset four days prior to admission"
+            }
+          ]
+        }
+      },
+      "custom_id": "graph_056_N5"
+    },
+    {
+      "id": "N7",
+      "label": "Step 7",
+      "customData": {
+        "node_id": "G",
+        "node_step_index": 6,
+        "content": "Patient presented with elevated D-dimer (6 \u03bcg/mL), C-reactive protein (1.96 mg/dL), brain natriuretic peptide (285 pg/mL), and carcinoembryonic antigen (CEA) levels (47.8 ng/mL). WBC 6800/\u03bcL, Neutrophils 73.70%, Eosinophils 5.10%, Basophils 1%, Monocytes 14%, Lymphocytes 4.20%, RBC 366 \u00d7 104/\u03bcL, Hemoglobin 11.2 g/dL, Hematocrit 34.30%, Platelets 13.2 \u00d7 104/\u03bcL. Arterial blood gas (room air): pH 7.431, pCO2 35.6 mmHg, pO2 68.8 mmHg, HCO3- 23.2 mEq/L. Total protein 5.7 g/dL, Albumin 3.4 g/dL, AST 14 IU/L, ALT 14 IU/L, LDH 393 IU/L, ALP 86 IU/L, Total bilirubin 0.6 mg/dL, BUN 19.5 mg/dL, Creatinine 1.08 mg/dL, Sodium 141 mEq/L, Potassium 3.7 mEq/L, Chloride 111 mEq/L. Coagulation status: PT-INR 0.95, APTT 30.4 sec.",
+        "clinical_data": {
+          "labs": [
+            {
+              "test": "D-dimer",
+              "value": "6",
+              "unit": "\u03bcg/mL",
+              "flag": "abnormal"
+            },
+            {
+              "test": "C-reactive protein",
+              "value": "1.96",
+              "unit": "mg/dL",
+              "flag": "abnormal"
+            },
+            {
+              "test": "brain natriuretic peptide",
+              "value": "285",
+              "unit": "pg/mL",
+              "flag": "abnormal"
+            },
+            {
+              "test": "carcinoembryonic antigen",
+              "value": "47.8",
+              "unit": "ng/mL",
+              "flag": "abnormal"
+            },
+            {
+              "test": "Leukocytes",
+              "value": "6800",
+              "unit": "/\u03bcL",
+              "flag": "normal"
+            },
+            {
+              "test": "Neutrophils",
+              "value": "73.70",
+              "unit": "%",
+              "flag": "normal"
+            },
+            {
+              "test": "Eosinophils",
+              "value": "5.10",
+              "unit": "%",
+              "flag": "normal"
+            },
+            {
+              "test": "Basophils",
+              "value": "1",
+              "unit": "%",
+              "flag": "normal"
+            },
+            {
+              "test": "Monocytes",
+              "value": "14",
+              "unit": "%",
+              "flag": "normal"
+            },
+            {
+              "test": "Lymphocytes",
+              "value": "4.20",
+              "unit": "%",
+              "flag": "normal"
+            },
+            {
+              "test": "Erythrocytes",
+              "value": "366",
+              "unit": "x 10^4/\u03bcL",
+              "flag": "abnormal"
+            },
+            {
+              "test": "Hemoglobin",
+              "value": "11.2",
+              "unit": "g/dL",
+              "flag": "abnormal"
+            },
+            {
+              "test": "Hematocrit",
+              "value": "34.30",
+              "unit": "%",
+              "flag": "abnormal"
+            },
+            {
+              "test": "Platelets",
+              "value": "13.2",
+              "unit": "x 10^4/\u03bcL",
+              "flag": "abnormal"
+            },
+            {
+              "test": "pH",
+              "value": "7.431",
+              "unit": null,
+              "flag": "normal"
+            },
+            {
+              "test": "pCO2",
+              "value": "35.6",
+              "unit": "mmHg",
+              "flag": "normal"
+            },
+            {
+              "test": "pO2",
+              "value": "68.8",
+              "unit": "mmHg",
+              "flag": "abnormal"
+            },
+            {
+              "test": "HCO3-",
+              "value": "23.2",
+              "unit": "mEq/L",
+              "flag": "normal"
+            },
+            {
+              "test": "Total protein",
+              "value": "5.7",
+              "unit": "g/dL",
+              "flag": "normal"
+            },
+            {
+              "test": "Albumin",
+              "value": "3.4",
+              "unit": "g/dL",
+              "flag": "normal"
+            },
+            {
+              "test": "Aspartate transaminase",
+              "value": "14",
+              "unit": "IU/L",
+              "flag": "normal"
+            },
+            {
+              "test": "Alanine transaminase",
+              "value": "14",
+              "unit": "IU/L",
+              "flag": "normal"
+            },
+            {}
+          ]
+        }
+      },
+      "custom_id": "graph_056_N6"
+    }
+  ],
+  "edges": [
+    {
+      "from": "N1",
+      "to": "N2",
+      "data": {
+        "edge_id": "A_to_B",
+        "branch_flag": true,
+        "content": "Initiation of first-line chemotherapy."
+      },
+      "custom_id": "graph_056_N1_N2"
+    },
+    {
+      "from": "N2",
+      "to": "N3",
+      "data": {
+        "edge_id": "B_to_C",
+        "branch_flag": true,
+        "content": "Progression to second-line chemotherapy."
+      },
+      "custom_id": "graph_056_N2_N3"
+    },
+    {
+      "from": "N3",
+      "to": "N4",
+      "data": {
+        "edge_id": "C_to_D",
+        "branch_flag": true,
+        "content": "Development of perianal abscess leading to chemotherapy delay and surgical intervention."
+      },
+      "custom_id": "graph_056_N3_N4"
+    },
+    {
+      "from": "N4",
+      "to": "N5",
+      "data": {
+        "edge_id": "D_to_E",
+        "branch_flag": true,
+        "content": "Post-surgical complication: onset of dyspnea."
+      },
+      "custom_id": "graph_056_N4_N5"
+    },
+    {
+      "from": "N5",
+      "to": "N6",
+      "data": {
+        "edge_id": "E_to_F",
+        "branch_flag": true,
+        "content": "Progression of dyspnea leading to admission, with associated vital sign abnormalities (hypotension, hypoxemia, tachycardia)."
+      },
+      "custom_id": "graph_056_N5_N6"
+    },
+    {
+      "from": "N6",
+      "to": "N7",
+      "data": {
+        "edge_id": "F_to_G",
+        "branch_flag": true,
+        "content": "Lab abnormalities including elevated D-dimer, C-reactive protein, brain natriuretic peptide, and CEA levels, along with abnormal CBC and arterial blood gas results."
+      },
+      "custom_id": "graph_056_N6_N7"
+    }
+  ]
+}

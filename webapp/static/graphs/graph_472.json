@@ -1,0 +1,402 @@
+{
+  "nodes": [
+    {
+      "id": "N1",
+      "label": "Step 1",
+      "customData": {
+        "node_id": "A",
+        "node_step_index": 0,
+        "content": "72-year-old male presented to the ED in October with pleuritic chest pain and active left lower extremity cellulitis on ceftazidime and daptomycin. Past medical history of restless legs syndrome, morbid obesity, sleep apnea, peripheral neuropathy, coronary artery disease due to a congenital split of the left anterior descending artery status post percutaneous transluminal coronary angioplasty with a stent, hyperlipidemia, prior L5-S1 spinal fusion, left knee arthroplasty, bilateral hip arthroplasties, and bilateral shoulder arthroplasty. Cellulitis developed in July with a recurrence in August and re-started antibiotics. In September, the patient had worsening cellulitis symptoms and was placed on daptomycin, dicloxacillin, and vancomycin.",
+        "clinical_data": {
+          "HPI": [
+            {
+              "summary": "72-year-old male presented to the ED in October with pleuritic chest pain and active left lower extremity cellulitis.",
+              "onset": "October",
+              "associated_symptoms": [
+                "Pleuritic chest pain",
+                "Cellulitis"
+              ]
+            }
+          ],
+          "diagnoses": [
+            {
+              "code": "7173000",
+              "label": "Restless legs syndrome (disorder)",
+              "status": "active"
+            },
+            {
+              "code": "238131007",
+              "label": "Morbid obesity (disorder)",
+              "status": "active"
+            },
+            {
+              "code": "29485009",
+              "label": "Sleep apnea",
+              "status": "active"
+            },
+            {
+              "code": "29885005",
+              "label": "Peripheral neuropathy",
+              "status": "active"
+            },
+            {
+              "code": "53741008",
+              "label": "Coronary artery disease",
+              "status": "active"
+            },
+            {
+              "code": "233604007",
+              "label": "Hyperlipidemia",
+              "status": "active"
+            },
+            {
+              "code": "72399001",
+              "label": "Cellulitis",
+              "status": "active"
+            }
+          ],
+          "medications": [
+            {
+              "drug": "C0007769",
+              "dosage": null,
+              "frequency": null,
+              "modality": null,
+              "start_date": null,
+              "end_date": null,
+              "indication": "72399001"
+            },
+            {
+              "drug": "C1239342",
+              "dosage": null,
+              "frequency": null,
+              "modality": null,
+              "start_date": null,
+              "end_date": null,
+              "indication": "72399001"
+            },
+            {
+              "drug": "C0012724",
+              "dosage": null,
+              "frequency": null,
+              "modality": null,
+              "start_date": null,
+              "end_date": null,
+              "indication": "72399001"
+            },
+            {
+              "drug": "C0012724",
+              "dosage": null,
+              "frequency": null,
+              "modality": null,
+              "start_date": null,
+              "end_date": null,
+              "indication": "72399001"
+            },
+            {
+              "drug": "C0012724",
+              "dosage": null,
+              "frequency": null,
+              "modality": null,
+              "start_date": null,
+              "end_date": null,
+              "indication": "72399001"
+            }
+          ],
+          "procedures": [
+            {
+              "name": "Percutaneous transluminal coronary angioplasty",
+              "approach": "percutaneous",
+              "date": null,
+              "location": "Coronary artery",
+              "performed_by": null,
+              "outcome": null
+            },
+            {
+              "name": "Spinal fusion",
+              "approach": null,
+              "date": null,
+              "location": "L5-S1",
+              "performed_by": null,
+              "outcome": null
+            },
+            {
+              "name": "Arthroplasty",
+              "approach": null,
+              "date": null,
+              "location": "Left knee",
+              "performed_by": null,
+              "outcome": null
+            },
+            {
+              "name": "Arthroplasty",
+              "approach": null,
+              "date": null,
+              "location": "Bilateral hip"
+            }
+          ]
+        }
+      }
+    },
+    {
+      "id": "N2",
+      "label": "Step 2",
+      "customData": {
+        "node_id": "B",
+        "node_step_index": 1,
+        "content": "Patient developed a peripherally inserted central catheter (PICC) line infection, and his antibiotic regimen was changed to daptomycin and ceftazidime.",
+        "clinical_data": {
+          "procedures": [
+            {
+              "name": "peripherally inserted central catheter",
+              "approach": "percutaneous",
+              "location": "peripheral vein",
+              "outcome": "infection"
+            }
+          ],
+          "medications": [
+            {
+              "drug": "Daptomycin",
+              "indication": "PICC line infection"
+            },
+            {
+              "drug": "Ceftazidime",
+              "indication": "PICC line infection"
+            }
+          ],
+          "diagnoses": [
+            {
+              "code": "T80.211A",
+              "label": "Bloodstream infection due to central venous catheter, initial encounter",
+              "status": "active"
+            }
+          ]
+        }
+      }
+    },
+    {
+      "id": "N3",
+      "label": "Step 3",
+      "customData": {
+        "node_id": "C",
+        "node_step_index": 2,
+        "content": "Patient presented to the ED with new chest pain described as left-sided, non-radiating pressure, exertional and pleuritic in nature, associated with shortness of breath. He was tachypneic with a respiratory rate of 36 but afebrile and normotensive. Electrocardiogram showed normal sinus rhythm with a right bundle branch block.",
+        "clinical_data": {
+          "HPI": [
+            {
+              "summary": "Patient presented to the ED with new chest pain described as left-sided, non-radiating pressure, exertional and pleuritic in nature, associated with shortness of breath.",
+              "onset": "new",
+              "progression": "unknown",
+              "associated_symptoms": [
+                "Shortness of breath"
+              ]
+            }
+          ],
+          "vitals": [
+            {
+              "type": "Respiratory rate",
+              "value": "36",
+              "unit": "breaths/min"
+            }
+          ],
+          "diagnoses": [
+            {
+              "code": "R07.4",
+              "label": "Chest pain",
+              "status": "active"
+            }
+          ]
+        }
+      }
+    },
+    {
+      "id": "N4",
+      "label": "Step 4",
+      "customData": {
+        "node_id": "D",
+        "node_step_index": 3,
+        "content": "Troponins and comprehensive metabolic panel were normal. Complete blood count showed eosinophilia at 7.0% and absolute eosinophil count elevated at 0.64x10(9)/L. Complete blood count results: Leukocytes 9.1 x10(9)/L, Erythrocytes 4.49 x10(12)/L, Hemoglobin 12.8 g/dL (Low), Hematocrit 39.3 %, MCV 87.5 fL, MCH 28.5 pg, MCHC 32.6 g/dL, RDW CV 14.3 %, RDW SD 45.9 fL (High), Platelet Count 152 x10(9)/L, Mean Platelet Volume 9.9 fL, Neutrophils % 74.2 %, Immature Granulocytes % 0.3 %, Lymphocytes % 10.5 % (Low), Monocytes % 7.7 %, Eosinophils % 7.0 % (High), Basophils % 0.3 %, Neutrophils 6.74 x10(9)/L (High), Lymphocytes 0.96 x10(9)/L, Monocytes 0.70 x10(9)/L, Eosinophils 0.64 x10(9)/L (High), Basophils 0.03 x10(9)/L. CT angiogram showed a 26 mm spiculated nodule in the left upper lobe with adjacent irregular pleural thickening.",
+        "clinical_data": {
+          "labs": [
+            {
+              "test": "C0041723",
+              "value": "normal",
+              "unit": null,
+              "flag": "normal"
+            },
+            {
+              "test": "C0009591",
+              "value": "normal",
+              "unit": null,
+              "flag": "normal"
+            },
+            {
+              "test": "C0014400",
+              "value": "9.1",
+              "unit": "x10(9)/L",
+              "flag": "normal"
+            },
+            {
+              "test": "C0015834",
+              "value": "4.49",
+              "unit": "x10(12)/L",
+              "flag": "normal"
+            },
+            {
+              "test": "C0018783",
+              "value": "12.8",
+              "unit": "g/dL",
+              "flag": "abnormal"
+            },
+            {
+              "test": "C0018958",
+              "value": "39.3",
+              "unit": "%",
+              "flag": "normal"
+            },
+            {
+              "test": "C0024624",
+              "value": "87.5",
+              "unit": "fL",
+              "flag": "normal"
+            },
+            {
+              "test": "C0024621",
+              "value": "28.5",
+              "unit": "pg",
+              "flag": "normal"
+            },
+            {
+              "test": "C0024618",
+              "value": "32.6",
+              "unit": "g/dL",
+              "flag": "normal"
+            },
+            {
+              "test": "C1963179",
+              "value": "14.3",
+              "unit": "%",
+              "flag": "normal"
+            },
+            {
+              "test": "C0224107",
+              "value": "45.9",
+              "unit": "fL",
+              "flag": "abnormal"
+            },
+            {
+              "test": "C0032163",
+              "value": "152",
+              "unit": "x10(9)/L",
+              "flag": "normal"
+            },
+            {
+              "test": "C0224104",
+              "value": "9.9",
+              "unit": "fL",
+              "flag": "normal"
+            },
+            {
+              "test": "C0027649",
+              "value": "74.2",
+              "unit": "%",
+              "flag": "normal"
+            },
+            {
+              "test": "C3541607",
+              "value": "0.3",
+              "unit": "%",
+              "flag": "normal"
+            },
+            {
+              "test": "C0023920",
+              "value": "10.5",
+              "unit": "%",
+              "flag": "abnormal"
+            },
+            {
+              "test": "C0026242",
+              "value": "7.7",
+              "unit": "%",
+              "flag": "normal"
+            },
+            {
+              "test": "C0014481",
+              "value": "7.0",
+              "unit": "%",
+              "flag": "abnormal"
+            },
+            {
+              "test": "C0004842",
+              "value": "0.3",
+              "unit": "%",
+              "flag": "normal"
+            },
+            {
+              "test": "C0027649",
+              "value": "6.74",
+              "unit": "x10(9)/L",
+              "flag": "abnormal"
+            },
+            {
+              "test": ""
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "edges": [
+    {
+      "from": "N1",
+      "to": "N2",
+      "data": {
+        "edge_id": "A_to_B",
+        "branch_flag": true,
+        "content": "Patient developed a peripherally inserted central catheter (PICC) line infection, and his antibiotic regimen was changed to daptomycin and ceftazidime.",
+        "transition_event": {
+          "trigger_type": "procedure",
+          "trigger_entities": [
+            "peripherally inserted central catheter"
+          ],
+          "change_type": "addition",
+          "target_domain": "procedure"
+        }
+      }
+    },
+    {
+      "from": "N2",
+      "to": "N3",
+      "data": {
+        "edge_id": "B_to_C",
+        "branch_flag": true,
+        "content": "Patient presented to the ED with new chest pain described as left-sided, non-radiating pressure, exertional and pleuritic in nature, associated with shortness of breath. He was tachypneic with a respiratory rate of 36 but afebrile and normotensive. Electrocardiogram showed normal sinus rhythm with a right bundle branch block.",
+        "transition_event": {
+          "trigger_type": "symptom_onset",
+          "trigger_entities": [
+            "C0008031",
+            "C0037225"
+          ],
+          "change_type": "progression",
+          "target_domain": "symptom"
+        }
+      }
+    },
+    {
+      "from": "N3",
+      "to": "N4",
+      "data": {
+        "edge_id": "C_to_D",
+        "branch_flag": true,
+        "content": "Troponins and comprehensive metabolic panel were normal. Complete blood count showed eosinophilia at 7.0% and absolute eosinophil count elevated at 0.64x10(9)/L. Complete blood count results: Leukocytes 9.1 x10(9)/L, Erythrocytes 4.49 x10(12)/L, Hemoglobin 12.8 g/dL (Low), Hematocrit 39.3 %, MCV 87.5 fL, MCH 28.5 pg, MCHC 32.6 g/dL, RDW CV 14.3 %, RDW SD 45.9 fL (High), Platelet Count 152 x10(9)/L, Mean Platelet Volume 9.9 fL, Neutrophils % 74.2 %, Immature Granulocytes % 0.3 %, Lymphocytes % 10.5 % (Low), Monocytes % 7.7 %, Eosinophils % 7.0 % (High), Basophils % 0.3 %, Neutrophils 6.74 x10(9)/L (High), Lymphocytes 0.96 x10(9)/L, Monocytes 0.70 x10(9)/L, Eosinophils 0.64 x10(9)/L (High), Basophils 0.03 x10(9)/L. CT angiogram showed a 26 mm spiculated nodule in the left upper lobe with adjacent irregular pleural thickening.",
+        "transition_event": {
+          "trigger_type": "lab_change",
+          "trigger_entities": [
+            "C0014481"
+          ],
+          "change_type": "progression",
+          "target_domain": "lab"
+        }
+      }
+    }
+  ]
+}

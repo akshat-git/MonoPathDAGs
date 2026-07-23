@@ -1,0 +1,334 @@
+{
+  "nodes": [
+    {
+      "id": "N1",
+      "label": "Step 1",
+      "customData": {
+        "node_id": "A",
+        "node_step_index": 0,
+        "content": "76-year-old man with a 57 pack-year smoking history presented for investigation of a mass on chest CT.",
+        "clinical_data": {
+          "social_history": [
+            {
+              "category": "smoking",
+              "status": "past",
+              "description": "57 pack-year smoking history"
+            }
+          ],
+          "imaging": [
+            {
+              "type": "mass",
+              "body_part": "chest",
+              "modality": "CT",
+              "finding": "mass"
+            }
+          ]
+        }
+      }
+    },
+    {
+      "id": "N2",
+      "label": "Step 2",
+      "customData": {
+        "node_id": "B",
+        "node_step_index": 1,
+        "content": "Chest CT showed a 50 mm mass in the right upper lobe and right hilar lymph nodes enlarged to 15 mm.",
+        "clinical_data": {
+          "imaging": [
+            {
+              "type": "CT of chest",
+              "body_part": "Right upper lobe of lung",
+              "modality": "CT",
+              "finding": "50 mm mass",
+              "date": null
+            },
+            {
+              "type": "CT of chest",
+              "body_part": "Right hilar lymph nodes",
+              "modality": "CT",
+              "finding": "Enlarged to 15 mm",
+              "date": null
+            }
+          ]
+        }
+      }
+    },
+    {
+      "id": "N3",
+      "label": "Step 3",
+      "customData": {
+        "node_id": "C",
+        "node_step_index": 2,
+        "content": "Whole-body fluorine-18-flurodeoxyglucose positron emission tomography and CT scan showed uptakes in the mass and the right hilar lymph nodes with standard uptake value max of 16 and 4.7, respectively. No distant metastasis was observed. Brain metastasis was not indicated by magnetic resonance imaging (MRI). Sputum cytology showed squamous cell carcinoma.",
+        "clinical_data": {
+          "imaging": [
+            {
+              "type": "Fluorine-18-flurodeoxyglucose positron emission tomography",
+              "body_part": "whole body",
+              "modality": "PET",
+              "finding": "uptakes in the mass and the right hilar lymph nodes",
+              "impression": "uptakes in the mass and the right hilar lymph nodes with standard uptake value max of 16 and 4.7, respectively. No distant metastasis was observed.",
+              "date": null
+            },
+            {
+              "type": "CT scan",
+              "body_part": "whole body",
+              "modality": "CT",
+              "finding": "uptakes in the mass and the right hilar lymph nodes",
+              "impression": "uptakes in the mass and the right hilar lymph nodes with standard uptake value max of 16 and 4.7, respectively. No distant metastasis was observed.",
+              "date": null
+            },
+            {
+              "type": "Magnetic resonance imaging",
+              "body_part": "brain",
+              "modality": "MRI",
+              "finding": "Brain metastasis was not indicated",
+              "impression": "Brain metastasis was not indicated",
+              "date": null
+            }
+          ],
+          "labs": [
+            {
+              "test": "Sputum cytology",
+              "value": "Squamous cell carcinoma",
+              "unit": null,
+              "flag": "abnormal",
+              "reference_range": null,
+              "timestamp": null
+            }
+          ],
+          "diagnoses": [
+            {
+              "code": "C0007676",
+              "label": "Squamous Cell Carcinoma",
+              "status": "active",
+              "onset_date": null
+            }
+          ]
+        }
+      }
+    },
+    {
+      "id": "N4",
+      "label": "Step 4",
+      "customData": {
+        "node_id": "D",
+        "node_step_index": 3,
+        "content": "Clinical stage cT2aN1M0 (cStage IIb). Hemoglobin A1c 8.0%. Tumor markers: squamous cell carcinoma-related antigen 3.6 ng/mL, cytokeratin-19 fragment 2.4 ng/mL. Glasgow Coma Scale E4V5M6, no neurodegeneration, motor/sensory deficits, or peripheral neuropathy.",
+        "clinical_data": {
+          "diagnoses": [
+            {
+              "code": "C0007271",
+              "label": "Carcinoma",
+              "status": "active"
+            }
+          ],
+          "labs": [
+            {
+              "test": "C0018787",
+              "value": "8.0",
+              "unit": "%",
+              "flag": "abnormal"
+            },
+            {
+              "test": "C1306578",
+              "value": "3.6",
+              "unit": "ng/mL",
+              "flag": "abnormal"
+            },
+            {
+              "test": "C1306577",
+              "value": "2.4",
+              "unit": "ng/mL",
+              "flag": "abnormal"
+            }
+          ],
+          "mental_status": [
+            {
+              "domain": "orientation",
+              "finding": "Glasgow Coma Scale E4V5M6"
+            }
+          ]
+        }
+      }
+    },
+    {
+      "id": "N5",
+      "label": "Step 5",
+      "customData": {
+        "node_id": "E",
+        "node_step_index": 4,
+        "content": "Video-assisted thoracoscopic surgery performed. Pathological examination of resected specimens showed squamous cell carcinoma with a pathological stage of T2aN0M0 (pStage \u2160B).",
+        "clinical_data": {
+          "procedures": [
+            {
+              "name": "Video-assisted thoracoscopic surgery",
+              "approach": "endoscopic",
+              "date": null,
+              "location": "thorax",
+              "performed_by": null,
+              "outcome": null
+            }
+          ],
+          "diagnoses": [
+            {
+              "code": null,
+              "label": "squamous cell carcinoma",
+              "status": "active",
+              "onset_date": null
+            }
+          ],
+          "imaging": [],
+          "medications": [],
+          "vitals": [],
+          "labs": [],
+          "HPI": [],
+          "ROS": [],
+          "functional_status": [],
+          "mental_status": [],
+          "social_history": [],
+          "allergies": []
+        }
+      }
+    },
+    {
+      "id": "N6",
+      "label": "Step 6",
+      "customData": {
+        "node_id": "F",
+        "node_step_index": 5,
+        "content": "Administration of levobupivacaine and fentanyl via epidural catheter started immediately before surgery and confirmed until postoperative day (POD) 2.",
+        "clinical_data": {
+          "medications": [
+            {
+              "drug": "C0972883",
+              "dosage": null,
+              "frequency": null,
+              "modality": "other",
+              "start_date": null,
+              "end_date": null,
+              "indication": null
+            },
+            {
+              "drug": "C0016571",
+              "dosage": null,
+              "frequency": null,
+              "modality": "other",
+              "start_date": null,
+              "end_date": null,
+              "indication": null
+            }
+          ],
+          "procedures": [
+            {
+              "name": "epidural catheter insertion",
+              "approach": "percutaneous",
+              "date": null,
+              "location": "epidural space",
+              "performed_by": null,
+              "outcome": null
+            }
+          ]
+        }
+      }
+    },
+    {
+      "id": "N7",
+      "label": "Step 7",
+      "customData": {
+        "node_id": "G",
+        "node_step_index": 6,
+        "clinical_data": {}
+      }
+    }
+  ],
+  "edges": [
+    {
+      "from": "N1",
+      "to": "N2",
+      "data": {
+        "edge_id": "A_to_B",
+        "branch_flag": true,
+        "content": "Initial presentation and chest CT imaging."
+      }
+    },
+    {
+      "from": "N2",
+      "to": "N3",
+      "data": {
+        "edge_id": "B_to_C",
+        "branch_flag": true,
+        "content": "Further imaging and sputum cytology to determine extent and type of cancer.",
+        "transition_event": {
+          "trigger_type": "imaging",
+          "trigger_entities": [
+            "C0015967"
+          ],
+          "change_type": "progression",
+          "target_domain": "imaging"
+        }
+      }
+    },
+    {
+      "from": "N3",
+      "to": "N4",
+      "data": {
+        "edge_id": "C_to_D",
+        "branch_flag": true,
+        "content": "Clinical staging and lab results.",
+        "transition_event": {
+          "trigger_type": "interpretation",
+          "trigger_entities": [
+            "C0007271"
+          ],
+          "change_type": "progression",
+          "target_domain": "diagnosis"
+        }
+      }
+    },
+    {
+      "from": "N4",
+      "to": "N5",
+      "data": {
+        "edge_id": "D_to_E",
+        "branch_flag": true,
+        "content": "Surgical intervention and pathological examination.",
+        "transition_event": {
+          "trigger_type": "procedure",
+          "trigger_entities": [
+            "C0042333"
+          ],
+          "change_type": "other",
+          "target_domain": "procedure"
+        }
+      }
+    },
+    {
+      "from": "N5",
+      "to": "N6",
+      "data": {
+        "edge_id": "E_to_F",
+        "branch_flag": true,
+        "content": "Post-operative pain management with levobupivacaine and fentanyl via epidural catheter.",
+        "transition_event": {
+          "trigger_type": "medication_change",
+          "trigger_entities": [
+            "C0972883",
+            "C0016571"
+          ],
+          "change_type": "addition",
+          "target_domain": "medication"
+        }
+      }
+    },
+    {
+      "from": "N6",
+      "to": "N7",
+      "data": {
+        "edge_id": "F_to_G",
+        "branch_flag": true,
+        "content": "Transition to unspecified state after pain management."
+      }
+    }
+  ]
+}

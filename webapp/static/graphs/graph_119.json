@@ -1,0 +1,437 @@
+{
+  "nodes": [
+    {
+      "id": "N1",
+      "label": "Step 1",
+      "customData": {
+        "node_id": "A",
+        "node_step_index": 0,
+        "content": "60-year-old woman diagnosed with endometrial cancer via curettage due to vaginal bleeding.",
+        "clinical_data": {
+          "diagnoses": [
+            {
+              "code": "C54.1",
+              "label": "Endometrial Cancer",
+              "status": "active",
+              "onset_date": null
+            }
+          ],
+          "procedures": [
+            {
+              "name": "Curettage",
+              "approach": "other",
+              "date": null,
+              "location": "uterus",
+              "performed_by": null,
+              "outcome": null
+            }
+          ],
+          "HPI": [
+            {
+              "summary": "Vaginal bleeding",
+              "duration": null,
+              "onset": null,
+              "progression": "unknown",
+              "associated_symptoms": [],
+              "alleviating_factors": [],
+              "exacerbating_factors": []
+            }
+          ]
+        }
+      }
+    },
+    {
+      "id": "N2",
+      "label": "Step 2",
+      "customData": {
+        "node_id": "B",
+        "node_step_index": 1,
+        "content": "Chest CT showed a tumor located at the right anterior mediastinum.",
+        "clinical_data": {
+          "imaging": [
+            {
+              "type": "Computed tomography of chest",
+              "body_part": "Mediastinum",
+              "modality": "CT",
+              "finding": "Tumor",
+              "date": null
+            }
+          ]
+        }
+      }
+    },
+    {
+      "id": "N3",
+      "label": "Step 3",
+      "customData": {
+        "node_id": "C",
+        "node_step_index": 2,
+        "content": "Total hysterectomy with double appendages performed on 2019-03-13.",
+        "clinical_data": {
+          "procedures": [
+            {
+              "name": "Hysterectomy, total",
+              "date": "2019-03-13",
+              "approach": "open",
+              "location": "abdomen"
+            }
+          ]
+        }
+      }
+    },
+    {
+      "id": "N4",
+      "label": "Step 4",
+      "customData": {
+        "node_id": "D",
+        "node_step_index": 3,
+        "content": "Pathological examination revealed a 3.5 x 2.5 cm highly differentiated endometrial adenocarcinoma that invaded the superficial myometrium (<1/2 of the myometrium).",
+        "clinical_data": {
+          "diagnoses": [
+            {
+              "code": "C54.1",
+              "label": "Endometrial adenocarcinoma",
+              "status": "active"
+            }
+          ],
+          "imaging": [
+            {
+              "type": "Imaging of uterus",
+              "body_part": "Endometrium",
+              "modality": "Pathological examination",
+              "finding": "3.5 x 2.5 cm highly differentiated endometrial adenocarcinoma that invaded the superficial myometrium (<1/2 of the myometrium)"
+            }
+          ]
+        }
+      }
+    },
+    {
+      "id": "N5",
+      "label": "Step 5",
+      "customData": {
+        "node_id": "E",
+        "node_step_index": 4,
+        "content": "No metastasis in bilateral pelvic lymph nodes. Endometrial cancer staged as pIA. No adjuvant therapy administered. Patient advised to seek treatment for mediastinal tumor.",
+        "clinical_data": {
+          "diagnoses": [
+            {
+              "code": "C54.1",
+              "label": "Endometrial cancer",
+              "status": "active",
+              "onset_date": null
+            }
+          ],
+          "imaging": [
+            {
+              "body_part": "T-0000743",
+              "modality": "CT",
+              "finding": "No metastasis in bilateral pelvic lymph nodes",
+              "impression": "No metastasis in bilateral pelvic lymph nodes",
+              "date": null
+            }
+          ],
+          "procedures": [
+            {
+              "name": "Surgical staging",
+              "date": null,
+              "location": "pelvis",
+              "outcome": "pIA"
+            }
+          ]
+        }
+      }
+    },
+    {
+      "id": "N6",
+      "label": "Step 6",
+      "customData": {
+        "node_id": "F",
+        "node_step_index": 5,
+        "content": "Six months post-radical operation, patient admitted to Department of Thoracic Surgery, asymptomatic.",
+        "clinical_data": {
+          "procedures": [
+            {
+              "name": "Radical operation",
+              "date": null,
+              "location": "Department of Thoracic Surgery",
+              "outcome": null
+            }
+          ],
+          "diagnoses": [
+            {
+              "code": null,
+              "label": "Asymptomatic",
+              "status": "active",
+              "onset_date": null
+            }
+          ]
+        }
+      }
+    },
+    {
+      "id": "N7",
+      "label": "Step 7",
+      "customData": {
+        "node_id": "G",
+        "node_step_index": 6,
+        "content": "Thoracoabdominal CT showed a solitary 5.2 x 8.0 x 7.1 cm tumor in the right mediastinum near the pericardium. Bone scan showed no bone metastasis.",
+        "clinical_data": {
+          "imaging": [
+            {
+              "type": "tumor",
+              "body_part": "mediastinum",
+              "modality": "CT",
+              "finding": "solitary 5.2 x 8.0 x 7.1 cm tumor in the right mediastinum near the pericardium",
+              "date": null
+            },
+            {
+              "type": "bone scan",
+              "body_part": "bone",
+              "modality": "other",
+              "finding": "no bone metastasis",
+              "date": null
+            }
+          ]
+        }
+      }
+    },
+    {
+      "id": "N8",
+      "label": "Step 8",
+      "customData": {
+        "node_id": "H",
+        "node_step_index": 7,
+        "content": "Patient underwent video-assisted thoracoscopy on 2019-09-07. Tumor in the right cardiophrenic angle, approximately 8 cm in maximum diameter, with a hard texture and clear boundary, adhering to the pericardium and lower lobe of the right lung. Tumor had grown in the diaphragm rather than in the mediastinum.",
+        "timestamp": "2019-09-07",
+        "clinical_data": {
+          "procedures": [
+            {
+              "name": "Video-assisted thoracoscopy",
+              "date": "2019-09-07",
+              "location": "right cardiophrenic angle"
+            }
+          ],
+          "imaging": [
+            {
+              "body_part": "Right lung lower lobe",
+              "finding": "Tumor, approximately 8 cm in maximum diameter, with a hard texture and clear boundary, adhering to the pericardium and lower lobe of the right lung.",
+              "date": "2019-09-07",
+              "modality": "Video-assisted thoracoscopy"
+            }
+          ]
+        }
+      }
+    },
+    {
+      "id": "N9",
+      "label": "Step 9",
+      "customData": {
+        "node_id": "I",
+        "node_step_index": 8,
+        "content": "Thoracotomy performed through the right fifth intercostal space. Diaphragm resected along with 1 cm margin of the tumor. Tumor had grown into the abdominal cavity and was stripped from the liver\u2019s surface. The tumor was removed with the invaded diaphragm. Diaphragmatic defect repaired by a Dacron patch. Chest closed. Total bleeding volume was 500 mL.",
+        "clinical_data": {
+          "procedures": [
+            {
+              "name": "Thoracotomy",
+              "approach": "open",
+              "date": null,
+              "location": "right fifth intercostal space",
+              "performed_by": null,
+              "outcome": null
+            },
+            {
+              "name": "resection",
+              "approach": null,
+              "date": null,
+              "location": "Diaphragm",
+              "performed_by": null,
+              "outcome": null
+            },
+            {
+              "name": "repair",
+              "approach": null,
+              "date": null,
+              "location": "Diaphragmatic defect",
+              "performed_by": null,
+              "outcome": null
+            }
+          ]
+        }
+      }
+    },
+    {
+      "id": "N10",
+      "label": "Step 10",
+      "customData": {
+        "node_id": "J",
+        "node_step_index": 9,
+        "content": "Patient was able to get out of bed on the second day post-op. Drainage tube was removed on the third day post-op.",
+        "clinical_data": {
+          "procedures": [
+            {
+              "name": "Drainage tube removal",
+              "date": "the third day post-op"
+            }
+          ],
+          "functional_status": [
+            {
+              "domain": "mobility",
+              "description": "Patient was able to get out of bed",
+              "date": "the second day post-op"
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "edges": [
+    {
+      "from": "N1",
+      "to": "N2",
+      "data": {
+        "edge_id": "A_to_B",
+        "branch_flag": true,
+        "content": "Endometrial cancer diagnosis leads to chest CT for further evaluation.",
+        "transition_event": {
+          "trigger_type": "interpretation",
+          "trigger_entities": [
+            "C0009402",
+            "C0014301"
+          ],
+          "change_type": "progression",
+          "target_domain": "imaging"
+        }
+      }
+    },
+    {
+      "from": "N2",
+      "to": "N3",
+      "data": {
+        "edge_id": "B_to_C",
+        "branch_flag": true,
+        "content": "Identification of mediastinal tumor prompts surgical intervention for endometrial cancer.",
+        "transition_event": {
+          "trigger_type": "procedure",
+          "trigger_entities": [
+            "C0020460"
+          ],
+          "change_type": "addition",
+          "target_domain": "procedure",
+          "timestamp": "2019-03-13"
+        }
+      }
+    },
+    {
+      "from": "N3",
+      "to": "N4",
+      "data": {
+        "edge_id": "C_to_D",
+        "branch_flag": true,
+        "content": "Hysterectomy leads to pathological examination of the removed tissue.",
+        "transition_event": {
+          "trigger_type": "procedure",
+          "trigger_entities": [
+            "C0020460"
+          ],
+          "change_type": "other",
+          "target_domain": "imaging"
+        }
+      }
+    },
+    {
+      "from": "N4",
+      "to": "N5",
+      "data": {
+        "edge_id": "D_to_E",
+        "branch_flag": true,
+        "content": "Pathological findings inform staging and treatment decisions.",
+        "transition_event": {
+          "trigger_type": "interpretation",
+          "trigger_entities": [
+            "C0014301"
+          ],
+          "change_type": "other",
+          "target_domain": "diagnosis"
+        }
+      }
+    },
+    {
+      "from": "N5",
+      "to": "N6",
+      "data": {
+        "edge_id": "E_to_F",
+        "branch_flag": true,
+        "content": "Post-operative monitoring reveals patient is asymptomatic, but mediastinal tumor requires further attention.",
+        "transition_event": {
+          "trigger_type": "spontaneous",
+          "trigger_entities": [],
+          "change_type": "other",
+          "target_domain": "functional_status"
+        }
+      }
+    },
+    {
+      "from": "N6",
+      "to": "N7",
+      "data": {
+        "edge_id": "F_to_G",
+        "branch_flag": true,
+        "content": "Asymptomatic status prompts further imaging to assess mediastinal tumor.",
+        "transition_event": {
+          "trigger_type": "interpretation",
+          "trigger_entities": [],
+          "change_type": "progression",
+          "target_domain": "imaging"
+        }
+      }
+    },
+    {
+      "from": "N7",
+      "to": "N8",
+      "data": {
+        "edge_id": "G_to_H",
+        "branch_flag": true,
+        "content": "Imaging findings lead to video-assisted thoracoscopy for further evaluation of the mediastinal tumor.",
+        "transition_event": {
+          "trigger_type": "procedure",
+          "trigger_entities": [
+            "C0176413"
+          ],
+          "change_type": "addition",
+          "target_domain": "procedure",
+          "timestamp": "2019-09-07"
+        }
+      }
+    },
+    {
+      "from": "N8",
+      "to": "N9",
+      "data": {
+        "edge_id": "H_to_I",
+        "branch_flag": true,
+        "content": "Thoracoscopy findings necessitate thoracotomy for tumor resection.",
+        "transition_event": {
+          "trigger_type": "procedure",
+          "trigger_entities": [
+            "C0040052"
+          ],
+          "change_type": "addition",
+          "target_domain": "procedure"
+        }
+      }
+    },
+    {
+      "from": "N9",
+      "to": "N10",
+      "data": {
+        "edge_id": "I_to_J",
+        "branch_flag": true,
+        "content": "Post-operative recovery and removal of drainage tube.",
+        "transition_event": {
+          "trigger_type": "procedure",
+          "trigger_entities": []
+        }
+      }
+    }
+  ]
+}

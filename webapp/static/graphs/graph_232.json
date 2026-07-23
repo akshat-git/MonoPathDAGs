@@ -1,0 +1,643 @@
+{
+  "nodes": [
+    {
+      "id": "N1",
+      "label": "Step 1",
+      "customData": {
+        "node_id": "A",
+        "node_step_index": 0,
+        "content": "In 2005, the patient underwent surgery and was diagnosed with stage IA pT1N0M0 lung adenocarcinoma.",
+        "clinical_data": {
+          "diagnoses": [
+            {
+              "code": "C34.9",
+              "label": "Lung cancer, unspecified",
+              "status": "historical",
+              "onset_date": "2005"
+            },
+            {
+              "code": "254100004",
+              "label": "Adenocarcinoma of lung",
+              "status": "historical",
+              "onset_date": "2005"
+            }
+          ],
+          "procedures": [
+            {
+              "name": "Surgery",
+              "approach": "open",
+              "date": "2005",
+              "location": "lung",
+              "performed_by": "unknown",
+              "outcome": "unknown"
+            }
+          ]
+        }
+      }
+    },
+    {
+      "id": "N2",
+      "label": "Step 2",
+      "customData": {
+        "node_id": "B",
+        "node_step_index": 1,
+        "content": "Five years after initial diagnosis, the patient presented with an endobronchial tumor near the postoperative margin and heterogeneous thickening of the pleura.",
+        "clinical_data": {
+          "diagnoses": [
+            {
+              "code": "C34",
+              "label": "Malignant neoplasm of bronchus and lung",
+              "status": "active",
+              "onset_date": null
+            }
+          ],
+          "imaging": [
+            {
+              "type": "T-1297",
+              "body_part": "T-0717",
+              "modality": "CT",
+              "finding": "endobronchial tumor near the postoperative margin and heterogeneous thickening of the pleura",
+              "impression": "endobronchial tumor near the postoperative margin and heterogeneous thickening of the pleura",
+              "date": null
+            }
+          ]
+        }
+      }
+    },
+    {
+      "id": "N3",
+      "label": "Step 3",
+      "customData": {
+        "node_id": "C",
+        "node_step_index": 2,
+        "content": "Bronchoscopic tumor biopsy and pleural biopsy with video-assisted thoracic surgery detected adenocarcinoma, determined to be a recurrence.",
+        "clinical_data": {
+          "procedures": [
+            {
+              "name": "Bronchoscopic tumor biopsy",
+              "approach": "endoscopic",
+              "date": null,
+              "location": "lung",
+              "performed_by": null,
+              "outcome": null
+            },
+            {
+              "name": "Pleural biopsy",
+              "approach": "other",
+              "date": null,
+              "location": "pleura",
+              "performed_by": null,
+              "outcome": null
+            },
+            {
+              "name": "Video-assisted thoracic surgery",
+              "approach": "laparoscopic",
+              "date": null,
+              "location": "thorax",
+              "performed_by": null,
+              "outcome": null
+            }
+          ],
+          "diagnoses": [
+            {
+              "code": "C0001481",
+              "label": "Adenocarcinoma",
+              "status": "active",
+              "onset_date": null
+            },
+            {
+              "code": null,
+              "label": "Recurrence",
+              "status": "active",
+              "onset_date": null
+            }
+          ],
+          "imaging": [
+            {
+              "type": null,
+              "body_part": "T0044064",
+              "modality": null,
+              "finding": "tumor",
+              "impression": null,
+              "date": null
+            }
+          ]
+        }
+      }
+    },
+    {
+      "id": "N4",
+      "label": "Step 4",
+      "customData": {
+        "node_id": "D",
+        "node_step_index": 3,
+        "content": "EGFR and ALK mutations were not detected.",
+        "clinical_data": {
+          "diagnoses": [
+            {
+              "code": "C0015230",
+              "label": "EGFR mutation",
+              "status": "historical"
+            },
+            {
+              "code": "C4082702",
+              "label": "ALK mutation",
+              "status": "historical"
+            }
+          ]
+        }
+      }
+    },
+    {
+      "id": "N5",
+      "label": "Step 5",
+      "customData": {
+        "node_id": "E",
+        "node_step_index": 4,
+        "content": "The patient received first-line chemotherapy with carboplatin and paclitaxel for four cycles, along with focal radiation therapy to the recurrent intratracheal tumor (30 Gy/10 fractions) and one pleural nodule (30 Gy/10 fractions).",
+        "clinical_data": {
+          "medications": [
+            {
+              "drug": "C0007146",
+              "dosage": null,
+              "frequency": null,
+              "modality": null,
+              "start_date": null,
+              "end_date": null,
+              "indication": "C0027051"
+            },
+            {
+              "drug": "C0030383",
+              "dosage": null,
+              "frequency": null,
+              "modality": null,
+              "start_date": null,
+              "end_date": null,
+              "indication": "C0027051"
+            }
+          ],
+          "procedures": [
+            {
+              "name": "C0034342",
+              "approach": null,
+              "date": null,
+              "location": "C0225548",
+              "performed_by": null,
+              "outcome": null
+            }
+          ]
+        }
+      }
+    },
+    {
+      "id": "N6",
+      "label": "Step 6",
+      "customData": {
+        "node_id": "F",
+        "node_step_index": 5,
+        "content": "The patient received second-line therapy with cisplatin and docetaxel for four cycles but experienced disease progression.",
+        "clinical_data": {}
+      }
+    },
+    {
+      "id": "N7",
+      "label": "Step 7",
+      "customData": {
+        "node_id": "G",
+        "node_step_index": 6,
+        "content": "The patient was treated with tegafur/gimeracil/oteracil (S-1), but it was ineffective.",
+        "clinical_data": {
+          "medications": [
+            {
+              "drug": "C1296342",
+              "dosage": null,
+              "frequency": null,
+              "modality": null,
+              "start_date": null,
+              "end_date": null,
+              "indication": null
+            }
+          ]
+        }
+      }
+    },
+    {
+      "id": "N8",
+      "label": "Step 8",
+      "customData": {
+        "node_id": "H",
+        "node_step_index": 7,
+        "content": "Two years after recurrence of lung adenocarcinoma: Brain metastasis was found. The patient's performance status (PS) was zero, and she had no neurological symptoms. Gadolinium contrast-enhanced T1-weighted MRI of the head showed a 4 mm strongly contrasted nodule in the left parietal lobe with surrounding edema. Gamma-knife treatment was started.",
+        "clinical_data": {
+          "diagnoses": [
+            {
+              "code": "C34",
+              "label": "Lung cancer",
+              "status": "active"
+            },
+            {
+              "code": "C79.31",
+              "label": "Secondary malignant neoplasm of brain",
+              "status": "active",
+              "onset_date": null
+            }
+          ],
+          "imaging": [
+            {
+              "type": "MRI of head",
+              "body_part": "Brain",
+              "modality": "MRI",
+              "finding": "4 mm strongly contrasted nodule in the left parietal lobe with surrounding edema",
+              "impression": "Brain metastasis",
+              "date": null
+            }
+          ],
+          "procedures": [
+            {
+              "name": "Gamma-knife treatment",
+              "date": null
+            }
+          ],
+          "functional_status": [
+            {
+              "domain": "general",
+              "description": "performance status (PS) was zero"
+            }
+          ],
+          "HPI": [
+            {
+              "summary": "Brain metastasis found two years after recurrence of lung adenocarcinoma",
+              "duration": "2 years",
+              "onset": null,
+              "progression": "sudden",
+              "associated_symptoms": [],
+              "alleviating_factors": [],
+              "exacerbating_factors": []
+            }
+          ]
+        }
+      }
+    },
+    {
+      "id": "N9",
+      "label": "Step 9",
+      "customData": {
+        "node_id": "I",
+        "node_step_index": 8,
+        "content": "Chest X-ray showed thickening of the right paratracheal line and protrusion of the right first arch and decreased permeability of the right lower lung field due to pleural effusion. PET-CT revealed a mass near the end of the right lower lobe bronchus with strong 18F-labeled fluorodeoxyglucose accumulation in the same area. Right pleural dissemination, eighth and ninth rib metastasis, and multiple mediastinal lymph node metastasis were observed.",
+        "clinical_data": {
+          "imaging": [
+            {
+              "type": "Chest X-ray",
+              "body_part": "lung",
+              "modality": "X-ray",
+              "finding": "thickening of the right paratracheal line and protrusion of the right first arch and decreased permeability of the right lower lung field due to pleural effusion"
+            },
+            {
+              "type": "PET-CT",
+              "body_part": "lung",
+              "modality": "PET",
+              "finding": "mass near the end of the right lower lobe bronchus with strong 18F-labeled fluorodeoxyglucose accumulation in the same area. Right pleural dissemination, eighth and ninth rib metastasis, and multiple mediastinal lymph node metastasis were observed."
+            }
+          ]
+        }
+      }
+    },
+    {
+      "id": "N10",
+      "label": "Step 10",
+      "customData": {
+        "node_id": "J",
+        "node_step_index": 9,
+        "content": "The patient received pemetrexed (PEM), resulting in improved clinical symptoms, decreased tumor size, and decreased CA125 levels. Positron emission tomography/computed tomography showed a marked improvement.",
+        "clinical_data": {
+          "medications": [
+            {
+              "drug": "C0974731",
+              "dosage": null,
+              "frequency": null,
+              "modality": null,
+              "start_date": null,
+              "end_date": null,
+              "indication": null
+            }
+          ],
+          "imaging": [
+            {
+              "type": "C0242975",
+              "body_part": null,
+              "modality": "PET",
+              "finding": "marked improvement",
+              "impression": null,
+              "date": null
+            },
+            {
+              "type": "C0242975",
+              "body_part": null,
+              "modality": "CT",
+              "finding": "marked improvement",
+              "impression": null,
+              "date": null
+            }
+          ],
+          "labs": [
+            {
+              "test": "C0006292",
+              "value": null,
+              "unit": null,
+              "flag": null,
+              "reference_range": null,
+              "timestamp": null
+            }
+          ]
+        }
+      }
+    },
+    {
+      "id": "N11",
+      "label": "Step 11",
+      "customData": {
+        "node_id": "K",
+        "node_step_index": 10,
+        "content": "Initial examination: PET-CT image was taken.",
+        "clinical_data": {
+          "imaging": [
+            {
+              "type": "Positron emission tomography-computed tomography",
+              "body_part": "whole body",
+              "modality": "PET",
+              "finding": null,
+              "impression": null,
+              "date": null
+            },
+            {
+              "type": "Positron emission tomography-computed tomography",
+              "body_part": "whole body",
+              "modality": "CT",
+              "finding": null,
+              "impression": null,
+              "date": null
+            }
+          ]
+        }
+      }
+    },
+    {
+      "id": "N12",
+      "label": "Step 12",
+      "customData": {
+        "node_id": "L",
+        "node_step_index": 11,
+        "content": "Initial PET-CT image before molecular-targeted drug treatment showed 18F-Labeled fluorodeoxyglucose accumulation in soft tissues (muscle, subcutaneous tissues) and the left palatine tonsil.",
+        "clinical_data": {
+          "imaging": [
+            {
+              "type": "Positron emission tomography/computed tomography",
+              "body_part": "soft tissues",
+              "modality": "PET",
+              "finding": "18F-Labeled fluorodeoxyglucose accumulation",
+              "date": null
+            },
+            {
+              "type": "Positron emission tomography/computed tomography",
+              "body_part": "muscle",
+              "modality": "PET",
+              "finding": "18F-Labeled fluorodeoxyglucose accumulation",
+              "date": null
+            },
+            {
+              "type": "Positron emission tomography/computed tomography",
+              "body_part": "subcutaneous tissues",
+              "modality": "PET",
+              "finding": "18F-Labeled fluorodeoxyglucose accumulation",
+              "date": null
+            },
+            {
+              "type": "Positron emission tomography/computed tomography",
+              "body_part": "left palatine tonsil",
+              "modality": "PET",
+              "finding": "18F-Labeled fluorodeoxyglucose accumulation",
+              "date": null
+            }
+          ]
+        }
+      }
+    },
+    {
+      "id": "N13",
+      "label": "Step 13",
+      "customData": {
+        "node_id": "M",
+        "node_step_index": 12,
+        "content": "PET-CT image six months after the start of molecular-targeted drug therapy showed various accumulations were reduced, suggesting treatment effectiveness.",
+        "clinical_data": {
+          "imaging": [
+            {
+              "type": "Positron emission tomography/computed tomography",
+              "body_part": "entire body",
+              "modality": "PET-CT",
+              "finding": "reduced accumulations",
+              "impression": "treatment effectiveness"
+            }
+          ]
+        }
+      }
+    },
+    {
+      "id": "N14",
+      "label": "Step 14",
+      "customData": {
+        "node_id": "N",
+        "node_step_index": 13,
+        "content": "PET-CT image after 10 months of pemetrexed treatment showed the local recurrent mass had shrunk, and the accumulations in this area, pleura, and iliac crest were all reduced.",
+        "clinical_data": {
+          "imaging": [
+            {
+              "type": "Positron emission tomography/computed tomography",
+              "body_part": "local recurrent mass",
+              "modality": "PET",
+              "finding": "shrunk",
+              "date": null
+            },
+            {
+              "type": "Positron emission tomography/computed tomography",
+              "body_part": "pleura",
+              "modality": "PET",
+              "finding": "accumulations reduced",
+              "date": null
+            },
+            {
+              "type": "Positron emission tomography/computed tomography",
+              "body_part": "iliac crest",
+              "modality": "PET",
+              "finding": "accumulations reduced",
+              "date": null
+            }
+          ],
+          "medications": [
+            {
+              "drug": "pemetrexed",
+              "start_date": null,
+              "end_date": null
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "edges": [
+    {
+      "from": "N1",
+      "to": "N2",
+      "data": {
+        "edge_id": "A_to_B",
+        "branch_flag": true,
+        "content": "5 years status post resection of stage IA pT1N0M0 lung adenocarcinoma"
+      }
+    },
+    {
+      "from": "N2",
+      "to": "N3",
+      "data": {
+        "edge_id": "B_to_C",
+        "branch_flag": true,
+        "content": "Workup of endobronchial tumor near the postoperative margin and heterogeneous thickening of the pleura",
+        "transition_event": {
+          "trigger_type": "procedure",
+          "trigger_entities": [
+            "C0005956",
+            "C0032175",
+            "C0159380"
+          ],
+          "change_type": "addition",
+          "target_domain": "diagnosis"
+        }
+      }
+    },
+    {
+      "from": "N3",
+      "to": "N4",
+      "data": {
+        "edge_id": "C_to_D",
+        "branch_flag": true,
+        "content": "Molecular profiling of adenocarcinoma recurrence",
+        "transition_event": {
+          "trigger_type": "lab_change",
+          "trigger_entities": [
+            "C0015230",
+            "C4082702"
+          ],
+          "change_type": "other",
+          "target_domain": "diagnosis"
+        }
+      }
+    },
+    {
+      "from": "N4",
+      "to": "N5",
+      "data": {
+        "edge_id": "D_to_E",
+        "branch_flag": true,
+        "content": "Treatment for adenocarcinoma recurrence",
+        "transition_event": {
+          "trigger_type": "medication_change",
+          "trigger_entities": [
+            "C0007146",
+            "C0030383"
+          ],
+          "change_type": "addition",
+          "target_domain": "medication"
+        }
+      }
+    },
+    {
+      "from": "N5",
+      "to": "N6",
+      "data": {
+        "edge_id": "E_to_F",
+        "branch_flag": true,
+        "content": "Progression on first-line chemotherapy and radiation therapy",
+        "transition_event": {
+          "trigger_type": "interpretation",
+          "trigger_entities": [],
+          "change_type": "progression",
+          "target_domain": "diagnosis"
+        }
+      }
+    },
+    {
+      "from": "N6",
+      "to": "N7",
+      "data": {
+        "edge_id": "F_to_G",
+        "branch_flag": true,
+        "content": "Progression on second-line therapy",
+        "transition_event": {
+          "trigger_type": "medication_change",
+          "trigger_entities": [
+            "C1724771",
+            "C0010200"
+          ],
+          "change_type": "addition",
+          "target_domain": "medication"
+        }
+      }
+    },
+    {
+      "from": "N7",
+      "to": "N8",
+      "data": {
+        "edge_id": "G_to_H",
+        "branch_flag": true,
+        "content": "S-1 ineffective, development of brain metastasis",
+        "transition_event": {
+          "trigger_type": "interpretation",
+          "trigger_entities": [],
+          "change_type": "progression",
+          "target_domain": "diagnosis"
+        }
+      }
+    },
+    {
+      "from": "N8",
+      "to": "N9",
+      "data": {
+        "edge_id": "H_to_I",
+        "branch_flag": true,
+        "content": "Imaging for lung adenocarcinoma with brain metastasis",
+        "transition_event": {
+          "trigger_type": "imaging",
+          "trigger_entities": [],
+          "change_type": "progression",
+          "target_domain": "imaging"
+        }
+      }
+    },
+    {
+      "from": "N9",
+      "to": "N10",
+      "data": {
+        "edge_id": "I_to_J",
+        "branch_flag": true,
+        "content": "Treatment for lung adenocarcinoma with brain metastasis",
+        "transition_event": {
+          "trigger_type": "medication_change",
+          "trigger_entities": [
+            "C0974731"
+          ],
+          "change_type": "addition",
+          "target_domain": "medication"
+        }
+      }
+    },
+    {
+      "from": "N10",
+      "to": "N11",
+      "data": {
+        "edge_id": "J_to_K",
+        "branch_flag": true,
+        "content": "Response to"
+      }
+    }
+  ]
+}

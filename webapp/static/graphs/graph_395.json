@@ -1,0 +1,530 @@
+{
+  "nodes": [
+    {
+      "id": "N1",
+      "label": "Step 1",
+      "customData": {
+        "node_id": "A",
+        "node_step_index": 0,
+        "content": "Patient developed myasthenia gravis (MG) during the first cycle of treatment. Acute exacerbation of MG observed within 24 hours. Anti-acetylcholine receptor antibodies were negative, even at the onset of MG.",
+        "clinical_data": {
+          "diagnoses": [
+            {
+              "code": "C0027051",
+              "label": "Myasthenia Gravis",
+              "status": "active",
+              "onset_date": null
+            }
+          ],
+          "HPI": [
+            {
+              "summary": "Acute exacerbation of myasthenia gravis observed within 24 hours.",
+              "duration": "24 hours",
+              "onset": null,
+              "progression": "sudden",
+              "associated_symptoms": [],
+              "alleviating_factors": [],
+              "exacerbating_factors": []
+            }
+          ],
+          "labs": [
+            {
+              "test": "C0162747",
+              "value": "negative",
+              "unit": null,
+              "flag": "abnormal",
+              "reference_range": null,
+              "timestamp": null
+            }
+          ]
+        }
+      }
+    },
+    {
+      "id": "N2",
+      "label": "Step 2",
+      "customData": {
+        "node_id": "B",
+        "node_step_index": 1,
+        "content": "Suspected anterior mediastinal tumor, lung, and lymph node metastases. Tumor resection with median sternotomy was performed, resulting in incomplete resection due to involvement of the left recurrent laryngeal nerve and left phrenic nerve. A mass in the neck and nodule in the left upper lobe were also resected.",
+        "clinical_data": {
+          "imaging": [
+            {
+              "type": "Anterior mediastinal mass",
+              "body_part": "Anterior mediastinum",
+              "modality": "unknown",
+              "finding": "Suspected tumor",
+              "impression": "Suspected anterior mediastinal tumor"
+            },
+            {
+              "type": "Lung metastasis",
+              "body_part": "Lung",
+              "modality": "unknown",
+              "finding": "Metastasis",
+              "impression": "Suspected lung metastasis"
+            },
+            {
+              "type": "Lymph node metastasis",
+              "body_part": "Lymph node",
+              "modality": "unknown",
+              "finding": "Metastasis",
+              "impression": "Suspected lymph node metastasis"
+            }
+          ],
+          "procedures": [
+            {
+              "name": "Tumor resection",
+              "approach": "open",
+              "date": "unknown",
+              "location": "Anterior mediastinum",
+              "outcome": "Incomplete resection"
+            },
+            {
+              "name": "Resection",
+              "approach": "unknown",
+              "date": "unknown",
+              "location": "Neck",
+              "outcome": "unknown"
+            },
+            {
+              "name": "Resection",
+              "approach": "unknown",
+              "date": "unknown",
+              "location": "Left upper lobe",
+              "outcome": "unknown"
+            }
+          ]
+        }
+      }
+    },
+    {
+      "id": "N3",
+      "label": "Step 3",
+      "customData": {
+        "node_id": "C",
+        "node_step_index": 2,
+        "content": "Anterior mediastinal tumor diagnosed as thymoma type B2. Neck mass and nodule in the left lung identified as metastases of previous lung adenocarcinoma, positive for TTF-1 on immunohistostaining. Histopathology of resected left lung nodule showed papillary growth of tumor cells positive for TTF-1.",
+        "clinical_data": {
+          "diagnoses": [
+            {
+              "code": "C0009454",
+              "label": "Thymoma",
+              "status": "active",
+              "onset_date": null
+            },
+            {
+              "code": "C0206331",
+              "label": "Lung Adenocarcinoma",
+              "status": "active",
+              "onset_date": null
+            },
+            {
+              "code": "C0025942",
+              "label": "Metastasis",
+              "status": "active",
+              "onset_date": null
+            }
+          ],
+          "imaging": [
+            {
+              "type": "C0205341",
+              "body_part": "C0025942",
+              "modality": "CT",
+              "finding": "Anterior mediastinal tumor",
+              "impression": "Thymoma type B2",
+              "date": null
+            },
+            {
+              "type": "C0205341",
+              "body_part": "C0028729",
+              "modality": "CT",
+              "finding": "Neck mass",
+              "impression": "Metastases of previous lung adenocarcinoma",
+              "date": null
+            },
+            {
+              "type": "C0205341",
+              "body_part": "C0024089",
+              "modality": "CT",
+              "finding": "Nodule in the left lung",
+              "impression": "Metastases of previous lung adenocarcinoma",
+              "date": null
+            }
+          ]
+        }
+      }
+    },
+    {
+      "id": "N4",
+      "label": "Step 4",
+      "customData": {
+        "node_id": "D",
+        "node_step_index": 3,
+        "content": "PD-L1 expression in lung cancer was high (tumor progression score of 100%). Tumor was negative for mutations of epidermal growth factor receptor (EGFR), anaplastic lymphoma kinase (ALK), and c-ros oncogene 1 (ROS1).",
+        "clinical_data": {
+          "labs": [
+            {
+              "test": "PD-L1 expression",
+              "value": "100%",
+              "unit": "%",
+              "flag": "abnormal"
+            }
+          ],
+          "diagnoses": [
+            {
+              "code": "C0024117",
+              "label": "Lung Cancer",
+              "status": "active"
+            }
+          ],
+          "imaging": [],
+          "procedures": [],
+          "HPI": [],
+          "ROS": [],
+          "functional_status": [],
+          "mental_status": [],
+          "social_history": [],
+          "allergies": [],
+          "medications": []
+        }
+      }
+    },
+    {
+      "id": "N5",
+      "label": "Step 5",
+      "customData": {
+        "node_id": "E",
+        "node_step_index": 4,
+        "content": "Postoperative radiation therapy for residual thymic tumors was not performed. Relapsed lung cancer was treated with pembrolizumab, carboplatin, and pemetrexed.",
+        "clinical_data": {
+          "procedures": [
+            {
+              "name": "Radiation therapy",
+              "outcome": "not performed"
+            }
+          ],
+          "diagnoses": [
+            {
+              "code": "C0006826",
+              "label": "Lung Cancer",
+              "status": "active"
+            }
+          ],
+          "medications": [
+            {
+              "drug": "C3888751",
+              "indication": "C0006826"
+            },
+            {
+              "drug": "C0007667",
+              "indication": "C0006826"
+            },
+            {
+              "drug": "C0030938",
+              "indication": "C0006826"
+            }
+          ]
+        }
+      }
+    },
+    {
+      "id": "N6",
+      "label": "Step 6",
+      "customData": {
+        "node_id": "F",
+        "node_step_index": 5,
+        "content": "16 days after initiating pembrolizumab, carboplatin, and pemetrexed, the patient developed hoarseness, dyspnea, and dysphagia, followed by ptosis, diplopia, and dysarthria within 24 hours.",
+        "clinical_data": {
+          "HPI": [
+            {
+              "summary": "Patient developed hoarseness, dyspnea, and dysphagia 16 days after initiating pembrolizumab, carboplatin, and pemetrexed, followed by ptosis, diplopia, and dysarthria within 24 hours.",
+              "onset": "16 days after initiating pembrolizumab, carboplatin, and pemetrexed",
+              "progression": "sudden",
+              "associated_symptoms": [
+                "Hoarseness",
+                "Dyspnea",
+                "Dysphagia",
+                "Ptosis",
+                "Diplopia",
+                "Dysarthria"
+              ]
+            }
+          ]
+        }
+      }
+    },
+    {
+      "id": "N7",
+      "label": "Step 7",
+      "customData": {
+        "node_id": "G",
+        "node_step_index": 6,
+        "content": "Myasthenia Gravis (MG) diagnosis confirmed via positive tensilon and repeated stimulation tests. Treatment initiated with intravenous globulin, corticosteroids, pyridostigmine, and tacrolimus.",
+        "clinical_data": {
+          "diagnoses": [
+            {
+              "code": "C0027051",
+              "label": "Myasthenia Gravis",
+              "status": "active"
+            }
+          ],
+          "medications": [
+            {
+              "drug": "C0018179",
+              "modality": "IV",
+              "indication": "C0027051"
+            },
+            {
+              "drug": "C0010186",
+              "indication": "C0027051"
+            },
+            {
+              "drug": "C0034194",
+              "indication": "C0027051"
+            },
+            {
+              "drug": "C0159474",
+              "indication": "C0027051"
+            }
+          ],
+          "procedures": [
+            {
+              "name": "Tensilon test",
+              "outcome": "positive"
+            },
+            {
+              "name": "Repeated stimulation tests",
+              "outcome": "positive"
+            }
+          ]
+        }
+      }
+    },
+    {
+      "id": "N8",
+      "label": "Step 8",
+      "customData": {
+        "node_id": "H",
+        "node_step_index": 7,
+        "content": "Respiratory failure developed due to respiratory muscle damage, requiring intubation.",
+        "clinical_data": {
+          "diagnoses": [
+            {
+              "code": "57358002",
+              "label": "Respiratory failure",
+              "status": "active"
+            }
+          ],
+          "procedures": [
+            {
+              "name": "Endotracheal intubation",
+              "date": null
+            }
+          ]
+        }
+      }
+    },
+    {
+      "id": "N9",
+      "label": "Step 9",
+      "customData": {
+        "node_id": "I",
+        "node_step_index": 8,
+        "content": "Patient underwent tracheostomy 30 days after intubation. Plasma exchange resulted in slow improvement, and the patient was weaned from the ventilator after three months. Steroid pulse therapy and immunoglobulin therapy were repeated; however, dysphagia persisted, and enteral nutrition was continued.",
+        "clinical_data": {
+          "procedures": [
+            {
+              "name": "Tracheostomy",
+              "date": null
+            },
+            {
+              "name": "Plasma exchange",
+              "date": null
+            }
+          ],
+          "medications": [
+            {
+              "drug": "Steroid",
+              "modality": "IV",
+              "indication": null
+            },
+            {
+              "drug": "Immunoglobulin",
+              "modality": "IV",
+              "indication": null
+            }
+          ],
+          "diagnoses": [
+            {
+              "code": null,
+              "label": "Dysphagia",
+              "status": "active",
+              "onset_date": null
+            }
+          ],
+          "functional_status": [
+            {
+              "domain": "speech",
+              "description": "Dysphagia persisted",
+              "score": null,
+              "scale": null
+            }
+          ]
+        }
+      }
+    },
+    {
+      "id": "N10",
+      "label": "Step 10",
+      "customData": {
+        "node_id": "J",
+        "node_step_index": 9,
+        "content": "One year after the development of MG, malignant pleural effusion was noted. EGFR exon 19 deletion was confirmed, leading to the initiation of osimertinib.",
+        "clinical_data": {
+          "diagnoses": [
+            {
+              "code": "C0025546",
+              "label": "Malignant pleural effusion",
+              "status": "active",
+              "onset_date": null
+            }
+          ],
+          "medications": [
+            {
+              "drug": "C3888719",
+              "dosage": null,
+              "frequency": null,
+              "modality": null,
+              "start_date": null,
+              "end_date": null,
+              "indication": "EGFR exon 19 deletion"
+            }
+          ]
+        }
+      }
+    },
+    {
+      "id": "N11",
+      "label": "Step 11",
+      "customData": {
+        "node_id": "K",
+        "node_step_index": 10,
+        "content": "Patient died two years and seven months after the development of MG due to the progression of lung adenocarcinoma.",
+        "clinical_data": {
+          "diagnoses": [
+            {
+              "code": "C34",
+              "label": "Malignant neoplasm of bronchus and lung",
+              "status": "historical"
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "edges": [
+    {
+      "from": "N1",
+      "to": "N2",
+      "data": {
+        "edge_id": "A_to_B",
+        "branch_flag": true,
+        "content": "Progression from myasthenia gravis to suspicion of anterior mediastinal tumor, lung, and lymph node metastases, leading to tumor resection."
+      }
+    },
+    {
+      "from": "N2",
+      "to": "N3",
+      "data": {
+        "edge_id": "B_to_C",
+        "branch_flag": true,
+        "content": "Post-resection pathological diagnosis of thymoma type B2 and metastases of previous lung adenocarcinoma."
+      }
+    },
+    {
+      "from": "N3",
+      "to": "N4",
+      "data": {
+        "edge_id": "C_to_D",
+        "branch_flag": true,
+        "content": "Characterization of lung cancer with high PD-L1 expression and negative EGFR, ALK, and ROS1 mutations."
+      }
+    },
+    {
+      "from": "N4",
+      "to": "N5",
+      "data": {
+        "edge_id": "D_to_E",
+        "branch_flag": true,
+        "content": "Decision against postoperative radiation therapy, followed by treatment of relapsed lung cancer with pembrolizumab, carboplatin, and pemetrexed."
+      }
+    },
+    {
+      "from": "N5",
+      "to": "N6",
+      "data": {
+        "edge_id": "E_to_F",
+        "branch_flag": true,
+        "content": "Development of hoarseness, dyspnea, dysphagia, ptosis, diplopia, and dysarthria after initiating pembrolizumab, carboplatin, and pemetrexed."
+      }
+    },
+    {
+      "from": "N6",
+      "to": "N7",
+      "data": {
+        "edge_id": "F_to_G",
+        "branch_flag": true,
+        "content": "Confirmation of Myasthenia Gravis (MG) diagnosis and initiation of treatment with intravenous globulin, corticosteroids, pyridostigmine, and tacrolimus.",
+        "transition_event": {
+          "trigger_type": "symptom_onset",
+          "trigger_entities": [
+            "C0019684",
+            "C0013404",
+            "C0013067",
+            "C0036377",
+            "C0012694",
+            "C0013362"
+          ],
+          "change_type": "progression",
+          "target_domain": "symptom"
+        }
+      }
+    },
+    {
+      "from": "N7",
+      "to": "N8",
+      "data": {
+        "edge_id": "G_to_H",
+        "branch_flag": true,
+        "content": "Progression to respiratory failure due to respiratory muscle damage, requiring intubation."
+      }
+    },
+    {
+      "from": "N8",
+      "to": "N9",
+      "data": {
+        "edge_id": "H_to_I",
+        "branch_flag": true,
+        "content": "Tracheostomy performed, plasma exchange resulted in slow improvement, and weaning from ventilator achieved. Dysphagia persisted despite steroid pulse therapy and immunoglobulin therapy."
+      }
+    },
+    {
+      "from": "N9",
+      "to": "N10",
+      "data": {
+        "edge_id": "I_to_J",
+        "branch_flag": true,
+        "content": "Development of malignant pleural effusion and confirmation of EGFR exon 19 deletion, leading to the initiation of osimertinib."
+      }
+    },
+    {
+      "from": "N10",
+      "to": "N11",
+      "data": {
+        "edge_id": "J_to_K",
+        "branch_flag": true,
+        "content": "Death due to progression of lung adenocarcinoma."
+      }
+    }
+  ]
+}

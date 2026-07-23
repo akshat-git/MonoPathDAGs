@@ -1,0 +1,128 @@
+{
+  "nodes": [
+    {
+      "id": "N1",
+      "label": "Step 1",
+      "customData": {
+        "node_id": "A",
+        "node_step_index": 0,
+        "content": "68-year-old white female cadaver with cause of death recorded as chronic obstructive pulmonary disease.",
+        "clinical_data": {
+          "diagnoses": [
+            {
+              "code": "C0009400",
+              "label": "pulmonary emphysema",
+              "status": "historical"
+            }
+          ],
+          "social_history": [
+            {
+              "category": "demographics",
+              "status": "deceased",
+              "description": "68-year-old white female"
+            }
+          ]
+        }
+      }
+    },
+    {
+      "id": "N2",
+      "label": "Step 2",
+      "customData": {
+        "node_id": "B",
+        "node_step_index": 1,
+        "content": "Dissection revealed an enlarged left supraclavicular lymph node (Virchow node) at the jugulo-subclavian venous junction, measuring 3.7 \u00d7 2.4 \u00d7 1.4 cm. Dissection of the left-sided posterior cervical triangle, after reflection of both the platysma and sternocleidomastoid muscles, revealed a Virchow node (VN) in the region of the lesser supraclavicular fossa. The VN was deep to the platysma and clavicular head of the sternocleidomastoid muscle, underlying what would otherwise be considered the lesser supraclavicular fossa. The Virchow node was located immediately lateral to the internal jugular vein and, along with the thoracic duct, was located just superior to the subclavian vein. Underlying the Virchow node was the phrenic nerve, transverse cervical artery, and anterior scalene muscle. The superior pole of the Virchow node was under the inferior aspect of the superior omohyoid muscle at its attachment with its intermediate tendon.",
+        "clinical_data": {
+          "imaging": [
+            {
+              "type": "Lymph node dissection",
+              "body_part": "Left supraclavicular lymph node",
+              "modality": "other",
+              "finding": "enlarged",
+              "impression": "Virchow node at the jugulo-subclavian venous junction, measuring 3.7 \u00d7 2.4 \u00d7 1.4 cm",
+              "date": null
+            }
+          ]
+        }
+      }
+    },
+    {
+      "id": "N3",
+      "label": "Step 3",
+      "customData": {
+        "node_id": "C",
+        "node_step_index": 3,
+        "content": "The Virchow node was partially obscured at its superior pole by the superior belly of the omohyoid muscle, which was retracted. The node joined the thoracic duct, which joined together with the internal jugular vein to contribute to the subclavian vein. The platysma and sternocleidomastoid muscles were reflected posteriorly, and the proximal half of the clavicle was resected to reveal the Virchow node. The long axis of the Virchow node was oriented parallel to the internal jugular vein and the distal thoracic duct. Virchow node resection revealed tumor enlargement. Histology showed neoplastic cells with a high nuclear-to-cytoplasmic ratio, aberrant nuclei and nucleoli, and intra- and extra-cellular mucin within residual lymphoid tissue. Serial sections showed the node almost entirely replaced by metastatic tumor.",
+        "clinical_data": {
+          "procedures": [
+            {
+              "name": "Resection",
+              "approach": "open",
+              "location": "Virchow node",
+              "outcome": "tumor enlargement"
+            }
+          ],
+          "imaging": [
+            {
+              "body_part": "Virchow node",
+              "finding": "tumor enlargement"
+            }
+          ],
+          "diagnoses": [
+            {
+              "label": "metastatic tumor",
+              "status": "active"
+            }
+          ]
+        }
+      }
+    },
+    {
+      "id": "N4",
+      "label": "Step 4",
+      "customData": {
+        "node_id": "D",
+        "node_step_index": 5,
+        "content": "Right lung weighed 650 g and measured 24.2 \u00d7 11.2 \u00d7 7.0 cm. Left lung weighed 690 g and measured 24.0 \u00d7 11",
+        "clinical_data": {
+          "imaging": [
+            {
+              "body_part": "Lung",
+              "finding": "Right lung weighed 650 g and measured 24.2 \u00d7 11.2 \u00d7 7.0 cm. Left lung weighed 690 g and measured 24.0 \u00d7 11",
+              "modality": "other"
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "edges": [
+    {
+      "from": "N1",
+      "to": "N2",
+      "data": {
+        "edge_id": "A_to_B",
+        "branch_flag": true,
+        "content": "Patient expired from chronic obstructive pulmonary disease, and subsequent dissection revealed an enlarged left supraclavicular lymph node (Virchow node)."
+      }
+    },
+    {
+      "from": "N2",
+      "to": "N3",
+      "data": {
+        "edge_id": "B_to_C",
+        "branch_flag": true,
+        "content": "Virchow node resection revealed tumor enlargement. Histology showed neoplastic cells with a high nuclear-to-cytoplasmic ratio, aberrant nuclei and nucleoli, and intra- and extra-cellular mucin within residual lymphoid tissue. Serial sections showed the node almost entirely replaced by metastatic tumor."
+      }
+    },
+    {
+      "from": "N3",
+      "to": "N4",
+      "data": {
+        "edge_id": "C_to_D",
+        "branch_flag": true,
+        "content": "Examination of lungs."
+      }
+    }
+  ]
+}

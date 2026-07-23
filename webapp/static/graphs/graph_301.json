@@ -1,0 +1,372 @@
+{
+  "nodes": [
+    {
+      "id": "N1",
+      "label": "Step 1",
+      "customData": {
+        "node_id": "A",
+        "node_step_index": 0,
+        "content": "33-year-old male presented to the Emergency Department with severe abdominal pain for five days. Pain located in the left flank, radiated to the back, associated with difficult evacuation and one episode of bloody vomiting. Physical examination revealed a large abdominal mass occupying from the epigastrium to the hypogastrium, in addition to both flanks, slightly lateralized to the left, with well-defined margins, fibroelastic consistency, mobile, slightly tense and painful on palpation.",
+        "clinical_data": {
+          "HPI": [
+            {
+              "summary": "33-year-old male presented to the Emergency Department with severe abdominal pain for five days.",
+              "duration": "P5D",
+              "onset": null,
+              "progression": "gradual",
+              "associated_symptoms": [
+                "Difficult evacuation",
+                "Bloody vomiting"
+              ]
+            }
+          ],
+          "diagnoses": [
+            {
+              "code": "R10.84",
+              "label": "Generalized abdominal pain",
+              "status": "active",
+              "onset_date": null
+            }
+          ],
+          "physical_exam": [
+            {
+              "finding": "Large abdominal mass",
+              "location": "Epigastrium to hypogastrium, both flanks, slightly lateralized to the left",
+              "characteristics": "Well-defined margins, fibroelastic consistency, mobile, slightly tense and painful on palpation"
+            }
+          ]
+        }
+      }
+    },
+    {
+      "id": "N2",
+      "label": "Step 2",
+      "customData": {
+        "node_id": "B",
+        "node_step_index": 1,
+        "content": "No signs of peritonitis. Hemoglobin level of 10.5g/dL (reference range: 14\u201318 g/dL). Prothrombin time, partial thromboplastine time and INR (International Normalized Ratio) were slightly increased. Carcinoembryonic Antigen (CEA) level was 0,52ng/mL (reference range: <3,5ng/dL) and Carbohydrate Antigen 19-9 (CA 19-9) was 3,92U/mL (reference range: <35U/mL).",
+        "clinical_data": {
+          "labs": [
+            {
+              "test": "C0019032",
+              "value": "10.5",
+              "unit": "g/dL",
+              "flag": "abnormal",
+              "reference_range": "14\u201318 g/dL"
+            },
+            {
+              "test": "Prothrombin time",
+              "flag": "abnormal"
+            },
+            {
+              "test": "Partial thromboplastin time",
+              "flag": "abnormal"
+            },
+            {
+              "test": "International Normalized Ratio",
+              "flag": "abnormal"
+            },
+            {
+              "test": "C0007096",
+              "value": "0,52",
+              "unit": "ng/mL",
+              "flag": "normal",
+              "reference_range": "<3,5ng/dL"
+            },
+            {
+              "test": "CA 19-9 antigen",
+              "value": "3,92",
+              "unit": "U/mL",
+              "flag": "normal",
+              "reference_range": "<35U/mL"
+            }
+          ]
+        }
+      }
+    },
+    {
+      "id": "N3",
+      "label": "Step 3",
+      "customData": {
+        "node_id": "C",
+        "node_step_index": 2,
+        "content": "CT scan exhibited a large cystic lesion with a solid component in the posterior region, measuring 17.8 x 16 x 10.9 cm, located mainly in the mesogastrium, causing compression of intestinal loops. The lesion has a close relation with the Treitz ligament and middle colic vessels, suggesting a mesenteric cyst.",
+        "clinical_data": {
+          "imaging": [
+            {
+              "type": "C1706134",
+              "body_part": "C1296340",
+              "modality": "CT",
+              "finding": "Large cystic lesion with a solid component in the posterior region, measuring 17.8 x 16 x 10.9 cm, located mainly in the mesogastrium, causing compression of intestinal loops. The lesion has a close relation with the Treitz ligament and middle colic vessels",
+              "impression": "Mesenteric cyst"
+            }
+          ],
+          "diagnoses": [
+            {
+              "code": "C0345894",
+              "label": "Mesenteric Cyst",
+              "status": "suspected"
+            }
+          ]
+        }
+      }
+    },
+    {
+      "id": "N4",
+      "label": "Step 4",
+      "customData": {
+        "node_id": "D",
+        "node_step_index": 3,
+        "content": "Resection of the cystic lesion was indicated. Surgical approach through median incision revealed a large cyst with peritoneum and small bowel adhesions.",
+        "clinical_data": {
+          "procedures": [
+            {
+              "name": "Resection",
+              "approach": "open",
+              "location": "abdomen",
+              "description": "Resection of the cystic lesion was indicated. Surgical approach through median incision revealed a large cyst with peritoneum and small bowel adhesions."
+            }
+          ]
+        }
+      }
+    },
+    {
+      "id": "N5",
+      "label": "Step 5",
+      "customData": {
+        "node_id": "E",
+        "node_step_index": 4,
+        "content": "Anterior wall of the cyst was incised, and 1.5L of dark brown fluid was drained and sent for analysis. The posterior wall of the cyst was firmly connected to the root of the mesentery, adjacent to the middle colic vessels, making resection unsafe, so cystic marsupialization was performed.",
+        "clinical_data": {
+          "procedures": [
+            {
+              "name": "Incision",
+              "approach": "open",
+              "location": "Anterior wall of the cyst"
+            },
+            {
+              "name": "Drainage",
+              "approach": "open",
+              "description": "1.5L of dark brown fluid was drained and sent for analysis"
+            },
+            {
+              "name": "Cystic marsupialization",
+              "location": "Posterior wall of the cyst"
+            }
+          ]
+        }
+      }
+    },
+    {
+      "id": "N6",
+      "label": "Step 6",
+      "customData": {
+        "node_id": "F",
+        "node_step_index": 5,
+        "content": "Analysis of the cyst fluid showed hypocellular cytological preparations with rare lymphocytes and histiocytes on a sero-hemorrhagic background.",
+        "clinical_data": {
+          "labs": [
+            {
+              "test": "Cytological examination (procedure)",
+              "value": "hypocellular",
+              "unit": null,
+              "flag": "abnormal",
+              "reference_range": null,
+              "timestamp": null
+            }
+          ]
+        }
+      }
+    },
+    {
+      "id": "N7",
+      "label": "Step 7",
+      "customData": {
+        "node_id": "G",
+        "node_step_index": 6,
+        "content": "Patient discharged three days after the procedure without complications. Total operative time was 125 minutes.",
+        "clinical_data": {
+          "procedures": [
+            {
+              "outcome": "no complications"
+            }
+          ]
+        }
+      }
+    },
+    {
+      "id": "N8",
+      "label": "Step 8",
+      "customData": {
+        "node_id": "H",
+        "node_step_index": 7,
+        "content": "Histopathological examination of the cyst capsule revealed a dense fibrous connective wall with indistinct epithelial lining, frequent thin-walled congested vessels, and lymphocytic inflammatory process with associated hemosiderophages. No epithelial elements or cytological signs of malignancy were identified. Cyst wall constituted by dense fibrous connective tissue, containing (a) lymphomononuclear inflammatory infiltrate permeating congested thin-walled blood vessels and (b) hemorrhagic foci and accumulations of hemosiderophages. Findings were consistent with benign cystic mesothelioma of the mesentery.",
+        "clinical_data": {
+          "diagnoses": [
+            {
+              "code": "C0341432",
+              "label": "Benign cystic mesothelioma",
+              "status": "active"
+            }
+          ],
+          "imaging": [
+            {
+              "finding": "dense fibrous connective wall",
+              "impression": "benign cystic mesothelioma of the mesentery",
+              "body_part": "mesentery"
+            }
+          ]
+        }
+      }
+    },
+    {
+      "id": "N9",
+      "label": "Step 9",
+      "customData": {
+        "node_id": "I",
+        "node_step_index": 8,
+        "content": "At a post-operative follow up period 3 months, there were no significant symptoms and no clinical evidence of recurrence.",
+        "clinical_data": {}
+      }
+    }
+  ],
+  "edges": [
+    {
+      "from": "N1",
+      "to": "N2",
+      "data": {
+        "edge_id": "A_to_B",
+        "branch_flag": true,
+        "content": "Initial presentation and lab findings",
+        "transition_event": {
+          "trigger_type": "lab_change",
+          "trigger_entities": [
+            "C0019032",
+            "Prothrombin time",
+            "Partial thromboplastin time",
+            "International Normalized Ratio"
+          ],
+          "change_type": "other",
+          "target_domain": "lab"
+        }
+      }
+    },
+    {
+      "from": "N2",
+      "to": "N3",
+      "data": {
+        "edge_id": "B_to_C",
+        "branch_flag": true,
+        "content": "Imaging reveals cystic lesion",
+        "transition_event": {
+          "trigger_type": "imaging",
+          "trigger_entities": [
+            "C1706134"
+          ],
+          "change_type": "addition",
+          "target_domain": "imaging"
+        }
+      }
+    },
+    {
+      "from": "N3",
+      "to": "N4",
+      "data": {
+        "edge_id": "C_to_D",
+        "branch_flag": true,
+        "content": "Decision to resect cystic lesion",
+        "transition_event": {
+          "trigger_type": "procedure",
+          "trigger_entities": [
+            "Resection"
+          ],
+          "change_type": "addition",
+          "target_domain": "procedure"
+        }
+      }
+    },
+    {
+      "from": "N4",
+      "to": "N5",
+      "data": {
+        "edge_id": "D_to_E",
+        "branch_flag": true,
+        "content": "Surgical exploration and marsupialization",
+        "transition_event": {
+          "trigger_type": "procedure",
+          "trigger_entities": [
+            "Incision",
+            "Drainage",
+            "Cystic marsupialization"
+          ],
+          "change_type": "addition",
+          "target_domain": "procedure"
+        }
+      }
+    },
+    {
+      "from": "N5",
+      "to": "N6",
+      "data": {
+        "edge_id": "E_to_F",
+        "branch_flag": true,
+        "content": "Cyst fluid analysis",
+        "transition_event": {
+          "trigger_type": "lab_change",
+          "trigger_entities": [
+            "Cytological examination (procedure)"
+          ],
+          "change_type": "other",
+          "target_domain": "lab"
+        }
+      }
+    },
+    {
+      "from": "N6",
+      "to": "N7",
+      "data": {
+        "edge_id": "F_to_G",
+        "branch_flag": true,
+        "content": "Post-operative discharge",
+        "transition_event": {
+          "trigger_type": "spontaneous",
+          "trigger_entities": [],
+          "change_type": "resolution",
+          "target_domain": "functional_status"
+        }
+      }
+    },
+    {
+      "from": "N7",
+      "to": "N8",
+      "data": {
+        "edge_id": "G_to_H",
+        "branch_flag": true,
+        "content": "Histopathological examination reveals benign cystic mesothelioma",
+        "transition_event": {
+          "trigger_type": "interpretation",
+          "trigger_entities": [
+            "C0341432"
+          ],
+          "change_type": "reinterpretation",
+          "target_domain": "diagnosis"
+        }
+      }
+    },
+    {
+      "from": "N8",
+      "to": "N9",
+      "data": {
+        "edge_id": "H_to_I",
+        "branch_flag": true,
+        "content": "Follow-up with no recurrence",
+        "transition_event": {
+          "trigger_type": "spontaneous",
+          "trigger_entities": [],
+          "change_type": "resolution",
+          "target_domain": "symptom"
+        }
+      }
+    }
+  ]
+}

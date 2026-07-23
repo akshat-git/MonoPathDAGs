@@ -1,0 +1,179 @@
+{
+  "nodes": [
+    {
+      "id": "N1",
+      "label": "Step 1",
+      "customData": {
+        "node_id": "A",
+        "node_step_index": 0,
+        "timestamp": "2018-07",
+        "content": "69-year-old male admitted to the hospital due to chest distress and shortness of breath for 1 year, getting worse in the last 15 days. Physical examination after admission showed no abnormality. Patient had a smoking history of more than 50 years, but no peripheral vascular disease, no previous history of chronic diseases such as hypertension, coronary heart disease and diabetes, no infectious history of hepatitis, typhoid fever and tuberculosis, no history of trauma and no family hereditary disease.",
+        "clinical_data": {
+          "HPI": [
+            {
+              "summary": "Chest distress and shortness of breath for 1 year, getting worse in the last 15 days.",
+              "duration": "1 year",
+              "progression": "gradual"
+            }
+          ],
+          "social_history": [
+            {
+              "category": "smoking",
+              "status": "current",
+              "description": "More than 50 years"
+            }
+          ]
+        }
+      }
+    },
+    {
+      "id": "N2",
+      "label": "Step 2",
+      "customData": {
+        "node_id": "B",
+        "node_step_index": 1,
+        "timestamp": "2018-07",
+        "content": "Contrast-enhanced CT of the chest revealed one nodule measured 20\u200a\u00d7\u200a15\u200a\u00d7\u200a16\u200amm in the right lower lobe (S8) had clear boundary, lobulated margin, slight enhancement, and multiple hive-like low density areas in the center. Chest imaging showed a nodule measured 20 x 14 x 13 mm with irregular margin, uneven thickness of cavity wall, and local nodular solid density shadow in the right upper lobe (S1). Ultrasonography of liver, gallbladder, spleen, pancreas, and kidney showed no abnormality. Tumor marker carcino-embryonic antigen was 5.16 ng/mL; cytokeratin-19-fragment was 3.54 ng/mL; neuron-specific enolase was 13.00 ng/mL.",
+        "clinical_data": {
+          "imaging": [
+            {
+              "type": "Lung nodule",
+              "body_part": "Right lower lobe",
+              "modality": "CT",
+              "finding": "20 x 15 x 16 mm nodule with clear boundary, lobulated margin, slight enhancement, and multiple hive-like low density areas in the center",
+              "date": null
+            },
+            {
+              "type": "Lung nodule",
+              "body_part": "Right upper lobe",
+              "modality": "Chest imaging",
+              "finding": "20 x 14 x 13 mm nodule with irregular margin, uneven thickness of cavity wall, and local nodular solid density shadow",
+              "date": null
+            },
+            {
+              "type": "Abdomen Imaging",
+              "body_part": "Liver, gallbladder, spleen, pancreas, and kidney",
+              "modality": "Ultrasound",
+              "finding": "No abnormality",
+              "date": null
+            }
+          ],
+          "labs": [
+            {
+              "test": "Carcinoembryonic antigen",
+              "value": "5.16",
+              "unit": "ng/mL",
+              "flag": "abnormal",
+              "reference_range": null,
+              "timestamp": null
+            },
+            {
+              "test": "Cytokeratin-19-fragment",
+              "value": "3.54",
+              "unit": "ng/mL",
+              "flag": "abnormal",
+              "reference_range": null,
+              "timestamp": null
+            },
+            {
+              "test": "Neuron-specific enolase",
+              "value": "13.00",
+              "unit": "ng/mL",
+              "flag": "abnormal",
+              "reference_range": null,
+              "timestamp": null
+            }
+          ]
+        }
+      }
+    },
+    {
+      "id": "N3",
+      "label": "Step 3",
+      "customData": {
+        "node_id": "C",
+        "node_step_index": 3,
+        "timestamp": "2018-07",
+        "content": "Wedge resection of the upper and lower lobes in the right lung was performed under video-assisted thoracoscope. Frozen pathology showed a 2.0 cm nodule in the right lower lobe wedge tissue, with solid section, greyish-white color, local colloidal substance and clear boundary with surrounding tissue. Another nodule with a maximum diameter of 1.8 cm was found in the wedge tissue of the right upper lobe. It showed solid section, greyish-white and unclear boundary with surrounding tissue. The patient underwent the right upper lobectomy and lymph node dissection under video-assisted thoracoscope. Hematoxylin-Eosin (HE) staining of the S8 nodule showed tumor tissues with rupture of alveolar septum, and rich in",
+        "clinical_data": {
+          "procedures": [
+            {
+              "name": "Wedge resection",
+              "approach": "video-assisted thoracoscope",
+              "date": null,
+              "location": "right lung, upper and lower lobes",
+              "performed_by": null,
+              "outcome": null
+            },
+            {
+              "name": "Lobectomy",
+              "approach": "video-assisted thoracoscope",
+              "date": null,
+              "location": "right upper lobe",
+              "performed_by": null,
+              "outcome": null
+            },
+            {
+              "name": "Lymph node dissection",
+              "approach": "video-assisted thoracoscope",
+              "date": null,
+              "location": null,
+              "performed_by": null,
+              "outcome": null
+            }
+          ],
+          "imaging": [
+            {
+              "type": "nodule",
+              "body_part": "right lower lobe",
+              "modality": null,
+              "finding": "2.0 cm nodule, solid section, greyish-white color, local colloidal substance and clear boundary with surrounding tissue",
+              "impression": null,
+              "date": null
+            },
+            {
+              "type": "nodule",
+              "body_part": "right upper lobe",
+              "modality": null,
+              "finding": "1.8 cm nodule, solid section, greyish-white and unclear boundary with surrounding tissue",
+              "impression": null,
+              "date": null
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "edges": [
+    {
+      "from": "N1",
+      "to": "N2",
+      "data": {
+        "edge_id": "A_to_B",
+        "branch_flag": true,
+        "content": "Patient underwent contrast-enhanced CT of the chest and ultrasonography of liver, gallbladder, spleen, pancreas, and kidney. Tumor marker carcino-embryonic antigen, cytokeratin-19-fragment, and neuron-specific enolase were measured.",
+        "transition_event": {
+          "trigger_type": "imaging",
+          "trigger_entities": [],
+          "change_type": "addition",
+          "target_domain": "imaging"
+        }
+      }
+    },
+    {
+      "from": "N2",
+      "to": "N3",
+      "data": {
+        "edge_id": "B_to_C",
+        "branch_flag": true,
+        "content": "Patient underwent wedge resection of the upper and lower lobes in the right lung under video-assisted thoracoscope, followed by right upper lobectomy and lymph node dissection under video-assisted thoracoscope. Frozen pathology was performed.",
+        "transition_event": {
+          "trigger_type": "procedure",
+          "trigger_entities": [],
+          "change_type": "addition",
+          "target_domain": "procedure"
+        }
+      }
+    }
+  ]
+}

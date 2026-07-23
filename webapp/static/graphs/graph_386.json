@@ -1,0 +1,606 @@
+{
+  "nodes": [
+    {
+      "id": "N1",
+      "label": "Step 1",
+      "customData": {
+        "node_id": "A",
+        "node_step_index": 0,
+        "content": "61-year-old man with a history of diabetes mellitus and hypertension was diagnosed in July 2020 with a locally advanced lung adenocarcinoma PDL1: 0%.",
+        "clinical_data": {
+          "diagnoses": [
+            {
+              "code": "C34",
+              "label": "Malignant neoplasm of bronchus and lung",
+              "status": "active",
+              "onset_date": "2020-07"
+            },
+            {
+              "code": "E11",
+              "label": "Type 2 diabetes mellitus",
+              "status": "historical",
+              "onset_date": null
+            },
+            {
+              "code": "I10",
+              "label": "Essential (primary) hypertension",
+              "status": "historical",
+              "onset_date": null
+            }
+          ]
+        }
+      }
+    },
+    {
+      "id": "N2",
+      "label": "Step 2",
+      "customData": {
+        "node_id": "B",
+        "node_step_index": 1,
+        "content": "Received first-line carboplatin, pemetrexed, and pembrolizumab, followed by maintenance pembrolizumab from January 2021. The best response achieved was a partial response maintained until September 2021.",
+        "clinical_data": {
+          "medications": [
+            {
+              "drug": "C0007127",
+              "dosage": null,
+              "frequency": null,
+              "modality": null,
+              "start_date": "2021-01",
+              "end_date": null,
+              "indication": null
+            },
+            {
+              "drug": "C0876351",
+              "dosage": null,
+              "frequency": null,
+              "modality": null,
+              "start_date": "2021-01",
+              "end_date": null,
+              "indication": null
+            },
+            {
+              "drug": "C1662551",
+              "dosage": null,
+              "frequency": null,
+              "modality": null,
+              "start_date": "2021-01",
+              "end_date": "2021-09",
+              "indication": null
+            }
+          ]
+        }
+      }
+    },
+    {
+      "id": "N3",
+      "label": "Step 3",
+      "customData": {
+        "node_id": "C",
+        "node_step_index": 2,
+        "content": "Developed several immune-related grade 2 toxicities: thyroiditis, pruritus, and pituitary insufficiency.",
+        "clinical_data": {
+          "diagnoses": [
+            {
+              "code": "C0040005",
+              "label": "Thyroiditis",
+              "status": "active"
+            },
+            {
+              "code": "C0033774",
+              "label": "Pruritus",
+              "status": "active"
+            },
+            {
+              "code": "C0262722",
+              "label": "Pituitary insufficiency",
+              "status": "active"
+            }
+          ]
+        }
+      }
+    },
+    {
+      "id": "N4",
+      "label": "Step 4",
+      "customData": {
+        "node_id": "D",
+        "node_step_index": 3,
+        "content": "Thoracic radiotherapy was administered due to isolated progression of the primitive lung lesion, resulting in a partial response.",
+        "clinical_data": {
+          "procedures": [
+            {
+              "name": "Thoracic radiotherapy",
+              "date": null,
+              "location": "lung",
+              "outcome": "partial response"
+            }
+          ]
+        }
+      }
+    },
+    {
+      "id": "N5",
+      "label": "Step 5",
+      "customData": {
+        "node_id": "E",
+        "node_step_index": 4,
+        "content": "August 2021: After one year of anti-PD1 treatment, the patient complained of alternating diarrhea and constipation.",
+        "clinical_data": {
+          "HPI": [
+            {
+              "summary": "Alternating diarrhea and constipation",
+              "onset": "August 2021",
+              "duration": "one year",
+              "associated_symptoms": [
+                "Diarrhea",
+                "Constipation"
+              ]
+            }
+          ],
+          "medications": [
+            {
+              "drug": "PD-1 inhibitor",
+              "start_date": "August 2020",
+              "end_date": "August 2021"
+            }
+          ]
+        }
+      }
+    },
+    {
+      "id": "N6",
+      "label": "Step 6",
+      "customData": {
+        "node_id": "F",
+        "node_step_index": 5,
+        "content": "September 2021: Hospitalized for occlusive syndrome associated with acute urine retention. Thoraco-abdomino-pelvic CT scan showed only aerogrelia and a dolichocolon with no junction syndrome.",
+        "clinical_data": {
+          "imaging": [
+            {
+              "type": "CT scan",
+              "body_part": "Thoraco-abdomino-pelvic",
+              "modality": "CT",
+              "finding": "aerogrelia and a dolichocolon",
+              "impression": "no junction syndrome",
+              "date": "2021-09"
+            }
+          ],
+          "diagnoses": [
+            {
+              "code": "acute urine retention",
+              "label": "acute urine retention",
+              "status": "active",
+              "onset_date": "2021-09"
+            }
+          ]
+        }
+      }
+    },
+    {
+      "id": "N7",
+      "label": "Step 7",
+      "customData": {
+        "node_id": "G",
+        "node_step_index": 6,
+        "content": "Exploratory laparoscopy revealed a 1.6-cm mesenteric metastatic nodule. Upper digestive tract fibroscopy revealed simple gastritis. Biopsy showed congestive gastric mucosal antritis within normal limits. Whole-body FDG-PET showed no pathological hyperfixation at the subdiaphragmatic level and no sign of disease progression.",
+        "clinical_data": {
+          "procedures": [
+            {
+              "name": "Laparoscopy",
+              "approach": "laparoscopic",
+              "date": null,
+              "location": "abdomen",
+              "performed_by": null,
+              "outcome": null
+            },
+            {
+              "name": "Fibroscopy of upper digestive tract",
+              "approach": "endoscopic",
+              "date": null,
+              "location": "upper digestive tract",
+              "performed_by": null,
+              "outcome": null
+            },
+            {
+              "name": "Biopsy",
+              "approach": "other",
+              "date": null,
+              "location": "gastric mucosa",
+              "performed_by": null,
+              "outcome": null
+            }
+          ],
+          "imaging": [
+            {
+              "type": "Positron emission tomography with fluorodeoxyglucose F-18",
+              "body_part": "whole body",
+              "modality": "PET",
+              "finding": "no pathological hyperfixation at the subdiaphragmatic level",
+              "impression": "no sign of disease progression",
+              "date": null
+            }
+          ],
+          "diagnoses": [
+            {
+              "code": "42854002",
+              "label": "Gastritis",
+              "status": "active",
+              "onset_date": null
+            }
+          ]
+        }
+      }
+    },
+    {
+      "id": "N8",
+      "label": "Step 8",
+      "customData": {
+        "node_id": "H",
+        "node_step_index": 7,
+        "content": "Serum auto-Ab (Hu, Yo, RI, CV2, amphiphisin, MA1 and 2, LGI1 and CASPR2) testing was negative. Pembrolizumab treatment stopped. Prostigmine and metoclopramide were ineffective. Intravenous corticosteroids (2mg/kg) for 2 weeks did not improve clinical symptoms.",
+        "clinical_data": {
+          "medications": [
+            {
+              "drug": "C0031075",
+              "dosage": "2mg/kg",
+              "frequency": "daily",
+              "modality": "IV",
+              "start_date": null,
+              "end_date": null,
+              "indication": null
+            }
+          ],
+          "labs": [
+            {
+              "test": "C1704494",
+              "value": "negative",
+              "unit": null,
+              "flag": "normal",
+              "reference_range": null,
+              "timestamp": null
+            }
+          ]
+        }
+      }
+    },
+    {
+      "id": "N9",
+      "label": "Step 9",
+      "customData": {
+        "node_id": "I",
+        "node_step_index": 8,
+        "content": "Required exclusively parenteral nutrition, a discharge gastrostomy, and bladder self-catheterization.",
+        "clinical_data": {
+          "procedures": [
+            {
+              "name": "Gastrostomy",
+              "approach": "other",
+              "date": null,
+              "location": null,
+              "performed_by": null,
+              "outcome": null
+            },
+            {
+              "name": "Self-catheterization",
+              "approach": "other",
+              "date": null,
+              "location": "bladder",
+              "performed_by": "patient",
+              "outcome": null
+            }
+          ],
+          "medications": [
+            {
+              "drug": "Parenteral nutrition",
+              "dosage": null,
+              "frequency": null,
+              "modality": "IV",
+              "start_date": null,
+              "end_date": null,
+              "indication": null
+            }
+          ]
+        }
+      }
+    },
+    {
+      "id": "N10",
+      "label": "Step 10",
+      "customData": {
+        "node_id": "J",
+        "node_step_index": 9,
+        "content": "Vedolizumab (4 injections at 300mg (W0, W2, W6, W10)) was started in February 2022 with no improvement in the CIPO.",
+        "clinical_data": {
+          "medications": [
+            {
+              "drug": "Vedolizumab",
+              "dosage": "300mg",
+              "frequency": "W0, W2, W6, W10",
+              "modality": "IV",
+              "start_date": "2022-02",
+              "end_date": null,
+              "indication": "Chronic intestinal pseudo-obstruction"
+            }
+          ]
+        }
+      }
+    },
+    {
+      "id": "N11",
+      "label": "Step 11",
+      "customData": {
+        "node_id": "K",
+        "node_step_index": 10,
+        "content": "Vedolizumab was permanently discontinued in September 2022.",
+        "clinical_data": {
+          "medications": [
+            {
+              "drug": "Vedolizumab",
+              "end_date": "2022-09",
+              "indication": null
+            }
+          ]
+        }
+      }
+    },
+    {
+      "id": "N12",
+      "label": "Step 12",
+      "customData": {
+        "node_id": "L",
+        "node_step_index": 11,
+        "content": "Treated with 4 cycles of carboplatin, etoposide, and atezolizumab, followed by atezolizumab maintenance. Partial metabolic response on whole-body FDG-PET scan.",
+        "clinical_data": {
+          "medications": [
+            {
+              "drug": "C0007147",
+              "dosage": null,
+              "frequency": null,
+              "modality": null,
+              "start_date": null,
+              "end_date": null,
+              "indication": null
+            },
+            {
+              "drug": "C0015087",
+              "dosage": null,
+              "frequency": null,
+              "modality": null,
+              "start_date": null,
+              "end_date": null,
+              "indication": null
+            },
+            {
+              "drug": "C4049444",
+              "dosage": null,
+              "frequency": null,
+              "modality": null,
+              "start_date": null,
+              "end_date": null,
+              "indication": null
+            }
+          ],
+          "imaging": [
+            {
+              "type": "C0205883",
+              "body_part": null,
+              "modality": "PET",
+              "finding": "Partial metabolic response",
+              "impression": null,
+              "date": null
+            }
+          ]
+        }
+      }
+    },
+    {
+      "id": "N13",
+      "label": "Step 13",
+      "customData": {
+        "node_id": "M",
+        "node_step_index": 12,
+        "content": "December 2021: Developed very severe constipation with postprandial nausea and vomiting unrelieved by laxatives.",
+        "clinical_data": {
+          "HPI": [
+            {
+              "summary": "Developed very severe constipation with postprandial nausea and vomiting unrelieved by laxatives.",
+              "onset": "December 2021",
+              "progression": "sudden",
+              "associated_symptoms": [
+                "nausea",
+                "vomiting"
+              ],
+              "alleviating_factors": [
+                "laxatives"
+              ]
+            }
+          ],
+          "diagnoses": [
+            {
+              "code": "55369000",
+              "label": "Constipation",
+              "status": "active",
+              "onset_date": "2021-12"
+            },
+            {
+              "code": "235293009",
+              "label": "Nausea",
+              "status": "active",
+              "onset_date": "2021-12"
+            },
+            {
+              "code": "422400008",
+              "label": "Vomiting",
+              "status": "active",
+              "onset_date": "2021-12"
+            }
+          ]
+        }
+      }
+    },
+    {
+      "id": "N14",
+      "label": "Step 14",
+      "customData": {
+        "node_id": "N",
+        "node_step_index": 13,
+        "content": "February 2022: Nystagmus appeared.",
+        "clinical_data": {
+          "diagnoses": [
+            {
+              "code": "C0029063",
+              "label": "Nystagmus",
+              "status": "active",
+              "onset_date": "2022-02"
+            }
+          ]
+        }
+      }
+    },
+    {
+      "id": "N15",
+      "label": "Step 15",
+      "customData": {
+        "node_id": "",
+        "clinical_data": {}
+      }
+    }
+  ],
+  "edges": [
+    {
+      "from": "N1",
+      "to": "N2",
+      "data": {
+        "edge_id": "A_to_B",
+        "branch_flag": true,
+        "content": "Initiation of first-line treatment for lung adenocarcinoma.",
+        "transition_event": {
+          "trigger_type": "medication_change",
+          "trigger_entities": [
+            "C0007127",
+            "C0876351",
+            "C1662551"
+          ],
+          "change_type": "addition",
+          "target_domain": "medication",
+          "timestamp": "2021-01"
+        }
+      }
+    },
+    {
+      "from": "N2",
+      "to": "N3",
+      "data": {
+        "edge_id": "B_to_C",
+        "branch_flag": true,
+        "content": "Development of immune-related toxicities following first-line treatment.",
+        "transition_event": {
+          "trigger_type": "symptom_onset",
+          "trigger_entities": [
+            "C0040005",
+            "C0033774",
+            "C0262722"
+          ],
+          "change_type": "addition",
+          "target_domain": "symptom"
+        }
+      }
+    },
+    {
+      "from": "N3",
+      "to": "N4",
+      "data": {
+        "edge_id": "C_to_D",
+        "branch_flag": true,
+        "content": "Administration of thoracic radiotherapy due to isolated progression of the lung lesion.",
+        "transition_event": {
+          "trigger_type": "procedure",
+          "trigger_entities": [],
+          "change_type": "addition",
+          "target_domain": "procedure"
+        }
+      }
+    },
+    {
+      "from": "N4",
+      "to": "N5",
+      "data": {
+        "edge_id": "D_to_E",
+        "branch_flag": true,
+        "content": "Patient reports alternating diarrhea and constipation after one year of anti-PD1 treatment.",
+        "transition_event": {
+          "trigger_type": "symptom_onset",
+          "trigger_entities": [
+            "diarrhea",
+            "constipation"
+          ],
+          "change_type": "addition",
+          "target_domain": "symptom",
+          "timestamp": "2021-08"
+        }
+      }
+    },
+    {
+      "from": "N5",
+      "to": "N6",
+      "data": {
+        "edge_id": "E_to_F",
+        "branch_flag": true,
+        "content": "Hospitalization for occlusive syndrome associated with acute urine retention.",
+        "transition_event": {
+          "trigger_type": "symptom_onset",
+          "trigger_entities": [
+            "acute urine retention"
+          ],
+          "change_type": "addition",
+          "target_domain": "symptom",
+          "timestamp": "2021-09"
+        }
+      }
+    },
+    {
+      "from": "N6",
+      "to": "N7",
+      "data": {
+        "edge_id": "F_to_G",
+        "branch_flag": true,
+        "content": "Exploratory laparoscopy reveals a mesenteric metastatic nodule. Upper digestive tract fibroscopy reveals simple gastritis. Whole-body FDG-PET shows no sign of disease progression.",
+        "transition_event": {
+          "trigger_type": "procedure",
+          "trigger_entities": [],
+          "change_type": "addition",
+          "target_domain": "procedure"
+        }
+      }
+    },
+    {
+      "from": "N7",
+      "to": "N8",
+      "data": {
+        "edge_id": "G_to_H",
+        "branch_flag": true,
+        "content": "Serum auto-Ab testing was negative. Pembrolizumab treatment stopped. Prostigmine and metoclopramide were ineffective. Intravenous corticosteroids were administered with no improvement.",
+        "transition_event": {
+          "trigger_type": "medication_change",
+          "trigger_entities": [
+            "C1662551"
+          ],
+          "change_type": "discontinuation",
+          "target_domain": "medication"
+        }
+      }
+    },
+    {
+      "from": "N8",
+      "to": "N9",
+      "data": {
+        "edge_id": "H_to_I",
+        "branch_flag": true,
+        "content": "Patient requires exclusively parenteral nutrition, a discharge gastrostomy, and bladder self-catheterization.",
+        "transition_event": {
+          "trigger_type": "procedure"
+        }
+      }
+    }
+  ]
+}

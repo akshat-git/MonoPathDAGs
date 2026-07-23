@@ -1,0 +1,552 @@
+{
+  "nodes": [
+    {
+      "id": "N1",
+      "label": "Step 1",
+      "customData": {
+        "node_id": "A",
+        "node_step_index": 0,
+        "content": "77-year-old Japanese woman with non-small-cell lung cancer (NSCLC), ECOG performance status 1. History of resection of the right middle lung lobe for lung adenocarcinoma (clinical T1aN0M0, clinical stage IA) two years prior. Pulmonary metastasis noted during follow-up one year after resection.",
+        "clinical_data": {
+          "diagnoses": [
+            {
+              "code": "C34.9",
+              "label": "Lung Cancer",
+              "status": "active",
+              "onset_date": null
+            },
+            {
+              "code": "C34",
+              "label": "Lung adenocarcinoma",
+              "status": "historical",
+              "onset_date": null
+            }
+          ],
+          "functional_status": [
+            {
+              "domain": "performance status",
+              "description": "ECOG performance status 1",
+              "score": "1",
+              "scale": "ECOG"
+            }
+          ]
+        }
+      }
+    },
+    {
+      "id": "N2",
+      "label": "Step 2",
+      "customData": {
+        "node_id": "B",
+        "node_step_index": 1,
+        "content": "Patient underwent five cycles of pemetrexed therapy for pulmonary metastasis of NSCLC. Progressive disease was noted.",
+        "clinical_data": {
+          "medications": [
+            {
+              "drug": "C0974868",
+              "dosage": null,
+              "frequency": null,
+              "modality": null,
+              "start_date": null,
+              "end_date": null,
+              "indication": "C0034196"
+            }
+          ],
+          "diagnoses": [
+            {
+              "code": "C0034196",
+              "label": "Pulmonary Metastasis",
+              "status": "active",
+              "onset_date": null
+            },
+            {
+              "code": "C0678222",
+              "label": "Non-small cell lung cancer",
+              "status": "active",
+              "onset_date": null
+            }
+          ]
+        }
+      }
+    },
+    {
+      "id": "N3",
+      "label": "Step 3",
+      "customData": {
+        "node_id": "C",
+        "node_step_index": 2,
+        "content": "Switched to nivolumab as second-line therapy (2 mg/kg, every 2 weeks).",
+        "clinical_data": {
+          "medications": [
+            {
+              "drug": "C1661221",
+              "dosage": "2 mg/kg",
+              "frequency": "every 2 weeks",
+              "modality": "IV",
+              "start_date": null,
+              "end_date": null,
+              "indication": null
+            }
+          ]
+        }
+      }
+    },
+    {
+      "id": "N4",
+      "label": "Step 4",
+      "customData": {
+        "node_id": "D",
+        "node_step_index": 3,
+        "content": "One day after the second infusion of nivolumab, the patient presented with progressive myalgia, ophthalmoplegia, and blepharoptosis. Denied chest pain and dyspnea.",
+        "clinical_data": {
+          "HPI": [
+            {
+              "summary": "Patient presented with progressive myalgia, ophthalmoplegia, and blepharoptosis one day after the second infusion of nivolumab.",
+              "onset": "One day after the second infusion of nivolumab",
+              "progression": "progressive",
+              "associated_symptoms": [
+                "Myalgia",
+                "Ophthalmoplegia",
+                "Blepharoptosis"
+              ]
+            }
+          ],
+          "ROS": [
+            {
+              "system": "cardiovascular",
+              "findings": [
+                "No chest pain"
+              ]
+            },
+            {
+              "system": "respiratory",
+              "findings": [
+                "No dyspnea"
+              ]
+            }
+          ],
+          "medications": [
+            {
+              "drug": "Nivolumab",
+              "modality": "IV",
+              "indication": "Unknown"
+            }
+          ]
+        }
+      }
+    },
+    {
+      "id": "N5",
+      "label": "Step 5",
+      "customData": {
+        "node_id": "E",
+        "node_step_index": 4,
+        "content": "Patient taking codeine phosphate for a cough. Glasgow Coma Score of 15. Body mass index 16.4 kg/m2, with no noticeable body weight changes. Slight fever of 37.1\u00b0C.",
+        "clinical_data": {
+          "medications": [
+            {
+              "drug": "C0009414",
+              "dosage": null,
+              "frequency": null,
+              "modality": null,
+              "start_date": null,
+              "end_date": null,
+              "indication": "C0010200"
+            }
+          ],
+          "vitals": [
+            {
+              "type": "C0017690",
+              "value": "15",
+              "unit": null,
+              "timestamp": null
+            },
+            {
+              "type": "C0005919",
+              "value": "16.4",
+              "unit": "kg/m2",
+              "timestamp": null
+            },
+            {
+              "type": "C0015967",
+              "value": "37.1",
+              "unit": "\u00b0C",
+              "timestamp": null
+            }
+          ]
+        }
+      }
+    },
+    {
+      "id": "N6",
+      "label": "Step 6",
+      "customData": {
+        "node_id": "F",
+        "node_step_index": 5,
+        "content": "Vitals: Blood pressure 120/76 mmHg, pulse 76/min, respiratory rate 18/min, oxygen saturation 96%. Physical examination revealed bilateral blepharoptosis (left-side dominant) and limitation of ocular movement. Eyes could slightly move to the left, up, and down, but not to the right. Visual acuity: 0.9 (right), 0.8 (left).",
+        "clinical_data": {
+          "vitals": [
+            {
+              "type": "Blood pressure",
+              "value": "120/76",
+              "unit": "mmHg"
+            },
+            {
+              "type": "Heart rate",
+              "value": "76",
+              "unit": "beats/min"
+            },
+            {
+              "type": "Respiratory rate",
+              "value": "18",
+              "unit": "breaths/min"
+            },
+            {
+              "type": "Oxygen saturation",
+              "value": "96",
+              "unit": "%"
+            }
+          ],
+          "physical_exam": [
+            {
+              "finding": "Bilateral blepharoptosis, left-side dominant",
+              "body_part": "Eyes"
+            },
+            {
+              "finding": "Limitation of ocular movement",
+              "body_part": "Eyes"
+            },
+            {
+              "finding": "Eyes could slightly move to the left, up, and down, but not to the right",
+              "body_part": "Eyes"
+            }
+          ],
+          "vision": [
+            {
+              "acuity_right": "0.9",
+              "acuity_left": "0.8"
+            }
+          ]
+        }
+      }
+    },
+    {
+      "id": "N7",
+      "label": "Step 7",
+      "customData": {
+        "node_id": "G",
+        "node_step_index": 6,
+        "content": "Manual muscle test 4/5 at the neck, bilateral arms, hip, and proximal muscles. No murmurs or crackles observed. Chest radiography showed a tumor mass in the left lower lung field, and the cardiothoracic ratio was 51% without pleural effusion. Chest computed tomography demonstrated tumor masses (14 mm at the left S1+2 and 16 mm at the left S9), with no thymoma or interstitial pneumonia noted.",
+        "clinical_data": {
+          "vitals": [
+            {
+              "type": "Cardiothoracic ratio",
+              "value": "51",
+              "unit": "%"
+            }
+          ],
+          "imaging": [
+            {
+              "type": "Tumor mass",
+              "body_part": "Lung",
+              "modality": "X-ray",
+              "finding": "Tumor mass in the left lower lung field",
+              "impression": "Tumor mass in the left lower lung field"
+            },
+            {
+              "type": "Tumor mass",
+              "body_part": "Lung",
+              "modality": "CT",
+              "finding": "Tumor masses (14 mm at the left S1+2 and 16 mm at the left S9)",
+              "impression": "Tumor masses (14 mm at the left S1+2 and 16 mm at the left S9)"
+            }
+          ]
+        }
+      }
+    },
+    {
+      "id": "N8",
+      "label": "Step 8",
+      "customData": {
+        "node_id": "H",
+        "node_step_index": 7,
+        "content": "ECG showed a bifascicular block (first-degree atrioventricular block and complete right bundle branch block) and ST-segment elevation in leads I, II, III, aVF, V3, V4, V5, and V6 without reciprocal ST-segment depression.",
+        "clinical_data": {
+          "diagnoses": [
+            {
+              "code": "C0009245",
+              "label": "Complete right bundle branch block",
+              "status": "active"
+            },
+            {
+              "code": "C0004074",
+              "label": "Atrioventricular block, first degree",
+              "status": "active"
+            }
+          ],
+          "imaging": [
+            {
+              "type": "C0013917",
+              "body_part": "C0007592",
+              "modality": "other",
+              "finding": "ST-segment elevation in leads I, II, III, aVF, V3, V4, V5, and V6",
+              "impression": "bifascicular block",
+              "date": null
+            }
+          ]
+        }
+      }
+    },
+    {
+      "id": "N9",
+      "label": "Step 9",
+      "customData": {
+        "node_id": "I",
+        "node_step_index": 8,
+        "content": "Transthoracic echocardiography showed a preserved ejection fraction without asynergy, and no pericardial effusion or obvious myocardial edema was noted.",
+        "clinical_data": {
+          "imaging": [
+            {
+              "type": "Transthoracic echocardiography",
+              "body_part": "heart",
+              "modality": "Ultrasound",
+              "finding": "preserved ejection fraction without asynergy, no pericardial effusion or obvious myocardial edema",
+              "impression": "preserved ejection fraction without asynergy, no pericardial effusion or obvious myocardial edema"
+            }
+          ]
+        }
+      }
+    },
+    {
+      "id": "N10",
+      "label": "Step 10",
+      "customData": {
+        "node_id": "J",
+        "node_step_index": 9,
+        "content": "ECG on day 3 showed trifascicular block (first-degree atrioventricular block, complete right bundle branch block, and left anterior hemiblock). ECG on day 5 showed progression to atrioventricular dissociation. ECG on day 14 showed the recovering trifascicular block, which transformed into a bifascicular block on day 26. Laboratory data showed elevated aspartate aminotransferase (757 U/L), alanine aminotransferase (225 U/L), lactate dehydrogenase (1,634 U/L), C-reactive protein (1.21 mg/dL), brain natriuretic peptide (88.1 pg/mL), creatine kinase (CK) (11,297 U/L), CK-MB (204 U/L), and troponin T (1,478 ng",
+        "clinical_data": {
+          "labs": [
+            {
+              "test": "Aspartate Aminotransferase Measurement",
+              "value": "757",
+              "unit": "U/L",
+              "flag": "abnormal"
+            },
+            {
+              "test": "Alanine Aminotransferase Measurement",
+              "value": "225",
+              "unit": "U/L",
+              "flag": "abnormal"
+            },
+            {
+              "test": "Lactate Dehydrogenase Measurement",
+              "value": "1634",
+              "unit": "U/L",
+              "flag": "abnormal"
+            },
+            {
+              "test": "C-Reactive Protein Measurement",
+              "value": "1.21",
+              "unit": "mg/dL",
+              "flag": "abnormal"
+            },
+            {
+              "test": "Brain Natriuretic Peptide Measurement",
+              "value": "88.1",
+              "unit": "pg/mL",
+              "flag": "abnormal"
+            },
+            {
+              "test": "Creatine Kinase Measurement",
+              "value": "11297",
+              "unit": "U/L",
+              "flag": "abnormal"
+            },
+            {
+              "test": "Creatine Kinase MB Isoenzyme Measurement",
+              "value": "204",
+              "unit": "U/L",
+              "flag": "abnormal"
+            },
+            {
+              "test": "Troponin T Measurement",
+              "value": "1478",
+              "unit": "ng",
+              "flag": "abnormal"
+            }
+          ],
+          "diagnoses": [
+            {
+              "code": "C0344751",
+              "label": "Trifascicular Block",
+              "status": "active",
+              "onset_date": null
+            },
+            {
+              "code": "C0004104",
+              "label": "Atrioventricular Block, First-Degree",
+              "status": "active",
+              "onset_date": null
+            },
+            {
+              "code": "C0036867",
+              "label": "Right Bundle Branch Block",
+              "status": "active",
+              "onset_date": null
+            },
+            {
+              "code": "C0239148",
+              "label": "Left Anterior Hemiblock",
+              "status": "active",
+              "onset_date": null
+            },
+            {
+              "code": "C0004101",
+              "label": "Atrioventricular Dissociation",
+              "status": "active",
+              "onset_date": null
+            },
+            {
+              "code": "C0264247",
+              "label": "Bifascicular Block",
+              "status": "active",
+              "onset_date": null
+            }
+          ],
+          "imaging": [
+            {
+              "type": "Electrocardiography",
+              "body_part": "Heart",
+              "modality": "other",
+              "finding": "Trifascicular block (first-degree atrioventricular block, complete right bundle branch block, and left anterior hemiblock)",
+              "date": "day 3"
+            },
+            {
+              "type": "Electrocardiography",
+              "body_part": "Heart",
+              "modality": "other",
+              "finding": "progression to atrioventricular dissociation",
+              "date": "day 5"
+            },
+            {
+              "type": "Electrocardiography",
+              "body_part": "Heart",
+              "modality": "other",
+              "finding": "recovering trifascicular block",
+              "date": "day 14"
+            },
+            {
+              "type": "Electrocardiography",
+              "body_part": "Heart",
+              "modality": "other",
+              "finding": "transformed into a bifascicular block",
+              "date": "day 26"
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "edges": [
+    {
+      "from": "N1",
+      "to": "N2",
+      "data": {
+        "edge_id": "A_to_B",
+        "branch_flag": true,
+        "content": "Progression of NSCLC with pulmonary metastasis, leading to pemetrexed therapy."
+      }
+    },
+    {
+      "from": "N2",
+      "to": "N3",
+      "data": {
+        "edge_id": "B_to_C",
+        "branch_flag": true,
+        "content": "Progressive disease on pemetrexed, leading to switch to nivolumab.",
+        "transition_event": {
+          "trigger_type": "medication_change",
+          "trigger_entities": [
+            "C1661221",
+            "C0974868"
+          ],
+          "change_type": "addition",
+          "target_domain": "medication"
+        }
+      }
+    },
+    {
+      "from": "N3",
+      "to": "N4",
+      "data": {
+        "edge_id": "C_to_D",
+        "branch_flag": true,
+        "content": "Adverse reaction to nivolumab.",
+        "transition_event": {
+          "trigger_type": "symptom_onset",
+          "trigger_entities": [
+            "C0027051",
+            "C0029108",
+            "C0005739"
+          ],
+          "change_type": "addition",
+          "target_domain": "symptom"
+        }
+      }
+    },
+    {
+      "from": "N4",
+      "to": "N5",
+      "data": {
+        "edge_id": "D_to_E",
+        "branch_flag": true,
+        "content": "Continued symptoms and other findings."
+      }
+    },
+    {
+      "from": "N5",
+      "to": "N6",
+      "data": {
+        "edge_id": "E_to_F",
+        "branch_flag": true,
+        "content": "Vitals and physical exam findings."
+      }
+    },
+    {
+      "from": "N6",
+      "to": "N7",
+      "data": {
+        "edge_id": "F_to_G",
+        "branch_flag": true,
+        "content": "Imaging and muscle test results."
+      }
+    },
+    {
+      "from": "N7",
+      "to": "N8",
+      "data": {
+        "edge_id": "G_to_H",
+        "branch_flag": true,
+        "content": "ECG findings."
+      }
+    },
+    {
+      "from": "N8",
+      "to": "N9",
+      "data": {
+        "edge_id": "H_to_I",
+        "branch_flag": true,
+        "content": "Echocardiography findings."
+      }
+    },
+    {
+      "from": "N9",
+      "to": "N10",
+      "data": {
+        "edge_id": "I_to_J",
+        "branch_flag": true,
+        "content": "Progression of cardiac abnormalities and lab abnormalities."
+      }
+    }
+  ]
+}

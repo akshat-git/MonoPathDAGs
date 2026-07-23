@@ -1,0 +1,210 @@
+{
+  "nodes": [
+    {
+      "id": "N1",
+      "label": "Step 1",
+      "customData": {
+        "node_id": "A",
+        "node_step_index": 0,
+        "content": "46-year-old man with a history of 50 pack-years of tobacco smoking admitted to the Department of Pulmonary Diseases with a large mass in the middle region of the left lung interflowing with enlarged left hilum on chest X-ray and a spiculated tumor in the left lung hilum on chest CT. Patient reports progressive tiredness in the last 5 months, recurrent sub-febrile states, productive cough, and occasional dyspnea in the last 1.5 months. Symptoms did not resolve despite empiric treatment with 3 antibiotic therapies. Patient is not taking any long-term medications and had not been diagnosed with any disease. Patient lives in a city with over 500 000 inhabitants, in a flat on the third floor with his wife and son. He worked in an office. His parents and wife were also smokers. During admission he was in fairly good general condition and his vital signs were within normal limits. Muted vesicular breath sounds at the bottom of the left lung. Laboratory blood tests revealed a high white blood cell count and elevated C-reactive protein: WBC 16.9x10^9/l, NEU 13.8x10^9/l, CRP 91.6 mg/l. Chest X-ray revealed a large mass in the left lung, and extending to the mediastinum. CT scan showed a nodular lesion in the left lung. Abdominal ultrasound showed no abnormal results.",
+        "clinical_data": {
+          "social_history": [
+            {
+              "category": "smoking",
+              "status": "past",
+              "description": "50 pack-years of tobacco smoking"
+            },
+            {
+              "category": "housing",
+              "status": "current",
+              "description": "Lives in a city with over 500 000 inhabitants, in a flat on the third floor with his wife and son."
+            },
+            {
+              "category": "employment",
+              "status": "current",
+              "description": "Worked in an office."
+            },
+            {
+              "category": "smoking",
+              "status": "past",
+              "description": "Parents and wife were also smokers."
+            }
+          ],
+          "HPI": [
+            {
+              "summary": "Progressive tiredness, recurrent sub-febrile states, productive cough, and occasional dyspnea",
+              "duration": "1.5 months",
+              "onset": "5 months ago",
+              "progression": "gradual",
+              "associated_symptoms": [
+                "Productive cough",
+                "Dyspnea"
+              ]
+            }
+          ],
+          "diagnoses": [
+            {
+              "code": "72019003",
+              "label": "Mass of left lung",
+              "status": "suspected",
+              "onset_date": null
+            }
+          ],
+          "imaging": [
+            {
+              "type": "N0000002227",
+              "body_part": "T-D007241",
+              "modality": "X-ray",
+              "finding": "Large mass in the middle region of the left lung interflowing with enlarged left hilum",
+              "impression": "Large mass in the left lung, and extending to the mediastinum.",
+              "date": null
+            },
+            {
+              "type": "N0000002227",
+              "body_part": "T-D007241",
+              "modality": "CT",
+              "finding": "Spiculated tumor in the left lung hilum",
+              "impression": "Nodular lesion in the left lung.",
+              "date": null
+            },
+            {
+              "type": "Imaging of abdomen",
+              "body_part": "Abdomen",
+              "modality": "Ultrasound",
+              "finding": "No abnormal results",
+              "impression": "No abnormal results",
+              "date": null
+            }
+          ],
+          "labs": [
+            {
+              "test": "White blood cell count",
+              "value": "16.9",
+              "unit": "x10^9/l",
+              "flag": "abnormal",
+              "reference_range": null,
+              "timestamp": null
+            },
+            {
+              "test": "Neutrophils",
+              "value": "13.8",
+              "unit": "x10^9/l",
+              "flag": "abnormal",
+              "reference_range": null,
+              "timestamp": null
+            },
+            {
+              "test": "C-reactive protein",
+              "value": "91.6",
+              "unit": "mg/l",
+              "flag": "abnormal",
+              "reference_range": null,
+              "timestamp": null
+            }
+          ]
+        }
+      },
+      "custom_id": "graph_071_N0"
+    },
+    {
+      "id": "N2",
+      "label": "Step 2",
+      "customData": {
+        "node_id": "B",
+        "node_step_index": 1,
+        "content": "Lung spirometry revealed irreversible severe airflow obstruction: FEV1=1.12l (47% of predicted value), FVC=1.96l (65% of predicted value), and FEV1/FVC=57.32%. After receiving 400 mcg of salbutamol, FEV1 was 1.43l (60% of predicted value), FVC was 2.24l (74% of predicted value), and FEV1/FVC was 63.97%. Bronchodilator test was positive. Lung spirometry revealed moderate irreversible airflow obstruction: FEV1=2.30l (61% of predicted value), FVC=3.71l (78% of predicted value), FEV1/FVC=62.11%, and after 400 mcg of salbutamol FEV1=2.",
+        "clinical_data": {
+          "labs": [
+            {
+              "test": "FEV1",
+              "value": "1.12",
+              "unit": "l",
+              "flag": "abnormal",
+              "reference_range": "47% of predicted value"
+            },
+            {
+              "test": "FVC",
+              "value": "1.96",
+              "unit": "l",
+              "flag": "abnormal",
+              "reference_range": "65% of predicted value"
+            },
+            {
+              "test": "FEV1/FVC",
+              "value": "57.32",
+              "unit": "%",
+              "flag": "abnormal"
+            },
+            {
+              "test": "FEV1",
+              "value": "1.43",
+              "unit": "l",
+              "flag": "abnormal",
+              "reference_range": "60% of predicted value"
+            },
+            {
+              "test": "FVC",
+              "value": "2.24",
+              "unit": "l",
+              "flag": "abnormal",
+              "reference_range": "74% of predicted value"
+            },
+            {
+              "test": "FEV1/FVC",
+              "value": "63.97",
+              "unit": "%",
+              "flag": "abnormal"
+            },
+            {
+              "test": "FEV1",
+              "value": "2.30",
+              "unit": "l",
+              "flag": "abnormal",
+              "reference_range": "61% of predicted value"
+            },
+            {
+              "test": "FVC",
+              "value": "3.71",
+              "unit": "l",
+              "flag": "abnormal",
+              "reference_range": "78% of predicted value"
+            },
+            {
+              "test": "FEV1/FVC",
+              "value": "62.11",
+              "unit": "%",
+              "flag": "abnormal"
+            }
+          ],
+          "medications": [
+            {
+              "drug": "Salbutamol",
+              "dosage": "400 mcg"
+            }
+          ]
+        }
+      },
+      "custom_id": "graph_071_N1"
+    }
+  ],
+  "edges": [
+    {
+      "from": "N1",
+      "to": "N2",
+      "data": {
+        "edge_id": "A_to_B",
+        "branch_flag": true,
+        "content": "Patient underwent lung spirometry.",
+        "transition_event": {
+          "trigger_type": "procedure",
+          "trigger_entities": [
+            "C0024117"
+          ],
+          "change_type": "addition",
+          "target_domain": "procedure"
+        }
+      },
+      "custom_id": "graph_071_N1_N2"
+    }
+  ]
+}

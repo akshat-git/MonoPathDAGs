@@ -1,0 +1,240 @@
+{
+  "nodes": [
+    {
+      "id": "N1",
+      "label": "Step 1",
+      "customData": {
+        "node_id": "A",
+        "node_step_index": 0,
+        "content": "Adult patients with proven or suspected peripheral surgically resectable NSCLC, without evidence of lymph node disease in the preoperative study.",
+        "clinical_data": {
+          "diagnoses": [
+            {
+              "code": "C34",
+              "label": "Malignant neoplasm of bronchus and lung",
+              "status": "suspected"
+            }
+          ]
+        }
+      }
+    },
+    {
+      "id": "N2",
+      "label": "Step 2",
+      "customData": {
+        "node_id": "B",
+        "node_step_index": 1,
+        "content": "Patient underwent robotic anatomical lung resection with systematic nodal dissection (SND). Transpleural injection of 1 mL of ICG diluted in 20% human albumin (concentration of 2.5 mg/mL) into the peritumoral area. SND was performed in all cases.",
+        "clinical_data": {
+          "procedures": [
+            {
+              "name": "Anatomical lung resection",
+              "approach": "robotic",
+              "location": "lung"
+            },
+            {
+              "name": "Systematic nodal dissection",
+              "location": "lymph node"
+            }
+          ],
+          "medications": [
+            {
+              "drug": "Indocyanine green",
+              "dosage": "1 mL",
+              "modality": "transpleural injection"
+            },
+            {
+              "drug": "Human albumin",
+              "dosage": null,
+              "modality": "transpleural injection"
+            }
+          ]
+        }
+      }
+    },
+    {
+      "id": "N3",
+      "label": "Step 3",
+      "customData": {
+        "node_id": "C",
+        "node_step_index": 2,
+        "content": "Intraoperative assessment of lymph nodes using FireFly system. Fluorescent lymph nodes were resected, confirmed ex vivo for ICG avidity, and sent to pathology separately.",
+        "clinical_data": {
+          "procedures": [
+            {
+              "name": "Lymph node dissection",
+              "approach": "open",
+              "location": "lymph nodes",
+              "outcome": "resected"
+            }
+          ],
+          "imaging": [
+            {
+              "modality": "other",
+              "type": "Fluorescence Imaging",
+              "body_part": "lymph nodes",
+              "finding": "Fluorescent lymph nodes"
+            }
+          ]
+        }
+      }
+    },
+    {
+      "id": "N4",
+      "label": "Step 4",
+      "customData": {
+        "node_id": "D",
+        "node_step_index": 3,
+        "content": "Patient characteristics: Male. Smoking status: Never 4 (16.7%), Former 12 (50%), Current 8 (33.3%). Median BMI: 26.26 kg/m2 (IQR 28.42\u201323.52). Median FEV1%: 99 (IQR 114.5\u201384.25). Median DLCO%: 83 (IQR 103\u201375). Comorbidities: Cardiopathy (12.5%), Hypertension (33.3%), COPD (16.7%), Diabetes (8.3%), Kidney insufficiency (8.3%), Previous malignancy (41.7%). Cancer clinical stage: IA2 (cT1bN0) (25%), IA3 (cT1cN0) (37.5%), IB (cT2aN0) (12.5%), IIA (cT2bN0) (12.5%), IIB (cT3N0) (12.5%). Induction treatment (4.17%).",
+        "clinical_data": {
+          "social_history": [
+            {
+              "category": "smoking",
+              "status": "never",
+              "description": "Never smoked"
+            },
+            {
+              "category": "smoking",
+              "status": "past",
+              "description": "Former smoker"
+            },
+            {
+              "category": "smoking",
+              "status": "current",
+              "description": "Current smoker"
+            }
+          ],
+          "vitals": [
+            {
+              "type": "Body mass index",
+              "value": "26.26",
+              "unit": "kg/m2"
+            }
+          ],
+          "diagnoses": [
+            {
+              "code": "C0007642",
+              "label": "Cardiopathy",
+              "status": "active"
+            },
+            {
+              "code": "C0020538",
+              "label": "Hypertension",
+              "status": "active"
+            },
+            {
+              "code": "C0009403",
+              "label": "Chronic Obstructive Pulmonary Disease",
+              "status": "active"
+            },
+            {
+              "code": "C0011849",
+              "label": "Diabetes Mellitus",
+              "status": "active"
+            },
+            {
+              "code": "C0022653",
+              "label": "Renal Insufficiency",
+              "status": "active"
+            },
+            {
+              "code": "C0006826",
+              "label": "Malignancy",
+              "status": "historical"
+            }
+          ]
+        }
+      }
+    },
+    {
+      "id": "N5",
+      "label": "Step 5",
+      "customData": {
+        "node_id": "E",
+        "node_step_index": 4,
+        "content": "Surgical resection: Lobectomy in 22 patients (91.7%)",
+        "Histopathology": "NSCLC in 21 patients (87.5%), Adenocarcinoma in 16 patients, Squamous cell carcinoma in 2 patients, Carcinoid tumour in 1 patient, Other subtypes in 2 patients, Pulmonary metastases in 2 patients (8.3%), Benign lesion in 1 patient (1). A SLN was identified in 17 patients (70.8%). The 7 SLN identification failures were attributed to technical issues related to intrapleural spread of the",
+        "clinical_data": {
+          "procedures": [
+            {
+              "name": "Lobectomy",
+              "approach": "open",
+              "location": "lung",
+              "outcome": "resection"
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "edges": [
+    {
+      "from": "N1",
+      "to": "N2",
+      "data": {
+        "edge_id": "A_to_B",
+        "branch_flag": true,
+        "content": "Patient with suspected peripheral surgically resectable NSCLC underwent robotic anatomical lung resection with systematic nodal dissection (SND). Transpleural injection of ICG into the peritumoral area. SND was performed.",
+        "transition_event": {
+          "trigger_type": "procedure",
+          "trigger_entities": [
+            "C0024138"
+          ],
+          "change_type": "addition",
+          "target_domain": "procedure"
+        }
+      }
+    },
+    {
+      "from": "N2",
+      "to": "N3",
+      "data": {
+        "edge_id": "B_to_C",
+        "branch_flag": true,
+        "content": "Intraoperative assessment of lymph nodes using FireFly system after robotic anatomical lung resection with systematic nodal dissection (SND).",
+        "transition_event": {
+          "trigger_type": "procedure",
+          "trigger_entities": [
+            "C0024138"
+          ],
+          "change_type": "addition",
+          "target_domain": "procedure"
+        }
+      }
+    },
+    {
+      "from": "N3",
+      "to": "N4",
+      "data": {
+        "edge_id": "C_to_D",
+        "branch_flag": true,
+        "content": "Patient characteristics and cancer clinical stage information following intraoperative assessment of lymph nodes.",
+        "transition_event": {
+          "trigger_type": "interpretation",
+          "trigger_entities": [
+            "C0006826"
+          ],
+          "change_type": "other",
+          "target_domain": "diagnosis"
+        }
+      }
+    },
+    {
+      "from": "N4",
+      "to": "N5",
+      "data": {
+        "edge_id": "D_to_E",
+        "branch_flag": true,
+        "content": "Surgical resection and histopathology results following patient characteristics assessment.",
+        "transition_event": {
+          "trigger_type": "procedure",
+          "trigger_entities": [
+            "C0024138"
+          ],
+          "change_type": "addition",
+          "target_domain": "procedure"
+        }
+      }
+    }
+  ]
+}

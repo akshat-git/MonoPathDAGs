@@ -1,0 +1,214 @@
+{
+  "nodes": [
+    {
+      "id": "N1",
+      "label": "Step 1",
+      "customData": {
+        "node_id": "A",
+        "node_step_index": 0,
+        "content": "70-year-old female with severe COPD, lung cancer status-post resection 15 years prior, and osteoporosis presented in March of 2019 complaining of a lump on the right side of the upper back at the site of a previous right-sided thoracotomy where she underwent segmentectomy of the right upper lobe, and a right upper lobe lobectomy in 2004. No radiation or chemotherapy was administered at the time of surgery and she had remained cancer free with no reoccurrence based on her yearly pulmonary follow ups. She noticed the mass over the past year and although it was painless, it had raised concern due to its progressive size.",
+        "clinical_data": {
+          "diagnoses": [
+            {
+              "code": "C44.9",
+              "label": "Lung cancer",
+              "status": "historical",
+              "onset_date": null
+            },
+            {
+              "code": "J44.9",
+              "label": "COPD",
+              "status": "active",
+              "onset_date": null
+            },
+            {
+              "code": "M81.0",
+              "label": "Osteoporosis",
+              "status": "active",
+              "onset_date": null
+            }
+          ],
+          "procedures": [
+            {
+              "name": "Segmentectomy of right upper lobe",
+              "approach": "open",
+              "date": null,
+              "location": "Right upper lobe",
+              "performed_by": null,
+              "outcome": null
+            },
+            {
+              "name": "Right upper lobe lobectomy",
+              "approach": "open",
+              "date": "2004",
+              "location": "Right upper lobe",
+              "performed_by": null,
+              "outcome": null
+            }
+          ],
+          "HPI": [
+            {
+              "summary": "Patient presented with a lump on the right side of the upper back at the site of a previous right-sided thoracotomy.",
+              "duration": "1 year",
+              "onset": null,
+              "progression": "progressive",
+              "associated_symptoms": [],
+              "alleviating_factors": [],
+              "exacerbating_factors": []
+            }
+          ]
+        }
+      }
+    },
+    {
+      "id": "N2",
+      "label": "Step 2",
+      "customData": {
+        "node_id": "B",
+        "node_step_index": 1,
+        "content": "Physical exam revealed a 2-3 cm non-tender mass palpated under the surgical scar, becoming more prominent with scapular movement. Ultrasound showed a 3 cm complex mass. MRI showed a heterogeneously enhancing mass along the right posterior lateral chest wall, increased in size compared to a 2015 chest CT scan performed for lung cancer follow-up.",
+        "clinical_data": {
+          "imaging": [
+            {
+              "type": "Mass (finding)",
+              "body_part": "Chest wall",
+              "modality": "Ultrasound",
+              "finding": "3 cm complex mass",
+              "impression": null,
+              "date": null
+            },
+            {
+              "type": "Mass (finding)",
+              "body_part": "Chest wall",
+              "modality": "MRI",
+              "finding": "Heterogeneously enhancing mass",
+              "impression": "Increased in size compared to a 2015 chest CT scan",
+              "date": null
+            },
+            {
+              "type": "Lung cancer",
+              "body_part": "Lung",
+              "modality": "CT",
+              "finding": null,
+              "impression": null,
+              "date": "2015"
+            }
+          ],
+          "physical_exam": [
+            {
+              "finding": "2-3 cm non-tender mass palpated under the surgical scar, becoming more prominent with scapular movement",
+              "location": "Right posterior lateral chest wall"
+            }
+          ]
+        }
+      }
+    },
+    {
+      "id": "N3",
+      "label": "Step 3",
+      "customData": {
+        "node_id": "C",
+        "node_step_index": 2,
+        "content": "Differential diagnosis included elastofibroma, desmoid tumor, sarcoma, and recurrent lung cancer.",
+        "clinical_data": {}
+      }
+    },
+    {
+      "id": "N4",
+      "label": "Step 4",
+      "customData": {
+        "node_id": "D",
+        "node_step_index": 3,
+        "content": "CT-guided biopsy performed.",
+        "clinical_data": {
+          "procedures": [
+            {
+              "name": "Biopsy",
+              "approach": "percutaneous",
+              "modality": "CT",
+              "date": null,
+              "location": null,
+              "performed_by": null,
+              "outcome": null
+            }
+          ]
+        }
+      }
+    },
+    {
+      "id": "N5",
+      "label": "Step 5",
+      "customData": {
+        "node_id": "E",
+        "node_step_index": 4,
+        "content": "Pathology report consistent with a diagnosis of elastofibroma.",
+        "clinical_data": {
+          "diagnoses": [
+            {
+              "code": "C0342622",
+              "label": "Elastofibroma",
+              "status": "active"
+            }
+          ]
+        }
+      }
+    },
+    {
+      "id": "N6",
+      "label": "Step 6",
+      "customData": {
+        "node_id": "F",
+        "node_step_index": 5,
+        "content": "Oncologist recommended no surgical intervention due to benign nature of mass.",
+        "clinical_data": {}
+      }
+    }
+  ],
+  "edges": [
+    {
+      "from": "N1",
+      "to": "N2",
+      "data": {
+        "edge_id": "A_to_B",
+        "branch_flag": true,
+        "content": "Patient transitioned from initial presentation to physical exam and imaging revealing a mass on the right posterior lateral chest wall."
+      }
+    },
+    {
+      "from": "N2",
+      "to": "N3",
+      "data": {
+        "edge_id": "B_to_C",
+        "branch_flag": true,
+        "content": "Based on imaging, differential diagnosis was generated."
+      }
+    },
+    {
+      "from": "N3",
+      "to": "N4",
+      "data": {
+        "edge_id": "C_to_D",
+        "branch_flag": true,
+        "content": "To determine the diagnosis, a CT-guided biopsy was performed."
+      }
+    },
+    {
+      "from": "N4",
+      "to": "N5",
+      "data": {
+        "edge_id": "D_to_E",
+        "branch_flag": true,
+        "content": "Biopsy results led to a diagnosis of elastofibroma."
+      }
+    },
+    {
+      "from": "N5",
+      "to": "N6",
+      "data": {
+        "edge_id": "E_to_F",
+        "branch_flag": true,
+        "content": "Based on the benign diagnosis, the oncologist recommended no surgical intervention."
+      }
+    }
+  ]
+}

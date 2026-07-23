@@ -1,0 +1,337 @@
+{
+  "nodes": [
+    {
+      "id": "N1",
+      "label": "Step 1",
+      "customData": {
+        "node_id": "A",
+        "node_step_index": 0,
+        "content": "73-year-old male presented with fatigue and weight loss. Patient has a history of situs inversus totalis (SIT) since early adulthood, discovered incidentally on a chest X-ray. Additional history of ex-smoker (5 pack-year history, quit 40 years prior), mild chronic obstructive pulmonary disease, type 2 diabetes mellitus, dyslipidaemia, peptic ulcer disease, gastro-oesophageal reflux disease, diverticulosis, and colonic polyps.",
+        "clinical_data": {
+          "HPI": [
+            {
+              "summary": "73-year-old male presented with fatigue and weight loss.",
+              "onset": "unknown",
+              "progression": "unknown"
+            }
+          ],
+          "diagnoses": [
+            {
+              "code": "SNOMED:6740002",
+              "label": "Situs inversus totalis",
+              "status": "historical",
+              "onset_date": null
+            },
+            {
+              "code": "UMLS:C0009403",
+              "label": "Chronic Obstructive Pulmonary Disease",
+              "status": "active",
+              "onset_date": null
+            },
+            {
+              "code": "UMLS:C0011860",
+              "label": "Type 2 Diabetes Mellitus",
+              "status": "active",
+              "onset_date": null
+            },
+            {
+              "code": "UMLS:C0013027",
+              "label": "Dyslipidemia",
+              "status": "active",
+              "onset_date": null
+            },
+            {
+              "code": "UMLS:C0031117",
+              "label": "Peptic Ulcer",
+              "status": "active",
+              "onset_date": null
+            },
+            {
+              "code": "UMLS:C0017131",
+              "label": "Gastroesophageal Reflux Disease",
+              "status": "active",
+              "onset_date": null
+            },
+            {
+              "code": "UMLS:C0012677",
+              "label": "Diverticulosis",
+              "status": "active",
+              "onset_date": null
+            },
+            {
+              "code": "UMLS:C0009451",
+              "label": "Colonic Polyps",
+              "status": "active",
+              "onset_date": null
+            }
+          ],
+          "social_history": [
+            {
+              "category": "smoking",
+              "status": "past",
+              "description": "ex-smoker (5 pack-year history, quit 40 years prior)"
+            }
+          ]
+        }
+      },
+      "custom_id": "graph_031_N0"
+    },
+    {
+      "id": "N2",
+      "label": "Step 2",
+      "customData": {
+        "node_id": "B",
+        "node_step_index": 1,
+        "content": "CT thorax, abdomen, and pelvis showed a 20x20 mm nodule in the right upper lobe with a 7x4 mm central solid component, and an 8 mm ground glass opacity with a central solid dot in the right lower lobe. No lymphadenopathy was detected.",
+        "clinical_data": {
+          "imaging": [
+            {
+              "type": "Lung CT",
+              "body_part": "Lung",
+              "modality": "CT",
+              "finding": "20x20 mm nodule in the right upper lobe with a 7x4 mm central solid component, and an 8 mm ground glass opacity with a central solid dot in the right lower lobe",
+              "impression": "Lung nodule",
+              "date": null
+            }
+          ]
+        }
+      },
+      "custom_id": "graph_031_N1"
+    },
+    {
+      "id": "N3",
+      "label": "Step 3",
+      "customData": {
+        "node_id": "C",
+        "node_step_index": 2,
+        "content": "PET scan showed mild FDG uptake in the solid component of the nodule and some calcification in mediastinal lymph nodules, with no obvious nodal or distant metastasis.",
+        "clinical_data": {
+          "imaging": [
+            {
+              "type": "Positron emission tomography",
+              "body_part": "Mediastinum",
+              "modality": "PET",
+              "finding": "mild FDG uptake in the solid component of the nodule and some calcification in mediastinal lymph nodules, with no obvious nodal or distant metastasis."
+            }
+          ]
+        }
+      },
+      "custom_id": "graph_031_N2"
+    },
+    {
+      "id": "N4",
+      "label": "Step 4",
+      "customData": {
+        "node_id": "D",
+        "node_step_index": 3,
+        "content": "Diagnosed with stage 1a (cT1cN0M0) lung adenocarcinoma.",
+        "clinical_data": {
+          "diagnoses": [
+            {
+              "code": "C4021896",
+              "label": "Stage IA Non-Small Cell Lung Carcinoma AJCC v7",
+              "status": "active",
+              "onset_date": null
+            },
+            {
+              "code": "C0242374",
+              "label": "Adenocarcinoma of lung",
+              "status": "active",
+              "onset_date": null
+            }
+          ]
+        }
+      },
+      "custom_id": "graph_031_N3"
+    },
+    {
+      "id": "N5",
+      "label": "Step 5",
+      "customData": {
+        "node_id": "E",
+        "node_step_index": 4,
+        "content": "Patient underwent VATS right upper lobectomy and right lower lobe superior segmentectomy.",
+        "clinical_data": {
+          "procedures": [
+            {
+              "name": "Lobectomy, VATS",
+              "approach": "endoscopic",
+              "date": null,
+              "location": "right upper lobe",
+              "performed_by": null,
+              "outcome": null
+            },
+            {
+              "name": "Segmentectomy",
+              "approach": "other",
+              "date": null,
+              "location": "right lower lobe superior segment",
+              "performed_by": null,
+              "outcome": null
+            }
+          ]
+        }
+      },
+      "custom_id": "graph_031_N4"
+    },
+    {
+      "id": "N6",
+      "label": "Step 6",
+      "customData": {
+        "node_id": "F",
+        "node_step_index": 5,
+        "content": "Wedge resection of the lower lobe nodule sent for frozen section, confirming adenocarcinoma with the absence of lymph node involvement.",
+        "clinical_data": {
+          "procedures": [
+            {
+              "name": "Wedge resection",
+              "approach": "open",
+              "location": "lower lobe",
+              "outcome": "adenocarcinoma"
+            }
+          ]
+        }
+      },
+      "custom_id": "graph_031_N5"
+    },
+    {
+      "id": "N7",
+      "label": "Step 7",
+      "customData": {
+        "node_id": "G",
+        "node_step_index": 6,
+        "content": "Histology confirmed moderately differentiated adenocarcinoma pT1cN0 in the right upper lobe and moderately differentiated adenocarcinoma pT1aN0 in the right lower lobe with clear margins for both.",
+        "clinical_data": {
+          "diagnoses": [
+            {
+              "code": "C2350954",
+              "label": "Moderately differentiated adenocarcinoma",
+              "status": "active"
+            }
+          ],
+          "imaging": [
+            {
+              "body_part": "T-D0012341",
+              "finding": "clear margins",
+              "impression": "clear margins"
+            }
+          ]
+        }
+      },
+      "custom_id": "graph_031_N6"
+    },
+    {
+      "id": "N8",
+      "label": "Step 8",
+      "customData": {
+        "node_id": "H",
+        "node_step_index": 7,
+        "content": "Discharged post-operative Day 9.",
+        "clinical_data": {}
+      },
+      "custom_id": "graph_031_N7"
+    },
+    {
+      "id": "N9",
+      "label": "Step 9",
+      "customData": {
+        "node_id": "I",
+        "node_step_index": 8,
+        "content": "Reviewed 2 weeks post-discharge and planned for surveillance with his respiratory physician. Post-operative CT thorax, abdomen, pelvis.",
+        "clinical_data": {
+          "imaging": [
+            {
+              "type": "Computed tomography",
+              "body_part": "Thorax, Abdomen, Pelvis",
+              "modality": "CT",
+              "date": null
+            }
+          ]
+        }
+      },
+      "custom_id": "graph_031_N8"
+    }
+  ],
+  "edges": [
+    {
+      "from": "N1",
+      "to": "N2",
+      "data": {
+        "edge_id": "A_to_B",
+        "branch_flag": true,
+        "content": "Patient underwent CT thorax, abdomen, and pelvis."
+      },
+      "custom_id": "graph_031_N1_N2"
+    },
+    {
+      "from": "N2",
+      "to": "N3",
+      "data": {
+        "edge_id": "B_to_C",
+        "branch_flag": true,
+        "content": "Patient underwent PET scan."
+      },
+      "custom_id": "graph_031_N2_N3"
+    },
+    {
+      "from": "N3",
+      "to": "N4",
+      "data": {
+        "edge_id": "C_to_D",
+        "branch_flag": true,
+        "content": "Diagnosis of stage 1a (cT1cN0M0) lung adenocarcinoma."
+      },
+      "custom_id": "graph_031_N3_N4"
+    },
+    {
+      "from": "N4",
+      "to": "N5",
+      "data": {
+        "edge_id": "D_to_E",
+        "branch_flag": true,
+        "content": "Patient underwent VATS right upper lobectomy and right lower lobe superior segmentectomy."
+      },
+      "custom_id": "graph_031_N4_N5"
+    },
+    {
+      "from": "N5",
+      "to": "N6",
+      "data": {
+        "edge_id": "E_to_F",
+        "branch_flag": true,
+        "content": "Wedge resection of the lower lobe nodule sent for frozen section."
+      },
+      "custom_id": "graph_031_N5_N6"
+    },
+    {
+      "from": "N6",
+      "to": "N7",
+      "data": {
+        "edge_id": "F_to_G",
+        "branch_flag": true,
+        "content": "Histology results."
+      },
+      "custom_id": "graph_031_N6_N7"
+    },
+    {
+      "from": "N7",
+      "to": "N8",
+      "data": {
+        "edge_id": "G_to_H",
+        "branch_flag": true,
+        "content": "Patient discharged post-operative Day 9."
+      },
+      "custom_id": "graph_031_N7_N8"
+    },
+    {
+      "from": "N8",
+      "to": "N9",
+      "data": {
+        "edge_id": "H_to_I",
+        "branch_flag": true,
+        "content": "Reviewed 2 weeks post-discharge and planned for surveillance with his respiratory physician. Post-operative CT thorax, abdomen, pelvis."
+      },
+      "custom_id": "graph_031_N8_N9"
+    }
+  ]
+}

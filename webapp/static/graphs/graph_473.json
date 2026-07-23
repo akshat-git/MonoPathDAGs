@@ -1,0 +1,281 @@
+{
+  "nodes": [
+    {
+      "id": "N1",
+      "label": "Step 1",
+      "customData": {
+        "node_id": "A",
+        "node_step_index": 0,
+        "content": "64-year-old man with adenocarcinoma of the right lung with metastasis to vertebral and mediastinal lymph nodes and coronary artery disease presented with back pain. Thoracic MRI revealed a T7 pathological compression fracture with lytic bone lesions secondary to metastatic disease.",
+        "clinical_data": {
+          "diagnoses": [
+            {
+              "code": "C34.9",
+              "label": "Adenocarcinoma of the right lung",
+              "status": "active"
+            },
+            {
+              "code": "C79.51",
+              "label": "Metastasis to vertebral bone",
+              "status": "active"
+            },
+            {
+              "code": "C77.1",
+              "label": "Metastasis to mediastinal lymph nodes",
+              "status": "active"
+            },
+            {
+              "code": "I25.10",
+              "label": "Coronary artery disease",
+              "status": "active"
+            },
+            {
+              "code": "M48.45",
+              "label": "T7 pathological compression fracture",
+              "status": "active"
+            }
+          ],
+          "imaging": [
+            {
+              "type": "MRI of thoracic spine",
+              "body_part": "Thoracic spine",
+              "modality": "MRI",
+              "finding": "T7 pathological compression fracture with lytic bone lesions",
+              "impression": "Metastatic disease",
+              "date": null
+            }
+          ],
+          "HPI": [
+            {
+              "summary": "Back pain",
+              "duration": null,
+              "onset": null,
+              "progression": "unknown",
+              "associated_symptoms": [],
+              "alleviating_factors": [],
+              "exacerbating_factors": []
+            }
+          ]
+        }
+      }
+    },
+    {
+      "id": "N2",
+      "label": "Step 2",
+      "customData": {
+        "node_id": "B",
+        "node_step_index": 1,
+        "content": "New-onset atrial fibrillation with rapid ventricular response, which resolved spontaneously after admission without intervention. Transthoracic echocardiogram (TTE) did not reveal intra-cardiac thrombi. Discharged on aspirin and \u03b2-blockers due to low CHADS-VASC score.",
+        "clinical_data": {
+          "diagnoses": [
+            {
+              "code": "C0004238",
+              "label": "Atrial Fibrillation",
+              "status": "active",
+              "onset_date": null
+            }
+          ],
+          "medications": [
+            {
+              "drug": "C0003905",
+              "dosage": null,
+              "frequency": null,
+              "modality": "oral",
+              "start_date": null,
+              "end_date": null,
+              "indication": null
+            },
+            {
+              "drug": "C0005272",
+              "dosage": null,
+              "frequency": null,
+              "modality": "oral",
+              "start_date": null,
+              "end_date": null,
+              "indication": null
+            }
+          ],
+          "imaging": [
+            {
+              "type": "C0013604",
+              "body_part": "C0018787",
+              "modality": "Ultrasound",
+              "finding": null,
+              "impression": "no intra-cardiac thrombi",
+              "date": null
+            }
+          ]
+        }
+      }
+    },
+    {
+      "id": "N3",
+      "label": "Step 3",
+      "customData": {
+        "node_id": "C",
+        "node_step_index": 2,
+        "content": "Patient returned the following day confused. Brain MRI revealed an acute lacunar ischemic infarction in the right centrum semiovale. On admission, he was in atrial fibrillation with rapid ventricular response. Chest x-ray revealed a stable right infrahilar mass with adjacent subsegmental atelectasis. Repeat TTE was negative for any intra-cardiac thrombus or masses.",
+        "clinical_data": {
+          "imaging": [
+            {
+              "type": "Brain MRI",
+              "body_part": "Brain",
+              "modality": "MRI",
+              "finding": "acute lacunar ischemic infarction in the right centrum semiovale",
+              "impression": "acute lacunar ischemic infarction",
+              "date": null
+            },
+            {
+              "type": "Chest x-ray",
+              "body_part": "Chest",
+              "modality": "X-ray",
+              "finding": "stable right infrahilar mass with adjacent subsegmental atelectasis",
+              "impression": "stable right infrahilar mass with adjacent subsegmental atelectasis",
+              "date": null
+            },
+            {
+              "type": "TTE",
+              "body_part": "Heart",
+              "modality": "Ultrasound",
+              "finding": "negative for any intra-cardiac thrombus or masses",
+              "impression": "negative for any intra-cardiac thrombus or masses",
+              "date": null
+            }
+          ],
+          "diagnoses": [
+            {
+              "code": "49436004",
+              "label": "Atrial fibrillation",
+              "status": "active",
+              "onset_date": null
+            },
+            {
+              "code": "266257000",
+              "label": "Ischemic infarction",
+              "status": "active",
+              "onset_date": null
+            }
+          ]
+        }
+      }
+    },
+    {
+      "id": "N4",
+      "label": "Step 4",
+      "customData": {
+        "node_id": "D",
+        "node_step_index": 3,
+        "content": "Acute ischemic stroke, minor, with no hemorrhagic conversion, placed on IV heparin. Brain and neck magnetic resonance angiography (MRA) revealed mild atherosclerotic disease.",
+        "clinical_data": {
+          "diagnoses": [
+            {
+              "code": "I63.9",
+              "label": "Acute ischemic stroke, unspecified",
+              "status": "active"
+            }
+          ],
+          "medications": [
+            {
+              "drug": "heparin",
+              "modality": "IV",
+              "indication": "Acute ischemic stroke"
+            }
+          ],
+          "imaging": [
+            {
+              "type": "Magnetic resonance angiography",
+              "body_part": "brain and neck",
+              "modality": "MRI",
+              "finding": "mild atherosclerotic disease"
+            }
+          ]
+        }
+      }
+    },
+    {
+      "id": "N5",
+      "label": "Step 5",
+      "customData": {
+        "node_id": "E",
+        "node_step_index": 4,
+        "content": "Transesophageal echocardiogram (TEE) showed a small echo density at the orifice of the right upper pulmonary vein, suspicious for a thrombus, with a low flow velocity across the pulmonary vein 26.6 cm/s (normal 30\u201380 cm/s) and no other left atrial or left ventricular thrombus formation. Chest x-ray showing right-sided infrahilar mass with adjacent subsegmental atelectasis. 2D transesophageal echocardiography (TEE) revealed thrombus in the right upper pulmonary vein. Multiple prior thoracic CT scans to evaluate lung cancer and thoracic spine for back pain did not reveal any pulmonary vein thrombosis (PVT). Decision was made not to repeat a thorax CT scan to confirm the findings of PVT as the patient was already on anticoagulation.",
+        "clinical_data": {
+          "imaging": [
+            {
+              "type": "Echocardiography, transesophageal, real time with image documentation (procedure)",
+              "body_part": "Pulmonary Veins",
+              "modality": "other",
+              "finding": "small echo density at the orifice of the right upper pulmonary vein, suspicious for a thrombus",
+              "impression": "thrombus in the right upper pulmonary vein",
+              "date": null
+            },
+            {
+              "type": "Radiography, chest, single view, frontal (procedure)",
+              "body_part": "Thorax",
+              "modality": "X-ray",
+              "finding": "right-sided infrahilar mass with adjacent subsegmental atelectasis",
+              "impression": "right-sided infrahilar mass with adjacent subsegmental atelectasis",
+              "date": null
+            },
+            {
+              "type": "Computed tomography, thorax (procedure)",
+              "body_part": "Thorax",
+              "modality": "CT",
+              "finding": "did not reveal any pulmonary vein thrombosis (PVT)",
+              "impression": "did not reveal any pulmonary vein thrombosis (PVT)",
+              "date": null
+            }
+          ],
+          "labs": [
+            {
+              "test": "Pulmonary Vein Flow Velocity",
+              "value": "26.6",
+              "unit": "cm/s",
+              "flag": "abnormal",
+              "reference_range": "30\u201380 cm/s",
+              "timestamp": null
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "edges": [
+    {
+      "from": "N1",
+      "to": "N2",
+      "data": {
+        "edge_id": "A_to_B",
+        "branch_flag": true,
+        "content": "Development of new-onset atrial fibrillation with rapid ventricular response, which resolved spontaneously after admission without intervention."
+      }
+    },
+    {
+      "from": "N2",
+      "to": "N3",
+      "data": {
+        "edge_id": "B_to_C",
+        "branch_flag": true,
+        "content": "Patient returned the following day confused. Development of acute lacunar ischemic infarction in the right centrum semiovale. Recurrence of atrial fibrillation with rapid ventricular response."
+      }
+    },
+    {
+      "from": "N3",
+      "to": "N4",
+      "data": {
+        "edge_id": "C_to_D",
+        "branch_flag": true,
+        "content": "Diagnosis of acute ischemic stroke, minor, with no hemorrhagic conversion. Initiation of IV heparin."
+      }
+    },
+    {
+      "from": "N4",
+      "to": "N5",
+      "data": {
+        "edge_id": "D_to_E",
+        "branch_flag": true,
+        "content": "Transesophageal echocardiogram (TEE) showed a small echo density at the orifice of the right upper pulmonary vein, suspicious for a thrombus, with a low flow velocity across the pulmonary vein. Diagnosis of thrombus in the right upper pulmonary vein."
+      }
+    }
+  ]
+}

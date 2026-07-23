@@ -1,0 +1,480 @@
+{
+  "nodes": [
+    {
+      "id": "N1",
+      "label": "Step 1",
+      "customData": {
+        "node_id": "A",
+        "node_step_index": 0,
+        "content": "60-year-old male patient with a history of previous drug use and cigarette smoking, evaluated for the first time at the HTLV clinic in October 2017, HTLV-1 infection confirmed, but he was asymptomatic at that time.",
+        "clinical_data": {
+          "social_history": [
+            {
+              "category": "drug use",
+              "status": "past",
+              "description": "previous drug use"
+            },
+            {
+              "category": "smoking",
+              "status": "current",
+              "description": "cigarette smoking"
+            }
+          ],
+          "diagnoses": [
+            {
+              "code": "C0282643",
+              "label": "HTLV-I infection",
+              "status": "active",
+              "onset_date": "2017-10"
+            }
+          ],
+          "HPI": [
+            {
+              "summary": "Asymptomatic at time of HTLV-1 infection confirmation.",
+              "onset": "2017-10",
+              "progression": "unknown",
+              "associated_symptoms": []
+            }
+          ]
+        }
+      }
+    },
+    {
+      "id": "N2",
+      "label": "Step 2",
+      "customData": {
+        "node_id": "B",
+        "node_step_index": 1,
+        "content": "Patient diagnosed with small cell lung cancer (SCLC).",
+        "clinical_data": {
+          "diagnoses": [
+            {
+              "code": "C0024085",
+              "label": "Small cell lung cancer",
+              "status": "active"
+            }
+          ]
+        }
+      }
+    },
+    {
+      "id": "N3",
+      "label": "Step 3",
+      "customData": {
+        "node_id": "C",
+        "node_step_index": 2,
+        "content": "Thoracic spine MRI showed diffuse spinal atrophy with widening of the central canal, myelopathy, and positive Babinski's sign on the right side.",
+        "clinical_data": {
+          "imaging": [
+            {
+              "type": "Magnetic resonance imaging of thoracic spine",
+              "body_part": "Thoracic Spine",
+              "modality": "MRI",
+              "finding": "diffuse spinal atrophy with widening of the central canal, myelopathy",
+              "impression": "diffuse spinal atrophy with widening of the central canal, myelopathy"
+            }
+          ],
+          "diagnoses": [
+            {
+              "code": "29463003",
+              "label": "Spinal cord atrophy",
+              "status": "active"
+            },
+            {
+              "code": "61377007",
+              "label": "Myelopathy",
+              "status": "active"
+            }
+          ],
+          "physical_exam": [
+            {
+              "finding": "Positive Babinski's sign",
+              "laterality": "right"
+            }
+          ]
+        }
+      }
+    },
+    {
+      "id": "N4",
+      "label": "Step 4",
+      "customData": {
+        "node_id": "D",
+        "node_step_index": 3,
+        "content": "March 2018: Weakness of the left lower limb and urinary incontinence. Neurologic examination revealed proximal muscle weakness (grade 4) in the lower limbs, spasticity, pyramidal signs, tetra hyperreflexia, and presence of the Babinski sign. HTLV-1 proviral load (PVL) was 47 copies/mL and the T-cell proliferation (LPA) test was 1,148 cpm.",
+        "clinical_data": {
+          "HPI": [
+            {
+              "summary": "Weakness of the left lower limb and urinary incontinence",
+              "onset": "March 2018"
+            }
+          ],
+          "diagnoses": [
+            {
+              "code": "C0234234",
+              "label": "Urinary Incontinence",
+              "status": "active",
+              "onset_date": "2018-03"
+            }
+          ],
+          "vitals": [
+            {
+              "type": "C1522324",
+              "value": "4",
+              "unit": "grade",
+              "timestamp": "2018-03"
+            }
+          ],
+          "labs": [
+            {
+              "test": "HTLV-1 proviral load",
+              "value": "47",
+              "unit": "copies/mL",
+              "flag": "abnormal",
+              "timestamp": "2018-03"
+            },
+            {
+              "test": "T-cell proliferation",
+              "value": "1148",
+              "unit": "cpm",
+              "flag": "abnormal",
+              "timestamp": "2018-03"
+            }
+          ],
+          "neuro_exam": [
+            {
+              "finding": "proximal muscle weakness",
+              "laterality": "left lower limb",
+              "severity": "grade 4",
+              "timestamp": "2018-03"
+            },
+            {
+              "finding": "spasticity",
+              "timestamp": "2018-03"
+            },
+            {
+              "finding": "pyramidal signs",
+              "timestamp": "2018-03"
+            },
+            {
+              "finding": "tetra hyperreflexia",
+              "timestamp": "2018-03"
+            },
+            {
+              "finding": "Babinski sign",
+              "timestamp": "2018-03"
+            }
+          ]
+        }
+      }
+    },
+    {
+      "id": "N5",
+      "label": "Step 5",
+      "customData": {
+        "node_id": "E",
+        "node_step_index": 4,
+        "content": "Lumbar puncture: CSF with 20 cells/mm3 (85% lymphocytes, 15% monocytes), protein 47 mg/dL, glucose 37 mg/dL, lactic acid 17 mg/dL, negative oncological cytology. Over four months: dyspnea, dry cough, weight loss. July 2018: worsening lower limb weakness, urinary incontinence, undernourished, mild dry cough, dyspnea.",
+        "clinical_data": {
+          "labs": [
+            {
+              "test": "Lumbar puncture",
+              "value": "20 cells/mm3",
+              "unit": "cells/mm3",
+              "flag": "abnormal",
+              "reference_range": null,
+              "timestamp": null
+            },
+            {
+              "test": "Lymphocytes",
+              "value": "85",
+              "unit": "%",
+              "flag": "abnormal",
+              "reference_range": null,
+              "timestamp": null
+            },
+            {
+              "test": "Monocytes",
+              "value": "15",
+              "unit": "%",
+              "flag": "abnormal",
+              "reference_range": null,
+              "timestamp": null
+            },
+            {
+              "test": "Protein measurement",
+              "value": "47",
+              "unit": "mg/dL",
+              "flag": "normal",
+              "reference_range": null,
+              "timestamp": null
+            },
+            {
+              "test": "Glucose measurement",
+              "value": "37",
+              "unit": "mg/dL",
+              "flag": "abnormal",
+              "reference_range": null,
+              "timestamp": null
+            },
+            {
+              "test": "Lactic acid measurement",
+              "value": "17",
+              "unit": "mg/dL",
+              "flag": "abnormal",
+              "reference_range": null,
+              "timestamp": null
+            },
+            {
+              "test": "Oncological cytology",
+              "value": "negative",
+              "unit": null,
+              "flag": "normal",
+              "reference_range": null,
+              "timestamp": null
+            }
+          ],
+          "HPI": [
+            {
+              "summary": "dyspnea, dry cough, weight loss",
+              "duration": "4 months",
+              "onset": null,
+              "progression": "gradual",
+              "associated_symptoms": [
+                "Dyspnea",
+                "Dry cough",
+                "Weight loss"
+              ],
+              "alleviating_factors": [],
+              "exacerbating_factors": []
+            }
+          ],
+          "diagnoses": [
+            {
+              "code": "R26.2",
+              "label": "Difficulty in walking",
+              "status": "active",
+              "onset_date": "2018-07"
+            },
+            {
+              "code": "R32",
+              "label": "Unspecified urinary incontinence",
+              "status": "active",
+              "onset_date": "2018-07"
+            },
+            {
+              "code": "E46",
+              "label": "Unspecified protein-calorie malnutrition",
+              "status": "active",
+              "onset_date": "2018-07"
+            }
+          ],
+          "ROS": [
+            {
+              "system": "respiratory",
+              "findings": [
+                "Dyspnea",
+                "Dry cough"
+              ]
+            }
+          ]
+        }
+      }
+    },
+    {
+      "id": "N6",
+      "label": "Step 6",
+      "customData": {
+        "node_id": "F",
+        "node_step_index": 5,
+        "content": "Patient presented to the emergency department. Chest X-ray showed opacity of the left hemithorax and a deviation of the trachea. Chest tomography showed an image suggestive of pulmonary neoplasia.",
+        "clinical_data": {
+          "imaging": [
+            {
+              "type": "Radiography, Thoracic (TUI)",
+              "body_part": "Thorax (TUI)",
+              "modality": "X-ray",
+              "finding": "opacity of the left hemithorax",
+              "date": null
+            },
+            {
+              "type": "Tomography (TUI)",
+              "body_part": "Thorax (TUI)",
+              "modality": "CT",
+              "finding": "image suggestive of pulmonary neoplasia",
+              "date": null
+            }
+          ]
+        }
+      }
+    },
+    {
+      "id": "N7",
+      "label": "Step 7",
+      "customData": {
+        "node_id": "G",
+        "node_step_index": 6,
+        "content": "Anatomopathological exams and immunohistochemistry of the pulmonary lesion confirmed the presence of small cell lung epidermoid carcinoma.",
+        "clinical_data": {
+          "diagnoses": [
+            {
+              "code": "C34",
+              "label": "Malignant neoplasm of bronchus and lung",
+              "status": "active"
+            }
+          ]
+        }
+      }
+    },
+    {
+      "id": "N8",
+      "label": "Step 8",
+      "customData": {
+        "node_id": "H",
+        "node_step_index": 7,
+        "content": "Patient rapidly progressed to death one month after hospital admission due to respiratory failure.",
+        "clinical_data": {
+          "diagnoses": [
+            {
+              "code": "573030008",
+              "label": "Respiratory insufficiency (disorder)",
+              "status": "historical",
+              "onset_date": null
+            }
+          ]
+        }
+      }
+    },
+    {
+      "id": "N9",
+      "label": "Step 9",
+      "customData": {
+        "node_id": "I",
+        "node_step_index": 8,
+        "content": "Serum contained high levels of interleukin-2 receptors (IL2-R). SCLC cells were also positive for IL2-R.",
+        "clinical_data": {}
+      }
+    }
+  ],
+  "edges": [
+    {
+      "from": "N1",
+      "to": "N2",
+      "data": {
+        "edge_id": "A_to_B",
+        "branch_flag": true,
+        "content": "Development of small cell lung cancer in a patient with pre-existing HTLV-1 infection."
+      }
+    },
+    {
+      "from": "N2",
+      "to": "N3",
+      "data": {
+        "edge_id": "B_to_C",
+        "branch_flag": true,
+        "content": "Thoracic spine MRI findings indicating spinal atrophy and myelopathy, along with a positive Babinski's sign.",
+        "transition_event": {
+          "trigger_type": "imaging",
+          "trigger_entities": [
+            "C0038474",
+            "C0205830"
+          ],
+          "change_type": "progression",
+          "target_domain": "imaging"
+        }
+      }
+    },
+    {
+      "from": "N3",
+      "to": "N4",
+      "data": {
+        "edge_id": "C_to_D",
+        "branch_flag": true,
+        "content": "Progression of neurological symptoms including lower limb weakness and urinary incontinence. Elevated HTLV-1 proviral load and T-cell proliferation.",
+        "transition_event": {
+          "trigger_type": "symptom_onset",
+          "trigger_entities": [
+            "C0043072",
+            "C0234234"
+          ],
+          "change_type": "progression",
+          "target_domain": "symptom",
+          "timestamp": "2018-03"
+        }
+      }
+    },
+    {
+      "from": "N4",
+      "to": "N5",
+      "data": {
+        "edge_id": "D_to_E",
+        "branch_flag": true,
+        "content": "CSF analysis reveals elevated cell count with lymphocytic predominance, along with abnormal glucose and lactic acid levels. Development of dyspnea, dry cough, and weight loss over four months. Worsening lower limb weakness and urinary incontinence.",
+        "transition_event": {
+          "trigger_type": "lab_change",
+          "trigger_entities": [],
+          "change_type": "progression",
+          "target_domain": "lab"
+        }
+      }
+    },
+    {
+      "from": "N5",
+      "to": "N6",
+      "data": {
+        "edge_id": "E_to_F",
+        "branch_flag": true,
+        "content": "Presentation to the emergency department with chest X-ray showing opacity and tracheal deviation. Chest tomography suggests pulmonary neoplasia.",
+        "transition_event": {
+          "trigger_type": "symptom_onset",
+          "trigger_entities": [],
+          "change_type": "progression",
+          "target_domain": "symptom"
+        }
+      }
+    },
+    {
+      "from": "N6",
+      "to": "N7",
+      "data": {
+        "edge_id": "F_to_G",
+        "branch_flag": true,
+        "content": "Confirmation of small cell lung epidermoid carcinoma via anatomopathological exams and immunohistochemistry.",
+        "transition_event": {
+          "trigger_type": "interpretation",
+          "trigger_entities": [
+            "C0024085"
+          ],
+          "change_type": "reinterpretation",
+          "target_domain": "diagnosis"
+        }
+      }
+    },
+    {
+      "from": "N7",
+      "to": "N8",
+      "data": {
+        "edge_id": "G_to_H",
+        "branch_flag": true,
+        "content": "Rapid progression to death due to respiratory failure one month after hospital admission.",
+        "transition_event": {
+          "trigger_type": "progression",
+          "trigger_entities": [
+            "573030008"
+          ],
+          "change_type": "progression",
+          "target_domain": "diagnosis"
+        }
+      }
+    },
+    {
+      "from": "N8",
+      "to": "N9",
+      "data": {
+        "edge_id": "H_to_I",
+        "branch_flag": true,
+        "content": "Elevated levels of interleukin-2 receptors (IL2-R) in serum. SCLC cells also positive for IL2-R."
+      }
+    }
+  ]
+}

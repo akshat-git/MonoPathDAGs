@@ -1,0 +1,357 @@
+{
+  "nodes": [
+    {
+      "id": "N1",
+      "label": "Step 1",
+      "customData": {
+        "node_id": "A",
+        "node_step_index": 0,
+        "content": "65-year-old man referred to hospital with suspected uveitis of the right eye, experiencing right ocular pain and blurred vision 1 month prior to presentation.",
+        "clinical_data": {
+          "HPI": [
+            {
+              "summary": "65-year-old man with right ocular pain and blurred vision",
+              "duration": "1 month",
+              "onset": "1 month prior to presentation",
+              "associated_symptoms": [
+                "blurred vision"
+              ],
+              "exacerbating_factors": [
+                "right ocular pain"
+              ]
+            }
+          ],
+          "diagnoses": [
+            {
+              "code": "C0042095",
+              "label": "Uveitis",
+              "status": "suspected",
+              "onset_date": null
+            }
+          ]
+        }
+      },
+      "custom_id": "graph_058_N0"
+    },
+    {
+      "id": "N2",
+      "label": "Step 2",
+      "customData": {
+        "node_id": "B",
+        "node_step_index": 1,
+        "content": "Diagnosed with small cell lung cancer (SCLC) (cT4N3M1c) with right cerebellar metastasis and invasion 4 months prior to presentation.",
+        "clinical_data": {
+          "diagnoses": [
+            {
+              "code": "C0007106",
+              "label": "Small cell lung cancer",
+              "status": "active",
+              "onset_date": null
+            },
+            {
+              "code": "C0242393",
+              "label": "Metastasis",
+              "status": "active",
+              "onset_date": null
+            }
+          ]
+        }
+      },
+      "custom_id": "graph_058_N1"
+    },
+    {
+      "id": "N3",
+      "label": "Step 3",
+      "customData": {
+        "node_id": "C",
+        "node_step_index": 2,
+        "content": "Started therapy with topical 0.005% latanoprost, 1.0% brinzolamide, 0.5% timolol maleate, and oral acetazolamide at a dose of 500 mg/day.",
+        "clinical_data": {
+          "medications": [
+            {
+              "drug": "latanoprost",
+              "dosage": "0.005%",
+              "frequency": null,
+              "modality": "topical",
+              "start_date": null,
+              "end_date": null,
+              "indication": null
+            },
+            {
+              "drug": "brinzolamide",
+              "dosage": "1.0%",
+              "frequency": null,
+              "modality": "topical",
+              "start_date": null,
+              "end_date": null,
+              "indication": null
+            },
+            {
+              "drug": "timolol maleate",
+              "dosage": "0.5%",
+              "frequency": null,
+              "modality": "topical",
+              "start_date": null,
+              "end_date": null,
+              "indication": null
+            },
+            {
+              "drug": "acetazolamide",
+              "dosage": "500 mg/day",
+              "frequency": "daily",
+              "modality": "oral",
+              "start_date": null,
+              "end_date": null,
+              "indication": null
+            }
+          ]
+        }
+      },
+      "custom_id": "graph_058_N2"
+    },
+    {
+      "id": "N4",
+      "label": "Step 4",
+      "customData": {
+        "node_id": "D",
+        "node_step_index": 3,
+        "content": "Required intravenous administration of 200 mL of 20% hypertonic mannitol every 2-3 days, for a total of five administrations due to high IOP and pronounced nausea.",
+        "clinical_data": {
+          "medications": [
+            {
+              "drug": "C0024862",
+              "dosage": "200 mL",
+              "frequency": "every 2-3 days",
+              "modality": "IV",
+              "indication": "C0022108"
+            }
+          ]
+        }
+      },
+      "custom_id": "graph_058_N3"
+    },
+    {
+      "id": "N5",
+      "label": "Step 5",
+      "customData": {
+        "node_id": "E",
+        "node_step_index": 4,
+        "content": "Anterior chamber fluid cytology revealed iris metastasis from SCLC, consistent with bronchoalveolar lavage cytology results. This occurred 10 days after the initial visit.",
+        "clinical_data": {
+          "diagnoses": [
+            {
+              "code": "C0346645",
+              "label": "Metastasis to iris",
+              "status": "active",
+              "onset_date": null
+            },
+            {
+              "code": "C0007107",
+              "label": "Bronchoalveolar Lavage",
+              "status": "active",
+              "onset_date": null
+            }
+          ],
+          "labs": [
+            {
+              "test": "C0010520",
+              "value": "positive",
+              "unit": null,
+              "flag": "abnormal",
+              "reference_range": null,
+              "timestamp": null
+            }
+          ]
+        }
+      },
+      "custom_id": "graph_058_N4"
+    },
+    {
+      "id": "N6",
+      "label": "Step 6",
+      "customData": {
+        "node_id": "F",
+        "node_step_index": 5,
+        "content": "Received a single intravitreal injection of 2 mg (0.05 mL of 40 mg/mL) aflibercept OD to treat the neovascular glaucoma 10 days after initial visit.",
+        "clinical_data": {
+          "medications": [
+            {
+              "drug": "C3258542",
+              "dosage": "2 mg (0.05 mL of 40 mg/mL)",
+              "frequency": "single",
+              "modality": "IV",
+              "indication": "C0271198"
+            }
+          ],
+          "procedures": [
+            {
+              "name": "intravitreal injection",
+              "date": "null",
+              "location": "OD"
+            }
+          ],
+          "diagnoses": [
+            {
+              "code": "C0271198",
+              "label": "Neovascular Glaucoma",
+              "status": "active",
+              "onset_date": "null"
+            }
+          ]
+        }
+      },
+      "custom_id": "graph_058_N5"
+    },
+    {
+      "id": "N7",
+      "label": "Step 7",
+      "customData": {
+        "node_id": "G",
+        "node_step_index": 6,
+        "content": "Five days post-aflibercept injection: iris tumor size and iris neovascularization decreased; IOP measured at 18 mm Hg. Antiglaucoma medications continued to maintain IOP. Intravenous hypertonic mannitol no longer required; ocular pain and nausea relieved.",
+        "clinical_data": {
+          "medications": [
+            {
+              "drug": "C1705477",
+              "indication": "C0017624"
+            }
+          ],
+          "procedures": [
+            {
+              "name": "C4025443",
+              "date": null,
+              "outcome": "decreased"
+            }
+          ],
+          "vitals": [
+            {
+              "type": "C0020239",
+              "value": "18",
+              "unit": "mm Hg"
+            }
+          ],
+          "diagnoses": [
+            {
+              "code": "C0027453",
+              "label": "Nausea",
+              "status": "resolved"
+            },
+            {
+              "code": "C0032288",
+              "label": "Pain",
+              "status": "resolved"
+            }
+          ]
+        }
+      },
+      "custom_id": "graph_058_N6"
+    }
+  ],
+  "edges": [
+    {
+      "from": "N1",
+      "to": "N2",
+      "data": {
+        "edge_id": "A_to_B",
+        "branch_flag": true,
+        "content": "Patient was diagnosed with small cell lung cancer (SCLC) (cT4N3M1c) with right cerebellar metastasis and invasion 4 months prior to presentation, after presenting with suspected uveitis."
+      },
+      "custom_id": "graph_058_N1_N2"
+    },
+    {
+      "from": "N2",
+      "to": "N3",
+      "data": {
+        "edge_id": "B_to_C",
+        "branch_flag": true,
+        "content": "Initiation of topical 0.005% latanoprost, 1.0% brinzolamide, 0.5% timolol maleate, and oral acetazolamide at a dose of 500 mg/day following SCLC diagnosis.",
+        "transition_event": {
+          "trigger_type": "medication_change",
+          "trigger_entities": [
+            "C0023274",
+            "C0587438",
+            "C0587472",
+            "C0001372"
+          ],
+          "change_type": "addition",
+          "target_domain": "medication"
+        }
+      },
+      "custom_id": "graph_058_N2_N3"
+    },
+    {
+      "from": "N3",
+      "to": "N4",
+      "data": {
+        "edge_id": "C_to_D",
+        "branch_flag": true,
+        "content": "Patient required intravenous administration of 200 mL of 20% hypertonic mannitol every 2-3 days, for a total of five administrations due to high IOP and pronounced nausea.",
+        "transition_event": {
+          "trigger_type": "symptom_onset",
+          "trigger_entities": [
+            "C0022108",
+            "C0027453"
+          ],
+          "change_type": "progression",
+          "target_domain": "symptom"
+        }
+      },
+      "custom_id": "graph_058_N3_N4"
+    },
+    {
+      "from": "N4",
+      "to": "N5",
+      "data": {
+        "edge_id": "D_to_E",
+        "branch_flag": true,
+        "content": "Anterior chamber fluid cytology revealed iris metastasis from SCLC, consistent with bronchoalveolar lavage cytology results. This occurred 10 days after the initial visit.",
+        "transition_event": {
+          "trigger_type": "lab_change",
+          "trigger_entities": [
+            "C0010520",
+            "C0346645"
+          ],
+          "change_type": "progression",
+          "target_domain": "diagnosis"
+        }
+      },
+      "custom_id": "graph_058_N4_N5"
+    },
+    {
+      "from": "N5",
+      "to": "N6",
+      "data": {
+        "edge_id": "E_to_F",
+        "branch_flag": true,
+        "content": "Received a single intravitreal injection of 2 mg (0.05 mL of 40 mg/mL) aflibercept OD to treat the neovascular glaucoma 10 days after initial visit.",
+        "transition_event": {
+          "trigger_type": "procedure",
+          "trigger_entities": [
+            "C3258542"
+          ],
+          "change_type": "addition",
+          "target_domain": "procedure"
+        }
+      },
+      "custom_id": "graph_058_N5_N6"
+    },
+    {
+      "from": "N6",
+      "to": "N7",
+      "data": {
+        "edge_id": "F_to_G",
+        "branch_flag": true,
+        "content": "Five days post-aflibercept injection: iris tumor size and iris neovascularization decreased; IOP measured at 18 mm Hg. Antiglaucoma medications continued to maintain IOP. Intravenous hypertonic mannitol no longer required; ocular pain and nausea relieved.",
+        "transition_event": {
+          "trigger_type": "medication_change",
+          "trigger_entities": [
+            "C0024862"
+          ],
+          "change_type": "discontinuation",
+          "target_domain": "medication"
+        }
+      },
+      "custom_id": "graph_058_N6_N7"
+    }
+  ]
+}

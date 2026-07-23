@@ -1,0 +1,59 @@
+{
+  "nodes": [
+    {
+      "id": "N1",
+      "label": "Step 1",
+      "customData": {
+        "node_id": "A",
+        "node_step_index": 0,
+        "content": "Patient tolerated treatment well, with episodes of productive cough and pyrexia.",
+        "clinical_data": {
+          "HPI": [
+            {
+              "summary": "Patient tolerated treatment well, with episodes of productive cough and pyrexia.",
+              "associated_symptoms": [
+                "C0010200",
+                "C0036415"
+              ]
+            }
+          ]
+        }
+      }
+    },
+    {
+      "id": "N2",
+      "label": "Step 2",
+      "customData": {
+        "node_id": "B",
+        "node_step_index": 1,
+        "content": "Radiographic investigations showed a stable post treatment hilar mass and local nodes. No evidence of subacute radiation pneumonitis or fibrosis over 18 months of clinical follow up.",
+        "clinical_data": {
+          "imaging": [
+            {
+              "finding": "stable post treatment hilar mass and local nodes",
+              "impression": "No evidence of subacute radiation pneumonitis or fibrosis",
+              "date": null
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "edges": [
+    {
+      "from": "N1",
+      "to": "N2",
+      "data": {
+        "edge_id": "A_to_B",
+        "branch_flag": true,
+        "content": "Radiographic investigations",
+        "transition_event": {
+          "trigger_type": "procedure",
+          "trigger_entities": [],
+          "change_type": "other",
+          "target_domain": "imaging"
+        }
+      }
+    }
+  ]
+}

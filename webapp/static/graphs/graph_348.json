@@ -1,0 +1,194 @@
+{
+  "nodes": [
+    {
+      "id": "N1",
+      "label": "Step 1",
+      "customData": {
+        "node_id": "A",
+        "node_step_index": 0,
+        "content": "39-year-old male presented with swelling on the left middle third of the face for 6 months. The swelling developed on the left cheek region, initially small, gradually increasing to 5 cm \u00d7 4 cm, causing mild facial asymmetry. The swelling extended from the infraorbital rim to the line joining the ala of the nose and ear lobule. Swelling extended anteroposteriorly on the buccal mucosa from the distal aspect of 24-28 region. On palpation, the swelling was nontender and firm in consistency.",
+        "clinical_data": {
+          "HPI": [
+            {
+              "summary": "39-year-old male presented with swelling on the left middle third of the face for 6 months.",
+              "duration": "6 months",
+              "onset": "6 months ago",
+              "progression": "gradual",
+              "associated_symptoms": []
+            }
+          ],
+          "diagnoses": [
+            {
+              "code": "http://purl.bioontology.org/ontology/SNOMEDCT/267036007",
+              "label": "Facial swelling",
+              "status": "active",
+              "onset_date": null
+            }
+          ]
+        }
+      }
+    },
+    {
+      "id": "N2",
+      "label": "Step 2",
+      "customData": {
+        "node_id": "B",
+        "node_step_index": 1,
+        "content": "Incisional biopsy performed for histological evaluation. Macroscopic examination of incisional biopsy: single creamish brown soft-tissue bit, 1.0 cm \u00d7 1.0 cm, firm consistency.",
+        "clinical_data": {
+          "procedures": [
+            {
+              "name": "Incisional biopsy",
+              "date": null,
+              "location": null,
+              "performed_by": null,
+              "outcome": null
+            }
+          ]
+        }
+      }
+    },
+    {
+      "id": "N3",
+      "label": "Step 3",
+      "customData": {
+        "node_id": "C",
+        "node_step_index": 2,
+        "content": "Microscopic examination of incisional biopsy (H&E stain): highly cellular connective tissue stroma with nests and sheets of small round-to-ovoid cells, ill-defined borders, scanty cytoplasm, and finely granular nuclear chromatin. Numerous foci of spindle-shaped cells with pleomorphic, hyperchromatic nuclei and inconspicuous nucleoli. Increased mitoses (2\u20133 per five high-power field) intermixed with foci of necrosis and hemorrhage. Dense connective tissue with collagen fiber bundles.",
+        "clinical_data": {
+          "labs": [
+            {
+              "test": "Microscopic examination",
+              "finding": "highly cellular connective tissue stroma with nests and sheets of small round-to-ovoid cells, ill-defined borders, scanty cytoplasm, and finely granular nuclear chromatin",
+              "date": null
+            },
+            {
+              "test": "Microscopic examination",
+              "finding": "Numerous foci of spindle-shaped cells with pleomorphic, hyperchromatic nuclei and inconspicuous nucleoli",
+              "date": null
+            },
+            {
+              "test": "Microscopic examination",
+              "finding": "Increased mitoses (2\u20133 per five high-power field)",
+              "date": null
+            },
+            {
+              "test": "Microscopic examination",
+              "finding": "foci of necrosis and hemorrhage",
+              "date": null
+            },
+            {
+              "test": "Microscopic examination",
+              "finding": "Dense connective tissue with collagen fiber bundles",
+              "date": null
+            }
+          ],
+          "procedures": [
+            {
+              "name": "Biopsy",
+              "approach": "incisional",
+              "date": null,
+              "location": null,
+              "performed_by": null,
+              "outcome": null
+            }
+          ]
+        }
+      }
+    },
+    {
+      "id": "N4",
+      "label": "Step 4",
+      "customData": {
+        "node_id": "D",
+        "node_step_index": 3,
+        "content": "Diagnosis of poorly differentiated round cell tumor based on H&E findings. Immunohistochemical analysis: positive expression to CK 8/18 and CD56, negative expression to CK20, CD45 and S-100. Final diagnosis: Small cell neuroendocrine carcinoma (SNEC) of the buccal mucosa.",
+        "clinical_data": {
+          "diagnoses": [
+            {
+              "code": "C0035840",
+              "label": "Small cell neuroendocrine carcinoma",
+              "status": "active",
+              "onset_date": null
+            }
+          ],
+          "imaging": [
+            {
+              "type": "Histopathology",
+              "body_part": "Buccal Mucosa",
+              "modality": "other",
+              "finding": "Poorly differentiated round cell tumor",
+              "impression": "Small cell neuroendocrine carcinoma (SNEC) of the buccal mucosa.",
+              "date": null
+            }
+          ]
+        }
+      }
+    },
+    {
+      "id": "N5",
+      "label": "Step 5",
+      "customData": {
+        "node_id": "E",
+        "node_step_index": 4,
+        "content": "Histopathological features: tightly packed round-to-ovoid cells, small in size with scanty eosinophilic cytoplasm, hyper",
+        "clinical_data": {
+          "imaging": [
+            {
+              "type": "Histopathological features",
+              "body_part": "cells",
+              "modality": "other",
+              "finding": "tightly packed round-to-ovoid cells, small in size with scanty eosinophilic cytoplasm, hyper"
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "edges": [
+    {
+      "from": "N1",
+      "to": "N2",
+      "data": {
+        "edge_id": "A_to_B",
+        "branch_flag": true,
+        "content": "Decision to perform incisional biopsy for histological evaluation of the facial swelling."
+      }
+    },
+    {
+      "from": "N2",
+      "to": "N3",
+      "data": {
+        "edge_id": "B_to_C",
+        "branch_flag": true,
+        "content": "Histological evaluation of incisional biopsy sample."
+      }
+    },
+    {
+      "from": "N3",
+      "to": "N4",
+      "data": {
+        "edge_id": "C_to_D",
+        "branch_flag": true,
+        "content": "Based on H&E findings and immunohistochemical analysis, a diagnosis of small cell neuroendocrine carcinoma (SNEC) of the buccal mucosa was made.",
+        "transition_event": {
+          "trigger_type": "interpretation",
+          "trigger_entities": [
+            "C0035840"
+          ],
+          "change_type": "addition",
+          "target_domain": "diagnosis"
+        }
+      }
+    },
+    {
+      "from": "N4",
+      "to": "N5",
+      "data": {
+        "edge_id": "D_to_E",
+        "branch_flag": true,
+        "content": "Further description of histopathological features of the small cell neuroendocrine carcinoma (SNEC)."
+      }
+    }
+  ]
+}

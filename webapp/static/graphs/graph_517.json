@@ -1,0 +1,293 @@
+{
+  "nodes": [
+    {
+      "id": "N1",
+      "label": "Step 1",
+      "customData": {
+        "node_id": "A",
+        "node_step_index": 0,
+        "content": "53-year-old female presented with pain and pitting edema of left lower extremity, onset 6 months prior to hospitalization.",
+        "clinical_data": {
+          "HPI": [
+            {
+              "summary": "53-year-old female presented with pain and pitting edema of left lower extremity, onset 6 months prior to hospitalization.",
+              "duration": "6 months",
+              "onset": "6 months prior to hospitalization",
+              "associated_symptoms": [
+                "C0030193",
+                "C0231740"
+              ]
+            }
+          ]
+        }
+      }
+    },
+    {
+      "id": "N2",
+      "label": "Step 2",
+      "customData": {
+        "node_id": "B",
+        "node_step_index": 1,
+        "content": "Diagnosis of deep vein thrombosis (DVT) in the popliteal vein via color Doppler ultrasonography.",
+        "clinical_data": {
+          "imaging": [
+            {
+              "type": "Color Doppler Ultrasonography",
+              "body_part": "Popliteal Vein",
+              "modality": "Ultrasound",
+              "finding": "Deep Vein Thrombosis",
+              "impression": "Deep Vein Thrombosis in the popliteal vein"
+            }
+          ],
+          "diagnoses": [
+            {
+              "code": "I80.2",
+              "label": "Phlebitis and thrombophlebitis of other deep vessels of lower extremities",
+              "status": "active",
+              "onset_date": null
+            }
+          ]
+        }
+      }
+    },
+    {
+      "id": "N3",
+      "label": "Step 3",
+      "customData": {
+        "node_id": "C",
+        "node_step_index": 2,
+        "content": "Treatment with heparin 1100 U/hour, followed by discharge on warfarin 5 mg daily with international normalized ratio (INR) 2.2 after pain relief.",
+        "clinical_data": {
+          "medications": [
+            {
+              "drug": "C0019057",
+              "dosage": "1100 U/hour",
+              "frequency": null,
+              "modality": null,
+              "start_date": null,
+              "end_date": null,
+              "indication": null
+            },
+            {
+              "drug": "C0043070",
+              "dosage": "5 mg",
+              "frequency": "daily",
+              "modality": "oral",
+              "start_date": null,
+              "end_date": null,
+              "indication": null
+            }
+          ],
+          "labs": [
+            {
+              "test": "C0151854",
+              "value": "2.2",
+              "unit": null,
+              "flag": null,
+              "reference_range": null,
+              "timestamp": null
+            }
+          ]
+        }
+      }
+    },
+    {
+      "id": "N4",
+      "label": "Step 4",
+      "customData": {
+        "node_id": "D",
+        "node_step_index": 3,
+        "content": "Returned 1 month later with subdural hematoma in hemisphere causing mass effect to lateral ventricle and subfalcine herniation, as revealed by cerebral computed tomography (CT) scan.",
+        "clinical_data": {
+          "diagnoses": [
+            {
+              "code": "C0018769",
+              "label": "Subdural Hematoma",
+              "status": "active"
+            }
+          ],
+          "imaging": [
+            {
+              "type": "C0009326",
+              "body_part": "C0023392",
+              "modality": "CT",
+              "finding": "mass effect to lateral ventricle and subfalcine herniation"
+            }
+          ]
+        }
+      }
+    },
+    {
+      "id": "N5",
+      "label": "Step 5",
+      "customData": {
+        "node_id": "E",
+        "node_step_index": 4,
+        "content": "Anticoagulant therapy was stopped, and the patient underwent craniotomy.",
+        "clinical_data": {
+          "procedures": [
+            {
+              "name": "Craniotomy",
+              "date": null,
+              "location": null,
+              "performed_by": null,
+              "outcome": null,
+              "approach": null
+            }
+          ],
+          "medications": [
+            {
+              "drug": "Anticoagulant",
+              "dosage": null,
+              "frequency": null,
+              "modality": null,
+              "start_date": null,
+              "end_date": null,
+              "indication": null
+            }
+          ]
+        }
+      }
+    },
+    {
+      "id": "N6",
+      "label": "Step 6",
+      "customData": {
+        "node_id": "F",
+        "node_step_index": 5,
+        "content": "One month after the craniotomy, the patient returned with pain and swelling of right leg, anorexia, and weight loss of 4 kg over the last 4 months. Body temperature 36.5\u00b0C, blood pressure 120/80 mm",
+        "clinical_data": {
+          "HPI": [
+            {
+              "summary": "Patient returned with pain and swelling of right leg, anorexia, and weight loss.",
+              "duration": "4 months",
+              "onset": "1 month after craniotomy",
+              "progression": "unknown",
+              "associated_symptoms": [
+                "Anorexia",
+                "Swelling of right leg",
+                "Pain of right leg"
+              ]
+            }
+          ],
+          "vitals": [
+            {
+              "type": "Body temperature",
+              "value": "36.5",
+              "unit": "\u00b0C"
+            },
+            {
+              "type": "Blood pressure",
+              "value": "120/80",
+              "unit": "mm"
+            }
+          ]
+        }
+      }
+    },
+    {
+      "id": "N7",
+      "label": "Step 7",
+      "customData": {
+        "node_id": "G",
+        "node_step_index": 6,
+        "content": "Heart rate 78 beats per minute, respiratory rate 14 breaths per minute. Heart and lung auscultation were normal. Mild epigastric tenderness without rebound. Difference between distal and proximal of right and left lower extremity was about 4 cm.",
+        "clinical_data": {
+          "vitals": [
+            {
+              "type": "Heart Rate",
+              "value": "78",
+              "unit": "beats per minute"
+            },
+            {
+              "type": "Respiratory Rate",
+              "value": "14",
+              "unit": "breaths per minute"
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "edges": [
+    {
+      "from": "N1",
+      "to": "N2",
+      "data": {
+        "edge_id": "A_to_B",
+        "branch_flag": true,
+        "content": "Development of deep vein thrombosis (DVT) in the popliteal vein."
+      }
+    },
+    {
+      "from": "N2",
+      "to": "N3",
+      "data": {
+        "edge_id": "B_to_C",
+        "branch_flag": true,
+        "content": "Initiation of heparin treatment followed by discharge on warfarin after pain relief.",
+        "transition_event": {
+          "trigger_type": "medication_change",
+          "trigger_entities": [
+            "C0019057",
+            "C0043070"
+          ],
+          "change_type": "addition",
+          "target_domain": "medication"
+        }
+      }
+    },
+    {
+      "from": "N3",
+      "to": "N4",
+      "data": {
+        "edge_id": "C_to_D",
+        "branch_flag": true,
+        "content": "Development of subdural hematoma with mass effect and subfalcine herniation while on warfarin.",
+        "transition_event": {
+          "trigger_type": "symptom_onset",
+          "trigger_entities": [
+            "C0018769"
+          ],
+          "change_type": "progression",
+          "target_domain": "diagnosis"
+        }
+      }
+    },
+    {
+      "from": "N4",
+      "to": "N5",
+      "data": {
+        "edge_id": "D_to_E",
+        "branch_flag": true,
+        "content": "Discontinuation of anticoagulation therapy and performance of craniotomy.",
+        "transition_event": {
+          "trigger_type": "procedure",
+          "trigger_entities": [
+            "Craniotomy"
+          ],
+          "change_type": "other",
+          "target_domain": "procedure"
+        }
+      }
+    },
+    {
+      "from": "N5",
+      "to": "N6",
+      "data": {
+        "edge_id": "E_to_F",
+        "branch_flag": true,
+        "content": "Recurrence of symptoms including pain and swelling of right leg, anorexia, and weight loss one month after craniotomy."
+      }
+    },
+    {
+      "from": "N6",
+      "to": "N7",
+      "data": {
+        "edge_id": "F_to_G",
+        "branch_flag": true,
+        "content": "Physical exam findings including stable vital signs, normal heart and lung auscultation, mild epigastric tenderness, and leg circumference difference."
+      }
+    }
+  ]
+}

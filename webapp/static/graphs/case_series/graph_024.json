@@ -1,0 +1,347 @@
+{
+  "nodes": [
+    {
+      "id": "N1",
+      "label": "Step 1",
+      "customData": {
+        "node_id": "A",
+        "node_step_index": 0,
+        "content": "74-year-old male presented with fever and dyspnea.",
+        "clinical_data": {
+          "HPI": [
+            {
+              "summary": "74-year-old male presented with fever and dyspnea.",
+              "associated_symptoms": [
+                "fever",
+                "dyspnea"
+              ]
+            }
+          ]
+        }
+      },
+      "custom_id": "graph_024_N0"
+    },
+    {
+      "id": "N2",
+      "label": "Step 2",
+      "customData": {
+        "node_id": "B",
+        "node_step_index": 1,
+        "content": "Initial chest x-ray revealed a right-sided pleural effusion.",
+        "clinical_data": {
+          "imaging": [
+            {
+              "type": "Radiography (procedure)",
+              "body_part": "Thorax",
+              "modality": "X-ray",
+              "finding": "Pleural Effusion, Right",
+              "impression": "Pleural Effusion, Right",
+              "date": null
+            }
+          ]
+        }
+      },
+      "custom_id": "graph_024_N1"
+    },
+    {
+      "id": "N3",
+      "label": "Step 3",
+      "customData": {
+        "node_id": "C",
+        "node_step_index": 2,
+        "content": "CT scans revealed right pleural thickening, lung volume loss, and pleural effusion.",
+        "clinical_data": {
+          "imaging": [
+            {
+              "type": "Computed tomography",
+              "body_part": "Pleura",
+              "modality": "CT",
+              "finding": "right pleural thickening, lung volume loss, and pleural effusion"
+            }
+          ]
+        }
+      },
+      "custom_id": "graph_024_N2"
+    },
+    {
+      "id": "N4",
+      "label": "Step 4",
+      "customData": {
+        "node_id": "D",
+        "node_step_index": 3,
+        "content": "Video-assisted thoracoscopic pleural biopsy indicated the diagnosis of MPM (cT1N0M0 Stage I).",
+        "clinical_data": {
+          "procedures": [
+            {
+              "name": "Video-assisted thoracoscopic pleural biopsy",
+              "approach": "endoscopic",
+              "date": null,
+              "location": "pleural cavity"
+            }
+          ],
+          "diagnoses": [
+            {
+              "code": "C45.0",
+              "label": "Mesothelioma of pleura",
+              "status": "active",
+              "onset_date": null
+            }
+          ]
+        }
+      },
+      "custom_id": "graph_024_N3"
+    },
+    {
+      "id": "N5",
+      "label": "Step 5",
+      "customData": {
+        "node_id": "E",
+        "node_step_index": 4,
+        "content": "Initiated first-line therapy with nivolumab (240 mg every 2 weeks) plus ipilimumab (1 mg/kg every 6 weeks).",
+        "clinical_data": {
+          "medications": [
+            {
+              "drug": "Nivolumab",
+              "dosage": "240 mg",
+              "frequency": "every 2 weeks",
+              "modality": "IV",
+              "start_date": null,
+              "end_date": null,
+              "indication": null
+            },
+            {
+              "drug": "Ipilimumab",
+              "dosage": "1 mg/kg",
+              "frequency": "every 6 weeks",
+              "modality": "IV",
+              "start_date": null,
+              "end_date": null,
+              "indication": null
+            }
+          ]
+        }
+      },
+      "custom_id": "graph_024_N4"
+    },
+    {
+      "id": "N6",
+      "label": "Step 6",
+      "customData": {
+        "node_id": "F",
+        "node_step_index": 5,
+        "content": "Developed diarrhea at the later period of the second treatment cycle, requiring second cycle interruption; CTCAE irAE colitis (Grade 2); symptoms gradually improved without steroid administration, enabling him to resume the third cycle.",
+        "clinical_data": {
+          "diagnoses": [
+            {
+              "code": "C0354207",
+              "label": "Colitis",
+              "status": "active",
+              "onset_date": null
+            }
+          ],
+          "HPI": [
+            {
+              "summary": "Developed diarrhea during the second treatment cycle, leading to cycle interruption. Symptoms gradually improved without steroid administration, allowing resumption of the third cycle.",
+              "duration": null,
+              "onset": null,
+              "progression": "gradual",
+              "associated_symptoms": [
+                "C0011991"
+              ],
+              "alleviating_factors": [],
+              "exacerbating_factors": []
+            }
+          ]
+        }
+      },
+      "custom_id": "graph_024_N5"
+    },
+    {
+      "id": "N7",
+      "label": "Step 7",
+      "customData": {
+        "node_id": "G",
+        "node_step_index": 6,
+        "content": "Diarrhea relapsed during the fourth cycle and was considered irAE colitis (Grade 3); ICI therapy was discontinued, and oral prednisolone (PSL) of 0.5 mg/kg was initiated.",
+        "clinical_data": {
+          "diagnoses": [
+            {
+              "code": "C0009206",
+              "label": "Colitis",
+              "status": "active",
+              "onset_date": null
+            }
+          ],
+          "medications": [
+            {
+              "drug": "C0032141",
+              "dosage": "0.5 mg/kg",
+              "frequency": null,
+              "modality": "oral",
+              "start_date": null,
+              "end_date": null,
+              "indication": "C0009206"
+            }
+          ]
+        }
+      },
+      "custom_id": "graph_024_N6"
+    },
+    {
+      "id": "N8",
+      "label": "Step 8",
+      "customData": {
+        "node_id": "H",
+        "node_step_index": 7,
+        "content": "Low-dose PSL was continued for over a month, which improved diarrhea symptoms. The patient insisted on resuming ICI chemotherapy; thus, the fifth treatment cycle was resumed.",
+        "clinical_data": {
+          "medications": [
+            {
+              "drug": "C0036072",
+              "dosage": "low-dose",
+              "frequency": null,
+              "modality": "oral",
+              "start_date": null,
+              "end_date": null,
+              "indication": "C0011991"
+            }
+          ],
+          "diagnoses": [
+            {
+              "code": "C0011991",
+              "label": "Diarrhea",
+              "status": "active",
+              "onset_date": null
+            }
+          ],
+          "procedures": [
+            {
+              "name": "C4721492",
+              "approach": null,
+              "date": null,
+              "location": null,
+              "performed_by": null,
+              "outcome": null
+            }
+          ]
+        }
+      },
+      "custom_id": "graph_024_N7"
+    }
+  ],
+  "edges": [
+    {
+      "from": "N1",
+      "to": "N2",
+      "data": {
+        "edge_id": "A_to_B",
+        "branch_flag": true,
+        "content": "Patient progressed from initial presentation to chest x-ray imaging."
+      },
+      "custom_id": "graph_024_N1_N2"
+    },
+    {
+      "from": "N2",
+      "to": "N3",
+      "data": {
+        "edge_id": "B_to_C",
+        "branch_flag": true,
+        "content": "Chest x-ray findings led to further investigation with CT scans."
+      },
+      "custom_id": "graph_024_N2_N3"
+    },
+    {
+      "from": "N3",
+      "to": "N4",
+      "data": {
+        "edge_id": "C_to_D",
+        "branch_flag": true,
+        "content": "CT scan results prompted a biopsy, leading to a diagnosis of MPM (cT1N0M0 Stage I).",
+        "transition_event": {
+          "trigger_type": "procedure",
+          "trigger_entities": [
+            "C0158752"
+          ],
+          "change_type": "addition",
+          "target_domain": "diagnosis"
+        }
+      },
+      "custom_id": "graph_024_N3_N4"
+    },
+    {
+      "from": "N4",
+      "to": "N5",
+      "data": {
+        "edge_id": "D_to_E",
+        "branch_flag": true,
+        "content": "Following diagnosis, first-line therapy with nivolumab and ipilimumab was initiated.",
+        "transition_event": {
+          "trigger_type": "medication_change",
+          "trigger_entities": [
+            "C3877643",
+            "C1873350"
+          ],
+          "change_type": "addition",
+          "target_domain": "medication"
+        }
+      },
+      "custom_id": "graph_024_N4_N5"
+    },
+    {
+      "from": "N5",
+      "to": "N6",
+      "data": {
+        "edge_id": "E_to_F",
+        "branch_flag": true,
+        "content": "Patient developed diarrhea during the second treatment cycle, leading to cycle interruption; CTCAE irAE colitis (Grade 2); symptoms gradually improved without steroid administration, allowing resumption of the third cycle.",
+        "transition_event": {
+          "trigger_type": "symptom_onset",
+          "trigger_entities": [
+            "C0011991"
+          ],
+          "change_type": "addition",
+          "target_domain": "symptom"
+        }
+      },
+      "custom_id": "graph_024_N5_N6"
+    },
+    {
+      "from": "N6",
+      "to": "N7",
+      "data": {
+        "edge_id": "F_to_G",
+        "branch_flag": true,
+        "content": "Diarrhea relapsed during the fourth cycle and was considered irAE colitis (Grade 3); ICI therapy was discontinued, and oral prednisolone (PSL) of 0.5 mg/kg was initiated.",
+        "transition_event": {
+          "trigger_type": "medication_change",
+          "trigger_entities": [
+            "C3877643",
+            "C1873350",
+            "C0032141"
+          ],
+          "change_type": "addition",
+          "target_domain": "medication"
+        }
+      },
+      "custom_id": "graph_024_N6_N7"
+    },
+    {
+      "from": "N7",
+      "to": "N8",
+      "data": {
+        "edge_id": "G_to_H",
+        "branch_flag": true,
+        "content": "Low-dose PSL was continued for over a month, which improved diarrhea symptoms. The patient insisted on resuming ICI chemotherapy; thus, the fifth treatment cycle was resumed.",
+        "transition_event": {
+          "trigger_type": "medication_change",
+          "trigger_entities": [
+            "C0036072"
+          ],
+          "change_type": "other",
+          "target_domain": "medication"
+        }
+      },
+      "custom_id": "graph_024_N7_N8"
+    }
+  ]
+}

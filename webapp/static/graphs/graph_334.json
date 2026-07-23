@@ -1,0 +1,370 @@
+{
+  "nodes": [
+    {
+      "id": "N1",
+      "label": "Step 1",
+      "customData": {
+        "node_id": "A",
+        "node_step_index": 0,
+        "content": "73-year-old Japanese man diagnosed with adenocarcinoma, undergoing combination therapy.",
+        "clinical_data": {
+          "diagnoses": [
+            {
+              "code": "C0001447",
+              "label": "Adenocarcinoma",
+              "status": "active",
+              "onset_date": null
+            }
+          ],
+          "social_history": [
+            {
+              "category": "other",
+              "status": "current",
+              "description": "Japanese"
+            }
+          ]
+        }
+      }
+    },
+    {
+      "id": "N2",
+      "label": "Step 2",
+      "customData": {
+        "node_id": "B",
+        "node_step_index": 1,
+        "content": "Seven days after initial treatment, laboratory data showed AKI with an increase in the Cr level from 1.17 to 1.68 mg/dL.",
+        "clinical_data": {
+          "labs": [
+            {
+              "test": "Creatinine measurement",
+              "value": "1.68",
+              "unit": "mg/dL",
+              "flag": "abnormal",
+              "timestamp": null
+            }
+          ],
+          "diagnoses": [
+            {
+              "code": "N17.9",
+              "label": "Acute kidney failure, unspecified",
+              "status": "active",
+              "onset_date": null
+            }
+          ]
+        }
+      }
+    },
+    {
+      "id": "N3",
+      "label": "Step 3",
+      "customData": {
+        "node_id": "C",
+        "node_step_index": 2,
+        "content": "On day 16, the patient underwent a renal biopsy, which revealed mild ATI.",
+        "clinical_data": {
+          "procedures": [
+            {
+              "name": "Renal biopsy",
+              "date": null,
+              "location": "kidney"
+            }
+          ],
+          "diagnoses": [
+            {
+              "code": "C0236041",
+              "label": "Acute tubular necrosis",
+              "status": "active",
+              "onset_date": null
+            }
+          ]
+        }
+      }
+    },
+    {
+      "id": "N4",
+      "label": "Step 4",
+      "customData": {
+        "node_id": "D",
+        "node_step_index": 3,
+        "content": "Mild ATI treated with oral PSL at 30 mg/day for 1 month, which ameliorated AKI, although kidney function slightly declined with a Cr level of 1.4-1.5 mg/dL.",
+        "clinical_data": {
+          "medications": [
+            {
+              "drug": "C0036075",
+              "dosage": "30 mg/day",
+              "frequency": "daily",
+              "modality": "oral",
+              "start_date": null,
+              "end_date": null,
+              "indication": "C0004234"
+            }
+          ],
+          "labs": [
+            {
+              "test": "C0009626",
+              "value": "1.4-1.5",
+              "unit": "mg/dL",
+              "flag": "abnormal",
+              "reference_range": null,
+              "timestamp": null
+            }
+          ],
+          "diagnoses": [
+            {
+              "code": "C0004234",
+              "label": "Acute Kidney Injury",
+              "status": "resolved",
+              "onset_date": null
+            },
+            {
+              "code": "C0235837",
+              "label": "Acute Tubular Necrosis",
+              "status": "resolved",
+              "onset_date": null
+            }
+          ]
+        }
+      }
+    },
+    {
+      "id": "N5",
+      "label": "Step 5",
+      "customData": {
+        "node_id": "E",
+        "node_step_index": 4,
+        "content": "66-year-old Japanese man diagnosed with adenocarcinoma, received combination therapy with initial medication including esomeprazole 20 mg and celecoxib 200 mg.",
+        "clinical_data": {
+          "medications": [
+            {
+              "drug": "esomeprazole",
+              "dosage": "20 mg",
+              "frequency": null,
+              "modality": null,
+              "start_date": null,
+              "end_date": null,
+              "indication": null
+            },
+            {
+              "drug": "celecoxib",
+              "dosage": "200 mg",
+              "frequency": null,
+              "modality": null,
+              "start_date": null,
+              "end_date": null,
+              "indication": null
+            }
+          ],
+          "diagnoses": [
+            {
+              "code": null,
+              "label": "adenocarcinoma",
+              "status": "active",
+              "onset_date": null
+            }
+          ],
+          "social_history": [
+            {
+              "category": "demographics",
+              "status": "current",
+              "description": "66-year-old Japanese man"
+            }
+          ]
+        }
+      }
+    },
+    {
+      "id": "N6",
+      "label": "Step 6",
+      "customData": {
+        "node_id": "F",
+        "node_step_index": 5,
+        "content": "Twenty-seven days after initial treatment, laboratory data revealed an increase in the Cr level from 1.09 to 1.99 mg/dL. Chemotherapy regimen was modified to pembrolizumab monotherapy.",
+        "clinical_data": {
+          "labs": [
+            {
+              "test": "Creatinine Measurement",
+              "value": "1.99",
+              "unit": "mg/dL",
+              "flag": "abnormal",
+              "timestamp": null
+            }
+          ],
+          "medications": [
+            {
+              "drug": "Pembrolizumab",
+              "dosage": null,
+              "frequency": null,
+              "modality": null,
+              "start_date": null,
+              "end_date": null,
+              "indication": null
+            }
+          ]
+        }
+      }
+    },
+    {
+      "id": "N7",
+      "label": "Step 7",
+      "customData": {
+        "node_id": "G",
+        "node_step_index": 6,
+        "content": "On day 41, the patient was brought to the hospital in an unconscious state.",
+        "clinical_data": {
+          "HPI": [
+            {
+              "summary": "Patient brought to the hospital in an unconscious state.",
+              "onset": "day 41"
+            }
+          ]
+        }
+      }
+    },
+    {
+      "id": "N8",
+      "label": "Step 8",
+      "customData": {
+        "node_id": "H",
+        "node_step_index": 7,
+        "content": "On admission (day 41), laboratory data showed a Cr level of 5.08 mg/dL and a BUN level of 55.1 mg/dL. Electrolyte disorders, bacterial and viral meningitis, and malignancy were ruled out. ICI-related encephalitis was suspected.",
+        "clinical_data": {
+          "labs": [
+            {
+              "test": "Creatinine measurement",
+              "value": "5.08",
+              "unit": "mg/dL",
+              "flag": "abnormal"
+            },
+            {
+              "test": "Blood urea nitrogen measurement",
+              "value": "55.1",
+              "unit": "mg/dL",
+              "flag": "abnormal"
+            }
+          ],
+          "diagnoses": [
+            {
+              "code": "Encephalitis",
+              "label": "Encephalitis",
+              "status": "suspected"
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "edges": [
+    {
+      "from": "N1",
+      "to": "N2",
+      "data": {
+        "edge_id": "A_to_B",
+        "branch_flag": true,
+        "content": "Seven days post-adenocarcinoma treatment, patient experienced AKI.",
+        "transition_event": {
+          "trigger_type": "lab_change",
+          "trigger_entities": [
+            "C0009626"
+          ],
+          "change_type": "progression",
+          "target_domain": "lab"
+        }
+      }
+    },
+    {
+      "from": "N2",
+      "to": "N3",
+      "data": {
+        "edge_id": "B_to_C",
+        "branch_flag": true,
+        "content": "AKI led to renal biopsy on day 16, revealing mild ATI.",
+        "transition_event": {
+          "trigger_type": "procedure",
+          "trigger_entities": [
+            "Renal biopsy"
+          ],
+          "change_type": "addition",
+          "target_domain": "procedure"
+        }
+      }
+    },
+    {
+      "from": "N3",
+      "to": "N4",
+      "data": {
+        "edge_id": "C_to_D",
+        "branch_flag": true,
+        "content": "Mild ATI treated with oral PSL at 30 mg/day for 1 month, which ameliorated AKI, although kidney function slightly declined with a Cr level of 1.4-1.5 mg/dL.",
+        "transition_event": {
+          "trigger_type": "medication_change",
+          "trigger_entities": [
+            "C0036075"
+          ],
+          "change_type": "addition",
+          "target_domain": "medication"
+        }
+      }
+    },
+    {
+      "from": "N4",
+      "to": "N5",
+      "data": {
+        "edge_id": "D_to_E",
+        "branch_flag": true,
+        "content": "Transition to second case: 66-year-old Japanese man diagnosed with adenocarcinoma, received combination therapy with initial medication including esomeprazole 20 mg and celecoxib 200 mg."
+      }
+    },
+    {
+      "from": "N5",
+      "to": "N6",
+      "data": {
+        "edge_id": "E_to_F",
+        "branch_flag": true,
+        "content": "Twenty-seven days after initial treatment, laboratory data revealed an increase in the Cr level from 1.09 to 1.99 mg/dL. Chemotherapy regimen was modified to pembrolizumab monotherapy.",
+        "transition_event": {
+          "trigger_type": "medication_change",
+          "trigger_entities": [
+            "Pembrolizumab"
+          ],
+          "change_type": "addition",
+          "target_domain": "medication"
+        }
+      }
+    },
+    {
+      "from": "N6",
+      "to": "N7",
+      "data": {
+        "edge_id": "F_to_G",
+        "branch_flag": true,
+        "content": "On day 41, the patient was brought to the hospital in an unconscious state.",
+        "transition_event": {
+          "trigger_type": "symptom_onset",
+          "trigger_entities": [
+            "Unconscious state"
+          ],
+          "change_type": "progression",
+          "target_domain": "functional_status"
+        }
+      }
+    },
+    {
+      "from": "N7",
+      "to": "N8",
+      "data": {
+        "edge_id": "G_to_H",
+        "branch_flag": true,
+        "content": "On admission (day 41), laboratory data showed a Cr level of 5.08 mg/dL and a BUN level of 55.1 mg/dL. Electrolyte disorders, bacterial and viral meningitis, and malignancy were ruled out. ICI-related encephalitis was suspected.",
+        "transition_event": {
+          "trigger_type": "lab_change",
+          "trigger_entities": [
+            "C0009626",
+            "C0004235"
+          ],
+          "change_type": "progression",
+          "target_domain": "lab"
+        }
+      }
+    }
+  ]
+}

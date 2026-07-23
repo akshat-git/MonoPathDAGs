@@ -1,0 +1,570 @@
+{
+  "nodes": [
+    {
+      "id": "N1",
+      "label": "Step 1",
+      "customData": {
+        "node_id": "A",
+        "node_step_index": 0,
+        "content": "65-year-old man with stage IV lung adenocarcinoma (bilateral lung metastases) diagnosed in February 2020. Former smoker (15 pack-years). Received a vaccination for seasonal influenza.",
+        "clinical_data": {
+          "diagnoses": [
+            {
+              "code": "C34.9",
+              "label": "Malignant neoplasm of unspecified part of bronchus or lung",
+              "status": "active",
+              "onset_date": "2020-02"
+            },
+            {
+              "code": "C78.0",
+              "label": "Secondary malignant neoplasm of lung",
+              "status": "active",
+              "onset_date": "2020-02"
+            }
+          ],
+          "social_history": [
+            {
+              "category": "smoking",
+              "status": "past",
+              "description": "15 pack-years"
+            }
+          ],
+          "procedures": [
+            {
+              "name": "seasonal influenza vaccination",
+              "date": null
+            }
+          ]
+        }
+      }
+    },
+    {
+      "id": "N2",
+      "label": "Step 2",
+      "customData": {
+        "node_id": "B",
+        "node_step_index": 1,
+        "content": "Patient started treatment with carboplatin, pemetrexed, and pembrolizumab on March 6, 2020.",
+        "timestamp": "2020-03-06",
+        "clinical_data": {
+          "medications": [
+            {
+              "drug": "C0007138",
+              "dosage": null,
+              "frequency": null,
+              "modality": null,
+              "start_date": "2020-03-06",
+              "end_date": null,
+              "indication": null
+            },
+            {
+              "drug": "C1634149",
+              "dosage": null,
+              "frequency": null,
+              "modality": null,
+              "start_date": "2020-03-06",
+              "end_date": null,
+              "indication": null
+            },
+            {
+              "drug": "C4049449",
+              "dosage": null,
+              "frequency": null,
+              "modality": null,
+              "start_date": "2020-03-06",
+              "end_date": null,
+              "indication": null
+            }
+          ]
+        }
+      }
+    },
+    {
+      "id": "N3",
+      "label": "Step 3",
+      "customData": {
+        "node_id": "C",
+        "node_step_index": 2,
+        "content": "On March 13, 2020, patient presented to outpatient clinic reporting fever in the previous 24 hours and productive cough. Physical examination revealed tachycardia (100 bpm), febrile (40\u00b0C), and fine crackles at the right lung base. Arterial oxygen partial pressure/fractional inspired oxygen (P/F) ratio in room air was 328.",
+        "timestamp": "2020-03-13",
+        "clinical_data": {
+          "HPI": [
+            {
+              "summary": "Patient presented to outpatient clinic reporting fever in the previous 24 hours and productive cough.",
+              "duration": "P24H",
+              "onset": "2020-03-12",
+              "progression": "sudden",
+              "associated_symptoms": [
+                "C0015967"
+              ]
+            }
+          ],
+          "vitals": [
+            {
+              "type": "C0040037",
+              "value": "100",
+              "unit": "bpm",
+              "timestamp": "2020-03-13"
+            },
+            {
+              "type": "C0015967",
+              "value": "40",
+              "unit": "\u00b0C",
+              "timestamp": "2020-03-13"
+            }
+          ],
+          "diagnoses": [
+            {
+              "code": "C0024109",
+              "label": "Lung Crackles",
+              "status": "active",
+              "onset_date": "2020-03-13"
+            }
+          ],
+          "labs": [
+            {
+              "test": "Arterial oxygen partial pressure/fractional inspired oxygen (P/F) ratio",
+              "value": "328",
+              "unit": null,
+              "flag": "abnormal",
+              "reference_range": null,
+              "timestamp": "2020-03-13"
+            }
+          ]
+        }
+      }
+    },
+    {
+      "id": "N4",
+      "label": "Step 4",
+      "customData": {
+        "node_id": "D",
+        "node_step_index": 3,
+        "content": "Blood tests showed grade 3 leukopenia and neutropenia and elevation of C-reactive protein (CRP). Chest radiograph did not demonstrate any signs of interstitial pneumonia. Nasopharyngeal swab for COVID-19 was performed.",
+        "timestamp": "2020-03-13",
+        "clinical_data": {
+          "labs": [
+            {
+              "test": "Leukopenia",
+              "value": "grade 3",
+              "flag": "abnormal"
+            },
+            {
+              "test": "Neutropenia",
+              "value": "grade 3",
+              "flag": "abnormal"
+            },
+            {
+              "test": "C-Reactive Protein",
+              "flag": "abnormal"
+            }
+          ],
+          "imaging": [
+            {
+              "type": "Chest radiograph",
+              "finding": "no signs of interstitial pneumonia",
+              "modality": "X-ray"
+            }
+          ],
+          "procedures": [
+            {
+              "name": "Nasopharyngeal swab for COVID-19"
+            }
+          ]
+        }
+      }
+    },
+    {
+      "id": "N5",
+      "label": "Step 5",
+      "customData": {
+        "node_id": "E",
+        "node_step_index": 4,
+        "content": "Patient was hospitalized, and treatment with granulocyte colony-stimulating factors and broad-spectrum empirical antibiotics was started.",
+        "timestamp": "2020-03-13",
+        "clinical_data": {
+          "medications": [
+            {
+              "drug": "Granulocyte colony stimulating factor",
+              "dosage": null,
+              "frequency": null,
+              "modality": null,
+              "start_date": null,
+              "end_date": null,
+              "indication": null
+            },
+            {
+              "drug": "Anti-Bacterial Agents",
+              "dosage": null,
+              "frequency": null,
+              "modality": null,
+              "start_date": null,
+              "end_date": null,
+              "indication": null
+            }
+          ]
+        }
+      }
+    },
+    {
+      "id": "N6",
+      "label": "Step 6",
+      "customData": {
+        "node_id": "F",
+        "node_step_index": 5,
+        "content": "Reverse transcriptase polymerase chain reaction testing for COVID-19 nucleic acid was positive on day 2 (24 hours after admission). CRP had increased to 225 mg/L, and his IL-6 level was 101 ng/L. Blood cultures and legionella and pneumococcal urinary antigen tests were negative. Patient was prescribed Darunavir 800 mg/d, ritonavir 100 mg/d, and hydroxychloroquine 200 mg twice daily. Oxygen supplementation with a reservoir mask at 15 L/min was administered.",
+        "clinical_data": {
+          "labs": [
+            {
+              "test": "Reverse transcriptase polymerase chain reaction",
+              "value": "positive",
+              "unit": null,
+              "flag": "abnormal",
+              "reference_range": null,
+              "timestamp": null
+            },
+            {
+              "test": "C-Reactive Protein",
+              "value": "225",
+              "unit": "mg/L",
+              "flag": "abnormal",
+              "reference_range": null,
+              "timestamp": null
+            },
+            {
+              "test": "Interleukin-6",
+              "value": "101",
+              "unit": "ng/L",
+              "flag": "abnormal",
+              "reference_range": null,
+              "timestamp": null
+            },
+            {
+              "test": "Blood culture",
+              "value": "negative",
+              "unit": null,
+              "flag": "normal",
+              "reference_range": null,
+              "timestamp": null
+            },
+            {
+              "test": "Legionella urinary antigen test",
+              "value": "negative",
+              "unit": null,
+              "flag": "normal",
+              "reference_range": null,
+              "timestamp": null
+            },
+            {
+              "test": "Pneumococcal urinary antigen test",
+              "value": "negative",
+              "unit": null,
+              "flag": "normal",
+              "reference_range": null,
+              "timestamp": null
+            }
+          ],
+          "medications": [
+            {
+              "drug": "Darunavir",
+              "dosage": "800 mg",
+              "frequency": "daily",
+              "modality": "oral",
+              "start_date": null,
+              "end_date": null,
+              "indication": "COVID-19"
+            },
+            {
+              "drug": "Ritonavir",
+              "dosage": "100 mg",
+              "frequency": "daily",
+              "modality": "oral",
+              "start_date": null,
+              "end_date": null,
+              "indication": "COVID-19"
+            },
+            {
+              "drug": "Hydroxychloroquine",
+              "dosage": "200 mg",
+              "frequency": "twice daily",
+              "modality": "oral",
+              "start_date": null,
+              "end_date": null,
+              "indication": "COVID-19"
+            }
+          ],
+          "procedures": [
+            {
+              "name": "Oxygen supplementation",
+              "approach": null,
+              "date": null,
+              "location": null,
+              "performed_by": null,
+              "outcome": null
+            }
+          ]
+        }
+      }
+    },
+    {
+      "id": "N7",
+      "label": "Step 7",
+      "customData": {
+        "node_id": "G",
+        "node_step_index": 6,
+        "content": "On day 7, the patient's P/F ratio decreased to 58. CT scan showed areas of consolidation in the right and left lower lobes, with diffuse ground glass opacities and inter- and intralobular septal thickening (\"crazy paving\").",
+        "clinical_data": {
+          "labs": [
+            {
+              "test": "P/F ratio",
+              "value": "58",
+              "unit": null,
+              "flag": "abnormal",
+              "reference_range": null,
+              "timestamp": null
+            }
+          ],
+          "imaging": [
+            {
+              "type": "CT scan",
+              "body_part": "lung",
+              "modality": "CT",
+              "finding": "areas of consolidation in the right and left lower lobes, with diffuse ground glass opacities and inter- and intralobular septal thickening",
+              "impression": "\"crazy paving\"",
+              "date": null
+            }
+          ]
+        }
+      }
+    },
+    {
+      "id": "N8",
+      "label": "Step 8",
+      "customData": {
+        "node_id": "H",
+        "node_step_index": 7,
+        "content": "On days 8 and 9, the patient was given the first and second dose of tocilizumab (8 mg/kg weight every 12 hours).",
+        "clinical_data": {
+          "medications": [
+            {
+              "drug": "C0972734",
+              "dosage": "8 mg/kg",
+              "frequency": "every 12 hours",
+              "modality": "IV",
+              "start_date": null,
+              "end_date": null,
+              "indication": null
+            }
+          ]
+        }
+      }
+    },
+    {
+      "id": "N9",
+      "label": "Step 9",
+      "customData": {
+        "node_id": "I",
+        "node_step_index": 8,
+        "content": "P/F ratio increased to 100 the morning after the first dose of tocilizumab.",
+        "clinical_data": {
+          "medications": [
+            {
+              "drug": "C1621818",
+              "dosage": null,
+              "frequency": null,
+              "modality": null,
+              "start_date": null,
+              "end_date": null,
+              "indication": null
+            }
+          ],
+          "labs": [
+            {
+              "test": "P/F ratio",
+              "value": "100",
+              "unit": null,
+              "flag": null,
+              "reference_range": null,
+              "timestamp": null
+            }
+          ]
+        }
+      }
+    },
+    {
+      "id": "N10",
+      "label": "Step 10",
+      "customData": {
+        "node_id": "J",
+        "node_step_index": 9,
+        "content": "CRP level decreased from 212 mg/dL to 37 mg/dL by 48 hours after the second dose of tocilizumab. WBC count: Day 1: 1.61 \u00d7103/mm3",
+        "4": 1.58,
+        "7": 14.81,
+        "9": 5730,
+        "11": 5.58,
+        "18": 4.0,
+        "clinical_data": {
+          "labs": [
+            {
+              "test": "C0009450",
+              "value": "212",
+              "unit": "mg/dL",
+              "timestamp": null
+            },
+            {
+              "test": "C0009450",
+              "value": "37",
+              "unit": "mg/dL",
+              "timestamp": null
+            },
+            {
+              "test": "C0041653",
+              "value": "1.61",
+              "unit": "\u00d7103/mm3",
+              "timestamp": null
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "edges": [
+    {
+      "from": "N1",
+      "to": "N2",
+      "data": {
+        "edge_id": "A_to_B",
+        "branch_flag": true,
+        "content": "Initiation of treatment for stage IV lung adenocarcinoma."
+      }
+    },
+    {
+      "from": "N2",
+      "to": "N3",
+      "data": {
+        "edge_id": "B_to_C",
+        "branch_flag": true,
+        "content": "Development of fever and productive cough while on treatment with carboplatin, pemetrexed, and pembrolizumab.",
+        "transition_event": {
+          "trigger_type": "symptom_onset",
+          "trigger_entities": [
+            "C0015967",
+            "C0010200"
+          ],
+          "change_type": "addition",
+          "target_domain": "symptom",
+          "timestamp": "2020-03-12T00:00:00Z"
+        }
+      }
+    },
+    {
+      "from": "N3",
+      "to": "N4",
+      "data": {
+        "edge_id": "C_to_D",
+        "branch_flag": true,
+        "content": "Evaluation for fever and cough, including blood tests and chest radiograph.",
+        "transition_event": {
+          "trigger_type": "lab_change",
+          "trigger_entities": [],
+          "change_type": "other",
+          "target_domain": "lab",
+          "timestamp": "2020-03-13T00:00:00Z"
+        }
+      }
+    },
+    {
+      "from": "N4",
+      "to": "N5",
+      "data": {
+        "edge_id": "D_to_E",
+        "branch_flag": true,
+        "content": "Hospitalization and initiation of granulocyte colony-stimulating factors and broad-spectrum empirical antibiotics due to leukopenia, neutropenia, elevated CRP, and concern for infection.",
+        "transition_event": {
+          "trigger_type": "medication_change",
+          "trigger_entities": [
+            "C0086458"
+          ],
+          "change_type": "addition",
+          "target_domain": "medication",
+          "timestamp": "2020-03-13T00:00:00Z"
+        }
+      }
+    },
+    {
+      "from": "N5",
+      "to": "N6",
+      "data": {
+        "edge_id": "E_to_F",
+        "branch_flag": true,
+        "content": "Diagnosis of COVID-19 and initiation of Darunavir, ritonavir, and hydroxychloroquine. Oxygen supplementation initiated.",
+        "transition_event": {
+          "trigger_type": "lab_change",
+          "trigger_entities": [
+            "C4723430"
+          ],
+          "change_type": "addition",
+          "target_domain": "diagnosis",
+          "timestamp": null
+        }
+      }
+    },
+    {
+      "from": "N6",
+      "to": "N7",
+      "data": {
+        "edge_id": "F_to_G",
+        "branch_flag": true,
+        "content": "Worsening respiratory status with decreased P/F ratio and new findings on CT scan.",
+        "transition_event": {
+          "trigger_type": "progression",
+          "trigger_entities": [],
+          "change_type": "progression",
+          "target_domain": "imaging",
+          "timestamp": null
+        }
+      }
+    },
+    {
+      "from": "N7",
+      "to": "N8",
+      "data": {
+        "edge_id": "G_to_H",
+        "branch_flag": true,
+        "content": "Administration of tocilizumab.",
+        "transition_event": {
+          "trigger_type": "medication_change",
+          "trigger_entities": [
+            "C0972734"
+          ],
+          "change_type": "addition",
+          "target_domain": "medication",
+          "timestamp": null
+        }
+      }
+    },
+    {
+      "from": "N8",
+      "to": "N9",
+      "data": {
+        "edge_id": "H_to_I",
+        "branch_flag": true,
+        "content": "Improvement in P/F ratio after first dose of tocilizumab.",
+        "transition_event": {
+          "trigger_type": "lab_change",
+          "trigger_entities": [],
+          "change_type": "progression",
+          "target_domain": "lab",
+          "timestamp": null
+        }
+      }
+    },
+    {
+      "from": "N9",
+      "to": "N10",
+      "data": {
+        "edge_id": "I_to_J"
+      }
+    }
+  ]
+}

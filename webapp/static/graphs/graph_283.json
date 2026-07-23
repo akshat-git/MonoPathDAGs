@@ -1,0 +1,352 @@
+{
+  "nodes": [
+    {
+      "id": "N1",
+      "label": "Step 1",
+      "customData": {
+        "node_id": "A",
+        "node_step_index": 0,
+        "content": "40-year-old woman with suspected lung cancer lesion (c-T1cN0M0).",
+        "clinical_data": {
+          "diagnoses": [
+            {
+              "code": "C0242398",
+              "label": "Lung cancer",
+              "status": "suspected",
+              "onset_date": null
+            }
+          ],
+          "imaging": [
+            {
+              "type": "C0242398",
+              "body_part": "C0024134",
+              "modality": null,
+              "finding": "lesion",
+              "impression": null,
+              "date": null
+            }
+          ]
+        }
+      }
+    },
+    {
+      "id": "N2",
+      "label": "Step 2",
+      "customData": {
+        "node_id": "B",
+        "node_step_index": 1,
+        "content": "Initial computed tomography (CT) revealed a 22 mm solid pulmonary nodule in the right lower lobe.",
+        "clinical_data": {
+          "imaging": [
+            {
+              "type": "Pulmonary nodule",
+              "body_part": "Right lower lobe",
+              "modality": "CT",
+              "finding": "22 mm solid pulmonary nodule"
+            }
+          ]
+        }
+      }
+    },
+    {
+      "id": "N3",
+      "label": "Step 3",
+      "customData": {
+        "node_id": "C",
+        "node_step_index": 2,
+        "content": "Right lower lobectomy with systematic lymph node dissection performed in November 2010.",
+        "clinical_data": {
+          "procedures": [
+            {
+              "name": "Lobectomy",
+              "approach": "open",
+              "date": "2010-11",
+              "location": "Right lower lobe",
+              "performed_by": null,
+              "outcome": null
+            },
+            {
+              "name": "Lymph node dissection",
+              "approach": "open",
+              "date": "2010-11",
+              "location": "Systematic",
+              "performed_by": null,
+              "outcome": null
+            }
+          ]
+        }
+      }
+    },
+    {
+      "id": "N4",
+      "label": "Step 4",
+      "customData": {
+        "node_id": "D",
+        "node_step_index": 3,
+        "content": "Postoperative pathology confirmed stage IIB (pT1cN1M0) moderately differentiated acinar adenocarcinoma.",
+        "clinical_data": {
+          "diagnoses": [
+            {
+              "code": "C25.9",
+              "label": "Malignant neoplasm of pancreas, unspecified",
+              "status": "active",
+              "onset_date": null
+            }
+          ]
+        }
+      }
+    },
+    {
+      "id": "N5",
+      "label": "Step 5",
+      "customData": {
+        "node_id": "E",
+        "node_step_index": 4,
+        "content": "Immune-histochemical analysis indicated that the tumor cells were positive for ALK antibody (+ focal staining).",
+        "clinical_data": {
+          "labs": [
+            {
+              "test": "ALK antibody",
+              "value": "positive",
+              "flag": "positive",
+              "details": "+ focal staining"
+            }
+          ]
+        }
+      }
+    },
+    {
+      "id": "N6",
+      "label": "Step 6",
+      "customData": {
+        "node_id": "F",
+        "node_step_index": 5,
+        "content": "Treated with 4 cycles of cisplatin (80 mg/m2) and vinorelbine (25 mg/m2) combination as postoperative adjuvant therapy until March 2011.",
+        "clinical_data": {
+          "medications": [
+            {
+              "drug": "C0008868",
+              "dosage": "80 mg/m2",
+              "frequency": "cycles",
+              "modality": "IV",
+              "start_date": null,
+              "end_date": "2011-03",
+              "indication": "postoperative adjuvant therapy"
+            },
+            {
+              "drug": "C0042937",
+              "dosage": "25 mg/m2",
+              "frequency": "cycles",
+              "modality": "IV",
+              "start_date": null,
+              "end_date": "2011-03",
+              "indication": "postoperative adjuvant therapy"
+            }
+          ],
+          "procedures": [
+            {
+              "name": "postoperative adjuvant therapy",
+              "date": null
+            }
+          ]
+        }
+      }
+    },
+    {
+      "id": "N7",
+      "label": "Step 7",
+      "customData": {
+        "node_id": "G",
+        "node_step_index": 6,
+        "content": "October 2012: PET revealed multiple lymph node metastases in the right supraclavicular region, bilateral lung hilus and mediastinum due to right supraclavicular lymph node swelling. Bilateral malignant pleural effusion, and carcinomatous lymphangioma in the left lower lobe were detected. EML4-ALK fusion mRNA was detected by reverse transcription PCR analysis of the malignant effusion.",
+        "clinical_data": {
+          "imaging": [
+            {
+              "type": "Metastasis",
+              "body_part": "Lymph node",
+              "modality": "PET",
+              "finding": "Multiple lymph node metastases in the right supraclavicular region, bilateral lung hilus and mediastinum",
+              "date": "2012-10"
+            },
+            {
+              "type": "Pleural Effusion, Malignant",
+              "body_part": "Pleural cavity",
+              "modality": "PET",
+              "finding": "Bilateral malignant pleural effusion",
+              "date": "2012-10"
+            },
+            {
+              "type": "Carcinomatous lymphangioma",
+              "body_part": "Left lower lobe",
+              "modality": "PET",
+              "finding": "Carcinomatous lymphangioma in the left lower lobe",
+              "date": "2012-10"
+            }
+          ],
+          "labs": [
+            {
+              "test": "EML4-ALK fusion mRNA",
+              "value": "detected",
+              "unit": null,
+              "flag": "abnormal",
+              "timestamp": "2012-10"
+            }
+          ],
+          "diagnoses": [
+            {
+              "code": "C77.9",
+              "label": "Secondary and unspecified malignant neoplasm of lymph node, unspecified",
+              "status": "active",
+              "onset_date": "2012-10"
+            }
+          ]
+        }
+      }
+    },
+    {
+      "id": "N8",
+      "label": "Step 8",
+      "customData": {
+        "node_id": "H",
+        "node_step_index": 7,
+        "content": "November 2012: Patient was treated with crizotinib 250 mg orally twice per day.",
+        "clinical_data": {
+          "medications": [
+            {
+              "drug": "C0974247",
+              "dosage": "250 mg",
+              "frequency": "twice per day",
+              "modality": "oral",
+              "start_date": "2012-11",
+              "end_date": null
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "edges": [
+    {
+      "from": "N1",
+      "to": "N2",
+      "data": {
+        "edge_id": "A_to_B",
+        "branch_flag": true,
+        "content": "Initial imaging",
+        "transition_event": {
+          "trigger_type": "imaging",
+          "trigger_entities": [
+            "C0242398"
+          ],
+          "change_type": "addition",
+          "target_domain": "imaging"
+        }
+      }
+    },
+    {
+      "from": "N2",
+      "to": "N3",
+      "data": {
+        "edge_id": "B_to_C",
+        "branch_flag": true,
+        "content": "Surgical intervention: Right lower lobectomy with systematic lymph node dissection.",
+        "transition_event": {
+          "trigger_type": "procedure",
+          "trigger_entities": [
+            "C0024134"
+          ],
+          "change_type": "addition",
+          "target_domain": "procedure",
+          "timestamp": "2010-11"
+        }
+      }
+    },
+    {
+      "from": "N3",
+      "to": "N4",
+      "data": {
+        "edge_id": "C_to_D",
+        "branch_flag": true,
+        "content": "Postoperative pathology results.",
+        "transition_event": {
+          "trigger_type": "lab_change",
+          "trigger_entities": [
+            "C0242398"
+          ],
+          "change_type": "reinterpretation",
+          "target_domain": "diagnosis"
+        }
+      }
+    },
+    {
+      "from": "N4",
+      "to": "N5",
+      "data": {
+        "edge_id": "D_to_E",
+        "branch_flag": true,
+        "content": "Immune-histochemical analysis for ALK antibody.",
+        "transition_event": {
+          "trigger_type": "lab_change",
+          "trigger_entities": [],
+          "change_type": "addition",
+          "target_domain": "lab"
+        }
+      }
+    },
+    {
+      "from": "N5",
+      "to": "N6",
+      "data": {
+        "edge_id": "E_to_F",
+        "branch_flag": true,
+        "content": "Postoperative adjuvant chemotherapy with cisplatin and vinorelbine.",
+        "transition_event": {
+          "trigger_type": "medication_change",
+          "trigger_entities": [
+            "C0008868",
+            "C0042937"
+          ],
+          "change_type": "addition",
+          "target_domain": "medication",
+          "timestamp": "2011-03"
+        }
+      }
+    },
+    {
+      "from": "N6",
+      "to": "N7",
+      "data": {
+        "edge_id": "F_to_G",
+        "branch_flag": true,
+        "content": "Disease progression with multiple lymph node metastases, bilateral malignant pleural effusion, and carcinomatous lymphangioma. EML4-ALK fusion mRNA detected.",
+        "transition_event": {
+          "trigger_type": "progression",
+          "trigger_entities": [
+            "C0242398"
+          ],
+          "change_type": "progression",
+          "target_domain": "diagnosis",
+          "timestamp": "2012-10"
+        }
+      }
+    },
+    {
+      "from": "N7",
+      "to": "N8",
+      "data": {
+        "edge_id": "G_to_H",
+        "branch_flag": true,
+        "content": "Treatment with crizotinib initiated.",
+        "transition_event": {
+          "trigger_type": "medication_change",
+          "trigger_entities": [
+            "C0974247"
+          ],
+          "change_type": "addition",
+          "target_domain": "medication",
+          "timestamp": "2012-11"
+        }
+      }
+    }
+  ]
+}

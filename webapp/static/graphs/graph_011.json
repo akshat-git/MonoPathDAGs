@@ -1,0 +1,689 @@
+{
+  "nodes": [
+    {
+      "id": "N1",
+      "label": "Step 1",
+      "customData": {
+        "node_id": "A",
+        "node_step_index": 0,
+        "content": "65-year-old never-smoker woman with ECOG performance status of 0, history of well-controlled hypertension, presented with fatigue and unintentional weight loss of 3 kg.",
+        "clinical_data": {
+          "HPI": [
+            {
+              "summary": "Patient presented with fatigue and unintentional weight loss of 3 kg.",
+              "progression": "unknown",
+              "associated_symptoms": [
+                "Fatigue"
+              ]
+            }
+          ],
+          "social_history": [
+            {
+              "category": "smoking",
+              "status": "never"
+            }
+          ],
+          "diagnoses": [
+            {
+              "code": "R53.83",
+              "label": "Fatigue",
+              "status": "active"
+            },
+            {
+              "code": "R63.4",
+              "label": "Unintentional weight loss",
+              "status": "active"
+            },
+            {
+              "code": "I10",
+              "label": "Hypertension",
+              "status": "historical"
+            }
+          ],
+          "functional_status": [
+            {
+              "domain": "general",
+              "description": "ECOG performance status of 0",
+              "score": "0",
+              "scale": "ECOG"
+            }
+          ]
+        }
+      },
+      "custom_id": "graph_011_N0"
+    },
+    {
+      "id": "N2",
+      "label": "Step 2",
+      "customData": {
+        "node_id": "B",
+        "node_step_index": 1,
+        "content": "Thoracic CT scan revealed a 45 mm heterogeneous mass, a solitary 11 mm pre-carinal lymphadenopathy, ipsilateral pleural effusion, and multiple millimetric nodules consistent with bilateral metastases.",
+        "clinical_data": {
+          "imaging": [
+            {
+              "type": "CT scan",
+              "body_part": "Thorax",
+              "modality": "CT",
+              "finding": "45 mm heterogeneous mass",
+              "date": null
+            },
+            {
+              "type": "Lymphadenopathy",
+              "body_part": "Pre-carinal lymph node",
+              "modality": "CT",
+              "finding": "11 mm solitary lymphadenopathy",
+              "date": null
+            },
+            {
+              "type": "Pleural effusion",
+              "body_part": "Pleura",
+              "modality": "CT",
+              "finding": "Ipsilateral pleural effusion",
+              "date": null
+            },
+            {
+              "type": "Metastasis",
+              "body_part": "Lung",
+              "modality": "CT",
+              "finding": "Multiple millimetric nodules consistent with bilateral metastases",
+              "date": null
+            }
+          ]
+        }
+      },
+      "custom_id": "graph_011_N1"
+    },
+    {
+      "id": "N3",
+      "label": "Step 3",
+      "customData": {
+        "node_id": "C",
+        "node_step_index": 2,
+        "content": "Biopsy confirmed stage IVa (cT4N2M1a, TNM 8th edition) lung adenocarcinoma with acinar and micropapillary patterns. Molecular testing negative for EGFR, ALK, and ROS1 alterations.",
+        "clinical_data": {
+          "diagnoses": [
+            {
+              "code": "C34",
+              "label": "Lung cancer",
+              "status": "active",
+              "onset_date": null
+            },
+            {
+              "code": "C4021881",
+              "label": "Stage IV Lung Adenocarcinoma",
+              "status": "active",
+              "onset_date": null
+            }
+          ],
+          "imaging": [
+            {
+              "type": "417980005",
+              "body_part": "T-staging",
+              "modality": "CT",
+              "finding": "cT4",
+              "impression": "Tumor size and extent",
+              "date": null
+            },
+            {
+              "type": "417980005",
+              "body_part": "N-staging",
+              "modality": "CT",
+              "finding": "N2",
+              "impression": "Regional lymph node involvement",
+              "date": null
+            },
+            {
+              "type": "417980005",
+              "body_part": "M-staging",
+              "modality": "CT",
+              "finding": "M1a",
+              "impression": "Metastasis",
+              "date": null
+            }
+          ],
+          "labs": [
+            {
+              "test": "EGFR mutation analysis",
+              "value": "negative",
+              "unit": null,
+              "flag": "normal",
+              "reference_range": null,
+              "timestamp": null
+            },
+            {
+              "test": "ALK mutation analysis",
+              "value": "negative",
+              "unit": null,
+              "flag": "normal",
+              "reference_range": null,
+              "timestamp": null
+            },
+            {
+              "test": "ROS1 mutation analysis",
+              "value": "negative",
+              "unit": null,
+              "flag": "normal",
+              "reference_range": null,
+              "timestamp": null
+            }
+          ],
+          "procedures": [
+            {
+              "name": "Biopsy",
+              "approach": "other",
+              "date": null,
+              "location": "Lung",
+              "performed_by": null,
+              "outcome": "Confirmed stage IVa lung adenocarcinoma"
+            }
+          ]
+        }
+      },
+      "custom_id": "graph_011_N2"
+    },
+    {
+      "id": "N4",
+      "label": "Step 4",
+      "customData": {
+        "node_id": "D",
+        "node_step_index": 3,
+        "content": "Initiated on first-line systemic therapy with a platinum-based doublet, completing six cycles with a partial tumor response according to RECIST criteria.",
+        "clinical_data": {
+          "procedures": [
+            {
+              "name": "Systemic therapy",
+              "outcome": "Partial tumor response"
+            }
+          ]
+        }
+      },
+      "custom_id": "graph_011_N3"
+    },
+    {
+      "id": "N5",
+      "label": "Step 5",
+      "customData": {
+        "node_id": "E",
+        "node_step_index": 4,
+        "content": "Maintenance therapy with pemetrexed, with sustained stability.",
+        "clinical_data": {
+          "medications": [
+            {
+              "drug": "C0972873",
+              "dosage": null,
+              "frequency": null,
+              "modality": null,
+              "start_date": null,
+              "end_date": null,
+              "indication": null
+            }
+          ]
+        }
+      },
+      "custom_id": "graph_011_N4"
+    },
+    {
+      "id": "N6",
+      "label": "Step 6",
+      "customData": {
+        "node_id": "F",
+        "node_step_index": 5,
+        "content": "After six cycles of first-line therapy, a partial tumor response was observed, characterized by a significant reduction in the primary tumor size and near-complete regression of bilateral micronodules.",
+        "clinical_data": {
+          "diagnoses": [
+            {
+              "code": "C0205405",
+              "label": "Partial Response",
+              "status": "active"
+            }
+          ]
+        }
+      },
+      "custom_id": "graph_011_N5"
+    },
+    {
+      "id": "N7",
+      "label": "Step 7",
+      "customData": {
+        "node_id": "G",
+        "node_step_index": 6,
+        "content": "November 2020: Disease progression identified with a new growing 11 mm nodule. 21% increase in the sum of the longest diameter of target lesions.",
+        "clinical_data": {
+          "imaging": [
+            {
+              "type": "Lung nodule",
+              "body_part": "Lung",
+              "modality": "CT",
+              "finding": "New growing 11 mm nodule",
+              "date": "2020-11"
+            }
+          ],
+          "diagnoses": [
+            {
+              "code": "http://www.snomed.org/id/61420006",
+              "label": "Disease progression",
+              "status": "active",
+              "onset_date": "2020-11"
+            }
+          ]
+        }
+      },
+      "custom_id": "graph_011_N6"
+    },
+    {
+      "id": "N8",
+      "label": "Step 8",
+      "customData": {
+        "node_id": "H",
+        "node_step_index": 7,
+        "content": "Re-biopsy of paravertebral nodule: adenocarcinoma, PD-L1 expression of 5%. Next-generation sequencing (NGS) revealed a RET gene fusion.",
+        "clinical_data": {
+          "diagnoses": [
+            {
+              "code": "C80.1",
+              "label": "Malignant (primary) neoplasm, unspecified, so stated",
+              "status": "active"
+            }
+          ],
+          "labs": [
+            {
+              "test": "PD-L1 expression",
+              "value": "5%",
+              "unit": "%"
+            }
+          ],
+          "imaging": [
+            {
+              "type": "nodule",
+              "body_part": "paravertebral area",
+              "modality": "biopsy",
+              "finding": "adenocarcinoma"
+            }
+          ],
+          "procedures": [
+            {
+              "name": "Next-generation sequencing",
+              "outcome": "RET gene fusion"
+            }
+          ]
+        }
+      },
+      "custom_id": "graph_011_N7"
+    },
+    {
+      "id": "N9",
+      "label": "Step 9",
+      "customData": {
+        "node_id": "I",
+        "node_step_index": 8,
+        "content": "Cabozantinib initiated as second-line off-label therapy, but discontinued after one month due to significant adverse effects including severe asthenia, nausea, and thrombocytopenia.",
+        "clinical_data": {
+          "medications": [
+            {
+              "drug": "C0887520",
+              "dosage": null,
+              "frequency": null,
+              "modality": null,
+              "start_date": null,
+              "end_date": null,
+              "indication": null
+            }
+          ],
+          "allergies": [],
+          "diagnoses": [],
+          "labs": [
+            {
+              "test": "C0040034",
+              "value": null,
+              "unit": null,
+              "flag": "abnormal",
+              "reference_range": null,
+              "timestamp": null
+            }
+          ],
+          "HPI": [
+            {
+              "summary": "Significant adverse effects including severe asthenia, nausea, and thrombocytopenia.",
+              "duration": "one month",
+              "onset": null,
+              "progression": null,
+              "associated_symptoms": [
+                "C0004093",
+                "C0027497"
+              ],
+              "alleviating_factors": [],
+              "exacerbating_factors": []
+            }
+          ]
+        }
+      },
+      "custom_id": "graph_011_N8"
+    },
+    {
+      "id": "N10",
+      "label": "Step 10",
+      "customData": {
+        "node_id": "J",
+        "node_step_index": 9,
+        "content": "Pembrolizumab initiated as third-line therapy, with stable disease for 10 months.",
+        "clinical_data": {
+          "medications": [
+            {
+              "drug": "C1876484",
+              "dosage": null,
+              "frequency": null,
+              "modality": null,
+              "start_date": null,
+              "end_date": null,
+              "indication": null
+            }
+          ]
+        }
+      },
+      "custom_id": "graph_011_N9"
+    },
+    {
+      "id": "N11",
+      "label": "Step 11",
+      "customData": {
+        "node_id": "L",
+        "node_step_index": 11,
+        "content": "Progressive neurological symptoms developed: bilateral hypoacusis, headache, and dizziness.",
+        "clinical_data": {
+          "HPI": [
+            {
+              "summary": "Progressive neurological symptoms developed",
+              "progression": "gradual",
+              "associated_symptoms": [
+                "Hearing loss, bilateral",
+                "Headache",
+                "Dizziness"
+              ]
+            }
+          ]
+        }
+      },
+      "custom_id": "graph_011_N10"
+    },
+    {
+      "id": "N12",
+      "label": "Step 12",
+      "customData": {
+        "node_id": "M",
+        "node_step_index": 12,
+        "content": "Cranial MRI revealed multiple expansive lesions in both cerebral and cerebellar hemispheres, as well as bilateral internal auditory canal (IAC) involvement, with gadolinium enhancement.",
+        "clinical_data": {
+          "imaging": [
+            {
+              "type": "Lesion (T0023404)",
+              "body_part": "Cranium (T0297372)",
+              "modality": "MRI",
+              "finding": "Multiple expansive lesions in both cerebral and cerebellar hemispheres, as well as bilateral internal auditory canal (IAC) involvement, with gadolinium enhancement.",
+              "date": null
+            }
+          ]
+        }
+      },
+      "custom_id": "graph_011_N11"
+    },
+    {
+      "id": "N13",
+      "label": "Step 13",
+      "customData": {
+        "node_id": "N",
+        "node_step_index": 13,
+        "content": "December 2021: Selpercatinib (160 mg twice daily) initiated as fourth-line treatment.",
+        "clinical_data": {
+          "medications": [
+            {
+              "drug": "Selpercatinib",
+              "dosage": "160 mg",
+              "frequency": "twice daily",
+              "modality": "oral",
+              "start_date": "2021-12",
+              "end_date": null,
+              "indication": "fourth-line treatment"
+            }
+          ]
+        }
+      },
+      "custom_id": "graph_011_N12"
+    },
+    {
+      "id": "N14",
+      "label": "Step 14",
+      "customData": {
+        "node_id": "O",
+        "node_step_index": 14,
+        "content": "One week after selpercatinib initiation: Significant symptomatic improvement, including complete hearing recovery and a substantial reduction of dizziness and headache complaints.",
+        "clinical_data": {
+          "medications": [
+            {
+              "drug": "C4727218",
+              "start_date": null
+            }
+          ],
+          "HPI": [
+            {
+              "summary": "Significant symptomatic improvement, including complete hearing recovery and a substantial reduction of dizziness and headache complaints.",
+              "duration": "1 week",
+              "onset": null,
+              "progression": "improving",
+              "associated_symptoms": [
+                "C0018772",
+                "C0012634",
+                "C0019422"
+              ],
+              "alleviating_factors": [
+                "C4727218"
+              ],
+              "exacerbating_factors": []
+            }
+          ]
+        }
+      },
+      "custom_id": "graph_011_N13"
+    },
+    {
+      "id": "N15",
+      "label": "Step 15",
+      "customData": {
+        "node_id": "P",
+        "node_step_index": 15,
+        "content": "Three-month thoracic assessment: Radiological evaluation demonstrated a reduction in the previously detected pulmonary nodule and stability of the paravertebral lesion.",
+        "clinical_data": {
+          "imaging": [
+            {
+              "type": "Pulmonary nodule",
+              "body_part": "Lung",
+              "modality": "Radiological evaluation",
+              "finding": "reduction",
+              "date": null
+            },
+            {
+              "type": "Paravertebral lesion",
+              "body_part": "Paravertebral region",
+              "modality": "Radiological evaluation",
+              "finding": "stability",
+              "date": null
+            }
+          ]
+        }
+      },
+      "custom_id": "graph_011_N14"
+    },
+    {
+      "id": "N16",
+      "label": "Step 16",
+      "customData": {
+        "node_id": "Q",
+        "clinical_data": {}
+      },
+      "custom_id": "graph_011_N15"
+    }
+  ],
+  "edges": [
+    {
+      "from": "N1",
+      "to": "N2",
+      "data": {
+        "edge_id": "A_to_B",
+        "branch_flag": true,
+        "content": "Transition from initial presentation to CT scan findings.",
+        "transition_event": {
+          "trigger_type": "imaging",
+          "trigger_entities": [],
+          "change_type": "addition",
+          "target_domain": "imaging"
+        }
+      },
+      "custom_id": "graph_011_N1_N2"
+    },
+    {
+      "from": "N2",
+      "to": "N3",
+      "data": {
+        "edge_id": "B_to_C",
+        "branch_flag": true,
+        "content": "Transition from CT scan findings to biopsy confirmation and molecular testing results.",
+        "transition_event": {
+          "trigger_type": "procedure",
+          "trigger_entities": [],
+          "change_type": "addition",
+          "target_domain": "diagnosis"
+        }
+      },
+      "custom_id": "graph_011_N2_N3"
+    },
+    {
+      "from": "N3",
+      "to": "N4",
+      "data": {
+        "edge_id": "C_to_D",
+        "branch_flag": true,
+        "content": "Transition from diagnosis to initiation of first-line systemic therapy.",
+        "transition_event": {
+          "trigger_type": "medication_change",
+          "trigger_entities": [],
+          "change_type": "addition",
+          "target_domain": "medication"
+        }
+      },
+      "custom_id": "graph_011_N3_N4"
+    },
+    {
+      "from": "N4",
+      "to": "N5",
+      "data": {
+        "edge_id": "D_to_E",
+        "branch_flag": true,
+        "content": "Transition from completion of first-line therapy to maintenance therapy with pemetrexed.",
+        "transition_event": {
+          "trigger_type": "medication_change",
+          "trigger_entities": [
+            "C0972873"
+          ],
+          "change_type": "addition",
+          "target_domain": "medication"
+        }
+      },
+      "custom_id": "graph_011_N4_N5"
+    },
+    {
+      "from": "N5",
+      "to": "N6",
+      "data": {
+        "edge_id": "E_to_F",
+        "branch_flag": true,
+        "content": "Transition from maintenance therapy to observation of partial tumor response.",
+        "transition_event": {
+          "trigger_type": "interpretation",
+          "trigger_entities": [],
+          "change_type": "reinterpretation",
+          "target_domain": "imaging"
+        }
+      },
+      "custom_id": "graph_011_N5_N6"
+    },
+    {
+      "from": "N6",
+      "to": "N7",
+      "data": {
+        "edge_id": "F_to_G",
+        "branch_flag": true,
+        "content": "Transition from partial response to disease progression.",
+        "transition_event": {
+          "trigger_type": "imaging",
+          "trigger_entities": [],
+          "change_type": "progression",
+          "target_domain": "diagnosis",
+          "timestamp": "2020-11"
+        }
+      },
+      "custom_id": "graph_011_N6_N7"
+    },
+    {
+      "from": "N7",
+      "to": "N8",
+      "data": {
+        "edge_id": "G_to_H",
+        "branch_flag": true,
+        "content": "Transition from disease progression to re-biopsy and NGS revealing RET gene fusion.",
+        "transition_event": {
+          "trigger_type": "procedure",
+          "trigger_entities": [],
+          "change_type": "addition",
+          "target_domain": "diagnosis"
+        }
+      },
+      "custom_id": "graph_011_N7_N8"
+    },
+    {
+      "from": "N8",
+      "to": "N9",
+      "data": {
+        "edge_id": "H_to_I",
+        "branch_flag": true,
+        "content": "Transition from RET fusion identification to initiation and discontinuation of cabozantinib due to adverse effects.",
+        "transition_event": {
+          "trigger_type": "medication_change",
+          "trigger_entities": [
+            "C0887520"
+          ],
+          "change_type": "addition",
+          "target_domain": "medication"
+        }
+      },
+      "custom_id": "graph_011_N8_N9"
+    },
+    {
+      "from": "N9",
+      "to": "N10",
+      "data": {
+        "edge_id": "I_to_J",
+        "branch_flag": true,
+        "content": "Transition from cabozantinib discontinuation to initiation of pembrolizumab.",
+        "transition_event": {
+          "trigger_type": "medication_change",
+          "trigger_entities": [
+            "C1876484"
+          ],
+          "change_type": "addition",
+          "target_domain": "medication"
+        }
+      },
+      "custom_id": "graph_011_N9_N10"
+    },
+    {
+      "from": "N10",
+      "to": "N11",
+      "data": {
+        "edge_id": "J_to_L",
+        "branch_flag": true,
+        "content": "Transition from stable disease"
+      },
+      "custom_id": "graph_011_N10_N11"
+    }
+  ]
+}

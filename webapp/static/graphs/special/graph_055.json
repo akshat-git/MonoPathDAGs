@@ -1,0 +1,478 @@
+{
+  "nodes": [
+    {
+      "id": "N1",
+      "label": "Step 1",
+      "customData": {
+        "node_id": "A",
+        "node_step_index": 0,
+        "content": "65-year-old Chinese male with a history of smoking and alcohol consumption presented on October 20, 2023, with a lung mass discovered over a month prior.",
+        "clinical_data": {
+          "social_history": [
+            {
+              "category": "smoking",
+              "status": "current",
+              "description": "history of smoking"
+            },
+            {
+              "category": "alcohol",
+              "status": "current",
+              "description": "history of alcohol consumption"
+            }
+          ],
+          "diagnoses": [
+            {
+              "code": "C0441489",
+              "label": "Lung mass",
+              "status": "active",
+              "onset_date": null
+            }
+          ],
+          "HPI": [
+            {
+              "summary": "Lung mass discovered over a month prior",
+              "duration": "P1M",
+              "onset": null,
+              "progression": "unknown"
+            }
+          ]
+        }
+      },
+      "custom_id": "graph_055_N0"
+    },
+    {
+      "id": "N2",
+      "label": "Step 2",
+      "customData": {
+        "node_id": "B",
+        "node_step_index": 1,
+        "content": "Imaging studies revealed a mass in the left upper lobe bronchus, left hilar lymphadenopathy, and multiple small nodules in both lungs.",
+        "clinical_data": {
+          "imaging": [
+            {
+              "type": "Mass",
+              "body_part": "Left upper lobe bronchus",
+              "modality": "imaging studies",
+              "finding": "Mass in the left upper lobe bronchus",
+              "date": null
+            },
+            {
+              "type": "Lymphadenopathy",
+              "body_part": "Left hilar",
+              "modality": "imaging studies",
+              "finding": "left hilar lymphadenopathy",
+              "date": null
+            },
+            {
+              "type": "Nodule",
+              "body_part": "Lungs",
+              "modality": "imaging studies",
+              "finding": "multiple small nodules in both lungs",
+              "date": null
+            }
+          ]
+        }
+      },
+      "custom_id": "graph_055_N1"
+    },
+    {
+      "id": "N3",
+      "label": "Step 3",
+      "customData": {
+        "node_id": "C",
+        "node_step_index": 2,
+        "content": "PET\u2010CT scan indicated a hypermetabolic lesion in the left upper lung hilum, suggestive of central lung cancer.",
+        "clinical_data": {
+          "imaging": [
+            {
+              "type": "Positron emission tomography",
+              "body_part": "Lung",
+              "modality": "PET",
+              "finding": "hypermetabolic lesion in the left upper lung hilum",
+              "impression": "suggestive of central lung cancer"
+            },
+            {
+              "type": "Computed tomography",
+              "body_part": "Lung",
+              "modality": "CT",
+              "finding": "hypermetabolic lesion in the left upper lung hilum",
+              "impression": "suggestive of central lung cancer"
+            }
+          ],
+          "diagnoses": [
+            {
+              "code": "C0242394",
+              "label": "Lung Cancer",
+              "status": "suspected"
+            }
+          ]
+        }
+      },
+      "custom_id": "graph_055_N2"
+    },
+    {
+      "id": "N4",
+      "label": "Step 4",
+      "customData": {
+        "node_id": "D",
+        "node_step_index": 3,
+        "content": "Tumor markers showed elevated ferritin and keratin fragments. Bronchoscopic biopsy confirmed moderately differentiated squamous cell carcinoma.",
+        "clinical_data": {
+          "labs": [
+            {
+              "test": "Ferritin",
+              "value": "elevated",
+              "unit": null,
+              "flag": "abnormal",
+              "reference_range": null,
+              "timestamp": null
+            },
+            {
+              "test": "Keratin Fragments",
+              "value": "elevated",
+              "unit": null,
+              "flag": "abnormal",
+              "reference_range": null,
+              "timestamp": null
+            }
+          ],
+          "procedures": [
+            {
+              "name": "Bronchoscopic biopsy",
+              "approach": "endoscopic",
+              "date": null,
+              "location": "bronchus",
+              "performed_by": null,
+              "outcome": null
+            }
+          ],
+          "diagnoses": [
+            {
+              "code": null,
+              "label": "moderately differentiated squamous cell carcinoma",
+              "status": "active",
+              "onset_date": null
+            }
+          ]
+        }
+      },
+      "custom_id": "graph_055_N3"
+    },
+    {
+      "id": "N5",
+      "label": "Step 5",
+      "customData": {
+        "node_id": "E",
+        "node_step_index": 4,
+        "content": "From November 2023 to January 2024, the patient was hospitalized several times for neoadjuvant chemotherapy and immunochemotherapy with teriprizumab, liposomal paclitaxel, and cisplatin. On day 38 of neoadjuvant therapy, the patient developed immune\u2010related nephritis and anemia.",
+        "clinical_data": {
+          "medications": [
+            {
+              "drug": "C0008577",
+              "dosage": null,
+              "frequency": null,
+              "modality": null,
+              "start_date": "2023-11",
+              "end_date": "2024-01",
+              "indication": "C0007102"
+            },
+            {
+              "drug": "C5203808",
+              "dosage": null,
+              "frequency": null,
+              "modality": null,
+              "start_date": "2023-11",
+              "end_date": "2024-01",
+              "indication": "C0007102"
+            },
+            {
+              "drug": "C0030372",
+              "dosage": null,
+              "frequency": null,
+              "modality": null,
+              "start_date": "2023-11",
+              "end_date": "2024-01",
+              "indication": "C0007102"
+            },
+            {
+              "drug": "teriprizumab",
+              "dosage": null,
+              "frequency": null,
+              "modality": null,
+              "start_date": "2023-11",
+              "end_date": "2024-01",
+              "indication": "C0007102"
+            }
+          ],
+          "diagnoses": [
+            {
+              "code": "C0027700",
+              "label": "Nephritis",
+              "status": "active",
+              "onset_date": null
+            },
+            {
+              "code": "C0002871",
+              "label": "Anemia",
+              "status": "active",
+              "onset_date": null
+            }
+          ]
+        }
+      },
+      "custom_id": "graph_055_N4"
+    },
+    {
+      "id": "N6",
+      "label": "Step 6",
+      "customData": {
+        "node_id": "F",
+        "node_step_index": 5,
+        "content": "On January 20, 2024, the patient underwent a left upper lobectomy, pulmonary artery plasty, and mediastinal lymph node dissection under general anesthesia.",
+        "clinical_data": {
+          "procedures": [
+            {
+              "name": "Lobectomy, Upper Lobe, Left Lung",
+              "approach": "open",
+              "date": "2024-01-20",
+              "location": "Left Lung",
+              "performed_by": "unknown",
+              "outcome": "unknown"
+            },
+            {
+              "name": "Pulmonary Artery Plasty",
+              "approach": "open",
+              "date": "2024-01-20",
+              "location": "Pulmonary Artery",
+              "performed_by": "unknown",
+              "outcome": "unknown"
+            },
+            {
+              "name": "Lymph Node Dissection",
+              "approach": "open",
+              "date": "2024-01-20",
+              "location": "Mediastinum",
+              "performed_by": "unknown",
+              "outcome": "unknown"
+            }
+          ]
+        }
+      },
+      "custom_id": "graph_055_N5"
+    },
+    {
+      "id": "N7",
+      "label": "Step 7",
+      "customData": {
+        "node_id": "G",
+        "node_step_index": 6,
+        "content": "Postoperative pathology confirmed moderately differentiated squamous cell carcinoma, with tumor invasion into the adventitia of the pulmonary artery and metastasis to lymph nodes in the 12th group.",
+        "clinical_data": {
+          "diagnoses": [
+            {
+              "code": "C0007102",
+              "label": "Squamous Cell Carcinoma",
+              "status": "active"
+            },
+            {
+              "code": "C0242392",
+              "label": "Metastasis to lymph nodes",
+              "status": "active"
+            }
+          ],
+          "imaging": [
+            {
+              "body_part": "T-D005244",
+              "finding": "tumor invasion into the adventitia of the pulmonary artery",
+              "impression": "moderately differentiated squamous cell carcinoma"
+            }
+          ]
+        }
+      },
+      "custom_id": "graph_055_N6"
+    },
+    {
+      "id": "N8",
+      "label": "Step 8",
+      "customData": {
+        "node_id": "H",
+        "node_step_index": 7,
+        "content": "From February to May 2024, the patient was hospitalized multiple times for ongoing immunochemotherapy (including teriprizumab, liposomal paclitaxel, and cisplatin) and symptomatic treatment, including anti\u2010inflammatory therapy, liver protection, and correction of anemia. The patient has been followed up for",
+        "clinical_data": {
+          "medications": [
+            {
+              "drug": "C0070589",
+              "dosage": null,
+              "frequency": null,
+              "modality": null,
+              "start_date": "2024-02",
+              "end_date": "2024-05",
+              "indication": null
+            },
+            {
+              "drug": "C4049394",
+              "dosage": null,
+              "frequency": null,
+              "modality": null,
+              "start_date": "2024-02",
+              "end_date": "2024-05",
+              "indication": null
+            },
+            {
+              "drug": "C0008864",
+              "dosage": null,
+              "frequency": null,
+              "modality": null,
+              "start_date": "2024-02",
+              "end_date": "2024-05",
+              "indication": null
+            },
+            {
+              "drug": "C0010200",
+              "dosage": null,
+              "frequency": null,
+              "modality": null,
+              "start_date": "2024-02",
+              "end_date": "2024-05",
+              "indication": null
+            }
+          ],
+          "procedures": [
+            {
+              "name": "C0019973",
+              "approach": null,
+              "date": "2024-02/2024-05",
+              "location": null,
+              "performed_by": null,
+              "outcome": null
+            }
+          ]
+        }
+      },
+      "custom_id": "graph_055_N7"
+    }
+  ],
+  "edges": [
+    {
+      "from": "N1",
+      "to": "N2",
+      "data": {
+        "edge_id": "A_to_B",
+        "branch_flag": true,
+        "content": "Initial presentation with lung mass leads to further imaging.",
+        "transition_event": {
+          "trigger_type": "symptom_onset",
+          "trigger_entities": [
+            "C0441489"
+          ],
+          "change_type": "progression",
+          "target_domain": "imaging"
+        }
+      },
+      "custom_id": "graph_055_N1_N2"
+    },
+    {
+      "from": "N2",
+      "to": "N3",
+      "data": {
+        "edge_id": "B_to_C",
+        "branch_flag": true,
+        "content": "Imaging findings prompt PET-CT scan for further evaluation.",
+        "transition_event": {
+          "trigger_type": "imaging",
+          "trigger_entities": [],
+          "change_type": "progression",
+          "target_domain": "imaging"
+        }
+      },
+      "custom_id": "graph_055_N2_N3"
+    },
+    {
+      "from": "N3",
+      "to": "N4",
+      "data": {
+        "edge_id": "C_to_D",
+        "branch_flag": true,
+        "content": "PET-CT findings lead to tumor marker tests and bronchoscopic biopsy for diagnosis.",
+        "transition_event": {
+          "trigger_type": "interpretation",
+          "trigger_entities": [
+            "C0242394"
+          ],
+          "change_type": "progression",
+          "target_domain": "diagnosis"
+        }
+      },
+      "custom_id": "graph_055_N3_N4"
+    },
+    {
+      "from": "N4",
+      "to": "N5",
+      "data": {
+        "edge_id": "D_to_E",
+        "branch_flag": true,
+        "content": "Diagnosis of squamous cell carcinoma leads to neoadjuvant chemotherapy and immunochemotherapy.",
+        "transition_event": {
+          "trigger_type": "diagnosis",
+          "trigger_entities": [],
+          "change_type": "addition",
+          "target_domain": "medication"
+        }
+      },
+      "custom_id": "graph_055_N4_N5"
+    },
+    {
+      "from": "N5",
+      "to": "N6",
+      "data": {
+        "edge_id": "E_to_F",
+        "branch_flag": true,
+        "content": "Neoadjuvant therapy followed by surgical resection.",
+        "transition_event": {
+          "trigger_type": "medication_change",
+          "trigger_entities": [
+            "C0008577",
+            "C5203808",
+            "C0030372",
+            "teriprizumab"
+          ],
+          "change_type": "other",
+          "target_domain": "procedure"
+        }
+      },
+      "custom_id": "graph_055_N5_N6"
+    },
+    {
+      "from": "N6",
+      "to": "N7",
+      "data": {
+        "edge_id": "F_to_G",
+        "branch_flag": true,
+        "content": "Surgical resection followed by postoperative pathology.",
+        "transition_event": {
+          "trigger_type": "procedure",
+          "trigger_entities": [],
+          "change_type": "reinterpretation",
+          "target_domain": "diagnosis"
+        }
+      },
+      "custom_id": "graph_055_N6_N7"
+    },
+    {
+      "from": "N7",
+      "to": "N8",
+      "data": {
+        "edge_id": "G_to_H",
+        "branch_flag": true,
+        "content": "Postoperative pathology results in ongoing immunochemotherapy and symptomatic treatment.",
+        "transition_event": {
+          "trigger_type": "interpretation",
+          "trigger_entities": [],
+          "change_type": "addition",
+          "target_domain": "medication"
+        }
+      },
+      "custom_id": "graph_055_N7_N8"
+    }
+  ]
+}

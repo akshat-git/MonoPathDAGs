@@ -1,0 +1,262 @@
+{
+  "nodes": [
+    {
+      "id": "N1",
+      "label": "Step 1",
+      "customData": {
+        "node_id": "A",
+        "node_step_index": 0,
+        "content": "53-year-old man with a medical history of obstructive sleep apnea, pulmonary nodule, and HIV infection presented with PET-positive left hilar mass and left upper lobe (LUL) nodule.",
+        "clinical_data": {
+          "diagnoses": [
+            {
+              "code": "C0007272",
+              "label": "Obstructive Sleep Apnea",
+              "status": "historical"
+            },
+            {
+              "code": "C0345834",
+              "label": "Pulmonary Nodule",
+              "status": "historical"
+            },
+            {
+              "code": "C0019404",
+              "label": "HIV infection",
+              "status": "historical"
+            },
+            {
+              "code": "C4086947",
+              "label": "PET-positive left hilar mass",
+              "status": "active"
+            },
+            {
+              "code": "C4086948",
+              "label": "left upper lobe (LUL) nodule",
+              "status": "active"
+            }
+          ]
+        }
+      }
+    },
+    {
+      "id": "N2",
+      "label": "Step 2",
+      "customData": {
+        "node_id": "B",
+        "node_step_index": 1,
+        "content": "Patient underwent bronchoscopy with bronchoalveolar lavage (BAL) of the LUL. The bronchoscope was introduced through an iGEL and wedged into the LUL bronchus. BAL was performed, and the fluid was sent for cultures, cytology, and antigen testing.",
+        "clinical_data": {
+          "procedures": [
+            {
+              "name": "Bronchoscopy",
+              "approach": "endoscopic",
+              "date": null,
+              "location": "LUL bronchus",
+              "performed_by": null,
+              "outcome": null
+            },
+            {
+              "name": "Bronchoalveolar Lavage",
+              "approach": "endoscopic",
+              "date": null,
+              "location": "LUL",
+              "performed_by": null,
+              "outcome": null
+            }
+          ],
+          "labs": [
+            {
+              "test": "cultures",
+              "value": null,
+              "unit": null,
+              "flag": null,
+              "reference_range": null,
+              "timestamp": null
+            },
+            {
+              "test": "cytology",
+              "value": null,
+              "unit": null,
+              "flag": null,
+              "reference_range": null,
+              "timestamp": null
+            },
+            {
+              "test": "antigen testing",
+              "value": null,
+              "unit": null,
+              "flag": null,
+              "reference_range": null,
+              "timestamp": null
+            }
+          ]
+        }
+      }
+    },
+    {
+      "id": "N3",
+      "label": "Step 3",
+      "customData": {
+        "node_id": "C",
+        "node_step_index": 2,
+        "content": "EBUS-TBNA was performed on the station 11L lymph node using a 22-gauge Vizishot 2 needle. Six transbronchial biopsy (TBBX) samples were obtained from the same lymph node under ultrasound guidance using 1.8 mm forceps. Lymph node TBNA revealed granulomatous inflammation. Lymph node biopsy using transbronchial forceps revealed nodular lymphocyte-predominant Hodgkin's lymphoma of intrathoracic lymph nodes, indicating HIV-associated Hodgkin's lymphoma.",
+        "clinical_data": {
+          "procedures": [
+            {
+              "name": "Endobronchial ultrasound-guided transbronchial needle aspiration",
+              "approach": "endoscopic",
+              "date": null,
+              "location": "11L lymph node",
+              "performed_by": null,
+              "outcome": null
+            },
+            {
+              "name": "Transbronchial biopsy",
+              "approach": "endoscopic",
+              "date": null,
+              "location": "lymph node",
+              "performed_by": null,
+              "outcome": null
+            }
+          ],
+          "labs": [
+            {
+              "test": "lymph node TBNA",
+              "value": "granulomatous inflammation",
+              "unit": null,
+              "flag": null,
+              "reference_range": null,
+              "timestamp": null
+            }
+          ],
+          "diagnoses": [
+            {
+              "code": null,
+              "label": "nodular lymphocyte-predominant Hodgkin's lymphoma of intrathoracic lymph nodes",
+              "status": "active",
+              "onset_date": null
+            },
+            {
+              "code": null,
+              "label": "HIV-associated Hodgkin's lymphoma",
+              "status": "active",
+              "onset_date": null
+            }
+          ]
+        }
+      }
+    },
+    {
+      "id": "N4",
+      "label": "Step 4",
+      "customData": {
+        "node_id": "D",
+        "node_step_index": 3,
+        "content": "CT imaging revealed a left hilar mass and a left upper lobe (LUL) nodule. CT imaging of the left upper lobe showed a nodule. Histopathological examination of tissue samples revealed cells with weak staining for PAX5, suggesting decreased expression of B-cell markers. Immunohistochemistry showed CD30-positive cells with light brown staining. Hodgkin cells and eosinophils were present. Epstein-Barr encoding region (EBER) hybridization was performed, targeting Epstein-Barr virus (EBV) RNA detection. Tissue sample analysis revealed distinct brown staining, indicating the presence of EBV RNA. Histopathological images demonstrated Hodgkin's lymphoma. Hodgkin cells showed weakly PAX5 staining. Immunohistochemistry showed CD30-positive cells.",
+        "clinical_data": {
+          "imaging": [
+            {
+              "type": "Mass",
+              "body_part": "Hilar region, left",
+              "modality": "CT",
+              "finding": "Mass",
+              "date": null
+            },
+            {
+              "type": "Nodule",
+              "body_part": "Left upper lobe",
+              "modality": "CT",
+              "finding": "Nodule",
+              "date": null
+            }
+          ],
+          "labs": [
+            {
+              "test": "PAX5 staining",
+              "value": "weak",
+              "unit": null,
+              "flag": "abnormal",
+              "reference_range": null,
+              "timestamp": null
+            },
+            {
+              "test": "CD30",
+              "value": "positive",
+              "unit": null,
+              "flag": "abnormal",
+              "reference_range": null,
+              "timestamp": null
+            },
+            {
+              "test": "Epstein-Barr encoding region (EBER) hybridization",
+              "value": "positive",
+              "unit": null,
+              "flag": "abnormal",
+              "reference_range": null,
+              "timestamp": null
+            }
+          ],
+          "diagnoses": [
+            {
+              "code": "C81",
+              "label": "Hodgkin's lymphoma",
+              "status": "active",
+              "onset_date": null
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "edges": [
+    {
+      "from": "N1",
+      "to": "N2",
+      "data": {
+        "edge_id": "A_to_B",
+        "branch_flag": true,
+        "content": "Patient underwent bronchoscopy with bronchoalveolar lavage (BAL) of the LUL to investigate the PET-positive left hilar mass and left upper lobe (LUL) nodule.",
+        "transition_event": {
+          "trigger_type": "procedure",
+          "trigger_entities": [
+            "C0006272"
+          ],
+          "change_type": "addition",
+          "target_domain": "procedure"
+        }
+      }
+    },
+    {
+      "from": "N2",
+      "to": "N3",
+      "data": {
+        "edge_id": "B_to_C",
+        "branch_flag": true,
+        "content": "EBUS-TBNA was performed on the station 11L lymph node. Six transbronchial biopsy (TBBX) samples were obtained from the same lymph node under ultrasound guidance using 1.8 mm forceps. Lymph node TBNA revealed granulomatous inflammation. Lymph node biopsy using transbronchial forceps revealed nodular lymphocyte-predominant Hodgkin's lymphoma of intrathoracic lymph nodes, indicating HIV-associated Hodgkin's lymphoma.",
+        "transition_event": {
+          "trigger_type": "procedure",
+          "trigger_entities": [
+            "C0006272"
+          ],
+          "change_type": "addition",
+          "target_domain": "procedure"
+        }
+      }
+    },
+    {
+      "from": "N3",
+      "to": "N4",
+      "data": {
+        "edge_id": "C_to_D",
+        "branch_flag": true,
+        "content": "CT imaging revealed a left hilar mass and a left upper lobe (LUL) nodule. CT imaging of the left upper lobe showed a nodule. Histopathological examination of tissue samples revealed cells with weak staining for PAX5, suggesting decreased expression of B-cell markers. Immunohistochemistry showed CD30-positive cells with light brown staining. Hodgkin cells and eosinophils were present. Epstein-Barr encoding region (EBER) hybridization was performed, targeting Epstein-Barr virus (EBV) RNA detection. Tissue sample analysis revealed distinct brown staining, indicating the presence of EBV RNA. Histopathological images demonstrated Hodgkin's lymphoma. Hodgkin cells showed weakly PAX5 staining. Immunohistochemistry showed CD30-positive cells.",
+        "transition_event": {
+          "trigger_type": "lab_change",
+          "trigger_entities": [],
+          "change_type": "other",
+          "target_domain": "lab"
+        }
+      }
+    }
+  ]
+}

@@ -1,0 +1,286 @@
+{
+  "nodes": [
+    {
+      "id": "N1",
+      "label": "Step 1",
+      "customData": {
+        "node_id": "A",
+        "node_step_index": 0,
+        "content": "67-year-old man (February 2022) with ECOG PS 1 and 40 pack-year smoking history presented with chest tightness. Physical examination showed left supraclavicular lymphadenopathy, about 1 cm in size. Chest CT revealed a 2 cm mass in the posterior basal segment of the left lower lobe, with multiple burrs on the edge and enhancement. Mediastinal lymph nodes were enlarged and fused, surrounding the left main bronchus. Abdominal enhanced CT showed enlargement of the left adrenal gland, considered to be a metastatic lesion. Emission computed tomograph (ECT) whole-body bone imaging and brain enhanced MRI showed no obvious abnormalities. Immunohistochemical (IHC) markers were CK-pan and P40 positive.",
+        "clinical_data": {
+          "social_history": [
+            {
+              "category": "smoking",
+              "status": "past",
+              "description": "40 pack-year smoking history"
+            }
+          ],
+          "HPI": [
+            {
+              "summary": "chest tightness",
+              "onset": "February 2022"
+            }
+          ],
+          "physical_exam": [
+            {
+              "finding": "left supraclavicular lymphadenopathy",
+              "size": "1 cm"
+            }
+          ],
+          "imaging": [
+            {
+              "type": "mass",
+              "body_part": "left lower lobe",
+              "modality": "CT",
+              "finding": "2 cm mass in the posterior basal segment of the left lower lobe, with multiple burrs on the edge and enhancement",
+              "date": "unknown"
+            },
+            {
+              "type": "lymph nodes",
+              "body_part": "mediastinal",
+              "modality": "CT",
+              "finding": "Mediastinal lymph nodes were enlarged and fused, surrounding the left main bronchus",
+              "date": "unknown"
+            },
+            {
+              "type": "adrenal gland enlargement",
+              "body_part": "left adrenal gland",
+              "modality": "CT",
+              "finding": "enlargement of the left adrenal gland, considered to be a metastatic lesion",
+              "date": "unknown"
+            },
+            {
+              "type": "bone imaging",
+              "body_part": "whole-body",
+              "modality": "ECT",
+              "finding": "no obvious abnormalities",
+              "date": "unknown"
+            },
+            {
+              "type": "brain",
+              "body_part": "brain",
+              "modality": "MRI",
+              "finding": "no obvious abnormalities",
+              "date": "unknown"
+            }
+          ],
+          "labs": [
+            {
+              "test": "CK-pan",
+              "value": "positive"
+            },
+            {
+              "test": "P40",
+              "value": "positive"
+            }
+          ]
+        }
+      },
+      "custom_id": "graph_050_N0"
+    },
+    {
+      "id": "N2",
+      "label": "Step 2",
+      "customData": {
+        "node_id": "B",
+        "node_step_index": 1,
+        "content": "Immunohistochemistry: CK7, TTF-1, BRG-1 and Syn were negative. Dako PD-L1 22C3 assay showed tumor proportion score (TPS) of 8%. On March 10, 2022, CT-guided lung puncture biopsy was performed. Pathology suggested poorly differentiated carcinoma. Immunohistochemical (IHC) markers were CK-pan (+), CK7 (\u2013), TTF-1 (\u2013), P40 (+), BRG-1 (\u2013) and Syn (\u2013). PD-L1 staining revealed a tumor proportion score (TPS) of 8%. Second-generation gene detection of tumor tissue did not reveal any target-sensitive mutations.",
+        "timestamp": "2022-03-10",
+        "clinical_data": {
+          "imaging": [
+            {
+              "type": "CT guided lung puncture biopsy",
+              "body_part": "Lung",
+              "modality": "CT",
+              "date": "2022-03-10"
+            }
+          ],
+          "labs": [
+            {
+              "test": "CK7",
+              "value": "negative",
+              "unit": null
+            },
+            {
+              "test": "TTF-1",
+              "value": "negative",
+              "unit": null
+            },
+            {
+              "test": "BRG-1",
+              "value": "negative",
+              "unit": null
+            },
+            {
+              "test": "Syn",
+              "value": "negative",
+              "unit": null
+            },
+            {
+              "test": "CK-pan",
+              "value": "positive",
+              "unit": null
+            },
+            {
+              "test": "P40",
+              "value": "positive",
+              "unit": null
+            },
+            {
+              "test": "PD-L1 tumor proportion score",
+              "value": "8",
+              "unit": "%"
+            }
+          ],
+          "diagnoses": [
+            {
+              "code": null,
+              "label": "poorly differentiated carcinoma",
+              "status": "active",
+              "onset_date": null
+            }
+          ]
+        }
+      },
+      "custom_id": "graph_050_N1"
+    },
+    {
+      "id": "N3",
+      "label": "Step 3",
+      "customData": {
+        "node_id": "C",
+        "node_step_index": 2,
+        "content": "Diagnosis of SMARCA4-deficient non-small cell lung cancer (SMARCA4-dNSCLC). First-line treatment initiated with tislelizumab combined with fruquintinib. Initial efficacy assessment showed partial remission of the lesion. Cervical lymph node progression occurred.",
+        "clinical_data": {
+          "diagnoses": [
+            {
+              "code": "C5022840",
+              "label": "SMARCA4-deficient non-small cell lung cancer",
+              "status": "active"
+            }
+          ],
+          "medications": [
+            {
+              "drug": "C4691457",
+              "dosage": null,
+              "frequency": null,
+              "modality": null,
+              "start_date": null,
+              "end_date": null,
+              "indication": "C5022840"
+            },
+            {
+              "drug": "C4047454",
+              "dosage": null,
+              "frequency": null,
+              "modality": null,
+              "start_date": null,
+              "end_date": null,
+              "indication": "C5022840"
+            }
+          ],
+          "imaging": [
+            {
+              "type": "C0023891",
+              "body_part": "C0007772",
+              "modality": null,
+              "finding": "Partial remission",
+              "impression": null,
+              "date": null
+            }
+          ]
+        }
+      },
+      "custom_id": "graph_050_N2"
+    },
+    {
+      "id": "N4",
+      "label": "Step 4",
+      "customData": {
+        "node_id": "D",
+        "node_step_index": 3,
+        "content": "Diagnosis confirmed via subsequent biopsy. Treated with local radiotherapy and previous systemic therapy. Achieved more than two years of disease control without grade \u22653 adverse events. April 1, 2022",
+        "clinical_data": {
+          "procedures": [
+            {
+              "name": "Radiotherapy",
+              "date": "2022-04-01",
+              "location": "local"
+            },
+            {
+              "name": "Systemic therapy",
+              "date": "2022-04-01"
+            }
+          ],
+          "diagnoses": [
+            {
+              "status": "active",
+              "onset_date": null
+            }
+          ]
+        }
+      },
+      "custom_id": "graph_050_N3"
+    }
+  ],
+  "edges": [
+    {
+      "from": "N1",
+      "to": "N2",
+      "data": {
+        "edge_id": "A_to_B",
+        "branch_flag": true,
+        "content": "From initial presentation and imaging, a CT-guided lung puncture biopsy was performed to further characterize the tumor.",
+        "transition_event": {
+          "trigger_type": "procedure",
+          "trigger_entities": [
+            "C0152183"
+          ],
+          "change_type": "addition",
+          "target_domain": "procedure",
+          "timestamp": "2022-03-10T00:00:00Z"
+        }
+      },
+      "custom_id": "graph_050_N1_N2"
+    },
+    {
+      "from": "N2",
+      "to": "N3",
+      "data": {
+        "edge_id": "B_to_C",
+        "branch_flag": true,
+        "content": "Based on immunohistochemistry and genetic testing, a diagnosis of SMARCA4-deficient non-small cell lung cancer (SMARCA4-dNSCLC) was made, leading to the initiation of first-line treatment with tislelizumab combined with fruquintinib.",
+        "transition_event": {
+          "trigger_type": "interpretation",
+          "trigger_entities": [
+            "C5022840",
+            "C4691457",
+            "C4047454"
+          ],
+          "change_type": "addition",
+          "target_domain": "diagnosis"
+        }
+      },
+      "custom_id": "graph_050_N2_N3"
+    },
+    {
+      "from": "N3",
+      "to": "N4",
+      "data": {
+        "edge_id": "C_to_D",
+        "branch_flag": true,
+        "content": "Following initial treatment with tislelizumab and fruquintinib, the patient experienced cervical lymph node progression. Subsequent biopsy confirmed the diagnosis, and the patient was treated with local radiotherapy and previous systemic therapy, achieving more than two years of disease control.",
+        "transition_event": {
+          "trigger_type": "progression",
+          "trigger_entities": [
+            "C0024311"
+          ],
+          "change_type": "progression",
+          "target_domain": "diagnosis",
+          "timestamp": "2022-04-01T00:00:00Z"
+        }
+      },
+      "custom_id": "graph_050_N3_N4"
+    }
+  ]
+}

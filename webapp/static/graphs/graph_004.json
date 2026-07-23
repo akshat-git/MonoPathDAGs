@@ -1,0 +1,243 @@
+{
+  "nodes": [
+    {
+      "id": "N1",
+      "label": "Step 1",
+      "customData": {
+        "node_id": "A",
+        "node_step_index": 0,
+        "content": "81-year-old female presented with a 10-day history of progressive chest tightness and dyspnea, worsened with physical activity, cough, and back pain. No history of smoking or malignancy.",
+        "clinical_data": {
+          "HPI": [
+            {
+              "summary": "81-year-old female presented with a 10-day history of progressive chest tightness and dyspnea, worsened with physical activity, cough, and back pain.",
+              "duration": "10 days",
+              "progression": "progressive",
+              "associated_symptoms": [
+                "C0008031",
+                "C0013404",
+                "C0009425"
+              ]
+            }
+          ],
+          "social_history": [
+            {
+              "category": "smoking",
+              "status": "never"
+            }
+          ],
+          "diagnoses": [
+            {
+              "code": "C0008031",
+              "label": "Chest tightness",
+              "status": "active"
+            },
+            {
+              "code": "C0013404",
+              "label": "Dyspnea",
+              "status": "active"
+            },
+            {
+              "code": "C0009425",
+              "label": "Cough",
+              "status": "active"
+            },
+            {
+              "code": "C0003097",
+              "label": "Back pain",
+              "status": "active"
+            }
+          ]
+        }
+      },
+      "custom_id": "graph_004_N0"
+    },
+    {
+      "id": "N2",
+      "label": "Step 2",
+      "customData": {
+        "node_id": "B",
+        "node_step_index": 1,
+        "content": "Chest CT imaging revealed a large left-sided pleural effusion.",
+        "clinical_data": {
+          "imaging": [
+            {
+              "type": "Pleural effusion",
+              "body_part": "Left lung",
+              "modality": "CT",
+              "finding": "large left-sided pleural effusion"
+            }
+          ]
+        }
+      },
+      "custom_id": "graph_004_N1"
+    },
+    {
+      "id": "N3",
+      "label": "Step 3",
+      "customData": {
+        "node_id": "C",
+        "node_step_index": 2,
+        "content": "Thoracentesis was performed, and the drained pleural fluid was sent to the Department of Pathology for further evaluation.",
+        "clinical_data": {}
+      },
+      "custom_id": "graph_004_N2"
+    },
+    {
+      "id": "N4",
+      "label": "Step 4",
+      "customData": {
+        "node_id": "D",
+        "node_step_index": 3,
+        "content": "Post-thoracic drainage chest CT revealed a 6.7 cm x 2.8 cm heterogeneous mass in the left inferior lobe with irregular contrast enhancement, suggestive of a left lung tumor. Pulmonary window analysis showed multiple nodular high-density foci scattered across both lungs, concerning for bilateral pulmonary metastases. Mediastinal window assessment revealed bilateral mediastinal lymphadenopathy and enlarged lymph nodes at the left pulmonary hilum, consistent with lymph node metastasis.",
+        "clinical_data": {
+          "imaging": [
+            {
+              "type": "Mass",
+              "body_part": "Left inferior lobe",
+              "modality": "CT",
+              "finding": "6.7 cm x 2.8 cm heterogeneous mass with irregular contrast enhancement",
+              "impression": "suggestive of a left lung tumor",
+              "date": null
+            },
+            {
+              "type": "Pulmonary nodules",
+              "body_part": "Lungs",
+              "modality": "CT",
+              "finding": "multiple nodular high-density foci scattered across both lungs",
+              "impression": "concerning for bilateral pulmonary metastases",
+              "date": null
+            },
+            {
+              "type": "Lymphadenopathy",
+              "body_part": "Mediastinum",
+              "modality": "CT",
+              "finding": "bilateral mediastinal lymphadenopathy and enlarged lymph nodes at the left pulmonary hilum",
+              "impression": "consistent with lymph node metastasis",
+              "date": null
+            }
+          ]
+        }
+      },
+      "custom_id": "graph_004_N3"
+    },
+    {
+      "id": "N5",
+      "label": "Step 5",
+      "customData": {
+        "node_id": "E",
+        "node_step_index": 4,
+        "content": "Abdominal CT scan detected multiple low-density hepatic nodules of varying sizes, with the largest lesion (2.9 cm \u00d7 2.6 cm) located in the right hepatic lobe. Annular enhancement was noted in the arterial phase, while marked hypodensity was observed in the portal venous phase, demonstrating a \u201cbull\u2019s eye sign\u201d characteristic of multiple hepatic metastases. Enhanced brain CT identified an irregular heterogeneously enhancing mass within the right frontal lobe, with a maximum cross-sectional area of 2.1 cm \u00d7 1.6 cm, consistent with brain metastasis.",
+        "clinical_data": {
+          "imaging": [
+            {
+              "type": "Hepatic nodules",
+              "body_part": "Liver",
+              "modality": "CT",
+              "finding": "Multiple low-density hepatic nodules of varying sizes, with the largest lesion (2.9 cm \u00d7 2.6 cm) located in the right hepatic lobe. Annular enhancement was noted in the arterial phase, while marked hypodensity was observed in the portal venous phase, demonstrating a \u201cbull\u2019s eye sign\u201d characteristic of multiple hepatic metastases.",
+              "impression": "Multiple hepatic metastases"
+            },
+            {
+              "type": "Brain mass",
+              "body_part": "Brain",
+              "modality": "CT",
+              "finding": "Irregular heterogeneously enhancing mass within the right frontal lobe, with a maximum cross-sectional area of 2.1 cm \u00d7 1.6 cm",
+              "impression": "Brain metastasis"
+            }
+          ]
+        }
+      },
+      "custom_id": "graph_004_N4"
+    },
+    {
+      "id": "N6",
+      "label": "Step 6",
+      "customData": {
+        "node_id": "F",
+        "node_step_index": 5,
+        "content": "Cell block analysis of the pleural effusion demonstrated poorly cohesive round-to-oval cells with a dispersed distribution exhibiting eccentrically located nuclei with dense chromatin, abundant eosinophilic cytoplasm, and nuclear morphology ranging from round to oval or slightly irregular shapes.",
+        "clinical_data": {
+          "labs": [
+            {
+              "test": "Pleural Effusion Analysis",
+              "finding": "Poorly cohesive round-to-oval cells with a dispersed distribution exhibiting eccentrically located nuclei with dense chromatin, abundant eosinophilic cytoplasm, and nuclear morphology ranging from round to oval or slightly irregular shapes."
+            }
+          ]
+        }
+      },
+      "custom_id": "graph_004_N5"
+    }
+  ],
+  "edges": [
+    {
+      "from": "N1",
+      "to": "N2",
+      "data": {
+        "edge_id": "A_to_B",
+        "branch_flag": true,
+        "content": "Patient underwent chest CT imaging."
+      },
+      "custom_id": "graph_004_N1_N2"
+    },
+    {
+      "from": "N2",
+      "to": "N3",
+      "data": {
+        "edge_id": "B_to_C",
+        "branch_flag": true,
+        "content": "Thoracentesis was performed, and the drained pleural fluid was sent to the Department of Pathology for further evaluation.",
+        "transition_event": {
+          "trigger_type": "procedure",
+          "trigger_entities": [
+            "C0040144"
+          ],
+          "change_type": "addition",
+          "target_domain": "procedure"
+        }
+      },
+      "custom_id": "graph_004_N2_N3"
+    },
+    {
+      "from": "N3",
+      "to": "N4",
+      "data": {
+        "edge_id": "C_to_D",
+        "branch_flag": true,
+        "content": "Post-thoracic drainage chest CT was performed."
+      },
+      "custom_id": "graph_004_N3_N4"
+    },
+    {
+      "from": "N4",
+      "to": "N5",
+      "data": {
+        "edge_id": "D_to_E",
+        "branch_flag": true,
+        "content": "Abdominal CT scan and enhanced brain CT were performed.",
+        "transition_event": {
+          "trigger_type": "procedure",
+          "trigger_entities": [],
+          "change_type": "addition",
+          "target_domain": "imaging"
+        }
+      },
+      "custom_id": "graph_004_N4_N5"
+    },
+    {
+      "from": "N5",
+      "to": "N6",
+      "data": {
+        "edge_id": "E_to_F",
+        "branch_flag": true,
+        "content": "Cell block analysis of the pleural effusion was performed.",
+        "transition_event": {
+          "trigger_type": "lab_change",
+          "trigger_entities": [],
+          "change_type": "addition",
+          "target_domain": "lab"
+        }
+      },
+      "custom_id": "graph_004_N5_N6"
+    }
+  ]
+}

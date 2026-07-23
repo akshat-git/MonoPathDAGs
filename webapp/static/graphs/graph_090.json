@@ -1,0 +1,259 @@
+{
+  "nodes": [
+    {
+      "id": "N1",
+      "label": "Step 1",
+      "customData": {
+        "node_id": "A",
+        "node_step_index": 0,
+        "content": "April 2023: 58-year-old man presented with epigastric pain for 1 week. No significant medical or family history.",
+        "clinical_data": {
+          "HPI": [
+            {
+              "summary": "58-year-old man presented with epigastric pain for 1 week.",
+              "duration": "1 week",
+              "onset": "April 2023",
+              "progression": "unknown",
+              "associated_symptoms": [
+                "Epigastric pain"
+              ]
+            }
+          ],
+          "social_history": [
+            {
+              "category": "family history",
+              "status": "negative",
+              "description": "No significant family history"
+            }
+          ]
+        }
+      }
+    },
+    {
+      "id": "N2",
+      "label": "Step 2",
+      "customData": {
+        "node_id": "B",
+        "node_step_index": 1,
+        "content": "Endoscopic ultrasonography revealed a 6-cm mass 25 cm into the esophagus from the incisors, invading the muscularis propria, with the thickest section measuring ~5.9 mm and the outer membrane remaining smooth, with two hypoechoic nodules in the mediastinum next to the lesioned esophagus.",
+        "clinical_data": {
+          "imaging": [
+            {
+              "type": "Endoscopic ultrasonography",
+              "body_part": "Esophagus",
+              "modality": "Ultrasound",
+              "finding": "6-cm mass 25 cm into the esophagus from the incisors, invading the muscularis propria, with the thickest section measuring ~5.9 mm and the outer membrane remaining smooth, with two hypoechoic nodules in the mediastinum next to the lesioned esophagus."
+            }
+          ]
+        }
+      }
+    },
+    {
+      "id": "N3",
+      "label": "Step 3",
+      "customData": {
+        "node_id": "C",
+        "node_step_index": 2,
+        "content": "Biopsy specimen H&E staining showed heterogeneous hyperplasia of the squamous epithelium with keratinized pearl formation, leading to a diagnosis of SCC.",
+        "clinical_data": {
+          "diagnoses": [
+            {
+              "code": "C0038454",
+              "label": "Squamous Cell Carcinoma",
+              "status": "active"
+            }
+          ],
+          "procedures": [
+            {
+              "name": "Biopsy",
+              "outcome": "Squamous Cell Carcinoma"
+            }
+          ]
+        }
+      }
+    },
+    {
+      "id": "N4",
+      "label": "Step 4",
+      "customData": {
+        "node_id": "D",
+        "node_step_index": 3,
+        "content": "Pretreatment contrast-enhanced CT revealed thickening of the middle esophagus wall with mild uneven enhancement, and a homogeneously enhanced nodular shadow ~3mm in diameter on the left side of the lesion. No other metastatic foci observed in the abdominal CT and cranial magnetic resonance imaging.",
+        "clinical_data": {
+          "imaging": [
+            {
+              "type": "Esophageal thickening",
+              "body_part": "Esophagus",
+              "modality": "CT",
+              "finding": "thickening of the middle esophagus wall with mild uneven enhancement",
+              "date": null
+            },
+            {
+              "type": "Nodule",
+              "body_part": "Esophagus",
+              "modality": "CT",
+              "finding": "homogeneously enhanced nodular shadow ~3mm in diameter on the left side of the lesion",
+              "date": null
+            },
+            {
+              "type": "Metastatic foci",
+              "body_part": "Abdomen",
+              "modality": "CT",
+              "finding": "No other metastatic foci observed",
+              "date": null
+            },
+            {
+              "type": "Metastatic foci",
+              "body_part": "Cranial",
+              "modality": "MRI",
+              "finding": "No other metastatic foci observed",
+              "date": null
+            }
+          ]
+        }
+      }
+    },
+    {
+      "id": "N5",
+      "label": "Step 5",
+      "customData": {
+        "node_id": "E",
+        "node_step_index": 4,
+        "content": "The levels of neuron-specific enolase, carbohydrate antigen 19-9, carbohydrate antigen 125 and carcinoembryonic antigen were normal in the blood before treatment.",
+        "clinical_data": {
+          "labs": [
+            {
+              "test": "Neuron-specific enolase",
+              "value": "normal",
+              "unit": null,
+              "flag": "normal"
+            },
+            {
+              "test": "Carbohydrate Antigen 19-9",
+              "value": "normal",
+              "unit": null,
+              "flag": "normal"
+            },
+            {
+              "test": "Carbohydrate Antigen 125",
+              "value": "normal",
+              "unit": null,
+              "flag": "normal"
+            },
+            {
+              "test": "Carcinoembryonic antigen",
+              "value": "normal",
+              "unit": null,
+              "flag": "normal"
+            }
+          ]
+        }
+      }
+    },
+    {
+      "id": "N6",
+      "label": "Step 6",
+      "customData": {
+        "node_id": "F",
+        "node_step_index": 5,
+        "content": "Patient's pretreatment clinical stage was cT2N1M0, stage II.",
+        "clinical_data": {
+          "diagnoses": [
+            {
+              "code": "C0346958",
+              "label": "Neoplasm Stage II",
+              "status": "active"
+            }
+          ]
+        }
+      }
+    },
+    {
+      "id": "N7",
+      "label": "Step 7",
+      "customData": {
+        "node_id": "G",
+        "node_step_index": 6,
+        "content": "May 2023-June 2023: Patient underwent standard neoadjuvant immunochemotherapy, receiving 200 mg tislelizumab, an anti-programmed cell death protein 1 (PD-1) drug",
+        "clinical_data": {
+          "medications": [
+            {
+              "drug": "C4721528",
+              "dosage": "200 mg",
+              "frequency": "unknown",
+              "modality": "IV",
+              "start_date": "2023-05",
+              "end_date": "2023-06",
+              "indication": "Neoadjuvant therapy"
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "edges": [
+    {
+      "from": "N1",
+      "to": "N2",
+      "data": {
+        "edge_id": "A_to_B",
+        "branch_flag": true,
+        "content": "Patient's epigastric pain led to further investigation via endoscopic ultrasonography."
+      }
+    },
+    {
+      "from": "N2",
+      "to": "N3",
+      "data": {
+        "edge_id": "B_to_C",
+        "branch_flag": true,
+        "content": "Mass identified via endoscopic ultrasonography was biopsied for further evaluation."
+      }
+    },
+    {
+      "from": "N3",
+      "to": "N4",
+      "data": {
+        "edge_id": "C_to_D",
+        "branch_flag": true,
+        "content": "Diagnosis of SCC prompted pretreatment contrast-enhanced CT imaging."
+      }
+    },
+    {
+      "from": "N4",
+      "to": "N5",
+      "data": {
+        "edge_id": "D_to_E",
+        "branch_flag": true,
+        "content": "Pretreatment imaging was followed by blood tests to assess tumor markers."
+      }
+    },
+    {
+      "from": "N5",
+      "to": "N6",
+      "data": {
+        "edge_id": "E_to_F",
+        "branch_flag": true,
+        "content": "Lab results and imaging findings were used to determine the patient's clinical stage."
+      }
+    },
+    {
+      "from": "N6",
+      "to": "N7",
+      "data": {
+        "edge_id": "F_to_G",
+        "branch_flag": true,
+        "content": "Based on the patient's stage, neoadjuvant immunochemotherapy with tislelizumab was initiated.",
+        "transition_event": {
+          "trigger_type": "medication_change",
+          "trigger_entities": [
+            "C4721528"
+          ],
+          "change_type": "addition",
+          "target_domain": "medication",
+          "timestamp": "2023-05-01T00:00:00Z"
+        }
+      }
+    }
+  ]
+}

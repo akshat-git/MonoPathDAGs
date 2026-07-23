@@ -1,0 +1,318 @@
+{
+  "nodes": [
+    {
+      "id": "N1",
+      "label": "Step 1",
+      "customData": {
+        "node_id": "A",
+        "node_step_index": 0,
+        "content": "64-year-old man with stage IV small cell lung cancer (SCLC).",
+        "clinical_data": {
+          "diagnoses": [
+            {
+              "code": "C34.9",
+              "label": "Small cell lung cancer",
+              "status": "active",
+              "onset_date": null
+            }
+          ]
+        }
+      }
+    },
+    {
+      "id": "N2",
+      "label": "Step 2",
+      "customData": {
+        "node_id": "B",
+        "node_step_index": 1,
+        "content": "Patient received 3 lines of therapy over 1 year: 1) atezolizumab, carboplatin, and etoposide; 2) topotecan; 3) epirubicin, cyclophosphamide, and vincristine, but experienced progressive disease.",
+        "clinical_data": {
+          "medications": [
+            {
+              "drug": "C0004154",
+              "dosage": null,
+              "frequency": null,
+              "modality": null,
+              "start_date": null,
+              "end_date": null,
+              "indication": null
+            },
+            {
+              "drug": "C0007127",
+              "dosage": null,
+              "frequency": null,
+              "modality": null,
+              "start_date": null,
+              "end_date": null,
+              "indication": null
+            },
+            {
+              "drug": "C0015074",
+              "dosage": null,
+              "frequency": null,
+              "modality": null,
+              "start_date": null,
+              "end_date": null,
+              "indication": null
+            },
+            {
+              "drug": "C0040424",
+              "dosage": null,
+              "frequency": null,
+              "modality": null,
+              "start_date": null,
+              "end_date": null,
+              "indication": null
+            },
+            {
+              "drug": "C0014489",
+              "dosage": null,
+              "frequency": null,
+              "modality": null,
+              "start_date": null,
+              "end_date": null,
+              "indication": null
+            },
+            {
+              "drug": "C0010320",
+              "dosage": null,
+              "frequency": null,
+              "modality": null,
+              "start_date": null,
+              "end_date": null,
+              "indication": null
+            }
+          ],
+          "diagnoses": [
+            {
+              "code": "C0205384",
+              "label": "Disease progression",
+              "status": "active",
+              "onset_date": null
+            }
+          ]
+        }
+      }
+    },
+    {
+      "id": "N3",
+      "label": "Step 3",
+      "customData": {
+        "node_id": "C",
+        "node_step_index": 2,
+        "content": "Extensive somatostatin receptor (SSTR) positivity on PET of all tumor manifestations: extensive primary tumor with pleural metastases, multiple involved mediastinal lymph nodes and in the upper abdomen, and disseminated bone and brain metastases.",
+        "clinical_data": {
+          "imaging": [
+            {
+              "type": "Positron emission tomography",
+              "body_part": "tumor manifestations",
+              "modality": "PET",
+              "finding": "Extensive somatostatin receptor positivity",
+              "impression": "extensive primary tumor with pleural metastases, multiple involved mediastinal lymph nodes and in the upper abdomen, and disseminated bone and brain metastases."
+            }
+          ]
+        }
+      }
+    },
+    {
+      "id": "N4",
+      "label": "Step 4",
+      "customData": {
+        "node_id": "D",
+        "node_step_index": 3,
+        "content": "Patient deemed eligible for SSTR-directed radiopharmaceutical therapy (RPT).",
+        "clinical_data": {}
+      }
+    },
+    {
+      "id": "N5",
+      "label": "Step 5",
+      "customData": {
+        "node_id": "E",
+        "node_step_index": 4,
+        "content": "Patient received 7 cycles of SSTR-directed RPT with a mean intravenous activity of 7.34 GBq per cycle (range, 4.5-9.8 GBq) approximately every 4 weeks. Each cycle was administered after prior treatment with antiemetic and nephroprotective medication.",
+        "clinical_data": {
+          "medications": [
+            {
+              "drug": "antiemetic",
+              "modality": "IV",
+              "indication": "nausea"
+            },
+            {
+              "drug": "nephroprotective medication",
+              "modality": "IV",
+              "indication": "kidney protection"
+            }
+          ],
+          "procedures": [
+            {
+              "name": "Radiopharmaceutical therapy",
+              "approach": "IV",
+              "location": "systemic",
+              "outcome": "treatment of cancer"
+            }
+          ]
+        }
+      }
+    },
+    {
+      "id": "N6",
+      "label": "Step 6",
+      "customData": {
+        "node_id": "F",
+        "node_step_index": 5,
+        "content": "After 2 therapy cycles, the patient presented with a partial response, with a significant reduction of the primary tumor, pleural metastases, and lymph node metastases and only minimal residual metabolic activity in the bone metastases.",
+        "clinical_data": {
+          "diagnoses": [
+            {
+              "code": "C79.8",
+              "label": "Secondary malignant neoplasm of other specified sites",
+              "status": "active"
+            }
+          ],
+          "imaging": [
+            {
+              "body_part": "T023517",
+              "modality": "PET",
+              "finding": "minimal residual metabolic activity",
+              "impression": "partial response"
+            }
+          ]
+        }
+      }
+    },
+    {
+      "id": "N7",
+      "label": "Step 7",
+      "customData": {
+        "node_id": "G",
+        "node_step_index": 6,
+        "content": "After administration of cycle 4, [18F]FDG PET/CT still displayed an overall stable total tumor burden except for 2 new bone lesions in the lower spine.",
+        "clinical_data": {
+          "imaging": [
+            {
+              "type": "Positron emission tomography",
+              "body_part": "Spine",
+              "modality": "PET",
+              "finding": "bone lesions",
+              "date": null
+            },
+            {
+              "type": "Computed tomography",
+              "body_part": "Spine",
+              "modality": "CT",
+              "finding": "bone lesions",
+              "date": null
+            }
+          ]
+        }
+      }
+    },
+    {
+      "id": "N8",
+      "label": "Step 8",
+      "customData": {
+        "node_id": "H",
+        "node_step_index": 7,
+        "content": "S",
+        "clinical_data": {}
+      }
+    }
+  ],
+  "edges": [
+    {
+      "from": "N1",
+      "to": "N2",
+      "data": {
+        "edge_id": "A_to_B",
+        "branch_flag": true,
+        "content": "Patient with stage IV small cell lung cancer (SCLC) experienced progressive disease after receiving 3 lines of therapy over 1 year: atezolizumab, carboplatin, and etoposide; topotecan; epirubicin, cyclophosphamide, and vincristine.",
+        "transition_event": {
+          "trigger_type": "medication_change",
+          "trigger_entities": [
+            "C0004154",
+            "C0007127",
+            "C0015074",
+            "C0040424",
+            "C0014489",
+            "C0010320"
+          ],
+          "change_type": "progression",
+          "target_domain": "diagnosis"
+        }
+      }
+    },
+    {
+      "from": "N2",
+      "to": "N3",
+      "data": {
+        "edge_id": "B_to_C",
+        "branch_flag": true,
+        "content": "Following disease progression after multiple lines of therapy, PET imaging revealed extensive somatostatin receptor (SSTR) positivity of all tumor manifestations: extensive primary tumor with pleural metastases, multiple involved mediastinal lymph nodes and in the upper abdomen, and disseminated bone and brain metastases."
+      }
+    },
+    {
+      "from": "N3",
+      "to": "N4",
+      "data": {
+        "edge_id": "C_to_D",
+        "branch_flag": true,
+        "content": "Based on PET imaging findings of extensive SSTR positivity, the patient was deemed eligible for SSTR-directed radiopharmaceutical therapy (RPT)."
+      }
+    },
+    {
+      "from": "N4",
+      "to": "N5",
+      "data": {
+        "edge_id": "D_to_E",
+        "branch_flag": true,
+        "content": "Patient initiated SSTR-directed RPT.",
+        "transition_event": {
+          "trigger_type": "procedure",
+          "trigger_entities": [],
+          "change_type": "addition",
+          "target_domain": "procedure"
+        }
+      }
+    },
+    {
+      "from": "N5",
+      "to": "N6",
+      "data": {
+        "edge_id": "E_to_F",
+        "branch_flag": true,
+        "content": "Patient received 7 cycles of SSTR-directed RPT with a mean intravenous activity of 7.34 GBq per cycle (range, 4.5-9.8 GBq) approximately every 4 weeks. Each cycle was administered after prior treatment with antiemetic and nephroprotective medication. After 2 therapy cycles, the patient presented with a partial response, with a significant reduction of the primary tumor, pleural metastases, and lymph node metastases and only minimal residual metabolic activity in the bone metastases.",
+        "transition_event": {
+          "trigger_type": "procedure",
+          "trigger_entities": [],
+          "change_type": "other",
+          "target_domain": "imaging"
+        }
+      }
+    },
+    {
+      "from": "N6",
+      "to": "N7",
+      "data": {
+        "edge_id": "F_to_G",
+        "branch_flag": true,
+        "content": "Following initial partial response after 2 cycles of SSTR-directed RPT, [18F]FDG PET/CT after cycle 4 displayed an overall stable total tumor burden except for 2 new bone lesions in the lower spine.",
+        "transition_event": {
+          "trigger_type": "imaging",
+          "trigger_entities": [],
+          "change_type": "progression",
+          "target_domain": "imaging"
+        }
+      }
+    },
+    {
+      "from": "N7",
+      "to": "N8",
+      "data": {
+        "edge_id": "G_to_H",
+        "branch_flag": true,
+        "content": "After administration of cycle 4, [18F]FDG PET/CT still displayed an overall stable total tumor burden except for 2 new bone lesions in the lower spine."
+      }
+    }
+  ]
+}

@@ -1,0 +1,330 @@
+{
+  "nodes": [
+    {
+      "id": "N1",
+      "label": "Step 1",
+      "customData": {
+        "node_id": "A",
+        "node_step_index": 0,
+        "content": "68-year-old male presented to the emergency department in June 2019 with a 3-week history of general malaise, rapid body weight loss (>5 kg), and poor appetite. History of smoking one pack per day for more than 30 years but quit in 2018. Diagnosed with chronic obstructive pulmonary disease and left upper lobe squamous cell carcinoma (SCC) (Pancoast tumor), stage cT4N1M0. Whole-body computed tomography (CT) showed tumor size >7 cm.",
+        "clinical_data": {
+          "HPI": [
+            {
+              "summary": "68-year-old male presented with a 3-week history of general malaise, rapid body weight loss (>5 kg), and poor appetite.",
+              "duration": "3 weeks",
+              "onset": "June 2019",
+              "progression": "gradual",
+              "associated_symptoms": [
+                "malaise",
+                "poor appetite"
+              ]
+            }
+          ],
+          "social_history": [
+            {
+              "category": "smoking",
+              "status": "past",
+              "description": "History of smoking one pack per day for more than 30 years but quit in 2018"
+            }
+          ],
+          "diagnoses": [
+            {
+              "code": "40624005",
+              "label": "Chronic obstructive lung disease",
+              "status": "active",
+              "onset_date": null
+            },
+            {
+              "code": "254832003",
+              "label": "Squamous cell carcinoma of lung",
+              "status": "active",
+              "onset_date": null
+            }
+          ],
+          "imaging": [
+            {
+              "type": "CT scan",
+              "body_part": "whole body",
+              "modality": "CT",
+              "finding": "tumor size >7 cm",
+              "impression": "Pancoast tumor",
+              "date": "2019"
+            }
+          ]
+        }
+      }
+    },
+    {
+      "id": "N2",
+      "label": "Step 2",
+      "customData": {
+        "node_id": "B",
+        "node_step_index": 1,
+        "content": "June 2019: Concurrent chemoradiotherapy (CCRT) was initiated with radiation at a dose of 60\u2009Gy in 30 fractions with oral vinorelbine and cisplatin for stage IIIA (cT4, ipsilateral hilar lymph nodes) left upper lobe squamous cell carcinoma (SCC).",
+        "clinical_data": {
+          "medications": [
+            {
+              "drug": "C0009094",
+              "modality": "oral",
+              "start_date": "2019-06",
+              "end_date": null,
+              "indication": "C0007785"
+            },
+            {
+              "drug": "C0008832",
+              "modality": "oral",
+              "start_date": "2019-06",
+              "end_date": null,
+              "indication": "C0007785"
+            }
+          ],
+          "procedures": [
+            {
+              "name": "C0036384",
+              "date": "2019-06",
+              "outcome": null
+            }
+          ],
+          "diagnoses": [
+            {
+              "code": "C0007785",
+              "label": "Squamous Cell Carcinoma",
+              "status": "active",
+              "onset_date": "2019-06"
+            }
+          ]
+        }
+      }
+    },
+    {
+      "id": "N3",
+      "label": "Step 3",
+      "customData": {
+        "node_id": "C",
+        "node_step_index": 2,
+        "content": "February 2020: Follow-up CT image showed regression of the left upper lobe tumor.",
+        "clinical_data": {
+          "imaging": [
+            {
+              "type": "CT scan",
+              "body_part": "Left upper lobe",
+              "modality": "CT",
+              "finding": "Regression of tumor",
+              "date": "2020-02"
+            }
+          ]
+        }
+      }
+    },
+    {
+      "id": "N4",
+      "label": "Step 4",
+      "customData": {
+        "node_id": "D",
+        "node_step_index": 3,
+        "content": "May 2020: Patient presented to orthopedic outpatient department with a 10-day history of a rapidly progressing painful swelling on his right wrist. Systemic examination revealed a tender soft tissue swelling with increased local temperature located in the wrist of his right hand. The swelling was firm in consistency, oval-shaped, and 7 \u00d7 5 cm in size.",
+        "clinical_data": {
+          "HPI": [
+            {
+              "summary": "Patient presented with a 10-day history of a rapidly progressing painful swelling on his right wrist.",
+              "duration": "10 days",
+              "onset": null,
+              "progression": "rapid",
+              "associated_symptoms": [
+                "painful swelling"
+              ]
+            }
+          ],
+          "diagnoses": [
+            {
+              "code": null,
+              "label": "swelling on right wrist",
+              "status": "active",
+              "onset_date": "2020-05"
+            }
+          ],
+          "vitals": [
+            {
+              "type": "local temperature",
+              "value": "increased",
+              "unit": null,
+              "timestamp": "2020-05"
+            }
+          ]
+        }
+      }
+    },
+    {
+      "id": "N5",
+      "label": "Step 5",
+      "customData": {
+        "node_id": "E",
+        "node_step_index": 4,
+        "content": "May 2020: Right wrist swelling characteristics: reddened skin, warm, edematous, no discharging sinus. Restricted pronation and supination. Forearm radiograph: oval osteolytic lesion with cortical moth-eaten appearance over the distal ulnar area. MRI: osteolytic tumor in the distal ulnar shaft measuring 5.3\u2009\u00d7\u20093.2\u2009\u00d7\u20092.8\u2009cm with a prominent heterogeneous extraosseous component at the central aspect. Angiography showed that the tumor in the right wrist was supplied mainly by the right anterior and posterior interosseous arteries and small ulnar artery branches. Whole-body 99m Tc-phosphate bone scan showed newly observed and isolated focally increased tracer uptake in the right distal ulna. Previous 99m Tc-phosphate bone scan from November 2019 showed minimal tracer uptake in the left ninth rib thought to be a post-traumatic change because of its pre-existing visibility. Bone and soft tissue tumor biopsies of the right wrist lesion were performed. Tissue sections showed that the bone and bone marrow were infiltrated by nests of poorly differentiated squamous cell carcinoma (SCC) cells. The tumor cell nests displayed abundant neutrophil infiltration. Right wrist lesion pathology: Poorly differentiated squamous cell carcinoma (SCC) cells with abundant neutrophil infiltration and extremely focal keratinization.",
+        "clinical_data": {
+          "imaging": [
+            {
+              "type": "Radiograph",
+              "body_part": "Wrist",
+              "modality": "X-ray",
+              "finding": "oval osteolytic lesion with cortical moth-eaten appearance over the distal ulnar area",
+              "date": "2020-05"
+            },
+            {
+              "type": "Osteolytic tumor",
+              "body_part": "ulnar shaft",
+              "modality": "MRI",
+              "finding": "osteolytic tumor in the distal ulnar shaft measuring 5.3\u2009\u00d7\u20093.2\u2009\u00d7\u20092.8\u2009cm with a prominent heterogeneous extraosseous component at the central aspect",
+              "date": "2020-05"
+            },
+            {
+              "type": "Tumor blood supply",
+              "body_part": "Right wrist",
+              "modality": "Angiography",
+              "finding": "tumor in the right wrist was supplied mainly by the right anterior and posterior interosseous arteries and small ulnar artery branches",
+              "date": "2020-05"
+            },
+            {
+              "type": "Tracer uptake",
+              "body_part": "Right distal ulna",
+              "modality": "other",
+              "finding": "newly observed and isolated focally increased tracer uptake in the right distal ulna",
+              "date": "2020-05"
+            },
+            {
+              "type": "Tracer uptake",
+              "body_part": "Left ninth rib",
+              "modality": "other",
+              "finding": "minimal tracer uptake in the left ninth rib thought to be a post-traumatic change because of its pre-existing visibility",
+              "date": "2019-11"
+            }
+          ],
+          "procedures": [
+            {
+              "name": "Biopsy",
+              "date": "2020-05",
+              "location": "Right wrist lesion"
+            }
+          ],
+          "diagnoses": [
+            {
+              "code": "C0036240",
+              "label": "Squamous Cell Carcinoma",
+              "status": "active",
+              "onset_date": "2020-05"
+            }
+          ]
+        }
+      }
+    },
+    {
+      "id": "N6",
+      "label": "Step 6",
+      "customData": {
+        "node_id": "F",
+        "node_step_index": 5,
+        "content": "September 2020: Patient underwent continuous CCRT and was followed up at the outpatient department with no signs of progression. Patient chose limb preservation surgery after explanation of each advantage and disadvantage. After confirming the bone metastasis, wedge resection of the tumor was performed, followed by fixation for prevention of an impending pathological distal ulnar fracture with a cemented augmentation technique.",
+        "clinical_data": {
+          "procedures": [
+            {
+              "name": "Wedge resection",
+              "date": "2020-09",
+              "location": "distal ulna",
+              "outcome": "prevention of an impending pathological distal ulnar fracture"
+            },
+            {
+              "name": "Fixation",
+              "date": "2020-09",
+              "location": "distal ulna",
+              "outcome": "prevention of an impending pathological distal ulnar fracture"
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "edges": [
+    {
+      "from": "N1",
+      "to": "N2",
+      "data": {
+        "edge_id": "A_to_B",
+        "branch_flag": true,
+        "content": "Initiation of concurrent chemoradiotherapy (CCRT) with radiation at a dose of 60\u2009Gy in 30 fractions with oral vinorelbine and cisplatin for stage IIIA (cT4, ipsilateral hilar lymph nodes) left upper lobe squamous cell carcinoma (SCC).",
+        "transition_event": {
+          "trigger_type": "procedure",
+          "trigger_entities": [
+            "C0036384"
+          ],
+          "change_type": "addition",
+          "target_domain": "procedure",
+          "timestamp": "2019-06"
+        }
+      }
+    },
+    {
+      "from": "N2",
+      "to": "N3",
+      "data": {
+        "edge_id": "B_to_C",
+        "branch_flag": true,
+        "content": "Regression of the left upper lobe tumor.",
+        "transition_event": {
+          "trigger_type": "imaging",
+          "trigger_entities": [],
+          "change_type": "resolution",
+          "target_domain": "imaging",
+          "timestamp": "2020-02"
+        }
+      }
+    },
+    {
+      "from": "N3",
+      "to": "N4",
+      "data": {
+        "edge_id": "C_to_D",
+        "branch_flag": true,
+        "content": "Patient presented to orthopedic outpatient department with a 10-day history of a rapidly progressing painful swelling on his right wrist. Systemic examination revealed a tender soft tissue swelling with increased local temperature located in the wrist of his right hand. The swelling was firm in consistency, oval-shaped, and 7 \u00d7 5 cm in size.",
+        "transition_event": {
+          "trigger_type": "symptom_onset",
+          "trigger_entities": [],
+          "change_type": "progression",
+          "target_domain": "symptom",
+          "timestamp": "2020-05"
+        }
+      }
+    },
+    {
+      "from": "N4",
+      "to": "N5",
+      "data": {
+        "edge_id": "D_to_E",
+        "branch_flag": true,
+        "content": "Right wrist swelling characteristics: reddened skin, warm, edematous, no discharging sinus. Restricted pronation and supination. Forearm radiograph: oval osteolytic lesion with cortical moth-eaten appearance over the distal ulnar area. MRI: osteolytic tumor in the distal ulnar shaft measuring 5.3\u2009\u00d7\u20093.2\u2009\u00d7\u20092.8\u2009cm with a prominent heterogeneous extraosseous component at the central aspect. Angiography showed that the tumor in the right wrist was supplied mainly by the right anterior and posterior interosseous arteries and small ulnar artery branches. Whole-body 99m Tc-phosphate bone scan showed newly observed and isolated focally increased tracer uptake in the right distal ulna. Previous 99m Tc-phosphate bone scan from November 2019 showed minimal tracer uptake in the left ninth rib thought to be a post-traumatic change because of its pre-existing visibility. Bone and soft tissue tumor biopsies of the right wrist lesion were performed. Tissue sections showed that the bone and bone marrow were infiltrated by nests of poorly differentiated squamous cell carcinoma (SCC) cells. The tumor cell nests displayed abundant neutrophil infiltration. Right wrist lesion pathology: Poorly differentiated squamous cell carcinoma (SCC) cells with abundant neutrophil infiltration and extremely focal keratinization.",
+        "transition_event": {
+          "trigger_type": "lab_change",
+          "trigger_entities": [
+            "C0036240"
+          ],
+          "change_type": "addition",
+          "target_domain": "diagnosis",
+          "timestamp": "2020-05"
+        }
+      }
+    },
+    {
+      "from": "N5",
+      "to": "N6",
+      "data": {
+        "edge_id": "E_to_F",
+        "branch_flag": true,
+        "content": "Patient underwent continuous CCRT and was followed up at the outpatient department with no signs of progression. Patient chose limb preservation surgery after explanation of each advantage and disadvantage. After confirming the bone metastasis, wedge resection of the tumor was performed, followed by fixation for prevention of an impending pathological distal ulnar fracture with a cemented augmentation technique.",
+        "transition_event": {
+          "trigger_type": "procedure",
+          "trigger_entities": [],
+          "change_type": "addition"
+        }
+      }
+    }
+  ]
+}

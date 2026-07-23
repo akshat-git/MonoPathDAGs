@@ -1,0 +1,449 @@
+{
+  "nodes": [
+    {
+      "id": "N1",
+      "label": "Step 1",
+      "customData": {
+        "node_id": "A",
+        "node_step_index": 0,
+        "content": "Patient is a 53-year-old female diagnosed with Invasive adenocarcinoma, TNM classification T4N1M1b, Stage IVA. Tumor size 1.8 cm \u00d7 2.2 cm in the lower lobe of the left lung. Diagnosed with ground glass nodules in the upper left lung in CT scanning.",
+        "clinical_data": {
+          "diagnoses": [
+            {
+              "code": "C0271507",
+              "label": "Adenocarcinoma, Invasive",
+              "status": "active"
+            }
+          ],
+          "imaging": [
+            {
+              "type": "C0205364",
+              "body_part": "T-T029713",
+              "modality": "CT",
+              "finding": "ground glass nodule",
+              "date": null
+            }
+          ]
+        }
+      }
+    },
+    {
+      "id": "N2",
+      "label": "Step 2",
+      "customData": {
+        "node_id": "B",
+        "node_step_index": 1,
+        "content": "Patient underwent single-hole thoracoscopic radical resection in the left upper of the lung on May 12, 2020.",
+        "clinical_data": {
+          "procedures": [
+            {
+              "name": "Thoracoscopic radical resection",
+              "approach": "thoracoscopic",
+              "date": "2020-05-12",
+              "location": "left upper lung"
+            }
+          ]
+        }
+      }
+    },
+    {
+      "id": "N3",
+      "label": "Step 3",
+      "customData": {
+        "node_id": "C",
+        "node_step_index": 2,
+        "content": "During surgery, a 2.0 cm x 1.5 cm mass was identified in the posterior apex of the left superior lung, along with multiple micro-nodules in the right lung.",
+        "clinical_data": {
+          "imaging": [
+            {
+              "type": "Mass",
+              "body_part": "Lung",
+              "modality": "Surgery",
+              "finding": "2.0 cm x 1.5 cm mass in the posterior apex of the left superior lung",
+              "date": null
+            },
+            {
+              "type": "Nodule",
+              "body_part": "Lung",
+              "modality": "Surgery",
+              "finding": "Multiple micro-nodules in the right lung",
+              "date": null
+            }
+          ]
+        }
+      }
+    },
+    {
+      "id": "N4",
+      "label": "Step 4",
+      "customData": {
+        "node_id": "D",
+        "node_step_index": 3,
+        "content": "Patient diagnosed with invasive stage IA adenocarcinoma (T1N0M0).",
+        "clinical_data": {
+          "diagnoses": [
+            {
+              "code": "C0242352",
+              "label": "Adenocarcinoma, Stage IA",
+              "status": "active"
+            }
+          ]
+        }
+      }
+    },
+    {
+      "id": "N5",
+      "label": "Step 5",
+      "customData": {
+        "node_id": "E",
+        "node_step_index": 4,
+        "content": "Patient treated with left upper lobectomy and systematic lymph node dissection.",
+        "clinical_data": {
+          "procedures": [
+            {
+              "name": "Lobectomy, Upper Lobe, Left Lung",
+              "approach": "open",
+              "location": "Left Lung",
+              "performed_by": "unknown",
+              "outcome": "unknown"
+            },
+            {
+              "name": "Lymph Node Dissection",
+              "approach": "open",
+              "location": "unknown",
+              "performed_by": "unknown",
+              "outcome": "unknown"
+            }
+          ]
+        }
+      }
+    },
+    {
+      "id": "N6",
+      "label": "Step 6",
+      "customData": {
+        "node_id": "F",
+        "node_step_index": 5,
+        "content": "NGS panel revealed EGFR p.E746_S752delinsI mutation with 29.62% VAF in tissue sample. E746_S752delinsI mutation in EGFR Exon 19 identified by NGS.",
+        "clinical_data": {
+          "labs": [
+            {
+              "test": "EGFR p.E746_S752delinsI mutation",
+              "value": "29.62%",
+              "unit": "VAF",
+              "flag": "abnormal"
+            }
+          ],
+          "diagnoses": [
+            {
+              "code": "E746_S752delinsI",
+              "label": "E746_S752delinsI mutation in EGFR Exon 19",
+              "status": "active"
+            }
+          ]
+        }
+      }
+    },
+    {
+      "id": "N7",
+      "label": "Step 7",
+      "customData": {
+        "node_id": "G",
+        "node_step_index": 6,
+        "content": "Patient started Icotinib (125mg/day) on 2020-11-18.",
+        "clinical_data": {
+          "medications": [
+            {
+              "drug": "Icotinib",
+              "dosage": "125mg/day",
+              "frequency": "daily",
+              "modality": "oral",
+              "start_date": "2020-11-18",
+              "end_date": null,
+              "indication": null
+            }
+          ]
+        }
+      }
+    },
+    {
+      "id": "N8",
+      "label": "Step 8",
+      "customData": {
+        "node_id": "H",
+        "node_step_index": 7,
+        "content": "Patient experienced Grade II stomach pain from 2020-12-08 to 2021-07-27.",
+        "clinical_data": {
+          "HPI": [
+            {
+              "summary": "Patient experienced Grade II stomach pain",
+              "duration": "2020-12-08 to 2021-07-27",
+              "onset": "2020-12-08",
+              "progression": "unknown",
+              "associated_symptoms": [
+                "Stomach pain"
+              ]
+            }
+          ]
+        }
+      }
+    },
+    {
+      "id": "N9",
+      "label": "Step 9",
+      "customData": {
+        "node_id": "I",
+        "node_step_index": 8,
+        "content": "Patient experienced Grade I skin rash from 2020-12-29 to 2021-06-15.",
+        "clinical_data": {
+          "allergies": [
+            {
+              "substance": "skin rash",
+              "reaction": "skin rash",
+              "severity": "mild",
+              "date_recorded": "2020-12-29"
+            }
+          ]
+        }
+      }
+    },
+    {
+      "id": "N10",
+      "label": "Step 10",
+      "customData": {
+        "node_id": "J",
+        "node_step_index": 9,
+        "content": "Patient experienced Grade I liver dysfunction from 2021-02-09 to 2021-06-15.",
+        "clinical_data": {
+          "diagnoses": [
+            {
+              "code": "C0239901",
+              "label": "Liver dysfunction",
+              "status": "historical",
+              "onset_date": "2021-02-09"
+            }
+          ]
+        }
+      }
+    },
+    {
+      "id": "N11",
+      "label": "Step 11",
+      "customData": {
+        "node_id": "K",
+        "node_step_index": 10,
+        "content": "Patient experienced Grade II decrease in lymphocyte counts from 2021-10-19 to 2021-11-30.",
+        "clinical_data": {
+          "labs": [
+            {
+              "test": "Lymphocyte Count",
+              "value": "Grade II decrease",
+              "flag": "abnormal",
+              "timestamp": "2021-10-19/2021-11-30"
+            }
+          ]
+        }
+      }
+    },
+    {
+      "id": "N12",
+      "label": "Step 12",
+      "customData": {
+        "node_id": "L",
+        "node_step_index": 11,
+        "content": "CT imaging showed partial response to treatment; most lung nodules reduced in size from 1.0cm to 0.7cm in diameter, nodules on the lower lobe of the left lung shrank from 1.8 cm \u00d7 2.2 cm to 1.3 cm\u00d71.1 cm, and many lung nodules disappeared.",
+        "clinical_data": {
+          "imaging": [
+            {
+              "type": "Lung CT",
+              "body_part": "Lung",
+              "modality": "CT",
+              "finding": "Partial response to treatment; most lung nodules reduced in size from 1.0cm to 0.7cm in diameter, nodules on the lower lobe of the left lung shrank from 1.8 cm \u00d7 2.2 cm to 1.3 cm\u00d71.1 cm, and many lung nodules disappeared."
+            }
+          ]
+        }
+      }
+    },
+    {
+      "id": "N13",
+      "label": "Step 13",
+      "customData": {
+        "node_id": "M",
+        "node_step_index": 12,
+        "content": "CEA level decreased significantly from 138.6 ng/ml to 13.82 ng/ml.",
+        "clinical_data": {
+          "labs": [
+            {
+              "test": "C0007544",
+              "value": "13.82",
+              "unit": "ng/ml"
+            }
+          ]
+        }
+      }
+    },
+    {
+      "id": "N14",
+      "label": "Step 14",
+      "customData": {
+        "node_id": "N",
+        "node_step_index": 13,
+        "content": "Patient is a 72-year-old male with p.L747_S752delinsAA mutation. Tumor size 2.0x3.0 cm in the lower lobe of",
+        "clinical_data": {
+          "diagnoses": [
+            {
+              "code": null,
+              "label": "Tumor size 2.0x3.0 cm in the lower lobe",
+              "status": "active",
+              "onset_date": null
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "edges": [
+    {
+      "from": "N1",
+      "to": "N2",
+      "data": {
+        "edge_id": "A_to_B",
+        "branch_flag": true,
+        "content": "Transition from initial diagnosis to surgical intervention."
+      }
+    },
+    {
+      "from": "N2",
+      "to": "N3",
+      "data": {
+        "edge_id": "B_to_C",
+        "branch_flag": true,
+        "content": "Intraoperative findings during thoracoscopic resection."
+      }
+    },
+    {
+      "from": "N3",
+      "to": "N4",
+      "data": {
+        "edge_id": "C_to_D",
+        "branch_flag": true,
+        "content": "Change in diagnosis following surgery.",
+        "transition_event": {
+          "trigger_type": "procedure",
+          "trigger_entities": [
+            "C0040068"
+          ],
+          "change_type": "reinterpretation",
+          "target_domain": "diagnosis"
+        }
+      }
+    },
+    {
+      "from": "N4",
+      "to": "N5",
+      "data": {
+        "edge_id": "D_to_E",
+        "branch_flag": true,
+        "content": "Surgical treatment following diagnosis of stage IA adenocarcinoma.",
+        "transition_event": {
+          "trigger_type": "procedure",
+          "trigger_entities": [
+            "C0024139",
+            "C0024272"
+          ],
+          "change_type": "addition",
+          "target_domain": "procedure"
+        }
+      }
+    },
+    {
+      "from": "N5",
+      "to": "N6",
+      "data": {
+        "edge_id": "E_to_F",
+        "branch_flag": true,
+        "content": "NGS panel results revealing EGFR mutation.",
+        "transition_event": {
+          "trigger_type": "lab_change",
+          "trigger_entities": [
+            "E746_S752delinsI"
+          ],
+          "change_type": "addition",
+          "target_domain": "diagnosis"
+        }
+      }
+    },
+    {
+      "from": "N6",
+      "to": "N7",
+      "data": {
+        "edge_id": "F_to_G",
+        "branch_flag": true,
+        "content": "Initiation of Icotinib treatment based on EGFR mutation.",
+        "transition_event": {
+          "trigger_type": "medication_change",
+          "trigger_entities": [
+            "C1699717"
+          ],
+          "change_type": "addition",
+          "target_domain": "medication",
+          "timestamp": "2020-11-18T00:00:00Z"
+        }
+      }
+    },
+    {
+      "from": "N7",
+      "to": "N8",
+      "data": {
+        "edge_id": "G_to_H",
+        "branch_flag": true,
+        "content": "Onset of Grade II stomach pain following Icotinib initiation.",
+        "transition_event": {
+          "trigger_type": "symptom_onset",
+          "trigger_entities": [
+            "C0038204"
+          ],
+          "change_type": "addition",
+          "target_domain": "symptom",
+          "timestamp": "2020-12-08T00:00:00Z"
+        }
+      }
+    },
+    {
+      "from": "N8",
+      "to": "N9",
+      "data": {
+        "edge_id": "H_to_I",
+        "branch_flag": true,
+        "content": "Onset of Grade I skin rash.",
+        "transition_event": {
+          "trigger_type": "symptom_onset",
+          "trigger_entities": [
+            "C0037333"
+          ],
+          "change_type": "addition",
+          "target_domain": "symptom",
+          "timestamp": "2020-12-29T00:00:00Z"
+        }
+      }
+    },
+    {
+      "from": "N9",
+      "to": "N10",
+      "data": {
+        "edge_id": "I_to_J",
+        "branch_flag": true,
+        "content": "Development of Grade I liver dysfunction.",
+        "transition_event": {
+          "trigger_type": "symptom_onset",
+          "trigger_entities": [
+            "C0239901"
+          ],
+          "change_type": "addition",
+          "target_domain": "diagnosis",
+          "timestamp": "2021-02-09T00:00:00Z"
+        }
+      }
+    }
+  ]
+}

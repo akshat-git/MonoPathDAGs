@@ -1,0 +1,223 @@
+{
+  "nodes": [
+    {
+      "id": "N1",
+      "label": "Step 1",
+      "customData": {
+        "node_id": "A",
+        "node_step_index": 0,
+        "content": "November 2020: 57-year-old female presented with a one-month history of blurred vision and floaters.",
+        "clinical_data": {
+          "HPI": [
+            {
+              "summary": "One-month history of blurred vision and floaters",
+              "duration": "1 month",
+              "onset": "November 2020",
+              "associated_symptoms": [
+                "blurred vision",
+                "floaters"
+              ]
+            }
+          ]
+        }
+      }
+    },
+    {
+      "id": "N2",
+      "label": "Step 2",
+      "customData": {
+        "node_id": "B",
+        "node_step_index": 1,
+        "content": "Patient was treated with four cycles of combined chemo-immunotherapy with carboplatin, etoposide, and durvalumab, starting in April 2020 and then continued maintenance durvalumab treatment, receiving a total of eight cycles by November 2020. Both clinical and radiological remissions were achieved. She presented to the clinic after having received the eighth cycle of durvalumab.",
+        "clinical_data": {
+          "medications": [
+            {
+              "drug": "C0007139",
+              "dosage": null,
+              "frequency": null,
+              "modality": "IV",
+              "start_date": "2020-04",
+              "end_date": null,
+              "indication": null
+            },
+            {
+              "drug": "C0015089",
+              "dosage": null,
+              "frequency": null,
+              "modality": "IV",
+              "start_date": "2020-04",
+              "end_date": null,
+              "indication": null
+            },
+            {
+              "drug": "C4063347",
+              "dosage": null,
+              "frequency": null,
+              "modality": "IV",
+              "start_date": "2020-04",
+              "end_date": "2020-11",
+              "indication": null
+            }
+          ]
+        }
+      }
+    },
+    {
+      "id": "N3",
+      "label": "Step 3",
+      "customData": {
+        "node_id": "C",
+        "node_step_index": 2,
+        "content": "Ophthalmic examination revealed aqueous cells 1+ and vitreous cells 1+ as well as bilateral oedema of the optic discs. Best-corrected decimal visual acuity (BCVA) was 0.7 and 0.8 for the right and left eye, respectively. Fundoscopy at presentation, on one-week and five-week follow-up showed diminishment of vitreous haze and regression of optic disc swelling. Bilateral optic nerve drusen were revealed on fundus autofluorescence (FAF) and confirmed on ocular ultrasound and optical coherence tomography (OCT).",
+        "clinical_data": {
+          "imaging": [
+            {
+              "type": "Fundus Autofluorescence",
+              "body_part": "Eye",
+              "modality": "other",
+              "finding": "Bilateral optic nerve drusen",
+              "date": null
+            },
+            {
+              "type": "Ocular ultrasound",
+              "body_part": "Eye",
+              "modality": "Ultrasound",
+              "finding": "Bilateral optic nerve drusen",
+              "date": null
+            },
+            {
+              "type": "Optical coherence tomography",
+              "body_part": "Eye",
+              "modality": "OCT",
+              "finding": "Bilateral optic nerve drusen",
+              "date": null
+            }
+          ],
+          "vitals": [
+            {
+              "type": "Visual Acuity",
+              "value": "0.7",
+              "unit": "decimal",
+              "timestamp": null
+            },
+            {
+              "type": "Visual Acuity",
+              "value": "0.8",
+              "unit": "decimal",
+              "timestamp": null
+            }
+          ],
+          "ROS": [
+            {
+              "system": "ocular",
+              "findings": [
+                "Aqueous cells 1+",
+                "Vitreous cells 1+",
+                "Bilateral oedema of the optic discs",
+                "Diminishment of vitreous haze",
+                "Regression of optic disc swelling"
+              ]
+            }
+          ]
+        }
+      }
+    },
+    {
+      "id": "N4",
+      "label": "Step 4",
+      "customData": {
+        "node_id": "D",
+        "node_step_index": 3,
+        "content": "Optical coherence tomography (OCT) of optic discs at presentation and on a five-week follow-up showed no alteration in optic disc drusen size. Fluorescein angiography (FA) at presentation showed contrast blockage in the upper temporal part of the right optic disc corresponding to a peripapillary haemorrhage and hypofluorescent dots corresponded to hyperreflective spots on optical coherence tomography (OCT).",
+        "clinical_data": {
+          "imaging": [
+            {
+              "type": "Optical coherence tomography",
+              "body_part": "Optic disc",
+              "modality": "OCT",
+              "finding": "no alteration in optic disc drusen size",
+              "date": null
+            },
+            {
+              "type": "Fluorescein angiography",
+              "body_part": "Optic disc",
+              "modality": "other",
+              "finding": "contrast blockage in the upper temporal part of the right optic disc corresponding to a peripapillary haemorrhage and hypofluorescent dots corresponded to hyperreflective spots on optical coherence tomography (OCT)",
+              "date": null
+            }
+          ]
+        }
+      }
+    },
+    {
+      "id": "N5",
+      "label": "Step 5",
+      "customData": {
+        "node_id": "E",
+        "node_step_index": 4,
+        "content": "Fluorescein angiography five weeks on methylprednisolone treatment showed diminishment of the contrast blockage in the upper temporal part of the right optic disc corresponding to a",
+        "clinical_data": {
+          "medications": [
+            {
+              "drug": "D008863",
+              "dosage": null,
+              "frequency": null,
+              "modality": null,
+              "start_date": null,
+              "end_date": null,
+              "indication": null
+            }
+          ],
+          "imaging": [
+            {
+              "type": "C0016337",
+              "body_part": "C0030069",
+              "modality": "other",
+              "finding": "diminishment of the contrast blockage",
+              "impression": null,
+              "date": null
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "edges": [
+    {
+      "from": "N1",
+      "to": "N2",
+      "data": {
+        "edge_id": "A_to_B",
+        "branch_flag": true,
+        "content": "Patient underwent chemo-immunotherapy with carboplatin, etoposide, and durvalumab, achieving clinical and radiological remission. The patient then continued maintenance durvalumab treatment."
+      }
+    },
+    {
+      "from": "N2",
+      "to": "N3",
+      "data": {
+        "edge_id": "B_to_C",
+        "branch_flag": true,
+        "content": "After receiving the eighth cycle of durvalumab, the patient presented with blurred vision and floaters. Ophthalmic examination revealed aqueous and vitreous cells, bilateral optic disc oedema, and optic nerve drusen."
+      }
+    },
+    {
+      "from": "N3",
+      "to": "N4",
+      "data": {
+        "edge_id": "C_to_D",
+        "branch_flag": true,
+        "content": "Further imaging with OCT and fluorescein angiography revealed no change in optic disc drusen size and contrast blockage in the right optic disc."
+      }
+    },
+    {
+      "from": "N4",
+      "to": "N5",
+      "data": {
+        "edge_id": "D_to_E",
+        "branch_flag": true,
+        "content": "Patient was treated with methylprednisolone."
+      }
+    }
+  ]
+}

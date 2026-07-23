@@ -1,0 +1,260 @@
+{
+  "nodes": [
+    {
+      "id": "N1",
+      "label": "Step 1",
+      "customData": {
+        "node_id": "A",
+        "node_step_index": 0,
+        "content": "2000: Patient V.M., a 51-year-old male, was diagnosed with diffuse bilateral pulmonary fibrosis secondary to systemic sclerosis.",
+        "clinical_data": {
+          "diagnoses": [
+            {
+              "code": "C0242091",
+              "label": "Pulmonary Fibrosis",
+              "status": "active",
+              "onset_date": "2000"
+            },
+            {
+              "code": "C0038782",
+              "label": "Systemic Sclerosis",
+              "status": "active",
+              "onset_date": "2000"
+            }
+          ]
+        },
+        "timestamp": "2000"
+      }
+    },
+    {
+      "id": "N2",
+      "label": "Step 2",
+      "customData": {
+        "node_id": "B",
+        "node_step_index": 1,
+        "content": "February 2021: Chest HR CT scan revealed a 27 mm nodule in the lower right lobe, lymphadenopathies in stations 7 (40\u2009\u00d7\u200925 mm), 2R (26\u2009\u00d7\u200927 mm), and 10R (25\u2009\u00d7\u200928 mm), and osteo-structural alterations at right III, IV, and V ribs.",
+        "clinical_data": {
+          "imaging": [
+            {
+              "type": "CT scan",
+              "body_part": "chest",
+              "modality": "CT",
+              "finding": "27 mm nodule in the lower right lobe, lymphadenopathies in stations 7 (40\u2009\u00d7\u200925 mm), 2R (26\u2009\u00d7\u200927 mm), and 10R (25\u2009\u00d7\u200928 mm), and osteo-structural alterations at right III, IV, and V ribs.",
+              "date": "2021-02"
+            },
+            {
+              "type": "Lung nodule",
+              "body_part": "Lower right lobe",
+              "modality": "CT",
+              "finding": "27 mm nodule",
+              "date": "2021-02"
+            },
+            {
+              "type": "Lymphadenopathy",
+              "body_part": "Station 7",
+              "modality": "CT",
+              "finding": "40 x 25 mm",
+              "date": "2021-02"
+            },
+            {
+              "type": "Lymphadenopathy",
+              "body_part": "Station 2R",
+              "modality": "CT",
+              "finding": "26 x 27 mm",
+              "date": "2021-02"
+            },
+            {
+              "type": "Lymphadenopathy",
+              "body_part": "Station 10R",
+              "modality": "CT",
+              "finding": "25 x 28 mm",
+              "date": "2021-02"
+            },
+            {
+              "type": "Osteo-structural alterations",
+              "body_part": "Right III rib",
+              "modality": "CT",
+              "date": "2021-02"
+            },
+            {
+              "type": "Osteo-structural alterations",
+              "body_part": "Right IV rib",
+              "modality": "CT",
+              "date": "2021-02"
+            },
+            {
+              "type": "Osteo-structural alterations",
+              "body_part": "Right V rib",
+              "modality": "CT",
+              "date": "2021-02"
+            }
+          ]
+        },
+        "timestamp": "2021-02"
+      }
+    },
+    {
+      "id": "N3",
+      "label": "Step 3",
+      "customData": {
+        "node_id": "C",
+        "node_step_index": 2,
+        "content": "February 2021: FDG-PET scan confirmed metabolic activity in the nodule in the lower right lobe (SUV max 6.5), III right rib (SUV max 3.5), right sacral wing (SUV max 11.6), lymph node stations 3 (SUV max 7.2) and station 7 (SUV max 8.2).",
+        "clinical_data": {
+          "imaging": [
+            {
+              "type": "Fluorodeoxyglucose-PET",
+              "body_part": "lower right lobe",
+              "modality": "PET",
+              "finding": "metabolic activity in nodule",
+              "date": "2021-02"
+            },
+            {
+              "type": "Fluorodeoxyglucose-PET",
+              "body_part": "III right rib",
+              "modality": "PET",
+              "finding": "metabolic activity",
+              "date": "2021-02"
+            },
+            {
+              "type": "Fluorodeoxyglucose-PET",
+              "body_part": "right sacral wing",
+              "modality": "PET",
+              "finding": "metabolic activity",
+              "date": "2021-02"
+            },
+            {
+              "type": "Fluorodeoxyglucose-PET",
+              "body_part": "lymph node stations 3",
+              "modality": "PET",
+              "finding": "metabolic activity",
+              "date": "2021-02"
+            },
+            {
+              "type": "Fluorodeoxyglucose-PET",
+              "body_part": "station 7",
+              "modality": "PET",
+              "finding": "metabolic activity",
+              "date": "2021-02"
+            }
+          ]
+        },
+        "timestamp": "2021-02"
+      }
+    },
+    {
+      "id": "N4",
+      "label": "Step 4",
+      "customData": {
+        "node_id": "D",
+        "node_step_index": 3,
+        "content": "March 5th, 2021: Patient underwent EBUS and ultrasound revealed increased lymph node size at 4L, 4R and 7. Smears collected on stations 4L and 7 and a cryobiopsy on station 7.",
+        "clinical_data": {
+          "imaging": [
+            {
+              "type": "Endobronchial ultrasound",
+              "body_part": "Lymph node",
+              "modality": "Ultrasound",
+              "finding": "increased lymph node size at 4L, 4R and 7",
+              "date": "2021-03-05"
+            }
+          ],
+          "procedures": [
+            {
+              "name": "Endobronchial ultrasound",
+              "date": "2021-03-05",
+              "location": "4L, 4R and 7"
+            },
+            {
+              "name": "Smears collection",
+              "date": "2021-03-05",
+              "location": "4L and 7"
+            },
+            {
+              "name": "Cryobiopsy",
+              "date": "2021-03-05",
+              "location": "7"
+            }
+          ]
+        },
+        "timestamp": "2021-03-05"
+      }
+    },
+    {
+      "id": "N5",
+      "label": "Step 5",
+      "customData": {
+        "node_id": "E",
+        "node_step_index": 4,
+        "content": "March 13th",
+        "clinical_data": {}
+      }
+    }
+  ],
+  "edges": [
+    {
+      "from": "N1",
+      "to": "N2",
+      "data": {
+        "edge_id": "A_to_B",
+        "branch_flag": true,
+        "content": "Progression of pulmonary fibrosis and systemic sclerosis with new findings on chest HR CT scan.",
+        "transition_event": {
+          "trigger_type": "imaging",
+          "trigger_entities": [],
+          "change_type": "progression",
+          "target_domain": "imaging",
+          "timestamp": "2021-02"
+        }
+      }
+    },
+    {
+      "from": "N2",
+      "to": "N3",
+      "data": {
+        "edge_id": "B_to_C",
+        "branch_flag": true,
+        "content": "Further evaluation with FDG-PET scan to assess metabolic activity of the nodule and lymph nodes.",
+        "transition_event": {
+          "trigger_type": "imaging",
+          "trigger_entities": [],
+          "change_type": "addition",
+          "target_domain": "imaging",
+          "timestamp": "2021-02"
+        }
+      }
+    },
+    {
+      "from": "N3",
+      "to": "N4",
+      "data": {
+        "edge_id": "C_to_D",
+        "branch_flag": true,
+        "content": "EBUS and ultrasound to assess lymph node size and collect samples for analysis.",
+        "transition_event": {
+          "trigger_type": "procedure",
+          "trigger_entities": [],
+          "change_type": "addition",
+          "target_domain": "procedure",
+          "timestamp": "2021-03-05"
+        }
+      }
+    },
+    {
+      "from": "N4",
+      "to": "N5",
+      "data": {
+        "edge_id": "D_to_E",
+        "branch_flag": true,
+        "content": "Further evaluation and analysis following EBUS and ultrasound.",
+        "transition_event": {
+          "trigger_type": "spontaneous",
+          "trigger_entities": [],
+          "change_type": "other",
+          "target_domain": "diagnosis",
+          "timestamp": "2021-03-13"
+        }
+      }
+    }
+  ]
+}

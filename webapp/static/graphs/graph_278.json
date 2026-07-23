@@ -1,0 +1,660 @@
+{
+  "nodes": [
+    {
+      "id": "N1",
+      "label": "Step 1",
+      "customData": {
+        "node_id": "A",
+        "node_step_index": 0,
+        "content": "Middle-aged woman presented with a one-month history of breathing difficulties, chest pain, cough, fever, loss of appetite, and weight loss. She had no existing health conditions, no tuberculosis exposure, and no history of smoking or substance abuse. She lives in a rural area with her husband and two children.",
+        "clinical_data": {
+          "HPI": [
+            {
+              "summary": "Middle-aged woman presented with a one-month history of breathing difficulties, chest pain, cough, fever, loss of appetite, and weight loss.",
+              "duration": "P1M",
+              "onset": null,
+              "progression": "unknown",
+              "associated_symptoms": [
+                "C0009404",
+                "C0008031",
+                "C0010200",
+                "C0015967",
+                "C0024296",
+                "C0042061"
+              ],
+              "alleviating_factors": [],
+              "exacerbating_factors": []
+            }
+          ],
+          "social_history": [
+            {
+              "category": "smoking",
+              "status": "never",
+              "description": "no history of smoking"
+            },
+            {
+              "category": "drug use",
+              "status": "never",
+              "description": "no history of substance abuse"
+            },
+            {
+              "category": "housing",
+              "status": "current",
+              "description": "lives in a rural area with her husband and two children"
+            }
+          ]
+        }
+      }
+    },
+    {
+      "id": "N2",
+      "label": "Step 2",
+      "customData": {
+        "node_id": "B",
+        "node_step_index": 1,
+        "content": "Patient had no asbestos exposure in her living environment. Initial evaluation revealed elevated heart rate (tachycardia), normal blood pressure (normotension), slightly increased breathing rate (tachypnea), and normal blood oxygen saturation. No signs of anemia, clubbing, cyanosis, jaundice, or lymphadenopathy.",
+        "clinical_data": {
+          "vitals": [
+            {
+              "type": "Heart Rate",
+              "value": "elevated",
+              "unit": null
+            },
+            {
+              "type": "Blood Pressure",
+              "value": "normal",
+              "unit": null
+            },
+            {
+              "type": "Breathing Rate",
+              "value": "slightly increased",
+              "unit": null
+            },
+            {
+              "type": "Blood Oxygen Saturation",
+              "value": "normal",
+              "unit": null
+            }
+          ],
+          "social_history": [
+            {
+              "category": "environmental exposure",
+              "status": "never",
+              "description": "no asbestos exposure in her living environment"
+            }
+          ]
+        }
+      }
+    },
+    {
+      "id": "N3",
+      "label": "Step 3",
+      "customData": {
+        "node_id": "C",
+        "node_step_index": 2,
+        "content": "Physical examination revealed a dull note on percussion and reduced breath-sound intensity, suggesting right-sided pleural effusion. Thoracocentesis and antitubercular therapy were administered, but the patient's condition did not improve. Pleural fluid analysis showed low adenosine deaminase (ADA) and exudative pleural effusion. Pleural fluid analysis: Protein 5.48 g/dL, Sugar 148 mg/dL, Adenosine deaminase 34.3 IU/L, Lactate dehydrogenase 673 IU/L, Cytology Lymphocytes 95%, neutrophils 5%, Cellblock No atypical cells.",
+        "clinical_data": {
+          "vitals": [
+            {
+              "type": "T0006252",
+              "value": "dull",
+              "unit": "note",
+              "timestamp": null
+            },
+            {
+              "type": "T0005222",
+              "value": "reduced",
+              "unit": "intensity",
+              "timestamp": null
+            }
+          ],
+          "imaging": [
+            {
+              "type": "T0032349",
+              "body_part": "T0031341",
+              "modality": null,
+              "finding": "right-sided pleural effusion",
+              "impression": "right-sided pleural effusion",
+              "date": null
+            }
+          ],
+          "procedures": [
+            {
+              "name": "T0040022",
+              "approach": null,
+              "date": null,
+              "location": "T0031341",
+              "performed_by": null,
+              "outcome": null
+            }
+          ],
+          "labs": [
+            {
+              "test": "T0001516",
+              "value": "5.48",
+              "unit": "g/dL",
+              "flag": null,
+              "reference_range": null,
+              "timestamp": null
+            },
+            {
+              "test": "T0042522",
+              "value": "148",
+              "unit": "mg/dL",
+              "flag": null,
+              "reference_range": null,
+              "timestamp": null
+            },
+            {
+              "test": "T0001438",
+              "value": "34.3",
+              "unit": "IU/L",
+              "flag": null,
+              "reference_range": null,
+              "timestamp": null
+            },
+            {
+              "test": "T0023420",
+              "value": "673",
+              "unit": "IU/L",
+              "flag": null,
+              "reference_range": null,
+              "timestamp": null
+            }
+          ]
+        }
+      }
+    },
+    {
+      "id": "N4",
+      "label": "Step 4",
+      "customData": {
+        "node_id": "D",
+        "node_step_index": 3,
+        "content": "Contrast-enhanced CT chest imaging: Right-side moderate pleural effusion, thickening of the right pleura with noticeable nodularity, and a maximum thickness of 6 mm.",
+        "clinical_data": {
+          "imaging": [
+            {
+              "type": "Computed tomography",
+              "body_part": "Chest",
+              "modality": "CT",
+              "finding": "Right-side moderate pleural effusion, thickening of the right pleura with noticeable nodularity",
+              "impression": "Right-side moderate pleural effusion, thickening of the right pleura with noticeable nodularity, and a maximum thickness of 6 mm."
+            }
+          ]
+        }
+      }
+    },
+    {
+      "id": "N5",
+      "label": "Step 5",
+      "customData": {
+        "node_id": "E",
+        "node_step_index": 4,
+        "content": "Medical thoracoscopy with pleural biopsy was performed.",
+        "clinical_data": {
+          "procedures": [
+            {
+              "name": "Thoracoscopy",
+              "approach": "endoscopic",
+              "date": null,
+              "location": "pleural cavity",
+              "performed_by": null,
+              "outcome": null
+            },
+            {
+              "name": "Biopsy",
+              "approach": "percutaneous",
+              "date": null,
+              "location": "pleura",
+              "performed_by": null,
+              "outcome": null
+            }
+          ]
+        }
+      }
+    },
+    {
+      "id": "N6",
+      "label": "Step 6",
+      "customData": {
+        "node_id": "F",
+        "node_step_index": 5,
+        "content": "Thoracoscopy revealed whitish to yellowish nodules. Pleural biopsy was performed. Histopathology of pleural biopsy showed atypical cells in parietal pleura (hematoxylin and eosin staining, 40X magnification). Immunohistochemical markers were positive for WT1 and calretinin and negative for napsin, TTF-1, p40, and PAX8. Immunohistochemistry showed nuclear positivity with WT1.",
+        "clinical_data": {
+          "procedures": [
+            {
+              "name": "Thoracoscopy",
+              "approach": "endoscopic",
+              "date": null,
+              "location": "pleural cavity",
+              "performed_by": null,
+              "outcome": null
+            },
+            {
+              "name": "Biopsy of pleura",
+              "approach": "percutaneous",
+              "date": null,
+              "location": "pleura",
+              "performed_by": null,
+              "outcome": null
+            }
+          ],
+          "imaging": [
+            {
+              "type": "nodule",
+              "body_part": "pleura",
+              "modality": null,
+              "finding": "whitish to yellowish nodules",
+              "impression": null,
+              "date": null
+            }
+          ],
+          "labs": [
+            {
+              "test": "Hematoxylin and eosin staining",
+              "value": "atypical cells",
+              "unit": null,
+              "flag": "abnormal",
+              "reference_range": null,
+              "timestamp": null
+            },
+            {
+              "test": "WT1 immunohistochemical marker",
+              "value": "positive",
+              "unit": null,
+              "flag": "abnormal",
+              "reference_range": null,
+              "timestamp": null
+            },
+            {
+              "test": "Calretinin immunohistochemical marker",
+              "value": "positive",
+              "unit": null,
+              "flag": "abnormal",
+              "reference_range": null,
+              "timestamp": null
+            },
+            {
+              "test": "Napsin immunohistochemical marker",
+              "value": "negative",
+              "unit": null,
+              "flag": "normal",
+              "reference_range": null,
+              "timestamp": null
+            },
+            {
+              "test": "TTF-1 immunohistochemical marker",
+              "value": "negative",
+              "unit": null,
+              "flag": "normal",
+              "reference_range": null,
+              "timestamp": null
+            },
+            {
+              "test": "p40 immunohistochemical marker",
+              "value": "negative",
+              "unit": null,
+              "flag": "normal",
+              "reference_range": null,
+              "timestamp": null
+            },
+            {
+              "test": "PAX8 immunohistochemical marker",
+              "value": "negative",
+              "unit": null,
+              "flag": "normal",
+              "reference_range": null,
+              "timestamp": null
+            }
+          ]
+        }
+      }
+    },
+    {
+      "id": "N7",
+      "label": "Step 7",
+      "customData": {
+        "node_id": "G",
+        "node_step_index": 6,
+        "content": "Histopathology of parietal pleural biopsy confirmed epithelioid malignant mesothelioma.",
+        "clinical_data": {
+          "diagnoses": [
+            {
+              "code": "C0025207",
+              "label": "Malignant mesothelioma",
+              "status": "active",
+              "onset_date": null
+            }
+          ],
+          "procedures": [
+            {
+              "name": "C0151758",
+              "approach": "other",
+              "date": null,
+              "location": "Parietal pleura",
+              "performed_by": null,
+              "outcome": null
+            }
+          ]
+        }
+      }
+    },
+    {
+      "id": "N8",
+      "label": "Step 8",
+      "customData": {
+        "node_id": "H",
+        "node_step_index": 7,
+        "content": "FDG-PET/CT: Metabolically active diffused right pleural thickening, nodules in the right lung parenchyma, metabolically active peritoneal deposits, and mediastinal, retroperitoneal, axillary, and right supraclavicular lymphadenopathy.",
+        "clinical_data": {
+          "imaging": [
+            {
+              "type": "Positron emission tomography/computed tomography",
+              "body_part": "pleura",
+              "modality": "PET",
+              "finding": "diffused right pleural thickening",
+              "date": null
+            },
+            {
+              "type": "Positron emission tomography/computed tomography",
+              "body_part": "lung parenchyma",
+              "modality": "PET",
+              "finding": "nodules in the right lung parenchyma",
+              "date": null
+            },
+            {
+              "type": "Positron emission tomography/computed tomography",
+              "body_part": "peritoneum",
+              "modality": "PET",
+              "finding": "metabolically active peritoneal deposits",
+              "date": null
+            },
+            {
+              "type": "Positron emission tomography/computed tomography",
+              "body_part": "mediastinum",
+              "modality": "PET",
+              "finding": "mediastinal lymphadenopathy",
+              "date": null
+            },
+            {
+              "type": "Positron emission tomography/computed tomography",
+              "body_part": "retroperitoneum",
+              "modality": "PET",
+              "finding": "retroperitoneal lymphadenopathy",
+              "date": null
+            },
+            {
+              "type": "Positron emission tomography/computed tomography",
+              "body_part": "axilla",
+              "modality": "PET",
+              "finding": "axillary lymphadenopathy",
+              "date": null
+            },
+            {
+              "type": "Positron emission tomography/computed tomography",
+              "body_part": "supraclavicular region",
+              "modality": "PET",
+              "finding": "right supraclavicular lymphadenopathy",
+              "date": null
+            }
+          ]
+        }
+      }
+    },
+    {
+      "id": "N9",
+      "label": "Step 9",
+      "customData": {
+        "node_id": "I",
+        "node_step_index": 8,
+        "content": "Diagnosis: Synchronous pleural and peritoneal mesothelioma, stage IV.",
+        "clinical_data": {
+          "diagnoses": [
+            {
+              "code": "C0340553",
+              "label": "Mesothelioma",
+              "status": "active"
+            }
+          ]
+        }
+      }
+    },
+    {
+      "id": "N10",
+      "label": "Step 10",
+      "customData": {
+        "node_id": "J",
+        "node_step_index": 9,
+        "content": "Treatment: Chemotherapy with carboplatin and pemetrexed initiated.",
+        "clinical_data": {
+          "medications": [
+            {
+              "drug": "C0293853",
+              "dosage": null,
+              "frequency": null,
+              "modality": null,
+              "start_date": null,
+              "end_date": null,
+              "indication": null
+            },
+            {
+              "drug": "C0697749",
+              "dosage": null,
+              "frequency": null,
+              "modality": null,
+              "start_date": null,
+              "end_date": null,
+              "indication": null
+            }
+          ],
+          "procedures": [
+            {
+              "name": "C0007323",
+              "approach": null,
+              "date": null,
+              "location": null,
+              "performed_by": null,
+              "outcome": null
+            }
+          ]
+        }
+      }
+    },
+    {
+      "id": "N11",
+      "label": "Step 11",
+      "customData": {
+        "node_id": "K",
+        "node_step_index": 10,
+        "content": "Patient is undergoing chemotherapy with carboplatin 350 mg and pemetrexed 600 mg every three weeks. Two cycles have been completed. Regular follow-up visits are scheduled every three weeks for chemotherapy administration. The patient is able to perform routine activities.",
+        "clinical_data": {
+          "medications": [
+            {
+              "drug": "C0007145",
+              "dosage": "350 mg",
+              "frequency": "every three weeks",
+              "modality": "IV",
+              "indication": "Neoplasm",
+              "start_date": null,
+              "end_date": null
+            },
+            {
+              "drug": "C0859460",
+              "dosage": "600 mg",
+              "frequency": "every three weeks",
+              "modality": "IV",
+              "indication": "Neoplasm",
+              "start_date": null,
+              "end_date": null
+            }
+          ],
+          "procedures": [
+            {
+              "name": "C0009264",
+              "date": null,
+              "location": null,
+              "performed_by": null,
+              "outcome": null,
+              "approach": null
+            }
+          ],
+          "functional_status": [
+            {
+              "domain": "ADLs",
+              "description": "able to perform routine activities"
+            }
+          ]
+        }
+      }
+    },
+    {
+      "id": "N12",
+      "label": "Step 12",
+      "customData": {
+        "node_id": "L",
+        "node_step_index": 11,
+        "content": "CT scans revealed anomalies in the pleura and peritoneum. Medical thoracoscopy enabled the retrieval of pleural tissue for biopsy. Histopathological examination and immunohistochemistry confirmed the diagnosis. Intercostal tube-guided drainage of pleural fluid provided symptom relief. Diagnosis was confirmed within two weeks of admission and clinical stability was",
+        "clinical_data": {
+          "imaging": [
+            {
+              "type": "CT scan",
+              "body_part": "Pleura",
+              "modality": "CT",
+              "finding": "anomalies"
+            },
+            {
+              "type": "CT scan",
+              "body_part": "Peritoneum",
+              "modality": "CT",
+              "finding": "anomalies"
+            }
+          ],
+          "procedures": [
+            {
+              "name": "Medical thoracoscopy",
+              "approach": "endoscopic",
+              "location": "Pleura",
+              "outcome": "retrieval of pleural tissue for biopsy"
+            },
+            {
+              "name": "Intercostal tube-guided drainage",
+              "location": "Pleura",
+              "outcome": "symptom relief"
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "edges": [
+    {
+      "from": "N1",
+      "to": "N2",
+      "data": {
+        "edge_id": "A_to_B",
+        "branch_flag": true,
+        "content": "Patient transitioned from initial presentation to initial evaluation."
+      }
+    },
+    {
+      "from": "N2",
+      "to": "N3",
+      "data": {
+        "edge_id": "B_to_C",
+        "branch_flag": true,
+        "content": "Patient transitioned from initial evaluation to physical examination and thoracocentesis."
+      }
+    },
+    {
+      "from": "N3",
+      "to": "N4",
+      "data": {
+        "edge_id": "C_to_D",
+        "branch_flag": true,
+        "content": "Patient transitioned from thoracocentesis to CT chest imaging."
+      }
+    },
+    {
+      "from": "N4",
+      "to": "N5",
+      "data": {
+        "edge_id": "D_to_E",
+        "branch_flag": true,
+        "content": "Patient transitioned from CT chest imaging to medical thoracoscopy with pleural biopsy."
+      }
+    },
+    {
+      "from": "N5",
+      "to": "N6",
+      "data": {
+        "edge_id": "E_to_F",
+        "branch_flag": true,
+        "content": "Patient transitioned from medical thoracoscopy with pleural biopsy to thoracoscopy and histopathology of pleural biopsy."
+      }
+    },
+    {
+      "from": "N6",
+      "to": "N7",
+      "data": {
+        "edge_id": "F_to_G",
+        "branch_flag": true,
+        "content": "Patient transitioned from histopathology of pleural biopsy to confirmation of epithelioid malignant mesothelioma."
+      }
+    },
+    {
+      "from": "N7",
+      "to": "N8",
+      "data": {
+        "edge_id": "G_to_H",
+        "branch_flag": true,
+        "content": "Patient transitioned from diagnosis of epithelioid malignant mesothelioma to FDG-PET/CT imaging."
+      }
+    },
+    {
+      "from": "N8",
+      "to": "N9",
+      "data": {
+        "edge_id": "H_to_I",
+        "branch_flag": true,
+        "content": "Patient transitioned from FDG-PET/CT imaging to diagnosis of synchronous pleural and peritoneal mesothelioma, stage IV."
+      }
+    },
+    {
+      "from": "N9",
+      "to": "N10",
+      "data": {
+        "edge_id": "I_to_J",
+        "branch_flag": true,
+        "content": "Patient transitioned from diagnosis of synchronous pleural and peritoneal mesothelioma to initiation of chemotherapy with carboplatin and pemetrexed.",
+        "transition_event": {
+          "trigger_type": "medication_change",
+          "trigger_entities": [
+            "C0293853",
+            "C0697749"
+          ],
+          "change_type": "addition",
+          "target_domain": "medication"
+        }
+      }
+    },
+    {
+      "from": "N10",
+      "to": "N11",
+      "data": {
+        "edge_id": "J_to_K",
+        "branch_flag": true,
+        "content": "Patient transitioned from initiation of chemotherapy to undergoing chemotherapy with carboplatin and pemetrexed every three weeks."
+      }
+    },
+    {
+      "from": "N11",
+      "to": "N12",
+      "data": {
+        "edge_id": "K_to_L",
+        "branch_flag": true,
+        "content": "Patient transitioned from undergoing chemotherapy to CT scans revealing anomalies in the pleura and peritoneum."
+      }
+    }
+  ]
+}

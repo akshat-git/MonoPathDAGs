@@ -1,0 +1,7 @@
+In November 2019, a 37-year-old woman was diagnosed with left lung adenocarcinoma with hilar mediastinal lymph node, left supraspinal lymph node, and extensive bone metastases (cT4N3M1c, stage IVB). A baseline chest CT scan and head MRI were performed at the time of diagnosis. Tumor tissue next-generation sequencing (NGS) revealed an EGFR exon 18 p.G719S mutation and an EGFR exon 20 p.S768I mutation. Based on this mutation profile, the patient was started on first-line afatinib (40 mg daily orally).
+
+After 10 months of afatinib treatment, the patient experienced therapeutic failure. NGS revealed the retention of EGFR exon 18 p.G719S, EGFR exon 20 p.S768I, and the emergence of EGFR exon 20 p.C797S. Notably, the patient did not exhibit the T790M mutation after progressing on afatinib.
+
+In October 2020, after a 10-month period of stability, the patient developed new brain lesions. While the lung lesion showed stable disease (SD), the head lesions showed a partial response (PR) to afatinib treatment.
+
+The patient was then treated with second-line osimertinib (80 mg daily orally). However, by February 2021, the patient’s brain lesions continued to deteriorate. Consequently, treatment was reverted to third-line afatinib. While the lung lesion remained stable (SD), the head lesions showed a partial response (PR) to osimertinib treatment.

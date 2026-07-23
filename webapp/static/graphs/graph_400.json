@@ -1,0 +1,370 @@
+{
+  "nodes": [
+    {
+      "id": "N1",
+      "label": "Step 1",
+      "customData": {
+        "node_id": "A",
+        "node_step_index": 0,
+        "content": "76-year-old man admitted to hospital with cough for several months. History of smoking 20 cigarettes per day for >30 years, quit 2 years prior. No family history of genetic disease or tumor. Routine blood, fecal, and urine tests normal.",
+        "clinical_data": {
+          "social_history": [
+            {
+              "category": "smoking",
+              "status": "past",
+              "description": "20 cigarettes per day for >30 years, quit 2 years prior"
+            }
+          ],
+          "HPI": [
+            {
+              "summary": "cough for several months",
+              "duration": "several months"
+            }
+          ]
+        }
+      }
+    },
+    {
+      "id": "N2",
+      "label": "Step 2",
+      "customData": {
+        "node_id": "B",
+        "node_step_index": 1,
+        "content": "Comprehensive evaluations of cardiac, hepatic, renal, pulmonary, coagulation, and electrolyte functions showed no significant abnormalities. Tumor markers, including CEA, Cyfra21-1, and SCC, were within normal ranges. Physical examination indicated a Karnofsky Performance Status (KPS) of 80%, with less than 5% weight loss over three months. Contrasted CT scan revealed a 5cm x 3cm mass in the lower lobe of the right lung with uneven enhancement.",
+        "clinical_data": {
+          "vitals": [
+            {
+              "type": "Karnofsky Performance Status",
+              "value": "80",
+              "unit": "%"
+            },
+            {
+              "type": "Weight loss",
+              "value": "5",
+              "unit": "%",
+              "duration": "3 months"
+            }
+          ],
+          "imaging": [
+            {
+              "type": "Mass",
+              "body_part": "Lower lobe of the right lung",
+              "modality": "CT",
+              "finding": "5cm x 3cm mass with uneven enhancement"
+            }
+          ]
+        }
+      }
+    },
+    {
+      "id": "N3",
+      "label": "Step 3",
+      "customData": {
+        "node_id": "C",
+        "node_step_index": 2,
+        "content": "PET/CT and cranial MRI showed no distant metastasis. No mediastinal lymph node enlargement.",
+        "clinical_data": {
+          "imaging": [
+            {
+              "type": "Positron emission tomography",
+              "body_part": "entire body",
+              "modality": "PET",
+              "finding": "no distant metastasis",
+              "date": null
+            },
+            {
+              "type": "Computed tomography",
+              "body_part": "entire body",
+              "modality": "CT",
+              "finding": "no distant metastasis",
+              "date": null
+            },
+            {
+              "type": "Magnetic resonance imaging",
+              "body_part": "cranium",
+              "modality": "MRI",
+              "finding": "no distant metastasis",
+              "date": null
+            },
+            {
+              "type": "Lymph node examination",
+              "body_part": "mediastinum",
+              "modality": null,
+              "finding": "no mediastinal lymph node enlargement",
+              "date": null
+            }
+          ]
+        }
+      }
+    },
+    {
+      "id": "N4",
+      "label": "Step 4",
+      "customData": {
+        "node_id": "D",
+        "node_step_index": 3,
+        "content": "Biopsy showed LUSC (Lung Squamous Cell Carcinoma). Clinical staging T2bN0M0 IIA.",
+        "clinical_data": {
+          "diagnoses": [
+            {
+              "code": "C0007132",
+              "label": "Squamous cell carcinoma of lung",
+              "status": "active"
+            }
+          ],
+          "imaging": [
+            {
+              "type": "imaging",
+              "body_part": "lung",
+              "modality": "Biopsy",
+              "finding": "Lung Squamous Cell Carcinoma",
+              "impression": "Lung Squamous Cell Carcinoma"
+            }
+          ]
+        }
+      }
+    },
+    {
+      "id": "N5",
+      "label": "Step 5",
+      "customData": {
+        "node_id": "E",
+        "node_step_index": 4,
+        "content": "Patient and family refused surgery, radiotherapy, chemotherapy and immune checkpoint inhibitor treatment.",
+        "clinical_data": {}
+      }
+    },
+    {
+      "id": "N6",
+      "label": "Step 6",
+      "customData": {
+        "node_id": "F",
+        "node_step_index": 5,
+        "content": "NGS analysis revealed FGFR3-IER5L fusion mutation (MAF 12.5%), NF1 shift mutation (MAF=13.4%), TP53 nonsense mutation (MAF=11.1%), CSF1R splicing mutation (MAF=13.7%) and ROS1 exon 34 missense mutation (MAF=15.4%). Tumor mutation burden (TMB) of 5.3 mut/Mb and microsatellite stability (MSS).",
+        "clinical_data": {
+          "labs": [
+            {
+              "test": "Tumor mutation burden",
+              "value": "5.3",
+              "unit": "mut/Mb"
+            },
+            {
+              "test": "Microsatellite stability",
+              "value": "MSS"
+            }
+          ],
+          "diagnoses": [
+            {
+              "code": "FGFR3-IER5L fusion mutation",
+              "label": "FGFR3-IER5L fusion mutation",
+              "status": "active"
+            },
+            {
+              "code": "NF1 shift mutation",
+              "label": "NF1 shift mutation",
+              "status": "active"
+            },
+            {
+              "code": "TP53 nonsense mutation",
+              "label": "TP53 nonsense mutation",
+              "status": "active"
+            },
+            {
+              "code": "CSF1R splicing mutation",
+              "label": "CSF1R splicing mutation",
+              "status": "active"
+            },
+            {
+              "code": "ROS1 exon 34 missense mutation",
+              "label": "ROS1 exon 34 missense mutation",
+              "status": "active"
+            }
+          ]
+        }
+      }
+    },
+    {
+      "id": "N7",
+      "label": "Step 7",
+      "customData": {
+        "node_id": "G",
+        "node_step_index": 6,
+        "content": "Patient showed a partial response to anlotinib single agent treatment.",
+        "clinical_data": {
+          "medications": [
+            {
+              "drug": "C1697479",
+              "indication": "Neoplasm (disease)",
+              "status": "active"
+            }
+          ]
+        }
+      }
+    },
+    {
+      "id": "N8",
+      "label": "Step 8",
+      "customData": {
+        "node_id": "H",
+        "node_step_index": 7,
+        "content": "PD-L1 TPS was 3% detected by 22C3 antibody.",
+        "clinical_data": {
+          "labs": [
+            {
+              "test": "PD-L1 Tumor Proportion Score",
+              "value": "3%",
+              "unit": "%",
+              "flag": "unknown"
+            }
+          ]
+        }
+      }
+    },
+    {
+      "id": "N9",
+      "label": "Step 9",
+      "customData": {
+        "node_id": "I",
+        "node_step_index": 8,
+        "content": "Patient declined treatment with FGFR inhibitors and was administered anlotinib 12 mg p.o. every morning (days 1-14, with a 21-day cycle).",
+        "clinical_data": {
+          "medications": [
+            {
+              "drug": "Anlotinib",
+              "dosage": "12 mg",
+              "frequency": "every morning",
+              "modality": "oral",
+              "start_date": null,
+              "end_date": null,
+              "indication": null
+            }
+          ]
+        }
+      }
+    },
+    {
+      "id": "N10",
+      "label": "Step 10",
+      "customData": {
+        "node_id": "J",
+        "node_step_index": 9,
+        "content": "After anlotinib treatment for 2 cycles, the patient achieved a partial response",
+        "clinical_data": {
+          "procedures": [
+            {
+              "name": "Anlotinib treatment",
+              "outcome": "Partial response"
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "edges": [
+    {
+      "from": "N1",
+      "to": "N2",
+      "data": {
+        "edge_id": "A_to_B",
+        "branch_flag": true,
+        "content": "Initial presentation and workup. Comprehensive evaluations of cardiac, hepatic, renal, pulmonary, coagulation, and electrolyte functions showed no significant abnormalities. Tumor markers, including CEA, Cyfra21-1, and SCC, were within normal ranges. Physical examination indicated a Karnofsky Performance Status (KPS) of 80%, with less than 5% weight loss over three months. Contrasted CT scan revealed a 5cm x 3cm mass in the lower lobe of the right lung with uneven enhancement."
+      }
+    },
+    {
+      "from": "N2",
+      "to": "N3",
+      "data": {
+        "edge_id": "B_to_C",
+        "branch_flag": true,
+        "content": "Further imaging to assess for metastasis. PET/CT and cranial MRI showed no distant metastasis. No mediastinal lymph node enlargement."
+      }
+    },
+    {
+      "from": "N3",
+      "to": "N4",
+      "data": {
+        "edge_id": "C_to_D",
+        "branch_flag": true,
+        "content": "Biopsy performed to determine cancer type. Biopsy showed LUSC (Lung Squamous Cell Carcinoma). Clinical staging T2bN0M0 IIA.",
+        "transition_event": {
+          "trigger_type": "procedure",
+          "trigger_entities": [
+            "C0005767"
+          ],
+          "change_type": "addition",
+          "target_domain": "diagnosis"
+        }
+      }
+    },
+    {
+      "from": "N4",
+      "to": "N5",
+      "data": {
+        "edge_id": "D_to_E",
+        "branch_flag": true,
+        "content": "Patient declined standard treatment options. Patient and family refused surgery, radiotherapy, chemotherapy and immune checkpoint inhibitor treatment."
+      }
+    },
+    {
+      "from": "N5",
+      "to": "N6",
+      "data": {
+        "edge_id": "E_to_F",
+        "branch_flag": true,
+        "content": "NGS analysis performed to identify potential targetable mutations. NGS analysis revealed FGFR3-IER5L fusion mutation (MAF 12.5%), NF1 shift mutation (MAF=13.4%), TP53 nonsense mutation (MAF=11.1%), CSF1R splicing mutation (MAF=13.7%) and ROS1 exon 34 missense mutation (MAF=15.4%). Tumor mutation burden (TMB) of 5.3 mut/Mb and microsatellite stability (MSS)."
+      }
+    },
+    {
+      "from": "N6",
+      "to": "N7",
+      "data": {
+        "edge_id": "F_to_G",
+        "branch_flag": true,
+        "content": "Patient showed a partial response to anlotinib single agent treatment."
+      }
+    },
+    {
+      "from": "N7",
+      "to": "N8",
+      "data": {
+        "edge_id": "G_to_H",
+        "branch_flag": true,
+        "content": "PD-L1 testing performed. PD-L1 TPS was 3% detected by 22C3 antibody."
+      }
+    },
+    {
+      "from": "N8",
+      "to": "N9",
+      "data": {
+        "edge_id": "H_to_I",
+        "branch_flag": true,
+        "content": "Treatment decision and medication administration. Patient declined treatment with FGFR inhibitors and was administered anlotinib 12 mg p.o. every morning (days 1-14, with a 21-day cycle).",
+        "transition_event": {
+          "trigger_type": "medication_change",
+          "trigger_entities": [
+            "C1697479"
+          ],
+          "change_type": "addition",
+          "target_domain": "medication"
+        }
+      }
+    },
+    {
+      "from": "N9",
+      "to": "N10",
+      "data": {
+        "edge_id": "I_to_J",
+        "branch_flag": true,
+        "content": "Treatment response after 2 cycles of anlotinib. After anlotinib treatment for 2 cycles, the patient achieved a partial response",
+        "transition_event": {
+          "trigger_type": "medication_change",
+          "trigger_entities": [
+            "C1697479"
+          ],
+          "change_type": "other",
+          "target_domain": "diagnosis"
+        }
+      }
+    }
+  ]
+}

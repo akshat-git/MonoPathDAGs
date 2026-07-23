@@ -1,0 +1,576 @@
+{
+  "nodes": [
+    {
+      "id": "N1",
+      "label": "Step 1",
+      "customData": {
+        "node_id": "A",
+        "node_step_index": 0,
+        "content": "34-year-old male with Bloom Syndrome (BS). Diagnosis of BS was delayed due to living in refugee camps in Honduras. In 1990, patient and family came to Canada as refugees. At age 13, presented to the hospital with short stature. At age 10, mother reported patient stopped growing. Examination revealed facial erythema, microcephaly, and delayed mental development.",
+        "clinical_data": {
+          "diagnoses": [
+            {
+              "code": "C0268327",
+              "label": "Bloom Syndrome",
+              "status": "active",
+              "onset_date": null
+            }
+          ],
+          "HPI": [
+            {
+              "summary": "Short stature since age 10",
+              "duration": "4 years",
+              "onset": "age 10",
+              "progression": "unknown"
+            }
+          ],
+          "social_history": [
+            {
+              "category": "housing",
+              "status": "past",
+              "description": "Lived in refugee camps in Honduras"
+            }
+          ],
+          "vitals": [
+            {
+              "type": "C0037201",
+              "value": "short",
+              "unit": null,
+              "timestamp": null
+            }
+          ],
+          "mental_status": [
+            {
+              "domain": "cognition",
+              "finding": "C0424298",
+              "timestamp": null
+            }
+          ]
+        }
+      }
+    },
+    {
+      "id": "N2",
+      "label": "Step 2",
+      "customData": {
+        "node_id": "B",
+        "node_step_index": 1,
+        "content": "Patient evaluated by medical genetics. Skin biopsy from left arm taken for cytogenetics; 103 cells examined showed three cell lines. Cultured fibroblasts by fluorescent banding showed a male.",
+        "clinical_data": {
+          "procedures": [
+            {
+              "name": "Biopsy of skin",
+              "approach": "percutaneous",
+              "date": null,
+              "location": "left arm",
+              "performed_by": null,
+              "outcome": null
+            }
+          ],
+          "labs": [
+            {
+              "test": "Cytogenetic analysis",
+              "value": "Three cell lines identified",
+              "unit": null,
+              "flag": "abnormal",
+              "reference_range": null,
+              "timestamp": null
+            },
+            {
+              "test": "Fluorescent banding of cultured fibroblasts",
+              "value": "Male",
+              "unit": null,
+              "flag": "normal",
+              "reference_range": null,
+              "timestamp": null
+            }
+          ]
+        }
+      }
+    },
+    {
+      "id": "N3",
+      "label": "Step 3",
+      "customData": {
+        "node_id": "C",
+        "node_step_index": 2,
+        "content": "Patient with Bloom Syndrome (BS) involved in a motor vehicle accident as a pedestrian.",
+        "clinical_data": {
+          "diagnoses": [
+            {
+              "code": "C0268332",
+              "label": "Bloom Syndrome",
+              "status": "active"
+            }
+          ]
+        }
+      }
+    },
+    {
+      "id": "N4",
+      "label": "Step 4",
+      "customData": {
+        "node_id": "D",
+        "node_step_index": 3,
+        "content": "January 2011, patient presented to trauma follow-up clinic and discovered a new mass on the left side of his neck. Physical examination revealed a mobile, 2-3 cm lymph node in the left posterior cervical chain that was tender to palpation.",
+        "clinical_data": {
+          "HPI": [
+            {
+              "summary": "New mass on the left side of neck discovered in January 2011",
+              "onset": "2011-01",
+              "associated_symptoms": [
+                "Tenderness to palpation"
+              ]
+            }
+          ],
+          "diagnoses": [
+            {
+              "code": "C0006236",
+              "label": "Cervical Lymphadenopathy",
+              "status": "active",
+              "onset_date": "2011-01"
+            }
+          ],
+          "physical_exam": [
+            {
+              "finding": "Mobile 2-3 cm lymph node in the left posterior cervical chain",
+              "location": "Left posterior cervical chain",
+              "size": "2-3 cm"
+            }
+          ]
+        }
+      }
+    },
+    {
+      "id": "N5",
+      "label": "Step 5",
+      "customData": {
+        "node_id": "E",
+        "node_step_index": 4,
+        "content": "January 2011, fine-needle aspiration biopsy of the left posterior cervical chain lymph node was suggestive of a reactive process (i.e., numerous and variable lymphocytes, neutrophils, and histiocytes).",
+        "clinical_data": {
+          "procedures": [
+            {
+              "name": "Fine needle aspiration biopsy",
+              "date": "2011-01",
+              "location": "left posterior cervical chain lymph node",
+              "outcome": "suggestive of a reactive process"
+            }
+          ],
+          "diagnoses": [
+            {
+              "code": "C0034503",
+              "label": "Reactive process",
+              "status": "suspected",
+              "onset_date": "2011-01"
+            }
+          ]
+        }
+      }
+    },
+    {
+      "id": "N6",
+      "label": "Step 6",
+      "customData": {
+        "node_id": "F",
+        "node_step_index": 5,
+        "content": "February 2011, Tru-Cut core needle biopsy was taken from the left posterior cervical chain lymph node for flow cytometric testing to confirm the absence of a B-cell lymphoproliferative disorder.",
+        "clinical_data": {
+          "procedures": [
+            {
+              "name": "Biopsy",
+              "approach": "percutaneous",
+              "date": "2011-02",
+              "location": "left posterior cervical chain lymph node",
+              "performed_by": "unknown",
+              "outcome": "unknown"
+            }
+          ],
+          "imaging": [
+            {
+              "type": "Lymph Node",
+              "body_part": "Cervical Lymph Nodes",
+              "modality": "Ultrasound",
+              "finding": "posterior cervical chain lymph node",
+              "impression": "unknown",
+              "date": "2011-02"
+            }
+          ],
+          "labs": [
+            {
+              "test": "Flow Cytometry",
+              "value": "unknown",
+              "unit": "unknown",
+              "flag": "unknown",
+              "reference_range": "unknown",
+              "timestamp": "2011-02"
+            }
+          ]
+        }
+      }
+    },
+    {
+      "id": "N7",
+      "label": "Step 7",
+      "customData": {
+        "node_id": "G",
+        "node_step_index": 6,
+        "content": "Biopsy stained positive for CD20, suggestive of B-cell lymphoproliferative disorder, but no definitive evidence of clonality based on kappa lambda staining.",
+        "clinical_data": {
+          "labs": [
+            {
+              "test": "CD20",
+              "value": "positive",
+              "flag": "positive"
+            },
+            {
+              "test": "kappa lambda staining",
+              "value": "no definitive evidence of clonality",
+              "flag": "abnormal"
+            }
+          ],
+          "diagnoses": [
+            {
+              "code": "C0520740",
+              "label": "B-cell lymphoproliferative disorder",
+              "status": "suspected"
+            }
+          ]
+        }
+      }
+    },
+    {
+      "id": "N8",
+      "label": "Step 8",
+      "customData": {
+        "node_id": "H",
+        "node_step_index": 7,
+        "content": "Staging investigations: CT chest, abdomen, and pelvis ordered. Bone marrow aspirate biopsy and cytogenetics ordered to look for more conclusive evidence of a B-cell malignancy.",
+        "clinical_data": {
+          "imaging": [
+            {
+              "type": "Computed tomography",
+              "body_part": "Chest",
+              "modality": "CT",
+              "finding": null,
+              "impression": null,
+              "date": null
+            },
+            {
+              "type": "Computed tomography",
+              "body_part": "Abdomen",
+              "modality": "CT",
+              "finding": null,
+              "impression": null,
+              "date": null
+            },
+            {
+              "type": "Computed tomography",
+              "body_part": "Pelvis",
+              "modality": "CT",
+              "finding": null,
+              "impression": null,
+              "date": null
+            }
+          ],
+          "procedures": [
+            {
+              "name": "Bone marrow aspiration",
+              "approach": "percutaneous",
+              "date": null,
+              "location": "bone marrow",
+              "performed_by": null,
+              "outcome": null
+            },
+            {
+              "name": "Biopsy",
+              "approach": "percutaneous",
+              "date": null,
+              "location": "bone marrow",
+              "performed_by": null,
+              "outcome": null
+            },
+            {
+              "name": "Cytogenetic analysis",
+              "approach": null,
+              "date": null,
+              "location": "bone marrow",
+              "performed_by": null,
+              "outcome": null
+            }
+          ]
+        }
+      }
+    },
+    {
+      "id": "N9",
+      "label": "Step 9",
+      "customData": {
+        "node_id": "I",
+        "node_step_index": 8,
+        "content": "Bone marrow aspirate, flow cytometry, and cytology were normal.",
+        "clinical_data": {
+          "labs": [
+            {
+              "test": "Bone marrow aspiration",
+              "value": "normal"
+            },
+            {
+              "test": "Flow cytometry",
+              "value": "normal"
+            },
+            {
+              "test": "Cytology",
+              "value": "normal"
+            }
+          ]
+        }
+      }
+    },
+    {
+      "id": "N10",
+      "label": "Step 10",
+      "customData": {
+        "node_id": "J",
+        "node_step_index": 9,
+        "content": "CT chest showed a 1.6 cm stable hilar lymph node and some non-pathological lymph nodes that did not meet the size criteria. CT chest showed pulmonary nodules that were relatively unchanged and subcentimetric from previous investigations.",
+        "clinical_data": {
+          "imaging": [
+            {
+              "type": "Mediastinal CT (Procedure)",
+              "body_part": "Hilar region",
+              "modality": "CT",
+              "finding": "1.6 cm stable hilar lymph node",
+              "date": null
+            },
+            {
+              "type": "Pulmonary CT",
+              "body_part": "Lung",
+              "modality": "CT",
+              "finding": "Pulmonary nodules that were relatively unchanged and subcentimetric from previous investigations.",
+              "date": null
+            }
+          ]
+        }
+      }
+    },
+    {
+      "id": "N11",
+      "label": "Step 11",
+      "customData": {
+        "node_id": "K",
+        "node_step_index": 10,
+        "content": "Pathology from the left neck node biopsy suggested low-grade B-cell lymphoma. Surveillance was the chosen treatment.",
+        "clinical_data": {
+          "diagnoses": [
+            {
+              "code": "C0242367",
+              "label": "Low Grade B-Cell Lymphoma",
+              "status": "active"
+            }
+          ],
+          "procedures": [
+            {
+              "name": "C0151758",
+              "approach": "percutaneous",
+              "location": "Neck",
+              "outcome": "C0007107"
+            }
+          ]
+        }
+      }
+    },
+    {
+      "id": "N12",
+      "label": "Step 12",
+      "customData": {
+        "node_id": "L",
+        "node_step_index": 11,
+        "content": "October 2011, patient presented with a one-month history of a persistent cough and yellow phlegm with no hemoptysis. October 2011, patient had significant dyspnea, which limited him from walking one block. Patient had a 14-pack-year smoking history but quit in 2010. Chest X-ray revealed hilar enlargement, vague left midlung opacity, and a slightly smaller left lung suggestive of early volume loss.",
+        "clinical_data": {
+          "HPI": [
+            {
+              "summary": "One-month history of persistent cough and yellow phlegm with no hemoptysis.",
+              "duration": "1 month",
+              "onset": "October 2011",
+              "progression": "unknown",
+              "associated_symptoms": [
+                "C0010200"
+              ]
+            },
+            {
+              "summary": "Significant dyspnea limiting walking one block.",
+              "onset": "October 2011",
+              "progression": "unknown",
+              "associated_symptoms": [
+                "C0013404"
+              ]
+            }
+          ],
+          "social_history": [
+            {
+              "category": "smoking",
+              "status": "past",
+              "description": "14-pack-year smoking history, quit in 2010"
+            }
+          ],
+          "imaging": [
+            {
+              "type": "C0205087",
+              "body_part": "C0008031",
+              "modality": "X-ray",
+              "finding": "Hilar enlargement, vague left midlung opacity, and a slightly smaller left lung suggestive of early volume loss.",
+              "impression": "Hilar enlargement, vague left midlung opacity, and a slightly smaller left lung suggestive of early volume loss.",
+              "date": "2011-10"
+            }
+          ]
+        }
+      }
+    },
+    {
+      "id": "N13",
+      "label": "Step 13",
+      "customData": {
+        "node_id": "M",
+        "node_step_index": 12,
+        "content": "October 21, 2011, CECT showed volume loss in the LUL",
+        "clinical_data": {
+          "imaging": [
+            {
+              "type": "Computed tomography examination",
+              "body_part": "Left upper lobe of lung",
+              "modality": "CT",
+              "finding": "volume loss",
+              "date": "2011-10-21"
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "edges": [
+    {
+      "from": "N1",
+      "to": "N2",
+      "data": {
+        "edge_id": "A_to_B",
+        "branch_flag": true,
+        "content": "Patient evaluated by medical genetics. Skin biopsy from left arm taken for cytogenetics; 103 cells examined showed three cell lines. Cultured fibroblasts by fluorescent banding showed a male.",
+        "transition_event": {
+          "trigger_type": "procedure",
+          "trigger_entities": [
+            "C0005738"
+          ],
+          "change_type": "addition",
+          "target_domain": "procedure"
+        }
+      }
+    },
+    {
+      "from": "N2",
+      "to": "N3",
+      "data": {
+        "edge_id": "B_to_C",
+        "branch_flag": true,
+        "content": "Patient with Bloom Syndrome (BS) involved in a motor vehicle accident as a pedestrian."
+      }
+    },
+    {
+      "from": "N3",
+      "to": "N4",
+      "data": {
+        "edge_id": "C_to_D",
+        "branch_flag": true,
+        "content": "January 2011, patient presented to trauma follow-up clinic and discovered a new mass on the left side of his neck. Physical examination revealed a mobile, 2-3 cm lymph node in the left posterior cervical chain that was tender to palpation.",
+        "transition_event": {
+          "trigger_type": "symptom_onset",
+          "trigger_entities": [
+            "C0006236"
+          ],
+          "change_type": "addition",
+          "target_domain": "diagnosis",
+          "timestamp": "2011-01"
+        }
+      }
+    },
+    {
+      "from": "N4",
+      "to": "N5",
+      "data": {
+        "edge_id": "D_to_E",
+        "branch_flag": true,
+        "content": "January 2011, fine-needle aspiration biopsy of the left posterior cervical chain lymph node was suggestive of a reactive process (i.e., numerous and variable lymphocytes, neutrophils, and histiocytes).",
+        "transition_event": {
+          "trigger_type": "procedure",
+          "trigger_entities": [
+            "C0176405"
+          ],
+          "change_type": "addition",
+          "target_domain": "procedure",
+          "timestamp": "2011-01"
+        }
+      }
+    },
+    {
+      "from": "N5",
+      "to": "N6",
+      "data": {
+        "edge_id": "E_to_F",
+        "branch_flag": true,
+        "content": "February 2011, Tru-Cut core needle biopsy was taken from the left posterior cervical chain lymph node for flow cytometric testing to confirm the absence of a B-cell lymphoproliferative disorder.",
+        "transition_event": {
+          "trigger_type": "procedure",
+          "trigger_entities": [
+            "C0005738"
+          ],
+          "change_type": "addition",
+          "target_domain": "procedure",
+          "timestamp": "2011-02"
+        }
+      }
+    },
+    {
+      "from": "N6",
+      "to": "N7",
+      "data": {
+        "edge_id": "F_to_G",
+        "branch_flag": true,
+        "content": "Biopsy stained positive for CD20, suggestive of B-cell lymphoproliferative disorder, but no definitive evidence of clonality based on kappa lambda staining.",
+        "transition_event": {
+          "trigger_type": "lab_change",
+          "trigger_entities": [
+            "C0009437"
+          ],
+          "change_type": "other",
+          "target_domain": "lab"
+        }
+      }
+    },
+    {
+      "from": "N7",
+      "to": "N8",
+      "data": {
+        "edge_id": "G_to_H",
+        "branch_flag": true,
+        "content": "Staging investigations: CT chest, abdomen, and pelvis ordered. Bone marrow aspirate biopsy and cytogenetics ordered to look for more conclusive evidence of a B-cell malignancy.",
+        "transition_event": {
+          "trigger_type": "procedure",
+          "trigger_entities": [
+            "C0005738"
+          ],
+          "change_type": "addition",
+          "target_domain": "procedure"
+        }
+      }
+    },
+    {
+      "from": "N8",
+      "to": "N9",
+      "data": {
+        "edge_id": "H_to_I",
+        "branch_flag": true,
+        "content": "Bone marrow aspirate, flow cytometry, and cytology were normal."
+      }
+    }
+  ]
+}

@@ -1,0 +1,439 @@
+{
+  "nodes": [
+    {
+      "id": "N1",
+      "label": "Step 1",
+      "customData": {
+        "node_id": "A",
+        "node_step_index": 0,
+        "content": "Physical exam revealed nodules in the right upper lung for 1 week. No symptoms or signs of respiratory disease in the past 3 months. No previous history of respiratory diseases such as recurrent wheezing, cough, expectoration, hemoptysis, infection, etc, and no person from a high-risk area of COVID-19. Thorax was symmetrical.",
+        "clinical_data": {
+          "HPI": [
+            {
+              "duration": "1 week",
+              "summary": "Nodules in the right upper lung",
+              "onset": null
+            }
+          ],
+          "ROS": [
+            {
+              "system": "respiratory",
+              "findings": [
+                "No symptoms or signs of respiratory disease in the past 3 months"
+              ]
+            }
+          ],
+          "diagnoses": [
+            {
+              "code": "R91.8",
+              "label": "Nodule in lung",
+              "status": "active",
+              "onset_date": null
+            }
+          ]
+        }
+      }
+    },
+    {
+      "id": "N2",
+      "label": "Step 2",
+      "customData": {
+        "node_id": "B",
+        "node_step_index": 1,
+        "content": "Chest CT scan showed nodules in the upper lobe apex of the right lung, with sclerosing alveolar cell tumor and carcinoid considered. Date: 2023 May 30",
+        "clinical_data": {
+          "imaging": [
+            {
+              "type": "CT of chest",
+              "body_part": "Lung",
+              "modality": "CT",
+              "finding": "nodules in the upper lobe apex of the right lung",
+              "impression": "sclerosing alveolar cell tumor and carcinoid considered",
+              "date": "2023-05-30"
+            }
+          ]
+        }
+      }
+    },
+    {
+      "id": "N3",
+      "label": "Step 3",
+      "customData": {
+        "node_id": "C",
+        "node_step_index": 2,
+        "content": "Admission diagnosis: right upper lung mass. Date: 2023 May 30",
+        "clinical_data": {
+          "diagnoses": [
+            {
+              "code": "C0346170",
+              "label": "Lung mass",
+              "status": "active",
+              "onset_date": "2023-05-30"
+            }
+          ]
+        }
+      }
+    },
+    {
+      "id": "N4",
+      "label": "Step 4",
+      "customData": {
+        "node_id": "D",
+        "node_step_index": 3,
+        "content": "Chest CT showed soft tissue density nodules (23 x 16 x 19 mm) in right upper lung with lobulated edges, pleural traction depression, mild to moderate uneven enhancement, and small mediastinum and hilar lymph nodes. Imaging diagnosis: right upper lung nodules, likely inflammatory lesions. Date: Same day as admission",
+        "clinical_data": {
+          "imaging": [
+            {
+              "type": "Nodule",
+              "body_part": "Right upper lung",
+              "modality": "CT",
+              "finding": "Soft tissue density nodules (23 x 16 x 19 mm) in right upper lung with lobulated edges, pleural traction depression, mild to moderate uneven enhancement, and small mediastinum and hilar lymph nodes",
+              "impression": "Likely inflammatory lesions",
+              "date": "Same day as admission"
+            }
+          ]
+        }
+      }
+    },
+    {
+      "id": "N5",
+      "label": "Step 5",
+      "customData": {
+        "node_id": "E",
+        "node_step_index": 4,
+        "content": "Chest MRI showed T1 and slightly longer T2 signal nodules (23 x 16 x 19 mm) in the right upper lung with lobulated edges, high intensity on DWI and ADC, adjacent pleural thickening, no enlargement of mediastinal and hilar lymph nodes, and a small amount of bilateral pleural effusion. Date: Day after admission",
+        "clinical_data": {
+          "imaging": [
+            {
+              "type": "nodule",
+              "body_part": "lung",
+              "modality": "MRI",
+              "finding": "T1 and slightly longer T2 signal nodules (23 x 16 x 19 mm) in the right upper lung with lobulated edges, high intensity on DWI and ADC, adjacent pleural thickening, no enlargement of mediastinal and hilar lymph nodes, and a small amount of bilateral pleural effusion",
+              "date": "Day after admission"
+            },
+            {
+              "type": "Pleural Effusion",
+              "body_part": "Pleura",
+              "modality": "MRI",
+              "finding": "small amount of bilateral pleural effusion",
+              "date": "Day after admission"
+            },
+            {
+              "type": "Pleural Thickening",
+              "body_part": "Pleura",
+              "modality": "MRI",
+              "finding": "adjacent pleural thickening",
+              "date": "Day after admission"
+            }
+          ]
+        }
+      }
+    },
+    {
+      "id": "N6",
+      "label": "Step 6",
+      "customData": {
+        "node_id": "F",
+        "node_step_index": 5,
+        "content": "Blood test showed WBC 9.34 x 10^9/L, N 0.77%, L 0.12%. Imaging diagnosis: Nodules in the right upper lung tend to be inflammatory lesions, and tumors were excluded by close follow-up; Bilateral small amount of pleural effusion. CT images showed oval soft tissue density nodules in the right upper lung with mild to moderate uneven delayed enhancement and slight thickening of adjacent pleura on enhanced scan.",
+        "clinical_data": {
+          "labs": [
+            {
+              "test": "White blood cell count",
+              "value": "9.34",
+              "unit": "x 10^9/L",
+              "flag": "normal"
+            },
+            {
+              "test": "Neutrophils Percent",
+              "value": "0.77",
+              "unit": "%",
+              "flag": "normal"
+            },
+            {
+              "test": "Lymphocytes Percent",
+              "value": "0.12",
+              "unit": "%",
+              "flag": "abnormal"
+            }
+          ],
+          "imaging": [
+            {
+              "type": "Nodule",
+              "body_part": "Right upper lung",
+              "modality": "CT",
+              "finding": "Oval soft tissue density nodules with mild to moderate uneven delayed enhancement and slight thickening of adjacent pleura",
+              "impression": "Nodules in the right upper lung tend to be inflammatory lesions, and tumors were excluded by close follow-up; Bilateral small amount of pleural effusion."
+            },
+            {
+              "type": "Pleural Effusion",
+              "body_part": "Bilateral",
+              "modality": "CT",
+              "finding": "Small amount"
+            }
+          ]
+        }
+      }
+    },
+    {
+      "id": "N7",
+      "label": "Step 7",
+      "customData": {
+        "node_id": "G",
+        "node_step_index": 6,
+        "content": "MRI of right upper lung nodules showed hyperintensity on DWI and ADC. Small amount of pleural effusion present.",
+        "clinical_data": {
+          "imaging": [
+            {
+              "type": "Lung nodule",
+              "body_part": "Lung",
+              "modality": "MRI",
+              "finding": "Hyperintensity on DWI and ADC",
+              "impression": "Small amount of pleural effusion present",
+              "date": null
+            }
+          ]
+        }
+      }
+    },
+    {
+      "id": "N8",
+      "label": "Step 8",
+      "customData": {
+        "node_id": "H",
+        "node_step_index": 7,
+        "content": "Patient underwent single-port thoracoscopic lobectomy. Post-operative, the endotracheal tube was removed and patient returned to the ward awake.",
+        "clinical_data": {
+          "procedures": [
+            {
+              "name": "Thoracoscopic lobectomy",
+              "approach": "thoracoscopic",
+              "date": null,
+              "location": null,
+              "performed_by": null,
+              "outcome": null
+            }
+          ]
+        }
+      }
+    },
+    {
+      "id": "N9",
+      "label": "Step 9",
+      "customData": {
+        "node_id": "I",
+        "node_step_index": 8,
+        "content": "Pathological examination revealed spindle cell hyperplasia with lymphocyte and plasma cell infiltration, local lymphoid follicle formation, and scattered alveolar epithelial cell hyperplasia. Immunohistochemistry showed tumor cells expressing CK focally (+), ALK (+ +), SMA (+ +), Desmin (\u2212), according to (\u2212), CD34 (\u2212), and Ki67 (5%). Interstitial plasma cells expressed CD138 (++), IgG (++), and IgG4 (\u2212). Alveolar epithelial cells expressed Napsin-a (+) and TTF1(+). Diagnosis: Right upper pneumonic myofibroblastoma.",
+        "clinical_data": {
+          "diagnoses": [
+            {
+              "code": "C34.1",
+              "label": "Malignant neoplasm of upper lobe, bronchus or lung",
+              "status": "active",
+              "onset_date": null
+            }
+          ],
+          "imaging": [
+            {
+              "type": "Finding",
+              "body_part": "Lung",
+              "modality": "Immunohistochemistry",
+              "finding": "Tumor cells expressing CK focally (+), ALK (+ +), SMA (+ +), Desmin (\u2212), according to (\u2212), CD34 (\u2212), and Ki67 (5%). Interstitial plasma cells expressed CD138 (++), IgG (++), and IgG4 (\u2212). Alveolar epithelial cells expressed Napsin-a (+) and TTF1(+).",
+              "impression": "Right upper pneumonic myofibroblastoma.",
+              "date": null
+            }
+          ]
+        }
+      }
+    },
+    {
+      "id": "N10",
+      "label": "Step 10",
+      "customData": {
+        "node_id": "J",
+        "node_step_index": 9,
+        "content": "Patient was discharged from hospital 1 week after surgery.",
+        "clinical_data": {}
+      }
+    },
+    {
+      "id": "N11",
+      "label": "Step 11",
+      "customData": {
+        "node_id": "K",
+        "node_step_index": 10,
+        "content": "Follow-up period of 8 months with no special discomfort. DWI and ADC sequence examination showed hyperintensity in right upper lung nodules. IMT showed shallow lobulation, cryptococcal infection showed blurred boundary, and lung cancer showed deep lobulation. IMT showed mild to moderate uneven delayed enhancement, cryptococcal infection showed obvious uniform enhancement, and lung cancer showed obvious uneven enhancement.",
+        "clinical_data": {
+          "imaging": [
+            {
+              "type": "Lung nodules",
+              "body_part": "Lung",
+              "modality": "MRI",
+              "finding": "Hyperintensity in right upper lung nodules on DWI and ADC sequence",
+              "date": null
+            }
+          ],
+          "diagnoses": [
+            {
+              "code": "B99",
+              "label": "Cryptococcal infection",
+              "status": "suspected",
+              "onset_date": null
+            },
+            {
+              "code": "C34",
+              "label": "Lung cancer",
+              "status": "suspected",
+              "onset_date": null
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "edges": [
+    {
+      "from": "N1",
+      "to": "N2",
+      "data": {
+        "edge_id": "A_to_B",
+        "branch_flag": true,
+        "content": "Transition from initial physical exam to chest CT scan.",
+        "transition_event": {
+          "trigger_type": "imaging",
+          "trigger_entities": [
+            "C0008925"
+          ],
+          "change_type": "addition",
+          "target_domain": "imaging",
+          "timestamp": "2023-05-30T00:00:00Z"
+        }
+      }
+    },
+    {
+      "from": "N2",
+      "to": "N3",
+      "data": {
+        "edge_id": "B_to_C",
+        "branch_flag": true,
+        "content": "Transition from chest CT scan to admission diagnosis.",
+        "transition_event": {
+          "trigger_type": "interpretation",
+          "trigger_entities": [
+            "C0346170"
+          ],
+          "change_type": "addition",
+          "target_domain": "diagnosis",
+          "timestamp": "2023-05-30T00:00:00Z"
+        }
+      }
+    },
+    {
+      "from": "N3",
+      "to": "N4",
+      "data": {
+        "edge_id": "C_to_D",
+        "branch_flag": true,
+        "content": "Transition from admission diagnosis to chest CT scan showing soft tissue density nodules.",
+        "transition_event": {
+          "trigger_type": "imaging",
+          "trigger_entities": [
+            "C0027651"
+          ],
+          "change_type": "addition",
+          "target_domain": "imaging"
+        }
+      }
+    },
+    {
+      "from": "N4",
+      "to": "N5",
+      "data": {
+        "edge_id": "D_to_E",
+        "branch_flag": true,
+        "content": "Transition from chest CT to chest MRI.",
+        "transition_event": {
+          "trigger_type": "imaging",
+          "trigger_entities": [
+            "C0025202"
+          ],
+          "change_type": "addition",
+          "target_domain": "imaging",
+          "timestamp": "Day after admission"
+        }
+      }
+    },
+    {
+      "from": "N5",
+      "to": "N6",
+      "data": {
+        "edge_id": "E_to_F",
+        "branch_flag": true,
+        "content": "Transition from chest MRI to blood test results and updated imaging diagnosis.",
+        "transition_event": {
+          "trigger_type": "lab_change",
+          "trigger_entities": [
+            "C0043204",
+            "C0027872",
+            "C0023924"
+          ],
+          "change_type": "other",
+          "target_domain": "lab"
+        }
+      }
+    },
+    {
+      "from": "N6",
+      "to": "N7",
+      "data": {
+        "edge_id": "F_to_G",
+        "branch_flag": true,
+        "content": "Transition from blood test and imaging diagnosis to MRI of right upper lung nodules.",
+        "transition_event": {
+          "trigger_type": "imaging",
+          "trigger_entities": [
+            "C0025202",
+            "C0027651"
+          ],
+          "change_type": "addition",
+          "target_domain": "imaging"
+        }
+      }
+    },
+    {
+      "from": "N7",
+      "to": "N8",
+      "data": {
+        "edge_id": "G_to_H",
+        "branch_flag": true,
+        "content": "Transition from MRI findings to single-port thoracoscopic lobectomy.",
+        "transition_event": {
+          "trigger_type": "procedure",
+          "trigger_entities": [
+            "C0159387",
+            "C0024138"
+          ],
+          "change_type": "addition",
+          "target_domain": "procedure"
+        }
+      }
+    },
+    {
+      "from": "N8",
+      "to": "N9",
+      "data": {
+        "edge_id": "H_to_I",
+        "branch_flag": true,
+        "content": "Transition from lobectomy to pathological examination results.",
+        "transition_event": {
+          "trigger_type": "interpretation",
+          "trigger_entities": [
+            "C0020637",
+            "C0029760",
+            "C0005"
+          ]
+        }
+      }
+    }
+  ]
+}

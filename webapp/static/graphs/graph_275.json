@@ -1,0 +1,110 @@
+{
+  "nodes": [
+    {
+      "id": "N1",
+      "label": "Step 1",
+      "customData": {
+        "node_id": "A",
+        "node_step_index": 0,
+        "content": "11-year-old, castrated male Toy Poodle, weighing 7.4 kg, presented with a right inguinal hernia and a skin lesion. Physical examination revealed abdominal distension, right inguinal hernia, and epidermal collarette on the entire dorsal skin. The dog also showed Cushing body shape, polydipsia, and polyuria.",
+        "clinical_data": {
+          "diagnoses": [
+            {
+              "code": "C0010197",
+              "label": "Cushing Syndrome",
+              "status": "active"
+            },
+            {
+              "code": "C0019277",
+              "label": "Hernia, Inguinal",
+              "status": "active"
+            },
+            {
+              "code": "C0235388",
+              "label": "Skin lesion",
+              "status": "active"
+            }
+          ],
+          "HPI": [
+            {
+              "summary": "11-year-old Toy Poodle presented with a right inguinal hernia and a skin lesion. Physical examination revealed abdominal distension, right inguinal hernia, and epidermal collarette on the entire dorsal skin. The dog also showed Cushing body shape, polydipsia, and polyuria.",
+              "associated_symptoms": [
+                "C0000729",
+                "C0032141",
+                "C0032144",
+                "C1842300"
+              ]
+            }
+          ]
+        }
+      }
+    },
+    {
+      "id": "N2",
+      "label": "Step 2",
+      "customData": {
+        "node_id": "B",
+        "node_step_index": 1,
+        "content": "Grade II/VI systolic murmur heard from the left ventricle. Suspected Cushing\u2019s syndrome. Skin preliminarily diagnosed as simple pyoderma. Abdominal echography and epidermal curettage test performed. Serum cortisol levels measured.",
+        "clinical_data": {
+          "vitals": [
+            {
+              "type": "Systolic Murmur",
+              "value": "II/VI",
+              "unit": "grade",
+              "location": "left ventricle"
+            }
+          ],
+          "diagnoses": [
+            {
+              "code": "C0010425",
+              "label": "Cushing's Syndrome",
+              "status": "suspected"
+            },
+            {
+              "code": "C0271494",
+              "label": "Pyoderma",
+              "status": "suspected"
+            }
+          ],
+          "procedures": [
+            {
+              "name": "Echography",
+              "location": "abdomen"
+            },
+            {
+              "name": "Curettage",
+              "location": "skin",
+              "description": "epidermal"
+            }
+          ],
+          "labs": [
+            {
+              "test": "Serum cortisol",
+              "value": "measured"
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "edges": [
+    {
+      "from": "N1",
+      "to": "N2",
+      "data": {
+        "edge_id": "A_to_B",
+        "branch_flag": true,
+        "content": "Progression from initial presentation to diagnostic workup. Grade II/VI systolic murmur auscultated. Suspected Cushing\u2019s syndrome. Skin preliminarily diagnosed as simple pyoderma. Abdominal echography and epidermal curettage test performed. Serum cortisol levels measured.",
+        "transition_event": {
+          "trigger_type": "procedure",
+          "trigger_entities": [
+            "procedure"
+          ],
+          "change_type": "addition",
+          "target_domain": "procedure"
+        }
+      }
+    }
+  ]
+}

@@ -1,0 +1,557 @@
+{
+  "nodes": [
+    {
+      "id": "N1",
+      "label": "Step 1",
+      "customData": {
+        "node_id": "A",
+        "node_step_index": 0,
+        "content": "January 2019: 69-year-old Chinese male ex-smoker with type 2 diabetes for 10 years presented with dizziness and unsteady walking for two months.",
+        "clinical_data": {
+          "diagnoses": [
+            {
+              "code": "C0011860",
+              "label": "Type 2 Diabetes Mellitus",
+              "status": "active",
+              "onset_date": null
+            }
+          ],
+          "HPI": [
+            {
+              "summary": "Dizziness and unsteady walking for two months",
+              "duration": "2 months",
+              "onset": null,
+              "progression": "gradual",
+              "associated_symptoms": [],
+              "alleviating_factors": [],
+              "exacerbating_factors": []
+            }
+          ],
+          "social_history": [
+            {
+              "category": "smoking",
+              "status": "past",
+              "description": "ex-smoker"
+            }
+          ]
+        }
+      }
+    },
+    {
+      "id": "N2",
+      "label": "Step 2",
+      "customData": {
+        "node_id": "B",
+        "node_step_index": 1,
+        "content": "CT scans of the chest revealed two masses and multiple nodules in the right lower lobe.",
+        "clinical_data": {
+          "imaging": [
+            {
+              "type": "CT scan",
+              "body_part": "chest",
+              "modality": "CT",
+              "finding": "two masses and multiple nodules in the right lower lobe"
+            }
+          ]
+        }
+      }
+    },
+    {
+      "id": "N3",
+      "label": "Step 3",
+      "customData": {
+        "node_id": "C",
+        "node_step_index": 2,
+        "content": "Brain magnetic resonance (MR) imaging found multiple metastases and ECT showed enhanced radioactivity at T2 and L4.",
+        "clinical_data": {
+          "imaging": [
+            {
+              "type": "Magnetic resonance imaging of brain",
+              "body_part": "Brain",
+              "modality": "MRI",
+              "finding": "multiple metastases"
+            },
+            {
+              "type": "Emission computed tomography",
+              "body_part": "T2 and L4",
+              "modality": "other",
+              "finding": "enhanced radioactivity"
+            }
+          ]
+        }
+      }
+    },
+    {
+      "id": "N4",
+      "label": "Step 4",
+      "customData": {
+        "node_id": "D",
+        "node_step_index": 3,
+        "content": "Diagnosed with stage IV (T3N0M1) lung adenocarcinoma via percutaneous biopsy.",
+        "clinical_data": {
+          "diagnoses": [
+            {
+              "code": "C34",
+              "label": "Malignant neoplasm of bronchus and lung",
+              "status": "active",
+              "onset_date": null
+            },
+            {
+              "code": "C402188",
+              "label": "Stage IV Lung Adenocarcinoma",
+              "status": "active",
+              "onset_date": null
+            }
+          ],
+          "procedures": [
+            {
+              "name": "C1518309",
+              "approach": "percutaneous",
+              "date": null,
+              "location": "lung",
+              "performed_by": null,
+              "outcome": null
+            }
+          ]
+        }
+      }
+    },
+    {
+      "id": "N5",
+      "label": "Step 5",
+      "customData": {
+        "node_id": "E",
+        "node_step_index": 4,
+        "content": "Next-generation sequencing (NGS) testing showed an EGFR exon 20 insertion (p.D770-N771insGT) mutation with concurring ERBB2 and TP53 mutations. ERBB2 P1170A and TP53 R197_V197insA mutations were classified as benign and a variant of unknown significance (VUS), respectively. Gene check analysis showed that the patient had an EGFR exon 20 insertion (p.D770-N771insGT) mutation.",
+        "clinical_data": {
+          "diagnoses": [
+            {
+              "code": "EGFR",
+              "label": "EGFR exon 20 insertion (p.D770-N771insGT) mutation",
+              "status": "active"
+            },
+            {
+              "code": "ERBB2",
+              "label": "ERBB2 P1170A mutation",
+              "status": "active"
+            },
+            {
+              "code": "TP53",
+              "label": "TP53 R197_V197insA mutation",
+              "status": "active"
+            }
+          ]
+        }
+      }
+    },
+    {
+      "id": "N6",
+      "label": "Step 6",
+      "customData": {
+        "node_id": "F",
+        "node_step_index": 5,
+        "content": "The patient refused chemotherapy and whole-brain radiation.",
+        "clinical_data": {
+          "procedures": [
+            {
+              "name": "Chemotherapy",
+              "outcome": "refused"
+            },
+            {
+              "name": "Whole-brain radiation therapy",
+              "outcome": "refused"
+            }
+          ]
+        }
+      }
+    },
+    {
+      "id": "N7",
+      "label": "Step 7",
+      "customData": {
+        "node_id": "G",
+        "node_step_index": 6,
+        "content": "Patient was administered osimertinib (80 mg daily) and experienced grade 1 nausea, which disappeared 20 days later.",
+        "clinical_data": {
+          "medications": [
+            {
+              "drug": "C1705823",
+              "dosage": "80 mg",
+              "frequency": "daily",
+              "modality": "oral",
+              "start_date": null,
+              "end_date": null,
+              "indication": null
+            }
+          ],
+          "HPI": [
+            {
+              "summary": "Patient experienced grade 1 nausea after being administered osimertinib.",
+              "duration": "20 days",
+              "onset": null,
+              "progression": "resolved",
+              "associated_symptoms": [
+                "C0027497"
+              ],
+              "alleviating_factors": [],
+              "exacerbating_factors": []
+            }
+          ]
+        }
+      }
+    },
+    {
+      "id": "N8",
+      "label": "Step 8",
+      "customData": {
+        "node_id": "H",
+        "node_step_index": 7,
+        "content": "4-month follow-up: Lesions on the right lung and brain achieved partial response by RECIST (version 1.1; \u221237.5% and -52.3% response, respectively).",
+        "clinical_data": {
+          "imaging": [
+            {
+              "body_part": "Lung",
+              "finding": "Lesions achieved partial response",
+              "impression": "Partial response by RECIST (version 1.1; \u221237.5% response)",
+              "date": null
+            },
+            {
+              "body_part": "Brain",
+              "finding": "Lesions achieved partial response",
+              "impression": "Partial response by RECIST (version 1.1; -52.3% response)",
+              "date": null
+            }
+          ]
+        }
+      }
+    },
+    {
+      "id": "N9",
+      "label": "Step 9",
+      "customData": {
+        "node_id": "I",
+        "node_step_index": 8,
+        "content": "End of May 2019: Patient complained of headache; MRI showed progression of brain lesion.",
+        "clinical_data": {
+          "HPI": [
+            {
+              "summary": "Patient complained of headache",
+              "onset": "End of May 2019"
+            }
+          ],
+          "imaging": [
+            {
+              "type": "Brain MRI",
+              "body_part": "Brain",
+              "modality": "MRI",
+              "finding": "Progression of brain lesion",
+              "date": "2019-05"
+            }
+          ]
+        }
+      }
+    },
+    {
+      "id": "N10",
+      "label": "Step 10",
+      "customData": {
+        "node_id": "J",
+        "node_step_index": 9,
+        "content": "2019-06-06: Bevacizumab (400 mg/month) added to osimertinib regimen.",
+        "clinical_data": {
+          "medications": [
+            {
+              "drug": "C1308689",
+              "dosage": "400 mg/month",
+              "frequency": "monthly",
+              "modality": "IV",
+              "start_date": "2019-06-06",
+              "end_date": null
+            }
+          ]
+        }
+      }
+    },
+    {
+      "id": "N11",
+      "label": "Step 11",
+      "customData": {
+        "node_id": "K",
+        "node_step_index": 10,
+        "content": "CNS symptoms cleared; brain nodule stopped growing and edema was eliminated.",
+        "clinical_data": {
+          "diagnoses": [
+            {
+              "code": "C0242964",
+              "label": "Brain nodule",
+              "status": "resolved"
+            },
+            {
+              "code": "C0013594",
+              "label": "Edema",
+              "status": "resolved"
+            }
+          ],
+          "ROS": [
+            {
+              "system": "neuro",
+              "findings": [
+                "C0007782"
+              ]
+            }
+          ]
+        }
+      }
+    },
+    {
+      "id": "N12",
+      "label": "Step 12",
+      "customData": {
+        "node_id": "L",
+        "node_step_index": 11,
+        "content": "Lung lesion achieved partial response again (version 1.1; \u221282.2% response) with the combination therapy (osimertinib and bevacizumab).",
+        "clinical_data": {
+          "imaging": [
+            {
+              "type": "Lung lesion",
+              "modality": null,
+              "finding": "partial response",
+              "impression": "partial response to combination therapy",
+              "date": null
+            }
+          ],
+          "medications": [
+            {
+              "drug": "Osimertinib",
+              "dosage": null,
+              "frequency": null,
+              "modality": null,
+              "start_date": null,
+              "end_date": null,
+              "indication": "Lung lesion"
+            },
+            {
+              "drug": "Bevacizumab",
+              "dosage": null,
+              "frequency": null,
+              "modality": null,
+              "start_date": null,
+              "end_date": null,
+              "indication": "Lung lesion"
+            }
+          ]
+        }
+      }
+    },
+    {
+      "id": "N13",
+      "label": "Step 13",
+      "customData": {
+        "node_id": "M",
+        "node_step_index": 12,
+        "content": "Follow-up 2.1, 4.5, 6.5, and 9.1 months after the combination therapy: ongoing clinical benefit and stable disease.",
+        "clinical_data": {
+          "diagnoses": [
+            {
+              "code": "C0007116",
+              "label": "Disease",
+              "status": "active"
+            }
+          ]
+        }
+      }
+    },
+    {
+      "id": "N14",
+      "label": "Step 14",
+      "customData": {
+        "node_id": "N",
+        "node_step_index": 13,
+        "content": "Two months before death: significant decline in physical activity and consciousness.",
+        "clinical_data": {
+          "functional_status": [
+            {
+              "domain": "mobility",
+              "description": "significant decline in physical activity"
+            }
+          ],
+          "mental_status": [
+            {
+              "domain": "consciousness",
+              "finding": "significant decline"
+            }
+          ]
+        }
+      }
+    },
+    {
+      "id": "N15",
+      "label": "Step 15",
+      "customData": {
+        "node_id": "O",
+        "node_step_index": 14,
+        "content": "CT scan of the chest revealed no progressive disease. Laboratory tests showed hemoglobin 96 g/L, creatinine 177.7 umol/",
+        "clinical_data": {
+          "imaging": [
+            {
+              "type": "Computed tomography",
+              "body_part": "chest",
+              "modality": "CT",
+              "finding": "no progressive disease"
+            }
+          ],
+          "labs": [
+            {
+              "test": "Hemoglobin",
+              "value": "96",
+              "unit": "g/L"
+            },
+            {
+              "test": "Creatinine",
+              "value": "177.7",
+              "unit": "umol/"
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "edges": [
+    {
+      "from": "N1",
+      "to": "N2",
+      "data": {
+        "edge_id": "A_to_B",
+        "branch_flag": true,
+        "content": "Patient underwent CT scan of the chest."
+      }
+    },
+    {
+      "from": "N2",
+      "to": "N3",
+      "data": {
+        "edge_id": "B_to_C",
+        "branch_flag": true,
+        "content": "Patient underwent brain MRI and ECT imaging."
+      }
+    },
+    {
+      "from": "N3",
+      "to": "N4",
+      "data": {
+        "edge_id": "C_to_D",
+        "branch_flag": true,
+        "content": "Percutaneous biopsy performed."
+      }
+    },
+    {
+      "from": "N4",
+      "to": "N5",
+      "data": {
+        "edge_id": "D_to_E",
+        "branch_flag": true,
+        "content": "Next-generation sequencing (NGS) testing performed."
+      }
+    },
+    {
+      "from": "N5",
+      "to": "N6",
+      "data": {
+        "edge_id": "E_to_F",
+        "branch_flag": true,
+        "content": "Patient refused chemotherapy and whole-brain radiation."
+      }
+    },
+    {
+      "from": "N6",
+      "to": "N7",
+      "data": {
+        "edge_id": "F_to_G",
+        "branch_flag": true,
+        "content": "Patient was administered osimertinib (80 mg daily)."
+      }
+    },
+    {
+      "from": "N7",
+      "to": "N8",
+      "data": {
+        "edge_id": "G_to_H",
+        "branch_flag": true,
+        "content": "4-month follow-up imaging performed."
+      }
+    },
+    {
+      "from": "N8",
+      "to": "N9",
+      "data": {
+        "edge_id": "H_to_I",
+        "branch_flag": true,
+        "content": "Patient complained of headache; MRI performed."
+      }
+    },
+    {
+      "from": "N9",
+      "to": "N10",
+      "data": {
+        "edge_id": "I_to_J",
+        "branch_flag": true,
+        "content": "Bevacizumab (400 mg/month) added to osimertinib regimen.",
+        "transition_event": {
+          "trigger_type": "medication_change",
+          "trigger_entities": [
+            "C1308689",
+            "C1705823"
+          ],
+          "change_type": "addition",
+          "target_domain": "medication",
+          "timestamp": "2019-06-06T00:00:00Z"
+        }
+      }
+    },
+    {
+      "from": "N10",
+      "to": "N11",
+      "data": {
+        "edge_id": "J_to_K",
+        "branch_flag": true,
+        "content": "Patient's CNS symptoms cleared."
+      }
+    },
+    {
+      "from": "N11",
+      "to": "N12",
+      "data": {
+        "edge_id": "K_to_L",
+        "branch_flag": true,
+        "content": "Lung lesion response to combination therapy assessed."
+      }
+    },
+    {
+      "from": "N12",
+      "to": "N13",
+      "data": {
+        "edge_id": "L_to_M",
+        "branch_flag": true,
+        "content": "Follow-up imaging performed."
+      }
+    },
+    {
+      "from": "N13",
+      "to": "N14",
+      "data": {
+        "edge_id": "M_to_N",
+        "branch_flag": true,
+        "content": "Patient experienced significant decline in physical activity and consciousness."
+      }
+    },
+    {
+      "from": "N14",
+      "to": "N15",
+      "data": {
+        "edge_id": "N_to_O",
+        "branch_flag": true,
+        "content": "CT scan of the chest and laboratory tests performed."
+      }
+    }
+  ]
+}

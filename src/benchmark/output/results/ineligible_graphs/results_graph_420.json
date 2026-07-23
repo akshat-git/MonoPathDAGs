@@ -1,0 +1,19 @@
+{
+  "status": "success",
+  "reconstructed_narrative": "No data available to reconstruct narrative.",
+  "bertscore": {
+    "precision": 0.0,
+    "recall": 0.0,
+    "f1": 0.0
+  },
+  "topology": {
+    "is_acyclic": true,
+    "timestamps_in_order": true,
+    "weakly_connected_components": 0,
+    "avg_in_degree": 0.0,
+    "node_count": 0,
+    "edge_count": 0,
+    "density": 0.0
+  },
+  "trajectory_embedding": null
+}

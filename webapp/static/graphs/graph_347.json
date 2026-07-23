@@ -1,0 +1,609 @@
+{
+  "nodes": [
+    {
+      "id": "N1",
+      "label": "Step 1",
+      "customData": {
+        "node_id": "A",
+        "node_step_index": 0,
+        "content": "3-year-old female presented with sudden onset of dyspnea, cough, and chest pain.",
+        "clinical_data": {
+          "HPI": [
+            {
+              "summary": "3-year-old female presented with sudden onset of dyspnea, cough, and chest pain.",
+              "onset": "sudden",
+              "associated_symptoms": [
+                "Dyspnea",
+                "Cough",
+                "Chest pain"
+              ]
+            }
+          ]
+        }
+      }
+    },
+    {
+      "id": "N2",
+      "label": "Step 2",
+      "customData": {
+        "node_id": "B",
+        "node_step_index": 1,
+        "content": "CXR showed large left pneumothorax with total lung collapse.",
+        "clinical_data": {
+          "imaging": [
+            {
+              "type": "Radiography (procedure)",
+              "body_part": "Lung",
+              "modality": "X-ray",
+              "finding": "large left pneumothorax with total lung collapse"
+            }
+          ]
+        }
+      }
+    },
+    {
+      "id": "N3",
+      "label": "Step 3",
+      "customData": {
+        "node_id": "C",
+        "node_step_index": 2,
+        "content": "CT scan revealed encysted pneumothorax and partial lung collapse. A 2 cm lung cyst was identified in the left lower lobe.",
+        "clinical_data": {
+          "imaging": [
+            {
+              "type": "CT scan",
+              "body_part": "lung",
+              "modality": "CT",
+              "finding": "encysted pneumothorax and partial lung collapse. A 2 cm lung cyst was identified in the left lower lobe.",
+              "impression": "encysted pneumothorax and partial lung collapse. A 2 cm lung cyst was identified in the left lower lobe."
+            }
+          ]
+        }
+      }
+    },
+    {
+      "id": "N4",
+      "label": "Step 4",
+      "customData": {
+        "node_id": "D",
+        "node_step_index": 3,
+        "content": "Patient underwent wedge resection of the left lower lobe lung cyst. Histology revealed Pleuropulmonary Blastoma (PPB) type I. Immunohistochemistry (IHC) showed positivity to vimentin and SMA.",
+        "clinical_data": {
+          "procedures": [
+            {
+              "name": "Wedge resection",
+              "approach": "open",
+              "location": "left lower lobe lung",
+              "outcome": "Pleuropulmonary Blastoma (PPB) type I"
+            }
+          ],
+          "diagnoses": [
+            {
+              "code": "C4873338",
+              "label": "Pleuropulmonary Blastoma",
+              "status": "active"
+            }
+          ],
+          "labs": [
+            {
+              "test": "Vimentin",
+              "value": "positive"
+            },
+            {
+              "test": "Smooth Muscle Antibody",
+              "value": "positive"
+            }
+          ]
+        }
+      }
+    },
+    {
+      "id": "N5",
+      "label": "Step 5",
+      "customData": {
+        "node_id": "E",
+        "node_step_index": 4,
+        "content": "Patient received chemotherapy with vincristine, Adriamycin, and cyclophosphamide (VAC regimen).",
+        "clinical_data": {
+          "medications": [
+            {
+              "drug": "C0042992",
+              "dosage": null,
+              "frequency": null,
+              "modality": null,
+              "start_date": null,
+              "end_date": null,
+              "indication": null
+            },
+            {
+              "drug": "C0001544",
+              "dosage": null,
+              "frequency": null,
+              "modality": null,
+              "start_date": null,
+              "end_date": null,
+              "indication": null
+            },
+            {
+              "drug": "C0010435",
+              "dosage": null,
+              "frequency": null,
+              "modality": null,
+              "start_date": null,
+              "end_date": null,
+              "indication": null
+            }
+          ]
+        }
+      }
+    },
+    {
+      "id": "N6",
+      "label": "Step 6",
+      "customData": {
+        "node_id": "F",
+        "node_step_index": 5,
+        "content": "5-year-old female presented with severe respiratory distress, hypotension, tachycardia, and elevated jugular venous pressure (obstructive shock).",
+        "clinical_data": {
+          "vitals": [
+            {
+              "type": "Hypotension",
+              "value": null,
+              "unit": null,
+              "timestamp": null
+            },
+            {
+              "type": "Tachycardia",
+              "value": null,
+              "unit": null,
+              "timestamp": null
+            }
+          ],
+          "HPI": [
+            {
+              "summary": "Severe respiratory distress, hypotension, tachycardia, and elevated jugular venous pressure (obstructive shock).",
+              "duration": null,
+              "onset": null,
+              "progression": null,
+              "associated_symptoms": [
+                "Elevated jugular venous pressure"
+              ],
+              "alleviating_factors": [],
+              "exacerbating_factors": []
+            }
+          ],
+          "diagnoses": [
+            {
+              "code": "Obstructive shock",
+              "label": "Obstructive shock",
+              "status": "active",
+              "onset_date": null
+            }
+          ]
+        }
+      }
+    },
+    {
+      "id": "N7",
+      "label": "Step 7",
+      "customData": {
+        "node_id": "G",
+        "node_step_index": 6,
+        "content": "CXR showed total homogenous opacification of the entire left hemithorax with a significant mediastinal shift to the opposite side.",
+        "clinical_data": {
+          "imaging": [
+            {
+              "type": "Radiography",
+              "body_part": "Thorax",
+              "modality": "X-ray",
+              "finding": "Total homogenous opacification of the entire left hemithorax with a significant mediastinal shift to the opposite side."
+            }
+          ]
+        }
+      }
+    },
+    {
+      "id": "N8",
+      "label": "Step 8",
+      "customData": {
+        "node_id": "H",
+        "node_step_index": 7,
+        "content": "CT scan revealed a huge mediastinal mass in the left upper lung.",
+        "clinical_data": {
+          "imaging": [
+            {
+              "type": "Mediastinal mass",
+              "body_part": "Lung",
+              "modality": "CT",
+              "finding": "huge mediastinal mass in the left upper lung"
+            }
+          ]
+        }
+      }
+    },
+    {
+      "id": "N9",
+      "label": "Step 9",
+      "customData": {
+        "node_id": "I",
+        "node_step_index": 8,
+        "content": "Patient had a huge soft tissue mass (friable, highly vascular and had both cystic and solid components) in the left upper lung. Patient underwent left upper lobectomy. Histology revealed Pleuropulmonary Blastoma (PPB) type II. Immunohistochemistry (IHC) showed positivity to vimentin and SMA.",
+        "clinical_data": {
+          "imaging": [
+            {
+              "type": "Soft Tissue Mass",
+              "body_part": "Lung",
+              "modality": null,
+              "finding": "friable, highly vascular and had both cystic and solid components",
+              "impression": null,
+              "date": null
+            }
+          ],
+          "procedures": [
+            {
+              "name": "Lobectomy",
+              "approach": "open",
+              "date": null,
+              "location": "Left upper lung",
+              "performed_by": null,
+              "outcome": null
+            }
+          ],
+          "diagnoses": [
+            {
+              "code": "Pleuropulmonary Blastoma",
+              "label": "Pleuropulmonary Blastoma (PPB) type II",
+              "status": "active",
+              "onset_date": null
+            }
+          ]
+        }
+      }
+    },
+    {
+      "id": "N10",
+      "label": "Step 10",
+      "customData": {
+        "node_id": "J",
+        "node_step_index": 9,
+        "content": "Patient received chemotherapy with vincristine, Adriamycin, and cyclophosphamide (VAC regimen).",
+        "clinical_data": {
+          "medications": [
+            {
+              "drug": "C0042947",
+              "dosage": null,
+              "frequency": null,
+              "modality": null,
+              "start_date": null,
+              "end_date": null,
+              "indication": null
+            },
+            {
+              "drug": "C0001633",
+              "dosage": null,
+              "frequency": null,
+              "modality": null,
+              "start_date": null,
+              "end_date": null,
+              "indication": null
+            },
+            {
+              "drug": "C0010458",
+              "dosage": null,
+              "frequency": null,
+              "modality": null,
+              "start_date": null,
+              "end_date": null,
+              "indication": null
+            }
+          ]
+        }
+      }
+    },
+    {
+      "id": "N11",
+      "label": "Step 11",
+      "customData": {
+        "node_id": "K",
+        "node_step_index": 10,
+        "content": "Patient 3 (3 years old, Male) experienced a recurrence approximately 2 years post-operation, followed by 3 years of follow-up.",
+        "clinical_data": {
+          "diagnoses": [
+            {
+              "code": "http://www.nlm.nih.gov/research/umls/",
+              "label": "Recurrence",
+              "status": "active",
+              "onset_date": null
+            }
+          ]
+        }
+      }
+    },
+    {
+      "id": "N12",
+      "label": "Step 12",
+      "customData": {
+        "node_id": "L",
+        "node_step_index": 11,
+        "content": "Patient presented with low-grade fever, tachypnea, and tachycardia, with suspected empyema.",
+        "clinical_data": {
+          "vitals": [
+            {
+              "type": "T0015926",
+              "value": "low-grade",
+              "unit": null
+            },
+            {
+              "type": "C0039462",
+              "value": null,
+              "unit": null
+            },
+            {
+              "type": "C0039230",
+              "value": null,
+              "unit": null
+            }
+          ],
+          "diagnoses": [
+            {
+              "code": "C0014174",
+              "label": "Empyema",
+              "status": "suspected",
+              "onset_date": null
+            }
+          ]
+        }
+      }
+    },
+    {
+      "id": "N13",
+      "label": "Step 13",
+      "customData": {
+        "node_id": "M",
+        "node_step_index": 12,
+        "content": "Thoracostomy drain yielded only 100 ml of serosanguinous fluid.",
+        "clinical_data": {
+          "procedures": [
+            {
+              "name": "Thoracostomy",
+              "outcome": "Drain yielded 100 ml of serosanguinous fluid"
+            }
+          ]
+        }
+      }
+    },
+    {
+      "id": "N14",
+      "label": "Step 14",
+      "customData": {
+        "node_id": "N",
+        "node_step_index": 13,
+        "content": "Chest X-ray (CXR) showed total opacification of the left hemithorax.",
+        "clinical_data": {
+          "imaging": [
+            {
+              "type": "X-ray of chest (procedure)",
+              "body_part": "Left hemithorax",
+              "modality": "X-ray",
+              "finding": "Total opacification",
+              "date": null
+            }
+          ]
+        }
+      }
+    },
+    {
+      "id": "N15",
+      "label": "Step 15",
+      "customData": {
+        "node_id": "O",
+        "node_step_index": 14,
+        "content": "Patient underwent wedge resection of a mass containing gelatinous material in the left lower lung. Histology revealed Pleuropulmonary Blastoma (PPB) type II. Immunohistochemistry (IHC) showed positivity to vimentin and SMA.",
+        "clinical_data": {
+          "procedures": [
+            {
+              "name": "Wedge resection",
+              "approach": "open",
+              "location": "left lower lung",
+              "outcome": "mass containing gelatinous material"
+            }
+          ],
+          "diagnoses": [
+            {
+              "code": "C49.3",
+              "label": "Pleuropulmonary Blastoma (PPB) type II",
+              "status": "active"
+            }
+          ],
+          "labs": [
+            {
+              "test": "Immunohistochemistry",
+              "finding": "positivity to vimentin and SMA"
+            }
+          ]
+        }
+      }
+    },
+    {
+      "id": "N16",
+      "label": "Step 16",
+      "customData": {
+        "node_id": "P",
+        "node_step_index": 15,
+        "content": "Patient 4 (2.5 years old, Female) presented with respiratory distress and tachycardia.",
+        "clinical_data": {
+          "vitals": [
+            {
+              "type": "T091",
+              "value": "unknown",
+              "unit": "unknown",
+              "timestamp": "unknown"
+            }
+          ],
+          "diagnoses": [
+            {
+              "code": "T041",
+              "label": "Respiratory Distress",
+              "status": "active",
+              "onset_date": "unknown"
+            },
+            {
+              "code": "T091",
+              "label": "Tachycardia",
+              "status": "active",
+              "onset_date": "unknown"
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "edges": [
+    {
+      "from": "N1",
+      "to": "N2",
+      "data": {
+        "edge_id": "A_to_B",
+        "branch_flag": true,
+        "content": "Patient progressed from initial symptoms of dyspnea, cough, and chest pain to radiographic evidence of a large left pneumothorax with total lung collapse."
+      }
+    },
+    {
+      "from": "N2",
+      "to": "N3",
+      "data": {
+        "edge_id": "B_to_C",
+        "branch_flag": true,
+        "content": "Pneumothorax further characterized via CT scan, revealing encysted pneumothorax and a lung cyst."
+      }
+    },
+    {
+      "from": "N3",
+      "to": "N4",
+      "data": {
+        "edge_id": "C_to_D",
+        "branch_flag": true,
+        "content": "Lung cyst resected and diagnosed as Pleuropulmonary Blastoma (PPB) type I."
+      }
+    },
+    {
+      "from": "N4",
+      "to": "N5",
+      "data": {
+        "edge_id": "D_to_E",
+        "branch_flag": true,
+        "content": "Initiation of chemotherapy with vincristine, Adriamycin, and cyclophosphamide (VAC regimen) following resection of PPB type I.",
+        "transition_event": {
+          "trigger_type": "medication_change",
+          "trigger_entities": [
+            "C0042992",
+            "C0001544",
+            "C0010435"
+          ],
+          "change_type": "addition",
+          "target_domain": "medication"
+        }
+      }
+    },
+    {
+      "from": "N5",
+      "to": "N6",
+      "data": {
+        "edge_id": "E_to_F",
+        "branch_flag": true,
+        "content": "Patient presented with severe respiratory distress, hypotension, tachycardia, and elevated jugular venous pressure (obstructive shock) two years later."
+      }
+    },
+    {
+      "from": "N6",
+      "to": "N7",
+      "data": {
+        "edge_id": "F_to_G",
+        "branch_flag": true,
+        "content": "Obstructive shock further characterized by CXR showing total homogenous opacification of the entire left hemithorax with a significant mediastinal shift to the opposite side."
+      }
+    },
+    {
+      "from": "N7",
+      "to": "N8",
+      "data": {
+        "edge_id": "G_to_H",
+        "branch_flag": true,
+        "content": "Opacification further characterized by CT scan revealing a huge mediastinal mass in the left upper lung."
+      }
+    },
+    {
+      "from": "N8",
+      "to": "N9",
+      "data": {
+        "edge_id": "H_to_I",
+        "branch_flag": true,
+        "content": "Mediastinal mass resected and diagnosed as Pleuropulmonary Blastoma (PPB) type II."
+      }
+    },
+    {
+      "from": "N9",
+      "to": "N10",
+      "data": {
+        "edge_id": "I_to_J",
+        "branch_flag": true,
+        "content": "Initiation of chemotherapy with vincristine, Adriamycin, and cyclophosphamide (VAC regimen) following resection of PPB type II.",
+        "transition_event": {
+          "trigger_type": "medication_change",
+          "trigger_entities": [
+            "C0042947",
+            "C0001633",
+            "C0010458"
+          ],
+          "change_type": "addition",
+          "target_domain": "medication"
+        }
+      }
+    },
+    {
+      "from": "N10",
+      "to": "N11",
+      "data": {
+        "edge_id": "J_to_K",
+        "branch_flag": true,
+        "content": "Patient experienced a recurrence approximately 2 years post-operation, followed by 3 years of follow-up."
+      }
+    },
+    {
+      "from": "N11",
+      "to": "N12",
+      "data": {
+        "edge_id": "K_to_L",
+        "branch_flag": true,
+        "content": "Patient presented with low-grade fever, tachypnea, and tachycardia, with suspected empyema."
+      }
+    },
+    {
+      "from": "N12",
+      "to": "N13",
+      "data": {
+        "edge_id": "L_to_M",
+        "branch_flag": true,
+        "content": "Thoracostomy performed, yielding only 100 ml of serosanguinous fluid."
+      }
+    },
+    {
+      "from": "N13",
+      "to": "N14",
+      "data": {
+        "edge_id": "M_to_N",
+        "branch_flag": true,
+        "content": "Chest X-ray (CXR) showed total opacification of the left hemithorax."
+      }
+    },
+    {
+      "from": "N14",
+      "to": "N15",
+      "data": {
+        "edge_id": "N_to_O",
+        "branch_flag": true,
+        "content": "Res"
+      }
+    }
+  ]
+}

@@ -1,0 +1,433 @@
+{
+  "nodes": [
+    {
+      "id": "N1",
+      "label": "Step 1",
+      "customData": {
+        "node_id": "A",
+        "node_step_index": 0,
+        "content": "52-year-old man presented with a three-month history of cough, appetite loss, and shortness of breath. Performance status was 2 and vital signs were stable.",
+        "timestamp": "2015",
+        "clinical_data": {
+          "HPI": [
+            {
+              "summary": "52-year-old man presented with a three-month history of cough, appetite loss, and shortness of breath.",
+              "duration": "P3M",
+              "onset": null,
+              "progression": "unknown",
+              "associated_symptoms": [
+                "C0010200",
+                "C0003126",
+                "C0037223"
+              ],
+              "alleviating_factors": [],
+              "exacerbating_factors": []
+            }
+          ],
+          "vitals": [
+            {
+              "type": "vital signs",
+              "value": "stable"
+            }
+          ],
+          "functional_status": [
+            {
+              "domain": "general",
+              "description": "Performance status was 2",
+              "score": "2",
+              "scale": "ECOG"
+            }
+          ]
+        }
+      }
+    },
+    {
+      "id": "N2",
+      "label": "Step 2",
+      "customData": {
+        "node_id": "B",
+        "node_step_index": 1,
+        "content": "CT revealed an ill\u2010defined soft tissue dense hilar lesion in the right hilum encasing the right main bronchus, right upper lobe bronchus, and middle lobe bronchus. There was collapse of the right middle lobe and encasement of the right descending pulmonary artery. Mediastinal lymph nodes were noted in right upper paratracheal, right lower paratracheal (1 cm in short axis), left lower paratracheal, subcarinal (1.1 cm in short axis) and paraesophageal.",
+        "timestamp": "2015",
+        "clinical_data": {
+          "imaging": [
+            {
+              "type": "Lesion (finding)",
+              "body_part": "Hilar region",
+              "modality": "CT",
+              "finding": "ill\u2010defined soft tissue dense hilar lesion",
+              "impression": "encasing the right main bronchus, right upper lobe bronchus, and middle lobe bronchus",
+              "date": null
+            },
+            {
+              "type": "Collapse",
+              "body_part": "Right middle lobe",
+              "modality": "CT",
+              "finding": "collapse of the right middle lobe",
+              "impression": null,
+              "date": null
+            },
+            {
+              "type": "Encasement",
+              "body_part": "Right descending pulmonary artery",
+              "modality": "CT",
+              "finding": "encasement of the right descending pulmonary artery",
+              "impression": null,
+              "date": null
+            },
+            {
+              "type": "Lymph node",
+              "body_part": "Mediastinum",
+              "modality": "CT",
+              "finding": "Mediastinal lymph nodes",
+              "impression": "right upper paratracheal, right lower paratracheal (1 cm in short axis), left lower paratracheal, subcarinal (1.1 cm in short axis) and paraesophageal",
+              "date": null
+            }
+          ]
+        }
+      }
+    },
+    {
+      "id": "N3",
+      "label": "Step 3",
+      "customData": {
+        "node_id": "C",
+        "node_step_index": 2,
+        "content": "Bronchoscopy revealed a tumour in the distal right middle lobe measuring 0.5\u20131 cm from the origin.",
+        "clinical_data": {
+          "procedures": [
+            {
+              "name": "Bronchoscopy",
+              "date": null,
+              "location": "distal right middle lobe",
+              "finding": "tumour measuring 0.5\u20131 cm from the origin"
+            }
+          ],
+          "imaging": [
+            {
+              "body_part": "Right middle lobe",
+              "finding": "tumour measuring 0.5\u20131 cm from the origin",
+              "modality": "Bronchoscopy"
+            }
+          ]
+        }
+      }
+    },
+    {
+      "id": "N4",
+      "label": "Step 4",
+      "customData": {
+        "node_id": "D",
+        "node_step_index": 3,
+        "content": "Histopathological examination (HPE) confirmed adenocarcinoma with a signet ring cell morphology. Immunohistochemistry (IHC) showed positivity for CK 7 and TTF\u20101, while synaptophysin was negative.",
+        "clinical_data": {
+          "diagnoses": [
+            {
+              "code": "C2371878",
+              "label": "Adenocarcinoma",
+              "status": "active"
+            }
+          ],
+          "labs": [
+            {
+              "test": "C0009704",
+              "value": "positive",
+              "unit": null,
+              "flag": null,
+              "reference_range": null,
+              "timestamp": null
+            },
+            {
+              "test": "C0040044",
+              "value": "negative",
+              "unit": null,
+              "flag": null,
+              "reference_range": null,
+              "timestamp": null
+            }
+          ]
+        }
+      }
+    },
+    {
+      "id": "N5",
+      "label": "Step 5",
+      "customData": {
+        "node_id": "E",
+        "node_step_index": 4,
+        "content": "Whole-body PET-CT scan demonstrated FDG-avid soft tissue lesions with areas of cavitation in the hilum extending into the right middle lobe, causing cutoff of the right middle lobe bronchus and encasement of the right superior pulmonary vein. FDG-avid lymph nodes were observed in the right hilar, right upper paratracheal, and subcarinal regions. Staging revealed cT4b N2M0\u2013STAGE IIIB disease.",
+        "clinical_data": {
+          "imaging": [
+            {
+              "type": "Positron emission tomography",
+              "body_part": "Entire Body",
+              "modality": "PET",
+              "finding": "FDG-avid soft tissue lesions with areas of cavitation in the hilum extending into the right middle lobe, causing cutoff of the right middle lobe bronchus and encasement of the right superior pulmonary vein",
+              "date": null
+            },
+            {
+              "type": "Computed tomography",
+              "body_part": "Entire Body",
+              "modality": "CT",
+              "finding": "FDG-avid soft tissue lesions with areas of cavitation in the hilum extending into the right middle lobe, causing cutoff of the right middle lobe bronchus and encasement of the right superior pulmonary vein",
+              "date": null
+            }
+          ],
+          "diagnoses": [
+            {
+              "code": "cT4b N2M0",
+              "label": "STAGE IIIB disease",
+              "status": "active",
+              "onset_date": null
+            }
+          ]
+        }
+      }
+    },
+    {
+      "id": "N6",
+      "label": "Step 6",
+      "customData": {
+        "node_id": "F",
+        "node_step_index": 5,
+        "content": "Multidisciplinary Tumour Board (MDTB) recommended induction chemotherapy followed by chemoradiation.",
+        "clinical_data": {
+          "procedures": [
+            {
+              "name": "Chemotherapy",
+              "approach": "IV",
+              "date": null,
+              "location": null,
+              "performed_by": "Multidisciplinary Tumour Board",
+              "outcome": null
+            },
+            {
+              "name": "Chemoradiation",
+              "approach": null,
+              "date": null,
+              "location": null,
+              "performed_by": "Multidisciplinary Tumour Board",
+              "outcome": null
+            }
+          ]
+        }
+      }
+    },
+    {
+      "id": "N7",
+      "label": "Step 7",
+      "customData": {
+        "node_id": "G",
+        "node_step_index": 6,
+        "content": "January 2016: PET-CT after three courses of pemetrexed carboplatin showed poor response. Patient received second-line chemotherapy with cisplatin and docetaxel for four cycles.",
+        "timestamp": "2016-01",
+        "clinical_data": {
+          "imaging": [
+            {
+              "type": "Positron emission tomography",
+              "body_part": null,
+              "modality": "PET",
+              "finding": "poor response",
+              "impression": "poor response",
+              "date": "2016-01"
+            },
+            {
+              "type": "Computed tomography",
+              "body_part": null,
+              "modality": "CT",
+              "finding": "poor response",
+              "impression": "poor response",
+              "date": "2016-01"
+            }
+          ],
+          "medications": [
+            {
+              "drug": "pemetrexed",
+              "dosage": null,
+              "frequency": null,
+              "modality": null,
+              "start_date": null,
+              "end_date": null,
+              "indication": null
+            },
+            {
+              "drug": "carboplatin",
+              "dosage": null,
+              "frequency": null,
+              "modality": null,
+              "start_date": null,
+              "end_date": null,
+              "indication": null
+            },
+            {
+              "drug": "cisplatin",
+              "dosage": null,
+              "frequency": null,
+              "modality": null,
+              "start_date": null,
+              "end_date": null,
+              "indication": null
+            },
+            {
+              "drug": "docetaxel",
+              "dosage": null,
+              "frequency": null,
+              "modality": null,
+              "start_date": null,
+              "end_date": null,
+              "indication": null
+            }
+          ]
+        }
+      }
+    },
+    {
+      "id": "N8",
+      "label": "Step 8",
+      "customData": {
+        "node_id": "H",
+        "node_step_index": 7,
+        "content": "April 2016: PET-CT scan revealed progressive disease with pleural effusion, new FDG-avid collapse-consolidation of the right basal segments, and bone metastasis involving the right 5th rib.",
+        "timestamp": "2016-04",
+        "clinical_data": {
+          "imaging": [
+            {
+              "type": "Positron emission tomography-computed tomography",
+              "body_part": "pleura",
+              "modality": "PET",
+              "finding": "pleural effusion",
+              "date": "2016-04"
+            },
+            {
+              "type": "Positron emission tomography-computed tomography",
+              "body_part": "lung",
+              "modality": "PET",
+              "finding": "FDG-avid collapse-consolidation of the right basal segments",
+              "date": "2016-04"
+            },
+            {
+              "type": "Positron emission tomography-computed tomography",
+              "body_part": "rib",
+              "modality": "PET",
+              "finding": "bone metastasis involving the right 5th rib",
+              "date": "2016-04"
+            }
+          ],
+          "diagnoses": [
+            {
+              "code": "C0006826",
+              "label": "bone metastasis",
+              "status": "active",
+              "onset_date": "2016-04"
+            }
+          ]
+        }
+      }
+    },
+    {
+      "id": "N9",
+      "label": "Step 9",
+      "customData": {
+        "node_id": "I",
+        "clinical_data": {}
+      }
+    }
+  ],
+  "edges": [
+    {
+      "from": "N1",
+      "to": "N2",
+      "data": {
+        "edge_id": "A_to_B",
+        "branch_flag": true,
+        "content": "Patient developed an ill\u2010defined soft tissue dense hilar lesion in the right hilum encasing the right main bronchus, right upper lobe bronchus, and middle lobe bronchus, as well as collapse of the right middle lobe and encasement of the right descending pulmonary artery. Mediastinal lymph nodes were noted in right upper paratracheal, right lower paratracheal (1 cm in short axis), left lower paratracheal, subcarinal (1.1 cm in short axis) and paraesophageal."
+      }
+    },
+    {
+      "from": "N2",
+      "to": "N3",
+      "data": {
+        "edge_id": "B_to_C",
+        "branch_flag": true,
+        "content": "Bronchoscopy revealed a tumour in the distal right middle lobe measuring 0.5\u20131 cm from the origin."
+      }
+    },
+    {
+      "from": "N3",
+      "to": "N4",
+      "data": {
+        "edge_id": "C_to_D",
+        "branch_flag": true,
+        "content": "Histopathological examination (HPE) confirmed adenocarcinoma with a signet ring cell morphology. Immunohistochemistry (IHC) showed positivity for CK 7 and TTF\u20101, while synaptophysin was negative."
+      }
+    },
+    {
+      "from": "N4",
+      "to": "N5",
+      "data": {
+        "edge_id": "D_to_E",
+        "branch_flag": true,
+        "content": "Whole-body PET-CT scan demonstrated FDG-avid soft tissue lesions with areas of cavitation in the hilum extending into the right middle lobe, causing cutoff of the right middle lobe bronchus and encasement of the right superior pulmonary vein. FDG-avid lymph nodes were observed in the right hilar, right upper paratracheal, and subcarinal regions. Staging revealed cT4b N2M0\u2013STAGE IIIB disease."
+      }
+    },
+    {
+      "from": "N5",
+      "to": "N6",
+      "data": {
+        "edge_id": "E_to_F",
+        "branch_flag": true,
+        "content": "Multidisciplinary Tumour Board (MDTB) recommended induction chemotherapy followed by chemoradiation."
+      }
+    },
+    {
+      "from": "N6",
+      "to": "N7",
+      "data": {
+        "edge_id": "F_to_G",
+        "branch_flag": true,
+        "content": "January 2016: PET-CT after three courses of pemetrexed carboplatin showed poor response. Patient received second-line chemotherapy with cisplatin and docetaxel for four cycles.",
+        "transition_event": {
+          "trigger_type": "medication_change",
+          "trigger_entities": [
+            "C0008653",
+            "C0007671",
+            "C0008343",
+            "C0013274"
+          ],
+          "change_type": "other",
+          "target_domain": "medication",
+          "timestamp": "2016-01"
+        }
+      }
+    },
+    {
+      "from": "N7",
+      "to": "N8",
+      "data": {
+        "edge_id": "G_to_H",
+        "branch_flag": true,
+        "content": "April 2016: PET-CT scan revealed progressive disease with pleural effusion, new FDG-avid collapse-consolidation of the right basal segments, and bone metastasis involving the right 5th rib.",
+        "transition_event": {
+          "trigger_type": "progression",
+          "trigger_entities": [
+            "C0009402",
+            "C0020479",
+            "C0027651"
+          ],
+          "change_type": "progression",
+          "target_domain": "diagnosis",
+          "timestamp": "2016-04"
+        }
+      }
+    },
+    {
+      "from": "N8",
+      "to": "N9",
+      "data": {
+        "edge_id": "H_to_I",
+        "branch_flag": true,
+        "content": "No new information provided."
+      }
+    }
+  ]
+}

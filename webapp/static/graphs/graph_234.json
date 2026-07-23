@@ -1,0 +1,469 @@
+{
+  "nodes": [
+    {
+      "id": "N1",
+      "label": "Step 1",
+      "customData": {
+        "node_id": "A",
+        "node_step_index": 0,
+        "content": "75-year-old female presented to the emergency room with frequent episodes of hemoptysis that began a week prior to presentation. The patient also reported a dry cough for the past three months. Medical history includes arterial hypertension grade II, chronic heart failure class II (NYHA) with preserved left ventricular ejection fraction, mild aortic stenosis, mild aortic regurgitation, moderate mitral regurgitation, and dyslipidemia. On clinical examination, she had normal weight, was afebrile, and had no peripheral edema. Non-smoker with no occupational exposure.",
+        "clinical_data": {
+          "HPI": [
+            {
+              "summary": "75-year-old female presented with frequent episodes of hemoptysis that began a week prior to presentation. The patient also reported a dry cough for the past three months.",
+              "duration": "3 months",
+              "onset": "1 week prior to presentation",
+              "progression": "unknown",
+              "associated_symptoms": [
+                "C0018944"
+              ]
+            }
+          ],
+          "diagnoses": [
+            {
+              "code": "I11.9",
+              "label": "Hypertensive heart disease without heart failure",
+              "status": "active",
+              "onset_date": null
+            },
+            {
+              "code": "I50.9",
+              "label": "Heart failure, unspecified",
+              "status": "active",
+              "onset_date": null
+            },
+            {
+              "code": "I35.0",
+              "label": "Aortic (valve) stenosis",
+              "status": "active",
+              "onset_date": null
+            },
+            {
+              "code": "I35.1",
+              "label": "Aortic (valve) insufficiency",
+              "status": "active",
+              "onset_date": null
+            },
+            {
+              "code": "I34.0",
+              "label": "Mitral (valve) insufficiency",
+              "status": "active",
+              "onset_date": null
+            },
+            {
+              "code": "E78.0",
+              "label": "Pure hypercholesterolemia",
+              "status": "active",
+              "onset_date": null
+            }
+          ],
+          "vitals": [
+            {
+              "type": "C0031072",
+              "value": "normal",
+              "unit": null,
+              "timestamp": null
+            },
+            {
+              "type": "C0015967",
+              "value": "afebrile",
+              "unit": null,
+              "timestamp": null
+            }
+          ],
+          "social_history": [
+            {
+              "category": "smoking",
+              "status": "never",
+              "description": "Non-smoker"
+            },
+            {
+              "category": "employment",
+              "status": "unknown",
+              "description": "no occupational exposure"
+            }
+          ]
+        }
+      }
+    },
+    {
+      "id": "N2",
+      "label": "Step 2",
+      "customData": {
+        "node_id": "B",
+        "node_step_index": 1,
+        "content": "On examination: Superficial lymph node system was not palpable. Vesicular murmurs on both sides, with infrequent crackles in the lower part of the left hemithorax. Oxygen saturation level in the surrounding air was 94%. Rhythmic heart sounds, with a systolic murmur in the aortic area that extended to the carotid arteries and a systolic murmur in the mitral area, irradiating to the axilla.",
+        "clinical_data": {
+          "vitals": [
+            {
+              "type": "Oxygen saturation",
+              "value": "94",
+              "unit": "%",
+              "timestamp": null
+            }
+          ],
+          "ROS": [
+            {
+              "system": "respiratory",
+              "findings": [
+                "Crackles"
+              ]
+            }
+          ]
+        }
+      }
+    },
+    {
+      "id": "N3",
+      "label": "Step 3",
+      "customData": {
+        "node_id": "C",
+        "node_step_index": 2,
+        "content": "Vitals: Blood pressure 140/90 mmHg, heart rate 80 bpm. Abdomen was painless on palpation; intestinal transit and diuresis were normal. Patient was on long-term treatment with bisoprolol, perindopril, indapamide, acetylsalicylic acid, and atorvastatin. Initial biological evaluation did not identify significant pathological changes.",
+        "clinical_data": {
+          "vitals": [
+            {
+              "type": "Blood pressure",
+              "value": "140/90",
+              "unit": "mmHg"
+            },
+            {
+              "type": "Heart rate",
+              "value": "80",
+              "unit": "bpm"
+            }
+          ],
+          "medications": [
+            {
+              "drug": "bisoprolol",
+              "dosage": null,
+              "frequency": null,
+              "modality": null,
+              "start_date": null,
+              "end_date": null,
+              "indication": null
+            },
+            {
+              "drug": "perindopril",
+              "dosage": null,
+              "frequency": null,
+              "modality": null,
+              "start_date": null,
+              "end_date": null,
+              "indication": null
+            },
+            {
+              "drug": "indapamide",
+              "dosage": null,
+              "frequency": null,
+              "modality": null,
+              "start_date": null,
+              "end_date": null,
+              "indication": null
+            },
+            {
+              "drug": "acetylsalicylic acid",
+              "dosage": null,
+              "frequency": null,
+              "modality": null,
+              "start_date": null,
+              "end_date": null,
+              "indication": null
+            },
+            {
+              "drug": "atorvastatin",
+              "dosage": null,
+              "frequency": null,
+              "modality": null,
+              "start_date": null,
+              "end_date": null,
+              "indication": null
+            }
+          ]
+        }
+      }
+    },
+    {
+      "id": "N4",
+      "label": "Step 4",
+      "customData": {
+        "node_id": "D",
+        "node_step_index": 3,
+        "content": "Negative RT-PCR assay for SARS-CoV-2. ECG showed sinus rhythm with a heart rate of 80 bpm, normal QRS axis, Q waves in the DII, DIII, and aVF derivations, and no alterations in the ventricular repolarization phase. Chest X-ray showed no pleural or pulmonary lesions. Contrast-enhanced CT of the chest revealed a 41/24/30 mm multiseptate lung tumor with multicystic appearance and peripheral gadolinophilia in the lower left lobe, with direct communication to the bronchial lumen, associated with bronchial dilatations and discrete ground-glass areas.",
+        "clinical_data": {
+          "labs": [
+            {
+              "test": "C0007454",
+              "value": "negative",
+              "unit": null,
+              "flag": null,
+              "reference_range": null,
+              "timestamp": null
+            }
+          ],
+          "vitals": [
+            {
+              "type": "C0019561",
+              "value": "80",
+              "unit": "bpm",
+              "timestamp": null
+            }
+          ],
+          "imaging": [
+            {
+              "type": "C0024119",
+              "body_part": "C0024117",
+              "modality": "X-ray",
+              "finding": "no pleural or pulmonary lesions",
+              "impression": null,
+              "date": null
+            },
+            {
+              "type": "C0024119",
+              "body_part": "C0008041",
+              "modality": "CT",
+              "finding": "41/24/30 mm multiseptate lung tumor with multicystic appearance and peripheral gadolinophilia in the lower left lobe, with direct communication to the bronchial lumen, associated with bronchial dilatations and discrete ground-glass areas",
+              "impression": null,
+              "date": null
+            }
+          ]
+        }
+      }
+    },
+    {
+      "id": "N5",
+      "label": "Step 5",
+      "customData": {
+        "node_id": "E",
+        "node_step_index": 4,
+        "content": "CT scan of the chest showed a partially solid spiculiform image (22/18/20 mm) in the left Fowler segment, extending to the parietal pleura and oblique fissure, exerting a retractive effect. No mediastinal adenopathies were identified. A 41/24/30 mm lung tumor was found in the lower left lobe.",
+        "clinical_data": {
+          "imaging": [
+            {
+              "type": "Lung CT",
+              "body_part": "Lung",
+              "modality": "CT",
+              "finding": "Partially solid spiculiform image (22/18/20 mm) in the left Fowler segment, extending to the parietal pleura and oblique fissure, exerting a retractive effect. 41/24/30 mm lung tumor in the lower left lobe.",
+              "impression": "Lung tumor",
+              "date": null
+            }
+          ]
+        }
+      }
+    },
+    {
+      "id": "N6",
+      "label": "Step 6",
+      "customData": {
+        "node_id": "F",
+        "node_step_index": 5,
+        "content": "Contrast-enhanced chest computed tomography, venous phase showed a multiseptate lung tumor with multicystic appearance, located in the lower left lobe. Lung adenocarcinoma located at the level of the left Fowler segment. Contrast-enhanced chest computed tomography showed a partially solid spiculiform tumor with maximum dimensions of 22/18/20 mm, located in the left Fowler segment.",
+        "clinical_data": {
+          "imaging": [
+            {
+              "type": "Lung tumor",
+              "body_part": "Lower left lobe",
+              "modality": "CT",
+              "finding": "Multiseptate lung tumor with multicystic appearance",
+              "date": null
+            },
+            {
+              "type": "Lung adenocarcinoma",
+              "body_part": "Left Fowler segment",
+              "modality": "CT",
+              "finding": "Partially solid spiculiform tumor with maximum dimensions of 22/18/20 mm",
+              "date": null
+            }
+          ],
+          "diagnoses": [
+            {
+              "code": "C34.3",
+              "label": "Malignant neoplasm of lower lobe, bronchus or lung",
+              "status": "active",
+              "onset_date": null
+            }
+          ]
+        }
+      }
+    },
+    {
+      "id": "N7",
+      "label": "Step 7",
+      "customData": {
+        "node_id": "G",
+        "node_step_index": 6,
+        "content": "Contrast-enhanced chest computed tomography, arterial phase showed a partially solid spiculiform tumor that sends extensions to the parietal pleura and oblique fissure, exerting a retractive effect on both structures. Bronchoscopy revealed normal trachea and carina, a right bronchial tree without proliferative elements in the endoscopically approachable area, and a left bronchial tree without proliferative elements but with sero-hematous secretions at the level of a branch corresponding to the anterior segment of the left lower lobe. ",
+        "clinical_data": {
+          "imaging": [
+            {
+              "type": "Computed tomography",
+              "body_part": "Chest",
+              "modality": "CT",
+              "finding": "partially solid spiculiform tumor that sends extensions to the parietal pleura and oblique fissure, exerting a retractive effect on both structures",
+              "date": null
+            }
+          ],
+          "procedures": [
+            {
+              "name": "Bronchoscopy",
+              "date": null,
+              "location": "trachea, carina, right bronchial tree, left bronchial tree",
+              "outcome": "normal trachea and carina, a right bronchial tree without proliferative elements in the endoscopically approachable area, and a left bronchial tree without proliferative elements but with sero-hematous secretions at the level of a branch corresponding to the anterior segment of the left lower lobe."
+            }
+          ]
+        }
+      }
+    },
+    {
+      "id": "N8",
+      "label": "Step 8",
+      "customData": {
+        "node_id": "H",
+        "node_step_index": 7,
+        "content": "Patient experienced a significant hemoptypic event. CT examination of the chest revealed a dimensional growth of the two pulmonary lesions previously identified. Contrast-enhanced cerebral and abdominal\u2013pelvic CT scans revealed the absence of metastases. Decision made for surgical intervention.",
+        "clinical_data": {
+          "HPI": [
+            {
+              "summary": "Patient experienced a significant hemoptypic event."
+            }
+          ],
+          "imaging": [
+            {
+              "type": "Pulmonary lesion",
+              "body_part": "Lung",
+              "modality": "CT",
+              "finding": "Dimensional growth of two pulmonary lesions previously identified.",
+              "date": null
+            },
+            {
+              "type": "Metastases",
+              "body_part": "Brain",
+              "modality": "CT",
+              "finding": "Absence of metastases",
+              "date": null
+            },
+            {
+              "type": "Metastases",
+              "body_part": "Abdomen and Pelvis",
+              "modality": "CT",
+              "finding": "Absence of metastases",
+              "date": null
+            }
+          ],
+          "procedures": [
+            {
+              "name": "Surgical intervention",
+              "date": null
+            }
+          ]
+        }
+      }
+    },
+    {
+      "id": "N9",
+      "label": "Step 9",
+      "customData": {
+        "node_id": "I",
+        "clinical_data": {}
+      }
+    }
+  ],
+  "edges": [
+    {
+      "from": "N1",
+      "to": "N2",
+      "data": {
+        "edge_id": "A_to_B",
+        "branch_flag": true,
+        "content": "Transition from initial presentation and history to physical examination findings."
+      }
+    },
+    {
+      "from": "N2",
+      "to": "N3",
+      "data": {
+        "edge_id": "B_to_C",
+        "branch_flag": true,
+        "content": "Transition from physical examination to vital signs, current medications, and initial biological evaluation."
+      }
+    },
+    {
+      "from": "N3",
+      "to": "N4",
+      "data": {
+        "edge_id": "C_to_D",
+        "branch_flag": true,
+        "content": "Transition from initial evaluation to SARS-CoV-2 testing, ECG, and chest X-ray and CT findings.",
+        "transition_event": {
+          "trigger_type": "lab_change",
+          "trigger_entities": [
+            "C0007454"
+          ],
+          "change_type": "other",
+          "target_domain": "lab"
+        }
+      }
+    },
+    {
+      "from": "N4",
+      "to": "N5",
+      "data": {
+        "edge_id": "D_to_E",
+        "branch_flag": true,
+        "content": "Transition from initial CT findings to further characterization of lung lesions on CT scan."
+      }
+    },
+    {
+      "from": "N5",
+      "to": "N6",
+      "data": {
+        "edge_id": "E_to_F",
+        "branch_flag": true,
+        "content": "Transition from CT scan findings to diagnosis of lung adenocarcinoma.",
+        "transition_event": {
+          "trigger_type": "interpretation",
+          "trigger_entities": [
+            "C34.3"
+          ],
+          "change_type": "addition",
+          "target_domain": "diagnosis"
+        }
+      }
+    },
+    {
+      "from": "N6",
+      "to": "N7",
+      "data": {
+        "edge_id": "F_to_G",
+        "branch_flag": true,
+        "content": "Transition from diagnosis to further imaging and bronchoscopy findings."
+      }
+    },
+    {
+      "from": "N7",
+      "to": "N8",
+      "data": {
+        "edge_id": "G_to_H",
+        "branch_flag": true,
+        "content": "Transition from bronchoscopy to hemoptysis event, growth of pulmonary lesions, absence of metastases, and decision for surgical intervention.",
+        "transition_event": {
+          "trigger_type": "symptom_onset",
+          "trigger_entities": [
+            "C0018944"
+          ],
+          "change_type": "progression",
+          "target_domain": "symptom"
+        }
+      }
+    },
+    {
+      "from": "N8",
+      "to": "N9",
+      "data": {
+        "edge_id": "H_to_I",
+        "branch_flag": true,
+        "content": "Transition to surgical intervention."
+      }
+    }
+  ]
+}

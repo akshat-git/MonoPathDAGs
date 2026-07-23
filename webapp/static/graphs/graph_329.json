@@ -1,0 +1,391 @@
+{
+  "nodes": [
+    {
+      "id": "N1",
+      "label": "Step 1",
+      "customData": {
+        "node_id": "A",
+        "node_step_index": 0,
+        "content": "September 2019: 62-year-old woman diagnosed with stage IV lung adenocarcinoma with bilateral lung and lymph node involvement. EGFR mutation (Ex19Del) positive.",
+        "clinical_data": {
+          "diagnoses": [
+            {
+              "code": "C34",
+              "label": "Malignant neoplasm of bronchus and lung",
+              "status": "active",
+              "onset_date": "2019-09"
+            },
+            {
+              "code": "C77",
+              "label": "Secondary and unspecified malignant neoplasm of lymph nodes",
+              "status": "active",
+              "onset_date": "2019-09"
+            }
+          ],
+          "labs": [
+            {
+              "test": "EGFR mutation",
+              "value": "positive",
+              "unit": null,
+              "flag": "positive",
+              "reference_range": null,
+              "timestamp": "2019-09"
+            }
+          ],
+          "imaging": [
+            {
+              "type": "Lung Adenocarcinoma",
+              "body_part": "Lung",
+              "modality": null,
+              "finding": "bilateral lung and lymph node involvement",
+              "impression": "Stage IV",
+              "date": "2019-09"
+            }
+          ]
+        }
+      }
+    },
+    {
+      "id": "N2",
+      "label": "Step 2",
+      "customData": {
+        "node_id": "B",
+        "node_step_index": 1,
+        "content": "September 2019: Started treatment with osimertinib at 80 mg/day.",
+        "clinical_data": {
+          "medications": [
+            {
+              "drug": "C1705634",
+              "dosage": "80 mg/day",
+              "frequency": "daily",
+              "modality": "oral",
+              "start_date": "2019-09",
+              "end_date": null,
+              "indication": null
+            }
+          ]
+        }
+      }
+    },
+    {
+      "id": "N3",
+      "label": "Step 3",
+      "customData": {
+        "node_id": "C",
+        "node_step_index": 2,
+        "content": "Patient admitted for grade III cardiac, hepatic, and pulmonary toxicity (pericarditis, pneumonitis, and alteration of the hepatic profile) requiring treatment with NSAIDs and colchicine. Osimertinib dosage readjusted to 40 mg/day. Cardiology department monitored patient with adequate tolerance and preserved left ventricular ejection fraction (LVEF).",
+        "clinical_data": {
+          "diagnoses": [
+            {
+              "code": "C0007074",
+              "label": "Cardiac Toxicity",
+              "status": "active"
+            },
+            {
+              "code": "C0238233",
+              "label": "Hepatic Toxicity",
+              "status": "active"
+            },
+            {
+              "code": "C0238234",
+              "label": "Pulmonary Toxicity",
+              "status": "active"
+            },
+            {
+              "code": "C0031134",
+              "label": "Pericarditis",
+              "status": "active"
+            },
+            {
+              "code": "C0035596",
+              "label": "Pneumonitis",
+              "status": "active"
+            }
+          ],
+          "medications": [
+            {
+              "drug": "C1621",
+              "dosage": "40 mg/day",
+              "frequency": "daily",
+              "modality": "oral",
+              "indication": "Non-small cell lung carcinoma"
+            },
+            {
+              "drug": "C0010073",
+              "dosage": null,
+              "frequency": null,
+              "modality": null,
+              "indication": "Pericarditis"
+            },
+            {
+              "drug": "C0010456",
+              "dosage": null,
+              "frequency": null,
+              "modality": null,
+              "indication": "Pericarditis"
+            }
+          ],
+          "labs": [
+            {
+              "test": "C0151807",
+              "value": "abnormal",
+              "unit": null,
+              "flag": "abnormal"
+            }
+          ]
+        }
+      }
+    },
+    {
+      "id": "N4",
+      "label": "Step 4",
+      "customData": {
+        "node_id": "D",
+        "node_step_index": 3,
+        "content": "February 2021: Liver lesion found with partial response in the rest of the sites. Underwent laparoscopic non-anatomical resection of segment III of the liver. Continued treatment with osimertinib at 40 mg/day.",
+        "timestamp": "2021-02",
+        "clinical_data": {
+          "imaging": [
+            {
+              "type": "Lesion (morphologic abnormality)",
+              "body_part": "Liver",
+              "modality": null,
+              "finding": "Liver lesion found with partial response in the rest of the sites",
+              "impression": null,
+              "date": "2021-02"
+            }
+          ],
+          "procedures": [
+            {
+              "name": "Resection",
+              "approach": "laparoscopic",
+              "date": "2021-02",
+              "location": "Segment III of the liver",
+              "performed_by": null,
+              "outcome": null
+            }
+          ],
+          "medications": [
+            {
+              "drug": "Osimertinib",
+              "dosage": "40 mg/day",
+              "frequency": "daily",
+              "modality": "oral",
+              "start_date": "2021-02",
+              "end_date": null,
+              "indication": null
+            }
+          ]
+        }
+      }
+    },
+    {
+      "id": "N5",
+      "label": "Step 5",
+      "customData": {
+        "node_id": "E",
+        "node_step_index": 4,
+        "content": "November 2021: Cranial CAT scan showed a selar lesion, suggesting a metastatic lesion by MRI. Pending assessment of local therapeutic approach.",
+        "timestamp": "2021-11",
+        "clinical_data": {
+          "imaging": [
+            {
+              "type": "Computed tomography",
+              "body_part": "Cranium",
+              "modality": "CT",
+              "finding": "selar lesion",
+              "impression": "suggesting a metastatic lesion by MRI",
+              "date": "2021-11"
+            }
+          ]
+        }
+      }
+    },
+    {
+      "id": "N6",
+      "label": "Step 6",
+      "customData": {
+        "node_id": "F",
+        "node_step_index": 5,
+        "content": "Patient on treatment with osimertinib developed fulminant myocarditis after receiving the third dose of COVID-19 Moderna vaccine. Patient consulted for fever (39.0 \u00b0C) at home, intense asthenia and hypotension (50/30 mmHg). Examination revealed sinus tachycardia (150 bpm) and skin pallor. Patient mentioned vaccination the previous day with a third dose of vaccine (Moderna) against COVID-19 and influenza and the onset of symptoms that morning. Intensive fluidtherapy was started with no clinical improvement. Urgent laboratory tests showed slight alterations in renal and hepatic function parameters and no elevation of acute phase reactants. ECG showed sinus tachycardia with no signs of acute ischaemia. Myocardial damage markers (MDM) were",
+        "clinical_data": {
+          "medications": [
+            {
+              "drug": "Osimertinib",
+              "dosage": null,
+              "frequency": null,
+              "modality": null,
+              "start_date": null,
+              "end_date": null,
+              "indication": null
+            }
+          ],
+          "allergies": [
+            {
+              "substance": "COVID-19 Moderna vaccine",
+              "reaction": "fulminant myocarditis",
+              "severity": "severe",
+              "date_recorded": null
+            }
+          ],
+          "HPI": [
+            {
+              "summary": "Patient developed fulminant myocarditis after receiving the third dose of COVID-19 Moderna vaccine.",
+              "duration": "1 day",
+              "onset": "morning",
+              "progression": "sudden",
+              "associated_symptoms": [
+                "fever",
+                "asthenia",
+                "hypotension"
+              ],
+              "alleviating_factors": [],
+              "exacerbating_factors": []
+            }
+          ],
+          "vitals": [
+            {
+              "type": "Fever",
+              "value": "39.0",
+              "unit": "\u00b0C",
+              "timestamp": null
+            },
+            {
+              "type": "Hypotension",
+              "value": "50/30",
+              "unit": "mmHg",
+              "timestamp": null
+            },
+            {
+              "type": "Heart rate",
+              "value": "150",
+              "unit": "bpm",
+              "timestamp": null
+            }
+          ],
+          "procedures": [
+            {
+              "name": "Intensive fluidtherapy",
+              "approach": null,
+              "date": null,
+              "location": null,
+              "performed_by": null,
+              "outcome": "no clinical improvement"
+            }
+          ],
+          "labs": [
+            {
+              "test": "Renal function parameters",
+              "value": "slight alterations",
+              "unit": null,
+              "flag": "abnormal",
+              "reference_range": null,
+              "timestamp": null
+            },
+            {
+              "test": "Hepatic function parameters",
+              "value": "slight alterations",
+              "unit": null,
+              "flag": "abnormal",
+              "reference_range": null,
+              "timestamp": null
+            },
+            {
+              "test": "Acute phase reactants",
+              "value": "no elevation",
+              "unit": null,
+              "flag": "normal",
+              "reference_range": null,
+              "timestamp": null
+            }
+          ],
+          "imaging": [
+            {
+              "type": "Electrocardiogram",
+              "body_part": "Heart",
+              "modality": "other",
+              "finding": "sinus tachycardia",
+              "impression": "no signs of acute ischaemia",
+              "date": null
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "edges": [
+    {
+      "from": "N1",
+      "to": "N2",
+      "data": {
+        "edge_id": "A_to_B",
+        "branch_flag": true,
+        "content": "Transition from diagnosis of stage IV lung adenocarcinoma to initiation of osimertinib treatment."
+      }
+    },
+    {
+      "from": "N2",
+      "to": "N3",
+      "data": {
+        "edge_id": "B_to_C",
+        "branch_flag": true,
+        "content": "Development of grade III cardiac, hepatic, and pulmonary toxicity requiring treatment adjustments and monitoring.",
+        "transition_event": {
+          "trigger_type": "medication_change",
+          "trigger_entities": [
+            "C1705634"
+          ],
+          "change_type": "escalation",
+          "target_domain": "symptom"
+        }
+      }
+    },
+    {
+      "from": "N3",
+      "to": "N4",
+      "data": {
+        "edge_id": "C_to_D",
+        "branch_flag": true,
+        "content": "Detection of liver lesion with partial response in other sites, leading to surgical resection and continued osimertinib treatment.",
+        "transition_event": {
+          "trigger_type": "imaging",
+          "trigger_entities": [],
+          "change_type": "progression",
+          "target_domain": "imaging",
+          "timestamp": "2021-02"
+        }
+      }
+    },
+    {
+      "from": "N4",
+      "to": "N5",
+      "data": {
+        "edge_id": "D_to_E",
+        "branch_flag": true,
+        "content": "Identification of a selar lesion on cranial CAT scan, suggestive of metastasis.",
+        "transition_event": {
+          "trigger_type": "imaging",
+          "trigger_entities": [],
+          "change_type": "progression",
+          "target_domain": "imaging",
+          "timestamp": "2021-11"
+        }
+      }
+    },
+    {
+      "from": "N5",
+      "to": "N6",
+      "data": {
+        "edge_id": "E_to_F",
+        "branch_flag": true,
+        "content": "Development of fulminant myocarditis after COVID-19 Moderna vaccination, leading to fever, asthenia, and hypotension.",
+        "transition_event": {
+          "trigger_type": "medication_change",
+          "trigger_entities": [],
+          "change_type": "addition",
+          "target_domain": "symptom"
+        }
+      }
+    }
+  ]
+}

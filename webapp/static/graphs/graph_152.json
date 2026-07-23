@@ -1,0 +1,541 @@
+{
+  "nodes": [
+    {
+      "id": "N1",
+      "label": "Step 1",
+      "customData": {
+        "node_id": "A",
+        "node_step_index": 0,
+        "content": "In 2019, the patient was admitted to a local hospital for dyspnea on exertion during moderate physical activity. Thoracic CT revealed pleural effusion in the left hemithorax. Biochemical and cytological analysis of the pleural fluid showed a lymphocyte-predominant exudate.",
+        "clinical_data": {
+          "diagnoses": [
+            {
+              "code": "R06.02",
+              "label": "Dyspnea on exertion",
+              "status": "historical",
+              "onset_date": "2019"
+            }
+          ],
+          "imaging": [
+            {
+              "type": "T171",
+              "body_part": "T-D005864",
+              "modality": "CT",
+              "finding": "Pleural Effusion",
+              "impression": "Pleural effusion in the left hemithorax",
+              "date": "2019"
+            }
+          ],
+          "labs": [
+            {
+              "test": "Pleural Fluid Analysis",
+              "value": "Lymphocyte-predominant exudate",
+              "unit": null,
+              "flag": "abnormal",
+              "reference_range": null,
+              "timestamp": "2019"
+            }
+          ]
+        }
+      }
+    },
+    {
+      "id": "N2",
+      "label": "Step 2",
+      "customData": {
+        "node_id": "B",
+        "node_step_index": 1,
+        "content": "Diagnosed with pleurisy of an unspecified etiology, and antibiotic and anti-inflammatory treatment was recommended for 7 days. The evolution was favorable, and the pleural fluid was reabsorbed.",
+        "clinical_data": {
+          "diagnoses": [
+            {
+              "code": "C0032013",
+              "label": "Pleurisy",
+              "status": "active"
+            }
+          ],
+          "medications": [
+            {
+              "drug": "antibiotic",
+              "dosage": null,
+              "frequency": null,
+              "modality": null,
+              "start_date": null,
+              "end_date": null,
+              "indication": "C0032013"
+            },
+            {
+              "drug": "anti-inflammatory treatment",
+              "dosage": null,
+              "frequency": null,
+              "modality": null,
+              "start_date": null,
+              "end_date": null,
+              "indication": "C0032013"
+            }
+          ]
+        }
+      }
+    },
+    {
+      "id": "N3",
+      "label": "Step 3",
+      "customData": {
+        "node_id": "C",
+        "node_step_index": 2,
+        "content": "Between 2019 and 2021, the dyspnea progressively accentuated, accompanied by chest pain and weight loss.",
+        "clinical_data": {
+          "HPI": [
+            {
+              "summary": "Dyspnea progressively accentuated between 2019 and 2021, accompanied by chest pain and weight loss.",
+              "duration": "2 years",
+              "onset": "2019",
+              "progression": "gradual",
+              "associated_symptoms": [
+                "C0008031",
+                "C0042066"
+              ]
+            }
+          ]
+        }
+      }
+    },
+    {
+      "id": "N4",
+      "label": "Step 4",
+      "customData": {
+        "node_id": "D",
+        "node_step_index": 3,
+        "content": "September 2021: Admitted to a thoracic surgery department for pleural effusion. Thoracic CT showed pleural effusion in the left hemithorax.",
+        "clinical_data": {
+          "imaging": [
+            {
+              "type": "Thoracic CT",
+              "body_part": "Thorax",
+              "modality": "CT",
+              "finding": "pleural effusion in the left hemithorax",
+              "date": "2021-09"
+            }
+          ],
+          "diagnoses": [
+            {
+              "code": "59680005",
+              "label": "Pleural Effusion",
+              "status": "active",
+              "onset_date": "2021-09"
+            }
+          ]
+        }
+      }
+    },
+    {
+      "id": "N5",
+      "label": "Step 5",
+      "customData": {
+        "node_id": "E",
+        "node_step_index": 4,
+        "content": "Thoracentesis and pleural biopsy revealed diffuse malignant mesothelioma with epithelioid elements.",
+        "clinical_data": {
+          "procedures": [
+            {
+              "name": "Thoracentesis",
+              "approach": "percutaneous",
+              "date": null,
+              "location": "pleural space",
+              "performed_by": null,
+              "outcome": null
+            },
+            {
+              "name": "Biopsy",
+              "approach": "percutaneous",
+              "date": null,
+              "location": "pleura",
+              "performed_by": null,
+              "outcome": null
+            }
+          ],
+          "diagnoses": [
+            {
+              "code": "C45.0",
+              "label": "Mesothelioma of pleura",
+              "status": "active",
+              "onset_date": null
+            }
+          ]
+        }
+      }
+    },
+    {
+      "id": "N6",
+      "label": "Step 6",
+      "customData": {
+        "node_id": "F",
+        "node_step_index": 5,
+        "content": "October 2021: Left thoracotomy and decortication of the pleura were performed. Histopathology showed diffuse biphasic mesothelioma (60% sarcomatous, 40% epithelioid elements) with pulmonary invasion.",
+        "clinical_data": {
+          "procedures": [
+            {
+              "name": "Thoracotomy",
+              "approach": "open",
+              "date": "2021-10",
+              "location": "Left pleura",
+              "outcome": "Decortication of the pleura"
+            }
+          ],
+          "diagnoses": [
+            {
+              "code": "C45.0",
+              "label": "Mesothelioma of pleura",
+              "status": "active",
+              "onset_date": "2021-10"
+            }
+          ],
+          "imaging": [
+            {
+              "type": "Imaging of the chest",
+              "body_part": "Pleura",
+              "modality": "X-ray",
+              "finding": "Pulmonary invasion",
+              "date": "2021-10"
+            }
+          ]
+        }
+      }
+    },
+    {
+      "id": "N7",
+      "label": "Step 7",
+      "customData": {
+        "node_id": "G",
+        "node_step_index": 6,
+        "content": "Histopathology of the pleura post-thoracotomy and decortication revealed diffuse biphasic mesothelioma. Epithelioid areas showed tubulopapillary and trabecular structures. Sarcomatous areas showed cells with transitional morphology. Necrosis, moderate atypia, and mitosis were identified. Immunohistochemistry was positive for Calretinin, Wilms tumor 1, and D 24-0, supporting mesothelioma diagnosis. Immunohistochemistry: Antibody BAP1 (C-4). Immunohistochemistry: No loss of nuclear expression, BER-EP4 Negative, Claudin 4 Negative, D2-40 Positive, Calretinin Positive, WT1 Positive.",
+        "clinical_data": {
+          "diagnoses": [
+            {
+              "code": "C0025240",
+              "label": "Mesothelioma",
+              "status": "active"
+            }
+          ],
+          "imaging": [
+            {
+              "type": "Pleura",
+              "body_part": "Pleura",
+              "modality": "other",
+              "finding": "diffuse biphasic mesothelioma",
+              "date": null
+            }
+          ],
+          "procedures": [
+            {
+              "name": "Thoracotomy",
+              "date": null,
+              "location": "Pleura",
+              "outcome": null
+            },
+            {
+              "name": "Decortication",
+              "date": null,
+              "location": "Pleura",
+              "outcome": null
+            }
+          ],
+          "labs": [
+            {
+              "test": "Calretinin",
+              "value": "Positive"
+            },
+            {
+              "test": "Wilms tumor 1",
+              "value": "Positive"
+            },
+            {
+              "test": "D 24-0",
+              "value": "Positive"
+            },
+            {
+              "test": "BER-EP4",
+              "value": "Negative"
+            },
+            {
+              "test": "Claudin 4",
+              "value": "Negative"
+            },
+            {
+              "test": "D2-40",
+              "value": "Positive"
+            },
+            {
+              "test": "Antibody BAP1 (C-4)",
+              "value": "No loss of nuclear expression"
+            }
+          ]
+        }
+      }
+    },
+    {
+      "id": "N8",
+      "label": "Step 8",
+      "customData": {
+        "node_id": "H",
+        "node_step_index": 7,
+        "content": "February 2022: 68-year-old non-smoking female patient with a history of essential hypertension, dyslipidemia, and hypothyroidism, was admitted to the Colentina Occupational Medicine Clinic due to dyspnea, asthenia, loss of appetite, weight loss, and pain in the left thoracic area.",
+        "clinical_data": {
+          "diagnoses": [
+            {
+              "code": "38341003",
+              "label": "Essential hypertension",
+              "status": "historical"
+            },
+            {
+              "code": "271737000",
+              "label": "Dyslipidemia",
+              "status": "historical"
+            },
+            {
+              "code": "190792003",
+              "label": "Hypothyroidism",
+              "status": "historical"
+            }
+          ],
+          "HPI": [
+            {
+              "summary": "Patient presented with dyspnea, asthenia, loss of appetite, weight loss, and pain in the left thoracic area.",
+              "onset": "February 2022",
+              "associated_symptoms": [
+                "Dyspnea",
+                "Asthenia",
+                "Loss of appetite",
+                "Weight loss",
+                "Pain in the left thoracic area"
+              ]
+            }
+          ],
+          "social_history": [
+            {
+              "category": "smoking",
+              "status": "never"
+            }
+          ]
+        }
+      }
+    },
+    {
+      "id": "N9",
+      "label": "Step 9",
+      "customData": {
+        "node_id": "I",
+        "node_step_index": 8,
+        "content": "Positron emission tomography (PET-CT) showed thickening of the left pleura from the top to the base. PET-CT scans showed thickening of the left pleura from top to base. No metastases or invasion of the chest wall, mediastinum, or diaphragm.",
+        "clinical_data": {
+          "imaging": [
+            {
+              "type": "Positron emission tomography",
+              "body_part": "Pleura",
+              "modality": "PET-CT",
+              "finding": "thickening of the left pleura from the top to the base",
+              "impression": "No metastases or invasion of the chest wall, mediastinum, or diaphragm."
+            }
+          ]
+        }
+      }
+    },
+    {
+      "id": "N10",
+      "label": "Step 10",
+      "customData": {
+        "node_id": "J",
+        "node_step_index": 9,
+        "content": "Clinical examination revealed severe skin and mucous membrane pallor, a postoperative scar in the left thoracic region, pleural rubs in the left pulmonary base, dullness in the lower base of the right thoracic area, an abolished vesicular murmur in the right pulmonary base, and 92% oxygen saturation at rest.",
+        "clinical_data": {
+          "vitals": [
+            {
+              "type": "Oxygen saturation",
+              "value": "92",
+              "unit": "%",
+              "timestamp": null
+            }
+          ],
+          "physical_exam": [
+            {
+              "finding": "Pallor",
+              "location": "Skin and mucous membrane",
+              "severity": "severe"
+            },
+            {
+              "finding": "Postoperative scar",
+              "location": "Left thoracic region"
+            },
+            {
+              "finding": "Pleural rubs",
+              "location": "Left pulmonary base"
+            },
+            {
+              "finding": "Dullness",
+              "location": "Lower base of the right thoracic area"
+            },
+            {
+              "finding": "Abolished vesicular murmur",
+              "location": "Right pulmonary base"
+            }
+          ]
+        }
+      }
+    },
+    {
+      "id": "N11",
+      "label": "Step 11",
+      "customData": {
+        "node_id": "K",
+        "node_step_index": 10,
+        "content": "Completed five sessions of radiotherapy with modular intensity and image-guided radiotherapy and followed chemotherapy (cisplatin 100 mg and pemetrexed 750 mg).",
+        "clinical_data": {
+          "procedures": [
+            {
+              "name": "Radiotherapy",
+              "approach": "other",
+              "location": "unknown",
+              "outcome": "completed",
+              "modality": "modular intensity and image-guided radiotherapy"
+            }
+          ],
+          "medications": [
+            {
+              "drug": "cisplatin",
+              "dosage": "100 mg",
+              "modality": "IV"
+            },
+            {
+              "drug": "pemetrexed",
+              "dosage": "750 mg",
+              "modality": "IV"
+            }
+          ]
+        }
+      }
+    },
+    {
+      "id": "N12",
+      "label": "Step 12",
+      "customData": {
+        "node_id": "L",
+        "node_step_index": 11,
+        "content": "January 2",
+        "clinical_data": {}
+      }
+    }
+  ],
+  "edges": [
+    {
+      "from": "N1",
+      "to": "N2",
+      "data": {
+        "edge_id": "A_to_B",
+        "branch_flag": true,
+        "content": "Patient diagnosed with pleurisy of an unspecified etiology and treated with antibiotics and anti-inflammatory medication for 7 days, resulting in resolution of the pleural effusion."
+      }
+    },
+    {
+      "from": "N2",
+      "to": "N3",
+      "data": {
+        "edge_id": "B_to_C",
+        "branch_flag": true,
+        "content": "Between 2019 and 2021, the patient's dyspnea progressively worsened, accompanied by chest pain and weight loss."
+      }
+    },
+    {
+      "from": "N3",
+      "to": "N4",
+      "data": {
+        "edge_id": "C_to_D",
+        "branch_flag": true,
+        "content": "In September 2021, the patient was admitted for pleural effusion. Thoracic CT confirmed pleural effusion in the left hemithorax.",
+        "transition_event": {
+          "trigger_type": "symptom_onset",
+          "trigger_entities": [
+            "C0013404"
+          ],
+          "change_type": "progression",
+          "target_domain": "symptom",
+          "timestamp": "2021-09"
+        }
+      }
+    },
+    {
+      "from": "N4",
+      "to": "N5",
+      "data": {
+        "edge_id": "D_to_E",
+        "branch_flag": true,
+        "content": "Thoracentesis and pleural biopsy revealed diffuse malignant mesothelioma with epithelioid elements.",
+        "transition_event": {
+          "trigger_type": "procedure",
+          "trigger_entities": [
+            "C0040038",
+            "C0005690"
+          ],
+          "change_type": "addition",
+          "target_domain": "diagnosis"
+        }
+      }
+    },
+    {
+      "from": "N5",
+      "to": "N6",
+      "data": {
+        "edge_id": "E_to_F",
+        "branch_flag": true,
+        "content": "In October 2021, the patient underwent left thoracotomy and decortication of the pleura. Histopathology showed diffuse biphasic mesothelioma (60% sarcomatous, 40% epithelioid elements) with pulmonary invasion.",
+        "transition_event": {
+          "trigger_type": "procedure",
+          "trigger_entities": [
+            "C0040038"
+          ],
+          "change_type": "addition",
+          "target_domain": "procedure",
+          "timestamp": "2021-10"
+        }
+      }
+    },
+    {
+      "from": "N6",
+      "to": "N7",
+      "data": {
+        "edge_id": "F_to_G",
+        "branch_flag": true,
+        "content": "Post-thoracotomy and decortication, histopathology of the pleura revealed diffuse biphasic mesothelioma with specific cellular structures and positive immunohistochemistry for Calretinin, Wilms tumor 1, and D 24-0, supporting the mesothelioma diagnosis. Antibody BAP1 (C-4) showed no loss of nuclear expression, BER-EP4 and Claudin 4 were negative, and D2-40 was positive.",
+        "transition_event": {
+          "trigger_type": "lab_change",
+          "trigger_entities": [
+            "C0025240"
+          ],
+          "change_type": "reinterpretation",
+          "target_domain": "diagnosis"
+        }
+      }
+    },
+    {
+      "from": "N7",
+      "to": "N8",
+      "data": {
+        "edge_id": "G_to_H",
+        "branch_flag": true,
+        "content": "In February 2022, the 68-year-old patient, with a history of essential hypertension, dyslipidemia, and hypothyroidism, was admitted due to dyspnea, asthenia, loss of appetite, weight loss, and pain in the left thoracic area.",
+        "transition_event": {
+          "trigger_type": "symptom_onset",
+          "trigger_entities": [
+            "C0013404",
+            "C0004093",
+            "C0024296",
+            "C0042066",
+            "C0033038"
+          ],
+          "change_type": "progression",
+          "target_domain": "symptom",
+          "timestamp": "2022-02"
+        }
+      }
+    }
+  ]
+}

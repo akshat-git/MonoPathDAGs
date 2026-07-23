@@ -1,0 +1,9 @@
+A 73-year-old East Asian woman with a medical history of hypertension, but no other significant underlying diseases, no smoking history, and no family history of cancer, was admitted to the Pulmonology Department of Chungnam National University Hospital in November 2022 for evaluation of an abnormal chest computed tomography (CT) scan. She presented without respiratory symptoms such as cough or dyspnea. The chest CT revealed a 1.1-cm spiculated nodule in the right middle lobe (RML), as well as multiple pleural nodules with mild pleural thickening and fibrotic lesions in the right upper lobe (RUL).
+
+The patient was diagnosed with stage IV anaplastic lymphoma kinase (ALK)-rearranged lung adenocarcinoma in the RML. She was started on alectinib targeted therapy. After 18 months of alectinib treatment, while the initial lesion in the RML regressed, a new nodule developed in the right upper lobe (RUL).
+
+In 2024, a biopsy of the new RUL nodule revealed adenocarcinoma with epidermal growth factor receptor (EGFR) L858R/T790M co-mutations, but without ALK rearrangement. Targeted next-generation sequencing (NGS) was performed on biopsies from 2022 (initial RML lesion) and 2024 (new RUL lesion), revealing significant molecular evolution over time, with a marked increase in single nucleotide variants (SNVs) and copy number variants (CNVs) and distinct changes in key mutations such as ALK-EML4 and EGFR.
+
+The patient received stereotactic body radiotherapy (SBRT) for the new RUL lesion while continuing alectinib. This resulted in significant improvement, which has been maintained until the time of this report.
+
+This case represents the first documented occurrence of metachronous L858R and T790M EGFR mutations following ALK inhibitor therapy, highlighting the emergence of distinct driver mutations over time and reflecting temporal and spatial tumor heterogeneity.

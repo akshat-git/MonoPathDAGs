@@ -1,0 +1,218 @@
+{
+  "nodes": [
+    {
+      "id": "N1",
+      "label": "Step 1",
+      "customData": {
+        "node_id": "A",
+        "node_step_index": 0,
+        "content": "21-year-old female admitted with unclear diffuse abdominal pain.",
+        "clinical_data": {
+          "HPI": [
+            {
+              "summary": "21-year-old female admitted with unclear diffuse abdominal pain."
+            }
+          ]
+        }
+      }
+    },
+    {
+      "id": "N2",
+      "label": "Step 2",
+      "customData": {
+        "node_id": "B",
+        "node_step_index": 1,
+        "content": "Transvaginal ultrasound (US) and magnetic resonance imaging (MRI) of the abdomen and pelvis demonstrated multiple functional cysts in the right and left ovaries, and free fluid inside the vesicouterine and rectouterine excavation. The right ovary measured 3.5x2.7 cm and left ovary 3.3x2.6 cm.",
+        "clinical_data": {
+          "imaging": [
+            {
+              "type": "Ultrasound imaging of abdomen and pelvis",
+              "body_part": "Ovaries",
+              "modality": "Ultrasound",
+              "finding": "Multiple functional cysts in the right and left ovaries",
+              "date": null
+            },
+            {
+              "type": "Magnetic resonance imaging of abdomen and pelvis",
+              "body_part": "Abdomen and pelvis",
+              "modality": "MRI",
+              "finding": "Free fluid inside the vesicouterine and rectouterine excavation",
+              "date": null
+            }
+          ]
+        }
+      }
+    },
+    {
+      "id": "N3",
+      "label": "Step 3",
+      "customData": {
+        "node_id": "C",
+        "node_step_index": 2,
+        "content": "Laparoscopy revealed a multicystic tumor with thin, smooth walls, filled with clear serous content in the lesser pelvis spreading into the left paracolic region and under the spleen.",
+        "clinical_data": {
+          "imaging": [
+            {
+              "type": "Tumor",
+              "body_part": "Lesser pelvis",
+              "modality": "Laparoscopy",
+              "finding": "Multicystic tumor with thin, smooth walls, filled with clear serous content spreading into the left paracolic region and under the spleen"
+            }
+          ]
+        }
+      }
+    },
+    {
+      "id": "N4",
+      "label": "Step 4",
+      "customData": {
+        "node_id": "D",
+        "node_step_index": 3,
+        "content": "Multicystic mass removed via laparoscopy with complete resection.",
+        "clinical_data": {
+          "procedures": [
+            {
+              "name": "Laparoscopy",
+              "approach": "laparoscopic",
+              "outcome": "complete resection",
+              "location": "abdomen"
+            }
+          ]
+        }
+      }
+    },
+    {
+      "id": "N5",
+      "label": "Step 5",
+      "customData": {
+        "node_id": "E",
+        "node_step_index": 4,
+        "content": "Cytologic analysis of the cystic fluid showed clusters of fibroblasts, histiocytes and eosinophils with no malignant cells found.",
+        "clinical_data": {
+          "labs": [
+            {
+              "test": "Cytologic analysis",
+              "value": "clusters of fibroblasts, histiocytes and eosinophils with no malignant cells found"
+            }
+          ]
+        }
+      }
+    },
+    {
+      "id": "N6",
+      "label": "Step 6",
+      "customData": {
+        "node_id": "F",
+        "node_step_index": 5,
+        "content": "Histopathologic analysis showed cystic formations filled with mucous content and formed from connective tissue outside and single row epithelium-mesothelium inside.",
+        "clinical_data": {
+          "labs": [
+            {
+              "test": "Histopathologic analysis",
+              "value": "cystic formations filled with mucous content and formed from connective tissue outside and single row epithelium-mesothelium inside"
+            }
+          ]
+        }
+      }
+    },
+    {
+      "id": "N7",
+      "label": "Step 7",
+      "customData": {
+        "node_id": "G",
+        "node_step_index": 6,
+        "content": "Immunohistochemical stains were positive for calretinin, CK5/6 and CA125, leading to a definitive diagnosis of Benign Multicystic Peritoneal Mesothelioma (BMPM).",
+        "clinical_data": {
+          "diagnoses": [
+            {
+              "code": "C0341046",
+              "label": "Benign Multicystic Peritoneal Mesothelioma",
+              "status": "active"
+            }
+          ]
+        }
+      }
+    },
+    {
+      "id": "N8",
+      "label": "Step 8",
+      "customData": {
+        "node_id": "H",
+        "node_step_index": 7,
+        "content": "The patient presented for regular check-ups and was well, with no signs of recurrence at one-year follow-up.",
+        "clinical_data": {
+          "HPI": [
+            {
+              "summary": "Patient presented for regular check-ups and was well, with no signs of recurrence at one-year follow-up."
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "edges": [
+    {
+      "from": "N1",
+      "to": "N2",
+      "data": {
+        "edge_id": "A_to_B",
+        "branch_flag": true,
+        "content": "Patient underwent transvaginal ultrasound (US) and magnetic resonance imaging (MRI) of the abdomen and pelvis."
+      }
+    },
+    {
+      "from": "N2",
+      "to": "N3",
+      "data": {
+        "edge_id": "B_to_C",
+        "branch_flag": true,
+        "content": "Patient underwent laparoscopy."
+      }
+    },
+    {
+      "from": "N3",
+      "to": "N4",
+      "data": {
+        "edge_id": "C_to_D",
+        "branch_flag": true,
+        "content": "Multicystic mass removed via laparoscopy with complete resection."
+      }
+    },
+    {
+      "from": "N4",
+      "to": "N5",
+      "data": {
+        "edge_id": "D_to_E",
+        "branch_flag": true,
+        "content": "Cytologic analysis of the cystic fluid performed."
+      }
+    },
+    {
+      "from": "N5",
+      "to": "N6",
+      "data": {
+        "edge_id": "E_to_F",
+        "branch_flag": true,
+        "content": "Histopathologic analysis performed."
+      }
+    },
+    {
+      "from": "N6",
+      "to": "N7",
+      "data": {
+        "edge_id": "F_to_G",
+        "branch_flag": true,
+        "content": "Immunohistochemical stains performed."
+      }
+    },
+    {
+      "from": "N7",
+      "to": "N8",
+      "data": {
+        "edge_id": "G_to_H",
+        "branch_flag": true,
+        "content": "Patient presented for regular check-ups and was well, with no signs of recurrence at one-year follow-up."
+      }
+    }
+  ]
+}

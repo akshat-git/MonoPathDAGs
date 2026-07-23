@@ -1,0 +1,246 @@
+{
+  "nodes": [
+    {
+      "id": "N1",
+      "label": "Step 1",
+      "customData": {
+        "node_id": "A",
+        "node_step_index": 0,
+        "content": "71-year-old male with a past medical history of tobacco use, who quit more than 24 years ago, presented with a newly diagnosed lung cancer and a progressively increasing lump in the right axilla over 2 months. Axillary ultrasound showed a 3.7 cm enlarged lymph node (LN) in the right axilla with effacement and hypervascularity. LN biopsy showed carcinoma with cytokeratin 7 (CK-7) and thyroid transcription factor-1 (TTF-1) positivity. P40 focally positive, findings consistent with lung adenocarcinoma, with a possibility of squamous component. PET scan showed multiple F-fluorodeoxyglucose (FDG) avid nodes in the right hilum, thoracic inlet, mediastinum, and right axilla concerning metastatic disease. Brain MRI did not show intracranial metastatic disease. NGS showed high tumor mutational burden (TMB) with no other targetable mutations.",
+        "clinical_data": {
+          "social_history": [
+            {
+              "category": "smoking",
+              "status": "past",
+              "description": "quit more than 24 years ago"
+            }
+          ],
+          "diagnoses": [
+            {
+              "code": "C0024117",
+              "label": "Lung Cancer",
+              "status": "active",
+              "onset_date": null
+            }
+          ],
+          "imaging": [
+            {
+              "type": "Enlarged lymph node",
+              "body_part": "right axilla",
+              "modality": "Ultrasound",
+              "finding": "3.7 cm enlarged lymph node with effacement and hypervascularity",
+              "impression": null,
+              "date": null
+            },
+            {
+              "type": "F-fluorodeoxyglucose avid nodes",
+              "body_part": "right hilum",
+              "modality": "PET",
+              "finding": "multiple F-fluorodeoxyglucose (FDG) avid nodes in the right hilum, thoracic inlet, mediastinum, and right axilla",
+              "impression": "metastatic disease",
+              "date": null
+            },
+            {
+              "type": "Intracranial metastatic disease",
+              "body_part": "Brain",
+              "modality": "MRI",
+              "finding": "no intracranial metastatic disease",
+              "impression": null,
+              "date": null
+            }
+          ],
+          "labs": [
+            {
+              "test": "Tumor Mutational Burden",
+              "value": "high",
+              "unit": null,
+              "flag": "abnormal",
+              "reference_range": null,
+              "timestamp": null
+            }
+          ],
+          "HPI": [
+            {
+              "summary": "progressively increasing lump in the right axilla over 2 months",
+              "duration": "2 months",
+              "onset": null,
+              "progression": "gradual",
+              "associated_symptoms": [],
+              "alleviating_factors": [],
+              "exacerbating_factors": []
+            }
+          ]
+        }
+      },
+      "custom_id": "graph_080_N0"
+    },
+    {
+      "id": "N2",
+      "label": "Step 2",
+      "customData": {
+        "node_id": "B",
+        "node_step_index": 1,
+        "content": "Patient started on single agent pembrolizumab with good treatment response. Seventeen months after initiating treatment, the patient presented to the clinic with worsening shortness of breath (SOB) which he noted a few months ago, was mild in the beginning, and has progressively gotten worse in the last few weeks.",
+        "clinical_data": {
+          "medications": [
+            {
+              "drug": "C1874249",
+              "dosage": null,
+              "frequency": null,
+              "modality": null,
+              "start_date": null,
+              "end_date": null,
+              "indication": null
+            }
+          ],
+          "HPI": [
+            {
+              "summary": "Patient presented with worsening shortness of breath (SOB) which he noted a few months ago, was mild in the beginning, and has progressively gotten worse in the last few weeks.",
+              "duration": null,
+              "onset": "a few months ago",
+              "progression": "progressive",
+              "associated_symptoms": [
+                "C0020538"
+              ],
+              "alleviating_factors": [],
+              "exacerbating_factors": []
+            }
+          ]
+        }
+      },
+      "custom_id": "graph_080_N1"
+    },
+    {
+      "id": "N3",
+      "label": "Step 3",
+      "customData": {
+        "node_id": "C",
+        "node_step_index": 2,
+        "content": "Most recent PET scan did not show any evidence of disease progression or signs of inflammation in lungs. Enlarged pulmonary artery diameter (PAD) measuring 35.96 mm with an aorta diameter (AoD) of 33.23 mm and PAD/AoD of 1.08, whereas PAD at the time of diagnosis was 31.67 mm, and AoD at the time of diagnosis was 33.92 mm, with a ratio of 0.93. Echocardiography showed normal left ventricular cavity size and ejection fraction of 55% with no regional wall motion abnormalities. Right ventricle cavity was markedly increased, with elevated right ventricular systolic pressure (RVSP) at 86 mm Hg with systolic pressure markedly elevated in pulmonary arteries consistent with severe pulmonary arterial hypertension (PAH). Mild regurgitation noted at pulmonary valve with no structural abnormalities. Right heart catheterization showed predominant precapillary PAH with elevated pulmonary artery systolic pressure (PASP) at 83 mm Hg (normal range: 18 - 25 mm Hg) with mean value of 58 mm Hg, pulmonary vascular resistance (PVR) of 10.5 Wood Units (WU) (normal range: 0.25 - 1.6 WU), and left ventricular end diastolic pressure (LVEDP) of 20 mm Hg (normal range: 4 - 12 mm Hg). Left main had 50% stenosis with patent left anterior descending artery, left circumflex, and right coronary arteries. Ventilation perfusion scan was within normal limits.",
+        "clinical_data": {
+          "imaging": [
+            {
+              "type": "Positron emission tomography",
+              "body_part": "Lung",
+              "modality": "PET",
+              "finding": "no evidence of disease progression or signs of inflammation",
+              "impression": "no evidence of disease progression or signs of inflammation in lungs"
+            },
+            {
+              "type": "Pulmonary artery diameter",
+              "body_part": "Pulmonary artery",
+              "modality": "CT",
+              "finding": "Enlarged pulmonary artery diameter (PAD) measuring 35.96 mm with an aorta diameter (AoD) of 33.23 mm and PAD/AoD of 1.08",
+              "impression": "Enlarged pulmonary artery diameter (PAD) measuring 35.96 mm with an aorta diameter (AoD) of 33.23 mm and PAD/AoD of 1.08"
+            },
+            {
+              "type": "Aorta diameter",
+              "body_part": "Aorta",
+              "modality": "CT",
+              "finding": "Enlarged pulmonary artery diameter (PAD) measuring 35.96 mm with an aorta diameter (AoD) of 33.23 mm and PAD/AoD of 1.08",
+              "impression": "Enlarged pulmonary artery diameter (PAD) measuring 35.96 mm with an aorta diameter (AoD) of 33.23 mm and PAD/AoD of 1.08"
+            },
+            {
+              "type": "Echocardiography",
+              "body_part": "Heart",
+              "modality": "Ultrasound",
+              "finding": "normal left ventricular cavity size and ejection fraction of 55% with no regional wall motion abnormalities. Right ventricle cavity was markedly increased",
+              "impression": "normal left ventricular cavity size and ejection fraction of 55% with no regional wall motion abnormalities. Right ventricle cavity was markedly increased"
+            },
+            {
+              "type": "Echocardiography",
+              "body_part": "Heart",
+              "modality": "Ultrasound",
+              "finding": "Mild regurgitation noted at pulmonary valve with no structural abnormalities",
+              "impression": "Mild regurgitation noted at pulmonary valve with no structural abnormalities"
+            },
+            {
+              "type": "Ventilation perfusion scan",
+              "body_part": "Lung",
+              "modality": "other",
+              "finding": "within normal limits",
+              "impression": "within normal limits"
+            }
+          ],
+          "vitals": [
+            {
+              "type": "Right ventricular systolic pressure",
+              "value": "86",
+              "unit": "mm Hg"
+            },
+            {
+              "type": "Pulmonary artery systolic pressure",
+              "value": "83",
+              "unit": "mm Hg"
+            },
+            {
+              "type": "Pulmonary artery mean pressure",
+              "value": "58",
+              "unit": "mm Hg"
+            },
+            {
+              "type": "Left ventricular end diastolic pressure",
+              "value": "20",
+              "unit": "mm Hg"
+            }
+          ],
+          "labs": [
+            {
+              "test": "Pulmonary vascular resistance",
+              "value": "10.5",
+              "unit": "WU",
+              "flag": "abnormal",
+              "reference_range": "0.25 - 1.6 WU"
+            }
+          ],
+          "diagnoses": [
+            {
+              "code": "PAH",
+              "label": "pulmonary arterial hypertension",
+              "status": "active"
+            }
+          ]
+        }
+      },
+      "custom_id": "graph_080_N2"
+    }
+  ],
+  "edges": [
+    {
+      "from": "N1",
+      "to": "N2",
+      "data": {
+        "edge_id": "A_to_B",
+        "branch_flag": true,
+        "content": "Patient with lung adenocarcinoma treated with pembrolizumab.",
+        "transition_event": {
+          "trigger_type": "medication_change",
+          "trigger_entities": [
+            "C1874249"
+          ],
+          "change_type": "addition",
+          "target_domain": "medication"
+        }
+      },
+      "custom_id": "graph_080_N1_N2"
+    },
+    {
+      "from": "N2",
+      "to": "N3",
+      "data": {
+        "edge_id": "B_to_C",
+        "branch_flag": true,
+        "content": "Worsening shortness of breath despite pembrolizumab treatment, leading to suspicion of pulmonary hypertension.",
+        "transition_event": {
+          "trigger_type": "symptom_onset",
+          "trigger_entities": [
+            "C0020538"
+          ],
+          "change_type": "progression",
+          "target_domain": "symptom"
+        }
+      },
+      "custom_id": "graph_080_N2_N3"
+    }
+  ]
+}

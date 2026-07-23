@@ -1,0 +1,614 @@
+{
+  "nodes": [
+    {
+      "id": "N1",
+      "label": "Step 1",
+      "customData": {
+        "node_id": "A",
+        "node_step_index": 0,
+        "content": "August 2021: Imaging revealed metastases in bilateral lungs, left hilar lymph nodes, mediastinal lymph nodes, bilateral supraclavicular lymph nodes, and bone. Patient diagnosed with stage IVB (cT4N3M1c) left lower lobe adenocarcinoma. ECOG PS score of 1.",
+        "clinical_data": {
+          "imaging": [
+            {
+              "type": "metastasis",
+              "body_part": "lung",
+              "modality": null,
+              "finding": "metastases in bilateral lungs",
+              "impression": null,
+              "date": "2021-08"
+            },
+            {
+              "type": "metastasis",
+              "body_part": "lymph node",
+              "modality": null,
+              "finding": "metastases in left hilar lymph nodes",
+              "impression": null,
+              "date": "2021-08"
+            },
+            {
+              "type": "metastasis",
+              "body_part": "lymph node",
+              "modality": null,
+              "finding": "metastases in mediastinal lymph nodes",
+              "impression": null,
+              "date": "2021-08"
+            },
+            {
+              "type": "metastasis",
+              "body_part": "lymph node",
+              "modality": null,
+              "finding": "metastases in bilateral supraclavicular lymph nodes",
+              "impression": null,
+              "date": "2021-08"
+            },
+            {
+              "type": "metastasis",
+              "body_part": "bone",
+              "modality": null,
+              "finding": "metastases in bone",
+              "impression": null,
+              "date": "2021-08"
+            }
+          ],
+          "diagnoses": [
+            {
+              "code": null,
+              "label": "stage IVB (cT4N3M1c) left lower lobe adenocarcinoma",
+              "status": "active",
+              "onset_date": "2021-08"
+            }
+          ],
+          "functional_status": [
+            {
+              "domain": null,
+              "description": "ECOG PS score of 1",
+              "score": 1,
+              "scale": "ECOG"
+            }
+          ]
+        }
+      }
+    },
+    {
+      "id": "N2",
+      "label": "Step 2",
+      "customData": {
+        "node_id": "B",
+        "node_step_index": 1,
+        "content": "Lung biopsy: Poorly differentiated tumor tissue. IHC: ALK+, CK+, CK5/6+, TTF-1+, NapsinA+, Ki-67+, P40-, CD56-, Syn-, NUT-. Confirmed ADC origin of the lung cancer.",
+        "clinical_data": {
+          "imaging": [
+            {
+              "type": "Biopsy",
+              "body_part": "Lung",
+              "modality": "biopsy",
+              "finding": "Poorly differentiated tumor tissue",
+              "date": null
+            }
+          ],
+          "labs": [
+            {
+              "test": "ALK",
+              "value": "positive",
+              "unit": null,
+              "flag": "positive",
+              "reference_range": null,
+              "timestamp": null
+            },
+            {
+              "test": "CK",
+              "value": "positive",
+              "unit": null,
+              "flag": "positive",
+              "reference_range": null,
+              "timestamp": null
+            },
+            {
+              "test": "CK5/6",
+              "value": "positive",
+              "unit": null,
+              "flag": "positive",
+              "reference_range": null,
+              "timestamp": null
+            },
+            {
+              "test": "TTF-1",
+              "value": "positive",
+              "unit": null,
+              "flag": "positive",
+              "reference_range": null,
+              "timestamp": null
+            },
+            {
+              "test": "NapsinA",
+              "value": "positive",
+              "unit": null,
+              "flag": "positive",
+              "reference_range": null,
+              "timestamp": null
+            },
+            {
+              "test": "Ki-67",
+              "value": "positive",
+              "unit": null,
+              "flag": "positive",
+              "reference_range": null,
+              "timestamp": null
+            },
+            {
+              "test": "P40",
+              "value": "negative",
+              "unit": null,
+              "flag": "negative",
+              "reference_range": null,
+              "timestamp": null
+            },
+            {
+              "test": "CD56",
+              "value": "negative",
+              "unit": null,
+              "flag": "negative",
+              "reference_range": null,
+              "timestamp": null
+            },
+            {
+              "test": "Syn",
+              "value": "negative",
+              "unit": null,
+              "flag": "negative",
+              "reference_range": null,
+              "timestamp": null
+            },
+            {
+              "test": "NUT",
+              "value": "negative",
+              "unit": null,
+              "flag": "negative",
+              "reference_range": null,
+              "timestamp": null
+            }
+          ],
+          "diagnoses": [
+            {
+              "code": null,
+              "label": "ADC origin of the lung cancer",
+              "status": "active",
+              "onset_date": null
+            }
+          ]
+        }
+      }
+    },
+    {
+      "id": "N3",
+      "label": "Step 3",
+      "customData": {
+        "node_id": "C",
+        "node_step_index": 2,
+        "content": "Patient received first-line treatment with alectinib 600 mg twice a day orally and achieved partial response.",
+        "clinical_data": {
+          "medications": [
+            {
+              "drug": "alectinib",
+              "dosage": "600 mg",
+              "frequency": "twice a day",
+              "modality": "oral"
+            }
+          ]
+        }
+      }
+    },
+    {
+      "id": "N4",
+      "label": "Step 4",
+      "customData": {
+        "node_id": "D",
+        "node_step_index": 3,
+        "content": "Patient underwent palliative local radiotherapy targeting the lesion of 7th to 9th thoracic vertebrae, with a tissue dose of 30 Gy/10 fractions/14 days due to chest pain and aggravated bone destruction of the 8th thoracic vertebra.",
+        "clinical_data": {
+          "procedures": [
+            {
+              "name": "Radiotherapy",
+              "approach": "other",
+              "date": null,
+              "location": "7th to 9th thoracic vertebrae",
+              "performed_by": null,
+              "outcome": null
+            }
+          ],
+          "diagnoses": [
+            {
+              "code": null,
+              "label": "bone destruction of the 8th thoracic vertebra",
+              "status": "active",
+              "onset_date": null
+            }
+          ]
+        }
+      }
+    },
+    {
+      "id": "N5",
+      "label": "Step 5",
+      "customData": {
+        "node_id": "E",
+        "node_step_index": 4,
+        "content": "4.5 months after radiotherapy, CT scans indicated disease progression with enlarged mediastinal lymph nodes and new metastases in the 10th thoracic vertebra and the right occipital lobe.",
+        "clinical_data": {
+          "imaging": [
+            {
+              "type": "CT scan",
+              "body_part": "mediastinum",
+              "modality": "CT",
+              "finding": "enlarged lymph nodes",
+              "date": null
+            },
+            {
+              "type": "CT scan",
+              "body_part": "10th thoracic vertebra",
+              "modality": "CT",
+              "finding": "new metastases",
+              "date": null
+            },
+            {
+              "type": "CT scan",
+              "body_part": "right occipital lobe",
+              "modality": "CT",
+              "finding": "new metastases",
+              "date": null
+            }
+          ]
+        }
+      }
+    },
+    {
+      "id": "N6",
+      "label": "Step 6",
+      "customData": {
+        "node_id": "F",
+        "node_step_index": 5,
+        "content": "CT-guided mediastinal lymph node biopsy: Histopathological evaluation indicated ADC based on IHC staining of ALK (+), CK7 (weakly +), CK20 (\u2212), Villin (weak +), P40 (\u2212), Ki-67 (approximately 20% +), TTF-1 (\u2212), NapsinA (\u2212), and CK (+).",
+        "clinical_data": {
+          "procedures": [
+            {
+              "name": "Biopsy",
+              "approach": "percutaneous",
+              "location": "Mediastinal lymph node",
+              "modality": "CT",
+              "date": null
+            }
+          ],
+          "labs": [
+            {
+              "test": "Cytokeratin-7 measurement",
+              "value": "positive",
+              "flag": "positive",
+              "timestamp": null
+            },
+            {
+              "test": "Cytokeratin-20 measurement",
+              "value": "negative",
+              "flag": "negative",
+              "timestamp": null
+            },
+            {
+              "test": "Villin measurement",
+              "value": "positive",
+              "flag": "positive",
+              "timestamp": null
+            },
+            {
+              "test": "P40 measurement",
+              "value": "negative",
+              "flag": "negative",
+              "timestamp": null
+            },
+            {
+              "test": "Ki-67 measurement",
+              "value": "20%",
+              "unit": "%",
+              "flag": "positive",
+              "timestamp": null
+            },
+            {
+              "test": "TTF-1 measurement",
+              "value": "negative",
+              "flag": "negative",
+              "timestamp": null
+            },
+            {
+              "test": "Napsin A measurement",
+              "value": "negative",
+              "flag": "negative",
+              "timestamp": null
+            },
+            {
+              "test": "Cytokeratin measurement",
+              "value": "positive",
+              "flag": "positive",
+              "timestamp": null
+            },
+            {
+              "test": "ALK measurement",
+              "value": "positive",
+              "flag": "positive",
+              "timestamp": null
+            }
+          ],
+          "diagnoses": [
+            {
+              "code": "C2362827",
+              "label": "Adenocarcinoma",
+              "status": "active",
+              "onset_date": null
+            }
+          ]
+        }
+      }
+    },
+    {
+      "id": "N7",
+      "label": "Step 7",
+      "customData": {
+        "node_id": "G",
+        "node_step_index": 6,
+        "content": "NGS: ALK-RNF144A fusion (AF 36.05%), HIP1-ALK fusion (AF: 27.16%), RB1 splice variant in exon 14 (AF: 26.1%). TMB of 1.0 mutations/Mb, MSS status. IHC of PD-L1 showed expression <1%.",
+        "clinical_data": {
+          "labs": [
+            {
+              "test": "Tumor Mutational Burden",
+              "value": "1.0",
+              "unit": "mutations/Mb"
+            }
+          ],
+          "diagnoses": [
+            {
+              "code": "ALK-RNF144A fusion",
+              "label": "ALK-RNF144A fusion",
+              "status": "active"
+            },
+            {
+              "code": "HIP1-ALK fusion",
+              "label": "HIP1-ALK fusion",
+              "status": "active"
+            },
+            {
+              "code": "RB1 splice variant in exon 14",
+              "label": "RB1 splice variant in exon 14",
+              "status": "active"
+            }
+          ]
+        }
+      }
+    },
+    {
+      "id": "N8",
+      "label": "Step 8",
+      "customData": {
+        "node_id": "H",
+        "node_step_index": 7,
+        "content": "December 2021: CT scan and brain MRI after treatment with alectinib for 4.5 months. HE staining of the biopsy specimen showed a poorly differentiated tumor tissue. IHC experiments showed positive expressions of ALK, CK7, Villin, Ki-67, CK, and negative expression of CK20, P40, TTF-1, and NapsinA (\u00d7100). Coexistence of ALK-RNF144A and HIP1-ALK fusions by NGS in a female patient with lung adenocarcinoma.",
+        "clinical_data": {
+          "imaging": [
+            {
+              "type": "CT scan",
+              "body_part": "brain",
+              "modality": "CT",
+              "date": "2021-12"
+            },
+            {
+              "type": "MRI",
+              "body_part": "brain",
+              "modality": "MRI",
+              "date": "2021-12"
+            }
+          ],
+          "procedures": [
+            {
+              "name": "Biopsy",
+              "date": "2021-12",
+              "location": "lung"
+            }
+          ],
+          "diagnoses": [
+            {
+              "code": "SNOMED:254837009",
+              "label": "Lung adenocarcinoma",
+              "status": "active"
+            }
+          ]
+        }
+      }
+    },
+    {
+      "id": "N9",
+      "label": "Step 9",
+      "customData": {
+        "node_id": "I",
+        "node_step_index": 8,
+        "content": "Patient enrolled in phase I clinical trial (ChiCTR20210263) and received second-line treatment with TGRX-326 80 mg once a day orally.",
+        "clinical_data": {
+          "medications": [
+            {
+              "drug": "TGRX-326",
+              "dosage": "80 mg",
+              "frequency": "once a day",
+              "modality": "oral"
+            }
+          ],
+          "procedures": [
+            {
+              "name": "clinical trial",
+              "approach": "other",
+              "date": "2021",
+              "location": "China",
+              "performed_by": "ChiCTR20210263"
+            }
+          ]
+        }
+      }
+    },
+    {
+      "id": "N10",
+      "label": "Step 10",
+      "customData": {
+        "node_id": "J",
+        "node_step_index": 9,
+        "content": "Patient experienced rapid progressive disease (PD) characterized by enlarged mediastinal lymph nodes, extensive sacral soft tissue destruction, and significant sacrococcygeal pain.",
+        "clinical_data": {
+          "diagnoses": [
+            {
+              "code": "C79.5",
+              "label": "Secondary malignant neoplasm of bone and bone marrow",
+              "status": "active"
+            }
+          ],
+          "HPI": [
+            {
+              "summary": "Rapid progressive disease (PD)",
+              "progression": "rapid",
+              "associated_symptoms": [
+                "enlarged mediastinal lymph nodes",
+                "extensive sacral soft tissue destruction",
+                "significant sacrococcygeal pain"
+              ]
+            }
+          ]
+        }
+      }
+    },
+    {
+      "id": "N11",
+      "label": "Step 11",
+      "customData": {
+        "node_id": "K",
+        "node_step_index": 10,
+        "content": "ECOG PS score increased to 2.",
+        "clinical_data": {
+          "functional_status": [
+            {
+              "domain": "ADLs",
+              "description": "ECOG PS score increased to 2",
+              "scale": "ECOG"
+            }
+          ]
+        }
+      }
+    },
+    {
+      "id": "N12",
+      "label": "Step 12",
+      "customData": {
+        "node_id": "L",
+        "node_step_index": 1,
+        "clinical_data": {}
+      }
+    }
+  ],
+  "edges": [
+    {
+      "from": "N1",
+      "to": "N2",
+      "data": {
+        "edge_id": "A_to_B",
+        "branch_flag": true,
+        "content": "Initial diagnosis of stage IVB (cT4N3M1c) left lower lobe adenocarcinoma with metastases in bilateral lungs, left hilar lymph nodes, mediastinal lymph nodes, bilateral supraclavicular lymph nodes, and bone. Transition to lung biopsy for confirmation."
+      }
+    },
+    {
+      "from": "N2",
+      "to": "N3",
+      "data": {
+        "edge_id": "B_to_C",
+        "branch_flag": true,
+        "content": "Confirmation of ADC origin of lung cancer via lung biopsy. IHC results: ALK+, CK+, CK5/6+, TTF-1+, NapsinA+, Ki-67+, P40-, CD56-, Syn-, NUT-. Transition to first-line treatment.",
+        "transition_event": {
+          "trigger_type": "interpretation",
+          "trigger_entities": [
+            "C0024117"
+          ],
+          "change_type": "other",
+          "target_domain": "diagnosis"
+        }
+      }
+    },
+    {
+      "from": "N3",
+      "to": "N4",
+      "data": {
+        "edge_id": "C_to_D",
+        "branch_flag": true,
+        "content": "Patient received first-line treatment with alectinib 600 mg twice a day orally and achieved partial response. Transition to palliative local radiotherapy due to chest pain and bone destruction.",
+        "transition_event": {
+          "trigger_type": "medication_change",
+          "trigger_entities": [
+            "C1697448"
+          ],
+          "change_type": "addition",
+          "target_domain": "medication"
+        }
+      }
+    },
+    {
+      "from": "N4",
+      "to": "N5",
+      "data": {
+        "edge_id": "D_to_E",
+        "branch_flag": true,
+        "content": "Patient underwent palliative local radiotherapy targeting the lesion of 7th to 9th thoracic vertebrae, with a tissue dose of 30 Gy/10 fractions/14 days due to chest pain and aggravated bone destruction of the 8th thoracic vertebra. Transition to disease progression.",
+        "transition_event": {
+          "trigger_type": "procedure",
+          "trigger_entities": [
+            "C0034595"
+          ],
+          "change_type": "addition",
+          "target_domain": "procedure"
+        }
+      }
+    },
+    {
+      "from": "N5",
+      "to": "N6",
+      "data": {
+        "edge_id": "E_to_F",
+        "branch_flag": true,
+        "content": "Disease progression with enlarged mediastinal lymph nodes and new metastases in the 10th thoracic vertebra and the right occipital lobe. Transition to CT-guided mediastinal lymph node biopsy.",
+        "transition_event": {
+          "trigger_type": "imaging",
+          "trigger_entities": [],
+          "change_type": "progression",
+          "target_domain": "imaging"
+        }
+      }
+    },
+    {
+      "from": "N6",
+      "to": "N7",
+      "data": {
+        "edge_id": "F_to_G",
+        "branch_flag": true,
+        "content": "CT-guided mediastinal lymph node biopsy: Histopathological evaluation indicated ADC based on IHC staining of ALK (+), CK7 (weakly +), CK20 (\u2212), Villin (weak +), P40 (\u2212), Ki-67 (approximately 20% +), TTF-1 (\u2212), NapsinA (\u2212), and CK (+). Transition to NGS testing.",
+        "transition_event": {
+          "trigger_type": "interpretation",
+          "trigger_entities": [
+            "C0024117"
+          ],
+          "change_type": "reinterpretation",
+          "target_domain": "diagnosis"
+        }
+      }
+    },
+    {
+      "from": "N7",
+      "to": "N8",
+      "data": {
+        "edge_id": "G_to_H",
+        "branch_flag": true,
+        "content": "NGS: ALK-RNF144A fusion (AF 36.05%), HIP1-ALK fusion (AF: 27.16%), RB1 splice variant in exon 14 (AF: 26.1%). TMB of 1.0 mutations/Mb, MSS status. IHC of PD-L1 showed expression <1%. Transition to CT scan and brain MRI.",
+        "transition_event": {
+          "trigger_type": "lab_change"
+        }
+      }
+    }
+  ]
+}

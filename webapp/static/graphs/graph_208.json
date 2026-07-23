@@ -1,0 +1,662 @@
+{
+  "nodes": [
+    {
+      "id": "N1",
+      "label": "Step 1",
+      "customData": {
+        "node_id": "A",
+        "node_step_index": 0,
+        "content": "58-year-old Chinese female (G4P3) presented with cough and chest pain in March 2021. Diagnostic workup revealed lung cancer with multiple metastases to the cervical lymph nodes, brain, and bone (Fig.1).",
+        "clinical_data": {
+          "diagnoses": [
+            {
+              "code": "C34",
+              "label": "Lung Cancer",
+              "status": "active",
+              "onset_date": "2021-03"
+            },
+            {
+              "code": "C79.31",
+              "label": "Secondary malignant neoplasm of brain",
+              "status": "active",
+              "onset_date": "2021-03"
+            },
+            {
+              "code": "C79.51",
+              "label": "Secondary malignant neoplasm of bone",
+              "status": "active",
+              "onset_date": "2021-03"
+            },
+            {
+              "code": "C77.0",
+              "label": "Secondary and unspecified malignant neoplasm of lymph nodes of head, face and neck",
+              "status": "active",
+              "onset_date": "2021-03"
+            }
+          ],
+          "HPI": [
+            {
+              "summary": "Patient presented with cough and chest pain.",
+              "onset": "2021-03",
+              "progression": "unknown",
+              "associated_symptoms": [
+                "cough",
+                "chest pain"
+              ]
+            }
+          ]
+        }
+      }
+    },
+    {
+      "id": "N2",
+      "label": "Step 2",
+      "customData": {
+        "node_id": "B",
+        "node_step_index": 1,
+        "content": "March 15, 2021: Administered chemotherapy intravenously with pemetrexed and carboplatin, along with bevacizummab.",
+        "clinical_data": {
+          "medications": [
+            {
+              "drug": "C0974735",
+              "dosage": null,
+              "frequency": null,
+              "modality": "IV",
+              "start_date": "2021-03-15",
+              "end_date": null,
+              "indication": null
+            },
+            {
+              "drug": "C0007274",
+              "dosage": null,
+              "frequency": null,
+              "modality": "IV",
+              "start_date": "2021-03-15",
+              "end_date": null,
+              "indication": null
+            },
+            {
+              "drug": "C1263437",
+              "dosage": null,
+              "frequency": null,
+              "modality": "IV",
+              "start_date": "2021-03-15",
+              "end_date": null,
+              "indication": null
+            }
+          ],
+          "procedures": [
+            {
+              "name": "C0009264",
+              "approach": null,
+              "date": "2021-03-15",
+              "location": null,
+              "performed_by": null,
+              "outcome": null
+            }
+          ]
+        }
+      }
+    },
+    {
+      "id": "N3",
+      "label": "Step 3",
+      "customData": {
+        "node_id": "C",
+        "node_step_index": 2,
+        "content": "April 11, 2021: Treatment regimen adjusted to dacomitinib (oral, once daily) based on genetic testing results.",
+        "clinical_data": {
+          "medications": [
+            {
+              "drug": "dacomitinib",
+              "dosage": null,
+              "frequency": "once daily",
+              "modality": "oral",
+              "start_date": "2021-04-11",
+              "end_date": null,
+              "indication": "genetic testing results"
+            }
+          ]
+        }
+      }
+    },
+    {
+      "id": "N4",
+      "label": "Step 4",
+      "customData": {
+        "node_id": "D",
+        "node_step_index": 3,
+        "content": "April 29, 2022: Admitted to the hospital due to lumbosacral pain and discomfort, accompanied by slight numbness in the left lower limb. History of hypertension. No history of smoking, drinking, or morphine use.",
+        "clinical_data": {
+          "diagnoses": [
+            {
+              "code": "M54.5",
+              "label": "Lumbago with sciatica",
+              "status": "active",
+              "onset_date": "2022-04-29"
+            },
+            {
+              "code": "I10",
+              "label": "Essential (primary) hypertension",
+              "status": "historical",
+              "onset_date": null
+            }
+          ],
+          "HPI": [
+            {
+              "summary": "Lumbosacral pain and discomfort, accompanied by slight numbness in the left lower limb.",
+              "onset": "2022-04-29",
+              "progression": "sudden",
+              "associated_symptoms": [
+                "numbness"
+              ]
+            }
+          ],
+          "social_history": [
+            {
+              "category": "smoking",
+              "status": "never",
+              "description": "No history of smoking"
+            },
+            {
+              "category": "alcohol",
+              "status": "never",
+              "description": "No history of drinking"
+            },
+            {
+              "category": "drug use",
+              "status": "never",
+              "description": "No history of morphine use"
+            }
+          ]
+        }
+      }
+    },
+    {
+      "id": "N5",
+      "label": "Step 5",
+      "customData": {
+        "node_id": "E",
+        "node_step_index": 4,
+        "content": "Weight 60 kg, height 165 cm, temperature 36.6 \u2103, blood pressure 122/76 mmHg, respiratory rate 20 breaths/minute, pulse rate 80 beats/minute. Physical examination showed lumbosacral tenderness. Neurological examination including mental state was normal. Lumbosacral soreness with a Numeric Rating Scale (NRS) score of 2.",
+        "clinical_data": {
+          "vitals": [
+            {
+              "type": "Weight",
+              "value": "60",
+              "unit": "kg"
+            },
+            {
+              "type": "Height",
+              "value": "165",
+              "unit": "cm"
+            },
+            {
+              "type": "Body Temperature",
+              "value": "36.6",
+              "unit": "\u2103"
+            },
+            {
+              "type": "Blood pressure",
+              "value": "122/76",
+              "unit": "mmHg"
+            },
+            {
+              "type": "Respiratory rate",
+              "value": "20",
+              "unit": "breaths/minute"
+            },
+            {
+              "type": "Heart rate",
+              "value": "80",
+              "unit": "beats/minute"
+            }
+          ],
+          "HPI": [
+            {
+              "summary": "Lumbosacral soreness",
+              "associated_symptoms": [
+                "Lumbosacral tenderness"
+              ]
+            }
+          ],
+          "mental_status": [
+            {
+              "domain": "mental state",
+              "finding": "normal"
+            }
+          ]
+        }
+      }
+    },
+    {
+      "id": "N6",
+      "label": "Step 6",
+      "customData": {
+        "node_id": "F",
+        "node_step_index": 5,
+        "content": "Computed tomography showing right lung mass. Lumbar radiation therapy was initialed on the day of admission.",
+        "clinical_data": {
+          "imaging": [
+            {
+              "type": "Computed tomography",
+              "body_part": "Right lung",
+              "modality": "CT",
+              "finding": "mass"
+            }
+          ],
+          "procedures": [
+            {
+              "name": "Radiation therapy",
+              "location": "Lumbar",
+              "date": "UNK"
+            }
+          ]
+        }
+      }
+    },
+    {
+      "id": "N7",
+      "label": "Step 7",
+      "customData": {
+        "node_id": "G",
+        "node_step_index": 6,
+        "content": "Day 9: Radiotherapy reduced her pain and stabilized her NRS score at 1; reported increased stool frequency without abdominal pain, fever, or other discomforts; normal procalcitonin (PCT) and C-reactive protein (CRP) levels; routine urine and stool analyses indicated no clinical abnormalities; treated with montmorillonite powder, dexamethasone, and vitamin B12 for radiation enteritis.",
+        "clinical_data": {
+          "vitals": [
+            {
+              "type": "Pain severity measurement",
+              "value": "1",
+              "unit": "NRS",
+              "timestamp": "Day 9"
+            }
+          ],
+          "labs": [
+            {
+              "test": "Procalcitonin measurement",
+              "value": "normal",
+              "flag": "normal",
+              "timestamp": "Day 9"
+            },
+            {
+              "test": "C-Reactive Protein measurement",
+              "value": "normal",
+              "flag": "normal",
+              "timestamp": "Day 9"
+            },
+            {
+              "test": "Urine analysis",
+              "value": "no clinical abnormalities",
+              "flag": "normal",
+              "timestamp": "Day 9"
+            },
+            {
+              "test": "Stool analysis",
+              "value": "no clinical abnormalities",
+              "flag": "normal",
+              "timestamp": "Day 9"
+            }
+          ],
+          "medications": [
+            {
+              "drug": "Montmorillonite",
+              "dosage": null,
+              "frequency": null,
+              "modality": "oral",
+              "start_date": "Day 9",
+              "end_date": null,
+              "indication": "Radiation enteritis"
+            },
+            {
+              "drug": "Dexamethasone",
+              "dosage": null,
+              "frequency": null,
+              "modality": null,
+              "start_date": "Day 9",
+              "end_date": null,
+              "indication": "Radiation enteritis"
+            },
+            {
+              "drug": "Vitamin B12",
+              "dosage": null,
+              "frequency": null,
+              "modality": null,
+              "start_date": "Day 9",
+              "end_date": null,
+              "indication": "Radiation enteritis"
+            }
+          ],
+          "diagnoses": [
+            {
+              "code": "Radiation enteritis",
+              "label": "Radiation enteritis",
+              "status": "active",
+              "onset_date": "Day 9"
+            }
+          ]
+        }
+      }
+    },
+    {
+      "id": "N8",
+      "label": "Step 8",
+      "customData": {
+        "node_id": "H",
+        "node_step_index": 7,
+        "content": "Day 15: Symptoms of radiation enteritis worsened; breakthrough pain with an NRS score of 5 at 8:58; tramadol 100 mg injection administered; abdomen pain with an NRS score of 3; renewed abdominal pain with an NRS score of 8 at 13:36; treated with a morphine 10 mg injection; morphine relieved her pain and stabilized her NRS score at 2 after about half an hour.",
+        "clinical_data": {
+          "HPI": [
+            {
+              "summary": "Symptoms of radiation enteritis worsened",
+              "progression": "worsening"
+            }
+          ],
+          "vitals": [
+            {
+              "type": "Pain score",
+              "value": "5",
+              "unit": "NRS",
+              "timestamp": "unknown"
+            },
+            {
+              "type": "Pain score",
+              "value": "3",
+              "unit": "NRS",
+              "timestamp": "unknown"
+            },
+            {
+              "type": "Pain score",
+              "value": "8",
+              "unit": "NRS",
+              "timestamp": "unknown"
+            },
+            {
+              "type": "Pain score",
+              "value": "2",
+              "unit": "NRS",
+              "timestamp": "unknown"
+            }
+          ],
+          "medications": [
+            {
+              "drug": "Tramadol",
+              "dosage": "100 mg",
+              "modality": "injection",
+              "indication": "pain"
+            },
+            {
+              "drug": "Morphine",
+              "dosage": "10 mg",
+              "modality": "injection",
+              "indication": "pain"
+            }
+          ],
+          "diagnoses": [
+            {
+              "code": "Radiation enteritis",
+              "label": "Radiation enteritis",
+              "status": "active"
+            }
+          ]
+        }
+      }
+    },
+    {
+      "id": "N9",
+      "label": "Step 9",
+      "customData": {
+        "node_id": "I",
+        "node_step_index": 8,
+        "content": "Day 15 at 12:25: Developed nausea, vomiting, and dizziness. Body temperature increased to 38.0 \u2103 by 18:00. Body temperature cooled down by physical cooling.",
+        "clinical_data": {
+          "HPI": [
+            {
+              "summary": "Developed nausea, vomiting, and dizziness.",
+              "onset": "Day 15 at 12:25",
+              "progression": "sudden",
+              "associated_symptoms": [
+                "nausea",
+                "vomiting",
+                "dizziness"
+              ]
+            }
+          ],
+          "vitals": [
+            {
+              "type": "Body temperature",
+              "value": "38.0",
+              "unit": "\u2103",
+              "timestamp": "Day 15 at 18:00"
+            }
+          ],
+          "diagnoses": [
+            {
+              "code": "R11",
+              "label": "Nausea and vomiting",
+              "status": "active",
+              "onset_date": "Day 15 at 12:25"
+            },
+            {
+              "code": "R42",
+              "label": "Dizziness and giddiness",
+              "status": "active",
+              "onset_date": "Day 15 at 12:25"
+            },
+            {
+              "code": "R50.9",
+              "label": "Fever, unspecified",
+              "status": "active",
+              "onset_date": "Day 15 at 18:00"
+            }
+          ]
+        }
+      }
+    },
+    {
+      "id": "N10",
+      "label": "Step 10",
+      "customData": {
+        "node_id": "J",
+        "node_step_index": 9,
+        "content": "Day 16 at 00:29: Treated with morphine 10 mg injection for abdominal pain with an NRS score of 6, which relieved her pain and stabilized her NRS score at 2. Suffered a fever again by 5:00 with a body temperature of 39.2 \u2103. Pulse rate increased to 100 beats/minute during the fever period.",
+        "clinical_data": {
+          "medications": [
+            {
+              "drug": "C0026618",
+              "dosage": "10 mg",
+              "modality": "injection",
+              "indication": "C0000729"
+            }
+          ],
+          "vitals": [
+            {
+              "type": "C0015967",
+              "value": "39.2",
+              "unit": "\u2103",
+              "timestamp": "Day 16 at 05:00"
+            },
+            {
+              "type": "C0033640",
+              "value": "100",
+              "unit": "beats/minute",
+              "timestamp": "Day 16 at 05:00"
+            }
+          ],
+          "HPI": [
+            {
+              "summary": "abdominal pain",
+              "associated_symptoms": [
+                "C0000729"
+              ]
+            }
+          ]
+        }
+      }
+    },
+    {
+      "id": "N11",
+      "label": "Step 11",
+      "customData": {
+        "node_id": "K",
+        "node_step_index": 10,
+        "content": "Day 8: Eosinophilia noted with levels of 0.08\u2009\u00d7\u2009109/L.",
+        "clinical_data": {
+          "labs": [
+            {
+              "test": "Eosinophils count",
+              "value": "0.08",
+              "unit": "10^9/L",
+              "flag": "abnormal"
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "edges": [
+    {
+      "from": "N1",
+      "to": "N2",
+      "data": {
+        "edge_id": "A_to_B",
+        "branch_flag": true,
+        "content": "Initiation of chemotherapy for lung cancer and metastases."
+      }
+    },
+    {
+      "from": "N2",
+      "to": "N3",
+      "data": {
+        "edge_id": "B_to_C",
+        "branch_flag": true,
+        "content": "Change in treatment regimen based on genetic testing results.",
+        "transition_event": {
+          "trigger_type": "lab_change",
+          "trigger_entities": [],
+          "change_type": "medication_change",
+          "target_domain": "medication"
+        }
+      }
+    },
+    {
+      "from": "N3",
+      "to": "N4",
+      "data": {
+        "edge_id": "C_to_D",
+        "branch_flag": true,
+        "content": "Development of lumbosacral pain and discomfort, leading to hospital admission.",
+        "transition_event": {
+          "trigger_type": "symptom_onset",
+          "trigger_entities": [
+            "C0024270",
+            "C0036771"
+          ],
+          "change_type": "progression",
+          "target_domain": "symptom"
+        }
+      }
+    },
+    {
+      "from": "N4",
+      "to": "N5",
+      "data": {
+        "edge_id": "D_to_E",
+        "branch_flag": true,
+        "content": "Vitals and physical examination findings upon hospital admission.",
+        "transition_event": {
+          "trigger_type": "procedure",
+          "trigger_entities": [],
+          "change_type": "other",
+          "target_domain": "vital_sign"
+        }
+      }
+    },
+    {
+      "from": "N5",
+      "to": "N6",
+      "data": {
+        "edge_id": "E_to_F",
+        "branch_flag": true,
+        "content": "Imaging reveals right lung mass; lumbar radiation therapy initiated.",
+        "transition_event": {
+          "trigger_type": "procedure",
+          "trigger_entities": [
+            "C0034498"
+          ],
+          "change_type": "addition",
+          "target_domain": "procedure"
+        }
+      }
+    },
+    {
+      "from": "N6",
+      "to": "N7",
+      "data": {
+        "edge_id": "F_to_G",
+        "branch_flag": true,
+        "content": "Pain reduction and stabilization with radiotherapy; development of radiation enteritis treated with montmorillonite powder, dexamethasone, and vitamin B12.",
+        "transition_event": {
+          "trigger_type": "medication_change",
+          "trigger_entities": [
+            "C0026693",
+            "C0011629",
+            "C0042844"
+          ],
+          "change_type": "addition",
+          "target_domain": "medication"
+        }
+      }
+    },
+    {
+      "from": "N7",
+      "to": "N8",
+      "data": {
+        "edge_id": "G_to_H",
+        "branch_flag": true,
+        "content": "Worsening of radiation enteritis symptoms; breakthrough pain treated with tramadol and morphine injections.",
+        "transition_event": {
+          "trigger_type": "symptom_onset",
+          "trigger_entities": [
+            "C0002864"
+          ],
+          "change_type": "progression",
+          "target_domain": "symptom"
+        }
+      }
+    },
+    {
+      "from": "N8",
+      "to": "N9",
+      "data": {
+        "edge_id": "H_to_I",
+        "branch_flag": true,
+        "content": "Development of nausea, vomiting, dizziness, and fever.",
+        "transition_event": {
+          "trigger_type": "symptom_onset",
+          "trigger_entities": [
+            "C0030193",
+            "C0042963",
+            "C0013434"
+          ],
+          "change_type": "addition",
+          "target_domain": "symptom"
+        }
+      }
+    },
+    {
+      "from": "N9",
+      "to": "N10",
+      "data": {
+        "edge_id": "I_to_J",
+        "branch_flag": true,
+        "content": "Recurrent abdominal pain and fever treated with morphine injection.",
+        "transition_event": {
+          "trigger_type": "medication_change",
+          "trigger_entities": [
+            "C002661"
+          ]
+        }
+      }
+    }
+  ]
+}

@@ -1,0 +1,273 @@
+{
+  "nodes": [
+    {
+      "id": "N1",
+      "label": "Step 1",
+      "customData": {
+        "node_id": "A",
+        "node_step_index": 0,
+        "content": "65-year-old man with a history of stage IV non-small cell lung cancer (treated with chemotherapy, without evidence of residual viable malignancy) presented with sore throat and mild pain in the right upper arm. He was treated with nonsteroidal anti-inflammatory drugs for 3 days.",
+        "clinical_data": {
+          "diagnoses": [
+            {
+              "code": "C34.9",
+              "label": "Malignant neoplasm of unspecified part of bronchus or lung",
+              "status": "historical",
+              "onset_date": null
+            }
+          ],
+          "HPI": [
+            {
+              "summary": "65-year-old man presented with sore throat and mild pain in the right upper arm.",
+              "duration": null,
+              "onset": null,
+              "progression": "unknown",
+              "associated_symptoms": [
+                "sore throat",
+                "pain in the right upper arm"
+              ],
+              "alleviating_factors": [],
+              "exacerbating_factors": []
+            }
+          ],
+          "medications": [
+            {
+              "drug": "Nonsteroidal anti-inflammatory drugs",
+              "dosage": null,
+              "frequency": null,
+              "modality": "oral",
+              "start_date": null,
+              "end_date": null,
+              "indication": "pain in the right upper arm"
+            }
+          ]
+        }
+      }
+    },
+    {
+      "id": "N2",
+      "label": "Step 2",
+      "customData": {
+        "node_id": "B",
+        "node_step_index": 1,
+        "content": "Mild leukocytosis, C-reactive protein elevated to 14.6 mg/L, creatinine level was 4.0 mg/dL indicating acute azotemia, body temperature was 36.6\u00b0C, chest radiography unremarkable, nasal swab confirmed influenza A virus.",
+        "clinical_data": {
+          "labs": [
+            {
+              "test": "Leukocytosis",
+              "value": "mild",
+              "unit": null,
+              "flag": "abnormal"
+            },
+            {
+              "test": "C-Reactive Protein",
+              "value": "14.6",
+              "unit": "mg/L",
+              "flag": "abnormal",
+              "reference_range": null
+            },
+            {
+              "test": "Creatinine",
+              "value": "4.0",
+              "unit": "mg/dL",
+              "flag": "abnormal"
+            }
+          ],
+          "vitals": [
+            {
+              "type": "Body Temperature",
+              "value": "36.6",
+              "unit": "\u00b0C"
+            }
+          ],
+          "imaging": [
+            {
+              "type": "Chest Radiography",
+              "finding": "unremarkable",
+              "modality": "X-ray"
+            }
+          ],
+          "diagnoses": [
+            {
+              "code": "Influenza A virus",
+              "label": "Influenza A virus",
+              "status": "active"
+            },
+            {
+              "code": "Azotemia",
+              "label": "acute azotemia",
+              "status": "active"
+            }
+          ]
+        }
+      }
+    },
+    {
+      "id": "N3",
+      "label": "Step 3",
+      "customData": {
+        "node_id": "C",
+        "node_step_index": 2,
+        "content": "During treatment of influenza A with talniflumate, the patient developed a fever of 38.6\u00b0C and complained of aggravating pain and weakness in the right upper arm. Intravenous ceftriaxone was started. MRI of the brain revealed no metastatic or ischemic lesions. FDG PET/CT revealed hypermetabolic lesions in the retropharyngeal space with a maximum standardized uptake value (SUVmax) of 9.8, involving the vertebral bodies (VBs) of the C4 and C5 vertebrae and prevertebral spaces of the T1\u2013T4 vertebrae.",
+        "clinical_data": {
+          "vitals": [
+            {
+              "type": "Fever",
+              "value": "38.6",
+              "unit": "\u00b0C"
+            }
+          ],
+          "medications": [
+            {
+              "drug": "Talniflumate",
+              "indication": "Influenza A"
+            }
+          ],
+          "imaging": [
+            {
+              "type": "Brain MRI",
+              "modality": "MRI",
+              "finding": "no metastatic or ischemic lesions",
+              "date": null
+            },
+            {
+              "type": "FDG PET/CT",
+              "body_part": "retropharyngeal space",
+              "modality": "PET/CT",
+              "finding": "hypermetabolic lesions involving the vertebral bodies (VBs) of the C4 and C5 vertebrae and prevertebral spaces of the T1\u2013T4 vertebrae",
+              "impression": "SUVmax of 9.8",
+              "date": null
+            }
+          ],
+          "diagnoses": [
+            {
+              "code": "Influenza A",
+              "label": "Influenza A",
+              "status": "active"
+            }
+          ],
+          "HPI": [
+            {
+              "summary": "Aggravating pain and weakness in the right upper arm",
+              "onset": null,
+              "progression": null,
+              "associated_symptoms": [
+                "Pain",
+                "Weakness"
+              ]
+            }
+          ]
+        }
+      }
+    },
+    {
+      "id": "N4",
+      "label": "Step 4",
+      "customData": {
+        "node_id": "D",
+        "node_step_index": 3,
+        "content": "Maximum intensity projection image of positron emission tomography and sagittal scan of positron emission tomography/computed tomography fusion imaging reveal continuous hypermetabolic lesions along the prevertebral and danger spaces of the neck from the C2\u2013T4 levels with associated osteomyelitis of the vertebral bodies of C4 and C5. PET/CT suggested DNI with DNM, combined with osteomyelitis of VBs of C4 and C5, and less likely, bone metastases in VBs of C4 and C5. Contrast-enhanced neck CT revealed localized abscesses with the fluid collection and rim enhancement in the retropharyngeal space and T1-T4 prevertebral space. Klebsiella pneumoniae was isolated in the blood and sputum cultures of the patient.",
+        "clinical_data": {
+          "imaging": [
+            {
+              "type": "Maximum intensity projection image",
+              "body_part": "neck",
+              "modality": "PET",
+              "finding": "continuous hypermetabolic lesions along the prevertebral and danger spaces of the neck from the C2\u2013T4 levels",
+              "date": null
+            },
+            {
+              "type": "Sagittal scan",
+              "body_part": "neck",
+              "modality": "PET/CT",
+              "finding": "continuous hypermetabolic lesions along the prevertebral and danger spaces of the neck from the C2\u2013T4 levels with associated osteomyelitis of the vertebral bodies of C4 and C5",
+              "date": null
+            },
+            {
+              "type": "Positron emission tomography/computed tomography fusion imaging",
+              "body_part": "vertebral bodies of C4 and C5",
+              "modality": "PET/CT",
+              "impression": "DNI with DNM, combined with osteomyelitis of VBs of C4 and C5, and less likely, bone metastases in VBs of C4 and C5.",
+              "date": null
+            },
+            {
+              "type": "Localized abscesses with the fluid collection and rim enhancement",
+              "body_part": "retropharyngeal space and T1-T4 prevertebral space",
+              "modality": "CT",
+              "date": null
+            }
+          ],
+          "labs": [
+            {
+              "test": "Blood culture",
+              "value": "Klebsiella pneumoniae isolated",
+              "unit": null,
+              "flag": null,
+              "reference_range": null,
+              "timestamp": null
+            },
+            {
+              "test": "Sputum culture",
+              "value": "Klebsiella pneumoniae isolated",
+              "unit": null,
+              "flag": null,
+              "reference_range": null,
+              "timestamp": null
+            }
+          ],
+          "diagnoses": [
+            {
+              "code": "C0029415",
+              "label": "Osteomyelitis",
+              "status": "active",
+              "onset_date": null
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "edges": [
+    {
+      "from": "N1",
+      "to": "N2",
+      "data": {
+        "edge_id": "A_to_B",
+        "branch_flag": true,
+        "content": "Patient's condition evolved from sore throat and mild right arm pain to exhibiting mild leukocytosis, elevated C-reactive protein, acute azotemia, and confirmed influenza A virus infection."
+      }
+    },
+    {
+      "from": "N2",
+      "to": "N3",
+      "data": {
+        "edge_id": "B_to_C",
+        "branch_flag": true,
+        "content": "Patient, while being treated for influenza A with talniflumate, developed a fever and worsening right arm pain/weakness. Ceftriaxone was initiated. Imaging revealed hypermetabolic lesions in the retropharyngeal space and vertebral bodies.",
+        "transition_event": {
+          "trigger_type": "medication_change",
+          "trigger_entities": [
+            "C0040957"
+          ],
+          "change_type": "addition",
+          "target_domain": "medication"
+        }
+      }
+    },
+    {
+      "from": "N3",
+      "to": "N4",
+      "data": {
+        "edge_id": "C_to_D",
+        "branch_flag": true,
+        "content": "Further imaging and cultures revealed continuous hypermetabolic lesions along the prevertebral and danger spaces of the neck, osteomyelitis of the cervical vertebrae, localized abscesses, and Klebsiella pneumoniae infection in blood and sputum.",
+        "transition_event": {
+          "trigger_type": "interpretation",
+          "trigger_entities": [],
+          "change_type": "progression",
+          "target_domain": "imaging"
+        }
+      }
+    }
+  ]
+}

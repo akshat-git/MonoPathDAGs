@@ -1,0 +1,315 @@
+{
+  "nodes": [
+    {
+      "id": "N1",
+      "label": "Step 1",
+      "customData": {
+        "node_id": "A",
+        "node_step_index": 0,
+        "content": "70-year-old man with a 10 pack-year history of smoking, allergic rhinitis, and bronchial asthma (stable without inhaled corticosteroids). Diagnosed with squamous cell carcinoma of the lung cT4N3M1a stage IVA.",
+        "clinical_data": {
+          "social_history": [
+            {
+              "category": "smoking",
+              "status": "past",
+              "description": "10 pack-year history"
+            }
+          ],
+          "allergies": [
+            {
+              "substance": "allergic rhinitis",
+              "reaction": "rhinitis",
+              "severity": "unknown"
+            }
+          ],
+          "diagnoses": [
+            {
+              "code": "C0009402",
+              "label": "bronchial asthma",
+              "status": "historical"
+            },
+            {
+              "code": "C0007125",
+              "label": "Squamous Cell Carcinoma",
+              "status": "active"
+            },
+            {
+              "code": "C0242392",
+              "label": "lung cancer",
+              "status": "active"
+            }
+          ]
+        }
+      }
+    },
+    {
+      "id": "N2",
+      "label": "Step 2",
+      "customData": {
+        "node_id": "B",
+        "node_step_index": 1,
+        "content": "EGFR mutation negative, PD-L1 < 1%. Patient received two courses of cisplatin (60 mg/m2, day 1) and tegafur/gimeracil/oteracil (TS-1) (120 mg/body, days 1-14) as first-line treatment. No GCSF drugs were used during the initial chemotherapy course, and the eosinophil count did not exceed 300.",
+        "clinical_data": {
+          "diagnoses": [
+            {
+              "code": "C0006142",
+              "label": "Mutation negative",
+              "status": "active"
+            }
+          ],
+          "labs": [
+            {
+              "test": "C1306574",
+              "value": "< 1",
+              "unit": "%",
+              "flag": "normal"
+            },
+            {
+              "test": "C0014452",
+              "value": null,
+              "unit": null,
+              "flag": "normal"
+            }
+          ],
+          "medications": [
+            {
+              "drug": "C0008833",
+              "dosage": "60 mg/m2",
+              "frequency": "day 1",
+              "modality": "IV",
+              "start_date": null,
+              "end_date": null
+            },
+            {
+              "drug": "C3851920",
+              "dosage": "120 mg/body",
+              "frequency": "days 1-14",
+              "modality": "oral",
+              "start_date": null,
+              "end_date": null
+            }
+          ]
+        }
+      }
+    },
+    {
+      "id": "N3",
+      "label": "Step 3",
+      "customData": {
+        "node_id": "C",
+        "node_step_index": 2,
+        "content": "Primary tumor enlarged, diagnostic evaluation indicates progressive disease (PD).",
+        "clinical_data": {
+          "diagnoses": [
+            {
+              "code": "C0032961",
+              "label": "Progressive disease",
+              "status": "active"
+            }
+          ]
+        }
+      }
+    },
+    {
+      "id": "N4",
+      "label": "Step 4",
+      "customData": {
+        "node_id": "D",
+        "node_step_index": 3,
+        "content": "Atezolizumab (1500 mg every 3 weeks) initiated as second-line therapy, resulting in a partial response (PR).",
+        "clinical_data": {
+          "medications": [
+            {
+              "drug": "Atezolizumab",
+              "dosage": "1500 mg",
+              "frequency": "every 3 weeks",
+              "modality": "IV",
+              "start_date": null,
+              "end_date": null,
+              "indication": "second-line therapy"
+            }
+          ]
+        }
+      }
+    },
+    {
+      "id": "N5",
+      "label": "Step 5",
+      "customData": {
+        "node_id": "E",
+        "node_step_index": 4,
+        "content": "After 19 cycles of Atezolizumab, the patient developed daily coughing, wheezing, and nocturnal symptoms. Fluticasone furanecarboxylate (200 \u03bcg)/umeclidinium bromide (62.5 \u03bcg)/vilanterol (25 \u03bcg) and a leukotriene receptor antagonist (LTRA) were administered. Eosinophil count increased from approximately 580 to 710. 30 mg prednisolone (PSL) was administered frequently as a burst dose, and continuous PSL was required.",
+        "clinical_data": {
+          "medications": [
+            {
+              "drug": "C1697610",
+              "dosage": "200 \u03bcg/62.5 \u03bcg/25 \u03bcg",
+              "frequency": "daily",
+              "modality": "inhaled",
+              "indication": "coughing, wheezing, and nocturnal symptoms"
+            },
+            {
+              "drug": "leukotriene receptor antagonist",
+              "indication": "coughing, wheezing, and nocturnal symptoms"
+            },
+            {
+              "drug": "C0033062",
+              "dosage": "30 mg",
+              "frequency": "frequently",
+              "modality": "oral",
+              "indication": "coughing, wheezing, and nocturnal symptoms"
+            }
+          ],
+          "labs": [
+            {
+              "test": "C0014479",
+              "value": "580",
+              "unit": "/uL",
+              "timestamp": null
+            },
+            {
+              "test": "C0014479",
+              "value": "710",
+              "unit": "/uL",
+              "timestamp": null
+            }
+          ],
+          "HPI": [
+            {
+              "summary": "coughing, wheezing, and nocturnal symptoms",
+              "progression": "daily"
+            }
+          ]
+        }
+      }
+    },
+    {
+      "id": "N6",
+      "label": "Step 6",
+      "customData": {
+        "node_id": "F",
+        "node_step_index": 5,
+        "content": "Respiratory function tests showed forced expiratory volume in 1s (FEV1) of 1.59\u2009L, FEV1/forced vital capacity (FVC) of 64.37% and fractional exhaled nitric oxide (FeNO) of 78\u2009ppb (normal range: 15\u201337\u2009ppb). Diagnosed with severe asthma.",
+        "clinical_data": {
+          "labs": [
+            {
+              "test": "Forced expiratory volume in 1s",
+              "value": "1.59",
+              "unit": "L"
+            },
+            {
+              "test": "Forced vital capacity",
+              "value": "64.37",
+              "unit": "%"
+            },
+            {
+              "test": "Fractional exhaled nitric oxide",
+              "value": "78",
+              "unit": "ppb",
+              "reference_range": "15\u201337\u2009ppb",
+              "flag": "abnormal"
+            }
+          ],
+          "diagnoses": [
+            {
+              "code": "58845005",
+              "label": "Asthma",
+              "status": "active"
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "edges": [
+    {
+      "from": "N1",
+      "to": "N2",
+      "data": {
+        "edge_id": "A_to_B",
+        "branch_flag": true,
+        "content": "Patient received two courses of cisplatin (60 mg/m2, day 1) and tegafur/gimeracil/oteracil (TS-1) (120 mg/body, days 1-14) as first-line treatment for EGFR mutation negative, PD-L1 < 1% squamous cell carcinoma of the lung. No GCSF drugs were used during the initial chemotherapy course, and the eosinophil count did not exceed 300.",
+        "transition_event": {
+          "trigger_type": "medication_change",
+          "trigger_entities": [
+            "C0008833",
+            "C3851920"
+          ],
+          "change_type": "addition",
+          "target_domain": "medication"
+        }
+      }
+    },
+    {
+      "from": "N2",
+      "to": "N3",
+      "data": {
+        "edge_id": "B_to_C",
+        "branch_flag": true,
+        "content": "Primary tumor enlarged, diagnostic evaluation indicates progressive disease (PD) despite first-line chemotherapy with cisplatin and tegafur/gimeracil/oteracil.",
+        "transition_event": {
+          "trigger_type": "interpretation",
+          "trigger_entities": [
+            "C0032961"
+          ],
+          "change_type": "progression",
+          "target_domain": "diagnosis"
+        }
+      }
+    },
+    {
+      "from": "N3",
+      "to": "N4",
+      "data": {
+        "edge_id": "C_to_D",
+        "branch_flag": true,
+        "content": "Atezolizumab (1500 mg every 3 weeks) initiated as second-line therapy after progressive disease on first-line chemotherapy.",
+        "transition_event": {
+          "trigger_type": "medication_change",
+          "trigger_entities": [
+            "Atezolizumab"
+          ],
+          "change_type": "addition",
+          "target_domain": "medication"
+        }
+      }
+    },
+    {
+      "from": "N4",
+      "to": "N5",
+      "data": {
+        "edge_id": "D_to_E",
+        "branch_flag": true,
+        "content": "After 19 cycles of Atezolizumab, the patient developed daily coughing, wheezing, and nocturnal symptoms. Fluticasone furanecarboxylate (200 \u03bcg)/umeclidinium bromide (62.5 \u03bcg)/vilanterol (25 \u03bcg) and a leukotriene receptor antagonist (LTRA) were administered. Eosinophil count increased from approximately 580 to 710. 30 mg prednisolone (PSL) was administered frequently as a burst dose, and continuous PSL was required.",
+        "transition_event": {
+          "trigger_type": "symptom_onset",
+          "trigger_entities": [
+            "coughing",
+            "wheezing"
+          ],
+          "change_type": "addition",
+          "target_domain": "symptom"
+        }
+      }
+    },
+    {
+      "from": "N5",
+      "to": "N6",
+      "data": {
+        "edge_id": "E_to_F",
+        "branch_flag": true,
+        "content": "Respiratory function tests showed forced expiratory volume in 1s (FEV1) of 1.59\u2009L, FEV1/forced vital capacity (FVC) of 64.37% and fractional exhaled nitric oxide (FeNO) of 78\u2009ppb (normal range: 15\u201337\u2009ppb). Diagnosed with severe asthma.",
+        "transition_event": {
+          "trigger_type": "lab_change",
+          "trigger_entities": [
+            "Forced expiratory volume in 1s",
+            "Forced vital capacity",
+            "Fractional exhaled nitric oxide"
+          ],
+          "change_type": "other",
+          "target_domain": "lab"
+        }
+      }
+    }
+  ]
+}

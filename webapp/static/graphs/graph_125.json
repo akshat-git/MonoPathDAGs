@@ -1,0 +1,589 @@
+{
+  "nodes": [
+    {
+      "id": "N1",
+      "label": "Step 1",
+      "customData": {
+        "node_id": "A",
+        "node_step_index": 0,
+        "content": "78-year-old Caucasian man with a history of permanent left side muscle weakness due to previous poliovirus infection presented to the emergency department with hypoxia. He had shortness of breath and productive cough for one week. Oxygen saturation on room air was 84% at the nursing facility. Recently diagnosed with deep vein thrombosis and was started on apixaban.",
+        "clinical_data": {
+          "diagnoses": [
+            {
+              "code": "C0032429",
+              "label": "Poliomyelitis",
+              "status": "historical"
+            },
+            {
+              "code": "C0011100",
+              "label": "Deep Vein Thrombosis",
+              "status": "active"
+            },
+            {
+              "code": "C0020538",
+              "label": "Hypoxia",
+              "status": "active"
+            }
+          ],
+          "HPI": [
+            {
+              "summary": "Shortness of breath and productive cough for one week",
+              "duration": "1 week",
+              "onset": null,
+              "progression": "unknown",
+              "associated_symptoms": [
+                "Shortness of breath",
+                "Productive cough"
+              ],
+              "alleviating_factors": [],
+              "exacerbating_factors": []
+            }
+          ],
+          "medications": [
+            {
+              "drug": "C1658008",
+              "dosage": null,
+              "frequency": null,
+              "modality": null,
+              "start_date": null,
+              "end_date": null,
+              "indication": "Deep Vein Thrombosis"
+            }
+          ],
+          "vitals": [
+            {
+              "type": "C0020237",
+              "value": "84",
+              "unit": "%",
+              "timestamp": null
+            }
+          ],
+          "social_history": [
+            {
+              "category": "housing",
+              "status": "current",
+              "description": "Lives in a nursing facility"
+            }
+          ]
+        }
+      }
+    },
+    {
+      "id": "N2",
+      "label": "Step 2",
+      "customData": {
+        "node_id": "B",
+        "node_step_index": 1,
+        "content": "Patient history of hypertension (on losartan and metoprolol), hyperlipidemia (on atorvastatin), and diabetes mellitus (on glimepiride). Physical exam: afebrile, respiratory rate of 16 breath per minute, heart rate of 90 beats per minute, oxygen saturation 96% on room air, and blood pressure of 132/75 mmHg. Chest examination revealed bilateral end-expiratory wheezes. Neurological examination showed left upper and lower limb power of 3/5 as compared to 5/5 on the right side, with no facial asymmetry, gaze, aphasia, or sensory loss, unchanged from baseline.",
+        "clinical_data": {
+          "diagnoses": [
+            {
+              "code": "C0020538",
+              "label": "Hypertension",
+              "status": "active"
+            },
+            {
+              "code": "C0019209",
+              "label": "Hyperlipidemia",
+              "status": "active"
+            },
+            {
+              "code": "C0011849",
+              "label": "Diabetes Mellitus",
+              "status": "active"
+            }
+          ],
+          "medications": [
+            {
+              "drug": "C0972749",
+              "dosage": null,
+              "frequency": null,
+              "modality": null,
+              "start_date": null,
+              "end_date": null,
+              "indication": "C0020538"
+            },
+            {
+              "drug": "C0025469",
+              "dosage": null,
+              "frequency": null,
+              "modality": null,
+              "start_date": null,
+              "end_date": null,
+              "indication": "C0020538"
+            },
+            {
+              "drug": "C0004590",
+              "dosage": null,
+              "frequency": null,
+              "modality": null,
+              "start_date": null,
+              "end_date": null,
+              "indication": "C0019209"
+            },
+            {
+              "drug": "C0086433",
+              "dosage": null,
+              "frequency": null,
+              "modality": null,
+              "start_date": null,
+              "end_date": null,
+              "indication": "C0011849"
+            }
+          ],
+          "vitals": [
+            {
+              "type": "C0085609",
+              "value": "90",
+              "unit": "beats per minute",
+              "timestamp": null
+            },
+            {
+              "type": "C0006268",
+              "value": "132/75",
+              "unit": "mmHg",
+              "timestamp": null
+            },
+            {
+              "type": "C0020580",
+              "value": "16",
+              "unit": "breath per minute",
+              "timestamp": null
+            },
+            {
+              "type": "C1704455",
+              "value": "96",
+              "unit": "%",
+              "timestamp": null
+            }
+          ],
+          "HPI": [
+            {
+              "summary": "Left upper and lower limb power of 3/5 as compared to 5/5 on the right side, with no facial asymmetry, gaze, aphasia, or sensory loss, unchanged from baseline.",
+              "duration": null,
+              "onset": null,
+              "progression": "unknown",
+              "associated_symptoms": [],
+              "alleviating_factors": [],
+              "exacerbating_factors": []
+            }
+          ]
+        }
+      }
+    },
+    {
+      "id": "N3",
+      "label": "Step 3",
+      "customData": {
+        "node_id": "C",
+        "node_step_index": 2,
+        "content": "Elevated white blood cell count of 21.4 thousand cells per microliter with absolute neutrophils (83%). Electrocardiogram and arterial blood gas were within normal limits. Chest radiograph showed right basilar opacity (Figure1), leading to a diagnosis of pneumonia. Broad-spectrum antibiotics were initiated.",
+        "clinical_data": {
+          "labs": [
+            {
+              "test": "White blood cell count",
+              "value": "21.4",
+              "unit": "thousand cells per microliter",
+              "flag": "abnormal"
+            }
+          ],
+          "imaging": [
+            {
+              "type": "Chest radiograph",
+              "body_part": "Lung",
+              "modality": "X-ray",
+              "finding": "right basilar opacity",
+              "date": null
+            }
+          ],
+          "diagnoses": [
+            {
+              "code": "pneumonia",
+              "label": "pneumonia",
+              "status": "active",
+              "onset_date": null
+            }
+          ],
+          "medications": [
+            {
+              "drug": "Broad-spectrum antibiotics",
+              "dosage": null,
+              "frequency": null,
+              "modality": null,
+              "start_date": null,
+              "end_date": null,
+              "indication": "pneumonia"
+            }
+          ]
+        }
+      }
+    },
+    {
+      "id": "N4",
+      "label": "Step 4",
+      "customData": {
+        "node_id": "D",
+        "node_step_index": 3,
+        "content": "Transthoracic echocardiogram showed an average left ventricle ejection fraction of 60% to 65% with grade 1 diastolic dysfunction and left ventricular hypertrophy with no significant valvular pathology.",
+        "clinical_data": {
+          "imaging": [
+            {
+              "type": "Transthoracic echocardiogram",
+              "body_part": "heart",
+              "modality": "Ultrasound",
+              "finding": "average left ventricle ejection fraction of 60% to 65% with grade 1 diastolic dysfunction and left ventricular hypertrophy with no significant valvular pathology"
+            }
+          ]
+        }
+      }
+    },
+    {
+      "id": "N5",
+      "label": "Step 5",
+      "customData": {
+        "node_id": "E",
+        "node_step_index": 4,
+        "content": "Blood culture positive for coagulase-negative staphylococci in one out of two bottles.",
+        "clinical_data": {
+          "labs": [
+            {
+              "test": "Blood culture",
+              "value": "positive",
+              "unit": null,
+              "flag": "abnormal",
+              "reference_range": null,
+              "timestamp": null
+            }
+          ],
+          "diagnoses": [
+            {
+              "code": "303030005",
+              "label": "Coagulase-negative staphylococcus infection",
+              "status": "active",
+              "onset_date": null
+            }
+          ]
+        }
+      }
+    },
+    {
+      "id": "N6",
+      "label": "Step 6",
+      "customData": {
+        "node_id": "F",
+        "node_step_index": 5,
+        "content": "Transesophageal echocardiogram (TEE) showed poorly defined multiple subtle echo densities on the atrial side of the posterior leaflet of the mitral valve and on the ventricular side of the aortic valve mostly at the coaptation edges with no significant valvular damage suggestive of sterile vegetations.",
+        "clinical_data": {
+          "imaging": [
+            {
+              "type": "Echocardiography, Transesophageal",
+              "body_part": "Mitral Valve",
+              "modality": "Ultrasound",
+              "finding": "poorly defined multiple subtle echo densities on the atrial side of the posterior leaflet of the mitral valve",
+              "impression": "suggestive of sterile vegetations",
+              "date": null
+            },
+            {
+              "type": "Echocardiography, Transesophageal",
+              "body_part": "Aortic Valve",
+              "modality": "Ultrasound",
+              "finding": "echo densities on the ventricular side of the aortic valve mostly at the coaptation edges",
+              "impression": "suggestive of sterile vegetations",
+              "date": null
+            }
+          ]
+        }
+      }
+    },
+    {
+      "id": "N7",
+      "label": "Step 7",
+      "customData": {
+        "node_id": "G",
+        "node_step_index": 6,
+        "content": "Given pneumonia and bacteremia, infective endocarditis was initially considered, and a plan for a prolonged course of antibiotics was elected. Cardiologist advised checking for underlying malignancy given recent deep venous thrombosis and lung consolidation on chest radiograph.",
+        "clinical_data": {
+          "diagnoses": [
+            {
+              "code": "C0032429",
+              "label": "Pneumonia",
+              "status": "active"
+            },
+            {
+              "code": "C0004627",
+              "label": "Bacteremia",
+              "status": "active"
+            },
+            {
+              "code": "C0020608",
+              "label": "Infective endocarditis",
+              "status": "suspected"
+            },
+            {
+              "code": "C0024230",
+              "label": "Lung Consolidation",
+              "status": "active"
+            },
+            {
+              "code": "C0011581",
+              "label": "Deep Venous Thrombosis",
+              "status": "active"
+            },
+            {
+              "code": "C0024230",
+              "label": "Lung Consolidation",
+              "status": "active"
+            },
+            {
+              "code": "C0024230",
+              "label": "Lung Consolidation",
+              "status": "active"
+            },
+            {
+              "code": "C0027651",
+              "label": "Malignancy",
+              "status": "suspected"
+            }
+          ],
+          "medications": [
+            {
+              "drug": "Antibiotics",
+              "dosage": null,
+              "frequency": null,
+              "modality": null,
+              "start_date": null,
+              "end_date": null,
+              "indication": "Pneumonia and bacteremia"
+            }
+          ],
+          "imaging": [
+            {
+              "type": "C0008782",
+              "body_part": "C0023418",
+              "modality": "X-ray",
+              "finding": "Lung Consolidation",
+              "impression": null,
+              "date": null
+            }
+          ]
+        }
+      }
+    },
+    {
+      "id": "N8",
+      "label": "Step 8",
+      "customData": {
+        "node_id": "H",
+        "node_step_index": 7,
+        "content": "CT chest showed a mass-like consolidation in the posterior right lobe with evidence of metastasis with multiple bony lytic lesions and pleural metastasis. Blood cultures were subsequently determined to be contamination.",
+        "clinical_data": {
+          "imaging": [
+            {
+              "type": "Mass-like consolidation",
+              "body_part": "Right lobe of lung",
+              "modality": "CT",
+              "finding": "Mass-like consolidation in the posterior right lobe",
+              "date": null
+            },
+            {
+              "type": "Metastasis",
+              "body_part": "Bone",
+              "modality": "CT",
+              "finding": "Multiple bony lytic lesions",
+              "date": null
+            },
+            {
+              "type": "Metastasis",
+              "body_part": "Pleura",
+              "modality": "CT",
+              "finding": "Pleural metastasis",
+              "date": null
+            }
+          ],
+          "labs": [
+            {
+              "test": "Blood cultures",
+              "value": "contamination",
+              "unit": null,
+              "flag": "abnormal",
+              "reference_range": null,
+              "timestamp": null
+            }
+          ]
+        }
+      }
+    },
+    {
+      "id": "N9",
+      "label": "Step 9",
+      "customData": {
+        "node_id": "I",
+        "node_step_index": 8,
+        "content": "The patient and his family decided not to proceed with any further investigations and opted for comfort care measures only.",
+        "clinical_data": {}
+      }
+    },
+    {
+      "id": "N10",
+      "label": "Step 10",
+      "customData": {
+        "node_id": "J",
+        "node_step_index": 9,
+        "content": "CT chest showed mass-like consolidation in the posterior right middle lobe with abnormal enhancement, suspicious for neoplasm. Right pleural soft tissue nodules, compatible with pleural metastasis. Patient was admitted because of pneumonia based on the radiological findings on his chest radiograph and the subsequent growth of his blood culture. TEE showed valvular vegetations, which was initially correlated to his underlying bacteremia, and a prolonged course of antibiotic therapy was chosen.",
+        "clinical_data": {
+          "imaging": [
+            {
+              "type": "Mass-like consolidation (finding)",
+              "body_part": "Posterior right middle lobe",
+              "modality": "CT",
+              "finding": "Abnormal enhancement, suspicious for neoplasm",
+              "impression": "Suspicious for neoplasm",
+              "date": null
+            },
+            {
+              "type": "Pleural soft tissue nodules",
+              "body_part": "Right pleura",
+              "modality": "CT",
+              "finding": "Pleural metastasis",
+              "impression": "Compatible with pleural metastasis",
+              "date": null
+            },
+            {
+              "type": "Chest radiograph",
+              "body_part": "Chest",
+              "modality": "X-ray",
+              "finding": "Pneumonia",
+              "impression": "Pneumonia",
+              "date": null
+            }
+          ],
+          "diagnoses": [
+            {
+              "code": "40973000",
+              "label": "Pneumonia",
+              "status": "active",
+              "onset_date": null
+            },
+            {
+              "code": "126850000",
+              "label": "Bacteremia",
+              "status": "active",
+              "onset_date": null
+            }
+          ],
+          "procedures": [
+            {
+              "name": "Transesophageal echocardiography",
+              "approach": "endoscopic",
+              "date": null,
+              "location": null,
+              "performed_by": null,
+              "outcome": null
+            }
+          ],
+          "labs": [
+            {
+              "test": "Blood culture",
+              "value": "Positive",
+              "unit": null,
+              "flag": "abnormal",
+              "reference_range": null,
+              "timestamp": null
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "edges": [
+    {
+      "from": "N1",
+      "to": "N2",
+      "data": {
+        "edge_id": "A_to_B",
+        "branch_flag": true,
+        "content": "Patient transitioned from nursing facility to the emergency department. Initial hypoxia improved with oxygen supplementation. Physical exam revealed bilateral end-expiratory wheezes and unchanged left side muscle weakness."
+      }
+    },
+    {
+      "from": "N2",
+      "to": "N3",
+      "data": {
+        "edge_id": "B_to_C",
+        "branch_flag": true,
+        "content": "Patient developed elevated white blood cell count and right basilar opacity on chest radiograph, leading to pneumonia diagnosis and initiation of broad-spectrum antibiotics.",
+        "transition_event": {
+          "trigger_type": "lab_change",
+          "trigger_entities": [
+            "C0043277"
+          ],
+          "change_type": "progression",
+          "target_domain": "lab"
+        }
+      }
+    },
+    {
+      "from": "N3",
+      "to": "N4",
+      "data": {
+        "edge_id": "C_to_D",
+        "branch_flag": true,
+        "content": "Transthoracic echocardiogram performed, revealing left ventricle ejection fraction of 60% to 65% with grade 1 diastolic dysfunction and left ventricular hypertrophy with no significant valvular pathology."
+      }
+    },
+    {
+      "from": "N4",
+      "to": "N5",
+      "data": {
+        "edge_id": "D_to_E",
+        "branch_flag": true,
+        "content": "Blood culture was positive for coagulase-negative staphylococci in one out of two bottles."
+      }
+    },
+    {
+      "from": "N5",
+      "to": "N6",
+      "data": {
+        "edge_id": "E_to_F",
+        "branch_flag": true,
+        "content": "Transesophageal echocardiogram (TEE) showed poorly defined multiple subtle echo densities on the atrial side of the posterior leaflet of the mitral valve and on the ventricular side of the aortic valve mostly at the coaptation edges with no significant valvular damage suggestive of sterile vegetations."
+      }
+    },
+    {
+      "from": "N6",
+      "to": "N7",
+      "data": {
+        "edge_id": "F_to_G",
+        "branch_flag": true,
+        "content": "Given pneumonia and bacteremia, infective endocarditis was initially considered, and a plan for a prolonged course of antibiotics was elected. Cardiologist advised checking for underlying malignancy given recent deep venous thrombosis and lung consolidation on chest radiograph."
+      }
+    },
+    {
+      "from": "N7",
+      "to": "N8",
+      "data": {
+        "edge_id": "G_to_H",
+        "branch_flag": true,
+        "content": "CT chest showed a mass-like consolidation in the posterior right lobe with evidence of metastasis with multiple bony lytic lesions and pleural metastasis. Blood cultures were subsequently determined to be contamination."
+      }
+    },
+    {
+      "from": "N8",
+      "to": "N9",
+      "data": {
+        "edge_id": "H_to_I",
+        "branch_flag": true,
+        "content": "The patient and his family decided not to proceed with any further investigations and opted for comfort care measures only."
+      }
+    },
+    {
+      "from": "N8",
+      "to": "N10",
+      "data": {
+        "edge_id": "H_to_J",
+        "branch_flag": true,
+        "content": "CT chest showed mass-like consolidation in the posterior right middle lobe with abnormal enhancement, suspicious for neoplasm. Right pleural soft tissue nodules, compatible with pleural metastasis. Patient was admitted because of pneumonia based on the radiological findings on his chest radiograph and the subsequent growth of his blood culture. TEE showed valvular vegetations, which was initially correlated to his underlying bacteremia, and a prolonged course of antibiotic therapy was chosen."
+      }
+    }
+  ]
+}

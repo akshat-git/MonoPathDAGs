@@ -1,0 +1,403 @@
+{
+  "nodes": [
+    {
+      "id": "N1",
+      "label": "Step 1",
+      "customData": {
+        "node_id": "A",
+        "node_step_index": 0,
+        "content": "81-year-old female with hypertension, cervical spondylosis, and chronic obstructive pulmonary disease presented with a three to four-week history of a 2.5 cm lower midline neck lump. Denies any allergies and was independent with activities of daily living. Social, occupational, and family history were all unremarkable with having given up smoking over 20 years ago.",
+        "clinical_data": {
+          "diagnoses": [
+            {
+              "code": "C0020549",
+              "label": "Hypertension",
+              "status": "active"
+            },
+            {
+              "code": "C0007783",
+              "label": "Chronic Obstructive Airway Disease",
+              "status": "active"
+            },
+            {
+              "code": "C0007782",
+              "label": "Cervical Spondylosis",
+              "status": "active"
+            }
+          ],
+          "HPI": [
+            {
+              "summary": "Patient presented with a 2.5 cm lower midline neck lump.",
+              "duration": "3-4 weeks"
+            }
+          ],
+          "allergies": [
+            {
+              "substance": "No Known Allergies",
+              "reaction": "No Known Allergies"
+            }
+          ],
+          "social_history": [
+            {
+              "category": "smoking",
+              "status": "past",
+              "description": "Gave up smoking over 20 years ago."
+            }
+          ],
+          "functional_status": [
+            {
+              "domain": "ADLs",
+              "description": "Independent with activities of daily living."
+            }
+          ]
+        }
+      }
+    },
+    {
+      "id": "N2",
+      "label": "Step 2",
+      "customData": {
+        "node_id": "B",
+        "node_step_index": 1,
+        "content": "Patient reports mild lethargy. Ultrasound scan indicates an infectious sebaceous cyst. Patient discharged with oral antibiotics.",
+        "clinical_data": {
+          "HPI": [
+            {
+              "summary": "Patient reports mild lethargy."
+            }
+          ],
+          "imaging": [
+            {
+              "type": "Ultrasound scan",
+              "finding": "infectious sebaceous cyst"
+            }
+          ],
+          "medications": [
+            {
+              "modality": "oral",
+              "drug": "antibiotics"
+            }
+          ]
+        }
+      }
+    },
+    {
+      "id": "N3",
+      "label": "Step 3",
+      "customData": {
+        "node_id": "C",
+        "node_step_index": 2,
+        "content": "Two weeks later, patient represented with an increase in lump size, associated with pain and blood oozing from the mass (estimated at around 500 ml). Lump demonstrated a fungating ulcerated appearance associated with a foul-smelling discharge.",
+        "clinical_data": {
+          "HPI": [
+            {
+              "summary": "Increase in lump size with pain and blood oozing from the mass",
+              "duration": "2 weeks",
+              "progression": "sudden",
+              "associated_symptoms": [
+                "Pain",
+                "Blood oozing"
+              ]
+            }
+          ],
+          "diagnoses": [
+            {
+              "code": "C0242963",
+              "label": "Ulcer",
+              "status": "active"
+            }
+          ]
+        }
+      }
+    },
+    {
+      "id": "N4",
+      "label": "Step 4",
+      "customData": {
+        "node_id": "D",
+        "node_step_index": 3,
+        "content": "Examination revealed no craniofacial or cervical lymphadenopathy. Oral cavity and flexible nasendoscopy were unremarkable. Paraprotein and virology screen were negative. Sample was negative for microscopy, culture and sensitivity, and acid-fast bacilli. Histology confirmed squamous cell carcinoma with PD-L1 almost 90%.",
+        "clinical_data": {
+          "diagnoses": [
+            {
+              "code": "C0007102",
+              "label": "Squamous Cell Carcinoma",
+              "status": "active"
+            }
+          ],
+          "labs": [
+            {
+              "test": "C0030567",
+              "value": "negative",
+              "unit": null,
+              "flag": "normal"
+            },
+            {
+              "test": "C0042796",
+              "value": "negative",
+              "unit": null,
+              "flag": "normal"
+            },
+            {
+              "test": "Acid-Fast Bacilli Smear",
+              "value": "negative",
+              "unit": null,
+              "flag": "normal"
+            }
+          ]
+        }
+      }
+    },
+    {
+      "id": "N5",
+      "label": "Step 5",
+      "customData": {
+        "node_id": "E",
+        "node_step_index": 4,
+        "content": "Immunohistochemistry results: AE1/3, CK7, and P40 positive; CK20, TTF1, CD56, and p16 negative. Cross-sectional imaging of the neck, thorax, and abdomen reported an anterior soft tissue mass measuring 6.1 cm, left upper lobe mass, right lung metastases, and a subcutaneous metastatic deposit in the neck.",
+        "clinical_data": {
+          "imaging": [
+            {
+              "body_part": "Neck",
+              "modality": "CT",
+              "finding": "anterior soft tissue mass measuring 6.1 cm"
+            },
+            {
+              "body_part": "Thorax",
+              "modality": "CT",
+              "finding": "anterior soft tissue mass measuring 6.1 cm"
+            },
+            {
+              "body_part": "Abdomen",
+              "modality": "CT",
+              "finding": "anterior soft tissue mass measuring 6.1 cm"
+            },
+            {
+              "body_part": "Left upper lobe",
+              "modality": "CT",
+              "finding": "mass"
+            },
+            {
+              "body_part": "Right lung",
+              "modality": "CT",
+              "finding": "metastases"
+            },
+            {
+              "body_part": "Neck",
+              "modality": "CT",
+              "finding": "subcutaneous metastatic deposit"
+            }
+          ]
+        }
+      }
+    },
+    {
+      "id": "N6",
+      "label": "Step 6",
+      "customData": {
+        "node_id": "F",
+        "node_step_index": 5,
+        "content": "Pulmonology multi-disciplinary meeting outcome favored surgical intervention, but plastic surgery team deemed surgery too extensive. Oncology opinion was sought.",
+        "clinical_data": {
+          "procedures": [
+            {
+              "name": "Surgical intervention",
+              "outcome": "favored"
+            }
+          ]
+        }
+      }
+    },
+    {
+      "id": "N7",
+      "label": "Step 7",
+      "customData": {
+        "node_id": "G",
+        "node_step_index": 6,
+        "content": "Decision made to commence palliative radiotherapy followed by Pembrolizumab immunotherapy. The anterior neck mass had grown to 10 cm in size and protruding 8 cm outwards from the neck. The mass is fungating and ulcerated.",
+        "clinical_data": {
+          "procedures": [
+            {
+              "name": "Palliative radiotherapy",
+              "date": null
+            }
+          ],
+          "medications": [
+            {
+              "drug": "Pembrolizumab",
+              "dosage": null,
+              "frequency": null,
+              "modality": null,
+              "start_date": null,
+              "end_date": null,
+              "indication": null
+            }
+          ],
+          "diagnoses": [
+            {
+              "code": null,
+              "label": "anterior neck mass",
+              "status": "active",
+              "onset_date": null
+            }
+          ],
+          "HPI": [
+            {
+              "summary": "anterior neck mass grown to 10 cm in size and protruding 8 cm outwards from the neck. The mass is fungating and ulcerated.",
+              "duration": null,
+              "onset": null,
+              "progression": null,
+              "associated_symptoms": [
+                "fungating",
+                "ulcerated"
+              ],
+              "alleviating_factors": [],
+              "exacerbating_factors": []
+            }
+          ]
+        }
+      }
+    },
+    {
+      "id": "N8",
+      "label": "Step 8",
+      "customData": {
+        "node_id": "H",
+        "node_step_index": 7,
+        "content": "After one cycle of radio-immunotherapy, a dramatic clinical response was observed via antero-posterior and lateral view imaging.",
+        "clinical_data": {
+          "imaging": [
+            {
+              "modality": "other",
+              "finding": "dramatic clinical response",
+              "date": null
+            }
+          ],
+          "procedures": [
+            {
+              "name": "Radio-immunotherapy",
+              "date": null,
+              "outcome": "dramatic clinical response"
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "edges": [
+    {
+      "from": "N1",
+      "to": "N2",
+      "data": {
+        "edge_id": "A_to_B",
+        "branch_flag": true,
+        "content": "Patient developed mild lethargy and was found to have an infectious sebaceous cyst on ultrasound scan. Patient discharged with oral antibiotics.",
+        "transition_event": {
+          "trigger_type": "symptom_onset",
+          "trigger_entities": [
+            "C0023390"
+          ],
+          "change_type": "addition",
+          "target_domain": "symptom"
+        }
+      }
+    },
+    {
+      "from": "N2",
+      "to": "N3",
+      "data": {
+        "edge_id": "B_to_C",
+        "branch_flag": true,
+        "content": "Two weeks later, the lump increased in size, associated with pain and blood oozing from the mass (estimated at around 500 ml). Lump demonstrated a fungating ulcerated appearance associated with a foul-smelling discharge.",
+        "transition_event": {
+          "trigger_type": "progression",
+          "trigger_entities": [
+            "C0024137"
+          ],
+          "change_type": "progression",
+          "target_domain": "symptom",
+          "timestamp": null
+        }
+      }
+    },
+    {
+      "from": "N3",
+      "to": "N4",
+      "data": {
+        "edge_id": "C_to_D",
+        "branch_flag": true,
+        "content": "Examination revealed no craniofacial or cervical lymphadenopathy. Oral cavity and flexible nasendoscopy were unremarkable. Paraprotein and virology screen were negative. Sample was negative for microscopy, culture and sensitivity, and acid-fast bacilli. Histology confirmed squamous cell carcinoma with PD-L1 almost 90%.",
+        "transition_event": {
+          "trigger_type": "lab_change",
+          "trigger_entities": [
+            "C0007102"
+          ],
+          "change_type": "addition",
+          "target_domain": "diagnosis"
+        }
+      }
+    },
+    {
+      "from": "N4",
+      "to": "N5",
+      "data": {
+        "edge_id": "D_to_E",
+        "branch_flag": true,
+        "content": "Immunohistochemistry results: AE1/3, CK7, and P40 positive; CK20, TTF1, CD56, and p16 negative. Cross-sectional imaging of the neck, thorax, and abdomen reported an anterior soft tissue mass measuring 6.1 cm, left upper lobe mass, right lung metastases, and a subcutaneous metastatic deposit in the neck.",
+        "transition_event": {
+          "trigger_type": "imaging",
+          "trigger_entities": [
+            "C0009402",
+            "C0027651"
+          ],
+          "change_type": "progression",
+          "target_domain": "imaging"
+        }
+      }
+    },
+    {
+      "from": "N5",
+      "to": "N6",
+      "data": {
+        "edge_id": "E_to_F",
+        "branch_flag": true,
+        "content": "Pulmonology multi-disciplinary meeting outcome favored surgical intervention, but plastic surgery team deemed surgery too extensive. Oncology opinion was sought.",
+        "transition_event": {
+          "trigger_type": "interpretation",
+          "trigger_entities": [
+            "C0036336"
+          ],
+          "change_type": "other",
+          "target_domain": "procedure"
+        }
+      }
+    },
+    {
+      "from": "N6",
+      "to": "N7",
+      "data": {
+        "edge_id": "F_to_G",
+        "branch_flag": true,
+        "content": "Decision made to commence palliative radiotherapy followed by Pembrolizumab immunotherapy. The anterior neck mass had grown to 10 cm in size and protruding 8 cm outwards from the neck. The mass is fungating and ulcerated.",
+        "transition_event": {
+          "trigger_type": "medication_change",
+          "trigger_entities": [
+            "C1614099"
+          ],
+          "change_type": "addition",
+          "target_domain": "medication"
+        }
+      }
+    },
+    {
+      "from": "N7",
+      "to": "N8",
+      "data": {
+        "edge_id": "G_to_H",
+        "branch_flag": true,
+        "content": "After one cycle of radio-immunotherapy, a dramatic clinical response was observed via antero-posterior and lateral view imaging.",
+        "transition_event": {}
+      }
+    }
+  ]
+}

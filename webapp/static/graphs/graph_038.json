@@ -1,0 +1,345 @@
+{
+  "nodes": [
+    {
+      "id": "N1",
+      "label": "Step 1",
+      "customData": {
+        "node_id": "A",
+        "node_step_index": 0,
+        "content": "Patient experienced grade 3-4 cutaneous toxicity induced by PD-1 inhibitors.",
+        "clinical_data": {
+          "allergies": [
+            {
+              "substance": "PD-1 inhibitors",
+              "reaction": "cutaneous toxicity",
+              "severity": "severe"
+            }
+          ]
+        }
+      },
+      "custom_id": "graph_038_N0"
+    },
+    {
+      "id": "N2",
+      "label": "Step 2",
+      "customData": {
+        "node_id": "B",
+        "node_step_index": 1,
+        "content": "Patient stabilized with Traditional Chinese Medicine (TCM) intervention and initiated glucocorticoid reduction.",
+        "clinical_data": {
+          "medications": [
+            {
+              "drug": "Glucocorticoid",
+              "dosage": null,
+              "frequency": null,
+              "modality": null,
+              "start_date": null,
+              "end_date": null,
+              "indication": null
+            }
+          ],
+          "procedures": [
+            {
+              "name": "Traditional Chinese Medicine",
+              "approach": null,
+              "date": null,
+              "location": null,
+              "performed_by": null,
+              "outcome": "stabilized"
+            }
+          ]
+        }
+      },
+      "custom_id": "graph_038_N1"
+    },
+    {
+      "id": "N3",
+      "label": "Step 3",
+      "customData": {
+        "node_id": "C",
+        "node_step_index": 2,
+        "content": "Patient tapered off methylprednisolone (80mg/day intravenously for ten days) over four months to stop new blister formation, along with topical ointment.",
+        "clinical_data": {
+          "medications": [
+            {
+              "drug": "C0025307",
+              "dosage": "80mg/day",
+              "frequency": null,
+              "modality": "IV",
+              "start_date": null,
+              "end_date": null,
+              "indication": null
+            }
+          ]
+        }
+      },
+      "custom_id": "graph_038_N2"
+    },
+    {
+      "id": "N4",
+      "label": "Step 4",
+      "customData": {
+        "node_id": "D",
+        "node_step_index": 3,
+        "content": "Patient developed a pulmonary fungal infection, suspected to be related to prolonged glucocorticoid use.",
+        "clinical_data": {
+          "diagnoses": [
+            {
+              "code": "40917000",
+              "label": "Pulmonary fungal disease (disorder)",
+              "status": "active"
+            }
+          ],
+          "medications": [
+            {
+              "drug": "Glucocorticoid",
+              "indication": "Pulmonary fungal infection",
+              "modality": "oral",
+              "dosage": "prolonged"
+            }
+          ]
+        }
+      },
+      "custom_id": "graph_038_N3"
+    },
+    {
+      "id": "N5",
+      "label": "Step 5",
+      "customData": {
+        "node_id": "E",
+        "node_step_index": 4,
+        "content": "Patient initially received a TCM prescription with Yu-Ping-Feng.",
+        "clinical_data": {
+          "medications": [
+            {
+              "drug": "Yu-Ping-Feng",
+              "modality": "oral",
+              "indication": "Unknown"
+            }
+          ]
+        }
+      },
+      "custom_id": "graph_038_N4"
+    },
+    {
+      "id": "N6",
+      "label": "Step 6",
+      "customData": {
+        "node_id": "F",
+        "node_step_index": 5,
+        "content": "After a week of intravenous methylprednisolone sodium succinate, the patient developed thirst, self-consciousness of dryness and heat, hyperphagia, and irritability.",
+        "clinical_data": {
+          "medications": [
+            {
+              "drug": "C0025426",
+              "modality": "IV",
+              "indication": "inflammation"
+            }
+          ],
+          "HPI": [
+            {
+              "duration": "1 week",
+              "associated_symptoms": [
+                "C0040017",
+                "C0236644",
+                "C0019994",
+                "C0022102"
+              ]
+            }
+          ]
+        }
+      },
+      "custom_id": "graph_038_N5"
+    },
+    {
+      "id": "N7",
+      "label": "Step 7",
+      "customData": {
+        "node_id": "G",
+        "node_step_index": 6,
+        "content": "Damp-dispelling herbs were removed to protect Yin, and herbs clearing the Qi system were replaced with Bubali Cornu and Sophorae Flavescentis Radix to enhance the removal of heat-toxin. Mori Cortex, Aurantii Fructus, and Ophiopogonis Radix were added.",
+        "clinical_data": {}
+      },
+      "custom_id": "graph_038_N6"
+    },
+    {
+      "id": "N8",
+      "label": "Step 8",
+      "customData": {
+        "node_id": "H",
+        "node_step_index": 7,
+        "content": "Patient's stable status and normal liver function allowed a safe switch from intravenous methylprednisolone to oral prednisone, dosed once-daily.",
+        "clinical_data": {
+          "medications": [
+            {
+              "drug": "C0025434",
+              "dosage": null,
+              "frequency": "once-daily",
+              "modality": "oral",
+              "start_date": null,
+              "end_date": null,
+              "indication": null
+            },
+            {
+              "drug": "C0025427",
+              "dosage": null,
+              "frequency": null,
+              "modality": "IV",
+              "start_date": null,
+              "end_date": null,
+              "indication": null
+            }
+          ],
+          "labs": [
+            {
+              "test": "C0023878",
+              "value": "normal",
+              "unit": null,
+              "flag": "normal",
+              "reference_range": null,
+              "timestamp": null
+            }
+          ]
+        }
+      },
+      "custom_id": "graph_038_N7"
+    },
+    {
+      "id": "N9",
+      "label": "Step 9",
+      "customData": {
+        "node_id": "I",
+        "clinical_data": {}
+      },
+      "custom_id": "graph_038_N8"
+    }
+  ],
+  "edges": [
+    {
+      "from": "N1",
+      "to": "N2",
+      "data": {
+        "edge_id": "A_to_B",
+        "branch_flag": true,
+        "content": "Patient stabilized with Traditional Chinese Medicine (TCM) intervention and initiated glucocorticoid reduction following grade 3-4 cutaneous toxicity induced by PD-1 inhibitors.",
+        "transition_event": {
+          "trigger_type": "procedure",
+          "trigger_entities": [
+            "Traditional Chinese Medicine"
+          ],
+          "change_type": "addition",
+          "target_domain": "procedure"
+        }
+      },
+      "custom_id": "graph_038_N1_N2"
+    },
+    {
+      "from": "N2",
+      "to": "N3",
+      "data": {
+        "edge_id": "B_to_C",
+        "branch_flag": true,
+        "content": "Patient tapered off methylprednisolone (80mg/day intravenously for ten days) over four months to stop new blister formation, along with topical ointment, after stabilization with TCM and initiation of glucocorticoid reduction.",
+        "transition_event": {
+          "trigger_type": "medication_change",
+          "trigger_entities": [
+            "C0025307"
+          ],
+          "change_type": "deescalation",
+          "target_domain": "medication"
+        }
+      },
+      "custom_id": "graph_038_N2_N3"
+    },
+    {
+      "from": "N3",
+      "to": "N4",
+      "data": {
+        "edge_id": "C_to_D",
+        "branch_flag": true,
+        "content": "Patient developed a pulmonary fungal infection, suspected to be related to prolonged glucocorticoid use, after tapering off methylprednisolone.",
+        "transition_event": {
+          "trigger_type": "interpretation",
+          "trigger_entities": [
+            "40917000",
+            "Glucocorticoid"
+          ],
+          "change_type": "progression",
+          "target_domain": "diagnosis"
+        }
+      },
+      "custom_id": "graph_038_N3_N4"
+    },
+    {
+      "from": "N4",
+      "to": "N5",
+      "data": {
+        "edge_id": "D_to_E",
+        "branch_flag": true,
+        "content": "Patient initially received a TCM prescription with Yu-Ping-Feng after developing a pulmonary fungal infection.",
+        "transition_event": {
+          "trigger_type": "medication_change",
+          "trigger_entities": [
+            "Yu-Ping-Feng"
+          ],
+          "change_type": "addition",
+          "target_domain": "medication"
+        }
+      },
+      "custom_id": "graph_038_N4_N5"
+    },
+    {
+      "from": "N5",
+      "to": "N6",
+      "data": {
+        "edge_id": "E_to_F",
+        "branch_flag": true,
+        "content": "After a week of intravenous methylprednisolone sodium succinate, the patient developed thirst, self-consciousness of dryness and heat, hyperphagia, and irritability, after initial TCM prescription with Yu-Ping-Feng.",
+        "transition_event": {
+          "trigger_type": "medication_change",
+          "trigger_entities": [
+            "C0025426"
+          ],
+          "change_type": "addition",
+          "target_domain": "medication"
+        }
+      },
+      "custom_id": "graph_038_N5_N6"
+    },
+    {
+      "from": "N6",
+      "to": "N7",
+      "data": {
+        "edge_id": "F_to_G",
+        "branch_flag": true,
+        "content": "Damp-dispelling herbs were removed to protect Yin, and herbs clearing the Qi system were replaced with Bubali Cornu and Sophorae Flavescentis Radix to enhance the removal of heat-toxin. Mori Cortex, Aurantii Fructus, and Ophiopogonis Radix were added after patient developed thirst, self-consciousness of dryness and heat, hyperphagia, and irritability.",
+        "transition_event": {
+          "trigger_type": "medication_change",
+          "trigger_entities": [
+            "Bubali Cornu",
+            "Sophorae Flavescentis Radix",
+            "Mori Cortex",
+            "Aurantii Fructus",
+            "Ophiopogonis Radix"
+          ],
+          "change_type": "other",
+          "target_domain": "medication"
+        }
+      },
+      "custom_id": "graph_038_N6_N7"
+    },
+    {
+      "from": "N7",
+      "to": "N8",
+      "data": {
+        "edge_id": "G_to_H",
+        "branch_flag": true,
+        "content": "Patient's stable status and normal liver function allowed a safe switch from intravenous methylprednisolone to oral prednisone, dosed once-daily, after changes to TCM prescriptions.",
+        "transition_event": {
+          "trigger_type": "medication_change"
+        }
+      },
+      "custom_id": "graph_038_N7_N8"
+    }
+  ]
+}

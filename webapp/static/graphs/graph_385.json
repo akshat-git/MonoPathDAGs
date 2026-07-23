@@ -1,0 +1,557 @@
+{
+  "nodes": [
+    {
+      "id": "N1",
+      "label": "Step 1",
+      "customData": {
+        "node_id": "A",
+        "node_step_index": 0,
+        "content": "76-year-old Caucasian male with multiple medical comorbidities including previously excised malignant rectal tumor (pathologic staging: T1aN0M0), hypertension, diabetes, diverticulitis, and chronic obstructive pulmonary disease (COPD) with a former 45-pack-year cigarette smoking history presented with a dry persistent cough.",
+        "clinical_data": {
+          "diagnoses": [
+            {
+              "code": "C20",
+              "label": "Malignant neoplasm of rectum",
+              "status": "historical"
+            },
+            {
+              "code": "I10",
+              "label": "Hypertension",
+              "status": "active"
+            },
+            {
+              "code": "E11",
+              "label": "Diabetes",
+              "status": "active"
+            },
+            {
+              "code": "K57.9",
+              "label": "Diverticulitis",
+              "status": "active"
+            },
+            {
+              "code": "J44.9",
+              "label": "Chronic obstructive pulmonary disease",
+              "status": "active"
+            }
+          ],
+          "social_history": [
+            {
+              "category": "smoking",
+              "status": "past",
+              "description": "45-pack-year cigarette smoking history"
+            }
+          ],
+          "HPI": [
+            {
+              "summary": "dry persistent cough"
+            }
+          ]
+        }
+      }
+    },
+    {
+      "id": "N2",
+      "label": "Step 2",
+      "customData": {
+        "node_id": "B",
+        "node_step_index": 1,
+        "content": "CT of the chest confirmed a hypermetabolic 1.2-cm spiculated nodule in the right upper lobe (RUL) of the lung without significant hilar or mediastinal lymphadenopathy.",
+        "clinical_data": {
+          "imaging": [
+            {
+              "type": "Lung CT (procedure)",
+              "body_part": "Lung",
+              "modality": "CT",
+              "finding": "1.2-cm spiculated nodule in the right upper lobe (RUL)",
+              "impression": "hypermetabolic nodule",
+              "date": null
+            }
+          ]
+        }
+      }
+    },
+    {
+      "id": "N3",
+      "label": "Step 3",
+      "customData": {
+        "node_id": "C",
+        "node_step_index": 2,
+        "content": "Robotically-assisted right upper lobectomy with hilar and mediastinal lymph node dissection's final pathology revealed moderately differentiated adenocarcinoma of the lung with negative margins. Ten lymph nodes examined were negative for disease involvement, and it was specified as a pT1AN0 case.",
+        "clinical_data": {
+          "procedures": [
+            {
+              "name": "Robotically-assisted right upper lobectomy",
+              "approach": "robotic",
+              "date": null,
+              "location": "right upper lobe of lung",
+              "performed_by": null,
+              "outcome": null
+            },
+            {
+              "name": "hilar and mediastinal lymph node dissection",
+              "approach": null,
+              "date": null,
+              "location": "hilar and mediastinal lymph nodes",
+              "performed_by": null,
+              "outcome": null
+            }
+          ],
+          "diagnoses": [
+            {
+              "code": null,
+              "label": "moderately differentiated adenocarcinoma of the lung",
+              "status": "active",
+              "onset_date": null
+            }
+          ],
+          "imaging": [
+            {
+              "type": null,
+              "body_part": "lymph nodes",
+              "modality": null,
+              "finding": "negative for disease involvement",
+              "impression": null,
+              "date": null
+            }
+          ]
+        }
+      }
+    },
+    {
+      "id": "N4",
+      "label": "Step 4",
+      "customData": {
+        "node_id": "D",
+        "node_step_index": 3,
+        "content": "Patient was placed on surveillance and followed up with routine imaging. Approximately five years following diagnosis, he complained of right-sided posterior rib pain. MRI revealed abnormal signal intensity involving the right posterior ribs with cortical destruction of the fifth rib. PET/CT scan showed 4.4 cm involvement with a lytic lucency involving the right posterior fifth rib, hypermetabolic activity and pleural thickening at the right lung base, and a 0.7-cm avid pulmonary nodule at the left lung base.",
+        "clinical_data": {
+          "imaging": [
+            {
+              "type": "MRI",
+              "body_part": "Right posterior ribs",
+              "modality": "MRI",
+              "finding": "Abnormal signal intensity involving the right posterior ribs with cortical destruction of the fifth rib",
+              "date": null
+            },
+            {
+              "type": "PET/CT scan",
+              "body_part": "Right posterior fifth rib",
+              "modality": "PET/CT",
+              "finding": "4.4 cm involvement with a lytic lucency involving the right posterior fifth rib, hypermetabolic activity and pleural thickening at the right lung base, and a 0.7-cm avid pulmonary nodule at the left lung base",
+              "date": null
+            }
+          ],
+          "HPI": [
+            {
+              "summary": "Right-sided posterior rib pain",
+              "onset": null,
+              "progression": "unknown",
+              "associated_symptoms": [],
+              "alleviating_factors": [],
+              "exacerbating_factors": []
+            }
+          ]
+        }
+      }
+    },
+    {
+      "id": "N5",
+      "label": "Step 5",
+      "customData": {
+        "node_id": "E",
+        "node_step_index": 4,
+        "content": "Core needle biopsy of right posterior fifth rib lesion showed malignant cells consistent with recurrent bronchogenic adenocarcinoma. PD-L1 IHC 22C3 pharmDx was positive with a low expression of 1%, and molecular testing revealed KRAS G12C mutation.",
+        "clinical_data": {
+          "diagnoses": [
+            {
+              "code": "C34",
+              "label": "bronchogenic adenocarcinoma",
+              "status": "active"
+            }
+          ],
+          "procedures": [
+            {
+              "name": "Core needle biopsy",
+              "location": "right posterior fifth rib",
+              "date": null
+            }
+          ],
+          "labs": [
+            {
+              "test": "PD-L1 IHC 22C3 pharmDx",
+              "value": "1%",
+              "flag": "positive"
+            },
+            {
+              "test": "KRAS G12C mutation",
+              "value": "positive",
+              "flag": "abnormal"
+            }
+          ],
+          "imaging": [
+            {
+              "type": "lesion",
+              "body_part": "right posterior fifth rib",
+              "modality": null,
+              "finding": "malignant cells consistent with recurrent bronchogenic adenocarcinoma",
+              "impression": null,
+              "date": null
+            }
+          ]
+        }
+      }
+    },
+    {
+      "id": "N6",
+      "label": "Step 6",
+      "customData": {
+        "node_id": "F",
+        "node_step_index": 5,
+        "content": "Patient was initiated on single-agent pembrolizumab 200 mg intravenously and had a good response.",
+        "clinical_data": {
+          "medications": [
+            {
+              "drug": "C1877552",
+              "dosage": "200 mg",
+              "frequency": null,
+              "modality": "IV",
+              "start_date": null,
+              "end_date": null,
+              "indication": null
+            }
+          ]
+        }
+      }
+    },
+    {
+      "id": "N7",
+      "label": "Step 7",
+      "customData": {
+        "node_id": "G",
+        "node_step_index": 6,
+        "content": "Approximately 18 months after pembrolizumab initiation, lab results revealed high absolute eosinophils levels of 1445 cells/uL (normal range: 15-500 cells/uL) and white blood cells (WBC) count of 850 x 10/uL.",
+        "clinical_data": {
+          "labs": [
+            {
+              "test": "Eosinophils Absolute",
+              "value": "1445",
+              "unit": "cells/uL",
+              "flag": "abnormal",
+              "reference_range": "15-500 cells/uL"
+            },
+            {
+              "test": "White blood cell count",
+              "value": "850",
+              "unit": "x 10/uL",
+              "flag": "abnormal"
+            }
+          ],
+          "medications": [
+            {
+              "drug": "Pembrolizumab"
+            }
+          ]
+        }
+      }
+    },
+    {
+      "id": "N8",
+      "label": "Step 8",
+      "customData": {
+        "node_id": "H",
+        "node_step_index": 7,
+        "content": "Patient was administered one more dose of pembrolizumab, but absolute eosinophils levels remained consistently high at 1304 cells/uL and WBC count at 820 x 10/uL.",
+        "clinical_data": {
+          "medications": [
+            {
+              "drug": "C3876535",
+              "dosage": null,
+              "frequency": null,
+              "modality": null,
+              "start_date": null,
+              "end_date": null,
+              "indication": null
+            }
+          ],
+          "labs": [
+            {
+              "test": "Absolute Eosinophils",
+              "value": "1304",
+              "unit": "cells/uL",
+              "flag": "abnormal",
+              "reference_range": null,
+              "timestamp": null
+            },
+            {
+              "test": "White blood cell count",
+              "value": "820",
+              "unit": "x 10/uL",
+              "flag": "abnormal",
+              "reference_range": null,
+              "timestamp": null
+            }
+          ]
+        }
+      }
+    },
+    {
+      "id": "N9",
+      "label": "Step 9",
+      "customData": {
+        "node_id": "I",
+        "node_step_index": 8,
+        "content": "PET/CT scan confirmed post-radiation pneumonitis, associated with recent stereotactic radiosurgery (SRS) to a lesion in the left lower lung field, and pancolitis.",
+        "clinical_data": {
+          "imaging": [
+            {
+              "type": "Positron emission tomography/computed tomography",
+              "body_part": "Lung",
+              "modality": "PET/CT",
+              "finding": "post-radiation pneumonitis",
+              "impression": "post-radiation pneumonitis, associated with recent stereotactic radiosurgery (SRS) to a lesion in the left lower lung field, and pancolitis."
+            }
+          ],
+          "diagnoses": [
+            {
+              "code": "59620004",
+              "label": "Pneumonitis",
+              "status": "active"
+            },
+            {
+              "code": "64462007",
+              "label": "Pancolitis",
+              "status": "active"
+            }
+          ],
+          "procedures": [
+            {
+              "name": "Stereotactic radiosurgery",
+              "location": "left lower lung field"
+            }
+          ]
+        }
+      }
+    },
+    {
+      "id": "N10",
+      "label": "Step 10",
+      "customData": {
+        "node_id": "J",
+        "node_step_index": 9,
+        "content": "Colonoscopy revealed normal appendiceal orifice, ileocecal valve cecum, and rectum upon visual examination.",
+        "clinical_data": {
+          "procedures": [
+            {
+              "name": "Colonoscopy",
+              "approach": "endoscopic",
+              "location": "colon",
+              "outcome": "normal appendiceal orifice, ileocecal valve cecum, and rectum upon visual examination"
+            }
+          ]
+        }
+      }
+    },
+    {
+      "id": "N11",
+      "label": "Step 11",
+      "customData": {
+        "node_id": "K",
+        "node_step_index": 10,
+        "content": "Pathology of the colon showed colonic mucosa with scattered apoptotic bodies, increased intraepithelial lymphocytosis, and eosinophils in lamina propria, consistent with immunotherapy-related apoptotic colopathy.",
+        "clinical_data": {
+          "diagnoses": [
+            {
+              "code": "C535738",
+              "label": "Apoptotic Colopathy",
+              "status": "active"
+            }
+          ]
+        }
+      }
+    },
+    {
+      "id": "N12",
+      "label": "Step 12",
+      "customData": {
+        "node_id": "L",
+        "node_step_index": 11,
+        "content": "66-year-old Caucasian female with a history of hypercalcemia, epilepsy, COPD, and a 41-pack-year smoking",
+        "clinical_data": {
+          "diagnoses": [
+            {
+              "code": "C0020583",
+              "label": "Hypercalcemia",
+              "status": "historical"
+            },
+            {
+              "code": "C0014544",
+              "label": "Epilepsy",
+              "status": "historical"
+            },
+            {
+              "code": "C0009401",
+              "label": "Chronic Obstructive Pulmonary Disease",
+              "status": "historical"
+            }
+          ],
+          "social_history": [
+            {
+              "category": "smoking",
+              "status": "past",
+              "description": "41-pack-year"
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "edges": [
+    {
+      "from": "N1",
+      "to": "N2",
+      "data": {
+        "edge_id": "A_to_B",
+        "branch_flag": true,
+        "content": "Patient presented with a dry persistent cough, leading to further investigation.",
+        "transition_event": {
+          "trigger_type": "symptom_onset",
+          "trigger_entities": [
+            "C0010484"
+          ],
+          "change_type": "progression",
+          "target_domain": "symptom"
+        }
+      }
+    },
+    {
+      "from": "N2",
+      "to": "N3",
+      "data": {
+        "edge_id": "B_to_C",
+        "branch_flag": true,
+        "content": "CT chest findings prompted surgical intervention.",
+        "transition_event": {
+          "trigger_type": "imaging",
+          "trigger_entities": [],
+          "change_type": "addition",
+          "target_domain": "imaging"
+        }
+      }
+    },
+    {
+      "from": "N3",
+      "to": "N4",
+      "data": {
+        "edge_id": "C_to_D",
+        "branch_flag": true,
+        "content": "Following surgery, the patient was placed on surveillance and followed up with routine imaging. Approximately five years later, the patient complained of right-sided posterior rib pain.",
+        "transition_event": {
+          "trigger_type": "symptom_onset",
+          "trigger_entities": [
+            "C0239691"
+          ],
+          "change_type": "progression",
+          "target_domain": "symptom"
+        }
+      }
+    },
+    {
+      "from": "N4",
+      "to": "N5",
+      "data": {
+        "edge_id": "D_to_E",
+        "branch_flag": true,
+        "content": "Imaging findings led to a biopsy to confirm recurrence.",
+        "transition_event": {
+          "trigger_type": "imaging",
+          "trigger_entities": [],
+          "change_type": "addition",
+          "target_domain": "imaging"
+        }
+      }
+    },
+    {
+      "from": "N5",
+      "to": "N6",
+      "data": {
+        "edge_id": "E_to_F",
+        "branch_flag": true,
+        "content": "Biopsy results led to initiation of pembrolizumab.",
+        "transition_event": {
+          "trigger_type": "medication_change",
+          "trigger_entities": [
+            "C1877552"
+          ],
+          "change_type": "addition",
+          "target_domain": "medication"
+        }
+      }
+    },
+    {
+      "from": "N6",
+      "to": "N7",
+      "data": {
+        "edge_id": "F_to_G",
+        "branch_flag": true,
+        "content": "After 18 months on pembrolizumab, lab abnormalities were noted.",
+        "transition_event": {
+          "trigger_type": "lab_change",
+          "trigger_entities": [
+            "C0014479",
+            "C0043185"
+          ],
+          "change_type": "escalation",
+          "target_domain": "lab"
+        }
+      }
+    },
+    {
+      "from": "N7",
+      "to": "N8",
+      "data": {
+        "edge_id": "G_to_H",
+        "branch_flag": true,
+        "content": "Despite continued pembrolizumab, lab values remained elevated.",
+        "transition_event": {
+          "trigger_type": "medication_change",
+          "trigger_entities": [
+            "C3876535"
+          ],
+          "change_type": "other",
+          "target_domain": "medication"
+        }
+      }
+    },
+    {
+      "from": "N8",
+      "to": "N9",
+      "data": {
+        "edge_id": "H_to_I",
+        "branch_flag": true,
+        "content": "Elevated eosinophils and WBC count prompted further imaging.",
+        "transition_event": {
+          "trigger_type": "lab_change",
+          "trigger_entities": [
+            "C0014479",
+            "C0043185"
+          ],
+          "change_type": "progression",
+          "target_domain": "lab"
+        }
+      }
+    },
+    {
+      "from": "N9",
+      "to": "N10",
+      "data": {
+        "edge_id": "I_to_J",
+        "branch_flag": true,
+        "content": "Pneumonitis and pancolitis findings prompted colonoscopy.",
+        "transition_event": {
+          "trigger_type": "procedure"
+        }
+      }
+    }
+  ]
+}

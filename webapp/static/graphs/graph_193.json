@@ -1,0 +1,454 @@
+{
+  "nodes": [
+    {
+      "id": "N1",
+      "label": "Step 1",
+      "customData": {
+        "node_id": "A",
+        "node_step_index": 0,
+        "content": "2014: 53-year-old male diagnosed with stage IIIa adenocarcinoma in the right lung and underwent surgery.",
+        "clinical_data": {
+          "diagnoses": [
+            {
+              "code": "C0242375",
+              "label": "Adenocarcinoma of lung",
+              "status": "historical",
+              "onset_date": "2014"
+            },
+            {
+              "code": "C3551722",
+              "label": "Stage IIIa Non-Small Cell Lung Cancer AJCC v7",
+              "status": "historical",
+              "onset_date": "2014"
+            }
+          ],
+          "procedures": [
+            {
+              "name": "C0038844",
+              "approach": "open",
+              "date": "2014",
+              "location": "Right lung",
+              "performed_by": null,
+              "outcome": null
+            }
+          ]
+        }
+      }
+    },
+    {
+      "id": "N2",
+      "label": "Step 2",
+      "customData": {
+        "node_id": "B",
+        "node_step_index": 1,
+        "content": "2018: Brain metastases (BM) observed in the head.",
+        "clinical_data": {
+          "imaging": [
+            {
+              "type": "Brain imaging",
+              "body_part": "Brain",
+              "modality": "other",
+              "finding": "Brain metastases",
+              "date": "2018"
+            }
+          ],
+          "diagnoses": [
+            {
+              "code": "C0678222",
+              "label": "Brain Metastasis",
+              "status": "active",
+              "onset_date": "2018"
+            }
+          ]
+        }
+      }
+    },
+    {
+      "id": "N3",
+      "label": "Step 3",
+      "customData": {
+        "node_id": "C",
+        "node_step_index": 2,
+        "content": "September 2018: Patient experienced dizziness and headache. Brain MRI showed a 4.5 cm lesion in the right parietal lobe.",
+        "clinical_data": {
+          "imaging": [
+            {
+              "type": "Brain MRI",
+              "body_part": "Parietal Lobe",
+              "modality": "MRI",
+              "finding": "4.5 cm lesion in the right parietal lobe",
+              "date": "2018-09"
+            }
+          ],
+          "HPI": [
+            {
+              "summary": "Patient experienced dizziness and headache.",
+              "onset": "2018-09",
+              "associated_symptoms": [
+                "dizziness",
+                "headache"
+              ]
+            }
+          ]
+        }
+      }
+    },
+    {
+      "id": "N4",
+      "label": "Step 4",
+      "customData": {
+        "node_id": "D",
+        "node_step_index": 4,
+        "content": "Left ventricle deformed under compression, and the center line deviated to the right.",
+        "clinical_data": {
+          "imaging": [
+            {
+              "type": "Ventricular deformation (finding)",
+              "body_part": "Left ventricle",
+              "modality": "other",
+              "finding": "deformed under compression, and the center line deviated to the right"
+            }
+          ]
+        }
+      }
+    },
+    {
+      "id": "N5",
+      "label": "Step 5",
+      "customData": {
+        "node_id": "E",
+        "node_step_index": 5,
+        "content": "Patient treated with Crizotinib for 18 months.",
+        "clinical_data": {
+          "medications": [
+            {
+              "drug": "Crizotinib",
+              "dosage": null,
+              "frequency": null,
+              "modality": null,
+              "start_date": null,
+              "end_date": null,
+              "indication": null
+            }
+          ],
+          "HPI": [
+            {
+              "summary": "Patient treated with Crizotinib for 18 months.",
+              "duration": "18 months",
+              "onset": null,
+              "progression": null,
+              "associated_symptoms": [],
+              "alleviating_factors": [],
+              "exacerbating_factors": []
+            }
+          ]
+        }
+      }
+    },
+    {
+      "id": "N6",
+      "label": "Step 6",
+      "customData": {
+        "node_id": "F",
+        "node_step_index": 6,
+        "content": "April 2020: Sudden aggravation of dizziness and headache, limb weakness, and difficulty walking. MRI examination indicated a target lesion in the parietal lobe at the size of 5.1 \u00d7 4.1 cm, with obvious edema in the surrounding cerebral parenchyma.",
+        "clinical_data": {
+          "HPI": [
+            {
+              "summary": "Sudden aggravation of dizziness and headache, limb weakness, and difficulty walking.",
+              "onset": "April 2020",
+              "progression": "sudden",
+              "associated_symptoms": [
+                "dizziness",
+                "headache",
+                "limb weakness",
+                "difficulty walking"
+              ]
+            }
+          ],
+          "imaging": [
+            {
+              "type": "Lesion",
+              "body_part": "Parietal lobe",
+              "modality": "MRI",
+              "finding": "Target lesion at the size of 5.1 \u00d7 4.1 cm, with obvious edema in the surrounding cerebral parenchyma.",
+              "date": "2020-04"
+            }
+          ]
+        }
+      }
+    },
+    {
+      "id": "N7",
+      "label": "Step 7",
+      "customData": {
+        "node_id": "G",
+        "node_step_index": 8,
+        "content": "Alectinib was used as treatment.",
+        "clinical_data": {
+          "medications": [
+            {
+              "drug": "C1697688",
+              "dosage": null,
+              "frequency": null,
+              "modality": null,
+              "start_date": null,
+              "end_date": null,
+              "indication": null
+            }
+          ]
+        }
+      }
+    },
+    {
+      "id": "N8",
+      "label": "Step 8",
+      "customData": {
+        "node_id": "H",
+        "node_step_index": 9,
+        "content": "July 2020: MRI scan revealed the target lesion of the larger section in the parietal lobe was 5.3 \u00d7 4.6 cm in size.",
+        "clinical_data": {
+          "imaging": [
+            {
+              "type": "MRI scan",
+              "body_part": "parietal lobe",
+              "modality": "MRI",
+              "finding": "target lesion of the larger section was 5.3 \u00d7 4.6 cm in size",
+              "date": "2020-07"
+            }
+          ]
+        }
+      }
+    },
+    {
+      "id": "N9",
+      "label": "Step 9",
+      "customData": {
+        "node_id": "I",
+        "node_step_index": 10,
+        "content": "July 2020: Patient requested Chinese medicine as monotherapy for long-term treatment. Prescription: Radix Rehmanniae Praeparata15 g, Rhizoma Dioscorea 15 g, Rhizoma Arisaematis 9 g, Bombyx Batryticatus 15 g, Coptis Chinensis 6 g, Fermentum Rubrum 12 g, Semen Sinapis 10 g, Fructus Lycii 15 g, Cyathula Officinalis 1",
+        "clinical_data": {
+          "medications": [
+            {
+              "drug": "Radix Rehmanniae Praeparata",
+              "dosage": "15 g",
+              "frequency": null,
+              "modality": "oral",
+              "start_date": "2020-07",
+              "end_date": null,
+              "indication": "long-term treatment"
+            },
+            {
+              "drug": "Rhizoma Dioscorea",
+              "dosage": "15 g",
+              "frequency": null,
+              "modality": "oral",
+              "start_date": "2020-07",
+              "end_date": null,
+              "indication": "long-term treatment"
+            },
+            {
+              "drug": "Rhizoma Arisaematis",
+              "dosage": "9 g",
+              "frequency": null,
+              "modality": "oral",
+              "start_date": "2020-07",
+              "end_date": null,
+              "indication": "long-term treatment"
+            },
+            {
+              "drug": "Bombyx Batryticatus",
+              "dosage": "15 g",
+              "frequency": null,
+              "modality": "oral",
+              "start_date": "2020-07",
+              "end_date": null,
+              "indication": "long-term treatment"
+            },
+            {
+              "drug": "Coptis Chinensis",
+              "dosage": "6 g",
+              "frequency": null,
+              "modality": "oral",
+              "start_date": "2020-07",
+              "end_date": null,
+              "indication": "long-term treatment"
+            },
+            {
+              "drug": "Fermentum Rubrum",
+              "dosage": "12 g",
+              "frequency": null,
+              "modality": "oral",
+              "start_date": "2020-07",
+              "end_date": null,
+              "indication": "long-term treatment"
+            },
+            {
+              "drug": "Semen Sinapis",
+              "dosage": "10 g",
+              "frequency": null,
+              "modality": "oral",
+              "start_date": "2020-07",
+              "end_date": null,
+              "indication": "long-term treatment"
+            },
+            {
+              "drug": "Fructus Lycii",
+              "dosage": "15 g",
+              "frequency": null,
+              "modality": "oral",
+              "start_date": "2020-07",
+              "end_date": null,
+              "indication": "long-term treatment"
+            },
+            {
+              "drug": "Cyathula Officinalis",
+              "dosage": "1 g",
+              "frequency": null,
+              "modality": "oral",
+              "start_date": "2020-07",
+              "end_date": null,
+              "indication": "long-term treatment"
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "edges": [
+    {
+      "from": "N1",
+      "to": "N2",
+      "data": {
+        "edge_id": "A_to_B",
+        "branch_flag": true,
+        "content": "Progression of lung adenocarcinoma to brain metastases."
+      }
+    },
+    {
+      "from": "N2",
+      "to": "N3",
+      "data": {
+        "edge_id": "B_to_C",
+        "branch_flag": true,
+        "content": "Onset of neurological symptoms and confirmation of brain lesion via MRI.",
+        "transition_event": {
+          "trigger_type": "symptom_onset",
+          "trigger_entities": [
+            "C0013404",
+            "C0018681"
+          ],
+          "change_type": "progression",
+          "target_domain": "symptom",
+          "timestamp": "2018-09"
+        }
+      }
+    },
+    {
+      "from": "N3",
+      "to": "N4",
+      "data": {
+        "edge_id": "C_to_D",
+        "branch_flag": true,
+        "content": "Observed left ventricle deformation under compression."
+      }
+    },
+    {
+      "from": "N4",
+      "to": "N5",
+      "data": {
+        "edge_id": "D_to_E",
+        "branch_flag": true,
+        "content": "Treatment initiated with Crizotinib.",
+        "transition_event": {
+          "trigger_type": "medication_change",
+          "trigger_entities": [
+            "C1721647"
+          ],
+          "change_type": "addition",
+          "target_domain": "medication"
+        }
+      }
+    },
+    {
+      "from": "N5",
+      "to": "N6",
+      "data": {
+        "edge_id": "E_to_F",
+        "branch_flag": true,
+        "content": "Aggravation of neurological symptoms and increase in lesion size despite Crizotinib treatment.",
+        "transition_event": {
+          "trigger_type": "symptom_onset",
+          "trigger_entities": [
+            "C0013404",
+            "C0018681",
+            "C0043093",
+            "C0012636"
+          ],
+          "change_type": "progression",
+          "target_domain": "symptom",
+          "timestamp": "2020-04"
+        }
+      }
+    },
+    {
+      "from": "N6",
+      "to": "N7",
+      "data": {
+        "edge_id": "F_to_G",
+        "branch_flag": true,
+        "content": "Treatment changed to Alectinib.",
+        "transition_event": {
+          "trigger_type": "medication_change",
+          "trigger_entities": [
+            "C1697688"
+          ],
+          "change_type": "addition",
+          "target_domain": "medication"
+        }
+      }
+    },
+    {
+      "from": "N7",
+      "to": "N8",
+      "data": {
+        "edge_id": "G_to_H",
+        "branch_flag": true,
+        "content": "Increase in lesion size despite Alectinib treatment.",
+        "transition_event": {
+          "trigger_type": "imaging",
+          "trigger_entities": [],
+          "change_type": "progression",
+          "target_domain": "imaging",
+          "timestamp": "2020-07"
+        }
+      }
+    },
+    {
+      "from": "N8",
+      "to": "N9",
+      "data": {
+        "edge_id": "H_to_I",
+        "branch_flag": true,
+        "content": "Patient requested Chinese medicine as monotherapy.",
+        "transition_event": {
+          "trigger_type": "medication_change",
+          "trigger_entities": [
+            "Radix Rehmanniae Praeparata",
+            "Rhizoma Dioscorea",
+            "Rhizoma Arisaematis",
+            "Bombyx Batryticatus",
+            "Coptis Chinensis",
+            "Fermentum Rubrum",
+            "Semen Sinapis",
+            "Fructus Lycii",
+            "Cyathula Officinalis"
+          ],
+          "change_type": "addition",
+          "target_domain": "medication",
+          "timestamp": "2020-07"
+        }
+      }
+    }
+  ]
+}

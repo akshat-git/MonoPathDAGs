@@ -1,0 +1,334 @@
+{
+  "nodes": [
+    {
+      "id": "N1",
+      "label": "Step 1",
+      "customData": {
+        "node_id": "A",
+        "node_step_index": 0,
+        "content": "Cohort of 29 patients with COVID-19: mean age 48.0 (range 23-73), 15 (51.7%) male, 14 (48.3%) female. 96.6% had undergone resection, 69% had radiation therapy, 69% had temozolomide, 34.5% had bevacizumab, and 6.9% had Tumor Treating Fields (i.e., Optune). Obesity was present in 27.6% of patients and prior tobacco use in 20.7%.",
+        "clinical_data": {
+          "diagnoses": [
+            {
+              "code": "U07.1",
+              "label": "COVID-19",
+              "status": "active"
+            }
+          ],
+          "social_history": [
+            {
+              "category": "smoking",
+              "status": "past",
+              "description": "prior tobacco use in 20.7%"
+            }
+          ],
+          "medications": [
+            {
+              "drug": "Temozolomide",
+              "indication": "tumor"
+            },
+            {
+              "drug": "Bevacizumab",
+              "indication": "tumor"
+            }
+          ],
+          "procedures": [
+            {
+              "name": "resection",
+              "outcome": "unknown"
+            },
+            {
+              "name": "radiation therapy",
+              "outcome": "unknown"
+            }
+          ]
+        }
+      }
+    },
+    {
+      "id": "N2",
+      "label": "Step 2",
+      "customData": {
+        "node_id": "B",
+        "node_step_index": 1,
+        "content": "Primary cancer types in the cohort: Astrocytoma (62.1%), Oligodendroglioma (24.1%), Mesiotemporal angiocentric glioma (6.9%). One patient contracted COVID-19 twice. Median delay between glioma diagnosis and COVID-19 diagnosis: 59 months. At COVID-19 diagnosis: 27.6% were taking dexamethasone and 27.6% were undergoing cancer-specific treatment (2 on clinical trials, 2 receiving temozolomide, 2 on bevacizumab, 1 getting radiation therapy, and 1 undergoing resection).",
+        "clinical_data": {
+          "diagnoses": [
+            {
+              "code": "C71.9",
+              "label": "Malignant neoplasm of brain, unspecified",
+              "status": "active"
+            }
+          ],
+          "medications": [
+            {
+              "drug": "C0011585",
+              "dosage": null,
+              "frequency": null,
+              "modality": null,
+              "start_date": null,
+              "end_date": null,
+              "indication": "Malignant neoplasm of brain, unspecified"
+            },
+            {
+              "drug": "C0040053",
+              "dosage": null,
+              "frequency": null,
+              "modality": null,
+              "start_date": null,
+              "end_date": null,
+              "indication": "Malignant neoplasm of brain, unspecified"
+            },
+            {
+              "drug": "C0005044",
+              "dosage": null,
+              "frequency": null,
+              "modality": null,
+              "start_date": null,
+              "end_date": null,
+              "indication": "Malignant neoplasm of brain, unspecified"
+            }
+          ],
+          "procedures": [
+            {
+              "name": "C0034813",
+              "approach": null,
+              "date": null,
+              "location": null,
+              "performed_by": null,
+              "outcome": null
+            }
+          ]
+        }
+      }
+    },
+    {
+      "id": "N3",
+      "label": "Step 3",
+      "customData": {
+        "node_id": "C",
+        "node_step_index": 2,
+        "content": "Vaccination status prior to COVID-19: Pfizer 10 (34.5%), Moderna 7 (24.1%), Janssen 1 (3.4). Number of vaccinations prior to COVID-19: 0 vaccinations 14 (48.3%), 1 vaccination 1 (3.4%), 2 vaccinations 3 (10.3%), 3+ vaccinations 11 (37.9). Presumed COVID-19 variant: Original 11 (37.9%), Epsilon 1 (3.4%), Alpha 2 (6.9%), Omicron 15 (51.7%).",
+        "clinical_data": {
+          "social_history": [
+            {
+              "category": "vaccination",
+              "status": "past",
+              "description": "Pfizer 10 (34.5%), Moderna 7 (24.1%), Janssen 1 (3.4). Number of vaccinations prior to COVID-19: 0 vaccinations 14 (48.3%), 1 vaccination 1 (3.4%), 2 vaccinations 3 (10.3%), 3+ vaccinations 11 (37.9)"
+            }
+          ],
+          "diagnoses": [
+            {
+              "code": "UMLS:C4723447",
+              "label": "COVID-19",
+              "status": "suspected",
+              "onset_date": null
+            }
+          ]
+        }
+      }
+    },
+    {
+      "id": "N4",
+      "label": "Step 4",
+      "customData": {
+        "node_id": "D",
+        "node_step_index": 3,
+        "content": "COVID-19 symptoms: cough/sore throat/congestion (48.3%), fever (20.7%), shortness of breath/chest pain (20.7%), myalgia/fatigue (20.7%), loss of taste/smell (10.3%), headache (6.9%), and seizures (6.9%); 20.7% were asymptomatic. COVID-19 diagnosis delayed cancer-related care in 5 patients (17.2%). 82.8% did not require hospital admission. 5 patients were admitted, 2 received COVID-19-directed treatment (remdesivir in both cases, dexamethasone in one case).",
+        "clinical_data": {
+          "HPI": [
+            {
+              "summary": "COVID-19 symptoms: cough, sore throat, congestion, fever, shortness of breath, chest pain, myalgia, fatigue, loss of taste, loss of smell, headache, and seizures.",
+              "associated_symptoms": [
+                "C0010200",
+                "C0037532",
+                "C0009450",
+                "C0015967",
+                "C0037223",
+                "C0008031",
+                "C0234175",
+                "C0015672",
+                "C0271262",
+                "C0234176",
+                "C0018681",
+                "C0036865"
+              ]
+            }
+          ],
+          "diagnoses": [
+            {
+              "code": "UMLS:C4729361",
+              "label": "COVID-19",
+              "status": "active"
+            }
+          ],
+          "medications": [
+            {
+              "drug": "UMLS:C5203701",
+              "dosage": null,
+              "frequency": null,
+              "modality": null,
+              "start_date": null,
+              "end_date": null,
+              "indication": "UMLS:C4729361"
+            },
+            {
+              "drug": "UMLS:C0011602",
+              "dosage": null,
+              "frequency": null,
+              "modality": null,
+              "start_date": null,
+              "end_date": null,
+              "indication": "UMLS:C4729361"
+            }
+          ]
+        }
+      }
+    },
+    {
+      "id": "N5",
+      "label": "Step 5",
+      "customData": {
+        "node_id": "E",
+        "node_step_index": 4,
+        "content": "Among the 5 admitted patients: 1 had received 3 COVID-19 vaccines, 4 were not vaccinated, 2 were taking dexamethasone, 3 were not receiving dexamethasone, and none were receiving cancer-directed treatment. In the cohort, 55% had a KPS that remained the same or improved after contracting COVID-19, whereas KPS worsened in 20.7%.",
+        "clinical_data": {
+          "medications": [
+            {
+              "drug": "dexamethasone",
+              "dosage": null,
+              "frequency": null,
+              "modality": null,
+              "start_date": null,
+              "end_date": null,
+              "indication": null
+            }
+          ],
+          "social_history": [
+            {
+              "category": "vaccination",
+              "status": "past",
+              "description": "received 3 COVID-19 vaccines"
+            },
+            {
+              "category": "vaccination",
+              "status": "never",
+              "description": "not vaccinated"
+            }
+          ],
+          "functional_status": [
+            {
+              "domain": "general",
+              "description": "KPS remained the same or improved after contracting COVID-19",
+              "score": "55",
+              "scale": "KPS"
+            },
+            {
+              "domain": "general",
+              "description": "KPS worsened after contracting COVID-19",
+              "score": "20.7",
+              "scale": "KPS"
+            }
+          ]
+        }
+      }
+    },
+    {
+      "id": "N6",
+      "label": "Step 6",
+      "customData": {
+        "node_id": "F",
+        "node_step_index": 5,
+        "content": "By July 13, 2022, 5 patients (17.2%) had died from reasons unrelated to COVID-19 or its complications.",
+        "clinical_data": {}
+      }
+    },
+    {
+      "id": "N7",
+      "label": "Step 7",
+      "customData": {
+        "node_id": "G",
+        "node_step_index": 6,
+        "content": "Hospitalization rate was 17.2%. Only 6.9% of patients qualified for and received COVID-19-specific treatment during admission. By the end of analysis; all but 1 patient had eventually become vaccinated. COVID-19 reinfection rate: 1 patient (3.4%).",
+        "clinical_data": {
+          "diagnoses": [
+            {
+              "code": "UMLS:C4720989",
+              "label": "COVID-19",
+              "status": "active"
+            }
+          ],
+          "procedures": [
+            {
+              "name": "UMLS:C0007424",
+              "outcome": "UMLS:C0042046"
+            }
+          ],
+          "social_history": [
+            {
+              "category": "vaccination",
+              "status": "current",
+              "description": "COVID-19 vaccination"
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "edges": [
+    {
+      "from": "N1",
+      "to": "N2",
+      "data": {
+        "edge_id": "A_to_B",
+        "branch_flag": true,
+        "content": "Transition from initial cohort characteristics to primary cancer types, COVID-19 diagnosis timing, and concurrent treatments."
+      }
+    },
+    {
+      "from": "N2",
+      "to": "N3",
+      "data": {
+        "edge_id": "B_to_C",
+        "branch_flag": true,
+        "content": "Transition from cancer and COVID-19 diagnosis to vaccination status and presumed COVID-19 variant."
+      }
+    },
+    {
+      "from": "N3",
+      "to": "N4",
+      "data": {
+        "edge_id": "C_to_D",
+        "branch_flag": true,
+        "content": "Transition from vaccination status and COVID-19 variant to COVID-19 symptoms, impact on cancer care, and treatment details."
+      }
+    },
+    {
+      "from": "N4",
+      "to": "N5",
+      "data": {
+        "edge_id": "D_to_E",
+        "branch_flag": true,
+        "content": "Transition from COVID-19 symptoms and treatment to outcomes in admitted patients and changes in KPS."
+      }
+    },
+    {
+      "from": "N5",
+      "to": "N6",
+      "data": {
+        "edge_id": "E_to_F",
+        "branch_flag": true,
+        "content": "Transition from KPS status to mortality unrelated to COVID-19."
+      }
+    },
+    {
+      "from": "N6",
+      "to": "N7",
+      "data": {
+        "edge_id": "F_to_G",
+        "branch_flag": true,
+        "content": "Transition from mortality data to hospitalization rate, COVID-19-specific treatment, vaccination status at the end of analysis, and reinfection rate."
+      }
+    }
+  ]
+}

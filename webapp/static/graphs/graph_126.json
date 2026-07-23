@@ -1,0 +1,402 @@
+{
+  "nodes": [
+    {
+      "id": "N1",
+      "label": "Step 1",
+      "customData": {
+        "node_id": "A",
+        "node_step_index": 0,
+        "content": "73-year-old Japanese man presented with cough and dyspnea.",
+        "clinical_data": {
+          "HPI": [
+            {
+              "summary": "73-year-old Japanese man presented with cough and dyspnea.",
+              "associated_symptoms": [
+                "C0010200",
+                "C0013404"
+              ]
+            }
+          ]
+        }
+      }
+    },
+    {
+      "id": "N2",
+      "label": "Step 2",
+      "customData": {
+        "node_id": "B",
+        "node_step_index": 1,
+        "content": "CT showed a tumor in the left lower lobe, with lymph node enlargement at the left hilum and metastasis to the sacrum and left adrenal gland.",
+        "clinical_data": {
+          "imaging": [
+            {
+              "type": "tumor",
+              "body_part": "left lower lobe",
+              "modality": "CT",
+              "finding": "tumor in the left lower lobe, with lymph node enlargement at the left hilum and metastasis to the sacrum and left adrenal gland"
+            },
+            {
+              "type": "lymph node enlargement",
+              "body_part": "left hilum",
+              "modality": "CT",
+              "finding": "lymph node enlargement at the left hilum"
+            },
+            {
+              "type": "metastasis",
+              "body_part": "sacrum",
+              "modality": "CT",
+              "finding": "metastasis to the sacrum"
+            },
+            {
+              "type": "metastasis",
+              "body_part": "left adrenal gland",
+              "modality": "CT",
+              "finding": "metastasis to the left adrenal gland"
+            }
+          ]
+        }
+      }
+    },
+    {
+      "id": "N3",
+      "label": "Step 3",
+      "customData": {
+        "node_id": "C",
+        "node_step_index": 2,
+        "content": "Transbronchial lung biopsy with bronchoscopy performed.",
+        "clinical_data": {
+          "procedures": [
+            {
+              "name": "Transbronchial lung biopsy",
+              "approach": "endoscopic",
+              "location": "lung"
+            },
+            {
+              "name": "Bronchoscopy",
+              "approach": "endoscopic",
+              "location": "lung"
+            }
+          ]
+        }
+      }
+    },
+    {
+      "id": "N4",
+      "label": "Step 4",
+      "customData": {
+        "node_id": "D",
+        "node_step_index": 3,
+        "content": "Diagnosed with lung squamous cell carcinoma, cT4N2M1c stage IVB.",
+        "clinical_data": {
+          "diagnoses": [
+            {
+              "code": "C0006767",
+              "label": "Squamous cell carcinoma of lung",
+              "status": "active"
+            }
+          ]
+        }
+      }
+    },
+    {
+      "id": "N5",
+      "label": "Step 5",
+      "customData": {
+        "node_id": "E",
+        "node_step_index": 4,
+        "content": "Oncomine\u2122 Dx Target Test revealed no mutation of cancer-relevant genes. PD-L1 expression was 10%24% in the 22C3 assay.",
+        "clinical_data": {
+          "labs": [
+            {
+              "test": "Oncomine\u2122 Dx Target Test",
+              "value": "no mutation of cancer-relevant genes",
+              "flag": "normal"
+            },
+            {
+              "test": "PD-L1 expression",
+              "value": "10%-24%",
+              "unit": "%",
+              "test_method": "22C3 assay"
+            }
+          ]
+        }
+      }
+    },
+    {
+      "id": "N6",
+      "label": "Step 6",
+      "customData": {
+        "node_id": "F",
+        "node_step_index": 5,
+        "content": "Developed obstructive pneumonia and had an Eastern Cooperative Oncology Group Performance Status (ECOG-PS) score of 2.",
+        "clinical_data": {
+          "diagnoses": [
+            {
+              "code": "421861009",
+              "label": "Obstructive pneumonia",
+              "status": "active"
+            }
+          ],
+          "functional_status": [
+            {
+              "domain": "general",
+              "description": "Eastern Cooperative Oncology Group Performance Status (ECOG-PS) score of 2",
+              "score": "2",
+              "scale": "ECOG-PS"
+            }
+          ]
+        }
+      }
+    },
+    {
+      "id": "N7",
+      "label": "Step 7",
+      "customData": {
+        "node_id": "G",
+        "node_step_index": 6,
+        "content": "Antibacterial therapy for obstructive pneumonia administered. Carboplatin and nab-paclitaxel were administered as first-line therapy.",
+        "clinical_data": {
+          "medications": [
+            {
+              "drug": "Carboplatin",
+              "dosage": null,
+              "frequency": null,
+              "modality": null,
+              "start_date": null,
+              "end_date": null,
+              "indication": null
+            },
+            {
+              "drug": "nab-paclitaxel",
+              "dosage": null,
+              "frequency": null,
+              "modality": null,
+              "start_date": null,
+              "end_date": null,
+              "indication": null
+            }
+          ],
+          "diagnoses": [
+            {
+              "code": "41858000",
+              "label": "Obstructive pneumonia (disorder)",
+              "status": "active",
+              "onset_date": null
+            }
+          ],
+          "procedures": [
+            {
+              "name": "Antibacterial therapy",
+              "approach": null,
+              "date": null,
+              "location": null,
+              "performed_by": null,
+              "outcome": null
+            }
+          ]
+        }
+      }
+    },
+    {
+      "id": "N8",
+      "label": "Step 8",
+      "customData": {
+        "node_id": "H",
+        "node_step_index": 7,
+        "content": "Patient's ECOG-PS score improved, pembrolizumab was added in the second treatment course.",
+        "clinical_data": {
+          "medications": [
+            {
+              "drug": "C1661227",
+              "dosage": null,
+              "frequency": null,
+              "modality": null,
+              "start_date": null,
+              "end_date": null,
+              "indication": null
+            }
+          ],
+          "functional_status": [
+            {
+              "domain": "ADLs",
+              "description": "ECOG-PS score improved",
+              "score": null,
+              "scale": "ECOG"
+            }
+          ]
+        }
+      }
+    },
+    {
+      "id": "N9",
+      "label": "Step 9",
+      "customData": {
+        "node_id": "I",
+        "node_step_index": 8,
+        "content": "Five days after four cycles of treatment, the patient presented with fever and elevated C-reactive protein (CRP) levels. Suspicion of recurrent obstructive pneumonia; oral antibacterial therapy was initiated.",
+        "clinical_data": {
+          "labs": [
+            {
+              "test": "C2345474",
+              "value": "elevated",
+              "unit": null,
+              "flag": "abnormal",
+              "reference_range": null,
+              "timestamp": null
+            }
+          ],
+          "diagnoses": [
+            {
+              "code": "41064002",
+              "label": "Obstructive pneumonia",
+              "status": "suspected",
+              "onset_date": null
+            }
+          ],
+          "medications": [
+            {
+              "drug": "antibacterial agent",
+              "dosage": null,
+              "frequency": null,
+              "modality": "oral",
+              "start_date": null,
+              "end_date": null,
+              "indication": "41064002"
+            }
+          ],
+          "HPI": [
+            {
+              "summary": "Patient presented with fever",
+              "duration": null,
+              "onset": null,
+              "progression": null,
+              "associated_symptoms": [
+                "fever"
+              ],
+              "alleviating_factors": null,
+              "exacerbating_factors": null
+            }
+          ]
+        }
+      }
+    },
+    {
+      "id": "N10",
+      "label": "Step 10",
+      "customData": {
+        "node_id": "J",
+        "node_step_index": 9,
+        "clinical_data": {}
+      }
+    }
+  ],
+  "edges": [
+    {
+      "from": "N1",
+      "to": "N2",
+      "data": {
+        "edge_id": "A_to_B",
+        "branch_flag": true,
+        "content": "Patient's cough and dyspnea led to further investigation."
+      }
+    },
+    {
+      "from": "N2",
+      "to": "N3",
+      "data": {
+        "edge_id": "B_to_C",
+        "branch_flag": true,
+        "content": "Imaging findings prompted a biopsy for diagnosis."
+      }
+    },
+    {
+      "from": "N3",
+      "to": "N4",
+      "data": {
+        "edge_id": "C_to_D",
+        "branch_flag": true,
+        "content": "Biopsy results led to a diagnosis of lung squamous cell carcinoma.",
+        "transition_event": {
+          "trigger_type": "procedure",
+          "trigger_entities": [
+            "transbronchial lung biopsy",
+            "bronchoscopy"
+          ],
+          "change_type": "addition",
+          "target_domain": "diagnosis"
+        }
+      }
+    },
+    {
+      "from": "N4",
+      "to": "N5",
+      "data": {
+        "edge_id": "D_to_E",
+        "branch_flag": true,
+        "content": "Molecular testing was performed to guide treatment decisions."
+      }
+    },
+    {
+      "from": "N5",
+      "to": "N6",
+      "data": {
+        "edge_id": "E_to_F",
+        "branch_flag": true,
+        "content": "Patient developed obstructive pneumonia and decline in performance status."
+      }
+    },
+    {
+      "from": "N6",
+      "to": "N7",
+      "data": {
+        "edge_id": "F_to_G",
+        "branch_flag": true,
+        "content": "Treatment initiated for obstructive pneumonia and lung cancer.",
+        "transition_event": {
+          "trigger_type": "medication_change",
+          "trigger_entities": [
+            "Carboplatin",
+            "nab-paclitaxel"
+          ],
+          "change_type": "addition",
+          "target_domain": "medication"
+        }
+      }
+    },
+    {
+      "from": "N7",
+      "to": "N8",
+      "data": {
+        "edge_id": "G_to_H",
+        "branch_flag": true,
+        "content": "Patient's performance status improved, leading to the addition of pembrolizumab.",
+        "transition_event": {
+          "trigger_type": "medication_change",
+          "trigger_entities": [
+            "pembrolizumab"
+          ],
+          "change_type": "addition",
+          "target_domain": "medication"
+        }
+      }
+    },
+    {
+      "from": "N8",
+      "to": "N9",
+      "data": {
+        "edge_id": "H_to_I",
+        "branch_flag": true,
+        "content": "Patient developed fever and elevated CRP, raising suspicion for recurrent obstructive pneumonia."
+      }
+    },
+    {
+      "from": "N9",
+      "to": "N10",
+      "data": {
+        "edge_id": "I_to_J",
+        "branch_flag": true,
+        "content": "Further clinical course to be determined."
+      }
+    }
+  ]
+}

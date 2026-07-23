@@ -1,0 +1,260 @@
+{
+  "nodes": [
+    {
+      "id": "N1",
+      "label": "Step 1",
+      "customData": {
+        "node_id": "A",
+        "node_step_index": 0,
+        "content": "Abdominal ultrasound showed a fluid collection with septations adjacent to the spleen.",
+        "clinical_data": {
+          "imaging": [
+            {
+              "type": "Ultrasound of abdomen",
+              "body_part": "Abdomen",
+              "modality": "Ultrasound",
+              "finding": "Fluid collection with septations adjacent to the spleen",
+              "impression": "Fluid collection with septations adjacent to the spleen",
+              "date": null
+            }
+          ]
+        }
+      },
+      "custom_id": "graph_074_N0"
+    },
+    {
+      "id": "N2",
+      "label": "Step 2",
+      "customData": {
+        "node_id": "B",
+        "node_step_index": 1,
+        "content": "CT of the abdomen and pelvis showed a complex cystic lesion in the left upper quadrant, measuring 7.6 x 11.7 cm, reported as a lymphangioma. Patient had no associated symptoms.",
+        "clinical_data": {
+          "imaging": [
+            {
+              "type": "Cystic lesion",
+              "body_part": "Left upper quadrant",
+              "modality": "CT",
+              "finding": "Complex cystic lesion measuring 7.6 x 11.7 cm",
+              "impression": "lymphangioma"
+            }
+          ]
+        }
+      },
+      "custom_id": "graph_074_N1"
+    },
+    {
+      "id": "N3",
+      "label": "Step 3",
+      "customData": {
+        "node_id": "C",
+        "node_step_index": 2,
+        "content": "Physical exam unremarkable. No therapeutic intervention was initiated. Follow-up CT scan scheduled in six months. CT Abdomen/Pelvis With IV and Oral Contrast: Left-sided subdiaphragmatic cystic lesion measuring 7.6 cm in transverse dimension noted below the diaphragm between the liver and the spleen.",
+        "clinical_data": {
+          "imaging": [
+            {
+              "type": "CT Abdomen/Pelvis",
+              "body_part": "abdomen and pelvis",
+              "modality": "CT",
+              "finding": "Left-sided subdiaphragmatic cystic lesion measuring 7.6 cm in transverse dimension noted below the diaphragm between the liver and the spleen.",
+              "impression": "Left-sided subdiaphragmatic cystic lesion",
+              "date": null
+            }
+          ],
+          "procedures": [
+            {
+              "name": "CT scan",
+              "approach": null,
+              "date": null,
+              "location": "abdomen and pelvis",
+              "performed_by": null,
+              "outcome": null
+            }
+          ]
+        }
+      },
+      "custom_id": "graph_074_N2"
+    },
+    {
+      "id": "N4",
+      "label": "Step 4",
+      "customData": {
+        "node_id": "D",
+        "node_step_index": 3,
+        "content": "Patient reported feeling pressure and a pulling sensation on the left side of her abdomen, rated as 4/10 for pain. Repeat CT scan showed the cystic lesion had almost doubled in size, now measuring 11 x 22 cm, with extension into the hepatorenal space.",
+        "clinical_data": {
+          "HPI": [
+            {
+              "summary": "Patient reported feeling pressure and a pulling sensation on the left side of her abdomen, rated as 4/10 for pain.",
+              "associated_symptoms": [
+                "pain"
+              ]
+            }
+          ],
+          "imaging": [
+            {
+              "type": "Cystic lesion",
+              "body_part": "abdomen",
+              "modality": "CT",
+              "finding": "Cystic lesion had almost doubled in size, now measuring 11 x 22 cm, with extension into the hepatorenal space."
+            }
+          ]
+        }
+      },
+      "custom_id": "graph_074_N3"
+    },
+    {
+      "id": "N5",
+      "label": "Step 5",
+      "customData": {
+        "node_id": "E",
+        "node_step_index": 4,
+        "content": "Ultrasound-guided aspiration revealed 33 mL of clear yellow fluid, which was sent to pathology and revealed no evidence of malignant cells.",
+        "clinical_data": {
+          "procedures": [
+            {
+              "name": "Aspiration",
+              "approach": "percutaneous",
+              "location": "unknown",
+              "outcome": "no evidence of malignant cells",
+              "performed_by": "unknown"
+            }
+          ],
+          "imaging": [
+            {
+              "modality": "Ultrasound",
+              "finding": "33 mL of clear yellow fluid",
+              "impression": "unknown"
+            }
+          ]
+        }
+      },
+      "custom_id": "graph_074_N4"
+    },
+    {
+      "id": "N6",
+      "label": "Step 6",
+      "customData": {
+        "node_id": "F",
+        "node_step_index": 5,
+        "content": "MRI demonstrated a large T2 hyperintense cystic mass extending from the spleen on the left to the left hemipelvis, along with enhancing septations.",
+        "clinical_data": {
+          "imaging": [
+            {
+              "type": "Mass",
+              "body_part": "Spleen",
+              "modality": "MRI",
+              "finding": "Large T2 hyperintense cystic mass extending from the spleen on the left to the left hemipelvis, along with enhancing septations."
+            }
+          ]
+        }
+      },
+      "custom_id": "graph_074_N5"
+    },
+    {
+      "id": "N7",
+      "label": "Step 7",
+      "customData": {
+        "node_id": "G",
+        "node_step_index": 6,
+        "content": "Patient received doxycycline sclerotherapy over eight months. Post-sclerotherapy ultrasound showed a",
+        "clinical_data": {
+          "medications": [
+            {
+              "drug": "D004313",
+              "dosage": null,
+              "frequency": null,
+              "modality": null,
+              "start_date": null,
+              "end_date": null,
+              "indication": null
+            }
+          ],
+          "procedures": [
+            {
+              "name": "C0036431",
+              "approach": null,
+              "date": null,
+              "location": null,
+              "performed_by": null,
+              "outcome": null
+            }
+          ],
+          "imaging": [
+            {
+              "type": "C0041847",
+              "body_part": null,
+              "modality": "Ultrasound",
+              "finding": null,
+              "impression": null,
+              "date": null
+            }
+          ]
+        }
+      },
+      "custom_id": "graph_074_N6"
+    }
+  ],
+  "edges": [
+    {
+      "from": "N1",
+      "to": "N2",
+      "data": {
+        "edge_id": "A_to_B",
+        "branch_flag": true,
+        "content": "Progression from fluid collection adjacent to the spleen to a complex cystic lesion (7.6 x 11.7 cm) reported as a lymphangioma on CT scan. No associated symptoms reported."
+      },
+      "custom_id": "graph_074_N1_N2"
+    },
+    {
+      "from": "N2",
+      "to": "N3",
+      "data": {
+        "edge_id": "B_to_C",
+        "branch_flag": true,
+        "content": "No therapeutic intervention initiated. Follow-up CT scan scheduled in six months. Cystic lesion remains stable at 7.6 cm."
+      },
+      "custom_id": "graph_074_N2_N3"
+    },
+    {
+      "from": "N3",
+      "to": "N4",
+      "data": {
+        "edge_id": "C_to_D",
+        "branch_flag": true,
+        "content": "Cystic lesion increased in size. Patient reported feeling pressure and a pulling sensation on the left side of her abdomen, rated as 4/10 for pain. Cystic lesion almost doubled in size, now measuring 11 x 22 cm, with extension into the hepatorenal space."
+      },
+      "custom_id": "graph_074_N3_N4"
+    },
+    {
+      "from": "N4",
+      "to": "N5",
+      "data": {
+        "edge_id": "D_to_E",
+        "branch_flag": true,
+        "content": "Ultrasound-guided aspiration performed, revealing 33 mL of clear yellow fluid. Pathology showed no evidence of malignant cells."
+      },
+      "custom_id": "graph_074_N4_N5"
+    },
+    {
+      "from": "N5",
+      "to": "N6",
+      "data": {
+        "edge_id": "E_to_F",
+        "branch_flag": true,
+        "content": "MRI demonstrated a large T2 hyperintense cystic mass extending from the spleen on the left to the left hemipelvis, along with enhancing septations."
+      },
+      "custom_id": "graph_074_N5_N6"
+    },
+    {
+      "from": "N6",
+      "to": "N7",
+      "data": {
+        "edge_id": "F_to_G",
+        "branch_flag": true,
+        "content": "Patient received doxycycline sclerotherapy over eight months. Post-sclerotherapy ultrasound performed."
+      },
+      "custom_id": "graph_074_N6_N7"
+    }
+  ]
+}

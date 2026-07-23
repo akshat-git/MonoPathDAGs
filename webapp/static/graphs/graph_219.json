@@ -1,0 +1,410 @@
+{
+  "nodes": [
+    {
+      "id": "N1",
+      "label": "Step 1",
+      "customData": {
+        "node_id": "A",
+        "node_step_index": 0,
+        "content": "66-year-old female, never smoker, admitted in October 2022 with shortness of breath, productive cough without fever and chill. ECOG performance status of 1. Physical examination revealed saturation of 88 % on ambient air and dullness in the lower lung fields on left chest percussion. Contrast enhanced chest CT revealed a 35 x 30 mm mass in the left upper lung with enlarged mediastinal and hilar lymph nodes. Massive pleural fluid on the left side. Thoracocentesis performed, and cytology revealed malignant cells, indicating tumor progression involving pleura. PET-CT showed increased 18F-FDG uptake of the left upper lung mass with a SUVmax of 15.49. PET-CT scan indicated intensive 18F-FDG hypermetabolism in the left pleura nodules (SUVmax = 12.03) and left mediastinal and hilar lymph nodes (SUVmax = 9.66). Lung mass biopsy confirmed poorly differentiated adenocarcinoma with positive staining for CK7 (3+), TTF-1 (3+) and Ki67 (70 %). Tumor cells were negative for programmed death ligand-1 (PD-L1). NGS showed the presence of KIF5B-RET rearrangement in both lung biopsy tissue and pleural effusion samples. Concurrent genetic aberrance was a missense mutation in TP53. The NGS testing also revealed a tumor mutation burden (TMB) of 1.25 Muts/Mb. Patient was diagnosed stage IV (T2aN2M1a) lung adenocarcinoma with a RET rearrangement. The patient started on Pralsetinib treatment with the recommended dosage of 400 mg once daily.",
+        "timestamp": "2022-10",
+        "clinical_data": {
+          "social_history": [
+            {
+              "category": "smoking",
+              "status": "never"
+            }
+          ],
+          "HPI": [
+            {
+              "summary": "shortness of breath and productive cough without fever and chill",
+              "onset": "October 2022"
+            }
+          ],
+          "vitals": [
+            {
+              "type": "Oxygen saturation",
+              "value": "88",
+              "unit": "%",
+              "timestamp": "October 2022"
+            }
+          ],
+          "physical_exam": [
+            {
+              "finding": "dullness in the lower lung fields on left chest percussion"
+            }
+          ],
+          "imaging": [
+            {
+              "type": "Lung mass",
+              "body_part": "Left upper lung",
+              "modality": "CT",
+              "finding": "35 x 30 mm mass",
+              "date": "October 2022"
+            },
+            {
+              "type": "Mediastinal and hilar lymph nodes",
+              "body_part": "Mediastinum and hilum",
+              "modality": "CT",
+              "finding": "enlarged",
+              "date": "October 2022"
+            },
+            {
+              "type": "Pleural fluid",
+              "body_part": "Left side",
+              "modality": "CT",
+              "finding": "massive",
+              "date": "October 2022"
+            },
+            {
+              "type": "Lung mass",
+              "body_part": "Left upper lung",
+              "modality": "PET",
+              "finding": "increased 18F-FDG uptake with a SUVmax of 15.49",
+              "date": "October 2022"
+            },
+            {
+              "type": "Pleura nodules",
+              "body_part": "Left pleura",
+              "modality": "PET",
+              "finding": "intensive 18F-FDG hypermetabolism (SUVmax = 12.03)",
+              "date": "October 2022"
+            },
+            {
+              "type": "Mediastinal and hilar lymph nodes",
+              "body_part": "Left mediastinal and hilar",
+              "modality": "PET",
+              "finding": "intensive 18F-FDG hypermetabolism (SUVmax = 9.66)",
+              "date": "October 2022"
+            }
+          ],
+          "procedures": [
+            {
+              "name": "Thoracocentesis",
+              "date": "October 2022",
+              "outcome": "malignant cells, indicating tumor progression involving pleura"
+            },
+            {
+              "name": "Lung mass biopsy",
+              "date": "October 2022"
+            }
+          ],
+          "labs": [
+            {
+              "test": "CK7",
+              "value": "3+",
+              "flag": "positive",
+              "timestamp": "October 2022"
+            },
+            {
+              "test": "TTF-1",
+              "value": "3+",
+              "flag": "positive",
+              "timestamp": "October 2022"
+            },
+            {
+              "test": "Ki67",
+              "value": "70",
+              "unit": "%",
+              "timestamp": "October 2022"
+            },
+            {
+              "test": "PD-L1",
+              "flag": "negative",
+              "timestamp": "October 2022"
+            },
+            {
+              "test": "Tumor mutation burden",
+              "value": "1.25",
+              "unit": "Muts/Mb",
+              "timestamp": "October 2022"
+            }
+          ],
+          "diagnoses": [
+            {
+              "code": "Lung adenocarcinoma",
+              "label": "Lung adenocarcinoma",
+              "status": "active",
+              "onset_date": "October 2022"
+            }
+          ],
+          "medications": []
+        }
+      }
+    },
+    {
+      "id": "N2",
+      "label": "Step 2",
+      "customData": {
+        "node_id": "B",
+        "node_step_index": 1,
+        "content": "After 2 months of Pralsetinib treatment, the patient experienced decreased exercise tolerance and grade 2 leukopenia. Chest CT imaging revealed a reduction in tumor volume to 17 x 12 mm and her pleural effusion disappeared. Metastatic pleural nodules were comparable to the initial findings, achieving a partial response (PR) according to RECIST 1.1 criteria.",
+        "timestamp": null,
+        "clinical_data": {
+          "medications": [
+            {
+              "drug": "Pralsetinib",
+              "start_date": null,
+              "end_date": null
+            }
+          ],
+          "labs": [
+            {
+              "test": "Leukopenia",
+              "flag": "abnormal",
+              "timestamp": null
+            }
+          ],
+          "imaging": [
+            {
+              "type": "CT of chest",
+              "body_part": "Chest",
+              "modality": "CT",
+              "finding": "reduction in tumor volume to 17 x 12 mm",
+              "date": null
+            },
+            {
+              "type": "CT of chest",
+              "body_part": "Chest",
+              "modality": "CT",
+              "finding": "pleural effusion disappeared",
+              "date": null
+            },
+            {
+              "type": "CT of chest",
+              "body_part": "Chest",
+              "modality": "CT",
+              "finding": "metastatic pleural nodules were comparable to the initial findings",
+              "date": null
+            }
+          ],
+          "diagnoses": [
+            {
+              "code": "Partial Response",
+              "label": "Partial Response",
+              "status": "active",
+              "onset_date": null
+            }
+          ],
+          "HPI": [
+            {
+              "summary": "decreased exercise tolerance",
+              "duration": "2 months",
+              "onset": null,
+              "progression": "unknown",
+              "associated_symptoms": [],
+              "alleviating_factors": [],
+              "exacerbating_factors": []
+            }
+          ]
+        }
+      }
+    },
+    {
+      "id": "N3",
+      "label": "Step 3",
+      "customData": {
+        "node_id": "C",
+        "node_step_index": 2,
+        "content": "Pralsetinib dosage gradually reduced to 200 mg once daily due to treatment-related adverse events since December 2022. After 7 months of targeted therapy, metastatic nodules in the pleura were not visible in chest CT.",
+        "timestamp": "2022-12",
+        "clinical_data": {
+          "medications": [
+            {
+              "drug": "C5203878",
+              "dosage": "200 mg",
+              "frequency": "once daily",
+              "modality": "oral",
+              "start_date": "2022-12",
+              "end_date": null,
+              "indication": "metastatic nodules in the pleura"
+            }
+          ],
+          "imaging": [
+            {
+              "type": "C4026744",
+              "body_part": "C1271134",
+              "modality": "CT",
+              "finding": "metastatic nodules in the pleura were not visible",
+              "impression": "no metastatic nodules in the pleura",
+              "date": null
+            }
+          ]
+        }
+      }
+    },
+    {
+      "id": "N4",
+      "label": "Step 4",
+      "customData": {
+        "node_id": "D",
+        "node_step_index": 3,
+        "content": "August 2023 PET-CT examination showed a significant reduction in SUVmax value of the primary tumor (SUVmax = 1.37). 18F-FDG uptake was not detected in the left pleura and N2 lymph nodes.",
+        "timestamp": "2023-08",
+        "clinical_data": {
+          "imaging": [
+            {
+              "type": "Positron emission tomography/computed tomography",
+              "body_part": "primary tumor",
+              "modality": "PET",
+              "finding": "significant reduction in SUVmax value",
+              "impression": "SUVmax = 1.37",
+              "date": "2023-08"
+            },
+            {
+              "type": "Positron emission tomography/computed tomography",
+              "body_part": "left pleura",
+              "modality": "PET",
+              "finding": "18F-FDG uptake was not detected",
+              "impression": "no uptake",
+              "date": "2023-08"
+            },
+            {
+              "type": "Positron emission tomography/computed tomography",
+              "body_part": "N2 lymph nodes",
+              "modality": "PET",
+              "finding": "18F-FDG uptake was not detected",
+              "impression": "no uptake",
+              "date": "2023-08"
+            }
+          ]
+        }
+      }
+    },
+    {
+      "id": "N5",
+      "label": "Step 5",
+      "customData": {
+        "node_id": "E",
+        "node_step_index": 4,
+        "content": "September 2023, the patient underwent surgical resection of the left upper apical and posterior (LS1+2) segments, together with dissection of pleural nodules and lymph nodes. Severe adhesions were observed intraoperatively.",
+        "timestamp": "2023-09",
+        "clinical_data": {
+          "procedures": [
+            {
+              "name": "Surgical resection",
+              "approach": "open",
+              "date": "2023-09",
+              "location": "left upper apical and posterior (LS1+2) segments",
+              "outcome": "dissection of pleural nodules and lymph nodes"
+            }
+          ]
+        }
+      }
+    },
+    {
+      "id": "N6",
+      "label": "Step 6",
+      "customData": {
+        "node_id": "F",
+        "node_step_index": 5,
+        "content": "Downstaging of locally metastatic disease achieved after 10 months of Pralsetinib treatment. Follow-up PET-CT after 10 months of Pralsetinib treatment showed a slight increase in 18F-FDG uptake of the primary tumor (SUVmax = 1.37). Follow up imaging showed no 18F-FDG metabolic activity in the pleura and lymph node. Chest CT examination showed metastatic pleural disease. Patient underwent surgical resection and histological analysis showed a pathologic complete response (pCR) of the tumor.",
+        "timestamp": "2025",
+        "clinical_data": {
+          "medications": [
+            {
+              "drug": "Pralsetinib",
+              "dosage": null,
+              "frequency": null,
+              "modality": null,
+              "start_date": null,
+              "end_date": null,
+              "indication": "metastatic disease"
+            }
+          ],
+          "imaging": [
+            {
+              "type": "PET-CT",
+              "body_part": "primary tumor",
+              "modality": "PET",
+              "finding": "slight increase in 18F-FDG uptake (SUVmax = 1.37)",
+              "impression": null,
+              "date": null
+            },
+            {
+              "type": "PET-CT",
+              "body_part": "pleura and lymph node",
+              "modality": "PET",
+              "finding": "no 18F-FDG metabolic activity",
+              "impression": null,
+              "date": null
+            },
+            {
+              "type": "Chest CT",
+              "body_part": "pleura",
+              "modality": "CT",
+              "finding": "metastatic pleural disease",
+              "impression": null,
+              "date": null
+            }
+          ],
+          "procedures": [
+            {
+              "name": "surgical resection",
+              "approach": null,
+              "date": null,
+              "location": null,
+              "performed_by": null,
+              "outcome": "pathologic complete response"
+            }
+          ],
+          "diagnoses": [
+            {
+              "code": null,
+              "label": "metastatic disease",
+              "status": "resolved",
+              "onset_date": null
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "edges": [
+    {
+      "from": "N1",
+      "to": "N2",
+      "data": {
+        "edge_id": "A_to_B",
+        "branch_flag": true,
+        "content": "Initiation of Pralsetinib treatment at 400 mg once daily for stage IV lung adenocarcinoma with RET rearrangement."
+      }
+    },
+    {
+      "from": "N2",
+      "to": "N3",
+      "data": {
+        "edge_id": "B_to_C",
+        "branch_flag": true,
+        "content": "Pralsetinib dosage gradually reduced to 200 mg once daily due to treatment-related adverse events (leukopenia)."
+      }
+    },
+    {
+      "from": "N3",
+      "to": "N4",
+      "data": {
+        "edge_id": "C_to_D",
+        "branch_flag": true,
+        "content": "Continued Pralsetinib treatment at reduced dosage of 200mg daily."
+      }
+    },
+    {
+      "from": "N4",
+      "to": "N5",
+      "data": {
+        "edge_id": "D_to_E",
+        "branch_flag": true,
+        "content": "Continued Pralsetinib treatment with significant reduction in SUVmax value of the primary tumor and no 18F-FDG uptake in the left pleura and N2 lymph nodes."
+      }
+    },
+    {
+      "from": "N5",
+      "to": "N6",
+      "data": {
+        "edge_id": "E_to_F",
+        "branch_flag": true,
+        "content": "Post-surgical resection and continued Pralsetinib treatment."
+      }
+    }
+  ]
+}

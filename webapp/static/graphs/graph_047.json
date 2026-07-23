@@ -1,0 +1,408 @@
+{
+  "nodes": [
+    {
+      "id": "N1",
+      "label": "Step 1",
+      "customData": {
+        "node_id": "A",
+        "node_step_index": 0,
+        "content": "70-year-old patient with a history of asbestos exposure and former smoking (20 pack-years).",
+        "clinical_data": {
+          "social_history": [
+            {
+              "category": "smoking",
+              "status": "past",
+              "description": "20 pack-years"
+            }
+          ],
+          "diagnoses": [
+            {
+              "code": "C0003950",
+              "label": "asbestos exposure",
+              "status": "historical"
+            }
+          ]
+        }
+      },
+      "custom_id": "graph_047_N0"
+    },
+    {
+      "id": "N2",
+      "label": "Step 2",
+      "customData": {
+        "node_id": "B",
+        "node_step_index": 1,
+        "content": "Diagnosed in 2023 with large-cell squamous carcinoma of the left upper lobe with mediastinal lymph node metastases (cT4 cN3 cM0, stage IIIC).",
+        "clinical_data": {
+          "diagnoses": [
+            {
+              "code": "C1511599",
+              "label": "Squamous cell carcinoma",
+              "status": "active",
+              "onset_date": "2023"
+            },
+            {
+              "code": "C0024296",
+              "label": "Lung cancer",
+              "status": "active",
+              "onset_date": "2023"
+            },
+            {
+              "code": "C0238423",
+              "label": "Metastasis to mediastinal lymph nodes",
+              "status": "active",
+              "onset_date": "2023"
+            }
+          ]
+        }
+      },
+      "custom_id": "graph_047_N1"
+    },
+    {
+      "id": "N3",
+      "label": "Step 3",
+      "customData": {
+        "node_id": "C",
+        "node_step_index": 2,
+        "content": "Treated with curative intent with four cycles of vinorelbine/carboplatin, one cycle of durvalumab, and radiotherapy (total dose: 60 Gy).",
+        "clinical_data": {
+          "medications": [
+            {
+              "drug": "C0042937",
+              "dosage": null,
+              "frequency": null,
+              "modality": null,
+              "start_date": null,
+              "end_date": null,
+              "indication": null
+            },
+            {
+              "drug": "C0007279",
+              "dosage": null,
+              "frequency": null,
+              "modality": null,
+              "start_date": null,
+              "end_date": null,
+              "indication": null
+            },
+            {
+              "drug": "C4049447",
+              "dosage": null,
+              "frequency": null,
+              "modality": null,
+              "start_date": null,
+              "end_date": null,
+              "indication": null
+            }
+          ],
+          "procedures": [
+            {
+              "name": "C0034597",
+              "approach": null,
+              "date": null,
+              "location": null,
+              "performed_by": null,
+              "outcome": null
+            }
+          ]
+        }
+      },
+      "custom_id": "graph_047_N2"
+    },
+    {
+      "id": "N4",
+      "label": "Step 4",
+      "customData": {
+        "node_id": "D",
+        "node_step_index": 3,
+        "content": "Admission focused on monitoring bilateral radiation pneumonitis progression.",
+        "clinical_data": {
+          "diagnoses": [
+            {
+              "code": "C0341845",
+              "label": "Radiation pneumonitis",
+              "status": "active"
+            }
+          ]
+        }
+      },
+      "custom_id": "graph_047_N3"
+    },
+    {
+      "id": "N5",
+      "label": "Step 5",
+      "customData": {
+        "node_id": "E",
+        "node_step_index": 4,
+        "content": "CT scan shows regression of left central tumor, mediastinal, and right hilar lymph nodes, along with a trend toward resolution of bipulmonary pneumonitis.",
+        "clinical_data": {
+          "imaging": [
+            {
+              "type": "CT scan",
+              "body_part": "left central tumor",
+              "modality": "CT",
+              "finding": "regression",
+              "date": null
+            },
+            {
+              "type": "CT scan",
+              "body_part": "mediastinal lymph nodes",
+              "modality": "CT",
+              "finding": "regression",
+              "date": null
+            },
+            {
+              "type": "CT scan",
+              "body_part": "right hilar lymph nodes",
+              "modality": "CT",
+              "finding": "regression",
+              "date": null
+            },
+            {
+              "type": "CT scan",
+              "body_part": "lungs",
+              "modality": "CT",
+              "finding": "trend toward resolution of bipulmonary pneumonitis",
+              "date": null
+            }
+          ]
+        }
+      },
+      "custom_id": "graph_047_N4"
+    },
+    {
+      "id": "N6",
+      "label": "Step 6",
+      "customData": {
+        "node_id": "F",
+        "node_step_index": 5,
+        "content": "Bronchoscopy reveals marked tumor regression in the left upper lobe, with histology showing bronchial wall reserve cell hyperplasia and mucosal changes, but no recurrence of the previously diagnosed poorly differentiated squamous cell carcinoma or evidence of malignancy.",
+        "clinical_data": {
+          "imaging": [
+            {
+              "type": "Bronchoscopy",
+              "body_part": "Left upper lobe",
+              "modality": "other",
+              "finding": "marked tumor regression",
+              "impression": "no recurrence of the previously diagnosed poorly differentiated squamous cell carcinoma or evidence of malignancy",
+              "date": null
+            }
+          ],
+          "diagnoses": [
+            {
+              "code": "C0007102",
+              "label": "Squamous Cell Carcinoma",
+              "status": "historical",
+              "onset_date": null
+            }
+          ],
+          "procedures": [
+            {
+              "name": "Bronchoscopy",
+              "approach": "endoscopic",
+              "date": null,
+              "location": "Left upper lobe",
+              "performed_by": null,
+              "outcome": "Tumor regression"
+            }
+          ]
+        }
+      },
+      "custom_id": "graph_047_N5"
+    },
+    {
+      "id": "N7",
+      "label": "Step 7",
+      "customData": {
+        "node_id": "G",
+        "node_step_index": 6,
+        "content": "CT scan reveals a new lesion suspicious for malignancy in liver segments V and VI. MRI confirms a well-defined mass in the right hepatic lobe, consistent with metastasis from the known squamous cell carcinoma of the lung.",
+        "clinical_data": {
+          "imaging": [
+            {
+              "type": "Lesion",
+              "body_part": "Liver",
+              "modality": "CT",
+              "finding": "New lesion suspicious for malignancy in liver segments V and VI"
+            },
+            {
+              "type": "Mass",
+              "body_part": "Right hepatic lobe",
+              "modality": "MRI",
+              "finding": "Well-defined mass in the right hepatic lobe, consistent with metastasis from the known squamous cell carcinoma of the lung",
+              "impression": "Metastasis from the known squamous cell carcinoma of the lung"
+            }
+          ],
+          "diagnoses": [
+            {
+              "code": "C0007125",
+              "label": "Squamous cell carcinoma of lung",
+              "status": "active"
+            },
+            {
+              "code": "C0027651",
+              "label": "Metastasis",
+              "status": "active",
+              "onset_date": null
+            }
+          ]
+        }
+      },
+      "custom_id": "graph_047_N6"
+    },
+    {
+      "id": "N8",
+      "label": "Step 8",
+      "customData": {
+        "node_id": "H",
+        "node_step_index": 7,
+        "content": "Pulmonary tumor board recommended surgical resection of solitary centrally located hepatic metastasis",
+        "clinical_data": {
+          "procedures": [
+            {
+              "name": "Surgical resection",
+              "approach": null,
+              "date": null,
+              "location": "liver",
+              "performed_by": null,
+              "outcome": null
+            }
+          ],
+          "diagnoses": [
+            {
+              "code": null,
+              "label": "hepatic metastasis",
+              "status": "active",
+              "onset_date": null
+            }
+          ],
+          "imaging": [
+            {
+              "type": null,
+              "body_part": "lung",
+              "modality": null,
+              "finding": "tumor",
+              "impression": null,
+              "date": null
+            }
+          ]
+        }
+      },
+      "custom_id": "graph_047_N7"
+    }
+  ],
+  "edges": [
+    {
+      "from": "N1",
+      "to": "N2",
+      "data": {
+        "edge_id": "A_to_B",
+        "branch_flag": true,
+        "content": "Patient diagnosed with large-cell squamous carcinoma of the left upper lobe with mediastinal lymph node metastases (cT4 cN3 cM0, stage IIIC)."
+      },
+      "custom_id": "graph_047_N1_N2"
+    },
+    {
+      "from": "N2",
+      "to": "N3",
+      "data": {
+        "edge_id": "B_to_C",
+        "branch_flag": true,
+        "content": "Patient treated with curative intent with four cycles of vinorelbine/carboplatin, one cycle of durvalumab, and radiotherapy (total dose: 60 Gy).",
+        "transition_event": {
+          "trigger_type": "medication_change",
+          "trigger_entities": [
+            "C0042937",
+            "C0007279",
+            "C4049447"
+          ],
+          "change_type": "addition",
+          "target_domain": "medication"
+        }
+      },
+      "custom_id": "graph_047_N2_N3"
+    },
+    {
+      "from": "N3",
+      "to": "N4",
+      "data": {
+        "edge_id": "C_to_D",
+        "branch_flag": true,
+        "content": "Admission focused on monitoring bilateral radiation pneumonitis progression.",
+        "transition_event": {
+          "trigger_type": "symptom_onset",
+          "trigger_entities": [
+            "C0341845"
+          ],
+          "change_type": "progression",
+          "target_domain": "symptom"
+        }
+      },
+      "custom_id": "graph_047_N3_N4"
+    },
+    {
+      "from": "N4",
+      "to": "N5",
+      "data": {
+        "edge_id": "D_to_E",
+        "branch_flag": true,
+        "content": "CT scan shows regression of left central tumor, mediastinal, and right hilar lymph nodes, along with a trend toward resolution of bipulmonary pneumonitis.",
+        "transition_event": {
+          "trigger_type": "imaging",
+          "trigger_entities": [],
+          "change_type": "resolution",
+          "target_domain": "imaging"
+        }
+      },
+      "custom_id": "graph_047_N4_N5"
+    },
+    {
+      "from": "N5",
+      "to": "N6",
+      "data": {
+        "edge_id": "E_to_F",
+        "branch_flag": true,
+        "content": "Bronchoscopy reveals marked tumor regression in the left upper lobe, with histology showing bronchial wall reserve cell hyperplasia and mucosal changes, but no recurrence of the previously diagnosed poorly differentiated squamous cell carcinoma or evidence of malignancy.",
+        "transition_event": {
+          "trigger_type": "procedure",
+          "trigger_entities": [],
+          "change_type": "resolution",
+          "target_domain": "diagnosis"
+        }
+      },
+      "custom_id": "graph_047_N5_N6"
+    },
+    {
+      "from": "N6",
+      "to": "N7",
+      "data": {
+        "edge_id": "F_to_G",
+        "branch_flag": true,
+        "content": "CT scan reveals a new lesion suspicious for malignancy in liver segments V and VI. MRI confirms a well-defined mass in the right hepatic lobe, consistent with metastasis from the known squamous cell carcinoma of the lung.",
+        "transition_event": {
+          "trigger_type": "imaging",
+          "trigger_entities": [],
+          "change_type": "progression",
+          "target_domain": "diagnosis"
+        }
+      },
+      "custom_id": "graph_047_N6_N7"
+    },
+    {
+      "from": "N7",
+      "to": "N8",
+      "data": {
+        "edge_id": "G_to_H",
+        "branch_flag": true,
+        "content": "Pulmonary tumor board recommended surgical resection of solitary centrally located hepatic metastasis",
+        "transition_event": {
+          "trigger_type": "interpretation",
+          "trigger_entities": [],
+          "change_type": "addition",
+          "target_domain": "procedure"
+        }
+      },
+      "custom_id": "graph_047_N7_N8"
+    }
+  ]
+}

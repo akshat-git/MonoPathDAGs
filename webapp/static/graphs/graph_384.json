@@ -1,0 +1,436 @@
+{
+  "nodes": [
+    {
+      "id": "N1",
+      "label": "Step 1",
+      "customData": {
+        "node_id": "A",
+        "node_step_index": 0,
+        "content": "74-year-old male with a nodule in the left upper lobe referred for CT-guided percutaneous needle biopsy (PTNB).",
+        "clinical_data": {
+          "procedures": [
+            {
+              "name": "Percutaneous needle biopsy",
+              "approach": "percutaneous",
+              "location": "left upper lobe",
+              "date": null
+            }
+          ],
+          "diagnoses": [
+            {
+              "code": null,
+              "label": "nodule in the left upper lobe",
+              "status": "active",
+              "onset_date": null
+            }
+          ],
+          "imaging": [
+            {
+              "type": null,
+              "body_part": "left upper lobe",
+              "modality": "CT",
+              "finding": "nodule",
+              "impression": null,
+              "date": null
+            }
+          ]
+        }
+      }
+    },
+    {
+      "id": "N2",
+      "label": "Step 2",
+      "customData": {
+        "node_id": "B",
+        "node_step_index": 1,
+        "content": "CT-guided PTNB performed using a coaxial biopsy system with a 19-gauge introducer needle and a 20-gauge core biopsy needle (length, 16 cm; Bard Maxcore, Bard Peripheral Vascular Inc., Tempe, AZ, USA). CT scan parameters: Aquilion PRIME; Canon Medical Systems, Otawara, Japan; 2-mm slice thickness and no interval.",
+        "clinical_data": {
+          "procedures": [
+            {
+              "name": "Biopsy (procedure)",
+              "approach": "percutaneous",
+              "date": null,
+              "location": null,
+              "performed_by": null,
+              "outcome": null
+            },
+            {
+              "name": "Computed tomography",
+              "approach": null,
+              "date": null,
+              "location": null,
+              "performed_by": null,
+              "outcome": null
+            }
+          ],
+          "imaging": [
+            {
+              "type": "Computed tomography",
+              "body_part": null,
+              "modality": "CT",
+              "finding": null,
+              "impression": null,
+              "date": null
+            }
+          ]
+        }
+      }
+    },
+    {
+      "id": "N3",
+      "label": "Step 3",
+      "customData": {
+        "node_id": "C",
+        "node_step_index": 2,
+        "content": "Patient placed in supine oblique position. CT scan of thorax showed a 22 mm lobulated nodule in the left upper lobe apicoposterior segment. Biopsy performed following local anesthesia with 2% lidocaine. A 19-gauge introducer needle was inserted, advanced along the planned trajectory. CT scan acquired to confirm needle tip location. Inner stylet removed, replaced by biopsy needle, advanced into lesion. Sample acquired, biopsy needle removed, replaced by stylet. Samples fixed in 10% neutral buffered formalin. Introducer needle removed rapidly. Needle tip located outside the tumor; specimen acquisition performed once.",
+        "clinical_data": {
+          "imaging": [
+            {
+              "type": "CT scan of thorax",
+              "body_part": "Thorax",
+              "modality": "CT",
+              "finding": "22 mm lobulated nodule in the left upper lobe apicoposterior segment"
+            }
+          ],
+          "procedures": [
+            {
+              "name": "Biopsy",
+              "approach": "percutaneous",
+              "location": "left upper lobe apicoposterior segment",
+              "outcome": "Sample acquired"
+            }
+          ],
+          "medications": [
+            {
+              "drug": "Lidocaine",
+              "dosage": "2%",
+              "modality": "local anesthesia"
+            }
+          ]
+        }
+      }
+    },
+    {
+      "id": "N4",
+      "label": "Step 4",
+      "customData": {
+        "node_id": "D",
+        "node_step_index": 3,
+        "content": "Immediate post-biopsy CT scan of the thorax revealed a 3-mm air-filled cystic lesion in the path of the biopsy needle, suggesting a pneumatocele with extension along the adjacent bronchovascular bundle.",
+        "clinical_data": {
+          "imaging": [
+            {
+              "type": "CT scan of thorax",
+              "body_part": "Thorax",
+              "modality": "CT",
+              "finding": "3-mm air-filled cystic lesion in the path of the biopsy needle, suggesting a pneumatocele with extension along the adjacent bronchovascular bundle",
+              "date": null
+            }
+          ]
+        }
+      }
+    },
+    {
+      "id": "N5",
+      "label": "Step 5",
+      "customData": {
+        "node_id": "E",
+        "node_step_index": 4,
+        "content": "Immediate post-PTNB CT images show a 3-mm-sized, air-filled cystic lesion in the path of the biopsy needle, suggesting a pneumatocele, with extension along the adjacent bronchovascular bundle, accompanied ground-glass opacity and consolidation due to hemorrhage and minimal ipsilateral pneumothorax. Histological examination of the PTNB revealed pulmonary adenocarcinoma.",
+        "clinical_data": {
+          "imaging": [
+            {
+              "type": "Cystic lesion",
+              "body_part": "Lung",
+              "modality": "CT",
+              "finding": "3-mm-sized, air-filled cystic lesion in the path of the biopsy needle, suggesting a pneumatocele, with extension along the adjacent bronchovascular bundle, accompanied ground-glass opacity and consolidation due to hemorrhage and minimal ipsilateral pneumothorax.",
+              "date": null
+            }
+          ],
+          "procedures": [
+            {
+              "name": "Percutaneous transthoracic needle biopsy",
+              "date": null,
+              "outcome": "Pulmonary adenocarcinoma"
+            }
+          ],
+          "diagnoses": [
+            {
+              "code": "C0242375",
+              "label": "Pulmonary adenocarcinoma",
+              "status": "active",
+              "onset_date": null
+            }
+          ]
+        }
+      }
+    },
+    {
+      "id": "N6",
+      "label": "Step 6",
+      "customData": {
+        "node_id": "F",
+        "node_step_index": 5,
+        "content": "Ten days after sampling, the patient underwent chest CT with enhancement for preoperative staging of lung cancer.",
+        "clinical_data": {
+          "imaging": [
+            {
+              "type": "Computed tomography",
+              "body_part": "Chest",
+              "modality": "CT",
+              "finding": null,
+              "impression": "Preoperative staging of lung cancer",
+              "date": null
+            }
+          ]
+        }
+      }
+    },
+    {
+      "id": "N7",
+      "label": "Step 7",
+      "customData": {
+        "node_id": "G",
+        "node_step_index": 6,
+        "content": "CT image obtained 10 days after PTNB shows a well-defined, tubular-shaped, non-enhancing nodule with heterogeneous attenuation in the area where pneumatoceles had been previously observed.",
+        "clinical_data": {
+          "imaging": [
+            {
+              "type": "Nodule (finding)",
+              "body_part": "Lung",
+              "modality": "CT",
+              "finding": "Well-defined, tubular-shaped, non-enhancing nodule with heterogeneous attenuation in the area where pneumatoceles had been previously observed.",
+              "date": null
+            }
+          ]
+        }
+      }
+    },
+    {
+      "id": "N8",
+      "label": "Step 8",
+      "customData": {
+        "node_id": "H",
+        "node_step_index": 7,
+        "content": "18FDG PET/CT obtained 14 days after PTNB shows no hypermetabolism in the nodule, whereas the adjacent tumor shows hypermetabolism (SUVmax, 6.0). Nodules considered as pneumatoceles filled with hematoma rather than tumor seeding. Patient had no fever, respiratory symptoms, or hemoptysis.",
+        "clinical_data": {
+          "imaging": [
+            {
+              "type": "Positron emission tomography/computed tomography",
+              "body_part": "nodule",
+              "modality": "PET/CT",
+              "finding": "no hypermetabolism",
+              "date": "XXXX-XX-XX"
+            },
+            {
+              "type": "Positron emission tomography/computed tomography",
+              "body_part": "tumor",
+              "modality": "PET/CT",
+              "finding": "hypermetabolism",
+              "impression": "SUVmax, 6.0",
+              "date": "XXXX-XX-XX"
+            }
+          ],
+          "diagnoses": [
+            {
+              "code": "pneumatocele",
+              "label": "pneumatocele",
+              "status": "active"
+            },
+            {
+              "code": "hematoma",
+              "label": "hematoma",
+              "status": "active"
+            }
+          ],
+          "HPI": [
+            {
+              "associated_symptoms": [
+                "fever",
+                "respiratory symptoms",
+                "hemoptysis"
+              ],
+              "summary": "no fever, respiratory symptoms, or hemoptysis"
+            }
+          ]
+        }
+      }
+    },
+    {
+      "id": "N9",
+      "label": "Step 9",
+      "customData": {
+        "node_id": "I",
+        "node_step_index": 8,
+        "content": "Chest CT before biopsy showed a 24 mm microlobulated contoured nodule with pseudocavitation in the anterior segment of the left upper lobe. Needle tip was located outside the tumor, and specimen acquisition was performed four times.",
+        "clinical_data": {
+          "imaging": [
+            {
+              "type": "Lung mass",
+              "body_part": "Left upper lobe",
+              "modality": "CT",
+              "finding": "24 mm microlobulated contoured nodule with pseudocavitation",
+              "date": null
+            }
+          ],
+          "procedures": [
+            {
+              "name": "Biopsy",
+              "approach": "percutaneous",
+              "date": null,
+              "location": "Left upper lobe",
+              "outcome": "Needle tip was located outside the tumor, and specimen acquisition was performed four times."
+            }
+          ]
+        }
+      }
+    },
+    {
+      "id": "N10",
+      "label": "Step 10",
+      "customData": {
+        "node_id": "J",
+        "node_step_index": 9,
+        "content": "Left upper lobectomy performed for primary lung cancer. Specimen revealed no other specific lesions except lung cancer.",
+        "clinical_data": {
+          "procedures": [
+            {
+              "name": "Left upper lobectomy",
+              "approach": "open",
+              "date": null,
+              "location": "lung",
+              "performed_by": null,
+              "outcome": null
+            }
+          ],
+          "diagnoses": [
+            {
+              "code": null,
+              "label": "primary lung cancer",
+              "status": "active",
+              "onset_date": null
+            }
+          ]
+        }
+      }
+    },
+    {
+      "id": "N11",
+      "label": "Step 11",
+      "customData": {
+        "node_id": "K",
+        "node_step_index": 10,
+        "content": "Patient discharged after 1 month with no other symptoms.",
+        "clinical_data": {
+          "functional_status": [
+            {
+              "domain": "symptoms",
+              "description": "no other symptoms",
+              "status": "resolved"
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "edges": [
+    {
+      "from": "N1",
+      "to": "N2",
+      "data": {
+        "edge_id": "A_to_B",
+        "branch_flag": true,
+        "content": "Patient underwent CT-guided percutaneous needle biopsy (PTNB)."
+      }
+    },
+    {
+      "from": "N2",
+      "to": "N3",
+      "data": {
+        "edge_id": "B_to_C",
+        "branch_flag": true,
+        "content": "Patient placed in supine oblique position, local anesthesia with 2% lidocaine administered, and biopsy performed."
+      }
+    },
+    {
+      "from": "N3",
+      "to": "N4",
+      "data": {
+        "edge_id": "C_to_D",
+        "branch_flag": true,
+        "content": "Post-biopsy imaging performed."
+      }
+    },
+    {
+      "from": "N4",
+      "to": "N5",
+      "data": {
+        "edge_id": "D_to_E",
+        "branch_flag": true,
+        "content": "Pneumatocele observed post-biopsy, PTNB reveals pulmonary adenocarcinoma.",
+        "transition_event": {
+          "trigger_type": "lab_change",
+          "trigger_entities": [
+            "C0242375"
+          ],
+          "change_type": "addition",
+          "target_domain": "diagnosis"
+        }
+      }
+    },
+    {
+      "from": "N5",
+      "to": "N6",
+      "data": {
+        "edge_id": "E_to_F",
+        "branch_flag": true,
+        "content": "Patient underwent chest CT with enhancement for preoperative staging of lung cancer 10 days after sampling."
+      }
+    },
+    {
+      "from": "N6",
+      "to": "N7",
+      "data": {
+        "edge_id": "F_to_G",
+        "branch_flag": true,
+        "content": "CT imaging shows a well-defined, tubular-shaped, non-enhancing nodule with heterogeneous attenuation in the area where pneumatoceles had been previously observed."
+      }
+    },
+    {
+      "from": "N7",
+      "to": "N8",
+      "data": {
+        "edge_id": "G_to_H",
+        "branch_flag": true,
+        "content": "18FDG PET/CT obtained 14 days after PTNB shows no hypermetabolism in the nodule, whereas the adjacent tumor shows hypermetabolism (SUVmax, 6.0). Nodules considered as pneumatoceles filled with hematoma rather than tumor seeding. Patient had no fever, respiratory symptoms, or hemoptysis."
+      }
+    },
+    {
+      "from": "N8",
+      "to": "N9",
+      "data": {
+        "edge_id": "H_to_I",
+        "branch_flag": true,
+        "content": "Chest CT before biopsy showed a 24 mm microlobulated contoured nodule with pseudocavitation in the anterior segment of the left upper lobe. Needle tip was located outside the tumor, and specimen acquisition was performed four times."
+      }
+    },
+    {
+      "from": "N9",
+      "to": "N10",
+      "data": {
+        "edge_id": "I_to_J",
+        "branch_flag": true,
+        "content": "Left upper lobectomy performed for primary lung cancer. Specimen revealed no other specific lesions except lung cancer."
+      }
+    },
+    {
+      "from": "N10",
+      "to": "N11",
+      "data": {
+        "edge_id": "J_to_K",
+        "branch_flag": true,
+        "content": "Patient discharged after 1 month with no other symptoms."
+      }
+    }
+  ]
+}

@@ -1,0 +1,352 @@
+{
+  "nodes": [
+    {
+      "id": "N1",
+      "label": "Step 1",
+      "customData": {
+        "node_id": "A",
+        "node_step_index": 0,
+        "content": "62-year-old gentleman with a history of COPD and recurrent episodes of shingles, who is on regular inhalers. Ex-smoker with a 40-pack year history.",
+        "clinical_data": {
+          "diagnoses": [
+            {
+              "code": "1362005",
+              "label": "Chronic obstructive lung disease",
+              "status": "active"
+            },
+            {
+              "code": "126878004",
+              "label": "Herpes zoster",
+              "status": "historical"
+            }
+          ],
+          "medications": [
+            {
+              "drug": "inhaler",
+              "indication": "Chronic obstructive lung disease",
+              "frequency": "regular",
+              "modality": "inhaled"
+            }
+          ],
+          "social_history": [
+            {
+              "category": "smoking",
+              "status": "past",
+              "description": "40-pack year history"
+            }
+          ]
+        }
+      }
+    },
+    {
+      "id": "N2",
+      "label": "Step 2",
+      "customData": {
+        "node_id": "B",
+        "node_step_index": 1,
+        "content": "October 2022: Presented with an acute onset of chest pain and shortness of breath on his left side.",
+        "timestamp": "2022-10",
+        "clinical_data": {
+          "HPI": [
+            {
+              "summary": "acute onset of chest pain and shortness of breath on his left side",
+              "onset": "October 2022",
+              "progression": "sudden",
+              "associated_symptoms": [
+                "C0008031",
+                "C0037274"
+              ]
+            }
+          ]
+        }
+      }
+    },
+    {
+      "id": "N3",
+      "label": "Step 3",
+      "customData": {
+        "node_id": "C",
+        "node_step_index": 2,
+        "content": "Chest x ray showed a large left sided secondary spontaneous pneumothorax.",
+        "clinical_data": {
+          "imaging": [
+            {
+              "type": "X-ray of chest (procedure)",
+              "body_part": "Chest",
+              "modality": "X-ray",
+              "finding": "large left sided secondary spontaneous pneumothorax",
+              "impression": "large left sided secondary spontaneous pneumothorax"
+            }
+          ],
+          "diagnoses": [
+            {
+              "code": "C0032294",
+              "label": "Pneumothorax",
+              "status": "active"
+            }
+          ]
+        }
+      }
+    },
+    {
+      "id": "N4",
+      "label": "Step 4",
+      "customData": {
+        "node_id": "D",
+        "node_step_index": 3,
+        "content": "Managed with chest drain insertion and hospital admission. Air leak settled within 4 days with full lung expansion confirmed on chest x ray and the decision was taken to remove the drain.",
+        "clinical_data": {
+          "procedures": [
+            {
+              "name": "Insertion of chest tube (procedure)",
+              "date": null,
+              "outcome": "Lung expansion",
+              "location": "Chest"
+            },
+            {
+              "name": "Removal of chest tube (procedure)",
+              "date": null,
+              "outcome": "Air leak settled",
+              "location": "Chest"
+            }
+          ],
+          "imaging": [
+            {
+              "type": "Radiography, Thoracic",
+              "body_part": "Lung",
+              "modality": "X-ray",
+              "finding": "Full lung expansion",
+              "date": null
+            }
+          ]
+        }
+      }
+    },
+    {
+      "id": "N5",
+      "label": "Step 5",
+      "customData": {
+        "node_id": "E",
+        "node_step_index": 4,
+        "content": "Two months later, patient presented with a second episode of symptomatic pneumothorax on the left side, managed with a 12 Fr drain insertion and another hospital admission.",
+        "clinical_data": {
+          "diagnoses": [
+            {
+              "code": "57256002",
+              "label": "Pneumothorax",
+              "status": "active"
+            }
+          ],
+          "procedures": [
+            {
+              "name": "Insertion of chest tube",
+              "date": null,
+              "location": "Left side"
+            }
+          ]
+        }
+      }
+    },
+    {
+      "id": "N6",
+      "label": "Step 6",
+      "customData": {
+        "node_id": "F",
+        "node_step_index": 5,
+        "content": "CT thorax showed a significant left-sided pneumothorax, bullous disease consistent with COPD, and a suspicious thickened left lateral bulla.",
+        "clinical_data": {
+          "imaging": [
+            {
+              "type": "Computed tomography",
+              "body_part": "Thorax",
+              "modality": "CT",
+              "finding": "significant left-sided pneumothorax, bullous disease consistent with COPD, and a suspicious thickened left lateral bulla"
+            }
+          ],
+          "diagnoses": [
+            {
+              "code": "56715002",
+              "label": "Chronic obstructive lung disease",
+              "status": "active"
+            }
+          ]
+        }
+      }
+    },
+    {
+      "id": "N7",
+      "label": "Step 7",
+      "customData": {
+        "node_id": "G",
+        "node_step_index": 6,
+        "content": "Thoracic surgery team referral for surgical intervention consideration due to persistent air leak.",
+        "clinical_data": {
+          "procedures": [
+            {
+              "name": "Thoracic surgery",
+              "approach": "other",
+              "date": null,
+              "location": "Thorax",
+              "performed_by": "Thoracic surgery team",
+              "outcome": null
+            }
+          ]
+        }
+      }
+    },
+    {
+      "id": "N8",
+      "label": "Step 8",
+      "customData": {
+        "node_id": "H",
+        "node_step_index": 7,
+        "content": "Decision to proceed with surgery and patient transferred to thoracic surgery unit. Underwent a left-sided anterior 3-port VATS upper lobe bullectomy and talc pleurodesis. Intraoperatively, bullae were appreciated at the lateral aspect of the upper lobe with adhesions present at the apex. Two bullae were resected from this region using a wedge resection, performed with Endo GIA 40/60 stapler and the apical adhesion was released; the lung tissue was found to be thick, making staple application challenging.",
+        "clinical_data": {
+          "procedures": [
+            {
+              "name": "Bullectomy",
+              "approach": "VATS",
+              "date": null,
+              "location": "left upper lobe",
+              "performed_by": null,
+              "outcome": null
+            },
+            {
+              "name": "Pleurodesis",
+              "approach": null,
+              "date": null,
+              "location": "left-sided",
+              "performed_by": null,
+              "outcome": null
+            },
+            {
+              "name": "Wedge resection of lung",
+              "approach": null,
+              "date": null,
+              "location": "lateral aspect of the upper lobe",
+              "performed_by": null,
+              "outcome": null
+            }
+          ],
+          "imaging": [
+            {
+              "type": "imaging of lung",
+              "body_part": "lung",
+              "modality": null,
+              "finding": "bullae at the lateral aspect of the upper lobe",
+              "impression": null,
+              "date": null
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "edges": [
+    {
+      "from": "N1",
+      "to": "N2",
+      "data": {
+        "edge_id": "A_to_B",
+        "branch_flag": true,
+        "content": "Patient presented with acute onset of chest pain and shortness of breath on his left side."
+      }
+    },
+    {
+      "from": "N2",
+      "to": "N3",
+      "data": {
+        "edge_id": "B_to_C",
+        "branch_flag": true,
+        "content": "Chest x ray showed a large left sided secondary spontaneous pneumothorax.",
+        "transition_event": {
+          "trigger_type": "imaging",
+          "trigger_entities": [
+            "X-ray"
+          ],
+          "change_type": "addition",
+          "target_domain": "imaging"
+        }
+      }
+    },
+    {
+      "from": "N3",
+      "to": "N4",
+      "data": {
+        "edge_id": "C_to_D",
+        "branch_flag": true,
+        "content": "Managed with chest drain insertion and hospital admission. Air leak settled within 4 days with full lung expansion confirmed on chest x ray and the decision was taken to remove the drain.",
+        "transition_event": {
+          "trigger_type": "procedure",
+          "trigger_entities": [
+            "Insertion of chest tube"
+          ],
+          "change_type": "addition",
+          "target_domain": "procedure"
+        }
+      }
+    },
+    {
+      "from": "N4",
+      "to": "N5",
+      "data": {
+        "edge_id": "D_to_E",
+        "branch_flag": true,
+        "content": "Two months later, patient presented with a second episode of symptomatic pneumothorax on the left side, managed with a 12 Fr drain insertion and another hospital admission."
+      }
+    },
+    {
+      "from": "N5",
+      "to": "N6",
+      "data": {
+        "edge_id": "E_to_F",
+        "branch_flag": true,
+        "content": "CT thorax showed a significant left-sided pneumothorax, bullous disease consistent with COPD, and a suspicious thickened left lateral bulla.",
+        "transition_event": {
+          "trigger_type": "imaging",
+          "trigger_entities": [
+            "CT thorax"
+          ],
+          "change_type": "addition",
+          "target_domain": "imaging"
+        }
+      }
+    },
+    {
+      "from": "N6",
+      "to": "N7",
+      "data": {
+        "edge_id": "F_to_G",
+        "branch_flag": true,
+        "content": "Thoracic surgery team referral for surgical intervention consideration due to persistent air leak.",
+        "transition_event": {
+          "trigger_type": "procedure",
+          "trigger_entities": [
+            "Thoracic surgery"
+          ],
+          "change_type": "addition",
+          "target_domain": "procedure"
+        }
+      }
+    },
+    {
+      "from": "N7",
+      "to": "N8",
+      "data": {
+        "edge_id": "G_to_H",
+        "branch_flag": true,
+        "content": "Decision to proceed with surgery and patient transferred to thoracic surgery unit. Underwent a left-sided anterior 3-port VATS upper lobe bullectomy and talc pleurodesis. Intraoperatively, bullae were appreciated at the lateral aspect of the upper lobe with adhesions present at the apex. Two bullae were resected from this region using a wedge resection, performed with Endo GIA 40/60 stapler and the apical adhesion was released; the lung tissue was found to be thick, making staple application challenging.",
+        "transition_event": {
+          "trigger_type": "procedure",
+          "trigger_entities": [
+            "Bullectomy",
+            "Pleurodesis",
+            "Wedge resection of lung"
+          ],
+          "change_type": "addition",
+          "target_domain": "procedure"
+        }
+      }
+    }
+  ]
+}

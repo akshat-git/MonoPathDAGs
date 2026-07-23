@@ -1,0 +1,594 @@
+{
+  "nodes": [
+    {
+      "id": "N1",
+      "label": "Step 1",
+      "customData": {
+        "node_id": "A",
+        "node_step_index": 0,
+        "content": "68-year-old Asian male with recurrent NSCLC and a 30-year history of psoriasis, previously treated with UVB phototherapy.",
+        "clinical_data": {
+          "diagnoses": [
+            {
+              "code": "C34",
+              "label": "NSCLC",
+              "status": "active"
+            },
+            {
+              "code": "L40",
+              "label": "psoriasis",
+              "status": "historical"
+            }
+          ],
+          "social_history": [
+            {
+              "category": "UVB phototherapy",
+              "status": "past",
+              "description": "30-year history of psoriasis, previously treated with UVB phototherapy."
+            }
+          ]
+        }
+      }
+    },
+    {
+      "id": "N2",
+      "label": "Step 2",
+      "customData": {
+        "node_id": "B",
+        "node_step_index": 1,
+        "content": "Patient presented with left upper lobe Stage IIB (pT3 (7.8cm) N0 (0/12)) adenocarcinoma at age 66.",
+        "clinical_data": {
+          "diagnoses": [
+            {
+              "code": "C34.3",
+              "label": "Malignant neoplasm of lower lobe, bronchus or lung",
+              "status": "active",
+              "onset_date": null
+            }
+          ]
+        }
+      }
+    },
+    {
+      "id": "N3",
+      "label": "Step 3",
+      "customData": {
+        "node_id": "C",
+        "node_step_index": 2,
+        "content": "Patient underwent lobectomy and received four cycles of adjuvant cisplatin and vinorelbine at age 66.",
+        "clinical_data": {
+          "procedures": [
+            {
+              "name": "Lobectomy",
+              "date": null
+            }
+          ],
+          "medications": [
+            {
+              "drug": "cisplatin",
+              "dosage": null,
+              "frequency": null,
+              "modality": null,
+              "start_date": null,
+              "end_date": null,
+              "indication": "adjuvant"
+            },
+            {
+              "drug": "vinorelbine",
+              "dosage": null,
+              "frequency": null,
+              "modality": null,
+              "start_date": null,
+              "end_date": null,
+              "indication": "adjuvant"
+            }
+          ]
+        }
+      }
+    },
+    {
+      "id": "N4",
+      "label": "Step 4",
+      "customData": {
+        "node_id": "D",
+        "node_step_index": 3,
+        "content": "Surveillance imaging one year after adjuvant chemotherapy showed multifocal ground glass nodules in lungs bilaterally with interval growth over multiple scans.",
+        "clinical_data": {
+          "imaging": [
+            {
+              "type": "Lung parenchyma CT",
+              "body_part": "Lung",
+              "modality": "CT",
+              "finding": "multifocal ground glass nodules",
+              "impression": "interval growth",
+              "date": null
+            }
+          ]
+        }
+      }
+    },
+    {
+      "id": "N5",
+      "label": "Step 5",
+      "customData": {
+        "node_id": "E",
+        "node_step_index": 4,
+        "content": "Molecular characterization identified an epidermal growth factor receptor (EGFR) exon 19 deletion.",
+        "clinical_data": {
+          "diagnoses": [
+            {
+              "code": "C0597494",
+              "label": "EGFR exon 19 deletion",
+              "status": "active"
+            }
+          ]
+        }
+      }
+    },
+    {
+      "id": "N6",
+      "label": "Step 6",
+      "customData": {
+        "node_id": "F",
+        "node_step_index": 5,
+        "content": "Patient started on first-line osimertinib 80 mg daily one-and-half years after completion of adjuvant chemotherapy.",
+        "clinical_data": {
+          "medications": [
+            {
+              "drug": "C1705893",
+              "dosage": "80 mg",
+              "frequency": "daily",
+              "modality": "oral",
+              "start_date": null,
+              "end_date": null,
+              "indication": null
+            }
+          ]
+        }
+      }
+    },
+    {
+      "id": "N7",
+      "label": "Step 7",
+      "customData": {
+        "node_id": "G",
+        "node_step_index": 6,
+        "content": "Within two weeks of starting osimertinib, the patient had significant worsening of pre-existing scaly psoriatic plaques with desquamation over his face, trunk, upper and lower extremities, including inflammation of his fingertips with intermittent abdominal pain.",
+        "clinical_data": {
+          "medications": [
+            {
+              "drug": "C1608689",
+              "start_date": null,
+              "end_date": null,
+              "indication": null
+            }
+          ],
+          "HPI": [
+            {
+              "summary": "Significant worsening of pre-existing scaly psoriatic plaques with desquamation over face, trunk, upper and lower extremities, including inflammation of fingertips with intermittent abdominal pain within two weeks of starting osimertinib.",
+              "duration": "2 weeks",
+              "onset": null,
+              "progression": "sudden",
+              "associated_symptoms": [
+                "C0000734",
+                "C0036386",
+                "C0000729"
+              ],
+              "alleviating_factors": [],
+              "exacerbating_factors": []
+            }
+          ],
+          "diagnoses": [
+            {
+              "code": "C0036386",
+              "label": "Psoriasis",
+              "status": "active",
+              "onset_date": null
+            }
+          ]
+        }
+      }
+    },
+    {
+      "id": "N8",
+      "label": "Step 8",
+      "customData": {
+        "node_id": "H",
+        "node_step_index": 7,
+        "content": "Osimertinib was held, and Dermatology prescribed hydrocortisone cream and UVB phototherapy for psoriasis.",
+        "clinical_data": {
+          "medications": [
+            {
+              "drug": "C0020339",
+              "dosage": null,
+              "frequency": null,
+              "modality": "topical",
+              "start_date": null,
+              "end_date": null,
+              "indication": "C0036339"
+            },
+            {
+              "drug": "C1607181",
+              "dosage": null,
+              "frequency": null,
+              "modality": null,
+              "start_date": null,
+              "end_date": null,
+              "indication": "C0007102"
+            }
+          ],
+          "procedures": [
+            {
+              "name": "C0085139",
+              "approach": null,
+              "date": null,
+              "location": null,
+              "performed_by": "Dermatology",
+              "outcome": null
+            }
+          ],
+          "diagnoses": [
+            {
+              "code": "C0036339",
+              "label": "Psoriasis",
+              "status": "active",
+              "onset_date": null
+            }
+          ]
+        }
+      }
+    },
+    {
+      "id": "N9",
+      "label": "Step 9",
+      "customData": {
+        "node_id": "I",
+        "node_step_index": 8,
+        "content": "Four weeks after osimertinib was held, the patient developed a temperature of 39.5\u00b0C with tachycardia and worsening abdominal pain and was admitted to hospital. Infection was ruled out. Skin toxicity was deemed psoriasis worsened by osimertinib potentially with associated dermatitis.",
+        "clinical_data": {
+          "vitals": [
+            {
+              "type": "Fever",
+              "value": "39.5",
+              "unit": "\u00b0C"
+            },
+            {
+              "type": "Tachycardia",
+              "value": null,
+              "unit": null
+            }
+          ],
+          "HPI": [
+            {
+              "summary": "Worsening abdominal pain",
+              "progression": "worsening"
+            }
+          ],
+          "diagnoses": [
+            {
+              "code": "P0000269",
+              "label": "Psoriasis",
+              "status": "active"
+            },
+            {
+              "code": "D003844",
+              "label": "Dermatitis",
+              "status": "active"
+            }
+          ],
+          "medications": [
+            {
+              "drug": "Osimertinib",
+              "end_date": null,
+              "indication": null
+            }
+          ]
+        }
+      }
+    },
+    {
+      "id": "N10",
+      "label": "Step 10",
+      "customData": {
+        "node_id": "J",
+        "node_step_index": 9,
+        "content": "Following hospital discharge, the patient commenced a 10-week course of UVB phototherapy, resulting in 90% clearance of skin lesions.",
+        "clinical_data": {
+          "procedures": [
+            {
+              "name": "Ultraviolet B Phototherapy",
+              "date": null,
+              "outcome": "90% clearance of skin lesions"
+            }
+          ]
+        }
+      }
+    },
+    {
+      "id": "N11",
+      "label": "Step 11",
+      "customData": {
+        "node_id": "K",
+        "node_step_index": 10,
+        "content": "Osimertinib was restarted at 40 mg daily, five months since his last dose, after completion of phototherapy.",
+        "clinical_data": {
+          "medications": [
+            {
+              "drug": "Osimertinib",
+              "dosage": "40 mg",
+              "frequency": "daily",
+              "modality": "oral",
+              "start_date": null,
+              "end_date": null,
+              "indication": null
+            }
+          ]
+        }
+      }
+    },
+    {
+      "id": "N12",
+      "label": "Step 12",
+      "customData": {
+        "node_id": "L",
+        "node_step_index": 11,
+        "content": "Within three days of restarting Osimertinib at 40 mg daily, the patient developed fever, tachycardia, widespread skin desquamation and swelling, particularly on arms and hands.",
+        "clinical_data": {
+          "medications": [
+            {
+              "drug": "C0884294",
+              "dosage": "40 mg",
+              "frequency": "daily",
+              "modality": "oral",
+              "start_date": null,
+              "end_date": null,
+              "indication": null
+            }
+          ],
+          "HPI": [
+            {
+              "summary": "Patient developed fever, tachycardia, widespread skin desquamation and swelling, particularly on arms and hands within three days of restarting Osimertinib.",
+              "duration": "P3D",
+              "onset": null,
+              "progression": "sudden",
+              "associated_symptoms": [
+                "C0015967",
+                "C0039231",
+                "C0262736",
+                "C0039450"
+              ],
+              "alleviating_factors": [],
+              "exacerbating_factors": []
+            }
+          ]
+        }
+      }
+    },
+    {
+      "id": "N13",
+      "label": "Step 13",
+      "customData": {
+        "node_id": "M",
+        "node_step_index": 12,
+        "content": "Patient had a WBC of 18.5 and CRP of 154. Infection was ruled out, and skin toxicity was deemed to be a severe toxic desquamating psoriatic skin reaction to osimertinib; however, the possibility of toxic epidermal necrolysis (TEN) was raised.",
+        "clinical_data": {
+          "labs": [
+            {
+              "test": "White blood cell count",
+              "value": "18.5",
+              "unit": "cells/mm3",
+              "flag": "abnormal"
+            },
+            {
+              "test": "C-Reactive Protein",
+              "value": "154",
+              "unit": "mg/L",
+              "flag": "abnormal"
+            }
+          ],
+          "diagnoses": [
+            {
+              "code": "SNOMED:23627002",
+              "label": "Skin toxicity",
+              "status": "active"
+            },
+            {
+              "code": "SNOMED:255604002",
+              "label": "Toxic epidermal necrolysis",
+              "status": "suspected"
+            }
+          ],
+          "allergies": [
+            {
+              "substance": "Osimertinib",
+              "reaction": "Toxic desquamating psoriatic skin reaction",
+              "severity": "severe"
+            }
+          ]
+        }
+      }
+    },
+    {
+      "id": "N14",
+      "label": "Step 14",
+      "customData": {
+        "node_id": "N",
+        "node_step_index": 13,
+        "content": "After recovery from skin toxicity, the patient started on carboplatin and pemetrexed.",
+        "clinical_data": {
+          "medications": [
+            {
+              "drug": "C0007127",
+              "dosage": null,
+              "frequency": null,
+              "modality": null,
+              "start_date": null,
+              "end_date": null,
+              "indication": null
+            },
+            {
+              "drug": "C0976424",
+              "dosage": null,
+              "frequency": null,
+              "modality": null,
+              "start_date": null,
+              "end_date": null,
+              "indication": null
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "edges": [
+    {
+      "from": "N1",
+      "to": "N2",
+      "data": {
+        "edge_id": "A_to_B",
+        "branch_flag": true,
+        "content": "Progression of NSCLC"
+      }
+    },
+    {
+      "from": "N2",
+      "to": "N3",
+      "data": {
+        "edge_id": "B_to_C",
+        "branch_flag": true,
+        "content": "Treatment for Stage IIB NSCLC",
+        "transition_event": {
+          "trigger_type": "procedure",
+          "trigger_entities": [
+            "C0024090"
+          ],
+          "change_type": "addition",
+          "target_domain": "procedure"
+        }
+      }
+    },
+    {
+      "from": "N3",
+      "to": "N4",
+      "data": {
+        "edge_id": "C_to_D",
+        "branch_flag": true,
+        "content": "Surveillance imaging post-treatment",
+        "transition_event": {
+          "trigger_type": "procedure",
+          "trigger_entities": [
+            "C0034864"
+          ],
+          "change_type": "addition",
+          "target_domain": "imaging"
+        }
+      }
+    },
+    {
+      "from": "N4",
+      "to": "N5",
+      "data": {
+        "edge_id": "D_to_E",
+        "branch_flag": true,
+        "content": "Molecular characterization of NSCLC",
+        "transition_event": {
+          "trigger_type": "lab_change",
+          "trigger_entities": [
+            "C0597494"
+          ],
+          "change_type": "addition",
+          "target_domain": "diagnosis"
+        }
+      }
+    },
+    {
+      "from": "N5",
+      "to": "N6",
+      "data": {
+        "edge_id": "E_to_F",
+        "branch_flag": true,
+        "content": "Initiation of first-line osimertinib",
+        "transition_event": {
+          "trigger_type": "medication_change",
+          "trigger_entities": [
+            "C1705893"
+          ],
+          "change_type": "addition",
+          "target_domain": "medication"
+        }
+      }
+    },
+    {
+      "from": "N6",
+      "to": "N7",
+      "data": {
+        "edge_id": "F_to_G",
+        "branch_flag": true,
+        "content": "Worsening of psoriasis after starting osimertinib",
+        "transition_event": {
+          "trigger_type": "symptom_onset",
+          "trigger_entities": [
+            "C0036386",
+            "C0000734",
+            "C0000729"
+          ],
+          "change_type": "progression",
+          "target_domain": "symptom"
+        }
+      }
+    },
+    {
+      "from": "N7",
+      "to": "N8",
+      "data": {
+        "edge_id": "G_to_H",
+        "branch_flag": true,
+        "content": "Osimertinib held, initiation of hydrocortisone and UVB phototherapy for psoriasis",
+        "transition_event": {
+          "trigger_type": "medication_change",
+          "trigger_entities": [
+            "C1705893",
+            "C0020339",
+            "C1607181"
+          ],
+          "change_type": "discontinuation",
+          "target_domain": "medication"
+        }
+      }
+    },
+    {
+      "from": "N8",
+      "to": "N9",
+      "data": {
+        "edge_id": "H_to_I",
+        "branch_flag": true,
+        "content": "Development of fever, tachycardia, and worsening abdominal pain; hospitalization",
+        "transition_event": {
+          "trigger_type": "symptom_onset",
+          "trigger_entities": [
+            "C0015967",
+            "C0039231",
+            "C0000729"
+          ],
+          "change_type": "progression",
+          "target_domain": "symptom"
+        }
+      }
+    },
+    {
+      "from": "N9",
+      "to": "N10",
+      "data": {
+        "edge_id": "I_to_J",
+        "branch_flag": true,
+        "content": "Commencement of UVB phototherapy after hospital discharge",
+        "transition_event": {
+          "trigger_type": "procedure",
+          "trigger_entities": [
+            "C0085139"
+          ]
+        }
+      }
+    }
+  ]
+}

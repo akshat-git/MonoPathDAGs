@@ -1,0 +1,251 @@
+{
+  "nodes": [
+    {
+      "id": "N1",
+      "label": "Step 1",
+      "customData": {
+        "node_id": "A",
+        "node_step_index": 0,
+        "content": "69-year-old male presented with chest pain to the Affiliated Hospital of Traditional Chinese Medicine of Southwest Medical University (SWMU). Chest pain affected the subxiphoid process and the posterior back. Pain was frequent and lasted for several minutes.",
+        "clinical_data": {
+          "HPI": [
+            {
+              "summary": "69-year-old male presented with chest pain to the Affiliated Hospital of Traditional Chinese Medicine of Southwest Medical University (SWMU). Chest pain affected the subxiphoid process and the posterior back. Pain was frequent and lasted for several minutes.",
+              "associated_symptoms": [
+                "C0008031"
+              ]
+            }
+          ]
+        }
+      },
+      "custom_id": "graph_032_N0"
+    },
+    {
+      "id": "N2",
+      "label": "Step 2",
+      "customData": {
+        "node_id": "B",
+        "node_step_index": 1,
+        "content": "Medical history included CHD, GERD, and pulmonary emphysema.",
+        "clinical_data": {
+          "diagnoses": [
+            {
+              "code": "I25.10",
+              "label": "Coronary heart disease",
+              "status": "historical"
+            },
+            {
+              "code": "K21.9",
+              "label": "GERD",
+              "status": "historical"
+            },
+            {
+              "code": "J43.9",
+              "label": "Pulmonary emphysema",
+              "status": "historical"
+            }
+          ]
+        }
+      },
+      "custom_id": "graph_032_N1"
+    },
+    {
+      "id": "N3",
+      "label": "Step 3",
+      "customData": {
+        "node_id": "C",
+        "node_step_index": 2,
+        "content": "Current medications include indobufen, clopidogrel bisulfate, metoprolol succinate sustained-release, rosuvastatin calcium, vonoprazan fumarate, and rebamipide. Smoked for 30 years (average 10/day) but has abstained for 20 years. Occasionally consumes alcohol, 4\u20138 times monthly. Physical examination revealed a palpably enlarged lymph node on the left supraclavicular bone, approximately 1.5\u2009\u00d7\u20091.5 cm in size, hard, with poor mobility, ill-defined margins, and no tenderness.",
+        "clinical_data": {
+          "medications": [
+            {
+              "drug": "C0021364",
+              "dosage": null,
+              "frequency": null,
+              "modality": null,
+              "start_date": null,
+              "end_date": null,
+              "indication": null
+            },
+            {
+              "drug": "C0589487",
+              "dosage": null,
+              "frequency": null,
+              "modality": null,
+              "start_date": null,
+              "end_date": null,
+              "indication": null
+            },
+            {
+              "drug": "C1364604",
+              "dosage": null,
+              "frequency": null,
+              "modality": null,
+              "start_date": null,
+              "end_date": null,
+              "indication": null
+            },
+            {
+              "drug": "C1427722",
+              "dosage": null,
+              "frequency": null,
+              "modality": null,
+              "start_date": null,
+              "end_date": null,
+              "indication": null
+            },
+            {
+              "drug": "C4043414",
+              "dosage": null,
+              "frequency": null,
+              "modality": null,
+              "start_date": null,
+              "end_date": null,
+              "indication": null
+            },
+            {
+              "drug": "C1427565",
+              "dosage": null,
+              "frequency": null,
+              "modality": null,
+              "start_date": null,
+              "end_date": null,
+              "indication": null
+            }
+          ],
+          "social_history": [
+            {
+              "category": "smoking",
+              "status": "past",
+              "description": "Smoked for 30 years (average 10/day) but has abstained for 20 years"
+            },
+            {
+              "category": "alcohol",
+              "status": "current",
+              "description": "Occasionally consumes alcohol, 4\u20138 times monthly"
+            }
+          ],
+          "physical_exam": [
+            {
+              "finding": "Palpably enlarged lymph node on the left supraclavicular bone, approximately 1.5\u2009\u00d7\u20091.5 cm in size, hard, with poor mobility, ill-defined margins, and no tenderness"
+            }
+          ]
+        }
+      },
+      "custom_id": "graph_032_N2"
+    },
+    {
+      "id": "N4",
+      "label": "Step 4",
+      "customData": {
+        "node_id": "D",
+        "node_step_index": 3,
+        "content": "Physical exam revealed hyperresonance on percussion sounds and weakened respiratory sounds without rales. A 3.0 x 3.0 cm hard, tender mass with clear borders was detected in the anterior branch of the left 5th rib. Abdomen was slightly depressed, with epigastric tenderness without rebound pain or muscle tension. Chest CT showed a nodule in the anterior segment of the upper lobe of the right lung.",
+        "clinical_data": {
+          "vitals": [
+            {
+              "type": "T0020141",
+              "value": "hyperresonance",
+              "unit": null,
+              "timestamp": null
+            },
+            {
+              "type": "T0047598",
+              "value": "weakened",
+              "unit": null,
+              "timestamp": null
+            }
+          ],
+          "physical_exam": [
+            {
+              "finding": "hyperresonance on percussion sounds"
+            },
+            {
+              "finding": "weakened respiratory sounds without rales"
+            },
+            {
+              "finding": "3.0 x 3.0 cm hard, tender mass with clear borders in the anterior branch of the left 5th rib"
+            },
+            {
+              "finding": "slightly depressed abdomen"
+            },
+            {
+              "finding": "epigastric tenderness without rebound pain or muscle tension"
+            }
+          ],
+          "imaging": [
+            {
+              "type": "T0008742",
+              "body_part": "T0024230",
+              "modality": "CT",
+              "finding": "nodule in the anterior segment of the upper lobe of the right lung",
+              "impression": null,
+              "date": null
+            }
+          ]
+        }
+      },
+      "custom_id": "graph_032_N3"
+    },
+    {
+      "id": "N5",
+      "label": "Step 5",
+      "customData": {
+        "node_id": "E",
+        "node_step_index": 4,
+        "clinical_data": {}
+      },
+      "custom_id": "graph_032_N4"
+    }
+  ],
+  "edges": [
+    {
+      "from": "N1",
+      "to": "N2",
+      "data": {
+        "edge_id": "A_to_B",
+        "branch_flag": true,
+        "content": "Patient's medical history is reviewed."
+      },
+      "custom_id": "graph_032_N1_N2"
+    },
+    {
+      "from": "N2",
+      "to": "N3",
+      "data": {
+        "edge_id": "B_to_C",
+        "branch_flag": true,
+        "content": "Patient's medications, social history, and physical exam are reviewed."
+      },
+      "custom_id": "graph_032_N2_N3"
+    },
+    {
+      "from": "N3",
+      "to": "N4",
+      "data": {
+        "edge_id": "C_to_D",
+        "branch_flag": true,
+        "content": "Physical exam and chest CT are performed.",
+        "transition_event": {
+          "trigger_type": "procedure",
+          "trigger_entities": [
+            "C0008742"
+          ],
+          "change_type": "addition",
+          "target_domain": "imaging"
+        }
+      },
+      "custom_id": "graph_032_N3_N4"
+    },
+    {
+      "from": "N4",
+      "to": "N5",
+      "data": {
+        "edge_id": "D_to_E",
+        "branch_flag": true,
+        "content": "No new information provided."
+      },
+      "custom_id": "graph_032_N4_N5"
+    }
+  ]
+}

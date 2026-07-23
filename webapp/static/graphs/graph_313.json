@@ -1,0 +1,405 @@
+{
+  "nodes": [
+    {
+      "id": "N1",
+      "label": "Step 1",
+      "customData": {
+        "node_id": "A",
+        "node_step_index": 0,
+        "content": "56-year-old female presented with right chest discomfort for 3 months.",
+        "clinical_data": {
+          "HPI": [
+            {
+              "summary": "right chest discomfort",
+              "duration": "3 months"
+            }
+          ]
+        }
+      }
+    },
+    {
+      "id": "N2",
+      "label": "Step 2",
+      "customData": {
+        "node_id": "B",
+        "node_step_index": 1,
+        "content": "Chest CT revealed a 1.9 cm \u00d7 2.1 cm mass in the anterior segment of the right upper lobe, multiple nodules in the bilateral lungs, and right pleural effusion. Enlarged right hilar, mediastinal, and paratracheal lymph nodes (LNs) were also found.",
+        "clinical_data": {
+          "imaging": [
+            {
+              "type": "Mass",
+              "body_part": "Anterior segment of the right upper lobe",
+              "modality": "CT",
+              "finding": "1.9 cm \u00d7 2.1 cm mass",
+              "impression": "Mass in the anterior segment of the right upper lobe",
+              "date": null
+            },
+            {
+              "type": "Nodule",
+              "body_part": "Bilateral lungs",
+              "modality": "CT",
+              "finding": "Multiple nodules",
+              "impression": "Multiple nodules in the bilateral lungs",
+              "date": null
+            },
+            {
+              "type": "Pleural Effusion",
+              "body_part": "Right pleura",
+              "modality": "CT",
+              "finding": "Right pleural effusion",
+              "impression": "Right pleural effusion",
+              "date": null
+            },
+            {
+              "type": "Lymph Node Enlargement",
+              "body_part": "Right hilar, mediastinal, and paratracheal lymph nodes",
+              "modality": "CT",
+              "finding": "Enlarged right hilar, mediastinal, and paratracheal lymph nodes (LNs)",
+              "impression": "Enlarged right hilar, mediastinal, and paratracheal lymph nodes (LNs)",
+              "date": null
+            }
+          ]
+        }
+      }
+    },
+    {
+      "id": "N3",
+      "label": "Step 3",
+      "customData": {
+        "node_id": "C",
+        "node_step_index": 2,
+        "content": "Right supraclavicular painless lymph node palpated (soybean size). Serum carcinoembryonic antigen level: 279.6 ng/mL. PET scan showed increased FDG uptake in right upper lobe mass, multiple pulmonary and subpleural nodules, right supraclavicular, mediastinal, and right hilar lymph nodes. Hypermetabolic nodules with low density in segment 6 and anterolateral area of liver capsule. Multiple bone destruction changes and high FDG uptake in T7 and T8 vertebral bodies and appendages, L5 spinous processes, and bilateral iliac bones. Brain MRI negative.",
+        "clinical_data": {
+          "labs": [
+            {
+              "test": "Carcinoembryonic Antigen",
+              "value": "279.6",
+              "unit": "ng/mL",
+              "flag": "abnormal"
+            }
+          ],
+          "imaging": [
+            {
+              "type": "PET scan",
+              "body_part": "right upper lobe",
+              "modality": "PET",
+              "finding": "increased FDG uptake in right upper lobe mass, multiple pulmonary and subpleural nodules, right supraclavicular, mediastinal, and right hilar lymph nodes. Hypermetabolic nodules with low density in segment 6 and anterolateral area of liver capsule. Multiple bone destruction changes and high FDG uptake in T7 and T8 vertebral bodies and appendages, L5 spinous processes, and bilateral iliac bones."
+            },
+            {
+              "type": "MRI",
+              "body_part": "brain",
+              "modality": "MRI",
+              "finding": "negative"
+            }
+          ]
+        }
+      }
+    },
+    {
+      "id": "N4",
+      "label": "Step 4",
+      "customData": {
+        "node_id": "D",
+        "node_step_index": 3,
+        "content": "Underwent ultrasound-guided needle biopsy of the right supraclavicular lymph node and right closed thoracic drainage. Endobronchial ultrasound-transbronchial needle aspiration (EBUS-TBNA) was performed on LN 7 and 11R. Cancer cells were found both in the pleural effusion and clavicular lymph nodes. Pathological results of LN 11R identified pulmonary adenocarcinoma, with P40 (-), CK7 (+), TTF-1 (+), Napsin A (+), CK5/6 (-), ALK Ventana (-), ALK-Negative (-) through immunohistochemistry (IHC). Genetic testing was performed on cell block samples from pleural effusion by polymerase chain reaction (PCR).",
+        "clinical_data": {
+          "procedures": [
+            {
+              "name": "Needle biopsy",
+              "approach": "percutaneous",
+              "date": null,
+              "location": "right supraclavicular lymph node",
+              "performed_by": null,
+              "outcome": null
+            },
+            {
+              "name": "Thoracic drainage",
+              "approach": "closed",
+              "date": null,
+              "location": "right thorax",
+              "performed_by": null,
+              "outcome": null
+            },
+            {
+              "name": "Endobronchial ultrasound-transbronchial needle aspiration",
+              "approach": "endoscopic",
+              "date": null,
+              "location": "LN 7 and 11R",
+              "performed_by": null,
+              "outcome": null
+            }
+          ],
+          "labs": [
+            {
+              "test": "Pulmonary adenocarcinoma",
+              "value": "positive",
+              "unit": null,
+              "flag": "abnormal",
+              "reference_range": null,
+              "timestamp": null
+            }
+          ],
+          "diagnoses": [
+            {
+              "code": "C34",
+              "label": "Malignant neoplasm of bronchus and lung",
+              "status": "active",
+              "onset_date": null
+            }
+          ]
+        }
+      }
+    },
+    {
+      "id": "N5",
+      "label": "Step 5",
+      "customData": {
+        "node_id": "E",
+        "node_step_index": 4,
+        "content": "Molecular genetic testing (EGFR, KRAS, NRAS, BRAF, HER2, MET, PIK3CA, ALK, RET, ROS1) were all negative. Diagnosis: driver gene-negative right lung adenocarcinoma, cT1cN3M1c (TNM 8th Edition), stage IVB.",
+        "clinical_data": {
+          "diagnoses": [
+            {
+              "code": "C0242375",
+              "label": "Adenocarcinoma of lung",
+              "status": "active",
+              "onset_date": null
+            }
+          ],
+          "imaging": [
+            {
+              "type": "C0024132",
+              "body_part": "C0024132",
+              "modality": null,
+              "finding": "cT1cN3M1c (TNM 8th Edition), stage IVB",
+              "impression": null,
+              "date": null
+            }
+          ],
+          "labs": [
+            {
+              "test": "EGFR",
+              "value": "negative",
+              "unit": null,
+              "flag": null,
+              "reference_range": null,
+              "timestamp": null
+            },
+            {
+              "test": "KRAS",
+              "value": "negative",
+              "unit": null,
+              "flag": null,
+              "reference_range": null,
+              "timestamp": null
+            },
+            {
+              "test": "NRAS",
+              "value": "negative",
+              "unit": null,
+              "flag": null,
+              "reference_range": null,
+              "timestamp": null
+            },
+            {
+              "test": "BRAF",
+              "value": "negative",
+              "unit": null,
+              "flag": null,
+              "reference_range": null,
+              "timestamp": null
+            },
+            {
+              "test": "HER2",
+              "value": "negative",
+              "unit": null,
+              "flag": null,
+              "reference_range": null,
+              "timestamp": null
+            },
+            {
+              "test": "MET",
+              "value": "negative",
+              "unit": null,
+              "flag": null,
+              "reference_range": null,
+              "timestamp": null
+            },
+            {
+              "test": "PIK3CA",
+              "value": "negative",
+              "unit": null,
+              "flag": null,
+              "reference_range": null,
+              "timestamp": null
+            },
+            {
+              "test": "ALK",
+              "value": "negative",
+              "unit": null,
+              "flag": null,
+              "reference_range": null,
+              "timestamp": null
+            },
+            {
+              "test": "RET",
+              "value": "negative",
+              "unit": null,
+              "flag": null,
+              "reference_range": null,
+              "timestamp": null
+            },
+            {
+              "test": "ROS1",
+              "value": "negative",
+              "unit": null,
+              "flag": null,
+              "reference_range": null,
+              "timestamp": null
+            }
+          ]
+        }
+      }
+    },
+    {
+      "id": "N6",
+      "label": "Step 6",
+      "customData": {
+        "node_id": "F",
+        "node_step_index": 5,
+        "content": "Started chemotherapy with pemetrexed plus carboplatin and bevacizumab in September 2020.",
+        "clinical_data": {
+          "medications": [
+            {
+              "drug": "C0701868",
+              "dosage": null,
+              "frequency": null,
+              "modality": null,
+              "start_date": "2020-09",
+              "end_date": null,
+              "indication": null
+            },
+            {
+              "drug": "C0007268",
+              "dosage": null,
+              "frequency": null,
+              "modality": null,
+              "start_date": "2020-09",
+              "end_date": null,
+              "indication": null
+            },
+            {
+              "drug": "C1263458",
+              "dosage": null,
+              "frequency": null,
+              "modality": null,
+              "start_date": "2020-09",
+              "end_date": null,
+              "indication": null
+            }
+          ],
+          "procedures": [
+            {
+              "name": "C0009371",
+              "approach": null,
+              "date": "2020-09",
+              "location": null,
+              "performed_by": null,
+              "outcome": null
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "edges": [
+    {
+      "from": "N1",
+      "to": "N2",
+      "data": {
+        "edge_id": "A_to_B",
+        "branch_flag": true,
+        "content": "Transition from initial presentation of right chest discomfort to chest CT findings of a mass in the right upper lobe, multiple lung nodules, right pleural effusion, and enlarged lymph nodes.",
+        "transition_event": {
+          "trigger_type": "imaging",
+          "trigger_entities": [
+            "C0009402"
+          ],
+          "change_type": "progression",
+          "target_domain": "imaging"
+        }
+      }
+    },
+    {
+      "from": "N2",
+      "to": "N3",
+      "data": {
+        "edge_id": "B_to_C",
+        "branch_flag": true,
+        "content": "Transition from chest CT findings to palpation of a right supraclavicular lymph node, elevated CEA levels, and PET scan findings of increased FDG uptake in the right upper lobe mass, pulmonary nodules, lymph nodes, liver nodules, and bone lesions. Brain MRI was negative.",
+        "transition_event": {
+          "trigger_type": "lab_change",
+          "trigger_entities": [
+            "C0151737"
+          ],
+          "change_type": "progression",
+          "target_domain": "lab"
+        }
+      }
+    },
+    {
+      "from": "N3",
+      "to": "N4",
+      "data": {
+        "edge_id": "C_to_D",
+        "branch_flag": true,
+        "content": "Transition from PET scan findings to ultrasound-guided needle biopsy of the right supraclavicular lymph node, right closed thoracic drainage, and EBUS-TBNA of LN 7 and 11R. Cancer cells were found in the pleural effusion and clavicular lymph nodes. Pathological results of LN 11R identified pulmonary adenocarcinoma with specific IHC markers. Genetic testing was performed on cell block samples from pleural effusion by PCR.",
+        "transition_event": {
+          "trigger_type": "procedure",
+          "trigger_entities": [
+            "C0005568"
+          ],
+          "change_type": "addition",
+          "target_domain": "procedure"
+        }
+      }
+    },
+    {
+      "from": "N4",
+      "to": "N5",
+      "data": {
+        "edge_id": "D_to_E",
+        "branch_flag": true,
+        "content": "Transition from pathological results to molecular genetic testing, which was negative for EGFR, KRAS, NRAS, BRAF, HER2, MET, PIK3CA, ALK, RET, and ROS1. Diagnosis: driver gene-negative right lung adenocarcinoma, cT1cN3M1c (TNM 8th Edition), stage IVB.",
+        "transition_event": {
+          "trigger_type": "interpretation",
+          "trigger_entities": [
+            "C0242375"
+          ],
+          "change_type": "reinterpretation",
+          "target_domain": "diagnosis"
+        }
+      }
+    },
+    {
+      "from": "N5",
+      "to": "N6",
+      "data": {
+        "edge_id": "E_to_F",
+        "branch_flag": true,
+        "content": "Transition from diagnosis of driver gene-negative right lung adenocarcinoma to initiation of chemotherapy with pemetrexed, carboplatin, and bevacizumab in September 2020.",
+        "transition_event": {
+          "trigger_type": "medication_change",
+          "trigger_entities": [
+            "C0701868",
+            "C0007268",
+            "C1263458"
+          ],
+          "change_type": "addition",
+          "target_domain": "medication",
+          "timestamp": "2020-09-01T00:00:00Z"
+        }
+      }
+    }
+  ]
+}

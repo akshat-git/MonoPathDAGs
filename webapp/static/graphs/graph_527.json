@@ -1,0 +1,280 @@
+{
+  "nodes": [
+    {
+      "id": "N1",
+      "label": "Step 1",
+      "customData": {
+        "node_id": "A",
+        "node_step_index": 0,
+        "content": "47-year-old male presented with a 3-month history of bony hard swelling on the left mandible. The patient has a 30-year smoking history of 20 cigarettes per day. Examination revealed bony hard swelling on the left mandible extending from the angle of the mouth to the tragus of the ear (anteroposteriorly) and from the zygoma to the submandibular region (superoinferiorly). Intraoral examination revealed a 3x2x1.5 cm fleshy, firm proliferative growth on the gingivobuccal complex of the left mandibular first premolar to first molar teeth region, with associated grade III mobility of the involved teeth.",
+        "clinical_data": {
+          "HPI": [
+            {
+              "summary": "47-year-old male presented with a 3-month history of bony hard swelling on the left mandible.",
+              "duration": "P3M",
+              "onset": null
+            }
+          ],
+          "social_history": [
+            {
+              "category": "smoking",
+              "status": "current",
+              "description": "30-year smoking history of 20 cigarettes per day"
+            }
+          ],
+          "diagnoses": [
+            {
+              "code": "C027051",
+              "label": "Swelling",
+              "status": "active",
+              "onset_date": null
+            }
+          ]
+        }
+      }
+    },
+    {
+      "id": "N2",
+      "label": "Step 2",
+      "customData": {
+        "node_id": "B",
+        "node_step_index": 1,
+        "content": "Orthopantomogram showed radiolucent lytic lesions, ill-defined margins with \u2018moth-eaten\u2019 appearance suggestive of osteomyelitis affecting almost the entire mandible.",
+        "clinical_data": {
+          "imaging": [
+            {
+              "type": "Orthopantomogram",
+              "body_part": "Mandible",
+              "modality": "X-ray",
+              "finding": "radiolucent lytic lesions, ill-defined margins with \u2018moth-eaten\u2019 appearance",
+              "impression": "osteomyelitis"
+            }
+          ],
+          "diagnoses": [
+            {
+              "code": "C0029444",
+              "label": "Osteomyelitis",
+              "status": "suspected"
+            }
+          ]
+        }
+      }
+    },
+    {
+      "id": "N3",
+      "label": "Step 3",
+      "customData": {
+        "node_id": "C",
+        "node_step_index": 2,
+        "content": "Contrast-enhanced CT (CECT) showed permeative lytic destruction of the left mandible with periosteal reaction, cortical breach in few areas and erosion of the mandibular alveolar arches extending up to the temporomandibular joint. Significant soft tissue component involving the masticatory space, invading into the muscles of mastication and floor of mouth, was also seen.",
+        "clinical_data": {
+          "imaging": [
+            {
+              "type": "Computed tomography with contrast",
+              "body_part": "Mandible",
+              "modality": "CT",
+              "finding": "Permeative lytic destruction",
+              "impression": "Significant soft tissue component involving the masticatory space, invading into the muscles of mastication and floor of mouth",
+              "date": null
+            }
+          ]
+        }
+      }
+    },
+    {
+      "id": "N4",
+      "label": "Step 4",
+      "customData": {
+        "node_id": "E",
+        "node_step_index": 4,
+        "content": "Axial bone window CT revealed predominantly lytic lesion with speculated and multilayered periosteal reaction. Coronal soft tissue window CT showed significant soft tissue component involving masticatory space, invading into the muscles of mastication and floor of mouth.",
+        "clinical_data": {
+          "imaging": [
+            {
+              "type": "Lesion",
+              "body_part": "Axial bone",
+              "modality": "CT",
+              "finding": "Predominantly lytic lesion with speculated and multilayered periosteal reaction",
+              "date": null
+            },
+            {
+              "type": "Soft tissue component",
+              "body_part": "Masticatory space",
+              "modality": "CT",
+              "finding": "Significant soft tissue component involving masticatory space, invading into the muscles of mastication and floor of mouth",
+              "date": null
+            }
+          ]
+        }
+      }
+    },
+    {
+      "id": "N5",
+      "label": "Step 5",
+      "customData": {
+        "node_id": "F",
+        "node_step_index": 5,
+        "content": "Histology revealed atypical epithelial cells proliferating in glandular, cribriform arrangement and isolated tumour cells within dense fibrous stroma invading into bone. These glandular structures were lined by cuboidal to columnar cells exhibiting papillary projections in few areas.",
+        "clinical_data": {
+          "imaging": [
+            {
+              "type": "Histology",
+              "body_part": "bone",
+              "modality": "other",
+              "finding": "atypical epithelial cells proliferating in glandular, cribriform arrangement and isolated tumour cells within dense fibrous stroma invading into bone. These glandular structures were lined by cuboidal to columnar cells exhibiting papillary projections in few areas."
+            }
+          ]
+        }
+      }
+    },
+    {
+      "id": "N6",
+      "label": "Step 6",
+      "customData": {
+        "node_id": "G",
+        "node_step_index": 6,
+        "content": "Histopathology revealed marked nuclear pleomorphism, hyperchromatism, abundant mucous and clear cell differentiation, compatible with malignancy of glandular origin. Metastasis to jaws and oral soft tissues.",
+        "clinical_data": {
+          "diagnoses": [
+            {
+              "code": "C0006122",
+              "label": "Malignant tumor",
+              "status": "active"
+            },
+            {
+              "code": "C0242964",
+              "label": "Metastasis",
+              "status": "active"
+            }
+          ],
+          "imaging": [
+            {
+              "finding": "Metastasis to jaws and oral soft tissues",
+              "body_part": "jaw",
+              "modality": "Histopathology"
+            },
+            {
+              "finding": "Metastasis to jaws and oral soft tissues",
+              "body_part": "oral soft tissues",
+              "modality": "Histopathology"
+            }
+          ]
+        }
+      }
+    },
+    {
+      "id": "N7",
+      "label": "Step 7",
+      "customData": {
+        "node_id": "H",
+        "node_step_index": 7,
+        "content": "Histopathology of the mandibular lesion revealed atypical glandular epithelial cells forming abortive glandular structures and isolated tumour cells and bony",
+        "clinical_data": {
+          "imaging": [
+            {
+              "body_part": "Mandible",
+              "finding": "atypical glandular epithelial cells forming abortive glandular structures and isolated tumour cells",
+              "modality": "Histopathology"
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "edges": [
+    {
+      "from": "N1",
+      "to": "N2",
+      "data": {
+        "edge_id": "A_to_B",
+        "branch_flag": true,
+        "content": "Initial presentation of bony hard swelling on the left mandible prompted imaging.",
+        "transition_event": {
+          "trigger_type": "symptom_onset",
+          "trigger_entities": [
+            "C027051"
+          ],
+          "change_type": "other",
+          "target_domain": "symptom"
+        }
+      }
+    },
+    {
+      "from": "N2",
+      "to": "N3",
+      "data": {
+        "edge_id": "B_to_C",
+        "branch_flag": true,
+        "content": "Orthopantomogram findings prompted further investigation with CECT.",
+        "transition_event": {
+          "trigger_type": "imaging",
+          "trigger_entities": [
+            "C0029444"
+          ],
+          "change_type": "progression",
+          "target_domain": "imaging"
+        }
+      }
+    },
+    {
+      "from": "N3",
+      "to": "N4",
+      "data": {
+        "edge_id": "C_to_E",
+        "branch_flag": true,
+        "content": "CECT findings further characterized with axial bone window CT and coronal soft tissue window CT.",
+        "transition_event": {
+          "trigger_type": "imaging",
+          "trigger_entities": [],
+          "change_type": "other",
+          "target_domain": "imaging"
+        }
+      }
+    },
+    {
+      "from": "N4",
+      "to": "N5",
+      "data": {
+        "edge_id": "E_to_F",
+        "branch_flag": true,
+        "content": "CT findings prompted a biopsy for histological examination.",
+        "transition_event": {
+          "trigger_type": "procedure",
+          "trigger_entities": [],
+          "change_type": "addition",
+          "target_domain": "procedure"
+        }
+      }
+    },
+    {
+      "from": "N5",
+      "to": "N6",
+      "data": {
+        "edge_id": "F_to_G",
+        "branch_flag": true,
+        "content": "Histological findings led to a histopathological examination.",
+        "transition_event": {
+          "trigger_type": "interpretation",
+          "trigger_entities": [],
+          "change_type": "reinterpretation",
+          "target_domain": "diagnosis"
+        }
+      }
+    },
+    {
+      "from": "N6",
+      "to": "N7",
+      "data": {
+        "edge_id": "G_to_H",
+        "branch_flag": true,
+        "content": "Histopathology of the mandibular lesion was performed.",
+        "transition_event": {
+          "trigger_type": "procedure",
+          "trigger_entities": [],
+          "change_type": "addition",
+          "target_domain": "procedure"
+        }
+      }
+    }
+  ]
+}

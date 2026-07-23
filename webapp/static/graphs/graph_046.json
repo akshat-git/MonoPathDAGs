@@ -1,0 +1,536 @@
+{
+  "nodes": [
+    {
+      "id": "N1",
+      "label": "Step 1",
+      "customData": {
+        "node_id": "A",
+        "node_step_index": 0,
+        "content": "August 2023: 62-year-old female presented with intermittent dry cough and left temporal headaches.",
+        "clinical_data": {
+          "HPI": [
+            {
+              "summary": "62-year-old female presented with intermittent dry cough and left temporal headaches in August 2023.",
+              "onset": "2023-08",
+              "associated_symptoms": [
+                "C0010200",
+                "C0239674"
+              ]
+            }
+          ]
+        }
+      },
+      "custom_id": "graph_046_N0"
+    },
+    {
+      "id": "N2",
+      "label": "Step 2",
+      "customData": {
+        "node_id": "B",
+        "node_step_index": 1,
+        "content": "Early September: Patient presented with subacute vertigo, nausea, and vomiting. Following week of early September: Ataxia rapidly evolved.",
+        "clinical_data": {
+          "HPI": [
+            {
+              "summary": "Patient presented with subacute vertigo, nausea, and vomiting. Ataxia rapidly evolved following week.",
+              "onset": "Early September",
+              "progression": "rapid",
+              "associated_symptoms": [
+                "vertigo",
+                "nausea",
+                "vomiting",
+                "ataxia"
+              ]
+            }
+          ]
+        }
+      },
+      "custom_id": "graph_046_N1"
+    },
+    {
+      "id": "N3",
+      "label": "Step 3",
+      "customData": {
+        "node_id": "C",
+        "node_step_index": 3,
+        "content": "Patient experienced blurred vision, gradually developed nystagmus, diplopia, ataxia of the head and perioral region. Admitted to a local hospital. Physical examination indicated coarse horizontal nystagmus in both eyes while intact strength and sensation. BPPV test was negative. Vestibular function tests showed abnormalities in the optomotor center. Cranial MRI (without contrast) showed no obvious abnormalities. CSF routine and biochemistry studies returned unremarkable results.",
+        "clinical_data": {
+          "HPI": [
+            {
+              "summary": "Patient experienced blurred vision, gradually developed nystagmus, diplopia, ataxia of the head and perioral region.",
+              "progression": "gradual",
+              "associated_symptoms": [
+                "blurred vision",
+                "nystagmus",
+                "diplopia",
+                "ataxia"
+              ]
+            }
+          ],
+          "ROS": [
+            {
+              "system": "neuro",
+              "findings": [
+                "nystagmus",
+                "diplopia",
+                "ataxia"
+              ]
+            }
+          ],
+          "physical_exam": [
+            {
+              "finding": "coarse horizontal nystagmus in both eyes",
+              "body_part": "eyes"
+            },
+            {
+              "finding": "intact strength and sensation"
+            }
+          ],
+          "diagnoses": [
+            {
+              "code": "R25.1",
+              "label": "Tremor, unspecified",
+              "status": "suspected"
+            },
+            {
+              "code": "H53.149",
+              "label": "Blurred vision",
+              "status": "suspected"
+            },
+            {
+              "code": "H55.01",
+              "label": "Congenital nystagmus",
+              "status": "suspected"
+            },
+            {
+              "code": "H53.2",
+              "label": "Diplopia",
+              "status": "suspected"
+            },
+            {
+              "code": "R27.0",
+              "label": "Ataxia, unspecified",
+              "status": "suspected"
+            }
+          ],
+          "labs": [
+            {
+              "test": "Cerebrospinal Fluid Analysis",
+              "value": "unremarkable",
+              "flag": "normal"
+            }
+          ],
+          "imaging": [
+            {
+              "type": "MRI",
+              "body_part": "brain",
+              "modality": "MRI",
+              "finding": "no obvious abnormalities",
+              "date": null
+            }
+          ],
+          "procedures": [
+            {
+              "name": "Vestibular function test",
+              "outcome": "abnormalities in the optomotor center"
+            },
+            {
+              "name": "Dix-Hallpike test",
+              "outcome": "negative"
+            }
+          ]
+        }
+      },
+      "custom_id": "graph_046_N2"
+    },
+    {
+      "id": "N4",
+      "label": "Step 4",
+      "customData": {
+        "node_id": "D",
+        "node_step_index": 4,
+        "content": "Paraneoplastic antibody profiles and anti-neuronal surface antigen antibody spectrum in blood and CSF were both negative. Symptomatic therapy was ineffective.",
+        "clinical_data": {}
+      },
+      "custom_id": "graph_046_N3"
+    },
+    {
+      "id": "N5",
+      "label": "Step 5",
+      "customData": {
+        "node_id": "E",
+        "node_step_index": 5,
+        "content": "September 30th: Patient admitted to the hospital. Physical examination showed positive Romberg sign and gait ataxia. CT of chest revealed a solid mass shadow in the upper lobe of the right lung, and multiple enlarged lymph nodes in both hilum and mediastinum. Suspected diagnosis of PCD. Abnormal serum tumor markers: SCCAg 8.2ng/ml (reference range: <=2.7ng/ml), NSE 18.1ng/ml (reference range: <=16.3ng/ml), Cyfra21-1 16.5ng/ml (reference range: <=3.5ng/ml). Slightly positive for the anti-Yo antibody in the blood but negative for other antineuronal antibodies (EUROLINE Paraneoplastic Neurologic Syndrome 12 Antigen test kit).",
+        "clinical_data": {
+          "vitals": [],
+          "labs": [
+            {
+              "test": "Squamous Cell Carcinoma Antigen",
+              "value": "8.2",
+              "unit": "ng/ml",
+              "flag": "abnormal",
+              "reference_range": "<=2.7ng/ml",
+              "timestamp": "2024-09-30"
+            },
+            {
+              "test": "Neuron-specific enolase",
+              "value": "18.1",
+              "unit": "ng/ml",
+              "flag": "abnormal",
+              "reference_range": "<=16.3ng/ml",
+              "timestamp": "2024-09-30"
+            },
+            {
+              "test": "Cytokeratin-19-fragment",
+              "value": "16.5",
+              "unit": "ng/ml",
+              "flag": "abnormal",
+              "reference_range": "<=3.5ng/ml",
+              "timestamp": "2024-09-30"
+            },
+            {
+              "test": "Anti-Yo antibody",
+              "value": "slightly positive",
+              "unit": null,
+              "flag": "abnormal",
+              "reference_range": null,
+              "timestamp": "2024-09-30"
+            }
+          ],
+          "imaging": [
+            {
+              "type": "CT of chest",
+              "body_part": "lung",
+              "modality": "CT",
+              "finding": "solid mass shadow in the upper lobe of the right lung, and multiple enlarged lymph nodes in both hilum and mediastinum",
+              "impression": null,
+              "date": "2024-09-30"
+            }
+          ],
+          "procedures": [],
+          "HPI": [],
+          "ROS": [],
+          "functional_status": [],
+          "mental_status": [],
+          "social_history": [],
+          "allergies": [],
+          "diagnoses": [
+            {
+              "code": null,
+              "label": "PCD",
+              "status": "suspected",
+              "onset_date": "2024-09-30"
+            }
+          ],
+          "physical_exam": [
+            {
+              "finding": "positive Romberg sign",
+              "date": "2024-09-30"
+            },
+            {
+              "finding": "gait ataxia",
+              "date": "2024-09-30"
+            }
+          ]
+        }
+      },
+      "custom_id": "graph_046_N4"
+    },
+    {
+      "id": "N6",
+      "label": "Step 6",
+      "customData": {
+        "node_id": "F",
+        "node_step_index": 6,
+        "content": "Contrast-enhanced MRI of head showed no obvious abnormality. PET-CT revealed a malignant lesion in the upper lobe of the right lung, about 4.8x3.7cm in size, SUV max 64.3, slightly pulling the adjacent pleura, locally close to the oblique fissure and horizontal fissure, with multiple lymph node metastasis in the left supraclavicular region, right hilar lung and mediastinum. Histological and immunohistochemical results of the tumor punctures suggested squamous cell lung carcinoma with ALK-D5F3(-), CK7(-), P40(+), TTF-1(-), PD-L1(22C3)TPS=10%.",
+        "clinical_data": {
+          "imaging": [
+            {
+              "type": "Magnetic Resonance Imaging",
+              "body_part": "Head",
+              "modality": "MRI",
+              "finding": "no obvious abnormality",
+              "date": null
+            },
+            {
+              "type": "Positron Emission Tomography-Computed Tomography",
+              "body_part": "Lung",
+              "modality": "PET-CT",
+              "finding": "malignant lesion in the upper lobe of the right lung, about 4.8x3.7cm in size, SUV max 64.3, slightly pulling the adjacent pleura, locally close to the oblique fissure and horizontal fissure, with multiple lymph node metastasis in the left supraclavicular region, right hilar lung and mediastinum",
+              "date": null
+            }
+          ],
+          "labs": [
+            {
+              "test": "ALK-D5F3",
+              "value": "negative",
+              "unit": null,
+              "flag": "normal",
+              "reference_range": null,
+              "timestamp": null
+            },
+            {
+              "test": "CK7",
+              "value": "negative",
+              "unit": null,
+              "flag": "normal",
+              "reference_range": null,
+              "timestamp": null
+            },
+            {
+              "test": "P40",
+              "value": "positive",
+              "unit": null,
+              "flag": "abnormal",
+              "reference_range": null,
+              "timestamp": null
+            },
+            {
+              "test": "TTF-1",
+              "value": "negative",
+              "unit": null,
+              "flag": "normal",
+              "reference_range": null,
+              "timestamp": null
+            },
+            {
+              "test": "PD-L1(22C3)TPS",
+              "value": "10%",
+              "unit": "%",
+              "flag": "abnormal",
+              "reference_range": null,
+              "timestamp": null
+            }
+          ],
+          "diagnoses": [
+            {
+              "code": "C34",
+              "label": "squamous cell lung carcinoma",
+              "status": "active",
+              "onset_date": null
+            }
+          ]
+        }
+      },
+      "custom_id": "graph_046_N5"
+    },
+    {
+      "id": "N7",
+      "label": "Step 7",
+      "customData": {
+        "node_id": "G",
+        "node_step_index": 7,
+        "content": "October 18th: PET-CT showed a solid mass in the upper lobe of the right lung with abnormal metabolism. The apical and posterior segments of the right upper lobe are truncated by the tumor.",
+        "clinical_data": {
+          "imaging": [
+            {
+              "type": "Solid mass",
+              "body_part": "Upper lobe of the right lung",
+              "modality": "PET-CT",
+              "finding": "Abnormal metabolism",
+              "impression": "Apical and posterior segments of the right upper lobe are truncated by the tumor.",
+              "date": "2023-10-18"
+            }
+          ]
+        }
+      },
+      "custom_id": "graph_046_N6"
+    },
+    {
+      "id": "N8",
+      "label": "Step 8",
+      "customData": {
+        "node_id": "H",
+        "node_step_index": 8,
+        "content": "Oral prednisone initiated at 30mg qd (about 0.6mg/kg/d). October 22nd: Diagnosis of squamous cell lung carcinoma related PCD, intravenous immunoglobulin (IVIG) 0.4 g/kg/d for 5 days were initiated, vertigo, nausea and vomiting were alleviated. Resumed oral feeding.",
+        "clinical_data": {
+          "medications": [
+            {
+              "drug": "Prednisone",
+              "dosage": "30mg",
+              "frequency": "qd",
+              "modality": "oral",
+              "start_date": null,
+              "end_date": null,
+              "indication": null
+            },
+            {
+              "drug": "Intravenous immunoglobulin",
+              "dosage": "0.4 g/kg/d",
+              "frequency": "qd",
+              "modality": "IV",
+              "start_date": "2024-10-22",
+              "end_date": null,
+              "indication": null
+            }
+          ],
+          "diagnoses": [
+            {
+              "code": null,
+              "label": "squamous cell lung carcinoma related PCD",
+              "status": "active",
+              "onset_date": "2024-10-22"
+            }
+          ],
+          "HPI": [
+            {
+              "summary": "vertigo, nausea and vomiting were alleviated",
+              "duration": null,
+              "onset": null,
+              "progression": null,
+              "associated_symptoms": [
+                "vertigo",
+                "nausea",
+                "vomiting"
+              ],
+              "alleviating_factors": [
+                "Intravenous immunoglobulin"
+              ],
+              "exacerbating_factors": []
+            }
+          ]
+        }
+      },
+      "custom_id": "graph_046_N7"
+    },
+    {
+      "id": "N9",
+      "label": "Step 9",
+      "customData": {
+        "node_id": "I",
+        "node_step_index": 9,
+        "content": "November 2nd",
+        "31st": "Three courses of intravenous etoposide 75mg qd D1-5 and cisplatin 75mg D1",
+        "radiotherapy": 50.4,
+        "9th": "Methylprednisolone sodium succ",
+        "clinical_data": {}
+      },
+      "custom_id": "graph_046_N8"
+    }
+  ],
+  "edges": [
+    {
+      "from": "N1",
+      "to": "N2",
+      "data": {
+        "edge_id": "A_to_B",
+        "branch_flag": true,
+        "content": "Progression of symptoms from intermittent dry cough and left temporal headaches to subacute vertigo, nausea, vomiting, and ataxia.",
+        "transition_event": {
+          "trigger_type": "symptom_onset",
+          "trigger_entities": [
+            "C0042571",
+            "C0027497",
+            "C0042963",
+            "C0004607"
+          ],
+          "change_type": "progression",
+          "target_domain": "symptom"
+        }
+      },
+      "custom_id": "graph_046_N1_N2"
+    },
+    {
+      "from": "N2",
+      "to": "N3",
+      "data": {
+        "edge_id": "B_to_C",
+        "branch_flag": true,
+        "content": "Development of blurred vision, nystagmus, diplopia, and ataxia of the head and perioral region, leading to hospital admission. Initial investigations including cranial MRI and CSF analysis were unremarkable.",
+        "transition_event": {
+          "trigger_type": "symptom_onset",
+          "trigger_entities": [
+            "C0005774",
+            "C0029060",
+            "C0012696",
+            "C0004607"
+          ],
+          "change_type": "progression",
+          "target_domain": "symptom"
+        }
+      },
+      "custom_id": "graph_046_N2_N3"
+    },
+    {
+      "from": "N3",
+      "to": "N4",
+      "data": {
+        "edge_id": "C_to_D",
+        "branch_flag": true,
+        "content": "Negative paraneoplastic antibody profiles and anti-neuronal surface antigen antibody spectrum in blood and CSF. Symptomatic therapy was ineffective.",
+        "transition_event": {
+          "trigger_type": "lab_change",
+          "trigger_entities": [],
+          "change_type": "other",
+          "target_domain": "lab"
+        }
+      },
+      "custom_id": "graph_046_N3_N4"
+    },
+    {
+      "from": "N4",
+      "to": "N5",
+      "data": {
+        "edge_id": "D_to_E",
+        "branch_flag": true,
+        "content": "Patient admitted to the hospital with positive Romberg sign and gait ataxia. CT of chest revealed a solid mass shadow in the upper lobe of the right lung, and multiple enlarged lymph nodes in both hilum and mediastinum. Abnormal serum tumor markers: SCCAg, NSE, Cyfra21-1. Slightly positive for the anti-Yo antibody in the blood.",
+        "transition_event": {
+          "trigger_type": "imaging",
+          "trigger_entities": [],
+          "change_type": "progression",
+          "target_domain": "imaging"
+        }
+      },
+      "custom_id": "graph_046_N4_N5"
+    },
+    {
+      "from": "N5",
+      "to": "N6",
+      "data": {
+        "edge_id": "E_to_F",
+        "branch_flag": true,
+        "content": "Contrast-enhanced MRI of head showed no obvious abnormality. PET-CT revealed a malignant lesion in the upper lobe of the right lung with multiple lymph node metastasis. Histological and immunohistochemical results suggested squamous cell lung carcinoma.",
+        "transition_event": {
+          "trigger_type": "imaging",
+          "trigger_entities": [],
+          "change_type": "progression",
+          "target_domain": "imaging"
+        }
+      },
+      "custom_id": "graph_046_N5_N6"
+    },
+    {
+      "from": "N6",
+      "to": "N7",
+      "data": {
+        "edge_id": "F_to_G",
+        "branch_flag": true,
+        "content": "PET-CT showed a solid mass in the upper lobe of the right lung with abnormal metabolism. The apical and posterior segments of the right upper lobe are truncated by the tumor.",
+        "transition_event": {
+          "trigger_type": "imaging",
+          "trigger_entities": [],
+          "change_type": "progression",
+          "target_domain": "imaging"
+        }
+      },
+      "custom_id": "graph_046_N6_N7"
+    },
+    {
+      "from": "N7",
+      "to": "N8",
+      "data": {
+        "edge_id": "G_to_H",
+        "branch_flag": true,
+        "content": "Oral prednisone initiated. Diagnosis of squamous cell lung carcinoma related PCD, intravenous immunoglobulin (IVIG) initiated, vertigo, nausea and vomiting were alleviated. Resumed oral feeding.",
+        "transition_event": {
+          "trigger_type": "medication_change",
+          "trigger_entities": [
+            "C0032624",
+            "C0019837"
+          ]
+        }
+      },
+      "custom_id": "graph_046_N7_N8"
+    }
+  ]
+}

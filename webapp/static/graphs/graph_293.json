@@ -1,0 +1,576 @@
+{
+  "nodes": [
+    {
+      "id": "N1",
+      "label": "Step 1",
+      "customData": {
+        "node_id": "A",
+        "node_step_index": 0,
+        "content": "63-year-old female presented with fecal incontinence, debilitating headaches, right arm weakness, gait instability, and a recent ground-level fall.",
+        "clinical_data": {
+          "HPI": [
+            {
+              "summary": "63-year-old female presented with fecal incontinence, debilitating headaches, right arm weakness, gait instability, and a recent ground-level fall.",
+              "associated_symptoms": [
+                "fecal incontinence",
+                "debilitating headaches",
+                "right arm weakness",
+                "gait instability",
+                "ground-level fall"
+              ]
+            }
+          ]
+        }
+      }
+    },
+    {
+      "id": "N2",
+      "label": "Step 2",
+      "customData": {
+        "node_id": "B",
+        "node_step_index": 1,
+        "content": "Imaging studies revealed an 8 cm area of cerebral edema in the left parietal lobe, a 3.5 cm mass in the superior segment of the lower lobe of the right lung, numerous subcentimeter nodules throughout the lung parenchyma, and hilar lymphadenopathy.",
+        "clinical_data": {
+          "imaging": [
+            {
+              "type": "Cerebral edema",
+              "body_part": "Parietal lobe",
+              "modality": "CT",
+              "finding": "8 cm area of cerebral edema in the left parietal lobe",
+              "date": null
+            },
+            {
+              "type": "Mass",
+              "body_part": "Lung",
+              "modality": "CT",
+              "finding": "3.5 cm mass in the superior segment of the lower lobe of the right lung",
+              "date": null
+            },
+            {
+              "type": "Nodule",
+              "body_part": "Lung parenchyma",
+              "modality": "CT",
+              "finding": "numerous subcentimeter nodules throughout the lung parenchyma",
+              "date": null
+            },
+            {
+              "type": "Lymphadenopathy",
+              "body_part": "Hilar",
+              "modality": "CT",
+              "finding": "hilar lymphadenopathy",
+              "date": null
+            }
+          ]
+        }
+      }
+    },
+    {
+      "id": "N3",
+      "label": "Step 3",
+      "customData": {
+        "node_id": "C",
+        "node_step_index": 2,
+        "content": "CT-guided lung core needle biopsy confirmed invasive non-small cell lung carcinoma (NSCLC) with a prominent lepidic pattern.",
+        "clinical_data": {
+          "imaging": [
+            {
+              "type": "Computed tomography",
+              "body_part": "Lung",
+              "modality": "CT",
+              "finding": "invasive non-small cell lung carcinoma (NSCLC) with a prominent lepidic pattern",
+              "impression": "invasive non-small cell lung carcinoma (NSCLC) with a prominent lepidic pattern"
+            }
+          ],
+          "procedures": [
+            {
+              "name": "Lung core needle biopsy",
+              "approach": "percutaneous",
+              "location": "Lung"
+            }
+          ],
+          "diagnoses": [
+            {
+              "code": "C0024117",
+              "label": "Non-Small Cell Lung Carcinoma",
+              "status": "active"
+            }
+          ]
+        }
+      }
+    },
+    {
+      "id": "N4",
+      "label": "Step 4",
+      "customData": {
+        "node_id": "D",
+        "node_step_index": 3,
+        "content": "Lung mass biopsy revealed lung adenocarcinoma with a predominantly lepidic pattern. Immunohistochemical analysis showed positive staining for TTF-1, Napsin A, CK7, and CK5/6, and negative staining for CK20, P40, chromogranin, and synaptophysin. The cell proliferation index was estimated to be less than 3% via Ki-67 stains. Genpath OnkoSight histologic and tissue tumor next-generation sequencing revealed an EGFR Glu 757-Ala 750 deletion mutation, a rare exon 19 deletion variant.",
+        "clinical_data": {
+          "diagnoses": [
+            {
+              "code": "EGFR Glu 757-Ala 750 deletion mutation",
+              "label": "EGFR Glu 757-Ala 750 deletion mutation",
+              "status": "active"
+            }
+          ],
+          "labs": [
+            {
+              "test": "TTF-1",
+              "value": "positive"
+            },
+            {
+              "test": "Napsin A",
+              "value": "positive"
+            },
+            {
+              "test": "CK7",
+              "value": "positive"
+            },
+            {
+              "test": "CK5/6",
+              "value": "positive"
+            },
+            {
+              "test": "CK20",
+              "value": "negative"
+            },
+            {
+              "test": "P40",
+              "value": "negative"
+            },
+            {
+              "test": "Chromogranin",
+              "value": "negative"
+            },
+            {
+              "test": "Synaptophysin",
+              "value": "negative"
+            },
+            {
+              "test": "Ki-67",
+              "value": "<3%",
+              "unit": "%",
+              "flag": "normal"
+            }
+          ],
+          "imaging": [
+            {
+              "type": "Lung mass",
+              "modality": "biopsy",
+              "finding": "Lung adenocarcinoma with a predominantly lepidic pattern"
+            }
+          ],
+          "procedures": [
+            {
+              "name": "Next-generation sequencing",
+              "location": "tissue tumor"
+            }
+          ]
+        }
+      }
+    },
+    {
+      "id": "N5",
+      "label": "Step 5",
+      "customData": {
+        "node_id": "E",
+        "node_step_index": 4,
+        "content": "After 17 months of treatment with osimertinib, lung mass biopsy showed lung carcinosarcoma with islands of sarcomatoid spindled cells among solid epithelioid components (H&E, 200x). Biopsy of primary lung mass at initial diagnosis (Ki-67, 200x) showed positive staining in <5% of cells. Resistance to first- and second-generation TKIs developed. Collection date 2024 Apr.",
+        "clinical_data": {
+          "diagnoses": [
+            {
+              "code": "C34",
+              "label": "Lung cancer",
+              "status": "active",
+              "onset_date": null
+            },
+            {
+              "code": "91533001",
+              "label": "Carcinosarcoma",
+              "status": "active",
+              "onset_date": null
+            }
+          ],
+          "procedures": [
+            {
+              "name": "Biopsy",
+              "approach": "other",
+              "date": "2024-04",
+              "location": "Lung mass",
+              "performed_by": null,
+              "outcome": null
+            }
+          ],
+          "labs": [
+            {
+              "test": "Ki-67",
+              "value": "<5%",
+              "unit": "%",
+              "flag": "normal",
+              "reference_range": null,
+              "timestamp": null
+            }
+          ],
+          "medications": [
+            {
+              "drug": "Osimertinib",
+              "dosage": null,
+              "frequency": null,
+              "modality": "oral",
+              "start_date": null,
+              "end_date": null,
+              "indication": "Lung cancer"
+            }
+          ]
+        }
+      }
+    },
+    {
+      "id": "N6",
+      "label": "Step 6",
+      "customData": {
+        "node_id": "F",
+        "node_step_index": 5,
+        "content": "Development of resistance to osimertinib due to acquired resistance mechanisms, including EGFR-dependent and EGFR-independent mechanisms such as acquired EGFR mutations, amplifications, genetic fusions, MAPK-PI3K mutations, cell cycle gene alterations, and histologic transformation.",
+        "clinical_data": {}
+      }
+    },
+    {
+      "id": "N7",
+      "label": "Step 7",
+      "customData": {
+        "node_id": "G",
+        "node_step_index": 6,
+        "content": "After 17 months of treatment with osimertinib, fine-needle aspiration of 11R lymph node (Ki-67, 200x) showed Ki-67 positivity in >90% of cells.",
+        "clinical_data": {
+          "medications": [
+            {
+              "drug": "C1705934",
+              "dosage": null,
+              "frequency": null,
+              "modality": null,
+              "start_date": null,
+              "end_date": null,
+              "indication": null
+            }
+          ],
+          "procedures": [
+            {
+              "name": "C0154187",
+              "approach": null,
+              "date": null,
+              "location": "C1296340",
+              "performed_by": null,
+              "outcome": null
+            }
+          ],
+          "labs": [
+            {
+              "test": "C0877508",
+              "value": ">90%",
+              "unit": null,
+              "flag": "abnormal",
+              "reference_range": null,
+              "timestamp": null
+            }
+          ]
+        }
+      }
+    },
+    {
+      "id": "N8",
+      "label": "Step 8",
+      "customData": {
+        "node_id": "H",
+        "node_step_index": 7,
+        "content": "Patient underwent stereotactic radiosurgery (SRS) and initiated treatment with osimertinib 80 mg daily. After more than 17 months of treatment, follow-up imaging showed progressive and recurrent brain and chest lesions. Endobronchial ultrasound-guided fine-needle aspiration of the 11R lymph node confirmed a poorly differentiated malignancy consistent with metastatic carcinosarcoma. Further characterization of the metastatic recurrent lung cancer revealed a biphasic morphology with solid sheets of pleomorphic, neoplastic mesenchymal cells interspersed with small islands of neoplastic epithelial cells.",
+        "clinical_data": {
+          "procedures": [
+            {
+              "name": "Stereotactic radiosurgery",
+              "date": null
+            },
+            {
+              "name": "Endobronchial ultrasound-guided fine-needle aspiration",
+              "date": null,
+              "location": "11R lymph node"
+            }
+          ],
+          "medications": [
+            {
+              "drug": "Osimertinib",
+              "dosage": "80 mg",
+              "frequency": "daily",
+              "modality": "oral",
+              "start_date": null,
+              "end_date": null
+            }
+          ],
+          "imaging": [
+            {
+              "type": "Imaging",
+              "body_part": "brain",
+              "finding": "progressive and recurrent brain lesions",
+              "date": null
+            },
+            {
+              "type": "Imaging",
+              "body_part": "chest",
+              "finding": "progressive and recurrent chest lesions",
+              "date": null
+            }
+          ],
+          "diagnoses": [
+            {
+              "code": "Carcinosarcoma",
+              "label": "metastatic carcinosarcoma",
+              "status": "active",
+              "onset_date": null
+            },
+            {
+              "code": "Lung Cancer",
+              "label": "metastatic recurrent lung cancer",
+              "status": "active",
+              "onset_date": null
+            }
+          ]
+        }
+      }
+    },
+    {
+      "id": "N9",
+      "label": "Step 9",
+      "customData": {
+        "node_id": "I",
+        "node_step_index": 8,
+        "content": "Immunocytochemistry of 11R lymph node sample demonstrated positive staining for TTF-1, AE1/AE3, EMA, CD56, and vimentin with negative staining for CK7, P40, napsin, calretinin, PAX-8, S-100, synaptophysin, and chromogranin. Ki-67 staining revealed an estimated cell proliferation index of 90%. Foundation one next-generation sequencing identified an additional EGFR exon 19 deletion (E746_A750del) in addition to the previously identified EGFR G796C and 1744V point mutations. Notable novel mutations were also found in",
+        "clinical_data": {
+          "labs": [
+            {
+              "test": "TTF-1",
+              "value": "positive",
+              "unit": null,
+              "flag": null,
+              "reference_range": null,
+              "timestamp": null
+            },
+            {
+              "test": "AE1/AE3",
+              "value": "positive",
+              "unit": null,
+              "flag": null,
+              "reference_range": null,
+              "timestamp": null
+            },
+            {
+              "test": "EMA",
+              "value": "positive",
+              "unit": null,
+              "flag": null,
+              "reference_range": null,
+              "timestamp": null
+            },
+            {
+              "test": "CD56",
+              "value": "positive",
+              "unit": null,
+              "flag": null,
+              "reference_range": null,
+              "timestamp": null
+            },
+            {
+              "test": "Vimentin",
+              "value": "positive",
+              "unit": null,
+              "flag": null,
+              "reference_range": null,
+              "timestamp": null
+            },
+            {
+              "test": "CK7",
+              "value": "negative",
+              "unit": null,
+              "flag": null,
+              "reference_range": null,
+              "timestamp": null
+            },
+            {
+              "test": "P40",
+              "value": "negative",
+              "unit": null,
+              "flag": null,
+              "reference_range": null,
+              "timestamp": null
+            },
+            {
+              "test": "Napsin",
+              "value": "negative",
+              "unit": null,
+              "flag": null,
+              "reference_range": null,
+              "timestamp": null
+            },
+            {
+              "test": "Calretinin",
+              "value": "negative",
+              "unit": null,
+              "flag": null,
+              "reference_range": null,
+              "timestamp": null
+            },
+            {
+              "test": "PAX-8",
+              "value": "negative",
+              "unit": null,
+              "flag": null,
+              "reference_range": null,
+              "timestamp": null
+            },
+            {
+              "test": "S-100",
+              "value": "negative",
+              "unit": null,
+              "flag": null,
+              "reference_range": null,
+              "timestamp": null
+            },
+            {
+              "test": "Synaptophysin",
+              "value": "negative",
+              "unit": null,
+              "flag": null,
+              "reference_range": null,
+              "timestamp": null
+            },
+            {
+              "test": "Chromogranin",
+              "value": "negative",
+              "unit": null,
+              "flag": null,
+              "reference_range": null,
+              "timestamp": null
+            },
+            {
+              "test": "Ki-67",
+              "value": "90",
+              "unit": "%",
+              "flag": null,
+              "reference_range": null,
+              "timestamp": null
+            }
+          ],
+          "diagnoses": [
+            {
+              "code": null,
+              "label": "EGFR exon 19 deletion (E746_A750del)",
+              "status": "active",
+              "onset_date": null
+            },
+            {
+              "code": null,
+              "label": "EGFR G796C point mutation",
+              "status": "active",
+              "onset_date": null
+            },
+            {
+              "code": null,
+              "label": "EGFR 1744V point mutation",
+              "status": "active",
+              "onset_date": null
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "edges": [
+    {
+      "from": "N1",
+      "to": "N2",
+      "data": {
+        "edge_id": "A_to_B",
+        "branch_flag": true,
+        "content": "Patient's initial presentation led to imaging studies."
+      }
+    },
+    {
+      "from": "N2",
+      "to": "N3",
+      "data": {
+        "edge_id": "B_to_C",
+        "branch_flag": true,
+        "content": "Imaging findings prompted a CT-guided lung core needle biopsy."
+      }
+    },
+    {
+      "from": "N3",
+      "to": "N4",
+      "data": {
+        "edge_id": "C_to_D",
+        "branch_flag": true,
+        "content": "Biopsy results led to further immunohistochemical and genetic analysis."
+      }
+    },
+    {
+      "from": "N4",
+      "to": "N5",
+      "data": {
+        "edge_id": "D_to_E",
+        "branch_flag": true,
+        "content": "Patient was treated with osimertinib for 17 months, followed by a repeat lung mass biopsy.",
+        "transition_event": {
+          "trigger_type": "medication_change",
+          "trigger_entities": [
+            "C0025598"
+          ],
+          "change_type": "addition",
+          "target_domain": "medication"
+        }
+      }
+    },
+    {
+      "from": "N5",
+      "to": "N6",
+      "data": {
+        "edge_id": "E_to_F",
+        "branch_flag": true,
+        "content": "Development of resistance to osimertinib."
+      }
+    },
+    {
+      "from": "N6",
+      "to": "N7",
+      "data": {
+        "edge_id": "F_to_G",
+        "branch_flag": true,
+        "content": "Fine-needle aspiration of 11R lymph node after 17 months of treatment with osimertinib."
+      }
+    },
+    {
+      "from": "N7",
+      "to": "N8",
+      "data": {
+        "edge_id": "G_to_H",
+        "branch_flag": true,
+        "content": "Patient underwent stereotactic radiosurgery (SRS) and continued treatment with osimertinib 80 mg daily. Follow-up imaging showed progressive and recurrent brain and chest lesions. Endobronchial ultrasound-guided fine-needle aspiration of the 11R lymph node was performed.",
+        "transition_event": {
+          "trigger_type": "procedure",
+          "trigger_entities": [
+            "Stereotactic radiosurgery"
+          ],
+          "change_type": "addition",
+          "target_domain": "procedure"
+        }
+      }
+    },
+    {
+      "from": "N8",
+      "to": "N9",
+      "data": {
+        "edge_id": "H_to_I",
+        "branch_flag": true,
+        "content": "Immunocytochemistry of 11R lymph node sample and Foundation one next-generation sequencing were performed."
+      }
+    }
+  ]
+}

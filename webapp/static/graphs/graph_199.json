@@ -1,0 +1,242 @@
+{
+  "nodes": [
+    {
+      "id": "N1",
+      "label": "Step 1",
+      "customData": {
+        "node_id": "A",
+        "node_step_index": 0,
+        "content": "Patient presented to Shenzhen Nanshan District Shekou People\u2019s Hospital on November 18, 2020, with cough and expectoration following a cold.",
+        "timestamp": "2020-11-18",
+        "clinical_data": {
+          "HPI": [
+            {
+              "summary": "Patient presented with cough and expectoration following a cold.",
+              "onset": "November 18, 2020",
+              "associated_symptoms": [
+                "C0010200",
+                "C0015912"
+              ]
+            }
+          ]
+        }
+      }
+    },
+    {
+      "id": "N2",
+      "label": "Step 2",
+      "customData": {
+        "node_id": "B",
+        "node_step_index": 1,
+        "content": "Chest CT on November 18, 2020, revealed a nodule in the right lobe of the lung.",
+        "timestamp": "2020-11-18",
+        "clinical_data": {
+          "imaging": [
+            {
+              "type": "Lung CT",
+              "body_part": "Right lobe of lung",
+              "modality": "CT",
+              "finding": "nodule",
+              "impression": "nodule in the right lobe of the lung",
+              "date": "2020-11-18"
+            }
+          ]
+        }
+      }
+    },
+    {
+      "id": "N3",
+      "label": "Step 3",
+      "customData": {
+        "node_id": "C",
+        "node_step_index": 2,
+        "content": "Patient visited the hospital on June 13, 2021, for the same reason as before. Chest CT revealed more lesions in the upper lobe of the right lung than before, with significant enlargement of the mediastinal lymph nodes, suggesting likely peripheral lung cancer.",
+        "timestamp": "2021-06-13",
+        "clinical_data": {
+          "imaging": [
+            {
+              "type": "CT of chest",
+              "body_part": "Lung",
+              "modality": "CT",
+              "finding": "More lesions in the upper lobe of the right lung than before, with significant enlargement of the mediastinal lymph nodes",
+              "impression": "Likely peripheral lung cancer",
+              "date": "2021-06-13"
+            }
+          ],
+          "diagnoses": [
+            {
+              "code": "C0242398",
+              "label": "Lung Cancer",
+              "status": "suspected",
+              "onset_date": "2021-06-13"
+            }
+          ]
+        }
+      }
+    },
+    {
+      "id": "N4",
+      "label": "Step 4",
+      "customData": {
+        "node_id": "D",
+        "node_step_index": 3,
+        "content": "Patient was hospitalized on June 16, 2021.",
+        "timestamp": "2021-06-16",
+        "clinical_data": {
+          "procedures": [
+            {
+              "name": "Hospitalization",
+              "date": "2021-06-16"
+            }
+          ]
+        }
+      }
+    },
+    {
+      "id": "N5",
+      "label": "Step 5",
+      "customData": {
+        "node_id": "E",
+        "node_step_index": 4,
+        "content": "Chest CT on June 17, 2021, showed a 19\u00d716\u00d730 mm nodular shadow in the anterior segment of the upper lobe of the right lung, adjacent pleural involvement, and multiple enlarged lymph nodes at 2R and 4R/L in the right hilar and mediastinum.",
+        "timestamp": "2021-06-17",
+        "clinical_data": {
+          "imaging": [
+            {
+              "type": "nodular shadow",
+              "body_part": "upper lobe of the right lung",
+              "modality": "CT",
+              "finding": "19\u00d716\u00d730 mm nodular shadow in the anterior segment of the upper lobe of the right lung, adjacent pleural involvement, and multiple enlarged lymph nodes at 2R and 4R/L in the right hilar and mediastinum",
+              "date": "2021-06-17"
+            }
+          ]
+        }
+      }
+    },
+    {
+      "id": "N6",
+      "label": "Step 6",
+      "customData": {
+        "node_id": "F",
+        "node_step_index": 5,
+        "content": "On June 21, 2021, lymph nodes were enlarged to 21 mm, narrowing the superior vena cava lumen, suggesting lymph node metastasis. Ultrasonic bronchoscopy revealed multiple hypoechoic masses in the 4R, 4L, and 7 areas of the mediastinum, right hilar (10R) and right interlobular (11R). The largest lesion was in area 4R, measuring 20.4\u00d730.6 mm. Metastatic lymph node of 4R region (the largest short lymph nodes is 20.4\u00d730.6 mm). Metastatic lymph node of 11R region (the largest short lymph nodes is 12.9\u00d721.6 mm) with blood flow signal.",
+        "timestamp": "2021-06-21",
+        "clinical_data": {
+          "imaging": [
+            {
+              "type": "Lymph node",
+              "body_part": "Mediastinum",
+              "modality": "Ultrasonic bronchoscopy",
+              "finding": "Multiple hypoechoic masses in the 4R, 4L, and 7 areas",
+              "impression": "Metastatic lymph node",
+              "date": "2021-06-21"
+            },
+            {
+              "type": "Lymph node",
+              "body_part": "Right hilar",
+              "modality": "Ultrasonic bronchoscopy",
+              "finding": "Multiple hypoechoic masses in the 10R area",
+              "impression": "Metastatic lymph node",
+              "date": "2021-06-21"
+            },
+            {
+              "type": "Lymph node",
+              "body_part": "Right interlobular",
+              "modality": "Ultrasonic bronchoscopy",
+              "finding": "Multiple hypoechoic masses in the 11R area",
+              "impression": "Metastatic lymph node",
+              "date": "2021-06-21"
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "edges": [
+    {
+      "from": "N1",
+      "to": "N2",
+      "data": {
+        "edge_id": "A_to_B",
+        "branch_flag": true,
+        "content": "Initial presentation with cough and expectoration led to a chest CT.",
+        "transition_event": {
+          "trigger_type": "symptom_onset",
+          "trigger_entities": [
+            "C0010200",
+            "C0015912"
+          ],
+          "change_type": "other",
+          "target_domain": "imaging",
+          "timestamp": "2020-11-18T00:00:00Z"
+        }
+      }
+    },
+    {
+      "from": "N2",
+      "to": "N3",
+      "data": {
+        "edge_id": "B_to_C",
+        "branch_flag": true,
+        "content": "Follow-up visit due to persistent symptoms, revealing progression on chest CT.",
+        "transition_event": {
+          "trigger_type": "spontaneous",
+          "change_type": "progression",
+          "target_domain": "imaging",
+          "timestamp": "2021-06-13T00:00:00Z"
+        }
+      }
+    },
+    {
+      "from": "N3",
+      "to": "N4",
+      "data": {
+        "edge_id": "C_to_D",
+        "branch_flag": true,
+        "content": "Suspicion of lung cancer led to hospitalization.",
+        "transition_event": {
+          "trigger_type": "interpretation",
+          "trigger_entities": [
+            "C0242398"
+          ],
+          "change_type": "other",
+          "target_domain": "procedure",
+          "timestamp": "2021-06-16T00:00:00Z"
+        }
+      }
+    },
+    {
+      "from": "N4",
+      "to": "N5",
+      "data": {
+        "edge_id": "D_to_E",
+        "branch_flag": true,
+        "content": "Further chest CT imaging during hospitalization to characterize the lung lesion.",
+        "transition_event": {
+          "trigger_type": "procedure",
+          "trigger_entities": [
+            "Hospitalization"
+          ],
+          "change_type": "other",
+          "target_domain": "imaging",
+          "timestamp": "2021-06-17T00:00:00Z"
+        }
+      }
+    },
+    {
+      "from": "N5",
+      "to": "N6",
+      "data": {
+        "edge_id": "E_to_F",
+        "branch_flag": true,
+        "content": "Imaging and bronchoscopy to assess lymph node involvement.",
+        "transition_event": {
+          "trigger_type": "imaging",
+          "change_type": "progression",
+          "target_domain": "imaging",
+          "timestamp": "2021-06-21T00:00:00Z"
+        }
+      }
+    }
+  ]
+}

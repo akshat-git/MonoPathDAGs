@@ -1,0 +1,564 @@
+{
+  "nodes": [
+    {
+      "id": "N1",
+      "label": "Step 1",
+      "customData": {
+        "node_id": "A",
+        "node_step_index": 0,
+        "content": "In 2016, a 77-year-old man, former smoker, was diagnosed with prostate adenocarcinoma and treated with radiation therapy.",
+        "clinical_data": {
+          "diagnoses": [
+            {
+              "code": "C0033541",
+              "label": "Adenocarcinoma of prostate",
+              "status": "historical",
+              "onset_date": "2016"
+            }
+          ],
+          "social_history": [
+            {
+              "category": "smoking",
+              "status": "past",
+              "description": "former smoker"
+            }
+          ],
+          "procedures": [
+            {
+              "name": "C0036307",
+              "approach": "other",
+              "date": "2016",
+              "location": "prostate",
+              "performed_by": "unknown",
+              "outcome": "unknown"
+            }
+          ]
+        }
+      }
+    },
+    {
+      "id": "N2",
+      "label": "Step 2",
+      "customData": {
+        "node_id": "B",
+        "node_step_index": 1,
+        "content": "In May 2017, the patient's PSA increased to 5.9 ng/mL, leading to a radical prostatectomy and lymphadenectomy. Histological report indicated stage pT3b N1 Mx R1 prostate adenocarcinoma with a single lymph node metastasis. Adjuvant treatment with leuprorelin was initiated.",
+        "clinical_data": {
+          "labs": [
+            {
+              "test": "C0033043",
+              "value": "5.9",
+              "unit": "ng/mL",
+              "timestamp": "2017-05"
+            }
+          ],
+          "procedures": [
+            {
+              "name": "C0162649",
+              "date": "2017-05",
+              "outcome": "C0033544"
+            },
+            {
+              "name": "C0347444",
+              "date": "2017-05"
+            }
+          ],
+          "diagnoses": [
+            {
+              "code": "C0678272",
+              "label": "adenocarcinoma of prostate",
+              "status": "active"
+            },
+            {
+              "code": "C0282607",
+              "label": "lymph node metastasis",
+              "status": "active"
+            }
+          ],
+          "medications": [
+            {
+              "drug": "C0023529",
+              "start_date": "2017-05"
+            }
+          ]
+        }
+      }
+    },
+    {
+      "id": "N3",
+      "label": "Step 3",
+      "customData": {
+        "node_id": "C",
+        "node_step_index": 2,
+        "content": "Patient admitted to the emergency room for acute respiratory distress.",
+        "clinical_data": {
+          "HPI": [
+            {
+              "summary": "Patient admitted to the emergency room for acute respiratory distress."
+            }
+          ],
+          "diagnoses": [
+            {
+              "code": "57254006",
+              "label": "Respiratory distress",
+              "status": "active"
+            }
+          ]
+        }
+      }
+    },
+    {
+      "id": "N4",
+      "label": "Step 4",
+      "customData": {
+        "node_id": "D",
+        "node_step_index": 3,
+        "content": "CT scan showed left pleural effusion, thickening, and nodules of the pleural surface, several mediastinal lymph node metastases, and a bone metastasis in the IX left rib.",
+        "clinical_data": {
+          "imaging": [
+            {
+              "type": "CT scan",
+              "body_part": "pleural surface",
+              "modality": "CT",
+              "finding": "left pleural effusion, thickening, and nodules of the pleural surface",
+              "date": null
+            },
+            {
+              "type": "CT scan",
+              "body_part": "mediastinal lymph node",
+              "modality": "CT",
+              "finding": "several mediastinal lymph node metastases",
+              "date": null
+            },
+            {
+              "type": "CT scan",
+              "body_part": "IX left rib",
+              "modality": "CT",
+              "finding": "bone metastasis in the IX left rib",
+              "date": null
+            }
+          ]
+        }
+      }
+    },
+    {
+      "id": "N5",
+      "label": "Step 5",
+      "customData": {
+        "node_id": "E",
+        "node_step_index": 4,
+        "content": "Pleural effusion cytology came back negative for malignancy.",
+        "clinical_data": {
+          "labs": [
+            {
+              "test": "Pleural fluid cytology",
+              "value": "negative",
+              "finding": "Malignant neoplastic disease (finding)",
+              "UMLS_CUI": "C0024685"
+            }
+          ]
+        }
+      }
+    },
+    {
+      "id": "N6",
+      "label": "Step 6",
+      "customData": {
+        "node_id": "F",
+        "node_step_index": 5,
+        "content": "Ultrasound-guided bone biopsy of the lesion at the IX rib level was carried out.",
+        "clinical_data": {
+          "procedures": [
+            {
+              "name": "Bone biopsy",
+              "approach": "percutaneous",
+              "location": "IX rib",
+              "modality": "Ultrasound",
+              "date": null
+            }
+          ]
+        }
+      }
+    },
+    {
+      "id": "N7",
+      "label": "Step 7",
+      "customData": {
+        "node_id": "G",
+        "node_step_index": 6,
+        "content": "Histology of the bone biopsy revealed malignant cells with adenocarcinoma aggregation. Immunohistochemistry showed the cancer cells were highly immunoreactive for TTF-1 and BerEP4 and negative for the prostatic markers NKX3.1 and PSA, leading to a diagnosis of lung adenocarcinoma.",
+        "clinical_data": {
+          "diagnoses": [
+            {
+              "code": "C34",
+              "label": "Lung cancer",
+              "status": "active"
+            },
+            {
+              "code": "8140/3",
+              "label": "Adenocarcinoma",
+              "status": "active"
+            }
+          ],
+          "imaging": [
+            {
+              "type": "Biopsy",
+              "body_part": "Bone",
+              "modality": "other",
+              "finding": "Malignant cells with adenocarcinoma aggregation",
+              "impression": "Lung adenocarcinoma"
+            }
+          ]
+        }
+      }
+    },
+    {
+      "id": "N8",
+      "label": "Step 8",
+      "customData": {
+        "node_id": "H",
+        "node_step_index": 7,
+        "content": "CT scans of the lung lesions after chemotherapy with carboplatin and pemetrexed showed significant response to therapy of mediastinal, pleural, and lung lesions.",
+        "clinical_data": {
+          "imaging": [
+            {
+              "type": "Lesion of lung",
+              "body_part": "Lung",
+              "modality": "CT",
+              "finding": "Significant response to therapy of mediastinal, pleural, and lung lesions",
+              "date": null
+            }
+          ],
+          "medications": [
+            {
+              "drug": "carboplatin",
+              "dosage": null,
+              "frequency": null,
+              "modality": null,
+              "start_date": null,
+              "end_date": null,
+              "indication": "Lesion of lung"
+            },
+            {
+              "drug": "pemetrexed",
+              "dosage": null,
+              "frequency": null,
+              "modality": null,
+              "start_date": null,
+              "end_date": null,
+              "indication": "Lesion of lung"
+            }
+          ]
+        }
+      }
+    },
+    {
+      "id": "N9",
+      "label": "Step 9",
+      "customData": {
+        "node_id": "I",
+        "node_step_index": 8,
+        "content": "Next-generation sequencing (NGS) profiling of the rib lesion revealed the TMPRSS2:ERG fusion as a unique alteration. The prostate cancer tissue was positive for the prostate immunohistochemical markers (NKX3.1, PSA) and negative for the lung markers (TTF-1, BerEP4) but harbored the TMPRSS2:ERG fusion as the only molecular alteration.",
+        "clinical_data": {
+          "imaging": [
+            {
+              "body_part": "T-0003847",
+              "modality": "other",
+              "finding": "TMPRSS2:ERG fusion",
+              "type": "Next-generation sequencing",
+              "impression": "TMPRSS2:ERG fusion"
+            }
+          ],
+          "diagnoses": [
+            {
+              "code": "C0036033",
+              "label": "Prostate Cancer",
+              "status": "active"
+            }
+          ]
+        }
+      }
+    },
+    {
+      "id": "N10",
+      "label": "Step 10",
+      "customData": {
+        "node_id": "J",
+        "node_step_index": 9,
+        "content": "August 2019: The patient's serum PSA increased to 2.3 ng/mL. Multiple pleural biopsies were performed to exclude concomitant lung cancer and prostate cancer metastases. Histological diagnosis revealed a poorly differentiated adenocarcinoma positive for the lung markers TTF-1 and CK7 and negative for the prostatic markers (PSA and NKX3.1).",
+        "clinical_data": {
+          "labs": [
+            {
+              "test": "Serum prostate-specific antigen",
+              "value": "2.3",
+              "unit": "ng/mL",
+              "timestamp": "2019-08"
+            }
+          ],
+          "procedures": [
+            {
+              "name": "Biopsy of pleura",
+              "date": "2019-08",
+              "approach": "other"
+            }
+          ],
+          "diagnoses": [
+            {
+              "code": "C44190",
+              "label": "Poorly differentiated adenocarcinoma",
+              "status": "active"
+            }
+          ]
+        }
+      }
+    },
+    {
+      "id": "N11",
+      "label": "Step 11",
+      "customData": {
+        "node_id": "K",
+        "node_step_index": 10,
+        "content": "Patient started on first-line therapy with enzalutamide.",
+        "clinical_data": {
+          "medications": [
+            {
+              "drug": "C1024841",
+              "dosage": null,
+              "frequency": null,
+              "modality": null,
+              "start_date": null,
+              "end_date": null,
+              "indication": null
+            }
+          ]
+        }
+      }
+    },
+    {
+      "id": "N12",
+      "label": "Step 12",
+      "customData": {
+        "node_id": "L",
+        "node_step_index": 11,
+        "content": "January 2020: Patient admitted to the thoracic surgery ward due to recurrent pleural effusion and respiratory failure. Talc pleurodesis was performed.",
+        "clinical_data": {
+          "diagnoses": [
+            {
+              "code": "54575003",
+              "label": "Pleural effusion",
+              "status": "active",
+              "onset_date": "2020-01"
+            },
+            {
+              "code": "267036007",
+              "label": "Respiratory failure",
+              "status": "active",
+              "onset_date": "2020-01"
+            }
+          ],
+          "procedures": [
+            {
+              "name": "429836007",
+              "approach": "other",
+              "date": "2020-01",
+              "location": "Pleural cavity",
+              "performed_by": "Thoracic surgeon",
+              "outcome": "unknown"
+            }
+          ]
+        }
+      }
+    },
+    {
+      "id": "N13",
+      "label": "Step 13",
+      "customData": {
+        "node_id": "M",
+        "node_step_index": 12,
+        "content": "January 2020: CT scan showed progressive disease with several pleural metastases and bone metastases of the IX and V left ribs with muscular infiltration. PSA level of 1 ng/mL.",
+        "clinical_data": {
+          "imaging": [
+            {
+              "type": "CT scan",
+              "body_part": "pleura",
+              "modality": "CT",
+              "finding": "progressive disease with several pleural metastases",
+              "date": "2020-01"
+            },
+            {
+              "type": "CT scan",
+              "body_part": "rib",
+              "modality": "CT",
+              "finding": "bone metastases of the IX and V left ribs with muscular infiltration",
+              "date": "2020-01"
+            }
+          ],
+          "labs": [
+            {
+              "test": "Prostate-specific antigen measurement",
+              "value": "1",
+              "unit": "ng/mL",
+              "timestamp": "2020-01"
+            }
+          ]
+        }
+      }
+    },
+    {
+      "id": "N14",
+      "label": "Step 14",
+      "customData": {
+        "node_id": "N",
+        "node_step_index": 13,
+        "content": "February 2020: CT-guided pleural biopsy revealed a papillary poorly differentiated adenocarcinoma",
+        "clinical_data": {
+          "imaging": [
+            {
+              "type": "Computed tomography",
+              "body_part": "Pleura",
+              "modality": "CT",
+              "date": "2020-02"
+            }
+          ],
+          "procedures": [
+            {
+              "name": "Biopsy",
+              "approach": "percutaneous",
+              "date": "2020-02",
+              "location": "Pleura",
+              "performed_by": "radiologist",
+              "outcome": "papillary poorly differentiated adenocarcinoma"
+            }
+          ],
+          "diagnoses": [
+            {
+              "code": "C83.9",
+              "label": "Papillary poorly differentiated adenocarcinoma",
+              "status": "active",
+              "onset_date": "2020-02"
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "edges": [
+    {
+      "from": "N1",
+      "to": "N2",
+      "data": {
+        "edge_id": "A_to_B",
+        "branch_flag": true,
+        "content": "PSA increased, leading to radical prostatectomy and lymphadenectomy. Adjuvant treatment with leuprorelin was initiated."
+      }
+    },
+    {
+      "from": "N2",
+      "to": "N3",
+      "data": {
+        "edge_id": "B_to_C",
+        "branch_flag": true,
+        "content": "Patient admitted to the emergency room for acute respiratory distress."
+      }
+    },
+    {
+      "from": "N3",
+      "to": "N4",
+      "data": {
+        "edge_id": "C_to_D",
+        "branch_flag": true,
+        "content": "CT scan showed left pleural effusion, thickening, and nodules of the pleural surface, several mediastinal lymph node metastases, and a bone metastasis in the IX left rib."
+      }
+    },
+    {
+      "from": "N4",
+      "to": "N5",
+      "data": {
+        "edge_id": "D_to_E",
+        "branch_flag": true,
+        "content": "Pleural effusion cytology came back negative for malignancy."
+      }
+    },
+    {
+      "from": "N5",
+      "to": "N6",
+      "data": {
+        "edge_id": "E_to_F",
+        "branch_flag": true,
+        "content": "Ultrasound-guided bone biopsy of the lesion at the IX rib level was carried out."
+      }
+    },
+    {
+      "from": "N6",
+      "to": "N7",
+      "data": {
+        "edge_id": "F_to_G",
+        "branch_flag": true,
+        "content": "Histology of the bone biopsy revealed malignant cells with adenocarcinoma aggregation. Immunohistochemistry showed the cancer cells were highly immunoreactive for TTF-1 and BerEP4 and negative for the prostatic markers NKX3.1 and PSA, leading to a diagnosis of lung adenocarcinoma."
+      }
+    },
+    {
+      "from": "N7",
+      "to": "N8",
+      "data": {
+        "edge_id": "G_to_H",
+        "branch_flag": true,
+        "content": "CT scans of the lung lesions after chemotherapy with carboplatin and pemetrexed showed significant response to therapy of mediastinal, pleural, and lung lesions."
+      }
+    },
+    {
+      "from": "N8",
+      "to": "N9",
+      "data": {
+        "edge_id": "H_to_I",
+        "branch_flag": true,
+        "content": "Next-generation sequencing (NGS) profiling of the rib lesion revealed the TMPRSS2:ERG fusion as a unique alteration. The prostate cancer tissue was positive for the prostate immunohistochemical markers (NKX3.1, PSA) and negative for the lung markers (TTF-1, BerEP4) but harbored the TMPRSS2:ERG fusion as the only molecular alteration."
+      }
+    },
+    {
+      "from": "N9",
+      "to": "N10",
+      "data": {
+        "edge_id": "I_to_J",
+        "branch_flag": true,
+        "content": "August 2019: The patient's serum PSA increased to 2.3 ng/mL. Multiple pleural biopsies were performed to exclude concomitant lung cancer and prostate cancer metastases. Histological diagnosis revealed a poorly differentiated adenocarcinoma positive for the lung markers TTF-1 and CK7 and negative for the prostatic markers (PSA and NKX3.1)."
+      }
+    },
+    {
+      "from": "N10",
+      "to": "N11",
+      "data": {
+        "edge_id": "J_to_K",
+        "branch_flag": true,
+        "content": "Patient started on first-line therapy with enzalutamide."
+      }
+    },
+    {
+      "from": "N11",
+      "to": "N12",
+      "data": {
+        "edge_id": "K_to_L",
+        "branch_flag": true,
+        "content": "January 2020: Patient admitted to the thoracic surgery ward due to recurrent pleural effusion and respiratory failure. Talc pleurodesis was performed."
+      }
+    },
+    {
+      "from": "N12",
+      "to": "N13",
+      "data": {
+        "edge_id": "L_to_M",
+        "branch_flag": true,
+        "content": "January 2020: CT scan showed progressive disease with several pleural metastases and bone metastases of the IX and V left ribs with muscular infiltration. PSA level of 1 ng/mL."
+      }
+    },
+    {
+      "from": "N13",
+      "to": "N14",
+      "data": {
+        "edge_id": "M_to_N",
+        "branch_flag": true,
+        "content": "February 2020: CT-guided pleural biopsy revealed a papillary poorly differentiated adenocarcinoma"
+      }
+    }
+  ]
+}

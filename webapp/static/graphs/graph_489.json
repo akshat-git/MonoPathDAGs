@@ -1,0 +1,382 @@
+{
+  "nodes": [
+    {
+      "id": "N1",
+      "label": "Step 1",
+      "customData": {
+        "node_id": "A",
+        "node_step_index": 0,
+        "content": "71-year-old woman with hypertension, dyslipidemia, and cataracts underwent right lower lobectomy and mediastinal lymph node dissection and was diagnosed with pathological T2aN0M0 stage IB lung adenocarcinoma.",
+        "clinical_data": {
+          "diagnoses": [
+            {
+              "code": "C34.3",
+              "label": "Malignant neoplasm of lower lobe, bronchus or lung",
+              "status": "active",
+              "onset_date": null
+            },
+            {
+              "code": "I10",
+              "label": "Essential (primary) hypertension",
+              "status": "active",
+              "onset_date": null
+            },
+            {
+              "code": "E78.9",
+              "label": "Disorder of lipid metabolism, unspecified",
+              "status": "active",
+              "onset_date": null
+            },
+            {
+              "code": "H26.9",
+              "label": "Cataract, unspecified",
+              "status": "active",
+              "onset_date": null
+            }
+          ],
+          "procedures": [
+            {
+              "name": "Lobectomy",
+              "approach": "open",
+              "date": null,
+              "location": "Right lower lobe of lung",
+              "performed_by": null,
+              "outcome": null
+            },
+            {
+              "name": "Lymph node dissection",
+              "approach": "open",
+              "date": null,
+              "location": "Mediastinum",
+              "performed_by": null,
+              "outcome": null
+            }
+          ]
+        }
+      }
+    },
+    {
+      "id": "N2",
+      "label": "Step 2",
+      "customData": {
+        "node_id": "B",
+        "node_step_index": 1,
+        "content": "Approximately one year later, CT revealed enlargement of the right hilar and multiple mediastinal lymph nodes.",
+        "clinical_data": {
+          "imaging": [
+            {
+              "type": "Computed tomography",
+              "body_part": "Mediastinum",
+              "modality": "CT",
+              "finding": "enlargement of the right hilar and multiple mediastinal lymph nodes",
+              "date": null
+            }
+          ]
+        }
+      }
+    },
+    {
+      "id": "N3",
+      "label": "Step 3",
+      "customData": {
+        "node_id": "C",
+        "node_step_index": 2,
+        "content": "Endobronchial ultrasound-guided transbronchial needle aspiration of the mediastinal lymph node confirmed adenocarcinoma.",
+        "clinical_data": {
+          "procedures": [
+            {
+              "name": "Endobronchial ultrasound-guided transbronchial needle aspiration",
+              "approach": "endoscopic",
+              "location": "mediastinal lymph node",
+              "outcome": "adenocarcinoma"
+            }
+          ],
+          "diagnoses": [
+            {
+              "code": "C4_Lymph_Node",
+              "label": "Adenocarcinoma",
+              "status": "active"
+            }
+          ]
+        }
+      }
+    },
+    {
+      "id": "N4",
+      "label": "Step 4",
+      "customData": {
+        "node_id": "D",
+        "node_step_index": 3,
+        "content": "Primary lung tumor and recurrent mediastinal lymph node exhibited exon21 L858R mutation by cobas\u00aeEGFR Mutation Test v2 and PD-L1 tumor proportion score of \u226550% (evaluated using PD-L1 IHC 22C3 pharmDx KIT).",
+        "clinical_data": {
+          "diagnoses": [
+            {
+              "code": "C34",
+              "label": "Primary lung tumor",
+              "status": "active"
+            }
+          ],
+          "labs": [
+            {
+              "test": "cobas\u00aeEGFR Mutation Test v2",
+              "value": "exon21 L858R mutation",
+              "unit": null,
+              "flag": "abnormal"
+            }
+          ],
+          "imaging": [
+            {
+              "type": "Lymph node",
+              "body_part": "Mediastinal",
+              "modality": null,
+              "finding": "recurrent",
+              "impression": null
+            }
+          ]
+        }
+      }
+    },
+    {
+      "id": "N5",
+      "label": "Step 5",
+      "customData": {
+        "node_id": "E",
+        "node_step_index": 4,
+        "content": "Diagnosis of postoperative local recurrence, and treatment with osimertinib (80 mg/day) was initiated owing to reluctance to undergo radiotherapy because of concerns about adverse events.",
+        "clinical_data": {
+          "diagnoses": [
+            {
+              "code": "http://purl.bioontology.org/ontology/ICD10/C79.81",
+              "label": "Secondary malignant neoplasm of bone and bone marrow",
+              "status": "active"
+            }
+          ],
+          "medications": [
+            {
+              "drug": "C1706147",
+              "dosage": "80 mg/day",
+              "frequency": "daily",
+              "modality": "oral",
+              "start_date": null,
+              "end_date": null,
+              "indication": "http://purl.bioontology.org/ontology/ICD10/C79.81"
+            }
+          ]
+        }
+      }
+    },
+    {
+      "id": "N6",
+      "label": "Step 6",
+      "customData": {
+        "node_id": "F",
+        "node_step_index": 5,
+        "content": "Chest computed tomography shows enlargement of multiple mediastinal lymph nodes at postoperative recurrence. After administration of osimertinib, the #2R and #7 lymph nodes increased in size from 15 mm to 18 mm.",
+        "clinical_data": {
+          "imaging": [
+            {
+              "type": "Computed tomography of chest",
+              "body_part": "Mediastinum",
+              "modality": "CT",
+              "finding": "Enlargement of multiple mediastinal lymph nodes",
+              "impression": "Postoperative recurrence",
+              "date": null
+            }
+          ],
+          "medications": [
+            {
+              "drug": "Osimertinib",
+              "dosage": null,
+              "frequency": null,
+              "modality": null,
+              "start_date": null,
+              "end_date": null,
+              "indication": null
+            }
+          ],
+          "diagnoses": [
+            {
+              "code": null,
+              "label": "Postoperative recurrence",
+              "status": "active",
+              "onset_date": null
+            }
+          ]
+        }
+      }
+    },
+    {
+      "id": "N7",
+      "label": "Step 7",
+      "customData": {
+        "node_id": "G",
+        "node_step_index": 6,
+        "content": "Eight weeks after osimertinib initiation, significant enlargement of the right hilar and multiple mediastinal lymph nodes was observed, indicating disease progression.",
+        "clinical_data": {
+          "imaging": [
+            {
+              "body_part": "Mediastinum (T018620)",
+              "finding": "Enlargement of lymph nodes",
+              "date": null
+            }
+          ],
+          "diagnoses": [
+            {
+              "code": null,
+              "label": "Disease progression",
+              "status": "active",
+              "onset_date": null
+            }
+          ]
+        }
+      }
+    },
+    {
+      "id": "N8",
+      "label": "Step 8",
+      "customData": {
+        "node_id": "H",
+        "node_step_index": 7,
+        "content": "Patient received pembrolizumab at a dose of 200 mg every 3 weeks.",
+        "clinical_data": {
+          "medications": [
+            {
+              "drug": "C1874297",
+              "dosage": "200 mg",
+              "frequency": "every 3 weeks",
+              "modality": "IV"
+            }
+          ]
+        }
+      }
+    },
+    {
+      "id": "N9",
+      "label": "Step 9",
+      "customData": {
+        "node_id": "I",
+        "node_step_index": 8,
+        "content": "After two cycles of pembrolizumab treatment, CT showed remarkable shrinkage of the mediastinal lymph nodes, and a complete response (CR) was achieved.",
+        "clinical_data": {
+          "imaging": [
+            {
+              "modality": "CT",
+              "body_part": "Mediastinal Lymph Nodes",
+              "finding": "shrinkage",
+              "date": null
+            }
+          ],
+          "medications": [
+            {
+              "drug": "pembrolizumab",
+              "dosage": null,
+              "frequency": null,
+              "modality": null,
+              "start_date": null,
+              "end_date": null,
+              "indication": null
+            }
+          ],
+          "diagnoses": [
+            {
+              "code": null,
+              "label": "complete response",
+              "status": "resolved",
+              "onset_date": null
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "edges": [
+    {
+      "from": "N1",
+      "to": "N2",
+      "data": {
+        "edge_id": "A_to_B",
+        "branch_flag": true,
+        "content": "One year after lobectomy and mediastinal lymph node dissection, CT revealed enlargement of the right hilar and multiple mediastinal lymph nodes."
+      }
+    },
+    {
+      "from": "N2",
+      "to": "N3",
+      "data": {
+        "edge_id": "B_to_C",
+        "branch_flag": true,
+        "content": "Endobronchial ultrasound-guided transbronchial needle aspiration of the mediastinal lymph node."
+      }
+    },
+    {
+      "from": "N3",
+      "to": "N4",
+      "data": {
+        "edge_id": "C_to_D",
+        "branch_flag": true,
+        "content": "Analysis of primary lung tumor and recurrent mediastinal lymph node."
+      }
+    },
+    {
+      "from": "N4",
+      "to": "N5",
+      "data": {
+        "edge_id": "D_to_E",
+        "branch_flag": true,
+        "content": "Diagnosis of postoperative local recurrence.",
+        "transition_event": {
+          "trigger_type": "medication_change",
+          "trigger_entities": [
+            "C1706147"
+          ],
+          "change_type": "addition",
+          "target_domain": "medication"
+        }
+      }
+    },
+    {
+      "from": "N5",
+      "to": "N6",
+      "data": {
+        "edge_id": "E_to_F",
+        "branch_flag": true,
+        "content": "Chest computed tomography shows enlargement of multiple mediastinal lymph nodes at postoperative recurrence. After administration of osimertinib, the #2R and #7 lymph nodes increased in size from 15 mm to 18 mm."
+      }
+    },
+    {
+      "from": "N6",
+      "to": "N7",
+      "data": {
+        "edge_id": "F_to_G",
+        "branch_flag": true,
+        "content": "Eight weeks after osimertinib initiation, significant enlargement of the right hilar and multiple mediastinal lymph nodes was observed, indicating disease progression."
+      }
+    },
+    {
+      "from": "N7",
+      "to": "N8",
+      "data": {
+        "edge_id": "G_to_H",
+        "branch_flag": true,
+        "content": "Treatment with pembrolizumab was initiated.",
+        "transition_event": {
+          "trigger_type": "medication_change",
+          "trigger_entities": [
+            "C1874297"
+          ],
+          "change_type": "addition",
+          "target_domain": "medication"
+        }
+      }
+    },
+    {
+      "from": "N8",
+      "to": "N9",
+      "data": {
+        "edge_id": "H_to_I",
+        "branch_flag": true,
+        "content": "After two cycles of pembrolizumab treatment, CT showed remarkable shrinkage of the mediastinal lymph nodes, and a complete response (CR) was achieved."
+      }
+    }
+  ]
+}

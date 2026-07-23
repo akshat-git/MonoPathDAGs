@@ -1,0 +1,259 @@
+{
+  "nodes": [
+    {
+      "id": "N1",
+      "label": "Step 1",
+      "customData": {
+        "node_id": "A",
+        "node_step_index": 0,
+        "content": "55-year-old male presented with lower urinary tract symptoms and hematuria. Medical history includes nephrolithiasis.",
+        "clinical_data": {
+          "HPI": [
+            {
+              "summary": "55-year-old male presented with lower urinary tract symptoms and hematuria.",
+              "associated_symptoms": [
+                "hematuria"
+              ]
+            }
+          ],
+          "diagnoses": [
+            {
+              "code": "UMLS:C0027732",
+              "label": "Nephrolithiasis",
+              "status": "historical"
+            }
+          ]
+        }
+      }
+    },
+    {
+      "id": "N2",
+      "label": "Step 2",
+      "customData": {
+        "node_id": "B",
+        "node_step_index": 1,
+        "content": "CT scan identified a 6.4 x 7.0 x 6.7 cm fungating mass arising from the floor of the bladder and involving the ureterovesical junction bilaterally, resulting in hydronephrosis and likely muscle invasion, but no evidence of regional or distant metastatic disease.",
+        "clinical_data": {
+          "imaging": [
+            {
+              "type": "Computed tomography",
+              "body_part": "Urinary bladder",
+              "modality": "CT",
+              "finding": "6.4 x 7.0 x 6.7 cm fungating mass arising from the floor of the bladder and involving the ureterovesical junction bilaterally, resulting in hydronephrosis and likely muscle invasion, but no evidence of regional or distant metastatic disease.",
+              "impression": "Mass in bladder with hydronephrosis",
+              "date": null
+            }
+          ]
+        }
+      }
+    },
+    {
+      "id": "N3",
+      "label": "Step 3",
+      "customData": {
+        "node_id": "C",
+        "node_step_index": 2,
+        "content": "Underwent transurethral resection of bladder tumor (TURBT), which showed pT1 high grade urothelial carcinoma.",
+        "clinical_data": {
+          "procedures": [
+            {
+              "name": "Transurethral resection of bladder tumor",
+              "approach": "endoscopic",
+              "date": null,
+              "location": "bladder",
+              "performed_by": null,
+              "outcome": null
+            }
+          ],
+          "diagnoses": [
+            {
+              "code": null,
+              "label": "pT1 high grade urothelial carcinoma",
+              "status": "active",
+              "onset_date": null
+            }
+          ]
+        }
+      }
+    },
+    {
+      "id": "N4",
+      "label": "Step 4",
+      "customData": {
+        "node_id": "D",
+        "node_step_index": 3,
+        "content": "Underwent a radical cystectomy with ileal conduit. Final pathology confirmed the initial TURBT pathology: high grade pT1 urothelial carcinoma, with lymphovascular invasion, no lymph node involvement, and negative resection margins. Incidental Gleason 3 + 3 = 6 prostatic adenocarcinoma was also detected.",
+        "clinical_data": {
+          "procedures": [
+            {
+              "name": "Radical cystectomy",
+              "approach": "open",
+              "date": null,
+              "location": null,
+              "performed_by": null,
+              "outcome": null
+            },
+            {
+              "name": "Transurethral resection of bladder tumor",
+              "approach": "endoscopic",
+              "date": null,
+              "location": "bladder",
+              "performed_by": null,
+              "outcome": null
+            }
+          ],
+          "diagnoses": [
+            {
+              "code": "C0376334",
+              "label": "Urothelial carcinoma",
+              "status": "active",
+              "onset_date": null
+            },
+            {
+              "code": "C0001757",
+              "label": "Adenocarcinoma of prostate",
+              "status": "active",
+              "onset_date": null
+            }
+          ]
+        }
+      }
+    },
+    {
+      "id": "N5",
+      "label": "Step 5",
+      "customData": {
+        "node_id": "E",
+        "node_step_index": 4,
+        "content": "Remained disease-free until 4 years later, when he re-presented with right-sided flank pain.",
+        "clinical_data": {
+          "HPI": [
+            {
+              "summary": "Right-sided flank pain",
+              "onset": "4 years after being disease-free"
+            }
+          ]
+        }
+      }
+    },
+    {
+      "id": "N6",
+      "label": "Step 6",
+      "customData": {
+        "node_id": "F",
+        "node_step_index": 5,
+        "content": "New findings include a 4.6 x 4.3 cm left adrenal gland mass, a 4.7 cm mass in the right middle lobe of the lung, two liver lesions, a 5.7 x 4.0 x 3.5 cm soft tissue mass at L1 with impingement of the spinal cord, and widespread bony metastases.",
+        "clinical_data": {
+          "imaging": [
+            {
+              "type": "Mass",
+              "body_part": "Left adrenal gland",
+              "modality": "CT",
+              "finding": "4.6 x 4.3 cm mass",
+              "date": null
+            },
+            {
+              "type": "Mass",
+              "body_part": "Right middle lobe of the lung",
+              "modality": "CT",
+              "finding": "4.7 cm mass",
+              "date": null
+            },
+            {
+              "type": "Lesion",
+              "body_part": "Liver",
+              "modality": "CT",
+              "finding": "Two liver lesions",
+              "date": null
+            },
+            {
+              "type": "Mass",
+              "body_part": "L1",
+              "modality": "CT",
+              "finding": "5.7 x 4.0 x 3.5 cm soft tissue mass with impingement of the spinal cord",
+              "date": null
+            },
+            {
+              "type": "Metastasis",
+              "body_part": "Bone",
+              "modality": "CT",
+              "finding": "Widespread bony metastases",
+              "date": null
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "edges": [
+    {
+      "from": "N1",
+      "to": "N2",
+      "data": {
+        "edge_id": "A_to_B",
+        "branch_flag": true,
+        "content": "Patient progressed from initial presentation of lower urinary tract symptoms and hematuria to identification of a bladder mass on CT scan."
+      }
+    },
+    {
+      "from": "N2",
+      "to": "N3",
+      "data": {
+        "edge_id": "B_to_C",
+        "branch_flag": true,
+        "content": "Patient underwent transurethral resection of bladder tumor (TURBT) after identification of bladder mass on CT scan.",
+        "transition_event": {
+          "trigger_type": "procedure",
+          "trigger_entities": [
+            "C0263489"
+          ],
+          "change_type": "other",
+          "target_domain": "procedure"
+        }
+      }
+    },
+    {
+      "from": "N3",
+      "to": "N4",
+      "data": {
+        "edge_id": "C_to_D",
+        "branch_flag": true,
+        "content": "Patient underwent radical cystectomy with ileal conduit after TURBT revealed pT1 high grade urothelial carcinoma.",
+        "transition_event": {
+          "trigger_type": "procedure",
+          "trigger_entities": [
+            "C0152088"
+          ],
+          "change_type": "addition",
+          "target_domain": "procedure"
+        }
+      }
+    },
+    {
+      "from": "N4",
+      "to": "N5",
+      "data": {
+        "edge_id": "D_to_E",
+        "branch_flag": true,
+        "content": "Patient remained disease-free for 4 years following radical cystectomy, then re-presented with right-sided flank pain."
+      }
+    },
+    {
+      "from": "N5",
+      "to": "N6",
+      "data": {
+        "edge_id": "E_to_F",
+        "branch_flag": true,
+        "content": "Patient's right-sided flank pain led to the discovery of new metastatic lesions in the adrenal gland, lung, liver, spine, and bone.",
+        "transition_event": {
+          "trigger_type": "symptom_onset",
+          "trigger_entities": [
+            "C0016263"
+          ],
+          "change_type": "progression",
+          "target_domain": "symptom"
+        }
+      }
+    }
+  ]
+}

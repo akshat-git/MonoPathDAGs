@@ -1,0 +1,297 @@
+{
+  "nodes": [
+    {
+      "id": "N1",
+      "label": "Step 1",
+      "customData": {
+        "node_id": "A",
+        "node_step_index": 0,
+        "content": "38-year-old man presented with a chronic recurrent dry cough over a month, denied fever, sputum or blood production and chest pain.",
+        "clinical_data": {
+          "HPI": [
+            {
+              "summary": "38-year-old man presented with a chronic recurrent dry cough over a month",
+              "duration": "P1M",
+              "associated_symptoms": [
+                "cough"
+              ],
+              "alleviating_factors": [],
+              "exacerbating_factors": []
+            }
+          ],
+          "ROS": [
+            {
+              "system": "respiratory",
+              "findings": [
+                "cough"
+              ]
+            },
+            {
+              "system": "constitutional",
+              "findings": [
+                "no fever"
+              ]
+            }
+          ]
+        }
+      },
+      "custom_id": "graph_062_N0"
+    },
+    {
+      "id": "N2",
+      "label": "Step 2",
+      "customData": {
+        "node_id": "B",
+        "node_step_index": 1,
+        "content": "Chest computed tomography (CT) revealed pulmonary masses at an external hospital.",
+        "clinical_data": {
+          "imaging": [
+            {
+              "type": "Pulmonary mass",
+              "body_part": "Lung",
+              "modality": "CT",
+              "finding": "Pulmonary masses",
+              "impression": "Pulmonary masses"
+            }
+          ]
+        }
+      },
+      "custom_id": "graph_062_N1"
+    },
+    {
+      "id": "N3",
+      "label": "Step 3",
+      "customData": {
+        "node_id": "C",
+        "node_step_index": 2,
+        "content": "Patient was admitted to the oncology department for further evaluation and treatment.",
+        "clinical_data": {
+          "departments": [
+            {
+              "department": "oncology department",
+              "reason": "further evaluation and treatment"
+            }
+          ]
+        }
+      },
+      "custom_id": "graph_062_N2"
+    },
+    {
+      "id": "N4",
+      "label": "Step 4",
+      "customData": {
+        "node_id": "D",
+        "node_step_index": 3,
+        "content": "Patient had no history of hypertension, coronary heart disease, diabetes, cerebral venous thrombosis or hemorrhage, tuberculosis, chronic hepatitis B virus infection and other diseases.",
+        "clinical_data": {
+          "diagnoses": [
+            {
+              "code": "C0020538",
+              "label": "Hypertension",
+              "status": "historical",
+              "onset_date": null
+            },
+            {
+              "code": "C0010068",
+              "label": "Coronary Heart Disease",
+              "status": "historical",
+              "onset_date": null
+            },
+            {
+              "code": "C0011849",
+              "label": "Diabetes Mellitus",
+              "status": "historical",
+              "onset_date": null
+            },
+            {
+              "code": "C0242082",
+              "label": "Cerebral Venous Thrombosis",
+              "status": "historical",
+              "onset_date": null
+            },
+            {
+              "code": "C0019604",
+              "label": "Hemorrhage",
+              "status": "historical",
+              "onset_date": null
+            },
+            {
+              "code": "C0041308",
+              "label": "Tuberculosis",
+              "status": "historical",
+              "onset_date": null
+            },
+            {
+              "code": "C0009450",
+              "label": "Chronic Hepatitis B",
+              "status": "historical",
+              "onset_date": null
+            }
+          ]
+        }
+      },
+      "custom_id": "graph_062_N3"
+    },
+    {
+      "id": "N5",
+      "label": "Step 5",
+      "customData": {
+        "node_id": "E",
+        "node_step_index": 4,
+        "content": "Vitals: Temperature 37.2 \u00b0C, pulse rate 118 bpm, respiratory rate 20 breaths/minute, blood pressure 106/69 mmHg. Labs: White blood cells 7.97 \u00d7 109/L, hemoglobin 142 g/L, platelets 287 \u00d7 109/L, neutrophil percentage 46.7%. Total prostate-specific antigen 5.77 ng/mL, cytokeratin 19 fragment 13.39 ng/mL, neuron-specific enolase 17.5 \u03bcg/L. Thyroid function, electrolytes, liver and kidney function, myocardial enzymes and inorganic ions were normal.",
+        "clinical_data": {
+          "vitals": [
+            {
+              "type": "Temperature",
+              "value": "37.2",
+              "unit": "\u00b0C"
+            },
+            {
+              "type": "Heart Rate",
+              "value": "118",
+              "unit": "bpm"
+            },
+            {
+              "type": "Respiratory Rate",
+              "value": "20",
+              "unit": "breaths/minute"
+            },
+            {
+              "type": "Blood Pressure",
+              "value": "106/69",
+              "unit": "mmHg"
+            }
+          ],
+          "labs": [
+            {
+              "test": "White blood cells",
+              "value": "7.97",
+              "unit": "\u00d7 109/L"
+            },
+            {
+              "test": "Hemoglobin",
+              "value": "142",
+              "unit": "g/L"
+            },
+            {
+              "test": "Platelets",
+              "value": "287",
+              "unit": "\u00d7 109/L"
+            },
+            {
+              "test": "Neutrophil percentage",
+              "value": "46.7",
+              "unit": "%"
+            },
+            {
+              "test": "Total prostate-specific antigen",
+              "value": "5.77",
+              "unit": "ng/mL"
+            },
+            {
+              "test": "Cytokeratin 19 fragment",
+              "value": "13.39",
+              "unit": "ng/mL"
+            },
+            {
+              "test": "Neuron-specific enolase",
+              "value": "17.5",
+              "unit": "\u03bcg/L"
+            }
+          ]
+        }
+      },
+      "custom_id": "graph_062_N4"
+    },
+    {
+      "id": "N6",
+      "label": "Step 6",
+      "customData": {
+        "node_id": "F",
+        "node_step_index": 5,
+        "content": "Treponema pallidum-specific antibody, hepatitis B surface antigen, hepatitis C",
+        "clinical_data": {
+          "labs": [
+            {
+              "test": "Treponema pallidum-specific antibody",
+              "value": null,
+              "unit": null,
+              "flag": null,
+              "reference_range": null,
+              "timestamp": null
+            },
+            {
+              "test": "Hepatitis B surface antigen",
+              "value": null,
+              "unit": null,
+              "flag": null,
+              "reference_range": null,
+              "timestamp": null
+            },
+            {
+              "test": "Hepatitis C",
+              "value": null,
+              "unit": null,
+              "flag": null,
+              "reference_range": null,
+              "timestamp": null
+            }
+          ]
+        }
+      },
+      "custom_id": "graph_062_N5"
+    }
+  ],
+  "edges": [
+    {
+      "from": "N1",
+      "to": "N2",
+      "data": {
+        "edge_id": "A_to_B",
+        "branch_flag": true,
+        "content": "Patient's chronic recurrent dry cough prompted a chest CT scan."
+      },
+      "custom_id": "graph_062_N1_N2"
+    },
+    {
+      "from": "N2",
+      "to": "N3",
+      "data": {
+        "edge_id": "B_to_C",
+        "branch_flag": true,
+        "content": "Detection of pulmonary masses on CT led to admission to oncology for further evaluation and treatment."
+      },
+      "custom_id": "graph_062_N2_N3"
+    },
+    {
+      "from": "N3",
+      "to": "N4",
+      "data": {
+        "edge_id": "C_to_D",
+        "branch_flag": true,
+        "content": "As part of the evaluation, the patient's medical history was reviewed, revealing no history of hypertension, coronary heart disease, diabetes, cerebral venous thrombosis or hemorrhage, tuberculosis, chronic hepatitis B virus infection and other diseases."
+      },
+      "custom_id": "graph_062_N3_N4"
+    },
+    {
+      "from": "N4",
+      "to": "N5",
+      "data": {
+        "edge_id": "D_to_E",
+        "branch_flag": true,
+        "content": "Vitals and labs were taken as part of the evaluation."
+      },
+      "custom_id": "graph_062_N4_N5"
+    },
+    {
+      "from": "N5",
+      "to": "N6",
+      "data": {
+        "edge_id": "E_to_F",
+        "branch_flag": true,
+        "content": "Additional labs were taken as part of the evaluation."
+      },
+      "custom_id": "graph_062_N5_N6"
+    }
+  ]
+}

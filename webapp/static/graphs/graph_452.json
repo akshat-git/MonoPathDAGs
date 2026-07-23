@@ -1,0 +1,332 @@
+{
+  "nodes": [
+    {
+      "id": "N1",
+      "label": "Step 1",
+      "customData": {
+        "node_id": "A",
+        "node_step_index": 0,
+        "content": "71-year-old male presented in November 2023 with a 2-month history of intermittent cough, chest pain, fever, and hemoptysis.",
+        "timestamp": "2023-11",
+        "clinical_data": {
+          "HPI": [
+            {
+              "summary": "71-year-old male presented with a 2-month history of intermittent cough, chest pain, fever, and hemoptysis.",
+              "duration": "2 months",
+              "onset": "November 2023",
+              "progression": "unknown",
+              "associated_symptoms": [
+                "C0010200",
+                "C0008031",
+                "C0015967",
+                "C0018943"
+              ]
+            }
+          ]
+        }
+      }
+    },
+    {
+      "id": "N2",
+      "label": "Step 2",
+      "customData": {
+        "node_id": "B",
+        "node_step_index": 1,
+        "content": "Chest CT revealed a perihilar mass in the lower lobe of the right lung, extending into the pulmonary arteriovenous structures and the left atrium.",
+        "clinical_data": {
+          "imaging": [
+            {
+              "type": "Mass (finding)",
+              "body_part": "Lower lobe of right lung",
+              "modality": "CT",
+              "finding": "Perihilar mass extending into the pulmonary arteriovenous structures and the left atrium"
+            }
+          ]
+        }
+      }
+    },
+    {
+      "id": "N3",
+      "label": "Step 3",
+      "customData": {
+        "node_id": "C",
+        "node_step_index": 2,
+        "content": "FDG PET/CT identified right lung cancer with multiple lymph node metastases as well as hypermetabolic foci in the left atrium and left ventricle of the heart.",
+        "clinical_data": {
+          "imaging": [
+            {
+              "type": "Positron emission tomography/computed tomography",
+              "body_part": "lung",
+              "modality": "PET",
+              "finding": "right lung cancer with multiple lymph node metastases as well as hypermetabolic foci in the left atrium and left ventricle of the heart"
+            }
+          ],
+          "diagnoses": [
+            {
+              "code": "C0007102",
+              "label": "Cancer of lung",
+              "status": "active"
+            }
+          ]
+        }
+      }
+    },
+    {
+      "id": "N4",
+      "label": "Step 4",
+      "customData": {
+        "node_id": "D",
+        "node_step_index": 3,
+        "content": "Transthoracic echocardiography showed a slightly higher echoic mass attached to the atrial septum at the base of the proximal anterior mitral valve in the left atrium, and a slightly higher echo group attached in the middle of the left ventricular posterior septum.",
+        "clinical_data": {
+          "imaging": [
+            {
+              "type": "Echocardiography, Transthoracic",
+              "body_part": "Heart",
+              "modality": "Ultrasound",
+              "finding": "Slightly higher echoic mass attached to the atrial septum at the base of the proximal anterior mitral valve in the left atrium",
+              "date": null
+            },
+            {
+              "type": "Echocardiography, Transthoracic",
+              "body_part": "Heart",
+              "modality": "Ultrasound",
+              "finding": "Slightly higher echo group attached in the middle of the left ventricular posterior septum",
+              "date": null
+            }
+          ]
+        }
+      }
+    },
+    {
+      "id": "N5",
+      "label": "Step 5",
+      "customData": {
+        "node_id": "E",
+        "node_step_index": 4,
+        "content": "Electrocardiogram (ECG) revealed a normal sinus rhythm.",
+        "clinical_data": {
+          "diagnoses": [
+            {
+              "code": "39607008",
+              "label": "Normal sinus rhythm",
+              "status": "active"
+            }
+          ]
+        }
+      }
+    },
+    {
+      "id": "N6",
+      "label": "Step 6",
+      "customData": {
+        "node_id": "F",
+        "node_step_index": 5,
+        "content": "Biopsy via fiberoptic bronchoscopy confirmed lung squamous cell carcinoma with necrosis visible in the focal area. Immunohistochemistry revealed a high level of programmed cell death-ligand 1 (PD-L1) expression, with a tumor proportion score (TPS) of ~80%.",
+        "clinical_data": {
+          "diagnoses": [
+            {
+              "code": "C34.9",
+              "label": "Lung squamous cell carcinoma",
+              "status": "active",
+              "onset_date": null
+            }
+          ],
+          "procedures": [
+            {
+              "name": "Fiberoptic bronchoscopy",
+              "approach": "endoscopic",
+              "date": null,
+              "location": "lung",
+              "performed_by": null,
+              "outcome": null
+            },
+            {
+              "name": "Biopsy",
+              "approach": "percutaneous",
+              "date": null,
+              "location": "lung",
+              "performed_by": null,
+              "outcome": null
+            }
+          ],
+          "labs": [
+            {
+              "test": "Programmed cell death-ligand 1 (PD-L1) expression",
+              "value": "~80%",
+              "unit": "tumor proportion score (TPS)",
+              "flag": "abnormal",
+              "reference_range": null,
+              "timestamp": null
+            }
+          ]
+        }
+      }
+    },
+    {
+      "id": "N7",
+      "label": "Step 7",
+      "customData": {
+        "node_id": "G",
+        "node_step_index": 6,
+        "content": "Patient has a performance status of 0.",
+        "clinical_data": {}
+      }
+    },
+    {
+      "id": "N8",
+      "label": "Step 8",
+      "customData": {
+        "node_id": "H",
+        "node_step_index": 7,
+        "content": "Sintilimab (200 mg every 3 weeks) was administered as immunotherapy.",
+        "clinical_data": {
+          "medications": [
+            {
+              "drug": "Sintilimab",
+              "dosage": "200 mg",
+              "frequency": "every 3 weeks",
+              "modality": "IV",
+              "start_date": null,
+              "end_date": null,
+              "indication": "immunotherapy"
+            }
+          ]
+        }
+      }
+    },
+    {
+      "id": "N9",
+      "label": "Step 9",
+      "customData": {
+        "node_id": "I",
+        "node_step_index": 8,
+        "content": "After two cycles of immunotherapy, echocardiography showed the disappearance of the left atrial metastasis and a slight reduction in the left ventricular metastasis.",
+        "clinical_data": {
+          "imaging": [
+            {
+              "type": "Echocardiography",
+              "body_part": "Left atrium",
+              "modality": "Ultrasound",
+              "finding": "Disappearance of metastasis",
+              "date": null
+            },
+            {
+              "type": "Echocardiography",
+              "body_part": "Left ventricle",
+              "modality": "Ultrasound",
+              "finding": "Slight reduction in metastasis",
+              "date": null
+            }
+          ],
+          "procedures": [
+            {
+              "name": "Immunotherapy",
+              "date": null,
+              "outcome": "Metastasis reduction"
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "edges": [
+    {
+      "from": "N1",
+      "to": "N2",
+      "data": {
+        "edge_id": "A_to_B",
+        "branch_flag": true,
+        "content": "Initial presentation and subsequent chest CT imaging."
+      }
+    },
+    {
+      "from": "N2",
+      "to": "N3",
+      "data": {
+        "edge_id": "B_to_C",
+        "branch_flag": true,
+        "content": "Further imaging with FDG PET/CT to identify the extent of the lung cancer and metastases."
+      }
+    },
+    {
+      "from": "N3",
+      "to": "N4",
+      "data": {
+        "edge_id": "C_to_D",
+        "branch_flag": true,
+        "content": "Transthoracic echocardiography to further evaluate cardiac involvement."
+      }
+    },
+    {
+      "from": "N4",
+      "to": "N5",
+      "data": {
+        "edge_id": "D_to_E",
+        "branch_flag": true,
+        "content": "Electrocardiogram (ECG) to assess heart rhythm."
+      }
+    },
+    {
+      "from": "N5",
+      "to": "N6",
+      "data": {
+        "edge_id": "E_to_F",
+        "branch_flag": true,
+        "content": "Biopsy via fiberoptic bronchoscopy to confirm the diagnosis and assess PD-L1 expression.",
+        "transition_event": {
+          "trigger_type": "procedure",
+          "trigger_entities": [
+            "C0006049",
+            "C0007102"
+          ],
+          "change_type": "addition",
+          "target_domain": "diagnosis"
+        }
+      }
+    },
+    {
+      "from": "N6",
+      "to": "N7",
+      "data": {
+        "edge_id": "F_to_G",
+        "branch_flag": true,
+        "content": "Assessment of patient's performance status."
+      }
+    },
+    {
+      "from": "N7",
+      "to": "N8",
+      "data": {
+        "edge_id": "G_to_H",
+        "branch_flag": true,
+        "content": "Initiation of Sintilimab immunotherapy.",
+        "transition_event": {
+          "trigger_type": "medication_change",
+          "trigger_entities": [
+            "C5203710"
+          ],
+          "change_type": "addition",
+          "target_domain": "medication"
+        }
+      }
+    },
+    {
+      "from": "N8",
+      "to": "N9",
+      "data": {
+        "edge_id": "H_to_I",
+        "branch_flag": true,
+        "content": "Echocardiography after two cycles of immunotherapy showing treatment response.",
+        "transition_event": {
+          "trigger_type": "procedure",
+          "trigger_entities": [
+            "C0021845"
+          ],
+          "change_type": "resolution",
+          "target_domain": "imaging"
+        }
+      }
+    }
+  ]
+}

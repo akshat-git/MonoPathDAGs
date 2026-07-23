@@ -1,0 +1,445 @@
+{
+  "nodes": [
+    {
+      "id": "N1",
+      "label": "Step 1",
+      "customData": {
+        "node_id": "A",
+        "node_step_index": 0,
+        "content": "January 2016: 49-year-old male presented with left lower extremity proximal pain. Lumbar spine imaging suggested lumbar disc herniation.",
+        "clinical_data": {
+          "HPI": [
+            {
+              "summary": "49-year-old male presented with left lower extremity proximal pain.",
+              "onset": "January 2016",
+              "location": "left lower extremity"
+            }
+          ],
+          "imaging": [
+            {
+              "type": "lumbar spine imaging",
+              "body_part": "lumbar spine",
+              "modality": "other",
+              "finding": "lumbar disc herniation",
+              "date": "January 2016"
+            }
+          ],
+          "diagnoses": [
+            {
+              "code": "55920008",
+              "label": "Lumbar disc herniation",
+              "status": "active",
+              "onset_date": "2016-01"
+            }
+          ]
+        }
+      }
+    },
+    {
+      "id": "N2",
+      "label": "Step 2",
+      "customData": {
+        "node_id": "B",
+        "node_step_index": 1,
+        "content": "Developed periumbilical distension and pain.",
+        "clinical_data": {
+          "HPI": [
+            {
+              "summary": "Developed periumbilical distension and pain.",
+              "onset": "unknown",
+              "progression": "unknown",
+              "associated_symptoms": [
+                "Abdominal distension",
+                "Pain"
+              ],
+              "alleviating_factors": [],
+              "exacerbating_factors": []
+            }
+          ]
+        }
+      }
+    },
+    {
+      "id": "N3",
+      "label": "Step 3",
+      "customData": {
+        "node_id": "C",
+        "node_step_index": 2,
+        "content": "Abdominal CT: Acute pancreatitis, multiple low-density nodules in the liver (nature pending), left adrenal gland nodule (likely metastasis), osteolytic destruction of the left ilium, acetabulum, left side of the pubic symphysis, and left pubic branch (likely metastasis).",
+        "clinical_data": {
+          "imaging": [
+            {
+              "type": "Computed tomography of abdomen",
+              "body_part": "abdomen",
+              "modality": "CT",
+              "finding": "Acute pancreatitis, multiple low-density nodules in the liver (nature pending), left adrenal gland nodule (likely metastasis), osteolytic destruction of the left ilium, acetabulum, left side of the pubic symphysis, and left pubic branch (likely metastasis).",
+              "impression": "Acute pancreatitis, multiple low-density nodules in the liver (nature pending), left adrenal gland nodule (likely metastasis), osteolytic destruction of the left ilium, acetabulum, left side of the pubic symphysis, and left pubic branch (likely metastasis)."
+            }
+          ],
+          "diagnoses": [
+            {
+              "code": "577.0",
+              "label": "Acute pancreatitis",
+              "status": "active"
+            }
+          ]
+        }
+      }
+    },
+    {
+      "id": "N4",
+      "label": "Step 4",
+      "customData": {
+        "node_id": "D",
+        "node_step_index": 3,
+        "content": "Chest CT: Right upper lobe mass, multiple mildly enlarged mediastinal lymph nodes, bilateral pleural effusion.",
+        "clinical_data": {
+          "imaging": [
+            {
+              "type": "CT of chest",
+              "body_part": "Thorax",
+              "modality": "CT",
+              "finding": "Right upper lobe mass, multiple mildly enlarged mediastinal lymph nodes, bilateral pleural effusion"
+            }
+          ]
+        }
+      }
+    },
+    {
+      "id": "N5",
+      "label": "Step 5",
+      "customData": {
+        "node_id": "E",
+        "node_step_index": 4,
+        "content": "Head MRI: Abnormal enhancement in the left frontal and parietal cortex (likely metastasis), abnormal enhancement in the right frontal lobe (metastasis cannot be ruled out).",
+        "clinical_data": {
+          "imaging": [
+            {
+              "type": "MRI of head",
+              "body_part": "Head",
+              "modality": "MRI",
+              "finding": "Abnormal enhancement in the left frontal and parietal cortex, abnormal enhancement in the right frontal lobe",
+              "impression": "Likely metastasis in the left frontal and parietal cortex, metastasis cannot be ruled out in the right frontal lobe"
+            }
+          ]
+        }
+      }
+    },
+    {
+      "id": "N6",
+      "label": "Step 6",
+      "customData": {
+        "node_id": "F",
+        "node_step_index": 5,
+        "content": "Bone scan: Abnormal tracer uptake in the left hip, proximal femur, and right scapula (likely metastasis).",
+        "clinical_data": {
+          "imaging": [
+            {
+              "type": "Bone scan",
+              "body_part": "hip",
+              "modality": "other",
+              "finding": "Abnormal tracer uptake",
+              "impression": "likely metastasis"
+            },
+            {
+              "type": "Bone scan",
+              "body_part": "femur",
+              "modality": "other",
+              "finding": "Abnormal tracer uptake",
+              "impression": "likely metastasis"
+            },
+            {
+              "type": "Bone scan",
+              "body_part": "scapula",
+              "modality": "other",
+              "finding": "Abnormal tracer uptake",
+              "impression": "likely metastasis"
+            }
+          ]
+        }
+      }
+    },
+    {
+      "id": "N7",
+      "label": "Step 7",
+      "customData": {
+        "node_id": "G",
+        "node_step_index": 6,
+        "content": "Percutaneous lung biopsy.",
+        "clinical_data": {
+          "procedures": [
+            {
+              "name": "Percutaneous biopsy",
+              "approach": "percutaneous",
+              "location": "lung"
+            }
+          ]
+        }
+      }
+    },
+    {
+      "id": "N8",
+      "label": "Step 8",
+      "customData": {
+        "node_id": "H",
+        "node_step_index": 7,
+        "content": "Lung biopsy: Non-small cell carcinoma, favoring adenocarcinoma; immunohistochemistry positive for CK7, NaspsinA, TTF-1, and CK9, negative for CK20. Gene testing: EGFR 19 exon deletion mutation, no ALK rearrangement, no KRAS mutation.",
+        "clinical_data": {
+          "imaging": [
+            {
+              "type": "Lung biopsy",
+              "body_part": "Lung",
+              "modality": "biopsy",
+              "finding": "Non-small cell carcinoma, favoring adenocarcinoma",
+              "date": null
+            }
+          ],
+          "diagnoses": [
+            {
+              "code": "C0002878",
+              "label": "Adenocarcinoma",
+              "status": "active",
+              "onset_date": null
+            },
+            {
+              "code": "C0007103",
+              "label": "Carcinoma, Non-Small-Cell Lung",
+              "status": "active",
+              "onset_date": null
+            }
+          ],
+          "labs": [
+            {
+              "test": "CK7",
+              "value": "positive",
+              "unit": null,
+              "flag": "positive",
+              "reference_range": null,
+              "timestamp": null
+            },
+            {
+              "test": "NaspsinA",
+              "value": "positive",
+              "unit": null,
+              "flag": "positive",
+              "reference_range": null,
+              "timestamp": null
+            },
+            {
+              "test": "TTF-1",
+              "value": "positive",
+              "unit": null,
+              "flag": "positive",
+              "reference_range": null,
+              "timestamp": null
+            },
+            {
+              "test": "CK9",
+              "value": "negative",
+              "unit": null,
+              "flag": "negative",
+              "reference_range": null,
+              "timestamp": null
+            },
+            {
+              "test": "CK20",
+              "value": "negative",
+              "unit": null,
+              "flag": "negative",
+              "reference_range": null,
+              "timestamp": null
+            },
+            {
+              "test": "EGFR 19 exon deletion mutation",
+              "value": "positive",
+              "unit": null,
+              "flag": "positive",
+              "reference_range": null,
+              "timestamp": null
+            },
+            {
+              "test": "ALK rearrangement",
+              "value": "negative",
+              "unit": null,
+              "flag": "negative",
+              "reference_range": null,
+              "timestamp": null
+            },
+            {
+              "test": "KRAS mutation",
+              "value": "negative",
+              "unit": null,
+              "flag": "negative",
+              "reference_range": null,
+              "timestamp": null
+            }
+          ]
+        }
+      }
+    },
+    {
+      "id": "N9",
+      "label": "Step 9",
+      "customData": {
+        "node_id": "I",
+        "node_step_index": 8,
+        "content": "Started erlotinib 150 mg daily.",
+        "clinical_data": {
+          "medications": [
+            {
+              "drug": "C1287416",
+              "dosage": "150 mg",
+              "frequency": "daily",
+              "modality": "oral"
+            }
+          ]
+        }
+      }
+    },
+    {
+      "id": "N10",
+      "label": "Step 10",
+      "customData": {
+        "node_id": "J",
+        "node_step_index": 9,
+        "content": "",
+        "clinical_data": {}
+      }
+    }
+  ],
+  "edges": [
+    {
+      "from": "N1",
+      "to": "N2",
+      "data": {
+        "edge_id": "A_to_B",
+        "branch_flag": true,
+        "content": "Progression of symptoms from lower extremity pain to periumbilical distension and pain."
+      }
+    },
+    {
+      "from": "N2",
+      "to": "N3",
+      "data": {
+        "edge_id": "B_to_C",
+        "branch_flag": true,
+        "content": "Imaging reveals acute pancreatitis and multiple potential metastatic sites.",
+        "transition_event": {
+          "trigger_type": "imaging",
+          "trigger_entities": [],
+          "change_type": "progression",
+          "target_domain": "diagnosis"
+        }
+      }
+    },
+    {
+      "from": "N3",
+      "to": "N4",
+      "data": {
+        "edge_id": "C_to_D",
+        "branch_flag": true,
+        "content": "Further imaging reveals a right upper lobe mass, enlarged mediastinal lymph nodes, and bilateral pleural effusion.",
+        "transition_event": {
+          "trigger_type": "imaging",
+          "trigger_entities": [],
+          "change_type": "progression",
+          "target_domain": "imaging"
+        }
+      }
+    },
+    {
+      "from": "N4",
+      "to": "N5",
+      "data": {
+        "edge_id": "D_to_E",
+        "branch_flag": true,
+        "content": "Brain MRI shows abnormal enhancement, likely metastasis.",
+        "transition_event": {
+          "trigger_type": "imaging",
+          "trigger_entities": [],
+          "change_type": "progression",
+          "target_domain": "imaging"
+        }
+      }
+    },
+    {
+      "from": "N5",
+      "to": "N6",
+      "data": {
+        "edge_id": "E_to_F",
+        "branch_flag": true,
+        "content": "Bone scan indicates likely metastasis in the left hip, proximal femur, and right scapula.",
+        "transition_event": {
+          "trigger_type": "imaging",
+          "trigger_entities": [],
+          "change_type": "progression",
+          "target_domain": "imaging"
+        }
+      }
+    },
+    {
+      "from": "N6",
+      "to": "N7",
+      "data": {
+        "edge_id": "F_to_G",
+        "branch_flag": true,
+        "content": "Percutaneous lung biopsy performed to determine the nature of the lung mass.",
+        "transition_event": {
+          "trigger_type": "procedure",
+          "trigger_entities": [],
+          "change_type": "addition",
+          "target_domain": "procedure"
+        }
+      }
+    },
+    {
+      "from": "N7",
+      "to": "N8",
+      "data": {
+        "edge_id": "G_to_H",
+        "branch_flag": true,
+        "content": "Lung biopsy confirms non-small cell carcinoma, favoring adenocarcinoma, with EGFR 19 exon deletion mutation.",
+        "transition_event": {
+          "trigger_type": "lab_change",
+          "trigger_entities": [],
+          "change_type": "reinterpretation",
+          "target_domain": "diagnosis"
+        }
+      }
+    },
+    {
+      "from": "N8",
+      "to": "N9",
+      "data": {
+        "edge_id": "H_to_I",
+        "branch_flag": true,
+        "content": "Initiation of erlotinib treatment.",
+        "transition_event": {
+          "trigger_type": "medication_change",
+          "trigger_entities": [
+            "C1287416"
+          ],
+          "change_type": "addition",
+          "target_domain": "medication"
+        }
+      }
+    },
+    {
+      "from": "N9",
+      "to": "N10",
+      "data": {
+        "edge_id": "I_to_J",
+        "branch_flag": true,
+        "content": "Treatment with erlotinib.",
+        "transition_event": {
+          "trigger_type": "medication_change",
+          "trigger_entities": [
+            "C1287416"
+          ],
+          "change_type": "addition",
+          "target_domain": "medication"
+        }
+      }
+    }
+  ]
+}

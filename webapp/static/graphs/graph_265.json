@@ -1,0 +1,606 @@
+{
+  "nodes": [
+    {
+      "id": "N1",
+      "label": "Step 1",
+      "customData": {
+        "node_id": "A",
+        "node_step_index": 0,
+        "content": "70-year-old male with right-sided NSCLC completed first cycle of albumin paclitaxel, cisplatin, and tislelizumab treatment in December 2021. Patient with a medical history of hypertension and cerebral infarction.",
+        "clinical_data": {
+          "medications": [
+            {
+              "drug": "C0030391",
+              "dosage": null,
+              "frequency": null,
+              "modality": null,
+              "start_date": "2021-12",
+              "end_date": null,
+              "indication": "C0027877"
+            },
+            {
+              "drug": "C0008882",
+              "dosage": null,
+              "frequency": null,
+              "modality": null,
+              "start_date": "2021-12",
+              "end_date": null,
+              "indication": "C0027877"
+            },
+            {
+              "drug": "C5203713",
+              "dosage": null,
+              "frequency": null,
+              "modality": null,
+              "start_date": "2021-12",
+              "end_date": null,
+              "indication": "C0027877"
+            },
+            {
+              "drug": "C1695",
+              "dosage": null,
+              "frequency": null,
+              "modality": null,
+              "start_date": "2021-12",
+              "end_date": null,
+              "indication": "C0027877"
+            }
+          ],
+          "diagnoses": [
+            {
+              "code": "C0020538",
+              "label": "Hypertension",
+              "status": "historical",
+              "onset_date": null
+            },
+            {
+              "code": "C0007785",
+              "label": "Cerebral Infarction",
+              "status": "historical",
+              "onset_date": null
+            },
+            {
+              "code": "C3522234",
+              "label": "Non-small cell lung cancer",
+              "status": "active",
+              "onset_date": null
+            }
+          ]
+        }
+      }
+    },
+    {
+      "id": "N2",
+      "label": "Step 2",
+      "customData": {
+        "node_id": "B",
+        "node_step_index": 1,
+        "content": "One month later, the patient experienced left-sided limb weakness and numbness and was admitted to Hubei Cancer Hospital. Vital signs: Temperature 36.5\u00b0C, pulse rate 85 beats/min, respiratory rate 19 breaths/min, blood pressure 135/85 mmHg. Blood tests revealed platelet count of 212 x 10^9/L, hemoglobin level of 105 g/L, white blood cell count of 3.3 x 10^9/L, and red blood cell count of 3.64 x 10^12/L. Chest CT revealed a 5.5 x 4.9 cm soft tissue density mass in the apical segment of the right upper lung lobe. CT-guided percutaneous lung biopsy on December 1 revealed non-small cell lung carcinoma (stage cT3NXMX), consistent with squamous cell carcinoma via immunohistochemistry.",
+        "clinical_data": {
+          "vitals": [
+            {
+              "type": "Temperature",
+              "value": "36.5",
+              "unit": "\u00b0C"
+            },
+            {
+              "type": "Heart rate",
+              "value": "85",
+              "unit": "beats/min"
+            },
+            {
+              "type": "Respiratory rate",
+              "value": "19",
+              "unit": "breaths/min"
+            },
+            {
+              "type": "Blood pressure",
+              "value": "135/85",
+              "unit": "mmHg"
+            }
+          ],
+          "labs": [
+            {
+              "test": "Platelet count",
+              "value": "212",
+              "unit": "x 10^9/L"
+            },
+            {
+              "test": "Hemoglobin level",
+              "value": "105",
+              "unit": "g/L"
+            },
+            {
+              "test": "White blood cell count",
+              "value": "3.3",
+              "unit": "x 10^9/L"
+            },
+            {
+              "test": "Red blood cell count",
+              "value": "3.64",
+              "unit": "x 10^12/L"
+            }
+          ],
+          "imaging": [
+            {
+              "type": "Mass",
+              "body_part": "Lung",
+              "modality": "CT",
+              "finding": "5.5 x 4.9 cm soft tissue density mass in the apical segment of the right upper lung lobe"
+            }
+          ],
+          "procedures": [
+            {
+              "name": "Lung biopsy",
+              "approach": "percutaneous",
+              "date": "2023-12-01",
+              "location": "Lung",
+              "performed_by": "CT-guided",
+              "outcome": "non-small cell lung carcinoma (stage cT3NXMX), consistent with squamous cell carcinoma via immunohistochemistry"
+            }
+          ],
+          "HPI": [
+            {
+              "summary": "left-sided limb weakness and numbness",
+              "onset": "One month prior"
+            }
+          ],
+          "diagnoses": [
+            {
+              "code": "C34",
+              "label": "non-small cell lung carcinoma",
+              "status": "active"
+            },
+            {
+              "code": "C34.1",
+              "label": "Squamous cell carcinoma of lung",
+              "status": "active"
+            }
+          ]
+        }
+      }
+    },
+    {
+      "id": "N3",
+      "label": "Step 3",
+      "customData": {
+        "node_id": "C",
+        "node_step_index": 2,
+        "content": "Immunohistochemistry: CD56 negative, CK5/6 positive, CK7 negative, Ki-67 positive (about 30%), NapsinA negative, P40 positive, P63 positive, and TTF-1 negative. PET-CT: soft tissue mass in the upper lobe of the right lung with increased metabolism, as well as several regional lesions.",
+        "clinical_data": {
+          "imaging": [
+            {
+              "type": "Mass",
+              "body_part": "Upper lobe of right lung",
+              "modality": "PET-CT",
+              "finding": "Increased metabolism",
+              "impression": "Soft tissue mass in the upper lobe of the right lung with increased metabolism, as well as several regional lesions."
+            }
+          ]
+        }
+      }
+    },
+    {
+      "id": "N4",
+      "label": "Step 4",
+      "customData": {
+        "node_id": "D",
+        "node_step_index": 3,
+        "content": "Recommended preoperative chemotherapy and immunotherapy. Surgery to be determined according to post-treatment evaluation results.",
+        "clinical_data": {
+          "procedures": [
+            {
+              "name": "Chemotherapy",
+              "approach": "IV",
+              "date": null,
+              "location": null,
+              "performed_by": null,
+              "outcome": null
+            },
+            {
+              "name": "Immunotherapy",
+              "approach": "IV",
+              "date": null,
+              "location": null,
+              "performed_by": null,
+              "outcome": null
+            },
+            {
+              "name": "Surgery",
+              "approach": null,
+              "date": null,
+              "location": null,
+              "performed_by": null,
+              "outcome": null
+            }
+          ]
+        }
+      }
+    },
+    {
+      "id": "N5",
+      "label": "Step 5",
+      "customData": {
+        "node_id": "E",
+        "node_step_index": 4,
+        "content": "Patient received central vein catheterization on December 7. On December 8, the patient was given one cycle of albumin-bound paclitaxel with cisplatin and tislelizumab. Patient also taking Centrum. The patient reported poor tolerance, mainly with hand and foot numbness and pain and bone marrow suppression. Patient given pregabalin (75 mg) to alleviate numbness and pain in the hands and feet, however, symptom relief was not significant. Liposomal paclitaxel (240 mg), cisplatin (90 mg), and tislelizumab (200 mg) were administered.",
+        "clinical_data": {
+          "procedures": [
+            {
+              "name": "Central Venous Catheterization",
+              "date": "2023-12-07"
+            }
+          ],
+          "medications": [
+            {
+              "drug": "paclitaxel",
+              "modality": "IV",
+              "start_date": "2023-12-08"
+            },
+            {
+              "drug": "cisplatin",
+              "modality": "IV",
+              "start_date": "2023-12-08"
+            },
+            {
+              "drug": "tislelizumab",
+              "modality": "IV",
+              "start_date": "2023-12-08"
+            },
+            {
+              "drug": "Centrum",
+              "modality": "oral"
+            },
+            {
+              "drug": "pregabalin",
+              "dosage": "75 mg",
+              "indication": "numbness and pain",
+              "modality": "oral"
+            },
+            {
+              "drug": "paclitaxel",
+              "dosage": "240 mg",
+              "modality": "IV"
+            },
+            {
+              "drug": "cisplatin",
+              "dosage": "90 mg",
+              "modality": "IV"
+            },
+            {
+              "drug": "tislelizumab",
+              "dosage": "200 mg",
+              "modality": "IV"
+            }
+          ],
+          "HPI": [
+            {
+              "summary": "Poor tolerance to treatment",
+              "associated_symptoms": [
+                "numbness",
+                "pain",
+                "bone marrow suppression"
+              ],
+              "alleviating_factors": [
+                "pregabalin"
+              ]
+            }
+          ]
+        }
+      }
+    },
+    {
+      "id": "N6",
+      "label": "Step 6",
+      "customData": {
+        "node_id": "F",
+        "node_step_index": 5,
+        "content": "Following two cycles of liposomal paclitaxel (240 mg), cisplatin (90 mg), and tislelizumab (200 mg), ambulation improved significantly, and pain and numbness reduced.",
+        "clinical_data": {
+          "medications": [
+            {
+              "drug": "C1712543",
+              "dosage": "240 mg",
+              "frequency": "every cycle",
+              "modality": "IV",
+              "start_date": null,
+              "end_date": null,
+              "indication": "Cancer"
+            },
+            {
+              "drug": "C0008877",
+              "dosage": "90 mg",
+              "frequency": "every cycle",
+              "modality": "IV",
+              "start_date": null,
+              "end_date": null,
+              "indication": "Cancer"
+            },
+            {
+              "drug": "tislelizumab",
+              "dosage": "200 mg",
+              "frequency": "every cycle",
+              "modality": "IV",
+              "start_date": null,
+              "end_date": null,
+              "indication": "Cancer"
+            }
+          ],
+          "HPI": [
+            {
+              "summary": "Ambulation improved significantly, and pain and numbness reduced following two cycles of liposomal paclitaxel, cisplatin, and tislelizumab.",
+              "duration": null,
+              "onset": null,
+              "progression": "improving",
+              "associated_symptoms": [
+                "C0030193",
+                "C0029456"
+              ],
+              "alleviating_factors": [
+                "liposomal paclitaxel",
+                "cisplatin",
+                "tislelizumab"
+              ],
+              "exacerbating_factors": []
+            }
+          ]
+        }
+      }
+    },
+    {
+      "id": "N7",
+      "label": "Step 7",
+      "customData": {
+        "node_id": "G",
+        "node_step_index": 6,
+        "content": "After four cycles of treatment, partial response observed, with tumor size reduced to 2.9x2.7 cm^2. Patient given a lower limit dose of 135 mg/m^2 paclitaxel liposome, resulting in a good treatment effect and patient tolerability.",
+        "clinical_data": {
+          "imaging": [
+            {
+              "finding": "tumor size reduced to 2.9x2.7 cm^2"
+            }
+          ],
+          "medications": [
+            {
+              "drug": "paclitaxel liposome",
+              "dosage": "135 mg/m^2",
+              "modality": "IV",
+              "indication": "tumor"
+            }
+          ]
+        }
+      }
+    },
+    {
+      "id": "N8",
+      "label": "Step 8",
+      "customData": {
+        "node_id": "H",
+        "node_step_index": 7,
+        "content": "Patient felt some discomfort during albumin-bound paclitaxel infusion, which increased after going home, affecting walking. Neuropathy disappeared after switching to liposomal paclitaxel. After the first cycle of albumin-paclitaxel, cisplatin, and tislelizumab treatment, the patient complained of inability to stand and walk, and was admitted with crutches. The patient reported hollow and numb pain like a dry turtle shell on the sole of his feet. The patient refused further treatment with albumin-paclitaxel.",
+        "clinical_data": {
+          "medications": [
+            {
+              "drug": "C0030393",
+              "dosage": null,
+              "frequency": null,
+              "modality": "IV",
+              "start_date": null,
+              "end_date": null,
+              "indication": null
+            },
+            {
+              "drug": "C0030393",
+              "dosage": null,
+              "frequency": null,
+              "modality": "IV",
+              "start_date": null,
+              "end_date": null,
+              "indication": null
+            },
+            {
+              "drug": "C0008864",
+              "dosage": null,
+              "frequency": null,
+              "modality": "IV",
+              "start_date": null,
+              "end_date": null,
+              "indication": null
+            },
+            {
+              "drug": "C0008864",
+              "dosage": null,
+              "frequency": null,
+              "modality": "IV",
+              "start_date": null,
+              "end_date": null,
+              "indication": null
+            },
+            {
+              "drug": "tislelizumab",
+              "dosage": null,
+              "frequency": null,
+              "modality": null,
+              "start_date": null,
+              "end_date": null,
+              "indication": null
+            }
+          ],
+          "HPI": [
+            {
+              "summary": "Patient felt some discomfort during albumin-bound paclitaxel infusion, which increased after going home, affecting walking. Neuropathy disappeared after switching to liposomal paclitaxel. After the first cycle of albumin-paclitaxel, cisplatin, and tislelizumab treatment, the patient complained of inability to stand and walk, and was admitted with crutches. The patient reported hollow and numb pain like a dry turtle shell on the sole of his feet.",
+              "duration": null,
+              "onset": null,
+              "progression": null,
+              "associated_symptoms": [
+                "C0031117",
+                "C0027051",
+                "C0239453",
+                "C0029409"
+              ],
+              "alleviating_factors": [],
+              "exacerbating_factors": []
+            }
+          ]
+        }
+      }
+    },
+    {
+      "id": "N9",
+      "label": "Step 9",
+      "customData": {
+        "node_id": "I",
+        "node_step_index": 8,
+        "content": "Liposomal paclitaxel, in conjunction with cisplatin and tislelizumab, demonstrated promising outcomes in alleviating neuropath",
+        "clinical_data": {
+          "medications": [
+            {
+              "drug": "C0030392",
+              "dosage": null,
+              "frequency": null,
+              "modality": null,
+              "start_date": null,
+              "end_date": null,
+              "indication": null
+            },
+            {
+              "drug": "C0030392",
+              "dosage": null,
+              "frequency": null,
+              "modality": null,
+              "start_date": null,
+              "end_date": null,
+              "indication": null
+            },
+            {
+              "drug": "C0009270",
+              "dosage": null,
+              "frequency": null,
+              "modality": null,
+              "start_date": null,
+              "end_date": null,
+              "indication": null
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "edges": [
+    {
+      "from": "N1",
+      "to": "N2",
+      "data": {
+        "edge_id": "A_to_B",
+        "branch_flag": true,
+        "content": "Patient experienced left-sided limb weakness and numbness one month after completing first cycle of albumin paclitaxel, cisplatin, and tislelizumab treatment. Patient was admitted to Hubei Cancer Hospital.",
+        "transition_event": {
+          "trigger_type": "symptom_onset",
+          "trigger_entities": [
+            "C0234151",
+            "C0029456"
+          ],
+          "change_type": "progression",
+          "target_domain": "symptom"
+        }
+      }
+    },
+    {
+      "from": "N2",
+      "to": "N3",
+      "data": {
+        "edge_id": "B_to_C",
+        "branch_flag": true,
+        "content": "Immunohistochemistry and PET-CT imaging performed.",
+        "transition_event": {
+          "trigger_type": "procedure",
+          "trigger_entities": [
+            "C0173144",
+            "C0031107"
+          ],
+          "change_type": "addition",
+          "target_domain": "imaging"
+        }
+      }
+    },
+    {
+      "from": "N3",
+      "to": "N4",
+      "data": {
+        "edge_id": "C_to_D",
+        "branch_flag": true,
+        "content": "Treatment plan recommended based on imaging and immunohistochemistry results.",
+        "transition_event": {
+          "trigger_type": "interpretation",
+          "trigger_entities": [],
+          "change_type": "addition",
+          "target_domain": "procedure"
+        }
+      }
+    },
+    {
+      "from": "N4",
+      "to": "N5",
+      "data": {
+        "edge_id": "D_to_E",
+        "branch_flag": true,
+        "content": "Patient received central vein catheterization and was given one cycle of albumin-bound paclitaxel with cisplatin and tislelizumab. Patient also taking Centrum. Patient given pregabalin (75 mg) to alleviate numbness and pain in the hands and feet.",
+        "transition_event": {
+          "trigger_type": "medication_change",
+          "trigger_entities": [
+            "C0030391",
+            "C0008882",
+            "C5203713",
+            "C1695",
+            "C0048399"
+          ],
+          "change_type": "addition",
+          "target_domain": "medication"
+        }
+      }
+    },
+    {
+      "from": "N5",
+      "to": "N6",
+      "data": {
+        "edge_id": "E_to_F",
+        "branch_flag": true,
+        "content": "Following two cycles of liposomal paclitaxel (240 mg), cisplatin (90 mg), and tislelizumab (200 mg), ambulation improved significantly, and pain and numbness reduced.",
+        "transition_event": {
+          "trigger_type": "medication_change",
+          "trigger_entities": [
+            "C1712543",
+            "C0008877",
+            "C5203713"
+          ],
+          "change_type": "other",
+          "target_domain": "medication"
+        }
+      }
+    },
+    {
+      "from": "N6",
+      "to": "N7",
+      "data": {
+        "edge_id": "F_to_G",
+        "branch_flag": true,
+        "content": "After four cycles of treatment, partial response observed, with tumor size reduced to 2.9x2.7 cm^2. Patient given a lower limit dose of 135 mg/m^2 paclitaxel liposome, resulting in a good treatment effect and patient tolerability.",
+        "transition_event": {
+          "trigger_type": "lab_change",
+          "trigger_entities": [],
+          "change_type": "deescalation",
+          "target_domain": "imaging"
+        }
+      }
+    },
+    {
+      "from": "N7",
+      "to": "N8",
+      "data": {
+        "edge_id": "G_to_H",
+        "branch_flag": true,
+        "content": "Patient felt some discomfort during albumin-bound paclitaxel infusion, which increased after going home, affecting walking. Neuropathy disappeared after switching to liposomal paclitaxel. After the first cycle of albumin-paclitaxel, cisplatin, and tislelizumab treatment, the patient complained of inability to stand and walk, and was admitted with cr"
+      }
+    }
+  ]
+}

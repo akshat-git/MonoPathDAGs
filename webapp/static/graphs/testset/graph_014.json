@@ -1,0 +1,135 @@
+{
+  "nodes": [
+    {
+      "id": "N1",
+      "label": "Step 1",
+      "customData": {
+        "node_id": "A",
+        "node_step_index": 0,
+        "content": "Vancomycin administered for anti-infection and anti-viral treatment.",
+        "timestamp": "2023",
+        "clinical_data": {
+          "medications": [
+            {
+              "drug": "C0042366",
+              "dosage": null,
+              "frequency": null,
+              "modality": null,
+              "start_date": null,
+              "end_date": null,
+              "indication": "C0003364"
+            },
+            {
+              "drug": "C0042366",
+              "dosage": null,
+              "frequency": null,
+              "modality": null,
+              "start_date": null,
+              "end_date": null,
+              "indication": "C0043095"
+            }
+          ]
+        }
+      },
+      "custom_id": "graph_014_N0"
+    },
+    {
+      "id": "N2",
+      "label": "Step 2",
+      "customData": {
+        "node_id": "B",
+        "node_step_index": 1,
+        "content": "Repeat enhanced chest CT on May 29, 2023, showed an irregular thin-walled cystic lesion in the right upper lobe with fine line compartments, measuring approximately 32\u00d725\u00d727 mm, with enlarged and moderately enhanced lymph nodes in the 10R, 4R, and 2R regions. Compared to the March 3, 2023 CT, the solid component of the right upper lobe mass had essentially disappeared, and the mediastinal lymph nodes were similar in size. Response assessment indicated partial remission.",
+        "timestamp": "2023-05-29",
+        "clinical_data": {
+          "imaging": [
+            {
+              "type": "Cystic lesion",
+              "body_part": "Right upper lobe",
+              "modality": "CT",
+              "finding": "Irregular thin-walled cystic lesion with fine line compartments, measuring approximately 32\u00d725\u00d727 mm",
+              "date": "2023-05-29"
+            },
+            {
+              "type": "Lymph node enlargement",
+              "body_part": "Mediastinum",
+              "modality": "CT",
+              "finding": "Enlarged and moderately enhanced lymph nodes in the 10R, 4R, and 2R regions",
+              "date": "2023-05-29"
+            },
+            {
+              "type": "Mass",
+              "body_part": "Right upper lobe",
+              "modality": "CT",
+              "finding": "Solid component of the right upper lobe mass had essentially disappeared",
+              "date": "2023-05-29"
+            }
+          ]
+        }
+      },
+      "custom_id": "graph_014_N1"
+    },
+    {
+      "id": "N3",
+      "label": "Step 3",
+      "customData": {
+        "node_id": "C",
+        "node_step_index": 2,
+        "content": "Second cycle of immunotherapy combined with chemotherapy administered.",
+        "timestamp": "2023-06-27",
+        "clinical_data": {
+          "procedures": [
+            {
+              "name": "Immunotherapy",
+              "date": null
+            },
+            {
+              "name": "Chemotherapy",
+              "date": null
+            }
+          ]
+        }
+      },
+      "custom_id": "graph_014_N2"
+    }
+  ],
+  "edges": [
+    {
+      "from": "N1",
+      "to": "N2",
+      "data": {
+        "edge_id": "A_to_B",
+        "branch_flag": true,
+        "content": "Patient underwent repeat enhanced chest CT.",
+        "transition_event": {
+          "trigger_type": "imaging",
+          "trigger_entities": [],
+          "change_type": "other",
+          "target_domain": "imaging",
+          "timestamp": "2023-05-29T00:00:00Z"
+        }
+      },
+      "custom_id": "graph_014_N1_N2"
+    },
+    {
+      "from": "N2",
+      "to": "N3",
+      "data": {
+        "edge_id": "B_to_C",
+        "branch_flag": true,
+        "content": "Second cycle of immunotherapy combined with chemotherapy administered.",
+        "transition_event": {
+          "trigger_type": "procedure",
+          "trigger_entities": [
+            "C0019221",
+            "C0007407"
+          ],
+          "change_type": "addition",
+          "target_domain": "procedure",
+          "timestamp": "2023-06-27T00:00:00Z"
+        }
+      },
+      "custom_id": "graph_014_N2_N3"
+    }
+  ]
+}

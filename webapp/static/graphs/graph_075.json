@@ -1,0 +1,351 @@
+{
+  "nodes": [
+    {
+      "id": "N1",
+      "label": "Step 1",
+      "customData": {
+        "node_id": "A",
+        "node_step_index": 0,
+        "content": "77-year-old man admitted for first cycle of chemotherapy for stage IV small cell lung cancer without cerebral metastases. Medical history includes past smoking, hypertension, benign prostatic hyperplasia, and hyperuricemia.",
+        "clinical_data": {
+          "diagnoses": [
+            {
+              "code": "C34.9",
+              "label": "Malignant neoplasm of unspecified part of bronchus or lung",
+              "status": "active",
+              "onset_date": null
+            },
+            {
+              "code": "I10",
+              "label": "Essential (primary) hypertension",
+              "status": "historical",
+              "onset_date": null
+            },
+            {
+              "code": "N40",
+              "label": "Benign prostatic hyperplasia",
+              "status": "historical",
+              "onset_date": null
+            },
+            {
+              "code": "E79.0",
+              "label": "Hyperuricemia without signs of inflammatory arthritis and tophaceous disease",
+              "status": "historical",
+              "onset_date": null
+            }
+          ],
+          "social_history": [
+            {
+              "category": "smoking",
+              "status": "past",
+              "description": "past smoking"
+            }
+          ]
+        }
+      },
+      "custom_id": "graph_075_N0"
+    },
+    {
+      "id": "N2",
+      "label": "Step 2",
+      "customData": {
+        "node_id": "B",
+        "node_step_index": 1,
+        "content": "30 minutes after chemotherapy premedication with 4 mg intravenous ondansetron and 8 mg intravenous dexamethasone, the patient experienced a sudden change in mental status, progressing to somnolence. Physical examination revealed altered mental status and right-sided weakness. Hemodynamic and respiratory stability were maintained.",
+        "clinical_data": {
+          "medications": [
+            {
+              "drug": "C0029097",
+              "dosage": "4 mg",
+              "modality": "IV",
+              "indication": "C0007125"
+            },
+            {
+              "drug": "C0011872",
+              "dosage": "8 mg",
+              "modality": "IV"
+            }
+          ],
+          "mental_status": [
+            {
+              "domain": "orientation",
+              "finding": "C0233523"
+            }
+          ],
+          "diagnoses": [
+            {
+              "code": "R40.0",
+              "label": "Somnolence",
+              "status": "active"
+            }
+          ],
+          "HPI": [
+            {
+              "progression": "sudden",
+              "associated_symptoms": [
+                "C0233523",
+                "C0235955"
+              ]
+            }
+          ]
+        }
+      },
+      "custom_id": "graph_075_N1"
+    },
+    {
+      "id": "N3",
+      "label": "Step 3",
+      "customData": {
+        "node_id": "C",
+        "node_step_index": 2,
+        "content": "Patient is responsive to painful stimuli, localizing pain with both extremities but exhibiting reduced mobility on the right side, accompanied by right facial paresis. Plantar reflexes are bilaterally flexor. Eyes are positioned at the midline; the left pupil is irregular (possibly due to prior surgery), while the right pupil is miotic and reactive to light. Electrocardiogram reveals sinus bradycardia with a first-degree atrioventricular block.",
+        "clinical_data": {
+          "vitals": [
+            {
+              "type": "C0006114",
+              "value": "55",
+              "unit": "bpm",
+              "timestamp": null
+            }
+          ],
+          "diagnoses": [
+            {
+              "code": "C0005824",
+              "label": "Sinus Bradycardia",
+              "status": "active",
+              "onset_date": null
+            },
+            {
+              "code": "C0266316",
+              "label": "First Degree Atrioventricular Block",
+              "status": "active",
+              "onset_date": null
+            }
+          ],
+          "neuro_exam": [
+            {
+              "finding": "Responsive to painful stimuli",
+              "laterality": "bilateral"
+            },
+            {
+              "finding": "Localizing pain",
+              "laterality": "bilateral"
+            },
+            {
+              "finding": "Reduced mobility",
+              "laterality": "right"
+            },
+            {
+              "finding": "Right facial paresis",
+              "laterality": "right"
+            },
+            {
+              "finding": "Plantar reflexes bilaterally flexor",
+              "laterality": "bilateral"
+            },
+            {
+              "finding": "Eyes positioned at the midline"
+            },
+            {
+              "finding": "Left pupil irregular",
+              "laterality": "left"
+            },
+            {
+              "finding": "Right pupil miotic and reactive to light",
+              "laterality": "right"
+            }
+          ]
+        }
+      },
+      "custom_id": "graph_075_N2"
+    },
+    {
+      "id": "N4",
+      "label": "Step 4",
+      "customData": {
+        "node_id": "D",
+        "node_step_index": 3,
+        "content": "Blood gas analysis showed no respiratory, metabolic, or electrolyte abnormalities. Brain CT angiography did not reveal any vascular lesions or thrombi in major vessels.",
+        "clinical_data": {
+          "labs": [
+            {
+              "test": "Blood gas analysis",
+              "value": "no respiratory, metabolic, or electrolyte abnormalities",
+              "flag": "normal"
+            }
+          ],
+          "imaging": [
+            {
+              "type": "CT angiography",
+              "body_part": "brain",
+              "modality": "CT",
+              "finding": "no vascular lesions or thrombi in major vessels",
+              "impression": "no vascular lesions or thrombi in major vessels"
+            }
+          ]
+        }
+      },
+      "custom_id": "graph_075_N3"
+    },
+    {
+      "id": "N5",
+      "label": "Step 5",
+      "customData": {
+        "node_id": "E",
+        "node_step_index": 4,
+        "content": "Cerebral vessels reconstruction of computed tomography angiography after the first event.",
+        "clinical_data": {
+          "imaging": [
+            {
+              "type": "Computed tomography angiography",
+              "body_part": "Cerebral vessels",
+              "modality": "CT",
+              "finding": "reconstruction"
+            }
+          ]
+        }
+      },
+      "custom_id": "graph_075_N4"
+    },
+    {
+      "id": "N6",
+      "label": "Step 6",
+      "customData": {
+        "node_id": "F",
+        "node_step_index": 5,
+        "content": "Approximately one hour after the onset of symptoms, the patient gradually became more alert, and by one hour and thirty minutes after onset, he had returned to his baseline mental status without any neurological deficits. Due to the suspicion of a transient ischemic event as the primary cause of the symptoms, a loading dose of 300 mg of aspirin was administered, followed by a daily dose of 100 mg of aspirin.",
+        "clinical_data": {
+          "medications": [
+            {
+              "drug": "C0004057",
+              "dosage": "300 mg",
+              "frequency": "single dose",
+              "modality": "oral",
+              "start_date": null,
+              "end_date": null,
+              "indication": "transient ischemic event"
+            },
+            {
+              "drug": "C0004057",
+              "dosage": "100 mg",
+              "frequency": "daily",
+              "modality": "oral",
+              "start_date": null,
+              "end_date": null,
+              "indication": "transient ischemic event"
+            }
+          ],
+          "diagnoses": [
+            {
+              "code": "C0040570",
+              "label": "Transient ischemic attack",
+              "status": "suspected",
+              "onset_date": null
+            }
+          ],
+          "mental_status": [
+            {
+              "domain": "orientation",
+              "finding": "Alert",
+              "timestamp": null
+            }
+          ]
+        }
+      },
+      "custom_id": "graph_075_N5"
+    }
+  ],
+  "edges": [
+    {
+      "from": "N1",
+      "to": "N2",
+      "data": {
+        "edge_id": "A_to_B",
+        "branch_flag": true,
+        "content": "30 minutes after chemotherapy premedication with 4 mg intravenous ondansetron and 8 mg intravenous dexamethasone, the patient experienced a sudden change in mental status, progressing to somnolence. Physical examination revealed altered mental status and right-sided weakness. Hemodynamic and respiratory stability were maintained.",
+        "transition_event": {
+          "trigger_type": "medication_change",
+          "trigger_entities": [
+            "C0029097",
+            "C0011872"
+          ],
+          "change_type": "addition",
+          "target_domain": "symptom"
+        }
+      },
+      "custom_id": "graph_075_N1_N2"
+    },
+    {
+      "from": "N2",
+      "to": "N3",
+      "data": {
+        "edge_id": "B_to_C",
+        "branch_flag": true,
+        "content": "Patient is responsive to painful stimuli, localizing pain with both extremities but exhibiting reduced mobility on the right side, accompanied by right facial paresis. Plantar reflexes are bilaterally flexor. Eyes are positioned at the midline; the left pupil is irregular (possibly due to prior surgery), while the right pupil is miotic and reactive to light. Electrocardiogram reveals sinus bradycardia with a first-degree atrioventricular block.",
+        "transition_event": {
+          "trigger_type": "symptom_onset",
+          "trigger_entities": [
+            "C0235955",
+            "C0014533",
+            "C0030567",
+            "C0005824",
+            "C0266316"
+          ],
+          "change_type": "progression",
+          "target_domain": "symptom"
+        }
+      },
+      "custom_id": "graph_075_N2_N3"
+    },
+    {
+      "from": "N3",
+      "to": "N4",
+      "data": {
+        "edge_id": "C_to_D",
+        "branch_flag": true,
+        "content": "Blood gas analysis showed no respiratory, metabolic, or electrolyte abnormalities. Brain CT angiography did not reveal any vascular lesions or thrombi in major vessels.",
+        "transition_event": {
+          "trigger_type": "lab_change",
+          "trigger_entities": [],
+          "change_type": "other",
+          "target_domain": "lab"
+        }
+      },
+      "custom_id": "graph_075_N3_N4"
+    },
+    {
+      "from": "N4",
+      "to": "N5",
+      "data": {
+        "edge_id": "D_to_E",
+        "branch_flag": true,
+        "content": "Cerebral vessels reconstruction of computed tomography angiography after the first event.",
+        "transition_event": {
+          "trigger_type": "imaging",
+          "trigger_entities": [],
+          "change_type": "other",
+          "target_domain": "imaging"
+        }
+      },
+      "custom_id": "graph_075_N4_N5"
+    },
+    {
+      "from": "N5",
+      "to": "N6",
+      "data": {
+        "edge_id": "E_to_F",
+        "branch_flag": true,
+        "content": "Approximately one hour after the onset of symptoms, the patient gradually became more alert, and by one hour and thirty minutes after onset, he had returned to his baseline mental status without any neurological deficits. Due to the suspicion of a transient ischemic event as the primary cause of the symptoms, a loading dose of 300 mg of aspirin was administered, followed by a daily dose of 100 mg of aspirin.",
+        "transition_event": {
+          "trigger_type": "medication_change",
+          "trigger_entities": [
+            "C0004057"
+          ],
+          "change_type": "addition",
+          "target_domain": "medication"
+        }
+      },
+      "custom_id": "graph_075_N5_N6"
+    }
+  ]
+}

@@ -1,0 +1,671 @@
+{
+  "nodes": [
+    {
+      "id": "N1",
+      "label": "Step 1",
+      "customData": {
+        "node_id": "A",
+        "node_step_index": 0,
+        "content": "49-year-old woman diagnosed with stage IB adenocarcinoma after open right middle lobe (RML) resection and systematic lymph node dissection in 2011.",
+        "clinical_data": {
+          "diagnoses": [
+            {
+              "code": "C34.9",
+              "label": "Adenocarcinoma of lung, unspecified",
+              "status": "historical",
+              "onset_date": null
+            }
+          ],
+          "procedures": [
+            {
+              "name": "Resection",
+              "approach": "open",
+              "date": "2011",
+              "location": "right middle lobe",
+              "performed_by": null,
+              "outcome": null
+            },
+            {
+              "name": "Lymph node dissection",
+              "approach": null,
+              "date": "2011",
+              "location": null,
+              "performed_by": null,
+              "outcome": null
+            }
+          ]
+        }
+      }
+    },
+    {
+      "id": "N2",
+      "label": "Step 2",
+      "customData": {
+        "node_id": "B",
+        "node_step_index": 1,
+        "content": "Received four cycles of adjuvant Navelbine and cisplatin chemotherapy after surgery.",
+        "clinical_data": {
+          "medications": [
+            {
+              "drug": "C0027404",
+              "dosage": null,
+              "frequency": null,
+              "modality": "IV",
+              "start_date": null,
+              "end_date": null,
+              "indication": "C0006826"
+            },
+            {
+              "drug": "C0047669",
+              "dosage": null,
+              "frequency": null,
+              "modality": "IV",
+              "start_date": null,
+              "end_date": null,
+              "indication": "C0006826"
+            }
+          ],
+          "procedures": [
+            {
+              "name": "C0036323",
+              "approach": null,
+              "date": null,
+              "location": null,
+              "performed_by": null,
+              "outcome": null
+            }
+          ]
+        }
+      }
+    },
+    {
+      "id": "N3",
+      "label": "Step 3",
+      "customData": {
+        "node_id": "C",
+        "node_step_index": 2,
+        "content": "Four years after surgery, found to have ipsilateral lung metastasis. Gene detection of specimen revealed an exon 21 Leu858Arg substitution (L858R).",
+        "clinical_data": {
+          "diagnoses": [
+            {
+              "code": "C0242963",
+              "label": "Lung Metastasis",
+              "status": "active",
+              "onset_date": null
+            }
+          ],
+          "labs": [
+            {
+              "test": "string",
+              "value": "exon 21 Leu858Arg substitution (L858R)",
+              "unit": null,
+              "flag": "abnormal",
+              "reference_range": null,
+              "timestamp": null
+            }
+          ],
+          "procedures": [
+            {
+              "name": "Surgery",
+              "approach": null,
+              "date": null,
+              "location": null,
+              "performed_by": null,
+              "outcome": null
+            }
+          ]
+        }
+      }
+    },
+    {
+      "id": "N4",
+      "label": "Step 4",
+      "customData": {
+        "node_id": "D",
+        "node_step_index": 3,
+        "content": "Initiated oral gefitinib targeted therapy.",
+        "clinical_data": {
+          "medications": [
+            {
+              "drug": "C1639967",
+              "dosage": null,
+              "frequency": null,
+              "modality": "oral",
+              "start_date": null,
+              "end_date": null,
+              "indication": null
+            }
+          ]
+        }
+      }
+    },
+    {
+      "id": "N5",
+      "label": "Step 5",
+      "customData": {
+        "node_id": "E",
+        "node_step_index": 4,
+        "content": "Three months after gefitinib initiation, chest CT showed significant reduction of metastatic lesion (Figure 1C).",
+        "clinical_data": {
+          "imaging": [
+            {
+              "type": "Metastatic lesion",
+              "body_part": "chest",
+              "modality": "CT",
+              "finding": "significant reduction",
+              "date": null
+            }
+          ],
+          "medications": [
+            {
+              "drug": "gefitinib",
+              "start_date": null,
+              "end_date": null
+            }
+          ]
+        }
+      }
+    },
+    {
+      "id": "N6",
+      "label": "Step 6",
+      "customData": {
+        "node_id": "F",
+        "node_step_index": 5,
+        "content": "Three-month interval CT scan follow-up: Lesion in stable condition.",
+        "clinical_data": {
+          "imaging": [
+            {
+              "type": "Lesion",
+              "body_part": "Unknown",
+              "modality": "CT",
+              "finding": "Stable condition",
+              "date": null
+            }
+          ]
+        }
+      }
+    },
+    {
+      "id": "N7",
+      "label": "Step 7",
+      "customData": {
+        "node_id": "G",
+        "node_step_index": 6,
+        "content": "Twenty-seven months after target therapy: Metastatic lesion began to grow (Figure 1D), indicating resistance to gefitinib.",
+        "clinical_data": {
+          "medications": [
+            {
+              "drug": "gefitinib",
+              "indication": "Metastatic lesion",
+              "end_date": null
+            }
+          ],
+          "diagnoses": [
+            {
+              "code": "Metastatic lesion",
+              "label": "Metastatic lesion",
+              "status": "active"
+            }
+          ],
+          "imaging": [
+            {
+              "type": "Lesion",
+              "body_part": "Unknown",
+              "modality": "Unknown",
+              "finding": "Growth of metastatic lesion",
+              "date": null
+            }
+          ]
+        }
+      }
+    },
+    {
+      "id": "N8",
+      "label": "Step 8",
+      "customData": {
+        "node_id": "H",
+        "node_step_index": 7,
+        "content": "Underwent salvage surgery consisting of VATS wedge resection of the metastatic lesion.",
+        "clinical_data": {
+          "procedures": [
+            {
+              "name": "Wedge Resection",
+              "approach": "VATS",
+              "location": "lung",
+              "outcome": "resection of metastatic lesion"
+            }
+          ]
+        }
+      }
+    },
+    {
+      "id": "N9",
+      "label": "Step 9",
+      "customData": {
+        "node_id": "I",
+        "node_step_index": 8,
+        "content": "Postoperative pathology and gene analysis revealed adenocarcinoma (Figure 2) with EGFR L858R and T790M mutations.",
+        "clinical_data": {
+          "diagnoses": [
+            {
+              "code": "C0001666",
+              "label": "Adenocarcinoma",
+              "status": "active"
+            }
+          ],
+          "labs": [
+            {
+              "test": "EGFR L858R mutation",
+              "value": "positive"
+            },
+            {
+              "test": "EGFR T790M mutation",
+              "value": "positive"
+            }
+          ]
+        }
+      }
+    },
+    {
+      "id": "N10",
+      "label": "Step 10",
+      "customData": {
+        "node_id": "J",
+        "node_step_index": 9,
+        "content": "MDT discussion recommended continuing gefitinib maintenance therapy after surgery.",
+        "clinical_data": {
+          "medications": [
+            {
+              "drug": "C1643448",
+              "dosage": null,
+              "frequency": null,
+              "modality": null,
+              "start_date": null,
+              "end_date": null,
+              "indication": null
+            }
+          ],
+          "procedures": [
+            {
+              "name": "C0036341",
+              "approach": null,
+              "date": null,
+              "location": null,
+              "performed_by": null,
+              "outcome": null
+            }
+          ]
+        }
+      }
+    },
+    {
+      "id": "N11",
+      "label": "Step 11",
+      "customData": {
+        "node_id": "K",
+        "node_step_index": 10,
+        "content": "10 months after salvage surgery: Developed brain metastasis.",
+        "clinical_data": {
+          "diagnoses": [
+            {
+              "code": "C0242963",
+              "label": "Brain metastasis",
+              "status": "active",
+              "onset_date": null
+            }
+          ]
+        }
+      }
+    },
+    {
+      "id": "N12",
+      "label": "Step 12",
+      "customData": {
+        "node_id": "L",
+        "node_step_index": 11,
+        "content": "Brain metastasis treated with osimertinib combined with stereotactic radiosurgery.",
+        "clinical_data": {
+          "medications": [
+            {
+              "drug": "C1441344",
+              "dosage": null,
+              "frequency": null,
+              "modality": null,
+              "start_date": null,
+              "end_date": null,
+              "indication": null
+            }
+          ],
+          "procedures": [
+            {
+              "name": "C0427974",
+              "approach": null,
+              "date": null,
+              "location": "C0205341",
+              "performed_by": null,
+              "outcome": null
+            }
+          ],
+          "diagnoses": [
+            {
+              "code": "C0340539",
+              "label": "Brain Metastasis",
+              "status": "active",
+              "onset_date": null
+            }
+          ]
+        }
+      }
+    },
+    {
+      "id": "N13",
+      "label": "Step 13",
+      "customData": {
+        "node_id": "M",
+        "node_step_index": 12,
+        "content": "Twelve months after combined therapy: Bone and liver metastasis, along with progression of the brain metastatic lesion.",
+        "clinical_data": {
+          "diagnoses": [
+            {
+              "code": "C0206328",
+              "label": "bone metastasis",
+              "status": "active"
+            },
+            {
+              "code": "C0027651",
+              "label": "liver metastasis",
+              "status": "active"
+            },
+            {
+              "code": "C1517237",
+              "label": "brain metastatic lesion",
+              "status": "active"
+            }
+          ]
+        }
+      }
+    },
+    {
+      "id": "N14",
+      "label": "Step 14",
+      "customData": {
+        "node_id": "N",
+        "node_step_index": 13,
+        "content": "Pathological findings indicate a metastatic lesion along with papillary and micropapillary adenocarcinoma (HE staining; magnification \u00d7100).",
+        "clinical_data": {}
+      }
+    },
+    {
+      "id": "N15",
+      "label": "Step 15",
+      "customData": {
+        "node_id": "O",
+        "node_step_index": 14,
+        "content": "Died of multiple organ dysfunction 9 months after bone/liver/brain metastasis progression.",
+        "clinical_data": {
+          "diagnoses": [
+            {
+              "code": "C79.9",
+              "label": "Secondary malignant neoplasm of unspecified site",
+              "status": "historical",
+              "onset_date": null
+            },
+            {
+              "code": "R65.2",
+              "label": "Multiple organ dysfunction",
+              "status": "historical",
+              "onset_date": null
+            }
+          ]
+        }
+      }
+    },
+    {
+      "id": "N16",
+      "label": "Step 16",
+      "customData": {
+        "node_id": "P",
+        "node_step_index": 15,
+        "content": "Salvage resection offered the patient a 10-month PFS.",
+        "clinical_data": {}
+      }
+    },
+    {
+      "id": "N17",
+      "label": "Step 17",
+      "customData": {
+        "node_id": "Q",
+        "node_step_index": 16,
+        "content": "Patient developed definite progression after gefitinib as maintenance therapy following salvage surgery and started on osimertinib.",
+        "clinical_data": {
+          "medications": [
+            {
+              "drug": "C0886466",
+              "dosage": null,
+              "frequency": null,
+              "modality": null,
+              "start_date": null,
+              "end_date": null,
+              "indication": "Disease Progression"
+            },
+            {
+              "drug": "C3888713",
+              "dosage": null,
+              "frequency": null,
+              "modality": null,
+              "start_date": null,
+              "end_date": null,
+              "indication": "Disease Progression"
+            }
+          ],
+          "diagnoses": [
+            {
+              "code": null,
+              "label": "Disease Progression",
+              "status": "active",
+              "onset_date": null
+            }
+          ],
+          "procedures": [
+            {
+              "name": "C1522354",
+              "approach": null,
+              "date": null,
+              "location": null,
+              "performed_by": null,
+              "outcome": null
+            }
+          ]
+        }
+      }
+    },
+    {
+      "id": "N18",
+      "label": "Step 18",
+      "customData": {
+        "node_id": "R",
+        "node_step_index": 17,
+        "content": "Restart of Gefitinib maintenance therapy is acceptable after complete resection of the recurrent site.",
+        "clinical_data": {
+          "medications": [
+            {
+              "drug": "C0974339",
+              "dosage": null,
+              "frequency": null,
+              "modality": null,
+              "start_date": null,
+              "end_date": null,
+              "indication": null
+            }
+          ],
+          "procedures": [
+            {
+              "name": "C0034932",
+              "approach": null,
+              "date": null,
+              "location": null,
+              "performed_by": null,
+              "outcome": null
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "edges": [
+    {
+      "from": "N1",
+      "to": "N2",
+      "data": {
+        "edge_id": "A_to_B",
+        "branch_flag": true,
+        "content": "Patient received adjuvant chemotherapy after surgery."
+      }
+    },
+    {
+      "from": "N2",
+      "to": "N3",
+      "data": {
+        "edge_id": "B_to_C",
+        "branch_flag": true,
+        "content": "Four years after surgery, ipsilateral lung metastasis was found. Gene detection revealed an exon 21 Leu858Arg substitution (L858R)."
+      }
+    },
+    {
+      "from": "N3",
+      "to": "N4",
+      "data": {
+        "edge_id": "C_to_D",
+        "branch_flag": true,
+        "content": "Treatment initiated based on gene detection results."
+      }
+    },
+    {
+      "from": "N4",
+      "to": "N5",
+      "data": {
+        "edge_id": "D_to_E",
+        "branch_flag": true,
+        "content": "Response to initial targeted therapy."
+      }
+    },
+    {
+      "from": "N5",
+      "to": "N6",
+      "data": {
+        "edge_id": "E_to_F",
+        "branch_flag": true,
+        "content": "Surveillance imaging."
+      }
+    },
+    {
+      "from": "N6",
+      "to": "N7",
+      "data": {
+        "edge_id": "F_to_G",
+        "branch_flag": true,
+        "content": "Disease progression on targeted therapy."
+      }
+    },
+    {
+      "from": "N7",
+      "to": "N8",
+      "data": {
+        "edge_id": "G_to_H",
+        "branch_flag": true,
+        "content": "Patient underwent salvage surgery."
+      }
+    },
+    {
+      "from": "N8",
+      "to": "N9",
+      "data": {
+        "edge_id": "H_to_I",
+        "branch_flag": true,
+        "content": "Postoperative pathology and gene analysis results."
+      }
+    },
+    {
+      "from": "N9",
+      "to": "N10",
+      "data": {
+        "edge_id": "I_to_J",
+        "branch_flag": true,
+        "content": "Treatment recommendations after surgery."
+      }
+    },
+    {
+      "from": "N10",
+      "to": "N11",
+      "data": {
+        "edge_id": "J_to_K",
+        "branch_flag": true,
+        "content": "Disease progression."
+      }
+    },
+    {
+      "from": "N11",
+      "to": "N12",
+      "data": {
+        "edge_id": "K_to_L",
+        "branch_flag": true,
+        "content": "Treatment for brain metastasis."
+      }
+    },
+    {
+      "from": "N12",
+      "to": "N13",
+      "data": {
+        "edge_id": "L_to_M",
+        "branch_flag": true,
+        "content": "Further disease progression."
+      }
+    },
+    {
+      "from": "N13",
+      "to": "N14",
+      "data": {
+        "edge_id": "M_to_N",
+        "branch_flag": true,
+        "content": "Pathological findings of metastatic lesion."
+      }
+    },
+    {
+      "from": "N14",
+      "to": "N15",
+      "data": {
+        "edge_id": "N_to_O",
+        "branch_flag": true,
+        "content": "Patient outcome."
+      }
+    },
+    {
+      "from": "N15",
+      "to": "N16",
+      "data": {
+        "edge_id": "O_to_P",
+        "branch_flag": true,
+        "content": "Progression free survival after salvage resection."
+      }
+    },
+    {
+      "from": "N16",
+      "to": "N17",
+      "data": {
+        "edge_id": "P_to_Q",
+        "branch_flag": true,
+        "content": "Patient developed definite progression after gefitinib as maintenance therapy following salvage surgery and started on osimertinib."
+      }
+    },
+    {
+      "from": "N17",
+      "to": "N18",
+      "data": {
+        "edge_id": "Q_to_R",
+        "branch_flag": true,
+        "content": "Restart of Gefitinib maintenance therapy is acceptable after complete resection of the recurrent site."
+      }
+    }
+  ]
+}

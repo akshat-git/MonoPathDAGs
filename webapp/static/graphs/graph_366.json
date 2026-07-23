@@ -1,0 +1,377 @@
+{
+  "nodes": [
+    {
+      "id": "N1",
+      "label": "Step 1",
+      "customData": {
+        "node_id": "A",
+        "node_step_index": 0,
+        "content": "69-year-old male ex-smoker presented to the emergency department with acute-onset right-sided chest pain with dyspnoea. Past medical history included chronic obstructive pulmonary disease stadium-3, well controlled with medications. On presentation, his oxygen saturation was 93%. Physical examination showed no abnormalities.",
+        "clinical_data": {
+          "HPI": [
+            {
+              "summary": "acute-onset right-sided chest pain with dyspnoea",
+              "onset": "acute",
+              "associated_symptoms": [
+                "Dyspnea"
+              ]
+            }
+          ],
+          "social_history": [
+            {
+              "category": "smoking",
+              "status": "past",
+              "description": "ex-smoker"
+            }
+          ],
+          "diagnoses": [
+            {
+              "code": "417649006",
+              "label": "Chronic obstructive lung disease stage 3",
+              "status": "active"
+            }
+          ],
+          "vitals": [
+            {
+              "type": "Oxygen saturation",
+              "value": "93",
+              "unit": "%"
+            }
+          ]
+        }
+      }
+    },
+    {
+      "id": "N2",
+      "label": "Step 2",
+      "customData": {
+        "node_id": "B",
+        "node_step_index": 1,
+        "content": "Normal full blood count, normal venous blood gas, C-reactive protein levels, and no evidence of clotting disorders. Chest radiography showed no abnormal shadows. Admitted to hospital for further management.",
+        "clinical_data": {
+          "labs": [
+            {
+              "test": "Full blood count",
+              "value": "normal",
+              "flag": "normal"
+            },
+            {
+              "test": "Venous blood gas",
+              "value": "normal",
+              "flag": "normal"
+            },
+            {
+              "test": "C-reactive protein",
+              "value": "normal",
+              "flag": "normal"
+            },
+            {
+              "test": "Clotting disorders",
+              "value": "no evidence",
+              "flag": "normal"
+            }
+          ],
+          "imaging": [
+            {
+              "type": "Chest radiography",
+              "finding": "no abnormal shadows",
+              "modality": "X-ray"
+            }
+          ]
+        }
+      }
+    },
+    {
+      "id": "N3",
+      "label": "Step 3",
+      "customData": {
+        "node_id": "C",
+        "node_step_index": 2,
+        "content": "On Day 2 of admission, the patient\u2019s general condition deteriorated.",
+        "clinical_data": {}
+      }
+    },
+    {
+      "id": "N4",
+      "label": "Step 4",
+      "customData": {
+        "node_id": "D",
+        "node_step_index": 3,
+        "content": "CT chest angiogram revealed a 5.7 x 4.2 x 5.0 cm mass in the right pulmonary artery. No enlarged lymph nodes or signs of metastasis were found. Managed as thromboembolism occlusion in the right pulmonary artery and received anticoagulation therapy, but no improvement occurred.",
+        "clinical_data": {
+          "imaging": [
+            {
+              "type": "Pulmonary Angiogram",
+              "body_part": "Right pulmonary artery",
+              "modality": "CT",
+              "finding": "5.7 x 4.2 x 5.0 cm mass",
+              "impression": "Mass in the right pulmonary artery",
+              "date": null
+            }
+          ],
+          "diagnoses": [
+            {
+              "code": "415.1",
+              "label": "Pulmonary embolism and infarction",
+              "status": "active",
+              "onset_date": null
+            }
+          ],
+          "medications": [
+            {
+              "drug": "Anticoagulation therapy",
+              "dosage": null,
+              "frequency": null,
+              "modality": null,
+              "start_date": null,
+              "end_date": null,
+              "indication": "Thromboembolism occlusion in the right pulmonary artery"
+            }
+          ]
+        }
+      }
+    },
+    {
+      "id": "N5",
+      "label": "Step 5",
+      "customData": {
+        "node_id": "E",
+        "node_step_index": 4,
+        "content": "Follow-up CT chest angiogram 2 weeks later showed no improvement of the pulmonary artery mass; however, a new finding of 1.5 cm pleural fluid in the right lung was discovered.",
+        "clinical_data": {
+          "imaging": [
+            {
+              "type": "CT chest angiogram",
+              "body_part": "lung",
+              "modality": "CT",
+              "finding": "no improvement of the pulmonary artery mass",
+              "date": null
+            },
+            {
+              "type": "CT chest angiogram",
+              "body_part": "lung",
+              "modality": "CT",
+              "finding": "1.5 cm pleural fluid in the right lung",
+              "date": null
+            }
+          ]
+        }
+      }
+    },
+    {
+      "id": "N6",
+      "label": "Step 6",
+      "customData": {
+        "node_id": "F",
+        "node_step_index": 5,
+        "content": "MRI of the chest revealed increasing pleural fluid with intraluminal filling defects involving the right pulmonary artery, citing pulmonary thromboembolism as the main differential diagnosis.",
+        "clinical_data": {
+          "imaging": [
+            {
+              "type": "Magnetic Resonance Imaging",
+              "body_part": "Chest",
+              "modality": "MRI",
+              "finding": "increasing pleural fluid with intraluminal filling defects involving the right pulmonary artery",
+              "impression": "pulmonary thromboembolism as the main differential diagnosis"
+            }
+          ],
+          "diagnoses": [
+            {
+              "code": "41597008",
+              "label": "Pulmonary thromboembolism (disorder)",
+              "status": "suspected"
+            }
+          ]
+        }
+      }
+    },
+    {
+      "id": "N7",
+      "label": "Step 7",
+      "customData": {
+        "node_id": "G",
+        "node_step_index": 6,
+        "content": "PET-CT scan revealed a large invasive obstructing homogenous mass in the right pulmonary artery with high fluorodeoxyglucose (FDG) uptake of 25.2 SUV max, no FDG uptake in mediastinal lymph nodes or other organs.",
+        "clinical_data": {
+          "imaging": [
+            {
+              "type": "Positron emission tomography",
+              "body_part": "Pulmonary artery",
+              "modality": "PET",
+              "finding": "large invasive obstructing homogenous mass",
+              "impression": "high fluorodeoxyglucose (FDG) uptake of 25.2 SUV max, no FDG uptake in mediastinal lymph nodes or other organs."
+            }
+          ]
+        }
+      }
+    },
+    {
+      "id": "N8",
+      "label": "Step 8",
+      "customData": {
+        "node_id": "H",
+        "node_step_index": 7,
+        "content": "Endoscopy-guided biopsy of the mass revealed non-small-cell carcinoma.",
+        "clinical_data": {
+          "diagnoses": [
+            {
+              "code": "C0007123",
+              "label": "Non-Small Cell Lung Carcinoma",
+              "status": "active"
+            }
+          ],
+          "procedures": [
+            {
+              "name": "Biopsy",
+              "approach": "endoscopic",
+              "location": "mass"
+            }
+          ]
+        }
+      }
+    },
+    {
+      "id": "N9",
+      "label": "Step 9",
+      "customData": {
+        "node_id": "I",
+        "node_step_index": 8,
+        "content": "Patient is receiving ongoing chemotherapy and radiotherapy.",
+        "clinical_data": {
+          "procedures": [
+            {
+              "name": "Chemotherapy",
+              "date": null
+            },
+            {
+              "name": "Radiotherapy",
+              "date": null
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "edges": [
+    {
+      "from": "N1",
+      "to": "N2",
+      "data": {
+        "edge_id": "A_to_B",
+        "branch_flag": true,
+        "content": "Initial investigations after presentation to the emergency department.",
+        "transition_event": {
+          "trigger_type": "lab_change",
+          "trigger_entities": [],
+          "change_type": "other",
+          "target_domain": "lab"
+        }
+      }
+    },
+    {
+      "from": "N2",
+      "to": "N3",
+      "data": {
+        "edge_id": "B_to_C",
+        "branch_flag": true,
+        "content": "Patient admitted to hospital for further management. General condition deteriorated on Day 2 of admission.",
+        "transition_event": {
+          "trigger_type": "spontaneous",
+          "trigger_entities": [],
+          "change_type": "progression",
+          "target_domain": "functional_status"
+        }
+      }
+    },
+    {
+      "from": "N3",
+      "to": "N4",
+      "data": {
+        "edge_id": "C_to_D",
+        "branch_flag": true,
+        "content": "Deterioration prompted further imaging and diagnosis.",
+        "transition_event": {
+          "trigger_type": "imaging",
+          "trigger_entities": [],
+          "change_type": "addition",
+          "target_domain": "imaging"
+        }
+      }
+    },
+    {
+      "from": "N4",
+      "to": "N5",
+      "data": {
+        "edge_id": "D_to_E",
+        "branch_flag": true,
+        "content": "Anticoagulation therapy was ineffective, and follow-up imaging revealed new findings.",
+        "transition_event": {
+          "trigger_type": "medication_change",
+          "trigger_entities": [],
+          "change_type": "other",
+          "target_domain": "medication"
+        }
+      }
+    },
+    {
+      "from": "N5",
+      "to": "N6",
+      "data": {
+        "edge_id": "E_to_F",
+        "branch_flag": true,
+        "content": "Further imaging to investigate the pulmonary artery mass and pleural fluid.",
+        "transition_event": {
+          "trigger_type": "imaging",
+          "trigger_entities": [],
+          "change_type": "addition",
+          "target_domain": "imaging"
+        }
+      }
+    },
+    {
+      "from": "N6",
+      "to": "N7",
+      "data": {
+        "edge_id": "F_to_G",
+        "branch_flag": true,
+        "content": "Further characterization of the mass in the right pulmonary artery.",
+        "transition_event": {
+          "trigger_type": "imaging",
+          "trigger_entities": [],
+          "change_type": "addition",
+          "target_domain": "imaging"
+        }
+      }
+    },
+    {
+      "from": "N7",
+      "to": "N8",
+      "data": {
+        "edge_id": "G_to_H",
+        "branch_flag": true,
+        "content": "Biopsy to determine the nature of the mass.",
+        "transition_event": {
+          "trigger_type": "procedure",
+          "trigger_entities": [],
+          "change_type": "addition",
+          "target_domain": "procedure"
+        }
+      }
+    },
+    {
+      "from": "N8",
+      "to": "N9",
+      "data": {
+        "edge_id": "H_to_I",
+        "branch_flag": true,
+        "content": "Treatment initiated following diagnosis.",
+        "transition_event": {
+          "trigger_type": "procedure",
+          "trigger_entities": [],
+          "change_type": "addition",
+          "target_domain": "procedure"
+        }
+      }
+    }
+  ]
+}

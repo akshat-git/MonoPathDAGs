@@ -1,0 +1,624 @@
+{
+  "nodes": [
+    {
+      "id": "N1",
+      "label": "Step 1",
+      "customData": {
+        "node_id": "A",
+        "node_step_index": 0,
+        "content": "October 2017: 79-year-old man diagnosed with squamous non-small cell lung cancer (NSCLC) stage IVA, cT3N2M1a.",
+        "clinical_data": {
+          "diagnoses": [
+            {
+              "code": "C0024117",
+              "label": "Squamous cell carcinoma of lung",
+              "status": "active",
+              "onset_date": "2017-10"
+            },
+            {
+              "code": "C0027505",
+              "label": "Non-Small Cell Lung Carcinoma",
+              "status": "active",
+              "onset_date": "2017-10"
+            }
+          ]
+        }
+      }
+    },
+    {
+      "id": "N2",
+      "label": "Step 2",
+      "customData": {
+        "node_id": "B",
+        "node_step_index": 1,
+        "content": "November 2017: Started on docetaxel therapy (50 mg/m2).",
+        "clinical_data": {
+          "medications": [
+            {
+              "drug": "Docetaxel",
+              "dosage": "50 mg/m2",
+              "frequency": null,
+              "modality": null,
+              "start_date": "2017-11",
+              "end_date": null,
+              "indication": null
+            }
+          ]
+        }
+      }
+    },
+    {
+      "id": "N3",
+      "label": "Step 3",
+      "customData": {
+        "node_id": "C",
+        "node_step_index": 2,
+        "content": "After 6 cycles of docetaxel, right pleural effusion increased, and docetaxel was discontinued due to disease progression.",
+        "clinical_data": {
+          "medications": [
+            {
+              "drug": "C0013088",
+              "dosage": null,
+              "frequency": null,
+              "modality": null,
+              "start_date": null,
+              "end_date": null,
+              "indication": null
+            }
+          ],
+          "diagnoses": [
+            {
+              "code": "C0032072",
+              "label": "Pleural Effusion",
+              "status": "active",
+              "onset_date": null
+            },
+            {
+              "code": null,
+              "label": "Disease progression",
+              "status": "active",
+              "onset_date": null
+            }
+          ]
+        }
+      }
+    },
+    {
+      "id": "N4",
+      "label": "Step 4",
+      "customData": {
+        "node_id": "D",
+        "node_step_index": 3,
+        "content": "March 2018: Started on nivolumab therapy bi-weekly (1 to 10 cycles: 3 mg/kg and from 11 cycles: 240 mg/body) as second-line treatment.",
+        "clinical_data": {
+          "medications": [
+            {
+              "drug": "Nivolumab",
+              "dosage": "3 mg/kg",
+              "frequency": "bi-weekly",
+              "modality": "IV",
+              "start_date": "2018-03",
+              "end_date": null,
+              "indication": "second-line treatment"
+            },
+            {
+              "drug": "Nivolumab",
+              "dosage": "240 mg/body",
+              "frequency": "bi-weekly",
+              "modality": "IV",
+              "start_date": "2018-03",
+              "end_date": null,
+              "indication": "second-line treatment"
+            }
+          ]
+        }
+      }
+    },
+    {
+      "id": "N5",
+      "label": "Step 5",
+      "customData": {
+        "node_id": "E",
+        "node_step_index": 4,
+        "content": "After 3 cycles of nivolumab, palliative radiotherapy (30 Gy) was administered for bone metastasis in the fifth vertebra.",
+        "clinical_data": {
+          "medications": [
+            {
+              "drug": "C0028353",
+              "dosage": "30 Gy",
+              "frequency": null,
+              "modality": null,
+              "start_date": null,
+              "end_date": null,
+              "indication": "C0206395"
+            }
+          ],
+          "procedures": [
+            {
+              "name": "C0034597",
+              "approach": null,
+              "date": null,
+              "location": "T118233",
+              "performed_by": null,
+              "outcome": null
+            }
+          ],
+          "diagnoses": [
+            {
+              "code": "C0206395",
+              "label": "bone metastasis",
+              "status": "active",
+              "onset_date": null
+            }
+          ]
+        }
+      }
+    },
+    {
+      "id": "N6",
+      "label": "Step 6",
+      "customData": {
+        "node_id": "F",
+        "node_step_index": 5,
+        "content": "Nivolumab continued until 17 cycles. Right pleural effusion disappeared at about 7 cycles, and the patient's general condition improved.",
+        "clinical_data": {
+          "medications": [
+            {
+              "drug": "C1661221",
+              "dosage": null,
+              "frequency": null,
+              "modality": null,
+              "start_date": null,
+              "end_date": null,
+              "indication": null
+            }
+          ],
+          "diagnoses": [
+            {
+              "code": "C0032237",
+              "label": "Pleural Effusion",
+              "status": "resolved",
+              "onset_date": null
+            }
+          ]
+        }
+      }
+    },
+    {
+      "id": "N7",
+      "label": "Step 7",
+      "customData": {
+        "node_id": "G",
+        "node_step_index": 6,
+        "content": "20 days after 17 cycles of nivolumab: Developed dyspnea and was urgently admitted to the hospital.",
+        "clinical_data": {
+          "medications": [
+            {
+              "drug": "C1663497",
+              "dosage": null,
+              "frequency": null,
+              "modality": null,
+              "start_date": null,
+              "end_date": null,
+              "indication": null
+            }
+          ],
+          "HPI": [
+            {
+              "summary": "Developed dyspnea and was urgently admitted to the hospital 20 days after 17 cycles of nivolumab",
+              "duration": "20 days",
+              "onset": null,
+              "progression": "sudden",
+              "associated_symptoms": [
+                "C0013404"
+              ],
+              "alleviating_factors": [],
+              "exacerbating_factors": []
+            }
+          ]
+        }
+      }
+    },
+    {
+      "id": "N8",
+      "label": "Step 8",
+      "customData": {
+        "node_id": "H",
+        "node_step_index": 7,
+        "content": "Presentation on admission: Body temperature 36.5\u2103, blood pressure 94/58 mmHg, pulse rate 86 bpm, oxygen saturation 93% on room air and 85% on light exertion, respiratory rate 28 breaths/min. NYHA functional class 4. Cardiac sounds normal, coarse crackles in both lungs, swelling of jugular veins, pitting edema of lower extremities. Chest X-ray and CT showed edema predominantly in the right lung, bilateral slight pulmonary effusion, and cardiac dilatation. EKG revealed atrial flutter. Labs: WBC 8,400/\u03bcL, RBC 463\u00d710^4/\u03bcL, Hemoglobin 15.0 g/dL, Platelets 29.9\u00d710^4/\u03bcL, CRP 0.4 mg/dL, CK 76 IU/L, CK-MB 15 IU/L, Troponin I 92.7 pg/mL, BNP 1,061.5 pg/mL. Echocardiography showed diffuse hypokinesis of the left ventricular cardiac wall with LVEF of 20%.",
+        "clinical_data": {
+          "vitals": [
+            {
+              "type": "Body temperature",
+              "value": "36.5",
+              "unit": "\u2103"
+            },
+            {
+              "type": "Blood pressure",
+              "value": "94/58",
+              "unit": "mmHg"
+            },
+            {
+              "type": "Pulse rate",
+              "value": "86",
+              "unit": "bpm"
+            },
+            {
+              "type": "Oxygen saturation",
+              "value": "93",
+              "unit": "%",
+              "description": "on room air"
+            },
+            {
+              "type": "Oxygen saturation",
+              "value": "85",
+              "unit": "%",
+              "description": "on light exertion"
+            },
+            {
+              "type": "Respiratory rate",
+              "value": "28",
+              "unit": "breaths/min"
+            }
+          ],
+          "functional_status": [
+            {
+              "domain": "cardiac",
+              "description": "NYHA functional class 4"
+            }
+          ],
+          "imaging": [
+            {
+              "type": "Chest X-ray",
+              "finding": "edema predominantly in the right lung, bilateral slight pulmonary effusion, and cardiac dilatation",
+              "modality": "X-ray"
+            },
+            {
+              "type": "CT",
+              "finding": "edema predominantly in the right lung, bilateral slight pulmonary effusion, and cardiac dilatation",
+              "modality": "CT"
+            }
+          ],
+          "labs": [
+            {
+              "test": "White blood cell count",
+              "value": "8400",
+              "unit": "/\u03bcL"
+            },
+            {
+              "test": "Red blood cell count",
+              "value": "463",
+              "unit": "x10^4/\u03bcL"
+            },
+            {
+              "test": "Hemoglobin",
+              "value": "15.0",
+              "unit": "g/dL"
+            },
+            {
+              "test": "Platelets",
+              "value": "29.9",
+              "unit": "x10^4/\u03bcL"
+            },
+            {
+              "test": "C-reactive protein",
+              "value": "0.4",
+              "unit": "mg/dL"
+            },
+            {
+              "test": "Creatine kinase",
+              "value": "76",
+              "unit": "IU/L"
+            },
+            {
+              "test": "Creatine kinase-MB",
+              "value": "15",
+              "unit": "IU/L"
+            },
+            {
+              "test": "Troponin I",
+              "value": "92.7",
+              "unit": "pg/mL"
+            },
+            {
+              "test": "Brain natriuretic peptide",
+              "value": "1061.5",
+              "unit": "pg/mL"
+            }
+          ],
+          "diagnoses": [
+            {
+              "code": "49436004",
+              "label": "Atrial flutter",
+              "status": "active"
+            }
+          ],
+          "procedures": [
+            {
+              "name": "Echocardiography",
+              "outcome": "diffuse hypokinesis of the left ventricular cardiac wall with LVEF of 20%"
+            }
+          ]
+        }
+      }
+    },
+    {
+      "id": "N9",
+      "label": "Step 9",
+      "customData": {
+        "node_id": "I",
+        "node_step_index": 8,
+        "content": "Echocardiography: Interventricular septum thickness 9.5 mm, left ventricular posterior wall thickness 9.6 mm. LVEF significantly decreased compared to 73% in June 2017. Diagnosed with acute heart failure. Chest X-ray and CT scan showed cardiomegaly and bilateral pleural effusion.",
+        "clinical_data": {
+          "imaging": [
+            {
+              "type": "Echocardiography",
+              "body_part": "heart",
+              "modality": "Ultrasound",
+              "finding": "Interventricular septum thickness 9.5 mm",
+              "date": null
+            },
+            {
+              "type": "Echocardiography",
+              "body_part": "heart",
+              "modality": "Ultrasound",
+              "finding": "left ventricular posterior wall thickness 9.6 mm",
+              "date": null
+            },
+            {
+              "type": "Echocardiography",
+              "body_part": "heart",
+              "modality": "Ultrasound",
+              "finding": "LVEF significantly decreased compared to 73% in June 2017",
+              "date": null
+            },
+            {
+              "type": "Cardiomegaly",
+              "body_part": "chest",
+              "modality": "X-ray",
+              "finding": "Cardiomegaly",
+              "date": null
+            },
+            {
+              "type": "Pleural Effusion",
+              "body_part": "chest",
+              "modality": "X-ray",
+              "finding": "bilateral pleural effusion",
+              "date": null
+            },
+            {
+              "type": "Cardiomegaly",
+              "body_part": "chest",
+              "modality": "CT",
+              "finding": "Cardiomegaly",
+              "date": null
+            },
+            {
+              "type": "Pleural Effusion",
+              "body_part": "chest",
+              "modality": "CT",
+              "finding": "bilateral pleural effusion",
+              "date": null
+            }
+          ],
+          "diagnoses": [
+            {
+              "code": "423438006",
+              "label": "Acute heart failure",
+              "status": "active",
+              "onset_date": null
+            }
+          ]
+        }
+      }
+    },
+    {
+      "id": "N10",
+      "label": "Step 10",
+      "customData": {
+        "node_id": "J",
+        "node_step_index": 9,
+        "content": "Electrocardiogram at the time of admission showing atrial flutter. Echocardiogram at the time of admission showing a low left ventricular ejection fraction (LVEF).",
+        "clinical_data": {
+          "imaging": [
+            {
+              "type": "Echocardiogram",
+              "body_part": "Heart",
+              "modality": "Ultrasound",
+              "finding": "low left ventricular ejection fraction (LVEF)",
+              "impression": "low left ventricular ejection fraction (LVEF)"
+            }
+          ],
+          "diagnoses": [
+            {
+              "code": "41643009",
+              "label": "Atrial flutter",
+              "status": "active"
+            }
+          ]
+        }
+      }
+    },
+    {
+      "id": "N11",
+      "label": "Step 11",
+      "customData": {
+        "node_id": "K",
+        "node_step_index": 10,
+        "content": "Echocardiogram 4 months after discharge showing normal LVEF. Cardiomegaly and pleural effusion are improved after treatment of heart failure.",
+        "clinical_data": {
+          "imaging": [
+            {
+              "type": "Echocardiogram",
+              "body_part": "Heart",
+              "modality": "Ultrasound",
+              "finding": "normal LVEF",
+              "date": "4 months after discharge"
+            },
+            {
+              "type": "Cardiomegaly",
+              "body_part": "Heart",
+              "modality": "Ultrasound",
+              "finding": "improved",
+              "date": "4 months after discharge"
+            },
+            {
+              "type": "Pleural effusion",
+              "body_part": "Pleural cavity",
+              "modality": "Ultrasound",
+              "finding": "improved",
+              "date": "4 months after discharge"
+            }
+          ],
+          "diagnoses": [
+            {
+              "code": "429828008",
+              "label": "Heart failure",
+              "status": "resolved"
+            }
+          ]
+        }
+      }
+    },
+    {
+      "id": "N12",
+      "label": "Step 12",
+      "customData": {
+        "node_id": "L",
+        "clinical_data": {}
+      }
+    }
+  ],
+  "edges": [
+    {
+      "from": "N1",
+      "to": "N2",
+      "data": {
+        "edge_id": "A_to_B",
+        "branch_flag": true,
+        "content": "Transition from diagnosis of squamous non-small cell lung cancer (NSCLC) stage IVA to initiation of docetaxel therapy.",
+        "transition_event": {
+          "trigger_type": "medication_change",
+          "trigger_entities": [
+            "C0013088"
+          ],
+          "change_type": "addition",
+          "target_domain": "medication",
+          "timestamp": "2017-11"
+        }
+      }
+    },
+    {
+      "from": "N2",
+      "to": "N3",
+      "data": {
+        "edge_id": "B_to_C",
+        "branch_flag": true,
+        "content": "Progression of disease with increased right pleural effusion after 6 cycles of docetaxel, leading to discontinuation of docetaxel.",
+        "transition_event": {
+          "trigger_type": "medication_change",
+          "trigger_entities": [
+            "C0013088"
+          ],
+          "change_type": "discontinuation",
+          "target_domain": "medication"
+        }
+      }
+    },
+    {
+      "from": "N3",
+      "to": "N4",
+      "data": {
+        "edge_id": "C_to_D",
+        "branch_flag": true,
+        "content": "Initiation of nivolumab therapy as second-line treatment due to disease progression on docetaxel.",
+        "transition_event": {
+          "trigger_type": "medication_change",
+          "trigger_entities": [
+            "C1661221"
+          ],
+          "change_type": "addition",
+          "target_domain": "medication",
+          "timestamp": "2018-03"
+        }
+      }
+    },
+    {
+      "from": "N4",
+      "to": "N5",
+      "data": {
+        "edge_id": "D_to_E",
+        "branch_flag": true,
+        "content": "Development of bone metastasis in the fifth vertebra after 3 cycles of nivolumab, treated with palliative radiotherapy.",
+        "transition_event": {
+          "trigger_type": "procedure",
+          "trigger_entities": [
+            "C0034597"
+          ],
+          "change_type": "addition",
+          "target_domain": "procedure"
+        }
+      }
+    },
+    {
+      "from": "N5",
+      "to": "N6",
+      "data": {
+        "edge_id": "E_to_F",
+        "branch_flag": true,
+        "content": "Resolution of right pleural effusion and improvement in patient's general condition after approximately 7 cycles of nivolumab, with nivolumab continued until 17 cycles.",
+        "transition_event": {
+          "trigger_type": "symptom_onset",
+          "trigger_entities": [
+            "C0032237"
+          ],
+          "change_type": "resolution",
+          "target_domain": "symptom"
+        }
+      }
+    },
+    {
+      "from": "N6",
+      "to": "N7",
+      "data": {
+        "edge_id": "F_to_G",
+        "branch_flag": true,
+        "content": "Development of dyspnea 20 days after completing 17 cycles of nivolumab, leading to urgent hospital admission.",
+        "transition_event": {
+          "trigger_type": "symptom_onset",
+          "trigger_entities": [
+            "C0013404"
+          ],
+          "change_type": "addition",
+          "target_domain": "symptom"
+        }
+      }
+    },
+    {
+      "from": "N7",
+      "to": "N8",
+      "data": {
+        "edge_id": "G_to_H",
+        "branch_flag": true,
+        "content": "Transition from dyspnea to presentation on admission with abnormal vital signs, physical exam findings (crackles, jugular vein swelling, pitting edema), and lab abnormalities (elevated Troponin I and BNP), indicative of heart failure.",
+        "transition_event": {
+          "trigger_type": "symptom_onset",
+          "trigger_entities": [
+            "C0013404"
+          ],
+          "change_type": "progression",
+          "target_domain": "symptom"
+        }
+      }
+    },
+    {
+      "from": "N8",
+      "to": "N9",
+      "data": {
+        "edge_id": "H_to_I",
+        "branch_flag": true,
+        "content": "Ech"
+      }
+    }
+  ]
+}

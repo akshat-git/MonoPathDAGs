@@ -1,0 +1,490 @@
+{
+  "nodes": [
+    {
+      "id": "N1",
+      "label": "Step 1",
+      "customData": {
+        "node_id": "A",
+        "node_step_index": 0,
+        "content": "66-year-old woman diagnosed with metastatic adenocarcinoma of the right lung (T2N0M1c) with ipsilateral pleural and diffuse bone spread.",
+        "clinical_data": {
+          "diagnoses": [
+            {
+              "code": "C34.9",
+              "label": "Malignant neoplasm of unspecified part of bronchus or lung",
+              "status": "active",
+              "onset_date": null
+            },
+            {
+              "code": "C79.51",
+              "label": "Secondary malignant neoplasm of bone",
+              "status": "active",
+              "onset_date": null
+            },
+            {
+              "code": "C78.2",
+              "label": "Secondary malignant neoplasm of pleura",
+              "status": "active",
+              "onset_date": null
+            }
+          ]
+        }
+      }
+    },
+    {
+      "id": "N2",
+      "label": "Step 2",
+      "customData": {
+        "node_id": "B",
+        "node_step_index": 1,
+        "content": "Initial treatment with carboplatin/pemetrexed chemotherapy resulted in a partial remission after two cycles, followed by pemetrexed maintenance.",
+        "clinical_data": {
+          "medications": [
+            {
+              "drug": "C0007074",
+              "dosage": null,
+              "frequency": null,
+              "modality": null,
+              "start_date": null,
+              "end_date": null,
+              "indication": null
+            },
+            {
+              "drug": "C0976082",
+              "dosage": null,
+              "frequency": null,
+              "modality": null,
+              "start_date": null,
+              "end_date": null,
+              "indication": null
+            },
+            {
+              "drug": "C0976082",
+              "dosage": null,
+              "frequency": null,
+              "modality": null,
+              "start_date": null,
+              "end_date": null,
+              "indication": null
+            }
+          ]
+        }
+      }
+    },
+    {
+      "id": "N3",
+      "label": "Step 3",
+      "customData": {
+        "node_id": "C",
+        "node_step_index": 2,
+        "content": "ALK rearrangement detected by fluorescence in situ hybridization (FISH). RNA next-generation sequencing (NGS) of the tumor identified transcripts of KLC1exon 9 fused with ALKexon 20 (K9\u2013A20).",
+        "clinical_data": {
+          "labs": [
+            {
+              "test": "Fluorescence in situ hybridization",
+              "finding": "ALK rearrangement detected",
+              "modality": "FISH"
+            },
+            {
+              "test": "RNA next-generation sequencing",
+              "finding": "KLC1exon 9 fused with ALKexon 20",
+              "modality": "NGS",
+              "body_part": "tumor"
+            }
+          ]
+        }
+      }
+    },
+    {
+      "id": "N4",
+      "label": "Step 4",
+      "customData": {
+        "node_id": "D",
+        "node_step_index": 3,
+        "content": "ctDNA analysis from longitudinal blood plasma samples confirmed KLC1-ALK translocation with breakpoints in KLC1 intron 9 and ALK intron 19. Plasma sample during partial remission (after 2 cycles carboplatin/pemetrexed) showed ALK fusion variant allele frequency (VAF) of 0.09% and no ALK SNVs. Serum sample showed CEA 39.52 ng/\u00b5L and CYFRA 21-1 0.53 ng/\u00b5L.",
+        "clinical_data": {
+          "labs": [
+            {
+              "test": "C0009264",
+              "value": "39.52",
+              "unit": "ng/\u00b5L"
+            },
+            {
+              "test": "CYFRA 21-1",
+              "value": "0.53",
+              "unit": "ng/\u00b5L"
+            }
+          ],
+          "diagnoses": [
+            {
+              "code": "ALK",
+              "label": "ALK fusion variant",
+              "status": "active"
+            }
+          ]
+        }
+      }
+    },
+    {
+      "id": "N5",
+      "label": "Step 5",
+      "customData": {
+        "node_id": "E",
+        "node_step_index": 4,
+        "content": "Two months after pemetrexed maintenance, chest CT showed progression of primary tumor and pleural effusion. Brain MRI detected new cerebral metastases.",
+        "clinical_data": {
+          "imaging": [
+            {
+              "type": "Chest CT",
+              "body_part": "chest",
+              "modality": "CT",
+              "finding": "progression of primary tumor and pleural effusion",
+              "date": null
+            },
+            {
+              "type": "Brain MRI",
+              "body_part": "brain",
+              "modality": "MRI",
+              "finding": "new cerebral metastases",
+              "date": null
+            }
+          ]
+        }
+      }
+    },
+    {
+      "id": "N6",
+      "label": "Step 6",
+      "customData": {
+        "node_id": "F",
+        "node_step_index": 5,
+        "content": "KLC1\u2013ALK fusion VAF rose to 6.25%. Tumor protein markers CEA and CYFRA 21\u20131 also increased.",
+        "clinical_data": {
+          "labs": [
+            {
+              "test": "C0009262",
+              "value": "6.25",
+              "unit": "%",
+              "flag": "abnormal"
+            }
+          ],
+          "diagnoses": [
+            {
+              "code": "C0007106",
+              "label": "Cancer",
+              "status": "active"
+            }
+          ]
+        }
+      }
+    },
+    {
+      "id": "N7",
+      "label": "Step 7",
+      "customData": {
+        "node_id": "G",
+        "node_step_index": 6,
+        "content": "Second-line treatment with crizotinib (250 bid) was initiated, resulting in tumor shrinkage of ~40% as determined by radiological imaging. Retrospective analysis showed fusion VAF of 4.4%. ctDNA analysis identified four distinct secondary mutations in the kinase domain of the ALK gene: ALKp.F1174C, ALKp. F1174L, ALKp.G1269A.",
+        "clinical_data": {
+          "medications": [
+            {
+              "drug": "C0886439",
+              "dosage": "250",
+              "frequency": "bid",
+              "modality": "oral",
+              "indication": "Neoplasm",
+              "start_date": null,
+              "end_date": null
+            }
+          ],
+          "imaging": [
+            {
+              "type": "Radiological imaging",
+              "body_part": null,
+              "modality": null,
+              "finding": "tumor shrinkage of ~40%",
+              "impression": null,
+              "date": null
+            }
+          ],
+          "labs": [
+            {
+              "test": "ctDNA analysis",
+              "value": "ALK mutations identified",
+              "unit": null,
+              "flag": "abnormal",
+              "reference_range": null,
+              "timestamp": null
+            }
+          ]
+        }
+      }
+    },
+    {
+      "id": "N8",
+      "label": "Step 8",
+      "customData": {
+        "node_id": "H",
+        "node_step_index": 8,
+        "content": "Whole-brain radiotherapy with 30 Gy (10 fractions of 3 Gy) was administered.",
+        "clinical_data": {
+          "procedures": [
+            {
+              "name": "Whole brain radiation therapy",
+              "approach": "other",
+              "date": null,
+              "location": "brain",
+              "performed_by": null,
+              "outcome": null
+            }
+          ]
+        }
+      }
+    },
+    {
+      "id": "N9",
+      "label": "Step 9",
+      "customData": {
+        "node_id": "I",
+        "node_step_index": 9,
+        "content": "Clinical and radiological follow-up three months after whole-brain radiotherapy indicated stable disease, and crizotinib treatment was continued.",
+        "clinical_data": {
+          "medications": [
+            {
+              "drug": "C0886439",
+              "dosage": null,
+              "frequency": null,
+              "modality": null,
+              "start_date": null,
+              "end_date": null,
+              "indication": null
+            }
+          ],
+          "imaging": [
+            {
+              "type": "C0205098",
+              "body_part": "C0008625",
+              "modality": null,
+              "finding": "stable disease",
+              "impression": null,
+              "date": null
+            }
+          ],
+          "procedures": [
+            {
+              "name": "C0043166",
+              "approach": null,
+              "date": null,
+              "location": null,
+              "performed_by": null,
+              "outcome": null
+            }
+          ]
+        }
+      }
+    },
+    {
+      "id": "N10",
+      "label": "Step 10",
+      "customData": {
+        "node_id": "J",
+        "node_step_index": 10,
+        "content": "Plasma sample taken 3 weeks after the last radiation dose revealed rising VAFs of the fusion KLC1\u2013ALK (8.01%) and four secondary ALK variants, the most abundant of which was ALKp.F1174 (c.3522C>G with 3.26% VAF. CEA and CYFRA 21\u20131 concentrations were also elevated.",
+        "clinical_data": {
+          "labs": [
+            {
+              "test": "C0009199",
+              "value": "elevated",
+              "unit": null,
+              "flag": "abnormal"
+            },
+            {
+              "test": "CYFRA 21-1",
+              "value": "elevated",
+              "unit": null,
+              "flag": "abnormal"
+            }
+          ],
+          "diagnoses": [
+            {
+              "code": null,
+              "label": "KLC1-ALK fusion",
+              "status": "active"
+            },
+            {
+              "code": null,
+              "label": "ALK variant ALKp.F1174",
+              "status": "active"
+            }
+          ]
+        }
+      }
+    },
+    {
+      "id": "N11",
+      "label": "Step 11",
+      "customData": {
+        "node_id": "K",
+        "node_step_index": 11,
+        "content": "One month later, multilocular disease progression occurred, with multiple new lung and bone metastases as confirmed by PET-CT.",
+        "clinical_data": {
+          "imaging": [
+            {
+              "type": "Metastasis",
+              "body_part": "Lung",
+              "modality": "PET-CT",
+              "finding": "Multiple new lung metastases",
+              "impression": "Multilocular disease progression",
+              "date": null
+            },
+            {
+              "type": "Metastasis",
+              "body_part": "Bone",
+              "modality": "PET-CT",
+              "finding": "Multiple new bone metastases",
+              "impression": "Multilocular disease progression",
+              "date": null
+            }
+          ],
+          "diagnoses": [
+            {
+              "code": "C0205424",
+              "label": "Disease Progression",
+              "status": "active",
+              "onset_date": null
+            }
+          ]
+        }
+      }
+    },
+    {
+      "id": "N12",
+      "label": "Step 12",
+      "customData": {
+        "node_id": "L",
+        "node_step_index": 12,
+        "content": "Retrospective molecular reassessment with liquid biopsy showed steadily high VAFs. Protein markers rose further (CEA: >155 ng/\u00b5L, CYFRA 21\u20132: >200 ng/\u00b5L).",
+        "clinical_data": {
+          "labs": [
+            {
+              "test": "C0007682",
+              "value": ">155",
+              "unit": "ng/\u00b5L",
+              "flag": "abnormal"
+            },
+            {
+              "test": "CYFRA 21-1",
+              "value": ">200",
+              "unit": "ng/\u00b5L",
+              "flag": "abnormal"
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "edges": [
+    {
+      "from": "N1",
+      "to": "N2",
+      "data": {
+        "edge_id": "A_to_B",
+        "branch_flag": true,
+        "content": "Initiation of carboplatin/pemetrexed chemotherapy for metastatic adenocarcinoma of the right lung (T2N0M1c) with ipsilateral pleural and diffuse bone spread. The treatment resulted in a partial remission after two cycles, followed by pemetrexed maintenance."
+      }
+    },
+    {
+      "from": "N2",
+      "to": "N3",
+      "data": {
+        "edge_id": "B_to_C",
+        "branch_flag": true,
+        "content": "Detection of ALK rearrangement by FISH and identification of KLC1exon 9 fused with ALKexon 20 (K9\u2013A20) transcripts via RNA NGS of the tumor, following initial treatment with carboplatin/pemetrexed chemotherapy resulting in a partial remission after two cycles, followed by pemetrexed maintenance.",
+        "transition_event": {
+          "trigger_type": "lab_change",
+          "trigger_entities": [
+            "C0005941"
+          ],
+          "change_type": "addition",
+          "target_domain": "diagnosis"
+        }
+      }
+    },
+    {
+      "from": "N3",
+      "to": "N4",
+      "data": {
+        "edge_id": "C_to_D",
+        "branch_flag": true,
+        "content": "ctDNA analysis from longitudinal blood plasma samples confirmed KLC1-ALK translocation with breakpoints in KLC1 intron 9 and ALK intron 19. Plasma sample during partial remission (after 2 cycles carboplatin/pemetrexed) showed ALK fusion variant allele frequency (VAF) of 0.09% and no ALK SNVs. Serum sample showed CEA 39.52 ng/\u00b5L and CYFRA 21-1 0.53 ng/\u00b5L.",
+        "transition_event": {
+          "trigger_type": "lab_change",
+          "trigger_entities": [
+            "C0005941"
+          ],
+          "change_type": "addition",
+          "target_domain": "diagnosis"
+        }
+      }
+    },
+    {
+      "from": "N4",
+      "to": "N5",
+      "data": {
+        "edge_id": "D_to_E",
+        "branch_flag": true,
+        "content": "Progression of primary tumor and pleural effusion on chest CT, and new cerebral metastases detected on brain MRI, two months after pemetrexed maintenance.",
+        "transition_event": {
+          "trigger_type": "spontaneous",
+          "trigger_entities": [
+            "C0009402",
+            "C0022841"
+          ],
+          "change_type": "progression",
+          "target_domain": "imaging"
+        }
+      }
+    },
+    {
+      "from": "N5",
+      "to": "N6",
+      "data": {
+        "edge_id": "E_to_F",
+        "branch_flag": true,
+        "content": "Increase in KLC1\u2013ALK fusion VAF to 6.25% and elevation of tumor protein markers CEA and CYFRA 21\u20131, following progression of primary tumor and pleural effusion on chest CT, and new cerebral metastases detected on brain MRI.",
+        "transition_event": {
+          "trigger_type": "lab_change",
+          "trigger_entities": [
+            "C0009262"
+          ],
+          "change_type": "escalation",
+          "target_domain": "lab"
+        }
+      }
+    },
+    {
+      "from": "N6",
+      "to": "N7",
+      "data": {
+        "edge_id": "F_to_G",
+        "branch_flag": true,
+        "content": "Initiation of second-line treatment with crizotinib (250 bid), resulting in tumor shrinkage of ~40% as determined by radiological imaging. Retrospective analysis showed fusion VAF of 4.4%. ctDNA analysis identified four distinct secondary mutations in the kinase domain of the ALK gene: ALKp.F1174C, ALKp. F1174L, ALKp.G1269A.",
+        "transition_event": {
+          "trigger_type": "medication_change",
+          "trigger_entities": [
+            "C0886439"
+          ],
+          "change_type": "addition",
+          "target_domain": "medication"
+        }
+      }
+    },
+    {
+      "from": "N7",
+      "to": "N8",
+      "data": {
+        "edge_id": "G_to_H"
+      }
+    }
+  ]
+}

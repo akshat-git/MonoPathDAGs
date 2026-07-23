@@ -1,0 +1,365 @@
+{
+  "nodes": [
+    {
+      "id": "N1",
+      "label": "Step 1",
+      "customData": {
+        "node_id": "A",
+        "node_step_index": 0,
+        "content": "Patient started on osimertinib 160 mg in combination with phenytoin.",
+        "clinical_data": {
+          "medications": [
+            {
+              "drug": "osimertinib",
+              "dosage": "160 mg",
+              "frequency": null,
+              "modality": null,
+              "start_date": null,
+              "end_date": null,
+              "indication": null
+            },
+            {
+              "drug": "phenytoin",
+              "dosage": null,
+              "frequency": null,
+              "modality": null,
+              "start_date": null,
+              "end_date": null,
+              "indication": null
+            }
+          ]
+        }
+      },
+      "custom_id": "graph_088_N0"
+    },
+    {
+      "id": "N2",
+      "label": "Step 2",
+      "customData": {
+        "node_id": "B",
+        "node_step_index": 1,
+        "content": "CT of the chest, abdomen, and pelvis with contrast at 32 months after initiating osimertinib showed overall stable visceral and osseous disease. The left pleural effusion has completely resolved, while the right pleural effusion remained stable in size. No new lesions or metastatic sites were detected.",
+        "clinical_data": {
+          "imaging": [
+            {
+              "type": "Computed tomography",
+              "body_part": "chest",
+              "modality": "CT",
+              "finding": "overall stable visceral and osseous disease",
+              "date": "Unknown"
+            },
+            {
+              "type": "Computed tomography",
+              "body_part": "abdomen",
+              "modality": "CT",
+              "finding": "overall stable visceral and osseous disease",
+              "date": "Unknown"
+            },
+            {
+              "type": "Computed tomography",
+              "body_part": "pelvis",
+              "modality": "CT",
+              "finding": "overall stable visceral and osseous disease",
+              "date": "Unknown"
+            },
+            {
+              "type": "Pleural Effusion",
+              "body_part": "Left Pleura",
+              "modality": "CT",
+              "finding": "completely resolved",
+              "date": "Unknown"
+            },
+            {
+              "type": "Pleural Effusion",
+              "body_part": "Right Pleura",
+              "modality": "CT",
+              "finding": "remained stable in size",
+              "date": "Unknown"
+            }
+          ],
+          "medications": [
+            {
+              "drug": "Osimertinib",
+              "start_date": "Unknown"
+            }
+          ]
+        },
+        "timestamp": "32 months after initiating osimertinib"
+      },
+      "custom_id": "graph_088_N1"
+    },
+    {
+      "id": "N3",
+      "label": "Step 3",
+      "customData": {
+        "node_id": "C",
+        "node_step_index": 2,
+        "content": "Patient developed nail changes with increasing brittleness (grade 1). Seizure activity has been well controlled and phenytoin levels have remained stable. Patient noted persistent and limiting dyspnea throughout treatment course. Dyspnea did improve after initial treatment for the pulmonary embolism but subsequently returned with imaging demonstrating no recurrence of pulmonary emboli.",
+        "clinical_data": {
+          "diagnoses": [
+            {
+              "code": "59620008",
+              "label": "Pulmonary embolism (disorder)",
+              "status": "historical"
+            }
+          ],
+          "HPI": [
+            {
+              "summary": "Patient noted persistent and limiting dyspnea throughout treatment course. Dyspnea did improve after initial treatment for the pulmonary embolism but subsequently returned.",
+              "progression": "fluctuating",
+              "associated_symptoms": [
+                "Dyspnea"
+              ]
+            }
+          ]
+        }
+      },
+      "custom_id": "graph_088_N2"
+    },
+    {
+      "id": "N4",
+      "label": "Step 4",
+      "customData": {
+        "node_id": "D",
+        "node_step_index": 3,
+        "content": "Echocardiogram, exercise stress testing, and cardiopulmonary exercise test were normal. Pulmonary function tests (PFTs) showed FEV1 of 1.92 L, FVC of 2.52 L, FEV1/FVC ratio of 0.76, normal spirometry, TLC, and a mild reduction in DLCO, suggesting COPD/emphysema. Oxygen saturation remains normal at rest and with exertion.",
+        "clinical_data": {
+          "imaging": [
+            {
+              "type": "Echocardiography",
+              "body_part": "Heart",
+              "modality": "Ultrasound",
+              "finding": "normal"
+            }
+          ],
+          "labs": [
+            {
+              "test": "FEV1",
+              "value": "1.92",
+              "unit": "L"
+            },
+            {
+              "test": "FVC",
+              "value": "2.52",
+              "unit": "L"
+            },
+            {
+              "test": "FEV1/FVC ratio",
+              "value": "0.76"
+            },
+            {
+              "test": "DLCO",
+              "finding": "mild reduction",
+              "impression": "suggesting COPD/emphysema"
+            }
+          ],
+          "diagnoses": [
+            {
+              "code": "439401001",
+              "label": "Chronic obstructive lung disease",
+              "status": "suspected"
+            },
+            {
+              "code": "87433001",
+              "label": "Emphysema",
+              "status": "suspected"
+            }
+          ],
+          "vitals": [
+            {
+              "type": "Oxygen saturation",
+              "value": "normal",
+              "status": "at rest and with exertion"
+            }
+          ],
+          "procedures": [
+            {
+              "name": "Exercise Stress Test",
+              "outcome": "normal"
+            },
+            {
+              "name": "Cardiopulmonary Exercise Test",
+              "outcome": "normal"
+            },
+            {
+              "name": "Pulmonary function test",
+              "outcome": "abnormal"
+            }
+          ]
+        }
+      },
+      "custom_id": "graph_088_N3"
+    },
+    {
+      "id": "N5",
+      "label": "Step 5",
+      "customData": {
+        "node_id": "E",
+        "node_step_index": 4,
+        "content": "Osimertinib dose reduced to 80 mg daily for one week while continuing phenytoin, but dyspnea did not significantly improve. Osimertinib was then resumed at 160 mg daily.",
+        "clinical_data": {
+          "medications": [
+            {
+              "drug": "C1608881",
+              "dosage": "80 mg",
+              "frequency": "daily",
+              "modality": "oral",
+              "start_date": null,
+              "end_date": null
+            },
+            {
+              "drug": "C0031541",
+              "dosage": null,
+              "frequency": null,
+              "modality": "oral",
+              "start_date": null,
+              "end_date": null
+            },
+            {
+              "drug": "C1608881",
+              "dosage": "160 mg",
+              "frequency": "daily",
+              "modality": "oral",
+              "start_date": null,
+              "end_date": null
+            }
+          ],
+          "HPI": [
+            {
+              "summary": "Dyspnea did not significantly improve despite osimertinib dose reduction.",
+              "duration": null,
+              "onset": null,
+              "progression": null,
+              "associated_symptoms": [
+                "C0013404"
+              ],
+              "alleviating_factors": [],
+              "exacerbating_factors": []
+            }
+          ]
+        }
+      },
+      "custom_id": "graph_088_N4"
+    },
+    {
+      "id": "N6",
+      "label": "Step 6",
+      "customData": {
+        "node_id": "F",
+        "node_step_index": 5,
+        "content": "Patient achieved prolonged disease control on osimertinib treatment, with disease progression that later stabilized following three cycles carboplatin/pemetrexed with continued osimertinib at a dose of 160 mg daily. No new lesions or metastatic sites were detected. She tolerated osimertinib well, developing nail changes with increasing brittleness (grade",
+        "clinical_data": {
+          "medications": [
+            {
+              "drug": "C0885124",
+              "dosage": "160 mg",
+              "frequency": "daily",
+              "modality": "oral",
+              "indication": "disease control"
+            },
+            {
+              "drug": "C0007667",
+              "indication": "disease progression"
+            },
+            {
+              "drug": "C0007667",
+              "indication": "disease progression"
+            }
+          ]
+        }
+      },
+      "custom_id": "graph_088_N5"
+    }
+  ],
+  "edges": [
+    {
+      "from": "N1",
+      "to": "N2",
+      "data": {
+        "edge_id": "A_to_B",
+        "branch_flag": true,
+        "content": "32 months after initiating osimertinib, patient underwent CT imaging.",
+        "transition_event": {
+          "trigger_type": "imaging",
+          "trigger_entities": [],
+          "change_type": "other",
+          "target_domain": "imaging",
+          "timestamp": "Unknown"
+        }
+      },
+      "custom_id": "graph_088_N1_N2"
+    },
+    {
+      "from": "N2",
+      "to": "N3",
+      "data": {
+        "edge_id": "B_to_C",
+        "branch_flag": true,
+        "content": "Patient developed nail changes and persistent dyspnea. Seizure activity remained well controlled.",
+        "transition_event": {
+          "trigger_type": "symptom_onset",
+          "trigger_entities": [
+            "C0221251",
+            "C0013404"
+          ],
+          "change_type": "progression",
+          "target_domain": "symptom"
+        }
+      },
+      "custom_id": "graph_088_N2_N3"
+    },
+    {
+      "from": "N3",
+      "to": "N4",
+      "data": {
+        "edge_id": "C_to_D",
+        "branch_flag": true,
+        "content": "Patient underwent echocardiogram, exercise stress testing, cardiopulmonary exercise test, and pulmonary function tests (PFTs).",
+        "transition_event": {
+          "trigger_type": "procedure",
+          "trigger_entities": [],
+          "change_type": "other",
+          "target_domain": "procedure"
+        }
+      },
+      "custom_id": "graph_088_N3_N4"
+    },
+    {
+      "from": "N4",
+      "to": "N5",
+      "data": {
+        "edge_id": "D_to_E",
+        "branch_flag": true,
+        "content": "Osimertinib dose was reduced to 80 mg daily for one week, then resumed at 160 mg daily due to persistent dyspnea.",
+        "transition_event": {
+          "trigger_type": "medication_change",
+          "trigger_entities": [
+            "C1608881"
+          ],
+          "change_type": "deescalation",
+          "target_domain": "medication"
+        }
+      },
+      "custom_id": "graph_088_N4_N5"
+    },
+    {
+      "from": "N5",
+      "to": "N6",
+      "data": {
+        "edge_id": "E_to_F",
+        "branch_flag": true,
+        "content": "Patient achieved prolonged disease control on osimertinib treatment, with disease progression that later stabilized following three cycles carboplatin/pemetrexed with continued osimertinib at a dose of 160 mg daily.",
+        "transition_event": {
+          "trigger_type": "medication_change",
+          "trigger_entities": [
+            "C0007667",
+            "C0885124"
+          ],
+          "change_type": "addition",
+          "target_domain": "medication"
+        }
+      },
+      "custom_id": "graph_088_N5_N6"
+    }
+  ]
+}

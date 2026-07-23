@@ -1,0 +1,303 @@
+{
+  "nodes": [
+    {
+      "id": "N1",
+      "label": "Step 1",
+      "customData": {
+        "node_id": "A",
+        "node_step_index": 0,
+        "content": "63-year-old woman with no notable medical history presented with a right lung tumor with progressive enlargement. No smoking history and no family history, and no physical findings.",
+        "clinical_data": {
+          "diagnoses": [
+            {
+              "code": "C34.9",
+              "label": "Malignant neoplasm of unspecified part of bronchus or lung",
+              "status": "active",
+              "onset_date": null
+            }
+          ],
+          "social_history": [
+            {
+              "category": "smoking",
+              "status": "never",
+              "description": "No smoking history"
+            }
+          ]
+        }
+      }
+    },
+    {
+      "id": "N2",
+      "label": "Step 2",
+      "customData": {
+        "node_id": "B",
+        "node_step_index": 1,
+        "content": "Chest CT revealed a 3.1cm right middle lobe tumor without calcification or pleural invasion. Tumor located in the proximal part of the right middle lobe.",
+        "clinical_data": {
+          "imaging": [
+            {
+              "type": "CT of chest",
+              "body_part": "Right middle lobe",
+              "modality": "CT",
+              "finding": "3.1cm tumor without calcification or pleural invasion",
+              "impression": "Tumor located in the proximal part of the right middle lobe."
+            }
+          ]
+        }
+      }
+    },
+    {
+      "id": "N3",
+      "label": "Step 3",
+      "customData": {
+        "node_id": "C",
+        "node_step_index": 2,
+        "content": "Tumor enlarged over 10 years compared to previous CT image. Blood serum levels of squamous cell carcinoma-related antigen and carcinoembryonic antigen were within the normal range. F-18 FDG PET-CT showed an accumulation of F-18 FDG in the tumor (maximum standardized uptake value, 3.17). Head contrast-enhanced MRI showed no lesions.",
+        "clinical_data": {
+          "imaging": [
+            {
+              "type": "Neoplasm (finding)",
+              "body_part": "Unknown",
+              "modality": "CT",
+              "finding": "Tumor enlarged over 10 years compared to previous CT image",
+              "impression": "Tumor growth",
+              "date": null
+            },
+            {
+              "type": "Fluorodeoxyglucose F-18 (substance)",
+              "body_part": "Tumor",
+              "modality": "PET",
+              "finding": "Accumulation of F-18 FDG in the tumor (maximum standardized uptake value, 3.17)",
+              "impression": "F-18 FDG uptake in tumor",
+              "date": null
+            },
+            {
+              "type": "Lesion",
+              "body_part": "Head",
+              "modality": "MRI",
+              "finding": "No lesions",
+              "impression": "No lesions",
+              "date": null
+            }
+          ],
+          "labs": [
+            {
+              "test": "Squamous Cell Carcinoma Antigen",
+              "value": "normal range",
+              "unit": null,
+              "flag": "normal",
+              "reference_range": null,
+              "timestamp": null
+            },
+            {
+              "test": "Carcinoembryonic Antigen",
+              "value": "normal range",
+              "unit": null,
+              "flag": "normal",
+              "reference_range": null,
+              "timestamp": null
+            }
+          ]
+        }
+      }
+    },
+    {
+      "id": "N4",
+      "label": "Step 4",
+      "customData": {
+        "node_id": "D",
+        "node_step_index": 3,
+        "content": "Differential diagnosis of primary lung cancer stage IB (cT2aN0M0). Nodule in the right middle lobe found on chest CT scan taken 10 years prior.",
+        "clinical_data": {
+          "diagnoses": [
+            {
+              "code": "C34",
+              "label": "Primary lung cancer",
+              "status": "active"
+            }
+          ],
+          "imaging": [
+            {
+              "type": "Lung CT",
+              "body_part": "Lung",
+              "modality": "CT",
+              "finding": "Nodule in the right middle lobe",
+              "date": null
+            }
+          ]
+        }
+      }
+    },
+    {
+      "id": "N5",
+      "label": "Step 5",
+      "customData": {
+        "node_id": "E",
+        "node_step_index": 4,
+        "content": "Right middle lobectomy performed via an anterolateral thoracotomy. Postoperative course uneventful. Patient discharged on postoperative day 7. Macroscopic findings of the resected tumor showed a well-defined tumor with a maximum diameter of 3 cm.",
+        "clinical_data": {
+          "procedures": [
+            {
+              "name": "Lobectomy",
+              "approach": "open",
+              "date": null,
+              "location": "Right middle lobe",
+              "performed_by": null,
+              "outcome": null
+            }
+          ],
+          "imaging": [
+            {
+              "type": null,
+              "body_part": "Lung",
+              "modality": null,
+              "finding": "well-defined tumor with a maximum diameter of 3 cm",
+              "impression": null,
+              "date": null
+            }
+          ]
+        }
+      }
+    },
+    {
+      "id": "N6",
+      "label": "Step 6",
+      "customData": {
+        "node_id": "F",
+        "node_step_index": 5,
+        "content": "Microscopic findings of the resected tumor showed proliferation of heteromorphic cells with eosinophilic cytoplasm and analogous round nuclei. Immunohistochemistry: tumor positive for vimentin, EMA, and PgR, and negative for chromogranin A, synaptophysin, and thyroid transcription factor-1. Ki-67 index < 3%. Histological and immunohistochemical findings suggested WHO grade I meningioma.",
+        "clinical_data": {
+          "imaging": [
+            {
+              "finding": "proliferation of heteromorphic cells with eosinophilic cytoplasm and analogous round nuclei",
+              "modality": "microscopic",
+              "type": "Microscopic examination"
+            }
+          ],
+          "labs": [
+            {
+              "test": "vimentin",
+              "value": "positive"
+            },
+            {
+              "test": "EMA",
+              "value": "positive"
+            },
+            {
+              "test": "PgR",
+              "value": "positive"
+            },
+            {
+              "test": "chromogranin A",
+              "value": "negative"
+            },
+            {
+              "test": "synaptophysin",
+              "value": "negative"
+            },
+            {
+              "test": "thyroid transcription factor-1",
+              "value": "negative"
+            },
+            {
+              "test": "Ki-67 index",
+              "value": "< 3%"
+            }
+          ],
+          "diagnoses": [
+            {
+              "code": "SNOMED:8934003",
+              "label": "meningioma",
+              "status": "active"
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "edges": [
+    {
+      "from": "N1",
+      "to": "N2",
+      "data": {
+        "edge_id": "A_to_B",
+        "branch_flag": true,
+        "content": "Initial presentation and imaging",
+        "transition_event": {
+          "trigger_type": "symptom_onset",
+          "trigger_entities": [
+            "C34.9"
+          ],
+          "change_type": "progression",
+          "target_domain": "diagnosis"
+        }
+      }
+    },
+    {
+      "from": "N2",
+      "to": "N3",
+      "data": {
+        "edge_id": "B_to_C",
+        "branch_flag": true,
+        "content": "Further characterization of the tumor with imaging and lab tests.",
+        "transition_event": {
+          "trigger_type": "imaging",
+          "trigger_entities": [],
+          "change_type": "progression",
+          "target_domain": "imaging"
+        }
+      }
+    },
+    {
+      "from": "N3",
+      "to": "N4",
+      "data": {
+        "edge_id": "C_to_D",
+        "branch_flag": true,
+        "content": "Diagnosis of primary lung cancer stage IB (cT2aN0M0) based on imaging and history.",
+        "transition_event": {
+          "trigger_type": "interpretation",
+          "trigger_entities": [
+            "C34"
+          ],
+          "change_type": "addition",
+          "target_domain": "diagnosis"
+        }
+      }
+    },
+    {
+      "from": "N4",
+      "to": "N5",
+      "data": {
+        "edge_id": "D_to_E",
+        "branch_flag": true,
+        "content": "Surgical intervention: Right middle lobectomy performed.",
+        "transition_event": {
+          "trigger_type": "procedure",
+          "trigger_entities": [
+            "Lobectomy"
+          ],
+          "change_type": "addition",
+          "target_domain": "procedure"
+        }
+      }
+    },
+    {
+      "from": "N5",
+      "to": "N6",
+      "data": {
+        "edge_id": "E_to_F",
+        "branch_flag": true,
+        "content": "Pathological examination of the resected tumor leading to a diagnosis of WHO grade I meningioma.",
+        "transition_event": {
+          "trigger_type": "interpretation",
+          "trigger_entities": [
+            "SNOMED:8934003"
+          ],
+          "change_type": "reinterpretation",
+          "target_domain": "diagnosis"
+        }
+      }
+    }
+  ]
+}

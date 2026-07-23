@@ -1,0 +1,365 @@
+{
+  "nodes": [
+    {
+      "id": "N1",
+      "label": "Step 1",
+      "customData": {
+        "node_id": "A",
+        "node_step_index": 0,
+        "content": "65-year-old man presented with right forearm pain and paralysis of his right-hand fingers. Physical examination showed right forearm swelling and drop finger with no sensory deficits in the fingers.",
+        "clinical_data": {
+          "HPI": [
+            {
+              "summary": "65-year-old man presented with right forearm pain and paralysis of his right-hand fingers.",
+              "onset": "unknown",
+              "progression": "unknown",
+              "associated_symptoms": [
+                "Pain",
+                "Paralysis"
+              ],
+              "alleviating_factors": [],
+              "exacerbating_factors": []
+            }
+          ],
+          "diagnoses": [
+            {
+              "code": "422586000",
+              "label": "Forearm pain",
+              "status": "active",
+              "onset_date": null
+            },
+            {
+              "code": "294461003",
+              "label": "Paralysis",
+              "status": "active",
+              "onset_date": null
+            }
+          ],
+          "physical_exam": [
+            {
+              "finding": "Right forearm swelling",
+              "body_part": "Forearm",
+              "laterality": "right"
+            },
+            {
+              "finding": "Drop finger",
+              "body_part": "Finger",
+              "laterality": "right"
+            },
+            {
+              "finding": "No sensory deficits in the fingers",
+              "body_part": "Finger",
+              "laterality": "right"
+            }
+          ]
+        }
+      }
+    },
+    {
+      "id": "N2",
+      "label": "Step 2",
+      "customData": {
+        "node_id": "B",
+        "node_step_index": 1,
+        "content": "Magnetic resonance imaging revealed a right forearm mass.",
+        "clinical_data": {
+          "imaging": [
+            {
+              "type": "Magnetic resonance imaging",
+              "body_part": "forearm",
+              "modality": "MRI",
+              "finding": "mass",
+              "impression": "right forearm mass"
+            }
+          ]
+        }
+      }
+    },
+    {
+      "id": "N3",
+      "label": "Step 3",
+      "customData": {
+        "node_id": "C",
+        "node_step_index": 2,
+        "content": "Chest x-ray and computed tomography identified a right upper lobe mass and right renal tumour.",
+        "clinical_data": {
+          "imaging": [
+            {
+              "type": "Mass",
+              "body_part": "Right upper lobe",
+              "modality": "X-ray",
+              "finding": "Mass",
+              "date": null
+            },
+            {
+              "type": "Mass",
+              "body_part": "Right upper lobe",
+              "modality": "CT",
+              "finding": "Mass",
+              "date": null
+            },
+            {
+              "type": "Tumor",
+              "body_part": "Kidney",
+              "modality": "CT",
+              "finding": "Tumor",
+              "date": null
+            },
+            {
+              "type": "Tumor",
+              "body_part": "Kidney",
+              "modality": "X-ray",
+              "finding": "Tumor",
+              "date": null
+            }
+          ]
+        }
+      }
+    },
+    {
+      "id": "N4",
+      "label": "Step 4",
+      "customData": {
+        "node_id": "D",
+        "node_step_index": 3,
+        "content": "All masses were histologically identified as non-small cell lung cancer.",
+        "clinical_data": {
+          "diagnoses": [
+            {
+              "code": "C0009402",
+              "label": "Non-Small Cell Lung Carcinoma",
+              "status": "active"
+            }
+          ]
+        }
+      }
+    },
+    {
+      "id": "N5",
+      "label": "Step 5",
+      "customData": {
+        "node_id": "E",
+        "node_step_index": 4,
+        "content": "Posterior interosseous nerve (PIN) palsy secondary to lung cancer metastasis was diagnosed. Patient tested positive for MET exon 14 skipping mutation.",
+        "clinical_data": {
+          "diagnoses": [
+            {
+              "code": "C79.31",
+              "label": "Secondary malignant neoplasm of brain and cerebral meninges from lung cancer",
+              "status": "active",
+              "onset_date": null
+            }
+          ],
+          "labs": [
+            {
+              "test": "MET exon 14 skipping mutation",
+              "value": "positive",
+              "unit": null,
+              "flag": "abnormal",
+              "reference_range": null,
+              "timestamp": null
+            }
+          ]
+        }
+      }
+    },
+    {
+      "id": "N6",
+      "label": "Step 6",
+      "customData": {
+        "node_id": "F",
+        "node_step_index": 5,
+        "content": "Palliative radiation therapy (30\u2009Gy in 10 fractions) was administered to the forearm tumour, followed by systemic tepotinib therapy.",
+        "clinical_data": {
+          "procedures": [
+            {
+              "name": "Palliative radiation therapy",
+              "date": null,
+              "location": "forearm",
+              "approach": null,
+              "performed_by": null,
+              "outcome": null
+            }
+          ],
+          "medications": [
+            {
+              "drug": "tepotinib",
+              "dosage": null,
+              "frequency": null,
+              "modality": "systemic",
+              "start_date": null,
+              "end_date": null,
+              "indication": null
+            }
+          ]
+        }
+      }
+    },
+    {
+      "id": "N7",
+      "label": "Step 7",
+      "customData": {
+        "node_id": "G",
+        "node_step_index": 6,
+        "content": "The drop finger showed no improvement despite tumour size reduction.",
+        "clinical_data": {}
+      }
+    },
+    {
+      "id": "N8",
+      "label": "Step 8",
+      "customData": {
+        "node_id": "H",
+        "node_step_index": 7,
+        "content": "Magnetic resonance imaging of the right forearm showed a 9 cm x 4 cm lesion near the radius with suspected posterior interosseous nerve invasion. Chest x-ray showed a large tumour in the right upper lung field. Chest enhanced computed tomography showed a tumour lesion in the right upper lobe and enlargement of the mediastinal lymph node #4R.",
+        "clinical_data": {
+          "imaging": [
+            {
+              "type": "Lesion (finding)",
+              "body_part": "Right forearm",
+              "modality": "MRI",
+              "finding": "9 cm x 4 cm lesion near the radius with suspected posterior interosseous nerve invasion",
+              "impression": "Lesion near the radius with suspected posterior interosseous nerve invasion",
+              "date": null
+            },
+            {
+              "type": "Tumor (morphologic abnormality)",
+              "body_part": "Right upper lung field",
+              "modality": "X-ray",
+              "finding": "Large tumour in the right upper lung field",
+              "impression": "Large tumour in the right upper lung field",
+              "date": null
+            },
+            {
+              "type": "Tumor (morphologic abnormality)",
+              "body_part": "Right upper lobe",
+              "modality": "CT",
+              "finding": "Tumour lesion in the right upper lobe",
+              "impression": "Tumour lesion in the right upper lobe",
+              "date": null
+            },
+            {
+              "type": "Lymph node enlargement (finding)",
+              "body_part": "Mediastinal lymph node #4R",
+              "modality": "CT",
+              "finding": "Enlargement of the mediastinal lymph node #4R",
+              "impression": "Enlargement of the mediastinal lymph node #4R",
+              "date": null
+            }
+          ]
+        }
+      }
+    },
+    {
+      "id": "N9",
+      "label": "Step 9",
+      "customData": {
+        "node_id": "I",
+        "node_step_index": 8,
+        "content": "Palliative radiation was opted to alleviate pain.",
+        "clinical_data": {
+          "procedures": [
+            {
+              "name": "Palliative radiation therapy",
+              "approach": "other",
+              "date": null,
+              "location": null,
+              "performed_by": null,
+              "outcome": "alleviate pain"
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "edges": [
+    {
+      "from": "N1",
+      "to": "N2",
+      "data": {
+        "edge_id": "A_to_B",
+        "branch_flag": true,
+        "content": "Transition from initial presentation to MRI revealing a right forearm mass."
+      }
+    },
+    {
+      "from": "N2",
+      "to": "N3",
+      "data": {
+        "edge_id": "B_to_C",
+        "branch_flag": true,
+        "content": "Transition from forearm mass to chest x-ray and CT identifying a right upper lobe mass and right renal tumour."
+      }
+    },
+    {
+      "from": "N3",
+      "to": "N4",
+      "data": {
+        "edge_id": "C_to_D",
+        "branch_flag": true,
+        "content": "Transition from masses identified to histological identification as non-small cell lung cancer."
+      }
+    },
+    {
+      "from": "N4",
+      "to": "N5",
+      "data": {
+        "edge_id": "D_to_E",
+        "branch_flag": true,
+        "content": "Transition from NSCLC diagnosis to PIN palsy secondary to lung cancer metastasis and positive MET exon 14 skipping mutation.",
+        "transition_event": {
+          "trigger_type": "diagnosis",
+          "trigger_entities": [
+            "C0009402"
+          ],
+          "change_type": "progression",
+          "target_domain": "diagnosis"
+        }
+      }
+    },
+    {
+      "from": "N5",
+      "to": "N6",
+      "data": {
+        "edge_id": "E_to_F",
+        "branch_flag": true,
+        "content": "Transition from diagnosis of PIN palsy and MET exon 14 skipping mutation to palliative radiation therapy and systemic tepotinib therapy.",
+        "transition_event": {
+          "trigger_type": "procedure",
+          "trigger_entities": [
+            "palliative radiation therapy"
+          ],
+          "change_type": "addition",
+          "target_domain": "procedure"
+        }
+      }
+    },
+    {
+      "from": "N6",
+      "to": "N7",
+      "data": {
+        "edge_id": "F_to_G",
+        "branch_flag": true,
+        "content": "Transition from treatment to no improvement in drop finger despite tumour size reduction."
+      }
+    },
+    {
+      "from": "N7",
+      "to": "N8",
+      "data": {
+        "edge_id": "G_to_H",
+        "branch_flag": true,
+        "content": "Transition from no improvement to MRI showing lesion near radius with suspected nerve invasion, chest x-ray showing large tumour, and CT showing tumour lesion and lymph node enlargement."
+      }
+    },
+    {
+      "from": "N8",
+      "to": "N9",
+      "data": {
+        "edge_id": "H_to_I",
+        "branch_flag": true,
+        "content": "Transition from imaging results to decision for palliative radiation to alleviate pain."
+      }
+    }
+  ]
+}

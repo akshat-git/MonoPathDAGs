@@ -1,0 +1,341 @@
+{
+  "nodes": [
+    {
+      "id": "N1",
+      "label": "Step 1",
+      "customData": {
+        "node_id": "A",
+        "node_step_index": 0,
+        "content": "August 2007: Patient underwent video-assisted thoracoscopic lobectomy for primary lung adenocarcinoma in the right upper lobe. Pathology demonstrated a well differentiated adenocarcinoma of stage T2bN0M0 (stage 2A). 2007: Chest CT showed a 4.3 cm \u00d7 2.5 cm mass in the right upper lobe and a small thin-walled cavity in the right anterior basal segment. 2008: Chest CT showed no change in the 43-mm solid lesion in the right upper lung and a small thin-walled cavity in the lower lobe.",
+        "clinical_data": {
+          "procedures": [
+            {
+              "name": "Video-assisted thoracoscopic lobectomy",
+              "date": "2007",
+              "location": "right upper lobe"
+            }
+          ],
+          "diagnoses": [
+            {
+              "code": "C0242374",
+              "label": "Adenocarcinoma of Lung",
+              "status": "historical",
+              "onset_date": "2007"
+            }
+          ],
+          "imaging": [
+            {
+              "type": "Lung mass",
+              "body_part": "Right upper lobe",
+              "modality": "CT",
+              "finding": "4.3 cm \u00d7 2.5 cm mass",
+              "date": "2007"
+            },
+            {
+              "type": "Lung cavity",
+              "body_part": "Right anterior basal segment",
+              "modality": "CT",
+              "finding": "small thin-walled cavity",
+              "date": "2007"
+            },
+            {
+              "type": "Lung lesion",
+              "body_part": "Right upper lung",
+              "modality": "CT",
+              "finding": "43-mm solid lesion",
+              "date": "2008"
+            },
+            {
+              "type": "Lung cavity",
+              "body_part": "Lower lobe",
+              "modality": "CT",
+              "finding": "small thin-walled cavity",
+              "date": "2008"
+            }
+          ]
+        }
+      }
+    },
+    {
+      "id": "N2",
+      "label": "Step 2",
+      "customData": {
+        "node_id": "B",
+        "node_step_index": 1,
+        "content": "2008-2014: Chest CT showed gradual enlargement of a cavity from 11 mm to 14 mm in diameter with no recurrence.",
+        "clinical_data": {
+          "imaging": [
+            {
+              "type": "Computed tomography",
+              "body_part": "Chest",
+              "modality": "CT",
+              "finding": "Gradual enlargement of a cavity from 11 mm to 14 mm in diameter",
+              "date": "2008-2014"
+            }
+          ]
+        }
+      }
+    },
+    {
+      "id": "N3",
+      "label": "Step 3",
+      "customData": {
+        "node_id": "C",
+        "node_step_index": 2,
+        "content": "August 2017: Chest CT showed the lesion had increased to 31 mm and had become a bulla surrounded by GGO.",
+        "clinical_data": {
+          "imaging": [
+            {
+              "type": "Lesion (finding)",
+              "body_part": "Chest",
+              "modality": "CT",
+              "finding": "Lesion increased to 31 mm, bulla surrounded by GGO",
+              "date": "2017-08"
+            }
+          ]
+        }
+      }
+    },
+    {
+      "id": "N4",
+      "label": "Step 4",
+      "customData": {
+        "node_id": "D",
+        "node_step_index": 3,
+        "content": "November 2017: 66-year-old male patient presented with a thin-walled cavity surrounded by a ground-glass opacity (GGO) in the right lung on CT. Enhanced CT scan showed the degree of enhancement of the lesion was difficult to evaluate, and the structure inside the cavity was irregular.",
+        "clinical_data": {
+          "imaging": [
+            {
+              "type": "Lung CT",
+              "body_part": "Lung",
+              "modality": "CT",
+              "finding": "thin-walled cavity surrounded by a ground-glass opacity (GGO) in the right lung",
+              "date": "2017-11"
+            },
+            {
+              "type": "Enhanced CT scan",
+              "body_part": "Lung",
+              "modality": "CT",
+              "finding": "degree of enhancement of the lesion was difficult to evaluate, and the structure inside the cavity was irregular",
+              "date": "2017-11"
+            }
+          ]
+        }
+      }
+    },
+    {
+      "id": "N5",
+      "label": "Step 5",
+      "customData": {
+        "node_id": "E",
+        "node_step_index": 4,
+        "content": "November 15, 2017: Patient underwent video-assisted thoracoscopic wedge resection of the right lower lobe. Final postoperative pathology diagnosis was lepidic predominant adenocarcinoma. The surgical specimen showed a cavity with a malignant appearance in the surrounding tissue. Pathology showed lepidic predominant adenocarcinoma. No lymph node metastasis was observed. Patient recovered well and was discharged one week after surgery. During the follow-up period of 24 months, no recurrence was noted.",
+        "clinical_data": {
+          "procedures": [
+            {
+              "name": "Video-assisted thoracoscopic surgery",
+              "approach": "endoscopic",
+              "date": "2017-11-15",
+              "location": "right lower lobe",
+              "outcome": "no recurrence"
+            },
+            {
+              "name": "Wedge resection",
+              "approach": "open",
+              "date": "2017-11-15",
+              "location": "right lower lobe",
+              "outcome": "no recurrence"
+            }
+          ],
+          "diagnoses": [
+            {
+              "code": "C34.3",
+              "label": "Malignant neoplasm of lower lobe, bronchus or lung",
+              "status": "historical",
+              "onset_date": "2017-11-15"
+            },
+            {
+              "code": "90675005",
+              "label": "Adenocarcinoma in situ of lung",
+              "status": "historical",
+              "onset_date": "2017-11-15"
+            }
+          ],
+          "imaging": [
+            {
+              "type": "Thoracoscopic",
+              "body_part": "Right lower lobe",
+              "modality": "other",
+              "finding": "cavity with a malignant appearance in the surrounding tissue",
+              "impression": "lepidic predominant adenocarcinoma",
+              "date": "2017-11-15"
+            }
+          ]
+        }
+      }
+    },
+    {
+      "id": "N6",
+      "label": "Step 6",
+      "customData": {
+        "node_id": "F",
+        "node_step_index": 5,
+        "content": "Patient had a 40 pack-year history of cigarette smoking and a history of contact with tuberculosis patients, including his mother and sister.",
+        "clinical_data": {
+          "social_history": [
+            {
+              "category": "smoking",
+              "status": "past",
+              "description": "40 pack-year history"
+            }
+          ],
+          "diagnoses": [
+            {
+              "code": "23236004",
+              "label": "History of exposure to tuberculosis",
+              "status": "historical"
+            }
+          ]
+        }
+      }
+    },
+    {
+      "id": "N7",
+      "label": "Step 7",
+      "customData": {
+        "node_id": "G",
+        "node_step_index": 6,
+        "content": "Vital signs were stable, and no obvious abnormalities were found on examination. Related tumor markers were negative.",
+        "clinical_data": {
+          "vitals": [
+            {
+              "type": "Vital signs",
+              "value": "stable"
+            }
+          ],
+          "labs": [
+            {
+              "test": "Tumor marker",
+              "value": "negative"
+            }
+          ]
+        }
+      }
+    },
+    {
+      "id": "N8",
+      "label": "Step 8",
+      "customData": {
+        "node_id": "H",
+        "clinical_data": {}
+      }
+    }
+  ],
+  "edges": [
+    {
+      "from": "N1",
+      "to": "N2",
+      "data": {
+        "edge_id": "A_to_B",
+        "branch_flag": true,
+        "content": "Interval change in lung cavity size.",
+        "transition_event": {
+          "trigger_type": "lab_change",
+          "trigger_entities": [],
+          "change_type": "progression",
+          "target_domain": "imaging"
+        }
+      }
+    },
+    {
+      "from": "N2",
+      "to": "N3",
+      "data": {
+        "edge_id": "B_to_C",
+        "branch_flag": true,
+        "content": "Interval change in lesion size and characteristics.",
+        "transition_event": {
+          "trigger_type": "lab_change",
+          "trigger_entities": [],
+          "change_type": "progression",
+          "target_domain": "imaging"
+        }
+      }
+    },
+    {
+      "from": "N3",
+      "to": "N4",
+      "data": {
+        "edge_id": "C_to_D",
+        "branch_flag": true,
+        "content": "Further characterization of lung lesion via CT imaging.",
+        "transition_event": {
+          "trigger_type": "lab_change",
+          "trigger_entities": [],
+          "change_type": "progression",
+          "target_domain": "imaging"
+        }
+      }
+    },
+    {
+      "from": "N4",
+      "to": "N5",
+      "data": {
+        "edge_id": "D_to_E",
+        "branch_flag": true,
+        "content": "Surgical intervention and pathological diagnosis.",
+        "transition_event": {
+          "trigger_type": "procedure",
+          "trigger_entities": [],
+          "change_type": "addition",
+          "target_domain": "procedure"
+        }
+      }
+    },
+    {
+      "from": "N5",
+      "to": "N6",
+      "data": {
+        "edge_id": "E_to_F",
+        "branch_flag": true,
+        "content": "Documentation of patient's smoking and tuberculosis exposure history.",
+        "transition_event": {
+          "trigger_type": "spontaneous",
+          "trigger_entities": [],
+          "change_type": "addition",
+          "target_domain": "functional_status"
+        }
+      }
+    },
+    {
+      "from": "N6",
+      "to": "N7",
+      "data": {
+        "edge_id": "F_to_G",
+        "branch_flag": true,
+        "content": "Assessment of vital signs and tumor markers.",
+        "transition_event": {
+          "trigger_type": "lab_change",
+          "trigger_entities": [],
+          "change_type": "other",
+          "target_domain": "vital_sign"
+        }
+      }
+    },
+    {
+      "from": "N7",
+      "to": "N8",
+      "data": {
+        "edge_id": "G_to_H",
+        "branch_flag": true,
+        "content": "Further assessment",
+        "transition_event": {
+          "trigger_type": "spontaneous",
+          "trigger_entities": [],
+          "change_type": "other",
+          "target_domain": "functional_status"
+        }
+      }
+    }
+  ]
+}

@@ -1,0 +1,527 @@
+{
+  "nodes": [
+    {
+      "id": "N1",
+      "label": "Step 1",
+      "customData": {
+        "node_id": "A",
+        "node_step_index": 0,
+        "content": "Patient changed to a 3rd line regimen which consisted of Carboplatin (AUC5), pemetrexed, atezolizumab, bevacizumab.",
+        "clinical_data": {
+          "medications": [
+            {
+              "drug": "C0007129",
+              "dosage": "AUC5",
+              "frequency": null,
+              "modality": null,
+              "start_date": null,
+              "end_date": null,
+              "indication": null
+            },
+            {
+              "drug": "C1634849",
+              "dosage": null,
+              "frequency": null,
+              "modality": null,
+              "start_date": null,
+              "end_date": null,
+              "indication": null
+            },
+            {
+              "drug": "C4049449",
+              "dosage": null,
+              "frequency": null,
+              "modality": null,
+              "start_date": null,
+              "end_date": null,
+              "indication": null
+            },
+            {
+              "drug": "C1263442",
+              "dosage": null,
+              "frequency": null,
+              "modality": null,
+              "start_date": null,
+              "end_date": null,
+              "indication": null
+            }
+          ]
+        }
+      }
+    },
+    {
+      "id": "N2",
+      "label": "Step 2",
+      "customData": {
+        "node_id": "B",
+        "node_step_index": 1,
+        "content": "Three months later 18F-FDG PET/CT showed excellent response with complete metabolic remission and no evidence of residual or new FDG-avid malignant or metastatic disease.",
+        "clinical_data": {
+          "imaging": [
+            {
+              "type": "Fluorodeoxyglucose F-18-PET/CT",
+              "body_part": "entire body",
+              "modality": "PET/CT",
+              "finding": "complete metabolic remission",
+              "impression": "no evidence of residual or new FDG-avid malignant or metastatic disease",
+              "date": null
+            }
+          ]
+        }
+      }
+    },
+    {
+      "id": "N3",
+      "label": "Step 3",
+      "customData": {
+        "node_id": "C",
+        "node_step_index": 2,
+        "content": "Patient commenced treatment with crizotinib, where the patient showed a positive response, achieving complete metabolic remission.",
+        "clinical_data": {
+          "medications": [
+            {
+              "drug": "C0982459",
+              "dosage": null,
+              "frequency": null,
+              "modality": null,
+              "start_date": null,
+              "end_date": null,
+              "indication": null
+            }
+          ]
+        }
+      }
+    },
+    {
+      "id": "N4",
+      "label": "Step 4",
+      "customData": {
+        "node_id": "D",
+        "node_step_index": 3,
+        "content": "A year later the patient underwent a 18F-FDG PET/CT scan for the evaluation of disease reoccurrence due to the development of abdominal symptoms.",
+        "clinical_data": {
+          "imaging": [
+            {
+              "type": "Fluorodeoxyglucose F-18 PET/CT",
+              "body_part": "abdomen",
+              "modality": "PET",
+              "finding": "disease reoccurrence",
+              "impression": "evaluation of disease reoccurrence",
+              "date": null
+            },
+            {
+              "type": "Fluorodeoxyglucose F-18 PET/CT",
+              "body_part": "abdomen",
+              "modality": "CT",
+              "finding": "disease reoccurrence",
+              "impression": "evaluation of disease reoccurrence",
+              "date": null
+            }
+          ],
+          "HPI": [
+            {
+              "summary": "development of abdominal symptoms",
+              "duration": null,
+              "onset": null,
+              "progression": "unknown",
+              "associated_symptoms": [
+                "Abdominal symptom"
+              ],
+              "alleviating_factors": [],
+              "exacerbating_factors": []
+            }
+          ]
+        }
+      }
+    },
+    {
+      "id": "N5",
+      "label": "Step 5",
+      "customData": {
+        "node_id": "E",
+        "node_step_index": 4,
+        "content": "18F-FDG PET/CT showed ascites in the abdomen and pelvis with heterogenous low-grade FDG uptake and fat stranding, raising the possibility of peritoneal metastatic disease. There was a new large, intensely FDG-avid irregularly shaped soft tissue mass between the rectum and urinary bladder in keeping with a large peritoneal deposit.",
+        "clinical_data": {
+          "imaging": [
+            {
+              "type": "Positron emission tomography/computed tomography",
+              "body_part": "abdomen and pelvis",
+              "modality": "PET",
+              "finding": "ascites with heterogenous low-grade FDG uptake and fat stranding, raising the possibility of peritoneal metastatic disease. There was a new large, intensely FDG-avid irregularly shaped soft tissue mass between the rectum and urinary bladder in keeping with a large peritoneal deposit."
+            }
+          ]
+        }
+      }
+    },
+    {
+      "id": "N6",
+      "label": "Step 6",
+      "customData": {
+        "node_id": "F",
+        "node_step_index": 5,
+        "content": "Biopsy confirmed Peritoneal Carcinomatosis (PC).",
+        "clinical_data": {
+          "diagnoses": [
+            {
+              "code": "C1614668",
+              "label": "Peritoneal Carcinomatosis",
+              "status": "active"
+            }
+          ],
+          "procedures": [
+            {
+              "name": "Biopsy",
+              "approach": "percutaneous",
+              "location": "Peritoneal cavity",
+              "outcome": "positive"
+            }
+          ]
+        }
+      }
+    },
+    {
+      "id": "N7",
+      "label": "Step 7",
+      "customData": {
+        "node_id": "G",
+        "node_step_index": 6,
+        "content": "Treatment was changed to Lorlatinib.",
+        "clinical_data": {
+          "medications": [
+            {
+              "drug": "C1608951",
+              "dosage": null,
+              "frequency": null,
+              "modality": null,
+              "start_date": null,
+              "end_date": null,
+              "indication": null
+            }
+          ]
+        }
+      }
+    },
+    {
+      "id": "N8",
+      "label": "Step 8",
+      "customData": {
+        "node_id": "H",
+        "node_step_index": 7,
+        "content": "Post-treatment 18F-FDG PET/CT showed complete metabolic resolution of the ascites and peritoneal disease. No FDG-avid local lung recurrence or other metastasis indicated complete metabolic remission.",
+        "clinical_data": {
+          "imaging": [
+            {
+              "type": "Fluorodeoxyglucose F-18",
+              "body_part": "peritoneum",
+              "modality": "PET/CT",
+              "finding": "complete metabolic resolution of the ascites and peritoneal disease",
+              "impression": "complete metabolic remission"
+            },
+            {
+              "type": "Fluorodeoxyglucose F-18",
+              "body_part": "lung",
+              "modality": "PET/CT",
+              "finding": "no FDG-avid local lung recurrence or other metastasis",
+              "impression": "complete metabolic remission"
+            }
+          ]
+        }
+      }
+    },
+    {
+      "id": "N9",
+      "label": "Step 9",
+      "customData": {
+        "node_id": "I",
+        "node_step_index": 8,
+        "content": "Nine months later the patient developed recurrent significant abdominal bloating and pain.",
+        "clinical_data": {
+          "HPI": [
+            {
+              "summary": "Recurrent significant abdominal bloating and pain",
+              "duration": "9 months",
+              "onset": "9 months prior",
+              "progression": "recurrent",
+              "associated_symptoms": [
+                "Abdominal bloating",
+                "Pain"
+              ]
+            }
+          ]
+        }
+      }
+    },
+    {
+      "id": "N10",
+      "label": "Step 10",
+      "customData": {
+        "node_id": "J",
+        "node_step_index": 9,
+        "content": "Patient underwent a 18F-FDG PET/CT scan, which showed findings consistent with recurrent peritoneal disease.",
+        "clinical_data": {
+          "imaging": [
+            {
+              "type": "Fluorodeoxyglucose F-18",
+              "body_part": "peritoneum",
+              "modality": "PET/CT",
+              "finding": "recurrent peritoneal disease"
+            }
+          ]
+        }
+      }
+    },
+    {
+      "id": "N11",
+      "label": "Step 11",
+      "customData": {
+        "node_id": "K",
+        "node_step_index": 10,
+        "content": "18F-FDG PET/CT showed no evidence of FDG-avid local lung carcinoma recurrence or extra peritoneal spread. Pre-therapy maximum intensity projection (MIP) image showing recurrence in the mid abdomen.",
+        "clinical_data": {
+          "imaging": [
+            {
+              "type": "Positron emission tomography/computed tomography",
+              "body_part": "lung",
+              "modality": "PET",
+              "finding": "no evidence of FDG-avid local lung carcinoma recurrence or extra peritoneal spread"
+            }
+          ]
+        }
+      }
+    },
+    {
+      "id": "N12",
+      "label": "Step 12",
+      "customData": {
+        "node_id": "L",
+        "node_step_index": 11,
+        "content": "Pre-therapy transverse section of PET/CT showed peritoneal recurrence in the mid abdomen and ascites.",
+        "clinical_data": {
+          "imaging": [
+            {
+              "type": "Peritoneal recurrence",
+              "body_part": "Peritoneum",
+              "modality": "PET/CT",
+              "finding": "Peritoneal recurrence in the mid abdomen",
+              "date": null
+            },
+            {
+              "type": "Ascites",
+              "body_part": "Abdomen",
+              "modality": "PET/CT",
+              "finding": "Ascites",
+              "date": null
+            }
+          ]
+        }
+      }
+    },
+    {
+      "id": "N13",
+      "label": "Step 13",
+      "customData": {
+        "node_id": "M",
+        "node_step_index": 12,
+        "content": "Patient had further peritoneal recurrence in the mid abdomen.",
+        "clinical_data": {}
+      }
+    },
+    {
+      "id": "N14",
+      "label": "Step 14",
+      "customData": {
+        "node_id": "N",
+        "node_step_index": 13,
+        "content": "Complete metabolic response of the peritoneal disease after third line of treatment.",
+        "clinical_data": {
+          "diagnoses": [
+            {
+              "code": "C56",
+              "label": "Malignant neoplasm of ovary",
+              "status": "resolved"
+            }
+          ]
+        }
+      }
+    },
+    {
+      "id": "N15",
+      "label": "Step 15",
+      "customData": {
+        "node_id": "O",
+        "node_step_index": 14,
+        "content": "Pre- and post-treatment fluorodeoxyglucose positron emission tomography (PET) at first presentation showing complete metabolic response of primary right lung, nodal metastasis and left pleural effusion.",
+        "clinical_data": {
+          "imaging": [
+            {
+              "type": "Fluorodeoxyglucose positron emission tomography",
+              "body_part": "lung",
+              "modality": "PET",
+              "finding": "complete metabolic response of primary right lung, nodal metastasis and left pleural effusion",
+              "date": null
+            }
+          ]
+        }
+      }
+    },
+    {
+      "id": "N16",
+      "label": "Step 16",
+      "customData": {
+        "node_id": "P",
+        "node_step_index": 15,
+        "content": "Pre-therapy maximum intensity projection (MIP) image showing right lung primary tumor and mediastinal nodal metastasis.",
+        "clinical_data": {
+          "imaging": [
+            {
+              "type": "Maximum Intensity Projection Image",
+              "body_part": "Lung",
+              "modality": "other",
+              "finding": "Right lung primary tumor and mediastinal nodal metastasis",
+              "date": null
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "edges": [
+    {
+      "from": "N1",
+      "to": "N2",
+      "data": {
+        "edge_id": "A_to_B",
+        "branch_flag": true,
+        "content": "Transition from 3rd line regimen to PET/CT scan showing excellent response.",
+        "transition_event": {
+          "trigger_type": "medication_change",
+          "trigger_entities": [
+            "C0007129",
+            "C1634849",
+            "C4049449",
+            "C1263442"
+          ],
+          "change_type": "addition",
+          "target_domain": "medication"
+        }
+      }
+    },
+    {
+      "from": "N2",
+      "to": "N3",
+      "data": {
+        "edge_id": "B_to_C",
+        "branch_flag": true,
+        "content": "Transition from complete metabolic remission to treatment with crizotinib and subsequent complete metabolic remission.",
+        "transition_event": {
+          "trigger_type": "medication_change",
+          "trigger_entities": [
+            "C0982459"
+          ],
+          "change_type": "addition",
+          "target_domain": "medication"
+        }
+      }
+    },
+    {
+      "from": "N3",
+      "to": "N4",
+      "data": {
+        "edge_id": "C_to_D",
+        "branch_flag": true,
+        "content": "Transition from crizotinib treatment to development of abdominal symptoms and evaluation of disease reoccurrence via 18F-FDG PET/CT scan.",
+        "transition_event": {
+          "trigger_type": "symptom_onset",
+          "trigger_entities": [],
+          "change_type": "progression",
+          "target_domain": "symptom"
+        }
+      }
+    },
+    {
+      "from": "N4",
+      "to": "N5",
+      "data": {
+        "edge_id": "D_to_E",
+        "branch_flag": true,
+        "content": "Transition from evaluation of disease reoccurrence to 18F-FDG PET/CT showing ascites and potential peritoneal metastatic disease.",
+        "transition_event": {
+          "trigger_type": "imaging",
+          "trigger_entities": [],
+          "change_type": "progression",
+          "target_domain": "imaging"
+        }
+      }
+    },
+    {
+      "from": "N5",
+      "to": "N6",
+      "data": {
+        "edge_id": "E_to_F",
+        "branch_flag": true,
+        "content": "Transition from imaging findings suggestive of peritoneal metastatic disease to biopsy confirmation of Peritoneal Carcinomatosis (PC).",
+        "transition_event": {
+          "trigger_type": "procedure",
+          "trigger_entities": [],
+          "change_type": "addition",
+          "target_domain": "diagnosis"
+        }
+      }
+    },
+    {
+      "from": "N6",
+      "to": "N7",
+      "data": {
+        "edge_id": "F_to_G",
+        "branch_flag": true,
+        "content": "Transition from diagnosis of Peritoneal Carcinomatosis to treatment change to Lorlatinib.",
+        "transition_event": {
+          "trigger_type": "medication_change",
+          "trigger_entities": [
+            "C1608951"
+          ],
+          "change_type": "addition",
+          "target_domain": "medication"
+        }
+      }
+    },
+    {
+      "from": "N7",
+      "to": "N8",
+      "data": {
+        "edge_id": "G_to_H",
+        "branch_flag": true,
+        "content": "Transition from Lorlatinib treatment to post-treatment 18F-FDG PET/CT showing complete metabolic resolution of ascites and peritoneal disease.",
+        "transition_event": {
+          "trigger_type": "imaging",
+          "trigger_entities": [],
+          "change_type": "resolution",
+          "target_domain": "imaging"
+        }
+      }
+    },
+    {
+      "from": "N8",
+      "to": "N9",
+      "data": {
+        "edge_id": "H_to_I",
+        "branch_flag": true,
+        "content": "Transition from complete metabolic resolution to development of recurrent significant abdominal bloating and pain after nine months.",
+        "transition_event": {
+          "trigger_type": "symptom_onset",
+          "trigger_entities": [],
+          "change_type": "progression",
+          "target_domain": "symptom"
+        }
+      }
+    },
+    {
+      "from": "N9",
+      "to": "N10",
+      "data": {
+        "edge_id": "I_to_J",
+        "branch_flag": true
+      }
+    }
+  ]
+}

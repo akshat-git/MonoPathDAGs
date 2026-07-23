@@ -1,0 +1,472 @@
+{
+  "nodes": [
+    {
+      "id": "N1",
+      "label": "Step 1",
+      "customData": {
+        "node_id": "A",
+        "node_step_index": 0,
+        "content": "57-year-old man diagnosed with T4N3M1c Non-Small Cell Lung Cancer (NSCLC).",
+        "clinical_data": {
+          "diagnoses": [
+            {
+              "code": "C0684248",
+              "label": "Non-Small Cell Lung Cancer",
+              "status": "active",
+              "onset_date": null
+            }
+          ]
+        }
+      }
+    },
+    {
+      "id": "N2",
+      "label": "Step 2",
+      "customData": {
+        "node_id": "B",
+        "node_step_index": 1,
+        "content": "Patient received one cycle of cisplatin plus gemcitabine, resulting in progressive disease (PD).",
+        "clinical_data": {
+          "medications": [
+            {
+              "drug": "C0008834",
+              "dosage": null,
+              "frequency": null,
+              "modality": null,
+              "start_date": null,
+              "end_date": null,
+              "indication": null
+            },
+            {
+              "drug": "C0018678",
+              "dosage": null,
+              "frequency": null,
+              "modality": null,
+              "start_date": null,
+              "end_date": null,
+              "indication": null
+            }
+          ],
+          "diagnoses": [
+            {
+              "code": "C0205384",
+              "label": "Progressive disease",
+              "status": "active",
+              "onset_date": null
+            }
+          ]
+        }
+      }
+    },
+    {
+      "id": "N3",
+      "label": "Step 3",
+      "customData": {
+        "node_id": "C",
+        "node_step_index": 2,
+        "content": "Patient received two cycles of carboplatin plus paclitaxel, resulting in progressive disease (PD).",
+        "clinical_data": {
+          "medications": [
+            {
+              "drug": "C0007127",
+              "dosage": null,
+              "frequency": null,
+              "modality": null,
+              "start_date": null,
+              "end_date": null,
+              "indication": null
+            },
+            {
+              "drug": "C0030382",
+              "dosage": null,
+              "frequency": null,
+              "modality": null,
+              "start_date": null,
+              "end_date": null,
+              "indication": null
+            }
+          ],
+          "diagnoses": [
+            {
+              "code": "C0205384",
+              "label": "Progressive Disease",
+              "status": "active",
+              "onset_date": null
+            }
+          ]
+        }
+      }
+    },
+    {
+      "id": "N4",
+      "label": "Step 4",
+      "customData": {
+        "node_id": "D",
+        "node_step_index": 3,
+        "content": "Patient treated with nivolumab as third\u2010line therapy.",
+        "clinical_data": {
+          "medications": [
+            {
+              "drug": "C1661221",
+              "dosage": null,
+              "frequency": null,
+              "modality": null,
+              "start_date": null,
+              "end_date": null,
+              "indication": null
+            }
+          ]
+        }
+      }
+    },
+    {
+      "id": "N5",
+      "label": "Step 5",
+      "customData": {
+        "node_id": "E",
+        "node_step_index": 4,
+        "content": "Patient with liver metastases and metastases in the left femur while on nivolumab.",
+        "clinical_data": {
+          "diagnoses": [
+            {
+              "code": "C78.7",
+              "label": "Secondary malignant neoplasm of liver",
+              "status": "active"
+            },
+            {
+              "code": "C79.51",
+              "label": "Secondary malignant neoplasm of bone",
+              "status": "active"
+            }
+          ],
+          "medications": [
+            {
+              "drug": "C166281",
+              "dosage": null,
+              "frequency": null,
+              "modality": null,
+              "start_date": null,
+              "end_date": null,
+              "indication": null
+            }
+          ]
+        }
+      }
+    },
+    {
+      "id": "N6",
+      "label": "Step 6",
+      "customData": {
+        "node_id": "F",
+        "node_step_index": 5,
+        "content": "After 35 cycles of nivolumab, the patient developed bone metastasis in the left femur and received radiation therapy.",
+        "clinical_data": {
+          "medications": [
+            {
+              "drug": "C1663709",
+              "dosage": null,
+              "frequency": null,
+              "modality": null,
+              "start_date": null,
+              "end_date": null,
+              "indication": null
+            }
+          ],
+          "diagnoses": [
+            {
+              "code": "C0346940",
+              "label": "bone metastasis",
+              "status": "active",
+              "onset_date": null
+            }
+          ],
+          "imaging": [
+            {
+              "type": null,
+              "body_part": "C0402407",
+              "modality": null,
+              "finding": null,
+              "impression": null,
+              "date": null
+            }
+          ],
+          "procedures": [
+            {
+              "name": "C0034341",
+              "approach": null,
+              "date": null,
+              "location": "C0445242",
+              "performed_by": null,
+              "outcome": null
+            }
+          ]
+        }
+      }
+    },
+    {
+      "id": "N7",
+      "label": "Step 7",
+      "customData": {
+        "node_id": "G",
+        "node_step_index": 6,
+        "content": "Patient developed a metastatic lesion in the small intestine after 49 additional cycles of nivolumab (84 total cycles).",
+        "clinical_data": {
+          "medications": [
+            {
+              "drug": "C0945942",
+              "dosage": null,
+              "frequency": null,
+              "modality": null,
+              "start_date": null,
+              "end_date": null,
+              "indication": null
+            }
+          ],
+          "diagnoses": [
+            {
+              "code": null,
+              "label": "metastatic lesion in the small intestine",
+              "status": "active",
+              "onset_date": null
+            }
+          ]
+        }
+      }
+    },
+    {
+      "id": "N8",
+      "label": "Step 8",
+      "customData": {
+        "node_id": "H",
+        "node_step_index": 7,
+        "content": "Patient underwent surgical resection of the small intestine.",
+        "clinical_data": {
+          "procedures": [
+            {
+              "name": "Surgical resection of small intestine",
+              "approach": "open",
+              "date": null,
+              "location": "small intestine",
+              "performed_by": null,
+              "outcome": null
+            }
+          ]
+        }
+      }
+    },
+    {
+      "id": "N9",
+      "label": "Step 9",
+      "customData": {
+        "node_id": "I",
+        "node_step_index": 8,
+        "content": "Treatment with nivolumab was reinitiated.",
+        "clinical_data": {
+          "medications": [
+            {
+              "drug": "C1705947",
+              "dosage": null,
+              "frequency": null,
+              "modality": null,
+              "start_date": null,
+              "end_date": null,
+              "indication": null
+            }
+          ]
+        }
+      }
+    },
+    {
+      "id": "N10",
+      "label": "Step 10",
+      "customData": {
+        "node_id": "J",
+        "node_step_index": 9,
+        "content": "18 months after surgery, whole\u2010body computed tomography (CT) showed no recurrence of lung cancer.",
+        "clinical_data": {
+          "imaging": [
+            {
+              "type": "Computed tomography",
+              "body_part": "Whole body",
+              "modality": "CT",
+              "finding": "no recurrence of lung cancer",
+              "date": null
+            }
+          ],
+          "diagnoses": [
+            {
+              "code": "C0024117",
+              "label": "Lung Cancer",
+              "status": "resolved",
+              "onset_date": null
+            }
+          ]
+        }
+      }
+    },
+    {
+      "id": "N11",
+      "label": "Step 11",
+      "customData": {
+        "node_id": "K",
+        "node_step_index": 10,
+        "content": "Immunohistochemical staining of primary and recurrent lesions showed higher expression of TIM-3 and LAG-3 in peritumoral T lymphocytes in recurrent lesions (left femur and small intestine) that developed during treatment with nivolumab compared to primary lesions before any anticancer treatment.",
+        "clinical_data": {
+          "procedures": [
+            {
+              "name": "Immunohistochemical staining",
+              "date": null,
+              "location": "primary and recurrent lesions"
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "edges": [
+    {
+      "from": "N1",
+      "to": "N2",
+      "data": {
+        "edge_id": "A_to_B",
+        "branch_flag": true,
+        "content": "Initiation of cisplatin plus gemcitabine therapy followed by progressive disease.",
+        "transition_event": {
+          "trigger_type": "medication_change",
+          "trigger_entities": [
+            "C0008834",
+            "C0018678"
+          ],
+          "change_type": "addition",
+          "target_domain": "medication"
+        }
+      }
+    },
+    {
+      "from": "N2",
+      "to": "N3",
+      "data": {
+        "edge_id": "B_to_C",
+        "branch_flag": true,
+        "content": "Change in chemotherapy regimen to carboplatin plus paclitaxel, followed by progressive disease.",
+        "transition_event": {
+          "trigger_type": "medication_change",
+          "trigger_entities": [
+            "C0008834",
+            "C0018678",
+            "C0007127",
+            "C0030382"
+          ],
+          "change_type": "other",
+          "target_domain": "medication"
+        }
+      }
+    },
+    {
+      "from": "N3",
+      "to": "N4",
+      "data": {
+        "edge_id": "C_to_D",
+        "branch_flag": true,
+        "content": "Initiation of nivolumab as third-line therapy.",
+        "transition_event": {
+          "trigger_type": "medication_change",
+          "trigger_entities": [
+            "C1661221"
+          ],
+          "change_type": "addition",
+          "target_domain": "medication"
+        }
+      }
+    },
+    {
+      "from": "N4",
+      "to": "N5",
+      "data": {
+        "edge_id": "D_to_E",
+        "branch_flag": true,
+        "content": "Development of liver and left femur metastases while on nivolumab.",
+        "transition_event": {
+          "trigger_type": "progression",
+          "trigger_entities": [
+            "C78.7",
+            "C79.51"
+          ],
+          "change_type": "progression",
+          "target_domain": "diagnosis"
+        }
+      }
+    },
+    {
+      "from": "N5",
+      "to": "N6",
+      "data": {
+        "edge_id": "E_to_F",
+        "branch_flag": true,
+        "content": "After 35 cycles of nivolumab, the patient developed bone metastasis in the left femur and received radiation therapy.",
+        "transition_event": {
+          "trigger_type": "progression",
+          "trigger_entities": [
+            "C0346940"
+          ],
+          "change_type": "progression",
+          "target_domain": "diagnosis"
+        }
+      }
+    },
+    {
+      "from": "N6",
+      "to": "N7",
+      "data": {
+        "edge_id": "F_to_G",
+        "branch_flag": true,
+        "content": "Development of a metastatic lesion in the small intestine after 49 additional cycles of nivolumab (84 total cycles).",
+        "transition_event": {
+          "trigger_type": "progression",
+          "trigger_entities": [],
+          "change_type": "progression",
+          "target_domain": "diagnosis"
+        }
+      }
+    },
+    {
+      "from": "N7",
+      "to": "N8",
+      "data": {
+        "edge_id": "G_to_H",
+        "branch_flag": true,
+        "content": "Surgical resection of the small intestine to remove the metastatic lesion.",
+        "transition_event": {
+          "trigger_type": "procedure",
+          "trigger_entities": [],
+          "change_type": "addition",
+          "target_domain": "procedure"
+        }
+      }
+    },
+    {
+      "from": "N8",
+      "to": "N9",
+      "data": {
+        "edge_id": "H_to_I",
+        "branch_flag": true,
+        "content": "Reinitiation of nivolumab treatment.",
+        "transition_event": {
+          "trigger_type": "medication_change",
+          "trigger_entities": [
+            "C1705947"
+          ],
+          "change_type": "addition",
+          "target_domain": "medication"
+        }
+      }
+    },
+    {
+      "from": "N9",
+      "to": "N10",
+      "data": {
+        "edge_id": "I_to_J"
+      }
+    }
+  ]
+}

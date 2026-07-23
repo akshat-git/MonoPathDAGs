@@ -1,0 +1,45 @@
+{
+  "nodes": [
+    {
+      "id": "N1",
+      "label": "Step 1",
+      "customData": {
+        "node_id": "A",
+        "node_step_index": 0,
+        "content": "76-year-old male with metastatic non-small cell carcinoma of the lung and history of coronary artery disease status post coronary artery bypass grafting (CABG). Patient presented with intracardiac metastasis and a transient ischemic attack.",
+        "clinical_data": {
+          "diagnoses": [
+            {
+              "code": "C34.9",
+              "label": "Malignant neoplasm of unspecified part of bronchus or lung",
+              "status": "active"
+            },
+            {
+              "code": "I25.10",
+              "label": "Atherosclerotic heart disease of native coronary artery without angina pectoris",
+              "status": "historical"
+            },
+            {
+              "code": "I25.82",
+              "label": "Chronic total occlusion of coronary artery",
+              "status": "historical"
+            },
+            {
+              "code": "I63.9",
+              "label": "Cerebral infarction, unspecified",
+              "status": "active"
+            }
+          ],
+          "procedures": [
+            {
+              "name": "Coronary Artery Bypass Grafting",
+              "date": null
+            }
+          ]
+        }
+      },
+      "custom_id": "graph_015_N0"
+    }
+  ],
+  "edges": []
+}

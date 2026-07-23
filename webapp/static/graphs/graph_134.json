@@ -1,0 +1,286 @@
+{
+  "nodes": [
+    {
+      "id": "N1",
+      "label": "Step 1",
+      "customData": {
+        "node_id": "A",
+        "node_step_index": 0,
+        "content": "48-year-old man presented with clinical stage IVB (cT1bN0M1c) lung adenocarcinoma harboring an EGFR L858R mutation, along with diffuse osteoblastic bone metastases in the trunk and proximal limbs and cancerous pleurisy. Laboratory test results before treatment showed a corrected calcium level of 8.3 mg/dL, urinary calcium level of 7.3 mg/dL, and ALP level of 1353 U/L with normal renal function.",
+        "clinical_data": {
+          "diagnoses": [
+            {
+              "code": "C34",
+              "label": "Lung cancer",
+              "status": "active"
+            },
+            {
+              "code": "C79.51",
+              "label": "Secondary malignant neoplasm of bone",
+              "status": "active"
+            },
+            {
+              "code": "J91.0",
+              "label": "Malignant pleural effusion",
+              "status": "active"
+            }
+          ],
+          "labs": [
+            {
+              "test": "Corrected calcium",
+              "value": "8.3",
+              "unit": "mg/dL",
+              "flag": "normal"
+            },
+            {
+              "test": "Urinary calcium",
+              "value": "7.3",
+              "unit": "mg/dL",
+              "flag": "normal"
+            },
+            {
+              "test": "Alkaline phosphatase",
+              "value": "1353",
+              "unit": "U/L",
+              "flag": "abnormal"
+            }
+          ]
+        }
+      }
+    },
+    {
+      "id": "N2",
+      "label": "Step 2",
+      "customData": {
+        "node_id": "B",
+        "node_step_index": 1,
+        "content": "Patient was treated with gefitinib 250 mg/d as the first-line treatment, followed by denosumab (120 mg) two days later.",
+        "clinical_data": {
+          "medications": [
+            {
+              "drug": "gefitinib",
+              "dosage": "250 mg",
+              "frequency": "daily",
+              "modality": "oral",
+              "start_date": null,
+              "end_date": null,
+              "indication": "first-line treatment"
+            },
+            {
+              "drug": "denosumab",
+              "dosage": "120 mg",
+              "frequency": "once",
+              "modality": "other",
+              "start_date": null,
+              "end_date": null,
+              "indication": null
+            }
+          ]
+        }
+      }
+    },
+    {
+      "id": "N3",
+      "label": "Step 3",
+      "customData": {
+        "node_id": "C",
+        "node_step_index": 2,
+        "content": "Three days after denosumab administration, the patient experienced tetany and QT prolongation (QTc, 500 ms) due to denosumab-induced hypocalcemia, diagnosed via laboratory examination (corrected serum calcium level, 5.6 mg/dL and urinary calcium level, 0.4 mg/dL).",
+        "clinical_data": {
+          "medications": [
+            {
+              "drug": "C0974172",
+              "indication": "C0020577"
+            }
+          ],
+          "labs": [
+            {
+              "test": "Corrected serum calcium level",
+              "value": "5.6",
+              "unit": "mg/dL",
+              "flag": "abnormal"
+            },
+            {
+              "test": "Urinary calcium level",
+              "value": "0.4",
+              "unit": "mg/dL",
+              "flag": "abnormal"
+            }
+          ],
+          "diagnoses": [
+            {
+              "code": "C0020577",
+              "label": "Hypocalcemia",
+              "status": "active",
+              "onset_date": null
+            }
+          ]
+        }
+      }
+    },
+    {
+      "id": "N4",
+      "label": "Step 4",
+      "customData": {
+        "node_id": "D",
+        "node_step_index": 3,
+        "content": "Patient was started on alfacalcidol (3 \u03bcg/d) and calcium gluconate hydrate (initial intravenous injection of 7.8 mEq, with subsequent intravenous infusion of 93.6 mEq/d) on day 4.",
+        "clinical_data": {
+          "medications": [
+            {
+              "drug": "C0002627",
+              "dosage": "3 \u03bcg/d",
+              "frequency": "daily",
+              "modality": "oral",
+              "start_date": "not provided",
+              "end_date": null,
+              "indication": "Hypocalcemia"
+            },
+            {
+              "drug": "C0006769",
+              "dosage": "7.8 mEq",
+              "frequency": "once",
+              "modality": "IV",
+              "start_date": "not provided",
+              "end_date": null,
+              "indication": "Hypocalcemia"
+            },
+            {
+              "drug": "C0006769",
+              "dosage": "93.6 mEq/d",
+              "frequency": "daily",
+              "modality": "IV",
+              "start_date": "not provided",
+              "end_date": null,
+              "indication": "Hypocalcemia"
+            }
+          ]
+        }
+      }
+    },
+    {
+      "id": "N5",
+      "label": "Step 5",
+      "customData": {
+        "node_id": "E",
+        "node_step_index": 4,
+        "content": "Corrected serum calcium levels were improving, but urinary calcium level did not recover for several weeks. Oral calcium lactate (15 g/d) was administered in addition to alfacalcidol (4 \u03bcg/d). Intravenous calcium gluconate was gradually reduced. On day 61, after adjusting treatment (11.7 mEq) to three times a week, the corrected serum calcium level was maintained. The same treatment was continued at the outpatient clinic after discharge.",
+        "clinical_data": {
+          "medications": [
+            {
+              "drug": "C0007222",
+              "dosage": "15 g/d",
+              "frequency": "daily",
+              "modality": "oral",
+              "indication": "hypocalcemia"
+            },
+            {
+              "drug": "C0187587",
+              "dosage": "4 \u03bcg/d",
+              "frequency": "daily",
+              "modality": "oral",
+              "indication": "hypocalcemia"
+            },
+            {
+              "drug": "C0007218",
+              "modality": "IV",
+              "indication": "hypocalcemia"
+            }
+          ],
+          "labs": [
+            {
+              "test": "C0007204",
+              "value": "normalizing",
+              "unit": "mg/dL",
+              "flag": "normal",
+              "timestamp": "unknown"
+            },
+            {
+              "test": "C0151578",
+              "value": "not recovered",
+              "unit": "mg/dL",
+              "flag": "abnormal",
+              "timestamp": "unknown"
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "edges": [
+    {
+      "from": "N1",
+      "to": "N2",
+      "data": {
+        "edge_id": "A_to_B",
+        "branch_flag": true,
+        "content": "Initiation of treatment for stage IVB lung adenocarcinoma with EGFR L858R mutation and bone/pleural metastases.",
+        "transition_event": {
+          "trigger_type": "medication_change",
+          "trigger_entities": [
+            "C0016716",
+            "C0885334"
+          ],
+          "change_type": "addition",
+          "target_domain": "medication"
+        }
+      }
+    },
+    {
+      "from": "N2",
+      "to": "N3",
+      "data": {
+        "edge_id": "B_to_C",
+        "branch_flag": true,
+        "content": "Development of tetany and QT prolongation due to denosumab-induced hypocalcemia.",
+        "transition_event": {
+          "trigger_type": "symptom_onset",
+          "trigger_entities": [
+            "C0039641",
+            "C0034160",
+            "C0974172"
+          ],
+          "change_type": "progression",
+          "target_domain": "symptom"
+        }
+      }
+    },
+    {
+      "from": "N3",
+      "to": "N4",
+      "data": {
+        "edge_id": "C_to_D",
+        "branch_flag": true,
+        "content": "Treatment initiated for denosumab-induced hypocalcemia.",
+        "transition_event": {
+          "trigger_type": "medication_change",
+          "trigger_entities": [
+            "C0002627",
+            "C0006769"
+          ],
+          "change_type": "addition",
+          "target_domain": "medication"
+        }
+      }
+    },
+    {
+      "from": "N4",
+      "to": "N5",
+      "data": {
+        "edge_id": "D_to_E",
+        "branch_flag": true,
+        "content": "Corrected serum calcium levels improved, but urinary calcium level did not recover for several weeks. Oral calcium lactate was added, and intravenous calcium gluconate was gradually reduced. Treatment adjusted to three times a week on day 61.",
+        "transition_event": {
+          "trigger_type": "medication_change",
+          "trigger_entities": [
+            "C0007222",
+            "C0187587",
+            "C0007218"
+          ],
+          "change_type": "addition",
+          "target_domain": "medication"
+        }
+      }
+    }
+  ]
+}

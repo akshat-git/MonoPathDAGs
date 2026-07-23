@@ -1,0 +1,380 @@
+{
+  "nodes": [
+    {
+      "id": "N1",
+      "label": "Step 1",
+      "customData": {
+        "node_id": "A",
+        "node_step_index": 0,
+        "content": "70-year-old male presented with a 2-month history of abdominal distension and pain.",
+        "timestamp": "2024-05-10",
+        "clinical_data": {
+          "HPI": [
+            {
+              "summary": "70-year-old male presented with a 2-month history of abdominal distension and pain.",
+              "duration": "2 months",
+              "onset": "2 months ago",
+              "progression": "unknown",
+              "associated_symptoms": [
+                "Abdominal distension",
+                "Pain"
+              ]
+            }
+          ]
+        }
+      }
+    },
+    {
+      "id": "N2",
+      "label": "Step 2",
+      "customData": {
+        "node_id": "B",
+        "node_step_index": 1,
+        "content": "Contrast-enhanced computed tomography of the abdomen revealed an intraperitoneal mass measuring 17 \u00d7 13 cm, located in the mid-abdomen and extending into left lumbar region. The lesion extended posteriorly, encasing the 3rd part of the duodenum, abutting the abdominal aorta, and further extending into the left lumbar region.",
+        "clinical_data": {
+          "imaging": [
+            {
+              "type": "Computed tomography of abdomen",
+              "body_part": "Abdomen",
+              "modality": "CT",
+              "finding": "Intraperitoneal mass measuring 17 \u00d7 13 cm, located in the mid-abdomen and extending into left lumbar region. The lesion extended posteriorly, encasing the 3rd part of the duodenum, abutting the abdominal aorta, and further extending into the left lumbar region.",
+              "date": null
+            }
+          ]
+        }
+      }
+    },
+    {
+      "id": "N3",
+      "label": "Step 3",
+      "customData": {
+        "node_id": "C",
+        "node_step_index": 2,
+        "content": "Trucut biopsy revealed a spindle cell neoplasm on histopathological examination.",
+        "clinical_data": {
+          "procedures": [
+            {
+              "name": "Biopsy",
+              "approach": "percutaneous",
+              "location": "Trucut",
+              "outcome": "Spindle cell neoplasm"
+            }
+          ]
+        }
+      }
+    },
+    {
+      "id": "N4",
+      "label": "Step 4",
+      "customData": {
+        "node_id": "D",
+        "node_step_index": 3,
+        "content": "IHC staining: SMA+, S100 (patchy +), desmin+, CD34-, ALK-, CD117-. Diagnosis: low-grade myofibroblastic/smooth muscle neoplasm.",
+        "clinical_data": {
+          "diagnoses": [
+            {
+              "code": "C40.9",
+              "label": "Malignant neoplasm of bone and articular cartilage of unspecified sites",
+              "status": "active"
+            }
+          ]
+        }
+      }
+    },
+    {
+      "id": "N5",
+      "label": "Step 5",
+      "customData": {
+        "node_id": "E",
+        "node_step_index": 4,
+        "content": "Peritoneal fluid: benign and reactive mesothelial cells with atypical epithelioid cells (coarse nuclear chromatin, prominent nucleoli, abundant cytoplasm).",
+        "clinical_data": {
+          "labs": [
+            {
+              "test": "Peritoneal fluid analysis",
+              "value": "benign and reactive mesothelial cells with atypical epithelioid cells (coarse nuclear chromatin, prominent nucleoli, abundant cytoplasm)",
+              "unit": null,
+              "flag": "abnormal",
+              "reference_range": null,
+              "timestamp": null
+            }
+          ]
+        }
+      }
+    },
+    {
+      "id": "N6",
+      "label": "Step 6",
+      "customData": {
+        "node_id": "F",
+        "node_step_index": 5,
+        "content": "Cytology: cells showing binucleation and multinucleation. IHC: SMA+, calretinin-. MDM2 IHC: diffuse nuclear positivity. Cytology reported as positive for malignancy, suggestive of metastatic deposits of dedifferentiated liposarcoma.",
+        "clinical_data": {
+          "labs": [
+            {
+              "test": "Cytology",
+              "finding": "cells showing binucleation and multinucleation"
+            },
+            {
+              "test": "IHC",
+              "finding": "SMA+"
+            },
+            {
+              "test": "IHC",
+              "finding": "calretinin-"
+            },
+            {
+              "test": "MDM2 IHC",
+              "finding": "diffuse nuclear positivity"
+            },
+            {
+              "test": "Cytology",
+              "finding": "positive for malignancy, suggestive of metastatic deposits of dedifferentiated liposarcoma"
+            }
+          ],
+          "diagnoses": [
+            {
+              "code": "C49.9",
+              "label": "Malignant neoplasm of connective and soft tissue, unspecified",
+              "status": "active"
+            }
+          ]
+        }
+      }
+    },
+    {
+      "id": "N7",
+      "label": "Step 7",
+      "customData": {
+        "node_id": "G",
+        "node_step_index": 6,
+        "content": "Resection specimen: large intraperitoneal mass measuring 18 \u00d7 17 cm with adhered intestinal loops. Histopathology: predominantly low-grade, spindle cell neoplasm with areas exhibiting high-grade features, characterized by cells with epithelioid morphology, enlarged nuclei, multinucleation consistent with findings from cytological evaluation.",
+        "clinical_data": {
+          "procedures": [
+            {
+              "name": "Resection",
+              "approach": "open",
+              "location": "intraperitoneal",
+              "outcome": "specimen"
+            }
+          ],
+          "imaging": [
+            {
+              "type": "Mass",
+              "body_part": "abdomen",
+              "modality": "CT",
+              "finding": "large intraperitoneal mass measuring 18 \u00d7 17 cm with adhered intestinal loops"
+            }
+          ],
+          "diagnoses": [
+            {
+              "code": "Neoplasm",
+              "label": "spindle cell neoplasm",
+              "status": "active"
+            }
+          ]
+        }
+      }
+    },
+    {
+      "id": "N8",
+      "label": "Step 8",
+      "customData": {
+        "node_id": "H",
+        "node_step_index": 7,
+        "content": "IHC: Retained H3K27me3 expression, myogenin and myoD1 negativity, diffuse MDM2 and p16 positivity. Diagnosis: dedifferentiated liposarcoma.",
+        "clinical_data": {
+          "diagnoses": [
+            {
+              "code": "C48.8",
+              "label": "Malignant neoplasm of overlapping sites of retroperitoneum and peritoneum",
+              "status": "active"
+            }
+          ],
+          "labs": [
+            {
+              "test": "H3K27me3 expression",
+              "value": "retained",
+              "flag": "normal"
+            },
+            {
+              "test": "myogenin",
+              "value": "negative",
+              "flag": "abnormal"
+            },
+            {
+              "test": "myoD1",
+              "value": "negative",
+              "flag": "abnormal"
+            },
+            {
+              "test": "MDM2",
+              "value": "positive",
+              "flag": "abnormal"
+            },
+            {
+              "test": "p16",
+              "value": "positive",
+              "flag": "abnormal"
+            }
+          ]
+        }
+      }
+    },
+    {
+      "id": "N9",
+      "label": "Step 9",
+      "customData": {
+        "node_id": "I",
+        "node_step_index": 8,
+        "content": "Postoperative period was uneventful. Regular follow-up for the past 6 months with no specific complaints or evidence of relapse.",
+        "clinical_data": {
+          "HPI": [
+            {
+              "summary": "Postoperative period was uneventful. Regular follow-up for the past 6 months with no specific complaints or evidence of relapse."
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "edges": [
+    {
+      "from": "N1",
+      "to": "N2",
+      "data": {
+        "edge_id": "A_to_B",
+        "branch_flag": true,
+        "content": "Patient presented with abdominal distension and pain, leading to imaging.",
+        "transition_event": {
+          "trigger_type": "symptom_onset",
+          "trigger_entities": [
+            "C0000729",
+            "C0003862"
+          ],
+          "change_type": "other",
+          "target_domain": "symptom"
+        }
+      }
+    },
+    {
+      "from": "N2",
+      "to": "N3",
+      "data": {
+        "edge_id": "B_to_C",
+        "branch_flag": true,
+        "content": "CT scan revealed a large intraperitoneal mass, prompting a biopsy.",
+        "transition_event": {
+          "trigger_type": "imaging",
+          "trigger_entities": [
+            "C0206243"
+          ],
+          "change_type": "addition",
+          "target_domain": "imaging"
+        }
+      }
+    },
+    {
+      "from": "N3",
+      "to": "N4",
+      "data": {
+        "edge_id": "C_to_D",
+        "branch_flag": true,
+        "content": "Biopsy revealed a spindle cell neoplasm, leading to IHC staining and diagnosis.",
+        "transition_event": {
+          "trigger_type": "procedure",
+          "trigger_entities": [
+            "C0005543"
+          ],
+          "change_type": "other",
+          "target_domain": "diagnosis"
+        }
+      }
+    },
+    {
+      "from": "N4",
+      "to": "N5",
+      "data": {
+        "edge_id": "D_to_E",
+        "branch_flag": true,
+        "content": "Diagnosis of low-grade myofibroblastic/smooth muscle neoplasm, prompting peritoneal fluid analysis.",
+        "transition_event": {
+          "trigger_type": "interpretation",
+          "trigger_entities": [
+            "C0599478"
+          ],
+          "change_type": "other",
+          "target_domain": "diagnosis"
+        }
+      }
+    },
+    {
+      "from": "N5",
+      "to": "N6",
+      "data": {
+        "edge_id": "E_to_F",
+        "branch_flag": true,
+        "content": "Peritoneal fluid analysis showed atypical cells, leading to cytology and IHC.",
+        "transition_event": {
+          "trigger_type": "lab_change",
+          "trigger_entities": [
+            "C0205070"
+          ],
+          "change_type": "other",
+          "target_domain": "lab"
+        }
+      }
+    },
+    {
+      "from": "N6",
+      "to": "N7",
+      "data": {
+        "edge_id": "F_to_G",
+        "branch_flag": true,
+        "content": "Cytology suggested metastatic dedifferentiated liposarcoma, leading to resection.",
+        "transition_event": {
+          "trigger_type": "interpretation",
+          "trigger_entities": [
+            "C0024104"
+          ],
+          "change_type": "reinterpretation",
+          "target_domain": "diagnosis"
+        }
+      }
+    },
+    {
+      "from": "N7",
+      "to": "N8",
+      "data": {
+        "edge_id": "G_to_H",
+        "branch_flag": true,
+        "content": "Resection specimen showed a large mass, leading to further IHC and diagnosis.",
+        "transition_event": {
+          "trigger_type": "procedure",
+          "trigger_entities": [
+            "C0036386"
+          ],
+          "change_type": "other",
+          "target_domain": "diagnosis"
+        }
+      }
+    },
+    {
+      "from": "N8",
+      "to": "N9",
+      "data": {
+        "edge_id": "H_to_I",
+        "branch_flag": true,
+        "content": "Diagnosis of dedifferentiated liposarcoma, followed by uneventful postoperative period and follow-up.",
+        "transition_event": {
+          "trigger_type": "interpretation",
+          "trigger_entities": [
+            "C0024104"
+          ],
+          "change_type": "reinterpretation",
+          "target_domain": "diagnosis"
+        }
+      }
+    }
+  ]
+}

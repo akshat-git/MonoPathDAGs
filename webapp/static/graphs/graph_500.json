@@ -1,0 +1,370 @@
+{
+  "nodes": [
+    {
+      "id": "N1",
+      "label": "Step 1",
+      "customData": {
+        "node_id": "A",
+        "node_step_index": 0,
+        "content": "74-year-old man with a history of type 2 diabetes mellitus and dyslipidemia presented with dizziness, unsteady gait, and difficulty in swallowing food and water for three months, which had been worsening over the preceding month. On admission, he had severe ataxia, downbeat and horizontal nystagmus in all directions of gaze, dysarthria, dysphagia, loss of tendon reflexes, and dysuria. Videoendoscopic examination of swallowing showed a pooling of saliva in the pyriform fossae and a diminished cough reflex. Thickened water was not cleared from the hypopharynx by swallowing several times, and part of it was aspirated.",
+        "clinical_data": {
+          "HPI": [
+            {
+              "summary": "74-year-old man presented with dizziness, unsteady gait, and difficulty in swallowing food and water for three months, worsening over the preceding month.",
+              "duration": "3 months",
+              "progression": "gradual",
+              "associated_symptoms": [
+                "dizziness",
+                "unsteady gait",
+                "difficulty in swallowing food",
+                "difficulty in swallowing water"
+              ]
+            }
+          ],
+          "diagnoses": [
+            {
+              "code": "C0011849",
+              "label": "Type 2 Diabetes Mellitus",
+              "status": "historical"
+            },
+            {
+              "code": "C0013074",
+              "label": "Dyslipidemia",
+              "status": "historical"
+            }
+          ],
+          "ROS": [
+            {
+              "system": "neuro",
+              "findings": [
+                "C0004096",
+                "C0029654"
+              ]
+            },
+            {
+              "system": "GI",
+              "findings": [
+                "C0013426"
+              ]
+            },
+            {
+              "system": "GU",
+              "findings": [
+                "C0013593"
+              ]
+            }
+          ],
+          "functional_status": [
+            {
+              "domain": "speech",
+              "description": "dysarthria"
+            },
+            {
+              "domain": "ADLs",
+              "description": "difficulty in swallowing food and water"
+            }
+          ]
+        }
+      }
+    },
+    {
+      "id": "N2",
+      "label": "Step 2",
+      "customData": {
+        "node_id": "B",
+        "node_step_index": 1,
+        "content": "Blood examinations showed no abnormalities, including thyroid function and vitamin B1, vitamin B12, and folic acid levels. The antinuclear antibody titer was 1:80, and anti-GAD, anti-GM1, anti-GQ1b, anti-SS-A, anti-SS-B, and anti-AChR antibodies were negative.",
+        "clinical_data": {
+          "labs": [
+            {
+              "test": "Thyroid function tests",
+              "value": "normal",
+              "flag": "normal"
+            },
+            {
+              "test": "Vitamin B1 level",
+              "value": "normal",
+              "flag": "normal"
+            },
+            {
+              "test": "Vitamin B12 level",
+              "value": "normal",
+              "flag": "normal"
+            },
+            {
+              "test": "Folic acid level",
+              "value": "normal",
+              "flag": "normal"
+            },
+            {
+              "test": "Antinuclear antibody titer",
+              "value": "1:80",
+              "flag": "abnormal"
+            },
+            {
+              "test": "Anti-GAD antibodies",
+              "value": "negative",
+              "flag": "normal"
+            },
+            {
+              "test": "Anti-GM1 antibodies",
+              "value": "negative",
+              "flag": "normal"
+            },
+            {
+              "test": "Anti-GQ1b antibodies",
+              "value": "negative",
+              "flag": "normal"
+            },
+            {
+              "test": "Anti-SS-A antibodies",
+              "value": "negative",
+              "flag": "normal"
+            },
+            {
+              "test": "Anti-SS-B antibodies",
+              "value": "negative",
+              "flag": "normal"
+            },
+            {
+              "test": "Anti-AChR antibodies",
+              "value": "negative",
+              "flag": "normal"
+            }
+          ]
+        }
+      }
+    },
+    {
+      "id": "N3",
+      "label": "Step 3",
+      "customData": {
+        "node_id": "C",
+        "node_step_index": 2,
+        "content": "Cerebrospinal fluid (CSF) examination showed mild pleocytosis (6 cells/\u00b5L) (100% mononuclear cells), elevated protein levels (65.8 mg/dL), and a normal IgG index. Analysis of the CSF showed no infectious or malignant etiologies.",
+        "clinical_data": {
+          "labs": [
+            {
+              "test": "C0007689",
+              "value": "6",
+              "unit": "cells/\u00b5L",
+              "flag": "abnormal",
+              "reference_range": null,
+              "timestamp": null
+            },
+            {
+              "test": "C0034033",
+              "value": "65.8",
+              "unit": "mg/dL",
+              "flag": "abnormal",
+              "reference_range": null,
+              "timestamp": null
+            },
+            {
+              "test": "C0239444",
+              "value": "normal",
+              "unit": null,
+              "flag": "normal",
+              "reference_range": null,
+              "timestamp": null
+            }
+          ]
+        }
+      }
+    },
+    {
+      "id": "N4",
+      "label": "Step 4",
+      "customData": {
+        "node_id": "D",
+        "node_step_index": 3,
+        "content": "MRI of the head was unremarkable. (123I) N-isopropyl-p-iodoamphetamine (IMP) brain perfusion SPECT did not show perfusion abnormalities.",
+        "clinical_data": {
+          "imaging": [
+            {
+              "type": "Magnetic Resonance Imaging",
+              "body_part": "Head",
+              "modality": "MRI",
+              "finding": "unremarkable"
+            },
+            {
+              "type": "Brain Perfusion SPECT",
+              "body_part": "Brain",
+              "modality": "SPECT",
+              "finding": "no perfusion abnormalities"
+            }
+          ]
+        }
+      }
+    },
+    {
+      "id": "N5",
+      "label": "Step 5",
+      "customData": {
+        "node_id": "E",
+        "node_step_index": 4,
+        "content": "Subacute autoimmune-mediated cerebellitis with brainstem involvement was suspected. Treated with intravenous immunoglobulin (IVIG) at a dose of 400 mg/kg for five days, but there was no improvement in the neurological symptoms. Two days after IVIG therapy, two courses of high-dose intravenous methylprednisolone, followed by oral prednisolone (1 mg/kg/day), were administered.",
+        "clinical_data": {
+          "diagnoses": [
+            {
+              "code": "C0341419",
+              "label": "Cerebellitis",
+              "status": "suspected"
+            }
+          ],
+          "medications": [
+            {
+              "drug": "C0487744",
+              "dosage": "400 mg/kg",
+              "frequency": "daily",
+              "modality": "IV",
+              "start_date": null,
+              "end_date": null,
+              "indication": "C0341419"
+            },
+            {
+              "drug": "C0025732",
+              "dosage": null,
+              "frequency": null,
+              "modality": "IV",
+              "start_date": null,
+              "end_date": null,
+              "indication": "C0341419"
+            },
+            {
+              "drug": "C0033060",
+              "dosage": "1 mg/kg/day",
+              "frequency": "daily",
+              "modality": "oral",
+              "start_date": null,
+              "end_date": null,
+              "indication": "C0341419"
+            }
+          ]
+        }
+      }
+    },
+    {
+      "id": "N6",
+      "label": "Step 6",
+      "customData": {
+        "node_id": "F",
+        "node_step_index": 5,
+        "content": "Immunoblotting of serum was positive (+++) for anti-amphiphysin antibodies and positive (+) for anti-SRY-box transcription factor 1 (SOX1) antibody. Other antibodies associated with paraneoplastic neurological syndromes were negative. Diagnosis of non-stiff anti-amphiphysin syndrome with coexistence of anti-SOX1",
+        "clinical_data": {
+          "labs": [
+            {
+              "test": "Anti-amphiphysin antibody",
+              "value": "positive (+++)",
+              "unit": null,
+              "flag": "positive",
+              "reference_range": null,
+              "timestamp": null
+            },
+            {
+              "test": "Anti-SRY-box transcription factor 1 (SOX1) antibody",
+              "value": "positive (+)",
+              "unit": null,
+              "flag": "positive",
+              "reference_range": null,
+              "timestamp": null
+            },
+            {
+              "test": "Other antibodies associated with paraneoplastic neurological syndromes",
+              "value": "negative",
+              "unit": null,
+              "flag": "negative",
+              "reference_range": null,
+              "timestamp": null
+            }
+          ],
+          "diagnoses": [
+            {
+              "code": null,
+              "label": "non-stiff anti-amphiphysin syndrome with coexistence of anti-SOX1",
+              "status": "active",
+              "onset_date": null
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "edges": [
+    {
+      "from": "N1",
+      "to": "N2",
+      "data": {
+        "edge_id": "A_to_B",
+        "branch_flag": true,
+        "content": "Initial presentation and negative workup for common causes of neurological symptoms.",
+        "transition_event": null
+      }
+    },
+    {
+      "from": "N2",
+      "to": "N3",
+      "data": {
+        "edge_id": "B_to_C",
+        "branch_flag": true,
+        "content": "CSF examination reveals mild pleocytosis and elevated protein levels, but no infectious or malignant etiologies.",
+        "transition_event": {
+          "trigger_type": "lab_change",
+          "trigger_entities": [
+            "C0007689",
+            "C0034033"
+          ],
+          "change_type": "other",
+          "target_domain": "lab"
+        }
+      }
+    },
+    {
+      "from": "N3",
+      "to": "N4",
+      "data": {
+        "edge_id": "C_to_D",
+        "branch_flag": true,
+        "content": "Imaging studies (MRI and SPECT) are unremarkable.",
+        "transition_event": {
+          "trigger_type": "imaging",
+          "trigger_entities": [],
+          "change_type": "other",
+          "target_domain": "imaging"
+        }
+      }
+    },
+    {
+      "from": "N4",
+      "to": "N5",
+      "data": {
+        "edge_id": "D_to_E",
+        "branch_flag": true,
+        "content": "Suspected subacute autoimmune-mediated cerebellitis with brainstem involvement and initiation of IVIG and methylprednisolone treatment, without improvement.",
+        "transition_event": {
+          "trigger_type": "interpretation",
+          "trigger_entities": [
+            "C0341419"
+          ],
+          "change_type": "addition",
+          "target_domain": "diagnosis"
+        }
+      }
+    },
+    {
+      "from": "N5",
+      "to": "N6",
+      "data": {
+        "edge_id": "E_to_F",
+        "branch_flag": true,
+        "content": "Detection of anti-amphiphysin and anti-SOX1 antibodies, leading to a diagnosis of non-stiff anti-amphiphysin syndrome with coexistence of anti-SOX1.",
+        "transition_event": {
+          "trigger_type": "lab_change",
+          "trigger_entities": [],
+          "change_type": "addition",
+          "target_domain": "diagnosis"
+        }
+      }
+    }
+  ]
+}

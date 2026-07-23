@@ -1,0 +1,7 @@
+A 68-year-old female presented in May 2024 with cough and headache. She underwent a biopsy of the right supraclavicular lymph node, which confirmed lung adenocarcinoma. A diagnosis of advanced lung adenocarcinoma, stage T1cN3M1c IVb, with multiple brain metastases was made. Initial imaging (Figure 1A) showed multiple brain metastases, pulmonary lesions, and mediastinal lymphadenopathy before treatment. The patient reported headaches and experienced sleep disturbances.
+
+The patient underwent whole-brain radiotherapy. Next-generation sequencing (NGS) detected an IGR (downstream MAN1A1) ROS1:exon34 fusion at a mutant allele frequency (MAF) of 12.73%, accompanied by two TP53 mutations c.1024C>T (p.R342*) and c.686_687del (p.C229Yfs*10). RNA-seq identified a CD74:exon6 ~ ROS1: exon 35 fusion. The patient started first-line therapy with entrectinib (600 mg, once daily).
+
+One month after entrectinib initiation, the patient experienced significant improvements in headache and insomnia symptoms. Imaging showed the longest diameter of the left upper lung nodule decreased from 19 mm to 12 mm, and there was a notable reduction in the right hilar and mediastinal lymph nodes. The intracranial metastatic lesion reduced in size from 19 mm to 8 mm, with partial response (PR) to entrectinib treatment (Figure 1B).
+
+Five months after starting entrectinib, both the lung and brain lesions have consistently remained in a state of partial response. The patient experienced grade 2 blurred vision and oral mucositis.

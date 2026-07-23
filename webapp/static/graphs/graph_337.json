@@ -1,0 +1,312 @@
+{
+  "nodes": [
+    {
+      "id": "N1",
+      "label": "Step 1",
+      "customData": {
+        "node_id": "A",
+        "node_step_index": 0,
+        "content": "43-year-old female admitted with dry cough and a suspicious right upper lobe mass complicated by obstructive pneumonia. Maternal history of breast cancer. Personal history negative for smoking and neoplastic diseases.",
+        "clinical_data": {
+          "diagnoses": [
+            {
+              "code": "409586006",
+              "label": "Obstructive pneumonia (disorder)",
+              "status": "active",
+              "onset_date": null
+            }
+          ],
+          "HPI": [
+            {
+              "summary": "43-year-old female admitted with dry cough and a suspicious right upper lobe mass complicated by obstructive pneumonia.",
+              "duration": null,
+              "onset": null,
+              "progression": "unknown",
+              "associated_symptoms": [
+                "254727009"
+              ],
+              "alleviating_factors": [],
+              "exacerbating_factors": []
+            }
+          ],
+          "social_history": [
+            {
+              "category": "smoking",
+              "status": "never",
+              "description": "Personal history negative for smoking"
+            }
+          ],
+          "family_history": [
+            {
+              "relation": "mother",
+              "condition": "363358000",
+              "status": "historical"
+            }
+          ],
+          "imaging": [
+            {
+              "type": "253364004",
+              "body_part": "272520008",
+              "modality": "X-ray",
+              "finding": "suspicious right upper lobe mass",
+              "impression": "suspicious right upper lobe mass",
+              "date": null
+            }
+          ]
+        }
+      }
+    },
+    {
+      "id": "N2",
+      "label": "Step 2",
+      "customData": {
+        "node_id": "B",
+        "node_step_index": 1,
+        "content": "Contrast-enhanced CT scan (November 27, 2018) showed a 65.0 mm \u00d7 61.5 mm mass in the right upper lobe and obstructive symptoms, together with multiple enlarged hilar and mediastinal lymph nodes.",
+        "timestamp": "2018-11-27",
+        "clinical_data": {
+          "imaging": [
+            {
+              "type": "Mass",
+              "body_part": "Right upper lobe",
+              "modality": "CT",
+              "finding": "65.0 mm \u00d7 61.5 mm mass in the right upper lobe and obstructive symptoms, together with multiple enlarged hilar and mediastinal lymph nodes",
+              "date": "2018-11-27"
+            }
+          ]
+        }
+      }
+    },
+    {
+      "id": "N3",
+      "label": "Step 3",
+      "customData": {
+        "node_id": "C",
+        "node_step_index": 2,
+        "content": "Carcinoembryonic antigen 157.25 ng/mL, cancer antigen-125 81.3 U/mL, and circulating cytokeratin 19 fragments (CYFRA21-1; 19.03 ng/mL). PET-CT revealed a high level of 18-fluorodeoxyglucose (FDG) uptake in the right upper lobe mass and right upper paratracheal nodes (2R), indicative of malignant disease and lymph node (2R) metastasis with no signs of distant metastasis.",
+        "clinical_data": {
+          "labs": [
+            {
+              "test": "C0007097",
+              "value": "157.25",
+              "unit": "ng/mL"
+            },
+            {
+              "test": "C0006873",
+              "value": "81.3",
+              "unit": "U/mL"
+            },
+            {
+              "test": "C1418964",
+              "value": "19.03",
+              "unit": "ng/mL"
+            }
+          ],
+          "imaging": [
+            {
+              "type": "C0015204",
+              "body_part": "C0225733",
+              "modality": "PET",
+              "finding": "high level of 18-fluorodeoxyglucose (FDG) uptake in the right upper lobe mass and right upper paratracheal nodes (2R), indicative of malignant disease and lymph node (2R) metastasis",
+              "date": null
+            }
+          ],
+          "diagnoses": [
+            {
+              "code": "C0027651",
+              "label": "Malignant Neoplasm",
+              "status": "active"
+            },
+            {
+              "code": "C0023903",
+              "label": "Lymph Node Metastasis",
+              "status": "active"
+            }
+          ]
+        }
+      }
+    },
+    {
+      "id": "N4",
+      "label": "Step 4",
+      "customData": {
+        "node_id": "D",
+        "node_step_index": 3,
+        "content": "CT-guided percutaneous biopsy in the right lung neoplasm. Pathological analysis showed a poorly differentiated adenocarcinoma.",
+        "clinical_data": {
+          "imaging": [
+            {
+              "type": "Neoplasm of lung",
+              "body_part": "Lung",
+              "modality": "CT",
+              "finding": "Neoplasm",
+              "date": null
+            }
+          ],
+          "procedures": [
+            {
+              "name": "Percutaneous biopsy",
+              "approach": "percutaneous",
+              "date": null,
+              "location": "Right lung",
+              "performed_by": null,
+              "outcome": null
+            }
+          ],
+          "diagnoses": [
+            {
+              "code": "C4_Neoplasm",
+              "label": "Poorly differentiated adenocarcinoma",
+              "status": "active",
+              "onset_date": null
+            }
+          ]
+        }
+      }
+    },
+    {
+      "id": "N5",
+      "label": "Step 5",
+      "customData": {
+        "node_id": "E",
+        "node_step_index": 4,
+        "content": "Immunohistochemistry: positive staining of cytokeratin (CK), CD56, and thyroid transcription factor-1 (TTF-1); napsin A was partially positive. Gene mutation test: positive for ALK gene rearrangement. Diagnosis: clinical stage IIIB (T3N2M0) pulmonary adenocarcinoma with hilar and mediastinal lymph node metastasis.",
+        "clinical_data": {
+          "diagnoses": [
+            {
+              "code": "C34",
+              "label": "pulmonary adenocarcinoma",
+              "status": "active"
+            }
+          ],
+          "imaging": [
+            {
+              "body_part": "hilar and mediastinal lymph node",
+              "finding": "metastasis"
+            }
+          ]
+        }
+      }
+    },
+    {
+      "id": "N6",
+      "label": "Step 6",
+      "customData": {
+        "node_id": "F",
+        "node_step_index": 5,
+        "content": "PET-CT",
+        "clinical_data": {
+          "imaging": [
+            {
+              "type": "Positron emission tomography",
+              "body_part": null,
+              "modality": "PET",
+              "finding": null,
+              "impression": null,
+              "date": null
+            },
+            {
+              "type": "Computed tomography",
+              "body_part": null,
+              "modality": "CT",
+              "finding": null,
+              "impression": null,
+              "date": null
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "edges": [
+    {
+      "from": "N1",
+      "to": "N2",
+      "data": {
+        "edge_id": "A_to_B",
+        "branch_flag": true,
+        "content": "Initial presentation with dry cough and suspicious lung mass progresses to identification of a 65mm x 61.5mm mass with enlarged hilar and mediastinal lymph nodes.",
+        "transition_event": {
+          "trigger_type": "imaging",
+          "trigger_entities": [
+            "C0225733"
+          ],
+          "change_type": "progression",
+          "target_domain": "imaging",
+          "timestamp": "2018-11-27T00:00:00Z"
+        }
+      }
+    },
+    {
+      "from": "N2",
+      "to": "N3",
+      "data": {
+        "edge_id": "B_to_C",
+        "branch_flag": true,
+        "content": "Imaging and lab results reveal elevated Carcinoembryonic antigen, cancer antigen-125, and CYFRA21-1 levels, along with high FDG uptake in the lung mass and paratracheal nodes, indicating malignant disease and lymph node metastasis.",
+        "transition_event": {
+          "trigger_type": "lab_change",
+          "trigger_entities": [
+            "C0007097",
+            "C0006873",
+            "C1418964"
+          ],
+          "change_type": "progression",
+          "target_domain": "lab"
+        }
+      }
+    },
+    {
+      "from": "N3",
+      "to": "N4",
+      "data": {
+        "edge_id": "C_to_D",
+        "branch_flag": true,
+        "content": "CT-guided percutaneous biopsy performed, revealing poorly differentiated adenocarcinoma.",
+        "transition_event": {
+          "trigger_type": "procedure",
+          "trigger_entities": [
+            "C0005569"
+          ],
+          "change_type": "addition",
+          "target_domain": "diagnosis"
+        }
+      }
+    },
+    {
+      "from": "N4",
+      "to": "N5",
+      "data": {
+        "edge_id": "D_to_E",
+        "branch_flag": true,
+        "content": "Immunohistochemistry and gene mutation testing confirm pulmonary adenocarcinoma with hilar and mediastinal lymph node metastasis, positive for ALK gene rearrangement, leading to a clinical stage IIIB diagnosis.",
+        "transition_event": {
+          "trigger_type": "lab_change",
+          "trigger_entities": [
+            "C0597178"
+          ],
+          "change_type": "addition",
+          "target_domain": "diagnosis"
+        }
+      }
+    },
+    {
+      "from": "N5",
+      "to": "N6",
+      "data": {
+        "edge_id": "E_to_F",
+        "branch_flag": true,
+        "content": "PET-CT",
+        "transition_event": {
+          "trigger_type": "procedure",
+          "trigger_entities": [
+            "C0015204",
+            "C0009356"
+          ],
+          "change_type": "addition",
+          "target_domain": "imaging"
+        }
+      }
+    }
+  ]
+}

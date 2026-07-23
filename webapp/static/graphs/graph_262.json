@@ -1,0 +1,290 @@
+{
+  "nodes": [
+    {
+      "id": "N1",
+      "label": "Step 1",
+      "customData": {
+        "node_id": "A",
+        "node_step_index": 0,
+        "content": "60-year-old male presented with a two-week history of cough. Lung cancer diagnosis identified during a routine check-up one week prior.",
+        "clinical_data": {
+          "HPI": [
+            {
+              "summary": "60-year-old male presented with a two-week history of cough.",
+              "duration": "2 weeks",
+              "onset": "2 weeks prior",
+              "associated_symptoms": [
+                "cough"
+              ]
+            }
+          ],
+          "diagnoses": [
+            {
+              "code": "C0024117",
+              "label": "Lung cancer",
+              "status": "active",
+              "onset_date": null
+            }
+          ]
+        }
+      }
+    },
+    {
+      "id": "N2",
+      "label": "Step 2",
+      "customData": {
+        "node_id": "B",
+        "node_step_index": 1,
+        "content": "Laboratory tests revealed carcinoembryonic antigen (CEA) at 156.00 ng/mL, carbohydrate antigen 125 (CA 125) at 238.00 U/mL, carbohydrate antigen 153 (CA 153) at 64.60 U/mL, cytokeratin-19 fragment (CYFRA 21-1) at 5.05 ng/mL, and squamous cell carcinoma antigen (SCC) at 1.80 ng/mL.",
+        "clinical_data": {
+          "labs": [
+            {
+              "test": "C0007669",
+              "value": "156.00",
+              "unit": "ng/mL",
+              "flag": "abnormal"
+            },
+            {
+              "test": "C0007242",
+              "value": "238.00",
+              "unit": "U/mL",
+              "flag": "abnormal"
+            },
+            {
+              "test": "C0282556",
+              "value": "64.60",
+              "unit": "U/mL",
+              "flag": "abnormal"
+            },
+            {
+              "test": "C1306554",
+              "value": "5.05",
+              "unit": "ng/mL",
+              "flag": "abnormal"
+            },
+            {
+              "test": "C0036373",
+              "value": "1.80",
+              "unit": "ng/mL",
+              "flag": "abnormal"
+            }
+          ]
+        }
+      }
+    },
+    {
+      "id": "N3",
+      "label": "Step 3",
+      "customData": {
+        "node_id": "C",
+        "node_step_index": 2,
+        "content": "Chest and abdominal CT scan showed an occupying lesion in the right upper lung, suggestive of peripheral lung cancer, as well as pathological compression fractures in the T9, T11, and L3 vertebrae.",
+        "clinical_data": {
+          "imaging": [
+            {
+              "type": "Mass lesion of lung (finding)",
+              "body_part": "Lung",
+              "modality": "CT",
+              "finding": "occupying lesion in the right upper lung, suggestive of peripheral lung cancer",
+              "impression": "suggestive of peripheral lung cancer",
+              "date": null
+            },
+            {
+              "type": "Fracture",
+              "body_part": "Vertebra",
+              "modality": "CT",
+              "finding": "pathological compression fractures in the T9, T11, and L3 vertebrae",
+              "impression": "pathological compression fractures",
+              "date": null
+            }
+          ]
+        }
+      }
+    },
+    {
+      "id": "N4",
+      "label": "Step 4",
+      "customData": {
+        "node_id": "D",
+        "node_step_index": 3,
+        "content": "Biopsy of the L3 bone metastasis was performed, with the pathology report indicating metastatic adenocarcinoma infiltrating bone tissue.",
+        "clinical_data": {
+          "procedures": [
+            {
+              "name": "Biopsy",
+              "location": "L3 bone",
+              "outcome": "metastatic adenocarcinoma infiltrating bone tissue"
+            }
+          ],
+          "diagnoses": [
+            {
+              "code": "C0001406",
+              "label": "Metastatic Adenocarcinoma",
+              "status": "active",
+              "onset_date": null
+            }
+          ]
+        }
+      }
+    },
+    {
+      "id": "N5",
+      "label": "Step 5",
+      "customData": {
+        "node_id": "E",
+        "node_step_index": 4,
+        "content": "Immunohistochemistry showed positivity for Cytokeratin7 and Villin, and negativity for Thyroid Transcription Factor-1, NapsinA, Cytokeratin20, Caudal Type Homeobox 2, Special AT-rich Sequence-Binding Protein 2, and Prostate-Specific Antigen. Next-generation sequencing revealed mutations in STK11, KRAS, and TP53.",
+        "clinical_data": {
+          "labs": [
+            {
+              "test": "Cytokeratin 7",
+              "value": "positive"
+            },
+            {
+              "test": "Villin",
+              "value": "positive"
+            },
+            {
+              "test": "Thyroid Transcription Factor-1",
+              "value": "negative"
+            },
+            {
+              "test": "Napsin A",
+              "value": "negative"
+            },
+            {
+              "test": "Cytokeratin 20",
+              "value": "negative"
+            },
+            {
+              "test": "Caudal Type Homeobox 2",
+              "value": "negative"
+            },
+            {
+              "test": "Special AT-rich Sequence-Binding Protein 2",
+              "value": "negative"
+            },
+            {
+              "test": "Prostate-Specific Antigen",
+              "value": "negative"
+            }
+          ],
+          "procedures": [
+            {
+              "name": "Next-generation sequencing",
+              "outcome": "mutations in STK11, KRAS, and TP53"
+            }
+          ]
+        }
+      }
+    },
+    {
+      "id": "N6",
+      "label": "Step 6",
+      "customData": {
+        "node_id": "F",
+        "node_step_index": 5,
+        "content": "Diagnosed with LUAD with bone metastasis (T1cN3M1, Stage IVB), with an Eastern Cooperative Oncology Group performance status score of 1. Baseline assessment in September 2023.",
+        "clinical_data": {
+          "diagnoses": [
+            {
+              "code": "C0024117",
+              "label": "Lung Adenocarcinoma",
+              "status": "active",
+              "onset_date": null
+            },
+            {
+              "code": "C0005934",
+              "label": "bone metastasis",
+              "status": "active",
+              "onset_date": null
+            }
+          ],
+          "functional_status": [
+            {
+              "domain": "general",
+              "description": "Eastern Cooperative Oncology Group performance status score of 1",
+              "score": "1",
+              "scale": "Eastern Cooperative Oncology Group"
+            }
+          ],
+          "imaging": [
+            {
+              "type": "C0024117",
+              "body_part": "C0005934",
+              "modality": "other",
+              "finding": "metastasis",
+              "impression": "metastasis",
+              "date": "2023-09"
+            }
+          ]
+        }
+      }
+    },
+    {
+      "id": "N7",
+      "label": "Step 7",
+      "customData": {
+        "node_id": "G",
+        "node_step_index": 6,
+        "clinical_data": {}
+      }
+    }
+  ],
+  "edges": [
+    {
+      "from": "N1",
+      "to": "N2",
+      "data": {
+        "edge_id": "A_to_B",
+        "branch_flag": true,
+        "content": "Initial lung cancer diagnosis led to laboratory testing."
+      }
+    },
+    {
+      "from": "N2",
+      "to": "N3",
+      "data": {
+        "edge_id": "B_to_C",
+        "branch_flag": true,
+        "content": "Abnormal lab values prompted imaging studies to further investigate the lung cancer."
+      }
+    },
+    {
+      "from": "N3",
+      "to": "N4",
+      "data": {
+        "edge_id": "C_to_D",
+        "branch_flag": true,
+        "content": "Imaging findings of bone lesions led to biopsy for confirmation of metastasis."
+      }
+    },
+    {
+      "from": "N4",
+      "to": "N5",
+      "data": {
+        "edge_id": "D_to_E",
+        "branch_flag": true,
+        "content": "Bone biopsy confirmed metastatic adenocarcinoma, prompting immunohistochemistry and next-generation sequencing."
+      }
+    },
+    {
+      "from": "N5",
+      "to": "N6",
+      "data": {
+        "edge_id": "E_to_F",
+        "branch_flag": true,
+        "content": "Immunohistochemistry and next-generation sequencing results informed the final diagnosis and staging."
+      }
+    },
+    {
+      "from": "N6",
+      "to": "N7",
+      "data": {
+        "edge_id": "F_to_G",
+        "branch_flag": true,
+        "content": "Diagnosis of LUAD with bone metastasis (T1cN3M1, Stage IVB) was established."
+      }
+    }
+  ]
+}

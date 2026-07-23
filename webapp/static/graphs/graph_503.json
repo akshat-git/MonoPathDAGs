@@ -1,0 +1,356 @@
+{
+  "nodes": [
+    {
+      "id": "N1",
+      "label": "Step 1",
+      "customData": {
+        "node_id": "A",
+        "node_step_index": 0,
+        "content": "Middle-aged male with mesothelioma presented to the emergency department with acute abdominal pain and distension.",
+        "clinical_data": {
+          "diagnoses": [
+            {
+              "code": "C45.0",
+              "label": "Mesothelioma of pleura",
+              "status": "active"
+            }
+          ],
+          "HPI": [
+            {
+              "summary": "Middle-aged male presented to the emergency department with acute abdominal pain and distension.",
+              "onset": "acute",
+              "associated_symptoms": [
+                "Abdominal pain",
+                "Distension"
+              ]
+            }
+          ]
+        }
+      }
+    },
+    {
+      "id": "N2",
+      "label": "Step 2",
+      "customData": {
+        "node_id": "B",
+        "node_step_index": 1,
+        "content": "Abdominal paracentesis was performed.",
+        "clinical_data": {
+          "procedures": [
+            {
+              "name": "Paracentesis, Abdomen",
+              "approach": "percutaneous",
+              "location": "abdomen"
+            }
+          ]
+        }
+      }
+    },
+    {
+      "id": "N3",
+      "label": "Step 3",
+      "customData": {
+        "node_id": "C",
+        "node_step_index": 2,
+        "content": "Subsequent testing revealed an underlying COVID-19 infection.",
+        "clinical_data": {
+          "diagnoses": [
+            {
+              "code": "UMLS:C4723454",
+              "label": "COVID-19",
+              "status": "active"
+            }
+          ]
+        }
+      }
+    },
+    {
+      "id": "N4",
+      "label": "Step 4",
+      "customData": {
+        "node_id": "D",
+        "node_step_index": 3,
+        "content": "Vitals: Blood pressure 113/81 mmHg, temperature 98\u00b0F, heart rate 112 bpm, respiratory rate 19 breaths per minute, oxygen saturation 90% on room air. Chest was clear bilaterally. Abdomen was distended and tensed due to ascites. History of stage IV mesothelioma and hepatitis C. On chemotherapy for 15 months for mesothelioma.",
+        "clinical_data": {
+          "vitals": [
+            {
+              "type": "Blood pressure",
+              "value": "113/81",
+              "unit": "mmHg"
+            },
+            {
+              "type": "Temperature",
+              "value": "98",
+              "unit": "\u00b0F"
+            },
+            {
+              "type": "Heart rate",
+              "value": "112",
+              "unit": "bpm"
+            },
+            {
+              "type": "Respiratory rate",
+              "value": "19",
+              "unit": "breaths per minute"
+            },
+            {
+              "type": "Oxygen saturation",
+              "value": "90",
+              "unit": "%",
+              "description": "on room air"
+            }
+          ],
+          "diagnoses": [
+            {
+              "code": "C0340429",
+              "label": "Malignant mesothelioma, stage IV",
+              "status": "active"
+            },
+            {
+              "code": "C0019125",
+              "label": "Hepatitis C",
+              "status": "historical"
+            }
+          ],
+          "HPI": [
+            {
+              "summary": "Abdomen was distended and tensed due to ascites."
+            }
+          ],
+          "medications": [
+            {
+              "drug": "Chemotherapy",
+              "duration": "15 months",
+              "indication": "Mesothelioma"
+            }
+          ]
+        }
+      }
+    },
+    {
+      "id": "N5",
+      "label": "Step 5",
+      "customData": {
+        "node_id": "E",
+        "node_step_index": 4,
+        "content": "COVID-19 PCR positive. Chest CT scan revealed ground-glass opacities and a large lobulated circumferential mass filling the left hemithorax with multifocal extensions and hilar, tracheobronchial and subcarinal lymphadenopathy. Chest CT also showed multifocal extensions through the diaphragm, chest wall and mediastinal fats. Chest CT scan showed residual circumferential hypodense pleural thickening involving the mediastinal, costal and diaphragmatic pleural surfaces. Erosion of the inner aspect of multiple ribs. Left lung is inflated with fibroelastic bands, indicative of stage IV mesothelioma. Patient complained of acute abdominal pain and heaviness.",
+        "clinical_data": {
+          "diagnoses": [
+            {
+              "code": "UMLS:C4720948",
+              "label": "COVID-19",
+              "status": "active"
+            },
+            {
+              "code": "UMLS:C0025347",
+              "label": "Mesothelioma",
+              "status": "active"
+            }
+          ],
+          "imaging": [
+            {
+              "type": "UMLS:C0008928",
+              "body_part": "UMLS:C0008932",
+              "modality": "CT",
+              "finding": "ground-glass opacities",
+              "date": null
+            },
+            {
+              "type": "UMLS:C0008928",
+              "body_part": "UMLS:C0008932",
+              "modality": "CT",
+              "finding": "large lobulated circumferential mass filling the left hemithorax with multifocal extensions and hilar, tracheobronchial and subcarinal lymphadenopathy",
+              "date": null
+            },
+            {
+              "type": "UMLS:C0008928",
+              "body_part": "UMLS:C0008932",
+              "modality": "CT",
+              "finding": "multifocal extensions through the diaphragm, chest wall and mediastinal fats",
+              "date": null
+            },
+            {
+              "type": "UMLS:C0008928",
+              "body_part": "UMLS:C0008932",
+              "modality": "CT",
+              "finding": "residual circumferential hypodense pleural thickening involving the mediastinal, costal and diaphragmatic pleural surfaces",
+              "date": null
+            },
+            {
+              "type": "UMLS:C0008928",
+              "body_part": "UMLS:C0008932",
+              "modality": "CT",
+              "finding": "Erosion of the inner aspect of multiple ribs",
+              "date": null
+            }
+          ],
+          "HPI": [
+            {
+              "summary": "Patient complained of acute abdominal pain and heaviness."
+            }
+          ]
+        }
+      }
+    },
+    {
+      "id": "N6",
+      "label": "Step 6",
+      "customData": {
+        "node_id": "F",
+        "node_step_index": 5,
+        "content": "Patient was moved to the isolation ward.",
+        "clinical_data": {}
+      }
+    },
+    {
+      "id": "N7",
+      "label": "Step 7",
+      "customData": {
+        "node_id": "G",
+        "node_step_index": 6,
+        "content": "Ascitic tap (paracentesis) performed, leading to abatement of clinical symptoms. Patient was prescribed azithromycin (500 mg once daily), hydroxychloroquine (200 mg twice daily), cetirizine (10 mg once daily), paracetamol (500 mg thrice daily), cosome (2 teaspoons full thrice daily) and aldactone (100 mg once daily).",
+        "clinical_data": {
+          "procedures": [
+            {
+              "name": "Paracentesis",
+              "date": null,
+              "location": "abdomen",
+              "outcome": "abatement of clinical symptoms"
+            }
+          ],
+          "medications": [
+            {
+              "drug": "Azithromycin",
+              "dosage": "500 mg",
+              "frequency": "once daily",
+              "modality": "oral",
+              "start_date": null,
+              "end_date": null,
+              "indication": null
+            },
+            {
+              "drug": "Hydroxychloroquine",
+              "dosage": "200 mg",
+              "frequency": "twice daily",
+              "modality": "oral",
+              "start_date": null,
+              "end_date": null,
+              "indication": null
+            },
+            {
+              "drug": "Cetirizine",
+              "dosage": "10 mg",
+              "frequency": "once daily",
+              "modality": "oral",
+              "start_date": null,
+              "end_date": null,
+              "indication": null
+            },
+            {
+              "drug": "Paracetamol",
+              "dosage": "500 mg",
+              "frequency": "thrice daily",
+              "modality": "oral",
+              "start_date": null,
+              "end_date": null,
+              "indication": null
+            },
+            {
+              "drug": "Cosome",
+              "dosage": "2 teaspoons full",
+              "frequency": "thrice daily",
+              "modality": "oral",
+              "start_date": null,
+              "end_date": null,
+              "indication": null
+            },
+            {
+              "drug": "Aldactone",
+              "dosage": "100 mg",
+              "frequency": "once daily",
+              "modality": "oral",
+              "start_date": null,
+              "end_date": null,
+              "indication": null
+            }
+          ]
+        }
+      }
+    },
+    {
+      "id": "N8",
+      "label": "Step 8",
+      "customData": {
+        "node_id": "H",
+        "node_step_index": 7,
+        "content": "Patient remains well to date, with no need for ventilation or oxygenation.",
+        "clinical_data": {}
+      }
+    }
+  ],
+  "edges": [
+    {
+      "from": "N1",
+      "to": "N2",
+      "data": {
+        "edge_id": "A_to_B",
+        "branch_flag": true,
+        "content": "Patient presented with acute abdominal pain and distension, leading to abdominal paracentesis."
+      }
+    },
+    {
+      "from": "N2",
+      "to": "N3",
+      "data": {
+        "edge_id": "B_to_C",
+        "branch_flag": true,
+        "content": "Following abdominal paracentesis, testing revealed an underlying COVID-19 infection."
+      }
+    },
+    {
+      "from": "N3",
+      "to": "N4",
+      "data": {
+        "edge_id": "C_to_D",
+        "branch_flag": true,
+        "content": "Diagnosis of COVID-19 led to evaluation of vitals and further assessment of patient's condition, including history of mesothelioma and hepatitis C."
+      }
+    },
+    {
+      "from": "N4",
+      "to": "N5",
+      "data": {
+        "edge_id": "D_to_E",
+        "branch_flag": true,
+        "content": "Vitals and history taking prompted COVID-19 PCR and chest CT scan, revealing ground-glass opacities, a large mass in the left hemithorax, and multifocal extensions, confirming COVID-19 and further characterizing the mesothelioma."
+      }
+    },
+    {
+      "from": "N5",
+      "to": "N6",
+      "data": {
+        "edge_id": "E_to_F",
+        "branch_flag": true,
+        "content": "Based on the imaging and positive COVID-19 PCR, the patient was moved to the isolation ward."
+      }
+    },
+    {
+      "from": "N6",
+      "to": "N7",
+      "data": {
+        "edge_id": "F_to_G",
+        "branch_flag": true,
+        "content": "Following transfer to the isolation ward, an ascitic tap (paracentesis) was performed, leading to abatement of clinical symptoms. The patient was prescribed azithromycin, hydroxychloroquine, cetirizine, paracetamol, cosome, and aldactone."
+      }
+    },
+    {
+      "from": "N7",
+      "to": "N8",
+      "data": {
+        "edge_id": "G_to_H",
+        "branch_flag": true,
+        "content": "Following paracentesis and medication administration, the patient remains well to date, with no need for ventilation or oxygenation."
+      }
+    }
+  ]
+}

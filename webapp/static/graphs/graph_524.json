@@ -1,0 +1,360 @@
+{
+  "nodes": [
+    {
+      "id": "N1",
+      "label": "Step 1",
+      "customData": {
+        "node_id": "A",
+        "node_step_index": 0,
+        "content": "78-year-old male with a history of smoking presented with a cough and worsening dyspnea.",
+        "clinical_data": {
+          "HPI": [
+            {
+              "summary": "78-year-old male presented with a cough and worsening dyspnea.",
+              "associated_symptoms": [
+                "C0010200",
+                "C0013404"
+              ]
+            }
+          ],
+          "social_history": [
+            {
+              "category": "smoking",
+              "status": "current",
+              "description": "78-year-old male with a history of smoking"
+            }
+          ]
+        }
+      }
+    },
+    {
+      "id": "N2",
+      "label": "Step 2",
+      "customData": {
+        "node_id": "B",
+        "node_step_index": 1,
+        "content": "Diagnosed with small-cell lung carcinoma of the right lung with pleural and lymph node metastasis.",
+        "clinical_data": {
+          "diagnoses": [
+            {
+              "code": "C34.9",
+              "label": "Small cell carcinoma of lung",
+              "status": "active",
+              "onset_date": null
+            },
+            {
+              "code": "C79.2",
+              "label": "Secondary malignant neoplasm of skin",
+              "status": "active",
+              "onset_date": null
+            },
+            {
+              "code": "C77",
+              "label": "Secondary and unspecified malignant neoplasm of lymph nodes",
+              "status": "active",
+              "onset_date": null
+            }
+          ]
+        }
+      }
+    },
+    {
+      "id": "N3",
+      "label": "Step 3",
+      "customData": {
+        "node_id": "C",
+        "node_step_index": 2,
+        "content": "Treatment with chemo- and immunotherapy was administered (carboplatin-etoposide-atezolizumab).",
+        "clinical_data": {
+          "medications": [
+            {
+              "drug": "C0007139",
+              "dosage": null,
+              "frequency": null,
+              "modality": null,
+              "start_date": null,
+              "end_date": null,
+              "indication": null
+            },
+            {
+              "drug": "C0015371",
+              "dosage": null,
+              "frequency": null,
+              "modality": null,
+              "start_date": null,
+              "end_date": null,
+              "indication": null
+            },
+            {
+              "drug": "C4049444",
+              "dosage": null,
+              "frequency": null,
+              "modality": null,
+              "start_date": null,
+              "end_date": null,
+              "indication": null
+            }
+          ]
+        }
+      }
+    },
+    {
+      "id": "N4",
+      "label": "Step 4",
+      "customData": {
+        "node_id": "D",
+        "node_step_index": 3,
+        "content": "Received 4 cycles of carboplatin-etoposide-atezolizumab obtaining a deep partial response after which atezolizumab maintenance was initiated. Disease evaluation after 6 weeks of atezolizumab monotherapy showed progressive disease.",
+        "clinical_data": {
+          "medications": [
+            {
+              "drug": "C0007136",
+              "dosage": null,
+              "frequency": null,
+              "modality": null,
+              "start_date": null,
+              "end_date": null,
+              "indication": null
+            },
+            {
+              "drug": "C0015424",
+              "dosage": null,
+              "frequency": null,
+              "modality": null,
+              "start_date": null,
+              "end_date": null,
+              "indication": null
+            },
+            {
+              "drug": "C4049447",
+              "dosage": null,
+              "frequency": null,
+              "modality": null,
+              "start_date": null,
+              "end_date": null,
+              "indication": null
+            },
+            {
+              "drug": "C4049447",
+              "dosage": null,
+              "frequency": null,
+              "modality": null,
+              "start_date": null,
+              "end_date": null,
+              "indication": null
+            }
+          ],
+          "diagnoses": [
+            {
+              "code": null,
+              "label": "progressive disease",
+              "status": "active",
+              "onset_date": null
+            }
+          ]
+        }
+      }
+    },
+    {
+      "id": "N5",
+      "label": "Step 5",
+      "customData": {
+        "node_id": "E",
+        "node_step_index": 4,
+        "content": "Second-line treatment initiated with oral topotecan. Evaluation after two cycles of oral topotecan showed stable disease without regression (Baseline May 25, 2023 and After cycle 1 and 2 PO Hycamtin July 13, 2023). Initiation of the second cycle of topotecan was postponed for 1 week due to asymptomatic neutropenia. Switched to intravenous topotecan due to supply difficulties of topotecan tablets.",
+        "timestamp": "2023-07-13",
+        "clinical_data": {
+          "medications": [
+            {
+              "drug": "C0040436",
+              "dosage": null,
+              "frequency": null,
+              "modality": "oral",
+              "start_date": null,
+              "end_date": null,
+              "indication": null
+            },
+            {
+              "drug": "C0040436",
+              "dosage": null,
+              "frequency": null,
+              "modality": "IV",
+              "start_date": null,
+              "end_date": null,
+              "indication": null
+            }
+          ],
+          "labs": [
+            {
+              "test": "C0027878",
+              "value": null,
+              "unit": null,
+              "flag": "abnormal",
+              "reference_range": null,
+              "timestamp": null
+            }
+          ],
+          "diagnoses": [
+            {
+              "code": "C0009450",
+              "label": "Disease",
+              "status": "active",
+              "onset_date": "2023-05-25"
+            }
+          ]
+        }
+      }
+    },
+    {
+      "id": "N6",
+      "label": "Step 6",
+      "customData": {
+        "node_id": "F",
+        "node_step_index": 5,
+        "content": "Disease evaluation after switch to intravenous topotecan showed significant disease regression with remarkable volume decrease of the primary tumoral mass, pleural lesions, and lymph nodes (After cycle 2 and 3 IV Hycamtin July 13, 2023).",
+        "timestamp": "2023-07-13",
+        "clinical_data": {
+          "medications": [
+            {
+              "drug": "C0040447",
+              "modality": "IV",
+              "start_date": "2023-07-13"
+            }
+          ],
+          "imaging": [
+            {
+              "finding": "disease regression",
+              "date": "2023-07-13"
+            }
+          ]
+        }
+      }
+    },
+    {
+      "id": "N7",
+      "label": "Step 7",
+      "customData": {
+        "node_id": "G",
+        "node_step_index": 6,
+        "content": "Developed hematological adverse effects such as neutropenia and anemia, requiring growth factors and transfusions after 8 cycles of topotecan. Disease progression occurred again after 3 months of response to topotecan. Treatment with IV topotecan was well tolerated and led to a better disease response than oral administration. Limited delay in oral administration of the second cycle due to neutropenia. Radiological regression with the start of intravenous administration. Patient experienced better subjective tolerance with intravenous administration of top",
+        "clinical_data": {
+          "medications": [
+            {
+              "drug": "C0040444",
+              "modality": "IV",
+              "indication": "Disease progression"
+            },
+            {
+              "drug": "C0040444",
+              "modality": "oral",
+              "indication": "Disease progression"
+            }
+          ],
+          "labs": [
+            {
+              "test": "C0027947",
+              "flag": "abnormal"
+            },
+            {
+              "test": "C0002871",
+              "flag": "abnormal"
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "edges": [
+    {
+      "from": "N1",
+      "to": "N2",
+      "data": {
+        "edge_id": "A_to_B",
+        "branch_flag": true,
+        "content": "Transition from initial presentation to diagnosis of small-cell lung carcinoma with metastasis."
+      }
+    },
+    {
+      "from": "N2",
+      "to": "N3",
+      "data": {
+        "edge_id": "B_to_C",
+        "branch_flag": true,
+        "content": "Initiation of first-line treatment with chemo- and immunotherapy (carboplatin-etoposide-atezolizumab)."
+      }
+    },
+    {
+      "from": "N3",
+      "to": "N4",
+      "data": {
+        "edge_id": "C_to_D",
+        "branch_flag": true,
+        "content": "Transition from initial chemo-immunotherapy to maintenance atezolizumab, followed by disease progression.",
+        "transition_event": {
+          "trigger_type": "medication_change",
+          "trigger_entities": [
+            "C0007139",
+            "C0015371",
+            "C4049444",
+            "C4049447"
+          ],
+          "change_type": "discontinuation",
+          "target_domain": "medication"
+        }
+      }
+    },
+    {
+      "from": "N4",
+      "to": "N5",
+      "data": {
+        "edge_id": "D_to_E",
+        "branch_flag": true,
+        "content": "Initiation of second-line treatment with oral topotecan, followed by a switch to intravenous topotecan due to supply issues and neutropenia.",
+        "transition_event": {
+          "trigger_type": "medication_change",
+          "trigger_entities": [
+            "C0040436"
+          ],
+          "change_type": "addition",
+          "target_domain": "medication"
+        }
+      }
+    },
+    {
+      "from": "N5",
+      "to": "N6",
+      "data": {
+        "edge_id": "E_to_F",
+        "branch_flag": true,
+        "content": "Significant disease regression observed after switching to intravenous topotecan.",
+        "transition_event": {
+          "trigger_type": "medication_change",
+          "trigger_entities": [
+            "C0040436"
+          ],
+          "change_type": "addition",
+          "target_domain": "medication",
+          "timestamp": "2023-07-13"
+        }
+      }
+    },
+    {
+      "from": "N6",
+      "to": "N7",
+      "data": {
+        "edge_id": "F_to_G",
+        "branch_flag": true,
+        "content": "Development of hematological adverse effects (neutropenia and anemia) requiring growth factors and transfusions, followed by disease progression after initial response to topotecan. Intravenous topotecan was better tolerated and led to a better disease response than oral administration.",
+        "transition_event": {
+          "trigger_type": "symptom_onset",
+          "trigger_entities": [
+            "C0027947",
+            "C0002871"
+          ],
+          "change_type": "progression",
+          "target_domain": "symptom"
+        }
+      }
+    }
+  ]
+}

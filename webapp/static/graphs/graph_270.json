@@ -1,0 +1,294 @@
+{
+  "nodes": [
+    {
+      "id": "N1",
+      "label": "Step 1",
+      "customData": {
+        "node_id": "A",
+        "node_step_index": 0,
+        "content": "46-year-old man with a 40 pack-year smoking history presented to the emergency department for worsening dyspnea and fever.",
+        "clinical_data": {
+          "HPI": [
+            {
+              "summary": "worsening dyspnea",
+              "progression": "worsening"
+            }
+          ],
+          "social_history": [
+            {
+              "category": "smoking",
+              "status": "past",
+              "description": "40 pack-year smoking history"
+            }
+          ]
+        }
+      }
+    },
+    {
+      "id": "N2",
+      "label": "Step 2",
+      "customData": {
+        "node_id": "B",
+        "node_step_index": 1,
+        "content": "Chest roentgenogram showed diffuse bilateral opacities with peripheral distribution. CT chest scan revealed peripheral bilateral ground-glass opacity (GGO) with crazy paving appearance plus a 40-mm nodule in the right upper lobe.",
+        "clinical_data": {
+          "imaging": [
+            {
+              "type": "Radiography",
+              "body_part": "Chest",
+              "modality": "X-ray",
+              "finding": "diffuse bilateral opacities with peripheral distribution"
+            },
+            {
+              "type": "Computed tomography",
+              "body_part": "Chest",
+              "modality": "CT",
+              "finding": "peripheral bilateral ground-glass opacity (GGO) with crazy paving appearance plus a 40-mm nodule in the right upper lobe"
+            }
+          ]
+        }
+      }
+    },
+    {
+      "id": "N3",
+      "label": "Step 3",
+      "customData": {
+        "node_id": "C",
+        "node_step_index": 2,
+        "content": "Nasal swab tested positive for SARS-CoV-2, and the diagnosis of COVID-19 was made.",
+        "clinical_data": {
+          "diagnoses": [
+            {
+              "code": "UMLS:C5203707",
+              "label": "COVID-19",
+              "status": "active"
+            }
+          ],
+          "labs": [
+            {
+              "test": "UMLS:C5203961",
+              "value": "positive",
+              "unit": null,
+              "flag": "abnormal"
+            }
+          ]
+        }
+      }
+    },
+    {
+      "id": "N4",
+      "label": "Step 4",
+      "customData": {
+        "node_id": "D",
+        "node_step_index": 3,
+        "content": "Patient was discharged 5 days after initial presentation.",
+        "clinical_data": {}
+      }
+    },
+    {
+      "id": "N5",
+      "label": "Step 5",
+      "customData": {
+        "node_id": "E",
+        "node_step_index": 4,
+        "content": "A repeated nasal swab at 16 days was negative for SARS-CoV-2.",
+        "clinical_data": {
+          "labs": [
+            {
+              "test": "SARS-CoV-2 test",
+              "value": "negative",
+              "timestamp": "16 days"
+            }
+          ]
+        }
+      }
+    },
+    {
+      "id": "N6",
+      "label": "Step 6",
+      "customData": {
+        "node_id": "F",
+        "node_step_index": 5,
+        "content": "Positron emission tomography/ CT after 30 days showed a standardized uptake value (SUV) of 9 for the nodule, with slight inflammatory uptake of hilar and mediastinal lymph nodes. Improvement of lung opacities was noted.",
+        "clinical_data": {
+          "imaging": [
+            {
+              "type": "Positron emission tomography/ CT",
+              "body_part": "lung",
+              "modality": "PET",
+              "finding": "standardized uptake value (SUV) of 9 for the nodule",
+              "date": null
+            },
+            {
+              "type": "Positron emission tomography/ CT",
+              "body_part": "hilar and mediastinal lymph nodes",
+              "modality": "PET",
+              "finding": "slight inflammatory uptake",
+              "date": null
+            },
+            {
+              "type": "Positron emission tomography/ CT",
+              "body_part": "lung",
+              "modality": "CT",
+              "finding": "Improvement of lung opacities",
+              "date": null
+            }
+          ]
+        }
+      }
+    },
+    {
+      "id": "N7",
+      "label": "Step 7",
+      "customData": {
+        "node_id": "G",
+        "node_step_index": 6,
+        "content": "Chest computed tomography scans 30 days after COVID-19 showed an almost complete resolution of peripheral opacities. Pulmonary function was within normal ranges, with forced expiratory volume in 1 second of 3.99 liters (102% of predicted value) and forced vital capacity of 4.98 liters (103%). Diffusion capacity of the lung for carbon monoxide (Dlco) was preserved (99%). Patient has a medical history positive for obstructive sleep apnea syndrome.",
+        "clinical_data": {
+          "imaging": [
+            {
+              "type": "Computed tomography",
+              "body_part": "Chest",
+              "modality": "CT",
+              "finding": "almost complete resolution of peripheral opacities",
+              "date": "30 days after COVID-19"
+            }
+          ],
+          "labs": [
+            {
+              "test": "Forced expiratory volume in 1 second",
+              "value": "3.99",
+              "unit": "liters",
+              "flag": "normal",
+              "reference_range": "102% of predicted value"
+            },
+            {
+              "test": "Forced vital capacity",
+              "value": "4.98",
+              "unit": "liters",
+              "flag": "normal",
+              "reference_range": "103%"
+            },
+            {
+              "test": "Diffusion capacity of the lung for carbon monoxide",
+              "value": "99",
+              "unit": "%",
+              "flag": "normal"
+            }
+          ],
+          "diagnoses": [
+            {
+              "code": "40714000",
+              "label": "Obstructive sleep apnea syndrome",
+              "status": "historical"
+            }
+          ]
+        }
+      }
+    },
+    {
+      "id": "N8",
+      "label": "Step 8",
+      "customData": {
+        "node_id": "H",
+        "clinical_data": {}
+      }
+    }
+  ],
+  "edges": [
+    {
+      "from": "N1",
+      "to": "N2",
+      "data": {
+        "edge_id": "A_to_B",
+        "branch_flag": true,
+        "content": "Patient's dyspnea and fever led to a chest roentgenogram and CT chest scan."
+      }
+    },
+    {
+      "from": "N2",
+      "to": "N3",
+      "data": {
+        "edge_id": "B_to_C",
+        "branch_flag": true,
+        "content": "Imaging findings prompted SARS-CoV-2 testing.",
+        "transition_event": {
+          "trigger_type": "lab_change",
+          "trigger_entities": [
+            "UMLS:C5203961"
+          ],
+          "change_type": "addition",
+          "target_domain": "diagnosis"
+        }
+      }
+    },
+    {
+      "from": "N3",
+      "to": "N4",
+      "data": {
+        "edge_id": "C_to_D",
+        "branch_flag": true,
+        "content": "Following COVID-19 diagnosis, the patient was managed and prepared for discharge."
+      }
+    },
+    {
+      "from": "N4",
+      "to": "N5",
+      "data": {
+        "edge_id": "D_to_E",
+        "branch_flag": true,
+        "content": "Follow-up SARS-CoV-2 testing was performed.",
+        "transition_event": {
+          "trigger_type": "lab_change",
+          "trigger_entities": [
+            "UMLS:C5203961"
+          ],
+          "change_type": "resolution",
+          "target_domain": "diagnosis",
+          "timestamp": "16 days"
+        }
+      }
+    },
+    {
+      "from": "N5",
+      "to": "N6",
+      "data": {
+        "edge_id": "E_to_F",
+        "branch_flag": true,
+        "content": "Further investigation of the lung nodule with PET/CT imaging was performed.",
+        "transition_event": {
+          "trigger_type": "imaging",
+          "trigger_entities": [],
+          "change_type": "addition",
+          "target_domain": "imaging",
+          "timestamp": "30 days"
+        }
+      }
+    },
+    {
+      "from": "N6",
+      "to": "N7",
+      "data": {
+        "edge_id": "F_to_G",
+        "branch_flag": true,
+        "content": "Follow-up chest CT and pulmonary function testing were performed to assess recovery from COVID-19.",
+        "transition_event": {
+          "trigger_type": "imaging",
+          "trigger_entities": [],
+          "change_type": "addition",
+          "target_domain": "imaging",
+          "timestamp": "30 days"
+        }
+      }
+    },
+    {
+      "from": "N7",
+      "to": "N8",
+      "data": {
+        "edge_id": "G_to_H",
+        "branch_flag": true,
+        "content": "Further management and follow-up."
+      }
+    }
+  ]
+}

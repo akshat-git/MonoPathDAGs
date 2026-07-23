@@ -1,0 +1,278 @@
+{
+  "nodes": [
+    {
+      "id": "N1",
+      "label": "Step 1",
+      "customData": {
+        "node_id": "A",
+        "node_step_index": 0,
+        "content": "13-year-old female dog presented with dyspnea and lethargy.",
+        "clinical_data": {
+          "HPI": [
+            {
+              "summary": "13-year-old female dog presented with dyspnea and lethargy.",
+              "associated_symptoms": [
+                "dyspnea",
+                "lethargy"
+              ]
+            }
+          ]
+        }
+      }
+    },
+    {
+      "id": "N2",
+      "label": "Step 2",
+      "customData": {
+        "node_id": "B",
+        "node_step_index": 1,
+        "content": "Thoracic X-ray revealed a large, bulging heart, suggesting pericardial effusion. Ultrasound examination showed a high amount of fluid between heart and pericardium.",
+        "clinical_data": {
+          "imaging": [
+            {
+              "type": "Radiography, Thoracic (TUI: B0371376)",
+              "body_part": "Thorax (TUI: B0583853)",
+              "modality": "X-ray",
+              "finding": "Bulging heart (TUI: D006342)",
+              "impression": "Pericardial effusion",
+              "date": null
+            },
+            {
+              "type": "Ultrasonography (TUI: B0582733)",
+              "body_part": "Heart (TUI: B0583509)",
+              "modality": "Ultrasound",
+              "finding": "Fluid between heart and pericardium",
+              "impression": null,
+              "date": null
+            }
+          ]
+        }
+      }
+    },
+    {
+      "id": "N3",
+      "label": "Step 3",
+      "customData": {
+        "node_id": "C",
+        "node_step_index": 2,
+        "content": "Pericardiocentesis performed, resulting in 220 ml of bloody fluid. Analysis of pericardial fluid was inconclusive.",
+        "clinical_data": {
+          "procedures": [
+            {
+              "name": "Pericardiocentesis",
+              "date": null,
+              "outcome": "220 ml of bloody fluid"
+            }
+          ],
+          "labs": [
+            {
+              "test": "Pericardial fluid analysis",
+              "value": "inconclusive"
+            }
+          ]
+        }
+      }
+    },
+    {
+      "id": "N4",
+      "label": "Step 4",
+      "customData": {
+        "node_id": "D",
+        "node_step_index": 3,
+        "content": "Fifteen days later, the dog returned to the hospital with the same ailment. 440 ml of bleeding pericardial effusion was drained. Analysis of the fluid was suggestive of neoplasia.",
+        "clinical_data": {
+          "procedures": [
+            {
+              "name": "Pericardiocentesis",
+              "approach": "percutaneous",
+              "date": null,
+              "location": "Pericardial space",
+              "performed_by": null,
+              "outcome": "440 ml of bleeding pericardial effusion was drained"
+            }
+          ],
+          "labs": [
+            {
+              "test": "Pericardial fluid analysis",
+              "value": "suggestive of neoplasia",
+              "unit": null,
+              "flag": "abnormal",
+              "reference_range": null,
+              "timestamp": null
+            }
+          ]
+        }
+      }
+    },
+    {
+      "id": "N5",
+      "label": "Step 5",
+      "customData": {
+        "node_id": "E",
+        "node_step_index": 4,
+        "content": "On day 23, the dog returned and was referred to the hospital\u2019s video-surgery department, where new pericardiocentesis was performed, resulting in 295 ml drained.",
+        "clinical_data": {
+          "procedures": [
+            {
+              "name": "Pericardiocentesis",
+              "date": "unknown",
+              "outcome": "295 ml drained"
+            }
+          ]
+        }
+      }
+    },
+    {
+      "id": "N6",
+      "label": "Step 6",
+      "customData": {
+        "node_id": "F",
+        "node_step_index": 5,
+        "content": "On day 27, thoracoscopic pericardiectomy was performed via intercostal and paraxiphoid accesses. Pleural biopsies were also taken. The patient was maintained in a dorsal decubitus inclined to the right. The first portal was placed through the 8th left intercostal space, followed by the paraxiphoid portal.",
+        "clinical_data": {
+          "procedures": [
+            {
+              "name": "Thoracoscopic pericardiectomy",
+              "approach": "thoracoscopic",
+              "date": null,
+              "location": "pericardium",
+              "performed_by": null,
+              "outcome": null
+            },
+            {
+              "name": "Biopsy of pleura",
+              "approach": "thoracoscopic",
+              "date": null,
+              "location": "pleura",
+              "performed_by": null,
+              "outcome": null
+            }
+          ]
+        }
+      }
+    },
+    {
+      "id": "N7",
+      "label": "Step 7",
+      "customData": {
+        "node_id": "G",
+        "node_step_index": 6,
+        "content": "Third intercostal access performed on the left side. Pleural biopsies collected from areas with macroscopic proliferation. Partial pericardectomy was performed, removing an extensive pericardial segment. Per",
+        "clinical_data": {
+          "procedures": [
+            {
+              "name": "Biopsy",
+              "approach": "percutaneous",
+              "location": "Pleura",
+              "date": null
+            },
+            {
+              "name": "Pericardectomy",
+              "approach": "open",
+              "location": "Pericardium",
+              "date": null
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "edges": [
+    {
+      "from": "N1",
+      "to": "N2",
+      "data": {
+        "edge_id": "A_to_B",
+        "branch_flag": true,
+        "content": "Progression from initial presentation to diagnostic imaging."
+      }
+    },
+    {
+      "from": "N2",
+      "to": "N3",
+      "data": {
+        "edge_id": "B_to_C",
+        "branch_flag": true,
+        "content": "Thoracic X-ray and ultrasound findings led to pericardiocentesis.",
+        "transition_event": {
+          "trigger_type": "procedure",
+          "trigger_entities": [
+            "C0031116"
+          ],
+          "change_type": "addition",
+          "target_domain": "procedure"
+        }
+      }
+    },
+    {
+      "from": "N3",
+      "to": "N4",
+      "data": {
+        "edge_id": "C_to_D",
+        "branch_flag": true,
+        "content": "Recurrence of symptoms and repeat pericardiocentesis.",
+        "transition_event": {
+          "trigger_type": "spontaneous",
+          "trigger_entities": [
+            "C0013360",
+            "C0023391"
+          ],
+          "change_type": "progression",
+          "target_domain": "symptom"
+        }
+      }
+    },
+    {
+      "from": "N4",
+      "to": "N5",
+      "data": {
+        "edge_id": "D_to_E",
+        "branch_flag": true,
+        "content": "Continued recurrence of pericardial effusion requiring further pericardiocentesis.",
+        "transition_event": {
+          "trigger_type": "spontaneous",
+          "trigger_entities": [
+            "C0013360",
+            "C0023391"
+          ],
+          "change_type": "progression",
+          "target_domain": "symptom"
+        }
+      }
+    },
+    {
+      "from": "N5",
+      "to": "N6",
+      "data": {
+        "edge_id": "E_to_F",
+        "branch_flag": true,
+        "content": "Referral to video-surgery department and decision to perform thoracoscopic pericardiectomy.",
+        "transition_event": {
+          "trigger_type": "procedure",
+          "trigger_entities": [
+            "C0031116"
+          ],
+          "change_type": "addition",
+          "target_domain": "procedure"
+        }
+      }
+    },
+    {
+      "from": "N6",
+      "to": "N7",
+      "data": {
+        "edge_id": "F_to_G",
+        "branch_flag": true,
+        "content": "Continuation of thoracoscopic pericardiectomy with pleural biopsies.",
+        "transition_event": {
+          "trigger_type": "procedure",
+          "trigger_entities": [
+            "C0031116"
+          ],
+          "change_type": "addition",
+          "target_domain": "procedure"
+        }
+      }
+    }
+  ]
+}

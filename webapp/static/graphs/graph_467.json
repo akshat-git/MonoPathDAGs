@@ -1,0 +1,501 @@
+{
+  "nodes": [
+    {
+      "id": "N1",
+      "label": "Step 1",
+      "customData": {
+        "node_id": "A",
+        "node_step_index": 0,
+        "content": "46-year-old woman diagnosed with locally advanced EGFRm NSCLC (exon19 mutation).",
+        "clinical_data": {
+          "diagnoses": [
+            {
+              "code": "C0029456",
+              "label": "Non-Small Cell Lung Carcinoma",
+              "status": "active",
+              "onset_date": null
+            }
+          ],
+          "HPI": [
+            {
+              "summary": "46-year-old woman diagnosed with locally advanced EGFRm NSCLC (exon19 mutation).",
+              "duration": null,
+              "onset": null,
+              "progression": "unknown",
+              "associated_symptoms": [],
+              "alleviating_factors": [],
+              "exacerbating_factors": []
+            }
+          ]
+        }
+      }
+    },
+    {
+      "id": "N2",
+      "label": "Step 2",
+      "customData": {
+        "node_id": "B",
+        "node_step_index": 1,
+        "content": "Patient underwent lobectomy and lymph node dissection followed by adjuvant chemotherapy and thoracic radiation therapy.",
+        "clinical_data": {
+          "procedures": [
+            {
+              "name": "Radiation therapy",
+              "approach": null,
+              "date": null,
+              "location": "Thorax",
+              "performed_by": null,
+              "outcome": null
+            }
+          ],
+          "medications": [
+            {
+              "drug": "Chemotherapy",
+              "dosage": null,
+              "frequency": null,
+              "modality": null,
+              "start_date": null,
+              "end_date": null,
+              "indication": null
+            }
+          ]
+        }
+      }
+    },
+    {
+      "id": "N3",
+      "label": "Step 3",
+      "customData": {
+        "node_id": "C",
+        "node_step_index": 2,
+        "content": "Brain MR imaging revealed no evidence of intracranial disease.",
+        "clinical_data": {
+          "imaging": [
+            {
+              "type": "Magnetic Resonance Imaging of Brain",
+              "body_part": "Brain",
+              "modality": "MRI",
+              "finding": "no evidence of intracranial disease"
+            }
+          ]
+        }
+      }
+    },
+    {
+      "id": "N4",
+      "label": "Step 4",
+      "customData": {
+        "node_id": "D",
+        "node_step_index": 3,
+        "content": "One year later, patient developed lung metastases and began gefitinib.",
+        "clinical_data": {
+          "diagnoses": [
+            {
+              "code": "C0024134",
+              "label": "Lung Metastasis",
+              "status": "active",
+              "onset_date": null
+            }
+          ],
+          "medications": [
+            {
+              "drug": "C1639740",
+              "dosage": null,
+              "frequency": null,
+              "modality": null,
+              "start_date": null,
+              "end_date": null,
+              "indication": "C0024134"
+            }
+          ]
+        }
+      }
+    },
+    {
+      "id": "N5",
+      "label": "Step 5",
+      "customData": {
+        "node_id": "E",
+        "node_step_index": 4,
+        "content": "Brain MR imaging was unremarkable.",
+        "clinical_data": {
+          "imaging": [
+            {
+              "type": "Magnetic Resonance Imaging",
+              "body_part": "Brain",
+              "modality": "MRI",
+              "finding": "unremarkable"
+            }
+          ]
+        }
+      }
+    },
+    {
+      "id": "N6",
+      "label": "Step 6",
+      "customData": {
+        "node_id": "F",
+        "node_step_index": 5,
+        "content": "After 4 years of gefitinib, patient developed headaches and was found to have 3 brain metastases treated with salvage stereotactic radiosurgery, including one in the right cerebellum.",
+        "clinical_data": {
+          "medications": [
+            {
+              "drug": "gefitinib",
+              "dosage": null,
+              "frequency": null,
+              "modality": null,
+              "start_date": null,
+              "end_date": null,
+              "indication": null
+            }
+          ],
+          "HPI": [
+            {
+              "summary": "Patient developed headaches after 4 years of gefitinib treatment.",
+              "duration": "4 years",
+              "onset": null,
+              "progression": "unknown",
+              "associated_symptoms": [
+                "headaches"
+              ],
+              "alleviating_factors": [],
+              "exacerbating_factors": []
+            }
+          ],
+          "diagnoses": [
+            {
+              "code": null,
+              "label": "brain metastases",
+              "status": "active",
+              "onset_date": null
+            }
+          ],
+          "imaging": [
+            {
+              "type": null,
+              "body_part": "brain",
+              "modality": null,
+              "finding": "metastases",
+              "impression": null,
+              "date": null
+            }
+          ],
+          "procedures": [
+            {
+              "name": "stereotactic radiosurgery",
+              "approach": "other",
+              "date": null,
+              "location": "right cerebellum",
+              "performed_by": null,
+              "outcome": null
+            }
+          ]
+        }
+      }
+    },
+    {
+      "id": "N7",
+      "label": "Step 7",
+      "customData": {
+        "node_id": "G",
+        "node_step_index": 6,
+        "content": "One year later, the patient developed mild headaches, and MR imaging revealed progression of the right cerebellar lesion consistent with FLIP.",
+        "clinical_data": {
+          "HPI": [
+            {
+              "summary": "Patient developed mild headaches one year later.",
+              "duration": "P1Y",
+              "onset": "One year later",
+              "progression": "gradual",
+              "associated_symptoms": [
+                "Headache"
+              ]
+            }
+          ],
+          "imaging": [
+            {
+              "type": "Brain MRI",
+              "body_part": "Cerebellum",
+              "modality": "MRI",
+              "finding": "Progression of the right cerebellar lesion",
+              "impression": "Consistent with FLIP",
+              "date": null
+            }
+          ]
+        }
+      }
+    },
+    {
+      "id": "N8",
+      "label": "Step 8",
+      "customData": {
+        "node_id": "H",
+        "node_step_index": 7,
+        "content": "Patient underwent resection, revealing adenocarcinoma growing in a papillary pattern with large areas of necrosis and focal leptomeningeal involvement.",
+        "clinical_data": {
+          "procedures": [
+            {
+              "name": "Resection",
+              "date": null,
+              "location": null,
+              "performed_by": null,
+              "outcome": null,
+              "approach": null
+            }
+          ],
+          "diagnoses": [
+            {
+              "code": "C0001672",
+              "label": "Adenocarcinoma",
+              "status": "active",
+              "onset_date": null
+            }
+          ],
+          "imaging": [
+            {
+              "type": null,
+              "body_part": "Leptomeninges",
+              "modality": null,
+              "finding": "Leptomeningeal involvement",
+              "impression": null,
+              "date": null
+            }
+          ]
+        }
+      }
+    },
+    {
+      "id": "N9",
+      "label": "Step 9",
+      "customData": {
+        "node_id": "I",
+        "node_step_index": 8,
+        "content": "Six months after resection, the lesion progressed again and was treated with fractionated radiation.",
+        "clinical_data": {
+          "procedures": [
+            {
+              "name": "Radiation Therapy, Fractionated",
+              "date": null
+            }
+          ]
+        }
+      }
+    },
+    {
+      "id": "N10",
+      "label": "Step 10",
+      "customData": {
+        "node_id": "J",
+        "node_step_index": 9,
+        "content": "The tumor recurred 6 months later, requiring a second resection.",
+        "clinical_data": {
+          "procedures": [
+            {
+              "name": "Resection",
+              "date": null,
+              "location": null,
+              "performed_by": null,
+              "outcome": null
+            }
+          ],
+          "diagnoses": [
+            {
+              "code": null,
+              "label": "Tumor recurrence",
+              "status": "active",
+              "onset_date": null
+            }
+          ]
+        }
+      }
+    },
+    {
+      "id": "N11",
+      "label": "Step 11",
+      "customData": {
+        "node_id": "K",
+        "node_step_index": 10,
+        "content": "Three months following resection, brain MR imaging showed stable disease; however, symptomatically, she was severely fatigued, without an obvious cause.",
+        "clinical_data": {
+          "imaging": [
+            {
+              "type": "Magnetic Resonance Imaging of Brain",
+              "body_part": "Brain",
+              "modality": "MRI",
+              "finding": "stable disease",
+              "date": "3 months following resection"
+            }
+          ],
+          "HPI": [
+            {
+              "summary": "severe fatigue",
+              "progression": "unknown",
+              "onset": "3 months following resection",
+              "associated_symptoms": []
+            }
+          ]
+        }
+      }
+    },
+    {
+      "id": "N12",
+      "label": "Step 12",
+      "customData": {
+        "node_id": "L",
+        "node_step_index": 11,
+        "content": "Six months later patient died in the setting of palliative care.",
+        "clinical_data": {
+          "functional_status": [
+            {
+              "domain": "ADLs",
+              "description": "palliative care"
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "edges": [
+    {
+      "from": "N1",
+      "to": "N2",
+      "data": {
+        "edge_id": "A_to_B",
+        "branch_flag": true,
+        "content": "Patient underwent lobectomy and lymph node dissection followed by adjuvant chemotherapy and thoracic radiation therapy."
+      }
+    },
+    {
+      "from": "N2",
+      "to": "N3",
+      "data": {
+        "edge_id": "B_to_C",
+        "branch_flag": true,
+        "content": "Surveillance brain MR imaging."
+      }
+    },
+    {
+      "from": "N3",
+      "to": "N4",
+      "data": {
+        "edge_id": "C_to_D",
+        "branch_flag": true,
+        "content": "One year later, patient developed lung metastases and began gefitinib.",
+        "transition_event": {
+          "trigger_type": "symptom_onset",
+          "trigger_entities": [
+            "C0024134"
+          ],
+          "change_type": "progression",
+          "target_domain": "diagnosis"
+        }
+      }
+    },
+    {
+      "from": "N4",
+      "to": "N5",
+      "data": {
+        "edge_id": "D_to_E",
+        "branch_flag": true,
+        "content": "Surveillance brain MR imaging."
+      }
+    },
+    {
+      "from": "N5",
+      "to": "N6",
+      "data": {
+        "edge_id": "E_to_F",
+        "branch_flag": true,
+        "content": "After 4 years of gefitinib, patient developed headaches and was found to have 3 brain metastases treated with salvage stereotactic radiosurgery, including one in the right cerebellum.",
+        "transition_event": {
+          "trigger_type": "symptom_onset",
+          "trigger_entities": [
+            "C0018681"
+          ],
+          "change_type": "progression",
+          "target_domain": "symptom"
+        }
+      }
+    },
+    {
+      "from": "N6",
+      "to": "N7",
+      "data": {
+        "edge_id": "F_to_G",
+        "branch_flag": true,
+        "content": "One year later, the patient developed mild headaches, and MR imaging revealed progression of the right cerebellar lesion consistent with FLIP.",
+        "transition_event": {
+          "trigger_type": "symptom_onset",
+          "trigger_entities": [
+            "C0018681"
+          ],
+          "change_type": "progression",
+          "target_domain": "symptom"
+        }
+      }
+    },
+    {
+      "from": "N7",
+      "to": "N8",
+      "data": {
+        "edge_id": "G_to_H",
+        "branch_flag": true,
+        "content": "Patient underwent resection, revealing adenocarcinoma growing in a papillary pattern with large areas of necrosis and focal leptomeningeal involvement."
+      }
+    },
+    {
+      "from": "N8",
+      "to": "N9",
+      "data": {
+        "edge_id": "H_to_I",
+        "branch_flag": true,
+        "content": "Six months after resection, the lesion progressed again and was treated with fractionated radiation.",
+        "transition_event": {
+          "trigger_type": "progression",
+          "trigger_entities": [],
+          "change_type": "progression",
+          "target_domain": "imaging"
+        }
+      }
+    },
+    {
+      "from": "N9",
+      "to": "N10",
+      "data": {
+        "edge_id": "I_to_J",
+        "branch_flag": true,
+        "content": "The tumor recurred 6 months later, requiring a second resection.",
+        "transition_event": {
+          "trigger_type": "progression",
+          "trigger_entities": [],
+          "change_type": "progression",
+          "target_domain": "diagnosis"
+        }
+      }
+    },
+    {
+      "from": "N10",
+      "to": "N11",
+      "data": {
+        "edge_id": "J_to_K",
+        "branch_flag": true,
+        "content": "Three months following resection, brain MR imaging showed stable disease; however, symptomatically, she was severely fatigued, without an obvious cause."
+      }
+    },
+    {
+      "from": "N11",
+      "to": "N12",
+      "data": {
+        "edge_id": "K_to_L",
+        "branch_flag": true,
+        "content": "Six months later patient died in the setting of palliative care.",
+        "transition_event": {
+          "trigger_type": "spontaneous",
+          "trigger_entities": [],
+          "change_type": "progression",
+          "target_domain": "functional_status"
+        }
+      }
+    }
+  ]
+}

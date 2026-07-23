@@ -1,0 +1,326 @@
+{
+  "nodes": [
+    {
+      "id": "N1",
+      "label": "Step 1",
+      "customData": {
+        "node_id": "A",
+        "node_step_index": 0,
+        "content": "42-year-old woman admitted to hospital with a pulmonary shadow.",
+        "clinical_data": {
+          "diagnoses": [
+            {
+              "code": "R91.8",
+              "label": "Abnormal findings on diagnostic imaging of lung",
+              "status": "active"
+            }
+          ]
+        }
+      }
+    },
+    {
+      "id": "N2",
+      "label": "Step 2",
+      "customData": {
+        "node_id": "B",
+        "node_step_index": 1,
+        "content": "Thoracic CT scan revealed two pulmonary lesions, 19.5 and 20.9 mm in size, located in the posterior basal segment of the left lower lobe and the superior segment of right lower lobe respectively, with no significant enlargement observed in the mediastinal lymph nodes.",
+        "clinical_data": {
+          "imaging": [
+            {
+              "type": "CT scan of thorax",
+              "body_part": "Thorax",
+              "modality": "CT",
+              "finding": "Two pulmonary lesions, 19.5 and 20.9 mm in size, located in the posterior basal segment of the left lower lobe and the superior segment of right lower lobe respectively",
+              "impression": "No significant enlargement observed in the mediastinal lymph nodes."
+            }
+          ]
+        }
+      }
+    },
+    {
+      "id": "N3",
+      "label": "Step 3",
+      "customData": {
+        "node_id": "C",
+        "node_step_index": 2,
+        "content": "Routine blood test showed white blood cell count was 5.46\u00d7109/L, which was normal, and the patient did not have any obvious positive symptoms or signs.",
+        "clinical_data": {
+          "labs": [
+            {
+              "test": "White blood cell count",
+              "value": "5.46",
+              "unit": "10^9/L",
+              "flag": "normal"
+            }
+          ]
+        }
+      }
+    },
+    {
+      "id": "N4",
+      "label": "Step 4",
+      "customData": {
+        "node_id": "D",
+        "node_step_index": 3,
+        "content": "Patient chose CT-guided percutaneous left lung biopsy on January 9, 2019.",
+        "timestamp": "2019-01-09",
+        "clinical_data": {
+          "procedures": [
+            {
+              "name": "Biopsy of lung",
+              "approach": "percutaneous",
+              "date": "2019-01-09",
+              "location": "left lung",
+              "modality": "CT-guided"
+            }
+          ],
+          "imaging": [
+            {
+              "type": "CT scan",
+              "body_part": "lung",
+              "modality": "CT",
+              "date": "2019-01-09"
+            }
+          ]
+        }
+      }
+    },
+    {
+      "id": "N5",
+      "label": "Step 5",
+      "customData": {
+        "node_id": "E",
+        "node_step_index": 4,
+        "content": "Pathology report: non-small cell lung adenocarcinoma with exon 21 L858R point mutation of EGFR.",
+        "clinical_data": {
+          "diagnoses": [
+            {
+              "code": "C34.9",
+              "label": "Lung Cancer",
+              "status": "active"
+            }
+          ],
+          "imaging": [
+            {
+              "type": "Finding",
+              "body_part": "Lung",
+              "modality": "Pathology",
+              "finding": "non-small cell lung adenocarcinoma with exon 21 L858R point mutation of EGFR"
+            }
+          ]
+        }
+      }
+    },
+    {
+      "id": "N6",
+      "label": "Step 6",
+      "customData": {
+        "node_id": "F",
+        "node_step_index": 5,
+        "content": "PET/CT examination (January 15, 2019): bilateral lung lesions highly likely to be tumors; no metastases found in other sites.",
+        "timestamp": "2019-01-15",
+        "clinical_data": {
+          "imaging": [
+            {
+              "type": "Lesion",
+              "body_part": "Lung",
+              "modality": "PET/CT",
+              "finding": "bilateral lung lesions highly likely to be tumors",
+              "impression": "no metastases found in other sites",
+              "date": "2019-01-15"
+            }
+          ]
+        }
+      }
+    },
+    {
+      "id": "N7",
+      "label": "Step 7",
+      "customData": {
+        "node_id": "G",
+        "node_step_index": 6,
+        "content": "Patient received neoadjuvant gefitinib therapy for 8 weeks.",
+        "clinical_data": {
+          "medications": [
+            {
+              "drug": "C0974187",
+              "dosage": null,
+              "frequency": null,
+              "modality": null,
+              "start_date": null,
+              "end_date": null,
+              "indication": null
+            }
+          ]
+        }
+      }
+    },
+    {
+      "id": "N8",
+      "label": "Step 8",
+      "customData": {
+        "node_id": "H",
+        "node_step_index": 7,
+        "content": "Thoracic CT scan post-gefitinib: left lower lobe lesion reduced significantly (13 mm in size); right lung lesion showed no obvious change.",
+        "clinical_data": {
+          "imaging": [
+            {
+              "type": "CT of thorax",
+              "body_part": "Left lower lobe",
+              "modality": "CT",
+              "finding": "Lesion reduced significantly",
+              "impression": "Lesion reduced significantly (13 mm in size)",
+              "date": null
+            },
+            {
+              "type": "CT of thorax",
+              "body_part": "Right lung",
+              "modality": "CT",
+              "finding": "Lesion showed no obvious change",
+              "impression": "Lesion showed no obvious change",
+              "date": null
+            }
+          ],
+          "medications": [
+            {
+              "drug": "gefitinib",
+              "dosage": null,
+              "frequency": null,
+              "modality": null,
+              "start_date": null,
+              "end_date": null,
+              "indication": null
+            }
+          ]
+        }
+      }
+    },
+    {
+      "id": "N9",
+      "label": "Step 9",
+      "customData": {
+        "node_id": "I",
+        "node_step_index": 8,
+        "content": "Presurgical evaluations, including pulmonary function test and metastatic examination, were normal",
+        "clinical_data": {}
+      }
+    }
+  ],
+  "edges": [
+    {
+      "from": "N1",
+      "to": "N2",
+      "data": {
+        "edge_id": "A_to_B",
+        "branch_flag": true,
+        "content": "Patient developed a pulmonary shadow, leading to further investigation via thoracic CT scan."
+      }
+    },
+    {
+      "from": "N2",
+      "to": "N3",
+      "data": {
+        "edge_id": "B_to_C",
+        "branch_flag": true,
+        "content": "Following the CT scan, routine blood tests were performed to assess the patient's overall condition."
+      }
+    },
+    {
+      "from": "N3",
+      "to": "N4",
+      "data": {
+        "edge_id": "C_to_D",
+        "branch_flag": true,
+        "content": "Based on imaging findings, the patient underwent a CT-guided percutaneous left lung biopsy.",
+        "transition_event": {
+          "trigger_type": "procedure",
+          "trigger_entities": [
+            "C0005731"
+          ],
+          "change_type": "addition",
+          "target_domain": "procedure",
+          "timestamp": "2019-01-09T00:00:00Z"
+        }
+      }
+    },
+    {
+      "from": "N4",
+      "to": "N5",
+      "data": {
+        "edge_id": "D_to_E",
+        "branch_flag": true,
+        "content": "Biopsy results revealed non-small cell lung adenocarcinoma with EGFR exon 21 L858R mutation.",
+        "transition_event": {
+          "trigger_type": "lab_change",
+          "trigger_entities": [],
+          "change_type": "reinterpretation",
+          "target_domain": "diagnosis"
+        }
+      }
+    },
+    {
+      "from": "N5",
+      "to": "N6",
+      "data": {
+        "edge_id": "E_to_F",
+        "branch_flag": true,
+        "content": "Following the pathology report, a PET/CT examination was performed to assess the extent of the disease.",
+        "transition_event": {
+          "trigger_type": "procedure",
+          "trigger_entities": [],
+          "change_type": "addition",
+          "target_domain": "imaging",
+          "timestamp": "2019-01-15T00:00:00Z"
+        }
+      }
+    },
+    {
+      "from": "N6",
+      "to": "N7",
+      "data": {
+        "edge_id": "F_to_G",
+        "branch_flag": true,
+        "content": "Based on the diagnosis and PET/CT results, the patient was started on neoadjuvant gefitinib therapy.",
+        "transition_event": {
+          "trigger_type": "medication_change",
+          "trigger_entities": [
+            "C0974187"
+          ],
+          "change_type": "addition",
+          "target_domain": "medication"
+        }
+      }
+    },
+    {
+      "from": "N7",
+      "to": "N8",
+      "data": {
+        "edge_id": "G_to_H",
+        "branch_flag": true,
+        "content": "After 8 weeks of gefitinib therapy, a thoracic CT scan was performed to evaluate the treatment response.",
+        "transition_event": {
+          "trigger_type": "procedure",
+          "trigger_entities": [],
+          "change_type": "addition",
+          "target_domain": "imaging"
+        }
+      }
+    },
+    {
+      "from": "N8",
+      "to": "N9",
+      "data": {
+        "edge_id": "H_to_I",
+        "branch_flag": true,
+        "content": "Following the CT scan post-gefitinib, the patient underwent pre-surgical evaluations.",
+        "transition_event": {
+          "trigger_type": "procedure",
+          "trigger_entities": [],
+          "change_type": "addition",
+          "target_domain": "procedure"
+        }
+      }
+    }
+  ]
+}

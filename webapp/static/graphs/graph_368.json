@@ -1,0 +1,401 @@
+{
+  "nodes": [
+    {
+      "id": "N1",
+      "label": "Step 1",
+      "customData": {
+        "node_id": "A",
+        "node_step_index": 0,
+        "content": "68-year-old Japanese man, current smoker (50 pack-years) and heavy drinker with ECOG performance status of 0. Diagnosed with lung adenocarcinoma stage IVB (T3N2M1c). History of bleeding from a cavernous hemangioma in the brain 10 months prior to lung cancer diagnosis.",
+        "clinical_data": {
+          "social_history": [
+            {
+              "category": "smoking",
+              "status": "current",
+              "description": "50 pack-years"
+            },
+            {
+              "category": "alcohol",
+              "status": "current",
+              "description": "heavy drinker"
+            }
+          ],
+          "diagnoses": [
+            {
+              "code": "C34",
+              "label": "Lung cancer",
+              "status": "active",
+              "onset_date": null
+            },
+            {
+              "code": "85570001",
+              "label": "Adenocarcinoma",
+              "status": "active",
+              "onset_date": null
+            },
+            {
+              "code": "C79.31",
+              "label": "Secondary malignant neoplasm of brain",
+              "status": "active",
+              "onset_date": null
+            },
+            {
+              "code": "D18.01",
+              "label": "Cavernous hemangioma of brain",
+              "status": "historical",
+              "onset_date": null
+            }
+          ],
+          "functional_status": [
+            {
+              "domain": "general",
+              "description": "ECOG performance status of 0",
+              "score": "0",
+              "scale": "ECOG"
+            }
+          ]
+        }
+      }
+    },
+    {
+      "id": "N2",
+      "label": "Step 2",
+      "customData": {
+        "node_id": "B",
+        "node_step_index": 1,
+        "content": "Primary lung cancer lesion with a maximum diameter of 59 mm located in the right lower lobe. Mediastinal lymphadenopathy and two brain metastases, 7.0 and 4.0 mm in size, were observed. Adenocarcinoma diagnosed based on pathological examination of biopsy specimen from primary lesion obtained by bronchoscopy. Tumor had neither an epidermal growth factor receptor gene mutation nor an echinoderm microtubule-associated protein-like 4-anaplastic lymphoma kinase fusion.",
+        "clinical_data": {
+          "diagnoses": [
+            {
+              "code": "C34.9",
+              "label": "Primary lung cancer",
+              "status": "active",
+              "onset_date": null
+            },
+            {
+              "code": "C79.31",
+              "label": "Brain metastases",
+              "status": "active",
+              "onset_date": null
+            },
+            {
+              "code": "8140/3",
+              "label": "Adenocarcinoma",
+              "status": "active",
+              "onset_date": null
+            }
+          ],
+          "imaging": [
+            {
+              "type": "Finding",
+              "body_part": "Lung",
+              "modality": "CT",
+              "finding": "Primary lung cancer lesion with a maximum diameter of 59 mm located in the right lower lobe",
+              "impression": "Primary lung cancer lesion",
+              "date": null
+            },
+            {
+              "type": "Finding",
+              "body_part": "Mediastinum",
+              "modality": "CT",
+              "finding": "Mediastinal lymphadenopathy",
+              "impression": "Mediastinal lymphadenopathy",
+              "date": null
+            },
+            {
+              "type": "Finding",
+              "body_part": "Brain",
+              "modality": "MRI",
+              "finding": "Two brain metastases, 7.0 and 4.0 mm in size",
+              "impression": "Brain metastases",
+              "date": null
+            }
+          ],
+          "procedures": [
+            {
+              "name": "Bronchoscopy",
+              "approach": "endoscopic",
+              "date": null,
+              "location": "Lung",
+              "performed_by": null,
+              "outcome": null
+            }
+          ],
+          "labs": [
+            {
+              "test": "Epidermal growth factor receptor gene mutation",
+              "value": "Negative",
+              "unit": null,
+              "flag": "normal",
+              "reference_range": null,
+              "timestamp": null
+            },
+            {
+              "test": "Echinoderm microtubule-associated protein-like 4-anaplastic lymphoma kinase fusion",
+              "value": "Negative",
+              "unit": null,
+              "flag": "normal",
+              "reference_range": null,
+              "timestamp": null
+            }
+          ]
+        }
+      }
+    },
+    {
+      "id": "N3",
+      "label": "Step 3",
+      "customData": {
+        "node_id": "C",
+        "node_step_index": 2,
+        "content": "PD-L1 expression tumor proportion score of 1-24%. Serum hepatitis B virus (HBV)-DNA detected (<0.1 IU/mL), treated with entecavir until negative conversion. Stereotactic ablative surgery of the 2 small brain metastases. First-line chemotherapy of 4 cycles of carboplatin (area under the curve =5) and pemetrexed (500 mg/m2) and pembrolizumab (200 mg/body), followed by pemetrexed (500 mg/m2) and pembrolizumab (200 mg/body) maintenance therapy.",
+        "clinical_data": {
+          "labs": [
+            {
+              "test": "Hepatitis B virus DNA measurement",
+              "value": "<0.1",
+              "unit": "IU/mL",
+              "flag": "abnormal"
+            }
+          ],
+          "procedures": [
+            {
+              "name": "Stereotactic ablative surgery",
+              "location": "brain metastases"
+            }
+          ],
+          "medications": [
+            {
+              "drug": "Entecavir",
+              "indication": "Hepatitis B virus infection"
+            },
+            {
+              "drug": "Carboplatin",
+              "dosage": "area under the curve = 5",
+              "modality": "IV",
+              "indication": "cancer"
+            },
+            {
+              "drug": "Pemetrexed",
+              "dosage": "500 mg/m2",
+              "modality": "IV",
+              "indication": "cancer"
+            },
+            {
+              "drug": "Pembrolizumab",
+              "dosage": "200 mg/body",
+              "modality": "IV",
+              "indication": "cancer"
+            }
+          ]
+        }
+      }
+    },
+    {
+      "id": "N4",
+      "label": "Step 4",
+      "customData": {
+        "node_id": "D",
+        "node_step_index": 3,
+        "content": "Pemetrexed stopped after two cycles of maintenance therapy due to worsening anemia, pembrolizumab continued as monotherapy.",
+        "clinical_data": {
+          "medications": [
+            {
+              "drug": "C0974134",
+              "dosage": null,
+              "frequency": null,
+              "modality": null,
+              "start_date": null,
+              "end_date": null,
+              "indication": null
+            },
+            {
+              "drug": "C1663666",
+              "dosage": null,
+              "frequency": null,
+              "modality": null,
+              "start_date": null,
+              "end_date": null,
+              "indication": null
+            }
+          ],
+          "diagnoses": [
+            {
+              "code": "D000744",
+              "label": "Anemia",
+              "status": "active",
+              "onset_date": null
+            }
+          ]
+        }
+      }
+    },
+    {
+      "id": "N5",
+      "label": "Step 5",
+      "customData": {
+        "node_id": "E",
+        "node_step_index": 4,
+        "content": "Approximately 4 months after pembrolizumab monotherapy initiation, a 1.9-mm nodule appeared in the right S3 lesion. Lung cancer showed some response to the treatment. Very small nodules were confirmed in the right S3 lesion at the time of the diagnosis of lung cancer.",
+        "clinical_data": {
+          "medications": [
+            {
+              "drug": "C1874241",
+              "dosage": null,
+              "frequency": null,
+              "modality": null,
+              "start_date": null,
+              "end_date": null,
+              "indication": "C0024117"
+            }
+          ],
+          "imaging": [
+            {
+              "type": "C0024117",
+              "body_part": "C0024117",
+              "modality": null,
+              "finding": "1.9-mm nodule",
+              "impression": "nodule appeared",
+              "date": null
+            }
+          ],
+          "diagnoses": [
+            {
+              "code": "C0024117",
+              "label": "Lung cancer",
+              "status": "active",
+              "onset_date": null
+            }
+          ]
+        }
+      }
+    },
+    {
+      "id": "N6",
+      "label": "Step 6",
+      "customData": {
+        "node_id": "F",
+        "node_step_index": 5,
+        "content": "CRP level 0.09 mg/dL. Seven months after anticancer therapy initiation, the right S3 nodule showed no significant change in size or lung cancer. Three consecutive sputum tests for acid-fast bacilli: all smears were negative, culture was positive for acid-fast bacilli 17 days after incubation, confirmed to be M.tuberculosis by PCR. QuantiFERON-TB Gold Plus (QFT) test was negative.",
+        "clinical_data": {
+          "labs": [
+            {
+              "test": "T0614739",
+              "value": "negative",
+              "timestamp": null
+            },
+            {
+              "test": "T0614739",
+              "value": "positive",
+              "timestamp": null
+            },
+            {
+              "test": "T0614739",
+              "value": "negative",
+              "timestamp": null
+            }
+          ],
+          "imaging": [
+            {
+              "body_part": "T-00743",
+              "finding": "no significant change in size or lung cancer",
+              "date": null
+            }
+          ],
+          "diagnoses": [
+            {
+              "code": "C0026737",
+              "label": "Lung Cancer",
+              "status": "active"
+            },
+            {
+              "code": "C0026737",
+              "label": "M.tuberculosis",
+              "status": "active"
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "edges": [
+    {
+      "from": "N1",
+      "to": "N2",
+      "data": {
+        "edge_id": "A_to_B",
+        "branch_flag": true,
+        "content": "Progression of lung adenocarcinoma with metastasis to the brain. Further characterization of the lung lesion and brain metastases via imaging and biopsy.",
+        "transition_event": null
+      }
+    },
+    {
+      "from": "N2",
+      "to": "N3",
+      "data": {
+        "edge_id": "B_to_C",
+        "branch_flag": true,
+        "content": "Treatment initiated for lung adenocarcinoma and brain metastases, including stereotactic ablative surgery and first-line chemotherapy with carboplatin, pemetrexed, and pembrolizumab. Entecavir treatment for HBV.",
+        "transition_event": {
+          "trigger_type": "procedure",
+          "trigger_entities": [
+            "C0038654"
+          ],
+          "change_type": "addition",
+          "target_domain": "procedure"
+        }
+      }
+    },
+    {
+      "from": "N3",
+      "to": "N4",
+      "data": {
+        "edge_id": "C_to_D",
+        "branch_flag": true,
+        "content": "Discontinuation of pemetrexed due to worsening anemia, pembrolizumab continued as monotherapy.",
+        "transition_event": {
+          "trigger_type": "medication_change",
+          "trigger_entities": [
+            "C0093815"
+          ],
+          "change_type": "discontinuation",
+          "target_domain": "medication"
+        }
+      }
+    },
+    {
+      "from": "N4",
+      "to": "N5",
+      "data": {
+        "edge_id": "D_to_E",
+        "branch_flag": true,
+        "content": "Appearance of a new nodule in the right S3 lesion, indicating potential disease progression despite pembrolizumab monotherapy. Lung cancer showed some response to the treatment.",
+        "transition_event": {
+          "trigger_type": "symptom_onset",
+          "trigger_entities": [
+            "C0029402"
+          ],
+          "change_type": "progression",
+          "target_domain": "imaging"
+        }
+      }
+    },
+    {
+      "from": "N5",
+      "to": "N6",
+      "data": {
+        "edge_id": "E_to_F",
+        "branch_flag": true,
+        "content": "Diagnosis of M. tuberculosis based on positive sputum culture, despite negative QuantiFERON-TB Gold Plus test. Lung cancer shows no significant change in size.",
+        "transition_event": {
+          "trigger_type": "lab_change",
+          "trigger_entities": [
+            "C0026737"
+          ],
+          "change_type": "addition",
+          "target_domain": "diagnosis"
+        }
+      }
+    }
+  ]
+}

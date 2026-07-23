@@ -1,0 +1,263 @@
+{
+  "nodes": [
+    {
+      "id": "N1",
+      "label": "Step 1",
+      "customData": {
+        "node_id": "A",
+        "node_step_index": 0,
+        "content": "83-year-old Japanese woman with no smoking history referred to the hospital for evaluation and control of right pleural effusion observed on chest radiography. The patient's condition was independent in her daily lifestyle activities. Patient has comorbidities of hypertension and hyperlipidemia. CT chest showed a tumor in the right lower lung lobe, enlarged mediastinal lymph nodes, and right pleural effusion. Diagnosed with Stage IVA (clinical T3N2M1a) lung adenocarcinoma based on pleural effusion cytology. Liver metastasis was not observed. Patient has no hepatitis B or C viral infection.",
+        "clinical_data": {
+          "diagnoses": [
+            {
+              "code": "C34.9",
+              "label": "Lung cancer, unspecified",
+              "status": "active",
+              "onset_date": null
+            },
+            {
+              "code": "I10",
+              "label": "Essential (primary) hypertension",
+              "status": "active",
+              "onset_date": null
+            },
+            {
+              "code": "E78.5",
+              "label": "Hyperlipidemia, unspecified",
+              "status": "active",
+              "onset_date": null
+            }
+          ],
+          "imaging": [
+            {
+              "type": "Radiography of chest",
+              "body_part": "Thorax",
+              "modality": "X-ray",
+              "finding": "right pleural effusion",
+              "impression": "right pleural effusion",
+              "date": null
+            },
+            {
+              "type": "CT chest",
+              "body_part": "Thorax",
+              "modality": "CT",
+              "finding": "tumor in the right lower lung lobe, enlarged mediastinal lymph nodes, and right pleural effusion",
+              "impression": "tumor in the right lower lung lobe, enlarged mediastinal lymph nodes, and right pleural effusion",
+              "date": null
+            }
+          ],
+          "social_history": [
+            {
+              "category": "smoking",
+              "status": "never",
+              "description": "no smoking history"
+            }
+          ]
+        }
+      }
+    },
+    {
+      "id": "N2",
+      "label": "Step 2",
+      "customData": {
+        "node_id": "B",
+        "node_step_index": 1,
+        "content": "Initial visit: Image findings. Start of selpercatinib administration: Pleural effusion remained despite conducting pleurosclerosis. Primary tumor in the right lobe. Image findings indicate a hepatic disorder. Latest follow-up: Image findings. Thoracic drainage and pleurosclerosis were performed.",
+        "clinical_data": {
+          "medications": [
+            {
+              "drug": "C4727490",
+              "dosage": null,
+              "frequency": null,
+              "modality": null,
+              "start_date": null,
+              "end_date": null,
+              "indication": null
+            }
+          ],
+          "imaging": [
+            {
+              "type": "Radiography",
+              "body_part": "Pleural cavity",
+              "modality": "X-ray",
+              "finding": "Pleural effusion",
+              "impression": null,
+              "date": null
+            },
+            {
+              "type": "Radiography",
+              "body_part": "Liver",
+              "modality": "X-ray",
+              "finding": "Hepatic disorder",
+              "impression": null,
+              "date": null
+            }
+          ],
+          "procedures": [
+            {
+              "name": "Thoracostomy",
+              "approach": null,
+              "date": null,
+              "location": "Thorax",
+              "performed_by": null,
+              "outcome": null
+            },
+            {
+              "name": "Pleurodesis",
+              "approach": null,
+              "date": null,
+              "location": "Pleural cavity",
+              "performed_by": null,
+              "outcome": null
+            }
+          ],
+          "diagnoses": [
+            {
+              "code": null,
+              "label": "Primary tumor in the right lobe",
+              "status": "active",
+              "onset_date": null
+            }
+          ]
+        }
+      }
+    },
+    {
+      "id": "N3",
+      "label": "Step 3",
+      "customData": {
+        "node_id": "C",
+        "node_step_index": 2,
+        "content": "Driver mutation of cancer was tested using a pleural effusion cell block, and RET fusion was detected using the Oncomine Dx Target Test Multi\u2010CDx System. Patient was administered selpercatinib 320\u2009mg/day. Blood aspartate aminotransferase (AST: Upper limit of normal, 30\u2009U/L) was 23\u2009U/L, alanine aminotransferase (ALT: Upper limit of normal, 23\u2009U/L) was 17\u2009U/L, alkaline phosphatase (ALP: Upper limit of normal, 113\u2009U/L) was 125\u2009U/L, and \u03b3\u2010glutamyl transpeptidase (\u03b3\u2010GTP: upper limit of normal, 32\u2009U/L) was 51.",
+        "clinical_data": {
+          "labs": [
+            {
+              "test": "Aspartate Aminotransferase measurement",
+              "value": "23",
+              "unit": "U/L",
+              "flag": "normal",
+              "reference_range": "<30 U/L"
+            },
+            {
+              "test": "Alanine Aminotransferase measurement",
+              "value": "17",
+              "unit": "U/L",
+              "flag": "normal",
+              "reference_range": "<23 U/L"
+            },
+            {
+              "test": "Alkaline phosphatase measurement",
+              "value": "125",
+              "unit": "U/L",
+              "flag": "abnormal",
+              "reference_range": "<113 U/L"
+            },
+            {
+              "test": "Gamma-glutamyl transferase measurement",
+              "value": "51",
+              "unit": "U/L",
+              "flag": "abnormal",
+              "reference_range": "<32 U/L"
+            }
+          ],
+          "medications": [
+            {
+              "drug": "Selpercatinib",
+              "dosage": "320",
+              "frequency": "day",
+              "modality": "oral"
+            }
+          ],
+          "procedures": [
+            {
+              "name": "Oncomine Dx Target Test Multi\u2010CDx System",
+              "date": null
+            }
+          ]
+        }
+      }
+    },
+    {
+      "id": "N4",
+      "label": "Step 4",
+      "customData": {
+        "node_id": "D",
+        "node_step_index": 3,
+        "content": "Eastern Cooperative Oncology Group performance status was 1. Day 17: Fever",
+        "21": "Tumour shrank. Day 22: AST",
+        "29": "AST, ALT, ALP, and \u03b3\u2010GTP levels increased to 702",
+        "clinical_data": {
+          "vitals": [
+            {
+              "type": "Fever",
+              "value": "present",
+              "timestamp": "Day 17"
+            }
+          ],
+          "functional_status": [
+            {
+              "domain": "general",
+              "description": "Eastern Cooperative Oncology Group performance status was 1",
+              "score": "1",
+              "scale": "Eastern Cooperative Oncology Group"
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "edges": [
+    {
+      "from": "N1",
+      "to": "N2",
+      "data": {
+        "edge_id": "A_to_B",
+        "branch_flag": true,
+        "content": "From initial diagnosis of Stage IVA lung adenocarcinoma with right pleural effusion and liver metastasis ruled out, the patient underwent pleurosclerosis due to persistent pleural effusion. Selpercatinib administration was initiated. Image findings indicated a hepatic disorder.",
+        "transition_event": {
+          "trigger_type": "procedure",
+          "trigger_entities": [
+            "C0032175"
+          ],
+          "change_type": "addition",
+          "target_domain": "procedure"
+        }
+      }
+    },
+    {
+      "from": "N2",
+      "to": "N3",
+      "data": {
+        "edge_id": "B_to_C",
+        "branch_flag": true,
+        "content": "Following initial visit and selpercatinib administration, a driver mutation test was performed using a pleural effusion cell block, revealing RET fusion. Selpercatinib dosage was 320mg/day. Initial lab values were AST 23 U/L, ALT 17 U/L, ALP 125 U/L, and \u03b3\u2010GTP 51.",
+        "transition_event": {
+          "trigger_type": "medication_change",
+          "trigger_entities": [
+            "C4727490"
+          ],
+          "change_type": "addition",
+          "target_domain": "medication"
+        }
+      }
+    },
+    {
+      "from": "N3",
+      "to": "N4",
+      "data": {
+        "edge_id": "C_to_D",
+        "branch_flag": true,
+        "content": "Following selpercatinib initiation and RET fusion detection, the patient's ECOG performance status was 1. On Day 17, the patient developed a fever. Tumor shrinkage was observed. On Day 29, AST, ALT, ALP, and \u03b3\u2010GTP levels increased to 702.",
+        "transition_event": {
+          "trigger_type": "symptom_onset",
+          "trigger_entities": [
+            "C0015967"
+          ],
+          "change_type": "addition",
+          "target_domain": "symptom",
+          "timestamp": "Day 17"
+        }
+      }
+    }
+  ]
+}

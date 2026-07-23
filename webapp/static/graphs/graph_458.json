@@ -1,0 +1,340 @@
+{
+  "nodes": [
+    {
+      "id": "N1",
+      "label": "Step 1",
+      "customData": {
+        "node_id": "A",
+        "node_step_index": 0,
+        "content": "67-year-old Han Chinese male smoker presented with nonproductive cough and increasing shortness of breath.",
+        "clinical_data": {
+          "HPI": [
+            {
+              "summary": "67-year-old Han Chinese male presented with nonproductive cough and increasing shortness of breath.",
+              "associated_symptoms": [
+                "C0010200",
+                "C0037242"
+              ]
+            }
+          ],
+          "social_history": [
+            {
+              "category": "smoking",
+              "status": "current",
+              "description": "67-year-old Han Chinese male smoker"
+            }
+          ]
+        }
+      }
+    },
+    {
+      "id": "N2",
+      "label": "Step 2",
+      "customData": {
+        "node_id": "B",
+        "node_step_index": 1,
+        "content": "Chest CT imaging showed central lung cancer located in left lobe, accompanied with pulmonary artery invasion, obstructive atelectasis and pleural effusion.",
+        "clinical_data": {
+          "imaging": [
+            {
+              "type": "Lung CT",
+              "body_part": "Lung",
+              "modality": "CT",
+              "finding": "Central lung cancer located in left lobe, accompanied with pulmonary artery invasion, obstructive atelectasis and pleural effusion.",
+              "impression": "Central lung cancer located in left lobe, accompanied with pulmonary artery invasion, obstructive atelectasis and pleural effusion."
+            }
+          ],
+          "diagnoses": [
+            {
+              "code": "C0024117",
+              "label": "Lung Cancer",
+              "status": "active"
+            }
+          ]
+        }
+      }
+    },
+    {
+      "id": "N3",
+      "label": "Step 3",
+      "customData": {
+        "node_id": "C",
+        "node_step_index": 2,
+        "content": "Biopsied pathology from bronchoscopy indicated squamous cell carcinoma. Cytology from pleural effusion showed positive tumor cells.",
+        "clinical_data": {
+          "diagnoses": [
+            {
+              "code": "C0007125",
+              "label": "Squamous Cell Carcinoma",
+              "status": "active"
+            }
+          ],
+          "procedures": [
+            {
+              "name": "C0006278",
+              "approach": "endoscopic",
+              "location": "lung"
+            }
+          ],
+          "labs": [
+            {
+              "test": "C0031557",
+              "value": "positive",
+              "finding": "tumor cells",
+              "body_site": "pleural effusion"
+            }
+          ]
+        }
+      }
+    },
+    {
+      "id": "N4",
+      "label": "Step 4",
+      "customData": {
+        "node_id": "D",
+        "node_step_index": 3,
+        "content": "Diagnosed with metastatic lung cancer squamous cell carcinoma.",
+        "clinical_data": {
+          "diagnoses": [
+            {
+              "code": "C0024117",
+              "label": "Lung cancer",
+              "status": "active"
+            },
+            {
+              "code": "C0038454",
+              "label": "Squamous Cell Carcinoma",
+              "status": "active"
+            },
+            {
+              "code": "C0678222",
+              "label": "Metastatic Lung Cancer",
+              "status": "active"
+            }
+          ]
+        }
+      }
+    },
+    {
+      "id": "N5",
+      "label": "Step 5",
+      "customData": {
+        "node_id": "E",
+        "node_step_index": 4,
+        "content": "Patient received 10 cycles of sintilimab, concurrent with chemotherapy containing gemcitabine and carboplatin in the first 4 cycles.",
+        "clinical_data": {
+          "medications": [
+            {
+              "drug": "C4049474",
+              "dosage": null,
+              "frequency": null,
+              "modality": null,
+              "start_date": null,
+              "end_date": null,
+              "indication": null
+            },
+            {
+              "drug": "C0018071",
+              "dosage": null,
+              "frequency": null,
+              "modality": null,
+              "start_date": null,
+              "end_date": null,
+              "indication": null
+            },
+            {
+              "drug": "C0007668",
+              "dosage": null,
+              "frequency": null,
+              "modality": null,
+              "start_date": null,
+              "end_date": null,
+              "indication": null
+            }
+          ]
+        }
+      }
+    },
+    {
+      "id": "N6",
+      "label": "Step 6",
+      "customData": {
+        "node_id": "F",
+        "node_step_index": 5,
+        "content": "Immunotherapy was replaced by paclitaxel for one cycle when CT evaluation suggested progressed disease.",
+        "clinical_data": {
+          "medications": [
+            {
+              "drug": "C0030393",
+              "dosage": null,
+              "frequency": null,
+              "modality": null,
+              "start_date": null,
+              "end_date": null,
+              "indication": "Progressed disease"
+            }
+          ],
+          "imaging": [
+            {
+              "type": "C0009040",
+              "body_part": null,
+              "modality": "CT",
+              "finding": "Progressed disease",
+              "impression": null,
+              "date": null
+            }
+          ]
+        }
+      }
+    },
+    {
+      "id": "N7",
+      "label": "Step 7",
+      "customData": {
+        "node_id": "G",
+        "node_step_index": 6,
+        "content": "Negative RT-PCR of coronavirus.",
+        "clinical_data": {
+          "labs": [
+            {
+              "test": "Coronavirus RNA detection by reverse transcription polymerase chain reaction technique",
+              "value": "Negative",
+              "unit": null,
+              "flag": "normal",
+              "reference_range": null,
+              "timestamp": null
+            }
+          ]
+        }
+      }
+    },
+    {
+      "id": "N8",
+      "label": "Step 8",
+      "customData": {
+        "node_id": "H",
+        "node_step_index": 7,
+        "content": "Close contact with son who returned from Wuhan 15 days prior to presentation. Physical exam: rales of lung and low breath sound of the left thorax. Chest CT indicated peripherally subpleural lattice opacities at the inferior right lung lobe and bilateral thoracic infusion. Complete blood count showed increased white blood cell (WBC) and neutrophilic granulocyte with concurrently decreased lymphocyte.",
+        "clinical_data": {
+          "HPI": [
+            {
+              "summary": "Close contact with son who returned from Wuhan 15 days prior to presentation."
+            }
+          ],
+          "physical_exam": [
+            {
+              "finding": "rales of lung"
+            },
+            {
+              "finding": "low breath sound of the left thorax"
+            }
+          ],
+          "imaging": [
+            {
+              "type": "opacity",
+              "body_part": "inferior right lung lobe",
+              "modality": "CT",
+              "finding": "peripherally subpleural lattice opacities"
+            },
+            {
+              "type": "pleural effusion",
+              "body_part": "thorax",
+              "modality": "CT",
+              "finding": "bilateral thoracic infusion"
+            }
+          ],
+          "labs": [
+            {
+              "test": "White blood cell",
+              "value": "increased",
+              "flag": "abnormal"
+            },
+            {
+              "test": "Neutrophilic granulocyte",
+              "value": "increased",
+              "flag": "abnormal"
+            },
+            {
+              "test": "Lymphocyte",
+              "value": "decreased",
+              "flag": "abnormal"
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "edges": [
+    {
+      "from": "N1",
+      "to": "N2",
+      "data": {
+        "edge_id": "A_to_B",
+        "branch_flag": true,
+        "content": "Patient transitioned from initial presentation to chest CT imaging."
+      }
+    },
+    {
+      "from": "N2",
+      "to": "N3",
+      "data": {
+        "edge_id": "B_to_C",
+        "branch_flag": true,
+        "content": "Patient underwent bronchoscopy and pleural effusion cytology after imaging."
+      }
+    },
+    {
+      "from": "N3",
+      "to": "N4",
+      "data": {
+        "edge_id": "C_to_D",
+        "branch_flag": true,
+        "content": "Pathology and cytology results led to a diagnosis of metastatic lung cancer squamous cell carcinoma."
+      }
+    },
+    {
+      "from": "N4",
+      "to": "N5",
+      "data": {
+        "edge_id": "D_to_E",
+        "branch_flag": true,
+        "content": "Patient started sintilimab immunotherapy concurrent with gemcitabine and carboplatin chemotherapy."
+      }
+    },
+    {
+      "from": "N5",
+      "to": "N6",
+      "data": {
+        "edge_id": "E_to_F",
+        "branch_flag": true,
+        "content": "CT evaluation suggested progressed disease, so immunotherapy was replaced by paclitaxel for one cycle.",
+        "transition_event": {
+          "trigger_type": "imaging",
+          "trigger_entities": [
+            "C0009040"
+          ],
+          "change_type": "discontinuation",
+          "target_domain": "medication"
+        }
+      }
+    },
+    {
+      "from": "N6",
+      "to": "N7",
+      "data": {
+        "edge_id": "F_to_G",
+        "branch_flag": true,
+        "content": "Patient tested negative for coronavirus via RT-PCR."
+      }
+    },
+    {
+      "from": "N7",
+      "to": "N8",
+      "data": {
+        "edge_id": "G_to_H",
+        "branch_flag": true,
+        "content": "Patient had close contact with son who returned from Wuhan 15 days prior to presentation. Physical exam and chest CT findings, along with complete blood count results, are noted."
+      }
+    }
+  ]
+}

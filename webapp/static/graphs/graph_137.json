@@ -1,0 +1,631 @@
+{
+  "nodes": [
+    {
+      "id": "N1",
+      "label": "Step 1",
+      "customData": {
+        "node_id": "A",
+        "node_step_index": 0,
+        "content": "69-year-old man with a 2.3 pack-year smoking history was diagnosed with right lung cancer of the lower lobe (clinical stage IA, T1bN0M0).",
+        "clinical_data": {
+          "social_history": [
+            {
+              "category": "smoking",
+              "status": "past",
+              "description": "2.3 pack-year smoking history"
+            }
+          ],
+          "diagnoses": [
+            {
+              "code": "C0024117",
+              "label": "Lung Cancer",
+              "status": "active",
+              "location": "right lower lobe"
+            }
+          ]
+        }
+      }
+    },
+    {
+      "id": "N2",
+      "label": "Step 2",
+      "customData": {
+        "node_id": "B",
+        "node_step_index": 1,
+        "content": "Patient underwent right lower lobectomy and lymph node resection.",
+        "clinical_data": {
+          "procedures": [
+            {
+              "name": "Lobectomy, Lower Lobe of Right Lung",
+              "approach": "open",
+              "date": null,
+              "location": "Right Lung",
+              "performed_by": null,
+              "outcome": null
+            },
+            {
+              "name": "Lymph Node Resection",
+              "approach": "open",
+              "date": null,
+              "location": null,
+              "performed_by": null,
+              "outcome": null
+            }
+          ]
+        }
+      }
+    },
+    {
+      "id": "N3",
+      "label": "Step 3",
+      "customData": {
+        "node_id": "C",
+        "node_step_index": 2,
+        "content": "Postoperative pathological diagnosis was invasive adenocarcinoma, papillary predominant (mixed subtype: papillary 55%, acinar 25%, lepidic 20%), and the tumor size was 2.5\u2009\u00d7\u20091.5 cm with pulmonary metastasis; pathological stage was IIIA, T3(pm1)N2M0. The EGFR of the tumor showed exon 19 deletion.",
+        "clinical_data": {
+          "diagnoses": [
+            {
+              "code": "C0242394",
+              "label": "Adenocarcinoma, Invasive",
+              "status": "active",
+              "onset_date": null
+            },
+            {
+              "code": "C0020622",
+              "label": "Pulmonary Metastasis",
+              "status": "active",
+              "onset_date": null
+            }
+          ],
+          "imaging": [
+            {
+              "type": "C0024112",
+              "body_part": "C0034088",
+              "modality": null,
+              "finding": "Tumor size was 2.5 x 1.5 cm",
+              "impression": null,
+              "date": null
+            }
+          ],
+          "procedures": [
+            {
+              "name": "Exon 19 deletion analysis",
+              "approach": null,
+              "date": null,
+              "location": "tumor",
+              "performed_by": null,
+              "outcome": "positive"
+            }
+          ]
+        }
+      }
+    },
+    {
+      "id": "N4",
+      "label": "Step 4",
+      "customData": {
+        "node_id": "D",
+        "node_step_index": 3,
+        "content": "Patient received four cycles of cisplatin and pemetrexed as postoperative adjuvant treatment.",
+        "clinical_data": {
+          "medications": [
+            {
+              "drug": "C0008833",
+              "dosage": null,
+              "frequency": null,
+              "modality": null,
+              "start_date": null,
+              "end_date": null,
+              "indication": "postoperative adjuvant treatment"
+            },
+            {
+              "drug": "C0698788",
+              "dosage": null,
+              "frequency": null,
+              "modality": null,
+              "start_date": null,
+              "end_date": null,
+              "indication": "postoperative adjuvant treatment"
+            }
+          ],
+          "procedures": [
+            {
+              "name": "adjuvant treatment",
+              "approach": null,
+              "date": null,
+              "location": null,
+              "performed_by": null,
+              "outcome": null
+            }
+          ]
+        }
+      }
+    },
+    {
+      "id": "N5",
+      "label": "Step 5",
+      "customData": {
+        "node_id": "E",
+        "node_step_index": 4,
+        "content": "Follow-up CT/MRI 7 months after surgery revealed multiple pulmonary metastases and brain metastases.",
+        "clinical_data": {
+          "imaging": [
+            {
+              "type": "Pulmonary CT",
+              "body_part": "Lung",
+              "modality": "CT",
+              "finding": "multiple pulmonary metastases",
+              "date": "7 months after surgery"
+            },
+            {
+              "type": "Brain MRI",
+              "body_part": "Brain",
+              "modality": "MRI",
+              "finding": "brain metastases",
+              "date": "7 months after surgery"
+            }
+          ]
+        }
+      }
+    },
+    {
+      "id": "N6",
+      "label": "Step 6",
+      "customData": {
+        "node_id": "F",
+        "node_step_index": 5,
+        "content": "Patient underwent stereotactic radiotherapy for brain metastasis.",
+        "clinical_data": {
+          "procedures": [
+            {
+              "name": "Stereotactic Radiotherapy",
+              "approach": "other",
+              "date": null,
+              "location": "Brain",
+              "performed_by": null,
+              "outcome": null
+            }
+          ],
+          "diagnoses": [
+            {
+              "code": null,
+              "label": "Brain Metastasis",
+              "status": "active",
+              "onset_date": null
+            }
+          ]
+        }
+      }
+    },
+    {
+      "id": "N7",
+      "label": "Step 7",
+      "customData": {
+        "node_id": "G",
+        "node_step_index": 6,
+        "content": "Afatinib was administered at a dose of 40 mg/day.",
+        "clinical_data": {
+          "medications": [
+            {
+              "drug": "Afatinib",
+              "dosage": "40 mg/day",
+              "frequency": "daily",
+              "modality": "oral"
+            }
+          ]
+        }
+      }
+    },
+    {
+      "id": "N8",
+      "label": "Step 8",
+      "customData": {
+        "node_id": "H",
+        "node_step_index": 7,
+        "content": "1 month after the initiation of afatinib treatment, chest CT revealed marked shrinkage of the metastatic lesions.",
+        "clinical_data": {
+          "imaging": [
+            {
+              "type": "Metastatic Lesion",
+              "body_part": "Chest",
+              "modality": "CT",
+              "finding": "Marked shrinkage",
+              "date": null
+            }
+          ],
+          "medications": [
+            {
+              "drug": "Afatinib",
+              "start_date": null,
+              "end_date": null
+            }
+          ]
+        }
+      }
+    },
+    {
+      "id": "N9",
+      "label": "Step 9",
+      "customData": {
+        "node_id": "I",
+        "node_step_index": 8,
+        "content": "Patient continued to receive afatinib, despite the presentation of grade 2 diarrhea and rash.",
+        "clinical_data": {
+          "medications": [
+            {
+              "drug": "C0984100",
+              "dosage": null,
+              "frequency": null,
+              "modality": null,
+              "start_date": null,
+              "end_date": null,
+              "indication": null
+            }
+          ],
+          "diagnoses": [
+            {
+              "code": "C0012542",
+              "label": "Diarrhea",
+              "status": "active",
+              "onset_date": null
+            },
+            {
+              "code": "C0034572",
+              "label": "Rash",
+              "status": "active",
+              "onset_date": null
+            }
+          ]
+        }
+      }
+    },
+    {
+      "id": "N10",
+      "label": "Step 10",
+      "customData": {
+        "node_id": "J",
+        "node_step_index": 9,
+        "content": "28 months after surgery (21 months after the initiation of afatinib treatment), brain MRI revealed leptomeningeal enhancement and patient was diagnosed with leptomeningeal carcinomatosis (LM), which was cytologically proven by a cerebrospinal fluid (CSF) analysis.",
+        "clinical_data": {
+          "imaging": [
+            {
+              "type": "Magnetic resonance imaging of brain",
+              "body_part": "Brain",
+              "modality": "MRI",
+              "finding": "leptomeningeal enhancement",
+              "date": null
+            }
+          ],
+          "diagnoses": [
+            {
+              "code": "C79.31",
+              "label": "Leptomeningeal carcinomatosis",
+              "status": "active",
+              "onset_date": null
+            }
+          ],
+          "labs": [
+            {
+              "test": "Cerebrospinal Fluid Analysis",
+              "value": "positive",
+              "unit": null,
+              "flag": "abnormal",
+              "reference_range": null,
+              "timestamp": null
+            }
+          ],
+          "medications": [
+            {
+              "drug": "Afatinib",
+              "dosage": null,
+              "frequency": null,
+              "modality": "oral",
+              "start_date": null,
+              "end_date": null,
+              "indication": null
+            }
+          ]
+        }
+      }
+    },
+    {
+      "id": "N11",
+      "label": "Step 11",
+      "customData": {
+        "node_id": "K",
+        "node_step_index": 10,
+        "content": "Tumor marker levels increased compared to preoperative levels: CEA 3.1 to 23.0 ng/mL, CYFRA 1.6 to 2.8 ng/mL. Patient was asymptomatic with no progression of pulmonary metastasis. Plasma cell free DNA and CSF samples were negative for EGFR T790M.",
+        "clinical_data": {
+          "labs": [
+            {
+              "test": "C0007540",
+              "value": "23.0",
+              "unit": "ng/mL",
+              "flag": "abnormal",
+              "reference_range": ">3.1",
+              "timestamp": null
+            },
+            {
+              "test": "CYFRA 21-1 Antigen",
+              "value": "2.8",
+              "unit": "ng/mL",
+              "flag": "abnormal",
+              "reference_range": ">1.6",
+              "timestamp": null
+            }
+          ],
+          "diagnoses": [
+            {
+              "code": "EGFR",
+              "label": "Epidermal Growth Factor Receptor",
+              "status": "suspected",
+              "onset_date": null
+            }
+          ]
+        }
+      }
+    },
+    {
+      "id": "N12",
+      "label": "Step 12",
+      "customData": {
+        "node_id": "L",
+        "node_step_index": 11,
+        "content": "Patient was treated with bevacizumab (15 mg/kg every 3 weeks) and erlotinib (150 mg/day).",
+        "clinical_data": {
+          "medications": [
+            {
+              "drug": "C1308694",
+              "dosage": "15 mg/kg",
+              "frequency": "every 3 weeks",
+              "modality": "IV",
+              "start_date": null,
+              "end_date": null,
+              "indication": null
+            },
+            {
+              "drug": "C1634939",
+              "dosage": "150 mg/day",
+              "frequency": "daily",
+              "modality": "oral",
+              "start_date": null,
+              "end_date": null,
+              "indication": null
+            }
+          ]
+        }
+      }
+    },
+    {
+      "id": "N13",
+      "label": "Step 13",
+      "customData": {
+        "node_id": "M",
+        "node_step_index": 12,
+        "content": "Follow-up MRI at 2 months showed markedly decreased leptomeningeal enhancement and declined tumor marker levels: CFA 23.0 to 15.2, CYFRA 2.8 to 2.5.",
+        "clinical_data": {
+          "imaging": [
+            {
+              "type": "MRI",
+              "body_part": "meninges",
+              "modality": "MRI",
+              "finding": "markedly decreased leptomeningeal enhancement",
+              "date": "unknown"
+            }
+          ],
+          "labs": [
+            {
+              "test": "CFA",
+              "value": "15.2",
+              "unit": "unknown",
+              "timestamp": "unknown"
+            },
+            {
+              "test": "CYFRA",
+              "value": "2.5",
+              "unit": "unknown",
+              "timestamp": "unknown"
+            }
+          ]
+        }
+      }
+    },
+    {
+      "id": "N14",
+      "label": "Step 14",
+      "customData": {
+        "node_id": "N",
+        "node_step_index": 13,
+        "content": "Disease control was maintained for 4 months from the start of bevacizumab and erlotinib treatment.",
+        "clinical_data": {
+          "medications": [
+            {
+              "drug": "C1307179",
+              "dosage": null,
+              "frequency": null,
+              "modality": null,
+              "start_date": null,
+              "end_date": null,
+              "indication": null
+            },
+            {
+              "drug": "C1272485",
+              "dosage": null,
+              "frequency": null,
+              "modality": null,
+              "start_date": null,
+              "end_date": null,
+              "indication": null
+            }
+          ]
+        }
+      }
+    },
+    {
+      "id": "N15",
+      "label": "Step 15",
+      "customData": {
+        "node_id": "O",
+        "node_step_index": 14,
+        "content": "Dose reduction of erlotinib was required because of grade 3 AST/ALT elevation.",
+        "clinical_data": {
+          "medications": [
+            {
+              "drug": "C1634990",
+              "dosage": "reduced",
+              "indication": "cancer"
+            }
+          ],
+          "labs": [
+            {
+              "test": "C0151829",
+              "flag": "abnormal",
+              "comment": "grade 3 elevation"
+            },
+            {
+              "test": "C0002791",
+              "flag": "abnormal",
+              "comment": "grade 3 elevation"
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "edges": [
+    {
+      "from": "N1",
+      "to": "N2",
+      "data": {
+        "edge_id": "A_to_B",
+        "branch_flag": true,
+        "content": "Patient underwent right lower lobectomy and lymph node resection."
+      }
+    },
+    {
+      "from": "N2",
+      "to": "N3",
+      "data": {
+        "edge_id": "B_to_C",
+        "branch_flag": true,
+        "content": "Postoperative pathological diagnosis was invasive adenocarcinoma, papillary predominant (mixed subtype: papillary 55%, acinar 25%, lepidic 20%), and the tumor size was 2.5\u2009\u00d7\u20091.5 cm with pulmonary metastasis; pathological stage was IIIA, T3(pm1)N2M0. The EGFR of the tumor showed exon 19 deletion."
+      }
+    },
+    {
+      "from": "N3",
+      "to": "N4",
+      "data": {
+        "edge_id": "C_to_D",
+        "branch_flag": true,
+        "content": "Patient received four cycles of cisplatin and pemetrexed as postoperative adjuvant treatment.",
+        "transition_event": {
+          "trigger_type": "medication_change",
+          "trigger_entities": [
+            "C0008833",
+            "C0698788"
+          ],
+          "change_type": "addition",
+          "target_domain": "medication"
+        }
+      }
+    },
+    {
+      "from": "N4",
+      "to": "N5",
+      "data": {
+        "edge_id": "D_to_E",
+        "branch_flag": true,
+        "content": "Follow-up CT/MRI 7 months after surgery revealed multiple pulmonary metastases and brain metastases."
+      }
+    },
+    {
+      "from": "N5",
+      "to": "N6",
+      "data": {
+        "edge_id": "E_to_F",
+        "branch_flag": true,
+        "content": "Patient underwent stereotactic radiotherapy for brain metastasis."
+      }
+    },
+    {
+      "from": "N6",
+      "to": "N7",
+      "data": {
+        "edge_id": "F_to_G",
+        "branch_flag": true,
+        "content": "Afatinib was administered at a dose of 40 mg/day.",
+        "transition_event": {
+          "trigger_type": "medication_change",
+          "trigger_entities": [
+            "Afatinib"
+          ],
+          "change_type": "addition",
+          "target_domain": "medication"
+        }
+      }
+    },
+    {
+      "from": "N7",
+      "to": "N8",
+      "data": {
+        "edge_id": "G_to_H",
+        "branch_flag": true,
+        "content": "1 month after the initiation of afatinib treatment, chest CT revealed marked shrinkage of the metastatic lesions."
+      }
+    },
+    {
+      "from": "N8",
+      "to": "N9",
+      "data": {
+        "edge_id": "H_to_I",
+        "branch_flag": true,
+        "content": "Patient continued to receive afatinib, despite the presentation of grade 2 diarrhea and rash."
+      }
+    },
+    {
+      "from": "N9",
+      "to": "N10",
+      "data": {
+        "edge_id": "I_to_J",
+        "branch_flag": true,
+        "content": "28 months after surgery (21 months after the initiation of afatinib treatment), brain MRI revealed leptomeningeal enhancement and patient was diagnosed with leptomeningeal carcinomatosis (LM), which was cytologically proven by a cerebrospinal fluid (CSF) analysis."
+      }
+    },
+    {
+      "from": "N10",
+      "to": "N11",
+      "data": {
+        "edge_id": "J_to_K",
+        "branch_flag": true,
+        "content": "Tumor marker levels increased compared to preoperative levels: CEA 3.1 to 23.0 ng/mL, CYFRA 1.6 to 2.8 ng/mL. Patient was asymptomatic with no progression of pulmonary metastasis. Plasma cell free DNA and CSF samples were negative for EGFR T790M."
+      }
+    },
+    {
+      "from": "N11",
+      "to": "N12",
+      "data": {
+        "edge_id": "K_to_L",
+        "branch_flag": true,
+        "content": "Patient was treated with bevacizumab (15 mg/kg every 3 weeks) and erlotinib (150 mg/day).",
+        "transition_event": {
+          "trigger_type": "medication_change",
+          "trigger_entities": [
+            "C1308694",
+            "C1634939"
+          ],
+          "change_type": "addition",
+          "target_domain": "medication"
+        }
+      }
+    },
+    {
+      "from": "N12",
+      "to": "N13",
+      "data": {
+        "edge_id": "L_to_M",
+        "branch_flag": true,
+        "content": "Follow-up MRI"
+      }
+    }
+  ]
+}

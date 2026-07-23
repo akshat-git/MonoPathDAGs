@@ -1,0 +1,420 @@
+{
+  "nodes": [
+    {
+      "id": "N1",
+      "label": "Step 1",
+      "customData": {
+        "node_id": "A",
+        "node_step_index": 0,
+        "content": "58-year-old female admitted for management of right pleural effusion. Smoker with a 15-pack-year history and 15 years of occupational exposure to respiratory toxins. Comorbidities include grand mal epilepsy, stage II hypertension, hypertensive heart disease with preserved ejection fraction, grade I obesity, hysterectomy in 2001 for uteroplacental apoplexy, and surgically induced menopause at age 34. Symptoms include progressive dyspnea (mMRC score 2), right posterior chest pain radiating to the anterior chest, and intermittent low-grade fever (37.2\u00b0C to 38\u00b0C).",
+        "clinical_data": {
+          "diagnoses": [
+            {
+              "code": "ICD10",
+              "label": "right pleural effusion",
+              "status": "active"
+            },
+            {
+              "code": "ICD10",
+              "label": "grand mal epilepsy",
+              "status": "active"
+            },
+            {
+              "code": "ICD10",
+              "label": "stage II hypertension",
+              "status": "active"
+            },
+            {
+              "code": "ICD10",
+              "label": "hypertensive heart disease",
+              "status": "active"
+            },
+            {
+              "code": "ICD10",
+              "label": "grade I obesity",
+              "status": "active"
+            }
+          ],
+          "social_history": [
+            {
+              "category": "smoking",
+              "status": "current",
+              "description": "15-pack-year history"
+            },
+            {
+              "category": "employment",
+              "status": "past",
+              "description": "15 years of occupational exposure to respiratory toxins"
+            }
+          ],
+          "HPI": [
+            {
+              "summary": "progressive dyspnea",
+              "progression": "gradual",
+              "associated_symptoms": [
+                "right posterior chest pain radiating to the anterior chest",
+                "intermittent low-grade fever"
+              ]
+            }
+          ],
+          "ROS": [
+            {
+              "system": "constitutional",
+              "findings": [
+                "fever"
+              ]
+            },
+            {
+              "system": "respiratory",
+              "findings": [
+                "dyspnea"
+              ]
+            }
+          ],
+          "vitals": [
+            {
+              "type": "fever",
+              "value": "37.2 to 38",
+              "unit": "\u00b0C"
+            }
+          ]
+        }
+      }
+    },
+    {
+      "id": "N2",
+      "label": "Step 2",
+      "customData": {
+        "node_id": "B",
+        "node_step_index": 1,
+        "content": "Patient presented to the emergency department and a chest X-ray was performed, revealing changes suggestive of a moderate right pleural effusion. Antibiotic and symptomatic treatment was initiated. Chest CT scan confirmed significant right pleural effusion, fused at the level of the oblique fissure causing passive collapse of the subpleural lung parenchyma.",
+        "clinical_data": {
+          "imaging": [
+            {
+              "type": "Radiography, Thoracic (TUI)",
+              "body_part": "Thorax (TUI)",
+              "modality": "X-ray",
+              "finding": "changes suggestive of a moderate right pleural effusion",
+              "date": null
+            },
+            {
+              "type": "CT scan",
+              "body_part": "Thorax (TUI)",
+              "modality": "CT",
+              "finding": "significant right pleural effusion, fused at the level of the oblique fissure causing passive collapse of the subpleural lung parenchyma",
+              "date": null
+            }
+          ],
+          "diagnoses": [
+            {
+              "code": "J90",
+              "label": "Pleural effusion",
+              "status": "active",
+              "onset_date": null
+            }
+          ],
+          "medications": [
+            {
+              "drug": "Antibiotic",
+              "dosage": null,
+              "frequency": null,
+              "modality": null,
+              "start_date": null,
+              "end_date": null,
+              "indication": null
+            }
+          ]
+        }
+      }
+    },
+    {
+      "id": "N3",
+      "label": "Step 3",
+      "customData": {
+        "node_id": "C",
+        "node_step_index": 2,
+        "content": "Patient referred to clinic and directed to local pneumology service.",
+        "clinical_data": {}
+      }
+    },
+    {
+      "id": "N4",
+      "label": "Step 4",
+      "customData": {
+        "node_id": "D",
+        "node_step_index": 3,
+        "content": "Right thoracentesis performed, draining approximately 600 ml of serous fluid with biochemical characteristics of exudate and cytology showing atypical cells suggestive of malignancy. Right pleural biopsy was non-diagnostic due to chronic inflammatory changes. Labs: ESR 60 mm/h (2-30), Platelets 451.000 103/\u00b5L (173-390), Hemoglobin 12.70 g/dL (11.7-18), Hematocrit 38.90% (36.6-44), Total leukocyte count 8.01 103/\u00b5L (4.49-12.68), Lymphocyte % 31.70 (18.3-45.7), Monocyte % 4.9 (4.2-11.8), Eosinophils % 3 (0.2-5.3), Basophil % 0.90 (0.1-1), Creatinine 0.39 mg/dL (0.51-0.95), Urea 23 mg/dL (17-43), AST 18 U/L (0-35), ALT 25 U/L (0-35), Fibrinogen 429 mg/dL (238-498).",
+        "clinical_data": {
+          "procedures": [
+            {
+              "name": "Thoracentesis",
+              "approach": "percutaneous",
+              "date": null,
+              "location": "Right thorax",
+              "performed_by": null,
+              "outcome": "Drainage of approximately 600 ml of serous fluid"
+            },
+            {
+              "name": "Biopsy of pleura",
+              "approach": "other",
+              "date": null,
+              "location": "Right pleura",
+              "performed_by": null,
+              "outcome": "Non-diagnostic due to chronic inflammatory changes"
+            }
+          ],
+          "labs": [
+            {
+              "test": "Erythrocyte Sedimentation Rate",
+              "value": "60",
+              "unit": "mm/h",
+              "flag": "abnormal",
+              "reference_range": "2-30",
+              "timestamp": null
+            },
+            {
+              "test": "Platelet count",
+              "value": "451000",
+              "unit": "103/\u00b5L",
+              "flag": "abnormal",
+              "reference_range": "173-390",
+              "timestamp": null
+            },
+            {
+              "test": "Hemoglobin measurement",
+              "value": "12.70",
+              "unit": "g/dL",
+              "flag": "normal",
+              "reference_range": "11.7-18",
+              "timestamp": null
+            },
+            {
+              "test": "Hematocrit",
+              "value": "38.90",
+              "unit": "%",
+              "flag": "normal",
+              "reference_range": "36.6-44",
+              "timestamp": null
+            },
+            {
+              "test": "Leukocyte Count",
+              "value": "8.01",
+              "unit": "103/\u00b5L",
+              "flag": "normal",
+              "reference_range": "4.49-12.68",
+              "timestamp": null
+            },
+            {
+              "test": "Lymphocyte percentage",
+              "value": "31.70",
+              "unit": null,
+              "flag": "normal",
+              "reference_range": "18.3-45.7",
+              "timestamp": null
+            },
+            {
+              "test": "Monocyte percentage",
+              "value": "4.9",
+              "unit": null,
+              "flag": "normal",
+              "reference_range": "4.2-11.8",
+              "timestamp": null
+            },
+            {
+              "test": "Eosinophils percentage",
+              "value": "3",
+              "unit": null,
+              "flag": "normal",
+              "reference_range": "0.2-5.3",
+              "timestamp": null
+            },
+            {
+              "test": "Basophil percentage",
+              "value": "0.90",
+              "unit": null,
+              "flag": "normal",
+              "reference_range": "0.1-1",
+              "timestamp": null
+            },
+            {
+              "test": "Creatinine",
+              "value": "0.39",
+              "unit": "mg/dL",
+              "flag": "abnormal",
+              "reference_range": "0.51-0.95",
+              "timestamp": null
+            },
+            {
+              "test": "Urea measurement",
+              "value": "23",
+              "unit": "mg/dL",
+              "flag": "normal",
+              "reference_range": "17-43",
+              "timestamp": null
+            },
+            {
+              "test": "Aspartate transaminase",
+              "value": "18",
+              "unit": "U/L",
+              "flag": "normal",
+              "reference_range": "0-35",
+              "timestamp": null
+            },
+            {
+              "test": "Alanine transaminase",
+              "value": "25",
+              "unit": "U/L"
+            }
+          ]
+        }
+      }
+    },
+    {
+      "id": "N5",
+      "label": "Step 5",
+      "customData": {
+        "node_id": "E",
+        "node_step_index": 4,
+        "content": "Fiberoptic bronchoscopy with bronchoalveolar lavage revealed a normal larynx, diffuse bronchitis, and no visible proliferative elements in the examined areas. Microbiological tests for non-specific flora, mycology, and Ziehl-Neelsen staining showed no evidence of pathogenic organisms.",
+        "clinical_data": {
+          "procedures": [
+            {
+              "name": "Fiberoptic bronchoscopy",
+              "approach": "endoscopic",
+              "location": "larynx",
+              "outcome": "normal larynx, diffuse bronchitis, and no visible proliferative elements in the examined areas"
+            },
+            {
+              "name": "Bronchoalveolar lavage",
+              "approach": "endoscopic",
+              "location": "bronchial tree",
+              "outcome": "no evidence of pathogenic organisms"
+            }
+          ],
+          "diagnoses": [
+            {
+              "code": "54821000119106",
+              "label": "Diffuse bronchitis",
+              "status": "active"
+            }
+          ],
+          "labs": [
+            {
+              "test": "Microbiological tests",
+              "value": "no evidence of pathogenic organisms",
+              "flag": "normal"
+            }
+          ]
+        }
+      }
+    },
+    {
+      "id": "N6",
+      "label": "Step 6",
+      "customData": {
+        "node_id": "F",
+        "node_step_index": 5,
+        "content": "Patient decided to postpone thoracoscopy with pleural biopsy, opting instead for a watchful",
+        "clinical_data": {
+          "procedures": [
+            {
+              "name": "Thoracoscopy",
+              "approach": "other",
+              "outcome": "postponed"
+            },
+            {
+              "name": "Pleural Biopsy",
+              "approach": "other",
+              "outcome": "postponed"
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "edges": [
+    {
+      "from": "N1",
+      "to": "N2",
+      "data": {
+        "edge_id": "A_to_B",
+        "branch_flag": true,
+        "content": "Patient's condition progressed, leading to presentation at the emergency department and subsequent chest X-ray revealing changes suggestive of a moderate right pleural effusion. Antibiotic and symptomatic treatment was initiated.",
+        "transition_event": {
+          "trigger_type": "symptom_onset",
+          "trigger_entities": [
+            "C0013404"
+          ],
+          "change_type": "progression",
+          "target_domain": "symptom"
+        }
+      }
+    },
+    {
+      "from": "N2",
+      "to": "N3",
+      "data": {
+        "edge_id": "B_to_C",
+        "branch_flag": true,
+        "content": "Due to the significant right pleural effusion, the patient was referred to clinic and directed to local pneumology service.",
+        "transition_event": {
+          "trigger_type": "interpretation",
+          "trigger_entities": [
+            "C0032280"
+          ],
+          "change_type": "other",
+          "target_domain": "diagnosis"
+        }
+      }
+    },
+    {
+      "from": "N3",
+      "to": "N4",
+      "data": {
+        "edge_id": "C_to_D",
+        "branch_flag": true,
+        "content": "Further diagnostic workup was pursued, including right thoracentesis and pleural biopsy, revealing atypical cells suggestive of malignancy and chronic inflammatory changes, respectively. Labs showed elevated ESR and platelet count, and low creatinine.",
+        "transition_event": {
+          "trigger_type": "procedure",
+          "trigger_entities": [
+            "C0040043"
+          ],
+          "change_type": "addition",
+          "target_domain": "procedure"
+        }
+      }
+    },
+    {
+      "from": "N4",
+      "to": "N5",
+      "data": {
+        "edge_id": "D_to_E",
+        "branch_flag": true,
+        "content": "Fiberoptic bronchoscopy with bronchoalveolar lavage was performed to further investigate the cause of the pleural effusion. Results showed a normal larynx, diffuse bronchitis, and no evidence of pathogenic organisms.",
+        "transition_event": {
+          "trigger_type": "procedure",
+          "trigger_entities": [
+            "C0006266"
+          ],
+          "change_type": "addition",
+          "target_domain": "procedure"
+        }
+      }
+    },
+    {
+      "from": "N5",
+      "to": "N6",
+      "data": {
+        "edge_id": "E_to_F",
+        "branch_flag": true,
+        "content": "Patient opted to postpone thoracoscopy with pleural biopsy and instead chose a watchful waiting approach.",
+        "transition_event": {
+          "trigger_type": "interpretation",
+          "trigger_entities": [],
+          "change_type": "discontinuation",
+          "target_domain": "procedure"
+        }
+      }
+    }
+  ]
+}

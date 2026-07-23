@@ -1,0 +1,565 @@
+{
+  "nodes": [
+    {
+      "id": "N1",
+      "label": "Step 1",
+      "customData": {
+        "node_id": "A",
+        "node_step_index": 0,
+        "content": "71-year-old male presented with space-occupying lesions in the left hilar region during a routine annual examination.",
+        "clinical_data": {
+          "diagnoses": [
+            {
+              "code": "C79.51",
+              "label": "Secondary malignant neoplasm of bone",
+              "status": "suspected",
+              "onset_date": null
+            }
+          ],
+          "imaging": [
+            {
+              "type": "Space-occupying lesion",
+              "body_part": "Hilar region",
+              "modality": "other",
+              "finding": "Space-occupying lesion in the left hilar region",
+              "impression": "Space-occupying lesion in the left hilar region",
+              "date": null
+            }
+          ]
+        }
+      }
+    },
+    {
+      "id": "N2",
+      "label": "Step 2",
+      "customData": {
+        "node_id": "B",
+        "node_step_index": 1,
+        "content": "Needle biopsy (July 17, 2020) confirmed lung squamous cell carcinoma with positive CK5/6 and P40 expression.",
+        "clinical_data": {
+          "diagnoses": [
+            {
+              "code": "C0007072",
+              "label": "Squamous cell carcinoma of lung",
+              "status": "active",
+              "onset_date": "2020-07-17"
+            }
+          ],
+          "procedures": [
+            {
+              "name": "C0162655",
+              "approach": "percutaneous",
+              "date": "2020-07-17",
+              "location": "lung",
+              "performed_by": null,
+              "outcome": null
+            }
+          ],
+          "imaging": [
+            {
+              "type": "C0005732",
+              "body_part": "C0024134",
+              "modality": null,
+              "finding": "lung squamous cell carcinoma",
+              "impression": "positive CK5/6 and P40 expression",
+              "date": "2020-07-17"
+            }
+          ]
+        }
+      }
+    },
+    {
+      "id": "N3",
+      "label": "Step 3",
+      "customData": {
+        "node_id": "C",
+        "node_step_index": 2,
+        "content": "3-year history of primary hypertension, managed with indapamide 2.5\u2009mg daily, maintaining a blood pressure of 140/90\u2009mm",
+        "clinical_data": {
+          "medications": [
+            {
+              "drug": "C0021343",
+              "dosage": "2.5 mg",
+              "frequency": "daily",
+              "modality": "oral",
+              "start_date": null,
+              "end_date": null,
+              "indication": "C0020538"
+            }
+          ],
+          "diagnoses": [
+            {
+              "code": "C0020538",
+              "label": "Hypertension",
+              "status": "active",
+              "onset_date": null
+            }
+          ]
+        }
+      }
+    },
+    {
+      "id": "N4",
+      "label": "Step 4",
+      "customData": {
+        "node_id": "D",
+        "node_step_index": 3,
+        "content": "Chest CT (plain + enhanced) prior to Hg. Endostar treatment revealed:\n- Patchy density shadow in the left lung.\n- Left lung lesions with exudative changes.\n- Enlarged lymph nodes with marked enhancement in the mediastinum near the aortic arch.\n- Massive space-occupying lesion of the left hilar mass.\n- Lumpy soft tissue-like density shadow with an unclear boundary and pleural adhesion at the level of the tracheal bifurcation, showing inhomogeneous enhancement after contrast.\n- Enlarged left supraclavicular lymph node with slight enhancement post-contrast.",
+        "clinical_data": {
+          "imaging": [
+            {
+              "type": "CT of chest",
+              "body_part": "Lung",
+              "modality": "CT",
+              "finding": "Patchy density shadow in the left lung",
+              "date": null
+            },
+            {
+              "type": "CT of chest",
+              "body_part": "Lung",
+              "modality": "CT",
+              "finding": "Left lung lesions with exudative changes",
+              "date": null
+            },
+            {
+              "type": "CT of chest",
+              "body_part": "Mediastinum",
+              "modality": "CT",
+              "finding": "Enlarged lymph nodes with marked enhancement in the mediastinum near the aortic arch",
+              "date": null
+            },
+            {
+              "type": "CT of chest",
+              "body_part": "Left hilum",
+              "modality": "CT",
+              "finding": "Massive space-occupying lesion of the left hilar mass",
+              "date": null
+            },
+            {
+              "type": "CT of chest",
+              "body_part": "Tracheal bifurcation",
+              "modality": "CT",
+              "finding": "Lumpy soft tissue-like density shadow with an unclear boundary and pleural adhesion at the level of the tracheal bifurcation, showing inhomogeneous enhancement after contrast",
+              "date": null
+            },
+            {
+              "type": "CT of chest",
+              "body_part": "Left supraclavicular lymph node",
+              "modality": "CT",
+              "finding": "Enlarged left supraclavicular lymph node with slight enhancement post-contrast",
+              "date": null
+            }
+          ]
+        }
+      }
+    },
+    {
+      "id": "N5",
+      "label": "Step 5",
+      "customData": {
+        "node_id": "E",
+        "node_step_index": 4,
+        "content": "Patient underwent 4 cycles of chemotherapy with albumin-bound paclitaxel 300mg on day 1 and cisplatin injection 30 mg from days 1 to 3, resulting in significant lesion reduction in the left lung, indicating partial remission.",
+        "clinical_data": {
+          "medications": [
+            {
+              "drug": "C0030372",
+              "dosage": "30 mg",
+              "frequency": "daily",
+              "modality": "IV",
+              "start_date": null,
+              "end_date": null,
+              "indication": null
+            },
+            {
+              "drug": "C1239844",
+              "dosage": "300mg",
+              "frequency": "once",
+              "modality": null,
+              "start_date": null,
+              "end_date": null,
+              "indication": null
+            }
+          ],
+          "procedures": [
+            {
+              "name": "C0009372",
+              "approach": null,
+              "date": null,
+              "location": "left lung",
+              "performed_by": null,
+              "outcome": "C0205830"
+            }
+          ],
+          "diagnoses": [
+            {
+              "code": "C0205830",
+              "label": "Partial remission",
+              "status": "active",
+              "onset_date": null
+            }
+          ]
+        }
+      }
+    },
+    {
+      "id": "N6",
+      "label": "Step 6",
+      "customData": {
+        "node_id": "F",
+        "node_step_index": 5,
+        "content": "Family opted for surveillance every 3 months, rather than continuing chemotherapy.",
+        "clinical_data": {
+          "procedures": [
+            {
+              "name": "Surveillance",
+              "approach": "other",
+              "date": null,
+              "location": null,
+              "performed_by": null,
+              "outcome": null
+            }
+          ]
+        }
+      }
+    },
+    {
+      "id": "N7",
+      "label": "Step 7",
+      "customData": {
+        "node_id": "G",
+        "node_step_index": 6,
+        "content": "July 2021: CT scan revealed lesion progression in the left lung, leading to conformal intensity-modulated radiation therapy for the left lung.",
+        "clinical_data": {
+          "imaging": [
+            {
+              "type": "CT scan",
+              "body_part": "left lung",
+              "modality": "CT",
+              "finding": "lesion progression",
+              "date": "2021-07"
+            }
+          ],
+          "procedures": [
+            {
+              "name": "conformal intensity-modulated radiation therapy",
+              "location": "left lung",
+              "date": "2021-07"
+            }
+          ]
+        }
+      }
+    },
+    {
+      "id": "N8",
+      "label": "Step 8",
+      "customData": {
+        "node_id": "H",
+        "node_step_index": 7,
+        "content": "October 2021: Patient was admitted for further maintenance therapy.",
+        "clinical_data": {
+          "procedures": [
+            {
+              "name": "Maintenance therapy",
+              "date": "2021-10",
+              "approach": "other"
+            }
+          ]
+        }
+      }
+    },
+    {
+      "id": "N9",
+      "label": "Step 9",
+      "customData": {
+        "node_id": "I",
+        "node_step_index": 8,
+        "content": "October 2021: Lung CT and electrocardiogram indicated an enlarged cardiac silhouette and minimal pericardial and left pleural effusion. Physical examination revealed that the breath sounds of both lungs were clear, there was no engorgement of the external jugular vein, and no clear contraindications to treatment.",
+        "clinical_data": {
+          "imaging": [
+            {
+              "type": "CT of lung",
+              "body_part": "Lung",
+              "modality": "CT",
+              "finding": "enlarged cardiac silhouette and minimal pericardial and left pleural effusion",
+              "date": "2021-10"
+            }
+          ],
+          "vitals": [
+            {
+              "type": "Electrocardiogram",
+              "finding": "enlarged cardiac silhouette",
+              "timestamp": "2021-10"
+            }
+          ],
+          "physical_exam": [
+            {
+              "finding": "breath sounds of both lungs were clear",
+              "body_part": "lungs",
+              "date": "2021-10"
+            },
+            {
+              "finding": "no engorgement of the external jugular vein",
+              "body_part": "external jugular vein",
+              "date": "2021-10"
+            },
+            {
+              "finding": "no clear contraindications to treatment",
+              "date": "2021-10"
+            }
+          ]
+        }
+      }
+    },
+    {
+      "id": "N10",
+      "label": "Step 10",
+      "customData": {
+        "node_id": "J",
+        "node_step_index": 9,
+        "content": "October 19, 2021: Administered a single agent, Endostar (Shandong Xiansheng pharmaceutical, s20050088), at a dosage of 30mg via intravenous infusion for 7 days.",
+        "clinical_data": {
+          "medications": [
+            {
+              "drug": "Endostar",
+              "dosage": "30mg",
+              "frequency": "daily",
+              "modality": "IV",
+              "start_date": "2021-10-19",
+              "end_date": "2021-10-25"
+            }
+          ]
+        }
+      }
+    },
+    {
+      "id": "N11",
+      "label": "Step 11",
+      "customData": {
+        "node_id": "K",
+        "node_step_index": 10,
+        "content": "October 23, 2021: Patient experienced chest tightness, chest discomfort, coughing, and expectoration on the fifth day of Endostar use. Patient has a history of squamous cell carcinoma of the left lung, persistent cough, intermittent asthma, and stuffy symptoms. Patient prescribed oxygen inhalation and Compound Glycyrrhiza tablets for cough.",
+        "clinical_data": {
+          "HPI": [
+            {
+              "summary": "Patient experienced chest tightness, chest discomfort, coughing, and expectoration on the fifth day of Endostar use.",
+              "onset": "October 23, 2021",
+              "associated_symptoms": [
+                "Chest tightness",
+                "Chest discomfort",
+                "Coughing",
+                "Expectoration"
+              ]
+            }
+          ],
+          "diagnoses": [
+            {
+              "code": "C0024117",
+              "label": "Squamous cell carcinoma of the left lung",
+              "status": "active"
+            },
+            {
+              "code": "C0010200",
+              "label": "Cough",
+              "status": "active"
+            },
+            {
+              "code": "C0004096",
+              "label": "Asthma",
+              "status": "historical"
+            }
+          ],
+          "medications": [
+            {
+              "drug": "Compound Glycyrrhiza tablets",
+              "indication": "Cough"
+            }
+          ],
+          "procedures": [
+            {
+              "name": "Oxygen inhalation",
+              "date": "October 23, 2021"
+            }
+          ]
+        }
+      }
+    },
+    {
+      "id": "N12",
+      "label": "Step 12",
+      "customData": {
+        "node_id": "L",
+        "node_step_index": 11,
+        "content": "Patient experienced worsening breathlessness, orthopnea, and mild cyanosis of the lips.",
+        "clinical_data": {
+          "HPI": [
+            {
+              "summary": "Patient experienced worsening breathlessness, orthopnea, and mild cyanosis of the lips.",
+              "progression": "worsening",
+              "associated_symptoms": [
+                "breathlessness",
+                "orthopnea",
+                "cyanosis"
+              ]
+            }
+          ]
+        }
+      }
+    },
+    {
+      "id": "N13",
+      "label": "Step 13",
+      "customData": {
+        "node_id": "M",
+        "node_step_index": 12,
+        "content": "October 16, 2021: Patient underwent a chest CT.",
+        "clinical_data": {
+          "imaging": [
+            {
+              "type": "Computed tomography",
+              "body_part": "Chest",
+              "modality": "CT",
+              "date": "2021-10-16"
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "edges": [
+    {
+      "from": "N1",
+      "to": "N2",
+      "data": {
+        "edge_id": "A_to_B",
+        "branch_flag": true,
+        "content": "From initial presentation with space-occupying lesions to confirmation of lung squamous cell carcinoma via needle biopsy.",
+        "transition_event": {
+          "trigger_type": "procedure",
+          "trigger_entities": [
+            "C0162655"
+          ],
+          "change_type": "addition",
+          "target_domain": "diagnosis",
+          "timestamp": "2020-07-17T00:00:00Z"
+        }
+      }
+    },
+    {
+      "from": "N2",
+      "to": "N3",
+      "data": {
+        "edge_id": "B_to_C",
+        "branch_flag": true,
+        "content": "Interval history of primary hypertension managed with indapamide.",
+        "transition_event": {
+          "trigger_type": "spontaneous",
+          "trigger_entities": [
+            "C0020538"
+          ],
+          "change_type": "other",
+          "target_domain": "diagnosis"
+        }
+      }
+    },
+    {
+      "from": "N3",
+      "to": "N4",
+      "data": {
+        "edge_id": "C_to_D",
+        "branch_flag": true,
+        "content": "From hypertension management to chest CT revealing lesion progression and lymph node enlargement.",
+        "transition_event": {
+          "trigger_type": "imaging",
+          "trigger_entities": [],
+          "change_type": "progression",
+          "target_domain": "imaging"
+        }
+      }
+    },
+    {
+      "from": "N4",
+      "to": "N5",
+      "data": {
+        "edge_id": "D_to_E",
+        "branch_flag": true,
+        "content": "From advanced imaging findings to initiation of chemotherapy with albumin-bound paclitaxel and cisplatin, resulting in partial remission.",
+        "transition_event": {
+          "trigger_type": "medication_change",
+          "trigger_entities": [
+            "C0030372",
+            "C1239844"
+          ],
+          "change_type": "addition",
+          "target_domain": "medication"
+        }
+      }
+    },
+    {
+      "from": "N5",
+      "to": "N6",
+      "data": {
+        "edge_id": "E_to_F",
+        "branch_flag": true,
+        "content": "From partial remission after chemotherapy to family opting for surveillance.",
+        "transition_event": {
+          "trigger_type": "medication_change",
+          "trigger_entities": [
+            "C0030372",
+            "C1239844"
+          ],
+          "change_type": "discontinuation",
+          "target_domain": "medication"
+        }
+      }
+    },
+    {
+      "from": "N6",
+      "to": "N7",
+      "data": {
+        "edge_id": "F_to_G",
+        "branch_flag": true,
+        "content": "From surveillance to CT scan revealing lesion progression, leading to radiation therapy.",
+        "transition_event": {
+          "trigger_type": "imaging",
+          "trigger_entities": [],
+          "change_type": "progression",
+          "target_domain": "imaging",
+          "timestamp": "2021-07T00:00:00Z"
+        }
+      }
+    },
+    {
+      "from": "N7",
+      "to": "N8",
+      "data": {
+        "edge_id": "G_to_H",
+        "branch_flag": true,
+        "content": "From radiation therapy to admission for maintenance therapy.",
+        "transition_event": {
+          "trigger_type": "procedure",
+          "trigger_entities": [],
+          "change_type": "addition",
+          "target_domain": "procedure",
+          "timestamp": "2021-10T00:00:00Z"
+        }
+      }
+    },
+    {
+      "from": "N8",
+      "to": "N9",
+      "data": {
+        "edge_id": "H_to_I",
+        "branch_flag": true,
+        "content": "From admission for maintenance therapy to lung CT and electrocardiogram indicating cardiac silhouette enlargement and pleural effusion.",
+        "transition_event": {
+          "trigger_type": "imaging",
+          "trigger_entities": [],
+          "change_type": "progression",
+          "target_domain": "imaging",
+          "timestamp": "2021-10T00:00:00Z"
+        }
+      }
+    }
+  ]
+}

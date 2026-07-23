@@ -1,0 +1,470 @@
+{
+  "nodes": [
+    {
+      "id": "N1",
+      "label": "Step 1",
+      "customData": {
+        "node_id": "A",
+        "node_step_index": 0,
+        "content": "54-year-old non-smoking woman presented with an abnormal shadow on a chest x-ray during an annual check-up. Medical history notable for hypertension.",
+        "clinical_data": {
+          "social_history": [
+            {
+              "category": "smoking",
+              "status": "never"
+            }
+          ],
+          "diagnoses": [
+            {
+              "code": "SNOMED:59620008",
+              "label": "Hypertension",
+              "status": "active"
+            }
+          ],
+          "imaging": [
+            {
+              "type": "UMLS:C0205087",
+              "body_part": "UMLS:C0008764",
+              "modality": "X-ray",
+              "finding": "abnormal shadow",
+              "date": null
+            }
+          ]
+        }
+      }
+    },
+    {
+      "id": "N2",
+      "label": "Step 2",
+      "customData": {
+        "node_id": "B",
+        "node_step_index": 1,
+        "content": "Diagnosis of lung cancer by trans bronchial brushing cytology.",
+        "clinical_data": {
+          "diagnoses": [
+            {
+              "code": "C0024117",
+              "label": "Lung Cancer",
+              "status": "active",
+              "onset_date": null
+            }
+          ],
+          "procedures": [
+            {
+              "name": "C0152247",
+              "approach": "endoscopic",
+              "date": null,
+              "location": "Lung",
+              "performed_by": null,
+              "outcome": null
+            }
+          ]
+        }
+      }
+    },
+    {
+      "id": "N3",
+      "label": "Step 3",
+      "customData": {
+        "node_id": "C",
+        "node_step_index": 2,
+        "content": "Right middle lobectomy and mediastinal lymph node dissection were performed.",
+        "clinical_data": {
+          "procedures": [
+            {
+              "name": "Lobectomy",
+              "approach": "open",
+              "location": "right middle lobe",
+              "performed_by": "unknown"
+            },
+            {
+              "name": "Lymph node dissection",
+              "approach": "open",
+              "location": "mediastinal",
+              "performed_by": "unknown"
+            }
+          ]
+        }
+      }
+    },
+    {
+      "id": "N4",
+      "label": "Step 4",
+      "customData": {
+        "node_id": "D",
+        "node_step_index": 3,
+        "content": "Tumour measured 19 \u00d7 19 \u00d7 22 mm, proved to be a pT1bN1M0 papillary adenocarcinoma with hilar lymph node involvement.",
+        "clinical_data": {
+          "diagnoses": [
+            {
+              "code": "C0279517",
+              "label": "Papillary adenocarcinoma",
+              "status": "active"
+            }
+          ],
+          "imaging": [
+            {
+              "finding": "Tumour measured 19 \u00d7 19 \u00d7 22 mm"
+            }
+          ]
+        }
+      }
+    },
+    {
+      "id": "N5",
+      "label": "Step 5",
+      "customData": {
+        "node_id": "E",
+        "node_step_index": 4,
+        "content": "Single gene analysis showed EGFR exon 19 deletion in the resected tumour but negative for BRAF V600E.",
+        "clinical_data": {
+          "labs": [
+            {
+              "test": "EGFR exon 19 deletion",
+              "value": "positive",
+              "unit": null,
+              "flag": "positive",
+              "reference_range": null,
+              "timestamp": null
+            },
+            {
+              "test": "BRAF V600E",
+              "value": "negative",
+              "unit": null,
+              "flag": "negative",
+              "reference_range": null,
+              "timestamp": null
+            }
+          ],
+          "diagnoses": [
+            {
+              "code": "EGFR",
+              "label": "EGFR exon 19 deletion",
+              "status": "active",
+              "onset_date": null
+            }
+          ]
+        }
+      }
+    },
+    {
+      "id": "N6",
+      "label": "Step 6",
+      "customData": {
+        "node_id": "F",
+        "node_step_index": 5,
+        "content": "Patient underwent four courses of postoperative adjuvant chemotherapy with cisplatin and vinorelbine.",
+        "clinical_data": {
+          "medications": [
+            {
+              "drug": "C0008893",
+              "dosage": null,
+              "frequency": null,
+              "modality": null,
+              "start_date": null,
+              "end_date": null,
+              "indication": "postoperative adjuvant chemotherapy"
+            },
+            {
+              "drug": "C0042937",
+              "dosage": null,
+              "frequency": null,
+              "modality": null,
+              "start_date": null,
+              "end_date": null,
+              "indication": "postoperative adjuvant chemotherapy"
+            }
+          ],
+          "procedures": [
+            {
+              "name": "adjuvant chemotherapy",
+              "approach": null,
+              "date": null,
+              "location": null,
+              "performed_by": null,
+              "outcome": null
+            }
+          ]
+        }
+      }
+    },
+    {
+      "id": "N7",
+      "label": "Step 7",
+      "customData": {
+        "node_id": "G",
+        "node_step_index": 6,
+        "content": "One year and nine months after the surgery, multiple intrapulmonary metastases were identified in both lungs.",
+        "clinical_data": {
+          "imaging": [
+            {
+              "type": "Pulmonary Metastasis",
+              "body_part": "Lung",
+              "modality": "imaging",
+              "finding": "multiple intrapulmonary metastases",
+              "date": null
+            }
+          ]
+        }
+      }
+    },
+    {
+      "id": "N8",
+      "label": "Step 8",
+      "customData": {
+        "node_id": "H",
+        "node_step_index": 7,
+        "content": "Molecularly targeted therapy using osimertinib was initiated considering the presence of EGFR exon 19 deletion.",
+        "clinical_data": {
+          "medications": [
+            {
+              "drug": "C1705633",
+              "dosage": null,
+              "frequency": null,
+              "modality": null,
+              "start_date": null,
+              "end_date": null,
+              "indication": "EGFR exon 19 deletion"
+            }
+          ],
+          "diagnoses": [
+            {
+              "code": "EGFR exon 19 deletion",
+              "label": "EGFR exon 19 deletion",
+              "status": "active",
+              "onset_date": null
+            }
+          ]
+        }
+      }
+    },
+    {
+      "id": "N9",
+      "label": "Step 9",
+      "customData": {
+        "node_id": "I",
+        "node_step_index": 8,
+        "content": "Three years and two months after the surgery, all intrapulmonary metastases had disappeared or shrunk.",
+        "clinical_data": {
+          "imaging": [
+            {
+              "finding": "intrapulmonary metastases disappeared or shrunk",
+              "date": "3 years and 2 months after the surgery"
+            }
+          ]
+        }
+      }
+    },
+    {
+      "id": "N10",
+      "label": "Step 10",
+      "customData": {
+        "node_id": "J",
+        "node_step_index": 9,
+        "content": "Four years after the surgery, a nodule at the superior segment (S6) of the left lung enlarged from 6 mm to 11 mm.",
+        "clinical_data": {
+          "imaging": [
+            {
+              "type": "Lung nodule",
+              "body_part": "Left lung, superior segment (S6)",
+              "modality": null,
+              "finding": "Enlarged from 6 mm to 11 mm",
+              "impression": "Growth of lung nodule",
+              "date": null
+            }
+          ]
+        }
+      }
+    },
+    {
+      "id": "N11",
+      "label": "Step 11",
+      "customData": {
+        "node_id": "K",
+        "node_step_index": 10,
+        "content": "The nodule was resected using VATS. Histopathological examination revealed papillary adenocarcinoma that resembled the primary tumour.",
+        "clinical_data": {
+          "procedures": [
+            {
+              "name": "Video-assisted thoracoscopic surgery",
+              "approach": "endoscopic",
+              "date": null,
+              "location": "thorax",
+              "performed_by": null,
+              "outcome": null
+            }
+          ],
+          "diagnoses": [
+            {
+              "code": "C0279517",
+              "label": "Papillary adenocarcinoma",
+              "status": "active",
+              "onset_date": null
+            }
+          ]
+        }
+      }
+    },
+    {
+      "id": "N12",
+      "label": "Step 12",
+      "customData": {
+        "node_id": "L",
+        "node_step_index": 11,
+        "content": "Single gene",
+        "clinical_data": {}
+      }
+    }
+  ],
+  "edges": [
+    {
+      "from": "N1",
+      "to": "N2",
+      "data": {
+        "edge_id": "A_to_B",
+        "branch_flag": true,
+        "content": "From abnormal shadow on chest x-ray to diagnosis of lung cancer.",
+        "transition_event": {
+          "trigger_type": "interpretation",
+          "trigger_entities": [
+            "C0205087",
+            "C0024117"
+          ],
+          "change_type": "progression",
+          "target_domain": "diagnosis"
+        }
+      }
+    },
+    {
+      "from": "N2",
+      "to": "N3",
+      "data": {
+        "edge_id": "B_to_C",
+        "branch_flag": true,
+        "content": "Lung cancer diagnosis led to surgical intervention.",
+        "transition_event": {
+          "trigger_type": "procedure",
+          "trigger_entities": [
+            "C0024117",
+            "Lobectomy",
+            "Lymph node dissection"
+          ],
+          "change_type": "addition",
+          "target_domain": "procedure"
+        }
+      }
+    },
+    {
+      "from": "N3",
+      "to": "N4",
+      "data": {
+        "edge_id": "C_to_D",
+        "branch_flag": true,
+        "content": "Surgical pathology revealed papillary adenocarcinoma with hilar lymph node involvement.",
+        "transition_event": {
+          "trigger_type": "interpretation",
+          "trigger_entities": [
+            "C0279517"
+          ],
+          "change_type": "reinterpretation",
+          "target_domain": "diagnosis"
+        }
+      }
+    },
+    {
+      "from": "N4",
+      "to": "N5",
+      "data": {
+        "edge_id": "D_to_E",
+        "branch_flag": true,
+        "content": "Genetic testing performed on resected tumor.",
+        "transition_event": {
+          "trigger_type": "lab_change",
+          "trigger_entities": [
+            "EGFR exon 19 deletion",
+            "BRAF V600E"
+          ],
+          "change_type": "addition",
+          "target_domain": "lab"
+        }
+      }
+    },
+    {
+      "from": "N5",
+      "to": "N6",
+      "data": {
+        "edge_id": "E_to_F",
+        "branch_flag": true,
+        "content": "Positive EGFR exon 19 deletion and negative BRAF V600E results led to adjuvant chemotherapy.",
+        "transition_event": {
+          "trigger_type": "medication_change",
+          "trigger_entities": [
+            "C0008893",
+            "C0042937"
+          ],
+          "change_type": "addition",
+          "target_domain": "medication"
+        }
+      }
+    },
+    {
+      "from": "N6",
+      "to": "N7",
+      "data": {
+        "edge_id": "F_to_G",
+        "branch_flag": true,
+        "content": "Post-operative adjuvant chemotherapy followed by identification of multiple intrapulmonary metastases.",
+        "transition_event": {
+          "trigger_type": "progression",
+          "trigger_entities": [
+            "Pulmonary Metastasis"
+          ],
+          "change_type": "progression",
+          "target_domain": "imaging"
+        }
+      }
+    },
+    {
+      "from": "N7",
+      "to": "N8",
+      "data": {
+        "edge_id": "G_to_H",
+        "branch_flag": true,
+        "content": "Metastases identified, leading to initiation of osimertinib therapy.",
+        "transition_event": {
+          "trigger_type": "medication_change",
+          "trigger_entities": [
+            "C1705633"
+          ],
+          "change_type": "addition",
+          "target_domain": "medication"
+        }
+      }
+    },
+    {
+      "from": "N8",
+      "to": "N9",
+      "data": {
+        "edge_id": "H_to_I",
+        "branch_flag": true,
+        "content": "Osimertinib therapy resulted in regression of intrapulmonary metastases.",
+        "transition_event": {
+          "trigger_type": "medication_change",
+          "trigger_entities": [
+            "C1705633"
+          ],
+          "change_type": "resolution",
+          "target_domain": "imaging"
+        }
+      }
+    },
+    {
+      "from": "N9",
+      "to": "N10",
+      "data": {
+        "edge_id": "I_to_J",
+        "branch_flag": true
+      }
+    }
+  ]
+}

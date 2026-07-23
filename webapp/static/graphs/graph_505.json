@@ -1,0 +1,603 @@
+{
+  "nodes": [
+    {
+      "id": "N1",
+      "label": "Step 1",
+      "customData": {
+        "node_id": "A",
+        "node_step_index": 0,
+        "content": "30-year-old male presented in March 2017 with recurrent headache of one year's duration, progressive weight loss of about 3 months duration, persistent difficulty in breathing and cough of two months, and dizziness of a month's duration. Headache described as recurrent, initially frontal but later occipital, throbbing, with radiation to the neck, and associated blurred vision, dizziness, weakness of the left limbs, and seizures. Four episodes of generalized tonic-clonic seizures prior to presentation, with each episode lasting less than five minutes.",
+        "clinical_data": {
+          "HPI": [
+            {
+              "summary": "30-year-old male presented with recurrent headache of one year's duration, progressive weight loss of about 3 months duration, persistent difficulty in breathing and cough of two months, and dizziness of a month's duration.",
+              "duration": "P1Y",
+              "onset": "2016-03",
+              "progression": "gradual",
+              "associated_symptoms": [
+                "blurred vision",
+                "dizziness",
+                "weakness of the left limbs",
+                "seizures"
+              ]
+            }
+          ],
+          "diagnoses": [
+            {
+              "code": "R51",
+              "label": "Headache",
+              "status": "active",
+              "onset_date": "2016-03"
+            },
+            {
+              "code": "R63.4",
+              "label": "Abnormal weight loss",
+              "status": "active",
+              "onset_date": "2016-12"
+            },
+            {
+              "code": "R06.02",
+              "label": "Shortness of breath",
+              "status": "active",
+              "onset_date": "2017-01"
+            },
+            {
+              "code": "R05",
+              "label": "Cough",
+              "status": "active",
+              "onset_date": "2017-01"
+            },
+            {
+              "code": "R42",
+              "label": "Dizziness",
+              "status": "active",
+              "onset_date": "2017-02"
+            },
+            {
+              "code": "R56.9",
+              "label": "Seizure, unspecified",
+              "status": "active",
+              "onset_date": "2017-03"
+            }
+          ]
+        }
+      }
+    },
+    {
+      "id": "N2",
+      "label": "Step 2",
+      "customData": {
+        "node_id": "B",
+        "node_step_index": 1,
+        "content": "Patient presented with intermittent fever, cough associated with hemoptysis, and dyspnea on exertion. History of two pack-years of tobacco use, stopped 10 years prior. Treated for pulmonary tuberculosis 2 years prior. Examination revealed a conscious, ill-looking, and cachectic individual.",
+        "clinical_data": {
+          "HPI": [
+            {
+              "summary": "Patient presented with intermittent fever, cough associated with hemoptysis, and dyspnea on exertion.",
+              "progression": "intermittent",
+              "associated_symptoms": [
+                "C0015967",
+                "C0010200",
+                "C0018977"
+              ]
+            }
+          ],
+          "social_history": [
+            {
+              "category": "smoking",
+              "status": "past",
+              "description": "History of two pack-years of tobacco use, stopped 10 years prior."
+            }
+          ],
+          "diagnoses": [
+            {
+              "code": "C0034184",
+              "label": "Pulmonary tuberculosis",
+              "status": "historical",
+              "onset_date": null
+            }
+          ]
+        }
+      }
+    },
+    {
+      "id": "N3",
+      "label": "Step 3",
+      "customData": {
+        "node_id": "C",
+        "node_step_index": 2,
+        "content": "Patient had a fever of 38.5\u00b0C, pulse rate of 130 bpm, blood pressure of 164/126 mmHg, dullness to percussion in the right middle lung zones, diminished breath sounds over the same areas, left-sided hemiparesis and ataxia.",
+        "clinical_data": {
+          "vitals": [
+            {
+              "type": "C0015967",
+              "value": "38.5",
+              "unit": "\u00b0C"
+            },
+            {
+              "type": "C0033642",
+              "value": "130",
+              "unit": "bpm"
+            },
+            {
+              "type": "C0005766",
+              "value": "164/126",
+              "unit": "mmHg"
+            }
+          ],
+          "physical_exam": [
+            {
+              "finding": "dullness to percussion",
+              "location": "right middle lung zones"
+            },
+            {
+              "finding": "diminished breath sounds",
+              "location": "right middle lung zones"
+            },
+            {
+              "finding": "left-sided hemiparesis"
+            },
+            {
+              "finding": "ataxia"
+            }
+          ]
+        }
+      }
+    },
+    {
+      "id": "N4",
+      "label": "Step 4",
+      "customData": {
+        "node_id": "D",
+        "node_step_index": 3,
+        "content": "Power on the left side was 3/5. Full blood count (FBC); electrolytes, urea, and creatinine (EUCr); and liver function tests (LFTs) were normal. Negative ELISA HIV tests. Chest X-ray showed a large mass in the right middle lung zone extending to the hilum.",
+        "clinical_data": {
+          "vitals": [
+            {
+              "type": "Power",
+              "value": "3/5",
+              "unit": null,
+              "timestamp": null
+            }
+          ],
+          "labs": [
+            {
+              "test": "Full blood count",
+              "value": "normal",
+              "unit": null,
+              "flag": "normal",
+              "reference_range": null,
+              "timestamp": null
+            },
+            {
+              "test": "Electrolytes, urea, and creatinine",
+              "value": "normal",
+              "unit": null,
+              "flag": "normal",
+              "reference_range": null,
+              "timestamp": null
+            },
+            {
+              "test": "Liver function tests",
+              "value": "normal",
+              "unit": null,
+              "flag": "normal",
+              "reference_range": null,
+              "timestamp": null
+            },
+            {
+              "test": "ELISA HIV tests",
+              "value": "Negative",
+              "unit": null,
+              "flag": "normal",
+              "reference_range": null,
+              "timestamp": null
+            }
+          ],
+          "imaging": [
+            {
+              "type": "X-ray",
+              "body_part": "Lung",
+              "modality": "X-ray",
+              "finding": "large mass in the right middle lung zone extending to the hilum",
+              "impression": null,
+              "date": null
+            }
+          ]
+        }
+      }
+    },
+    {
+      "id": "N5",
+      "label": "Step 5",
+      "customData": {
+        "node_id": "E",
+        "node_step_index": 4,
+        "content": "Chest CT scan showed a mass infiltrating the right upper and middle lung lobes, measuring 10 cm x 10 cm. Brain CT revealed a 5 cm mass.",
+        "clinical_data": {
+          "imaging": [
+            {
+              "type": "Mass",
+              "body_part": "Lung",
+              "modality": "CT",
+              "finding": "Mass infiltrating the right upper and middle lung lobes, measuring 10 cm x 10 cm",
+              "date": null
+            },
+            {
+              "type": "Mass",
+              "body_part": "Brain",
+              "modality": "CT",
+              "finding": "5 cm mass",
+              "date": null
+            }
+          ]
+        }
+      }
+    },
+    {
+      "id": "N6",
+      "label": "Step 6",
+      "customData": {
+        "node_id": "F",
+        "node_step_index": 5,
+        "content": "4 cm intracranial mass in the posterior cranial fossa with perilesional edema. Provisional diagnosis of metastatic lung cancer with intracerebral metastases.",
+        "clinical_data": {
+          "imaging": [
+            {
+              "type": "Intracranial mass",
+              "body_part": "Posterior cranial fossa",
+              "modality": "MRI",
+              "finding": "4 cm mass with perilesional edema",
+              "impression": "Metastatic lung cancer with intracerebral metastases"
+            }
+          ],
+          "diagnoses": [
+            {
+              "code": "C0006826",
+              "label": "Lung Cancer",
+              "status": "suspected"
+            },
+            {
+              "code": "C0242963",
+              "label": "Intracerebral Metastases",
+              "status": "suspected"
+            }
+          ]
+        }
+      }
+    },
+    {
+      "id": "N7",
+      "label": "Step 7",
+      "customData": {
+        "node_id": "G",
+        "node_step_index": 6,
+        "content": "Open surgical lung biopsy revealed interstitial mononuclear infiltrate, numerous foamy macrophages, and granuloma formation with congested capillaries, focal fibrosis, and thickening of the interstitial alveolar septa.",
+        "clinical_data": {
+          "procedures": [
+            {
+              "name": "Surgical lung biopsy",
+              "approach": "open",
+              "location": "lung"
+            }
+          ],
+          "imaging": [
+            {
+              "type": "Lung Biopsy",
+              "body_part": "Lung",
+              "modality": "surgical",
+              "finding": "interstitial mononuclear infiltrate, numerous foamy macrophages, and granuloma formation with congested capillaries, focal fibrosis, and thickening of the interstitial alveolar septa"
+            }
+          ]
+        }
+      }
+    },
+    {
+      "id": "N8",
+      "label": "Step 8",
+      "customData": {
+        "node_id": "H",
+        "node_step_index": 7,
+        "content": "Lung biopsy showed numerous oval-shaped, thick-walled yeast cells compatible with Cryptococcus spp. Periodic Acid Schiff (PAS) staining was strongly positive for fungal cell walls. Immunohistochemical stains for cytokeratin 5/6, thyroid transcription factor 1, and lymphoma markers were negative.",
+        "clinical_data": {
+          "labs": [
+            {
+              "test": "Periodic Acid Schiff stain",
+              "value": "positive",
+              "unit": null,
+              "flag": "abnormal"
+            }
+          ],
+          "imaging": [
+            {
+              "type": "Biopsy",
+              "body_part": "Lung",
+              "modality": null,
+              "finding": "numerous oval-shaped, thick-walled yeast cells compatible with Cryptococcus spp.",
+              "impression": "Cryptococcus spp."
+            }
+          ]
+        }
+      }
+    },
+    {
+      "id": "N9",
+      "label": "Step 9",
+      "customData": {
+        "node_id": "I",
+        "node_step_index": 8,
+        "content": "Patient was treated with oral flucytosine 1500 mg 6 hourly and intravenous fluconazole 800 mg once daily initially for 7 days.",
+        "clinical_data": {
+          "medications": [
+            {
+              "drug": "C0016427",
+              "dosage": "1500 mg",
+              "frequency": "6 hourly",
+              "modality": "oral",
+              "start_date": null,
+              "end_date": null,
+              "indication": null
+            },
+            {
+              "drug": "C0016364",
+              "dosage": "800 mg",
+              "frequency": "once daily",
+              "modality": "IV",
+              "start_date": null,
+              "end_date": null,
+              "indication": null
+            }
+          ]
+        }
+      }
+    },
+    {
+      "id": "N10",
+      "label": "Step 10",
+      "customData": {
+        "node_id": "J",
+        "node_step_index": 9,
+        "content": "Patient was treated with intravenous Amphotericin B 50 mg daily for 14 days, then transitioned to oral flucytosine 1500 mg every 6 hours and oral fluconazole 400 mg daily for 8 weeks, followed by fluconazole 200 mg daily for 6 months. Renal and LFTs were monitored during the 8 weeks of induction and treatment, with LFT and EUCr results remaining normal during this time. Pulmonary aspirate and cerebrospinal fluid (CSF) cultures were negative for fungal growth, but there was residual radio-opacity in the lung. Patient experienced resolution of hemiparesis and cerebellar ataxia.",
+        "clinical_data": {
+          "medications": [
+            {
+              "drug": "C0002436",
+              "dosage": "50 mg",
+              "frequency": "daily",
+              "modality": "IV",
+              "start_date": null,
+              "end_date": null,
+              "indication": "Fungal infection"
+            },
+            {
+              "drug": "C0016836",
+              "dosage": "1500 mg",
+              "frequency": "every 6 hours",
+              "modality": "oral",
+              "start_date": null,
+              "end_date": null,
+              "indication": "Fungal infection"
+            },
+            {
+              "drug": "C0016758",
+              "dosage": "400 mg",
+              "frequency": "daily",
+              "modality": "oral",
+              "start_date": null,
+              "end_date": null,
+              "indication": "Fungal infection"
+            },
+            {
+              "drug": "C0016758",
+              "dosage": "200 mg",
+              "frequency": "daily",
+              "modality": "oral",
+              "start_date": null,
+              "end_date": null,
+              "indication": "Fungal infection"
+            }
+          ],
+          "labs": [
+            {
+              "test": "C0022092",
+              "value": "normal",
+              "unit": null,
+              "flag": "normal",
+              "reference_range": null,
+              "timestamp": null
+            },
+            {
+              "test": "C0151808",
+              "value": "negative",
+              "unit": null,
+              "flag": "normal",
+              "reference_range": null,
+              "timestamp": null
+            },
+            {
+              "test": "C0010054",
+              "value": "negative",
+              "unit": null,
+              "flag": "normal",
+              "reference_range": null,
+              "timestamp": null
+            }
+          ],
+          "imaging": [
+            {
+              "type": "C0205035",
+              "body_part": "C0024132",
+              "modality": "X-ray",
+              "finding": "residual radio-opacity",
+              "impression": null,
+              "date": null
+            }
+          ],
+          "HPI": [
+            {
+              "summary": "Resolution of hemiparesis and cerebellar ataxia",
+              "duration": null,
+              "onset": null,
+              "progression": "unknown",
+              "associated_symptoms": [
+                "C0018977",
+                "C0007758"
+              ],
+              "alleviating_factors": [],
+              "exacerbating_factors": []
+            }
+          ]
+        }
+      }
+    },
+    {
+      "id": "N11",
+      "label": "Step 11",
+      "customData": {
+        "node_id": "K",
+        "clinical_data": {}
+      }
+    }
+  ],
+  "edges": [
+    {
+      "from": "N1",
+      "to": "N2",
+      "data": {
+        "edge_id": "A_to_B",
+        "branch_flag": true,
+        "content": "Transition from initial presentation to further details on patient's history and examination."
+      }
+    },
+    {
+      "from": "N2",
+      "to": "N3",
+      "data": {
+        "edge_id": "B_to_C",
+        "branch_flag": true,
+        "content": "Vitals and physical exam findings upon presentation."
+      }
+    },
+    {
+      "from": "N3",
+      "to": "N4",
+      "data": {
+        "edge_id": "C_to_D",
+        "branch_flag": true,
+        "content": "Initial lab results and chest X-ray findings.",
+        "transition_event": {
+          "trigger_type": "lab_change",
+          "trigger_entities": [],
+          "change_type": "other",
+          "target_domain": "lab"
+        }
+      }
+    },
+    {
+      "from": "N4",
+      "to": "N5",
+      "data": {
+        "edge_id": "D_to_E",
+        "branch_flag": true,
+        "content": "Chest and brain CT scan results revealing masses.",
+        "transition_event": {
+          "trigger_type": "imaging",
+          "trigger_entities": [],
+          "change_type": "progression",
+          "target_domain": "imaging"
+        }
+      }
+    },
+    {
+      "from": "N5",
+      "to": "N6",
+      "data": {
+        "edge_id": "E_to_F",
+        "branch_flag": true,
+        "content": "Further characterization of intracranial mass and provisional diagnosis.",
+        "transition_event": {
+          "trigger_type": "interpretation",
+          "trigger_entities": [],
+          "change_type": "reinterpretation",
+          "target_domain": "diagnosis"
+        }
+      }
+    },
+    {
+      "from": "N6",
+      "to": "N7",
+      "data": {
+        "edge_id": "F_to_G",
+        "branch_flag": true,
+        "content": "Open surgical lung biopsy performed.",
+        "transition_event": {
+          "trigger_type": "procedure",
+          "trigger_entities": [],
+          "change_type": "addition",
+          "target_domain": "procedure"
+        }
+      }
+    },
+    {
+      "from": "N7",
+      "to": "N8",
+      "data": {
+        "edge_id": "G_to_H",
+        "branch_flag": true,
+        "content": "Lung biopsy reveals Cryptococcus spp.",
+        "transition_event": {
+          "trigger_type": "lab_change",
+          "trigger_entities": [],
+          "change_type": "reinterpretation",
+          "target_domain": "diagnosis"
+        }
+      }
+    },
+    {
+      "from": "N8",
+      "to": "N9",
+      "data": {
+        "edge_id": "H_to_I",
+        "branch_flag": true,
+        "content": "Initiation of antifungal treatment with oral flucytosine and intravenous fluconazole.",
+        "transition_event": {
+          "trigger_type": "medication_change",
+          "trigger_entities": [
+            "C0016427",
+            "C0016364"
+          ],
+          "change_type": "addition",
+          "target_domain": "medication"
+        }
+      }
+    },
+    {
+      "from": "N9",
+      "to": "N10",
+      "data": {
+        "edge_id": "I_to_J",
+        "branch_flag": true,
+        "content": "Transition to intravenous Amphotericin B, followed by oral flucytosine and fluconazole, with monitoring of renal and liver function. Resolution of hemiparesis and cerebellar ataxia.",
+        "transition_event": {
+          "trigger_type": "medication_change",
+          "trigger_entities": [
+            "C0002436",
+            "C0016836",
+            "C0016758"
+          ],
+          "change_type": "escalation",
+          "target_domain": "medication"
+        }
+      }
+    },
+    {
+      "from": "N10",
+      "to": "N11",
+      "data": {
+        "edge_id": "J_to_K",
+        "branch_flag": true,
+        "content": "Final state after treatment, resolution of some symptoms, and residual radio-opacity in the lung."
+      }
+    }
+  ]
+}

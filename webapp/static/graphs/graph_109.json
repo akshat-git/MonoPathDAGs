@@ -1,0 +1,430 @@
+{
+  "nodes": [
+    {
+      "id": "N1",
+      "label": "Step 1",
+      "customData": {
+        "node_id": "A",
+        "node_step_index": 0,
+        "content": "70-year-old white woman presented in November 2002 with pain in a left lower quadrant abdominal mass. Physical examination revealed a mass fixed within the abdominal wall musculature within the left lower quadrant of the abdomen.",
+        "clinical_data": {
+          "HPI": [
+            {
+              "summary": "70-year-old white woman presented with pain in a left lower quadrant abdominal mass.",
+              "onset": "November 2002",
+              "associated_symptoms": [
+                "Pain"
+              ]
+            }
+          ],
+          "diagnoses": [
+            {
+              "code": "C0264924",
+              "label": "Abdominal mass",
+              "status": "active",
+              "onset_date": "2002-11"
+            }
+          ]
+        }
+      }
+    },
+    {
+      "id": "N2",
+      "label": "Step 2",
+      "customData": {
+        "node_id": "B",
+        "node_step_index": 1,
+        "content": "On March 4, 2003, patient underwent a 9-hour surgical procedure to remove mesothelioma from abdominal wall, abdomen, and pelvis. Resection of the mass from the left lower aspect of the abdominal wall required resection of the lower one-half of the rectus abdominus muscle and adjacent abdominal wall musculature to the iliac crest.",
+        "clinical_data": {
+          "procedures": [
+            {
+              "name": "Resection",
+              "date": "2003-03-04",
+              "location": "abdominal wall, abdomen, pelvis",
+              "outcome": "Resection of the mass from the left lower aspect of the abdominal wall required resection of the lower one-half of the rectus abdominus muscle and adjacent abdominal wall musculature to the iliac crest."
+            }
+          ],
+          "diagnoses": [
+            {
+              "code": "C0025202",
+              "label": "Mesothelioma",
+              "status": "active",
+              "onset_date": null
+            }
+          ]
+        }
+      }
+    },
+    {
+      "id": "N3",
+      "label": "Step 3",
+      "customData": {
+        "node_id": "C",
+        "node_step_index": 2,
+        "content": "November 11, 2003 CT scan showed an 11 cm mass within the anterior abdominal wall and a 5 cm by 2.9 cm mass associated with the right colon. No disease was seen outside the abdomen and pelvis. Biopsy of the abdominal wall mass showed malignant peritoneal mesothelioma.",
+        "clinical_data": {
+          "imaging": [
+            {
+              "type": "Mass",
+              "body_part": "Anterior abdominal wall",
+              "modality": "CT",
+              "finding": "11 cm mass",
+              "date": "2003-11-11"
+            },
+            {
+              "type": "Mass",
+              "body_part": "Right colon",
+              "modality": "CT",
+              "finding": "5 cm by 2.9 cm mass",
+              "date": "2003-11-11"
+            }
+          ],
+          "diagnoses": [
+            {
+              "code": "C45.1",
+              "label": "Malignant peritoneal mesothelioma",
+              "status": "active",
+              "onset_date": "2003-11-11"
+            }
+          ]
+        }
+      }
+    },
+    {
+      "id": "N4",
+      "label": "Step 4",
+      "customData": {
+        "node_id": "D",
+        "node_step_index": 3,
+        "content": "Resected specimen measured 15 cm \u00d7 12 cm \u00d7 7 cm. Greater omentectomy and splenectomy, peritoneum from beneath the right hemidiaphragm, tumor nodules from small bowel and its mesentery, and complete pelvic peritonectomy with resection of rectosigmoid colon, uterus, Fallopian tubes and ovaries performed.",
+        "clinical_data": {
+          "procedures": [
+            {
+              "name": "Omentectomy",
+              "approach": "open",
+              "date": null,
+              "location": "Greater omentum",
+              "performed_by": null,
+              "outcome": null
+            },
+            {
+              "name": "Splenectomy",
+              "approach": "open",
+              "date": null,
+              "location": "Spleen",
+              "performed_by": null,
+              "outcome": null
+            },
+            {
+              "name": "Peritonectomy",
+              "approach": "open",
+              "date": null,
+              "location": "Peritoneum beneath right hemidiaphragm",
+              "performed_by": null,
+              "outcome": null
+            },
+            {
+              "name": "Resection of rectosigmoid colon",
+              "approach": "open",
+              "date": null,
+              "location": "Rectosigmoid colon",
+              "performed_by": null,
+              "outcome": null
+            },
+            {
+              "name": "Hysterectomy",
+              "approach": "open",
+              "date": null,
+              "location": "Uterus",
+              "performed_by": null,
+              "outcome": null
+            },
+            {
+              "name": "Salpingectomy",
+              "approach": "open",
+              "date": null,
+              "location": "Fallopian tubes",
+              "performed_by": null,
+              "outcome": null
+            },
+            {
+              "name": "Oophorectomy",
+              "approach": "open",
+              "date": null,
+              "location": "Ovaries",
+              "performed_by": null,
+              "outcome": null
+            }
+          ]
+        }
+      }
+    },
+    {
+      "id": "N5",
+      "label": "Step 5",
+      "customData": {
+        "node_id": "E",
+        "node_step_index": 4,
+        "content": "Patient treated with hyperthermic intraperitoneal chemotherapy (HIPEC) after complete cytoreduction.",
+        "clinical_data": {
+          "procedures": [
+            {
+              "name": "Hyperthermic Intraperitoneal Chemotherapy",
+              "approach": "other",
+              "date": null,
+              "location": "intraperitoneal",
+              "performed_by": null,
+              "outcome": null
+            },
+            {
+              "name": "Cytoreduction",
+              "approach": null,
+              "date": null,
+              "location": null,
+              "performed_by": null,
+              "outcome": "complete"
+            }
+          ]
+        }
+      }
+    },
+    {
+      "id": "N6",
+      "label": "Step 6",
+      "customData": {
+        "node_id": "F",
+        "node_step_index": 5,
+        "content": "Patient's postoperative course was uneventful.",
+        "clinical_data": {}
+      }
+    },
+    {
+      "id": "N7",
+      "label": "Step 7",
+      "customData": {
+        "node_id": "G",
+        "node_step_index": 6,
+        "content": "18 months postoperatively, CT scan showed multiple lung metastases.",
+        "clinical_data": {
+          "imaging": [
+            {
+              "type": "Computed tomography",
+              "body_part": "Lung",
+              "modality": "CT",
+              "finding": "multiple lung metastases",
+              "date": null
+            }
+          ]
+        }
+      }
+    },
+    {
+      "id": "N8",
+      "label": "Step 8",
+      "customData": {
+        "node_id": "H",
+        "node_step_index": 7,
+        "content": "Patient died of progressive malignant mesothelioma in July 2005, 29 months after cytoreductive surgery and HIPEC. The malignant mesothelioma tumor was located in the left lower quadrant of the abdominal wall at the anatomic site of a Spigelian hernia.",
+        "clinical_data": {
+          "diagnoses": [
+            {
+              "code": "C45.0",
+              "label": "Malignant mesothelioma of peritoneum",
+              "status": "historical",
+              "onset_date": null
+            }
+          ],
+          "procedures": [
+            {
+              "name": "Cytoreductive surgery",
+              "approach": "open",
+              "date": null,
+              "location": "abdomen",
+              "performed_by": null,
+              "outcome": null
+            },
+            {
+              "name": "Hyperthermic intraperitoneal chemotherapy",
+              "approach": "other",
+              "date": null,
+              "location": "abdomen",
+              "performed_by": null,
+              "outcome": null
+            }
+          ]
+        }
+      }
+    },
+    {
+      "id": "N9",
+      "label": "Step 9",
+      "customData": {
+        "node_id": "I",
+        "node_step_index": 8,
+        "content": "Malignant peritoneal mesothelioma was widely distributed on the peritoneal surfaces of the abdomen and pelvis. The largest tumor accumulation was within the Spigelian hernia sac. Tumor was present within the omentum in large volume. Malignant mesothelioma was layered out on the peritoneal surface of the right hemidiaphragm, surface of the spleen and pelvic peritoneal surfaces.",
+        "clinical_data": {
+          "diagnoses": [
+            {
+              "code": "C48.2",
+              "label": "Malignant neoplasm of peritoneum, unspecified",
+              "status": "active"
+            },
+            {
+              "code": "C45.1",
+              "label": "Mesothelioma of peritoneum",
+              "status": "active"
+            }
+          ],
+          "imaging": [
+            {
+              "body_part": "Peritoneum",
+              "finding": "Malignant peritoneal mesothelioma widely distributed on the peritoneal surfaces of the abdomen and pelvis",
+              "impression": "Malignant peritoneal mesothelioma",
+              "modality": "other"
+            },
+            {
+              "body_part": "Spigelian hernia sac",
+              "finding": "Largest tumor accumulation",
+              "impression": "Malignant mesothelioma",
+              "modality": "other"
+            },
+            {
+              "body_part": "Omentum",
+              "finding": "Tumor present in large volume",
+              "impression": "Malignant mesothelioma",
+              "modality": "other"
+            },
+            {
+              "body_part": "Right hemidiaphragm",
+              "finding": "Malignant mesothelioma layered out on the peritoneal surface",
+              "impression": "Malignant mesothelioma",
+              "modality": "other"
+            },
+            {
+              "body_part": "Spleen",
+              "finding": "Malignant mesothelioma layered out on the surface",
+              "impression": "Malignant mesothelioma",
+              "modality": "other"
+            },
+            {
+              "body_part": "Pelvic peritoneal surfaces",
+              "finding": "Malignant mesothelioma layered out on the peritoneal surface",
+              "impression": "Malignant mesothelioma",
+              "modality": "other"
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "edges": [
+    {
+      "from": "N1",
+      "to": "N2",
+      "data": {
+        "edge_id": "A_to_B",
+        "branch_flag": true,
+        "content": "Patient underwent surgical procedure to remove mesothelioma from abdominal wall, abdomen, and pelvis."
+      }
+    },
+    {
+      "from": "N2",
+      "to": "N3",
+      "data": {
+        "edge_id": "B_to_C",
+        "branch_flag": true,
+        "content": "CT scan showed masses within the anterior abdominal wall and right colon. Biopsy showed malignant peritoneal mesothelioma.",
+        "transition_event": {
+          "trigger_type": "imaging",
+          "trigger_entities": [
+            "C0264924",
+            "C0007103"
+          ],
+          "change_type": "progression",
+          "target_domain": "imaging",
+          "timestamp": "2003-11-11"
+        }
+      }
+    },
+    {
+      "from": "N3",
+      "to": "N4",
+      "data": {
+        "edge_id": "C_to_D",
+        "branch_flag": true,
+        "content": "Resection of specimen, omentectomy, splenectomy, peritonectomy, resection of rectosigmoid colon, hysterectomy, salpingectomy and oophorectomy performed."
+      }
+    },
+    {
+      "from": "N4",
+      "to": "N5",
+      "data": {
+        "edge_id": "D_to_E",
+        "branch_flag": true,
+        "content": "Patient treated with hyperthermic intraperitoneal chemotherapy (HIPEC) after complete cytoreduction.",
+        "transition_event": {
+          "trigger_type": "procedure",
+          "trigger_entities": [
+            "C3843393",
+            "C0011037"
+          ],
+          "change_type": "addition",
+          "target_domain": "procedure"
+        }
+      }
+    },
+    {
+      "from": "N5",
+      "to": "N6",
+      "data": {
+        "edge_id": "E_to_F",
+        "branch_flag": true,
+        "content": "Patient's postoperative course was uneventful."
+      }
+    },
+    {
+      "from": "N6",
+      "to": "N7",
+      "data": {
+        "edge_id": "F_to_G",
+        "branch_flag": true,
+        "content": "CT scan showed multiple lung metastases.",
+        "transition_event": {
+          "trigger_type": "imaging",
+          "trigger_entities": [
+            "C0027651"
+          ],
+          "change_type": "progression",
+          "target_domain": "imaging"
+        }
+      }
+    },
+    {
+      "from": "N7",
+      "to": "N8",
+      "data": {
+        "edge_id": "G_to_H",
+        "branch_flag": true,
+        "content": "Patient died of progressive malignant mesothelioma 29 months after cytoreductive surgery and HIPEC.",
+        "transition_event": {
+          "trigger_type": "progression",
+          "trigger_entities": [
+            "C0025202"
+          ],
+          "change_type": "progression",
+          "target_domain": "diagnosis",
+          "timestamp": "2005-07"
+        }
+      }
+    },
+    {
+      "from": "N8",
+      "to": "N9",
+      "data": {
+        "edge_id": "H_to_I",
+        "branch_flag": true,
+        "content": "Malignant peritoneal mesothelioma was widely distributed on the peritoneal surfaces of the abdomen and pelvis. The largest tumor accumulation was within the Spigelian hernia sac. Tumor was present within the omentum in large volume. Malignant mesothelioma was layered out on the peritoneal surface of the right hemidiaphragm, surface of the spleen and pelvic peritoneal surfaces."
+      }
+    }
+  ]
+}

@@ -1,0 +1,446 @@
+{
+  "nodes": [
+    {
+      "id": "N1",
+      "label": "Step 1",
+      "customData": {
+        "node_id": "A",
+        "node_step_index": 0,
+        "content": "68-year-old Hispanic male presented with a one-month history of a progressively enlarging and painful head mass and accompanying headaches. Past medical history significant for chronic obstructive pulmonary disease with a social history of 40-pack-year smoking. The patient denied having nausea, seizures, loss of consciousness, cough, or shortness of breath.",
+        "clinical_data": {
+          "HPI": [
+            {
+              "summary": "One-month history of a progressively enlarging and painful head mass and accompanying headaches.",
+              "duration": "1 month",
+              "progression": "gradual",
+              "associated_symptoms": [
+                "headaches"
+              ]
+            }
+          ],
+          "social_history": [
+            {
+              "category": "smoking",
+              "status": "past",
+              "description": "40-pack-year smoking"
+            }
+          ],
+          "diagnoses": [
+            {
+              "code": "422586006",
+              "label": "Chronic obstructive lung disease (disorder)",
+              "status": "historical"
+            }
+          ]
+        }
+      }
+    },
+    {
+      "id": "N2",
+      "label": "Step 2",
+      "customData": {
+        "node_id": "B",
+        "node_step_index": 1,
+        "content": "Head CT scan performed two weeks prior revealed a 39 x 32 mm soft tissue mass located at the dorsal midline of the parietal-occipital bone.",
+        "clinical_data": {
+          "imaging": [
+            {
+              "type": "Computed tomography",
+              "body_part": "Head",
+              "modality": "CT",
+              "finding": "39 x 32 mm soft tissue mass located at the dorsal midline of the parietal-occipital bone",
+              "date": "two weeks prior"
+            }
+          ]
+        }
+      }
+    },
+    {
+      "id": "N3",
+      "label": "Step 3",
+      "customData": {
+        "node_id": "C",
+        "node_step_index": 2,
+        "content": "Physical examination revealed the patient was vitally stable. A palpable, round, non-pulsatile, tender mass measuring 5 x 2 cm was present on the occipital area of the head. Laboratory testing, including complete blood count, renal function test, liver function test, and serum electrolyte levels, showed no abnormalities. A CT scan of the head without contrast revealed a 5 cm soft tissue mass located at the dorsal midline parietal-occipital bone.",
+        "clinical_data": {
+          "vitals": [
+            {
+              "type": "Vital signs",
+              "value": "stable"
+            }
+          ],
+          "physical_exam": [
+            {
+              "finding": "palpable, round, non-pulsatile, tender mass",
+              "location": "occipital area of the head",
+              "size": "5 x 2 cm"
+            }
+          ],
+          "labs": [
+            {
+              "test": "Complete blood count",
+              "value": "no abnormalities"
+            },
+            {
+              "test": "Renal function test",
+              "value": "no abnormalities"
+            },
+            {
+              "test": "Liver function test",
+              "value": "no abnormalities"
+            },
+            {
+              "test": "Serum electrolyte levels",
+              "value": "no abnormalities"
+            }
+          ],
+          "imaging": [
+            {
+              "type": "CT scan of the head",
+              "body_part": "head",
+              "modality": "CT",
+              "finding": "5 cm soft tissue mass",
+              "location": "dorsal midline parietal-occipital bone"
+            }
+          ]
+        }
+      }
+    },
+    {
+      "id": "N4",
+      "label": "Step 4",
+      "customData": {
+        "node_id": "D",
+        "node_step_index": 3,
+        "content": "CT head without contrast: 5.0 x 4.2 x 3.3 cm soft tissue mass centered within the dorsal midline parietal-occipital bone with extension into the epidural space and invasion of the superior sagittal sinus. Serum protein electrophoresis (SPEP) was negative. Patient was started on levetiracetam to prevent seizures and referred to neurosurgery.",
+        "clinical_data": {
+          "imaging": [
+            {
+              "type": "Computed tomography of head",
+              "body_part": "Head",
+              "modality": "CT",
+              "finding": "5.0 x 4.2 x 3.3 cm soft tissue mass centered within the dorsal midline parietal-occipital bone with extension into the epidural space and invasion of the superior sagittal sinus",
+              "date": null
+            }
+          ],
+          "labs": [
+            {
+              "test": "Serum protein electrophoresis",
+              "value": "negative"
+            }
+          ],
+          "medications": [
+            {
+              "drug": "levetiracetam",
+              "indication": "seizures"
+            }
+          ]
+        }
+      }
+    },
+    {
+      "id": "N5",
+      "label": "Step 5",
+      "customData": {
+        "node_id": "E",
+        "node_step_index": 4,
+        "content": "MRI of the brain without contrast showed a lytic mass centered in the posterior midline parietal and occipital bone, measuring approximately 5.1 x 2.6 x 4.0 cm (craniocaudal by anteroposterior by transverse). The mass had eroded through the inner and outer tables of the skull, extending into the epidural space and overlying subcutaneous fat. The mass slightly compresses the underlying parietal and occipital cortex without associated vasogenic edema. CT scan of the chest, abdomen, and pelvis with contrast revealed a lobulated solid mass measuring 4.8 x 4.2 x 4.6 cm in the right upper lobe of the lung, along with a lytic lesion and pathologic fracture on the posterior aspect of the right 7th rib, a 3 cm soft tissue mass over the right 11th rib, a small lytic lesion on the right iliac wing, and on the right sacral ala.",
+        "clinical_data": {
+          "imaging": [
+            {
+              "type": "Brain MRI",
+              "body_part": "Brain",
+              "modality": "MRI",
+              "finding": "Lytic mass centered in the posterior midline parietal and occipital bone, measuring approximately 5.1 x 2.6 x 4.0 cm (craniocaudal by anteroposterior by transverse). The mass had eroded through the inner and outer tables of the skull, extending into the epidural space and overlying subcutaneous fat. The mass slightly compresses the underlying parietal and occipital cortex without associated vasogenic edema.",
+              "date": null
+            },
+            {
+              "type": "CT scan of the chest, abdomen, and pelvis",
+              "body_part": "Chest, abdomen, and pelvis",
+              "modality": "CT",
+              "finding": "Lobulated solid mass measuring 4.8 x 4.2 x 4.6 cm in the right upper lobe of the lung, along with a lytic lesion and pathologic fracture on the posterior aspect of the right 7th rib, a 3 cm soft tissue mass over the right 11th rib, a small lytic lesion on the right iliac wing, and on the right sacral ala.",
+              "date": null
+            }
+          ]
+        }
+      }
+    },
+    {
+      "id": "N6",
+      "label": "Step 6",
+      "customData": {
+        "node_id": "F",
+        "node_step_index": 5,
+        "content": "CT chest with contrast: 4.8 x 4.2 x 4.6 cm lobulated solid mass right upper lobe contiguous with the pulmonary hila and lytic lesion posteriorly right 7th rib with pathologic fracture. CT abdomen pelvis with contrast: Small lytic lesion in the right iliac wing, and 3.5 cm lytic lesion in the right sacral ala without fracture. MRI brain without contrast: Anterior displacement of the superior sagittal sinus, without evidence of sinus invasion. 5 cm lytic mass centered in the posterior midline parietal and occipital bone eroding through the inner and outer table.",
+        "clinical_data": {
+          "imaging": [
+            {
+              "type": "Mass",
+              "body_part": "Right upper lobe of lung",
+              "modality": "CT",
+              "finding": "4.8 x 4.2 x 4.6 cm lobulated solid mass",
+              "impression": "Mass contiguous with the pulmonary hila",
+              "date": null
+            },
+            {
+              "type": "Lytic lesion",
+              "body_part": "Right 7th rib",
+              "modality": "CT",
+              "finding": "Lytic lesion",
+              "impression": "Pathologic fracture",
+              "date": null
+            },
+            {
+              "type": "Lytic lesion",
+              "body_part": "Right iliac wing",
+              "modality": "CT",
+              "finding": "Small lytic lesion",
+              "impression": null,
+              "date": null
+            },
+            {
+              "type": "Lytic lesion",
+              "body_part": "Right sacral ala",
+              "modality": "CT",
+              "finding": "3.5 cm lytic lesion",
+              "impression": "No fracture",
+              "date": null
+            },
+            {
+              "type": "Mass",
+              "body_part": "Posterior midline parietal and occipital bone",
+              "modality": "MRI",
+              "finding": "5 cm lytic mass",
+              "impression": "Anterior displacement of the superior sagittal sinus, without evidence of sinus invasion. Mass eroding through the inner and outer table.",
+              "date": null
+            }
+          ]
+        }
+      }
+    },
+    {
+      "id": "N7",
+      "label": "Step 7",
+      "customData": {
+        "node_id": "G",
+        "node_step_index": 6,
+        "content": "Mild extension into the epidural space with mild mass effect on the parietal lobe. Patient was referred to interventional radiology for a biopsy of the skull mass.",
+        "clinical_data": {
+          "imaging": [
+            {
+              "type": "Skull mass",
+              "body_part": "Skull",
+              "modality": "other",
+              "finding": "Mild extension into the epidural space with mild mass effect on the parietal lobe.",
+              "impression": "Mild extension into the epidural space with mild mass effect on the parietal lobe."
+            }
+          ],
+          "procedures": [
+            {
+              "name": "Biopsy",
+              "location": "Skull mass",
+              "performed_by": "Interventional radiology"
+            }
+          ]
+        }
+      }
+    },
+    {
+      "id": "N8",
+      "label": "Step 8",
+      "customData": {
+        "node_id": "H",
+        "node_step_index": 7,
+        "content": "Patient underwent occipital mass resection with wire mesh cranioplasty the day after the biopsy.",
+        "clinical_data": {
+          "procedures": [
+            {
+              "name": "Resection",
+              "approach": "open",
+              "date": "UNKNOWN",
+              "location": "occipital area",
+              "outcome": "UNKNOWN"
+            },
+            {
+              "name": "Cranioplasty",
+              "approach": "open",
+              "date": "UNKNOWN",
+              "location": "occipital area",
+              "outcome": "UNKNOWN"
+            },
+            {
+              "name": "Biopsy",
+              "approach": "UNKNOWN",
+              "date": "UNKNOWN",
+              "location": "occipital area",
+              "outcome": "UNKNOWN"
+            }
+          ]
+        }
+      }
+    },
+    {
+      "id": "N9",
+      "label": "Step 9",
+      "customData": {
+        "node_id": "I",
+        "node_step_index": 8,
+        "content": "Immunohistology of the resected occipital mass revealed positive CK7 and CK 20 staining and negative TTF1 staining with PD-L1, suggesting a lung origin of metastatic adenocarcinoma.",
+        "clinical_data": {
+          "imaging": [
+            {
+              "type": "Occipital mass",
+              "body_part": "Occipital lobe",
+              "modality": "Immunohistology",
+              "finding": "positive CK7 and CK 20 staining and negative TTF1 staining with PD-L1",
+              "impression": "lung origin of metastatic adenocarcinoma"
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "edges": [
+    {
+      "from": "N1",
+      "to": "N2",
+      "data": {
+        "edge_id": "A_to_B",
+        "branch_flag": true,
+        "content": "Patient developed a head mass. A head CT scan was performed.",
+        "transition_event": {
+          "trigger_type": "symptom_onset",
+          "trigger_entities": [
+            "C0018681",
+            "C0239664"
+          ],
+          "change_type": "progression",
+          "target_domain": "symptom"
+        }
+      }
+    },
+    {
+      "from": "N2",
+      "to": "N3",
+      "data": {
+        "edge_id": "B_to_C",
+        "branch_flag": true,
+        "content": "Patient underwent physical exam and lab testing.",
+        "transition_event": {
+          "trigger_type": "procedure",
+          "trigger_entities": [
+            "C0031825",
+            "C0205371"
+          ],
+          "change_type": "addition",
+          "target_domain": "procedure"
+        }
+      }
+    },
+    {
+      "from": "N3",
+      "to": "N4",
+      "data": {
+        "edge_id": "C_to_D",
+        "branch_flag": true,
+        "content": "CT head findings further characterized. Patient started on levetiracetam and referred to neurosurgery.",
+        "transition_event": {
+          "trigger_type": "medication_change",
+          "trigger_entities": [
+            "C0887624"
+          ],
+          "change_type": "addition",
+          "target_domain": "medication"
+        }
+      }
+    },
+    {
+      "from": "N4",
+      "to": "N5",
+      "data": {
+        "edge_id": "D_to_E",
+        "branch_flag": true,
+        "content": "MRI of the brain and CT of chest, abdomen, and pelvis performed.",
+        "transition_event": {
+          "trigger_type": "procedure",
+          "trigger_entities": [
+            "C0025961",
+            "C0009402"
+          ],
+          "change_type": "addition",
+          "target_domain": "imaging"
+        }
+      }
+    },
+    {
+      "from": "N5",
+      "to": "N6",
+      "data": {
+        "edge_id": "E_to_F",
+        "branch_flag": true,
+        "content": "Further characterization of imaging findings.",
+        "transition_event": {
+          "trigger_type": "interpretation",
+          "trigger_entities": [
+            "C0011860",
+            "C0014288"
+          ],
+          "change_type": "reinterpretation",
+          "target_domain": "imaging"
+        }
+      }
+    },
+    {
+      "from": "N6",
+      "to": "N7",
+      "data": {
+        "edge_id": "F_to_G",
+        "branch_flag": true,
+        "content": "Patient referred to interventional radiology for biopsy of the skull mass.",
+        "transition_event": {
+          "trigger_type": "procedure",
+          "trigger_entities": [
+            "C0005738",
+            "C0036420"
+          ],
+          "change_type": "addition",
+          "target_domain": "procedure"
+        }
+      }
+    },
+    {
+      "from": "N7",
+      "to": "N8",
+      "data": {
+        "edge_id": "G_to_H",
+        "branch_flag": true,
+        "content": "Patient underwent occipital mass resection with wire mesh cranioplasty the day after the biopsy.",
+        "transition_event": {
+          "trigger_type": "procedure",
+          "trigger_entities": [
+            "C0036839",
+            "C0011304"
+          ],
+          "change_type": "addition",
+          "target_domain": "procedure"
+        }
+      }
+    },
+    {
+      "from": "N8",
+      "to": "N9",
+      "data": {
+        "edge_id": "H_to_I",
+        "branch_flag": true,
+        "content": "Immunohistology of the resected occipital mass revealed positive CK7 and CK 20 staining and negative TTF1 staining with PD-L1, suggesting a lung origin of metastatic adenocarcinoma.",
+        "transition_event": {
+          "trigger_type": "lab_change",
+          "trigger_entities": [
+            "C0001758",
+            "C"
+          ]
+        }
+      }
+    }
+  ]
+}

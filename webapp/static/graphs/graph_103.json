@@ -1,0 +1,198 @@
+{
+  "nodes": [
+    {
+      "id": "N1",
+      "label": "Step 1",
+      "customData": {
+        "node_id": "A",
+        "node_step_index": 0,
+        "content": "September 2020: 80-year-old Caucasian male presented with sudden onset painless swelling of the right testis of approximately 3 weeks duration. Minimal past medical history and no known history of asbestos exposure. Palpable inguinal or pelvic adenopathy was absent bilaterally and the left testis and hemi-scrotum were clinically normal. Following failed initial conservative management with antibiotics the patient underwent urgent ultrasonography which revealed a complex cystic-solid lesion in the right scrotum invading the right testicle. Testicular tumour markers, alpha-fetoprotein, lactate dehydrogenase, and beta human choriongonadotropin levels were within normal limits.",
+        "clinical_data": {
+          "HPI": [
+            {
+              "summary": "80-year-old male presented with sudden onset painless swelling of the right testis of approximately 3 weeks duration.",
+              "duration": "P3W",
+              "onset": "sudden",
+              "progression": "unknown",
+              "associated_symptoms": [
+                "Swelling of the right testis"
+              ]
+            }
+          ],
+          "diagnoses": [
+            {
+              "code": "C0278273",
+              "label": "Swelling",
+              "status": "active",
+              "onset_date": null
+            }
+          ],
+          "imaging": [
+            {
+              "type": "Ultrasound procedure",
+              "body_part": "Scrotum",
+              "modality": "Ultrasound",
+              "finding": "complex cystic-solid lesion in the right scrotum invading the right testicle",
+              "impression": "complex cystic-solid lesion in the right scrotum invading the right testicle",
+              "date": "2020-09"
+            }
+          ],
+          "labs": [
+            {
+              "test": "Alpha-Fetoproteins",
+              "value": "normal",
+              "unit": null,
+              "flag": "normal",
+              "reference_range": null,
+              "timestamp": "2020-09"
+            },
+            {
+              "test": "Lactate Dehydrogenase",
+              "value": "normal",
+              "unit": null,
+              "flag": "normal",
+              "reference_range": null,
+              "timestamp": "2020-09"
+            },
+            {
+              "test": "Beta Human Chorionic Gonadotropin Levels",
+              "value": "normal",
+              "unit": null,
+              "flag": "normal",
+              "reference_range": null,
+              "timestamp": "2020-09"
+            }
+          ]
+        },
+        "timestamp": "2020-09"
+      }
+    },
+    {
+      "id": "N2",
+      "label": "Step 2",
+      "customData": {
+        "node_id": "B",
+        "node_step_index": 1,
+        "content": "Radical inguinal orchidectomy was undertaken without complication and the patient recovered well. Pathology of the specimen was evaluated as malignant mesothelioma of the testis. Macroscopic examination of the radical inguinal orchidectomy specimen revealed a hydrocele containing yellowish clear fluid and a large primarily exophytic mass (5.2 \u00d7 4.5 \u00d7 0.5 cm) on the surface of the tunica vaginalis and tunica albuginea, predominantly involving the latter. The surface of tunica vaginalis was studded by multifocal papillary tumour nodules (0.1\u20130.7 cm in diameter). Several small foci of stromal invasion and an additional 1.5 cm satellite lesion were noted. The mass was negative for invasion of the testes, epididymis, and rete testis with negative resection margins of the spermatic cord for tumour involvement; however, lymphovascular invasion was positive.",
+        "clinical_data": {
+          "procedures": [
+            {
+              "name": "Orchidectomy, radical inguinal",
+              "date": null,
+              "location": "inguinal region",
+              "outcome": "no complications"
+            }
+          ],
+          "diagnoses": [
+            {
+              "code": "C3711",
+              "label": "Malignant mesothelioma of tunica vaginalis",
+              "status": "active",
+              "onset_date": null
+            }
+          ],
+          "imaging": [
+            {
+              "type": "hydrocele",
+              "body_part": "testis",
+              "modality": "other",
+              "finding": "yellowish clear fluid",
+              "date": null
+            }
+          ]
+        }
+      }
+    },
+    {
+      "id": "N3",
+      "label": "Step 3",
+      "customData": {
+        "node_id": "C",
+        "node_step_index": 2,
+        "content": "Microscopic examination of the malignant neoplasm revealed epithelioid cells arranged in papillary, tubulopapillary, and solid patterns. The cells were rounded to cuboidal, containing eosinophilic cytoplasm and pleomorphic, prominent nuclei with significant mitotic activity. Cellular atypia of the mesothelial surface, indicative of in situ neoplasm, was also noted. Immunohistochemistry (IHC) staining showed the tumour was strongly positive for pan-cytokeratin, calretinin, D2-40, WT-1, with focal staining for CD99, and negative for cytokeratin 5 and 6",
+        "clinical_data": {
+          "imaging": [
+            {
+              "modality": "other",
+              "finding": "epithelioid cells arranged in papillary, tubulopapillary, and solid patterns",
+              "impression": "malignant neoplasm"
+            }
+          ],
+          "labs": [
+            {
+              "test": "pan-cytokeratin",
+              "value": "positive",
+              "flag": "positive"
+            },
+            {
+              "test": "calretinin",
+              "value": "positive",
+              "flag": "positive"
+            },
+            {
+              "test": "D2-40",
+              "value": "positive",
+              "flag": "positive"
+            },
+            {
+              "test": "WT-1",
+              "value": "positive",
+              "flag": "positive"
+            },
+            {
+              "test": "CD99",
+              "value": "focal staining",
+              "flag": "positive"
+            },
+            {
+              "test": "cytokeratin 5",
+              "value": "negative",
+              "flag": "negative"
+            },
+            {
+              "test": "cytokeratin 6",
+              "value": "negative",
+              "flag": "negative"
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "edges": [
+    {
+      "from": "N1",
+      "to": "N2",
+      "data": {
+        "edge_id": "A_to_B",
+        "branch_flag": true,
+        "content": "From initial presentation with painless testicular swelling and ultrasound findings of a complex cystic-solid lesion, the patient underwent radical inguinal orchidectomy.",
+        "transition_event": {
+          "trigger_type": "procedure",
+          "trigger_entities": [
+            "C0032981"
+          ],
+          "change_type": "addition",
+          "target_domain": "procedure"
+        }
+      }
+    },
+    {
+      "from": "N2",
+      "to": "N3",
+      "data": {
+        "edge_id": "B_to_C",
+        "branch_flag": true,
+        "content": "Pathological examination of the orchidectomy specimen revealed malignant mesothelioma of the testis with specific cellular and immunohistochemical findings.",
+        "transition_event": {
+          "trigger_type": "interpretation",
+          "trigger_entities": [
+            "C3711"
+          ],
+          "change_type": "reinterpretation",
+          "target_domain": "diagnosis"
+        }
+      }
+    }
+  ]
+}

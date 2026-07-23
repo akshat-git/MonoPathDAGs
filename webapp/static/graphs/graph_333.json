@@ -1,0 +1,250 @@
+{
+  "nodes": [
+    {
+      "id": "N1",
+      "label": "Step 1",
+      "customData": {
+        "node_id": "A",
+        "node_step_index": 0,
+        "content": "Ligamentum teres hepatis excised and removed for histological diagnosis.",
+        "clinical_data": {
+          "procedures": [
+            {
+              "name": "Excision",
+              "approach": "open",
+              "date": null,
+              "location": "Ligamentum teres hepatis",
+              "performed_by": null,
+              "outcome": null
+            }
+          ],
+          "diagnoses": [
+            {
+              "code": null,
+              "label": "histological diagnosis",
+              "status": "suspected",
+              "onset_date": null
+            }
+          ]
+        }
+      }
+    },
+    {
+      "id": "N2",
+      "label": "Step 2",
+      "customData": {
+        "node_id": "B",
+        "node_step_index": 1,
+        "content": "Patient evacuated gas and stool after resumption of oral intake.",
+        "clinical_data": {}
+      }
+    },
+    {
+      "id": "N3",
+      "label": "Step 3",
+      "customData": {
+        "node_id": "C",
+        "node_step_index": 2,
+        "content": "Patient discharged from the hospital uneventfully on the third day post-operation.",
+        "clinical_data": {}
+      }
+    },
+    {
+      "id": "N4",
+      "label": "Step 4",
+      "customData": {
+        "node_id": "D",
+        "node_step_index": 3,
+        "content": "Histopathological evaluation of the ligamentum teres biopsy was positive for mesothelin, calretinin, CK 5/6, and vimentin. Histopathological evaluation of the ligamentum teres biopsy showed focal positivity for EMA and weak positivity for MUC-1. Stains for WT-1, CEA, CD15, BER-EP-4, CA 72-4, TTF-1, and mucicarmine were all negative.",
+        "clinical_data": {
+          "labs": [
+            {
+              "test": "Mesothelin",
+              "value": "positive"
+            },
+            {
+              "test": "Calretinin",
+              "value": "positive"
+            },
+            {
+              "test": "CK 5/6",
+              "value": "positive"
+            },
+            {
+              "test": "Vimentin",
+              "value": "positive"
+            },
+            {
+              "test": "EMA",
+              "value": "focal positivity"
+            },
+            {
+              "test": "MUC-1",
+              "value": "weak positivity"
+            },
+            {
+              "test": "WT-1",
+              "value": "negative"
+            },
+            {
+              "test": "CEA",
+              "value": "negative"
+            },
+            {
+              "test": "CD15",
+              "value": "negative"
+            },
+            {
+              "test": "BER-EP-4",
+              "value": "negative"
+            },
+            {
+              "test": "CA 72-4",
+              "value": "negative"
+            },
+            {
+              "test": "TTF-1",
+              "value": "negative"
+            },
+            {
+              "test": "Mucicarmine",
+              "value": "negative"
+            }
+          ]
+        }
+      }
+    },
+    {
+      "id": "N5",
+      "label": "Step 5",
+      "customData": {
+        "node_id": "F",
+        "node_step_index": 5,
+        "content": "Patient readmitted to the hospital approximately 10 days post-discharge due to abdominal pain and distention. Examination revealed peritoneal irritation signs, including abdominal distention and rebound tenderness.",
+        "clinical_data": {
+          "HPI": [
+            {
+              "summary": "Patient readmitted to the hospital approximately 10 days post-discharge due to abdominal pain and distention.",
+              "duration": "10 days",
+              "onset": "10 days post-discharge",
+              "progression": "unknown",
+              "associated_symptoms": [
+                "Abdominal distention",
+                "Rebound tenderness"
+              ]
+            }
+          ]
+        }
+      }
+    },
+    {
+      "id": "N6",
+      "label": "Step 6",
+      "customData": {
+        "node_id": "G",
+        "node_step_index": 6,
+        "content": "Abdominal radiograph showed air-fluid levels in the loops of the small bowel. Chest film was normal. Physical examination revealed a body temperature of 36.5 \u00b0C, blood pressure of 130/85 mmHg, and a pulse rate of 84 bpm. Abdomen was distended with marked diffuse tenderness, but rebound tenderness and guarding were absent. Bowel sounds were normoactive.",
+        "clinical_data": {
+          "imaging": [
+            {
+              "type": "X-ray",
+              "body_part": "Small Bowel",
+              "modality": "X-ray",
+              "finding": "air-fluid levels in the loops of the small bowel",
+              "date": null
+            },
+            {
+              "type": "X-ray",
+              "body_part": "Chest",
+              "modality": "X-ray",
+              "finding": "normal",
+              "date": null
+            }
+          ],
+          "vitals": [
+            {
+              "type": "Body Temperature",
+              "value": "36.5",
+              "unit": "\u00b0C",
+              "timestamp": null
+            },
+            {
+              "type": "Blood Pressure",
+              "value": "130/85",
+              "unit": "mmHg",
+              "timestamp": null
+            },
+            {
+              "type": "Pulse Rate",
+              "value": "84",
+              "unit": "bpm",
+              "timestamp": null
+            }
+          ],
+          "HPI": [
+            {
+              "summary": "Abdomen was distended with marked diffuse tenderness, but rebound tenderness and guarding were absent. Bowel sounds were normoactive.",
+              "associated_symptoms": [
+                "Tenderness",
+                "Abdominal distension"
+              ]
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "edges": [
+    {
+      "from": "N1",
+      "to": "N2",
+      "data": {
+        "edge_id": "A_to_B",
+        "branch_flag": true,
+        "content": "Post-operative period following excision of the ligamentum teres hepatis."
+      }
+    },
+    {
+      "from": "N2",
+      "to": "N3",
+      "data": {
+        "edge_id": "B_to_C",
+        "branch_flag": true,
+        "content": "Improvement in patient's condition, tolerating oral intake and passing gas and stool."
+      }
+    },
+    {
+      "from": "N3",
+      "to": "N4",
+      "data": {
+        "edge_id": "C_to_D",
+        "branch_flag": true,
+        "content": "Time elapsed between discharge and histopathological evaluation of the ligamentum teres biopsy."
+      }
+    },
+    {
+      "from": "N4",
+      "to": "N5",
+      "data": {
+        "edge_id": "D_to_F",
+        "branch_flag": true,
+        "content": "Interval between biopsy results and readmission to hospital.",
+        "transition_event": {
+          "trigger_type": "spontaneous",
+          "trigger_entities": [],
+          "change_type": "progression",
+          "target_domain": "symptom"
+        }
+      }
+    },
+    {
+      "from": "N5",
+      "to": "N6",
+      "data": {
+        "edge_id": "F_to_G",
+        "branch_flag": true,
+        "content": "Further evaluation of abdominal pain and distention, including imaging and physical examination."
+      }
+    }
+  ]
+}

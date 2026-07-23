@@ -1,0 +1,295 @@
+{
+  "nodes": [
+    {
+      "id": "N1",
+      "label": "Step 1",
+      "customData": {
+        "node_id": "A",
+        "node_step_index": 0,
+        "content": "65-year-old male diagnosed with pancreatic cancer, a cancerous lesion in the liver, and an independent tumor with pneumothorax in the lower lobe of the right lung on 2019 Jun.",
+        "timestamp": "2019-06",
+        "clinical_data": {
+          "diagnoses": [
+            {
+              "code": "C25.9",
+              "label": "Malignant neoplasm of pancreas, unspecified",
+              "status": "active",
+              "onset_date": "2019-06"
+            },
+            {
+              "code": "C22.9",
+              "label": "Malignant neoplasm of liver, not specified as primary or secondary",
+              "status": "active",
+              "onset_date": "2019-06"
+            },
+            {
+              "code": "J93.1",
+              "label": "Spontaneous pneumothorax",
+              "status": "active",
+              "onset_date": "2019-06"
+            }
+          ],
+          "imaging": [
+            {
+              "type": "Neoplasm",
+              "body_part": "Liver",
+              "modality": "CT",
+              "finding": "cancerous lesion",
+              "impression": "cancerous lesion",
+              "date": "2019-06"
+            },
+            {
+              "type": "Neoplasm",
+              "body_part": "Lower lobe of right lung",
+              "modality": "CT",
+              "finding": "tumor",
+              "impression": "tumor with pneumothorax",
+              "date": "2019-06"
+            }
+          ]
+        }
+      }
+    },
+    {
+      "id": "N2",
+      "label": "Step 2",
+      "customData": {
+        "node_id": "B",
+        "node_step_index": 1,
+        "content": "Biopsy of the pancreas revealed primary adenocarcinoma.",
+        "timestamp": "2019-06",
+        "clinical_data": {
+          "diagnoses": [
+            {
+              "code": "C0007097",
+              "label": "Adenocarcinoma",
+              "status": "active",
+              "onset_date": null
+            }
+          ],
+          "procedures": [
+            {
+              "name": "Biopsy",
+              "approach": "other",
+              "date": null,
+              "location": "Pancreas",
+              "performed_by": null,
+              "outcome": null
+            }
+          ]
+        }
+      }
+    },
+    {
+      "id": "N3",
+      "label": "Step 3",
+      "customData": {
+        "node_id": "C",
+        "node_step_index": 2,
+        "content": "Biopsy of the liver lesion revealed metastatic adenocarcinoma from the pancreatic cancer.",
+        "timestamp": "2019-06",
+        "clinical_data": {
+          "diagnoses": [
+            {
+              "code": "C0006826",
+              "label": "adenocarcinoma",
+              "status": "active"
+            },
+            {
+              "code": "C0242392",
+              "label": "Metastatic adenocarcinoma",
+              "status": "active",
+              "onset_date": null
+            },
+            {
+              "code": "C0030705",
+              "label": "Pancreatic Cancer",
+              "status": "active",
+              "onset_date": null
+            }
+          ],
+          "procedures": [
+            {
+              "name": "C0005738",
+              "approach": "percutaneous",
+              "date": null,
+              "location": "Liver",
+              "performed_by": null,
+              "outcome": null
+            }
+          ],
+          "imaging": [
+            {
+              "type": "C0023867",
+              "body_part": "Liver",
+              "modality": null,
+              "finding": "C0206355",
+              "impression": null,
+              "date": null
+            }
+          ]
+        }
+      }
+    },
+    {
+      "id": "N4",
+      "label": "Step 4",
+      "customData": {
+        "node_id": "D",
+        "node_step_index": 3,
+        "content": "Metastatic adenocarcinoma detected in a small artery of the lung, positive for CK7, MUC1 and MUC5AC. Immunohistopathological staining pattern was the same as that of the primary pancreatic adenocarcinoma. Partial resection of the lower lobe of the right lung was performed. Histopathological examination of the right lung revealed two tumors: one measuring 43 x 20 mm and another measuring 45 x 27 x 15 mm. The larger tumor was identified as invasive squamous cell carcinoma of the nonkeratinizing type, classified as primary lung cancer pT2b. Metastatic adenocarcinoma in the lung tissue, positive for CK7, MUC1 and MUC5AC. Immunohistopathological staining pattern was the same as that of the primary pancreatic adenocarcinoma. Background lung tissue included bronchiolization and fibrotic lesions with mucinous metaplasia and emphysematous changes. Small adenocarcinomatous lesions detected in the lung lesion, located outside the pleural elastic fibers. Metastatic adenocarcinoma in the fibrotic regions associated with pneumothorax and bronchiolization, adjacent to the lung cancer. Adenocarcinoma detected in the intima of small arteries in the lung. Pulmonary fibrotic regions associated with pneumothorax and bronchiolization included metastatic lesions with abundant \u03b1SMA-positive myofibroblasts, similar to the cancer stroma.",
+        "timestamp": "2019-06",
+        "clinical_data": {
+          "diagnoses": [
+            {
+              "code": "C8014",
+              "label": "Metastatic adenocarcinoma",
+              "status": "active"
+            },
+            {
+              "code": "C34.9",
+              "label": "Primary lung cancer",
+              "status": "active"
+            },
+            {
+              "code": "C2350",
+              "label": "Squamous cell carcinoma",
+              "status": "active"
+            },
+            {
+              "code": "C0006774",
+              "label": "Pneumothorax",
+              "status": "active"
+            }
+          ],
+          "imaging": [
+            {
+              "type": "Finding",
+              "body_part": "Lung",
+              "modality": "other",
+              "finding": "Metastatic adenocarcinoma",
+              "impression": "positive for CK7, MUC1 and MUC5AC"
+            },
+            {
+              "type": "Finding",
+              "body_part": "Lung",
+              "modality": "other",
+              "finding": "Invasive squamous cell carcinoma of the nonkeratinizing type",
+              "impression": "primary lung cancer pT2b"
+            },
+            {
+              "type": "Finding",
+              "body_part": "Lung",
+              "modality": "other",
+              "finding": "fibrotic lesions with mucinous metaplasia and emphysematous changes",
+              "impression": "Background lung tissue"
+            },
+            {
+              "type": "Finding",
+              "body_part": "Lung",
+              "modality": "other",
+              "finding": "Small adenocarcinomatous lesions",
+              "impression": "located outside the pleural elastic fibers"
+            },
+            {
+              "type": "Finding",
+              "body_part": "Lung",
+              "modality": "other",
+              "finding": "Pulmonary fibrotic regions associated with pneumothorax and bronchiolization",
+              "impression": "included metastatic lesions with abundant \u03b1SMA-positive myofibroblasts, similar to the cancer stroma"
+            }
+          ],
+          "procedures": [
+            {
+              "name": "Resection",
+              "approach": "open",
+              "date": null,
+              "location": "lower lobe of the right lung",
+              "performed_by": null,
+              "outcome": "partial"
+            }
+          ]
+        }
+      }
+    },
+    {
+      "id": "N5",
+      "label": "Step 5",
+      "customData": {
+        "node_id": "E",
+        "node_step_index": 4,
+        "content": "Patient died 50 days after the surgery.",
+        "timestamp": "2019-08",
+        "clinical_data": {}
+      }
+    }
+  ],
+  "edges": [
+    {
+      "from": "N1",
+      "to": "N2",
+      "data": {
+        "edge_id": "A_to_B",
+        "branch_flag": true,
+        "content": "Biopsy performed on the pancreas.",
+        "transition_event": {
+          "trigger_type": "procedure",
+          "trigger_entities": [
+            "C0005738"
+          ],
+          "change_type": "addition",
+          "target_domain": "procedure"
+        }
+      }
+    },
+    {
+      "from": "N2",
+      "to": "N3",
+      "data": {
+        "edge_id": "B_to_C",
+        "branch_flag": true,
+        "content": "Biopsy performed on the liver lesion.",
+        "transition_event": {
+          "trigger_type": "procedure",
+          "trigger_entities": [
+            "C0005738"
+          ],
+          "change_type": "addition",
+          "target_domain": "procedure"
+        }
+      }
+    },
+    {
+      "from": "N3",
+      "to": "N4",
+      "data": {
+        "edge_id": "C_to_D",
+        "branch_flag": true,
+        "content": "Partial resection of the lower lobe of the right lung was performed and metastatic adenocarcinoma was detected in a small artery of the lung.",
+        "transition_event": {
+          "trigger_type": "procedure",
+          "trigger_entities": [
+            "C0034958"
+          ],
+          "change_type": "addition",
+          "target_domain": "procedure"
+        }
+      }
+    },
+    {
+      "from": "N4",
+      "to": "N5",
+      "data": {
+        "edge_id": "D_to_E",
+        "branch_flag": true,
+        "content": "Patient expired.",
+        "transition_event": {
+          "trigger_type": "spontaneous",
+          "trigger_entities": [],
+          "change_type": "progression",
+          "target_domain": "functional_status"
+        }
+      }
+    }
+  ]
+}

@@ -1,0 +1,359 @@
+{
+  "nodes": [
+    {
+      "id": "N1",
+      "label": "Step 1",
+      "customData": {
+        "node_id": "A",
+        "node_step_index": 0,
+        "content": "79-year-old woman presented with chest pain for one month. Physical examination revealed diffuse erythema with lichenification of the trunk and limbs. Initial laboratory data indicated a high level of inflammation with a WBC count of 18,100 /\u03bcL (normal range: 3800\u20139400 /\u03bcL), CRP levels of 7.56\u2009mg/dL (0.00\u20130.03\u2009mg/dL), and an ESR of 136\u2009mm/h (1.0\u201315.0\u2009mm/h).",
+        "clinical_data": {
+          "HPI": [
+            {
+              "summary": "79-year-old woman presented with chest pain for one month.",
+              "duration": "1 month",
+              "progression": "unknown",
+              "associated_symptoms": [
+                "chest pain"
+              ]
+            }
+          ],
+          "physical_exam": [
+            {
+              "finding": "diffuse erythema with lichenification of the trunk and limbs"
+            }
+          ],
+          "labs": [
+            {
+              "test": "White blood cell count",
+              "value": "18100",
+              "unit": "/\u03bcL",
+              "flag": "abnormal",
+              "reference_range": "3800\u20139400 /\u03bcL"
+            },
+            {
+              "test": "C-Reactive Protein",
+              "value": "7.56",
+              "unit": "mg/dL",
+              "flag": "abnormal",
+              "reference_range": "0.00\u20130.03 mg/dL"
+            },
+            {
+              "test": "Erythrocyte Sedimentation Rate",
+              "value": "136",
+              "unit": "mm/h",
+              "flag": "abnormal",
+              "reference_range": "1.0\u201315.0 mm/h"
+            }
+          ]
+        }
+      }
+    },
+    {
+      "id": "N2",
+      "label": "Step 2",
+      "customData": {
+        "node_id": "B",
+        "node_step_index": 1,
+        "content": "HIV-1/2 and HTLV-1 antibody tests were negative. QuantiFERON-Gold test yielded indeterminate results. MAC infection test was negative based on serum anti-glycopeptidolipid-core immunoglobulin levels. Immunoglobulin levels (IgG, IgA, IgM) were normal.",
+        "clinical_data": {
+          "labs": [
+            {
+              "test": "HIV-1/2 antibody",
+              "value": "negative"
+            },
+            {
+              "test": "HTLV-1 antibody",
+              "value": "negative"
+            },
+            {
+              "test": "QuantiFERON-Gold test",
+              "value": "indeterminate"
+            },
+            {
+              "test": "MAC infection test",
+              "value": "negative"
+            },
+            {
+              "test": "Immunoglobulin G measurement",
+              "value": "normal"
+            },
+            {
+              "test": "IgA measurement",
+              "value": "normal"
+            },
+            {
+              "test": "IgM measurement",
+              "value": "normal"
+            }
+          ]
+        }
+      }
+    },
+    {
+      "id": "N3",
+      "label": "Step 3",
+      "customData": {
+        "node_id": "C",
+        "node_step_index": 2,
+        "content": "HRCT of the chest showed a nodule in the left S1\u2009+\u20092 segment, interlobular septal thickening in the left lower lobe, lymphadenopathy of the left hilar, mediastinal, supraclavicular, and posterior cervical lymph nodes, and osteolysis of the sternum and the left second rib. Hepatomegaly and splenomegaly present. FDG-PET revealed multifocal hypermetabolic lesions in the nodule and all the swollen lymph nodes seen in HRCT. FDG also accumulated in the anterior spinal cord, sacrum, iliac bone, pubic bone, ischium, sternum, scapula, ribs, clavicle, and thigh bone.",
+        "clinical_data": {
+          "imaging": [
+            {
+              "type": "HRCT of the chest",
+              "body_part": "chest",
+              "modality": "CT",
+              "finding": "nodule in the left S1 + 2 segment, interlobular septal thickening in the left lower lobe, lymphadenopathy of the left hilar, mediastinal, supraclavicular, and posterior cervical lymph nodes, and osteolysis of the sternum and the left second rib",
+              "date": null
+            },
+            {
+              "type": "FDG-PET",
+              "body_part": "multiple",
+              "modality": "PET",
+              "finding": "multifocal hypermetabolic lesions in the nodule and all the swollen lymph nodes seen in HRCT. FDG also accumulated in the anterior spinal cord, sacrum, iliac bone, pubic bone, ischium, sternum, scapula, ribs, clavicle, and thigh bone",
+              "date": null
+            }
+          ],
+          "diagnoses": [
+            {
+              "code": "hepatomegaly",
+              "label": "hepatomegaly",
+              "status": "active",
+              "onset_date": null
+            },
+            {
+              "code": "splenomegaly",
+              "label": "splenomegaly",
+              "status": "active",
+              "onset_date": null
+            },
+            {
+              "code": "lymphadenopathy",
+              "label": "lymphadenopathy",
+              "status": "active",
+              "onset_date": null
+            }
+          ]
+        }
+      }
+    },
+    {
+      "id": "N4",
+      "label": "Step 4",
+      "customData": {
+        "node_id": "D",
+        "node_step_index": 3,
+        "content": "WBC 18,100 /\u03bcL, Neut 69.5 %, TP 6.9 g/dL, CEA 2.6 ng/mL, Alb 2.8 g/dL, SCC 0.9 ng/mL, Eos 16 %, AST 9 U/L, NSE 10.3 ng/mL, Lym 11 %, ALT 16 U/L, ProGRP 33.9 pg/mL, Hb 8.9 g/dL, LDH 192 U/L, CYFRA 1.6 ng/mL, Ht 27.2 %, ALP 522 U/L, CA19\u20139 5 U/mL, MCV 86.3 \u03bcm3, \u03b3-GTP 79 U/L, sIL-2R 10,252 U/mL, MCHC 32.7 %, CK 16 U/L, HTLV-1 antibody < 16 times, Plt 375,000 /\u03bcL, Na 138 mEq/L, T-SPOT\u00ae (-), ESR 136 mm/h, K 4.5 mEq/L, QuantiFERON\u00ae < 0.05 undeterminate, Cl 102 mEq/L, BUN 23 mg/dL, Capillia MAC IgA\u00ae (-), CRE 0.93 mg/dL, IgG 1072 mg/dL, WBC 7400 /\u03bcL, Blood Sugar 106 mg/dL, IgA 144 mg/dL, Lym 20.4 %, CRP 7.56 mg/dL, IgM 61 mg/dL, CD4 30.7 %, PCT 0.43 ng/mL, HIV-1/2 antibodies (-/-), CD8 39.7 %, \u03b2-D glucan < 2.4 pg/mL, CD4/CD8 0.8, PHA SI 528.4",
+        "clinical_data": {
+          "labs": [
+            {
+              "test": "White blood cell count",
+              "value": "18100",
+              "unit": "/\u03bcL",
+              "flag": "abnormal"
+            },
+            {
+              "test": "Neutrophils Percent",
+              "value": "69.5",
+              "unit": "%",
+              "flag": "abnormal"
+            },
+            {
+              "test": "Total protein",
+              "value": "6.9",
+              "unit": "g/dL",
+              "flag": "normal"
+            },
+            {
+              "test": "Carcinoembryonic antigen",
+              "value": "2.6",
+              "unit": "ng/mL",
+              "flag": "normal"
+            },
+            {
+              "test": "Albumin",
+              "value": "2.8",
+              "unit": "g/dL",
+              "flag": "abnormal"
+            },
+            {
+              "test": "Squamous cell carcinoma antigen",
+              "value": "0.9",
+              "unit": "ng/mL",
+              "flag": "normal"
+            },
+            {
+              "test": "Eosinophils Percent",
+              "value": "16",
+              "unit": "%",
+              "flag": "abnormal"
+            },
+            {
+              "test": "Aspartate transaminase",
+              "value": "9",
+              "unit": "U/L",
+              "flag": "normal"
+            },
+            {
+              "test": "Neuron-specific enolase",
+              "value": "10.3",
+              "unit": "ng/mL",
+              "flag": "normal"
+            },
+            {
+              "test": "Lymphocytes Percent",
+              "value": "11",
+              "unit": "%",
+              "flag": "abnormal"
+            },
+            {
+              "test": "Alanine transaminase",
+              "value": "16",
+              "unit": "U/L",
+              "flag": "normal"
+            },
+            {
+              "test": "Pro-gastrin-releasing peptide",
+              "value": "33.9",
+              "unit": "pg/mL",
+              "flag": "normal"
+            },
+            {
+              "test": "Hemoglobin",
+              "value": "8.9",
+              "unit": "g/dL",
+              "flag": "abnormal"
+            },
+            {
+              "test": "Lactate dehydrogenase",
+              "value": "192",
+              "unit": "U/L",
+              "flag": "normal"
+            },
+            {
+              "test": "Cytokeratin fragment 21-1",
+              "value": "1.6",
+              "unit": "ng/mL",
+              "flag": "normal"
+            },
+            {
+              "test": "Hematocrit",
+              "value": "27.2",
+              "unit": "%",
+              "flag": "abnormal"
+            },
+            {
+              "test": "Alkaline phosphatase",
+              "value": "522",
+              "unit": "U/L",
+              "flag": "abnormal"
+            },
+            {
+              "test": "CA 19-9 antigen",
+              "value": "5",
+              "unit": "U/mL",
+              "flag": "normal"
+            },
+            {
+              "test": "Mean corpuscular volume",
+              "value": "86.3",
+              "unit": "\u03bcm3",
+              "flag": "normal"
+            },
+            {
+              "test": "Gamma-glutamyl transferase",
+              "value": "79",
+              "unit": "U/L",
+              "flag": "abnormal"
+            },
+            {
+              "test": "Soluble interleukin-2 receptor",
+              "value": "10252",
+              "unit": "U/mL",
+              "flag": "abnormal"
+            },
+            {
+              "test": "Mean corpuscular hemoglobin concentration",
+              "value": "32."
+            }
+          ]
+        }
+      }
+    },
+    {
+      "id": "N5",
+      "label": "Step 5",
+      "customData": {
+        "node_id": "E",
+        "node_step_index": 4,
+        "content": "Maximum intensity projection image following fluorodeoxyglucose-positron emission tomography (FDG-PET) revealed multifocal hyper",
+        "clinical_data": {
+          "imaging": [
+            {
+              "type": "Maximum intensity projection image",
+              "modality": "PET",
+              "finding": "multifocal hyper",
+              "date": null
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "edges": [
+    {
+      "from": "N1",
+      "to": "N2",
+      "data": {
+        "edge_id": "A_to_B",
+        "branch_flag": true,
+        "content": "Following initial presentation and labs, further infectious workup was performed."
+      }
+    },
+    {
+      "from": "N2",
+      "to": "N3",
+      "data": {
+        "edge_id": "B_to_C",
+        "branch_flag": true,
+        "content": "Following negative infectious workup, imaging was performed to further investigate the patient's condition.",
+        "transition_event": {
+          "trigger_type": "imaging",
+          "trigger_entities": [],
+          "change_type": "addition",
+          "target_domain": "imaging"
+        }
+      }
+    },
+    {
+      "from": "N3",
+      "to": "N4",
+      "data": {
+        "edge_id": "C_to_D",
+        "branch_flag": true,
+        "content": "Following imaging, further labs were performed.",
+        "transition_event": {
+          "trigger_type": "lab_change",
+          "trigger_entities": [],
+          "change_type": "addition",
+          "target_domain": "lab"
+        }
+      }
+    },
+    {
+      "from": "N4",
+      "to": "N5",
+      "data": {
+        "edge_id": "D_to_E",
+        "branch_flag": true,
+        "content": "Following labs, further imaging was performed.",
+        "transition_event": {
+          "trigger_type": "imaging",
+          "trigger_entities": [],
+          "change_type": "addition",
+          "target_domain": "imaging"
+        }
+      }
+    }
+  ]
+}

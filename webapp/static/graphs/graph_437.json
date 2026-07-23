@@ -1,0 +1,282 @@
+{
+  "nodes": [
+    {
+      "id": "N1",
+      "label": "Step 1",
+      "customData": {
+        "node_id": "A",
+        "node_step_index": 0,
+        "content": "48-year-old male presented to Jinling Hospital in January 2023 with chest pain for 1 week. The chest pain was not localized, not associated with heartburn or chest pressure, not provoked by exertion, and not relieved by rest. The patient denied fever, dizziness, fainting, dyspnea, or coughing.",
+        "clinical_data": {
+          "HPI": [
+            {
+              "summary": "48-year-old male presented with chest pain for 1 week.",
+              "duration": "1 week",
+              "onset": "January 2023",
+              "progression": "unknown",
+              "associated_symptoms": [],
+              "alleviating_factors": [
+                "rest"
+              ],
+              "exacerbating_factors": [
+                "exertion"
+              ]
+            }
+          ],
+          "ROS": [
+            {
+              "system": "constitutional",
+              "findings": []
+            },
+            {
+              "system": "cardiovascular",
+              "findings": [
+                "C0008928"
+              ]
+            },
+            {
+              "system": "respiratory",
+              "findings": []
+            }
+          ]
+        }
+      }
+    },
+    {
+      "id": "N2",
+      "label": "Step 2",
+      "customData": {
+        "node_id": "B",
+        "node_step_index": 1,
+        "content": "Diagnosed with SARS-CoV-2 by real time RT-PCR (RT-qPCR) testing in early December 2022 with high-grade fever (38-39\u02daC), cough and sore throat for 4 days, received symptomatic treatments, including cough suppressants and antipyretics, at home and recovered within 1 week.",
+        "clinical_data": {
+          "diagnoses": [
+            {
+              "code": "UMLS:C5203708",
+              "label": "COVID-19",
+              "status": "resolved",
+              "onset_date": "2022-12"
+            }
+          ],
+          "HPI": [
+            {
+              "summary": "Patient diagnosed with SARS-CoV-2 in early December 2022 with high-grade fever, cough, and sore throat for 4 days.",
+              "duration": "4 days",
+              "onset": "2022-12",
+              "progression": "sudden",
+              "associated_symptoms": [
+                "UMLS:C0015967",
+                "UMLS:C0010200",
+                "UMLS:C0037530"
+              ]
+            }
+          ],
+          "medications": [
+            {
+              "drug": "cough suppressants",
+              "dosage": null,
+              "frequency": null,
+              "modality": "oral",
+              "start_date": null,
+              "end_date": null,
+              "indication": "UMLS:C0010200"
+            },
+            {
+              "drug": "antipyretics",
+              "dosage": null,
+              "frequency": null,
+              "modality": "oral",
+              "start_date": null,
+              "end_date": null,
+              "indication": "UMLS:C0015967"
+            }
+          ]
+        }
+      }
+    },
+    {
+      "id": "N3",
+      "label": "Step 3",
+      "customData": {
+        "node_id": "C",
+        "node_step_index": 2,
+        "content": "History of hypertension for 10 years and received sustained-release felodipine tablets (5 mg/per day), with no previous history of TB.",
+        "clinical_data": {
+          "diagnoses": [
+            {
+              "code": "I10",
+              "label": "Essential (primary) hypertension",
+              "status": "historical",
+              "onset_date": null
+            }
+          ],
+          "medications": [
+            {
+              "drug": "C0015873",
+              "dosage": "5 mg",
+              "frequency": "per day",
+              "modality": "oral",
+              "start_date": null,
+              "end_date": null,
+              "indication": "I10"
+            }
+          ]
+        }
+      }
+    },
+    {
+      "id": "N4",
+      "label": "Step 4",
+      "customData": {
+        "node_id": "D",
+        "node_step_index": 3,
+        "content": "Physical examination revealed bilaterally soft and swollen cervical lymph nodes in bean size but they were not painful. All other systemic examinations and vital signs were normal.",
+        "clinical_data": {
+          "vitals": [
+            {
+              "type": "Vital signs",
+              "value": "normal"
+            }
+          ],
+          "physical_exam": [
+            {
+              "finding": "bilaterally soft and swollen cervical lymph nodes",
+              "size": "bean size",
+              "painful": "no"
+            }
+          ]
+        }
+      }
+    },
+    {
+      "id": "N5",
+      "label": "Step 5",
+      "customData": {
+        "node_id": "E",
+        "node_step_index": 4,
+        "content": "January 2023: 12-lead ECG, coronary arteriography, echocardiography performed with no evidence of cardiovascular disease.",
+        "clinical_data": {
+          "imaging": [
+            {
+              "type": "Electrocardiogram procedure",
+              "body_part": "Heart",
+              "modality": "other",
+              "finding": "no evidence of cardiovascular disease",
+              "date": "2023-01"
+            },
+            {
+              "type": "Coronary arteriography",
+              "body_part": "Coronary artery",
+              "modality": "other",
+              "finding": "no evidence of cardiovascular disease",
+              "date": "2023-01"
+            },
+            {
+              "type": "Echocardiography",
+              "body_part": "Heart",
+              "modality": "Ultrasound",
+              "finding": "no evidence of cardiovascular disease",
+              "date": "2023-01"
+            }
+          ]
+        }
+      }
+    },
+    {
+      "id": "N6",
+      "label": "Step 6",
+      "customData": {
+        "node_id": "F",
+        "node_step_index": 5,
+        "content": "Serum markers: Creatine kinase 84 U/l (normal range, 50-310 U/l), MB isoenzyme of creatine kinase 1.7 ng/ml (normal range, 0-3.7 ng/ml), troponin T 0.009 ng/ml (normal range, 0-0.014 ng/ml), troponin I 0.03 ng/ml (normal range, <0.06 ng/ml). RT-qPCR testing for",
+        "clinical_data": {
+          "labs": [
+            {
+              "test": "Creatine kinase",
+              "value": "84",
+              "unit": "U/l",
+              "flag": "normal",
+              "reference_range": "50-310 U/l"
+            },
+            {
+              "test": "MB isoenzyme of creatine kinase",
+              "value": "1.7",
+              "unit": "ng/ml",
+              "flag": "normal",
+              "reference_range": "0-3.7 ng/ml"
+            },
+            {
+              "test": "Troponin T",
+              "value": "0.009",
+              "unit": "ng/ml",
+              "flag": "normal",
+              "reference_range": "0-0.014 ng/ml"
+            },
+            {
+              "test": "Troponin I",
+              "value": "0.03",
+              "unit": "ng/ml",
+              "flag": "normal",
+              "reference_range": "<0.06 ng/ml"
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "edges": [
+    {
+      "from": "N1",
+      "to": "N2",
+      "data": {
+        "edge_id": "A_to_B",
+        "branch_flag": true,
+        "content": "Patient had a SARS-CoV-2 infection in early December 2022, prior to presenting with chest pain in January 2023."
+      }
+    },
+    {
+      "from": "N2",
+      "to": "N3",
+      "data": {
+        "edge_id": "B_to_C",
+        "branch_flag": true,
+        "content": "Patient has a history of hypertension managed with sustained-release felodipine tablets.",
+        "transition_event": {
+          "trigger_type": "medication_change",
+          "trigger_entities": [
+            "C0015873"
+          ],
+          "change_type": "addition",
+          "target_domain": "medication"
+        }
+      }
+    },
+    {
+      "from": "N3",
+      "to": "N4",
+      "data": {
+        "edge_id": "C_to_D",
+        "branch_flag": true,
+        "content": "Physical examination revealed bilaterally soft and swollen cervical lymph nodes, but vital signs were normal."
+      }
+    },
+    {
+      "from": "N4",
+      "to": "N5",
+      "data": {
+        "edge_id": "D_to_E",
+        "branch_flag": true,
+        "content": "Patient underwent cardiac evaluation including ECG, coronary arteriography, and echocardiography."
+      }
+    },
+    {
+      "from": "N5",
+      "to": "N6",
+      "data": {
+        "edge_id": "E_to_F",
+        "branch_flag": true,
+        "content": "Serum markers were assessed."
+      }
+    }
+  ]
+}

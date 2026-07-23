@@ -1,0 +1,353 @@
+{
+  "nodes": [
+    {
+      "id": "N1",
+      "label": "Step 1",
+      "customData": {
+        "node_id": "A",
+        "node_step_index": 0,
+        "content": "53-year-old man presented with cough and a mediastinal tumor.",
+        "clinical_data": {
+          "HPI": [
+            {
+              "summary": "53-year-old man presented with cough",
+              "associated_symptoms": [
+                "C0010200"
+              ]
+            }
+          ],
+          "diagnoses": [
+            {
+              "code": "C0025064",
+              "label": "Mediastinal tumor",
+              "status": "active"
+            }
+          ]
+        }
+      }
+    },
+    {
+      "id": "N2",
+      "label": "Step 2",
+      "customData": {
+        "node_id": "B",
+        "node_step_index": 1,
+        "content": "Diagnosed with malignant pleural mesothelioma, clinical stage III (T2 N1 M0) based on pleural biopsy.",
+        "clinical_data": {
+          "diagnoses": [
+            {
+              "code": "C0678307",
+              "label": "Malignant pleural mesothelioma",
+              "status": "active"
+            }
+          ],
+          "imaging": [
+            {
+              "type": "Pleural Biopsy",
+              "body_part": "Pleura",
+              "modality": "Biopsy",
+              "finding": "Malignant pleural mesothelioma",
+              "impression": "Malignant pleural mesothelioma"
+            }
+          ]
+        }
+      }
+    },
+    {
+      "id": "N3",
+      "label": "Step 3",
+      "customData": {
+        "node_id": "C",
+        "node_step_index": 2,
+        "content": "Received two courses of chemotherapy with cisplatin and pemetrexed.",
+        "clinical_data": {
+          "medications": [
+            {
+              "drug": "C0008691",
+              "dosage": null,
+              "frequency": null,
+              "modality": null,
+              "start_date": null,
+              "end_date": null,
+              "indication": null
+            },
+            {
+              "drug": "C1637930",
+              "dosage": null,
+              "frequency": null,
+              "modality": null,
+              "start_date": null,
+              "end_date": null,
+              "indication": null
+            }
+          ],
+          "procedures": [
+            {
+              "name": "C0009372",
+              "approach": null,
+              "date": null,
+              "location": null,
+              "performed_by": null,
+              "outcome": null
+            }
+          ]
+        }
+      }
+    },
+    {
+      "id": "N4",
+      "label": "Step 4",
+      "customData": {
+        "node_id": "D",
+        "node_step_index": 3,
+        "content": "Underwent right-sided extrapleural pneumonectomy with pericardial resection, and pericardial and diaphragmatic reconstruction with expanded polytetrafluoroethylene (ePTFE) sheets.",
+        "clinical_data": {
+          "procedures": [
+            {
+              "name": "Pneumonectomy",
+              "approach": "open",
+              "location": "right lung",
+              "performed_by": "unknown",
+              "outcome": "unknown"
+            },
+            {
+              "name": "Pericardial Resection",
+              "approach": "open",
+              "location": "pericardium",
+              "performed_by": "unknown",
+              "outcome": "unknown"
+            },
+            {
+              "name": "Pericardial Reconstruction",
+              "approach": "open",
+              "location": "pericardium",
+              "performed_by": "unknown",
+              "outcome": "unknown"
+            },
+            {
+              "name": "Diaphragmatic Reconstruction",
+              "approach": "open",
+              "location": "diaphragm",
+              "performed_by": "unknown",
+              "outcome": "unknown"
+            }
+          ]
+        }
+      }
+    },
+    {
+      "id": "N5",
+      "label": "Step 5",
+      "customData": {
+        "node_id": "E",
+        "node_step_index": 4,
+        "content": "Transferred to the postoperative care unit.",
+        "clinical_data": {}
+      }
+    },
+    {
+      "id": "N6",
+      "label": "Step 6",
+      "customData": {
+        "node_id": "F",
+        "node_step_index": 5,
+        "content": "18 hours postoperatively, patient complained of feeling unwell and developed hypotension (89/57 mmHg with noradrenaline 0.015 \u03bcg/kg/min).",
+        "clinical_data": {
+          "vitals": [
+            {
+              "type": "Hypotension",
+              "value": "89/57",
+              "unit": "mmHg",
+              "timestamp": null
+            }
+          ],
+          "medications": [
+            {
+              "drug": "Noradrenaline",
+              "dosage": "0.015",
+              "frequency": "per minute",
+              "modality": "IV",
+              "start_date": null,
+              "end_date": null,
+              "indication": "Hypotension"
+            }
+          ],
+          "HPI": [
+            {
+              "summary": "Patient complained of feeling unwell",
+              "duration": "18 hours",
+              "onset": "postoperatively",
+              "progression": "sudden",
+              "associated_symptoms": [],
+              "alleviating_factors": [],
+              "exacerbating_factors": []
+            }
+          ]
+        }
+      }
+    },
+    {
+      "id": "N7",
+      "label": "Step 7",
+      "customData": {
+        "node_id": "G",
+        "node_step_index": 6,
+        "content": "Chest radiography revealed cardiac herniation into the right-sided thoracic cavity.",
+        "clinical_data": {
+          "imaging": [
+            {
+              "type": "Radiography (procedure)",
+              "body_part": "Chest",
+              "modality": "X-ray",
+              "finding": "cardiac herniation into the right-sided thoracic cavity"
+            }
+          ]
+        }
+      }
+    },
+    {
+      "id": "N8",
+      "label": "Step 8",
+      "customData": {
+        "node_id": "H",
+        "node_step_index": 7,
+        "content": "Underwent emergency thoracotomy for cardiac herniation repair secondary to tearing of sutures on the posterior aspect of the ePTFE sheet. Heart placed back within the pericardium and tears repaired by fixing another ePTFE sheet to close the defect between the posterior pericardium and the previously placed ePTFE sheet.",
+        "clinical_data": {
+          "procedures": [
+            {
+              "name": "Thoracotomy",
+              "approach": "open",
+              "date": null,
+              "location": "chest",
+              "performed_by": null,
+              "outcome": null
+            },
+            {
+              "name": "Cardiac Herniation Repair",
+              "approach": "open",
+              "date": null,
+              "location": "pericardium",
+              "performed_by": null,
+              "outcome": null
+            }
+          ]
+        }
+      }
+    },
+    {
+      "id": "N9",
+      "label": "Step 9",
+      "customData": {
+        "node_id": "I",
+        "node_step_index": 8,
+        "clinical_data": {}
+      }
+    }
+  ],
+  "edges": [
+    {
+      "from": "N1",
+      "to": "N2",
+      "data": {
+        "edge_id": "A_to_B",
+        "branch_flag": true,
+        "content": "Progression from initial presentation to diagnosis."
+      }
+    },
+    {
+      "from": "N2",
+      "to": "N3",
+      "data": {
+        "edge_id": "B_to_C",
+        "branch_flag": true,
+        "content": "Initiation of chemotherapy treatment for malignant pleural mesothelioma.",
+        "transition_event": {
+          "trigger_type": "procedure",
+          "trigger_entities": [
+            "C0009372"
+          ],
+          "change_type": "addition",
+          "target_domain": "procedure"
+        }
+      }
+    },
+    {
+      "from": "N3",
+      "to": "N4",
+      "data": {
+        "edge_id": "C_to_D",
+        "branch_flag": true,
+        "content": "Patient underwent right-sided extrapleural pneumonectomy with pericardial resection and reconstruction.",
+        "transition_event": {
+          "trigger_type": "procedure",
+          "trigger_entities": [],
+          "change_type": "addition",
+          "target_domain": "procedure"
+        }
+      }
+    },
+    {
+      "from": "N4",
+      "to": "N5",
+      "data": {
+        "edge_id": "D_to_E",
+        "branch_flag": true,
+        "content": "Post-operative transfer to the postoperative care unit."
+      }
+    },
+    {
+      "from": "N5",
+      "to": "N6",
+      "data": {
+        "edge_id": "E_to_F",
+        "branch_flag": true,
+        "content": "Postoperative complications: patient developed hypotension and complained of feeling unwell.",
+        "transition_event": {
+          "trigger_type": "symptom_onset",
+          "trigger_entities": [],
+          "change_type": "progression",
+          "target_domain": "symptom"
+        }
+      }
+    },
+    {
+      "from": "N6",
+      "to": "N7",
+      "data": {
+        "edge_id": "F_to_G",
+        "branch_flag": true,
+        "content": "Chest radiography revealed cardiac herniation into the right-sided thoracic cavity.",
+        "transition_event": {
+          "trigger_type": "lab_change",
+          "trigger_entities": [],
+          "change_type": "progression",
+          "target_domain": "imaging"
+        }
+      }
+    },
+    {
+      "from": "N7",
+      "to": "N8",
+      "data": {
+        "edge_id": "G_to_H",
+        "branch_flag": true,
+        "content": "Emergency thoracotomy performed for cardiac herniation repair.",
+        "transition_event": {
+          "trigger_type": "procedure",
+          "trigger_entities": [],
+          "change_type": "addition",
+          "target_domain": "procedure"
+        }
+      }
+    },
+    {
+      "from": "N8",
+      "to": "N9",
+      "data": {
+        "edge_id": "H_to_I",
+        "branch_flag": true,
+        "content": "Postoperative state following cardiac herniation repair."
+      }
+    }
+  ]
+}

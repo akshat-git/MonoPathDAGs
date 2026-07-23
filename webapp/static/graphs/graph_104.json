@@ -1,0 +1,295 @@
+{
+  "nodes": [
+    {
+      "id": "N1",
+      "label": "Step 1",
+      "customData": {
+        "node_id": "A",
+        "node_step_index": 0,
+        "content": "June 2020: 44-year-old non-smoking female admitted to hospital for persistent cough.",
+        "clinical_data": {
+          "social_history": [
+            {
+              "category": "smoking",
+              "status": "never"
+            }
+          ],
+          "HPI": [
+            {
+              "summary": "Persistent cough",
+              "onset": "June 2020"
+            }
+          ]
+        }
+      }
+    },
+    {
+      "id": "N2",
+      "label": "Step 2",
+      "customData": {
+        "node_id": "B",
+        "node_step_index": 1,
+        "content": "PET-CT revealed a mass in the right middle lobe and enlarged lymph node in the mediastinum. The mediastinal lesion surrounded the right main bronchus.",
+        "clinical_data": {
+          "imaging": [
+            {
+              "type": "Mass",
+              "body_part": "Right middle lobe",
+              "modality": "PET-CT",
+              "finding": "Mass in the right middle lobe",
+              "date": null
+            },
+            {
+              "type": "Lymph node enlargement",
+              "body_part": "Mediastinum",
+              "modality": "PET-CT",
+              "finding": "Enlarged lymph node in the mediastinum",
+              "date": null
+            },
+            {
+              "type": "Lesion",
+              "body_part": "Mediastinum",
+              "modality": "PET-CT",
+              "finding": "Mediastinal lesion surrounding the right main bronchus",
+              "date": null
+            }
+          ]
+        }
+      }
+    },
+    {
+      "id": "N3",
+      "label": "Step 3",
+      "customData": {
+        "node_id": "C",
+        "node_step_index": 2,
+        "content": "Underwent ultrasonography-guided percutaneous right cervical lymph node biopsy.",
+        "clinical_data": {
+          "procedures": [
+            {
+              "name": "Biopsy of cervical lymph node",
+              "approach": "percutaneous",
+              "location": "right cervical lymph node",
+              "modality": "Ultrasonography",
+              "date": null
+            }
+          ]
+        }
+      }
+    },
+    {
+      "id": "N4",
+      "label": "Step 4",
+      "customData": {
+        "node_id": "D",
+        "node_step_index": 3,
+        "content": "Pathologic examination revealed poorly differentiated adenocarcinoma, cT1bN3M1a, stage IVA. NGS assay identified IGR(upstreamC2orf16)-ALKexon20 fusion (abundance: 9.7%), TP53 mutation (abundance: 42.6%), and ERBB4 mutation (abundance: 18.7%) in the tumor tissue.",
+        "clinical_data": {
+          "diagnoses": [
+            {
+              "code": "C0001758",
+              "label": "Adenocarcinoma",
+              "status": "active"
+            }
+          ],
+          "imaging": [
+            {
+              "finding": "cT1bN3M1a, stage IVA",
+              "modality": "other"
+            }
+          ],
+          "labs": [
+            {
+              "test": "IGR(upstreamC2orf16)-ALKexon20 fusion",
+              "value": "9.7%",
+              "unit": "%",
+              "flag": "abnormal"
+            },
+            {
+              "test": "TP53 mutation",
+              "value": "42.6%",
+              "unit": "%",
+              "flag": "abnormal"
+            },
+            {
+              "test": "ERBB4 mutation",
+              "value": "18.7%",
+              "unit": "%",
+              "flag": "abnormal"
+            }
+          ]
+        }
+      }
+    },
+    {
+      "id": "N5",
+      "label": "Step 5",
+      "customData": {
+        "node_id": "E",
+        "node_step_index": 4,
+        "content": "Patient received continuous oral alectinib, 600 mg twice daily.",
+        "clinical_data": {
+          "medications": [
+            {
+              "drug": "alectinib",
+              "dosage": "600 mg",
+              "frequency": "twice daily",
+              "modality": "oral"
+            }
+          ]
+        }
+      }
+    },
+    {
+      "id": "N6",
+      "label": "Step 6",
+      "customData": {
+        "node_id": "F",
+        "node_step_index": 5,
+        "content": "4.5 months later: Progression of the disease was observed due to mediastinal lesion invading bilateral main bronchus, leading to tracheal stenosis.",
+        "clinical_data": {
+          "diagnoses": [
+            {
+              "code": "C34",
+              "label": "Malignant neoplasm of bronchus and lung",
+              "status": "active",
+              "onset_date": null
+            }
+          ],
+          "imaging": [
+            {
+              "type": "Mediastinal lesion",
+              "body_part": "Mediastinum",
+              "modality": "CT",
+              "finding": "invasion of bilateral main bronchus",
+              "impression": "Progression of disease",
+              "date": null
+            }
+          ]
+        }
+      }
+    },
+    {
+      "id": "N7",
+      "label": "Step 7",
+      "customData": {
+        "node_id": "G",
+        "node_step_index": 6,
+        "content": "Bronchus stents were placed to alleviate tracheal stenosis.",
+        "clinical_data": {
+          "procedures": [
+            {
+              "name": "Bronchial Stent Placement",
+              "approach": "endoscopic",
+              "location": "Bronchus",
+              "outcome": "alleviate tracheal stenosis"
+            }
+          ]
+        }
+      }
+    },
+    {
+      "id": "N8",
+      "label": "Step 8",
+      "customData": {
+        "node_id": "H",
+        "node_step_index": 7,
+        "content": "IHC revealed positive expression of ALK-D5F3 and BRAF-V600E.",
+        "clinical_data": {
+          "labs": [
+            {
+              "test": "ALK-D5F3",
+              "value": "positive",
+              "unit": null,
+              "flag": null,
+              "reference_range": null,
+              "timestamp": null
+            },
+            {
+              "test": "BRAF-V600E",
+              "value": "positive",
+              "unit": null,
+              "flag": null,
+              "reference_range": null,
+              "timestamp": null
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "edges": [
+    {
+      "from": "N1",
+      "to": "N2",
+      "data": {
+        "edge_id": "A_to_B",
+        "branch_flag": true,
+        "content": "From persistent cough, imaging reveals mass in right middle lobe and enlarged mediastinal lymph node surrounding the right main bronchus."
+      }
+    },
+    {
+      "from": "N2",
+      "to": "N3",
+      "data": {
+        "edge_id": "B_to_C",
+        "branch_flag": true,
+        "content": "Following imaging, patient underwent ultrasonography-guided percutaneous right cervical lymph node biopsy."
+      }
+    },
+    {
+      "from": "N3",
+      "to": "N4",
+      "data": {
+        "edge_id": "C_to_D",
+        "branch_flag": true,
+        "content": "Following biopsy, pathologic examination revealed poorly differentiated adenocarcinoma, cT1bN3M1a, stage IVA with IGR(upstreamC2orf16)-ALKexon20 fusion (9.7%), TP53 mutation (42.6%), and ERBB4 mutation (18.7%)."
+      }
+    },
+    {
+      "from": "N4",
+      "to": "N5",
+      "data": {
+        "edge_id": "D_to_E",
+        "branch_flag": true,
+        "content": "Following diagnosis, patient received continuous oral alectinib, 600 mg twice daily.",
+        "transition_event": {
+          "trigger_type": "medication_change",
+          "trigger_entities": [
+            "C0001758",
+            "C1297734"
+          ],
+          "change_type": "addition",
+          "target_domain": "medication"
+        }
+      }
+    },
+    {
+      "from": "N5",
+      "to": "N6",
+      "data": {
+        "edge_id": "E_to_F",
+        "branch_flag": true,
+        "content": "4.5 months later, progression of the disease was observed due to mediastinal lesion invading bilateral main bronchus, leading to tracheal stenosis."
+      }
+    },
+    {
+      "from": "N6",
+      "to": "N7",
+      "data": {
+        "edge_id": "F_to_G",
+        "branch_flag": true,
+        "content": "To alleviate tracheal stenosis, bronchus stents were placed."
+      }
+    },
+    {
+      "from": "N7",
+      "to": "N8",
+      "data": {
+        "edge_id": "G_to_H",
+        "branch_flag": true,
+        "content": "Following stent placement, IHC revealed positive expression of ALK-D5F3 and BRAF-V600E."
+      }
+    }
+  ]
+}

@@ -1,0 +1,398 @@
+{
+  "nodes": [
+    {
+      "id": "N1",
+      "label": "Step 1",
+      "customData": {
+        "node_id": "A",
+        "node_step_index": 0,
+        "content": "74-year-old Asian female diagnosed with adenocarcinoma of the left lung with bone metastasis in August 2019.",
+        "clinical_data": {
+          "diagnoses": [
+            {
+              "code": "C34.9",
+              "label": "Malignant neoplasm of bronchus or lung, unspecified",
+              "status": "active",
+              "onset_date": "2019-08"
+            },
+            {
+              "code": "C79.51",
+              "label": "Secondary malignant neoplasm of bone",
+              "status": "active",
+              "onset_date": "2019-08"
+            }
+          ],
+          "social_history": [
+            {
+              "category": "race",
+              "status": "current",
+              "description": "Asian"
+            }
+          ]
+        }
+      }
+    },
+    {
+      "id": "N2",
+      "label": "Step 2",
+      "customData": {
+        "node_id": "B",
+        "node_step_index": 1,
+        "content": "Patient was treated with EGFR-TKIs including gefitinib and eclitinib.",
+        "clinical_data": {
+          "medications": [
+            {
+              "drug": "C0884238",
+              "dosage": null,
+              "frequency": null,
+              "modality": null,
+              "start_date": null,
+              "end_date": null,
+              "indication": null
+            },
+            {
+              "drug": "C3258977",
+              "dosage": null,
+              "frequency": null,
+              "modality": null,
+              "start_date": null,
+              "end_date": null,
+              "indication": null
+            }
+          ]
+        }
+      }
+    },
+    {
+      "id": "N3",
+      "label": "Step 3",
+      "customData": {
+        "node_id": "C",
+        "node_step_index": 2,
+        "content": "Patient started osimertinib 80 mg/day one year prior to presentation due to drug resistance. Osimertinib discontinued 9 months prior due to Torsades de pointes. 8 months prior, reexamination found lung tumor progression; osimertinib 80 mg/day was restarted with close potassium monitoring and oral potassium supplementation. January 2022, due to resistance to osimertinib, combination therapy of osimertinib 80 mg/day and savolitinib 200 mg/12 hours was initiated after genetic testing.",
+        "clinical_data": {
+          "medications": [
+            {
+              "drug": "Osimertinib",
+              "dosage": "80 mg/day",
+              "frequency": "daily",
+              "modality": "oral",
+              "start_date": "2021",
+              "end_date": "2021-03",
+              "indication": "Drug resistance"
+            },
+            {
+              "drug": "Osimertinib",
+              "dosage": "80 mg/day",
+              "frequency": "daily",
+              "modality": "oral",
+              "start_date": "2021-04",
+              "end_date": null,
+              "indication": "Lung tumor progression"
+            },
+            {
+              "drug": "Potassium",
+              "dosage": null,
+              "frequency": null,
+              "modality": "oral",
+              "start_date": "2021-04",
+              "end_date": null,
+              "indication": "Hypokalemia"
+            },
+            {
+              "drug": "Osimertinib",
+              "dosage": "80 mg/day",
+              "frequency": "daily",
+              "modality": "oral",
+              "start_date": "2022-01",
+              "end_date": null,
+              "indication": "Resistance to osimertinib"
+            },
+            {
+              "drug": "Savolitinib",
+              "dosage": "200 mg",
+              "frequency": "12 hours",
+              "modality": "oral",
+              "start_date": "2022-01",
+              "end_date": null,
+              "indication": "Resistance to osimertinib"
+            }
+          ],
+          "diagnoses": [
+            {
+              "code": "Torsades de pointes",
+              "label": "Torsades de pointes",
+              "status": "historical",
+              "onset_date": "2021-03"
+            },
+            {
+              "code": "Lung tumor progression",
+              "label": "Lung tumor progression",
+              "status": "active",
+              "onset_date": "2021-04"
+            },
+            {
+              "code": "Drug resistance",
+              "label": "Drug resistance",
+              "status": "active",
+              "onset_date": "2021"
+            }
+          ]
+        }
+      }
+    },
+    {
+      "id": "N4",
+      "label": "Step 4",
+      "customData": {
+        "node_id": "D",
+        "node_step_index": 3,
+        "content": "Patient developed chest tightness, shortness of breath, cough, and yellow and white sticky sputum. Chest tightness and shortness of breath worsened, with paroxysmal dyspnea occurring at night.",
+        "clinical_data": {
+          "HPI": [
+            {
+              "summary": "Patient developed chest tightness, shortness of breath, cough, and yellow and white sticky sputum. Chest tightness and shortness of breath worsened, with paroxysmal dyspnea occurring at night.",
+              "progression": "gradual",
+              "associated_symptoms": [
+                "C0008031",
+                "C0038929",
+                "C0010200"
+              ]
+            }
+          ]
+        }
+      }
+    },
+    {
+      "id": "N5",
+      "label": "Step 5",
+      "customData": {
+        "node_id": "E",
+        "node_step_index": 4,
+        "content": "Patient received anti-infection diuretic treatment at a health center with poor results.",
+        "clinical_data": {}
+      }
+    },
+    {
+      "id": "N6",
+      "label": "Step 6",
+      "customData": {
+        "node_id": "F",
+        "node_step_index": 5,
+        "content": "Chest CT scan showed anterior bronchial occlusion of the upper lobe of the left lung, lung cancer with obstructive pneumonia or atelectasis, extensive interstitial changes in both lungs, and partial consolidation in both lungs, more obvious in the right lung.",
+        "clinical_data": {
+          "imaging": [
+            {
+              "type": "CT scan",
+              "body_part": "Lung",
+              "modality": "CT",
+              "finding": "anterior bronchial occlusion of the upper lobe of the left lung, lung cancer with obstructive pneumonia or atelectasis, extensive interstitial changes in both lungs, and partial consolidation in both lungs, more obvious in the right lung"
+            }
+          ],
+          "diagnoses": [
+            {
+              "code": "C0024117",
+              "label": "Lung Cancer",
+              "status": "active"
+            },
+            {
+              "code": "C0032285",
+              "label": "Pneumonia",
+              "status": "active"
+            },
+            {
+              "code": "C0004124",
+              "label": "Atelectasis",
+              "status": "active"
+            }
+          ]
+        }
+      }
+    },
+    {
+      "id": "N7",
+      "label": "Step 7",
+      "customData": {
+        "node_id": "G",
+        "node_step_index": 6,
+        "content": "Emergency department findings: blood oxygen saturation 85%, CRP 96mg/L, cardiac ultrasound EF value 46%, crackles in both lungs. Diagnosed with severe pneumonia, respiratory failure, and heart failure.",
+        "clinical_data": {
+          "vitals": [
+            {
+              "type": "C0005767",
+              "value": "85",
+              "unit": "%",
+              "timestamp": null
+            }
+          ],
+          "labs": [
+            {
+              "test": "C0010307",
+              "value": "96",
+              "unit": "mg/L",
+              "flag": "abnormal",
+              "reference_range": null,
+              "timestamp": null
+            }
+          ],
+          "imaging": [
+            {
+              "type": "C0007064",
+              "body_part": "C0024230",
+              "modality": "Ultrasound",
+              "finding": "EF value 46%",
+              "impression": null,
+              "date": null
+            }
+          ],
+          "diagnoses": [
+            {
+              "code": "C0032285",
+              "label": "Pneumonia",
+              "status": "active",
+              "onset_date": null
+            },
+            {
+              "code": "C0035222",
+              "label": "Respiratory failure",
+              "status": "active",
+              "onset_date": null
+            },
+            {
+              "code": "C0018797",
+              "label": "Heart failure",
+              "status": "active",
+              "onset_date": null
+            }
+          ],
+          "ROS": [
+            {
+              "system": "respiratory",
+              "findings": [
+                "C0010333"
+              ]
+            }
+          ]
+        }
+      }
+    },
+    {
+      "id": "N8",
+      "label": "Step 8",
+      "customData": {
+        "node_id": "H",
+        "clinical_data": {}
+      }
+    }
+  ],
+  "edges": [
+    {
+      "from": "N1",
+      "to": "N2",
+      "data": {
+        "edge_id": "A_to_B",
+        "branch_flag": true,
+        "content": "Treatment with EGFR-TKIs initiated."
+      }
+    },
+    {
+      "from": "N2",
+      "to": "N3",
+      "data": {
+        "edge_id": "B_to_C",
+        "branch_flag": true,
+        "content": "Progression on EGFR-TKIs led to initiation of osimertinib, discontinuation due to Torsades de pointes, re-initiation of osimertinib, and eventual combination therapy with savolitinib due to resistance.",
+        "transition_event": {
+          "trigger_type": "medication_change",
+          "trigger_entities": [
+            "C0884238",
+            "C3258977",
+            "Osimertinib",
+            "Savolitinib"
+          ],
+          "change_type": "addition",
+          "target_domain": "medication"
+        }
+      }
+    },
+    {
+      "from": "N3",
+      "to": "N4",
+      "data": {
+        "edge_id": "C_to_D",
+        "branch_flag": true,
+        "content": "Development of respiratory symptoms.",
+        "transition_event": {
+          "trigger_type": "symptom_onset",
+          "trigger_entities": [
+            "C0008031",
+            "C0038929",
+            "C0010200"
+          ],
+          "change_type": "progression",
+          "target_domain": "symptom"
+        }
+      }
+    },
+    {
+      "from": "N4",
+      "to": "N5",
+      "data": {
+        "edge_id": "D_to_E",
+        "branch_flag": true,
+        "content": "Anti-infection diuretic treatment initiated with poor results."
+      }
+    },
+    {
+      "from": "N5",
+      "to": "N6",
+      "data": {
+        "edge_id": "E_to_F",
+        "branch_flag": true,
+        "content": "Chest CT scan performed revealing anterior bronchial occlusion, lung cancer with obstructive pneumonia or atelectasis, extensive interstitial changes, and partial consolidation.",
+        "transition_event": {
+          "trigger_type": "imaging",
+          "trigger_entities": [
+            "C0024117",
+            "C0032285",
+            "C0004124"
+          ],
+          "change_type": "progression",
+          "target_domain": "imaging"
+        }
+      }
+    },
+    {
+      "from": "N6",
+      "to": "N7",
+      "data": {
+        "edge_id": "F_to_G",
+        "branch_flag": true,
+        "content": "Presentation to the emergency department with hypoxia, elevated CRP, reduced EF, and crackles, leading to diagnosis of severe pneumonia, respiratory failure, and heart failure.",
+        "transition_event": {
+          "trigger_type": "symptom_onset",
+          "trigger_entities": [
+            "C0005767",
+            "C0010307",
+            "C0007064",
+            "C0032285",
+            "C0035222",
+            "C0018797",
+            "C0010333"
+          ],
+          "change_type": "progression",
+          "target_domain": "diagnosis"
+        }
+      }
+    },
+    {
+      "from": "N7",
+      "to": "N8",
+      "data": {
+        "edge_id": "G_to_H",
+        "branch_flag": true,
+        "content": "Further management and outcomes."
+      }
+    }
+  ]
+}

@@ -1,0 +1,507 @@
+{
+  "nodes": [
+    {
+      "id": "N1",
+      "label": "Step 1",
+      "customData": {
+        "node_id": "A",
+        "node_step_index": 0,
+        "content": "60-year-old male with a history of completed open pulmonary TB treatment 30 years ago presented with fever, productive cough, and left-sided pleuritic chest pain over 2 weeks. He is a nonsmoker. Past medical history was otherwise unremarkable and was completely asymptomatic up to this presentation. Respiratory rate was 16/min. Reduced left-sided chest expansion and prominent left apical flattening.",
+        "clinical_data": {
+          "HPI": [
+            {
+              "summary": "60-year-old male presented with fever, productive cough, and left-sided pleuritic chest pain over 2 weeks.",
+              "duration": "2 weeks",
+              "onset": null,
+              "progression": "unknown",
+              "associated_symptoms": [
+                "fever",
+                "productive cough",
+                "pleuritic chest pain"
+              ]
+            }
+          ],
+          "social_history": [
+            {
+              "category": "smoking",
+              "status": "never",
+              "description": "nonsmoker"
+            }
+          ],
+          "diagnoses": [
+            {
+              "code": "C0034497",
+              "label": "Pulmonary Tuberculosis, Healed",
+              "status": "historical",
+              "onset_date": null
+            }
+          ],
+          "ROS": [
+            {
+              "system": "respiratory",
+              "findings": [
+                "productive cough",
+                "pleuritic chest pain"
+              ]
+            }
+          ],
+          "vitals": [
+            {
+              "type": "Respiratory Rate",
+              "value": "16",
+              "unit": "breaths/min",
+              "timestamp": null
+            }
+          ]
+        }
+      }
+    },
+    {
+      "id": "N2",
+      "label": "Step 2",
+      "customData": {
+        "node_id": "B",
+        "node_step_index": 1,
+        "content": "Trachea shifted to the left. Auscultation revealed reduced air entry with a dull percussion noted on the left lower zone. Chest radiograph showed a loss of lung volume on the left side with a mediastinal shift, large cavities in the left upper and middle zones with an opacity at the left upper zone, and left-sided moderate effusion.",
+        "clinical_data": {
+          "imaging": [
+            {
+              "type": "Radiography (procedure)",
+              "body_part": "Thorax",
+              "modality": "X-ray",
+              "finding": "loss of lung volume on the left side with a mediastinal shift, large cavities in the left upper and middle zones with an opacity at the left upper zone, and left-sided moderate effusion",
+              "impression": "loss of lung volume on the left side with a mediastinal shift, large cavities in the left upper and middle zones with an opacity at the left upper zone, and left-sided moderate effusion",
+              "date": null
+            }
+          ]
+        }
+      }
+    },
+    {
+      "id": "N3",
+      "label": "Step 3",
+      "customData": {
+        "node_id": "C",
+        "node_step_index": 2,
+        "content": "Sputum culture positive for Klebsiella, treated as Klebsiella pneumonia. Sputum negative for acid fast bacilli and culture negative for TB. Contrast-enhanced CT scan revealed a completely destroyed left lung with multiple air- and fluid-filled cavities and fibrotic bands.",
+        "clinical_data": {
+          "labs": [
+            {
+              "test": "Sputum culture",
+              "value": "positive",
+              "unit": null,
+              "flag": "abnormal",
+              "reference_range": null,
+              "timestamp": null
+            },
+            {
+              "test": "Sputum culture",
+              "value": "negative",
+              "unit": null,
+              "flag": "normal",
+              "reference_range": null,
+              "timestamp": null
+            }
+          ],
+          "diagnoses": [
+            {
+              "code": "Klebsiella pneumonia",
+              "label": "Klebsiella pneumonia",
+              "status": "active",
+              "onset_date": null
+            }
+          ],
+          "imaging": [
+            {
+              "type": "CT scan",
+              "body_part": "left lung",
+              "modality": "CT",
+              "finding": "completely destroyed left lung with multiple air- and fluid-filled cavities and fibrotic bands",
+              "impression": null,
+              "date": null
+            }
+          ]
+        }
+      }
+    },
+    {
+      "id": "N4",
+      "label": "Step 4",
+      "customData": {
+        "node_id": "D",
+        "node_step_index": 3,
+        "content": "CT scan revealed an enhancing lesion at the apicoposterior segment of the left upper lobe measuring 6.8 \u00d7 4.8 \u00d7 3.8\u2009cm with marginally enlarged lymph nodes in the aortopulmonary window. Right lung fields were expanded with a mediastinal shift.",
+        "clinical_data": {
+          "imaging": [
+            {
+              "type": "Lesion",
+              "body_part": "Lung",
+              "modality": "CT",
+              "finding": "Enhancing lesion at the apicoposterior segment of the left upper lobe measuring 6.8 \u00d7 4.8 \u00d7 3.8 cm",
+              "date": null
+            },
+            {
+              "type": "Lymph node enlargement",
+              "body_part": "Aortopulmonary window",
+              "modality": "CT",
+              "finding": "Marginally enlarged lymph nodes",
+              "date": null
+            },
+            {
+              "type": "Lung expansion",
+              "body_part": "Right lung",
+              "modality": "CT",
+              "finding": "Right lung fields were expanded",
+              "date": null
+            },
+            {
+              "type": "Mediastinal shift",
+              "body_part": "Mediastinum",
+              "modality": "CT",
+              "finding": "Mediastinal shift",
+              "date": null
+            }
+          ]
+        }
+      }
+    },
+    {
+      "id": "N5",
+      "label": "Step 5",
+      "customData": {
+        "node_id": "E",
+        "node_step_index": 4,
+        "content": "Fibrooptic bronchoscopy excluded a major bronchial involvement of the lesion.",
+        "clinical_data": {
+          "procedures": [
+            {
+              "name": "Bronchoscopy",
+              "approach": "endoscopic",
+              "location": "bronchial tree",
+              "outcome": "negative for major bronchial involvement"
+            }
+          ]
+        }
+      }
+    },
+    {
+      "id": "N6",
+      "label": "Step 6",
+      "customData": {
+        "node_id": "F",
+        "node_step_index": 5,
+        "content": "Ultrasound guided biopsy suggestive of a malignancy with a squamous cell variant.",
+        "clinical_data": {
+          "imaging": [
+            {
+              "type": "Ultrasound guided biopsy",
+              "body_part": null,
+              "modality": "Ultrasound",
+              "finding": "suggestive of a malignancy with a squamous cell variant",
+              "impression": "suggestive of a malignancy with a squamous cell variant",
+              "date": null
+            }
+          ]
+        }
+      }
+    },
+    {
+      "id": "N7",
+      "label": "Step 7",
+      "customData": {
+        "node_id": "G",
+        "node_step_index": 6,
+        "content": "Patient underwent a left posterolateral thoracotomy. Operative findings mirrored the CT findings, revealing a peripherally located tumor confined to the left upper lobe. The left lung was destroyed, cavitatory, and small due to previous tuberculosis. An empyema with a large cavity around the lower lobe was noted.",
+        "clinical_data": {
+          "procedures": [
+            {
+              "name": "Thoracotomy",
+              "approach": "open",
+              "date": null,
+              "location": "left posterolateral",
+              "performed_by": null,
+              "outcome": null
+            }
+          ],
+          "imaging": [
+            {
+              "type": "CT scan",
+              "body_part": null,
+              "modality": "CT",
+              "finding": "peripherally located tumor confined to the left upper lobe",
+              "impression": null,
+              "date": null
+            }
+          ],
+          "diagnoses": [
+            {
+              "code": "23303005",
+              "label": "Pulmonary tuberculosis",
+              "status": "historical",
+              "onset_date": null
+            },
+            {
+              "code": "36735003",
+              "label": "Empyema",
+              "status": "active",
+              "onset_date": null
+            }
+          ]
+        }
+      }
+    },
+    {
+      "id": "N8",
+      "label": "Step 8",
+      "customData": {
+        "node_id": "H",
+        "node_step_index": 7,
+        "content": "Pus culture was negative for TB. Several mediastinal lymph nodes on the aortopulmonary window were enlarged and were resected. The hilar vessels and the left main bronchus were divided separately using endostaplers, and the left lung was removed en bloc.",
+        "clinical_data": {
+          "labs": [
+            {
+              "test": "Culture of pus",
+              "value": "negative",
+              "unit": null,
+              "flag": "normal",
+              "reference_range": null,
+              "timestamp": null
+            }
+          ],
+          "imaging": [
+            {
+              "type": "Mediastinal Lymph Nodes",
+              "body_part": "Aortopulmonary Window",
+              "modality": null,
+              "finding": "enlarged",
+              "impression": null,
+              "date": null
+            }
+          ],
+          "procedures": [
+            {
+              "name": "Resection",
+              "approach": null,
+              "date": null,
+              "location": "Mediastinal Lymph Nodes",
+              "performed_by": null,
+              "outcome": null
+            },
+            {
+              "name": "Division",
+              "approach": "endoscopic",
+              "date": null,
+              "location": "Hilar Vessels",
+              "performed_by": null,
+              "outcome": null
+            },
+            {
+              "name": "Division",
+              "approach": "endoscopic",
+              "date": null,
+              "location": "Left Main Bronchus",
+              "performed_by": null,
+              "outcome": null
+            },
+            {
+              "name": "Pneumonectomy",
+              "approach": "open",
+              "date": null,
+              "location": "Left Lung",
+              "performed_by": null,
+              "outcome": null
+            }
+          ],
+          "diagnoses": [
+            {
+              "code": "25336001",
+              "label": "Pulmonary tuberculosis",
+              "status": "ruled_out",
+              "onset_date": null
+            }
+          ]
+        }
+      }
+    },
+    {
+      "id": "N9",
+      "label": "Step 9",
+      "customData": {
+        "node_id": "I",
+        "node_step_index": 8,
+        "content": "Patient received postoperative intensive care and recovered without complications.",
+        "clinical_data": {}
+      }
+    },
+    {
+      "id": "N10",
+      "label": "Step 10",
+      "customData": {
+        "node_id": "J",
+        "node_step_index": 9,
+        "content": "Patient discharged on postoperative day 5 on pulmonary rehabilitation.",
+        "clinical_data": {}
+      }
+    },
+    {
+      "id": "N11",
+      "label": "Step 11",
+      "customData": {
+        "node_id": "K",
+        "node_step_index": 10,
+        "content": "Histology revealed a moderately differentiated keratinizing-type squamous cell carcinoma with a maximum diameter of 7.5 cm (T4) and visceral pleural invasion (PL1). Bronchial resection margin was free of tumor with a 10 mm clearance (pT4N0Mx). All 16 lymph nodes were free of tumor.",
+        "clinical_data": {
+          "diagnoses": [
+            {
+              "code": "C2400072",
+              "label": "Squamous cell carcinoma",
+              "status": "active"
+            }
+          ],
+          "imaging": [
+            {
+              "type": "finding",
+              "body_part": "lung",
+              "modality": "histology",
+              "finding": "moderately differentiated keratinizing-type squamous cell carcinoma with a maximum diameter of 7.5 cm (T4) and visceral pleural invasion (PL1)",
+              "impression": "squamous cell carcinoma"
+            }
+          ],
+          "procedures": [
+            {
+              "name": "Bronchial resection",
+              "outcome": "free of tumor"
+            }
+          ]
+        }
+      }
+    },
+    {
+      "id": "N12",
+      "label": "Step 12",
+      "customData": {
+        "node_id": "L",
+        "node_step_index": 11,
+        "content": "Post surgical lung function at 1 month showed satisfactory improvement with good functional capacity. Referred to oncologist for adjuvant therapy.",
+        "clinical_data": {
+          "procedures": [
+            {
+              "name": "Surgery",
+              "date": null,
+              "outcome": "Satisfactory improvement"
+            }
+          ],
+          "functional_status": [
+            {
+              "domain": "respiratory",
+              "description": "Good functional capacity",
+              "score": null,
+              "scale": null
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "edges": [
+    {
+      "from": "N1",
+      "to": "N2",
+      "data": {
+        "edge_id": "A_to_B",
+        "branch_flag": true,
+        "content": "Patient's condition progressed to include tracheal shift to the left, reduced air entry with dull percussion on the left lower zone, and chest radiograph findings of lung volume loss, mediastinal shift, cavities, opacity, and effusion on the left side."
+      }
+    },
+    {
+      "from": "N2",
+      "to": "N3",
+      "data": {
+        "edge_id": "B_to_C",
+        "branch_flag": true,
+        "content": "Patient was diagnosed with Klebsiella pneumonia based on sputum culture and treated accordingly. Further imaging revealed a completely destroyed left lung."
+      }
+    },
+    {
+      "from": "N3",
+      "to": "N4",
+      "data": {
+        "edge_id": "C_to_D",
+        "branch_flag": true,
+        "content": "CT scan revealed an enhancing lesion in the left upper lobe, enlarged lymph nodes, and mediastinal shift."
+      }
+    },
+    {
+      "from": "N4",
+      "to": "N5",
+      "data": {
+        "edge_id": "D_to_E",
+        "branch_flag": true,
+        "content": "Bronchoscopy performed to evaluate the lesion."
+      }
+    },
+    {
+      "from": "N5",
+      "to": "N6",
+      "data": {
+        "edge_id": "E_to_F",
+        "branch_flag": true,
+        "content": "Biopsy performed to evaluate the lesion."
+      }
+    },
+    {
+      "from": "N6",
+      "to": "N7",
+      "data": {
+        "edge_id": "F_to_G",
+        "branch_flag": true,
+        "content": "Patient underwent left posterolateral thoracotomy, revealing a tumor confined to the left upper lobe, a destroyed left lung, and empyema."
+      }
+    },
+    {
+      "from": "N7",
+      "to": "N8",
+      "data": {
+        "edge_id": "G_to_H",
+        "branch_flag": true,
+        "content": "Pus culture was negative for TB. Mediastinal lymph nodes were enlarged and resected. The left lung was removed en bloc."
+      }
+    },
+    {
+      "from": "N8",
+      "to": "N9",
+      "data": {
+        "edge_id": "H_to_I",
+        "branch_flag": true,
+        "content": "Patient received postoperative intensive care."
+      }
+    },
+    {
+      "from": "N9",
+      "to": "N10",
+      "data": {
+        "edge_id": "I_to_J",
+        "branch_flag": true,
+        "content": "Patient discharged on postoperative day 5 on pulmonary rehabilitation."
+      }
+    },
+    {
+      "from": "N10",
+      "to": "N11",
+      "data": {
+        "edge_id": "J_to_K",
+        "branch_flag": true,
+        "content": "Histology revealed squamous cell carcinoma."
+      }
+    },
+    {
+      "from": "N11",
+      "to": "N12",
+      "data": {
+        "edge_id": "K_to_L",
+        "branch_flag": true,
+        "content": "Post surgical lung function showed satisfactory improvement. Patient referred to oncologist for adjuvant therapy."
+      }
+    }
+  ]
+}

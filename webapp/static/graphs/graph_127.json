@@ -1,0 +1,352 @@
+{
+  "nodes": [
+    {
+      "id": "N1",
+      "label": "Step 1",
+      "customData": {
+        "node_id": "A",
+        "node_step_index": 0,
+        "content": "21-year-old woman with a past medical history of pericarditis and cardiac tamponade presented to the Emergency Department after a referral from a clinic due to nausea, vomiting, ascites, lower extremity oedema, soft and watery diarrhoea, right upper quadrant pain, scleral icterus, abdominal distention, oedema, rash and joint pain.",
+        "clinical_data": {
+          "HPI": [
+            {
+              "summary": "21-year-old woman presented to the Emergency Department after a referral from a clinic due to nausea, vomiting, ascites, lower extremity oedema, soft and watery diarrhoea, right upper quadrant pain, scleral icterus, abdominal distention, oedema, rash and joint pain.",
+              "associated_symptoms": [
+                "nausea",
+                "vomiting",
+                "ascites",
+                "lower extremity oedema",
+                "soft and watery diarrhoea",
+                "right upper quadrant pain",
+                "scleral icterus",
+                "abdominal distention",
+                "oedema",
+                "rash",
+                "joint pain"
+              ]
+            }
+          ],
+          "diagnoses": [
+            {
+              "code": "pericarditis",
+              "label": "pericarditis",
+              "status": "historical"
+            },
+            {
+              "code": "cardiac tamponade",
+              "label": "cardiac tamponade",
+              "status": "historical"
+            }
+          ]
+        }
+      }
+    },
+    {
+      "id": "N2",
+      "label": "Step 2",
+      "customData": {
+        "node_id": "B",
+        "node_step_index": 1,
+        "content": "Two months prior to presentation, the patient developed pleuritic chest pain and arthralgias and was diagnosed with cardiac tamponade. Pericardiocentesis was performed, which was negative for any malignant cells, showing only mild nonspecific inflammation. At that time, she had a negative workup for HIV, hepatitis, antinuclear antibody and Anti-Smith antibodies.",
+        "clinical_data": {
+          "HPI": [
+            {
+              "duration": "2 months",
+              "onset": "2 months prior to presentation",
+              "associated_symptoms": [
+                "Pleuritic chest pain",
+                "arthralgias"
+              ]
+            }
+          ],
+          "diagnoses": [
+            {
+              "code": "C0007074",
+              "label": "cardiac tamponade",
+              "status": "historical",
+              "onset_date": null
+            }
+          ],
+          "procedures": [
+            {
+              "name": "C0031118",
+              "date": null,
+              "outcome": "negative for any malignant cells"
+            }
+          ],
+          "labs": [
+            {
+              "test": "HIV",
+              "value": "negative",
+              "flag": "normal"
+            },
+            {
+              "test": "hepatitis",
+              "value": "negative",
+              "flag": "normal"
+            },
+            {
+              "test": "antinuclear antibody",
+              "value": "negative",
+              "flag": "normal"
+            },
+            {
+              "test": "Anti-Smith antibodies",
+              "value": "negative",
+              "flag": "normal"
+            }
+          ]
+        },
+        "timestamp": "two months prior to presentation"
+      }
+    },
+    {
+      "id": "N3",
+      "label": "Step 3",
+      "customData": {
+        "node_id": "C",
+        "node_step_index": 2,
+        "content": "Patient was hospitalized for 10 days and discharged without medication.",
+        "clinical_data": {
+          "procedures": [
+            {
+              "name": "Hospitalization",
+              "date": null,
+              "outcome": "Discharged"
+            }
+          ]
+        }
+      }
+    },
+    {
+      "id": "N4",
+      "label": "Step 4",
+      "customData": {
+        "node_id": "D",
+        "node_step_index": 3,
+        "content": "Patient presented to the Emergency Room with inability to keep food down, abdominal distention after meals (improving with emesis), and a weight loss of 20 lb (approximately 9 kg) in the past month.",
+        "clinical_data": {
+          "HPI": [
+            {
+              "summary": "Patient presented with inability to keep food down, abdominal distention after meals (improving with emesis), and a weight loss of 20 lb in the past month.",
+              "duration": "1 month",
+              "progression": "unknown",
+              "associated_symptoms": [
+                "Abdominal distention",
+                "Weight loss",
+                "Emesis"
+              ]
+            }
+          ]
+        }
+      }
+    },
+    {
+      "id": "N5",
+      "label": "Step 5",
+      "customData": {
+        "node_id": "E",
+        "node_step_index": 4,
+        "content": "Systemic review showed the patient had fatigue, shortness of breath, cough, weight change and arthralgias. Physical examination showed a rash in the lower extremities and back. Heart exam showed that the point of maximal impact was not displaced.",
+        "clinical_data": {
+          "HPI": [
+            {
+              "summary": "fatigue, shortness of breath, cough, weight change and arthralgias",
+              "associated_symptoms": [
+                "C0015672",
+                "C0037273",
+                "C0010200",
+                "C0042045",
+                "C0003864"
+              ]
+            }
+          ],
+          "ROS": [
+            {
+              "system": "constitutional",
+              "findings": [
+                "C0015672",
+                "C0042045"
+              ]
+            },
+            {
+              "system": "respiratory",
+              "findings": [
+                "C0037273",
+                "C0010200"
+              ]
+            }
+          ],
+          "physical_exam": [
+            {
+              "finding": "rash in the lower extremities and back",
+              "location": "lower extremities and back"
+            },
+            {
+              "finding": "point of maximal impact was not displaced",
+              "body_part": "heart"
+            }
+          ]
+        }
+      }
+    },
+    {
+      "id": "N6",
+      "label": "Step 6",
+      "customData": {
+        "node_id": "F",
+        "node_step_index": 5,
+        "content": "No murmurs, gallop, or bruit. No raised jugular venous pressure. Bilateral leg edema present. ECG showed low voltage QRS, sinus tachycardia, and T wave abnormality. Chest X-ray showed borderline enlarged cardiomediastinal silhouette.",
+        "clinical_data": {
+          "vitals": [
+            {
+              "type": "Heart rate",
+              "value": "Sinus tachycardia",
+              "unit": null,
+              "timestamp": null
+            }
+          ],
+          "physical_exam": [
+            {
+              "finding": "No murmurs",
+              "body_part": "Heart"
+            },
+            {
+              "finding": "No gallop",
+              "body_part": "Heart"
+            },
+            {
+              "finding": "No bruit",
+              "body_part": "Heart"
+            },
+            {
+              "finding": "No raised jugular venous pressure",
+              "body_part": "Neck"
+            },
+            {
+              "finding": "Bilateral leg edema present",
+              "body_part": "Legs"
+            }
+          ],
+          "labs": [
+            {
+              "test": "Electrocardiogram",
+              "value": "low voltage QRS, T wave abnormality",
+              "unit": null,
+              "flag": "abnormal",
+              "reference_range": null,
+              "timestamp": null
+            }
+          ],
+          "imaging": [
+            {
+              "type": "Chest X-ray",
+              "body_part": "Cardiomediastinal silhouette",
+              "modality": "X-ray",
+              "finding": "borderline enlarged",
+              "impression": null,
+              "date": null
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "edges": [
+    {
+      "from": "N1",
+      "to": "N2",
+      "data": {
+        "edge_id": "A_to_B",
+        "branch_flag": true,
+        "content": "Patient developed pleuritic chest pain and arthralgias and was diagnosed with cardiac tamponade two months prior to presentation. Pericardiocentesis was performed, which was negative for any malignant cells, showing only mild nonspecific inflammation. At that time, she had a negative workup for HIV, hepatitis, antinuclear antibody and Anti-Smith antibodies.",
+        "transition_event": {
+          "trigger_type": "symptom_onset",
+          "trigger_entities": [
+            "C0008031",
+            "C0003864"
+          ],
+          "change_type": "progression",
+          "target_domain": "symptom",
+          "timestamp": "two months prior to presentation"
+        }
+      }
+    },
+    {
+      "from": "N2",
+      "to": "N3",
+      "data": {
+        "edge_id": "B_to_C",
+        "branch_flag": true,
+        "content": "Patient was hospitalized for 10 days and discharged without medication.",
+        "transition_event": {
+          "trigger_type": "procedure",
+          "trigger_entities": [
+            "C0019790"
+          ],
+          "change_type": "other",
+          "target_domain": "procedure"
+        }
+      }
+    },
+    {
+      "from": "N3",
+      "to": "N4",
+      "data": {
+        "edge_id": "C_to_D",
+        "branch_flag": true,
+        "content": "Patient presented to the Emergency Room with inability to keep food down, abdominal distention after meals (improving with emesis), and a weight loss of 20 lb (approximately 9 kg) in the past month.",
+        "transition_event": {
+          "trigger_type": "symptom_onset",
+          "trigger_entities": [
+            "C0232222",
+            "C0000734",
+            "C0042045"
+          ],
+          "change_type": "progression",
+          "target_domain": "symptom"
+        }
+      }
+    },
+    {
+      "from": "N4",
+      "to": "N5",
+      "data": {
+        "edge_id": "D_to_E",
+        "branch_flag": true,
+        "content": "Systemic review showed the patient had fatigue, shortness of breath, cough, weight change and arthralgias. Physical examination showed a rash in the lower extremities and back. Heart exam showed that the point of maximal impact was not displaced.",
+        "transition_event": {
+          "trigger_type": "symptom_onset",
+          "trigger_entities": [
+            "C0015672",
+            "C0037273",
+            "C0010200",
+            "C0042045",
+            "C0003864",
+            "C0034722"
+          ],
+          "change_type": "progression",
+          "target_domain": "symptom"
+        }
+      }
+    },
+    {
+      "from": "N5",
+      "to": "N6",
+      "data": {
+        "edge_id": "E_to_F",
+        "branch_flag": true,
+        "content": "No murmurs, gallop, or bruit. No raised jugular venous pressure. Bilateral leg edema present. ECG showed low voltage QRS, sinus tachycardia, and T wave abnormality. Chest X-ray showed borderline enlarged cardiomediastinal silhouette.",
+        "transition_event": {
+          "trigger_type": "lab_change",
+          "trigger_entities": [
+            "C0040026",
+            "C0036644"
+          ],
+          "change_type": "progression",
+          "target_domain": "vital_sign"
+        }
+      }
+    }
+  ]
+}

@@ -1,0 +1,324 @@
+{
+  "nodes": [
+    {
+      "id": "N1",
+      "label": "Step 1",
+      "customData": {
+        "node_id": "A",
+        "node_step_index": 0,
+        "content": "8-year-old Saanen goat doe, healthy control and breeding animal in eastern Washington State, USA. Maintained in an indoor/outdoor animal housing facility. Current on annual immunization for Clostridium perfringens Types C and D and C. tetani (BarVac CD/T). On endo-/ectoparasite control when indicated by fecal and physical examinations [anthelmintics: fenbendazole or ivermectin; Eimeria control: amprolium; chewing lice infestation: coumaphos or permethrin]. Serology for Coxiella burnetii (last trimester of pregnancy) and small ruminant lentivirus were consistently negative over the life of this animal and herd.",
+        "clinical_data": {
+          "medications": [
+            {
+              "drug": "C0008941",
+              "dosage": null,
+              "frequency": "annual",
+              "modality": null,
+              "start_date": null,
+              "end_date": null,
+              "indication": "C0008941"
+            },
+            {
+              "drug": "C0015873",
+              "dosage": null,
+              "frequency": "when indicated",
+              "modality": null,
+              "start_date": null,
+              "end_date": null,
+              "indication": "Endoparasite control"
+            },
+            {
+              "drug": "C0022137",
+              "dosage": null,
+              "frequency": "when indicated",
+              "modality": null,
+              "start_date": null,
+              "end_date": null,
+              "indication": "Ectoparasite control"
+            },
+            {
+              "drug": "C0015873",
+              "dosage": null,
+              "frequency": "when indicated",
+              "modality": null,
+              "start_date": null,
+              "end_date": null,
+              "indication": "C0005383"
+            },
+            {
+              "drug": "C0022137",
+              "dosage": null,
+              "frequency": "when indicated",
+              "modality": null,
+              "start_date": null,
+              "end_date": null,
+              "indication": "C0010058"
+            }
+          ],
+          "diagnoses": [
+            {
+              "code": "C0010058",
+              "label": "Chewing Lice Infestation",
+              "status": "historical",
+              "onset_date": null
+            },
+            {
+              "code": "C0005383",
+              "label": "Parasitic Disease",
+              "status": "historical",
+              "onset_date": null
+            }
+          ],
+          "social_history": [
+            {
+              "category": "housing",
+              "status": "current",
+              "description": "Maintained in an indoor/outdoor animal housing facility"
+            }
+          ]
+        }
+      }
+    },
+    {
+      "id": "N2",
+      "label": "Step 2",
+      "customData": {
+        "node_id": "B",
+        "node_step_index": 1,
+        "content": "Two days of reduced appetite, reduced fecal and urine output, increased heart rate, and intermittent bluish-grey discoloration of the mucous membranes.",
+        "clinical_data": {
+          "HPI": [
+            {
+              "summary": "Reduced appetite, reduced fecal and urine output, increased heart rate, and intermittent bluish-grey discoloration of the mucous membranes.",
+              "duration": "2 days",
+              "progression": "sudden",
+              "associated_symptoms": [
+                "C0003129",
+                "C0231523",
+                "C0020618",
+                "C0263533"
+              ]
+            }
+          ]
+        }
+      }
+    },
+    {
+      "id": "N3",
+      "label": "Step 3",
+      "customData": {
+        "node_id": "C",
+        "node_step_index": 2,
+        "content": "Bright, alert, and responsive, with pink, but tacky, mucous membranes. Thin in body condition and the abdominal contour appeared bilaterally sunken.",
+        "clinical_data": {
+          "vitals": [
+            {
+              "type": "Mucous membrane color",
+              "value": "pink",
+              "description": "tacky"
+            }
+          ]
+        }
+      }
+    },
+    {
+      "id": "N4",
+      "label": "Step 4",
+      "customData": {
+        "node_id": "D",
+        "node_step_index": 3,
+        "content": "Rectal temperature 39.9\u00b0C, HR 156 beats/min, respiratory rate 56 breaths/min. Mild, bilateral, dry nasal discharge. Thoracic auscultation revealed reduced sounds on the left side.",
+        "clinical_data": {
+          "vitals": [
+            {
+              "type": "Rectal temperature",
+              "value": "39.9",
+              "unit": "\u00b0C"
+            },
+            {
+              "type": "Heart rate",
+              "value": "156",
+              "unit": "beats/min"
+            },
+            {
+              "type": "Respiratory rate",
+              "value": "56",
+              "unit": "breaths/min"
+            }
+          ],
+          "ROS": [
+            {
+              "system": "respiratory",
+              "findings": [
+                "reduced breath sounds on the left side"
+              ]
+            }
+          ]
+        }
+      }
+    },
+    {
+      "id": "N5",
+      "label": "Step 5",
+      "customData": {
+        "node_id": "E",
+        "node_step_index": 4,
+        "content": "Rectal temperature 39.1\u00b0C, HR 120 beats/min, respiratory rate 36 breaths/min, expiratory abdominal effort.",
+        "clinical_data": {
+          "vitals": [
+            {
+              "type": "Rectal temperature",
+              "value": "39.1",
+              "unit": "\u00b0C"
+            },
+            {
+              "type": "Heart rate",
+              "value": "120",
+              "unit": "beats/min"
+            },
+            {
+              "type": "Respiratory rate",
+              "value": "36",
+              "unit": "breaths/min"
+            }
+          ],
+          "HPI": [
+            {
+              "summary": "Expiratory abdominal effort"
+            }
+          ]
+        }
+      }
+    },
+    {
+      "id": "N6",
+      "label": "Step 6",
+      "customData": {
+        "node_id": "F",
+        "node_step_index": 5,
+        "content": "Reduced and firm rumen fill and reduced rumen contractility. PCV of 45% (RR: 22 to 38%). Plasma fibrinogen was 2 g/L (RR: 1 to 4 g/L). Serum chemistry panel revealed mild hyperproteinemia at 76 g/L (RR: 61 to 71 g/L) characterized by a low normal albumin at 26 g/L (RR: 25 to 35 g/L) and mild hyperglobulinemia at 50 g/L (RR: 27 to 41 g/L).",
+        "clinical_data": {
+          "labs": [
+            {
+              "test": "Packed cell volume",
+              "value": "45",
+              "unit": "%",
+              "reference_range": "22 to 38%",
+              "flag": "abnormal"
+            },
+            {
+              "test": "Fibrinogen measurement",
+              "value": "2",
+              "unit": "g/L",
+              "reference_range": "1 to 4 g/L",
+              "flag": "normal"
+            },
+            {
+              "test": "Total protein measurement",
+              "value": "76",
+              "unit": "g/L",
+              "reference_range": "61 to 71 g/L",
+              "flag": "abnormal"
+            },
+            {
+              "test": "Albumin measurement",
+              "value": "26",
+              "unit": "g/L",
+              "reference_range": "25 to 35 g/L",
+              "flag": "normal"
+            },
+            {
+              "test": "Globulin measurement",
+              "value": "50",
+              "unit": "g/L",
+              "reference_range": "27 to 41 g/L",
+              "flag": "abnormal"
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "edges": [
+    {
+      "from": "N1",
+      "to": "N2",
+      "data": {
+        "edge_id": "A_to_B",
+        "branch_flag": true,
+        "content": "Transition from healthy state to onset of illness.",
+        "transition_event": {
+          "trigger_type": "symptom_onset",
+          "trigger_entities": [
+            "C0003129",
+            "C0231523",
+            "C0020618",
+            "C0263533"
+          ],
+          "change_type": "progression",
+          "target_domain": "symptom"
+        }
+      }
+    },
+    {
+      "from": "N2",
+      "to": "N3",
+      "data": {
+        "edge_id": "B_to_C",
+        "branch_flag": true,
+        "content": "Change in mucous membrane color and overall assessment.",
+        "transition_event": {
+          "trigger_type": "spontaneous",
+          "trigger_entities": [],
+          "change_type": "reinterpretation",
+          "target_domain": "vital_sign"
+        }
+      }
+    },
+    {
+      "from": "N3",
+      "to": "N4",
+      "data": {
+        "edge_id": "C_to_D",
+        "branch_flag": true,
+        "content": "Vitals and respiratory findings.",
+        "transition_event": {
+          "trigger_type": "spontaneous",
+          "trigger_entities": [],
+          "change_type": "progression",
+          "target_domain": "vital_sign"
+        }
+      }
+    },
+    {
+      "from": "N4",
+      "to": "N5",
+      "data": {
+        "edge_id": "D_to_E",
+        "branch_flag": true,
+        "content": "Change in vitals and abdominal effort.",
+        "transition_event": {
+          "trigger_type": "spontaneous",
+          "trigger_entities": [],
+          "change_type": "progression",
+          "target_domain": "vital_sign"
+        }
+      }
+    },
+    {
+      "from": "N5",
+      "to": "N6",
+      "data": {
+        "edge_id": "E_to_F",
+        "branch_flag": true,
+        "content": "Rumen assessment and lab results.",
+        "transition_event": {
+          "trigger_type": "lab_change",
+          "trigger_entities": [],
+          "change_type": "other",
+          "target_domain": "lab"
+        }
+      }
+    }
+  ]
+}

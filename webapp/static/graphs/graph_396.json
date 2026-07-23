@@ -1,0 +1,381 @@
+{
+  "nodes": [
+    {
+      "id": "N1",
+      "label": "Step 1",
+      "customData": {
+        "node_id": "A",
+        "node_step_index": 0,
+        "content": "84-year-old male with stage IV non-small cell lung cancer (NSCLC), hypertension, dyslipidemia, mitral valve prolapse with a focal flail segment (portion of P2), and a smoking history of 40 pack-years (quit 20 years prior to the first encounter).",
+        "clinical_data": {
+          "diagnoses": [
+            {
+              "code": "C34.9",
+              "label": "Non-small cell lung cancer",
+              "status": "active",
+              "onset_date": null
+            },
+            {
+              "code": "I10",
+              "label": "Hypertension",
+              "status": "active",
+              "onset_date": null
+            },
+            {
+              "code": "E78.9",
+              "label": "Dyslipidemia",
+              "status": "active",
+              "onset_date": null
+            },
+            {
+              "code": "I34.1",
+              "label": "Mitral valve prolapse",
+              "status": "active",
+              "onset_date": null
+            }
+          ],
+          "social_history": [
+            {
+              "category": "smoking",
+              "status": "past",
+              "description": "40 pack-years, quit 20 years prior to the first encounter"
+            }
+          ]
+        }
+      }
+    },
+    {
+      "id": "N2",
+      "label": "Step 2",
+      "customData": {
+        "node_id": "B",
+        "node_step_index": 1,
+        "content": "Patient emergently admitted after three episodes of exertional dyspnea over a 1-month period had progressed to dyspnea occurring at rest.",
+        "clinical_data": {
+          "HPI": [
+            {
+              "summary": "Patient emergently admitted after three episodes of exertional dyspnea over a 1-month period had progressed to dyspnea occurring at rest.",
+              "duration": "1 month",
+              "progression": "gradual",
+              "associated_symptoms": [
+                "Dyspnea"
+              ]
+            }
+          ]
+        }
+      }
+    },
+    {
+      "id": "N3",
+      "label": "Step 3",
+      "customData": {
+        "node_id": "C",
+        "node_step_index": 2,
+        "content": "Chest radiography revealed a large left pleural effusion.",
+        "clinical_data": {
+          "imaging": [
+            {
+              "type": "Radiography",
+              "body_part": "Chest",
+              "modality": "X-ray",
+              "finding": "Large left pleural effusion"
+            }
+          ]
+        }
+      }
+    },
+    {
+      "id": "N4",
+      "label": "Step 4",
+      "customData": {
+        "node_id": "D",
+        "node_step_index": 3,
+        "content": "CT scan revealed a 3.5-cm anterior left upper lobe (LUL) consolidation and near-complete left lung atelectasis, with pleural effusion.",
+        "clinical_data": {
+          "imaging": [
+            {
+              "type": "CT scan",
+              "body_part": "lung",
+              "modality": "CT",
+              "finding": "3.5-cm anterior left upper lobe (LUL) consolidation and near-complete left lung atelectasis, with pleural effusion"
+            }
+          ]
+        }
+      }
+    },
+    {
+      "id": "N5",
+      "label": "Step 5",
+      "customData": {
+        "node_id": "E",
+        "node_step_index": 4,
+        "content": "Thoracentesis of 2,500 mL of pleural fluid was performed, and a sample sent for microbiologic and cytologic analysis. The fluid was exudative.",
+        "clinical_data": {
+          "procedures": [
+            {
+              "name": "Thoracentesis",
+              "date": null,
+              "location": "pleural space",
+              "performed_by": null,
+              "outcome": null
+            }
+          ],
+          "labs": [
+            {
+              "test": "cytologic analysis",
+              "value": null,
+              "unit": null,
+              "flag": null,
+              "reference_range": null,
+              "timestamp": null
+            },
+            {
+              "test": "microbiologic analysis",
+              "value": null,
+              "unit": null,
+              "flag": null,
+              "reference_range": null,
+              "timestamp": null
+            }
+          ]
+        }
+      }
+    },
+    {
+      "id": "N6",
+      "label": "Step 6",
+      "customData": {
+        "node_id": "F",
+        "node_step_index": 5,
+        "content": "Cultures were negative for acid-fast bacilli, fungi, and anaerobic organisms. Cytology was negative for malignant cells.",
+        "clinical_data": {}
+      }
+    },
+    {
+      "id": "N7",
+      "label": "Step 7",
+      "customData": {
+        "node_id": "G",
+        "node_step_index": 6,
+        "content": "Patient discharged with a prescription of oral azithromycin for possible community-acquired pneumonia and instructions to return for follow-up with a pulmonologist.",
+        "clinical_data": {
+          "medications": [
+            {
+              "drug": "C0004729",
+              "dosage": null,
+              "frequency": null,
+              "modality": "oral",
+              "start_date": null,
+              "end_date": null,
+              "indication": "C0009471"
+            }
+          ],
+          "diagnoses": [
+            {
+              "code": "C0009471",
+              "label": "Pneumonia, Community-Acquired",
+              "status": "suspected",
+              "onset_date": null
+            }
+          ]
+        }
+      }
+    },
+    {
+      "id": "N8",
+      "label": "Step 8",
+      "customData": {
+        "node_id": "H",
+        "node_step_index": 7,
+        "content": "18F-FDG PET-CT identified an FDG-avid LUL mass, mediastinal and bilateral hilar adenopathy, and an intracardiac focus of FDG avidity.",
+        "clinical_data": {
+          "imaging": [
+            {
+              "type": "Positron emission tomography/computed tomography",
+              "body_part": "lung",
+              "modality": "PET",
+              "finding": "FDG-avid mass in the left upper lobe",
+              "date": null
+            },
+            {
+              "type": "Positron emission tomography/computed tomography",
+              "body_part": "mediastinum",
+              "modality": "PET",
+              "finding": "mediastinal adenopathy",
+              "date": null
+            },
+            {
+              "type": "Positron emission tomography/computed tomography",
+              "body_part": "hilar region",
+              "modality": "PET",
+              "finding": "bilateral hilar adenopathy",
+              "date": null
+            },
+            {
+              "type": "Positron emission tomography/computed tomography",
+              "body_part": "heart",
+              "modality": "PET",
+              "finding": "intracardiac focus of FDG avidity",
+              "date": null
+            }
+          ]
+        }
+      }
+    },
+    {
+      "id": "N9",
+      "label": "Step 9",
+      "customData": {
+        "node_id": "I",
+        "node_step_index": 8,
+        "content": "1.5-cm FDG-avid hypodense nodularity within the anterior papillary muscle, with a maximum standard uptake value of 112.3.",
+        "clinical_data": {
+          "imaging": [
+            {
+              "type": "Nodule",
+              "body_part": "Anterior papillary muscle",
+              "modality": "PET",
+              "finding": "FDG-avid hypodense nodularity",
+              "impression": "1.5-cm FDG-avid hypodense nodularity within the anterior papillary muscle, with a maximum standard uptake value of 112.3."
+            }
+          ]
+        }
+      }
+    },
+    {
+      "id": "N10",
+      "label": "Step 10",
+      "customData": {
+        "node_id": "J",
+        "node_step_index": 9,
+        "content": "Patient found to be hyponatremic, considered a paraneoplastic",
+        "clinical_data": {
+          "diagnoses": [
+            {
+              "code": "C0002061",
+              "label": "Hyponatremia",
+              "status": "active"
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "edges": [
+    {
+      "from": "N1",
+      "to": "N2",
+      "data": {
+        "edge_id": "A_to_B",
+        "branch_flag": true,
+        "content": "Patient with stage IV NSCLC, hypertension, dyslipidemia, mitral valve prolapse, and smoking history presents with worsening exertional dyspnea progressing to dyspnea at rest."
+      }
+    },
+    {
+      "from": "N2",
+      "to": "N3",
+      "data": {
+        "edge_id": "B_to_C",
+        "branch_flag": true,
+        "content": "Worsening dyspnea prompts chest radiography."
+      }
+    },
+    {
+      "from": "N3",
+      "to": "N4",
+      "data": {
+        "edge_id": "C_to_D",
+        "branch_flag": true,
+        "content": "Chest radiography findings lead to CT scan."
+      }
+    },
+    {
+      "from": "N4",
+      "to": "N5",
+      "data": {
+        "edge_id": "D_to_E",
+        "branch_flag": true,
+        "content": "CT scan findings prompt thoracentesis to evaluate pleural effusion.",
+        "transition_event": {
+          "trigger_type": "procedure",
+          "trigger_entities": [
+            "C0040039"
+          ],
+          "change_type": "addition",
+          "target_domain": "procedure"
+        }
+      }
+    },
+    {
+      "from": "N5",
+      "to": "N6",
+      "data": {
+        "edge_id": "E_to_F",
+        "branch_flag": true,
+        "content": "Thoracentesis fluid sent for analysis.",
+        "transition_event": {
+          "trigger_type": "lab_change",
+          "trigger_entities": [],
+          "change_type": "addition",
+          "target_domain": "lab"
+        }
+      }
+    },
+    {
+      "from": "N6",
+      "to": "N7",
+      "data": {
+        "edge_id": "F_to_G",
+        "branch_flag": true,
+        "content": "Negative cultures and cytology results lead to discharge with azithromycin for possible community-acquired pneumonia.",
+        "transition_event": {
+          "trigger_type": "medication_change",
+          "trigger_entities": [
+            "C0004729"
+          ],
+          "change_type": "addition",
+          "target_domain": "medication"
+        }
+      }
+    },
+    {
+      "from": "N7",
+      "to": "N8",
+      "data": {
+        "edge_id": "G_to_H",
+        "branch_flag": true,
+        "content": "Follow-up with pulmonologist leads to 18F-FDG PET-CT scan.",
+        "transition_event": {
+          "trigger_type": "procedure",
+          "trigger_entities": [],
+          "change_type": "addition",
+          "target_domain": "imaging"
+        }
+      }
+    },
+    {
+      "from": "N8",
+      "to": "N9",
+      "data": {
+        "edge_id": "H_to_I",
+        "branch_flag": true,
+        "content": "PET-CT findings prompt further characterization of intracardiac focus."
+      }
+    },
+    {
+      "from": "N9",
+      "to": "N10",
+      "data": {
+        "edge_id": "I_to_J",
+        "branch_flag": true,
+        "content": "Patient found to be hyponatremic, considered a paraneoplastic manifestation of the lung cancer.",
+        "transition_event": {
+          "trigger_type": "lab_change",
+          "trigger_entities": [],
+          "change_type": "addition",
+          "target_domain": "diagnosis"
+        }
+      }
+    }
+  ]
+}

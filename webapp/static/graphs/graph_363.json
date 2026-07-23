@@ -1,0 +1,94 @@
+{
+  "nodes": [
+    {
+      "id": "N1",
+      "label": "Step 1",
+      "customData": {
+        "node_id": "A",
+        "node_step_index": 0,
+        "content": "Patient diagnosed with diffuse malignant pleural mesothelioma (MPM).",
+        "clinical_data": {
+          "diagnoses": [
+            {
+              "code": "C45.0",
+              "label": "Mesothelioma of pleura",
+              "status": "active"
+            }
+          ]
+        }
+      }
+    },
+    {
+      "id": "N2",
+      "label": "Step 2",
+      "customData": {
+        "node_id": "B",
+        "node_step_index": 1,
+        "content": "Patient underwent surgical removal and hyperthermic intraperitoneal chemotherapy (HIPEC) but the disease could not be eliminated due to its extension.",
+        "clinical_data": {
+          "procedures": [
+            {
+              "name": "Hyperthermic intraperitoneal chemotherapy",
+              "approach": "other",
+              "location": "intraperitoneal",
+              "outcome": "failed"
+            },
+            {
+              "name": "surgical removal",
+              "outcome": "failed"
+            }
+          ]
+        }
+      }
+    },
+    {
+      "id": "N3",
+      "label": "Step 3",
+      "customData": {
+        "node_id": "C",
+        "node_step_index": 2,
+        "content": "Patient is currently receiving palliative chemotherapy.",
+        "clinical_data": {
+          "procedures": [
+            {
+              "name": "Palliative chemotherapy",
+              "date": null
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "edges": [
+    {
+      "from": "N1",
+      "to": "N2",
+      "data": {
+        "edge_id": "A_to_B",
+        "branch_flag": true,
+        "content": "Patient underwent surgical removal and hyperthermic intraperitoneal chemotherapy (HIPEC) but the disease could not be eliminated due to its extension.",
+        "transition_event": {
+          "trigger_type": "procedure",
+          "trigger_entities": [],
+          "change_type": "other",
+          "target_domain": "procedure"
+        }
+      }
+    },
+    {
+      "from": "N2",
+      "to": "N3",
+      "data": {
+        "edge_id": "B_to_C",
+        "branch_flag": true,
+        "content": "Patient is currently receiving palliative chemotherapy.",
+        "transition_event": {
+          "trigger_type": "procedure",
+          "trigger_entities": [],
+          "change_type": "addition",
+          "target_domain": "procedure"
+        }
+      }
+    }
+  ]
+}

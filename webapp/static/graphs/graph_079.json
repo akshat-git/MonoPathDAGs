@@ -1,0 +1,401 @@
+{
+  "nodes": [
+    {
+      "id": "N1",
+      "label": "Step 1",
+      "customData": {
+        "node_id": "A",
+        "node_step_index": 0,
+        "content": "Patient with stage IVa epidermal growth factor receptor (EGFR)L858R-mutated non-small cell lung cancer (NSCLC) experienced disease progression following multiple lines of EGFR-tyrosine kinase inhibitor (TKI) therapy.",
+        "clinical_data": {
+          "diagnoses": [
+            {
+              "code": "C34.9",
+              "label": "Malignant neoplasm of unspecified part of bronchus or lung",
+              "status": "active"
+            }
+          ]
+        }
+      },
+      "custom_id": "graph_079_N0"
+    },
+    {
+      "id": "N2",
+      "label": "Step 2",
+      "customData": {
+        "node_id": "B",
+        "node_step_index": 1,
+        "content": "September 2019, 74-year-old female patient presented with shortness of breath, cough, and hemoptysis. Bronchoscopic lung biopsy revealed stage IVa (cT4N2M1a) lung adenocarcinoma in the right upper lobe, with multiple ipsilateral lung metastases, and involvement of the pleura and mediastinal lymph nodes. NGS identified EGFR p.L858R and TP53 p.R248L mutations.",
+        "clinical_data": {
+          "diagnoses": [
+            {
+              "code": "C34.9",
+              "label": "Lung cancer, unspecified",
+              "status": "active",
+              "onset_date": "2019-09"
+            },
+            {
+              "code": "C78.00",
+              "label": "Secondary malignant neoplasm of unspecified lung",
+              "status": "active",
+              "onset_date": "2019-09"
+            }
+          ],
+          "HPI": [
+            {
+              "summary": "74-year-old female presented with shortness of breath, cough, and hemoptysis.",
+              "onset": "2019-09",
+              "associated_symptoms": [
+                "Shortness of breath",
+                "Cough",
+                "Hemoptysis"
+              ]
+            }
+          ],
+          "imaging": [
+            {
+              "type": "Lung Adenocarcinoma",
+              "body_part": "Lung",
+              "modality": "Bronchoscopic lung biopsy",
+              "finding": "Stage IVa (cT4N2M1a) lung adenocarcinoma in the right upper lobe, with multiple ipsilateral lung metastases, and involvement of the pleura and mediastinal lymph nodes.",
+              "date": "2019-09"
+            }
+          ]
+        }
+      },
+      "custom_id": "graph_079_N1"
+    },
+    {
+      "id": "N3",
+      "label": "Step 3",
+      "customData": {
+        "node_id": "C",
+        "node_step_index": 2,
+        "content": "October 11, 2019, patient was administered icotinib (125 mg orally, three times daily) and pemetrexed. Patient received first-line therapy with cisplatin (500 mg/m2 IV, on day 1 of a 21-day cycle) and nedaplatin (80 mg/m2 IV, on day 1 of a 21-day cycle). Radiologic partial response (PR) after 2 months. Following six cycles of treatment, disease progression was observed. Repeat NGS did not reveal any new genetic mutations.",
+        "clinical_data": {
+          "medications": [
+            {
+              "drug": "C1273738",
+              "dosage": "125 mg",
+              "frequency": "three times daily",
+              "modality": "oral",
+              "start_date": "2019-10-11",
+              "end_date": null
+            },
+            {
+              "drug": "C4048217",
+              "dosage": null,
+              "frequency": null,
+              "modality": "IV",
+              "start_date": null,
+              "end_date": null
+            },
+            {
+              "drug": "C0008833",
+              "dosage": "500 mg/m2",
+              "frequency": "on day 1 of a 21-day cycle",
+              "modality": "IV",
+              "start_date": null,
+              "end_date": null
+            },
+            {
+              "drug": "C0594108",
+              "dosage": "80 mg/m2",
+              "frequency": "on day 1 of a 21-day cycle",
+              "modality": "IV",
+              "start_date": null,
+              "end_date": null
+            }
+          ],
+          "imaging": [
+            {
+              "type": "Radiologic assessment",
+              "body_part": null,
+              "modality": null,
+              "finding": "Partial response",
+              "impression": "Partial response",
+              "date": null
+            }
+          ]
+        }
+      },
+      "custom_id": "graph_079_N2"
+    },
+    {
+      "id": "N4",
+      "label": "Step 4",
+      "customData": {
+        "node_id": "D",
+        "node_step_index": 3,
+        "content": "April 28, 2020, patient commenced second-line treatment with amonertinib (110 mg orally, once daily) in combination with anlotinib (12 mg orally, once daily for 2 weeks, followed by a 1-week drug-free period, with each cycle lasting 3 weeks) for 3 months. CT scans at the sixth week indicated stable disease (SD). Disease progression observed after 3 months of amonertinib and anlotinib treatment. Whole-body PET-CT, cranial MRI, and tumor re-biopsy performed. Disease persisted at stage IVa (cT4N2M1a) without evidence of extra-thoracic metastases. EGFR T790M mutation identified via NGS.",
+        "clinical_data": {
+          "medications": [
+            {
+              "drug": "amonertinib",
+              "dosage": "110 mg",
+              "frequency": "once daily",
+              "modality": "oral",
+              "start_date": "2020-04-28",
+              "end_date": null
+            },
+            {
+              "drug": "anlotinib",
+              "dosage": "12 mg",
+              "frequency": "once daily",
+              "modality": "oral",
+              "start_date": "2020-04-28",
+              "end_date": null
+            }
+          ],
+          "imaging": [
+            {
+              "type": "CT scan",
+              "finding": "stable disease",
+              "date": "2020-06-09"
+            },
+            {
+              "type": "PET-CT",
+              "body_part": "whole-body",
+              "date": null
+            },
+            {
+              "type": "MRI",
+              "body_part": "cranium",
+              "date": null
+            }
+          ],
+          "diagnoses": [
+            {
+              "code": "EGFR T790M",
+              "label": "EGFR T790M mutation",
+              "status": "active"
+            }
+          ]
+        }
+      },
+      "custom_id": "graph_079_N3"
+    },
+    {
+      "id": "N5",
+      "label": "Step 5",
+      "customData": {
+        "node_id": "E",
+        "node_step_index": 4,
+        "content": "August 3, 2020, treatment initiated with osimertinib (80 mg orally, once daily) and bevacizumab (350 mg IV, on day 1 of a 21-day cycle). Disease progression observed 2 months after osimertinib and bevacizumab initiation.",
+        "clinical_data": {
+          "medications": [
+            {
+              "drug": "C1608990",
+              "dosage": "80 mg",
+              "frequency": "once daily",
+              "modality": "oral",
+              "start_date": "2020-08-03",
+              "end_date": null
+            },
+            {
+              "drug": "C0005398",
+              "dosage": "350 mg",
+              "frequency": "on day 1 of a 21-day cycle",
+              "modality": "IV",
+              "start_date": "2020-08-03",
+              "end_date": null
+            }
+          ],
+          "diagnoses": [
+            {
+              "code": "C0854378",
+              "label": "Disease progression",
+              "status": "active",
+              "onset_date": "2020-10-03"
+            }
+          ]
+        }
+      },
+      "custom_id": "graph_079_N4"
+    },
+    {
+      "id": "N6",
+      "label": "Step 6",
+      "customData": {
+        "node_id": "F",
+        "node_step_index": 5,
+        "content": "October 10, 2020, pembrolizumab (200 mg IV on day 1 of a 3-week cycle) with pemetrexed (500 mg/m2IV on day 1 of a 3-week cycle) and carboplatin (AUC (5 mg/mL\u00b7min) \u00d7 (creatinine clearance + 25), IV on day 1 of a 3-week cycle) initiated. Chest CT scan after two cycles of pembrolizumab, pemetrexed, and carboplatin indicates partial response (PR) with significant reduction in multiple tumor lesions and mediastinal lymph nodes. Post four cycles of pembrolizumab, pemetrexed, and carboplatin, PET-CT scan shows significant reduction in multiple tumor lesions, disappearance of certain cavities, and marked attenuation in glucose metabolism compared to the initial assessment in August 2020.",
+        "clinical_data": {
+          "medications": [
+            {
+              "drug": "C1661224",
+              "dosage": "200 mg",
+              "frequency": "every 3 weeks",
+              "modality": "IV",
+              "start_date": "2020-10-10"
+            },
+            {
+              "drug": "C0888333",
+              "dosage": "500 mg/m2",
+              "frequency": "every 3 weeks",
+              "modality": "IV",
+              "start_date": "2020-10-10"
+            },
+            {
+              "drug": "C0007657",
+              "dosage": "AUC (5 mg/mL\u00b7min) \u00d7 (creatinine clearance + 25)",
+              "frequency": "every 3 weeks",
+              "modality": "IV",
+              "start_date": "2020-10-10"
+            }
+          ],
+          "imaging": [
+            {
+              "type": "C0205078",
+              "body_part": "C0008031",
+              "modality": "CT",
+              "finding": "partial response (PR) with significant reduction in multiple tumor lesions and mediastinal lymph nodes",
+              "date": "2020-10-10"
+            },
+            {
+              "type": "C0205078",
+              "modality": "PET",
+              "finding": "significant reduction in multiple tumor lesions, disappearance of certain cavities, and marked attenuation in glucose metabolism",
+              "date": "2020-10-10"
+            }
+          ]
+        }
+      },
+      "custom_id": "graph_079_N5"
+    },
+    {
+      "id": "N7",
+      "label": "Step 7",
+      "customData": {
+        "node_id": "G",
+        "node_step_index": 6,
+        "content": "Patient achieved a pathological complete response (pCR) and prolonged survival. Tumor microenvironment analysis showed high programmed cell death 1 ligand 1 (PD-L1) expression on tumor cells and increased infiltration of immune cells, particularly PD-1+CD8+T cells and PD-L1+macrophages, in",
+        "clinical_data": {
+          "diagnoses": [
+            {
+              "code": "C44728",
+              "label": "Pathologic Complete Response",
+              "status": "resolved"
+            }
+          ],
+          "labs": [
+            {
+              "test": "C4023410",
+              "value": "high",
+              "unit": null,
+              "flag": "abnormal",
+              "reference_range": null,
+              "timestamp": null
+            }
+          ]
+        }
+      },
+      "custom_id": "graph_079_N6"
+    }
+  ],
+  "edges": [
+    {
+      "from": "N1",
+      "to": "N2",
+      "data": {
+        "edge_id": "A_to_B",
+        "branch_flag": true,
+        "content": "Initial presentation and diagnosis of stage IVa EGFR L858R-mutated NSCLC."
+      },
+      "custom_id": "graph_079_N1_N2"
+    },
+    {
+      "from": "N2",
+      "to": "N3",
+      "data": {
+        "edge_id": "B_to_C",
+        "branch_flag": true,
+        "content": "Initiation of first-line treatment with icotinib, pemetrexed, cisplatin and nedaplatin, followed by partial response and subsequent disease progression.",
+        "transition_event": {
+          "trigger_type": "medication_change",
+          "trigger_entities": [
+            "C1273738",
+            "C4048217",
+            "C0008833",
+            "C0594108"
+          ],
+          "change_type": "addition",
+          "target_domain": "medication",
+          "timestamp": "2019-10-11T00:00:00Z"
+        }
+      },
+      "custom_id": "graph_079_N2_N3"
+    },
+    {
+      "from": "N3",
+      "to": "N4",
+      "data": {
+        "edge_id": "C_to_D",
+        "branch_flag": true,
+        "content": "Commencement of second-line treatment with amonertinib and anlotinib, resulting in stable disease initially but progressing after 3 months. EGFR T790M mutation identified.",
+        "transition_event": {
+          "trigger_type": "medication_change",
+          "trigger_entities": [
+            "amonertinib",
+            "anlotinib"
+          ],
+          "change_type": "addition",
+          "target_domain": "medication",
+          "timestamp": "2020-04-28T00:00:00Z"
+        }
+      },
+      "custom_id": "graph_079_N3_N4"
+    },
+    {
+      "from": "N4",
+      "to": "N5",
+      "data": {
+        "edge_id": "D_to_E",
+        "branch_flag": true,
+        "content": "Initiation of treatment with osimertinib and bevacizumab, followed by disease progression after 2 months.",
+        "transition_event": {
+          "trigger_type": "medication_change",
+          "trigger_entities": [
+            "C1608990",
+            "C0005398"
+          ],
+          "change_type": "addition",
+          "target_domain": "medication",
+          "timestamp": "2020-08-03T00:00:00Z"
+        }
+      },
+      "custom_id": "graph_079_N4_N5"
+    },
+    {
+      "from": "N5",
+      "to": "N6",
+      "data": {
+        "edge_id": "E_to_F",
+        "branch_flag": true,
+        "content": "Treatment initiated with pembrolizumab, pemetrexed, and carboplatin, resulting in partial response after two cycles and significant reduction in tumor lesions after four cycles.",
+        "transition_event": {
+          "trigger_type": "medication_change",
+          "trigger_entities": [
+            "C1661224",
+            "C0888333",
+            "C0007657"
+          ],
+          "change_type": "addition",
+          "target_domain": "medication",
+          "timestamp": "2020-10-10T00:00:00Z"
+        }
+      },
+      "custom_id": "graph_079_N5_N6"
+    },
+    {
+      "from": "N6",
+      "to": "N7",
+      "data": {
+        "edge_id": "F_to_G",
+        "branch_flag": true,
+        "content": "Patient achieved pathological complete response (pCR) and prolonged survival, with high PD-L1 expression and increased immune cell infiltration."
+      },
+      "custom_id": "graph_079_N6_N7"
+    }
+  ]
+}

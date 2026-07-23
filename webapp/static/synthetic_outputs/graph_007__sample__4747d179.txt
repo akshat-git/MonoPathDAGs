@@ -1,0 +1,9 @@
+A 58-year-old Chinese male presented for a physical examination on April 20, 2020. He was asymptomatic, reporting no cough, sputum, hemoptysis, chest pain, or dyspnea. His medical history was unremarkable, with no diabetes, hypertension, or family history of cancer. He had a smoking history of over 7 years, averaging 20–40 cigarettes per day, but had abstained from smoking for nearly 30 years.
+
+The patient underwent a chest CT, which revealed a 4.0 cm x 3.4 cm mass in the inferior lobe of the right lung, along with swollen and fused lymph nodes in the hilum and mediastinum. A CT-guided lung biopsy was performed, and pathological analysis revealed lung adenocarcinoma. Immunohistochemical staining was positive for Napsin A and TTF1.
+
+On May 2, 2020, a diagnosis of stage IIIA (T2aN2M0) lung adenocarcinoma was confirmed. Next-generation sequencing (NGS) of tumor tissue from the lung puncture identified ELMOD3-ALK (E8: A20) fusion (41.23% abundance) and EML4-ALK (E13: A20) double-ALK fusion (68.21% abundance). The ELMOD3-ALK fusion involved exon 8 of ELMOD3 and exon 20 of ALK. ALK fusion was confirmed by IHC staining (Ventana D5F3 clone).
+
+Following multidisciplinary team (MDT) discussion regarding potentially resectable non-small cell lung cancer (NSCLC) with ALK rearrangement, alectinib therapy was initiated at 600 mg twice daily on May 20, 2020.
+
+After 4 months of alectinib therapy, a chest CT scan showed shrinkage of the primary tumor and a 1.1 cm x 0.6 cm nodule in the inferior lobe of the right lung. No lymph node enlargement was observed. CEA levels were not provided.

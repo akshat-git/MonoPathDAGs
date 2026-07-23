@@ -1,0 +1,264 @@
+{
+  "nodes": [
+    {
+      "id": "N1",
+      "label": "Step 1",
+      "customData": {
+        "node_id": "A",
+        "node_step_index": 0,
+        "content": "75-year-old man with a 60-pack-year smoking history presented with nodules in the right lung.",
+        "clinical_data": {
+          "social_history": [
+            {
+              "category": "smoking",
+              "status": "past",
+              "description": "60-pack-year smoking history"
+            }
+          ],
+          "diagnoses": [
+            {
+              "code": "http://purl.bioontology.org/ontology/SNOMEDCT/72736001",
+              "label": "Nodule of lung",
+              "status": "active",
+              "onset_date": null
+            }
+          ]
+        }
+      }
+    },
+    {
+      "id": "N2",
+      "label": "Step 2",
+      "customData": {
+        "node_id": "B",
+        "node_step_index": 1,
+        "content": "Bronchoscopy was performed, and histopathological evaluation of biopsy specimens revealed invasive mucinous adenocarcinoma.",
+        "clinical_data": {
+          "procedures": [
+            {
+              "name": "Bronchoscopy",
+              "date": null,
+              "location": null,
+              "performed_by": null,
+              "outcome": null
+            }
+          ],
+          "diagnoses": [
+            {
+              "code": "C34.9",
+              "label": "invasive mucinous adenocarcinoma",
+              "status": "active",
+              "onset_date": null
+            }
+          ]
+        }
+      }
+    },
+    {
+      "id": "N3",
+      "label": "Step 3",
+      "customData": {
+        "node_id": "C",
+        "node_step_index": 2,
+        "content": "PET/CT showed FDG uptake in the pulmonary nodules, hilar lymph nodes, and rod-shaped uptake in the right proximal femur. No brain metastases were detected.",
+        "clinical_data": {
+          "imaging": [
+            {
+              "type": "Positron emission tomography",
+              "body_part": "Lung",
+              "modality": "PET",
+              "finding": "FDG uptake in the pulmonary nodules",
+              "impression": "FDG uptake in the pulmonary nodules",
+              "date": null
+            },
+            {
+              "type": "Positron emission tomography",
+              "body_part": "Hilar region",
+              "modality": "PET",
+              "finding": "FDG uptake in the hilar lymph nodes",
+              "impression": "FDG uptake in the hilar lymph nodes",
+              "date": null
+            },
+            {
+              "type": "Positron emission tomography",
+              "body_part": "Femur",
+              "modality": "PET",
+              "finding": "rod-shaped uptake in the right proximal femur",
+              "impression": "rod-shaped uptake in the right proximal femur",
+              "date": null
+            },
+            {
+              "type": "Positron emission tomography",
+              "body_part": "Brain",
+              "modality": "PET",
+              "finding": "No brain metastases were detected",
+              "impression": "No brain metastases were detected",
+              "date": null
+            }
+          ]
+        }
+      }
+    },
+    {
+      "id": "N4",
+      "label": "Step 4",
+      "customData": {
+        "node_id": "D",
+        "node_step_index": 3,
+        "content": "MRI of the femoral lesion showed a well\u2010defined area of signal hypointensity on T1\u2010weighted imaging and signal hyperintensity on T2\u2010weighted imaging within the bone marrow, measuring 65\u2009mm in length. CT showed no destruction of the femoral cortex.",
+        "clinical_data": {
+          "imaging": [
+            {
+              "type": "Magnetic resonance imaging",
+              "body_part": "Femur",
+              "modality": "MRI",
+              "finding": "Well-defined area of signal hypointensity on T1-weighted imaging and signal hyperintensity on T2-weighted imaging within the bone marrow, measuring 65 mm in length",
+              "date": null
+            },
+            {
+              "type": "Computed tomography",
+              "body_part": "Femur",
+              "modality": "CT",
+              "finding": "No destruction of the femoral cortex",
+              "date": null
+            }
+          ]
+        }
+      }
+    },
+    {
+      "id": "N5",
+      "label": "Step 5",
+      "customData": {
+        "node_id": "E",
+        "node_step_index": 4,
+        "content": "Biopsy specimens from the femoral lesion showed the same characteristics as the lung carcinoma, leading to a diagnosis of intertrabecular metastasis (ITM) of the lung adenocarcinoma.",
+        "clinical_data": {
+          "diagnoses": [
+            {
+              "code": "C34",
+              "label": "Lung cancer",
+              "status": "active"
+            },
+            {
+              "code": "C79.5",
+              "label": "Secondary malignant neoplasm of bone",
+              "status": "active"
+            }
+          ],
+          "imaging": [
+            {
+              "body_part": "Femur",
+              "finding": "lesion"
+            }
+          ],
+          "procedures": [
+            {
+              "name": "Biopsy",
+              "location": "Femur"
+            }
+          ]
+        }
+      }
+    },
+    {
+      "id": "N6",
+      "label": "Step 6",
+      "customData": {
+        "node_id": "F",
+        "node_step_index": 5,
+        "content": "FDG\u2010PET/ CT showing uptake in the pulmonary nodules, hilar lymph nodes, and right femur. The patient is currently receiving chemotherapy. FDG\u2010PET/ CT shows rod\u2010shaped uptake in the bone marrow.",
+        "clinical_data": {
+          "imaging": [
+            {
+              "type": "FDG-PET/CT",
+              "body_part": "pulmonary nodules",
+              "modality": "PET",
+              "finding": "uptake",
+              "date": null
+            },
+            {
+              "type": "FDG-PET/CT",
+              "body_part": "hilar lymph nodes",
+              "modality": "PET",
+              "finding": "uptake",
+              "date": null
+            },
+            {
+              "type": "FDG-PET/CT",
+              "body_part": "right femur",
+              "modality": "PET",
+              "finding": "uptake",
+              "date": null
+            },
+            {
+              "type": "FDG-PET/CT",
+              "body_part": "bone marrow",
+              "modality": "PET",
+              "finding": "rod-shaped uptake",
+              "date": null
+            }
+          ],
+          "medications": [
+            {
+              "drug": "chemotherapy",
+              "dosage": null,
+              "frequency": null,
+              "modality": null,
+              "start_date": null,
+              "end_date": null,
+              "indication": null
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "edges": [
+    {
+      "from": "N1",
+      "to": "N2",
+      "data": {
+        "edge_id": "A_to_B",
+        "branch_flag": true,
+        "content": "Bronchoscopy performed to evaluate nodules in the right lung."
+      }
+    },
+    {
+      "from": "N2",
+      "to": "N3",
+      "data": {
+        "edge_id": "B_to_C",
+        "branch_flag": true,
+        "content": "Staging with PET/CT to assess extent of invasive mucinous adenocarcinoma."
+      }
+    },
+    {
+      "from": "N3",
+      "to": "N4",
+      "data": {
+        "edge_id": "C_to_D",
+        "branch_flag": true,
+        "content": "Further characterization of femoral lesion with MRI and CT."
+      }
+    },
+    {
+      "from": "N4",
+      "to": "N5",
+      "data": {
+        "edge_id": "D_to_E",
+        "branch_flag": true,
+        "content": "Biopsy of femoral lesion to determine etiology."
+      }
+    },
+    {
+      "from": "N5",
+      "to": "N6",
+      "data": {
+        "edge_id": "E_to_F",
+        "branch_flag": true,
+        "content": "Treatment with chemotherapy and follow-up imaging."
+      }
+    }
+  ]
+}

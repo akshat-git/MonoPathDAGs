@@ -1,0 +1,508 @@
+{
+  "nodes": [
+    {
+      "id": "N1",
+      "label": "Step 1",
+      "customData": {
+        "node_id": "A",
+        "node_step_index": 0,
+        "content": "Cohort of 22 patients (14 male, 8 female) with average age 74.3 (range 59-85). Histologic types: Squamous (4), adenocarcinoma (3), small cell (1), unknown (14). Irradiation methods: SABR (15), parallel opposing portals (3), other (4).",
+        "clinical_data": {
+          "diagnoses": [
+            {
+              "code": "C0007109",
+              "label": "Squamous Cell Carcinoma",
+              "status": "active"
+            },
+            {
+              "code": "C0001673",
+              "label": "Adenocarcinoma",
+              "status": "active"
+            },
+            {
+              "code": "C0037327",
+              "label": "Small Cell Carcinoma",
+              "status": "active"
+            }
+          ]
+        }
+      }
+    },
+    {
+      "id": "N2",
+      "label": "Step 2",
+      "customData": {
+        "node_id": "B",
+        "node_step_index": 1,
+        "content": "Patients received radiation doses in the range of 48-60 (average 50.2). Irradiation sites: Superior lobe (8), middle lobe (1), Inferior lobe (1), Others (3), Unknown (9). Two patients received combination drug therapy. 18 patients had a history of symptomatic radiation pneumonitis. Onset of radiation pneumonitis: >6 months (4), <6 months (18).",
+        "clinical_data": {
+          "diagnoses": [
+            {
+              "code": "422400008",
+              "label": "Radiation pneumonitis",
+              "status": "historical"
+            }
+          ]
+        }
+      }
+    },
+    {
+      "id": "N3",
+      "label": "Step 3",
+      "customData": {
+        "node_id": "C",
+        "node_step_index": 2,
+        "content": "18 patients were symptomatic with Dyspnea (16), Fatigue (14), Fever (10), Cough (9). 3 patients were asymptomatic. 2 patients had Hypoxemia (SpO\u2082<95% or PaO\u2082< 80 mmHg). 2 patients had Respiratory failure (PaO\u2082< 60 mmHg).",
+        "clinical_data": {
+          "HPI": [
+            {
+              "summary": "18 patients were symptomatic with Dyspnea, Fatigue, Fever, and Cough. 3 patients were asymptomatic.",
+              "associated_symptoms": [
+                "C0013404",
+                "C0015672",
+                "C0015967",
+                "C0009405"
+              ]
+            }
+          ],
+          "diagnoses": [
+            {
+              "code": "C0020515",
+              "label": "Hypoxemia",
+              "status": "active"
+            },
+            {
+              "code": "C0035222",
+              "label": "Respiratory failure",
+              "status": "active"
+            }
+          ]
+        }
+      }
+    },
+    {
+      "id": "N4",
+      "label": "Step 4",
+      "customData": {
+        "node_id": "D",
+        "node_step_index": 3,
+        "content": "13 patients received steroid therapy and 8 had recurrence. 9 patients did not receive steroid therapy and 1 had recurrence.",
+        "clinical_data": {
+          "medications": [
+            {
+              "drug": "C0037972",
+              "indication": "recurrence"
+            }
+          ]
+        }
+      }
+    },
+    {
+      "id": "N5",
+      "label": "Step 5",
+      "customData": {
+        "node_id": "E",
+        "node_step_index": 4,
+        "content": "Patient 4 received tangential port irradiation method with a dose of 50 Gy and combination drug Gn-RHa+Tamoxifen. Patient 4 developed fever and cough 8 months after irradiation. Patient 4's lab results: WBC 12800 /\u03bcL, CRP 4.6 mg/dL, KL-6 105 U/mL. Imaging showed movement of a shadow. Patient 4 was treated with observation. The shadow resolved after 4 months, and there was no recurrence.",
+        "clinical_data": {
+          "procedures": [
+            {
+              "name": "Irradiation",
+              "approach": "other",
+              "date": null,
+              "location": null,
+              "performed_by": null,
+              "outcome": null
+            }
+          ],
+          "medications": [
+            {
+              "drug": "Tamoxifen",
+              "dosage": null,
+              "frequency": null,
+              "modality": "oral",
+              "start_date": null,
+              "end_date": null,
+              "indication": null
+            }
+          ],
+          "diagnoses": [
+            {
+              "code": null,
+              "label": "fever",
+              "status": "active",
+              "onset_date": null
+            },
+            {
+              "code": null,
+              "label": "cough",
+              "status": "active",
+              "onset_date": null
+            }
+          ],
+          "labs": [
+            {
+              "test": "White blood cell count",
+              "value": "12800",
+              "unit": "/\u03bcL",
+              "flag": "abnormal",
+              "reference_range": null,
+              "timestamp": null
+            },
+            {
+              "test": "C-Reactive Protein",
+              "value": "4.6",
+              "unit": "mg/dL",
+              "flag": "abnormal",
+              "reference_range": null,
+              "timestamp": null
+            },
+            {
+              "test": null,
+              "value": "105",
+              "unit": "U/mL",
+              "flag": "abnormal",
+              "reference_range": null,
+              "timestamp": null
+            }
+          ],
+          "imaging": [
+            {
+              "type": null,
+              "body_part": null,
+              "modality": null,
+              "finding": "movement of a shadow",
+              "impression": null,
+              "date": null
+            }
+          ]
+        }
+      }
+    },
+    {
+      "id": "N6",
+      "label": "Step 6",
+      "customData": {
+        "node_id": "F",
+        "node_step_index": 8,
+        "content": "Patient 5, 72 years old, received parallel opposing portals irradiation method with a dose of 50 Gy and was asymptomatic. Patient 5's lab results: WBC 5400 /\u03bcL, CRP 0.7 mg/dL, KL-6 433 U/mL. Imaging showed movement of a shadow. Patient 5 was treated with observation. The shadow resolved after 2 months, and there was no recurrence.",
+        "clinical_data": {
+          "procedures": [
+            {
+              "name": "irradiation",
+              "approach": "other",
+              "date": null,
+              "location": null,
+              "performed_by": null,
+              "outcome": null
+            }
+          ],
+          "labs": [
+            {
+              "test": "White blood cell count",
+              "value": "5400",
+              "unit": "/\u03bcL",
+              "flag": "normal",
+              "reference_range": null,
+              "timestamp": null
+            },
+            {
+              "test": "C-Reactive Protein",
+              "value": "0.7",
+              "unit": "mg/dL",
+              "flag": "normal",
+              "reference_range": null,
+              "timestamp": null
+            }
+          ],
+          "imaging": [
+            {
+              "type": "imaging",
+              "body_part": null,
+              "modality": null,
+              "finding": "movement of a shadow",
+              "impression": null,
+              "date": null
+            }
+          ]
+        }
+      }
+    },
+    {
+      "id": "N7",
+      "label": "Step 7",
+      "customData": {
+        "node_id": "G",
+        "node_step_index": 11,
+        "content": "Patient 6, 52 years old, received parallel opposing portals irradiation method with a dose of 50 Gy and combination drug Docetaxel+Trastuzumab. Patient 6 developed fever and cough 3 months after irradiation. Patient 6's lab results: WBC 6800 /\u03bcL, CRP 6 mg/dL, KL-6 390 U/mL. Imaging showed movement of a shadow. Patient 6 was treated with observation. The shadow resolved after 5 months, and there was no recurrence.",
+        "clinical_data": {
+          "medications": [
+            {
+              "drug": "C0013071",
+              "dosage": null,
+              "frequency": null,
+              "modality": null,
+              "start_date": null,
+              "end_date": null,
+              "indication": null
+            },
+            {
+              "drug": "C0700929",
+              "dosage": null,
+              "frequency": null,
+              "modality": null,
+              "start_date": null,
+              "end_date": null,
+              "indication": null
+            }
+          ],
+          "labs": [
+            {
+              "test": "C0042129",
+              "value": "6800",
+              "unit": "/\u03bcL",
+              "flag": "normal",
+              "reference_range": null,
+              "timestamp": null
+            },
+            {
+              "test": "C0151570",
+              "value": "6",
+              "unit": "mg/dL",
+              "flag": "normal",
+              "reference_range": null,
+              "timestamp": null
+            },
+            {
+              "test": "KL-6",
+              "value": "390",
+              "unit": "U/mL",
+              "flag": "normal",
+              "reference_range": null,
+              "timestamp": null
+            }
+          ],
+          "imaging": [
+            {
+              "type": "imaging",
+              "body_part": null,
+              "modality": null,
+              "finding": "movement of a shadow",
+              "impression": null,
+              "date": null
+            }
+          ],
+          "diagnoses": [
+            {
+              "code": "C0015967",
+              "label": "Fever",
+              "status": "active",
+              "onset_date": null
+            },
+            {
+              "code": "C0010200",
+              "label": "Cough",
+              "status": "active",
+              "onset_date": null
+            }
+          ],
+          "procedures": [
+            {
+              "name": "irradiation",
+              "approach": null,
+              "date": null,
+              "location": null,
+              "performed_by": null,
+              "outcome": null
+            }
+          ]
+        }
+      }
+    },
+    {
+      "id": "N8",
+      "label": "Step 8",
+      "customData": {
+        "node_id": "H",
+        "node_step_index": 15,
+        "content": "Patient 7, 52 years old, received tangential port irradiation method with a dose of 50 Gy. Patient 7 developed fever and cough 4 months after irradiation. Patient 7's lab results: WBC 6400 /\u03bcL, CRP 2.5 mg/dL, KL-6 167 U/mL. Imaging showed movement of a shadow. Patient 7 was treated with observation. The shadow resolved after 2 months, and there was no recurrence.",
+        "clinical_data": {
+          "procedures": [
+            {
+              "name": "Irradiation therapy",
+              "approach": "other",
+              "date": null,
+              "location": null,
+              "performed_by": null,
+              "outcome": null
+            }
+          ],
+          "diagnoses": [
+            {
+              "code": "R50.9",
+              "label": "Fever, unspecified",
+              "status": "active",
+              "onset_date": null
+            },
+            {
+              "code": "R05",
+              "label": "Cough",
+              "status": "active",
+              "onset_date": null
+            }
+          ],
+          "labs": [
+            {
+              "test": "White blood cell count",
+              "value": "6400",
+              "unit": "/\u03bcL",
+              "flag": "normal",
+              "reference_range": null,
+              "timestamp": null
+            },
+            {
+              "test": "C-Reactive Protein",
+              "value": "2.5",
+              "unit": "mg/dL",
+              "flag": "abnormal",
+              "reference_range": null,
+              "timestamp": null
+            },
+            {
+              "test": "KL-6",
+              "value": "167",
+              "unit": "U/mL",
+              "flag": "normal",
+              "reference_range": null,
+              "timestamp": null
+            }
+          ],
+          "imaging": [
+            {
+              "type": "Radiological finding",
+              "body_part": null,
+              "modality": null,
+              "finding": "Movement of a shadow",
+              "impression": null,
+              "date": null
+            }
+          ]
+        }
+      }
+    },
+    {
+      "id": "N9",
+      "label": "Step 9",
+      "customData": {
+        "node_id": "I",
+        "node_step_index": 19,
+        "clinical_data": {}
+      }
+    }
+  ],
+  "edges": [
+    {
+      "from": "N1",
+      "to": "N2",
+      "data": {
+        "edge_id": "A_to_B",
+        "branch_flag": true,
+        "content": "Patients received radiation and some received combination drug therapy. Many had a history of symptomatic radiation pneumonitis."
+      }
+    },
+    {
+      "from": "N2",
+      "to": "N3",
+      "data": {
+        "edge_id": "B_to_C",
+        "branch_flag": true,
+        "content": "Development of symptoms (dyspnea, fatigue, fever, cough) or asymptomatic presentation. Some patients had hypoxemia or respiratory failure.",
+        "transition_event": {
+          "trigger_type": "symptom_onset",
+          "trigger_entities": [
+            "C0013404",
+            "C0015672",
+            "C0015967",
+            "C0009405",
+            "C0020515",
+            "C0035222"
+          ],
+          "change_type": "progression",
+          "target_domain": "symptom"
+        }
+      }
+    },
+    {
+      "from": "N3",
+      "to": "N4",
+      "data": {
+        "edge_id": "C_to_D",
+        "branch_flag": true,
+        "content": "Some patients received steroid therapy for symptom management, with varying recurrence rates based on steroid treatment."
+      }
+    },
+    {
+      "from": "N4",
+      "to": "N5",
+      "data": {
+        "edge_id": "D_to_E",
+        "branch_flag": true,
+        "content": "Patient 4 received tangential port irradiation and combination drug Gn-RHa+Tamoxifen.",
+        "transition_event": {
+          "trigger_type": "medication_change",
+          "trigger_entities": [
+            "C0039079",
+            "C0040934"
+          ],
+          "change_type": "addition",
+          "target_domain": "medication"
+        }
+      }
+    },
+    {
+      "from": "N5",
+      "to": "N6",
+      "data": {
+        "edge_id": "E_to_F",
+        "branch_flag": true,
+        "content": "Patient 5 received parallel opposing portals irradiation and was asymptomatic."
+      }
+    },
+    {
+      "from": "N6",
+      "to": "N7",
+      "data": {
+        "edge_id": "F_to_G",
+        "branch_flag": true,
+        "content": "Patient 6 received parallel opposing portals irradiation and combination drug Docetaxel+Trastuzumab.",
+        "transition_event": {
+          "trigger_type": "medication_change",
+          "trigger_entities": [
+            "C0013071",
+            "C0700929"
+          ],
+          "change_type": "addition",
+          "target_domain": "medication"
+        }
+      }
+    },
+    {
+      "from": "N7",
+      "to": "N8",
+      "data": {
+        "edge_id": "G_to_H",
+        "branch_flag": true,
+        "content": "Patient 7 received tangential port irradiation."
+      }
+    },
+    {
+      "from": "N8",
+      "to": "N9",
+      "data": {
+        "edge_id": "H_to_I",
+        "branch_flag": true,
+        "content": "End of case report."
+      }
+    }
+  ]
+}

@@ -1,0 +1,346 @@
+{
+  "nodes": [
+    {
+      "id": "N1",
+      "label": "Step 1",
+      "customData": {
+        "node_id": "A",
+        "node_step_index": 0,
+        "content": "Patient, 67 years of age, diagnosed with adenocarcinoma on May 18th, 2018.",
+        "clinical_data": {
+          "diagnoses": [
+            {
+              "code": "C2352157",
+              "label": "Adenocarcinoma",
+              "status": "active",
+              "onset_date": "2018-05-18"
+            }
+          ]
+        }
+      }
+    },
+    {
+      "id": "N2",
+      "label": "Step 2",
+      "customData": {
+        "node_id": "B",
+        "node_step_index": 1,
+        "content": "Elevated prostate-specific antigen (PSA) level of 23 ng/ml.",
+        "clinical_data": {
+          "labs": [
+            {
+              "test": "C0033048",
+              "value": "23",
+              "unit": "ng/ml",
+              "flag": "abnormal"
+            }
+          ]
+        }
+      }
+    },
+    {
+      "id": "N3",
+      "label": "Step 3",
+      "customData": {
+        "node_id": "C",
+        "node_step_index": 2,
+        "content": "Prostate biopsy demonstrated adenocarcinoma with a Gleason score of 7 (4\u2009+\u20093).",
+        "clinical_data": {
+          "procedures": [
+            {
+              "name": "Biopsy",
+              "approach": "percutaneous",
+              "location": "Prostate",
+              "outcome": "Adenocarcinoma",
+              "date": null
+            }
+          ],
+          "diagnoses": [
+            {
+              "code": "C0001407",
+              "label": "Adenocarcinoma",
+              "status": "active",
+              "onset_date": null
+            }
+          ]
+        }
+      }
+    },
+    {
+      "id": "N4",
+      "label": "Step 4",
+      "customData": {
+        "node_id": "D",
+        "node_step_index": 3,
+        "content": "Magnetic resonance imaging examination showed abnormal signals on both sides of the prostate.",
+        "clinical_data": {
+          "imaging": [
+            {
+              "type": "Magnetic resonance imaging",
+              "body_part": "Prostate",
+              "modality": "MRI",
+              "finding": "abnormal signals on both sides of the prostate"
+            }
+          ]
+        }
+      }
+    },
+    {
+      "id": "N5",
+      "label": "Step 5",
+      "customData": {
+        "node_id": "E",
+        "node_step_index": 4,
+        "content": "Bone scan showed two bone metastatic lesions.",
+        "clinical_data": {
+          "imaging": [
+            {
+              "type": "Bone scan",
+              "body_part": "bone",
+              "modality": "other",
+              "finding": "two bone metastatic lesions"
+            }
+          ]
+        }
+      }
+    },
+    {
+      "id": "N6",
+      "label": "Step 6",
+      "customData": {
+        "node_id": "F",
+        "node_step_index": 5,
+        "content": "Clinical stage cT2N0M1b at diagnosis. Bone scan showed bone metastatic lesions in the left ilium and the 12th thoracic vertebra.",
+        "clinical_data": {
+          "imaging": [
+            {
+              "type": "Bone scan",
+              "body_part": "ilium",
+              "modality": "other",
+              "finding": "bone metastatic lesions in the left ilium",
+              "date": null
+            },
+            {
+              "type": "Bone scan",
+              "body_part": "12th thoracic vertebra",
+              "modality": "other",
+              "finding": "bone metastatic lesions in the 12th thoracic vertebra",
+              "date": null
+            }
+          ],
+          "diagnoses": [
+            {
+              "code": null,
+              "label": "cT2N0M1b",
+              "status": "active",
+              "onset_date": null
+            }
+          ]
+        }
+      }
+    },
+    {
+      "id": "N7",
+      "label": "Step 7",
+      "customData": {
+        "node_id": "G",
+        "node_step_index": 6,
+        "content": "Ga-68 PSMA PET-CT showing multiple bone metastases lesions after 4 months of androgen deprivation therapy.",
+        "clinical_data": {
+          "imaging": [
+            {
+              "type": "Positron emission tomography",
+              "body_part": "bone",
+              "modality": "PET",
+              "finding": "multiple bone metastases lesions"
+            }
+          ],
+          "medications": [
+            {
+              "drug": "androgen deprivation therapy",
+              "start_date": null,
+              "end_date": null
+            }
+          ]
+        }
+      }
+    },
+    {
+      "id": "N8",
+      "label": "Step 8",
+      "customData": {
+        "node_id": "H",
+        "node_step_index": 7,
+        "content": "Bone scan showed one bone metastatic lesion in the left ilium after six cycles of carboplatin chemotherapy.",
+        "clinical_data": {
+          "imaging": [
+            {
+              "type": "Bone scan",
+              "body_part": "ilium",
+              "modality": "other",
+              "finding": "metastatic lesion",
+              "date": null
+            }
+          ],
+          "medications": [
+            {
+              "drug": "carboplatin",
+              "dosage": null,
+              "frequency": null,
+              "modality": null,
+              "start_date": null,
+              "end_date": null,
+              "indication": null
+            }
+          ]
+        }
+      }
+    },
+    {
+      "id": "N9",
+      "label": "Step 9",
+      "customData": {
+        "node_id": "I",
+        "node_step_index": 8,
+        "content": "Bilateral orchidectomy performed on May 25th, 2018, followed by castrate levels of testosterone and antiandrogen treatment with bicalutamide tablets 50 mg daily.",
+        "clinical_data": {
+          "procedures": [
+            {
+              "name": "Orchidectomy, bilateral",
+              "date": "2018-05-25",
+              "location": "testis"
+            }
+          ],
+          "medications": [
+            {
+              "drug": "bicalutamide",
+              "dosage": "50 mg",
+              "frequency": "daily",
+              "modality": "oral"
+            }
+          ]
+        }
+      }
+    },
+    {
+      "id": "N10",
+      "label": "Step 10",
+      "customData": {
+        "node_id": "J",
+        "node_step_index": 9,
+        "content": "PSA level decreased to 0.17 ng/ml on August 29th, 2018.",
+        "clinical_data": {
+          "labs": [
+            {
+              "test": "Prostate Specific Antigen Measurement",
+              "value": "0.17",
+              "unit": "ng/ml",
+              "timestamp": "2018-08-29"
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "edges": [
+    {
+      "from": "N1",
+      "to": "N2",
+      "data": {
+        "edge_id": "A_to_B",
+        "branch_flag": true,
+        "content": "Initial presentation with elevated PSA."
+      }
+    },
+    {
+      "from": "N2",
+      "to": "N3",
+      "data": {
+        "edge_id": "B_to_C",
+        "branch_flag": true,
+        "content": "Further investigation via prostate biopsy."
+      }
+    },
+    {
+      "from": "N3",
+      "to": "N4",
+      "data": {
+        "edge_id": "C_to_D",
+        "branch_flag": true,
+        "content": "Imaging performed to assess the extent of the disease."
+      }
+    },
+    {
+      "from": "N4",
+      "to": "N5",
+      "data": {
+        "edge_id": "D_to_E",
+        "branch_flag": true,
+        "content": "Further imaging to evaluate for metastasis."
+      }
+    },
+    {
+      "from": "N5",
+      "to": "N6",
+      "data": {
+        "edge_id": "E_to_F",
+        "branch_flag": true,
+        "content": "Diagnosis and staging based on imaging results."
+      }
+    },
+    {
+      "from": "N6",
+      "to": "N7",
+      "data": {
+        "edge_id": "F_to_G",
+        "branch_flag": true,
+        "content": "Patient underwent androgen deprivation therapy, followed by imaging to assess treatment response."
+      }
+    },
+    {
+      "from": "N7",
+      "to": "N8",
+      "data": {
+        "edge_id": "G_to_H",
+        "branch_flag": true,
+        "content": "Patient underwent carboplatin chemotherapy, followed by imaging to assess treatment response."
+      }
+    },
+    {
+      "from": "N8",
+      "to": "N9",
+      "data": {
+        "edge_id": "H_to_I",
+        "branch_flag": true,
+        "content": "Patient underwent bilateral orchidectomy and antiandrogen treatment.",
+        "transition_event": {
+          "trigger_type": "procedure",
+          "trigger_entities": [
+            "C0162707"
+          ],
+          "change_type": "addition",
+          "target_domain": "procedure",
+          "timestamp": "2018-05-25T00:00:00Z"
+        }
+      }
+    },
+    {
+      "from": "N9",
+      "to": "N10",
+      "data": {
+        "edge_id": "I_to_J",
+        "branch_flag": true,
+        "content": "Monitoring of PSA levels following treatment.",
+        "transition_event": {
+          "trigger_type": "lab_change",
+          "trigger_entities": [
+            "C0033048"
+          ],
+          "change_type": "deescalation",
+          "target_domain": "lab",
+          "timestamp": "2018-08-29T00:00:00Z"
+        }
+      }
+    }
+  ]
+}

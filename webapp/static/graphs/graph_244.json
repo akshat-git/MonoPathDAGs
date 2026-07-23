@@ -1,0 +1,253 @@
+{
+  "nodes": [
+    {
+      "id": "N1",
+      "label": "Step 1",
+      "customData": {
+        "node_id": "A",
+        "node_step_index": 0,
+        "content": "In 2018, a 5.5 mm ground-glass opacity (GGO) was found in the right upper lobe on a chest CT during a health check-up. The patient was asymptomatic, and the physical examination was unremarkable.",
+        "clinical_data": {
+          "imaging": [
+            {
+              "type": "Ground-glass opacity",
+              "body_part": "Right upper lobe",
+              "modality": "CT",
+              "finding": "5.5 mm ground-glass opacity",
+              "date": "2018"
+            }
+          ],
+          "diagnoses": [
+            {
+              "code": "R91.8",
+              "label": "Abnormal findings on diagnostic imaging of lung",
+              "status": "active",
+              "onset_date": "2018"
+            }
+          ],
+          "HPI": [
+            {
+              "summary": "Asymptomatic",
+              "associated_symptoms": []
+            }
+          ]
+        },
+        "timestamp": "2018"
+      }
+    },
+    {
+      "id": "N2",
+      "label": "Step 2",
+      "customData": {
+        "node_id": "B",
+        "node_step_index": 1,
+        "content": "In 2019, a 41-year-old female presented to the Thoracic Clinic with a history of a 7-mm ground-glass opacity (GGO) in the right upper lobe with mixed-density on chest computed tomography (CT) scan. Lesion radiation characteristics associated with malignant disease, showing mixed density and spiculation. CT and bronchopulmonary vascular 3-dimensional (3D) reconstruction suggested that a planned resection of S3b + S1bi would ensure adequate margins. Lesion enlarged 1 year later.",
+        "clinical_data": {
+          "imaging": [
+            {
+              "type": "Ground-glass opacity",
+              "body_part": "Right upper lobe",
+              "modality": "CT",
+              "finding": "7-mm ground-glass opacity (GGO) in the right upper lobe with mixed-density",
+              "date": "2019"
+            },
+            {
+              "type": "Neoplasm",
+              "body_part": "Lung",
+              "modality": "CT",
+              "finding": "Lesion radiation characteristics associated with malignant disease, showing mixed density and spiculation",
+              "date": "2019"
+            }
+          ],
+          "procedures": [
+            {
+              "name": "Resection",
+              "location": "S3b + S1bi",
+              "date": "2019"
+            }
+          ],
+          "diagnoses": [
+            {
+              "code": "C34",
+              "label": "Malignant neoplasm of bronchus and lung",
+              "status": "suspected",
+              "onset_date": "2019"
+            }
+          ]
+        },
+        "timestamp": "2019"
+      }
+    },
+    {
+      "id": "N3",
+      "label": "Step 3",
+      "customData": {
+        "node_id": "C",
+        "node_step_index": 2,
+        "content": "Patient underwent surgery via a 3.5-cm single-port incision between the midaxillary line and the posterior axillary line in the right 4th intercostal space, lasting approximately 200 min, with an intraoperative blood loss of approximately 40 mL. Frozen sections indicated in-situ adenocarcinoma, which was confirmed in the paraffin sections.",
+        "clinical_data": {
+          "procedures": [
+            {
+              "name": "Surgery",
+              "approach": "single-port",
+              "date": null,
+              "location": "right 4th intercostal space",
+              "performed_by": null,
+              "outcome": null
+            }
+          ],
+          "diagnoses": [
+            {
+              "code": null,
+              "label": "in-situ adenocarcinoma",
+              "status": "active",
+              "onset_date": null
+            }
+          ]
+        },
+        "timestamp": null
+      }
+    },
+    {
+      "id": "N4",
+      "label": "Step 4",
+      "customData": {
+        "node_id": "D",
+        "node_step_index": 3,
+        "content": "Thoracic drainage tube was withdrawn 4 days after surgery. Patient was discharged on the 5th postoperative day without complications or adverse events, except slight chest pain that lasted for about 2 weeks postoperatively.",
+        "clinical_data": {
+          "procedures": [
+            {
+              "name": "Thoracic drainage",
+              "date": "XXXX-XX-XX",
+              "outcome": "withdrawn"
+            }
+          ],
+          "HPI": [
+            {
+              "summary": "slight chest pain",
+              "duration": "2 weeks",
+              "onset": "postoperatively"
+            }
+          ]
+        },
+        "timestamp": null
+      }
+    },
+    {
+      "id": "N5",
+      "label": "Step 5",
+      "customData": {
+        "node_id": "E",
+        "node_step_index": 4,
+        "content": "Chest CT scans in the 12th and 24th months after surgery showed good lung recovery, and no atelectasis or pulmonary congestion was observed.",
+        "clinical_data": {
+          "imaging": [
+            {
+              "type": "Chest CT scan",
+              "body_part": "Lung",
+              "modality": "CT",
+              "finding": "good lung recovery",
+              "impression": "no atelectasis or pulmonary congestion",
+              "date": "12 months after surgery"
+            },
+            {
+              "type": "Chest CT scan",
+              "body_part": "Lung",
+              "modality": "CT",
+              "finding": "good lung recovery",
+              "impression": "no atelectasis or pulmonary congestion",
+              "date": "24 months after surgery"
+            }
+          ]
+        },
+        "timestamp": null
+      }
+    },
+    {
+      "id": "N6",
+      "label": "Step 6",
+      "customData": {
+        "node_id": "F",
+        "node_step_index": 5,
+        "content": "CT revealed that the lesion was approximately 2 cm from the beginning of B1bii. Branching patterns of inferior trunk (tr. Inf): A3a + A1bii.",
+        "clinical_data": {
+          "imaging": [
+            {
+              "type": "Lesion",
+              "body_part": "Inferior trunk",
+              "modality": "CT",
+              "finding": "Lesion approximately 2 cm from the beginning of B1bii",
+              "impression": "Branching patterns of inferior trunk (tr. Inf): A3a + A1bii."
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "edges": [
+    {
+      "from": "N1",
+      "to": "N2",
+      "data": {
+        "edge_id": "A_to_B",
+        "branch_flag": true,
+        "content": "Ground-glass opacity (GGO) in the right upper lobe increased from 5.5 mm to 7 mm with mixed-density over one year. Lesion radiation characteristics associated with malignant disease, showing mixed density and spiculation."
+      }
+    },
+    {
+      "from": "N2",
+      "to": "N3",
+      "data": {
+        "edge_id": "B_to_C",
+        "branch_flag": true,
+        "content": "Patient underwent surgery via a 3.5-cm single-port incision between the midaxillary line and the posterior axillary line in the right 4th intercostal space, lasting approximately 200 min, with an intraoperative blood loss of approximately 40 mL. Frozen sections indicated in-situ adenocarcinoma, which was confirmed in the paraffin sections.",
+        "transition_event": {
+          "trigger_type": "procedure",
+          "trigger_entities": [],
+          "change_type": "addition",
+          "target_domain": "procedure"
+        }
+      }
+    },
+    {
+      "from": "N3",
+      "to": "N4",
+      "data": {
+        "edge_id": "C_to_D",
+        "branch_flag": true,
+        "content": "Thoracic drainage tube was withdrawn 4 days after surgery. Patient was discharged on the 5th postoperative day without complications or adverse events, except slight chest pain that lasted for about 2 weeks postoperatively.",
+        "transition_event": {
+          "trigger_type": "procedure",
+          "trigger_entities": [],
+          "change_type": "resolution",
+          "target_domain": "procedure"
+        }
+      }
+    },
+    {
+      "from": "N4",
+      "to": "N5",
+      "data": {
+        "edge_id": "D_to_E",
+        "branch_flag": true,
+        "content": "Chest CT scans in the 12th and 24th months after surgery showed good lung recovery, and no atelectasis or pulmonary congestion was observed.",
+        "transition_event": {
+          "trigger_type": "imaging",
+          "trigger_entities": [],
+          "change_type": "resolution",
+          "target_domain": "imaging"
+        }
+      }
+    },
+    {
+      "from": "N5",
+      "to": "N6",
+      "data": {
+        "edge_id": "E_to_F",
+        "branch_flag": true,
+        "content": "CT revealed that the lesion was approximately 2 cm from the beginning of B1bii. Branching patterns of inferior trunk (tr. Inf): A3a + A1bii."
+      }
+    }
+  ]
+}

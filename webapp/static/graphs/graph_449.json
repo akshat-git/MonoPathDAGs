@@ -1,0 +1,389 @@
+{
+  "nodes": [
+    {
+      "id": "N1",
+      "label": "Step 1",
+      "customData": {
+        "node_id": "A",
+        "node_step_index": 0,
+        "content": "81-year-old woman with swelling in the upper jaw and a history of radiation therapy for lung cancer. Receiving denosumab for >4 years for multiple bone metastases.",
+        "clinical_data": {
+          "diagnoses": [
+            {
+              "code": "C79.51",
+              "label": "Secondary malignant neoplasm of bone",
+              "status": "active"
+            }
+          ],
+          "medications": [
+            {
+              "drug": "C732694",
+              "dosage": null,
+              "frequency": null,
+              "modality": null,
+              "start_date": null,
+              "end_date": null,
+              "indication": "Secondary malignant neoplasm of bone"
+            }
+          ],
+          "HPI": [
+            {
+              "summary": "Swelling in the upper jaw",
+              "duration": null,
+              "onset": null,
+              "progression": "unknown",
+              "associated_symptoms": [],
+              "alleviating_factors": [],
+              "exacerbating_factors": []
+            }
+          ],
+          "social_history": [
+            {
+              "category": "radiation therapy",
+              "status": "past",
+              "description": "History of radiation therapy for lung cancer"
+            }
+          ]
+        }
+      }
+    },
+    {
+      "id": "N2",
+      "label": "Step 2",
+      "customData": {
+        "node_id": "B",
+        "node_step_index": 1,
+        "content": "Clinical examination revealed swelling in the right maxilla and bone exposure with pain in the maxillary right first molar extraction socket.",
+        "clinical_data": {
+          "HPI": [
+            {
+              "summary": "Swelling in the right maxilla and bone exposure with pain in the maxillary right first molar extraction socket.",
+              "associated_symptoms": [
+                "Pain"
+              ]
+            }
+          ]
+        }
+      }
+    },
+    {
+      "id": "N3",
+      "label": "Step 3",
+      "customData": {
+        "node_id": "C",
+        "node_step_index": 2,
+        "content": "CT scan showed osteolysis of the right maxilla with maxillary sinusitis, periosteal reaction in the posterior wall of the maxillary sinus, and osteosclerosis of the zygomatic bone.",
+        "clinical_data": {
+          "imaging": [
+            {
+              "type": "CT scan",
+              "body_part": "maxilla",
+              "modality": "CT",
+              "finding": "osteolysis of the right maxilla with maxillary sinusitis, periosteal reaction in the posterior wall of the maxillary sinus, and osteosclerosis of the zygomatic bone"
+            }
+          ]
+        }
+      }
+    },
+    {
+      "id": "N4",
+      "label": "Step 4",
+      "customData": {
+        "node_id": "D",
+        "node_step_index": 3,
+        "content": "Diagnosed with stage 3 medication-related osteonecrosis of the jaw (MRONJ).",
+        "clinical_data": {
+          "diagnoses": [
+            {
+              "code": "C4720633",
+              "label": "Medication-related osteonecrosis of the jaw",
+              "status": "active",
+              "onset_date": null
+            }
+          ]
+        }
+      }
+    },
+    {
+      "id": "N5",
+      "label": "Step 5",
+      "customData": {
+        "node_id": "E",
+        "node_step_index": 4,
+        "content": "Underwent 6 months of conservative treatment, including rinsing with an antimicrobial agent, administration of antibiotics, and lavage of the socket.",
+        "clinical_data": {
+          "medications": [
+            {
+              "drug": "antibiotics",
+              "dosage": null,
+              "frequency": null,
+              "modality": null,
+              "start_date": null,
+              "end_date": null,
+              "indication": null
+            }
+          ],
+          "procedures": [
+            {
+              "name": "lavage of the socket",
+              "approach": null,
+              "date": null,
+              "location": "socket",
+              "performed_by": null,
+              "outcome": null
+            }
+          ]
+        }
+      }
+    },
+    {
+      "id": "N6",
+      "label": "Step 6",
+      "customData": {
+        "node_id": "F",
+        "node_step_index": 5,
+        "content": "Osteolysis of the maxillary bone progressed, and fistula formation was observed in the cheek.",
+        "clinical_data": {
+          "diagnoses": [
+            {
+              "code": "C0029402",
+              "label": "Osteolysis",
+              "status": "active"
+            },
+            {
+              "code": "C0016386",
+              "label": "Fistula",
+              "status": "active"
+            }
+          ],
+          "imaging": [
+            {
+              "body_part": "C0024841",
+              "finding": "Osteolysis",
+              "type": "Imaging of maxillary bone"
+            }
+          ]
+        }
+      }
+    },
+    {
+      "id": "N7",
+      "label": "Step 7",
+      "customData": {
+        "node_id": "G",
+        "node_step_index": 6,
+        "content": "Resection of the bony sequestrum and debridement of the fistula were performed under general anesthesia.",
+        "clinical_data": {
+          "procedures": [
+            {
+              "name": "Resection",
+              "approach": "open",
+              "location": "bony sequestrum",
+              "performed_by": "unknown",
+              "outcome": "unknown"
+            },
+            {
+              "name": "Debridement",
+              "approach": "open",
+              "location": "fistula",
+              "performed_by": "unknown",
+              "outcome": "unknown"
+            }
+          ]
+        }
+      }
+    },
+    {
+      "id": "N8",
+      "label": "Step 8",
+      "customData": {
+        "node_id": "H",
+        "node_step_index": 7,
+        "content": "Histopathological examination revealed sequestration with granulation tissue and abscess formation.",
+        "clinical_data": {
+          "labs": [
+            {
+              "test": "Sequestration",
+              "value": "present",
+              "unit": "qualitative",
+              "flag": "abnormal"
+            }
+          ]
+        }
+      }
+    },
+    {
+      "id": "N9",
+      "label": "Step 9",
+      "customData": {
+        "node_id": "I",
+        "node_step_index": 8,
+        "content": "Bacterial culture of the fistular secretions grew methicillin-resistant Staphylococcus aureus (MRSA).",
+        "clinical_data": {
+          "labs": [
+            {
+              "test": "Bacterial culture",
+              "value": "methicillin-resistant Staphylococcus aureus (MRSA)",
+              "unit": null,
+              "flag": null,
+              "reference_range": null,
+              "timestamp": null
+            }
+          ]
+        }
+      }
+    },
+    {
+      "id": "N10",
+      "label": "Step 10",
+      "customData": {
+        "node_id": "J",
+        "node_step_index": 9,
+        "content": "Eight months after surgery, CT showed",
+        "clinical_data": {
+          "imaging": [
+            {
+              "modality": "CT",
+              "date": null
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "edges": [
+    {
+      "from": "N1",
+      "to": "N2",
+      "data": {
+        "edge_id": "A_to_B",
+        "branch_flag": true,
+        "content": "Progression of symptoms and clinical examination findings."
+      }
+    },
+    {
+      "from": "N2",
+      "to": "N3",
+      "data": {
+        "edge_id": "B_to_C",
+        "branch_flag": true,
+        "content": "Imaging performed to evaluate swelling and pain."
+      }
+    },
+    {
+      "from": "N3",
+      "to": "N4",
+      "data": {
+        "edge_id": "C_to_D",
+        "branch_flag": true,
+        "content": "Diagnosis based on clinical and imaging findings.",
+        "transition_event": {
+          "trigger_type": "interpretation",
+          "trigger_entities": [
+            "C0020538",
+            "C4720633"
+          ],
+          "change_type": "addition",
+          "target_domain": "diagnosis"
+        }
+      }
+    },
+    {
+      "from": "N4",
+      "to": "N5",
+      "data": {
+        "edge_id": "D_to_E",
+        "branch_flag": true,
+        "content": "Initiation of conservative treatment.",
+        "transition_event": {
+          "trigger_type": "procedure",
+          "trigger_entities": [
+            "C0085623",
+            "C0003091"
+          ],
+          "change_type": "addition",
+          "target_domain": "procedure"
+        }
+      }
+    },
+    {
+      "from": "N5",
+      "to": "N6",
+      "data": {
+        "edge_id": "E_to_F",
+        "branch_flag": true,
+        "content": "Progression of osteolysis and fistula formation despite conservative treatment.",
+        "transition_event": {
+          "trigger_type": "progression",
+          "trigger_entities": [
+            "C0029402",
+            "C0016386"
+          ],
+          "change_type": "progression",
+          "target_domain": "diagnosis"
+        }
+      }
+    },
+    {
+      "from": "N6",
+      "to": "N7",
+      "data": {
+        "edge_id": "F_to_G",
+        "branch_flag": true,
+        "content": "Surgical intervention due to progression of osteolysis and fistula.",
+        "transition_event": {
+          "trigger_type": "procedure",
+          "trigger_entities": [
+            "C0262859",
+            "C0158757"
+          ],
+          "change_type": "addition",
+          "target_domain": "procedure"
+        }
+      }
+    },
+    {
+      "from": "N7",
+      "to": "N8",
+      "data": {
+        "edge_id": "G_to_H",
+        "branch_flag": true,
+        "content": "Histopathological examination of resected tissue.",
+        "transition_event": {
+          "trigger_type": "lab_change",
+          "trigger_entities": [
+            "C0036864"
+          ],
+          "change_type": "addition",
+          "target_domain": "lab"
+        }
+      }
+    },
+    {
+      "from": "N8",
+      "to": "N9",
+      "data": {
+        "edge_id": "H_to_I",
+        "branch_flag": true,
+        "content": "Bacterial culture of fistular secretions.",
+        "transition_event": {
+          "trigger_type": "lab_change",
+          "trigger_entities": [
+            "C0038345"
+          ],
+          "change_type": "addition",
+          "target_domain": "lab"
+        }
+      }
+    },
+    {
+      "from": "N9",
+      "to": "N10",
+      "data": {
+        "edge_id": "I_to_J",
+        "branch_flag": true,
+        "content": "Follow-up imaging after surgery."
+      }
+    }
+  ]
+}

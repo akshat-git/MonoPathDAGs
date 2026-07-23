@@ -1,0 +1,381 @@
+{
+  "nodes": [
+    {
+      "id": "N1",
+      "label": "Step 1",
+      "customData": {
+        "node_id": "A",
+        "node_step_index": 0,
+        "content": "40-year-old woman admitted to the hospital with cough and hemoptysis on March 7, 2020.",
+        "timestamp": "2020-03-07",
+        "clinical_data": {
+          "HPI": [
+            {
+              "summary": "40-year-old woman admitted to the hospital with cough and hemoptysis.",
+              "onset": "March 7, 2020",
+              "associated_symptoms": [
+                "C0010200",
+                "C0019033"
+              ]
+            }
+          ]
+        }
+      }
+    },
+    {
+      "id": "N2",
+      "label": "Step 2",
+      "customData": {
+        "node_id": "B",
+        "node_step_index": 1,
+        "content": "Chest CT: Nodules in the upper lobe of the left lung with mediastinal lymph node metastasis.",
+        "clinical_data": {
+          "imaging": [
+            {
+              "type": "CT of chest",
+              "body_part": "Lung",
+              "modality": "CT",
+              "finding": "Nodules in the upper lobe of the left lung with mediastinal lymph node metastasis.",
+              "impression": "Nodules in the upper lobe of the left lung with mediastinal lymph node metastasis.",
+              "date": null
+            }
+          ]
+        }
+      }
+    },
+    {
+      "id": "N3",
+      "label": "Step 3",
+      "customData": {
+        "node_id": "C",
+        "node_step_index": 2,
+        "content": "Brain MRI: Brain metastases (BM).",
+        "clinical_data": {
+          "imaging": [
+            {
+              "type": "MRI of brain",
+              "body_part": "Brain",
+              "modality": "MRI",
+              "finding": "Brain metastases (BM)"
+            }
+          ]
+        }
+      }
+    },
+    {
+      "id": "N4",
+      "label": "Step 4",
+      "customData": {
+        "node_id": "D",
+        "node_step_index": 3,
+        "content": "Enlarged neck lymph nodes; pathology of neck lymph node biopsy showed LUAD (lung adenocarcinoma).",
+        "clinical_data": {
+          "diagnoses": [
+            {
+              "code": "C34",
+              "label": "Malignant neoplasm of bronchus and lung",
+              "status": "active"
+            }
+          ],
+          "imaging": [
+            {
+              "body_part": "Neck",
+              "finding": "Enlarged neck lymph nodes"
+            }
+          ],
+          "procedures": [
+            {
+              "name": "Biopsy",
+              "location": "Neck lymph node",
+              "outcome": "LUAD (lung adenocarcinoma)"
+            }
+          ]
+        }
+      }
+    },
+    {
+      "id": "N5",
+      "label": "Step 5",
+      "customData": {
+        "node_id": "E",
+        "node_step_index": 4,
+        "content": "No driver gene mutations found by ARM-PCR in the patient's blood.",
+        "clinical_data": {}
+      }
+    },
+    {
+      "id": "N6",
+      "label": "Step 6",
+      "customData": {
+        "node_id": "F",
+        "node_step_index": 5,
+        "content": "Brain radiotherapy (40 Gy/20 f) was performed from April 2, 2020, to May 6, 2020. During brain radiotherapy, cisplatin (40 mg/m2, D1-3) and pemetrexed (800 mg/m2/d) were administered for 1 cycle of chemotherapy from April 17, 2020.",
+        "timestamp": "2020-04-02",
+        "clinical_data": {
+          "procedures": [
+            {
+              "name": "Radiotherapy of brain",
+              "date": "2020-04-02",
+              "outcome": "completed"
+            }
+          ],
+          "medications": [
+            {
+              "drug": "cisplatin",
+              "dosage": "40 mg/m2",
+              "frequency": "D1-3",
+              "modality": "IV",
+              "start_date": "2020-04-17",
+              "end_date": null
+            },
+            {
+              "drug": "pemetrexed",
+              "dosage": "800 mg/m2/d",
+              "frequency": "once",
+              "modality": "IV",
+              "start_date": "2020-04-17",
+              "end_date": null
+            }
+          ]
+        }
+      }
+    },
+    {
+      "id": "N7",
+      "label": "Step 7",
+      "customData": {
+        "node_id": "G",
+        "node_step_index": 6,
+        "content": "Condition worsened, breathing was difficult, and chest and back pain were present. Positron emission tomography-CT revealed a significant increase in pericardial effusion.",
+        "clinical_data": {
+          "HPI": [
+            {
+              "summary": "Condition worsened, breathing was difficult, and chest and back pain were present.",
+              "progression": "sudden",
+              "associated_symptoms": [
+                "Dyspnea",
+                "Chest pain",
+                "Back pain"
+              ]
+            }
+          ],
+          "imaging": [
+            {
+              "type": "Positron emission tomography-CT",
+              "body_part": "Pericardium",
+              "modality": "PET",
+              "finding": "significant increase in pericardial effusion"
+            }
+          ]
+        }
+      }
+    },
+    {
+      "id": "N8",
+      "label": "Step 8",
+      "customData": {
+        "node_id": "H",
+        "node_step_index": 7,
+        "content": "The patient received 2 cycles of endostar (30 mg/m2/d, d1-7) combined with cisplatin (40 mg/m2, D1-3) and pemetrexed (800 mg/m2/d) starting on May 8, 2020.",
+        "timestamp": "2020-05-08",
+        "clinical_data": {
+          "medications": [
+            {
+              "drug": "C0008833",
+              "dosage": "30 mg/m2/d",
+              "frequency": "daily",
+              "modality": "IV",
+              "start_date": "2020-05-08",
+              "end_date": null,
+              "indication": "cancer"
+            },
+            {
+              "drug": "C0008833",
+              "dosage": "40 mg/m2",
+              "frequency": "daily",
+              "modality": "IV",
+              "start_date": "2020-05-08",
+              "end_date": null,
+              "indication": "cancer"
+            },
+            {
+              "drug": "C0008833",
+              "dosage": "800 mg/m2/d",
+              "frequency": "daily",
+              "modality": "IV",
+              "start_date": "2020-05-08",
+              "end_date": null,
+              "indication": "cancer"
+            }
+          ]
+        }
+      }
+    },
+    {
+      "id": "N9",
+      "label": "Step 9",
+      "customData": {
+        "node_id": "I",
+        "node_step_index": 8,
+        "content": "June 2020: NGS analysis of lung puncture tissue identified a novel CLHC1/RNT4 intergenic region, ALK(Exon20-29) (abundance 39.97%). Immunohistochemistry and fluorescence in situ hybridization confirmed ALK fusion.",
+        "timestamp": "2020-06-01",
+        "clinical_data": {
+          "labs": [
+            {
+              "test": "Next Generation Sequencing",
+              "value": "ALK(Exon20-29) (abundance 39.97%)",
+              "unit": "%",
+              "timestamp": "2020-06"
+            }
+          ],
+          "imaging": [
+            {
+              "type": "Lung puncture",
+              "modality": "Immunohistochemistry",
+              "finding": "ALK fusion",
+              "date": "2020-06"
+            },
+            {
+              "type": "Lung puncture",
+              "modality": "Fluorescence in situ hybridization",
+              "finding": "ALK fusion",
+              "date": "2020-06"
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "edges": [
+    {
+      "from": "N1",
+      "to": "N2",
+      "data": {
+        "edge_id": "A_to_B",
+        "branch_flag": true,
+        "content": "Patient presented with cough and hemoptysis. Chest CT was performed.",
+        "transition_event": {
+          "trigger_type": "symptom_onset",
+          "trigger_entities": [
+            "C0010200",
+            "C0019033"
+          ],
+          "change_type": "other",
+          "target_domain": "symptom"
+        }
+      }
+    },
+    {
+      "from": "N2",
+      "to": "N3",
+      "data": {
+        "edge_id": "B_to_C",
+        "branch_flag": true,
+        "content": "Chest CT showed nodules in the upper lobe of the left lung with mediastinal lymph node metastasis. Brain MRI was performed to evaluate for metastasis.",
+        "transition_event": {
+          "trigger_type": "imaging",
+          "trigger_entities": [],
+          "change_type": "progression",
+          "target_domain": "imaging"
+        }
+      }
+    },
+    {
+      "from": "N3",
+      "to": "N4",
+      "data": {
+        "edge_id": "C_to_D",
+        "branch_flag": true,
+        "content": "Brain MRI revealed brain metastases. Enlarged neck lymph nodes were observed, and a biopsy was performed.",
+        "transition_event": {
+          "trigger_type": "imaging",
+          "trigger_entities": [],
+          "change_type": "progression",
+          "target_domain": "imaging"
+        }
+      }
+    },
+    {
+      "from": "N4",
+      "to": "N5",
+      "data": {
+        "edge_id": "D_to_E",
+        "branch_flag": true,
+        "content": "Pathology of neck lymph node biopsy showed LUAD (lung adenocarcinoma). ARM-PCR was performed to check for driver gene mutations.",
+        "transition_event": {
+          "trigger_type": "procedure",
+          "trigger_entities": [],
+          "change_type": "other",
+          "target_domain": "diagnosis"
+        }
+      }
+    },
+    {
+      "from": "N5",
+      "to": "N6",
+      "data": {
+        "edge_id": "E_to_F",
+        "branch_flag": true,
+        "content": "No driver gene mutations were found. Brain radiotherapy was initiated, along with cisplatin and pemetrexed chemotherapy.",
+        "transition_event": {
+          "trigger_type": "lab_change",
+          "trigger_entities": [],
+          "change_type": "other",
+          "target_domain": "lab"
+        }
+      }
+    },
+    {
+      "from": "N6",
+      "to": "N7",
+      "data": {
+        "edge_id": "F_to_G",
+        "branch_flag": true,
+        "content": "Brain radiotherapy and chemotherapy were administered. The patient's condition worsened, with difficult breathing, chest and back pain. Positron emission tomography-CT was performed.",
+        "transition_event": {
+          "trigger_type": "procedure",
+          "trigger_entities": [
+            "C0008833",
+            "C0008833"
+          ],
+          "change_type": "other",
+          "target_domain": "procedure"
+        }
+      }
+    },
+    {
+      "from": "N7",
+      "to": "N8",
+      "data": {
+        "edge_id": "G_to_H",
+        "branch_flag": true,
+        "content": "Positron emission tomography-CT revealed a significant increase in pericardial effusion. The patient received endostar combined with cisplatin and pemetrexed.",
+        "transition_event": {
+          "trigger_type": "imaging",
+          "trigger_entities": [],
+          "change_type": "progression",
+          "target_domain": "imaging"
+        }
+      }
+    },
+    {
+      "from": "N8",
+      "to": "N9",
+      "data": {
+        "edge_id": "H_to_I",
+        "branch_flag": true,
+        "content": "The patient received endostar, cisplatin and pemetrexed. NGS analysis of lung puncture tissue was performed.",
+        "transition_event": {
+          "trigger_type": "medication_change",
+          "trigger_entities": [
+            "C0008833",
+            "C0008833",
+            "C0008833"
+          ],
+          "change_type": "addition",
+          "target_domain": "medication"
+        }
+      }
+    }
+  ]
+}

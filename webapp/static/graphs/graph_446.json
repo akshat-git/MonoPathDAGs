@@ -1,0 +1,189 @@
+{
+  "nodes": [
+    {
+      "id": "N1",
+      "label": "Step 1",
+      "customData": {
+        "node_id": "A",
+        "node_step_index": 0,
+        "content": "55-year-old woman with non-small cell lung cancer presented with a five-year history of epigastric pain, bloating, anorexia, nausea, and recurrent non-bloody, non-projectile postprandial vomiting. Symptoms occurred two to three times per month and were consistently alleviated by fasting. Patient exhibited emaciation, with a weight of 43 kg, height of 158 cm, and body mass index of 17.2 kg/m2. Over the past five years, she had gradually lost approximately 5 kg of weight, paralleled by a progressive exacerbation of her symptoms. Patient with lung cancer diagnosis established two months prior, undergoing chemotherapy. Physical examination revealed a flat, non-distended abdomen with normal bowel sounds. Abdominal palpation showed a soft, flaccid abdomen without tenderness, palpable masses, or organomegaly. Tympanic sounds were elicited during abdominal percussion.",
+        "clinical_data": {
+          "HPI": [
+            {
+              "summary": "55-year-old woman with a five-year history of epigastric pain, bloating, anorexia, nausea, and recurrent non-bloody, non-projectile postprandial vomiting.",
+              "duration": "5 years",
+              "progression": "gradual",
+              "alleviating_factors": [
+                "fasting"
+              ],
+              "associated_symptoms": [
+                "Anorexia",
+                "Nausea",
+                "Vomiting",
+                "Epigastric pain",
+                "Bloating"
+              ]
+            }
+          ],
+          "diagnoses": [
+            {
+              "code": "C0024117",
+              "label": "Lung cancer",
+              "status": "active",
+              "onset_date": null
+            }
+          ],
+          "medications": [
+            {
+              "drug": "chemotherapy",
+              "dosage": null,
+              "frequency": null,
+              "modality": null,
+              "start_date": null,
+              "end_date": null,
+              "indication": "C0024117"
+            }
+          ],
+          "vitals": [
+            {
+              "type": "weight",
+              "value": "43",
+              "unit": "kg",
+              "timestamp": null
+            },
+            {
+              "type": "height",
+              "value": "158",
+              "unit": "cm",
+              "timestamp": null
+            },
+            {
+              "type": "body mass index",
+              "value": "17.2",
+              "unit": "kg/m2",
+              "timestamp": null
+            }
+          ]
+        }
+      }
+    },
+    {
+      "id": "N2",
+      "label": "Step 2",
+      "customData": {
+        "node_id": "B",
+        "node_step_index": 1,
+        "content": "Electrolytes and complete blood counts were within normal ranges. Upper gastrointestinal imaging examination with meglumine diatrizoate revealed a large, hook-shaped, ptotic gastric lumen with normal motility. Contrast agent demonstrated an abnormal round-trip flow anterior to the spine at the duodenal level, with pooling and gradual passage through this region in strands after prolonged retention. Contrast-enhanced abdominal CT scan revealed an anomalous alignment of the SMV, closely approximating the AA. SMV extended course, anteriorly accompanying the AA. Third portion of the duodenum traversed the anterior aspect of the spine at the level of the third lumbar vertebra through a confined passage between the SMV and AA, with the distance between the two vessels measuring 4.7 mm. Barium meal or upper gastrointestinal radiography may show compression of the third or fourth part of the duodenum, with noticeable back-and-forth peristalsis in and external compression of the third part of the duodenum, and proximal dilation. Upper gastrointestinal imaging examination with 50 mL meglumine diatrizoate showed contrast agent in the first and second portions of the duodenum, with abrupt compression in the third portion and retrograde flow proximal to the obstruction. Duodenal compression marked with a red arrow, with dilation on the oral side. After approximately 10 min, a small amount of contrast agent slowly passed through the horizontal portion of the duodenum. Sagittal plane imaging showed the SMV and AA were nearly parallel, with a minimum distance of 4.7 mm. Reconstruction revealed the complete horizontal part of the duodenum, with dilation and narrowing. Contrast-enhanced CT scan revealed an anomaly in the alignment of the SMV and AA, coursing parallelly and closely. The horizontal segment of the duodenum traversed the interstice, giving rise to the impression of compression exerted by the SMV and AA on the duodenum. Upper gastrointestinal imaging showed dilation of the first and second portions of the duodenum, abrupt vertical compression of the third portion of the duodenum, and retrograde flow of contrast medium proximal to the obstruction. The SMV and AA ran in nearly parallel alignment over a considerable distance. Duodenum traversed the AA and SMV, with a distance of 4.7 mm between these vessels, confirming duodenal compression by the SMV in close proximity to the AA. No midgut malrotation was evident, but the first and second branches of the SMV coursed ventrally through the SMA to the left side of the main trunk of the SMA. Contrast-enhanced CT showed the proximity of the SMV to the AA and the compression of the duodenum. Condition manifested as nausea, vomiting, epigastric pain, early satiety, post-prandial discomfort, abdominal distension, and weight loss.",
+        "clinical_data": {
+          "labs": [
+            {
+              "test": "Complete blood count",
+              "value": "within normal ranges",
+              "flag": "normal"
+            },
+            {
+              "test": "Electrolytes",
+              "value": "within normal ranges",
+              "flag": "normal"
+            }
+          ],
+          "imaging": [
+            {
+              "type": "Upper gastrointestinal imaging examination",
+              "body_part": "duodenum",
+              "modality": "other",
+              "finding": "large, hook-shaped, ptotic gastric lumen with normal motility; abnormal round-trip flow anterior to the spine at the duodenal level, with pooling and gradual passage through this region in strands after prolonged retention; abrupt compression in the third portion and retrograde flow proximal to the obstruction; dilation of the first and second portions of the duodenum, abrupt vertical compression of the third portion of the duodenum, and retrograde flow of contrast medium proximal to the obstruction",
+              "impression": "duodenal compression",
+              "date": null
+            },
+            {
+              "type": "Contrast-enhanced abdominal CT scan",
+              "body_part": "abdomen",
+              "modality": "CT",
+              "finding": "anomalous alignment of the SMV, closely approximating the AA; SMV extended course, anteriorly accompanying the AA; third portion of the duodenum traversed the anterior aspect of the spine at the level of the third lumbar vertebra through a confined passage between the SMV and AA, with the distance between the two vessels measuring 4.7 mm; the SMV and AA ran in nearly parallel alignment over a considerable distance; the horizontal segment of the duodenum traversed the interstice, giving rise to the impression of compression exerted by the SMV and AA on the duodenum; proximity of the SMV to the AA and the compression of the duodenum",
+              "impression": "duodenal compression by the SMV in close proximity to the AA",
+              "date": null
+            }
+          ],
+          "HPI": [
+            {
+              "summary": "nausea, vomiting, epigastric pain, early satiety, post-prandial discomfort, abdominal distension, and weight loss",
+              "duration": null,
+              "onset": null,
+              "progression": null,
+              "associated_symptoms": [
+                "nausea",
+                "vomiting",
+                "epigastric pain",
+                "early satiety",
+                "post-prandial discomfort",
+                "abdominal distension",
+                "weight loss"
+              ],
+              "alleviating_factors": [],
+              "exacerbating_factors": []
+            }
+          ]
+        }
+      }
+    },
+    {
+      "id": "N3",
+      "label": "Step 3",
+      "customData": {
+        "node_id": "C",
+        "node_step_index": 2,
+        "content": "Patient opted for temporary deferment of intervention due to ongoing antitumor therapy for duodenal obstruction complication. Patient diagnosed with superior mesenteric artery (SMA) syndrome based on diagnostic criteria.",
+        "clinical_data": {
+          "diagnoses": [
+            {
+              "code": "C0341729",
+              "label": "Superior mesenteric artery syndrome",
+              "status": "active"
+            }
+          ],
+          "procedures": [
+            {
+              "name": "C0021423",
+              "outcome": "C0239943"
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "edges": [
+    {
+      "from": "N1",
+      "to": "N2",
+      "data": {
+        "edge_id": "A_to_B",
+        "branch_flag": true,
+        "content": "Patient with non-small cell lung cancer presented with epigastric pain, bloating, anorexia, nausea, and vomiting. Imaging revealed a large, hook-shaped, ptotic gastric lumen with normal motility. Contrast agent demonstrated an abnormal round-trip flow anterior to the spine at the duodenal level, with pooling and gradual passage through this region in strands after prolonged retention. Contrast-enhanced abdominal CT scan revealed an anomalous alignment of the SMV, closely approximating the AA. SMV extended course, anteriorly accompanying the AA. Third portion of the duodenum traversed the anterior aspect of the spine at the level of the third lumbar vertebra through a confined passage between the SMV and AA, with the distance between the two vessels measuring 4.7 mm. Upper gastrointestinal imaging examination with 50 mL meglumine diatrizoate showed contrast agent in the first and second portions of the duodenum, with abrupt compression in the third portion and retrograde flow proximal to the obstruction. Sagittal plane imaging showed the SMV and AA were nearly parallel, with a minimum distance of 4.7 mm. Reconstruction revealed the complete horizontal part of the duodenum, with dilation and narrowing. Contrast-enhanced CT scan revealed an anomaly in the alignment of the SMV and AA, coursing parallelly and closely. The horizontal segment of the duodenum traversed the interstice, giving rise to the impression of compression exerted by the SMV and AA on the duodenum. Upper gastrointestinal imaging showed dilation of the first and second portions of the duodenum, abrupt vertical compression of the third portion of the duodenum, and retrograde flow of contrast medium proximal to the obstruction. The SMV and AA ran in nearly parallel alignment over a considerable distance. Duodenum traversed the AA and SMV, with a distance of 4.7 mm between these vessels, confirming duodenal compression by the SMV in close proximity to the AA. No midgut malrotation was evident, but the first and second branches of the SMV coursed ventrally through the SMA to the left side of the main trunk of the SMA. Contrast-enhanced CT showed the proximity of the SMV to the AA and the compression of the duodenum.",
+        "transition_event": {
+          "trigger_type": "imaging",
+          "trigger_entities": [],
+          "change_type": "progression",
+          "target_domain": "imaging"
+        }
+      }
+    },
+    {
+      "from": "N2",
+      "to": "N3",
+      "data": {
+        "edge_id": "B_to_C",
+        "branch_flag": true,
+        "content": "Patient diagnosed with superior mesenteric artery (SMA) syndrome based on diagnostic criteria. Patient opted for temporary deferment of intervention due to ongoing antitumor therapy for duodenal obstruction complication.",
+        "transition_event": {
+          "trigger_type": "interpretation",
+          "trigger_entities": [
+            "C0341729"
+          ],
+          "change_type": "addition",
+          "target_domain": "diagnosis"
+        }
+      }
+    }
+  ]
+}

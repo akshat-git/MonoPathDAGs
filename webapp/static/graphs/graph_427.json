@@ -1,0 +1,331 @@
+{
+  "nodes": [
+    {
+      "id": "N1",
+      "label": "Step 1",
+      "customData": {
+        "node_id": "A",
+        "node_step_index": 0,
+        "content": "Patient admitted to local hospital in July 2019 with cough and fatigue. ECOG-PS of 1.",
+        "timestamp": "2019-07",
+        "clinical_data": {
+          "HPI": [
+            {
+              "summary": "Patient admitted with cough and fatigue.",
+              "onset": "July 2019",
+              "associated_symptoms": [
+                "cough",
+                "fatigue"
+              ]
+            }
+          ],
+          "functional_status": [
+            {
+              "domain": "general",
+              "description": "ECOG-PS of 1",
+              "score": "1",
+              "scale": "ECOG-PS"
+            }
+          ]
+        }
+      }
+    },
+    {
+      "id": "N2",
+      "label": "Step 2",
+      "customData": {
+        "node_id": "B",
+        "node_step_index": 1,
+        "content": "Chest CT: Left hilar mass with mediastinal lymphadenopathy. Abdominal CT: Mass in the left adrenal gland. Spinal MR: Diffuse abnormal signals in the vertebral body. Chest CT: Irregular mass in the left lower lobe.",
+        "timestamp": "2019-07",
+        "clinical_data": {
+          "imaging": [
+            {
+              "type": "Mass",
+              "body_part": "Hilar region",
+              "modality": "CT",
+              "finding": "Left hilar mass with mediastinal lymphadenopathy",
+              "impression": "Left hilar mass with mediastinal lymphadenopathy"
+            },
+            {
+              "type": "Mass",
+              "body_part": "Left adrenal gland",
+              "modality": "CT",
+              "finding": "Mass in the left adrenal gland",
+              "impression": "Mass in the left adrenal gland"
+            },
+            {
+              "type": "Abnormal signal",
+              "body_part": "Vertebral body",
+              "modality": "MRI",
+              "finding": "Diffuse abnormal signals in the vertebral body",
+              "impression": "Diffuse abnormal signals in the vertebral body"
+            },
+            {
+              "type": "Mass",
+              "body_part": "Left lower lobe",
+              "modality": "CT",
+              "finding": "Irregular mass in the left lower lobe",
+              "impression": "Irregular mass in the left lower lobe"
+            }
+          ]
+        }
+      }
+    },
+    {
+      "id": "N3",
+      "label": "Step 3",
+      "customData": {
+        "node_id": "C",
+        "node_step_index": 2,
+        "content": "Cranial enhanced MR: No abnormality observed. Bronchoscopy and pathology: Adenocarcinoma. Diagnosis: Advanced lung adenocarcinoma (stage IVB, cT2N3M1c) with left adrenal metastasis and multiple bone metastasis. Next generation sequencing (NGS) of tissue biopsy: Negative driver gene mutation.",
+        "clinical_data": {
+          "imaging": [
+            {
+              "type": "Magnetic resonance imaging",
+              "body_part": "Cranium",
+              "modality": "MRI",
+              "finding": "No abnormality observed"
+            }
+          ],
+          "procedures": [
+            {
+              "name": "Bronchoscopy",
+              "outcome": "Adenocarcinoma"
+            }
+          ],
+          "diagnoses": [
+            {
+              "code": "C34",
+              "label": "Advanced lung adenocarcinoma (stage IVB, cT2N3M1c)",
+              "status": "active"
+            },
+            {
+              "code": "C79.7",
+              "label": "Left adrenal metastasis",
+              "status": "active"
+            },
+            {
+              "code": "C79.51",
+              "label": "Multiple bone metastasis",
+              "status": "active"
+            }
+          ],
+          "labs": [
+            {
+              "test": "Next generation sequencing",
+              "value": "Negative driver gene mutation"
+            }
+          ]
+        }
+      }
+    },
+    {
+      "id": "N4",
+      "label": "Step 4",
+      "customData": {
+        "node_id": "D",
+        "node_step_index": 3,
+        "content": "Patient received first-line therapy: pemetrexed (800mg D1) and cisplatin (40mg D1-3) plus bevacizumab (400mg D1) and maintenance therapy of pemetrexed (800mg D1) plus bevacizumab (400mg D1) every 3 weeks.",
+        "clinical_data": {
+          "medications": [
+            {
+              "drug": "pemetrexed",
+              "dosage": "800mg",
+              "frequency": "D1",
+              "modality": "IV",
+              "indication": "first-line therapy"
+            },
+            {
+              "drug": "cisplatin",
+              "dosage": "40mg",
+              "frequency": "D1-3",
+              "modality": "IV",
+              "indication": "first-line therapy"
+            },
+            {
+              "drug": "bevacizumab",
+              "dosage": "400mg",
+              "frequency": "D1",
+              "modality": "IV",
+              "indication": "first-line therapy"
+            },
+            {
+              "drug": "pemetrexed",
+              "dosage": "800mg",
+              "frequency": "D1 every 3 weeks",
+              "modality": "IV",
+              "indication": "maintenance therapy"
+            },
+            {
+              "drug": "bevacizumab",
+              "dosage": "400mg",
+              "frequency": "D1 every 3 weeks",
+              "modality": "IV",
+              "indication": "maintenance therapy"
+            }
+          ]
+        }
+      }
+    },
+    {
+      "id": "N5",
+      "label": "Step 5",
+      "customData": {
+        "node_id": "E",
+        "node_step_index": 4,
+        "content": "Chest CT: Stable disease after 2 cycles of first-line therapy.",
+        "timestamp": "2019-09-07",
+        "clinical_data": {
+          "imaging": [
+            {
+              "type": "Computed tomography",
+              "body_part": "Chest",
+              "modality": "CT",
+              "finding": "Stable disease",
+              "date": null
+            }
+          ]
+        }
+      }
+    },
+    {
+      "id": "N6",
+      "label": "Step 6",
+      "customData": {
+        "node_id": "F",
+        "node_step_index": 5,
+        "content": "Chest CT: Stable disease after 6 cycles of first-line therapy.",
+        "timestamp": "2020-01-09",
+        "clinical_data": {
+          "imaging": [
+            {
+              "type": "Computed tomography of chest (procedure)",
+              "body_part": "Thorax",
+              "modality": "CT",
+              "finding": "Stable disease",
+              "impression": "Stable disease after 6 cycles of first-line therapy.",
+              "date": null
+            }
+          ]
+        }
+      }
+    },
+    {
+      "id": "N7",
+      "label": "Step 7",
+      "customData": {
+        "node_id": "G",
+        "node_step_index": 6,
+        "content": "Chest CT: Primary lesion larger than before, progressive disease.",
+        "timestamp": "2020-05-26",
+        "clinical_data": {
+          "imaging": [
+            {
+              "type": "Computed tomography of chest",
+              "body_part": "Chest",
+              "modality": "CT",
+              "finding": "Primary lesion larger than before",
+              "impression": "Progressive disease"
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "edges": [
+    {
+      "from": "N1",
+      "to": "N2",
+      "data": {
+        "edge_id": "A_to_B",
+        "branch_flag": true,
+        "content": "Patient progressed from initial presentation with cough and fatigue to radiographic findings suggestive of malignancy."
+      }
+    },
+    {
+      "from": "N2",
+      "to": "N3",
+      "data": {
+        "edge_id": "B_to_C",
+        "branch_flag": true,
+        "content": "Radiographic findings were further investigated via bronchoscopy and tissue biopsy, leading to a diagnosis of advanced lung adenocarcinoma with metastasis. NGS was performed.",
+        "transition_event": {
+          "trigger_type": "procedure",
+          "trigger_entities": [
+            "C0006266"
+          ],
+          "change_type": "addition",
+          "target_domain": "diagnosis"
+        }
+      }
+    },
+    {
+      "from": "N3",
+      "to": "N4",
+      "data": {
+        "edge_id": "C_to_D",
+        "branch_flag": true,
+        "content": "Patient initiated first-line chemotherapy with pemetrexed, cisplatin, and bevacizumab, followed by maintenance therapy with pemetrexed and bevacizumab.",
+        "transition_event": {
+          "trigger_type": "medication_change",
+          "trigger_entities": [
+            "C0076690",
+            "C0008854",
+            "C0976424"
+          ],
+          "change_type": "addition",
+          "target_domain": "medication"
+        }
+      }
+    },
+    {
+      "from": "N4",
+      "to": "N5",
+      "data": {
+        "edge_id": "D_to_E",
+        "branch_flag": true,
+        "content": "After 2 cycles of first-line therapy, imaging revealed stable disease.",
+        "transition_event": {
+          "trigger_type": "interpretation",
+          "trigger_entities": [],
+          "change_type": "other",
+          "target_domain": "imaging",
+          "timestamp": "2019-09-07"
+        }
+      }
+    },
+    {
+      "from": "N5",
+      "to": "N6",
+      "data": {
+        "edge_id": "E_to_F",
+        "branch_flag": true,
+        "content": "After 6 cycles of first-line therapy, imaging continued to show stable disease.",
+        "transition_event": {
+          "trigger_type": "interpretation",
+          "trigger_entities": [],
+          "change_type": "other",
+          "target_domain": "imaging",
+          "timestamp": "2020-01-09"
+        }
+      }
+    },
+    {
+      "from": "N6",
+      "to": "N7",
+      "data": {
+        "edge_id": "F_to_G",
+        "branch_flag": true,
+        "content": "Imaging revealed progression of the primary lesion, indicating progressive disease.",
+        "transition_event": {
+          "trigger_type": "interpretation",
+          "trigger_entities": [],
+          "change_type": "progression",
+          "target_domain": "imaging",
+          "timestamp": "2020-05-26"
+        }
+      }
+    }
+  ]
+}

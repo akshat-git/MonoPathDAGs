@@ -1,0 +1,221 @@
+{
+  "nodes": [
+    {
+      "id": "N1",
+      "label": "Step 1",
+      "customData": {
+        "node_id": "A",
+        "node_step_index": 0,
+        "content": "64-year-old male presented with epigastric pain and progressive dysphagia for more than one month. Smoking history of 1.5 packs/day for 17 years. One year prior to current presentation, diagnosed with primary lung SCC of the right lower lobe (Fig.1a), and had undergone thoracoscopic lower lobectomy. Staged as pT2aN0M0, stage IB according to the eighth edition of the UICC classification. Patient underwent adjuvant chemotherapy consisting of four cycles of uracil and tegafur.",
+        "clinical_data": {
+          "HPI": [
+            {
+              "summary": "64-year-old male presented with epigastric pain and progressive dysphagia for more than one month.",
+              "duration": "more than one month",
+              "progression": "progressive",
+              "associated_symptoms": [
+                "epigastric pain",
+                "dysphagia"
+              ]
+            }
+          ],
+          "social_history": [
+            {
+              "category": "smoking",
+              "status": "past",
+              "description": "Smoking history of 1.5 packs/day for 17 years."
+            }
+          ],
+          "diagnoses": [
+            {
+              "code": "C0006274",
+              "label": "Squamous cell carcinoma of lung",
+              "status": "historical",
+              "onset_date": "one year prior to current presentation"
+            }
+          ],
+          "procedures": [
+            {
+              "name": "Thoracoscopic lower lobectomy",
+              "date": "one year prior to current presentation",
+              "location": "right lower lobe"
+            }
+          ],
+          "medications": [
+            {
+              "drug": "Uracil and tegafur",
+              "modality": "oral",
+              "indication": "Adjuvant chemotherapy",
+              "start_date": "one year prior to current presentation"
+            }
+          ]
+        }
+      }
+    },
+    {
+      "id": "N2",
+      "label": "Step 2",
+      "customData": {
+        "node_id": "B",
+        "node_step_index": 1,
+        "content": "Chest CT scan showed a 3.2 x 2.3 cm right lower lobe nodule. Abdominal CT scan showed a 5.2 x 5.0 cm gastric fundal mass located in the gastric cardia. Esophagogastroduodenoscopy (EGD) showed a 5 cm subepithelial and ulcerated mass located in the gastric cardia (Fig.1c). Gastric biopsies identified SCC. CT scan revealed remarkable growth of the tumor without any additional organ metastasis.",
+        "clinical_data": {
+          "imaging": [
+            {
+              "type": "Lung CT",
+              "body_part": "Lower Lobe of Right Lung",
+              "modality": "CT",
+              "finding": "3.2 x 2.3 cm nodule",
+              "date": null
+            },
+            {
+              "type": "Abdominal CT",
+              "body_part": "Gastric Fundus",
+              "modality": "CT",
+              "finding": "5.2 x 5.0 cm mass",
+              "date": null
+            }
+          ],
+          "procedures": [
+            {
+              "name": "Esophagogastroduodenoscopy",
+              "approach": "endoscopic",
+              "date": null,
+              "location": "Gastric Cardia",
+              "outcome": "5 cm subepithelial and ulcerated mass"
+            },
+            {
+              "name": "Gastric Biopsy",
+              "date": null,
+              "location": "Stomach",
+              "outcome": "Squamous Cell Carcinoma"
+            }
+          ]
+        }
+      }
+    },
+    {
+      "id": "N3",
+      "label": "Step 3",
+      "customData": {
+        "node_id": "C",
+        "node_step_index": 2,
+        "content": "Patient underwent proximal gastrectomy with resection of the diaphragmatic crus which was reconstructed by esophagogastrostomy one month after the diagnosis. Gross examination of the gastric lesion revealed a 7.0 x 7.0 cm hard mass with ulceration, directly invading the esophagus and diaphragm. Postoperative histopathology revealed keratinizing SCC with massive submucosal infiltration and major vascular invasion. 0 of 17 lymph nodes showed signs of malignancy. Histopathological report concluded that the tumor was a metastasis from primary lung SCC.",
+        "clinical_data": {
+          "procedures": [
+            {
+              "name": "Gastrectomy, Proximal",
+              "date": null,
+              "location": "stomach",
+              "outcome": null
+            },
+            {
+              "name": "Esophagogastrostomy",
+              "date": null,
+              "location": "esophagus",
+              "outcome": null
+            },
+            {
+              "name": "Resection of diaphragmatic crus",
+              "date": null,
+              "location": "diaphragm",
+              "outcome": null
+            }
+          ],
+          "imaging": [
+            {
+              "type": "mass",
+              "body_part": "stomach",
+              "modality": null,
+              "finding": "7.0 x 7.0 cm hard mass with ulceration",
+              "impression": "gastric lesion",
+              "date": null
+            }
+          ],
+          "diagnoses": [
+            {
+              "code": "C0006763",
+              "label": "Squamous Cell Carcinoma",
+              "status": "active",
+              "onset_date": null
+            },
+            {
+              "code": "C0024117",
+              "label": "Lung Neoplasms",
+              "status": "active",
+              "onset_date": null
+            },
+            {
+              "code": "C0205352",
+              "label": "Neoplasm Metastasis",
+              "status": "active",
+              "onset_date": null
+            }
+          ]
+        }
+      }
+    },
+    {
+      "id": "N4",
+      "label": "Step 4",
+      "customData": {
+        "node_id": "D",
+        "node_step_index": 3,
+        "content": "Patient discharged without complications 14 days after gastrectomy. Two months after surgery, follow\u2010",
+        "clinical_data": {}
+      }
+    }
+  ],
+  "edges": [
+    {
+      "from": "N1",
+      "to": "N2",
+      "data": {
+        "edge_id": "A_to_B",
+        "branch_flag": true,
+        "content": "Progression from initial lung SCC diagnosis and treatment to new symptoms and findings.",
+        "transition_event": {
+          "trigger_type": "symptom_onset",
+          "trigger_entities": [
+            "C0014558",
+            "C0013135"
+          ],
+          "change_type": "progression",
+          "target_domain": "symptom"
+        }
+      }
+    },
+    {
+      "from": "N2",
+      "to": "N3",
+      "data": {
+        "edge_id": "B_to_C",
+        "branch_flag": true,
+        "content": "Diagnosis of gastric SCC and subsequent surgical intervention.",
+        "transition_event": {
+          "trigger_type": "procedure",
+          "trigger_entities": [
+            "C0162794"
+          ],
+          "change_type": "addition",
+          "target_domain": "procedure"
+        }
+      }
+    },
+    {
+      "from": "N3",
+      "to": "N4",
+      "data": {
+        "edge_id": "C_to_D",
+        "branch_flag": true,
+        "content": "Post-operative recovery and discharge.",
+        "transition_event": {
+          "trigger_type": "spontaneous",
+          "trigger_entities": [],
+          "change_type": "resolution",
+          "target_domain": "functional_status"
+        }
+      }
+    }
+  ]
+}

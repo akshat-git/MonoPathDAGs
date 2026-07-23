@@ -1,0 +1,293 @@
+{
+  "nodes": [
+    {
+      "id": "N1",
+      "label": "Step 1",
+      "customData": {
+        "node_id": "A",
+        "node_step_index": 0,
+        "content": "63-year-old male presented to the emergency department complaining of palpitations, cough, and shortness of breath. Past medical history includes heavy tobacco use.",
+        "clinical_data": {
+          "HPI": [
+            {
+              "summary": "63-year-old male presented to the emergency department complaining of palpitations, cough, and shortness of breath.",
+              "associated_symptoms": [
+                "palpitations",
+                "cough",
+                "shortness of breath"
+              ]
+            }
+          ],
+          "social_history": [
+            {
+              "category": "smoking",
+              "status": "current",
+              "description": "heavy tobacco use"
+            }
+          ]
+        }
+      }
+    },
+    {
+      "id": "N2",
+      "label": "Step 2",
+      "customData": {
+        "node_id": "B",
+        "node_step_index": 1,
+        "content": "Patient had palpitations and a productive cough for several weeks. EKG revealed atrial fibrillation with rapid ventricular response. Chest x-ray revealed an irregular opacification of the left lung. Chest CT revealed a left hilar mass extending to the left upper lobe.",
+        "clinical_data": {
+          "HPI": [
+            {
+              "summary": "Patient had palpitations and a productive cough for several weeks.",
+              "duration": "several weeks",
+              "associated_symptoms": [
+                "palpitations",
+                "productive cough"
+              ]
+            }
+          ],
+          "diagnoses": [
+            {
+              "code": "C0004238",
+              "label": "Atrial Fibrillation",
+              "status": "active"
+            }
+          ],
+          "imaging": [
+            {
+              "type": "Radiography",
+              "body_part": "Lung",
+              "modality": "X-ray",
+              "finding": "irregular opacification",
+              "date": null
+            },
+            {
+              "type": "Mass of left hilus",
+              "body_part": "Left hilum",
+              "modality": "CT",
+              "finding": "left hilar mass extending to the left upper lobe",
+              "date": null
+            }
+          ]
+        }
+      }
+    },
+    {
+      "id": "N3",
+      "label": "Step 3",
+      "customData": {
+        "node_id": "C",
+        "node_step_index": 2,
+        "content": "Left hilar mass was causing obstruction of the left upper lobe and encasing the left main pulmonary artery and left bronchus (Figure1).",
+        "clinical_data": {
+          "imaging": [
+            {
+              "type": "Mass",
+              "body_part": "Hilar region",
+              "modality": "other",
+              "finding": "Obstruction of the left upper lobe and encasing the left main pulmonary artery and left bronchus",
+              "impression": "Left hilar mass",
+              "date": null
+            }
+          ]
+        }
+      }
+    },
+    {
+      "id": "N4",
+      "label": "Step 4",
+      "customData": {
+        "node_id": "D",
+        "node_step_index": 3,
+        "content": "Endobronchial ultrasound-guided biopsy revealed squamous cell carcinoma (SCC) of the lung.",
+        "clinical_data": {
+          "imaging": [
+            {
+              "type": "Endobronchial ultrasound",
+              "body_part": "Lung",
+              "modality": "Ultrasound",
+              "finding": "Squamous cell carcinoma",
+              "impression": "Squamous cell carcinoma (SCC) of the lung"
+            }
+          ],
+          "diagnoses": [
+            {
+              "code": "C0007135",
+              "label": "Squamous Cell Carcinoma",
+              "status": "active"
+            }
+          ],
+          "procedures": [
+            {
+              "name": "Biopsy",
+              "approach": "endoscopic",
+              "location": "Lung"
+            }
+          ]
+        }
+      }
+    },
+    {
+      "id": "N5",
+      "label": "Step 5",
+      "customData": {
+        "node_id": "E",
+        "node_step_index": 4,
+        "content": "Atrial fibrillation treated with metoprolol during hospitalization.",
+        "clinical_data": {
+          "medications": [
+            {
+              "drug": "C0025627",
+              "dosage": null,
+              "frequency": null,
+              "modality": null,
+              "start_date": null,
+              "end_date": null,
+              "indication": "C0004238"
+            }
+          ],
+          "diagnoses": [
+            {
+              "code": "C0004238",
+              "label": "Atrial Fibrillation",
+              "status": "active",
+              "onset_date": null
+            }
+          ]
+        }
+      }
+    },
+    {
+      "id": "N6",
+      "label": "Step 6",
+      "customData": {
+        "node_id": "F",
+        "node_step_index": 5,
+        "content": "Patient followed up with oncology for treatment involving chemotherapy and radiation after discharge.",
+        "clinical_data": {
+          "procedures": [
+            {
+              "name": "Chemotherapy",
+              "date": null
+            },
+            {
+              "name": "Radiation therapy",
+              "date": null
+            }
+          ]
+        }
+      }
+    },
+    {
+      "id": "N7",
+      "label": "Step 7",
+      "customData": {
+        "node_id": "G",
+        "node_step_index": 6,
+        "content": "CT scan of the chest demonstrating lung mass compressing on the patient\u2019s left atrium.",
+        "clinical_data": {
+          "imaging": [
+            {
+              "type": "Computed tomography",
+              "body_part": "chest",
+              "modality": "CT",
+              "finding": "lung mass compressing on the patient\u2019s left atrium"
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "edges": [
+    {
+      "from": "N1",
+      "to": "N2",
+      "data": {
+        "edge_id": "A_to_B",
+        "branch_flag": true,
+        "content": "Patient developed palpitations and a productive cough for several weeks. EKG revealed atrial fibrillation with rapid ventricular response. Chest x-ray revealed an irregular opacification of the left lung. Chest CT revealed a left hilar mass extending to the left upper lobe.",
+        "transition_event": null
+      }
+    },
+    {
+      "from": "N2",
+      "to": "N3",
+      "data": {
+        "edge_id": "B_to_C",
+        "branch_flag": true,
+        "content": "Left hilar mass was causing obstruction of the left upper lobe and encasing the left main pulmonary artery and left bronchus."
+      }
+    },
+    {
+      "from": "N3",
+      "to": "N4",
+      "data": {
+        "edge_id": "C_to_D",
+        "branch_flag": true,
+        "content": "Endobronchial ultrasound-guided biopsy revealed squamous cell carcinoma (SCC) of the lung.",
+        "transition_event": {
+          "trigger_type": "procedure",
+          "trigger_entities": [
+            "C0005732",
+            "C0007135"
+          ],
+          "change_type": "addition",
+          "target_domain": "diagnosis"
+        }
+      }
+    },
+    {
+      "from": "N4",
+      "to": "N5",
+      "data": {
+        "edge_id": "D_to_E",
+        "branch_flag": true,
+        "content": "Atrial fibrillation treated with metoprolol during hospitalization.",
+        "transition_event": {
+          "trigger_type": "medication_change",
+          "trigger_entities": [
+            "C0025627",
+            "C0004238"
+          ],
+          "change_type": "addition",
+          "target_domain": "medication"
+        }
+      }
+    },
+    {
+      "from": "N5",
+      "to": "N6",
+      "data": {
+        "edge_id": "E_to_F",
+        "branch_flag": true,
+        "content": "Patient followed up with oncology for treatment involving chemotherapy and radiation after discharge.",
+        "transition_event": {
+          "trigger_type": "procedure",
+          "trigger_entities": [
+            "C0009345",
+            "C0030685"
+          ],
+          "change_type": "addition",
+          "target_domain": "procedure"
+        }
+      }
+    },
+    {
+      "from": "N6",
+      "to": "N7",
+      "data": {
+        "edge_id": "F_to_G",
+        "branch_flag": true,
+        "content": "CT scan of the chest demonstrating lung mass compressing on the patient\u2019s left atrium.",
+        "transition_event": {
+          "trigger_type": "imaging",
+          "trigger_entities": [
+            "C0024117"
+          ],
+          "change_type": "progression",
+          "target_domain": "imaging"
+        }
+      }
+    }
+  ]
+}

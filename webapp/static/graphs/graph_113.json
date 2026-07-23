@@ -1,0 +1,255 @@
+{
+  "nodes": [
+    {
+      "id": "N1",
+      "label": "Step 1",
+      "customData": {
+        "node_id": "A",
+        "node_step_index": 0,
+        "content": "74-year-old man admitted to hospital with upper left lung tumour indicated on chest X-ray. Patient has a 30 pack-year smoking history. Eastern Cooperative Oncology Group performance status score was 0. Squamous cell carcinoma antigen (SCC) level was 2.2\u2009ng/mL (normal range: 0\u20131.5\u2009ng/mL). Salyl Lewis X\u2010i (SLX) level was 42.3\u2009ng/mL (normal range: 0\u201338.0\u2009ng/mL). PET-CT revealed fluorodeoxyglucose (FDG) uptake in a 6-cm tumour shadow in the upper lobe of the left lung, metastatic tumours in the left lung and right adrenal gland, and a retroperitoneal tumour. Increased diffuse bone marrow FDG uptake was observed.",
+        "clinical_data": {
+          "diagnoses": [
+            {
+              "code": "C0007123",
+              "label": "Tumor",
+              "status": "active",
+              "onset_date": null
+            },
+            {
+              "code": "C0024117",
+              "label": "Lung tumor",
+              "status": "active",
+              "onset_date": null
+            },
+            {
+              "code": "C0009402",
+              "label": "Carcinoma, Squamous Cell",
+              "status": "active",
+              "onset_date": null
+            },
+            {
+              "code": "C0027051",
+              "label": "Metastatic Neoplasm",
+              "status": "active",
+              "onset_date": null
+            }
+          ],
+          "imaging": [
+            {
+              "type": "C0205085",
+              "body_part": "C0024132",
+              "modality": "X-ray",
+              "finding": "upper left lung tumour",
+              "impression": "upper left lung tumour",
+              "date": null
+            },
+            {
+              "type": "C0205085",
+              "body_part": "C0023344",
+              "modality": "PET",
+              "finding": "fluorodeoxyglucose (FDG) uptake in a 6-cm tumour shadow in the upper lobe of the left lung, metastatic tumours in the left lung and right adrenal gland, and a retroperitoneal tumour",
+              "impression": "fluorodeoxyglucose (FDG) uptake in a 6-cm tumour shadow in the upper lobe of the left lung, metastatic tumours in the left lung and right adrenal gland, and a retroperitoneal tumour",
+              "date": null
+            }
+          ],
+          "social_history": [
+            {
+              "category": "smoking",
+              "status": "past",
+              "description": "30 pack-year smoking history"
+            }
+          ],
+          "labs": [
+            {
+              "test": "Squamous Cell Carcinoma Antigen",
+              "value": "2.2",
+              "unit": "ng/mL",
+              "flag": "abnormal",
+              "reference_range": "0\u20131.5\u2009ng/mL",
+              "timestamp": null
+            },
+            {
+              "test": "Salyl Lewis X\u2010i",
+              "value": "42.3",
+              "unit": "ng/mL",
+              "flag": "abnormal",
+              "reference_range": "0\u201338.0\u2009ng/mL",
+              "timestamp": null
+            }
+          ],
+          "functional_status": [
+            {
+              "domain": "general",
+              "description": "Eastern Cooperative Oncology Group performance status score was 0",
+              "score": "0",
+              "scale": "Eastern Cooperative Oncology Group"
+            }
+          ]
+        }
+      }
+    },
+    {
+      "id": "N2",
+      "label": "Step 2",
+      "customData": {
+        "node_id": "B",
+        "node_step_index": 1,
+        "content": "Patient underwent wedge resection of the left upper lung with the tumour shadow and was diagnosed with T4N0M1c stage IVB primary NSCLC\u2010NOS. Immunohistochemistry was negative for thyroid transcription factor 1 (TTF\u20101), napsin A, p40, chromogranin A, synaptophysin, and CD56 staining. Lung tumours showed a tumour proportion score (TPS) of 50\u201360% for programmed cell death ligand 1 (PD\u2010L1) (22C3) and no expression of epidermal growth factor receptor (EGFR) mutations and anaplastic lymphoma kinase (ALK) rearrangements. Blood testing on admission showed leucocytosis (48,800/\u03bcL) and neutrophilia (43,600/\u03bcL) with abnormally high expression of serum G\u2010CSF (502.2\u2009pg/mL, normal range: <39.0\u2009pg/mL). Patient was diagnosed with advanced G\u2010CSF\u2010producing NSCLC\u2010NOS that was compatible with diffuse uptake of FDG into the bone marrow owing to G\u2010CSF\u2010producing carcinoma.",
+        "clinical_data": {
+          "procedures": [
+            {
+              "name": "Wedge resection",
+              "approach": "open",
+              "date": null,
+              "location": "left upper lung",
+              "performed_by": null,
+              "outcome": null
+            }
+          ],
+          "diagnoses": [
+            {
+              "code": null,
+              "label": "T4N0M1c stage IVB primary NSCLC\u2010NOS",
+              "status": "active",
+              "onset_date": null
+            },
+            {
+              "code": null,
+              "label": "advanced G\u2010CSF\u2010producing NSCLC\u2010NOS",
+              "status": "active",
+              "onset_date": null
+            }
+          ],
+          "labs": [
+            {
+              "test": "Leukocytes",
+              "value": "48800",
+              "unit": "/\u03bcL",
+              "flag": "abnormal",
+              "reference_range": null,
+              "timestamp": null
+            },
+            {
+              "test": "Neutrophils",
+              "value": "43600",
+              "unit": "/\u03bcL",
+              "flag": "abnormal",
+              "reference_range": null,
+              "timestamp": null
+            },
+            {
+              "test": "G-CSF",
+              "value": "502.2",
+              "unit": "pg/mL",
+              "flag": "abnormal",
+              "reference_range": "<39.0\u2009pg/mL",
+              "timestamp": null
+            }
+          ],
+          "imaging": [
+            {
+              "type": "FDG PET",
+              "body_part": "bone marrow",
+              "modality": "PET",
+              "finding": "diffuse uptake",
+              "impression": "compatible with G\u2010CSF\u2010producing carcinoma",
+              "date": null
+            }
+          ]
+        }
+      }
+    },
+    {
+      "id": "N3",
+      "label": "Step 3",
+      "customData": {
+        "node_id": "C",
+        "node_step_index": 2,
+        "content": "Treatment with anti\u2010programmed cell death 1 (PD\u20101) antibody pembrolizumab (200\u2009mg/body) was started and repeated every three weeks. After seven courses of pembrolizumab, patient developed grade 3 type 1 diabetes, and pembrolizumab treatment was discontinued.",
+        "clinical_data": {
+          "medications": [
+            {
+              "drug": "C1661220",
+              "dosage": "200 mg/body",
+              "frequency": "every three weeks",
+              "modality": "IV",
+              "start_date": null,
+              "end_date": null,
+              "indication": null
+            }
+          ],
+          "diagnoses": [
+            {
+              "code": "C1522403",
+              "label": "Type 1 Diabetes Mellitus",
+              "status": "active",
+              "onset_date": null
+            }
+          ]
+        }
+      }
+    },
+    {
+      "id": "N4",
+      "label": "Step 4",
+      "customData": {
+        "node_id": "D",
+        "clinical_data": {}
+      }
+    }
+  ],
+  "edges": [
+    {
+      "from": "N1",
+      "to": "N2",
+      "data": {
+        "edge_id": "A_to_B",
+        "branch_flag": true,
+        "content": "Patient underwent wedge resection of the left upper lung with the tumour shadow and was diagnosed with T4N0M1c stage IVB primary NSCLC\u2010NOS. Immunohistochemistry was negative for thyroid transcription factor 1 (TTF\u20101), napsin A, p40, chromogranin A, synaptophysin, and CD56 staining. Lung tumours showed a tumour proportion score (TPS) of 50\u201360% for programmed cell death ligand 1 (PD\u2010L1) (22C3) and no expression of epidermal growth factor receptor (EGFR) mutations and anaplastic lymphoma kinase (ALK) rearrangements. Blood testing on admission showed leucocytosis (48,800/\u03bcL) and neutrophilia (43,600/\u03bcL) with abnormally high expression of serum G\u2010CSF (502.2\u2009pg/mL, normal range: <39.0\u2009pg/mL). Patient was diagnosed with advanced G\u2010CSF\u2010producing NSCLC\u2010NOS that was compatible with diffuse uptake of FDG into the bone marrow owing to G\u2010CSF\u2010producing carcinoma.",
+        "transition_event": {
+          "trigger_type": "procedure",
+          "trigger_entities": [
+            "C0042070"
+          ],
+          "change_type": "addition",
+          "target_domain": "diagnosis"
+        }
+      }
+    },
+    {
+      "from": "N2",
+      "to": "N3",
+      "data": {
+        "edge_id": "B_to_C",
+        "branch_flag": true,
+        "content": "Treatment with anti\u2010programmed cell death 1 (PD\u20101) antibody pembrolizumab (200\u2009mg/body) was started and repeated every three weeks. After seven courses of pembrolizumab, patient developed grade 3 type 1 diabetes, and pembrolizumab treatment was discontinued.",
+        "transition_event": {
+          "trigger_type": "medication_change",
+          "trigger_entities": [
+            "C1661220"
+          ],
+          "change_type": "addition",
+          "target_domain": "medication"
+        }
+      }
+    },
+    {
+      "from": "N3",
+      "to": "N4",
+      "data": {
+        "edge_id": "C_to_D",
+        "branch_flag": true,
+        "content": "Patient developed grade 3 type 1 diabetes, and pembrolizumab treatment was discontinued.",
+        "transition_event": {
+          "trigger_type": "medication_change",
+          "trigger_entities": [
+            "C1661220",
+            "C1522403"
+          ],
+          "change_type": "discontinuation",
+          "target_domain": "medication"
+        }
+      }
+    }
+  ]
+}

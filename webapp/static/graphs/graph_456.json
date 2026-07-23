@@ -1,0 +1,580 @@
+{
+  "nodes": [
+    {
+      "id": "N1",
+      "label": "Step 1",
+      "customData": {
+        "node_id": "A",
+        "node_step_index": 0,
+        "content": "January 2016: 26-year-old Caucasian woman admitted to the Medical Oncology Department due to a suspicious lung mass in the left lower lobe with bilateral lung lesions on a contrast-enhanced CT scan. The patient experienced low abundance hemoptysis and cervical lymphadenopathy. Patient is a former light smoker (11 pack-years) and had no significant disease history reported.",
+        "clinical_data": {
+          "diagnoses": [
+            {
+              "code": "C34",
+              "label": "Malignant neoplasm of bronchus and lung",
+              "status": "suspected",
+              "onset_date": "2016-01"
+            }
+          ],
+          "imaging": [
+            {
+              "type": "Lung mass",
+              "body_part": "Lung",
+              "modality": "CT",
+              "finding": "suspicious lung mass in the left lower lobe with bilateral lung lesions",
+              "impression": "suspicious lung mass in the left lower lobe with bilateral lung lesions",
+              "date": "2016-01"
+            }
+          ],
+          "HPI": [
+            {
+              "summary": "26-year-old Caucasian woman admitted due to a suspicious lung mass in the left lower lobe with bilateral lung lesions on a contrast-enhanced CT scan. The patient experienced low abundance hemoptysis and cervical lymphadenopathy.",
+              "onset": "2016-01",
+              "progression": "unknown",
+              "associated_symptoms": [
+                "Hemoptysis",
+                "Cervical lymphadenopathy"
+              ]
+            }
+          ],
+          "social_history": [
+            {
+              "category": "smoking",
+              "status": "past",
+              "description": "former light smoker (11 pack-years)"
+            }
+          ]
+        }
+      }
+    },
+    {
+      "id": "N2",
+      "label": "Step 2",
+      "customData": {
+        "node_id": "B",
+        "node_step_index": 1,
+        "content": "Cervical lymph node biopsy: Cell morphology consistent with lung adenocarcinoma, and tumor cells positive for thyroid transcription factor-1 (TTF-1).",
+        "clinical_data": {
+          "procedures": [
+            {
+              "name": "Biopsy of cervical lymph node",
+              "approach": "percutaneous",
+              "location": "Cervical lymph node"
+            }
+          ],
+          "labs": [
+            {
+              "test": "Thyroid transcription factor-1 (TTF-1)",
+              "value": "positive",
+              "flag": "abnormal"
+            }
+          ],
+          "diagnoses": [
+            {
+              "code": "C4411",
+              "label": "Lung adenocarcinoma",
+              "status": "active"
+            }
+          ]
+        }
+      }
+    },
+    {
+      "id": "N3",
+      "label": "Step 3",
+      "customData": {
+        "node_id": "C",
+        "node_step_index": 2,
+        "content": "Metastatic lung adenocarcinoma (cT3N3M1a, stage IV A). Molecular analysis by next-generation sequencing (NGS) of DNA (Tumor Hot Spot MASTR Plus, Multiplicom) of the cervical lymph node biopsy showed 2 mutations in EGFR exon 18: p. G719A (C.2156G>T) and p. E709A (C 2126A>C). Immunohistochemistry: MET hyperexpression (3+), without MET amplification. Fluorescence in situ hybridization (FISH): c-MET/chromosome 7 ratio = 2.62. No other molecular alterations were found.",
+        "clinical_data": {
+          "diagnoses": [
+            {
+              "code": "C34.9",
+              "label": "Lung cancer, unspecified",
+              "status": "active"
+            },
+            {
+              "code": "C77",
+              "label": "Secondary and unspecified malignant neoplasm of lymph node",
+              "status": "active"
+            },
+            {
+              "code": "C34",
+              "label": "Malignant neoplasm of bronchus and lung",
+              "status": "active"
+            }
+          ],
+          "labs": [
+            {
+              "test": "Next Generation Sequencing",
+              "value": "EGFR exon 18: p. G719A (C.2156G>T) and p. E709A (C 2126A>C)",
+              "unit": "mutation",
+              "flag": "abnormal"
+            },
+            {
+              "test": "Immunohistochemistry",
+              "value": "MET hyperexpression (3+)",
+              "flag": "abnormal"
+            },
+            {
+              "test": "Fluorescence in situ hybridization (FISH)",
+              "value": "2.62",
+              "unit": "c-MET/chromosome 7 ratio",
+              "flag": "abnormal"
+            }
+          ]
+        }
+      }
+    },
+    {
+      "id": "N4",
+      "label": "Step 4",
+      "customData": {
+        "node_id": "D",
+        "node_step_index": 4,
+        "content": "Afatinib (40 mg daily) was started as first-line treatment.",
+        "clinical_data": {
+          "medications": [
+            {
+              "drug": "Afatinib",
+              "dosage": "40 mg",
+              "frequency": "daily",
+              "modality": "oral",
+              "start_date": null,
+              "end_date": null,
+              "indication": "first-line treatment"
+            }
+          ]
+        }
+      }
+    },
+    {
+      "id": "N5",
+      "label": "Step 5",
+      "customData": {
+        "node_id": "E",
+        "node_step_index": 5,
+        "content": "2 months after Afatinib initiation: CT showed a partial response (-75%). Clinical improvement noted. Grade 2 skin rash (CTCAE v5.0) developed, relieved by doxycycline.",
+        "clinical_data": {
+          "imaging": [
+            {
+              "type": "CT scan",
+              "body_part": "chest",
+              "modality": "CT",
+              "finding": "partial response (-75%)",
+              "date": null
+            }
+          ],
+          "medications": [
+            {
+              "drug": "Afatinib",
+              "start_date": null,
+              "end_date": null
+            }
+          ],
+          "diagnoses": [
+            {
+              "code": "CTCAE v5.0",
+              "label": "Grade 2 skin rash",
+              "status": "active",
+              "onset_date": null
+            }
+          ]
+        }
+      }
+    },
+    {
+      "id": "N6",
+      "label": "Step 6",
+      "customData": {
+        "node_id": "F",
+        "node_step_index": 6,
+        "content": "Clinical and morphological response to Afatinib confirmed for 13 months.",
+        "clinical_data": {
+          "medications": [
+            {
+              "drug": "C1031195",
+              "indication": "Neoplasm"
+            }
+          ]
+        }
+      }
+    },
+    {
+      "id": "N7",
+      "label": "Step 7",
+      "customData": {
+        "node_id": "G",
+        "node_step_index": 7,
+        "content": "June 2017: Asymptomatic progression on lung lesions and mediastinal lymph node. NGS of circulating DNA (Kit Oncomine Focus Assay) and targeted rebiopsy: No resistance mutations, especially T790M.",
+        "clinical_data": {
+          "imaging": [
+            {
+              "body_part": "Mediastinal Lymph Node",
+              "finding": "Asymptomatic progression on lung lesions and mediastinal lymph node",
+              "date": "2017-06"
+            }
+          ],
+          "labs": [
+            {
+              "test": "NGS of circulating DNA (Kit Oncomine Focus Assay)",
+              "value": "No resistance mutations, especially T790M",
+              "timestamp": "2017-06"
+            }
+          ]
+        }
+      }
+    },
+    {
+      "id": "N8",
+      "label": "Step 8",
+      "customData": {
+        "node_id": "H",
+        "node_step_index": 9,
+        "content": "Cisplatin-pemetrexed prescribed (progression-free survival (PFS), 15 months).",
+        "clinical_data": {
+          "medications": [
+            {
+              "drug": "C0008677",
+              "dosage": null,
+              "frequency": null,
+              "modality": null,
+              "start_date": null,
+              "end_date": null,
+              "indication": null
+            },
+            {
+              "drug": "C1239842",
+              "dosage": null,
+              "frequency": null,
+              "modality": null,
+              "start_date": null,
+              "end_date": null,
+              "indication": null
+            }
+          ]
+        }
+      }
+    },
+    {
+      "id": "N9",
+      "label": "Step 9",
+      "customData": {
+        "node_id": "I",
+        "node_step_index": 10,
+        "content": "Carboplatin-pemetrexed prescribed (PFS, 6 months).",
+        "clinical_data": {
+          "medications": [
+            {
+              "drug": "Carboplatin",
+              "dosage": null,
+              "frequency": null,
+              "modality": null,
+              "start_date": null,
+              "end_date": null,
+              "indication": null
+            },
+            {
+              "drug": "Pemetrexed",
+              "dosage": null,
+              "frequency": null,
+              "modality": null,
+              "start_date": null,
+              "end_date": null,
+              "indication": null
+            }
+          ]
+        }
+      }
+    },
+    {
+      "id": "N10",
+      "label": "Step 10",
+      "customData": {
+        "node_id": "J",
+        "node_step_index": 11,
+        "content": "Chest CT showing a lung mass in the left lower lobe at baseline.",
+        "clinical_data": {
+          "imaging": [
+            {
+              "type": "Lung mass",
+              "body_part": "Left lower lobe",
+              "modality": "CT",
+              "finding": "Lung mass in the left lower lobe",
+              "date": null
+            }
+          ]
+        }
+      }
+    },
+    {
+      "id": "N11",
+      "label": "Step 11",
+      "customData": {
+        "node_id": "K",
+        "node_step_index": 12,
+        "content": "Afatinib resulted in a partial response.",
+        "clinical_data": {
+          "medications": [
+            {
+              "drug": "C1776487",
+              "indication": "Partial response"
+            }
+          ]
+        }
+      }
+    },
+    {
+      "id": "N12",
+      "label": "Step 12",
+      "customData": {
+        "node_id": "L",
+        "node_step_index": 13,
+        "content": "Chest CT before osimertinib initiation: Stable disease as best response.",
+        "clinical_data": {
+          "imaging": [
+            {
+              "type": "Computed tomography of chest",
+              "body_part": "Chest",
+              "modality": "CT",
+              "finding": "Stable disease",
+              "impression": "Stable disease as best response",
+              "date": null
+            }
+          ],
+          "medications": [
+            {
+              "drug": "Osimertinib",
+              "dosage": null,
+              "frequency": null,
+              "modality": null,
+              "start_date": null,
+              "end_date": null,
+              "indication": null
+            }
+          ]
+        }
+      }
+    },
+    {
+      "id": "N13",
+      "label": "Step 13",
+      "customData": {
+        "node_id": "M",
+        "node_step_index": 14,
+        "content": "Baseline chest CT and contrast-enhanced liver CT before neratinib.",
+        "clinical_data": {
+          "imaging": [
+            {
+              "type": "CT of chest",
+              "body_part": "chest",
+              "modality": "CT",
+              "date": null
+            },
+            {
+              "type": "Contrast-enhanced CT of liver",
+              "body_part": "liver",
+              "modality": "CT",
+              "date": null
+            }
+          ]
+        }
+      }
+    },
+    {
+      "id": "N14",
+      "label": "Step 14",
+      "customData": {
+        "node_id": "N",
+        "node_step_index": 15,
+        "content": "1 month after neratinib initiation: Early assessment showed a partial response of all lung lesions and liver lesions (a target lesion, 29.8 vs. 18.4 mm, in the longest axis).",
+        "clinical_data": {
+          "imaging": [
+            {
+              "type": "Lung lesion",
+              "body_part": "Lung",
+              "modality": "CT",
+              "finding": "Partial response",
+              "date": null
+            },
+            {
+              "type": "Liver lesion",
+              "body_part": "Liver",
+              "modality": "CT",
+              "finding": "Partial response",
+              "date": null
+            }
+          ],
+          "medications": [
+            {
+              "drug": "Neratinib",
+              "start_date": null,
+              "end_date": null
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "edges": [
+    {
+      "from": "N1",
+      "to": "N2",
+      "data": {
+        "edge_id": "A_to_B",
+        "branch_flag": true,
+        "content": "Cervical lymph node biopsy performed to investigate the suspicious lung mass and lymphadenopathy."
+      }
+    },
+    {
+      "from": "N2",
+      "to": "N3",
+      "data": {
+        "edge_id": "B_to_C",
+        "branch_flag": true,
+        "content": "Further molecular analysis performed on cervical lymph node biopsy to characterize the lung adenocarcinoma."
+      }
+    },
+    {
+      "from": "N3",
+      "to": "N4",
+      "data": {
+        "edge_id": "C_to_D",
+        "branch_flag": true,
+        "content": "Afatinib initiated as first-line treatment based on EGFR mutations.",
+        "transition_event": {
+          "trigger_type": "medication_change",
+          "trigger_entities": [
+            "C0001627"
+          ],
+          "change_type": "addition",
+          "target_domain": "medication"
+        }
+      }
+    },
+    {
+      "from": "N4",
+      "to": "N5",
+      "data": {
+        "edge_id": "D_to_E",
+        "branch_flag": true,
+        "content": "Patient experienced partial response to Afatinib, but developed grade 2 skin rash.",
+        "transition_event": {
+          "trigger_type": "symptom_onset",
+          "trigger_entities": [
+            "C0037333"
+          ],
+          "change_type": "addition",
+          "target_domain": "symptom"
+        }
+      }
+    },
+    {
+      "from": "N5",
+      "to": "N6",
+      "data": {
+        "edge_id": "E_to_F",
+        "branch_flag": true,
+        "content": "Clinical and morphological response to Afatinib confirmed."
+      }
+    },
+    {
+      "from": "N6",
+      "to": "N7",
+      "data": {
+        "edge_id": "F_to_G",
+        "branch_flag": true,
+        "content": "Asymptomatic progression on lung lesions and mediastinal lymph node. NGS of circulating DNA showed no resistance mutations.",
+        "transition_event": {
+          "trigger_type": "progression",
+          "trigger_entities": [
+            "C0006826"
+          ],
+          "change_type": "progression",
+          "target_domain": "diagnosis",
+          "timestamp": "2017-06"
+        }
+      }
+    },
+    {
+      "from": "N7",
+      "to": "N8",
+      "data": {
+        "edge_id": "G_to_H",
+        "branch_flag": true,
+        "content": "Cisplatin-pemetrexed prescribed following disease progression.",
+        "transition_event": {
+          "trigger_type": "medication_change",
+          "trigger_entities": [
+            "C0008677",
+            "C1239842"
+          ],
+          "change_type": "addition",
+          "target_domain": "medication"
+        }
+      }
+    },
+    {
+      "from": "N8",
+      "to": "N9",
+      "data": {
+        "edge_id": "H_to_I",
+        "branch_flag": true,
+        "content": "Carboplatin-pemetrexed prescribed.",
+        "transition_event": {
+          "trigger_type": "medication_change",
+          "trigger_entities": [
+            "C0287727",
+            "C1239842"
+          ],
+          "change_type": "addition",
+          "target_domain": "medication"
+        }
+      }
+    },
+    {
+      "from": "N9",
+      "to": "N10",
+      "data": {
+        "edge_id": "I_to_J",
+        "branch_flag": true,
+        "content": "Chest CT showing a lung mass in the left lower lobe at baseline."
+      }
+    },
+    {
+      "from": "N10",
+      "to": "N11",
+      "data": {
+        "edge_id": "J_to_K",
+        "branch_flag": true,
+        "content": "Afatinib resulted in a partial response."
+      }
+    },
+    {
+      "from": "N11",
+      "to": "N12",
+      "data": {
+        "edge_id": "K_to_L",
+        "branch_flag": true,
+        "content": "Chest CT before osimertinib initiation: Stable disease as best response."
+      }
+    },
+    {
+      "from": "N12",
+      "to": "N13",
+      "data": {
+        "edge_id": "L_to_M",
+        "branch_flag": true,
+        "content": "Baseline chest CT and contrast-enhanced liver CT before neratinib."
+      }
+    },
+    {
+      "from": "N13",
+      "to": "N14",
+      "data": {
+        "edge_id": "M_to_N",
+        "branch_flag": ""
+      }
+    }
+  ]
+}

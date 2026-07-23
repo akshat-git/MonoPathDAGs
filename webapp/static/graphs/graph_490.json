@@ -1,0 +1,543 @@
+{
+  "nodes": [
+    {
+      "id": "N1",
+      "label": "Step 1",
+      "customData": {
+        "node_id": "A",
+        "node_step_index": 0,
+        "content": "60-year-old male presented with a one-month history of moderate intensity low back pain. He also experienced altered sensorium and decreased response one day prior to admission. The patient reports unintentional weight loss of 8 kg and loss of appetite in the previous 2 months. He is a regular alcohol consumer and smoker for the last 30 years, with his last drink 5 days prior to the onset of symptoms.",
+        "clinical_data": {
+          "HPI": [
+            {
+              "summary": "One-month history of moderate intensity low back pain, altered sensorium, and decreased response one day prior to admission.",
+              "duration": "1 month",
+              "onset": null,
+              "progression": "unknown",
+              "associated_symptoms": [
+                "C0043095",
+                "C0234172"
+              ]
+            }
+          ],
+          "social_history": [
+            {
+              "category": "alcohol",
+              "status": "current",
+              "description": "Regular alcohol consumer for the last 30 years, with his last drink 5 days prior to the onset of symptoms."
+            },
+            {
+              "category": "smoking",
+              "status": "current",
+              "description": "Smoker for the last 30 years"
+            }
+          ],
+          "diagnoses": [
+            {
+              "code": "R63.4",
+              "label": "Abnormal weight loss",
+              "status": "active",
+              "onset_date": null
+            },
+            {
+              "code": "R63.0",
+              "label": "Anorexia",
+              "status": "active",
+              "onset_date": null
+            }
+          ]
+        }
+      }
+    },
+    {
+      "id": "N2",
+      "label": "Step 2",
+      "customData": {
+        "node_id": "B",
+        "node_step_index": 1,
+        "content": "Patient denies high-risk behavior and fever. No history of systemic hypertension or diabetes mellitus. Glasgow Coma Scale 8/15 (E2, V2, M4). Severe pallor, grade 3 clubbing, heart rate 100 bpm, temperature 37.4\u00b0C, blood pressure 120/80 mmHg.",
+        "clinical_data": {
+          "vitals": [
+            {
+              "type": "Heart Rate",
+              "value": "100",
+              "unit": "bpm"
+            },
+            {
+              "type": "Body Temperature",
+              "value": "37.4",
+              "unit": "\u00b0C"
+            },
+            {
+              "type": "Blood Pressure",
+              "value": "120/80",
+              "unit": "mmHg"
+            }
+          ],
+          "mental_status": [
+            {
+              "domain": "consciousness",
+              "finding": "Glasgow Coma Scale 8/15 (E2, V2, M4)"
+            }
+          ],
+          "diagnoses": [
+            {
+              "code": "59621000",
+              "label": "Systemic arterial hypertension",
+              "status": "historical"
+            },
+            {
+              "code": "73211009",
+              "label": "Diabetes mellitus",
+              "status": "historical"
+            }
+          ],
+          "social_history": [
+            {
+              "category": "high-risk behavior",
+              "status": "never"
+            }
+          ],
+          "HPI": [
+            {
+              "summary": "Patient denies fever."
+            }
+          ]
+        }
+      }
+    },
+    {
+      "id": "N3",
+      "label": "Step 3",
+      "customData": {
+        "node_id": "C",
+        "node_step_index": 2,
+        "content": "Lab results: Hemoglobin 7.8 g/dL (normocytic and normochromic), leukocyte count 18,000/mL (88% neutrophils, 10% lymphocytes, 2% monocytes), platelet count 220,000/\u00b5L, erythrocyte sedimentation rate 32 mm/hr, serum alkaline phosphatase 399 IU/L, serum calcium 14.0 mg/dL (serum albumin 3.8 g/dL), phosphorus 4.6 mg/dL, intact parathormone 7.9 pg/mL. Peripheral smear showed leukoerythroblastic blood picture. Chest X-ray and electrocardiogram were normal.",
+        "clinical_data": {
+          "labs": [
+            {
+              "test": "Hemoglobin",
+              "value": "7.8",
+              "unit": "g/dL",
+              "flag": "abnormal"
+            },
+            {
+              "test": "Leukocyte Count",
+              "value": "18000",
+              "unit": "/mL",
+              "flag": "abnormal"
+            },
+            {
+              "test": "Neutrophils",
+              "value": "88",
+              "unit": "%"
+            },
+            {
+              "test": "Lymphocytes",
+              "value": "10",
+              "unit": "%"
+            },
+            {
+              "test": "Monocytes",
+              "value": "2",
+              "unit": "%"
+            },
+            {
+              "test": "Erythrocyte Sedimentation Rate",
+              "value": "32",
+              "unit": "mm/hr",
+              "flag": "abnormal"
+            },
+            {
+              "test": "Serum Alkaline Phosphatase",
+              "value": "399",
+              "unit": "IU/L",
+              "flag": "abnormal"
+            },
+            {
+              "test": "Serum Calcium",
+              "value": "14.0",
+              "unit": "mg/dL",
+              "flag": "abnormal"
+            },
+            {
+              "test": "Serum Albumin",
+              "value": "3.8",
+              "unit": "g/dL"
+            },
+            {
+              "test": "Phosphorus",
+              "value": "4.6",
+              "unit": "mg/dL"
+            },
+            {
+              "test": "Intact Parathormone",
+              "value": "7.9",
+              "unit": "pg/mL"
+            },
+            {
+              "test": "Platelet count",
+              "value": "220000",
+              "unit": "\u00b5L"
+            }
+          ],
+          "imaging": [
+            {
+              "type": "Chest X-ray",
+              "modality": "X-ray",
+              "finding": "normal"
+            }
+          ]
+        }
+      }
+    },
+    {
+      "id": "N4",
+      "label": "Step 4",
+      "customData": {
+        "node_id": "D",
+        "node_step_index": 3,
+        "content": "HIV, hepatitis B, and hepatitis C serologies were negative. MRI of the brain showed multifocal lesions in bilateral parieto-occipital subcortical white matter and cerebellum.",
+        "clinical_data": {
+          "labs": [
+            {
+              "test": "Human immunodeficiency virus",
+              "value": "negative"
+            },
+            {
+              "test": "Hepatitis B virus",
+              "value": "negative"
+            },
+            {
+              "test": "Hepatitis C virus",
+              "value": "negative"
+            }
+          ],
+          "imaging": [
+            {
+              "type": "MRI of brain",
+              "body_part": "brain",
+              "modality": "MRI",
+              "finding": "multifocal lesions in bilateral parieto-occipital subcortical white matter and cerebellum"
+            }
+          ]
+        }
+      }
+    },
+    {
+      "id": "N5",
+      "label": "Step 5",
+      "customData": {
+        "node_id": "E",
+        "node_step_index": 4,
+        "content": "Brain MRI: Multifocal lesions in bilateral parieto-occipital subcortical white matter and cerebellum. Lesions were hypointense on T1-weighted images, hyperintense on T2-weighted and fluid-attenuated inversion recovery without any diffusion restriction and contrast enhancement and apparent diffusion coefficient maps were hyperintense suggesting PRES.",
+        "clinical_data": {
+          "imaging": [
+            {
+              "type": "Brain MRI",
+              "body_part": "Brain",
+              "modality": "MRI",
+              "finding": "Multifocal lesions in bilateral parieto-occipital subcortical white matter and cerebellum. Lesions were hypointense on T1-weighted images, hyperintense on T2-weighted and fluid-attenuated inversion recovery without any diffusion restriction and contrast enhancement and apparent diffusion coefficient maps were hyperintense suggesting PRES.",
+              "impression": "PRES"
+            }
+          ]
+        }
+      }
+    },
+    {
+      "id": "N6",
+      "label": "Step 6",
+      "customData": {
+        "node_id": "F",
+        "node_step_index": 5,
+        "content": "Cerebrospinal fluid analysis was normal.",
+        "clinical_data": {
+          "labs": [
+            {
+              "test": "Cerebrospinal fluid analysis",
+              "value": "normal"
+            }
+          ]
+        }
+      }
+    },
+    {
+      "id": "N7",
+      "label": "Step 7",
+      "customData": {
+        "node_id": "G",
+        "node_step_index": 6,
+        "content": "Skeletal survey showed osteolytic bone metastases in the skull, thoracic and lumbar spine, and pelvis.",
+        "clinical_data": {
+          "imaging": [
+            {
+              "type": "Skeletal survey",
+              "body_part": "skull",
+              "modality": "X-ray",
+              "finding": "osteolytic bone metastases",
+              "date": null
+            },
+            {
+              "type": "Skeletal survey",
+              "body_part": "thoracic spine",
+              "modality": "X-ray",
+              "finding": "osteolytic bone metastases",
+              "date": null
+            },
+            {
+              "type": "Skeletal survey",
+              "body_part": "lumbar spine",
+              "modality": "X-ray",
+              "finding": "osteolytic bone metastases",
+              "date": null
+            },
+            {
+              "type": "Skeletal survey",
+              "body_part": "pelvis",
+              "modality": "X-ray",
+              "finding": "osteolytic bone metastases",
+              "date": null
+            }
+          ]
+        }
+      }
+    },
+    {
+      "id": "N8",
+      "label": "Step 8",
+      "customData": {
+        "node_id": "H",
+        "node_step_index": 7,
+        "content": "Bone marrow aspiration and trephine biopsy showed metastatic deposits from adenocarcinoma of the lung.",
+        "clinical_data": {
+          "procedures": [
+            {
+              "name": "Bone marrow aspiration",
+              "approach": "percutaneous",
+              "location": "bone marrow",
+              "outcome": "positive for metastatic deposits from adenocarcinoma of the lung"
+            },
+            {
+              "name": "Trephine biopsy",
+              "approach": "percutaneous",
+              "location": "bone marrow",
+              "outcome": "positive for metastatic deposits from adenocarcinoma of the lung"
+            }
+          ],
+          "diagnoses": [
+            {
+              "code": "C0007097",
+              "label": "Adenocarcinoma of lung",
+              "status": "active",
+              "onset_date": null
+            },
+            {
+              "code": "C0027651",
+              "label": "Neoplasm Metastasis",
+              "status": "active",
+              "onset_date": null
+            }
+          ]
+        }
+      }
+    },
+    {
+      "id": "N9",
+      "label": "Step 9",
+      "customData": {
+        "node_id": "I",
+        "node_step_index": 8,
+        "content": "Patient was treated with intravenous fluids (normal saline), steroids, furosemide, and zoledronic acid.",
+        "clinical_data": {
+          "medications": [
+            {
+              "drug": "C0027703",
+              "dosage": null,
+              "frequency": null,
+              "modality": "IV",
+              "start_date": null,
+              "end_date": null,
+              "indication": null
+            },
+            {
+              "drug": "C0038961",
+              "dosage": null,
+              "frequency": null,
+              "modality": "IV",
+              "start_date": null,
+              "end_date": null,
+              "indication": null
+            },
+            {
+              "drug": "C0016522",
+              "dosage": null,
+              "frequency": null,
+              "modality": "IV",
+              "start_date": null,
+              "end_date": null,
+              "indication": null
+            },
+            {
+              "drug": "C0876172",
+              "dosage": null,
+              "frequency": null,
+              "modality": "IV",
+              "start_date": null,
+              "end_date": null,
+              "indication": null
+            }
+          ]
+        }
+      }
+    },
+    {
+      "id": "N10",
+      "label": "Step 10",
+      "customData": {
+        "node_id": "J",
+        "node_step_index": 9,
+        "content": "Serum calcium level became normal after two weeks and the patient was conscious.",
+        "clinical_data": {
+          "labs": [
+            {
+              "test": "Calcium serum",
+              "value": "normal",
+              "unit": null,
+              "flag": "normal",
+              "reference_range": null,
+              "timestamp": null
+            }
+          ]
+        }
+      }
+    },
+    {
+      "id": "N11",
+      "label": "Step 11",
+      "customData": {
+        "node_id": "K",
+        "node_step_index": 10,
+        "content": "Patient was initiated on palliative chemotherapy.",
+        "clinical_data": {
+          "procedures": [
+            {
+              "name": "Chemotherapy",
+              "approach": null,
+              "date": null,
+              "location": null,
+              "performed_by": null,
+              "outcome": null
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "edges": [
+    {
+      "from": "N1",
+      "to": "N2",
+      "data": {
+        "edge_id": "A_to_B",
+        "branch_flag": true,
+        "content": "Transition from initial presentation to physical exam and further history taking. Patient denies fever and high-risk behavior. Glasgow Coma Scale 8/15 (E2, V2, M4). Severe pallor, grade 3 clubbing, heart rate 100 bpm, temperature 37.4\u00b0C, blood pressure 120/80 mmHg."
+      }
+    },
+    {
+      "from": "N2",
+      "to": "N3",
+      "data": {
+        "edge_id": "B_to_C",
+        "branch_flag": true,
+        "content": "Transition from physical exam to lab results. Hemoglobin 7.8 g/dL (normocytic and normochromic), leukocyte count 18,000/mL (88% neutrophils, 10% lymphocytes, 2% monocytes), platelet count 220,000/\u00b5L, erythrocyte sedimentation rate 32 mm/hr, serum alkaline phosphatase 399 IU/L, serum calcium 14.0 mg/dL (serum albumin 3.8 g/dL), phosphorus 4.6 mg/dL, intact parathormone 7.9 pg/mL. Peripheral smear showed leukoerythroblastic blood picture. Chest X-ray and electrocardiogram were normal."
+      }
+    },
+    {
+      "from": "N3",
+      "to": "N4",
+      "data": {
+        "edge_id": "C_to_D",
+        "branch_flag": true,
+        "content": "Transition from initial lab results to further testing. HIV, hepatitis B, and hepatitis C serologies were negative. MRI of the brain showed multifocal lesions in bilateral parieto-occipital subcortical white matter and cerebellum."
+      }
+    },
+    {
+      "from": "N4",
+      "to": "N5",
+      "data": {
+        "edge_id": "D_to_E",
+        "branch_flag": true,
+        "content": "Brain MRI findings detailed. Multifocal lesions in bilateral parieto-occipital subcortical white matter and cerebellum. Lesions were hypointense on T1-weighted images, hyperintense on T2-weighted and fluid-attenuated inversion recovery without any diffusion restriction and contrast enhancement and apparent diffusion coefficient maps were hyperintense suggesting PRES."
+      }
+    },
+    {
+      "from": "N5",
+      "to": "N6",
+      "data": {
+        "edge_id": "E_to_F",
+        "branch_flag": true,
+        "content": "Transition from brain MRI to cerebrospinal fluid analysis. Cerebrospinal fluid analysis was normal."
+      }
+    },
+    {
+      "from": "N6",
+      "to": "N7",
+      "data": {
+        "edge_id": "F_to_G",
+        "branch_flag": true,
+        "content": "Transition from CSF analysis to skeletal survey. Skeletal survey showed osteolytic bone metastases in the skull, thoracic and lumbar spine, and pelvis."
+      }
+    },
+    {
+      "from": "N7",
+      "to": "N8",
+      "data": {
+        "edge_id": "G_to_H",
+        "branch_flag": true,
+        "content": "Transition from skeletal survey to bone marrow biopsy. Bone marrow aspiration and trephine biopsy showed metastatic deposits from adenocarcinoma of the lung.",
+        "transition_event": {
+          "trigger_type": "procedure",
+          "trigger_entities": [
+            "C0005932",
+            "C0005928"
+          ],
+          "change_type": "addition",
+          "target_domain": "diagnosis"
+        }
+      }
+    },
+    {
+      "from": "N8",
+      "to": "N9",
+      "data": {
+        "edge_id": "H_to_I",
+        "branch_flag": true,
+        "content": "Transition from diagnosis to treatment. Patient was treated with intravenous fluids (normal saline), steroids, furosemide, and zoledronic acid.",
+        "transition_event": {
+          "trigger_type": "medication_change",
+          "trigger_entities": [
+            "C0027703",
+            "C0038961",
+            "C0016522",
+            "C0876172"
+          ],
+          "change_type": "addition",
+          "target_domain": "medication"
+        }
+      }
+    },
+    {
+      "from": "N9",
+      "to": "N10",
+      "data": {
+        "edge_id": "I_to_J",
+        "branch_flag": true,
+        "content": "Transition from treatment to improved condition. Serum calcium level became normal after two weeks and the patient was conscious.",
+        "transition_event": {
+          "trigger_type": "lab_change",
+          "trigger_entities": ""
+        }
+      }
+    }
+  ]
+}

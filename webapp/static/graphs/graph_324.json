@@ -1,0 +1,287 @@
+{
+  "nodes": [
+    {
+      "id": "N1",
+      "label": "Step 1",
+      "customData": {
+        "node_id": "A",
+        "node_step_index": 0,
+        "content": "May 2020: 59-year-old female diagnosed with advanced NSCLC by pathological biopsy in Tianjin First Central Hospital (Tianjin, China).",
+        "clinical_data": {
+          "diagnoses": [
+            {
+              "code": "C0678222",
+              "label": "Non-Small Cell Lung Carcinoma",
+              "status": "active",
+              "onset_date": "2020-05"
+            }
+          ]
+        }
+      }
+    },
+    {
+      "id": "N2",
+      "label": "Step 2",
+      "customData": {
+        "node_id": "B",
+        "node_step_index": 1,
+        "content": "Patient has no prior history of diabetes and took statins for elevated blood lipids. Blood glucose was monitored and the level remained normal prior to starting immunotherapy.",
+        "clinical_data": {
+          "social_history": [
+            {
+              "category": "drug use",
+              "status": "never",
+              "description": "no prior history of diabetes"
+            }
+          ],
+          "medications": [
+            {
+              "drug": "statin",
+              "indication": "elevated blood lipids"
+            }
+          ],
+          "labs": [
+            {
+              "test": "Blood glucose",
+              "value": "normal",
+              "flag": "normal",
+              "timestamp": null
+            }
+          ]
+        }
+      }
+    },
+    {
+      "id": "N3",
+      "label": "Step 3",
+      "customData": {
+        "node_id": "C",
+        "node_step_index": 2,
+        "content": "Patient had Hashimoto's disease, with a high thyroid peroxidase autoantibody (TPOAb) titer of 35.2 \u00b5g/l. Patient did not take any drugs to treat Hashimoto's, as she had no related symptoms.",
+        "clinical_data": {
+          "diagnoses": [
+            {
+              "code": "C0018785",
+              "label": "Hashimoto's Disease",
+              "status": "active"
+            }
+          ],
+          "labs": [
+            {
+              "test": "Thyroid Peroxidase Antibodies",
+              "value": "35.2",
+              "unit": "\u00b5g/l",
+              "flag": "abnormal"
+            }
+          ]
+        }
+      }
+    },
+    {
+      "id": "N4",
+      "label": "Step 4",
+      "customData": {
+        "node_id": "D",
+        "node_step_index": 3,
+        "content": "Received five courses of carboplatin combined with pemetrexed chemotherapy. Fasting blood glucose (FBG) levels and thyroid function remained normal during chemotherapy.",
+        "clinical_data": {
+          "medications": [
+            {
+              "drug": "C0007146",
+              "dosage": null,
+              "frequency": null,
+              "modality": null,
+              "start_date": null,
+              "end_date": null,
+              "indication": null
+            },
+            {
+              "drug": "C0974234",
+              "dosage": null,
+              "frequency": null,
+              "modality": null,
+              "start_date": null,
+              "end_date": null,
+              "indication": null
+            }
+          ],
+          "labs": [
+            {
+              "test": "C0005767",
+              "value": "normal",
+              "unit": null,
+              "flag": "normal",
+              "reference_range": null,
+              "timestamp": null
+            },
+            {
+              "test": "C0040047",
+              "value": "normal",
+              "unit": null,
+              "flag": "normal",
+              "reference_range": null,
+              "timestamp": null
+            }
+          ]
+        }
+      }
+    },
+    {
+      "id": "N5",
+      "label": "Step 5",
+      "customData": {
+        "node_id": "E",
+        "node_step_index": 4,
+        "content": "Degree of PD-L1 expression in tumor samples was assessed after chemotherapy and roughly 50% of the tumor cells stained positively for PD-L1.",
+        "clinical_data": {
+          "labs": [
+            {
+              "test": "PD-L1 Expression, Tumor Cells",
+              "value": "50%",
+              "unit": "%",
+              "flag": "positive"
+            }
+          ]
+        }
+      }
+    },
+    {
+      "id": "N6",
+      "label": "Step 6",
+      "customData": {
+        "node_id": "F",
+        "node_step_index": 5,
+        "content": "Received pembrolizumab, 2 mg/kg every 3 weeks. After five courses of carboplatin combined with pemetrexed chemotherapy: BMI 21.5 kg/m2, Fasting blood glucose 4.4 mmol/l, 2-hour postprandial blood glucose 6.8 mmol/l, HbA1c 5.3 %, Thyroid-stimulating hormone 2.5 mIU/l, FT3 3.7 pmol/l, FT4 13.6 pmol/l, TPOAb 35.2 \u00b5g/l, TgAb 15.6 \u00b5g/l.",
+        "clinical_data": {
+          "medications": [
+            {
+              "drug": "C3888718",
+              "dosage": "2 mg/kg",
+              "frequency": "every 3 weeks",
+              "modality": "IV"
+            }
+          ],
+          "labs": [
+            {
+              "test": "C0005767",
+              "value": "4.4",
+              "unit": "mmol/l"
+            },
+            {
+              "test": "postprandial blood glucose",
+              "value": "6.8",
+              "unit": "mmol/l"
+            },
+            {
+              "test": "C0278247",
+              "value": "5.3",
+              "unit": "%"
+            },
+            {
+              "test": "C0040250",
+              "value": "2.5",
+              "unit": "mIU/l"
+            },
+            {
+              "test": "C0278253",
+              "value": "3.7",
+              "unit": "pmol/l"
+            },
+            {
+              "test": "C0278254",
+              "value": "13.6",
+              "unit": "pmol/l"
+            },
+            {
+              "test": "TPOAb",
+              "value": "35.2",
+              "unit": "\u00b5g/l"
+            },
+            {
+              "test": "TgAb",
+              "value": "15.6",
+              "unit": "\u00b5g/l"
+            }
+          ],
+          "vitals": [
+            {
+              "type": "C0005912",
+              "value": "21.5",
+              "unit": "kg/m2"
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "edges": [
+    {
+      "from": "N1",
+      "to": "N2",
+      "data": {
+        "edge_id": "A_to_B",
+        "branch_flag": true,
+        "content": "Initial patient characteristics and history prior to immunotherapy. Patient has no prior history of diabetes and took statins for elevated blood lipids. Blood glucose was monitored and the level remained normal prior to starting immunotherapy."
+      }
+    },
+    {
+      "from": "N2",
+      "to": "N3",
+      "data": {
+        "edge_id": "B_to_C",
+        "branch_flag": true,
+        "content": "Patient's pre-existing Hashimoto's disease, with a high thyroid peroxidase autoantibody (TPOAb) titer of 35.2 \u00b5g/l. Patient did not take any drugs to treat Hashimoto's, as she had no related symptoms."
+      }
+    },
+    {
+      "from": "N3",
+      "to": "N4",
+      "data": {
+        "edge_id": "C_to_D",
+        "branch_flag": true,
+        "content": "Treatment with carboplatin and pemetrexed chemotherapy. Fasting blood glucose (FBG) levels and thyroid function remained normal during chemotherapy.",
+        "transition_event": {
+          "trigger_type": "procedure",
+          "trigger_entities": [
+            "C0007146",
+            "C0974234"
+          ],
+          "change_type": "addition",
+          "target_domain": "medication"
+        }
+      }
+    },
+    {
+      "from": "N4",
+      "to": "N5",
+      "data": {
+        "edge_id": "D_to_E",
+        "branch_flag": true,
+        "content": "Assessment of PD-L1 expression in tumor samples after chemotherapy.",
+        "transition_event": {
+          "trigger_type": "lab_change",
+          "trigger_entities": [],
+          "change_type": "other",
+          "target_domain": "lab"
+        }
+      }
+    },
+    {
+      "from": "N5",
+      "to": "N6",
+      "data": {
+        "edge_id": "E_to_F",
+        "branch_flag": true,
+        "content": "Initiation of pembrolizumab therapy and patient's condition after five courses of carboplatin combined with pemetrexed chemotherapy.",
+        "transition_event": {
+          "trigger_type": "medication_change",
+          "trigger_entities": [
+            "C3888718"
+          ],
+          "change_type": "addition",
+          "target_domain": "medication"
+        }
+      }
+    }
+  ]
+}

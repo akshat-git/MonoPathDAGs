@@ -1,0 +1,657 @@
+{
+  "nodes": [
+    {
+      "id": "N1",
+      "label": "Step 1",
+      "customData": {
+        "node_id": "A",
+        "node_step_index": 0,
+        "content": "August 2018: 48-year-old woman presented with lumbar acid distension, needle-like pain, numbness and fatigue of both lower limbs. CT scan of the chest and abdomen showed left superior lobe lung lesion and thoracic vertebra metastasis. Spine was physically curved and the spinal cord was compressed.",
+        "clinical_data": {
+          "HPI": [
+            {
+              "summary": "48-year-old woman presented with lumbar acid distension, needle-like pain, numbness and fatigue of both lower limbs.",
+              "onset": "August 2018",
+              "associated_symptoms": [
+                "lumbar acid distension",
+                "needle-like pain",
+                "numbness",
+                "fatigue"
+              ]
+            }
+          ],
+          "imaging": [
+            {
+              "type": "Lung lesion",
+              "body_part": "Left superior lobe lung",
+              "modality": "CT",
+              "date": "2018-08"
+            },
+            {
+              "type": "Thoracic vertebra metastasis",
+              "body_part": "Thoracic vertebra",
+              "modality": "CT",
+              "date": "2018-08"
+            }
+          ],
+          "diagnoses": [
+            {
+              "code": "C0007634",
+              "label": "Spinal cord compression",
+              "status": "active"
+            },
+            {
+              "code": "C0027831",
+              "label": "Metastasis",
+              "status": "active"
+            }
+          ]
+        }
+      }
+    },
+    {
+      "id": "N2",
+      "label": "Step 2",
+      "customData": {
+        "node_id": "B",
+        "node_step_index": 1,
+        "content": "Patient underwent T6 and T8 vertebral body shaping, T9 pedicle screw rod fixation, T8 fracture reduction, and spinal canal decompression under general anesthesia.",
+        "clinical_data": {
+          "procedures": [
+            {
+              "name": "Vertebral Body Shaping",
+              "approach": "open",
+              "date": null,
+              "location": "T6, T8 vertebral bodies",
+              "performed_by": null,
+              "outcome": null
+            },
+            {
+              "name": "Pedicle Screw Rod Fixation",
+              "approach": "percutaneous",
+              "date": null,
+              "location": "T9 pedicle",
+              "performed_by": null,
+              "outcome": null
+            },
+            {
+              "name": "Fracture Reduction",
+              "approach": "open",
+              "date": null,
+              "location": "T8",
+              "performed_by": null,
+              "outcome": null
+            },
+            {
+              "name": "Spinal Canal Decompression",
+              "approach": "open",
+              "date": null,
+              "location": "Spinal Canal",
+              "performed_by": null,
+              "outcome": null
+            }
+          ]
+        }
+      }
+    },
+    {
+      "id": "N3",
+      "label": "Step 3",
+      "customData": {
+        "node_id": "C",
+        "node_step_index": 2,
+        "content": "Left lung biopsy revealed stage IV adenocarcinoma with EGFR19del mutation detected by amplification refractory mutation system-polymerase chain reaction.",
+        "clinical_data": {
+          "procedures": [
+            {
+              "name": "Biopsy",
+              "location": "Left lung",
+              "date": null
+            }
+          ],
+          "diagnoses": [
+            {
+              "code": "C0001637",
+              "label": "Adenocarcinoma",
+              "status": "active",
+              "onset_date": null
+            }
+          ],
+          "labs": [
+            {
+              "test": "Amplification Refractory Mutation System-Polymerase Chain Reaction",
+              "value": "EGFR19del mutation detected",
+              "unit": null,
+              "flag": "abnormal",
+              "reference_range": null,
+              "timestamp": null
+            }
+          ],
+          "imaging": [
+            {
+              "type": "Imaging of lung",
+              "body_part": "Lung",
+              "modality": null,
+              "finding": "Stage IV",
+              "impression": "Stage IV adenocarcinoma",
+              "date": null
+            }
+          ]
+        }
+      }
+    },
+    {
+      "id": "N4",
+      "label": "Step 4",
+      "customData": {
+        "node_id": "D",
+        "node_step_index": 3,
+        "content": "Patient was administered oral osimertinib (80 mg/d).",
+        "clinical_data": {
+          "medications": [
+            {
+              "drug": "C1613337",
+              "dosage": "80 mg/d",
+              "frequency": null,
+              "modality": "oral",
+              "start_date": null,
+              "end_date": null,
+              "indication": null
+            }
+          ]
+        }
+      }
+    },
+    {
+      "id": "N5",
+      "label": "Step 5",
+      "customData": {
+        "node_id": "E",
+        "node_step_index": 4,
+        "content": "Tumor continued to shrink, and the best efficacy evaluation was partial response (PR) during the Osimertinib treatment.",
+        "clinical_data": {
+          "medications": [
+            {
+              "drug": "C1611737",
+              "dosage": null,
+              "frequency": null,
+              "modality": null,
+              "start_date": null,
+              "end_date": null,
+              "indication": null
+            }
+          ],
+          "diagnoses": [
+            {
+              "code": null,
+              "label": "partial response",
+              "status": null,
+              "onset_date": null
+            }
+          ]
+        }
+      }
+    },
+    {
+      "id": "N6",
+      "label": "Step 6",
+      "customData": {
+        "node_id": "F",
+        "node_step_index": 5,
+        "content": "One year and a half later, the patient presented with a headache and vomiting. MRI of the brain showed extensive leptomeningeal metastasis (LM) with no obvious abnormalities in the brain parenchyma, which indicated disease progression. Patient with NSCLC acquired resistance to first-line osimertinib.",
+        "clinical_data": {
+          "HPI": [
+            {
+              "summary": "Patient presented with headache and vomiting.",
+              "associated_symptoms": [
+                "Headache",
+                "Vomiting"
+              ],
+              "duration": "1.5 years"
+            }
+          ],
+          "imaging": [
+            {
+              "type": "MRI of the brain",
+              "body_part": "Brain",
+              "modality": "MRI",
+              "finding": "Extensive leptomeningeal metastasis",
+              "impression": "Disease progression"
+            }
+          ],
+          "diagnoses": [
+            {
+              "code": "NSCLC",
+              "label": "Non-small cell lung cancer",
+              "status": "active"
+            },
+            {
+              "code": "C0494549",
+              "label": "Leptomeningeal Metastasis",
+              "status": "active"
+            }
+          ],
+          "medications": [
+            {
+              "drug": "Osimertinib",
+              "indication": "NSCLC",
+              "status": "resistance"
+            }
+          ]
+        }
+      }
+    },
+    {
+      "id": "N7",
+      "label": "Step 7",
+      "customData": {
+        "node_id": "G",
+        "node_step_index": 6,
+        "content": "EGFR C797S/exon 19 deletion (19del) mutations was detected by next-generation sequencing (NGS) of CSF circulating tumor DNA (ctDNA).",
+        "clinical_data": {
+          "labs": [
+            {
+              "test": "Next Generation Sequencing",
+              "value": "EGFR C797S/exon 19 deletion (19del) mutations detected",
+              "specimen": "CSF circulating tumor DNA",
+              "timestamp": null
+            }
+          ],
+          "diagnoses": [
+            {
+              "code": "C797S",
+              "label": "EGFR C797S mutation",
+              "status": "active"
+            },
+            {
+              "code": "exon 19 deletion",
+              "label": "EGFR exon 19 deletion",
+              "status": "active"
+            }
+          ]
+        }
+      }
+    },
+    {
+      "id": "N8",
+      "label": "Step 8",
+      "customData": {
+        "node_id": "H",
+        "node_step_index": 7,
+        "content": "Chest and abdomen CT scan were roughly the same as before.",
+        "clinical_data": {}
+      }
+    },
+    {
+      "id": "N9",
+      "label": "Step 9",
+      "customData": {
+        "node_id": "I",
+        "node_step_index": 8,
+        "content": "Lumbar puncture and the cytology examination detected exfoliated tumor cells from CSF.",
+        "clinical_data": {
+          "procedures": [
+            {
+              "name": "Lumbar puncture",
+              "date": null,
+              "location": "CSF",
+              "performed_by": null,
+              "outcome": null
+            }
+          ],
+          "labs": [
+            {
+              "test": "cytology examination",
+              "value": "exfoliated tumor cells",
+              "unit": null,
+              "flag": "abnormal",
+              "reference_range": null,
+              "timestamp": null
+            }
+          ]
+        }
+      }
+    },
+    {
+      "id": "N10",
+      "label": "Step 10",
+      "customData": {
+        "node_id": "J",
+        "node_step_index": 9,
+        "content": "One month after osimertinib treatment, the tumor shrank.",
+        "clinical_data": {
+          "medications": [
+            {
+              "drug": "C1705948",
+              "start_date": null,
+              "end_date": null
+            }
+          ],
+          "imaging": [
+            {
+              "finding": "tumor shrank",
+              "date": null
+            }
+          ]
+        }
+      }
+    },
+    {
+      "id": "N11",
+      "label": "Step 11",
+      "customData": {
+        "node_id": "K",
+        "node_step_index": 10,
+        "content": "One year after osimertinib treatment, the tumor shrank.",
+        "clinical_data": {
+          "diagnoses": [
+            {
+              "code": "C0040298",
+              "label": "Tumor",
+              "status": "active"
+            }
+          ],
+          "medications": [
+            {
+              "drug": "C1613439",
+              "indication": "C0040298"
+            }
+          ]
+        }
+      }
+    },
+    {
+      "id": "N12",
+      "label": "Step 12",
+      "customData": {
+        "node_id": "L",
+        "node_step_index": 11,
+        "content": "One year and a half after osimertinib treatment, the tumor was as before. MRI of the brain showed line-like enhancement, which indicated disease progression.",
+        "clinical_data": {
+          "imaging": [
+            {
+              "type": "MRI of the brain",
+              "body_part": "brain",
+              "modality": "MRI",
+              "finding": "line-like enhancement",
+              "impression": "disease progression"
+            }
+          ],
+          "diagnoses": [
+            {
+              "code": "http://www.snomed.org/id/609596000",
+              "label": "Disease progression",
+              "status": "active"
+            }
+          ],
+          "medications": [
+            {
+              "drug": "Osimertinib",
+              "end_date": null
+            }
+          ]
+        }
+      }
+    },
+    {
+      "id": "N13",
+      "label": "Step 13",
+      "customData": {
+        "node_id": "M",
+        "node_step_index": 12,
+        "content": "Four months after erlotinib monotherapy, the tumor had little change. MRI of the brain showed line-like enhancement as before.",
+        "clinical_data": {
+          "medications": [
+            {
+              "drug": "erlotinib",
+              "dosage": null,
+              "frequency": null,
+              "modality": "oral",
+              "start_date": null,
+              "end_date": null,
+              "indication": null
+            }
+          ],
+          "imaging": [
+            {
+              "type": "MRI of the brain",
+              "body_part": "brain",
+              "modality": "MRI",
+              "finding": "line-like enhancement",
+              "impression": null,
+              "date": null
+            }
+          ]
+        }
+      }
+    },
+    {
+      "id": "N14",
+      "label": "Step 14",
+      "customData": {
+        "node_id": "N",
+        "node_step_index": 13,
+        "content": "Three months after erlotinib combined with bevacizumab and chemotherapy treatment, MRI showed the line-like enhancement had significantly reduced.",
+        "clinical_data": {
+          "imaging": [
+            {
+              "modality": "MRI",
+              "finding": "line-like enhancement had significantly reduced",
+              "date": null
+            }
+          ],
+          "medications": [
+            {
+              "drug": "C0886335",
+              "dosage": null,
+              "frequency": null,
+              "modality": null,
+              "start_date": null,
+              "end_date": null,
+              "indication": null
+            },
+            {
+              "drug": "C1247244",
+              "dosage": null,
+              "frequency": null,
+              "modality": null,
+              "start_date": null,
+              "end_date": null,
+              "indication": null
+            }
+          ]
+        }
+      }
+    },
+    {
+      "id": "N15",
+      "label": "Step 15",
+      "customData": {
+        "node_id": "O",
+        "node_step_index": 14,
+        "content": "Patient was administered pemetrexed (800\u200amg day 1), cis-platinum (40\u200amg day 1-3) combined with bevacizumab (400\u200amg day 1) every 3 weeks.",
+        "clinical_data": {
+          "medications": [
+            {
+              "drug": "C0888526",
+              "dosage": "800 mg",
+              "frequency": "every 3 weeks",
+              "modality": "IV",
+              "start_date": null,
+              "end_date": null,
+              "indication": null
+            },
+            {
+              "drug": "C0008832",
+              "dosage": "40 mg",
+              "frequency": "day 1-3 every 3 weeks",
+              "modality": "IV",
+              "start_date": null,
+              "end_date": null,
+              "indication": null
+            },
+            {
+              "drug": "C1263444",
+              "dosage": "400 mg",
+              "frequency": "every 3 weeks",
+              "modality": "IV",
+              "start_date": null,
+              "end_date": null,
+              "indication": null
+            }
+          ]
+        }
+      }
+    },
+    {
+      "id": "N16",
+      "label": "Step 16",
+      "customData": {
+        "node_id": "P",
+        "node_step_index": 1,
+        "clinical_data": {}
+      }
+    }
+  ],
+  "edges": [
+    {
+      "from": "N1",
+      "to": "N2",
+      "data": {
+        "edge_id": "A_to_B",
+        "branch_flag": true,
+        "content": "Patient with lumbar acid distension, needle-like pain, numbness and fatigue of both lower limbs, left superior lobe lung lesion and thoracic vertebra metastasis, spine physically curved and the spinal cord compressed underwent surgical intervention."
+      }
+    },
+    {
+      "from": "N2",
+      "to": "N3",
+      "data": {
+        "edge_id": "B_to_C",
+        "branch_flag": true,
+        "content": "Post-surgical intervention, further diagnostic workup was performed.",
+        "transition_event": {
+          "trigger_type": "procedure",
+          "trigger_entities": [
+            "C0042720"
+          ],
+          "change_type": "other",
+          "target_domain": "diagnosis"
+        }
+      }
+    },
+    {
+      "from": "N3",
+      "to": "N4",
+      "data": {
+        "edge_id": "C_to_D",
+        "branch_flag": true,
+        "content": "Following diagnosis of stage IV adenocarcinoma with EGFR19del mutation, targeted therapy was initiated.",
+        "transition_event": {
+          "trigger_type": "interpretation",
+          "trigger_entities": [
+            "C0001637",
+            "EGFR19del mutation"
+          ],
+          "change_type": "addition",
+          "target_domain": "medication"
+        }
+      }
+    },
+    {
+      "from": "N4",
+      "to": "N5",
+      "data": {
+        "edge_id": "D_to_E",
+        "branch_flag": true,
+        "content": "Patient administered oral osimertinib (80 mg/d) experienced tumor shrinkage and partial response.",
+        "transition_event": {
+          "trigger_type": "medication_change",
+          "trigger_entities": [
+            "C1613337"
+          ],
+          "change_type": "addition",
+          "target_domain": "diagnosis"
+        }
+      }
+    },
+    {
+      "from": "N5",
+      "to": "N6",
+      "data": {
+        "edge_id": "E_to_F",
+        "branch_flag": true,
+        "content": "Despite initial response to Osimertinib, the patient later presented with headache and vomiting, with MRI showing leptomeningeal metastasis, indicating disease progression and acquired resistance to first-line osimertinib.",
+        "transition_event": {
+          "trigger_type": "symptom_onset",
+          "trigger_entities": [
+            "C0018681",
+            "C0042963"
+          ],
+          "change_type": "progression",
+          "target_domain": "diagnosis"
+        }
+      }
+    },
+    {
+      "from": "N6",
+      "to": "N7",
+      "data": {
+        "edge_id": "F_to_G",
+        "branch_flag": true,
+        "content": "Following disease progression, further molecular testing was performed.",
+        "transition_event": {
+          "trigger_type": "interpretation",
+          "trigger_entities": [
+            "C0494549"
+          ],
+          "change_type": "other",
+          "target_domain": "lab"
+        }
+      }
+    },
+    {
+      "from": "N7",
+      "to": "N8",
+      "data": {
+        "edge_id": "G_to_H",
+        "branch_flag": true,
+        "content": "Detection of EGFR C797S/exon 19 deletion (19del) mutations by NGS of CSF ctDNA, with stable chest and abdomen CT scan findings."
+      }
+    },
+    {
+      "from": "N8",
+      "to": "N9",
+      "data": {
+        "edge_id": "H_to_I",
+        "branch_flag": true,
+        "content": "Despite stable chest and abdomen CT scan, lumbar puncture was performed.",
+        "transition_event": {
+          "trigger_type": "procedure",
+          "trigger_entities": [
+            "C0023908"
+          ],
+          "change_type": "addition",
+          "target_domain": "lab"
+        }
+      }
+    },
+    {
+      "from": "N9",
+      "to": "N10",
+      "data": {
+        "edge_id": "I_to_J",
+        "branch_flag": true,
+        "content": "Detection of exfoliated tumor cells from CSF led to continued osimertinib treatment.",
+        "transition_event": {
+          "trigger_type": "interpretation",
+          "trigger_entities": [
+            "tumor cells"
+          ],
+          "change_type": "other",
+          "target_domain": "med"
+        }
+      }
+    }
+  ]
+}

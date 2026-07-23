@@ -1,0 +1,296 @@
+{
+  "nodes": [
+    {
+      "id": "N1",
+      "label": "Step 1",
+      "customData": {
+        "node_id": "A",
+        "node_step_index": 0,
+        "content": "55-year-old woman admitted to the hospital on January 1, 2019, with coughing and sputum, wheezing for 6 months, and left-sided back pain for 3 days. Patient has 10-year chronic obstructive pulmonary disease and 7-year hypertension. Patient underwent thymectomy 13 years previously and has been taking pyridostigmine bromide plus atropine.",
+        "clinical_data": {
+          "diagnoses": [
+            {
+              "code": "439281009",
+              "label": "Chronic obstructive lung disease",
+              "status": "active",
+              "onset_date": null
+            },
+            {
+              "code": "59621000",
+              "label": "Essential hypertension",
+              "status": "active",
+              "onset_date": null
+            }
+          ],
+          "medications": [
+            {
+              "drug": "C0034154",
+              "dosage": null,
+              "frequency": null,
+              "modality": "oral",
+              "start_date": null,
+              "end_date": null,
+              "indication": null
+            },
+            {
+              "drug": "C0004443",
+              "dosage": null,
+              "frequency": null,
+              "modality": "oral",
+              "start_date": null,
+              "end_date": null,
+              "indication": null
+            }
+          ],
+          "HPI": [
+            {
+              "summary": "Coughing and sputum, wheezing for 6 months, and left-sided back pain for 3 days.",
+              "duration": null,
+              "onset": null,
+              "progression": "unknown",
+              "associated_symptoms": [
+                "C0010200",
+                "C0043134",
+                "C0231528"
+              ],
+              "alleviating_factors": [],
+              "exacerbating_factors": []
+            }
+          ]
+        }
+      }
+    },
+    {
+      "id": "N2",
+      "label": "Step 2",
+      "customData": {
+        "node_id": "B",
+        "node_step_index": 1,
+        "content": "Chest CT showed an enlarged left lower lung hilum with an irregular 75.9-mm-diameter soft tissue mass in the left lower lobe.",
+        "clinical_data": {
+          "imaging": [
+            {
+              "type": "Mass of left lower lobe (finding)",
+              "body_part": "Left lower lobe",
+              "modality": "CT",
+              "finding": "Enlarged left lower lung hilum with an irregular 75.9-mm-diameter soft tissue mass",
+              "impression": "Mass in the left lower lobe",
+              "date": null
+            }
+          ]
+        }
+      }
+    },
+    {
+      "id": "N3",
+      "label": "Step 3",
+      "customData": {
+        "node_id": "C",
+        "node_step_index": 2,
+        "content": "Multiple partially enlarged lymph nodes in the left lung hilum and mediastinum. Tumor marker levels in the serum were significantly elevated: carcinoembryonic antigen (CEA) = 108.18 ng/mL, neuron-specific enolase (NSE) = 30.82 \u03bcg/L. PET-CT and brain MRI showed no signs of distant metastases.",
+        "clinical_data": {
+          "imaging": [
+            {
+              "type": "Lymph node enlargement",
+              "body_part": "Lung hilum",
+              "modality": "CT",
+              "finding": "Multiple partially enlarged lymph nodes",
+              "date": null
+            },
+            {
+              "type": "Lymph node enlargement",
+              "body_part": "Mediastinum",
+              "modality": "CT",
+              "finding": "Multiple partially enlarged lymph nodes",
+              "date": null
+            },
+            {
+              "type": "Metastasis",
+              "body_part": "Brain",
+              "modality": "MRI",
+              "finding": "No signs of distant metastases",
+              "date": null
+            },
+            {
+              "type": "Metastasis",
+              "body_part": "Distant",
+              "modality": "PET",
+              "finding": "No signs of distant metastases",
+              "date": null
+            }
+          ],
+          "labs": [
+            {
+              "test": "Carcinoembryonic antigen measurement",
+              "value": "108.18",
+              "unit": "ng/mL",
+              "flag": "abnormal",
+              "reference_range": null,
+              "timestamp": null
+            },
+            {
+              "test": "Neuron-specific enolase measurement",
+              "value": "30.82",
+              "unit": "\u03bcg/L",
+              "flag": "abnormal",
+              "reference_range": null,
+              "timestamp": null
+            }
+          ]
+        }
+      }
+    },
+    {
+      "id": "N4",
+      "label": "Step 4",
+      "customData": {
+        "node_id": "D",
+        "node_step_index": 3,
+        "content": "Fiberoptic bronchoscopy revealed narrowing of the opening in the dorsal segment of the left lower lobe and an obstructing mass in the opening of the basal segment. Biopsy of the mass in the left lower lung basal segmental opening under bronchoscopy indicated lung adenocarcinoma. Carcinoma was clinically staged as stage IIIB (cT4N2M0). Next-generation sequencing identified an EML4-ALK fusion mutation.",
+        "clinical_data": {
+          "imaging": [
+            {
+              "type": "Bronchoscopy",
+              "body_part": "Left lower lobe",
+              "modality": "other",
+              "finding": "narrowing of the opening in the dorsal segment of the left lower lobe and an obstructing mass in the opening of the basal segment"
+            }
+          ],
+          "procedures": [
+            {
+              "name": "Biopsy",
+              "approach": "endoscopic",
+              "location": "left lower lung basal segmental opening",
+              "outcome": "lung adenocarcinoma"
+            }
+          ],
+          "diagnoses": [
+            {
+              "code": "C0024117",
+              "label": "Lung Adenocarcinoma",
+              "status": "active"
+            }
+          ]
+        }
+      }
+    },
+    {
+      "id": "N5",
+      "label": "Step 5",
+      "customData": {
+        "node_id": "E",
+        "node_step_index": 4,
+        "content": "Immunohistochemistry test indicated high expression of the ALK protein in the tumor tissue samples. Hematoxylin and eosin staining of pretreatment specimens was performed. Baseline PET-CT scan showed SUVmax (LN10) = 17.3, SUVmax (LN7) = 5.6.",
+        "clinical_data": {
+          "imaging": [
+            {
+              "type": "positron emission tomography/computed tomography",
+              "body_part": "lymph node",
+              "modality": "PET",
+              "finding": "SUVmax (LN10) = 17.3",
+              "date": null
+            },
+            {
+              "type": "positron emission tomography/computed tomography",
+              "body_part": "lymph node",
+              "modality": "PET",
+              "finding": "SUVmax (LN7) = 5.6",
+              "date": null
+            }
+          ],
+          "labs": [
+            {
+              "test": "Immunohistochemistry test",
+              "value": "high expression",
+              "unit": null,
+              "flag": null,
+              "reference_range": null,
+              "timestamp": null
+            },
+            {
+              "test": "Hematoxylin and eosin staining",
+              "value": "performed",
+              "unit": null,
+              "flag": null,
+              "reference_range": null,
+              "timestamp": null
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "edges": [
+    {
+      "from": "N1",
+      "to": "N2",
+      "data": {
+        "edge_id": "A_to_B",
+        "branch_flag": true,
+        "content": "Patient presented with coughing, sputum, wheezing, and left-sided back pain. Chest CT performed.",
+        "transition_event": {
+          "trigger_type": "symptom_onset",
+          "trigger_entities": [
+            "C0010200",
+            "C0043134",
+            "C0231528"
+          ],
+          "change_type": "progression",
+          "target_domain": "symptom"
+        }
+      }
+    },
+    {
+      "from": "N2",
+      "to": "N3",
+      "data": {
+        "edge_id": "B_to_C",
+        "branch_flag": true,
+        "content": "Chest CT showed an enlarged left lower lung hilum with an irregular 75.9-mm-diameter soft tissue mass in the left lower lobe. Further workup with mediastinal evaluation and tumor markers.",
+        "transition_event": {
+          "trigger_type": "imaging",
+          "trigger_entities": [
+            "C0024135"
+          ],
+          "change_type": "progression",
+          "target_domain": "imaging"
+        }
+      }
+    },
+    {
+      "from": "N3",
+      "to": "N4",
+      "data": {
+        "edge_id": "C_to_D",
+        "branch_flag": true,
+        "content": "Multiple partially enlarged lymph nodes in the left lung hilum and mediastinum. Elevated CEA and NSE. Fiberoptic bronchoscopy performed.",
+        "transition_event": {
+          "trigger_type": "lab_change",
+          "trigger_entities": [
+            "C0151729",
+            "C0274141"
+          ],
+          "change_type": "progression",
+          "target_domain": "lab"
+        }
+      }
+    },
+    {
+      "from": "N4",
+      "to": "N5",
+      "data": {
+        "edge_id": "D_to_E",
+        "branch_flag": true,
+        "content": "Fiberoptic bronchoscopy revealed narrowing of the opening in the dorsal segment of the left lower lobe and an obstructing mass in the opening of the basal segment. Biopsy indicated lung adenocarcinoma with EML4-ALK fusion mutation. Immunohistochemistry test performed.",
+        "transition_event": {
+          "trigger_type": "procedure",
+          "trigger_entities": [
+            "C0006081"
+          ],
+          "change_type": "addition",
+          "target_domain": "diagnosis"
+        }
+      }
+    }
+  ]
+}

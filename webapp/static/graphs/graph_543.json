@@ -1,0 +1,589 @@
+{
+  "nodes": [
+    {
+      "id": "N1",
+      "label": "Step 1",
+      "customData": {
+        "node_id": "A",
+        "node_step_index": 0,
+        "content": "76-year-old male diagnosed with stage IV adenocarcinoma (cT2bN2M1b) without targetable genomic alterations (EGFR, ALK, ROS1) via right abdominal muscle surgical resection in 2021. Chest CT: Tumor shadow in the right lower lobe of the lung and multiple swollen lymph nodes in the mediastinum. 18F-FDG PET/CT: Multiple 18F-FDG uptake in the right abdominal muscle, L4, and right iliac bone.",
+        "clinical_data": {
+          "diagnoses": [
+            {
+              "code": "C0001402",
+              "label": "Adenocarcinoma",
+              "status": "active",
+              "onset_date": "2021"
+            }
+          ],
+          "imaging": [
+            {
+              "type": "C0205089",
+              "body_part": "T-T410",
+              "modality": "CT",
+              "finding": "Tumor shadow",
+              "impression": "Tumor shadow in the right lower lobe of the lung and multiple swollen lymph nodes in the mediastinum.",
+              "date": "unknown"
+            },
+            {
+              "type": "C0205089",
+              "body_part": "T-D005073",
+              "modality": "PET",
+              "finding": "Multiple 18F-FDG uptake",
+              "impression": "Multiple 18F-FDG uptake in the right abdominal muscle, L4, and right iliac bone.",
+              "date": "unknown"
+            }
+          ],
+          "procedures": [
+            {
+              "name": "Surgical resection",
+              "approach": "open",
+              "date": "2021",
+              "location": "right abdominal muscle",
+              "performed_by": "unknown",
+              "outcome": "unknown"
+            }
+          ]
+        }
+      }
+    },
+    {
+      "id": "N2",
+      "label": "Step 2",
+      "customData": {
+        "node_id": "B",
+        "node_step_index": 1,
+        "content": "Blood tests were normal. ECOG score was 1.",
+        "timestamp": "2018",
+        "clinical_data": {
+          "labs": [],
+          "functional_status": [
+            {
+              "domain": "ADLs",
+              "description": "ECOG score was 1",
+              "score": 1,
+              "scale": "ECOG"
+            }
+          ]
+        }
+      }
+    },
+    {
+      "id": "N3",
+      "label": "Step 3",
+      "customData": {
+        "node_id": "C",
+        "node_step_index": 2,
+        "content": "Patient received 6 cycles of carboplatin, pemetrexed, and atezolizumab (every 3 weeks) treatment as part of the IMpower 132 clinical study. CT scan revealed right lower pulmonary lesions and swollen lymph nodes.",
+        "timestamp": "2018-05",
+        "clinical_data": {
+          "medications": [
+            {
+              "drug": "C0616170",
+              "dosage": null,
+              "frequency": "every 3 weeks",
+              "modality": null,
+              "start_date": null,
+              "end_date": null,
+              "indication": null
+            },
+            {
+              "drug": "C0030921",
+              "dosage": null,
+              "frequency": "every 3 weeks",
+              "modality": null,
+              "start_date": null,
+              "end_date": null,
+              "indication": null
+            },
+            {
+              "drug": "C4049444",
+              "dosage": null,
+              "frequency": "every 3 weeks",
+              "modality": null,
+              "start_date": null,
+              "end_date": null,
+              "indication": null
+            }
+          ],
+          "imaging": [
+            {
+              "type": "C0009074",
+              "body_part": "C0225930",
+              "modality": "CT",
+              "finding": "right lower pulmonary lesions and swollen lymph nodes",
+              "impression": null,
+              "date": null
+            }
+          ],
+          "procedures": [
+            {
+              "name": "C4025382",
+              "approach": null,
+              "date": null,
+              "location": null,
+              "performed_by": null,
+              "outcome": null
+            }
+          ]
+        }
+      }
+    },
+    {
+      "id": "N4",
+      "label": "Step 4",
+      "customData": {
+        "node_id": "D",
+        "node_step_index": 3,
+        "content": "After 6 cycles of chemotherapy and atezolizumab treatment, partial response of the lesions in the right lower lobe and swollen lymph nodes was shown. CT scan indicated a partial response.",
+        "timestamp": "2019-02",
+        "clinical_data": {
+          "medications": [
+            {
+              "drug": "C0007328",
+              "dosage": null,
+              "frequency": null,
+              "modality": null,
+              "start_date": null,
+              "end_date": null,
+              "indication": "C0027051"
+            },
+            {
+              "drug": "C4049444",
+              "dosage": null,
+              "frequency": null,
+              "modality": null,
+              "start_date": null,
+              "end_date": null,
+              "indication": "C0027051"
+            }
+          ],
+          "imaging": [
+            {
+              "type": "C0009402",
+              "body_part": "C0225910",
+              "modality": "CT",
+              "finding": "partial response of the lesions",
+              "impression": "partial response",
+              "date": null
+            }
+          ],
+          "diagnoses": [
+            {
+              "code": "C0027051",
+              "label": "Malignant Neoplasms",
+              "status": "active",
+              "onset_date": null
+            }
+          ]
+        }
+      }
+    },
+    {
+      "id": "N5",
+      "label": "Step 5",
+      "customData": {
+        "node_id": "E",
+        "node_step_index": 4,
+        "content": "Patient underwent 36 cycles of maintenance therapy with pemetrexed and atezolizumab.",
+        "clinical_data": {
+          "medications": [
+            {
+              "drug": "C0975702",
+              "dosage": null,
+              "frequency": null,
+              "modality": null,
+              "start_date": null,
+              "end_date": null,
+              "indication": null
+            },
+            {
+              "drug": "C4034437",
+              "dosage": null,
+              "frequency": null,
+              "modality": null,
+              "start_date": null,
+              "end_date": null,
+              "indication": null
+            }
+          ]
+        }
+      }
+    },
+    {
+      "id": "N6",
+      "label": "Step 6",
+      "customData": {
+        "node_id": "F",
+        "node_step_index": 5,
+        "content": "Patient developed thrombocytopenia (platelet level: 91 x 10^3/uL) with normal hemoglobin and normal white cell counts. Patient received interleukin-11 (IL-11) therapy to enhance the proliferation of megalokaryocytes for 2 weeks due to thrombocytopenia. Platelet count slightly declined, and no autoimmune or coagulation disorders were displayed after IL-11 therapy. Presumed diagnosis: ICIs-induced thrombocytopenia. Patient was treated with prednisone (0.5mg/kg) for 2 weeks for ICIs-induced thrombocytopenia. Thrombocytopenia worsened with a sudden decrease in platelet level to 35 x 10^3/uL. Pemetrexed and atezolizumab were discontinued due to worsening thrombocytopenia. Bone marrow biopsy: no morphological abnormalities, phagocytosis, or malignant invasion. Antinuclear antibodies and other laboratory tests were negative, but antiphospholipid and antiplatelet antibodies were abnormal. Diagnosis: Atezolizumab-induced immune thrombocytopenia.",
+        "timestamp": "2020-11",
+        "clinical_data": {
+          "labs": [
+            {
+              "test": "Antinuclear antibodies",
+              "value": "negative",
+              "unit": null,
+              "flag": "normal"
+            },
+            {
+              "test": "Antiphospholipid antibodies",
+              "value": "abnormal",
+              "unit": null,
+              "flag": "abnormal"
+            },
+            {
+              "test": "Antiplatelet antibodies",
+              "value": "abnormal",
+              "unit": null,
+              "flag": "abnormal"
+            }
+          ],
+          "medications": [
+            {
+              "drug": "Interleukin-11",
+              "dosage": null,
+              "frequency": null,
+              "modality": null,
+              "start_date": null,
+              "end_date": null,
+              "indication": "Thrombocytopenia"
+            },
+            {
+              "drug": "Prednisone",
+              "dosage": "0.5mg/kg",
+              "frequency": null,
+              "modality": null,
+              "start_date": null,
+              "end_date": null,
+              "indication": "ICI-induced thrombocytopenia"
+            },
+            {
+              "drug": "Pemetrexed",
+              "dosage": null,
+              "frequency": null,
+              "modality": null,
+              "start_date": null,
+              "end_date": null,
+              "indication": "worsening thrombocytopenia"
+            },
+            {
+              "drug": "Atezolizumab",
+              "dosage": null,
+              "frequency": null,
+              "modality": null,
+              "start_date": null,
+              "end_date": null,
+              "indication": "worsening thrombocytopenia"
+            }
+          ],
+          "diagnoses": [
+            {
+              "code": null,
+              "label": "ICI-induced thrombocytopenia",
+              "status": "suspected",
+              "onset_date": null
+            },
+            {
+              "code": null,
+              "label": "Atezolizumab-induced immune thrombocytopenia",
+              "status": "active",
+              "onset_date": null
+            }
+          ],
+          "procedures": [
+            {
+              "name": "Bone marrow biopsy",
+              "approach": null,
+              "date": null,
+              "location": "bone marrow",
+              "performed_by": null,
+              "outcome": "no morphological abnormalities, phagocytosis, or malignant invasion"
+            }
+          ]
+        }
+      }
+    },
+    {
+      "id": "N7",
+      "label": "Step 7",
+      "customData": {
+        "node_id": "G",
+        "node_step_index": 6,
+        "content": "Patient was treated with a high-dose steroid for 6 consecutive days and recombinant human thrombopoietin (TPO). Platelet count remained at 23 x 10^3/uL despite four platelet transfusions, mycophenolate mofetil, and IVIG infusion. Lowest platelet level recorded: 20 x 10^3/uL. Serum IL-6 level was significantly increased. Patient was prescribed tocilizumab (400 mg), an IL-6 receptor antagonist, in addition to mycophenolate mofetil.",
+        "timestamp": "2021-02",
+        "clinical_data": {
+          "medications": [
+            {
+              "drug": "C0047654",
+              "dosage": "high-dose",
+              "frequency": "daily",
+              "modality": "other",
+              "start_date": null,
+              "end_date": null,
+              "indication": null
+            },
+            {
+              "drug": "C1188494",
+              "dosage": null,
+              "frequency": null,
+              "modality": null,
+              "start_date": null,
+              "end_date": null,
+              "indication": null
+            },
+            {
+              "drug": "C0976419",
+              "dosage": null,
+              "frequency": null,
+              "modality": null,
+              "start_date": null,
+              "end_date": null,
+              "indication": null
+            },
+            {
+              "drug": "C0022769",
+              "dosage": null,
+              "frequency": null,
+              "modality": "IV",
+              "start_date": null,
+              "end_date": null,
+              "indication": null
+            },
+            {
+              "drug": "C1621419",
+              "dosage": "400 mg",
+              "frequency": null,
+              "modality": null,
+              "start_date": null,
+              "end_date": null,
+              "indication": null
+            }
+          ],
+          "labs": [
+            {
+              "test": "C0200144",
+              "value": "23",
+              "unit": "x 10^3/uL",
+              "flag": "abnormal",
+              "reference_range": null,
+              "timestamp": null
+            },
+            {
+              "test": "C0200144",
+              "value": "20",
+              "unit": "x 10^3/uL",
+              "flag": "abnormal",
+              "reference_range": null,
+              "timestamp": null
+            },
+            {
+              "test": "C0021853",
+              "value": "significantly increased",
+              "unit": null,
+              "flag": "abnormal",
+              "reference_range": null,
+              "timestamp": null
+            }
+          ],
+          "procedures": [
+            {
+              "name": "C0032207",
+              "approach": null,
+              "date": null,
+              "location": null,
+              "performed_by": null,
+              "outcome": null
+            },
+            {
+              "name": "C0032207",
+              "approach": null,
+              "date": null,
+              "location": null,
+              "performed_by": null,
+              "outcome": null
+            },
+            {
+              "name": "C0032207",
+              "approach": null,
+              "date": null,
+              "location": null,
+              "performed_by": null,
+              "outcome": null
+            },
+            {
+              "name": "C0032207",
+              "approach": null,
+              "date": null,
+              "location": null,
+              "performed_by": null,
+              "outcome": null
+            }
+          ]
+        }
+      }
+    },
+    {
+      "id": "N8",
+      "label": "Step 8",
+      "customData": {
+        "node_id": "H",
+        "node_step_index": 7,
+        "content": "Platelet counts started to increase and reached the normal range (100 to 300 x 10^3/uL) one week after tocilizumab treatment.",
+        "timestamp": "2021-02",
+        "clinical_data": {
+          "medications": [
+            {
+              "drug": "C1168543",
+              "indication": "Thrombocytopenia"
+            }
+          ],
+          "labs": [
+            {
+              "test": "C0032172",
+              "value": "100 to 300",
+              "unit": "x 10^3/uL",
+              "flag": "normal"
+            }
+          ]
+        }
+      }
+    },
+    {
+      "id": "N9",
+      "label": "Step 9",
+      "customData": {
+        "node_id": "I",
+        "node_step_index": 8,
+        "content": "Lesions indicated a decreased size. Patient stayed in partial response to",
+        "clinical_data": {}
+      }
+    }
+  ],
+  "edges": [
+    {
+      "from": "N1",
+      "to": "N2",
+      "data": {
+        "edge_id": "A_to_B",
+        "branch_flag": true,
+        "content": "Initial staging and characterization of the patient's condition.",
+        "transition_event": null
+      }
+    },
+    {
+      "from": "N2",
+      "to": "N3",
+      "data": {
+        "edge_id": "B_to_C",
+        "branch_flag": true,
+        "content": "Initiation of systemic therapy with carboplatin, pemetrexed, and atezolizumab as part of the IMpower 132 clinical study.",
+        "transition_event": {
+          "trigger_type": "medication_change",
+          "trigger_entities": [
+            "C0616170",
+            "C0030921",
+            "C4049444"
+          ],
+          "change_type": "addition",
+          "target_domain": "medication",
+          "timestamp": "2018-05"
+        }
+      }
+    },
+    {
+      "from": "N3",
+      "to": "N4",
+      "data": {
+        "edge_id": "C_to_D",
+        "branch_flag": true,
+        "content": "Assessment of treatment response after 6 cycles of carboplatin, pemetrexed, and atezolizumab, revealing a partial response.",
+        "transition_event": {
+          "trigger_type": "interpretation",
+          "trigger_entities": [
+            "C0009402"
+          ],
+          "change_type": "other",
+          "target_domain": "imaging",
+          "timestamp": "2019-02"
+        }
+      }
+    },
+    {
+      "from": "N4",
+      "to": "N5",
+      "data": {
+        "edge_id": "D_to_E",
+        "branch_flag": true,
+        "content": "Continuation of maintenance therapy with pemetrexed and atezolizumab.",
+        "transition_event": {
+          "trigger_type": "medication_change",
+          "trigger_entities": [
+            "C0975702",
+            "C4034437"
+          ],
+          "change_type": "addition",
+          "target_domain": "medication"
+        }
+      }
+    },
+    {
+      "from": "N5",
+      "to": "N6",
+      "data": {
+        "edge_id": "E_to_F",
+        "branch_flag": true,
+        "content": "Development of thrombocytopenia, leading to treatment with IL-11 and prednisone, followed by discontinuation of pemetrexed and atezolizumab and diagnosis of atezolizumab-induced immune thrombocytopenia.",
+        "transition_event": {
+          "trigger_type": "symptom_onset",
+          "trigger_entities": [
+            "C0040034"
+          ],
+          "change_type": "addition",
+          "target_domain": "symptom",
+          "timestamp": "2020-11"
+        }
+      }
+    },
+    {
+      "from": "N6",
+      "to": "N7",
+      "data": {
+        "edge_id": "F_to_G",
+        "branch_flag": true,
+        "content": "Treatment with high-dose steroids, recombinant human thrombopoietin (TPO), platelet transfusions, mycophenolate mofetil, and IVIG infusion for persistent thrombocytopenia, followed by the addition of tocilizumab due to elevated IL-6 levels.",
+        "transition_event": {
+          "trigger_type": "medication_change",
+          "trigger_entities": [
+            "C0047654",
+            "C1188494",
+            "C0976419",
+            "C0022769",
+            "C1621419"
+          ],
+          "change_type": "addition",
+          "target_domain": "medication",
+          "timestamp": "2021-02"
+        }
+      }
+    },
+    {
+      "from": "N7",
+      "to": "N8",
+      "data": {
+        "edge_id": "G_to_H",
+        "branch_flag": true,
+        "content": "Improvement in platelet counts following tocilizumab treatment.",
+        "transition_event": {
+          "trigger_type": "medication_change",
+          "trigger_entities": [
+            "C1168543"
+          ],
+          "change_type": "resolution",
+          "target_domain": "lab",
+          "timestamp": ""
+        }
+      }
+    }
+  ]
+}

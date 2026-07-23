@@ -1,0 +1,288 @@
+{
+  "nodes": [
+    {
+      "id": "N1",
+      "label": "Step 1",
+      "customData": {
+        "node_id": "A",
+        "node_step_index": 0,
+        "content": "62-year-old man diagnosed with pulmonary alveolar proteinosis (PAP) in 2010, confirmed by milky-opaque bronchoalveolar lavage fluid and the presence of an anti-GM-CSF antibody.",
+        "clinical_data": {
+          "diagnoses": [
+            {
+              "code": "C0271992",
+              "label": "Pulmonary Alveolar Proteinosis",
+              "status": "historical",
+              "onset_date": "2010"
+            }
+          ],
+          "labs": [
+            {
+              "test": "Bronchoalveolar Lavage Fluid",
+              "value": "milky-opaque",
+              "unit": null,
+              "flag": "abnormal",
+              "reference_range": null,
+              "timestamp": null
+            }
+          ]
+        }
+      }
+    },
+    {
+      "id": "N2",
+      "label": "Step 2",
+      "customData": {
+        "node_id": "B",
+        "node_step_index": 1,
+        "content": "In July 2018, the patient presented with dyspnea on exertion and an elevated serum Krebs von den Lungen 6. Carcinoembryonic antigen remained unchanged at 15 ng/mL.",
+        "clinical_data": {
+          "labs": [
+            {
+              "test": "C0224145",
+              "value": "15",
+              "unit": "ng/mL",
+              "timestamp": "2018-07"
+            }
+          ],
+          "HPI": [
+            {
+              "summary": "dyspnea on exertion",
+              "onset": "2018-07"
+            }
+          ]
+        }
+      }
+    },
+    {
+      "id": "N3",
+      "label": "Step 3",
+      "customData": {
+        "node_id": "C",
+        "node_step_index": 2,
+        "content": "Computed tomography revealed a new 30 mm nodule in the lower lobe of the right lung and extended ground-glass opacification.",
+        "clinical_data": {
+          "imaging": [
+            {
+              "type": "Nodule",
+              "body_part": "Lower lobe of the right lung",
+              "modality": "CT",
+              "finding": "30 mm nodule and extended ground-glass opacification"
+            }
+          ]
+        }
+      }
+    },
+    {
+      "id": "N4",
+      "label": "Step 4",
+      "customData": {
+        "node_id": "D",
+        "node_step_index": 3,
+        "content": "Left lung lavage under general anesthesia was conducted.",
+        "clinical_data": {
+          "procedures": [
+            {
+              "name": "Bronchoalveolar Lavage",
+              "approach": "endoscopic",
+              "location": "Left lung",
+              "performed_by": "unknown",
+              "outcome": "unknown"
+            }
+          ]
+        }
+      }
+    },
+    {
+      "id": "N5",
+      "label": "Step 5",
+      "customData": {
+        "node_id": "E",
+        "node_step_index": 4,
+        "content": "Respiratory symptoms improved after lavage. Imaging showed that the shadows indicative of PAP had partially disappeared.",
+        "clinical_data": {
+          "imaging": [
+            {
+              "finding": "shadows indicative of PAP had partially disappeared"
+            }
+          ],
+          "procedures": [
+            {
+              "name": "lavage",
+              "outcome": "improved respiratory symptoms"
+            }
+          ]
+        }
+      }
+    },
+    {
+      "id": "N6",
+      "label": "Step 6",
+      "customData": {
+        "node_id": "F",
+        "node_step_index": 5,
+        "content": "Transbronchial lung biopsy on the nodule diagnosed invasive adenocarcinoma. Metastasis to the pleura, multiple bones, and right adrenal gland was noted consistent with a clinical stage T2aN0M1c, stage IVB.",
+        "clinical_data": {
+          "diagnoses": [
+            {
+              "code": "C0294007",
+              "label": "Adenocarcinoma, Invasive",
+              "status": "active"
+            },
+            {
+              "code": "C0027051",
+              "label": "Metastasis",
+              "status": "active"
+            }
+          ],
+          "procedures": [
+            {
+              "name": "C0158664",
+              "approach": "endoscopic",
+              "location": "Lung"
+            }
+          ],
+          "imaging": [
+            {
+              "body_part": "Pleura",
+              "finding": "Metastasis"
+            },
+            {
+              "body_part": "Bone",
+              "finding": "Metastasis"
+            },
+            {
+              "body_part": "Adrenal Gland",
+              "finding": "Metastasis"
+            }
+          ]
+        }
+      }
+    },
+    {
+      "id": "N7",
+      "label": "Step 7",
+      "customData": {
+        "node_id": "G",
+        "node_step_index": 6,
+        "content": "Programmed cell death 1 ligand tumor proportion score was 0%. No driver mutations, including epidermal growth factor receptor (EGFR), anaplastic lymphoma kinase, and c-ros oncogene 1 genes were noted.",
+        "clinical_data": {}
+      }
+    },
+    {
+      "id": "N8",
+      "label": "Step 8",
+      "customData": {
+        "node_id": "H",
+        "node_step_index": 7,
+        "content": "First-line chemotherapy with cisplatin, pemetrexed, and bevacizumab was selected in August 2018, to which the patient had a partial positive response.",
+        "clinical_data": {
+          "medications": [
+            {
+              "drug": "C0008833",
+              "dosage": null,
+              "frequency": null,
+              "modality": null,
+              "start_date": "2018-08",
+              "end_date": null,
+              "indication": null
+            },
+            {
+              "drug": "C1646847",
+              "dosage": null,
+              "frequency": null,
+              "modality": null,
+              "start_date": "2018-08",
+              "end_date": null,
+              "indication": null
+            },
+            {
+              "drug": "C1215685",
+              "dosage": null,
+              "frequency": null,
+              "modality": null,
+              "start_date": "2018-08",
+              "end_date": null,
+              "indication": null
+            }
+          ],
+          "procedures": [
+            {
+              "name": "C0009371",
+              "approach": null,
+              "date": "2018-08",
+              "location": null,
+              "performed_by": null,
+              "outcome": "C0205830"
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "edges": [
+    {
+      "from": "N1",
+      "to": "N2",
+      "data": {
+        "edge_id": "A_to_B",
+        "branch_flag": true,
+        "content": "Progression of pulmonary alveolar proteinosis (PAP)."
+      }
+    },
+    {
+      "from": "N2",
+      "to": "N3",
+      "data": {
+        "edge_id": "B_to_C",
+        "branch_flag": true,
+        "content": "Worsening respiratory symptoms and new lung nodule."
+      }
+    },
+    {
+      "from": "N3",
+      "to": "N4",
+      "data": {
+        "edge_id": "C_to_D",
+        "branch_flag": true,
+        "content": "Diagnostic and therapeutic intervention for PAP."
+      }
+    },
+    {
+      "from": "N4",
+      "to": "N5",
+      "data": {
+        "edge_id": "D_to_E",
+        "branch_flag": true,
+        "content": "Response to left lung lavage."
+      }
+    },
+    {
+      "from": "N5",
+      "to": "N6",
+      "data": {
+        "edge_id": "E_to_F",
+        "branch_flag": true,
+        "content": "Diagnosis of invasive adenocarcinoma and metastasis."
+      }
+    },
+    {
+      "from": "N6",
+      "to": "N7",
+      "data": {
+        "edge_id": "F_to_G",
+        "branch_flag": true,
+        "content": "Further characterization of the tumor."
+      }
+    },
+    {
+      "from": "N7",
+      "to": "N8",
+      "data": {
+        "edge_id": "G_to_H",
+        "branch_flag": true,
+        "content": "Treatment initiation and response."
+      }
+    }
+  ]
+}

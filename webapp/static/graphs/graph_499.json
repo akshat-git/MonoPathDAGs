@@ -1,0 +1,317 @@
+{
+  "nodes": [
+    {
+      "id": "N1",
+      "label": "Step 1",
+      "customData": {
+        "node_id": "A",
+        "node_step_index": 0,
+        "content": "64-year-old patient, chronic smoker for 40 years, with a 6-month history of dry cough and mMRC stage 2 dyspnea, which worsened to mMRC stage 3 one month prior to presentation.",
+        "clinical_data": {
+          "social_history": [
+            {
+              "category": "smoking",
+              "status": "current",
+              "description": "chronic smoker for 40 years"
+            }
+          ],
+          "HPI": [
+            {
+              "summary": "dry cough and dyspnea",
+              "duration": "6 months",
+              "progression": "gradual",
+              "associated_symptoms": [
+                "cough",
+                "dyspnea"
+              ]
+            }
+          ],
+          "functional_status": [
+            {
+              "domain": "mobility",
+              "description": "mMRC stage 2 dyspnea for 6 months, worsened to mMRC stage 3 one month prior to presentation"
+            }
+          ]
+        }
+      }
+    },
+    {
+      "id": "N2",
+      "label": "Step 2",
+      "customData": {
+        "node_id": "B",
+        "node_step_index": 1,
+        "content": "Desaturation to 78% in ambient air, polypnea at 25 cycles per minute, cyanosis of the extremities, signs of respiratory struggle, and crackles on the left side of the pleuropulmonary region.",
+        "clinical_data": {
+          "vitals": [
+            {
+              "type": "Oxygen saturation",
+              "value": "78",
+              "unit": "%",
+              "timestamp": null
+            },
+            {
+              "type": "Respiratory rate",
+              "value": "25",
+              "unit": "cycles per minute",
+              "timestamp": null
+            }
+          ],
+          "diagnoses": [
+            {
+              "code": "267036007",
+              "label": "Cyanosis",
+              "status": "active",
+              "onset_date": null
+            }
+          ],
+          "HPI": [
+            {
+              "summary": "Desaturation, polypnea, cyanosis, respiratory distress, and crackles on the left side of the pleuropulmonary region",
+              "duration": null,
+              "onset": null,
+              "progression": "unknown",
+              "associated_symptoms": [],
+              "alleviating_factors": [],
+              "exacerbating_factors": []
+            }
+          ],
+          "ROS": [
+            {
+              "system": "respiratory",
+              "findings": [
+                "Crackles"
+              ]
+            }
+          ]
+        }
+      }
+    },
+    {
+      "id": "N3",
+      "label": "Step 3",
+      "customData": {
+        "node_id": "C",
+        "node_step_index": 2,
+        "content": "Chest X-ray showed bilateral alveolar opacities. Lab results: Hypereosinophilia (up to 1170), hemoglobin level at 15.9g/l, white blood cells at 13,700/mm3, platelets at 320,000/mm3, correct renal function, negative COVID-19 PCR test, negative GeneXpert for tuberculosis in the sputum, negative cytobacteriological examination of the sputum. Stool parasitology was negative.",
+        "clinical_data": {
+          "imaging": [
+            {
+              "type": "Radiography",
+              "body_part": "Thorax",
+              "modality": "X-ray",
+              "finding": "bilateral alveolar opacities",
+              "date": null
+            }
+          ],
+          "labs": [
+            {
+              "test": "Eosinophils",
+              "value": "1170",
+              "unit": "/mm3",
+              "flag": "abnormal"
+            },
+            {
+              "test": "Hemoglobin measurement",
+              "value": "15.9",
+              "unit": "g/l",
+              "flag": "normal"
+            },
+            {
+              "test": "Leukocytes",
+              "value": "13700",
+              "unit": "/mm3",
+              "flag": "abnormal"
+            },
+            {
+              "test": "Platelet count",
+              "value": "320000",
+              "unit": "/mm3",
+              "flag": "normal"
+            },
+            {
+              "test": "COVID-19 PCR test",
+              "value": "negative",
+              "flag": "normal"
+            },
+            {
+              "test": "Sputum GeneXpert for tuberculosis",
+              "value": "negative",
+              "flag": "normal"
+            },
+            {
+              "test": "Sputum cytobacteriological examination",
+              "value": "negative",
+              "flag": "normal"
+            },
+            {
+              "test": "Stool parasitology",
+              "value": "negative",
+              "flag": "normal"
+            }
+          ]
+        }
+      }
+    },
+    {
+      "id": "N4",
+      "label": "Step 4",
+      "customData": {
+        "node_id": "D",
+        "node_step_index": 3,
+        "content": "Thoracic CT scan showed diffuse foci of pulmonary parenchymal condensation, involving the various pulmonary lobes with areas of ground glass.",
+        "clinical_data": {
+          "imaging": [
+            {
+              "type": "CT scan",
+              "body_part": "Thorax",
+              "modality": "CT",
+              "finding": "diffuse foci of pulmonary parenchymal condensation, involving the various pulmonary lobes with areas of ground glass"
+            }
+          ]
+        }
+      }
+    },
+    {
+      "id": "N5",
+      "label": "Step 5",
+      "customData": {
+        "node_id": "E",
+        "node_step_index": 4,
+        "content": "Chest CT showed bilateral consolidations with ground glass. Bronchial fibroscopy showed a normal endoscopic appearance. Staged bronchial biopsies returned to normal, fibroaspiration in search of neoplastic cells did not detect tumor cells, patient did not tolerate BAL. Spirometry objectified a ventilatory disorder of restrictive pace with a forced vital capacity at 3.02l or 43%.",
+        "clinical_data": {
+          "imaging": [
+            {
+              "type": "Computed tomography",
+              "body_part": "Chest",
+              "modality": "CT",
+              "finding": "bilateral consolidations with ground glass"
+            }
+          ],
+          "procedures": [
+            {
+              "name": "Bronchial fibroscopy",
+              "approach": "endoscopic",
+              "outcome": "normal endoscopic appearance"
+            },
+            {
+              "name": "Bronchial biopsy",
+              "outcome": "normal"
+            },
+            {
+              "name": "Fibroaspiration",
+              "outcome": "no tumor cells detected"
+            }
+          ],
+          "labs": [
+            {
+              "test": "Forced vital capacity",
+              "value": "3.02",
+              "unit": "l",
+              "flag": "abnormal",
+              "reference_range": "43%"
+            }
+          ],
+          "diagnoses": [
+            {
+              "code": "Restrictive ventilatory defect",
+              "label": "Restrictive ventilatory defect",
+              "status": "active"
+            }
+          ]
+        }
+      }
+    },
+    {
+      "id": "N6",
+      "label": "Step 6",
+      "customData": {
+        "node_id": "F",
+        "clinical_data": {}
+      }
+    }
+  ],
+  "edges": [
+    {
+      "from": "N1",
+      "to": "N2",
+      "data": {
+        "edge_id": "A_to_B",
+        "branch_flag": true,
+        "content": "Patient's condition worsened, leading to acute respiratory distress.",
+        "transition_event": {
+          "trigger_type": "symptom_onset",
+          "trigger_entities": [
+            "C0013404",
+            "C0238334",
+            "C0010467"
+          ],
+          "change_type": "progression",
+          "target_domain": "symptom"
+        }
+      }
+    },
+    {
+      "from": "N2",
+      "to": "N3",
+      "data": {
+        "edge_id": "B_to_C",
+        "branch_flag": true,
+        "content": "Diagnostic workup initiated to investigate the cause of respiratory distress.",
+        "transition_event": {
+          "trigger_type": "procedure",
+          "trigger_entities": [
+            "C0008031",
+            "C0441714"
+          ],
+          "change_type": "addition",
+          "target_domain": "imaging"
+        }
+      }
+    },
+    {
+      "from": "N3",
+      "to": "N4",
+      "data": {
+        "edge_id": "C_to_D",
+        "branch_flag": true,
+        "content": "Further imaging performed to characterize lung abnormalities.",
+        "transition_event": {
+          "trigger_type": "procedure",
+          "trigger_entities": [
+            "C0008031"
+          ],
+          "change_type": "addition",
+          "target_domain": "imaging"
+        }
+      }
+    },
+    {
+      "from": "N4",
+      "to": "N5",
+      "data": {
+        "edge_id": "D_to_E",
+        "branch_flag": true,
+        "content": "Bronchoscopy and biopsies performed to evaluate lung abnormalities.",
+        "transition_event": {
+          "trigger_type": "procedure",
+          "trigger_entities": [
+            "C0006266",
+            "C0005738"
+          ],
+          "change_type": "addition",
+          "target_domain": "procedure"
+        }
+      }
+    },
+    {
+      "from": "N5",
+      "to": "N6",
+      "data": {
+        "edge_id": "E_to_F",
+        "branch_flag": true,
+        "content": "Further diagnostic evaluation"
+      }
+    }
+  ]
+}

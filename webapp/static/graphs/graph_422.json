@@ -1,0 +1,401 @@
+{
+  "nodes": [
+    {
+      "id": "N1",
+      "label": "Step 1",
+      "customData": {
+        "node_id": "A",
+        "node_step_index": 0,
+        "content": "45-year-old Chinese woman admitted for metastatic NSCLC treatment.",
+        "clinical_data": {
+          "diagnoses": [
+            {
+              "code": "C34",
+              "label": "Malignant neoplasm of bronchus and lung",
+              "status": "active",
+              "onset_date": null
+            }
+          ]
+        }
+      }
+    },
+    {
+      "id": "N2",
+      "label": "Step 2",
+      "customData": {
+        "node_id": "B",
+        "node_step_index": 1,
+        "content": "Thoracoscopic right middle and lower lobectomy, partial left atrial resection, pericardiotomy, and lymph node dissection performed on November 21, 2017.",
+        "timestamp": "2017-11-21",
+        "clinical_data": {
+          "procedures": [
+            {
+              "name": "Lobectomy",
+              "approach": "thoracoscopic",
+              "date": "2017-11-21",
+              "location": "right middle lobe",
+              "performed_by": "unknown",
+              "outcome": "unknown"
+            },
+            {
+              "name": "Lobectomy",
+              "approach": "thoracoscopic",
+              "date": "2017-11-21",
+              "location": "right lower lobe",
+              "performed_by": "unknown",
+              "outcome": "unknown"
+            },
+            {
+              "name": "Partial resection of left atrium",
+              "approach": "unknown",
+              "date": "2017-11-21",
+              "location": "left atrium",
+              "performed_by": "unknown",
+              "outcome": "unknown"
+            },
+            {
+              "name": "Pericardiotomy",
+              "approach": "unknown",
+              "date": "2017-11-21",
+              "location": "pericardium",
+              "performed_by": "unknown",
+              "outcome": "unknown"
+            },
+            {
+              "name": "Lymph node dissection",
+              "approach": "unknown",
+              "date": "2017-11-21",
+              "location": "lymph node",
+              "performed_by": "unknown",
+              "outcome": "unknown"
+            }
+          ]
+        }
+      }
+    },
+    {
+      "id": "N3",
+      "label": "Step 3",
+      "customData": {
+        "node_id": "C",
+        "node_step_index": 2,
+        "content": "Histopathological diagnosis: Stage \u2162C adenocarcinoma of the right middle lobe (pT4N3M0). No tumor involvement in the parenchyma of the right lower lobe but cancer infiltration in the left atrial wall and left parabronchial bronchi; metastasis detected in some mediastinal lymph nodes.",
+        "clinical_data": {
+          "diagnoses": [
+            {
+              "code": "C34.3",
+              "label": "Malignant neoplasm of middle lobe, bronchus or lung",
+              "status": "active",
+              "onset_date": null
+            },
+            {
+              "code": "C77.9",
+              "label": "Secondary and unspecified malignant neoplasm of lymph node, unspecified",
+              "status": "active",
+              "onset_date": null
+            }
+          ],
+          "imaging": [
+            {
+              "type": "Finding",
+              "body_part": "Lung",
+              "modality": "Histopathology",
+              "finding": "Stage \u2162C adenocarcinoma",
+              "impression": "Stage \u2162C adenocarcinoma of the right middle lobe (pT4N3M0). No tumor involvement in the parenchyma of the right lower lobe but cancer infiltration in the left atrial wall and left parabronchial bronchi; metastasis detected in some mediastinal lymph nodes.",
+              "date": null
+            }
+          ]
+        }
+      }
+    },
+    {
+      "id": "N4",
+      "label": "Step 4",
+      "customData": {
+        "node_id": "D",
+        "node_step_index": 3,
+        "content": "EGFR exon 19 deletion mutation detected by next-generation sequencing (NGS).",
+        "clinical_data": {
+          "diagnoses": [
+            {
+              "code": "288417001",
+              "label": "EGFR exon 19 deletion mutation",
+              "status": "active"
+            }
+          ]
+        }
+      }
+    },
+    {
+      "id": "N5",
+      "label": "Step 5",
+      "customData": {
+        "node_id": "E",
+        "node_step_index": 4,
+        "content": "Patient received icotinib (125 mg/d, tid).",
+        "clinical_data": {
+          "medications": [
+            {
+              "drug": "icotinib",
+              "dosage": "125 mg",
+              "frequency": "tid",
+              "modality": "oral"
+            }
+          ]
+        }
+      }
+    },
+    {
+      "id": "N6",
+      "label": "Step 6",
+      "customData": {
+        "node_id": "F",
+        "node_step_index": 5,
+        "content": "Eight months after icotinib treatment, CT showed metastases in the liver. Icotinib was discontinued.",
+        "clinical_data": {
+          "imaging": [
+            {
+              "type": "metastases",
+              "body_part": "liver",
+              "modality": "CT",
+              "date": null
+            }
+          ],
+          "medications": [
+            {
+              "drug": "icotinib",
+              "end_date": null
+            }
+          ]
+        }
+      }
+    },
+    {
+      "id": "N7",
+      "label": "Step 7",
+      "customData": {
+        "node_id": "G",
+        "node_step_index": 6,
+        "content": "Chemotherapy performed for 24 days.",
+        "clinical_data": {
+          "procedures": [
+            {
+              "name": "Chemotherapy",
+              "date": null
+            }
+          ]
+        }
+      }
+    },
+    {
+      "id": "N8",
+      "label": "Step 8",
+      "customData": {
+        "node_id": "H",
+        "node_step_index": 7,
+        "content": "CT revealed thoracic spine metastasis, suggestive of prior treatment failure.",
+        "clinical_data": {
+          "imaging": [
+            {
+              "type": "Computed tomography",
+              "body_part": "Thoracic spine",
+              "modality": "CT",
+              "finding": "metastasis",
+              "impression": "suggestive of prior treatment failure"
+            }
+          ]
+        }
+      }
+    },
+    {
+      "id": "N9",
+      "label": "Step 9",
+      "customData": {
+        "node_id": "I",
+        "node_step_index": 8,
+        "content": "Patient began receiving icotinib combined with bevacizumab.",
+        "clinical_data": {
+          "medications": [
+            {
+              "drug": "C0886869",
+              "dosage": null,
+              "frequency": null,
+              "modality": null,
+              "start_date": null,
+              "end_date": null,
+              "indication": null
+            },
+            {
+              "drug": "C0698799",
+              "dosage": null,
+              "frequency": null,
+              "modality": null,
+              "start_date": null,
+              "end_date": null,
+              "indication": null
+            }
+          ]
+        }
+      }
+    },
+    {
+      "id": "N10",
+      "label": "Step 10",
+      "customData": {
+        "node_id": "J",
+        "node_step_index": 9,
+        "content": "Icotinib and bevacizumab switched to chemotherapy 6 months later due",
+        "clinical_data": {
+          "medications": [
+            {
+              "drug": "Icotinib",
+              "end_date": "6 months later"
+            },
+            {
+              "drug": "bevacizumab",
+              "end_date": "6 months later"
+            },
+            {
+              "drug": "chemotherapy",
+              "start_date": "6 months later"
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "edges": [
+    {
+      "from": "N1",
+      "to": "N2",
+      "data": {
+        "edge_id": "A_to_B",
+        "branch_flag": true,
+        "content": "Patient underwent thoracoscopic right middle and lower lobectomy, partial left atrial resection, pericardiotomy, and lymph node dissection."
+      }
+    },
+    {
+      "from": "N2",
+      "to": "N3",
+      "data": {
+        "edge_id": "B_to_C",
+        "branch_flag": true,
+        "content": "Histopathological diagnosis revealed Stage \u2162C adenocarcinoma of the right middle lobe (pT4N3M0). No tumor involvement in the parenchyma of the right lower lobe but cancer infiltration in the left atrial wall and left parabronchial bronchi; metastasis detected in some mediastinal lymph nodes."
+      }
+    },
+    {
+      "from": "N3",
+      "to": "N4",
+      "data": {
+        "edge_id": "C_to_D",
+        "branch_flag": true,
+        "content": "Next-generation sequencing (NGS) detected an EGFR exon 19 deletion mutation."
+      }
+    },
+    {
+      "from": "N4",
+      "to": "N5",
+      "data": {
+        "edge_id": "D_to_E",
+        "branch_flag": true,
+        "content": "Patient started on icotinib (125 mg/d, tid).",
+        "transition_event": {
+          "trigger_type": "medication_change",
+          "trigger_entities": [
+            "C0886869"
+          ],
+          "change_type": "addition",
+          "target_domain": "medication"
+        }
+      }
+    },
+    {
+      "from": "N5",
+      "to": "N6",
+      "data": {
+        "edge_id": "E_to_F",
+        "branch_flag": true,
+        "content": "Eight months after icotinib treatment, CT showed metastases in the liver. Icotinib was discontinued.",
+        "transition_event": {
+          "trigger_type": "imaging",
+          "trigger_entities": [
+            "liver"
+          ],
+          "change_type": "progression",
+          "target_domain": "imaging"
+        }
+      }
+    },
+    {
+      "from": "N6",
+      "to": "N7",
+      "data": {
+        "edge_id": "F_to_G",
+        "branch_flag": true,
+        "content": "Chemotherapy performed for 24 days.",
+        "transition_event": {
+          "trigger_type": "procedure",
+          "trigger_entities": [
+            "C0009372"
+          ],
+          "change_type": "addition",
+          "target_domain": "procedure"
+        }
+      }
+    },
+    {
+      "from": "N7",
+      "to": "N8",
+      "data": {
+        "edge_id": "G_to_H",
+        "branch_flag": true,
+        "content": "CT revealed thoracic spine metastasis, suggestive of prior treatment failure.",
+        "transition_event": {
+          "trigger_type": "imaging",
+          "trigger_entities": [
+            "thoracic spine"
+          ],
+          "change_type": "progression",
+          "target_domain": "imaging"
+        }
+      }
+    },
+    {
+      "from": "N8",
+      "to": "N9",
+      "data": {
+        "edge_id": "H_to_I",
+        "branch_flag": true,
+        "content": "Patient began receiving icotinib combined with bevacizumab.",
+        "transition_event": {
+          "trigger_type": "medication_change",
+          "trigger_entities": [
+            "C0886869",
+            "C0698799"
+          ],
+          "change_type": "addition",
+          "target_domain": "medication"
+        }
+      }
+    },
+    {
+      "from": "N9",
+      "to": "N10",
+      "data": {
+        "edge_id": "I_to_J",
+        "branch_flag": true,
+        "content": "Icotinib and bevacizumab switched to chemotherapy 6 months later",
+        "transition_event": {
+          "trigger_type": "medication_change",
+          "trigger_entities": [
+            "C0886869",
+            "C0698799",
+            "C0009372"
+          ],
+          "change_type": "other",
+          "target_domain": "medication"
+        }
+      }
+    }
+  ]
+}

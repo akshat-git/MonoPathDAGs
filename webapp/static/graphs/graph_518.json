@@ -1,0 +1,133 @@
+{
+  "nodes": [
+    {
+      "id": "N1",
+      "label": "Step 1",
+      "customData": {
+        "node_id": "A",
+        "node_step_index": 0,
+        "content": "Patient had anti-cardiolipin (aCL) antibodies detected: aCL IgM 26 MPL/mL and aCL IgA 60 APL/mL. Lupus anticoagulant (LAC), aCL IgG, and autoantibodies to B2-glycoprotein 1 were negative. Previous test results of antinuclear antibodies, antineutrophil cytoplasmic autoantibodies, and antibodies to double-stranded DNA were negative. Complement C3 and C4 levels were normal. Blood and sputum cultures were negative.",
+        "clinical_data": {
+          "labs": [
+            {
+              "test": "Anti-cardiolipin IgM",
+              "value": "26",
+              "unit": "MPL/mL",
+              "flag": "abnormal"
+            },
+            {
+              "test": "Anti-cardiolipin IgA",
+              "value": "60",
+              "unit": "APL/mL",
+              "flag": "abnormal"
+            },
+            {
+              "test": "Lupus anticoagulant",
+              "value": "negative",
+              "flag": "normal"
+            },
+            {
+              "test": "Anti-cardiolipin IgG",
+              "value": "negative",
+              "flag": "normal"
+            },
+            {
+              "test": "Autoantibodies to B2-glycoprotein 1",
+              "value": "negative",
+              "flag": "normal"
+            },
+            {
+              "test": "Antinuclear antibodies",
+              "value": "negative",
+              "flag": "normal"
+            },
+            {
+              "test": "Antineutrophil cytoplasmic autoantibodies",
+              "value": "negative",
+              "flag": "normal"
+            },
+            {
+              "test": "Antibodies to double-stranded DNA",
+              "value": "negative",
+              "flag": "normal"
+            },
+            {
+              "test": "Complement C3",
+              "value": "normal",
+              "flag": "normal"
+            },
+            {
+              "test": "Complement C4",
+              "value": "normal",
+              "flag": "normal"
+            },
+            {
+              "test": "Blood culture",
+              "value": "negative",
+              "flag": "normal"
+            },
+            {
+              "test": "Sputum culture",
+              "value": "negative",
+              "flag": "normal"
+            }
+          ]
+        }
+      }
+    },
+    {
+      "id": "N2",
+      "label": "Step 2",
+      "customData": {
+        "node_id": "B",
+        "node_step_index": 1,
+        "content": "Patient with advanced melanoma was treated with pembrolizumab and subsequently developed multiple organ failure due to Catastrophic Antiphospholipid Syndrome (CAPS). ",
+        "clinical_data": {
+          "diagnoses": [
+            {
+              "code": "C43",
+              "label": "Melanoma",
+              "status": "active"
+            },
+            {
+              "code": "D68.69",
+              "label": "Catastrophic antiphospholipid syndrome",
+              "status": "active"
+            }
+          ],
+          "medications": [
+            {
+              "drug": "C3876536",
+              "dosage": null,
+              "frequency": null,
+              "modality": null,
+              "start_date": null,
+              "end_date": null,
+              "indication": "C43"
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "edges": [
+    {
+      "from": "N1",
+      "to": "N2",
+      "data": {
+        "edge_id": "A_to_B",
+        "branch_flag": true,
+        "content": "Patient with anti-cardiolipin (aCL) antibodies detected developed multiple organ failure due to Catastrophic Antiphospholipid Syndrome (CAPS) after treatment with pembrolizumab for advanced melanoma.",
+        "transition_event": {
+          "trigger_type": "medication_change",
+          "trigger_entities": [
+            "C3876536",
+            "C0025202"
+          ],
+          "change_type": "addition",
+          "target_domain": "diagnosis"
+        }
+      }
+    }
+  ]
+}

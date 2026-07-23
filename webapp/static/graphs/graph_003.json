@@ -1,0 +1,518 @@
+{
+  "nodes": [
+    {
+      "id": "N1",
+      "label": "Step 1",
+      "customData": {
+        "node_id": "A",
+        "node_step_index": 0,
+        "content": "73-year-old male with extensive-stage small-cell lung cancer (SCLC) diagnosed 15 months prior. Received 6 cycles of carboplatin/etoposide chemotherapy, followed by thoracic radiotherapy and prophylactic cranial irradiation. Lost 20 kg of body weight within 12 months.",
+        "clinical_data": {
+          "diagnoses": [
+            {
+              "code": "C8014",
+              "label": "Small cell carcinoma of lung",
+              "status": "active",
+              "onset_date": null
+            }
+          ],
+          "medications": [
+            {
+              "drug": "C1287487",
+              "dosage": null,
+              "frequency": null,
+              "modality": "IV",
+              "start_date": null,
+              "end_date": null,
+              "indication": "C8014"
+            },
+            {
+              "drug": "C0015862",
+              "dosage": null,
+              "frequency": null,
+              "modality": "IV",
+              "start_date": null,
+              "end_date": null,
+              "indication": "C8014"
+            }
+          ],
+          "procedures": [
+            {
+              "name": "C0040224",
+              "approach": null,
+              "date": null,
+              "location": "T234710",
+              "performed_by": null,
+              "outcome": null
+            },
+            {
+              "name": "C0262701",
+              "approach": null,
+              "date": null,
+              "location": "C0010378",
+              "performed_by": null,
+              "outcome": null
+            }
+          ],
+          "HPI": [
+            {
+              "summary": "Lost 20 kg of body weight within 12 months",
+              "duration": "P12M",
+              "onset": null,
+              "progression": "gradual",
+              "associated_symptoms": [],
+              "alleviating_factors": [],
+              "exacerbating_factors": []
+            }
+          ]
+        }
+      },
+      "custom_id": "graph_003_N0"
+    },
+    {
+      "id": "N2",
+      "label": "Step 2",
+      "customData": {
+        "node_id": "B",
+        "node_step_index": 1,
+        "content": "Presented to the emergency department with dyspnea, abdominal distension, and lower-extremity edema due to severe IVC stenosis.",
+        "clinical_data": {
+          "HPI": [
+            {
+              "summary": "Patient presented to the emergency department with dyspnea, abdominal distension, and lower-extremity edema.",
+              "associated_symptoms": [
+                "C0013404",
+                "C0000729",
+                "C0014505"
+              ]
+            }
+          ],
+          "diagnoses": [
+            {
+              "code": "C0340447",
+              "label": "stenosis of inferior vena cava",
+              "status": "active"
+            }
+          ]
+        }
+      },
+      "custom_id": "graph_003_N1"
+    },
+    {
+      "id": "N3",
+      "label": "Step 3",
+      "customData": {
+        "node_id": "C",
+        "node_step_index": 2,
+        "content": "ECOG performance status 4. Vital signs: BP 100/70 mmHg, HR 90 bpm, SpO2 89%, Temp 36.9\u00b0C. Labs: Hemoglobin 12.6 g/dL, platelets 260 x 10^3/\u03bcL, alkaline phosphatase 94 U/L, ALT 40 U/L, AST 34 U/L, total bilirubin 0.88 mg/dL, INR 1.3. CT chest/abdomen: heterogeneously enhancing mass in the right lower and middle lung (17.6 cm), mostly solid with large necrotic areas. Multiple enlarged mediastinal lymph nodes, infiltration of the visceral pleura and right hemidiaphragm, ascites, and peritoneal metastases. Significant compression and stenosis of the suprahepatic segment of the IVC prior to insertion into the right atrium (RA). Large tumor involving the right lower and middle lung lobe measured (17.6 x 19.3 x 18.6) mm (maximal axial x coronal x sagittal dimension), which causes significant compression of the IVC.",
+        "clinical_data": {
+          "vitals": [
+            {
+              "type": "Blood pressure",
+              "value": "100/70",
+              "unit": "mmHg"
+            },
+            {
+              "type": "Heart rate",
+              "value": "90",
+              "unit": "bpm"
+            },
+            {
+              "type": "Oxygen saturation",
+              "value": "89",
+              "unit": "%"
+            },
+            {
+              "type": "Body temperature",
+              "value": "36.9",
+              "unit": "\u00b0C"
+            }
+          ],
+          "labs": [
+            {
+              "test": "Hemoglobin",
+              "value": "12.6",
+              "unit": "g/dL"
+            },
+            {
+              "test": "Platelets",
+              "value": "260",
+              "unit": "x 10^3/\u03bcL"
+            },
+            {
+              "test": "Alkaline phosphatase",
+              "value": "94",
+              "unit": "U/L"
+            },
+            {
+              "test": "Alanine transaminase",
+              "value": "40",
+              "unit": "U/L"
+            },
+            {
+              "test": "Aspartate transaminase",
+              "value": "34",
+              "unit": "U/L"
+            },
+            {
+              "test": "Total bilirubin",
+              "value": "0.88",
+              "unit": "mg/dL"
+            },
+            {
+              "test": "INR",
+              "value": "1.3"
+            }
+          ],
+          "imaging": [
+            {
+              "type": "Mass",
+              "body_part": "Lung",
+              "modality": "CT",
+              "finding": "Heterogeneously enhancing mass in the right lower and middle lung (17.6 cm), mostly solid with large necrotic areas",
+              "date": null
+            },
+            {
+              "type": "Lymph node",
+              "body_part": "Mediastinum",
+              "modality": "CT",
+              "finding": "Multiple enlarged mediastinal lymph nodes",
+              "date": null
+            },
+            {
+              "type": "Pleural effusion",
+              "body_part": "Visceral pleura",
+              "modality": "CT",
+              "finding": "Infiltration of the visceral pleura and right hemidiaphragm",
+              "date": null
+            },
+            {
+              "type": "Ascites",
+              "body_part": "Abdomen",
+              "modality": "CT",
+              "finding": "Ascites",
+              "date": null
+            },
+            {
+              "type": "Metastasis",
+              "body_part": "Peritoneum",
+              "modality": "CT",
+              "finding": "Peritoneal metastases",
+              "date": null
+            },
+            {
+              "type": "Compression",
+              "body_part": "Inferior vena cava",
+              "modality": "CT",
+              "finding": "Significant compression and stenosis of the suprahepatic segment of the IVC prior to insertion into the right atrium (RA)",
+              "date": null
+            },
+            {
+              "type": "Tumor",
+              "body_part": "Right lower and middle lung lobe",
+              "modality": "CT",
+              "finding": "Large tumor involving the right lower and middle lung lobe measured (17.6 x 19.3 x 18.6) mm (maximal axial x coronal x sagittal dimension), which causes significant compression of the IVC",
+              "date": null
+            }
+          ],
+          "functional_status": [
+            {
+              "domain": "general",
+              "description": "ECOG performance status 4",
+              "score": "4",
+              "scale": "ECOG"
+            }
+          ]
+        }
+      },
+      "custom_id": "graph_003_N2"
+    },
+    {
+      "id": "N4",
+      "label": "Step 4",
+      "customData": {
+        "node_id": "F",
+        "node_step_index": 5,
+        "content": "Endovascular intervention planned. Written informed consent obtained. 5F sheath inserted into the right basilic vein and a 10F sheath into the right common femoral vein under local anesthesia. Venography showed significant compression of the suprahepatic IVC.",
+        "clinical_data": {
+          "procedures": [
+            {
+              "name": "Endovascular intervention",
+              "approach": "percutaneous",
+              "date": null,
+              "location": "suprahepatic IVC",
+              "performed_by": null,
+              "outcome": null
+            },
+            {
+              "name": "Venography",
+              "approach": "percutaneous",
+              "date": null,
+              "location": "suprahepatic IVC",
+              "performed_by": null,
+              "outcome": null
+            },
+            {
+              "name": "Insertion of sheath",
+              "approach": "percutaneous",
+              "date": null,
+              "location": "right basilic vein",
+              "performed_by": null,
+              "outcome": null
+            },
+            {
+              "name": "Insertion of sheath",
+              "approach": "percutaneous",
+              "date": null,
+              "location": "right common femoral vein",
+              "performed_by": null,
+              "outcome": null
+            }
+          ],
+          "diagnoses": [
+            {
+              "code": null,
+              "label": "significant compression of the suprahepatic IVC",
+              "status": "active",
+              "onset_date": null
+            }
+          ]
+        }
+      },
+      "custom_id": "graph_003_N3"
+    },
+    {
+      "id": "N5",
+      "label": "Step 5",
+      "customData": {
+        "node_id": "G",
+        "node_step_index": 6,
+        "content": "IVC stenosis was passed using a 0.035-inch hydrophilic guidewire and a multipurpose catheter. Mechanical thrombectomy performed, but no thrombotic material was extracted. A stiffer exchange guidewire was placed with its distal tip positioned in the right subclavian vein. Three uncovered self-expanding nitinol sinus-XL stents (OptiMed, Ettlingen, Germany) were deployed in tandem from the SVC to the IVC with overlap. Stent sizes: 18 \u00d7 80 mm, 18 \u00d7 60 mm, and 16 \u00d7 80 mm, placed in a cephalic-to-caudal orientation.",
+        "clinical_data": {
+          "procedures": [
+            {
+              "name": "Mechanical thrombectomy",
+              "approach": "other",
+              "location": "IVC",
+              "outcome": "no thrombotic material was extracted"
+            },
+            {
+              "name": "Stent placement",
+              "approach": "percutaneous",
+              "location": "SVC to the IVC",
+              "performed_by": "unknown",
+              "outcome": "unknown"
+            }
+          ]
+        }
+      },
+      "custom_id": "graph_003_N4"
+    },
+    {
+      "id": "N6",
+      "label": "Step 6",
+      "customData": {
+        "node_id": "H",
+        "node_step_index": 7,
+        "content": "Final venography revealed adequate flow through the vena cava and bridging stents. Digital venography illustrating significant stenosis of the suprahepatic inferior vena cava (IVC) due to compression. Low-molecular-weight heparin was administered.",
+        "clinical_data": {
+          "imaging": [
+            {
+              "type": "Venography",
+              "body_part": "vena cava",
+              "modality": "other",
+              "finding": "adequate flow through the vena cava and bridging stents",
+              "date": null
+            },
+            {
+              "type": "Digital venography",
+              "body_part": "suprahepatic inferior vena cava (IVC)",
+              "modality": "other",
+              "finding": "significant stenosis",
+              "impression": "compression",
+              "date": null
+            }
+          ],
+          "medications": [
+            {
+              "drug": "low-molecular-weight heparin",
+              "modality": null,
+              "start_date": null,
+              "end_date": null,
+              "dosage": null,
+              "frequency": null,
+              "indication": null
+            }
+          ]
+        }
+      },
+      "custom_id": "graph_003_N5"
+    },
+    {
+      "id": "N7",
+      "label": "Step 7",
+      "customData": {
+        "node_id": "I",
+        "node_step_index": 8,
+        "content": "IVCS symptoms, mainly trunk and lower limb edema, were significantly alleviated within 48 h.",
+        "clinical_data": {
+          "HPI": [
+            {
+              "alleviating_factors": [
+                "trunk edema",
+                "lower limb edema"
+              ],
+              "duration": "48 h"
+            }
+          ]
+        }
+      },
+      "custom_id": "graph_003_N6"
+    },
+    {
+      "id": "N8",
+      "label": "Step 8",
+      "customData": {
+        "node_id": "J",
+        "node_step_index": 9,
+        "content": "The patient died 8 days later from his primary disease.",
+        "clinical_data": {}
+      },
+      "custom_id": "graph_003_N7"
+    }
+  ],
+  "edges": [
+    {
+      "from": "N1",
+      "to": "N2",
+      "data": {
+        "edge_id": "A_to_B",
+        "branch_flag": true,
+        "content": "Progression of SCLC leading to dyspnea, abdominal distension, and lower-extremity edema.",
+        "transition_event": {
+          "trigger_type": "symptom_onset",
+          "trigger_entities": [
+            "C0013404",
+            "C0000729",
+            "C0014505"
+          ],
+          "change_type": "progression",
+          "target_domain": "symptom"
+        }
+      },
+      "custom_id": "graph_003_N1_N2"
+    },
+    {
+      "from": "N2",
+      "to": "N3",
+      "data": {
+        "edge_id": "B_to_C",
+        "branch_flag": true,
+        "content": "Evaluation in the emergency department revealed poor performance status, abnormal vital signs, and significant tumor burden with IVC compression.",
+        "transition_event": {
+          "trigger_type": "interpretation",
+          "trigger_entities": [
+            "C0015967",
+            "C0239953",
+            "C0020538"
+          ],
+          "change_type": "progression",
+          "target_domain": "diagnosis"
+        }
+      },
+      "custom_id": "graph_003_N2_N3"
+    },
+    {
+      "from": "N3",
+      "to": "N4",
+      "data": {
+        "edge_id": "C_to_F",
+        "branch_flag": true,
+        "content": "Decision to proceed with endovascular intervention due to IVC stenosis.",
+        "transition_event": {
+          "trigger_type": "procedure",
+          "trigger_entities": [
+            "C0014505",
+            "C0340447"
+          ],
+          "change_type": "addition",
+          "target_domain": "procedure"
+        }
+      },
+      "custom_id": "graph_003_N3_N4"
+    },
+    {
+      "from": "N4",
+      "to": "N5",
+      "data": {
+        "edge_id": "F_to_G",
+        "branch_flag": true,
+        "content": "Endovascular intervention involving thrombectomy and stent placement to address IVC stenosis.",
+        "transition_event": {
+          "trigger_type": "procedure",
+          "trigger_entities": [
+            "C0040025",
+            "C0037073"
+          ],
+          "change_type": "addition",
+          "target_domain": "procedure"
+        }
+      },
+      "custom_id": "graph_003_N4_N5"
+    },
+    {
+      "from": "N5",
+      "to": "N6",
+      "data": {
+        "edge_id": "G_to_H",
+        "branch_flag": true,
+        "content": "Post-intervention venography showing improved flow, and administration of low-molecular-weight heparin.",
+        "transition_event": {
+          "trigger_type": "medication_change",
+          "trigger_entities": [
+            "C0020037"
+          ],
+          "change_type": "addition",
+          "target_domain": "medication"
+        }
+      },
+      "custom_id": "graph_003_N5_N6"
+    },
+    {
+      "from": "N6",
+      "to": "N7",
+      "data": {
+        "edge_id": "H_to_I",
+        "branch_flag": true,
+        "content": "Improvement of IVCS symptoms (trunk and lower limb edema) following intervention.",
+        "transition_event": {
+          "trigger_type": "symptom_onset",
+          "trigger_entities": [
+            "C0014505"
+          ],
+          "change_type": "resolution",
+          "target_domain": "symptom"
+        }
+      },
+      "custom_id": "graph_003_N6_N7"
+    },
+    {
+      "from": "N7",
+      "to": "N8",
+      "data": {
+        "edge_id": "I_to_J",
+        "branch_flag": true,
+        "content": "Patient's death due to the primary disease (SCLC).",
+        "transition_event": {
+          "trigger_type": "spontaneous",
+          "trigger_entities": [
+            "C0011923"
+          ],
+          "change_type": "progression",
+          "target_domain": "functional_status"
+        }
+      },
+      "custom_id": "graph_003_N7_N8"
+    }
+  ]
+}

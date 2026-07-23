@@ -1,0 +1,297 @@
+{
+  "nodes": [
+    {
+      "id": "N1",
+      "label": "Step 1",
+      "customData": {
+        "node_id": "A",
+        "node_step_index": 0,
+        "content": "October 2015: 70-year-old never-smoking female presented with cough and dyspnoea during exercise.",
+        "clinical_data": {
+          "HPI": [
+            {
+              "summary": "70-year-old female presented with cough and dyspnoea during exercise.",
+              "onset": "October 2015",
+              "associated_symptoms": [
+                "C0010200",
+                "C0013404"
+              ]
+            }
+          ],
+          "social_history": [
+            {
+              "category": "smoking",
+              "status": "never"
+            }
+          ]
+        },
+        "timestamp": "2015-10"
+      }
+    },
+    {
+      "id": "N2",
+      "label": "Step 2",
+      "customData": {
+        "node_id": "B",
+        "node_step_index": 1,
+        "content": "CT and 18F-FDG-PET showed a spiculated nodule in the lingula of the lung, additional bilateral pulmonary nodules and enlarged locoregional lymph nodes.",
+        "clinical_data": {
+          "imaging": [
+            {
+              "type": "Pulmonary nodule",
+              "body_part": "Lingula of the lung",
+              "modality": "CT",
+              "finding": "spiculated nodule",
+              "date": null
+            },
+            {
+              "type": "Pulmonary nodule",
+              "body_part": "Lung",
+              "modality": "CT",
+              "finding": "additional bilateral pulmonary nodules",
+              "date": null
+            },
+            {
+              "type": "Lymph node enlargement",
+              "body_part": "Locoregional lymph nodes",
+              "modality": "CT",
+              "finding": "enlarged",
+              "date": null
+            },
+            {
+              "type": "Pulmonary nodule",
+              "body_part": "Lingula of the lung",
+              "modality": "PET",
+              "finding": "spiculated nodule",
+              "date": null
+            },
+            {
+              "type": "Pulmonary nodule",
+              "body_part": "Lung",
+              "modality": "PET",
+              "finding": "additional bilateral pulmonary nodules",
+              "date": null
+            },
+            {
+              "type": "Lymph node enlargement",
+              "body_part": "Locoregional lymph nodes",
+              "modality": "PET",
+              "finding": "enlarged",
+              "date": null
+            }
+          ]
+        },
+        "timestamp": "2015-10"
+      }
+    },
+    {
+      "id": "N3",
+      "label": "Step 3",
+      "customData": {
+        "node_id": "C",
+        "node_step_index": 2,
+        "content": "Primary adenocarcinoma of the lung was diagnosed by BAL and biopsy of a bronchial mass (TNM staging (7th edition): cT4, cN3, cM1a, stage IV). NGS revealed a classical EGFR mutation in exon 21 (p.L858R;c.2573T > G). MET amplification (mean gene copy number 9; MET/CEN7-ratio 2.4) was detected by FISH.",
+        "clinical_data": {
+          "diagnoses": [
+            {
+              "code": "C34.9",
+              "label": "Primary adenocarcinoma of the lung",
+              "status": "active"
+            }
+          ],
+          "imaging": [
+            {
+              "type": "bronchial mass",
+              "body_part": "bronchial",
+              "modality": "other",
+              "finding": "bronchial mass"
+            }
+          ],
+          "labs": [
+            {
+              "test": "NGS",
+              "value": "EGFR mutation in exon 21 (p.L858R;c.2573T > G)",
+              "unit": null,
+              "flag": "abnormal"
+            },
+            {
+              "test": "FISH",
+              "value": "MET amplification (mean gene copy number 9; MET/CEN7-ratio 2.4)",
+              "unit": null,
+              "flag": "abnormal"
+            }
+          ]
+        },
+        "timestamp": "2015-10"
+      }
+    },
+    {
+      "id": "N4",
+      "label": "Step 4",
+      "customData": {
+        "node_id": "E",
+        "node_step_index": 4,
+        "content": "November 2015: Started on first-line erlotinib (150 mg daily).",
+        "clinical_data": {
+          "medications": [
+            {
+              "drug": "erlotinib",
+              "dosage": "150 mg daily",
+              "frequency": "daily",
+              "modality": "oral",
+              "start_date": "2015-11",
+              "end_date": null
+            }
+          ]
+        },
+        "timestamp": "2015-11"
+      }
+    },
+    {
+      "id": "N5",
+      "label": "Step 5",
+      "customData": {
+        "node_id": "F",
+        "node_step_index": 5,
+        "content": "February 2016: Complained about increasing cough and dyspnoea due to pulmonary progression.",
+        "clinical_data": {
+          "HPI": [
+            {
+              "summary": "Increasing cough and dyspnoea due to pulmonary progression.",
+              "onset": "February 2016",
+              "progression": "gradual",
+              "associated_symptoms": [
+                "C0010200",
+                "C0013404"
+              ]
+            }
+          ]
+        },
+        "timestamp": "2016-02"
+      }
+    },
+    {
+      "id": "N6",
+      "label": "Step 6",
+      "customData": {
+        "node_id": "G",
+        "node_step_index": 6,
+        "content": "Molecular testing of carcinoma cells from BAL showed no EGFR T790M mutation. Started on carboplatin and pemetrexed followed by pemetrexed maintenance, resulting in a partial remission for 32 months.",
+        "clinical_data": {
+          "labs": [
+            {
+              "test": "EGFR T790M mutation",
+              "value": "no",
+              "unit": null,
+              "flag": "abnormal"
+            }
+          ],
+          "medications": [
+            {
+              "drug": "carboplatin",
+              "dosage": null,
+              "frequency": null,
+              "modality": null,
+              "start_date": null,
+              "end_date": null,
+              "indication": "carcinoma"
+            },
+            {
+              "drug": "pemetrexed",
+              "dosage": null,
+              "frequency": null,
+              "modality": null,
+              "start_date": null,
+              "end_date": null,
+              "indication": "carcinoma"
+            },
+            {
+              "drug": "pemetrexed",
+              "dosage": null,
+              "frequency": null,
+              "modality": null,
+              "start_date": null,
+              "end_date": null,
+              "indication": "maintenance"
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "edges": [
+    {
+      "from": "N1",
+      "to": "N2",
+      "data": {
+        "edge_id": "A_to_B",
+        "branch_flag": true,
+        "content": "Patient went from initial presentation to undergoing CT and PET imaging."
+      }
+    },
+    {
+      "from": "N2",
+      "to": "N3",
+      "data": {
+        "edge_id": "B_to_C",
+        "branch_flag": true,
+        "content": "Imaging findings led to BAL and biopsy, resulting in a diagnosis and molecular characterization."
+      }
+    },
+    {
+      "from": "N3",
+      "to": "N4",
+      "data": {
+        "edge_id": "C_to_E",
+        "branch_flag": true,
+        "content": "Based on the EGFR mutation, the patient was started on first-line erlotinib.",
+        "transition_event": {
+          "trigger_type": "medication_change",
+          "trigger_entities": [
+            "C0014454"
+          ],
+          "change_type": "addition",
+          "target_domain": "medication",
+          "timestamp": "2015-11"
+        }
+      }
+    },
+    {
+      "from": "N4",
+      "to": "N5",
+      "data": {
+        "edge_id": "E_to_F",
+        "branch_flag": true,
+        "content": "Despite erlotinib treatment, the patient experienced disease progression with increasing cough and dyspnea.",
+        "transition_event": {
+          "trigger_type": "symptom_onset",
+          "trigger_entities": [
+            "C0010200",
+            "C0013404"
+          ],
+          "change_type": "progression",
+          "target_domain": "symptom",
+          "timestamp": "2016-02"
+        }
+      }
+    },
+    {
+      "from": "N5",
+      "to": "N6",
+      "data": {
+        "edge_id": "F_to_G",
+        "branch_flag": true,
+        "content": "Due to disease progression, molecular testing was repeated, and the patient was switched to carboplatin and pemetrexed.",
+        "transition_event": {
+          "trigger_type": "medication_change",
+          "trigger_entities": [
+            "C0007685",
+            "C0000970"
+          ],
+          "change_type": "addition",
+          "target_domain": "medication"
+        }
+      }
+    }
+  ]
+}

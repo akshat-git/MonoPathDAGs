@@ -1,0 +1,462 @@
+{
+  "nodes": [
+    {
+      "id": "N1",
+      "label": "Step 1",
+      "customData": {
+        "node_id": "A",
+        "node_step_index": 0,
+        "content": "Patient is positive for autoantibodies. Cerebrospinal fluid and serum samples were positive for anti-. Brain and lumbar MRI showed no obvious abnormalities. Patient admitted to the hospital with impaired speech and stiff, bent lower limbs with high muscle tension.",
+        "clinical_data": {
+          "labs": [
+            {
+              "test": "C0004769",
+              "value": "positive",
+              "unit": null,
+              "flag": "abnormal",
+              "reference_range": null,
+              "timestamp": null
+            }
+          ],
+          "imaging": [
+            {
+              "type": "C0006114",
+              "body_part": "C0006274",
+              "modality": "MRI",
+              "finding": "no obvious abnormalities",
+              "impression": null,
+              "date": null
+            },
+            {
+              "type": "C0024248",
+              "body_part": "C0024246",
+              "modality": "MRI",
+              "finding": "no obvious abnormalities",
+              "impression": null,
+              "date": null
+            }
+          ],
+          "HPI": [
+            {
+              "summary": "Patient admitted to the hospital with impaired speech and stiff, bent lower limbs with high muscle tension.",
+              "duration": null,
+              "onset": null,
+              "progression": null,
+              "associated_symptoms": [
+                "C0038975",
+                "C0024244",
+                "C0026644"
+              ],
+              "alleviating_factors": [],
+              "exacerbating_factors": []
+            }
+          ]
+        }
+      }
+    },
+    {
+      "id": "N2",
+      "label": "Step 2",
+      "customData": {
+        "node_id": "B",
+        "node_step_index": 1,
+        "content": "Pupil reflections, eye movements, feeling, muscle strength, and muscle tension of both upper limbs were normal. No signs of meningeal irritation. Clonazepam was previously prescribed for lip pain and was terminated half a year ago. Patient was treated for improved circulation, nourishing nerves, easing the pain, relieving spasms, and sedation.",
+        "clinical_data": {
+          "medications": [
+            {
+              "drug": "Clonazepam",
+              "dosage": null,
+              "frequency": null,
+              "modality": null,
+              "start_date": null,
+              "end_date": null,
+              "indication": "lip pain"
+            }
+          ]
+        }
+      }
+    },
+    {
+      "id": "N3",
+      "label": "Step 3",
+      "customData": {
+        "node_id": "C",
+        "node_step_index": 2,
+        "content": "Laboratory tests showed carbohydrate antigen-199 39.46 U/mL (0-39); carbohydrate antigen-125 103.00 U/ml (0-35); urine occultation blood 3+; urine ketone body 2+; positive for antinuclear antibody, titer: 1:320; positive (+) for anti-pm-scl antibody; no obvious abnormalities in the tests for rheumatism, anti-neutrophil cytoplasmic antibodies, thyroid functions, blood routine, blood homocysteine levels, blood coagulation routine, electrolyte test, blood glucose analysis, liver function, and infectious markers. Electromyogram (EMG) showed no obvious abnormalities. Biochemical, bacterial, and immune indexes of cerebrospinal fluid from lumbar puncture were normal.",
+        "clinical_data": {
+          "labs": [
+            {
+              "test": "C1213733",
+              "value": "39.46",
+              "unit": "U/mL",
+              "flag": "abnormal",
+              "reference_range": "0-39"
+            },
+            {
+              "test": "C0200154",
+              "value": "103.00",
+              "unit": "U/ml",
+              "flag": "abnormal",
+              "reference_range": "0-35"
+            },
+            {
+              "test": "C0151880",
+              "value": "3+",
+              "unit": null,
+              "flag": "abnormal"
+            },
+            {
+              "test": "C0151693",
+              "value": "2+",
+              "unit": null,
+              "flag": "abnormal"
+            },
+            {
+              "test": "C0151548",
+              "value": "positive",
+              "unit": null,
+              "flag": "abnormal",
+              "reference_range": null
+            },
+            {
+              "test": "C1297538",
+              "value": "positive (+)",
+              "unit": null,
+              "flag": "abnormal"
+            }
+          ],
+          "imaging": [
+            {
+              "type": "C0014238",
+              "finding": "no obvious abnormalities",
+              "modality": "EMG"
+            }
+          ]
+        }
+      }
+    },
+    {
+      "id": "N4",
+      "label": "Step 4",
+      "customData": {
+        "node_id": "D",
+        "node_step_index": 3,
+        "content": "Patient diagnosed with stiff-person syndrome (SPS) and lung adenocarcinoma.",
+        "clinical_data": {
+          "diagnoses": [
+            {
+              "code": "C0270828",
+              "label": "Stiff-Person Syndrome",
+              "status": "active"
+            },
+            {
+              "code": "C0024054",
+              "label": "Adenocarcinoma of Lung",
+              "status": "active"
+            }
+          ]
+        }
+      }
+    },
+    {
+      "id": "N5",
+      "label": "Step 5",
+      "customData": {
+        "node_id": "E",
+        "node_step_index": 4,
+        "content": "Chest-enhanced computed tomography scans suggest multiple ground glass nodules in both lungs, and two large ground glass nodules in the upper lobe of the left lung.",
+        "clinical_data": {
+          "imaging": [
+            {
+              "type": "Computed tomography",
+              "body_part": "Lung",
+              "modality": "CT",
+              "finding": "multiple ground glass nodules in both lungs, and two large ground glass nodules in the upper lobe of the left lung"
+            }
+          ]
+        }
+      }
+    },
+    {
+      "id": "N6",
+      "label": "Step 6",
+      "customData": {
+        "node_id": "F",
+        "node_step_index": 5,
+        "content": "Patient was treated with a combination of clonazepam, diazepam, and pregabalin. Symptoms were significantly relieved after two weeks.",
+        "clinical_data": {
+          "medications": [
+            {
+              "drug": "C0009434",
+              "dosage": null,
+              "frequency": null,
+              "modality": null,
+              "start_date": null,
+              "end_date": null,
+              "indication": null
+            },
+            {
+              "drug": "C0011847",
+              "dosage": null,
+              "frequency": null,
+              "modality": null,
+              "start_date": null,
+              "end_date": null,
+              "indication": null
+            },
+            {
+              "drug": "C1302479",
+              "dosage": null,
+              "frequency": null,
+              "modality": null,
+              "start_date": null,
+              "end_date": null,
+              "indication": null
+            }
+          ],
+          "HPI": [
+            {
+              "summary": "Symptoms were significantly relieved after two weeks of treatment with clonazepam, diazepam, and pregabalin.",
+              "duration": "2 weeks",
+              "onset": null,
+              "progression": "gradual",
+              "associated_symptoms": [],
+              "alleviating_factors": [
+                "C0009434",
+                "C0011847",
+                "C1302479"
+              ],
+              "exacerbating_factors": []
+            }
+          ]
+        }
+      }
+    },
+    {
+      "id": "N7",
+      "label": "Step 7",
+      "customData": {
+        "node_id": "G",
+        "node_step_index": 6,
+        "content": "Patient underwent surgical treatment for lung adenocarcinoma. Postoperative pathology indicated acinar invasive lung cancer, without involving adjacent lymph nodes or the visceral pleura. Immunohistochemical results suggested positivity for napsinA, CK-7, and TTF-1.",
+        "clinical_data": {
+          "diagnoses": [
+            {
+              "code": "C34.9",
+              "label": "Lung cancer, unspecified",
+              "status": "active",
+              "onset_date": null
+            }
+          ],
+          "procedures": [
+            {
+              "name": "Surgical treatment",
+              "approach": "open",
+              "date": null,
+              "location": "lung",
+              "performed_by": null,
+              "outcome": null
+            }
+          ],
+          "labs": [
+            {
+              "test": "Napsin A",
+              "value": "positive",
+              "unit": null,
+              "flag": "normal",
+              "reference_range": null,
+              "timestamp": null
+            },
+            {
+              "test": "Cytokeratin 7",
+              "value": "positive",
+              "unit": null,
+              "flag": "normal",
+              "reference_range": null,
+              "timestamp": null
+            },
+            {
+              "test": "Thyroid Transcription Factor 1",
+              "value": "positive",
+              "unit": null,
+              "flag": "normal",
+              "reference_range": null,
+              "timestamp": null
+            }
+          ],
+          "imaging": [
+            {
+              "type": "Imaging of lung",
+              "body_part": "Lung",
+              "modality": null,
+              "finding": "acinar invasive lung cancer",
+              "impression": "acinar invasive lung cancer",
+              "date": null
+            }
+          ]
+        }
+      }
+    },
+    {
+      "id": "N8",
+      "label": "Step 8",
+      "customData": {
+        "node_id": "H",
+        "node_step_index": 7,
+        "content": "Patient regularly took prescribed medications after surgery. Symptoms did not recur until a follow-up visit six months later.",
+        "clinical_data": {}
+      }
+    },
+    {
+      "id": "N9",
+      "label": "Step 9",
+      "customData": {
+        "node_id": "I",
+        "node_step_index": 8,
+        "content": "Patient showed anti-GAD65 antibody IgG (58 AU) in both serum and cerebrospinal fluid.",
+        "clinical_data": {
+          "labs": [
+            {
+              "test": "Anti-GAD65 antibody IgG",
+              "value": "58",
+              "unit": "AU",
+              "flag": "abnormal",
+              "body_site": "serum"
+            },
+            {
+              "test": "Anti-GAD65 antibody IgG",
+              "value": "58",
+              "unit": "AU",
+              "flag": "abnormal",
+              "body_site": "cerebrospinal fluid"
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "edges": [
+    {
+      "from": "N1",
+      "to": "N2",
+      "data": {
+        "edge_id": "A_to_B",
+        "branch_flag": true,
+        "content": "Patient's physical exam and treatment details prior to diagnosis."
+      }
+    },
+    {
+      "from": "N2",
+      "to": "N3",
+      "data": {
+        "edge_id": "B_to_C",
+        "branch_flag": true,
+        "content": "Lab results and electromyogram findings.",
+        "transition_event": {
+          "trigger_type": "lab_change",
+          "trigger_entities": [
+            "C1213733",
+            "C0200154",
+            "C0151880",
+            "C0151693",
+            "C0151548",
+            "C1297538"
+          ],
+          "change_type": "other",
+          "target_domain": "lab"
+        }
+      }
+    },
+    {
+      "from": "N3",
+      "to": "N4",
+      "data": {
+        "edge_id": "C_to_D",
+        "branch_flag": true,
+        "content": "Diagnosis of stiff-person syndrome (SPS) and lung adenocarcinoma.",
+        "transition_event": {
+          "trigger_type": "interpretation",
+          "trigger_entities": [
+            "C0270828",
+            "C0024054"
+          ],
+          "change_type": "addition",
+          "target_domain": "diagnosis"
+        }
+      }
+    },
+    {
+      "from": "N4",
+      "to": "N5",
+      "data": {
+        "edge_id": "D_to_E",
+        "branch_flag": true,
+        "content": "Chest CT scan results indicating ground glass nodules.",
+        "transition_event": {
+          "trigger_type": "imaging",
+          "trigger_entities": [],
+          "change_type": "addition",
+          "target_domain": "imaging"
+        }
+      }
+    },
+    {
+      "from": "N5",
+      "to": "N6",
+      "data": {
+        "edge_id": "E_to_F",
+        "branch_flag": true,
+        "content": "Treatment with clonazepam, diazepam, and pregabalin, leading to symptom relief.",
+        "transition_event": {
+          "trigger_type": "medication_change",
+          "trigger_entities": [
+            "C0009434",
+            "C0011847",
+            "C1302479"
+          ],
+          "change_type": "addition",
+          "target_domain": "medication"
+        }
+      }
+    },
+    {
+      "from": "N6",
+      "to": "N7",
+      "data": {
+        "edge_id": "F_to_G",
+        "branch_flag": true,
+        "content": "Surgical treatment for lung adenocarcinoma and postoperative pathology results.",
+        "transition_event": {
+          "trigger_type": "procedure",
+          "trigger_entities": [],
+          "change_type": "addition",
+          "target_domain": "procedure"
+        }
+      }
+    },
+    {
+      "from": "N7",
+      "to": "N8",
+      "data": {
+        "edge_id": "G_to_H",
+        "branch_flag": true,
+        "content": "Regular medication intake and symptom-free period until a follow-up visit six months later."
+      }
+    },
+    {
+      "from": "N8",
+      "to": "N9",
+      "data": {
+        "edge_id": "H_to_I",
+        "branch_flag": true,
+        "content": "Detection of anti-GAD65 antibody IgG in serum and cerebrospinal fluid.",
+        "transition_event": {
+          "trigger_type": "lab_change",
+          "trigger_entities": [],
+          "change_type": "other",
+          "target_domain": "lab"
+        }
+      }
+    }
+  ]
+}

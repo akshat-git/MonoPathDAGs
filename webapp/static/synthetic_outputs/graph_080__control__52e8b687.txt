@@ -1,0 +1,13 @@
+Based on the provided data, reconstructing the full clinical case report is impossible. However, I can create a narrative incorporating the extracted information, assuming a single patient and a chronological progression of events.
+
+**Clinical Case Report**
+
+The patient presented with a complex medical history involving pulmonary and oncological issues. Initially, the patient was diagnosed with **pulmonary arterial hypertension** and **metastatic lung cancer**.
+
+Later, the patient was diagnosed with **lung cancer**, specifically **lung adenocarcinoma**. This was followed by the detection of **metastatic disease**.
+
+The patient's **lung cancer** showed **disease progression**, accompanied by **inflammation in lungs**. Imaging revealed changes in **pulmonary artery diameter** and **aorta diameter**. Further evaluation indicated **disease progression** and **regional wall motion abnormalities**. The patient also exhibited **elevated right ventricular systolic pressure**, indicative of **severe PAH**.
+
+Further investigation revealed possible **stenosis** and suspicion of an **autoimmune disease**, with a positive **rheumatoid factor**. The possibility of **immunotherapy-induced PAH** was considered.
+
+The patient reported symptoms of **exertional fatigue** and **dyspnea**. Subsequent assessments confirmed **disease progression**. The patient's condition was further complicated by **pulmonary arterial hypertension** related to **lung cancer** (**PAH**).

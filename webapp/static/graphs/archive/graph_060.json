@@ -1,0 +1,558 @@
+{
+  "nodes": [
+    {
+      "id": "N1",
+      "label": "Step 1",
+      "customData": {
+        "node_id": "A",
+        "node_step_index": 0,
+        "content": "67-year-old female with 5-month history of speech and behavioral abnormalities and 4 days of altered consciousness, admitted on July 1, 2024. Symptoms began around February 2024 with self-talk and irritability, progressing to loss of self-care abilities by March 2024.",
+        "clinical_data": {
+          "HPI": [
+            {
+              "summary": "67-year-old female with 5-month history of speech and behavioral abnormalities and 4 days of altered consciousness.",
+              "onset": "February 2024",
+              "duration": "5 months",
+              "progression": "gradual",
+              "associated_symptoms": [
+                "speech abnormalities",
+                "behavioral abnormalities",
+                "altered consciousness",
+                "self-talk",
+                "irritability",
+                "loss of self-care abilities"
+              ]
+            }
+          ]
+        }
+      },
+      "custom_id": "graph_060_N0"
+    },
+    {
+      "id": "N2",
+      "label": "Step 2",
+      "customData": {
+        "node_id": "B",
+        "node_step_index": 1,
+        "content": "Head MRI on March 14, 2024 showed multiple calcifications in the right frontal and bilateral temporal cortex, possible facial angiomatosis. DWI showed scattered vascular white matter high signal in the periventricular white matter, Fazekas grade 2, bilateral cerebral white matter sparse, empty sella.",
+        "clinical_data": {
+          "imaging": [
+            {
+              "type": "Magnetic Resonance Imaging of Head",
+              "body_part": "Head",
+              "modality": "MRI",
+              "finding": "multiple calcifications in the right frontal and bilateral temporal cortex, possible facial angiomatosis. scattered vascular white matter high signal in the periventricular white matter, Fazekas grade 2, bilateral cerebral white matter sparse, empty sella",
+              "impression": "multiple calcifications in the right frontal and bilateral temporal cortex, possible facial angiomatosis. scattered vascular white matter high signal in the periventricular white matter, Fazekas grade 2, bilateral cerebral white matter sparse, empty sella",
+              "date": "2024-03-14"
+            }
+          ]
+        }
+      },
+      "custom_id": "graph_060_N1"
+    },
+    {
+      "id": "N3",
+      "label": "Step 3",
+      "customData": {
+        "node_id": "C",
+        "node_step_index": 2,
+        "content": "Lumbar puncture on March 25, 2024 showed no significant abnormalities in CSF routine and biochemistry; autoimmune encephalitis and paraneoplastic syndrome antibody profiles were unremarkable.",
+        "clinical_data": {
+          "procedures": [
+            {
+              "name": "Lumbar puncture",
+              "date": "2024-03-25",
+              "outcome": "no significant abnormalities in CSF routine and biochemistry; autoimmune encephalitis and paraneoplastic syndrome antibody profiles were unremarkable"
+            }
+          ],
+          "labs": [
+            {
+              "test": "CSF routine",
+              "value": "normal",
+              "timestamp": "2024-03-25"
+            },
+            {
+              "test": "CSF biochemistry",
+              "value": "normal",
+              "timestamp": "2024-03-25"
+            },
+            {
+              "test": "autoimmune encephalitis antibody profiles",
+              "value": "unremarkable",
+              "timestamp": "2024-03-25"
+            },
+            {
+              "test": "paraneoplastic syndrome antibody profiles",
+              "value": "unremarkable",
+              "timestamp": "2024-03-25"
+            }
+          ]
+        }
+      },
+      "custom_id": "graph_060_N2"
+    },
+    {
+      "id": "N4",
+      "label": "Step 4",
+      "customData": {
+        "node_id": "D",
+        "node_step_index": 3,
+        "content": "PET/CT on April 1, 2024 showed multiple patchy calcifications in the bilateral frontal (more pronounced on the right), bilateral parietal, and bilateral temporal lobes, with decreased sugar metabolism; decreased sugar metabolism in the left cerebellum, possible crossed diaschisis.",
+        "clinical_data": {
+          "imaging": [
+            {
+              "type": "Positron emission tomography/computed tomography",
+              "body_part": "Brain",
+              "modality": "PET/CT",
+              "finding": "multiple patchy calcifications in the bilateral frontal (more pronounced on the right), bilateral parietal, and bilateral temporal lobes, with decreased sugar metabolism; decreased sugar metabolism in the left cerebellum, possible crossed diaschisis.",
+              "impression": "multiple patchy calcifications in the bilateral frontal (more pronounced on the right), bilateral parietal, and bilateral temporal lobes, with decreased sugar metabolism; decreased sugar metabolism in the left cerebellum, possible crossed diaschisis.",
+              "date": "2024-04-01"
+            }
+          ]
+        }
+      },
+      "custom_id": "graph_060_N3"
+    },
+    {
+      "id": "N5",
+      "label": "Step 5",
+      "customData": {
+        "node_id": "E",
+        "node_step_index": 4,
+        "content": "Admitted to Huashan Hospital on April 10, 2024, still able to walk, occasional urinary incontinence, but unable to answer questions.",
+        "clinical_data": {
+          "functional_status": [
+            {
+              "domain": "mobility",
+              "description": "still able to walk"
+            },
+            {
+              "domain": "GU",
+              "description": "occasional urinary incontinence"
+            }
+          ],
+          "mental_status": [
+            {
+              "domain": "speech",
+              "finding": "unable to answer questions",
+              "timestamp": "2024-04-10"
+            }
+          ]
+        }
+      },
+      "custom_id": "graph_060_N4"
+    },
+    {
+      "id": "N6",
+      "label": "Step 6",
+      "customData": {
+        "node_id": "F",
+        "node_step_index": 5,
+        "content": "Lumbar puncture: CSF: colorless, clear, WBC 6x10^6/L, RBC 1x10^6/L, Pandy's test negative. CSF biochemistry: glucose 2.28 mmol/L (decreased), chloride 125 mmol/L, protein 553 mg/L, lactic acid 1.85 mmol/L, lactate dehydrogenase 76.00 U/L. Blood + CSF autoimmune encephalitis antibody 10 items examination, blood paraneoplastic syndrome antibody 22 items negative, serum tissue based assay (TBA) antibody positive, CSF TBA antibody negative, considered autoimmune encephalitis.",
+        "clinical_data": {
+          "labs": [
+            {
+              "test": "Lumbar puncture",
+              "value": "colorless, clear",
+              "unit": null,
+              "flag": "normal",
+              "reference_range": null,
+              "timestamp": null
+            },
+            {
+              "test": "White blood cell count",
+              "value": "6",
+              "unit": "x10^6/L",
+              "flag": "normal",
+              "reference_range": null,
+              "timestamp": null
+            },
+            {
+              "test": "Red blood cell count",
+              "value": "1",
+              "unit": "x10^6/L",
+              "flag": "normal",
+              "reference_range": null,
+              "timestamp": null
+            },
+            {
+              "test": "Pandy's test",
+              "value": "negative",
+              "unit": null,
+              "flag": "normal",
+              "reference_range": null,
+              "timestamp": null
+            },
+            {
+              "test": "Glucose",
+              "value": "2.28",
+              "unit": "mmol/L",
+              "flag": "abnormal",
+              "reference_range": null,
+              "timestamp": null
+            },
+            {
+              "test": "Chloride",
+              "value": "125",
+              "unit": "mmol/L",
+              "flag": "normal",
+              "reference_range": null,
+              "timestamp": null
+            },
+            {
+              "test": "Protein",
+              "value": "553",
+              "unit": "mg/L",
+              "flag": "abnormal",
+              "reference_range": null,
+              "timestamp": null
+            },
+            {
+              "test": "Lactic acid",
+              "value": "1.85",
+              "unit": "mmol/L",
+              "flag": "normal",
+              "reference_range": null,
+              "timestamp": null
+            },
+            {
+              "test": "Lactate dehydrogenase",
+              "value": "76.00",
+              "unit": "U/L",
+              "flag": "normal",
+              "reference_range": null,
+              "timestamp": null
+            },
+            {
+              "test": "Blood + CSF autoimmune encephalitis antibody 10 items examination",
+              "value": "negative",
+              "unit": null,
+              "flag": "normal",
+              "reference_range": null,
+              "timestamp": null
+            },
+            {
+              "test": "Blood paraneoplastic syndrome antibody 22 items",
+              "value": "negative",
+              "unit": null,
+              "flag": "normal",
+              "reference_range": null,
+              "timestamp": null
+            },
+            {
+              "test": "Serum tissue based assay (TBA) antibody",
+              "value": "positive",
+              "unit": null,
+              "flag": "abnormal",
+              "reference_range": null,
+              "timestamp": null
+            },
+            {
+              "test": "CSF TBA antibody",
+              "value": "negative",
+              "unit": null,
+              "flag": "normal",
+              "reference_range": null,
+              "timestamp": null
+            }
+          ],
+          "diagnoses": [
+            {
+              "code": "Autoimmune encephalitis",
+              "label": "Autoimmune encephalitis",
+              "status": "suspected",
+              "onset_date": null
+            }
+          ]
+        }
+      },
+      "custom_id": "graph_060_N5"
+    },
+    {
+      "id": "N7",
+      "label": "Step 7",
+      "customData": {
+        "node_id": "G",
+        "node_step_index": 6,
+        "content": "Treated with hormone sequential shock therapy and reduced to oral, patient symptoms did not improve significantly. 5 plasma exchange treatments, and rituximab 100 and 500 mg immunotherapy on April 27 and April 28, respectively. Continued oral hormone therapy after discharge, patient's speech and behavior abnormalities did not improve significantly compared to before.",
+        "clinical_data": {
+          "medications": [
+            {
+              "drug": "Rituximab",
+              "dosage": "100 mg",
+              "modality": "IV",
+              "start_date": "2017-04-27"
+            },
+            {
+              "drug": "Rituximab",
+              "dosage": "500 mg",
+              "modality": "IV",
+              "start_date": "2017-04-28"
+            }
+          ],
+          "procedures": [
+            {
+              "name": "Plasma exchange",
+              "date": "XXXX",
+              "outcome": "no improvement"
+            }
+          ],
+          "HPI": [
+            {
+              "summary": "Speech and behavior abnormalities did not improve significantly compared to before.",
+              "progression": "no improvement"
+            }
+          ]
+        }
+      },
+      "custom_id": "graph_060_N6"
+    },
+    {
+      "id": "N8",
+      "label": "Step 8",
+      "customData": {
+        "node_id": "H",
+        "node_step_index": 7,
+        "content": "June 27, 2024: Developed left corner of mouth twitching, followed by left limb convulsions to generalized convulsions, lasting about 3 hours.",
+        "clinical_data": {
+          "HPI": [
+            {
+              "summary": "Developed left corner of mouth twitching, followed by left limb convulsions to generalized convulsions, lasting about 3 hours.",
+              "onset": "2024-06-27",
+              "duration": "3 hours",
+              "progression": "sudden",
+              "associated_symptoms": [
+                "Twitching",
+                "Convulsions"
+              ]
+            }
+          ]
+        }
+      },
+      "custom_id": "graph_060_N7"
+    },
+    {
+      "id": "N9",
+      "label": "Step 9",
+      "customData": {
+        "node_id": "I",
+        "node_step_index": 8,
+        "content": "June 29, 2024: Presented to the emergency department of Huashan Hospital.",
+        "clinical_data": {
+          "procedures": [
+            {
+              "name": "Emergency Department Admission",
+              "date": "2024-06-29",
+              "location": "Huashan Hospital"
+            }
+          ]
+        }
+      },
+      "custom_id": "graph_060_N8"
+    },
+    {
+      "id": "N10",
+      "label": "Step 10",
+      "customData": {
+        "node_id": "J",
+        "node_step_index": 9,
+        "content": "Head CT showed multiple calcifications in the right frontotemporal parietal and left temporal gyri, multiple ischemic lacunar foci around the bilateral frontal parietal lobes and lateral ventricles, mild cerebral atrophy, MRI recommended. Started on oxcarbazepine and sodium valproate sustained-release tablets for anti-epileptic treatment.",
+        "clinical_data": {
+          "imaging": [
+            {
+              "type": "CT of head",
+              "body_part": "Head",
+              "modality": "CT",
+              "finding": "multiple calcifications in the right frontotemporal parietal and left temporal gyri, multiple ischemic lacunar foci around the bilateral frontal parietal lobes and lateral ventricles, mild cerebral atrophy",
+              "impression": "MRI recommended"
+            }
+          ],
+          "medications": [
+            {
+              "drug": "Oxcarbazepine",
+              "dosage": null,
+              "frequency": null,
+              "modality": "oral",
+              "start_date": null,
+              "end_date": null,
+              "indication": "Anti-epileptic treatment"
+            },
+            {
+              "drug": "Sodium valproate",
+              "dosage": null,
+              "frequency": null,
+              "modality": "oral",
+              "start_date": null,
+              "end_date": null,
+              "indication": "Anti-epileptic treatment"
+            }
+          ]
+        }
+      },
+      "custom_id": "graph_060_N9"
+    },
+    {
+      "id": "N11",
+      "label": "Step 11",
+      "customData": {
+        "node_id": "K",
+        "node_step_index": 10,
+        "content": "Admitted to Huashan Hospital on July 1, 2024 for further investigation.",
+        "clinical_data": {
+          "procedures": [
+            {
+              "name": "Hospital admission",
+              "date": "2024-07-01",
+              "location": "Huashan Hospital"
+            }
+          ]
+        }
+      },
+      "custom_id": "graph_060_N10"
+    }
+  ],
+  "edges": [
+    {
+      "from": "N1",
+      "to": "N2",
+      "data": {
+        "edge_id": "A_to_B",
+        "branch_flag": true,
+        "content": "Patient's initial symptoms of speech and behavioral abnormalities progressed, prompting a head MRI.",
+        "transition_event": {
+          "trigger_type": "progression",
+          "trigger_entities": [
+            "C0038152",
+            "C0005823"
+          ],
+          "change_type": "progression",
+          "target_domain": "symptom"
+        }
+      },
+      "custom_id": "graph_060_N1_N2"
+    },
+    {
+      "from": "N2",
+      "to": "N3",
+      "data": {
+        "edge_id": "B_to_C",
+        "branch_flag": true,
+        "content": "MRI findings of calcifications and white matter changes led to a lumbar puncture to investigate potential causes.",
+        "transition_event": {
+          "trigger_type": "procedure",
+          "trigger_entities": [
+            "C0022408"
+          ],
+          "change_type": "addition",
+          "target_domain": "procedure"
+        }
+      },
+      "custom_id": "graph_060_N2_N3"
+    },
+    {
+      "from": "N3",
+      "to": "N4",
+      "data": {
+        "edge_id": "C_to_D",
+        "branch_flag": true,
+        "content": "Unremarkable CSF analysis prompted further investigation with PET/CT imaging to assess brain metabolism and calcifications.",
+        "transition_event": {
+          "trigger_type": "interpretation",
+          "trigger_entities": [],
+          "change_type": "other",
+          "target_domain": "imaging"
+        }
+      },
+      "custom_id": "graph_060_N3_N4"
+    },
+    {
+      "from": "N4",
+      "to": "N5",
+      "data": {
+        "edge_id": "D_to_E",
+        "branch_flag": true,
+        "content": "PET/CT findings of patchy calcifications and decreased sugar metabolism led to admission to Huashan Hospital for further evaluation and management.",
+        "transition_event": {
+          "trigger_type": "interpretation",
+          "trigger_entities": [],
+          "change_type": "other",
+          "target_domain": "diagnosis"
+        }
+      },
+      "custom_id": "graph_060_N4_N5"
+    },
+    {
+      "from": "N5",
+      "to": "N6",
+      "data": {
+        "edge_id": "E_to_F",
+        "branch_flag": true,
+        "content": "Patient's continued symptoms and inability to answer questions prompted another lumbar puncture to further investigate potential causes, including autoimmune encephalitis.",
+        "transition_event": {
+          "trigger_type": "procedure",
+          "trigger_entities": [
+            "C0022408"
+          ],
+          "change_type": "addition",
+          "target_domain": "procedure"
+        }
+      },
+      "custom_id": "graph_060_N5_N6"
+    },
+    {
+      "from": "N6",
+      "to": "N7",
+      "data": {
+        "edge_id": "F_to_G",
+        "branch_flag": true,
+        "content": "Based on CSF findings suggestive of autoimmune encephalitis, the patient was treated with hormone therapy, plasma exchange, and rituximab immunotherapy.",
+        "transition_event": {
+          "trigger_type": "medication_change",
+          "trigger_entities": [
+            "C0035422"
+          ],
+          "change_type": "addition",
+          "target_domain": "medication"
+        }
+      },
+      "custom_id": "graph_060_N6_N7"
+    },
+    {
+      "from": "N7",
+      "to": "N8",
+      "data": {
+        "edge_id": "G_to_H",
+        "branch_flag": true,
+        "content": "Despite treatment, the patient's speech and behavior abnormalities did not improve significantly, and she subsequently developed twitching and convulsions.",
+        "transition_event": {
+          "trigger_type": "symptom_onset",
+          "trigger_entities": [
+            "C0014196",
+            "C0010474"
+          ],
+          "change_type": "progression",
+          "target_domain": "symptom",
+          "timestamp": "2024-06-27T00:00:00Z"
+        }
+      },
+      "custom_id": "graph_060_N7_N8"
+    },
+    {
+      "from": "N8",
+      "to": "N9",
+      "data": {
+        "edge_id": "H_to_I",
+        "branch_flag": true,
+        "content": "Due to the onset of twitching and convulsions, the patient presented to the emergency department of Huashan Hospital.",
+        "transition_event": {
+          "trigger_type": "symptom_onset",
+          "trigger_entities": [
+            "C0014196",
+            "C00"
+          ]
+        }
+      },
+      "custom_id": "graph_060_N8_N9"
+    }
+  ]
+}

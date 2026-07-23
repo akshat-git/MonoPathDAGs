@@ -1,0 +1,549 @@
+{
+  "nodes": [
+    {
+      "id": "N1",
+      "label": "Step 1",
+      "customData": {
+        "node_id": "A",
+        "node_step_index": 0,
+        "content": "December 2019: Patient was diagnosed with extensive-stage small cell lung cancer (SCLC) with metastases to the thoracic and abdominal lymph nodes.",
+        "clinical_data": {
+          "diagnoses": [
+            {
+              "code": "C8014",
+              "label": "Small cell carcinoma of lung",
+              "status": "active",
+              "onset_date": "2019-12"
+            },
+            {
+              "code": "C0206324",
+              "label": "Metastasis to lymph nodes",
+              "status": "active",
+              "onset_date": "2019-12"
+            }
+          ]
+        }
+      }
+    },
+    {
+      "id": "N2",
+      "label": "Step 2",
+      "customData": {
+        "node_id": "B",
+        "node_step_index": 1,
+        "content": "May 2020: Systemic chemotherapy (carboplatin/etoposide/atezolizumab) was delayed due to a port infection. The patient then received four treatment cycles of carboplatin/etoposide/atezolizumab and was placed on maintenance atezolizumab.",
+        "clinical_data": {
+          "medications": [
+            {
+              "drug": "C0282472",
+              "dosage": null,
+              "frequency": null,
+              "modality": null,
+              "start_date": "2020-05",
+              "end_date": null,
+              "indication": "C0009450"
+            },
+            {
+              "drug": "C0014758",
+              "dosage": null,
+              "frequency": null,
+              "modality": null,
+              "start_date": "2020-05",
+              "end_date": null,
+              "indication": "C0009450"
+            },
+            {
+              "drug": "C4049444",
+              "dosage": null,
+              "frequency": null,
+              "modality": null,
+              "start_date": "2020-05",
+              "end_date": null,
+              "indication": "C0009450"
+            },
+            {
+              "drug": "C4049444",
+              "dosage": null,
+              "frequency": null,
+              "modality": null,
+              "start_date": null,
+              "end_date": null,
+              "indication": "C0009450"
+            }
+          ],
+          "procedures": [
+            {
+              "name": "C0010196",
+              "approach": null,
+              "date": "2020-05",
+              "location": null,
+              "performed_by": null,
+              "outcome": null
+            }
+          ]
+        }
+      }
+    },
+    {
+      "id": "N3",
+      "label": "Step 3",
+      "customData": {
+        "node_id": "C",
+        "node_step_index": 2,
+        "content": "August 2020: Patient was diagnosed with metastatic brain lesions and received stereotactic radiation surgery.",
+        "clinical_data": {
+          "diagnoses": [
+            {
+              "code": "C0242963",
+              "label": "Brain metastasis",
+              "status": "active",
+              "onset_date": "2020-08"
+            }
+          ],
+          "procedures": [
+            {
+              "name": "C0447617",
+              "approach": "other",
+              "date": "2020-08",
+              "location": "brain",
+              "performed_by": null,
+              "outcome": null
+            }
+          ],
+          "imaging": [
+            {
+              "type": "C0205031",
+              "body_part": "C0205353",
+              "modality": null,
+              "finding": "metastatic brain lesions",
+              "impression": null,
+              "date": "2020-08"
+            }
+          ]
+        }
+      }
+    },
+    {
+      "id": "N4",
+      "label": "Step 4",
+      "customData": {
+        "node_id": "D",
+        "node_step_index": 3,
+        "content": "Early April 2022: Patient presented with a 4-week history of a gradually worsening visual field defect.",
+        "clinical_data": {
+          "HPI": [
+            {
+              "summary": "Patient presented with a 4-week history of a gradually worsening visual field defect.",
+              "duration": "4 weeks",
+              "onset": "Early April 2022",
+              "progression": "gradual",
+              "associated_symptoms": [
+                "Visual field defect"
+              ]
+            }
+          ]
+        }
+      }
+    },
+    {
+      "id": "N5",
+      "label": "Step 5",
+      "customData": {
+        "node_id": "E",
+        "node_step_index": 4,
+        "content": "May 2022: Brain MRI confirmed three stable brain lesions.",
+        "clinical_data": {
+          "imaging": [
+            {
+              "type": "Brain MRI",
+              "body_part": "Brain",
+              "modality": "MRI",
+              "finding": "three stable brain lesions",
+              "date": "2022-05"
+            }
+          ]
+        }
+      }
+    },
+    {
+      "id": "N6",
+      "label": "Step 6",
+      "customData": {
+        "node_id": "F",
+        "node_step_index": 5,
+        "content": "Patient was diagnosed with CMV retinitis based on fundoscopic examination and started on oral ganciclovir.",
+        "clinical_data": {
+          "diagnoses": [
+            {
+              "code": "C0010253",
+              "label": "Cytomegalovirus retinitis",
+              "status": "active"
+            }
+          ],
+          "medications": [
+            {
+              "drug": "C0017130",
+              "dosage": null,
+              "frequency": null,
+              "modality": "oral",
+              "start_date": null,
+              "end_date": null,
+              "indication": "C0010253"
+            }
+          ],
+          "imaging": [
+            {
+              "type": "C0016572",
+              "body_part": "C0016572",
+              "modality": null,
+              "finding": null,
+              "impression": null,
+              "date": null
+            }
+          ]
+        }
+      }
+    },
+    {
+      "id": "N7",
+      "label": "Step 7",
+      "customData": {
+        "node_id": "G",
+        "node_step_index": 6,
+        "content": "May 11, 2022: Best-corrected visual acuity (BCVA) of the left eye was 20/20, and anterior and posterior segment examinations were normal. Best-corrected visual acuity of her right eye was 20/30. Confrontational visual fields showed superior and nasal visual field defects. Right eye examination revealed: Intraocular pressure of 31 mmHg. Funduscopic examination showed a yellow-white retinal lesion with associated retinal hemorrhages extending from the inferior disk and macula to the inferior and inferotemporal periphery. Optical coherence tomography showed outer retinal fluid extending from the optic disk toward the fovea with mild subfoveal fluid. Anterior segment examination was unremarkable without cell or flare. Right eye examination revealed: Small preretinal hemorrhage along the nasal disk. Optical coherence tomography shows nasal outer retinal fluid with subretinal fluid beneath the fovea. Serum testing for CMV was positive for IgG and negative for IgM. Additional tests for infectious retinitis, including syphilis, tuberculosis, and toxoplasmosis, were negative. Anterior chamber tap was performed and sent for CMV, varicella-zoster viruses, and herpes simplex viruses Type 1 and Type 2 polymerase chain reaction (PCR) analyses.",
+        "clinical_data": {
+          "vitals": [
+            {
+              "type": "Intraocular pressure",
+              "value": "31",
+              "unit": "mmHg",
+              "timestamp": "2022-05-11"
+            }
+          ],
+          "imaging": [
+            {
+              "type": "Optical coherence tomography",
+              "body_part": "eye",
+              "modality": "OCT",
+              "finding": "outer retinal fluid extending from the optic disk toward the fovea with mild subfoveal fluid",
+              "date": "2022-05-11"
+            },
+            {
+              "type": "Optical coherence tomography",
+              "body_part": "eye",
+              "modality": "OCT",
+              "finding": "nasal outer retinal fluid with subretinal fluid beneath the fovea",
+              "date": "2022-05-11"
+            }
+          ],
+          "labs": [
+            {
+              "test": "Cytomegalovirus IgG antibody",
+              "value": "positive",
+              "unit": null,
+              "flag": "positive",
+              "timestamp": "2022-05-11"
+            },
+            {
+              "test": "Cytomegalovirus IgM antibody",
+              "value": "negative",
+              "unit": null,
+              "flag": "negative",
+              "timestamp": "2022-05-11"
+            },
+            {
+              "test": "Syphilis test",
+              "value": "negative",
+              "unit": null,
+              "flag": "negative",
+              "timestamp": "2022-05-11"
+            },
+            {
+              "test": "Tuberculosis test",
+              "value": "negative",
+              "unit": null,
+              "flag": "negative",
+              "timestamp": "2022-05-11"
+            },
+            {
+              "test": "Toxoplasmosis test",
+              "value": "negative",
+              "unit": null,
+              "flag": "negative",
+              "timestamp": "2022-05-11"
+            },
+            {
+              "test": "Cytomegalovirus PCR",
+              "value": "pending",
+              "unit": null,
+              "flag": "unknown",
+              "timestamp": "2022-05-11"
+            },
+            {
+              "test": "Varicella-zoster virus PCR",
+              "value": "pending",
+              "unit": null,
+              "flag": "unknown",
+              "timestamp": "2022-05-11"
+            },
+            {
+              "test": "Herpes simplex virus Type 1 PCR",
+              "value": "pending",
+              "unit": null,
+              "flag": "unknown",
+              "timestamp": "2022-05-11"
+            },
+            {
+              "test": "Herpes simplex virus Type 2 PCR",
+              "value": "pending",
+              "unit": null,
+              "flag": "unknown",
+              "timestamp": "2022-05-11"
+            }
+          ]
+        }
+      }
+    },
+    {
+      "id": "N8",
+      "label": "Step 8",
+      "customData": {
+        "node_id": "H",
+        "node_step_index": 7,
+        "content": "Ganciclovir was injected intravitreally, oral valganciclovir was discontinued, and IV ganciclovir treatment was initiated. One week later, PCR tests returned negative, and the funduscopic appearance was unchanged.",
+        "clinical_data": {
+          "medications": [
+            {
+              "drug": "Ganciclovir",
+              "dosage": null,
+              "frequency": null,
+              "modality": "intravitreal",
+              "start_date": null,
+              "end_date": null,
+              "indication": null
+            },
+            {
+              "drug": "Valganciclovir",
+              "dosage": null,
+              "frequency": null,
+              "modality": "oral",
+              "start_date": null,
+              "end_date": null,
+              "indication": null
+            },
+            {
+              "drug": "Ganciclovir",
+              "dosage": null,
+              "frequency": null,
+              "modality": "IV",
+              "start_date": null,
+              "end_date": null,
+              "indication": null
+            }
+          ],
+          "labs": [
+            {
+              "test": "PCR test",
+              "value": "negative",
+              "unit": null,
+              "flag": "normal",
+              "reference_range": null,
+              "timestamp": null
+            }
+          ],
+          "imaging": [
+            {
+              "type": "Funduscopic appearance",
+              "body_part": "Eye",
+              "modality": null,
+              "finding": "unchanged",
+              "impression": null,
+              "date": null
+            }
+          ]
+        }
+      }
+    },
+    {
+      "id": "N9",
+      "label": "Step 9",
+      "customData": {
+        "node_id": "I",
+        "node_step_index": 8,
+        "timestamp": "2022-05-23",
+        "content": "Examined at Bennett and Bloom Eye Centers: Best-corrected visual acuity (BCVA) decreased to 20/40. Mild anterior chamber reaction noted. Intraocular pressure was 15 mmHg on oral acetazolamide and topical brimonidine. White retinal lesions encompassed the entire optic nerve and nasal peripapillary region. The entire lesion was hypo-autofluorescent. The lesion mostly clinically spared the inner retina, had smooth borders, and lacked a central area of chorioretinal atrophy. Preretinal blood extended into the nasal macula. Optical coherence tomography revealed an apparent lack of choroidal involvement. Wide-field fundus photography demonstrates the full extent of the lesion and area of central necrosis. Wide-field fundus autofluorescence reveals a diffusely hypo-autofluorescent lesion. Color fundus photograph with corresponding line scan indicating apparent isolated retinal involvement. Retinal metastasis was considered more likely than a viral etiology.",
+        "clinical_data": {
+          "vitals": [
+            {
+              "type": "Intraocular pressure",
+              "value": "15",
+              "unit": "mmHg"
+            }
+          ],
+          "medications": [
+            {
+              "drug": "Acetazolamide",
+              "modality": "oral"
+            },
+            {
+              "drug": "Brimonidine",
+              "modality": "topical"
+            }
+          ],
+          "diagnoses": [
+            {
+              "code": "Retinal metastasis",
+              "label": "Retinal metastasis",
+              "status": "suspected"
+            }
+          ],
+          "imaging": [
+            {
+              "type": "Fundus photography",
+              "body_part": "retina",
+              "modality": "other",
+              "finding": "full extent of the lesion and area of central necrosis"
+            },
+            {
+              "type": "Fundus autofluorescence",
+              "body_part": "retina",
+              "modality": "other",
+              "finding": "diffusely hypo-autofluorescent lesion"
+            },
+            {
+              "type": "Optical coherence tomography",
+              "body_part": "choroid",
+              "modality": "OCT",
+              "finding": "apparent lack of choroidal involvement"
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "edges": [
+    {
+      "from": "N1",
+      "to": "N2",
+      "data": {
+        "edge_id": "A_to_B",
+        "branch_flag": true,
+        "content": "Patient transitioned from initial diagnosis of SCLC to systemic chemotherapy with carboplatin/etoposide/atezolizumab, which was initially delayed due to a port infection.",
+        "transition_event": {
+          "trigger_type": "medication_change",
+          "trigger_entities": [
+            "C0282472",
+            "C0014758",
+            "C4049444"
+          ],
+          "change_type": "addition",
+          "target_domain": "medication",
+          "timestamp": "2020-05"
+        }
+      }
+    },
+    {
+      "from": "N2",
+      "to": "N3",
+      "data": {
+        "edge_id": "B_to_C",
+        "branch_flag": true,
+        "content": "Patient developed metastatic brain lesions and underwent stereotactic radiation surgery after receiving chemotherapy and maintenance atezolizumab.",
+        "transition_event": {
+          "trigger_type": "symptom_onset",
+          "trigger_entities": [
+            "C0242963"
+          ],
+          "change_type": "progression",
+          "target_domain": "diagnosis",
+          "timestamp": "2020-08"
+        }
+      }
+    },
+    {
+      "from": "N3",
+      "to": "N4",
+      "data": {
+        "edge_id": "C_to_D",
+        "branch_flag": true,
+        "content": "Patient presented with a gradually worsening visual field defect, years after treatment for brain metastases.",
+        "transition_event": {
+          "trigger_type": "symptom_onset",
+          "trigger_entities": [
+            "Visual field defect"
+          ],
+          "change_type": "progression",
+          "target_domain": "symptom",
+          "timestamp": "2022-04"
+        }
+      }
+    },
+    {
+      "from": "N4",
+      "to": "N5",
+      "data": {
+        "edge_id": "D_to_E",
+        "branch_flag": true,
+        "content": "Brain MRI confirmed three stable brain lesions in the context of a visual field defect.",
+        "transition_event": {
+          "trigger_type": "imaging",
+          "trigger_entities": [],
+          "change_type": "reinterpretation",
+          "target_domain": "imaging",
+          "timestamp": "2022-05"
+        }
+      }
+    },
+    {
+      "from": "N5",
+      "to": "N6",
+      "data": {
+        "edge_id": "E_to_F",
+        "branch_flag": true,
+        "content": "Patient was diagnosed with CMV retinitis and started on oral ganciclovir after presenting with a visual field defect and stable brain lesions.",
+        "transition_event": {
+          "trigger_type": "diagnosis",
+          "trigger_entities": [
+            "C0010253"
+          ],
+          "change_type": "addition",
+          "target_domain": "diagnosis"
+        }
+      }
+    },
+    {
+      "from": "N6",
+      "to": "N7",
+      "data": {
+        "edge_id": "F_to_G",
+        "branch_flag": true,
+        "content": "Patient's eye examination revealed visual acuity changes, visual field defects, elevated intraocular pressure, retinal lesions, hemorrhages, and fluid, along with positive CMV IgG and pending PCR results, after diagnosis of CMV retinitis and initiation of oral ganciclovir.",
+        "transition_event": {
+          "trigger_type": "lab_change",
+          "trigger_entities": [
+            "Cytomegalovirus IgG antibody"
+          ],
+          "change_type": "addition",
+          "target_domain": "lab",
+          "timestamp": "2022-05-11"
+        }
+      }
+    },
+    {
+      "from": "N7",
+      "to": "N8",
+      "data": {
+        "edge_id": "G_to_H",
+        "branch_flag": true,
+        "content": "Treatment regimen was changed to intravitreal and IV ganciclovir, with discontinuation of oral valganciclovir, after initial examination and lab results. Follow-up PCR tests were negative, but funduscopic appearance was unchanged.",
+        "transition_event": {
+          "trigger_type": "medication_change",
+          "trigger_entities": [
+            "Ganciclovir",
+            "Valganciclovir"
+          ]
+        }
+      }
+    }
+  ]
+}

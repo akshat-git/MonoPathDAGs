@@ -1,0 +1,360 @@
+{
+  "nodes": [
+    {
+      "id": "N1",
+      "label": "Step 1",
+      "customData": {
+        "node_id": "A",
+        "node_step_index": 0,
+        "content": "63-year-old woman presented with cough and blood in sputum for one month. Physical examination noted cachexia.",
+        "clinical_data": {
+          "HPI": [
+            {
+              "summary": "63-year-old woman presented with cough and blood in sputum for one month.",
+              "duration": "1 month",
+              "onset": "1 month ago",
+              "associated_symptoms": [
+                "C0010200",
+                "C0005767"
+              ]
+            }
+          ],
+          "physical_exam": [
+            {
+              "finding": "C0235958"
+            }
+          ]
+        }
+      }
+    },
+    {
+      "id": "N2",
+      "label": "Step 2",
+      "customData": {
+        "node_id": "B",
+        "node_step_index": 1,
+        "content": "Initial CT chest showed two right-lower lobe lung nodules, with the largest nodule measuring 2.1 cm, as well as pleural-based nodule and enlarged mediastinal lymph nodes. CT abdomen pelvis revealed a pancreatic mass.",
+        "clinical_data": {
+          "imaging": [
+            {
+              "type": "Lung CT",
+              "body_part": "Lung",
+              "modality": "CT",
+              "finding": "two right-lower lobe lung nodules, with the largest nodule measuring 2.1 cm, as well as pleural-based nodule and enlarged mediastinal lymph nodes",
+              "date": null
+            },
+            {
+              "type": "Abdomen Pelvis CT",
+              "body_part": "Abdomen and Pelvis",
+              "modality": "CT",
+              "finding": "pancreatic mass",
+              "date": null
+            }
+          ]
+        }
+      }
+    },
+    {
+      "id": "N3",
+      "label": "Step 3",
+      "customData": {
+        "node_id": "C",
+        "node_step_index": 2,
+        "content": "MRI brain showed several nodular densities suggestive of metastatic disease, including a nodule in the right cerebellar hemisphere and a nodule in the right occipital lobe.",
+        "clinical_data": {
+          "imaging": [
+            {
+              "type": "Brain MRI",
+              "body_part": "Brain",
+              "modality": "MRI",
+              "finding": "Several nodular densities suggestive of metastatic disease",
+              "impression": "Metastatic disease",
+              "date": null
+            },
+            {
+              "type": "Nodule",
+              "body_part": "Cerebellar hemisphere",
+              "modality": "MRI",
+              "finding": "Nodule in the right cerebellar hemisphere",
+              "impression": "Metastatic disease",
+              "date": null
+            },
+            {
+              "type": "Nodule",
+              "body_part": "Occipital lobe",
+              "modality": "MRI",
+              "finding": "Nodule in the right occipital lobe",
+              "impression": "Metastatic disease",
+              "date": null
+            }
+          ]
+        }
+      }
+    },
+    {
+      "id": "N4",
+      "label": "Step 4",
+      "customData": {
+        "node_id": "D",
+        "node_step_index": 3,
+        "content": "Patient underwent a bronchoscopy, where endobronchial biopsies were obtained from the right-lower lobe lesions.",
+        "clinical_data": {
+          "procedures": [
+            {
+              "name": "Bronchoscopy",
+              "approach": "endoscopic",
+              "date": null,
+              "location": "right-lower lobe",
+              "performed_by": null,
+              "outcome": null
+            },
+            {
+              "name": "Biopsy",
+              "approach": null,
+              "date": null,
+              "location": "right-lower lobe",
+              "performed_by": null,
+              "outcome": null
+            }
+          ],
+          "imaging": [
+            {
+              "type": "Lesion",
+              "body_part": "Right lower lobe of lung",
+              "modality": null,
+              "finding": null,
+              "impression": null,
+              "date": null
+            }
+          ]
+        }
+      }
+    },
+    {
+      "id": "N5",
+      "label": "Step 5",
+      "customData": {
+        "node_id": "E",
+        "node_step_index": 4,
+        "content": "Bronchial brushings were positive for malignant cells. Initial biopsy results revealed clusters of atypical cells with severe crushing effects consistent with SCLC. Immunohistochemistry revealed SCLC with EGFR positive for Exon 21 2573T>G L858R mutation as well as a high proliferative index (ki-67, 80%), and positive TTF-1 and synaptophysin. Tumor cells were negative for chromogranin and p63.",
+        "clinical_data": {
+          "diagnoses": [
+            {
+              "code": "C80.1",
+              "label": "Malignant (primary) neoplasm, unspecified, so stated",
+              "status": "active"
+            },
+            {
+              "code": "C34.9",
+              "label": "Malignant neoplasm of unspecified part of bronchus or lung",
+              "status": "active"
+            }
+          ],
+          "labs": [
+            {
+              "test": "Ki-67 protein",
+              "value": "80",
+              "unit": "%",
+              "flag": "abnormal"
+            },
+            {
+              "test": "TTF-1",
+              "value": "positive",
+              "unit": null,
+              "flag": "abnormal"
+            },
+            {
+              "test": "Synaptophysin",
+              "value": "positive",
+              "unit": null,
+              "flag": "abnormal"
+            },
+            {
+              "test": "Chromogranin",
+              "value": "negative",
+              "unit": null,
+              "flag": "normal"
+            },
+            {
+              "test": "p63 protein",
+              "value": "negative",
+              "unit": null,
+              "flag": "normal"
+            }
+          ],
+          "imaging": [
+            {
+              "type": "Bronchial brushing",
+              "body_part": "Bronchus",
+              "modality": "other",
+              "finding": "Malignant cells",
+              "impression": "Positive for malignant cells"
+            },
+            {
+              "type": "Biopsy",
+              "body_part": "Lung",
+              "modality": "other",
+              "finding": "Clusters of atypical cells with severe crushing effects",
+              "impression": "Consistent with SCLC"
+            }
+          ]
+        }
+      }
+    },
+    {
+      "id": "N6",
+      "label": "Step 6",
+      "customData": {
+        "node_id": "F",
+        "node_step_index": 5,
+        "content": "Patient was classified as Stage IV SCLC and started on targeted therapy with osimertinib.",
+        "clinical_data": {
+          "diagnoses": [
+            {
+              "code": "C34.9",
+              "label": "Small cell lung cancer",
+              "status": "active"
+            }
+          ],
+          "medications": [
+            {
+              "drug": "C1709",
+              "dosage": null,
+              "frequency": null,
+              "modality": null,
+              "start_date": null,
+              "end_date": null,
+              "indication": "C34.9"
+            }
+          ]
+        }
+      }
+    },
+    {
+      "id": "N7",
+      "label": "Step 7",
+      "customData": {
+        "node_id": "G",
+        "node_step_index": 6,
+        "content": "After two months of osimertinib, the patient's clinical status worsened, requiring hospitalization for pneumonia and new pleural effusion. Follow-up CT",
+        "clinical_data": {
+          "medications": [
+            {
+              "drug": "C1608488",
+              "dosage": null,
+              "frequency": null,
+              "modality": null,
+              "start_date": null,
+              "end_date": null,
+              "indication": null
+            }
+          ],
+          "diagnoses": [
+            {
+              "code": "59620000",
+              "label": "Pneumonia",
+              "status": "active",
+              "onset_date": null
+            },
+            {
+              "code": "C0032175",
+              "label": "Pleural Effusion",
+              "status": "active",
+              "onset_date": null
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "edges": [
+    {
+      "from": "N1",
+      "to": "N2",
+      "data": {
+        "edge_id": "A_to_B",
+        "branch_flag": true,
+        "content": "Initial imaging to investigate cough and blood in sputum."
+      }
+    },
+    {
+      "from": "N2",
+      "to": "N3",
+      "data": {
+        "edge_id": "B_to_C",
+        "branch_flag": true,
+        "content": "Further imaging to investigate pancreatic mass.",
+        "transition_event": {
+          "trigger_type": "imaging",
+          "trigger_entities": [
+            "pancreatic mass"
+          ],
+          "change_type": "progression",
+          "target_domain": "imaging"
+        }
+      }
+    },
+    {
+      "from": "N3",
+      "to": "N4",
+      "data": {
+        "edge_id": "C_to_D",
+        "branch_flag": true,
+        "content": "Brain MRI findings prompted bronchoscopy for tissue diagnosis."
+      }
+    },
+    {
+      "from": "N4",
+      "to": "N5",
+      "data": {
+        "edge_id": "D_to_E",
+        "branch_flag": true,
+        "content": "Bronchoscopy and biopsy results revealed SCLC with EGFR Exon 21 2573T>G L858R mutation.",
+        "transition_event": {
+          "trigger_type": "procedure",
+          "trigger_entities": [
+            "bronchoscopy",
+            "biopsy"
+          ],
+          "change_type": "addition",
+          "target_domain": "diagnosis"
+        }
+      }
+    },
+    {
+      "from": "N5",
+      "to": "N6",
+      "data": {
+        "edge_id": "E_to_F",
+        "branch_flag": true,
+        "content": "Diagnosis of Stage IV SCLC led to initiation of targeted therapy.",
+        "transition_event": {
+          "trigger_type": "interpretation",
+          "trigger_entities": [
+            "SCLC",
+            "EGFR Exon 21 2573T>G L858R mutation"
+          ],
+          "change_type": "addition",
+          "target_domain": "diagnosis"
+        }
+      }
+    },
+    {
+      "from": "N6",
+      "to": "N7",
+      "data": {
+        "edge_id": "F_to_G",
+        "branch_flag": true,
+        "content": "After two months of osimertinib, the patient's clinical status worsened, requiring hospitalization for pneumonia and new pleural effusion. Follow-up CT",
+        "transition_event": {
+          "trigger_type": "medication_change",
+          "trigger_entities": [
+            "C1709"
+          ],
+          "change_type": "other",
+          "target_domain": "medication"
+        }
+      }
+    }
+  ]
+}

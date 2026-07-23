@@ -1,0 +1,187 @@
+{
+  "nodes": [
+    {
+      "id": "N1",
+      "label": "Step 1",
+      "customData": {
+        "node_id": "A",
+        "node_step_index": 0,
+        "content": "In February 2021, a >60-year-old male journalist was hospitalized for a massive right pneumothorax. He has emphysematous chronic bronchitis and a history of heavy smoking (35 packs/year before quitting). He worked as a war correspondent in the Balkans, Iraq, and Afghanistan for about 10 years starting in the early 1990s. He is a social drinker with a physically active lifestyle. Patient's family history is positive for cancers: both parents had lung cancer, and two sisters had breast cancer. The patient worked in an urban office since 2003 and lived for many months among the rubble of bombed-out buildings constructed mainly in the 1950s and 1960s with the extensive use of asbestos during each mission.",
+        "clinical_data": {
+          "diagnoses": [
+            {
+              "code": "233944008",
+              "label": "Emphysematous chronic bronchitis",
+              "status": "active",
+              "onset_date": null
+            },
+            {
+              "code": "56731001",
+              "label": "Pneumothorax",
+              "status": "active",
+              "onset_date": "2021-02"
+            }
+          ],
+          "social_history": [
+            {
+              "category": "smoking",
+              "status": "past",
+              "description": "35 packs/year before quitting"
+            },
+            {
+              "category": "alcohol",
+              "status": "current",
+              "description": "social drinker"
+            },
+            {
+              "category": "employment",
+              "status": "past",
+              "description": "war correspondent in the Balkans, Iraq, and Afghanistan for about 10 years starting in the early 1990s. Worked in an urban office since 2003"
+            }
+          ],
+          "family_history": [
+            {
+              "relation": "parents",
+              "condition": "Lung cancer"
+            },
+            {
+              "relation": "sisters",
+              "condition": "Breast cancer"
+            }
+          ]
+        }
+      }
+    },
+    {
+      "id": "N2",
+      "label": "Step 2",
+      "customData": {
+        "node_id": "B",
+        "node_step_index": 1,
+        "content": "In 2017, the patient developed a mucoepidermoid carcinoma (MEC) of the soft palate and underwent surgery (partial maxillectomy and palate reconstruction).",
+        "clinical_data": {
+          "diagnoses": [
+            {
+              "code": "C4108",
+              "label": "Mucoepidermoid carcinoma",
+              "status": "historical",
+              "onset_date": "2017"
+            }
+          ],
+          "procedures": [
+            {
+              "name": "Partial maxillectomy",
+              "approach": "open",
+              "date": "2017",
+              "location": "soft palate",
+              "outcome": "reconstruction"
+            },
+            {
+              "name": "Palate reconstruction",
+              "approach": "open",
+              "date": "2017",
+              "location": "soft palate"
+            }
+          ]
+        }
+      }
+    },
+    {
+      "id": "N3",
+      "label": "Step 3",
+      "customData": {
+        "node_id": "C",
+        "node_step_index": 2,
+        "content": "Following pleural drainage for persistent air loss and incomplete pulmonary re-expansion, thoracoscopy and biopsies were performed. Patient was diagnosed with multifocal malignant pleural mesothelioma (MM) with microfoci of initial infiltration, confirmed by histochemical methods (diffuse p63, CK19 and CK14 phenotype, focally positive for Cam 5.2). Patient underwent surgery (right apicoectomy for bullous dystrophy and chemical pleurodesis) and chemotherapeutic treatment (cisplatin and pemetrexed).",
+        "clinical_data": {
+          "procedures": [
+            {
+              "name": "Thoracoscopy",
+              "date": null
+            },
+            {
+              "name": "Biopsy",
+              "date": null
+            },
+            {
+              "name": "Pleural drainage",
+              "date": null
+            },
+            {
+              "name": "Right apicoectomy",
+              "date": null,
+              "location": "right"
+            },
+            {
+              "name": "Chemical pleurodesis",
+              "date": null
+            }
+          ],
+          "diagnoses": [
+            {
+              "code": "C45.0",
+              "label": "Mesothelioma of pleura",
+              "status": "active",
+              "onset_date": null
+            }
+          ],
+          "medications": [
+            {
+              "drug": "Cisplatin",
+              "dosage": null,
+              "frequency": null,
+              "modality": null,
+              "start_date": null,
+              "end_date": null,
+              "indication": "C45.0"
+            },
+            {
+              "drug": "Pemetrexed",
+              "dosage": null,
+              "frequency": null,
+              "modality": null,
+              "start_date": null,
+              "end_date": null,
+              "indication": "C45.0"
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "edges": [
+    {
+      "from": "N1",
+      "to": "N2",
+      "data": {
+        "edge_id": "A_to_B",
+        "branch_flag": true,
+        "content": "Interval between initial hospitalization for pneumothorax and prior diagnosis/treatment of mucoepidermoid carcinoma.",
+        "transition_event": {
+          "trigger_type": "symptom_onset",
+          "trigger_entities": [
+            "C0006114"
+          ],
+          "change_type": "progression",
+          "target_domain": "diagnosis",
+          "timestamp": "2017"
+        }
+      }
+    },
+    {
+      "from": "N2",
+      "to": "N3",
+      "data": {
+        "edge_id": "B_to_C",
+        "branch_flag": true,
+        "content": "Progression from mucoepidermoid carcinoma to malignant pleural mesothelioma, requiring further pleural drainage, thoracoscopy, biopsies, surgery, and chemotherapy.",
+        "transition_event": {
+          "trigger_type": "lab_change",
+          "trigger_entities": [],
+          "change_type": "progression",
+          "target_domain": "diagnosis"
+        }
+      }
+    }
+  ]
+}

@@ -1,0 +1,518 @@
+{
+  "nodes": [
+    {
+      "id": "N1",
+      "label": "Step 1",
+      "customData": {
+        "node_id": "A",
+        "node_step_index": 0,
+        "content": "67-year-old woman presented with suspicion of right pleural effusion on chest X-ray imaging and one month of persistent cough. Medical history includes bipolar disorder, sleep apnea syndrome, and hypertension. Never a smoker.",
+        "clinical_data": {
+          "imaging": [
+            {
+              "type": "Radiography, Thoracic (TUI)",
+              "body_part": "Pleura (TUI)",
+              "modality": "X-ray",
+              "finding": "Pleural Effusion (TUI)",
+              "impression": "Suspicion of right pleural effusion"
+            }
+          ],
+          "HPI": [
+            {
+              "duration": "1 month",
+              "summary": "Persistent cough"
+            }
+          ],
+          "diagnoses": [
+            {
+              "code": "F31",
+              "label": "Bipolar Disorder",
+              "status": "active"
+            },
+            {
+              "code": "G47.30",
+              "label": "Sleep Apnea Syndrome",
+              "status": "active"
+            },
+            {
+              "code": "I10",
+              "label": "Hypertension",
+              "status": "active"
+            }
+          ],
+          "social_history": [
+            {
+              "category": "smoking",
+              "status": "never"
+            }
+          ]
+        }
+      },
+      "custom_id": "graph_083_N0"
+    },
+    {
+      "id": "N2",
+      "label": "Step 2",
+      "customData": {
+        "node_id": "B",
+        "node_step_index": 1,
+        "content": "Normal vital signs and physical features. CA19-9 level was 282 U/mL. CT revealed a 3.1 cm right lower lobe tumor, lymphadenopathy, right pleural effusion, and pericardial effusion. CT showed scattered nodules in bilateral breasts.",
+        "clinical_data": {
+          "vitals": [],
+          "labs": [
+            {
+              "test": "CA 19-9 level",
+              "value": "282",
+              "unit": "U/mL",
+              "flag": "abnormal"
+            }
+          ],
+          "imaging": [
+            {
+              "type": "tumor",
+              "body_part": "right lower lobe",
+              "modality": "CT",
+              "finding": "3.1 cm right lower lobe tumor",
+              "date": null
+            },
+            {
+              "type": "lymphadenopathy",
+              "body_part": null,
+              "modality": "CT",
+              "finding": "lymphadenopathy",
+              "date": null
+            },
+            {
+              "type": "pleural effusion",
+              "body_part": "right pleura",
+              "modality": "CT",
+              "finding": "right pleural effusion",
+              "date": null
+            },
+            {
+              "type": "pericardial effusion",
+              "body_part": "pericardium",
+              "modality": "CT",
+              "finding": "pericardial effusion",
+              "date": null
+            },
+            {
+              "type": "nodule",
+              "body_part": "bilateral breasts",
+              "modality": "CT",
+              "finding": "scattered nodules in bilateral breasts",
+              "date": null
+            }
+          ]
+        }
+      },
+      "custom_id": "graph_083_N1"
+    },
+    {
+      "id": "N3",
+      "label": "Step 3",
+      "customData": {
+        "node_id": "C",
+        "node_step_index": 2,
+        "content": "Approximately 20 scattered tumor shadows, measuring up to 1.2 cm, were observed in both breasts. Molecular analysis of the transbronchial lung biopsy of lung adenocarcinoma specimen using Oncomine Dx Target Test (ODxTT, Thermo Fisher Scientific, Waltham, MA) Multi-CDx System, detected EML4-ALK fusion gene. Hematoxylin and eosin (HE) staining of the specimen revealed positivity for AE1/AE3, CAM5.2, E-cadherin, and thyroid transcription factor-1 (TTF-1) according to the IHC analysis. Needle biopsy of bilateral breast tumors was performed, and the histological findings on HE staining corresponded to adenocarcinoma derived from the lungs or breasts.",
+        "clinical_data": {
+          "imaging": [
+            {
+              "type": "Tumor shadow",
+              "body_part": "Breast",
+              "modality": "other",
+              "finding": "Scattered tumor shadows, measuring up to 1.2 cm, were observed in both breasts.",
+              "impression": "Scattered tumor shadows",
+              "date": null
+            }
+          ],
+          "labs": [
+            {
+              "test": "EML4-ALK fusion gene",
+              "value": "Detected",
+              "unit": null,
+              "flag": "positive",
+              "reference_range": null,
+              "timestamp": null
+            },
+            {
+              "test": "AE1/AE3",
+              "value": "Positive",
+              "unit": null,
+              "flag": "positive",
+              "reference_range": null,
+              "timestamp": null
+            },
+            {
+              "test": "CAM5.2",
+              "value": "Positive",
+              "unit": null,
+              "flag": "positive",
+              "reference_range": null,
+              "timestamp": null
+            },
+            {
+              "test": "E-cadherin",
+              "value": "Positive",
+              "unit": null,
+              "flag": "positive",
+              "reference_range": null,
+              "timestamp": null
+            },
+            {
+              "test": "thyroid transcription factor-1",
+              "value": "Positive",
+              "unit": null,
+              "flag": "positive",
+              "reference_range": null,
+              "timestamp": null
+            }
+          ],
+          "procedures": [
+            {
+              "name": "Needle biopsy",
+              "approach": "percutaneous",
+              "date": null,
+              "location": "Bilateral breast tumors",
+              "performed_by": null,
+              "outcome": null
+            }
+          ],
+          "diagnoses": [
+            {
+              "code": null,
+              "label": "adenocarcinoma derived from the lungs or breasts",
+              "status": "active",
+              "onset_date": null
+            },
+            {
+              "code": "C34",
+              "label": "Lung Adenocarcinoma",
+              "status": "active",
+              "onset_date": null
+            }
+          ]
+        }
+      },
+      "custom_id": "graph_083_N2"
+    },
+    {
+      "id": "N4",
+      "label": "Step 4",
+      "customData": {
+        "node_id": "D",
+        "node_step_index": 3,
+        "content": "IHC of lung and bilateral breast specimens: positive for TTF-1 and E-cadherin; negative for ER, PgR, and HER2. ALK immunostaining was positive. FISH analysis detected ALK rearrangement with isolated red and green signals along with fused red/green signals. ALK copy number gain was noted in both specimens.",
+        "clinical_data": {
+          "imaging": [
+            {
+              "type": "Immunohistochemistry",
+              "body_part": "lung",
+              "modality": "other",
+              "finding": "positive for TTF-1 and E-cadherin; negative for ER, PgR, and HER2"
+            },
+            {
+              "type": "Immunohistochemistry",
+              "body_part": "breast",
+              "modality": "other",
+              "finding": "positive for TTF-1 and E-cadherin; negative for ER, PgR, and HER2"
+            },
+            {
+              "type": "Immunohistochemistry",
+              "body_part": "lung",
+              "modality": "other",
+              "finding": "ALK immunostaining was positive"
+            },
+            {
+              "type": "FISH analysis",
+              "body_part": "lung",
+              "modality": "other",
+              "finding": "ALK rearrangement with isolated red and green signals along with fused red/green signals"
+            },
+            {
+              "type": "FISH analysis",
+              "body_part": "breast",
+              "modality": "other",
+              "finding": "ALK rearrangement with isolated red and green signals along with fused red/green signals"
+            }
+          ]
+        }
+      },
+      "custom_id": "graph_083_N3"
+    },
+    {
+      "id": "N5",
+      "label": "Step 5",
+      "customData": {
+        "node_id": "E",
+        "node_step_index": 4,
+        "content": "Bilateral breast tumors diagnosed as metastases from lung adenocarcinoma. Oral treatment with alectinib (600 mg once a day) was initiated.",
+        "clinical_data": {
+          "diagnoses": [
+            {
+              "code": "C34",
+              "label": "Malignant neoplasm of bronchus and lung",
+              "status": "active"
+            },
+            {
+              "code": "C79.2",
+              "label": "Secondary malignant neoplasm of skin",
+              "status": "active"
+            }
+          ],
+          "medications": [
+            {
+              "drug": "C1613",
+              "dosage": "600 mg",
+              "frequency": "once a day",
+              "modality": "oral",
+              "start_date": null,
+              "end_date": null
+            }
+          ]
+        }
+      },
+      "custom_id": "graph_083_N4"
+    },
+    {
+      "id": "N6",
+      "label": "Step 6",
+      "customData": {
+        "node_id": "F",
+        "node_step_index": 5,
+        "content": "Tumor sizes reduced to 1.2 cm with alectinib treatment. Breast metastases nearly disappeared, shrinking to a maximum size of 4 mm.",
+        "clinical_data": {
+          "imaging": [
+            {
+              "finding": "Tumor sizes reduced to 1.2 cm with alectinib treatment",
+              "impression": "Tumor sizes reduced to 1.2 cm with alectinib treatment"
+            },
+            {
+              "finding": "Breast metastases nearly disappeared, shrinking to a maximum size of 4 mm",
+              "impression": "Breast metastases nearly disappeared, shrinking to a maximum size of 4 mm"
+            }
+          ],
+          "medications": [
+            {
+              "drug": "alectinib"
+            }
+          ]
+        }
+      },
+      "custom_id": "graph_083_N5"
+    },
+    {
+      "id": "N7",
+      "label": "Step 7",
+      "customData": {
+        "node_id": "G",
+        "node_step_index": 6,
+        "content": "Chest CT findings at six months after alectinib treatment: tumor size reduction in the lower right lobe and resolution of the pleural effusion.",
+        "clinical_data": {
+          "imaging": [
+            {
+              "type": "Computed tomography of chest",
+              "body_part": "Thorax",
+              "modality": "CT",
+              "finding": "Tumor size reduction in the lower right lobe and resolution of the pleural effusion",
+              "date": null
+            }
+          ],
+          "medications": [
+            {
+              "drug": "alectinib",
+              "dosage": null,
+              "frequency": null,
+              "modality": "oral",
+              "start_date": null,
+              "end_date": null,
+              "indication": null
+            }
+          ]
+        }
+      },
+      "custom_id": "graph_083_N6"
+    },
+    {
+      "id": "N8",
+      "label": "Step 8",
+      "customData": {
+        "node_id": "H",
+        "node_step_index": 7,
+        "content": "CT imaging shows resolution of shadows in bilateral breasts. Lymphadenopathy, pleural effusions, and pericardial effusions decreased. CA 19-9 level decreased to 3.7 U/mL. Alectinib therapy ongoing, with no evidence of recurrence.",
+        "clinical_data": {
+          "imaging": [
+            {
+              "type": "11591000119101",
+              "body_part": "T-D001943",
+              "modality": "CT",
+              "finding": "resolution of shadows in bilateral breasts",
+              "date": null
+            }
+          ],
+          "labs": [
+            {
+              "test": "C0007274",
+              "value": "3.7",
+              "unit": "U/mL",
+              "timestamp": null
+            }
+          ],
+          "medications": [
+            {
+              "drug": "C1697479",
+              "indication": "C0035072"
+            }
+          ]
+        }
+      },
+      "custom_id": "graph_083_N7"
+    },
+    {
+      "id": "N9",
+      "label": "Step 9",
+      "customData": {
+        "node_id": "I",
+        "node_step_index": 8,
+        "content": "Patient diagnosed with ALK rearrangement-positive pulmonary adenocarcinoma with bilateral scattered breast metastases. CA19-9 levels decreased (quantitative values not provided in this excerpt).",
+        "clinical_data": {
+          "diagnoses": [
+            {
+              "code": "C34",
+              "label": "pulmonary adenocarcinoma",
+              "status": "active"
+            },
+            {
+              "code": "C79.31",
+              "label": "metastatic malignant neoplasm of breast to bilateral lungs",
+              "status": "active"
+            }
+          ],
+          "labs": [
+            {
+              "test": "CA19-9",
+              "value": "decreased",
+              "unit": null,
+              "flag": "abnormal"
+            }
+          ]
+        }
+      },
+      "custom_id": "graph_083_N8"
+    }
+  ],
+  "edges": [
+    {
+      "from": "N1",
+      "to": "N2",
+      "data": {
+        "edge_id": "A_to_B",
+        "branch_flag": true,
+        "content": "Patient's cough persisted for one month. Chest CT revealed a 3.1 cm right lower lobe tumor, lymphadenopathy, right pleural effusion, pericardial effusion, and scattered nodules in bilateral breasts. CA19-9 level was 282 U/mL."
+      },
+      "custom_id": "graph_083_N1_N2"
+    },
+    {
+      "from": "N2",
+      "to": "N3",
+      "data": {
+        "edge_id": "B_to_C",
+        "branch_flag": true,
+        "content": "Scattered tumor shadows observed in both breasts. Molecular analysis detected EML4-ALK fusion gene. HE staining revealed positivity for AE1/AE3, CAM5.2, E-cadherin, and TTF-1. Needle biopsy of bilateral breast tumors was performed, and the histological findings on HE staining corresponded to adenocarcinoma derived from the lungs or breasts.",
+        "transition_event": {
+          "trigger_type": "lab_change",
+          "trigger_entities": [
+            "C0003878"
+          ],
+          "change_type": "addition",
+          "target_domain": "diagnosis"
+        }
+      },
+      "custom_id": "graph_083_N2_N3"
+    },
+    {
+      "from": "N3",
+      "to": "N4",
+      "data": {
+        "edge_id": "C_to_D",
+        "branch_flag": true,
+        "content": "IHC of lung and bilateral breast specimens: positive for TTF-1 and E-cadherin; negative for ER, PgR, and HER2. ALK immunostaining was positive. FISH analysis detected ALK rearrangement with isolated red and green signals along with fused red/green signals. ALK copy number gain was noted in both specimens."
+      },
+      "custom_id": "graph_083_N3_N4"
+    },
+    {
+      "from": "N4",
+      "to": "N5",
+      "data": {
+        "edge_id": "D_to_E",
+        "branch_flag": true,
+        "content": "Bilateral breast tumors diagnosed as metastases from lung adenocarcinoma. Oral treatment with alectinib (600 mg once a day) was initiated.",
+        "transition_event": {
+          "trigger_type": "medication_change",
+          "trigger_entities": [
+            "C1613"
+          ],
+          "change_type": "addition",
+          "target_domain": "medication"
+        }
+      },
+      "custom_id": "graph_083_N4_N5"
+    },
+    {
+      "from": "N5",
+      "to": "N6",
+      "data": {
+        "edge_id": "E_to_F",
+        "branch_flag": true,
+        "content": "Tumor sizes reduced to 1.2 cm with alectinib treatment. Breast metastases nearly disappeared, shrinking to a maximum size of 4 mm.",
+        "transition_event": {
+          "trigger_type": "medication_change",
+          "trigger_entities": [
+            "C1613"
+          ],
+          "change_type": "other",
+          "target_domain": "imaging"
+        }
+      },
+      "custom_id": "graph_083_N5_N6"
+    },
+    {
+      "from": "N6",
+      "to": "N7",
+      "data": {
+        "edge_id": "F_to_G",
+        "branch_flag": true,
+        "content": "Chest CT findings at six months after alectinib treatment: tumor size reduction in the lower right lobe and resolution of the pleural effusion."
+      },
+      "custom_id": "graph_083_N6_N7"
+    },
+    {
+      "from": "N7",
+      "to": "N8",
+      "data": {
+        "edge_id": "G_to_H",
+        "branch_flag": true,
+        "content": "CT imaging shows resolution of shadows in bilateral breasts. Lymphadenopathy, pleural effusions, and pericardial effusions decreased. CA 19-9 level decreased to 3.7 U/mL. Alectinib therapy ongoing, with no evidence of recurrence.",
+        "transition_event": {
+          "trigger_type": "lab_change",
+          "trigger_entities": [
+            "C0007274"
+          ],
+          "change_type": "deescalation",
+          "target_domain": "lab"
+        }
+      },
+      "custom_id": "graph_083_N7_N8"
+    },
+    {
+      "from": "N8",
+      "to": "N9",
+      "data": {
+        "edge_id": "H_to_I",
+        "branch_flag": true,
+        "content": "Patient diagnosed with ALK rearrangement-positive pulmonary adenocarcinoma with bilateral scattered breast metastases. CA19-9 levels decreased."
+      },
+      "custom_id": "graph_083_N8_N9"
+    }
+  ]
+}

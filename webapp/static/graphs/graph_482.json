@@ -1,0 +1,356 @@
+{
+  "nodes": [
+    {
+      "id": "N1",
+      "label": "Step 1",
+      "customData": {
+        "node_id": "A",
+        "node_step_index": 0,
+        "content": "39-year-old female presented in January 2021 with a one-month history of increasing dyspnea and left shoulder discomfort. Dyspnea aggravated with sleep, but was not accompanied by fever, chest discomfort, nausea, vomiting, or weight loss. Patient had prior rhinoplasty. No history of smoking or cancer in the family. Diagnosed with Pleural epithelioid hemangioendothelioma.",
+        "clinical_data": {
+          "HPI": [
+            {
+              "summary": "39-year-old female presented in January 2021 with a one-month history of increasing dyspnea and left shoulder discomfort. Dyspnea aggravated with sleep, but was not accompanied by fever, chest discomfort, nausea, vomiting, or weight loss.",
+              "duration": "P1M",
+              "onset": "2020-12",
+              "progression": "gradual",
+              "associated_symptoms": [
+                "C0013404"
+              ]
+            }
+          ],
+          "diagnoses": [
+            {
+              "code": "C4728677",
+              "label": "Pleural epithelioid hemangioendothelioma",
+              "status": "active",
+              "onset_date": "2021-01"
+            }
+          ],
+          "social_history": [
+            {
+              "category": "smoking",
+              "status": "never"
+            }
+          ]
+        }
+      }
+    },
+    {
+      "id": "N2",
+      "label": "Step 2",
+      "customData": {
+        "node_id": "B",
+        "node_step_index": 1,
+        "content": "Diminished breathing sounds at the base of the left lung. WBC count: 19.9\u2009\u00d7\u2009109/L, hemoglobin: 10.9 g/dl, platelets: 521\u2009\u00d7\u2009109/L, BUN: 10 mg/dl, creatinine: 0.8 mg/dl, blood sugar: 120 mg/dl, sodium: 141 mEq/L, potassium: 4.3 mEq/L. Chest x-ray: opacification of the left lung. CT scan of the chest: left-sided pleural effusion and minimal pleural thickening, without parenchymal abnormalities. Electrocardiography and echocardiogram: no cardiac abnormalities.",
+        "clinical_data": {
+          "vitals": [],
+          "labs": [
+            {
+              "test": "White blood cell count",
+              "value": "19.9",
+              "unit": "10^9/L",
+              "flag": "abnormal"
+            },
+            {
+              "test": "Hemoglobin",
+              "value": "10.9",
+              "unit": "g/dl",
+              "flag": "abnormal"
+            },
+            {
+              "test": "Platelets",
+              "value": "521",
+              "unit": "10^9/L",
+              "flag": "abnormal"
+            },
+            {
+              "test": "Blood urea nitrogen",
+              "value": "10",
+              "unit": "mg/dl",
+              "flag": "normal"
+            },
+            {
+              "test": "Creatinine",
+              "value": "0.8",
+              "unit": "mg/dl",
+              "flag": "normal"
+            },
+            {
+              "test": "Glucose",
+              "value": "120",
+              "unit": "mg/dl",
+              "flag": "normal"
+            },
+            {
+              "test": "Sodium",
+              "value": "141",
+              "unit": "mEq/L",
+              "flag": "normal"
+            },
+            {
+              "test": "Potassium",
+              "value": "4.3",
+              "unit": "mEq/L",
+              "flag": "normal"
+            }
+          ],
+          "imaging": [
+            {
+              "type": "Chest X-ray",
+              "body_part": "Lung",
+              "modality": "X-ray",
+              "finding": "Opacification of the left lung"
+            },
+            {
+              "type": "CT scan of the chest",
+              "body_part": "Chest",
+              "modality": "CT",
+              "finding": "Left-sided pleural effusion and minimal pleural thickening, without parenchymal abnormalities"
+            }
+          ]
+        }
+      }
+    },
+    {
+      "id": "N3",
+      "label": "Step 3",
+      "customData": {
+        "node_id": "C",
+        "node_step_index": 2,
+        "content": "Patient underwent therapeutic and diagnostic thoracentesis.",
+        "clinical_data": {
+          "procedures": [
+            {
+              "name": "Thoracentesis",
+              "approach": "percutaneous",
+              "date": null,
+              "location": "pleural cavity",
+              "performed_by": null,
+              "outcome": null
+            }
+          ]
+        }
+      }
+    },
+    {
+      "id": "N4",
+      "label": "Step 4",
+      "customData": {
+        "node_id": "D",
+        "node_step_index": 3,
+        "content": "Pleural fluid analysis: total count of 3100 cells with malignant cells, RBC count of 2400, WBC count of 700 (lymphocyte 40% and neutrophil 60%), fluid lactate dehydrogenase 299 IU/L, negative adenosine deaminase and culture. CT scan of lungs: left-sided pleural effusion, and minimal pleural thickening, without accompanying parenchymal abnormalities. Pleuroscopy: multiple creamy nodular lesions on the visceral and parietal pleura. Multiple biopsies were taken, pleural effusion was drained, and a chest tube was inserted.",
+        "clinical_data": {
+          "labs": [
+            {
+              "test": "Total cell count",
+              "value": "3100",
+              "unit": "cells",
+              "flag": "abnormal",
+              "timestamp": null
+            },
+            {
+              "test": "Red blood cell count",
+              "value": "2400",
+              "unit": null,
+              "flag": "abnormal",
+              "timestamp": null
+            },
+            {
+              "test": "White blood cell count",
+              "value": "700",
+              "unit": null,
+              "flag": "abnormal",
+              "timestamp": null
+            },
+            {
+              "test": "Lymphocyte",
+              "value": "40",
+              "unit": "%",
+              "flag": "abnormal",
+              "timestamp": null
+            },
+            {
+              "test": "Neutrophil",
+              "value": "60",
+              "unit": "%",
+              "flag": "abnormal",
+              "timestamp": null
+            },
+            {
+              "test": "Lactate dehydrogenase measurement",
+              "value": "299",
+              "unit": "IU/L",
+              "flag": "abnormal",
+              "timestamp": null
+            },
+            {
+              "test": "Adenosine deaminase measurement",
+              "value": "negative",
+              "unit": null,
+              "flag": "normal",
+              "timestamp": null
+            },
+            {
+              "test": "Culture",
+              "value": "negative",
+              "unit": null,
+              "flag": "normal",
+              "timestamp": null
+            }
+          ],
+          "imaging": [
+            {
+              "type": "CT scan of lungs",
+              "body_part": "Lung",
+              "modality": "CT",
+              "finding": "left-sided pleural effusion, and minimal pleural thickening, without accompanying parenchymal abnormalities",
+              "impression": "left-sided pleural effusion, and minimal pleural thickening, without accompanying parenchymal abnormalities",
+              "date": null
+            }
+          ],
+          "procedures": [
+            {
+              "name": "Pleuroscopy",
+              "approach": "endoscopic",
+              "date": null,
+              "location": "pleura",
+              "performed_by": null,
+              "outcome": null
+            },
+            {
+              "name": "Biopsy",
+              "approach": null,
+              "date": null,
+              "location": "pleura",
+              "performed_by": null,
+              "outcome": null
+            },
+            {
+              "name": "Thoracentesis",
+              "approach": "percutaneous",
+              "date": null,
+              "location": "pleural cavity",
+              "performed_by": null,
+              "outcome": null
+            },
+            {
+              "name": "Chest tube insertion",
+              "approach": "percutaneous",
+              "date": null,
+              "location": "pleural cavity",
+              "performed_by": null,
+              "outcome": null
+            }
+          ]
+        }
+      }
+    },
+    {
+      "id": "N5",
+      "label": "Step 5",
+      "customData": {
+        "node_id": "E",
+        "node_step_index": 4,
+        "content": "Patient was discharged after chest tube removal and instructed to visit the pulmonologist when biopsy results were ready.",
+        "clinical_data": {}
+      }
+    },
+    {
+      "id": "N6",
+      "label": "Step 6",
+      "customData": {
+        "node_id": "F",
+        "node_step_index": 5,
+        "content": "Patient readmitted to the hospital five days later due to dys",
+        "clinical_data": {}
+      }
+    }
+  ],
+  "edges": [
+    {
+      "from": "N1",
+      "to": "N2",
+      "data": {
+        "edge_id": "A_to_B",
+        "branch_flag": true,
+        "content": "Transition from initial presentation to physical exam, lab results, and imaging findings.",
+        "transition_event": {
+          "trigger_type": "symptom_onset",
+          "trigger_entities": [
+            "C0013404",
+            "C0476533"
+          ],
+          "change_type": "progression",
+          "target_domain": "symptom"
+        }
+      }
+    },
+    {
+      "from": "N2",
+      "to": "N3",
+      "data": {
+        "edge_id": "B_to_C",
+        "branch_flag": true,
+        "content": "Decision to perform therapeutic and diagnostic thoracentesis based on initial findings.",
+        "transition_event": {
+          "trigger_type": "procedure",
+          "trigger_entities": [
+            "C0040159"
+          ],
+          "change_type": "addition",
+          "target_domain": "procedure"
+        }
+      }
+    },
+    {
+      "from": "N3",
+      "to": "N4",
+      "data": {
+        "edge_id": "C_to_D",
+        "branch_flag": true,
+        "content": "Results of pleural fluid analysis, repeat CT scan, and pleuroscopy with biopsies.",
+        "transition_event": {
+          "trigger_type": "lab_change",
+          "trigger_entities": [],
+          "change_type": "other",
+          "target_domain": "lab"
+        }
+      }
+    },
+    {
+      "from": "N4",
+      "to": "N5",
+      "data": {
+        "edge_id": "D_to_E",
+        "branch_flag": true,
+        "content": "Discharge after chest tube removal with pulmonologist follow-up pending biopsy results.",
+        "transition_event": {
+          "trigger_type": "procedure",
+          "trigger_entities": [
+            "C0262755"
+          ],
+          "change_type": "discontinuation",
+          "target_domain": "procedure"
+        }
+      }
+    },
+    {
+      "from": "N5",
+      "to": "N6",
+      "data": {
+        "edge_id": "E_to_F",
+        "branch_flag": true,
+        "content": "Readmission to the hospital five days later due to dyspnea.",
+        "transition_event": {
+          "trigger_type": "symptom_onset",
+          "trigger_entities": [
+            "C0013404"
+          ],
+          "change_type": "progression",
+          "target_domain": "symptom"
+        }
+      }
+    }
+  ]
+}

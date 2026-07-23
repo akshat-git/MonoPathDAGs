@@ -1,0 +1,337 @@
+{
+  "nodes": [
+    {
+      "id": "N1",
+      "label": "Step 1",
+      "customData": {
+        "node_id": "A",
+        "node_step_index": 0,
+        "content": "70-year-old female presented with flank pain in February 2022.",
+        "timestamp": "2022-02",
+        "clinical_data": {
+          "HPI": [
+            {
+              "summary": "70-year-old female presented with flank pain",
+              "onset": "February 2022",
+              "associated_symptoms": [
+                "Flank pain"
+              ]
+            }
+          ]
+        }
+      }
+    },
+    {
+      "id": "N2",
+      "label": "Step 2",
+      "customData": {
+        "node_id": "B",
+        "node_step_index": 1,
+        "content": "CT scan revealed multiple liver and bone lesions.",
+        "timestamp": "2022-02",
+        "clinical_data": {
+          "imaging": [
+            {
+              "type": "CT scan",
+              "body_part": "liver",
+              "modality": "CT",
+              "finding": "multiple lesions"
+            },
+            {
+              "type": "CT scan",
+              "body_part": "bone",
+              "modality": "CT",
+              "finding": "multiple lesions"
+            }
+          ]
+        }
+      }
+    },
+    {
+      "id": "N3",
+      "label": "Step 3",
+      "customData": {
+        "node_id": "C",
+        "node_step_index": 2,
+        "content": "FDG PET/CT revealed lung nodules and liver lesions.",
+        "timestamp": "2022-02",
+        "clinical_data": {
+          "imaging": [
+            {
+              "type": "Positron emission tomography/computed tomography",
+              "body_part": "lung",
+              "modality": "PET",
+              "finding": "lung nodules"
+            },
+            {
+              "type": "Positron emission tomography/computed tomography",
+              "body_part": "liver",
+              "modality": "PET",
+              "finding": "liver lesions"
+            }
+          ]
+        }
+      }
+    },
+    {
+      "id": "N4",
+      "label": "Step 4",
+      "customData": {
+        "node_id": "D",
+        "node_step_index": 3,
+        "content": "Two biopsies of a single liver lesion were performed at an outside facility and read as \u201clow-grade NET,\u201d but only 1% tumor tissue was present for analysis; thus, there was no mention of mitosis, necrosis, or proliferative index (Ki-67).",
+        "clinical_data": {
+          "procedures": [
+            {
+              "name": "Biopsy",
+              "location": "liver",
+              "outcome": "low-grade NET"
+            }
+          ]
+        }
+      }
+    },
+    {
+      "id": "N5",
+      "label": "Step 5",
+      "customData": {
+        "node_id": "E",
+        "node_step_index": 4,
+        "content": "Patient complained of fatigue, night sweats, anorexia, and severe back and pelvic pain.",
+        "clinical_data": {
+          "HPI": [
+            {
+              "summary": "Patient complained of fatigue, night sweats, anorexia, and severe back and pelvic pain.",
+              "associated_symptoms": [
+                "C0015672",
+                "C0028043",
+                "C0003126",
+                "C0004604",
+                "C0030970"
+              ]
+            }
+          ]
+        }
+      }
+    },
+    {
+      "id": "N6",
+      "label": "Step 6",
+      "customData": {
+        "node_id": "F",
+        "node_step_index": 5,
+        "content": "Tumor marker evaluation: chromogranin 1955 ng/mL, CEA 2213.6 ng/ mL, CA19-9 96 U/mL.",
+        "clinical_data": {
+          "labs": [
+            {
+              "test": "Chromogranin A",
+              "value": "1955",
+              "unit": "ng/mL",
+              "flag": "abnormal"
+            },
+            {
+              "test": "Carcinoembryonic Antigen",
+              "value": "2213.6",
+              "unit": "ng/ mL",
+              "flag": "abnormal"
+            },
+            {
+              "test": "CA 19-9 antigen",
+              "value": "96",
+              "unit": "U/mL",
+              "flag": "abnormal"
+            }
+          ]
+        }
+      }
+    },
+    {
+      "id": "N7",
+      "label": "Step 7",
+      "customData": {
+        "node_id": "G",
+        "node_step_index": 6,
+        "content": "CT-guided biopsy of a liver lesion showed metastatic carcinoid tumor with organoid nesting. Tumor cells were uniform with finely granular nuclear chromatin. Mitotic rate was 3 mitoses per 2 mm2 and necrosis was present, consistent with an atypical carcinoid.",
+        "timestamp": "2022-02-15",
+        "clinical_data": {
+          "imaging": [
+            {
+              "type": "Computed tomography",
+              "body_part": "Liver",
+              "modality": "CT",
+              "finding": "lesion",
+              "date": null
+            }
+          ],
+          "procedures": [
+            {
+              "name": "Biopsy",
+              "approach": "percutaneous",
+              "date": null,
+              "location": "Liver",
+              "outcome": "metastatic carcinoid tumor with organoid nesting. Tumor cells were uniform with finely granular nuclear chromatin. Mitotic rate was 3 mitoses per 2 mm2 and necrosis was present, consistent with an atypical carcinoid."
+            }
+          ],
+          "diagnoses": [
+            {
+              "code": "C0007272",
+              "label": "Carcinoid Tumor",
+              "status": "active",
+              "onset_date": null
+            },
+            {
+              "code": "C0085692",
+              "label": "Metastatic Neoplasm",
+              "status": "active",
+              "onset_date": null
+            }
+          ]
+        }
+      }
+    },
+    {
+      "id": "N8",
+      "label": "Step 8",
+      "customData": {
+        "node_id": "H",
+        "node_step_index": 7,
+        "content": "January 2019: 68Ga DOTATATE PET/CT showed uptake within the bone and supraclavicular/mediastinal lymph nodes, minimal uptake within the liver or lung lesions. Ki-67 labeling index approximately 8%. DOTATATE PET/CT scans showed DOTATATE uptake in the bones, but minimal uptake in the lungs and none in the liver. FDG PET/CT at the same time showed foci of FDG avid disease in the left upper lung nodule, numerous times in the liver, and throughout the axial skeleton.",
+        "timestamp": "2019-01",
+        "clinical_data": {
+          "imaging": [
+            {
+              "type": "Positron emission tomography",
+              "body_part": "bone",
+              "modality": "PET/CT",
+              "finding": "uptake",
+              "date": "2019-01"
+            },
+            {
+              "type": "Positron emission tomography",
+              "body_part": "lymph nodes",
+              "modality": "PET/CT",
+              "finding": "uptake",
+              "date": "2019-01"
+            },
+            {
+              "type": "Positron emission tomography",
+              "body_part": "liver",
+              "modality": "PET/CT",
+              "finding": "minimal uptake",
+              "date": "2019-01"
+            },
+            {
+              "type": "Positron emission tomography",
+              "body_part": "lung",
+              "modality": "PET/CT",
+              "finding": "minimal uptake",
+              "date": "2019-01"
+            },
+            {
+              "type": "Fluorodeoxyglucose F18",
+              "body_part": "left upper lung nodule",
+              "modality": "PET/CT",
+              "finding": "foci of FDG avid disease",
+              "date": "2019-01"
+            },
+            {
+              "type": "Fluorodeoxyglucose F18",
+              "body_part": "liver",
+              "modality": "PET/CT",
+              "finding": "numerous times in the liver",
+              "date": "2019-01"
+            },
+            {
+              "type": "Fluorodeoxyglucose F18",
+              "body_part": "axial skeleton",
+              "modality": "PET/CT",
+              "finding": "throughout the axial skeleton",
+              "date": "2019-01"
+            }
+          ],
+          "labs": [
+            {
+              "test": "Ki-67 labeling index",
+              "value": "8",
+              "unit": "%",
+              "flag": "abnormal",
+              "timestamp": "2019-01"
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "edges": [
+    {
+      "from": "N1",
+      "to": "N2",
+      "data": {
+        "edge_id": "A_to_B",
+        "branch_flag": true,
+        "content": "Flank pain led to CT scan."
+      }
+    },
+    {
+      "from": "N2",
+      "to": "N3",
+      "data": {
+        "edge_id": "B_to_C",
+        "branch_flag": true,
+        "content": "Further imaging with FDG PET/CT to characterize lesions."
+      }
+    },
+    {
+      "from": "N3",
+      "to": "N4",
+      "data": {
+        "edge_id": "C_to_D",
+        "branch_flag": true,
+        "content": "Biopsy performed on liver lesion."
+      }
+    },
+    {
+      "from": "N4",
+      "to": "N5",
+      "data": {
+        "edge_id": "D_to_E",
+        "branch_flag": true,
+        "content": "Development of new symptoms."
+      }
+    },
+    {
+      "from": "N5",
+      "to": "N6",
+      "data": {
+        "edge_id": "E_to_F",
+        "branch_flag": true,
+        "content": "Tumor marker evaluation performed."
+      }
+    },
+    {
+      "from": "N6",
+      "to": "N7",
+      "data": {
+        "edge_id": "F_to_G",
+        "branch_flag": true,
+        "content": "CT-guided biopsy of liver lesion performed."
+      }
+    },
+    {
+      "from": "N7",
+      "to": "N8",
+      "data": {
+        "edge_id": "G_to_H",
+        "branch_flag": true,
+        "content": "Prior imaging results reviewed for comparison.",
+        "transition_event": {
+          "trigger_type": "interpretation",
+          "trigger_entities": [],
+          "change_type": "reinterpretation",
+          "target_domain": "imaging",
+          "timestamp": "2019-01"
+        }
+      }
+    }
+  ]
+}

@@ -1,0 +1,7 @@
+A 55-year-old female was diagnosed with squamous cell carcinoma (SCC) of the esophagus (cT3N2M0, stage IIIB). She underwent esophagectomy with gastric pull-up reconstruction, followed by neo-adjuvant concurrent chemoradiation therapy (ypT2N1 stage IIB disease). The chemoradiation consisted of a total of 50 Gray of radiation over 6 weeks, along with Carboplatin and Paclitaxel treatment for 6 weeks.
+
+Six years later, a computed tomography (CT) scan showed stage IA Thyroid Transcription Factor-1 (TTF-1) positive adenocarcinoma in the left upper lobe. The patient was treated with stereotactic radiotherapy.
+
+Two years after stereotactic radiotherapy, squamous cell carcinoma (SCC) of the right upper lobe (RUL) was discovered. Pembrolizumab was initiated with curative intent due to high Programmed Death-Ligand 1 (PD-L1) expression. However, a follow-up CT scan showed no biological response, and the tumor diameter was 54 mm.
+
+Subsequently, the patient underwent salvage lobectomy including complete mediastinal lymph node dissection. A pre-operative positron emission tomography CT scan demonstrated the exact localization of the tumor in the right upper lobe.

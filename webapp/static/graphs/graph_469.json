@@ -1,0 +1,348 @@
+{
+  "nodes": [
+    {
+      "id": "N1",
+      "label": "Step 1",
+      "customData": {
+        "node_id": "A",
+        "node_step_index": 0,
+        "content": "64-year-old male diagnosed in August 2020 with stage 3A left non-small cell lung cancer (NSCLC).",
+        "clinical_data": {
+          "diagnoses": [
+            {
+              "code": "C34.9",
+              "label": "Lung Cancer",
+              "status": "active",
+              "onset_date": "2020-08"
+            }
+          ]
+        }
+      }
+    },
+    {
+      "id": "N2",
+      "label": "Step 2",
+      "customData": {
+        "node_id": "B",
+        "node_step_index": 1,
+        "content": "Positron emission tomography (PET) scan at diagnosis showed a large left hilar mass, with small mediastinal nodes.",
+        "clinical_data": {
+          "imaging": [
+            {
+              "type": "Positron emission tomography",
+              "body_part": "hilar mass",
+              "modality": "PET",
+              "finding": "large left hilar mass, with small mediastinal nodes",
+              "date": null
+            }
+          ]
+        }
+      }
+    },
+    {
+      "id": "N3",
+      "label": "Step 3",
+      "customData": {
+        "node_id": "C",
+        "node_step_index": 2,
+        "content": "Endobronchial ultrasound (EBUS) guided biopsy confirmed carcinoma. Immunohistochemistry (IHC) was positive for P40 and negative for thyroid transcription factor 1 (TTF-1), consistent with squamous cell carcinoma.",
+        "clinical_data": {
+          "diagnoses": [
+            {
+              "code": "C0007144",
+              "label": "Carcinoma",
+              "status": "active"
+            },
+            {
+              "code": "C0038353",
+              "label": "Squamous Cell Carcinoma",
+              "status": "active"
+            }
+          ],
+          "procedures": [
+            {
+              "name": "C1517259",
+              "approach": "endoscopic",
+              "location": "bronchial tree",
+              "outcome": "positive for carcinoma"
+            }
+          ],
+          "labs": [
+            {
+              "test": "P40",
+              "value": "positive"
+            },
+            {
+              "test": "Thyroid Transcription Factor-1",
+              "value": "negative"
+            }
+          ]
+        }
+      }
+    },
+    {
+      "id": "N4",
+      "label": "Step 4",
+      "customData": {
+        "node_id": "D",
+        "node_step_index": 3,
+        "content": "PD-L1 expression was low at 20%.",
+        "clinical_data": {}
+      }
+    },
+    {
+      "id": "N5",
+      "label": "Step 5",
+      "customData": {
+        "node_id": "E",
+        "node_step_index": 4,
+        "content": "Patient received 6 weeks of definitive concurrent chemo-radiotherapy with weekly carboplatin and paclitaxel.",
+        "clinical_data": {
+          "medications": [
+            {
+              "drug": "C0007127",
+              "dosage": null,
+              "frequency": "weekly",
+              "modality": "IV",
+              "start_date": null,
+              "end_date": null,
+              "indication": null
+            },
+            {
+              "drug": "C0030382",
+              "dosage": null,
+              "frequency": "weekly",
+              "modality": "IV",
+              "start_date": null,
+              "end_date": null,
+              "indication": null
+            }
+          ],
+          "procedures": [
+            {
+              "name": "C0034329",
+              "approach": null,
+              "date": null,
+              "location": null,
+              "performed_by": null,
+              "outcome": null
+            }
+          ]
+        }
+      }
+    },
+    {
+      "id": "N6",
+      "label": "Step 6",
+      "customData": {
+        "node_id": "F",
+        "node_step_index": 5,
+        "content": "Patient developed a mild infusion reaction to the last two doses of paclitaxel, requiring steroid pre-medications. Eosinophil count was normal.",
+        "clinical_data": {
+          "medications": [
+            {
+              "drug": "C0030395",
+              "dosage": null,
+              "frequency": null,
+              "modality": "IV",
+              "start_date": null,
+              "end_date": null,
+              "indication": null
+            },
+            {
+              "drug": "C0037994",
+              "dosage": null,
+              "frequency": "pre-medication",
+              "modality": null,
+              "start_date": null,
+              "end_date": null,
+              "indication": "C0010054"
+            }
+          ],
+          "labs": [
+            {
+              "test": "C0014479",
+              "value": "normal",
+              "unit": null,
+              "flag": "normal",
+              "reference_range": null,
+              "timestamp": null
+            }
+          ],
+          "allergies": [
+            {
+              "substance": "C0030395",
+              "reaction": "C0010054",
+              "severity": "mild",
+              "date_recorded": null
+            }
+          ]
+        }
+      }
+    },
+    {
+      "id": "N7",
+      "label": "Step 7",
+      "customData": {
+        "node_id": "G",
+        "node_step_index": 6,
+        "content": "PET scan and brain magnetic resonance imaging (MRI) at completion of chemo-radiotherapy showed good response to treatment.",
+        "clinical_data": {
+          "imaging": [
+            {
+              "type": "Positron emission tomography",
+              "body_part": "Brain",
+              "modality": "PET",
+              "finding": "good response to treatment",
+              "date": null
+            },
+            {
+              "type": "Magnetic resonance imaging",
+              "body_part": "Brain",
+              "modality": "MRI",
+              "finding": "good response to treatment",
+              "date": null
+            }
+          ]
+        }
+      }
+    },
+    {
+      "id": "N8",
+      "label": "Step 8",
+      "customData": {
+        "node_id": "H",
+        "node_step_index": 7,
+        "content": "Patient commenced two weekly maintenance therapy with durvalumab in October 2020.",
+        "clinical_data": {
+          "medications": [
+            {
+              "drug": "C3828744",
+              "dosage": null,
+              "frequency": "two weekly",
+              "modality": null,
+              "start_date": "2020-10",
+              "end_date": null,
+              "indication": null
+            }
+          ]
+        }
+      }
+    },
+    {
+      "id": "N9",
+      "label": "Step 9",
+      "customData": {
+        "node_id": "I",
+        "node_step_index": 8,
+        "content": "After the first dose of durvalumab, routine blood work-up showed eosinophilia of 5.4 \u00d7 109/L.",
+        "clinical_data": {
+          "labs": [
+            {
+              "test": "Eosinophils",
+              "value": "5.4",
+              "unit": "10^9/L",
+              "flag": "abnormal"
+            }
+          ],
+          "medications": [
+            {
+              "drug": "Durvalumab",
+              "indication": "Unknown"
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "edges": [
+    {
+      "from": "N1",
+      "to": "N2",
+      "data": {
+        "edge_id": "A_to_B",
+        "branch_flag": true,
+        "content": "Initial diagnosis and staging of lung cancer."
+      }
+    },
+    {
+      "from": "N2",
+      "to": "N3",
+      "data": {
+        "edge_id": "B_to_C",
+        "branch_flag": true,
+        "content": "Biopsy to confirm the type of lung cancer."
+      }
+    },
+    {
+      "from": "N3",
+      "to": "N4",
+      "data": {
+        "edge_id": "C_to_D",
+        "branch_flag": true,
+        "content": "PD-L1 expression level assessment."
+      }
+    },
+    {
+      "from": "N4",
+      "to": "N5",
+      "data": {
+        "edge_id": "D_to_E",
+        "branch_flag": true,
+        "content": "Initiation of chemo-radiotherapy treatment."
+      }
+    },
+    {
+      "from": "N5",
+      "to": "N6",
+      "data": {
+        "edge_id": "E_to_F",
+        "branch_flag": true,
+        "content": "Adverse reaction to paclitaxel during chemo-radiotherapy."
+      }
+    },
+    {
+      "from": "N6",
+      "to": "N7",
+      "data": {
+        "edge_id": "F_to_G",
+        "branch_flag": true,
+        "content": "Assessment of treatment response via PET scan and brain MRI."
+      }
+    },
+    {
+      "from": "N7",
+      "to": "N8",
+      "data": {
+        "edge_id": "G_to_H",
+        "branch_flag": true,
+        "content": "Commencement of maintenance therapy with durvalumab.",
+        "transition_event": {
+          "trigger_type": "medication_change",
+          "trigger_entities": [
+            "C3828744"
+          ],
+          "change_type": "addition",
+          "target_domain": "medication"
+        }
+      }
+    },
+    {
+      "from": "N8",
+      "to": "N9",
+      "data": {
+        "edge_id": "H_to_I",
+        "branch_flag": true,
+        "content": "Development of eosinophilia after the first dose of durvalumab.",
+        "transition_event": {
+          "trigger_type": "lab_change",
+          "trigger_entities": [
+            "C0014479"
+          ],
+          "change_type": "progression",
+          "target_domain": "lab"
+        }
+      }
+    }
+  ]
+}

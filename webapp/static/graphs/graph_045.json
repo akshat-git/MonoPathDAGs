@@ -1,0 +1,371 @@
+{
+  "nodes": [
+    {
+      "id": "N1",
+      "label": "Step 1",
+      "customData": {
+        "node_id": "A",
+        "node_step_index": 0,
+        "content": "67-year-old male with a 25-pack-year smoking history presented with left focal motor seizure and expressive aphasia.",
+        "clinical_data": {
+          "HPI": [
+            {
+              "summary": "67-year-old male presented with left focal motor seizure and expressive aphasia.",
+              "onset": "sudden",
+              "progression": "sudden",
+              "associated_symptoms": [
+                "C0003638",
+                "C0003684"
+              ]
+            }
+          ],
+          "social_history": [
+            {
+              "category": "smoking",
+              "status": "past",
+              "description": "25-pack-year smoking history"
+            }
+          ],
+          "diagnoses": [
+            {
+              "code": "C0003638",
+              "label": "Seizure",
+              "status": "active"
+            },
+            {
+              "code": "C0003684",
+              "label": "Aphasia, Expressive",
+              "status": "active"
+            }
+          ]
+        }
+      },
+      "custom_id": "graph_045_N0"
+    },
+    {
+      "id": "N2",
+      "label": "Step 2",
+      "customData": {
+        "node_id": "B",
+        "node_step_index": 1,
+        "content": "Brain MRI demonstrated innumerable supra- and infratentorial peripheral enhancing lesions with edema, suggesting intracranial metastases.",
+        "clinical_data": {
+          "imaging": [
+            {
+              "type": "Brain MRI",
+              "body_part": "Brain",
+              "modality": "MRI",
+              "finding": "innumerable supra- and infratentorial peripheral enhancing lesions with edema",
+              "impression": "intracranial metastases"
+            }
+          ]
+        }
+      },
+      "custom_id": "graph_045_N1"
+    },
+    {
+      "id": "N3",
+      "label": "Step 3",
+      "customData": {
+        "node_id": "C",
+        "node_step_index": 2,
+        "content": "Body positron emission tomography-CT revealed a hypermetabolic left lung mass and mediastinal and supraclavicular lymph nodes compatible with lung cancer.",
+        "clinical_data": {
+          "imaging": [
+            {
+              "type": "Positron emission tomography-CT",
+              "body_part": "lung",
+              "modality": "PET",
+              "finding": "hypermetabolic left lung mass and mediastinal and supraclavicular lymph nodes",
+              "impression": "compatible with lung cancer"
+            }
+          ],
+          "diagnoses": [
+            {
+              "code": "C0024117",
+              "label": "Lung Cancer",
+              "status": "suspected"
+            }
+          ]
+        }
+      },
+      "custom_id": "graph_045_N2"
+    },
+    {
+      "id": "N4",
+      "label": "Step 4",
+      "customData": {
+        "node_id": "D",
+        "node_step_index": 3,
+        "content": "Endobronchial biopsy of the lung mass revealed adenocarcinoma. PDL1 IHC (22C3) was 100%. IHC testing for HER2 expression was 2+. FISH testing demonstrated HER2 amplification with an average HER2 copy number of > 4.0 signals per cell. Next-generation DNA-based sequencing testing later revealed a HER2 exon20 insertion, reported as \u201cERBB2 Y772_A775dup\u201d. Received prior platinum chemotherapy.",
+        "clinical_data": {
+          "diagnoses": [
+            {
+              "code": "C34",
+              "label": "adenocarcinoma",
+              "status": "active",
+              "onset_date": null
+            }
+          ],
+          "labs": [
+            {
+              "test": "PD-L1 IHC (22C3)",
+              "value": "100%",
+              "unit": "%",
+              "flag": "unknown"
+            },
+            {
+              "test": "HER2 expression",
+              "value": "2+",
+              "unit": null,
+              "flag": "unknown"
+            },
+            {
+              "test": "HER2 copy number",
+              "value": "> 4.0",
+              "unit": "signals per cell",
+              "flag": "abnormal"
+            },
+            {
+              "test": "ERBB2 Y772_A775dup",
+              "value": "positive",
+              "unit": null,
+              "flag": "unknown"
+            }
+          ],
+          "procedures": [
+            {
+              "name": "Endobronchial biopsy",
+              "approach": "endoscopic",
+              "date": null,
+              "location": "lung mass",
+              "performed_by": null,
+              "outcome": null
+            }
+          ],
+          "medications": [
+            {
+              "drug": "platinum chemotherapy",
+              "dosage": null,
+              "frequency": null,
+              "modality": null,
+              "start_date": null,
+              "end_date": null,
+              "indication": "adenocarcinoma"
+            }
+          ]
+        }
+      },
+      "custom_id": "graph_045_N3"
+    },
+    {
+      "id": "N5",
+      "label": "Step 5",
+      "customData": {
+        "node_id": "E",
+        "node_step_index": 4,
+        "content": "Started pembrolizumab due to high PD-L1 expression. WBRT was recommended for brain metastases. Follow-up brain MRI identified significantly increased size and number (> 60) of brain metastases. Pembrolizumab was discontinued after 1 cycle.",
+        "clinical_data": {
+          "medications": [
+            {
+              "drug": "C939153",
+              "dosage": null,
+              "frequency": null,
+              "modality": null,
+              "start_date": null,
+              "end_date": null,
+              "indication": null
+            }
+          ],
+          "imaging": [
+            {
+              "type": "C0006141",
+              "body_part": "C0006271",
+              "modality": "MRI",
+              "finding": "increased size and number (> 60) of brain metastases",
+              "impression": null,
+              "date": null
+            }
+          ],
+          "procedures": [
+            {
+              "name": "C1705156",
+              "approach": null,
+              "date": null,
+              "location": "C0006271",
+              "performed_by": null,
+              "outcome": null
+            }
+          ]
+        }
+      },
+      "custom_id": "graph_045_N4"
+    },
+    {
+      "id": "N6",
+      "label": "Step 6",
+      "customData": {
+        "node_id": "F",
+        "node_step_index": 5,
+        "content": "T-DXd 5.4 mg/kg was started. Bevacizumab 7.5 mg/kg was also initiated due to symptomatic corticosteroid-dependent cerebral edema.",
+        "clinical_data": {
+          "medications": [
+            {
+              "drug": "T-DXd",
+              "dosage": "5.4 mg/kg",
+              "frequency": "unknown",
+              "modality": "IV",
+              "start_date": "null",
+              "end_date": "null",
+              "indication": "unknown"
+            },
+            {
+              "drug": "Bevacizumab",
+              "dosage": "7.5 mg/kg",
+              "frequency": "unknown",
+              "modality": "IV",
+              "start_date": "null",
+              "end_date": "null",
+              "indication": "Cerebral edema"
+            }
+          ]
+        }
+      },
+      "custom_id": "graph_045_N5"
+    },
+    {
+      "id": "N7",
+      "label": "Step 7",
+      "customData": {
+        "node_id": "G",
+        "node_step_index": 6,
+        "content": "Repeat MRI brain 6 weeks after T-DXd revealed remarkable improvement in cerebral edema and metastases. Repeat CT chest revealed a decrease in size of the previously noted spiculated left lower",
+        "clinical_data": {
+          "imaging": [
+            {
+              "type": "Magnetic resonance imaging of brain",
+              "body_part": "Brain",
+              "modality": "MRI",
+              "finding": "remarkable improvement in cerebral edema and metastases",
+              "date": null
+            },
+            {
+              "type": "Computed tomography of chest",
+              "body_part": "Chest",
+              "modality": "CT",
+              "finding": "decrease in size of the previously noted spiculated left lower",
+              "date": null
+            }
+          ]
+        }
+      },
+      "custom_id": "graph_045_N6"
+    }
+  ],
+  "edges": [
+    {
+      "from": "N1",
+      "to": "N2",
+      "data": {
+        "edge_id": "A_to_B",
+        "branch_flag": true,
+        "content": "Patient's condition progressed, and brain MRI was performed.",
+        "transition_event": {
+          "trigger_type": "progression",
+          "trigger_entities": [
+            "C0003638",
+            "C0003684"
+          ],
+          "change_type": "progression",
+          "target_domain": "diagnosis"
+        }
+      },
+      "custom_id": "graph_045_N1_N2"
+    },
+    {
+      "from": "N2",
+      "to": "N3",
+      "data": {
+        "edge_id": "B_to_C",
+        "branch_flag": true,
+        "content": "Further investigation with PET-CT to identify the primary cancer source.",
+        "transition_event": {
+          "trigger_type": "procedure",
+          "trigger_entities": [],
+          "change_type": "addition",
+          "target_domain": "imaging"
+        }
+      },
+      "custom_id": "graph_045_N2_N3"
+    },
+    {
+      "from": "N3",
+      "to": "N4",
+      "data": {
+        "edge_id": "C_to_D",
+        "branch_flag": true,
+        "content": "Lung mass biopsy and further molecular testing were performed.",
+        "transition_event": {
+          "trigger_type": "procedure",
+          "trigger_entities": [],
+          "change_type": "addition",
+          "target_domain": "procedure"
+        }
+      },
+      "custom_id": "graph_045_N3_N4"
+    },
+    {
+      "from": "N4",
+      "to": "N5",
+      "data": {
+        "edge_id": "D_to_E",
+        "branch_flag": true,
+        "content": "Treatment initiated with pembrolizumab based on PD-L1 expression, followed by WBRT recommendation. However, brain metastases worsened, leading to pembrolizumab discontinuation.",
+        "transition_event": {
+          "trigger_type": "medication_change",
+          "trigger_entities": [
+            "C939153"
+          ],
+          "change_type": "addition",
+          "target_domain": "medication"
+        }
+      },
+      "custom_id": "graph_045_N4_N5"
+    },
+    {
+      "from": "N5",
+      "to": "N6",
+      "data": {
+        "edge_id": "E_to_F",
+        "branch_flag": true,
+        "content": "Treatment changed to T-DXd and bevacizumab due to disease progression and cerebral edema.",
+        "transition_event": {
+          "trigger_type": "medication_change",
+          "trigger_entities": [
+            "T-DXd",
+            "Bevacizumab"
+          ],
+          "change_type": "addition",
+          "target_domain": "medication"
+        }
+      },
+      "custom_id": "graph_045_N5_N6"
+    },
+    {
+      "from": "N6",
+      "to": "N7",
+      "data": {
+        "edge_id": "F_to_G",
+        "branch_flag": true,
+        "content": "Follow-up imaging showed improvement in cerebral edema, metastases, and lung mass size after T-DXd treatment.",
+        "transition_event": {
+          "trigger_type": "imaging",
+          "trigger_entities": [],
+          "change_type": "resolution",
+          "target_domain": "imaging"
+        }
+      },
+      "custom_id": "graph_045_N6_N7"
+    }
+  ]
+}

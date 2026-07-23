@@ -1,0 +1,279 @@
+{
+  "nodes": [
+    {
+      "id": "N1",
+      "label": "Step 1",
+      "customData": {
+        "node_id": "A",
+        "node_step_index": 0,
+        "content": "Patient developed fatigue, worsening over the next week to the point of being unable to stand or walk. Shoulder pain developed into general muscle pain and tightness of the four limbs.",
+        "timestamp": null,
+        "clinical_data": {
+          "HPI": [
+            {
+              "summary": "Patient developed fatigue, worsening over the next week to the point of being unable to stand or walk. Shoulder pain developed into general muscle pain and tightness of the four limbs.",
+              "progression": "gradual",
+              "associated_symptoms": [
+                "C0015672",
+                "C0231528",
+                "C0239397",
+                "C0234172"
+              ]
+            }
+          ]
+        }
+      }
+    },
+    {
+      "id": "N2",
+      "label": "Step 2",
+      "customData": {
+        "node_id": "B",
+        "node_step_index": 1,
+        "content": "Patient admitted to local hospital on May 21 (Day 32) for emergency treatment. Laboratory tests showed creatine kinase (CK) 11,002 U/L, myoglobin (Mb) > 2,000 ng/mL, alanine aminotransferase (ALT) 165 U/L, aspartate aminotransferase (AST) 518 U/L, and lactate dehydrogenase (LDH) 846 U/L.",
+        "timestamp": "2024-05-21",
+        "clinical_data": {
+          "labs": [
+            {
+              "test": "Creatine Kinase",
+              "value": "11002",
+              "unit": "U/L",
+              "timestamp": "2023-05-21"
+            },
+            {
+              "test": "Myoglobin",
+              "value": "> 2000",
+              "unit": "ng/mL",
+              "timestamp": "2023-05-21"
+            },
+            {
+              "test": "Alanine Aminotransferase",
+              "value": "165",
+              "unit": "U/L",
+              "timestamp": "2023-05-21"
+            },
+            {
+              "test": "Aspartate Aminotransferase",
+              "value": "518",
+              "unit": "U/L",
+              "timestamp": "2023-05-21"
+            },
+            {
+              "test": "Lactate Dehydrogenase",
+              "value": "846",
+              "unit": "U/L",
+              "timestamp": "2023-05-21"
+            }
+          ]
+        }
+      }
+    },
+    {
+      "id": "N3",
+      "label": "Step 3",
+      "customData": {
+        "node_id": "C",
+        "node_step_index": 2,
+        "content": "May 24: Serum CK 14,947 U/L, Mb > 2,000 ng/mL, ALT 325 U/L, AST 1,146 U/L, and LDH 1,236 U/L. Patient admitted to the hospital with progressed generalized muscle pain and weakness after chemotherapy for small cell lung cancer.",
+        "timestamp": "2024-05-24",
+        "clinical_data": {
+          "labs": [
+            {
+              "test": "Creatine Kinase MB isoenzyme",
+              "value": "> 2,000",
+              "unit": "ng/mL",
+              "timestamp": "2024-05-24"
+            },
+            {
+              "test": "Alanine Aminotransferase",
+              "value": "325",
+              "unit": "U/L",
+              "timestamp": "2024-05-24"
+            },
+            {
+              "test": "Aspartate Aminotransferase",
+              "value": "1,146",
+              "unit": "U/L",
+              "timestamp": "2024-05-24"
+            },
+            {
+              "test": "Lactate Dehydrogenase",
+              "value": "1,236",
+              "unit": "U/L",
+              "timestamp": "2024-05-24"
+            },
+            {
+              "test": "Creatine Kinase",
+              "value": "14,947",
+              "unit": "U/L",
+              "timestamp": "2024-05-24"
+            }
+          ],
+          "HPI": [
+            {
+              "summary": "generalized muscle pain and weakness",
+              "progression": "progressed",
+              "onset": "after chemotherapy"
+            }
+          ],
+          "diagnoses": [
+            {
+              "code": "C34.9",
+              "label": "Small cell lung cancer",
+              "status": "active"
+            }
+          ]
+        }
+      }
+    },
+    {
+      "id": "N4",
+      "label": "Step 4",
+      "customData": {
+        "node_id": "D",
+        "node_step_index": 3,
+        "content": "Patient presented with difficulty swallowing food or drinking water and dark yellow urine. Height 180 cm, weight 73 kg, blood pressure 135/75 mmHg, heart rate 71 beats/min, temperature 36.1\u00b0C, respiratory rate 20 breaths/min, and SpO2 95% on room air. Laboratory tests showed substantially increased serum CK, Mb, ALT, AST, and LDH. Cardiac troponin I (cTnI) 46.5 pg/mL, blood urea nitrogen (BUN) 1",
+        "timestamp": null,
+        "clinical_data": {
+          "vitals": [
+            {
+              "type": "Blood pressure",
+              "value": "135/75",
+              "unit": "mmHg"
+            },
+            {
+              "type": "Heart rate",
+              "value": "71",
+              "unit": "beats/min"
+            },
+            {
+              "type": "Body temperature",
+              "value": "36.1",
+              "unit": "\u00b0C"
+            },
+            {
+              "type": "Respiratory rate",
+              "value": "20",
+              "unit": "breaths/min"
+            },
+            {
+              "type": "Oxygen saturation",
+              "value": "95",
+              "unit": "%",
+              "qualifier": "on room air"
+            }
+          ],
+          "labs": [
+            {
+              "test": "Creatine Kinase MB isoenzyme",
+              "value": "substantially increased",
+              "unit": "U/L",
+              "flag": "abnormal"
+            },
+            {
+              "test": "Alanine transaminase measurement",
+              "value": "substantially increased",
+              "unit": "U/L",
+              "flag": "abnormal"
+            },
+            {
+              "test": "Aspartate transaminase measurement",
+              "value": "substantially increased",
+              "unit": "U/L",
+              "flag": "abnormal"
+            },
+            {
+              "test": "Lactate dehydrogenase measurement",
+              "value": "substantially increased",
+              "unit": "U/L",
+              "flag": "abnormal"
+            },
+            {
+              "test": "Troponin I",
+              "value": "46.5",
+              "unit": "pg/mL",
+              "flag": "abnormal"
+            },
+            {
+              "test": "Blood urea nitrogen measurement",
+              "value": "1",
+              "unit": "mg/dL",
+              "flag": "abnormal"
+            }
+          ],
+          "HPI": [
+            {
+              "summary": "difficulty swallowing food or drinking water",
+              "associated_symptoms": [
+                "Dysphagia"
+              ]
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "edges": [
+    {
+      "from": "N1",
+      "to": "N2",
+      "data": {
+        "edge_id": "A_to_B",
+        "branch_flag": true,
+        "content": "Transition from initial symptoms to hospital admission for emergency treatment.",
+        "transition_event": {
+          "trigger_type": "symptom_onset",
+          "trigger_entities": [
+            "C0015672",
+            "C0231528",
+            "C0239397",
+            "C0234172"
+          ],
+          "change_type": "progression",
+          "target_domain": "symptom",
+          "timestamp": "2024-05-21"
+        }
+      }
+    },
+    {
+      "from": "N2",
+      "to": "N3",
+      "data": {
+        "edge_id": "B_to_C",
+        "branch_flag": true,
+        "content": "Transition from initial hospital labs to progressed generalized muscle pain and weakness after chemotherapy.",
+        "transition_event": {
+          "trigger_type": "lab_change",
+          "trigger_entities": [
+            "Creatine Kinase",
+            "Myoglobin",
+            "Alanine Aminotransferase",
+            "Aspartate Aminotransferase",
+            "Lactate Dehydrogenase"
+          ],
+          "change_type": "progression",
+          "target_domain": "lab",
+          "timestamp": "2024-05-24"
+        }
+      }
+    },
+    {
+      "from": "N3",
+      "to": "N4",
+      "data": {
+        "edge_id": "C_to_D",
+        "branch_flag": true,
+        "content": "Transition to presentation with difficulty swallowing and dark urine, along with abnormal vitals and substantially increased lab values.",
+        "transition_event": {
+          "trigger_type": "symptom_onset",
+          "trigger_entities": [
+            "C0013367",
+            "C0232248"
+          ],
+          "change_type": "progression",
+          "target_domain": "symptom"
+        }
+      }
+    }
+  ]
+}

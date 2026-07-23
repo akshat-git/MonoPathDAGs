@@ -1,0 +1,262 @@
+{
+  "nodes": [
+    {
+      "id": "N1",
+      "label": "Step 1",
+      "customData": {
+        "node_id": "A",
+        "node_step_index": 0,
+        "content": "68-year-old man with a mass (61.7 mm x 43.9 mm) near the left hilum in the left upper lobe found on CT scan. Increased FDG accumulation in the left upper lobe mass (SUV: 15.08) and enlarged left hilar lymph node (SUV: 5.78) on PET scan. Bronchoscopy confirmed a mass at the origin of the left upper lobe bronchus.",
+        "clinical_data": {
+          "imaging": [
+            {
+              "type": "Mass",
+              "body_part": "Left upper lobe",
+              "modality": "CT",
+              "finding": "Mass (61.7 mm x 43.9 mm) near the left hilum",
+              "date": null
+            },
+            {
+              "type": "FDG accumulation",
+              "body_part": "Left upper lobe mass",
+              "modality": "PET",
+              "finding": "Increased FDG accumulation (SUV: 15.08)",
+              "date": null
+            },
+            {
+              "type": "Lymph node enlargement",
+              "body_part": "Left hilar lymph node",
+              "modality": "PET",
+              "finding": "Enlarged left hilar lymph node (SUV: 5.78)",
+              "date": null
+            }
+          ],
+          "procedures": [
+            {
+              "name": "Bronchoscopy",
+              "date": null,
+              "location": "Origin of the left upper lobe bronchus",
+              "outcome": "Mass confirmed"
+            }
+          ]
+        }
+      }
+    },
+    {
+      "id": "N2",
+      "label": "Step 2",
+      "customData": {
+        "node_id": "B",
+        "node_step_index": 3,
+        "content": "Diagnosis of clinical T3N2M0 pulmonary squamous cell carcinoma via bronchoscopic biopsy.",
+        "clinical_data": {
+          "diagnoses": [
+            {
+              "code": "C34.9",
+              "label": "Malignant neoplasm of bronchus or lung, unspecified",
+              "status": "active"
+            }
+          ],
+          "procedures": [
+            {
+              "name": "Bronchoscopic biopsy",
+              "date": null,
+              "location": "lung",
+              "performed_by": null,
+              "outcome": null
+            }
+          ]
+        }
+      }
+    },
+    {
+      "id": "N3",
+      "label": "Step 3",
+      "customData": {
+        "node_id": "C",
+        "node_step_index": 4,
+        "content": "Patient scheduled for neoadjuvant therapy: paclitaxel (210 mg), carboplatin (0.5 g), and tislelizumab (200 mg) monthly for 3 months. Patient complained of chest pain after 17 ml intravenous paclitaxel administration. Chemotherapy discontinued; chest pain relieved. Patient received three cycles of tislelizumab immunotherapy.",
+        "clinical_data": {
+          "medications": [
+            {
+              "drug": "C0030393",
+              "dosage": "210 mg",
+              "frequency": "monthly",
+              "modality": "IV",
+              "start_date": null,
+              "end_date": null
+            },
+            {
+              "drug": "C0007268",
+              "dosage": "0.5 g",
+              "frequency": "monthly",
+              "modality": "IV",
+              "start_date": null,
+              "end_date": null
+            },
+            {
+              "drug": "tislelizumab",
+              "dosage": "200 mg",
+              "frequency": "monthly",
+              "modality": "IV",
+              "start_date": null,
+              "end_date": null
+            }
+          ],
+          "HPI": [
+            {
+              "summary": "Patient complained of chest pain after 17 ml intravenous paclitaxel administration.",
+              "onset": null,
+              "progression": "sudden",
+              "associated_symptoms": [
+                "C0008031"
+              ],
+              "alleviating_factors": [],
+              "exacerbating_factors": []
+            }
+          ],
+          "diagnoses": [
+            {
+              "code": "R07.4",
+              "label": "Chest pain",
+              "status": "active",
+              "onset_date": null
+            }
+          ],
+          "procedures": [
+            {
+              "name": "C0007932",
+              "approach": "IV",
+              "date": null,
+              "location": null,
+              "performed_by": null,
+              "outcome": null
+            }
+          ]
+        }
+      }
+    },
+    {
+      "id": "N4",
+      "label": "Step 4",
+      "customData": {
+        "node_id": "D",
+        "node_step_index": 7,
+        "content": "PET examination post-immunotherapy shows mass size 45 mm x 44 mm with SUV of 12.31, indicating stable disease (SD).",
+        "clinical_data": {
+          "imaging": [
+            {
+              "type": "positron emission tomography",
+              "body_part": null,
+              "modality": "PET",
+              "finding": "mass size 45 mm x 44 mm with SUV of 12.31",
+              "impression": "stable disease",
+              "date": null
+            }
+          ]
+        }
+      }
+    },
+    {
+      "id": "N5",
+      "label": "Step 5",
+      "customData": {
+        "node_id": "E",
+        "node_step_index": 8,
+        "content": "Preoperative contrast-enhanced CT revealed tumor infiltration of the left upper bronchus and PA. Contrast-enhanced CT revealed that the tumor invaded the left upper bronchus and the left upper artery.",
+        "clinical_data": {
+          "imaging": [
+            {
+              "type": "CT scan",
+              "body_part": "left upper bronchus",
+              "modality": "CT",
+              "finding": "tumor infiltration",
+              "date": null
+            },
+            {
+              "type": "CT scan",
+              "body_part": "pulmonary artery",
+              "modality": "CT",
+              "finding": "tumor infiltration",
+              "date": null
+            },
+            {
+              "type": "CT scan",
+              "body_part": "left upper bronchus",
+              "modality": "CT",
+              "finding": "tumor invasion",
+              "date": null
+            },
+            {
+              "type": "CT scan",
+              "body_part": "left upper artery",
+              "modality": "CT",
+              "finding": "tumor invasion",
+              "date": null
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "edges": [
+    {
+      "from": "N1",
+      "to": "N2",
+      "data": {
+        "edge_id": "A_to_B",
+        "branch_flag": true,
+        "content": "From initial imaging and bronchoscopy to diagnosis of pulmonary squamous cell carcinoma."
+      }
+    },
+    {
+      "from": "N2",
+      "to": "N3",
+      "data": {
+        "edge_id": "B_to_C",
+        "branch_flag": true,
+        "content": "Initiation of neoadjuvant therapy with paclitaxel, carboplatin, and tislelizumab, followed by discontinuation of paclitaxel due to chest pain. Remainder of planned immunotherapy completed.",
+        "transition_event": {
+          "trigger_type": "medication_change",
+          "trigger_entities": [
+            "C0030393",
+            "C0007268",
+            "tislelizumab"
+          ],
+          "change_type": "addition",
+          "target_domain": "medication"
+        }
+      }
+    },
+    {
+      "from": "N3",
+      "to": "N4",
+      "data": {
+        "edge_id": "C_to_D",
+        "branch_flag": true,
+        "content": "Post-immunotherapy PET examination indicating stable disease (SD).",
+        "transition_event": {
+          "trigger_type": "procedure",
+          "trigger_entities": [],
+          "change_type": "other",
+          "target_domain": "imaging"
+        }
+      }
+    },
+    {
+      "from": "N4",
+      "to": "N5",
+      "data": {
+        "edge_id": "D_to_E",
+        "branch_flag": true,
+        "content": "Preoperative contrast-enhanced CT revealed tumor infiltration of the left upper bronchus and PA. Contrast-enhanced CT revealed that the tumor invaded the left upper bronchus and the left upper artery.",
+        "transition_event": {
+          "trigger_type": "procedure",
+          "trigger_entities": [],
+          "change_type": "progression",
+          "target_domain": "imaging"
+        }
+      }
+    }
+  ]
+}

@@ -1,0 +1,308 @@
+{
+  "nodes": [
+    {
+      "id": "N1",
+      "label": "Step 1",
+      "customData": {
+        "node_id": "A",
+        "node_step_index": 0,
+        "content": "67-year-old female with hypertension, hyperlipidemia, ethanol abuse, and a 40-pack-year smoking history presented with shortness of breath, generalized weakness, and poor appetite for one week. Labs showed AST 728 U/L, ALT 315 U/L, leukocytosis of 11 x 109/L, and lactic acidosis of 7.5 U/L. CT of the chest, abdomen, and pelvis revealed bulky mediastinal lymphadenopathy, multiple pulmonary nodules, and several hepatic nodules suggestive of metastatic cancer of unknown origin.",
+        "clinical_data": {
+          "diagnoses": [
+            {
+              "code": "C0020538",
+              "label": "Hypertension",
+              "status": "active"
+            },
+            {
+              "code": "C0020451",
+              "label": "Hyperlipidemia",
+              "status": "active"
+            },
+            {
+              "code": "C0014140",
+              "label": "Ethanol abuse",
+              "status": "active"
+            },
+            {
+              "code": "C0009450",
+              "label": "Cancer of Unknown Primary",
+              "status": "suspected"
+            }
+          ],
+          "social_history": [
+            {
+              "category": "smoking",
+              "status": "past",
+              "description": "40-pack-year smoking history"
+            }
+          ],
+          "HPI": [
+            {
+              "summary": "Shortness of breath, generalized weakness, and poor appetite",
+              "duration": "1 week"
+            }
+          ],
+          "labs": [
+            {
+              "test": "Aspartate Aminotransferase Measurement",
+              "value": "728",
+              "unit": "U/L",
+              "flag": "abnormal"
+            },
+            {
+              "test": "Alanine Aminotransferase Measurement",
+              "value": "315",
+              "unit": "U/L",
+              "flag": "abnormal"
+            },
+            {
+              "test": "Leukocytosis",
+              "value": "11",
+              "unit": "x 109/L",
+              "flag": "abnormal"
+            },
+            {
+              "test": "Lactic Acid",
+              "value": "7.5",
+              "unit": "U/L",
+              "flag": "abnormal"
+            }
+          ],
+          "imaging": [
+            {
+              "type": "Mediastinal Lymphadenopathy",
+              "body_part": "Mediastinum",
+              "modality": "CT",
+              "finding": "bulky mediastinal lymphadenopathy"
+            },
+            {
+              "type": "Pulmonary Nodule",
+              "body_part": "Lung",
+              "modality": "CT",
+              "finding": "multiple pulmonary nodules"
+            },
+            {
+              "type": "Hepatic Nodule",
+              "body_part": "Liver",
+              "modality": "CT",
+              "finding": "several hepatic nodules",
+              "impression": "suggestive of metastatic cancer"
+            }
+          ]
+        }
+      }
+    },
+    {
+      "id": "N2",
+      "label": "Step 2",
+      "customData": {
+        "node_id": "B",
+        "node_step_index": 1,
+        "content": "Liver biopsy of a metastatic lesion showed poorly differentiated carcinoma consistent with small cell carcinoma of lung origin with a Ki-67 proliferative activity of 91-100%.",
+        "clinical_data": {
+          "imaging": [
+            {
+              "type": "Metastatic lesion",
+              "body_part": "Liver",
+              "modality": "Biopsy",
+              "finding": "Poorly differentiated carcinoma consistent with small cell carcinoma of lung origin",
+              "date": null
+            }
+          ],
+          "labs": [
+            {
+              "test": "Ki-67 proliferative activity",
+              "value": "91-100",
+              "unit": "%",
+              "flag": "abnormal",
+              "reference_range": null,
+              "timestamp": null
+            }
+          ],
+          "diagnoses": [
+            {
+              "code": "C0007735",
+              "label": "Small cell carcinoma of lung",
+              "status": "active",
+              "onset_date": null
+            }
+          ]
+        }
+      }
+    },
+    {
+      "id": "N3",
+      "label": "Step 3",
+      "customData": {
+        "node_id": "C",
+        "node_step_index": 2,
+        "content": "Patient became encephalopathic with agonal respirations, intubated, and transferred to the MICU. Patient was in vasopressor-dependent shock requiring norepinephrine and vasopressin to maintain a mean arterial pressure of 65 mmHg. Bacterial cultures were collected, and the patient was started on empiric antibiotics with vancomycin, cefepime, and piperacillin-tazobactam for concern of sepsis.",
+        "clinical_data": {
+          "diagnoses": [
+            {
+              "code": "780.09",
+              "label": "Encephalopathy",
+              "status": "active"
+            },
+            {
+              "code": "R57.0",
+              "label": "Shock",
+              "status": "active"
+            },
+            {
+              "code": "A41.9",
+              "label": "Sepsis",
+              "status": "suspected"
+            }
+          ],
+          "vitals": [
+            {
+              "type": "Mean Arterial Pressure",
+              "value": "65",
+              "unit": "mmHg"
+            }
+          ],
+          "medications": [
+            {
+              "drug": "norepinephrine",
+              "dosage": null,
+              "frequency": null,
+              "modality": "IV",
+              "start_date": null,
+              "end_date": null,
+              "indication": "Shock"
+            },
+            {
+              "drug": "vasopressin",
+              "dosage": null,
+              "frequency": null,
+              "modality": "IV",
+              "start_date": null,
+              "end_date": null,
+              "indication": "Shock"
+            },
+            {
+              "drug": "vancomycin",
+              "dosage": null,
+              "frequency": null,
+              "modality": null,
+              "start_date": null,
+              "end_date": null,
+              "indication": "Sepsis"
+            },
+            {
+              "drug": "cefepime",
+              "dosage": null,
+              "frequency": null,
+              "modality": null,
+              "start_date": null,
+              "end_date": null,
+              "indication": "Sepsis"
+            },
+            {
+              "drug": "piperacillin-tazobactam",
+              "dosage": null,
+              "frequency": null,
+              "modality": null,
+              "start_date": null,
+              "end_date": null,
+              "indication": "Sepsis"
+            }
+          ],
+          "procedures": [
+            {
+              "name": "Intubation",
+              "date": null
+            }
+          ],
+          "labs": [
+            {
+              "test": "Bacterial cultures",
+              "timestamp": null
+            }
+          ]
+        }
+      }
+    },
+    {
+      "id": "N4",
+      "label": "Step 4",
+      "customData": {
+        "node_id": "D",
+        "node_step_index": 3,
+        "content": "Labs peaked at uric acid 13.8 mg/dL, phosphate 7.3 mg/dL, potassium 5.9 mEq/L, lactic acid >24 U/L, lactate dehydrogenase (LDH) >10,008 mmol/L, and serum creatinine 2.81 mg/dL with minimum calcium of 8.5 mg/dL. Severe anion gap metabolic acidosis with a pH of 6.99 and low bicarbonate down to 5 mEq/L.",
+        "clinical_data": {
+          "labs": [
+            {
+              "test": "UMLS:C0025354",
+              "value": "6.99",
+              "unit": null,
+              "flag": "abnormal"
+            },
+            {
+              "test": "UMLS:C0005495",
+              "value": "5",
+              "unit": "mEq/L",
+              "flag": "abnormal"
+            }
+          ],
+          "diagnoses": [
+            {
+              "code": "UMLS:C0268373",
+              "label": "Metabolic Acidosis",
+              "status": "active"
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "edges": [
+    {
+      "from": "N1",
+      "to": "N2",
+      "data": {
+        "edge_id": "A_to_B",
+        "branch_flag": true,
+        "content": "Progression of metastatic cancer workup",
+        "transition_event": {
+          "trigger_type": "procedure",
+          "trigger_entities": [],
+          "change_type": "addition",
+          "target_domain": "diagnosis"
+        }
+      }
+    },
+    {
+      "from": "N2",
+      "to": "N3",
+      "data": {
+        "edge_id": "B_to_C",
+        "branch_flag": true,
+        "content": "Patient condition worsened, requiring intubation and transfer to MICU",
+        "transition_event": {
+          "trigger_type": "spontaneous",
+          "trigger_entities": [],
+          "change_type": "progression",
+          "target_domain": "functional_status"
+        }
+      }
+    },
+    {
+      "from": "N3",
+      "to": "N4",
+      "data": {
+        "edge_id": "C_to_D",
+        "branch_flag": true,
+        "content": "Lab abnormalities indicating tumor lysis syndrome and severe metabolic acidosis",
+        "transition_event": {
+          "trigger_type": "lab_change",
+          "trigger_entities": [],
+          "change_type": "progression",
+          "target_domain": "lab"
+        }
+      }
+    }
+  ]
+}

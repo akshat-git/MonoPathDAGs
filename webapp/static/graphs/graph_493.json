@@ -1,0 +1,156 @@
+{
+  "nodes": [
+    {
+      "id": "N1",
+      "label": "Step 1",
+      "customData": {
+        "node_id": "A",
+        "node_step_index": 0,
+        "content": "Patient 3: 71-year-old male with occupational asbestos exposure from 1960-1980 (carpenter). Diagnosed with low grade adenocarcinoma NOS in the rectum T3N2aM0, BAP1 IHC score 4 (78%), CDKN2A Homozygous Deletion 23%, CDKN2A Heterozygous Deletion 64%. Also diagnosed with Biphasic (Epithelioid adenomatoid/solid 80%) mesothelioma in the peritoneum, BAP1 IHC score 3 (55%), CDKN2A Homozygous Deletion 90%, CDKN2A Heterozygous Deletion 10%. Treated with FOLFOX for adenocarcinoma and palliative care for mesothelioma. Overall survival 42 months.",
+        "clinical_data": {
+          "social_history": [
+            {
+              "category": "employment",
+              "status": "past",
+              "description": "Occupational asbestos exposure from 1960-1980 (carpenter)"
+            }
+          ],
+          "diagnoses": [
+            {
+              "code": "C0003934",
+              "label": "Adenocarcinoma",
+              "status": "active",
+              "onset_date": null
+            },
+            {
+              "code": "C0025344",
+              "label": "Mesothelioma",
+              "status": "active",
+              "onset_date": null
+            }
+          ],
+          "medications": [
+            {
+              "drug": "FOLFOX",
+              "dosage": null,
+              "frequency": null,
+              "modality": "IV",
+              "start_date": null,
+              "end_date": null,
+              "indication": "C0003934"
+            }
+          ]
+        }
+      }
+    },
+    {
+      "id": "N2",
+      "label": "Step 2",
+      "customData": {
+        "node_id": "B",
+        "node_step_index": 2,
+        "content": "Patient 4: 89-year-old male with occupational asbestos exposure from 1957-1975 (welder) and environmental exposure from 1971-2018 (resident near asbestos factory). Diagnosed with low grade adenocarcinoma NOS in the rectum T3N0M0, BAP1 IHC score 0 (10%), CDKN2A Homozygous Deletion 30%, CDKN2A Heterozygous Deletion 73%. Also diagnosed with Biphasic (Epithelioid solid/trabecular 70%) mesothelioma in the peritoneum, BAP1 IHC score 0 (0%), CDKN2A Homozygous Deletion 75%, CDKN2A Heterozygous Deletion 20%. Asbestos bodies were identified in the ascitic fluid cellblock. Received palliative care for mesothelioma. Overall survival 5 months.",
+        "clinical_data": {
+          "social_history": [
+            {
+              "category": "occupational exposure",
+              "status": "past",
+              "description": "asbestos exposure from 1957-1975 (welder)"
+            },
+            {
+              "category": "environmental exposure",
+              "status": "past",
+              "description": "asbestos exposure from 1971-2018 (resident near asbestos factory)"
+            }
+          ],
+          "diagnoses": [
+            {
+              "code": "C0279595",
+              "label": "Adenocarcinoma, NOS",
+              "status": "active",
+              "onset_date": null
+            },
+            {
+              "code": "C0025344",
+              "label": "Mesothelioma",
+              "status": "active",
+              "onset_date": null
+            }
+          ],
+          "procedures": [
+            {
+              "name": "Palliative Care",
+              "approach": "other",
+              "date": null,
+              "location": null,
+              "performed_by": null,
+              "outcome": null
+            }
+          ]
+        }
+      }
+    },
+    {
+      "id": "N3",
+      "label": "Step 3",
+      "customData": {
+        "node_id": "C",
+        "node_step_index": 4,
+        "content": "Patients with both mesothelioma and intestinal carcinoma showed loss of BAP1 expression. All patients underwent surgery for colon cancer, and none received chemotherapy or radiotherapy prior to surgery. Asbestos fibres were searched in histological specimens of colorectal carcinomas. Mesothelioma samples were collected from thoracoscopic pleurectomies and omental and peritoneal biopsies.",
+        "clinical_data": {
+          "diagnoses": [
+            {
+              "code": "C18",
+              "label": "Colon cancer",
+              "status": "active"
+            },
+            {
+              "code": "C45",
+              "label": "Mesothelioma",
+              "status": "active"
+            }
+          ],
+          "procedures": [
+            {
+              "name": "Thoracoscopic pleurectomy",
+              "approach": "endoscopic",
+              "location": "pleura"
+            },
+            {
+              "name": "Biopsy",
+              "location": "omentum"
+            },
+            {
+              "name": "Biopsy",
+              "location": "peritoneum"
+            },
+            {
+              "name": "Surgery",
+              "location": "colon"
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "edges": [
+    {
+      "from": "N1",
+      "to": "N2",
+      "data": {
+        "edge_id": "A_to_B",
+        "branch_flag": true,
+        "content": "Transition from Patient 3 to Patient 4"
+      }
+    },
+    {
+      "from": "N2",
+      "to": "N3",
+      "data": {
+        "edge_id": "B_to_C",
+        "branch_flag": true,
+        "content": "Transition from Patient 4 to discussion of patients with both mesothelioma and intestinal carcinoma"
+      }
+    }
+  ]
+}

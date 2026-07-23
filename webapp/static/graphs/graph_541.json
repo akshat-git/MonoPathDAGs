@@ -1,0 +1,544 @@
+{
+  "nodes": [
+    {
+      "id": "N1",
+      "label": "Step 1",
+      "customData": {
+        "node_id": "A",
+        "node_step_index": 0,
+        "content": "53-year-old woman, 169 cm tall, weighing 77 kg (BMI 26.96) with a history of hot thyroid nodule, incipient osteoarthritis, cysts in the breast, neurodermatitis, arthritis of the left shoulder, hay fever, and various unspecified allergies. Patient participated in the \u201cPre-PanTum\u201d study between November 2020 and April 2021.",
+        "timestamp": "2023",
+        "clinical_data": {
+          "diagnoses": [
+            {
+              "code": "C0277918",
+              "label": "Osteoarthritis",
+              "status": "active"
+            },
+            {
+              "code": "C0006141",
+              "label": "Breast Cyst",
+              "status": "active"
+            },
+            {
+              "code": "C0027804",
+              "label": "Neurodermatitis",
+              "status": "active"
+            },
+            {
+              "code": "C0231584",
+              "label": "Arthritis of the left shoulder",
+              "status": "active"
+            },
+            {
+              "code": "C0019209",
+              "label": "Hay fever",
+              "status": "active"
+            }
+          ],
+          "vitals": [
+            {
+              "type": "C0027497",
+              "value": "169",
+              "unit": "cm"
+            },
+            {
+              "type": "C0043132",
+              "value": "77",
+              "unit": "kg"
+            },
+            {
+              "type": "Body Mass Index",
+              "value": "26.96",
+              "unit": "kg/m2"
+            }
+          ]
+        }
+      }
+    },
+    {
+      "id": "N2",
+      "label": "Step 2",
+      "customData": {
+        "node_id": "B",
+        "node_step_index": 1,
+        "content": "Patient medicated with 25 mcg Levothyroxine daily since 2019-07-01. History of smoking one cigarette per day for 7 years, quit 24 years prior. Family history of ovarian cancer in mother at age 75 and colorectal cancer in uncle at age 67.",
+        "timestamp": "2019-07-01",
+        "clinical_data": {
+          "medications": [
+            {
+              "drug": "Levothyroxine",
+              "dosage": "25 mcg",
+              "frequency": "daily",
+              "start_date": "2019-07-01"
+            }
+          ],
+          "social_history": [
+            {
+              "category": "smoking",
+              "status": "past",
+              "description": "smoked one cigarette per day for 7 years, quit 24 years prior"
+            }
+          ],
+          "diagnoses": [
+            {
+              "code": "C0029407",
+              "label": "Ovarian Cancer",
+              "status": "historical",
+              "onset_date": null
+            },
+            {
+              "code": "C0009484",
+              "label": "Colorectal Cancer",
+              "status": "historical",
+              "onset_date": null
+            }
+          ]
+        }
+      }
+    },
+    {
+      "id": "N3",
+      "label": "Step 3",
+      "customData": {
+        "node_id": "C",
+        "node_step_index": 2,
+        "content": "PanTum Detect blood test: Elevated combined PanTum score of 270 (Apo10 score: 144, TKTL1 score: 126).",
+        "clinical_data": {
+          "labs": [
+            {
+              "test": "PanTum Detect blood test",
+              "value": "270",
+              "unit": null,
+              "flag": "abnormal",
+              "reference_range": null,
+              "timestamp": null
+            },
+            {
+              "test": "Apo10 score",
+              "value": "144",
+              "unit": null,
+              "flag": "abnormal",
+              "reference_range": null,
+              "timestamp": null
+            },
+            {
+              "test": "TKTL1 score",
+              "value": "126",
+              "unit": null,
+              "flag": "abnormal",
+              "reference_range": null,
+              "timestamp": null
+            }
+          ]
+        }
+      }
+    },
+    {
+      "id": "N4",
+      "label": "Step 4",
+      "customData": {
+        "node_id": "D",
+        "node_step_index": 3,
+        "content": "Tumor markers CEA, CA 19-9, CA 125, CA 15-3, AFP, beta HCG, CRP were not elevated. PET/CT imaging analysis was recommended.",
+        "timestamp": "2020-11",
+        "clinical_data": {
+          "labs": [
+            {
+              "test": "C0007683",
+              "value": "not elevated",
+              "unit": null,
+              "flag": "normal"
+            },
+            {
+              "test": "C0175524",
+              "value": "not elevated",
+              "unit": null,
+              "flag": "normal"
+            },
+            {
+              "test": "C0006418",
+              "value": "not elevated",
+              "unit": null,
+              "flag": "normal"
+            },
+            {
+              "test": "C0006417",
+              "value": "not elevated",
+              "unit": null,
+              "flag": "normal"
+            },
+            {
+              "test": "C0001418",
+              "value": "not elevated",
+              "unit": null,
+              "flag": "normal"
+            },
+            {
+              "test": "C0005539",
+              "value": "not elevated",
+              "unit": null,
+              "flag": "normal"
+            },
+            {
+              "test": "C0010390",
+              "value": "not elevated",
+              "unit": null,
+              "flag": "normal"
+            }
+          ],
+          "imaging": [
+            {
+              "type": "C0030926",
+              "body_part": null,
+              "modality": "PET/CT",
+              "finding": null,
+              "impression": "recommended",
+              "date": null
+            }
+          ]
+        }
+      }
+    },
+    {
+      "id": "N5",
+      "label": "Step 5",
+      "customData": {
+        "node_id": "E",
+        "node_step_index": 4,
+        "content": "FDG-PET/CT: 16 mm x 12 mm mass in the right upper lobe with increased focal 18F-FDG uptake (SUVmax 6.3) adjacent to the hilus.",
+        "clinical_data": {
+          "imaging": [
+            {
+              "type": "Mass",
+              "body_part": "Right upper lobe",
+              "modality": "PET/CT",
+              "finding": "16 mm x 12 mm mass with increased focal 18F-FDG uptake (SUVmax 6.3) adjacent to the hilus"
+            }
+          ]
+        }
+      }
+    },
+    {
+      "id": "N6",
+      "label": "Step 6",
+      "customData": {
+        "node_id": "F",
+        "node_step_index": 5,
+        "content": "Follow-up PET/CT: Bilateral diffuse enhancement with mild focal emphasis cranially of the hilus (left SUVmax 5.8 > right SUVmax 4.8). Radiological findings revealed suspicion of lung carcinoma in the right upper lobe parahilar without pathologic lymph nodes. 16 mm x 12 mm mass in the right upper lobe.",
+        "clinical_data": {
+          "imaging": [
+            {
+              "type": "Radiological findings",
+              "body_part": "lung",
+              "modality": "PET/CT",
+              "finding": "Bilateral diffuse enhancement with mild focal emphasis cranially of the hilus (left SUVmax 5.8 > right SUVmax 4.8). Suspicion of lung carcinoma in the right upper lobe parahilar without pathologic lymph nodes. 16 mm x 12 mm mass in the right upper lobe.",
+              "impression": "Suspicion of lung carcinoma in the right upper lobe parahilar"
+            }
+          ],
+          "diagnoses": [
+            {
+              "code": "C0024117",
+              "label": "Lung Carcinoma",
+              "status": "suspected",
+              "onset_date": null
+            }
+          ]
+        }
+      }
+    },
+    {
+      "id": "N7",
+      "label": "Step 7",
+      "customData": {
+        "node_id": "G",
+        "node_step_index": 6,
+        "content": "Biopsy of right upper lobe parahilar mass confirmed malignant lung carcinoma.",
+        "clinical_data": {
+          "diagnoses": [
+            {
+              "code": "C34.9",
+              "label": "Malignant neoplasm of unspecified part of bronchus or lung",
+              "status": "active",
+              "onset_date": null
+            }
+          ],
+          "procedures": [
+            {
+              "name": "Biopsy",
+              "approach": "other",
+              "date": null,
+              "location": "Right upper lobe of lung",
+              "performed_by": null,
+              "outcome": null
+            }
+          ],
+          "imaging": [
+            {
+              "type": "Mass",
+              "body_part": "Lung",
+              "modality": "other",
+              "finding": "Parahilar mass",
+              "impression": "Malignant lung carcinoma",
+              "date": null
+            }
+          ]
+        }
+      }
+    },
+    {
+      "id": "N8",
+      "label": "Step 8",
+      "customData": {
+        "node_id": "H",
+        "node_step_index": 7,
+        "content": "Surgical resection of right upper lobe mass. Histologic examination revealed stage IA2 carcinoid without nodes or metastases (IA2 ED 01/21 pT1b (1.2 cm), pN0 (0/38), L0, V0, Pn0, R0 cM0). Tumor was completely removed, no further therapy was required.",
+        "timestamp": "2021-01",
+        "clinical_data": {
+          "procedures": [
+            {
+              "name": "Surgical resection",
+              "approach": "open",
+              "date": "2021-01-21",
+              "location": "right upper lobe",
+              "outcome": "Tumor was completely removed"
+            }
+          ],
+          "diagnoses": [
+            {
+              "code": "C0007666",
+              "label": "Carcinoid Tumor",
+              "status": "resolved",
+              "onset_date": "2021-01-21"
+            }
+          ],
+          "imaging": [
+            {
+              "type": "Mass",
+              "body_part": "right upper lobe",
+              "modality": "other",
+              "finding": "Mass",
+              "impression": "Mass",
+              "date": "2021-01-21"
+            }
+          ]
+        }
+      }
+    },
+    {
+      "id": "N9",
+      "label": "Step 9",
+      "customData": {
+        "node_id": "I",
+        "node_step_index": 8,
+        "content": "Three months post-surgery, the patient reported occasional paresthesia in the thoracotomy area. Thoracic CT showed post-operative changes, with no evidence of tumor recurrence.",
+        "clinical_data": {
+          "HPI": [
+            {
+              "summary": "Occasional paresthesia in the thoracotomy area",
+              "duration": "3 months",
+              "onset": "post-surgery",
+              "progression": "occasional",
+              "associated_symptoms": [
+                "Paresthesia"
+              ],
+              "alleviating_factors": [],
+              "exacerbating_factors": []
+            }
+          ],
+          "imaging": [
+            {
+              "type": "Thoracic CT",
+              "body_part": "Thorax",
+              "modality": "CT",
+              "finding": "Post-operative changes",
+              "impression": "No evidence of tumor recurrence",
+              "date": null
+            }
+          ]
+        }
+      }
+    },
+    {
+      "id": "N10",
+      "label": "Step 10",
+      "customData": {
+        "node_id": "J",
+        "node_step_index": 9,
+        "content": "Patient considered cured after surgical resection of stage IA2 carcinoid without nodes or metastases (IA2 ED 01/21 pT1b (1.2 cm), pN0 (0/38), L0, V0, Pn0, R0 cM0). No chemotherapy was required.",
+        "clinical_data": {
+          "diagnoses": [
+            {
+              "code": "C7A.0",
+              "label": "Malignant carcinoid tumor of the small intestine",
+              "status": "resolved",
+              "onset_date": "2021-01"
+            }
+          ],
+          "procedures": [
+            {
+              "name": "Surgical resection",
+              "approach": "open",
+              "date": "2021-01",
+              "location": "small intestine",
+              "outcome": "cured"
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "edges": [
+    {
+      "from": "N1",
+      "to": "N2",
+      "data": {
+        "edge_id": "A_to_B",
+        "branch_flag": true,
+        "content": "Transition from initial patient history to medication and family history."
+      }
+    },
+    {
+      "from": "N2",
+      "to": "N3",
+      "data": {
+        "edge_id": "B_to_C",
+        "branch_flag": true,
+        "content": "Transition to PanTum Detect blood test showing elevated scores.",
+        "transition_event": {
+          "trigger_type": "lab_change",
+          "trigger_entities": [
+            "PanTum Detect blood test",
+            "Apo10 score",
+            "TKTL1 score"
+          ],
+          "change_type": "progression",
+          "target_domain": "lab"
+        }
+      }
+    },
+    {
+      "from": "N3",
+      "to": "N4",
+      "data": {
+        "edge_id": "C_to_D",
+        "branch_flag": true,
+        "content": "Transition to tumor marker tests and recommendation for PET/CT imaging.",
+        "transition_event": {
+          "trigger_type": "lab_change",
+          "trigger_entities": [
+            "C0007683",
+            "C0175524",
+            "C0006418",
+            "C0006417",
+            "C0001418",
+            "C0005539",
+            "C0010390"
+          ],
+          "change_type": "resolution",
+          "target_domain": "lab"
+        }
+      }
+    },
+    {
+      "from": "N4",
+      "to": "N5",
+      "data": {
+        "edge_id": "D_to_E",
+        "branch_flag": true,
+        "content": "Transition to FDG-PET/CT scan revealing a mass in the right upper lobe.",
+        "transition_event": {
+          "trigger_type": "imaging",
+          "trigger_entities": [
+            "Mass"
+          ],
+          "change_type": "progression",
+          "target_domain": "imaging"
+        }
+      }
+    },
+    {
+      "from": "N5",
+      "to": "N6",
+      "data": {
+        "edge_id": "E_to_F",
+        "branch_flag": true,
+        "content": "Transition to follow-up PET/CT scan indicating suspicion of lung carcinoma.",
+        "transition_event": {
+          "trigger_type": "imaging",
+          "trigger_entities": [
+            "Radiological findings"
+          ],
+          "change_type": "progression",
+          "target_domain": "imaging"
+        }
+      }
+    },
+    {
+      "from": "N6",
+      "to": "N7",
+      "data": {
+        "edge_id": "F_to_G",
+        "branch_flag": true,
+        "content": "Transition to biopsy confirming malignant lung carcinoma.",
+        "transition_event": {
+          "trigger_type": "procedure",
+          "trigger_entities": [
+            "Biopsy"
+          ],
+          "change_type": "reinterpretation",
+          "target_domain": "diagnosis"
+        }
+      }
+    },
+    {
+      "from": "N7",
+      "to": "N8",
+      "data": {
+        "edge_id": "G_to_H",
+        "branch_flag": true,
+        "content": "Transition to surgical resection of the lung mass and histologic examination revealing stage IA2 carcinoid.",
+        "transition_event": {
+          "trigger_type": "procedure",
+          "trigger_entities": [
+            "Surgical resection"
+          ],
+          "change_type": "resolution",
+          "target_domain": "diagnosis"
+        }
+      }
+    },
+    {
+      "from": "N8",
+      "to": "N9",
+      "data": {
+        "edge_id": "H_to_I",
+        "branch_flag": true,
+        "content": "Transition to post-operative period with reported paresthesia and thoracic CT showing no tumor recurrence.",
+        "transition_event": {
+          "trigger_type": "symptom_onset",
+          "trigger_entities": [
+            "Paresthesia"
+          ],
+          "change_type": "other",
+          "target_domain": "symptom"
+        }
+      }
+    },
+    {
+      "from": "N9",
+      "to": "N10",
+      "data": {
+        "edge_id": "I_to_J",
+        "branch_flag": true,
+        "content": "Transition to patient considered cured after surgical resection.",
+        "transition_event": {
+          "trigger_type": "interpretation",
+          "trigger_entities": [
+            "Surgical resection"
+          ]
+        }
+      }
+    }
+  ]
+}

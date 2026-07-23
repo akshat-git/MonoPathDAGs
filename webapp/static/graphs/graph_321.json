@@ -1,0 +1,528 @@
+{
+  "nodes": [
+    {
+      "id": "N1",
+      "label": "Step 1",
+      "customData": {
+        "node_id": "A",
+        "node_step_index": 0,
+        "content": "June 2015: 58-year-old woman hospitalized after 10 days of fever and cough. Chest CT revealed two solid lesions located at the bottom lobes of the right and left lungs. No smoking history. No family history of lung cancer.",
+        "clinical_data": {
+          "HPI": [
+            {
+              "summary": "58-year-old woman hospitalized after 10 days of fever and cough.",
+              "duration": "10 days",
+              "onset": null,
+              "progression": "unknown",
+              "associated_symptoms": [
+                "C0015967",
+                "C0009405"
+              ],
+              "alleviating_factors": [],
+              "exacerbating_factors": []
+            }
+          ],
+          "imaging": [
+            {
+              "type": "C0008783",
+              "body_part": "C0225904",
+              "modality": "CT",
+              "finding": "two solid lesions located at the bottom lobes of the right and left lungs",
+              "impression": null,
+              "date": "2015-06"
+            }
+          ],
+          "social_history": [
+            {
+              "category": "smoking",
+              "status": "never",
+              "description": "No smoking history"
+            }
+          ],
+          "diagnoses": [
+            {
+              "code": "C0024117",
+              "label": "Lung Cancer",
+              "status": "suspected",
+              "onset_date": null
+            }
+          ],
+          "ROS": [
+            {
+              "system": "respiratory",
+              "findings": [
+                "C0009405"
+              ]
+            },
+            {
+              "system": "constitutional",
+              "findings": [
+                "C0015967"
+              ]
+            }
+          ],
+          "vitals": [
+            {
+              "type": "C0015967",
+              "value": "unknown",
+              "unit": "degrees",
+              "timestamp": "2015-06"
+            }
+          ]
+        }
+      }
+    },
+    {
+      "id": "N2",
+      "label": "Step 2",
+      "customData": {
+        "node_id": "B",
+        "node_step_index": 1,
+        "content": "Needle biopsies were performed for both lung lesions under CT guidance.",
+        "clinical_data": {
+          "procedures": [
+            {
+              "name": "Needle biopsy",
+              "approach": "percutaneous",
+              "location": "lung",
+              "modality": "CT guidance"
+            }
+          ]
+        }
+      }
+    },
+    {
+      "id": "N3",
+      "label": "Step 3",
+      "customData": {
+        "node_id": "C",
+        "node_step_index": 2,
+        "content": "Histological examination of the lung lesions revealed invasive adenocarcinoma in both the right and left lower lobes, based on the presence of acinar cells with abnormal nuclei. Immunohistochemistry analysis of the left lung tumor tissue showed a biomarker profile of CK7 (+), TTF-1 (+), CK5/6 (\u2013), P63 (\u2013). The right lung tumor tissue showed a profile of CK7 (+), TTF-1 (+), CK5/6 (\u2013), and P63 (+).",
+        "clinical_data": {
+          "imaging": [
+            {
+              "body_part": "Lung",
+              "modality": "Histological examination",
+              "finding": "invasive adenocarcinoma in both the right and left lower lobes",
+              "impression": "invasive adenocarcinoma in both the right and left lower lobes"
+            }
+          ],
+          "labs": [
+            {
+              "test": "CK7",
+              "value": "positive",
+              "unit": null,
+              "flag": "positive",
+              "reference_range": null
+            },
+            {
+              "test": "TTF-1",
+              "value": "positive",
+              "unit": null,
+              "flag": "positive",
+              "reference_range": null
+            },
+            {
+              "test": "CK5/6",
+              "value": "negative",
+              "unit": null,
+              "flag": "negative",
+              "reference_range": null
+            },
+            {
+              "test": "P63",
+              "value": "negative",
+              "unit": null,
+              "flag": "negative",
+              "reference_range": null
+            },
+            {
+              "test": "P63",
+              "value": "positive",
+              "unit": null,
+              "flag": "positive",
+              "reference_range": null
+            }
+          ],
+          "diagnoses": [
+            {
+              "code": "C34",
+              "label": "Lung cancer",
+              "status": "active"
+            },
+            {
+              "code": "8140/3",
+              "label": "Adenocarcinoma, NOS",
+              "status": "active"
+            }
+          ]
+        }
+      }
+    },
+    {
+      "id": "N4",
+      "label": "Step 4",
+      "customData": {
+        "node_id": "D",
+        "node_step_index": 3,
+        "content": "Chest CT scan prior to therapies revealed a 24.1 mm x 32.4 mm lesion in the right lower lung lobe and a 49.0 mm x 32.6 mm lesion in the left lower lung lobe.",
+        "clinical_data": {
+          "imaging": [
+            {
+              "type": "Lesion",
+              "body_part": "Right lower lung lobe",
+              "modality": "CT",
+              "finding": "24.1 mm x 32.4 mm lesion",
+              "date": null
+            },
+            {
+              "type": "Lesion",
+              "body_part": "Left lower lung lobe",
+              "modality": "CT",
+              "finding": "49.0 mm x 32.6 mm lesion",
+              "date": null
+            }
+          ]
+        }
+      }
+    },
+    {
+      "id": "N5",
+      "label": "Step 5",
+      "customData": {
+        "node_id": "E",
+        "node_step_index": 4,
+        "content": "Hematoxylin and Eosin (H and E) staining of core needle biopsies from the right and left lower lung lobes revealed Acinar-Predominant adenocarcinoma. Subsequent resection specimens from both lungs also demonstrated Acinar-Predominant adenocarcinoma. Genetic analysis using next-generation sequencing (TruSight Tumor 15 panel, Illumina platform) was performed on paraffin-embedded primary tumor tissues from each lung lesion.",
+        "clinical_data": {
+          "labs": [
+            {
+              "test": "Next Generation Sequencing",
+              "value": "TruSight Tumor 15 panel, Illumina platform",
+              "unit": null,
+              "flag": null,
+              "reference_range": null,
+              "timestamp": null
+            }
+          ],
+          "imaging": [
+            {
+              "type": "Biopsy",
+              "body_part": "Lung",
+              "modality": null,
+              "finding": "Acinar-Predominant adenocarcinoma",
+              "impression": null,
+              "date": null
+            }
+          ],
+          "diagnoses": [
+            {
+              "code": null,
+              "label": "Acinar-Predominant adenocarcinoma",
+              "status": "active",
+              "onset_date": null
+            }
+          ]
+        }
+      }
+    },
+    {
+      "id": "N6",
+      "label": "Step 6",
+      "customData": {
+        "node_id": "F",
+        "node_step_index": 5,
+        "content": "Genetic analysis of the right lung tumor tissue revealed small in-frame deletions in exon 19 of the epidermal growth factor receptor (EGFR) gene. Genetic analysis of the left lung tumor tissue revealed no mutations of exons 18, 19, 20, or 21 of EGFR. These data were further confirmed by using Sanger sequencing and the amplification refractory mutation system (ARMS)-PCR technologies. The patient was considered as synchronous multiple primary lung adenocarcinoma (AC).",
+        "clinical_data": {
+          "diagnoses": [
+            {
+              "code": "C34.9",
+              "label": "Malignant neoplasm of unspecified part of bronchus or lung",
+              "status": "active",
+              "onset_date": null
+            }
+          ],
+          "imaging": [
+            {
+              "type": "T-D8200",
+              "body_part": "A-0007",
+              "modality": "other",
+              "finding": "small in-frame deletions in exon 19 of the epidermal growth factor receptor (EGFR) gene",
+              "impression": "Genetic analysis of the right lung tumor tissue revealed small in-frame deletions in exon 19 of the epidermal growth factor receptor (EGFR) gene.",
+              "date": null
+            },
+            {
+              "type": "T-D8200",
+              "body_part": "A-0007",
+              "modality": "other",
+              "finding": "no mutations of exons 18, 19, 20, or 21 of EGFR",
+              "impression": "Genetic analysis of the left lung tumor tissue revealed no mutations of exons 18, 19, 20, or 21 of EGFR.",
+              "date": null
+            }
+          ]
+        }
+      }
+    },
+    {
+      "id": "N7",
+      "label": "Step 7",
+      "customData": {
+        "node_id": "G",
+        "node_step_index": 6,
+        "content": "Bone metastasis indicated by MRI scan.",
+        "clinical_data": {
+          "imaging": [
+            {
+              "type": "Magnetic Resonance Imaging",
+              "body_part": "Bone",
+              "modality": "MRI",
+              "finding": "Bone metastasis"
+            }
+          ]
+        }
+      }
+    },
+    {
+      "id": "N8",
+      "label": "Step 8",
+      "customData": {
+        "node_id": "H",
+        "node_step_index": 7,
+        "content": "Patient refused bone biopsy.",
+        "clinical_data": {}
+      }
+    },
+    {
+      "id": "N9",
+      "label": "Step 9",
+      "customData": {
+        "node_id": "I",
+        "node_step_index": 8,
+        "content": "Patient treated with four cycles of pemetrexed (500 mg/m2on day 1, every 3 weeks) and cisplatin (25 mg/m2on days 1\u20133, every 3 weeks).",
+        "clinical_data": {
+          "medications": [
+            {
+              "drug": "pemetrexed",
+              "dosage": "500 mg/m2",
+              "frequency": "every 3 weeks",
+              "modality": "IV",
+              "start_date": null,
+              "end_date": null
+            },
+            {
+              "drug": "cisplatin",
+              "dosage": "25 mg/m2",
+              "frequency": "every 3 weeks",
+              "modality": "IV",
+              "start_date": null,
+              "end_date": null
+            }
+          ]
+        }
+      }
+    },
+    {
+      "id": "N10",
+      "label": "Step 10",
+      "customData": {
+        "node_id": "J",
+        "node_step_index": 9,
+        "content": "Chest CT images after four cycles of chemo treatment showed a shrinkage of the tumor size from 24.1 mmx32.4 mm to 9 mmx9 mm in the bottom lobe of the right lung and a slight shrinkage of the tumor lesion from 49.0 mmx32.6 mm to 41 mmx38 mm in the bottom lobe of the left lung.",
+        "clinical_data": {
+          "imaging": [
+            {
+              "type": "CT of chest",
+              "body_part": "Lung",
+              "modality": "CT",
+              "finding": "Shrinkage of tumor size in the bottom lobe of the right lung from 24.1 mmx32.4 mm to 9 mmx9 mm",
+              "date": null
+            },
+            {
+              "type": "CT of chest",
+              "body_part": "Lung",
+              "modality": "CT",
+              "finding": "Slight shrinkage of tumor lesion in the bottom lobe of the left lung from 49.0 mmx32.6 mm to 41 mmx38 mm",
+              "date": null
+            }
+          ]
+        }
+      }
+    },
+    {
+      "id": "N11",
+      "label": "Step 11",
+      "customData": {
+        "node_id": "K",
+        "node_step_index": 10,
+        "content": "MRI scan indicated newly metastatic lesions in the brain. Patient was judged as progressive disease (PD). Full body examination performed.",
+        "clinical_data": {
+          "imaging": [
+            {
+              "type": "MRI",
+              "body_part": "Brain",
+              "modality": "MRI",
+              "finding": "newly metastatic lesions",
+              "date": null
+            }
+          ],
+          "diagnoses": [
+            {
+              "code": "Progressive disease",
+              "label": "Progressive disease",
+              "status": "active"
+            }
+          ],
+          "procedures": [
+            {
+              "name": "Full body examination",
+              "date": null
+            }
+          ]
+        }
+      }
+    },
+    {
+      "id": "N12",
+      "label": "Step 12",
+      "customData": {
+        "node_id": "L",
+        "node_step_index": 11,
+        "content": "Patient refused alternative chemotherapy protocols and whole brain radiation. Prescribed icotin",
+        "clinical_data": {
+          "medications": [
+            {
+              "drug": "icotin",
+              "dosage": null,
+              "frequency": null,
+              "modality": null,
+              "start_date": null,
+              "end_date": null,
+              "indication": null
+            }
+          ],
+          "procedures": [
+            {
+              "name": "Whole brain radiation",
+              "approach": null,
+              "date": null,
+              "location": "brain",
+              "performed_by": null,
+              "outcome": "refused"
+            }
+          ],
+          "HPI": [
+            {
+              "summary": "Patient refused alternative chemotherapy protocols",
+              "duration": null,
+              "onset": null,
+              "progression": null,
+              "associated_symptoms": [],
+              "alleviating_factors": [],
+              "exacerbating_factors": []
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "edges": [
+    {
+      "from": "N1",
+      "to": "N2",
+      "data": {
+        "edge_id": "A_to_B",
+        "branch_flag": true,
+        "content": "Patient underwent needle biopsies for both lung lesions under CT guidance."
+      }
+    },
+    {
+      "from": "N2",
+      "to": "N3",
+      "data": {
+        "edge_id": "B_to_C",
+        "branch_flag": true,
+        "content": "Histological examination revealed invasive adenocarcinoma in both the right and left lower lobes. Immunohistochemistry analysis showed CK7 (+), TTF-1 (+), CK5/6 (\u2013), P63 (\u2013) in the left lung tumor and CK7 (+), TTF-1 (+), CK5/6 (\u2013), and P63 (+) in the right lung tumor."
+      }
+    },
+    {
+      "from": "N3",
+      "to": "N4",
+      "data": {
+        "edge_id": "C_to_D",
+        "branch_flag": true,
+        "content": "Chest CT scan revealed a 24.1 mm x 32.4 mm lesion in the right lower lung lobe and a 49.0 mm x 32.6 mm lesion in the left lower lung lobe."
+      }
+    },
+    {
+      "from": "N4",
+      "to": "N5",
+      "data": {
+        "edge_id": "D_to_E",
+        "branch_flag": true,
+        "content": "H and E staining of core needle biopsies revealed Acinar-Predominant adenocarcinoma. Resection specimens also demonstrated Acinar-Predominant adenocarcinoma. Genetic analysis using next-generation sequencing was performed."
+      }
+    },
+    {
+      "from": "N5",
+      "to": "N6",
+      "data": {
+        "edge_id": "E_to_F",
+        "branch_flag": true,
+        "content": "Genetic analysis of the right lung tumor tissue revealed small in-frame deletions in exon 19 of the EGFR gene. Genetic analysis of the left lung tumor tissue revealed no mutations of exons 18, 19, 20, or 21 of EGFR. Patient was considered as synchronous multiple primary lung adenocarcinoma (AC)."
+      }
+    },
+    {
+      "from": "N6",
+      "to": "N7",
+      "data": {
+        "edge_id": "F_to_G",
+        "branch_flag": true,
+        "content": "Bone metastasis indicated by MRI scan."
+      }
+    },
+    {
+      "from": "N7",
+      "to": "N8",
+      "data": {
+        "edge_id": "G_to_H",
+        "branch_flag": true,
+        "content": "Patient refused bone biopsy."
+      }
+    },
+    {
+      "from": "N8",
+      "to": "N9",
+      "data": {
+        "edge_id": "H_to_I",
+        "branch_flag": true,
+        "content": "Patient treated with four cycles of pemetrexed and cisplatin."
+      }
+    },
+    {
+      "from": "N9",
+      "to": "N10",
+      "data": {
+        "edge_id": "I_to_J",
+        "branch_flag": true,
+        "content": "Chest CT images showed a shrinkage of the tumor size from 24.1 mmx32.4 mm to 9 mmx9 mm in the bottom lobe of the right lung and a slight shrinkage of the tumor lesion from 49.0 mmx32.6 mm to 41 mmx38 mm in the bottom lobe of the left lung."
+      }
+    },
+    {
+      "from": "N10",
+      "to": "N11",
+      "data": {
+        "edge_id": "J_to_K",
+        "branch_flag": true,
+        "content": "MRI scan indicated newly metastatic lesions in the brain. Patient was judged as progressive disease (PD). Full body examination performed."
+      }
+    },
+    {
+      "from": "N11",
+      "to": "N12",
+      "data": {
+        "edge_id": "K_to_L",
+        "branch_flag": true,
+        "content": "Patient refused alternative chemotherapy protocols and whole brain radiation. Prescribed icotin."
+      }
+    }
+  ]
+}

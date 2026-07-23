@@ -1,0 +1,648 @@
+{
+  "nodes": [
+    {
+      "id": "N1",
+      "label": "Step 1",
+      "customData": {
+        "node_id": "A",
+        "node_step_index": 0,
+        "content": "December 2017: Chest CT showed a tumour in the left lung (S1/2) with pleural metastases.",
+        "clinical_data": {
+          "imaging": [
+            {
+              "type": "Tumor",
+              "body_part": "Lung",
+              "modality": "CT",
+              "finding": "Tumour in the left lung (S1/2) with pleural metastases",
+              "date": "2017-12"
+            }
+          ]
+        }
+      }
+    },
+    {
+      "id": "N2",
+      "label": "Step 2",
+      "customData": {
+        "node_id": "B",
+        "node_step_index": 1,
+        "content": "January 2018: Fibrobronchoscopy with biopsy revealed poorly differentiated (G3) non-small lung cell adenocarcinoma, EGFR (-).",
+        "clinical_data": {
+          "procedures": [
+            {
+              "name": "Fibrobronchoscopy",
+              "date": "2018-01",
+              "outcome": "biopsy revealed poorly differentiated (G3) non-small lung cell adenocarcinoma, EGFR (-)"
+            }
+          ],
+          "diagnoses": [
+            {
+              "code": "C0587746",
+              "label": "Adenocarcinoma, Non-Small Cell Lung",
+              "status": "active",
+              "onset_date": "2018-01"
+            }
+          ]
+        }
+      }
+    },
+    {
+      "id": "N3",
+      "label": "Step 3",
+      "customData": {
+        "node_id": "C",
+        "node_step_index": 2,
+        "content": "February - June: Chemotherapy treatment (Carboplatin, Paclitaxel, Bevacizumab), 6 courses.",
+        "clinical_data": {
+          "medications": [
+            {
+              "drug": "C0007672",
+              "dosage": null,
+              "frequency": null,
+              "modality": null,
+              "start_date": "2023-02",
+              "end_date": "2023-06",
+              "indication": null
+            },
+            {
+              "drug": "C0030384",
+              "dosage": null,
+              "frequency": null,
+              "modality": null,
+              "start_date": "2023-02",
+              "end_date": "2023-06",
+              "indication": null
+            },
+            {
+              "drug": "C1263454",
+              "dosage": null,
+              "frequency": null,
+              "modality": null,
+              "start_date": "2023-02",
+              "end_date": "2023-06",
+              "indication": null
+            }
+          ],
+          "procedures": [
+            {
+              "name": "C0009264",
+              "approach": null,
+              "date": "2023-02/2023-06",
+              "location": null,
+              "performed_by": null,
+              "outcome": null
+            }
+          ]
+        }
+      }
+    },
+    {
+      "id": "N4",
+      "label": "Step 4",
+      "customData": {
+        "node_id": "D",
+        "node_step_index": 3,
+        "content": "September 2018: Chest CT showed a 16% reduction of target tumours, indicating stable oncologic disease.",
+        "clinical_data": {
+          "imaging": [
+            {
+              "type": "Computed tomography of chest",
+              "body_part": "Chest",
+              "modality": "CT",
+              "finding": "16% reduction of target tumours",
+              "impression": "stable oncologic disease",
+              "date": "2018-09"
+            }
+          ]
+        }
+      }
+    },
+    {
+      "id": "N5",
+      "label": "Step 5",
+      "customData": {
+        "node_id": "E",
+        "node_step_index": 4,
+        "content": "January 2019: Chest CT showed progression of the disease.",
+        "clinical_data": {
+          "imaging": [
+            {
+              "type": "Computed tomography",
+              "body_part": "Chest",
+              "modality": "CT",
+              "finding": "progression of the disease",
+              "date": "2019-01"
+            }
+          ]
+        }
+      }
+    },
+    {
+      "id": "N6",
+      "label": "Step 6",
+      "customData": {
+        "node_id": "F",
+        "node_step_index": 5,
+        "content": "December 2020: Beginning of gastrointestinal symptoms.",
+        "clinical_data": {
+          "HPI": [
+            {
+              "onset": "December 2020",
+              "summary": "Beginning of gastrointestinal symptoms"
+            }
+          ],
+          "ROS": [
+            {
+              "system": "GI",
+              "findings": []
+            }
+          ]
+        }
+      }
+    },
+    {
+      "id": "N7",
+      "label": "Step 7",
+      "customData": {
+        "node_id": "G",
+        "node_step_index": 6,
+        "content": "January 2021: Initiation of nivolumab treatment.",
+        "clinical_data": {
+          "medications": [
+            {
+              "drug": "C1661221",
+              "dosage": null,
+              "frequency": null,
+              "modality": null,
+              "start_date": "2021-01",
+              "end_date": null,
+              "indication": null
+            }
+          ]
+        }
+      }
+    },
+    {
+      "id": "N8",
+      "label": "Step 8",
+      "customData": {
+        "node_id": "H",
+        "node_step_index": 7,
+        "content": "February 2021: EGD with biopsy showed tumour-like endoscopic changes in the stomach; Histology revealed chronic active (++) erosive gastritis with gland destruction and lymphoepithelial infiltration, possible immune check-point inhibitor therapy-associated gastritis.",
+        "clinical_data": {
+          "procedures": [
+            {
+              "name": "Esophagogastroduodenoscopy",
+              "date": "2021-02",
+              "location": "stomach",
+              "approach": "endoscopic"
+            },
+            {
+              "name": "Biopsy",
+              "date": "2021-02",
+              "location": "stomach"
+            }
+          ],
+          "diagnoses": [
+            {
+              "code": "447447004",
+              "label": "Gastritis",
+              "status": "active",
+              "onset_date": "2021-02"
+            }
+          ],
+          "labs": [
+            {
+              "test": "Histology",
+              "value": "chronic active (++) erosive gastritis with gland destruction and lymphoepithelial infiltration, possible immune check-point inhibitor therapy-associated gastritis",
+              "timestamp": "2021-02"
+            }
+          ]
+        }
+      }
+    },
+    {
+      "id": "N9",
+      "label": "Step 9",
+      "customData": {
+        "node_id": "I",
+        "node_step_index": 8,
+        "content": "March 2021: Abdominal CT showed stomach changes related to chronic gastritis.",
+        "clinical_data": {
+          "imaging": [
+            {
+              "type": "Computed tomography",
+              "body_part": "Abdomen",
+              "modality": "CT",
+              "finding": "stomach changes related to chronic gastritis",
+              "date": "2021-03"
+            }
+          ],
+          "diagnoses": [
+            {
+              "code": "K29.5",
+              "label": "Chronic gastritis",
+              "status": "active",
+              "onset_date": "2021-03"
+            }
+          ]
+        }
+      }
+    },
+    {
+      "id": "N10",
+      "label": "Step 10",
+      "customData": {
+        "node_id": "J",
+        "node_step_index": 9,
+        "content": "March 2021: EGD with biopsy showed progression of tumour-like endoscopic changes in the stomach; Histology revealed chronic active (++) gastritis with erosions and intestinal metaplasia.",
+        "clinical_data": {
+          "procedures": [
+            {
+              "name": "Endoscopy, gastroduodenal",
+              "approach": "endoscopic",
+              "date": "2021-03",
+              "location": "stomach",
+              "outcome": "tumour-like endoscopic changes"
+            },
+            {
+              "name": "Biopsy",
+              "date": "2021-03",
+              "location": "stomach",
+              "outcome": "chronic active (++) gastritis with erosions and intestinal metaplasia"
+            }
+          ],
+          "diagnoses": [
+            {
+              "code": "C0017158",
+              "label": "Gastritis",
+              "status": "active",
+              "onset_date": "2021-03"
+            },
+            {
+              "code": "C0268385",
+              "label": "Erosion",
+              "status": "active",
+              "onset_date": "2021-03"
+            },
+            {
+              "code": "C0260647",
+              "label": "Metaplasia, Intestinal",
+              "status": "active",
+              "onset_date": "2021-03"
+            }
+          ],
+          "labs": [
+            {
+              "test": "Histology",
+              "value": "chronic active (++) gastritis with erosions and intestinal metaplasia",
+              "timestamp": "2021-03"
+            }
+          ]
+        }
+      }
+    },
+    {
+      "id": "N11",
+      "label": "Step 11",
+      "customData": {
+        "node_id": "K",
+        "node_step_index": 10,
+        "content": "March - April: First course of 20 mg/d of omeprazole.",
+        "clinical_data": {
+          "medications": [
+            {
+              "drug": "C0029080",
+              "dosage": "20 mg/d",
+              "frequency": null,
+              "modality": "oral",
+              "start_date": "XXXX-03",
+              "end_date": "XXXX-04",
+              "indication": null
+            }
+          ]
+        }
+      }
+    },
+    {
+      "id": "N12",
+      "label": "Step 12",
+      "customData": {
+        "node_id": "L",
+        "node_step_index": 11,
+        "content": "July 2021: EGD with biopsy showed decreased diffuse inflammatory/infiltrative changes in the stomach wall; Histology revealed chronic active gastritis (++) associated with immunotherapy.",
+        "clinical_data": {
+          "procedures": [
+            {
+              "name": "Esophagogastroduodenoscopy",
+              "date": "2021-07",
+              "location": "stomach",
+              "finding": "decreased diffuse inflammatory/infiltrative changes in the stomach wall"
+            }
+          ],
+          "diagnoses": [
+            {
+              "code": "C0017179",
+              "label": "Gastritis",
+              "status": "active",
+              "onset_date": "2021-07"
+            }
+          ]
+        }
+      }
+    },
+    {
+      "id": "N13",
+      "label": "Step 13",
+      "customData": {
+        "node_id": "M",
+        "node_step_index": 12,
+        "content": "September: COVID-19 infection; acute renal failure; cessation of nivolumab.",
+        "clinical_data": {
+          "diagnoses": [
+            {
+              "code": "UMLS:C4720924",
+              "label": "COVID-19",
+              "status": "active",
+              "onset_date": "2023-09"
+            },
+            {
+              "code": "UMLS:C0002871",
+              "label": "Acute Renal Failure",
+              "status": "active",
+              "onset_date": "2023-09"
+            }
+          ],
+          "medications": [
+            {
+              "drug": "Nivolumab",
+              "dosage": null,
+              "frequency": null,
+              "modality": null,
+              "start_date": null,
+              "end_date": "2023-09",
+              "indication": null
+            }
+          ]
+        }
+      }
+    },
+    {
+      "id": "N14",
+      "label": "Step 14",
+      "customData": {
+        "node_id": "N",
+        "node_step_index": 13,
+        "content": "September - October: Second and third courses of omeprazole 20 mg/d.",
+        "clinical_data": {
+          "medications": [
+            {
+              "drug": "C0029092",
+              "dosage": "20 mg",
+              "frequency": "daily",
+              "modality": "oral",
+              "start_date": "2023-09",
+              "end_date": "2023-10",
+              "indication": null
+            }
+          ]
+        }
+      }
+    },
+    {
+      "id": "N15",
+      "label": "Step 15",
+      "customData": {
+        "node_id": "O",
+        "node_step_index": 14,
+        "content": "December: Chest CT showed no progression of pulmonary disease.",
+        "clinical_data": {
+          "imaging": [
+            {
+              "type": "Computed tomography",
+              "body_part": "Chest",
+              "modality": "CT",
+              "finding": "no progression of pulmonary disease",
+              "date": "XXXX-12"
+            }
+          ]
+        }
+      }
+    },
+    {
+      "id": "N16",
+      "label": "Step 16",
+      "customData": {
+        "node_id": "P",
+        "node_step_index": 15,
+        "content": "January 2022: EGD with biopsy showed gastric mucosa atrophy with focal intestinal metaplasia, gastric polyp; Histology revealed hyperplastic gastric polyp.",
+        "clinical_data": {
+          "procedures": [
+            {
+              "name": "Esophagogastroduodenoscopy",
+              "date": "2022-01",
+              "finding": "gastric mucosa atrophy with focal intestinal metaplasia, gastric polyp",
+              "outcome": "hyperplastic gastric polyp"
+            }
+          ],
+          "diagnoses": [
+            {
+              "code": "C0268699",
+              "label": "Gastric Mucosa Atrophy",
+              "status": "active",
+              "onset_date": "2022-01"
+            },
+            {
+              "code": "C0268322",
+              "label": "Intestinal Metaplasia",
+              "status": "active",
+              "onset_date": "2022-01"
+            },
+            {
+              "code": "C0017279",
+              "label": "Gastric Polyp",
+              "status": "active",
+              "onset_date": "2022-01"
+            }
+          ]
+        }
+      }
+    },
+    {
+      "id": "N17",
+      "label": "Step 17",
+      "customData": {
+        "node_id": "Q",
+        "node_step_index": 16,
+        "content": "March 2022: Acute renal failure",
+        "clinical_data": {
+          "diagnoses": [
+            {
+              "code": "N17.9",
+              "label": "Acute kidney failure, unspecified",
+              "status": "active",
+              "onset_date": "2022-03"
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "edges": [
+    {
+      "from": "N1",
+      "to": "N2",
+      "data": {
+        "edge_id": "A_to_B",
+        "branch_flag": true,
+        "content": "Initial diagnosis and characterization of lung cancer.",
+        "transition_event": {
+          "trigger_type": "procedure",
+          "trigger_entities": [
+            "C0158694"
+          ],
+          "change_type": "addition",
+          "target_domain": "diagnosis"
+        }
+      }
+    },
+    {
+      "from": "N2",
+      "to": "N3",
+      "data": {
+        "edge_id": "B_to_C",
+        "branch_flag": true,
+        "content": "Initiation of chemotherapy for lung cancer.",
+        "transition_event": {
+          "trigger_type": "medication_change",
+          "trigger_entities": [
+            "C0007672",
+            "C0030384",
+            "C1263454"
+          ],
+          "change_type": "addition",
+          "target_domain": "medication"
+        }
+      }
+    },
+    {
+      "from": "N3",
+      "to": "N4",
+      "data": {
+        "edge_id": "C_to_D",
+        "branch_flag": true,
+        "content": "Response assessment after chemotherapy.",
+        "transition_event": {
+          "trigger_type": "imaging",
+          "trigger_entities": [],
+          "change_type": "resolution",
+          "target_domain": "imaging"
+        }
+      }
+    },
+    {
+      "from": "N4",
+      "to": "N5",
+      "data": {
+        "edge_id": "D_to_E",
+        "branch_flag": true,
+        "content": "Disease progression after initial response to chemotherapy.",
+        "transition_event": {
+          "trigger_type": "imaging",
+          "trigger_entities": [],
+          "change_type": "progression",
+          "target_domain": "imaging"
+        }
+      }
+    },
+    {
+      "from": "N5",
+      "to": "N6",
+      "data": {
+        "edge_id": "E_to_F",
+        "branch_flag": true,
+        "content": "Onset of gastrointestinal symptoms.",
+        "transition_event": {
+          "trigger_type": "symptom_onset",
+          "trigger_entities": [],
+          "change_type": "addition",
+          "target_domain": "symptom"
+        }
+      }
+    },
+    {
+      "from": "N6",
+      "to": "N7",
+      "data": {
+        "edge_id": "F_to_G",
+        "branch_flag": true,
+        "content": "Initiation of nivolumab treatment.",
+        "transition_event": {
+          "trigger_type": "medication_change",
+          "trigger_entities": [
+            "C1661221"
+          ],
+          "change_type": "addition",
+          "target_domain": "medication"
+        }
+      }
+    },
+    {
+      "from": "N7",
+      "to": "N8",
+      "data": {
+        "edge_id": "G_to_H",
+        "branch_flag": true,
+        "content": "Development of gastritis, possibly related to nivolumab.",
+        "transition_event": {
+          "trigger_type": "symptom_onset",
+          "trigger_entities": [
+            "447447004"
+          ],
+          "change_type": "addition",
+          "target_domain": "diagnosis"
+        }
+      }
+    },
+    {
+      "from": "N8",
+      "to": "N9",
+      "data": {
+        "edge_id": "H_to_I",
+        "branch_flag": true,
+        "content": "Confirmation of gastritis on abdominal CT.",
+        "transition_event": {
+          "trigger_type": "imaging",
+          "trigger_entities": [],
+          "change_type": "addition",
+          "target_domain": "imaging"
+        }
+      }
+    },
+    {
+      "from": "N9",
+      "to": "N10",
+      "data": {
+        "edge_id": "I_to_J",
+        "branch_flag": true,
+        "content": "Progression of gastritis with intestinal metaplasia.",
+        "transition_event": {
+          "trigger_type": "procedure",
+          "trigger_entities": [],
+          "change_type": "progression",
+          "target_domain": "diagnosis"
+        }
+      }
+    },
+    {
+      "from": "N10",
+      "to": "N11",
+      "data": {
+        "edge_id": "J_to_K",
+        "branch_flag": true,
+        "content": "Initiation of omeprazole treatment for gastritis.",
+        "transition_event": {}
+      }
+    }
+  ]
+}

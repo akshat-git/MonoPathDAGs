@@ -1,0 +1,282 @@
+{
+  "nodes": [
+    {
+      "id": "N1",
+      "label": "Step 1",
+      "customData": {
+        "node_id": "A",
+        "node_step_index": 0,
+        "content": "42-year-old male with a history of complex active autoimmune disease presented with joint swelling and tenderness of fingers and ankles, rash, photosensitivity, and shortness of breath (SOB) consistent with antisynthetase syndrome.",
+        "clinical_data": {
+          "HPI": [
+            {
+              "summary": "42-year-old male presented with joint swelling and tenderness of fingers and ankles, rash, photosensitivity, and shortness of breath (SOB)",
+              "associated_symptoms": [
+                "joint swelling",
+                "joint tenderness",
+                "rash",
+                "photosensitivity",
+                "shortness of breath"
+              ]
+            }
+          ],
+          "diagnoses": [
+            {
+              "code": "C4086171",
+              "label": "antisynthetase syndrome",
+              "status": "active"
+            }
+          ]
+        }
+      }
+    },
+    {
+      "id": "N2",
+      "label": "Step 2",
+      "customData": {
+        "node_id": "B",
+        "node_step_index": 1,
+        "content": "Patient was found to be ANA+ and dsDNA+ and received the final diagnosis of dermatomyositis.",
+        "clinical_data": {
+          "labs": [
+            {
+              "test": "Antinuclear Antibody",
+              "value": "positive",
+              "flag": "abnormal"
+            },
+            {
+              "test": "dsDNA",
+              "value": "positive",
+              "flag": "abnormal"
+            }
+          ],
+          "diagnoses": [
+            {
+              "code": "6961000119101",
+              "label": "Dermatomyositis",
+              "status": "active"
+            }
+          ]
+        }
+      }
+    },
+    {
+      "id": "N3",
+      "label": "Step 3",
+      "customData": {
+        "node_id": "C",
+        "node_step_index": 2,
+        "content": "Patient was diagnosed with cT2aN1M0 NSCLC adenocarcinoma of the left lower lobe (LLL). CT chest revealed a 2-3 cm cavitary mass in the left lower lobe (LLL). Biopsy revealed NSCLC adenocarcinoma and left hilar adenopathy (N1).",
+        "clinical_data": {
+          "diagnoses": [
+            {
+              "code": "C34.3",
+              "label": "Malignant neoplasm of lower lobe, bronchus or lung",
+              "status": "active",
+              "onset_date": null
+            },
+            {
+              "code": "8140/3",
+              "label": "Adenocarcinoma, NOS",
+              "status": "active",
+              "onset_date": null
+            }
+          ],
+          "imaging": [
+            {
+              "type": "Radiography, Thoracic",
+              "body_part": "Lower Lobe of Lung",
+              "modality": "CT",
+              "finding": "cavitary mass",
+              "impression": "2-3 cm cavitary mass in the left lower lobe (LLL)",
+              "date": null
+            }
+          ]
+        }
+      }
+    },
+    {
+      "id": "N4",
+      "label": "Step 4",
+      "customData": {
+        "node_id": "D",
+        "node_step_index": 4,
+        "content": "Patient received postoperative proton therapy (PT) to the lung cancer's positive bronchial margin.",
+        "clinical_data": {
+          "procedures": [
+            {
+              "name": "Proton therapy",
+              "approach": "other",
+              "date": null,
+              "location": "bronchial margin",
+              "performed_by": null,
+              "outcome": null
+            }
+          ],
+          "diagnoses": [
+            {
+              "code": null,
+              "label": "lung cancer",
+              "status": "active",
+              "onset_date": null
+            }
+          ]
+        }
+      }
+    },
+    {
+      "id": "N5",
+      "label": "Step 5",
+      "customData": {
+        "node_id": "E",
+        "node_step_index": 5,
+        "content": "Patient developed a Common Terminology Criteria for Adverse Effects Version 5.0 grade 5 tracheoesophageal (TE) fistula.",
+        "clinical_data": {
+          "diagnoses": [
+            {
+              "code": "C0476504",
+              "label": "Tracheoesophageal fistula",
+              "status": "active"
+            }
+          ]
+        }
+      }
+    },
+    {
+      "id": "N6",
+      "label": "Step 6",
+      "customData": {
+        "node_id": "F",
+        "node_step_index": 6,
+        "content": "Patient had MDA5+ and PL7-positive dermatomyositis and was placed on prednisone 15 mg every day and hydroxychloroquine. Mycophenolate was offered. Surgery was recommended.",
+        "clinical_data": {
+          "diagnoses": [
+            {
+              "code": "C0268447",
+              "label": "Dermatomyositis",
+              "status": "active"
+            }
+          ],
+          "medications": [
+            {
+              "drug": "C0032221",
+              "dosage": "15 mg",
+              "frequency": "every day",
+              "modality": "oral",
+              "indication": "Dermatomyositis"
+            },
+            {
+              "drug": "C0020378",
+              "indication": "Dermatomyositis"
+            },
+            {
+              "drug": "C0027063",
+              "indication": "Dermatomyositis"
+            }
+          ]
+        }
+      }
+    },
+    {
+      "id": "N7",
+      "label": "Step 7",
+      "customData": {
+        "node_id": "G",
+        "node_step_index": 7,
+        "content": "Patient underwent video-assisted thoracoscopic surgery which was converted to an open procedure due to tissue adhesion. Mediastinal structures had dense desmoplastic reactions. Lung parenchyma was disintegrating. A vascularized pedicle soft-tissue flap (intercostal muscle flap) was bolstered to the bronchial stump following lobectomy for hemostasis control.",
+        "clinical_data": {
+          "procedures": [
+            {
+              "name": "Video-assisted thoracoscopic surgery",
+              "approach": "endoscopic",
+              "date": null,
+              "location": "mediastinum",
+              "performed_by": null,
+              "outcome": null
+            },
+            {
+              "name": "Open procedure",
+              "approach": "open",
+              "date": null,
+              "location": "mediastinum",
+              "performed_by": null,
+              "outcome": null
+            },
+            {
+              "name": "Lobectomy",
+              "approach": "open",
+              "date": null,
+              "location": "bronchial stump",
+              "performed_by": null,
+              "outcome": null
+            },
+            {
+              "name": "Soft tissue flap",
+              "approach": "open",
+              "date": null,
+              "location": "bronchial stump",
+              "performed_by": null,
+              "outcome": null
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "edges": [
+    {
+      "from": "N1",
+      "to": "N2",
+      "data": {
+        "edge_id": "A_to_B",
+        "branch_flag": true,
+        "content": "Patient was found to be ANA+ and dsDNA+ and received the final diagnosis of dermatomyositis."
+      }
+    },
+    {
+      "from": "N2",
+      "to": "N3",
+      "data": {
+        "edge_id": "B_to_C",
+        "branch_flag": true,
+        "content": "Patient was diagnosed with cT2aN1M0 NSCLC adenocarcinoma of the left lower lobe (LLL). CT chest revealed a 2-3 cm cavitary mass in the left lower lobe (LLL). Biopsy revealed NSCLC adenocarcinoma and left hilar adenopathy (N1)."
+      }
+    },
+    {
+      "from": "N3",
+      "to": "N4",
+      "data": {
+        "edge_id": "C_to_D",
+        "branch_flag": true,
+        "content": "Patient received postoperative proton therapy (PT) to the lung cancer's positive bronchial margin."
+      }
+    },
+    {
+      "from": "N4",
+      "to": "N5",
+      "data": {
+        "edge_id": "D_to_E",
+        "branch_flag": true,
+        "content": "Patient developed a Common Terminology Criteria for Adverse Effects Version 5.0 grade 5 tracheoesophageal (TE) fistula."
+      }
+    },
+    {
+      "from": "N5",
+      "to": "N6",
+      "data": {
+        "edge_id": "E_to_F",
+        "branch_flag": true,
+        "content": "Patient had MDA5+ and PL7-positive dermatomyositis and was placed on prednisone 15 mg every day and hydroxychloroquine. Mycophenolate was offered. Surgery was recommended."
+      }
+    },
+    {
+      "from": "N6",
+      "to": "N7",
+      "data": {
+        "edge_id": "F_to_G",
+        "branch_flag": true,
+        "content": "Patient underwent video-assisted thoracoscopic surgery which was converted to an open procedure due to tissue adhesion. Mediastinal structures had dense desmoplastic reactions. Lung parenchyma was disintegrating. A vascularized pedicle soft-tissue flap (intercostal muscle flap) was bolstered to the bronchial stump following lobectomy for hemostasis control."
+      }
+    }
+  ]
+}

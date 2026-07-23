@@ -1,0 +1,396 @@
+{
+  "nodes": [
+    {
+      "id": "N1",
+      "label": "Step 1",
+      "customData": {
+        "node_id": "A",
+        "node_step_index": 0,
+        "content": "42-year-old woman presented with general malaise and anorexia lasting for 3 months and was admitted in early October 2020.",
+        "clinical_data": {
+          "HPI": [
+            {
+              "summary": "42-year-old woman presented with general malaise and anorexia lasting for 3 months",
+              "duration": "P3M",
+              "onset": "3 months prior to early October 2020",
+              "progression": "gradual",
+              "associated_symptoms": [
+                "C0003126",
+                "C0003542"
+              ]
+            }
+          ]
+        }
+      }
+    },
+    {
+      "id": "N2",
+      "label": "Step 2",
+      "customData": {
+        "node_id": "B",
+        "node_step_index": 1,
+        "content": "Advanced right upper lung cancer with multiple brain and bone metastases (Fig. 1A\u2013E). Clinical stage of her cancer was T1bN3M1b, stage 4B.",
+        "clinical_data": {
+          "diagnoses": [
+            {
+              "code": "C34.9",
+              "label": "Lung Cancer",
+              "status": "active",
+              "onset_date": null
+            },
+            {
+              "code": "C79.31",
+              "label": "Secondary malignant neoplasm of brain",
+              "status": "active",
+              "onset_date": null
+            },
+            {
+              "code": "C79.51",
+              "label": "Secondary malignant neoplasm of bone",
+              "status": "active",
+              "onset_date": null
+            }
+          ],
+          "imaging": [
+            {
+              "type": "Radiography",
+              "body_part": "Lung",
+              "modality": "X-ray",
+              "finding": "Advanced right upper lung cancer",
+              "impression": "Advanced right upper lung cancer",
+              "date": null
+            }
+          ]
+        }
+      }
+    },
+    {
+      "id": "N3",
+      "label": "Step 3",
+      "customData": {
+        "node_id": "C",
+        "node_step_index": 2,
+        "content": "Severe anaemia (haemoglobin: 6.8 g/dL) and thrombocytopenia (4.2\u00d7104/\u03bcL).",
+        "clinical_data": {
+          "labs": [
+            {
+              "test": "Hemoglobin measurement",
+              "value": "6.8",
+              "unit": "g/dL",
+              "flag": "abnormal"
+            },
+            {
+              "test": "Platelet count",
+              "value": "4.2",
+              "unit": "x10^4/\u03bcL",
+              "flag": "abnormal"
+            }
+          ],
+          "diagnoses": [
+            {
+              "code": "D62",
+              "label": "Severe anemia",
+              "status": "active"
+            },
+            {
+              "code": "D69.6",
+              "label": "Thrombocytopenia",
+              "status": "active"
+            }
+          ]
+        }
+      }
+    },
+    {
+      "id": "N4",
+      "label": "Step 4",
+      "customData": {
+        "node_id": "D",
+        "node_step_index": 3,
+        "content": "Elevated fibrin degradation products (144.4 \u03bcg/mL) and D-dimer (33.5 \u03bcg/mL). Prothrombin time-international normalised ratio was 1.87. Carcinoembryonic antigen and ferritin were 7763 ng/mL and 4061 ng/mL, respectively. Received transfusion of erythrocytes and platelets, and infusion of thrombomodulin alfa.",
+        "clinical_data": {
+          "labs": [
+            {
+              "test": "Fibrin Degradation Products",
+              "value": "144.4",
+              "unit": "\u03bcg/mL",
+              "flag": "abnormal"
+            },
+            {
+              "test": "D-dimer",
+              "value": "33.5",
+              "unit": "\u03bcg/mL",
+              "flag": "abnormal"
+            },
+            {
+              "test": "Prothrombin time-international normalised ratio",
+              "value": "1.87",
+              "flag": "abnormal"
+            },
+            {
+              "test": "Carcinoembryonic antigen",
+              "value": "7763",
+              "unit": "ng/mL",
+              "flag": "abnormal"
+            },
+            {
+              "test": "Ferritin",
+              "value": "4061",
+              "unit": "ng/mL",
+              "flag": "abnormal"
+            }
+          ],
+          "medications": [
+            {
+              "drug": "Thrombomodulin alfa",
+              "modality": "infusion"
+            }
+          ],
+          "procedures": [
+            {
+              "name": "Transfusion of erythrocytes"
+            },
+            {
+              "name": "Transfusion of platelets"
+            }
+          ]
+        }
+      }
+    },
+    {
+      "id": "N5",
+      "label": "Step 5",
+      "customData": {
+        "node_id": "E",
+        "node_step_index": 4,
+        "content": "Following bronchoscopy, empirical cytotoxic chemotherapy with carboplatin and nanoparticle albumin-bound paclitaxel was initiated.",
+        "clinical_data": {
+          "medications": [
+            {
+              "drug": "C0007127",
+              "dosage": null,
+              "frequency": null,
+              "modality": null,
+              "start_date": null,
+              "end_date": null,
+              "indication": null
+            },
+            {
+              "drug": "C3888523",
+              "dosage": null,
+              "frequency": null,
+              "modality": null,
+              "start_date": null,
+              "end_date": null,
+              "indication": null
+            }
+          ],
+          "procedures": [
+            {
+              "name": "C0006274",
+              "approach": null,
+              "date": null,
+              "location": null,
+              "performed_by": null,
+              "outcome": null
+            }
+          ]
+        }
+      }
+    },
+    {
+      "id": "N6",
+      "label": "Step 6",
+      "customData": {
+        "node_id": "F",
+        "node_step_index": 5,
+        "content": "Histopathology revealed lung adenocarcinoma.",
+        "clinical_data": {
+          "diagnoses": [
+            {
+              "code": "C34.9",
+              "label": "Lung adenocarcinoma",
+              "status": "active"
+            }
+          ]
+        }
+      }
+    },
+    {
+      "id": "N7",
+      "label": "Step 7",
+      "customData": {
+        "node_id": "G",
+        "node_step_index": 6,
+        "content": "Transferred to our hospital to receive multidisciplinary cancer therapy in mid-October. Received a transfusion of erythrocytes and platelets twice.",
+        "clinical_data": {
+          "procedures": [
+            {
+              "name": "Erythrocyte transfusion",
+              "date": "XXXX-10",
+              "outcome": "Improved hematocrit"
+            },
+            {
+              "name": "Platelet transfusion",
+              "date": "XXXX-10",
+              "outcome": "Improved platelet count"
+            }
+          ]
+        }
+      }
+    },
+    {
+      "id": "N8",
+      "label": "Step 8",
+      "customData": {
+        "node_id": "H",
+        "node_step_index": 7,
+        "content": "Enhanced computed tomography revealed an asymptomatic pulmonary thromboembolism. Heparin administration was initiated.",
+        "clinical_data": {
+          "imaging": [
+            {
+              "type": "Pulmonary Embolism",
+              "body_part": "Lung",
+              "modality": "CT",
+              "finding": "thromboembolism",
+              "impression": "asymptomatic pulmonary thromboembolism"
+            }
+          ],
+          "medications": [
+            {
+              "drug": "Heparin",
+              "modality": "IV",
+              "start_date": null,
+              "end_date": null,
+              "indication": "Pulmonary Embolism"
+            }
+          ],
+          "diagnoses": [
+            {
+              "code": "I26.99",
+              "label": "Pulmonary embolism without acute cor pulmonale",
+              "status": "active",
+              "onset_date": null
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "edges": [
+    {
+      "from": "N1",
+      "to": "N2",
+      "data": {
+        "edge_id": "A_to_B",
+        "branch_flag": true,
+        "content": "From initial presentation with malaise and anorexia to diagnosis of advanced lung cancer with brain and bone metastases."
+      }
+    },
+    {
+      "from": "N2",
+      "to": "N3",
+      "data": {
+        "edge_id": "B_to_C",
+        "branch_flag": true,
+        "content": "Development of severe anemia and thrombocytopenia in the context of advanced lung cancer.",
+        "transition_event": {
+          "trigger_type": "symptom_onset",
+          "trigger_entities": [
+            "C0002871",
+            "C0040034"
+          ],
+          "change_type": "progression",
+          "target_domain": "symptom"
+        }
+      }
+    },
+    {
+      "from": "N3",
+      "to": "N4",
+      "data": {
+        "edge_id": "C_to_D",
+        "branch_flag": true,
+        "content": "Coagulopathy indicated by elevated fibrin degradation products and D-dimer, along with elevated CEA and ferritin. Treatment with erythrocyte and platelet transfusions, and thrombomodulin alfa.",
+        "transition_event": {
+          "trigger_type": "lab_change",
+          "trigger_entities": [
+            "D-dimer",
+            "Fibrin Degradation Products"
+          ],
+          "change_type": "progression",
+          "target_domain": "lab"
+        }
+      }
+    },
+    {
+      "from": "N4",
+      "to": "N5",
+      "data": {
+        "edge_id": "D_to_E",
+        "branch_flag": true,
+        "content": "Initiation of empirical cytotoxic chemotherapy with carboplatin and nanoparticle albumin-bound paclitaxel following bronchoscopy.",
+        "transition_event": {
+          "trigger_type": "procedure",
+          "trigger_entities": [
+            "C0006274"
+          ],
+          "change_type": "addition",
+          "target_domain": "procedure"
+        }
+      }
+    },
+    {
+      "from": "N5",
+      "to": "N6",
+      "data": {
+        "edge_id": "E_to_F",
+        "branch_flag": true,
+        "content": "Histopathological confirmation of lung adenocarcinoma.",
+        "transition_event": {
+          "trigger_type": "interpretation",
+          "trigger_entities": [
+            "Lung adenocarcinoma"
+          ],
+          "change_type": "reinterpretation",
+          "target_domain": "diagnosis"
+        }
+      }
+    },
+    {
+      "from": "N6",
+      "to": "N7",
+      "data": {
+        "edge_id": "F_to_G",
+        "branch_flag": true,
+        "content": "Transfer to another hospital for multidisciplinary cancer therapy and further transfusions.",
+        "transition_event": {
+          "trigger_type": "procedure",
+          "trigger_entities": [
+            "Erythrocyte transfusion",
+            "Platelet transfusion"
+          ],
+          "change_type": "addition",
+          "target_domain": "procedure"
+        }
+      }
+    },
+    {
+      "from": "N7",
+      "to": "N8",
+      "data": {
+        "edge_id": "G_to_H",
+        "branch_flag": true,
+        "content": "Detection of asymptomatic pulmonary thromboembolism and initiation of heparin administration.",
+        "transition_event": {
+          "trigger_type": "symptom_onset",
+          "trigger_entities": [
+            "Pulmonary embolism"
+          ],
+          "change_type": "addition",
+          "target_domain": "diagnosis"
+        }
+      }
+    }
+  ]
+}

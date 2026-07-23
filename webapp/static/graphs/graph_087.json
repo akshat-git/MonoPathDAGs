@@ -1,0 +1,220 @@
+{
+  "nodes": [
+    {
+      "id": "N1",
+      "label": "Step 1",
+      "customData": {
+        "node_id": "A",
+        "node_step_index": 0,
+        "content": "56-year-old non-smoking male with pulmonary carcinosarcoma.",
+        "clinical_data": {
+          "social_history": [
+            {
+              "category": "smoking",
+              "status": "never"
+            }
+          ],
+          "diagnoses": [
+            {
+              "code": "C34",
+              "label": "pulmonary carcinosarcoma",
+              "status": "active"
+            }
+          ]
+        }
+      },
+      "custom_id": "graph_087_N0"
+    },
+    {
+      "id": "N2",
+      "label": "Step 2",
+      "customData": {
+        "node_id": "B",
+        "node_step_index": 1,
+        "content": "Presented at The Third People\u2019s Hospital of Yunnan Province on January 28, 2023 with a progressively enlarging mass in the right neck. Cervico-thoracic CT imaging revealed multiple nodular shadows of various sizes within the right cervical region posterior to the sternocleidomastoid muscle and adjacent to the carotid artery sheath, which partially fused. The largest measured approximately 3.8 cm x 2.6 cm with indistinct margins and uneven ring-shaped enhancement. CT imaging revealed compression of the right parapharyngeal soft tissue and right jugular vein. Enlarged and partially fused lymph nodes were identified in the mediastinum. A 9.8 cm x 8.0 cm round mass with well-defined borders, uneven density, and heterogeneous enhancement was identified in the extra-basal segment of the left lower lung lobe. Suspected pulmonary malignancy with cervical and mediastinal lymph node metastasis.",
+        "timestamp": "2023-01-28",
+        "clinical_data": {
+          "imaging": [
+            {
+              "type": "nodular shadows",
+              "body_part": "cervical region",
+              "modality": "CT",
+              "finding": "multiple nodular shadows of various sizes within the right cervical region posterior to the sternocleidomastoid muscle and adjacent to the carotid artery sheath, which partially fused. The largest measured approximately 3.8 cm x 2.6 cm with indistinct margins and uneven ring-shaped enhancement.",
+              "date": "2023-01-28"
+            },
+            {
+              "type": "compression",
+              "body_part": "right parapharyngeal soft tissue",
+              "modality": "CT",
+              "finding": "compression of the right parapharyngeal soft tissue and right jugular vein",
+              "date": "2023-01-28"
+            },
+            {
+              "type": "lymph nodes",
+              "body_part": "mediastinum",
+              "modality": "CT",
+              "finding": "Enlarged and partially fused lymph nodes were identified in the mediastinum.",
+              "date": "2023-01-28"
+            },
+            {
+              "type": "mass",
+              "body_part": "left lower lung lobe",
+              "modality": "CT",
+              "finding": "A 9.8 cm x 8.0 cm round mass with well-defined borders, uneven density, and heterogeneous enhancement was identified in the extra-basal segment of the left lower lung lobe.",
+              "date": "2023-01-28"
+            }
+          ],
+          "diagnoses": [
+            {
+              "code": "pulmonary malignancy",
+              "label": "Suspected pulmonary malignancy",
+              "status": "suspected",
+              "onset_date": null
+            },
+            {
+              "code": "lymph node metastasis",
+              "label": "cervical and mediastinal lymph node metastasis",
+              "status": "suspected",
+              "onset_date": null
+            }
+          ],
+          "HPI": [
+            {
+              "summary": "progressively enlarging mass in the right neck",
+              "onset": "2023-01-28",
+              "progression": "gradual"
+            }
+          ]
+        }
+      },
+      "custom_id": "graph_087_N1"
+    },
+    {
+      "id": "N3",
+      "label": "Step 3",
+      "customData": {
+        "node_id": "C",
+        "node_step_index": 2,
+        "content": "CT scans of the head and abdomen showed no significant abnormalities. Hematological examination showed no significant abnormalities. CT-guided puncture biopsy of the mass in the left inferior lobe of the lung was performed. Pathological diagnosis of lung carcinosarcoma was established.",
+        "clinical_data": {
+          "imaging": [
+            {
+              "type": "Computed tomography",
+              "body_part": "Head",
+              "modality": "CT",
+              "finding": "no significant abnormalities"
+            },
+            {
+              "type": "Computed tomography",
+              "body_part": "Abdomen",
+              "modality": "CT",
+              "finding": "no significant abnormalities"
+            }
+          ],
+          "labs": [
+            {
+              "test": "Hematological examination",
+              "value": "no significant abnormalities"
+            }
+          ],
+          "procedures": [
+            {
+              "name": "Biopsy",
+              "approach": "percutaneous",
+              "location": "left inferior lobe of the lung",
+              "performed_by": "CT-guided puncture",
+              "outcome": "Lung carcinosarcoma"
+            }
+          ],
+          "diagnoses": [
+            {
+              "code": "C34",
+              "label": "Lung carcinosarcoma",
+              "status": "active"
+            }
+          ]
+        }
+      },
+      "custom_id": "graph_087_N2"
+    },
+    {
+      "id": "N4",
+      "label": "Step 4",
+      "customData": {
+        "node_id": "D",
+        "node_step_index": 3,
+        "content": "Immunohistochemistry: Ki-67 index 80%",
+        "PD-L1": 80,
+        "NGS": "TMB 7.9 mut/Mb",
+        "2": "c.G35A: p.G12D) was detected at a frequency of 15.13%",
+        "5": "c.C535:p.H17",
+        "clinical_data": {
+          "labs": [
+            {
+              "test": "Ki-67",
+              "value": "80",
+              "unit": "%",
+              "flag": "abnormal"
+            }
+          ]
+        }
+      },
+      "custom_id": "graph_087_N3"
+    }
+  ],
+  "edges": [
+    {
+      "from": "N1",
+      "to": "N2",
+      "data": {
+        "edge_id": "A_to_B",
+        "branch_flag": true,
+        "content": "Progression from initial diagnosis to presentation with enlarging neck mass and imaging findings.",
+        "transition_event": {
+          "trigger_type": "symptom_onset",
+          "trigger_entities": [
+            "C0221198"
+          ],
+          "change_type": "progression",
+          "target_domain": "symptom",
+          "timestamp": "2023-01-28T00:00:00Z"
+        }
+      },
+      "custom_id": "graph_087_N1_N2"
+    },
+    {
+      "from": "N2",
+      "to": "N3",
+      "data": {
+        "edge_id": "B_to_C",
+        "branch_flag": true,
+        "content": "Further investigation including CT scans and biopsy to confirm diagnosis.",
+        "transition_event": {
+          "trigger_type": "procedure",
+          "trigger_entities": [
+            "C0005738"
+          ],
+          "change_type": "addition",
+          "target_domain": "procedure"
+        }
+      },
+      "custom_id": "graph_087_N2_N3"
+    },
+    {
+      "from": "N3",
+      "to": "N4",
+      "data": {
+        "edge_id": "C_to_D",
+        "branch_flag": true,
+        "content": "Immunohistochemistry and NGS testing performed.",
+        "transition_event": {
+          "trigger_type": "lab_change",
+          "trigger_entities": [],
+          "change_type": "addition",
+          "target_domain": "lab"
+        }
+      },
+      "custom_id": "graph_087_N3_N4"
+    }
+  ]
+}

@@ -1,0 +1,366 @@
+{
+  "nodes": [
+    {
+      "id": "N1",
+      "label": "Step 1",
+      "customData": {
+        "node_id": "A",
+        "node_step_index": 0,
+        "content": "67-year-old man with a 47-pack-year smoking history.",
+        "clinical_data": {
+          "social_history": [
+            {
+              "category": "smoking",
+              "status": "past",
+              "description": "47-pack-year smoking history"
+            }
+          ]
+        }
+      }
+    },
+    {
+      "id": "N2",
+      "label": "Step 2",
+      "customData": {
+        "node_id": "B",
+        "node_step_index": 1,
+        "content": "Diagnosed with primary lung adenocarcinoma (pT1cN2M0 Stage IIIA) after a right upper lobectomy in March 2022. PD\u2010L1 tumor proportion score was 1%\u201324%, and no druggable driver oncogenes were identified.",
+        "clinical_data": {
+          "diagnoses": [
+            {
+              "code": "C34.9",
+              "label": "primary lung adenocarcinoma",
+              "status": "active",
+              "onset_date": "2022-03"
+            }
+          ],
+          "procedures": [
+            {
+              "name": "Right upper lobectomy",
+              "date": "2022-03",
+              "approach": "open"
+            }
+          ],
+          "labs": [
+            {
+              "test": "PD-L1 tumor proportion score",
+              "value": "1-24",
+              "unit": "%"
+            }
+          ]
+        }
+      }
+    },
+    {
+      "id": "N3",
+      "label": "Step 3",
+      "customData": {
+        "node_id": "C",
+        "node_step_index": 2,
+        "content": "Received 15 cycles of atezolizumab maintenance therapy until June 2023, following four cycles of adjuvant chemotherapy with cisplatin and vinorelbine.",
+        "clinical_data": {
+          "medications": [
+            {
+              "drug": "C0004134",
+              "dosage": null,
+              "frequency": null,
+              "modality": null,
+              "start_date": null,
+              "end_date": "2023-06",
+              "indication": null
+            },
+            {
+              "drug": "C0009339",
+              "dosage": null,
+              "frequency": null,
+              "modality": null,
+              "start_date": null,
+              "end_date": null,
+              "indication": null
+            },
+            {
+              "drug": "C0042971",
+              "dosage": null,
+              "frequency": null,
+              "modality": null,
+              "start_date": null,
+              "end_date": null,
+              "indication": null
+            }
+          ]
+        }
+      }
+    },
+    {
+      "id": "N4",
+      "label": "Step 4",
+      "customData": {
+        "node_id": "D",
+        "node_step_index": 3,
+        "content": "Admitted to the hospital in July 2023 with right homonymous hemianopsia and hemiplegia. Magnetic resonance imaging revealed a metastatic lesion in the occipital lobe.",
+        "clinical_data": {
+          "diagnoses": [
+            {
+              "code": "C79.31",
+              "label": "Secondary malignant neoplasm of brain",
+              "status": "active",
+              "onset_date": "2023-07"
+            }
+          ],
+          "imaging": [
+            {
+              "type": "MRI of brain",
+              "body_part": "Occipital lobe",
+              "modality": "MRI",
+              "finding": "Metastatic lesion",
+              "impression": "Metastatic lesion in the occipital lobe",
+              "date": "2023-07"
+            }
+          ],
+          "HPI": [
+            {
+              "summary": "Right homonymous hemianopsia and hemiplegia",
+              "onset": "2023-07",
+              "progression": "sudden",
+              "associated_symptoms": [
+                "Right homonymous hemianopsia",
+                "Hemiplegia"
+              ]
+            }
+          ]
+        }
+      }
+    },
+    {
+      "id": "N5",
+      "label": "Step 5",
+      "customData": {
+        "node_id": "E",
+        "node_step_index": 4,
+        "content": "The metastatic lesion in the occipital lobe was resected via craniotomy and subsequently irradiated. The tumor was diagnosed as small cell lung cancer (SCLC) with no adenocarcinoma components.",
+        "clinical_data": {
+          "procedures": [
+            {
+              "name": "Craniotomy",
+              "approach": "open",
+              "location": "occipital lobe",
+              "outcome": "resection of metastatic lesion"
+            }
+          ],
+          "diagnoses": [
+            {
+              "code": "C0007125",
+              "label": "Small cell lung cancer",
+              "status": "active"
+            }
+          ],
+          "imaging": [
+            {
+              "body_part": "occipital lobe",
+              "finding": "metastatic lesion",
+              "modality": "other"
+            }
+          ]
+        }
+      }
+    },
+    {
+      "id": "N6",
+      "label": "Step 6",
+      "customData": {
+        "node_id": "F",
+        "node_step_index": 5,
+        "content": "Computed tomography revealed multiple liver metastases. Serum carcinoembryonic antigen (CEA) was elevated due to metastases but rapidly decreased after brain tumor resection by craniotomy.",
+        "clinical_data": {
+          "imaging": [
+            {
+              "type": "Computed tomography",
+              "body_part": "Liver",
+              "modality": "CT",
+              "finding": "multiple liver metastases"
+            }
+          ],
+          "labs": [
+            {
+              "test": "Carcinoembryonic antigen",
+              "value": "elevated",
+              "unit": null,
+              "flag": "abnormal",
+              "reference_range": null
+            }
+          ],
+          "diagnoses": [
+            {
+              "code": null,
+              "label": "liver metastases",
+              "status": "active"
+            },
+            {
+              "code": null,
+              "label": "brain tumor",
+              "status": "resolved"
+            }
+          ],
+          "procedures": [
+            {
+              "name": null,
+              "approach": "open",
+              "date": null,
+              "location": "brain",
+              "performed_by": null,
+              "outcome": "resection"
+            }
+          ]
+        }
+      }
+    },
+    {
+      "id": "N7",
+      "label": "Step 7",
+      "customData": {
+        "node_id": "G",
+        "node_step_index": 6,
+        "content": "Treated with four cycles of durvalumab combined with cisplatin and etoposide, followed by maintenance therapy with durvalumab. Sustained tumor regression observed, with a 13\u2010month progression\u2010free survival (PFS) as of September 2024.",
+        "clinical_data": {
+          "medications": [
+            {
+              "drug": "C0008741",
+              "dosage": null,
+              "frequency": null,
+              "modality": null,
+              "start_date": null,
+              "end_date": null,
+              "indication": "C0027651"
+            },
+            {
+              "drug": "C0015073",
+              "dosage": null,
+              "frequency": null,
+              "modality": null,
+              "start_date": null,
+              "end_date": null,
+              "indication": "C0027651"
+            },
+            {
+              "drug": "C4048424",
+              "dosage": null,
+              "frequency": null,
+              "modality": null,
+              "start_date": null,
+              "end_date": null,
+              "indication": "C0027651"
+            }
+          ],
+          "diagnoses": [
+            {
+              "code": null,
+              "label": "tumor regression",
+              "status": null,
+              "onset_date": null
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "edges": [
+    {
+      "from": "N1",
+      "to": "N2",
+      "data": {
+        "edge_id": "A_to_B",
+        "branch_flag": true,
+        "content": "Transition from patient history to diagnosis of primary lung adenocarcinoma."
+      }
+    },
+    {
+      "from": "N2",
+      "to": "N3",
+      "data": {
+        "edge_id": "B_to_C",
+        "branch_flag": true,
+        "content": "Adjuvant treatment following lobectomy.",
+        "transition_event": {
+          "trigger_type": "procedure",
+          "trigger_entities": [
+            "right upper lobectomy"
+          ],
+          "change_type": "addition",
+          "target_domain": "medication"
+        }
+      }
+    },
+    {
+      "from": "N3",
+      "to": "N4",
+      "data": {
+        "edge_id": "C_to_D",
+        "branch_flag": true,
+        "content": "Disease progression with new neurological symptoms and brain metastasis.",
+        "transition_event": {
+          "trigger_type": "symptom_onset",
+          "trigger_entities": [
+            "C0235523",
+            "C0018788"
+          ],
+          "change_type": "progression",
+          "target_domain": "symptom",
+          "timestamp": "2023-07"
+        }
+      }
+    },
+    {
+      "from": "N4",
+      "to": "N5",
+      "data": {
+        "edge_id": "D_to_E",
+        "branch_flag": true,
+        "content": "Resection of brain metastasis and change in cancer diagnosis to small cell lung cancer.",
+        "transition_event": {
+          "trigger_type": "procedure",
+          "trigger_entities": [
+            "craniotomy"
+          ],
+          "change_type": "reinterpretation",
+          "target_domain": "diagnosis"
+        }
+      }
+    },
+    {
+      "from": "N5",
+      "to": "N6",
+      "data": {
+        "edge_id": "E_to_F",
+        "branch_flag": true,
+        "content": "Detection of liver metastases and elevated CEA levels.",
+        "transition_event": {
+          "trigger_type": "imaging",
+          "trigger_entities": [
+            "liver metastases"
+          ],
+          "change_type": "progression",
+          "target_domain": "imaging"
+        }
+      }
+    },
+    {
+      "from": "N6",
+      "to": "N7",
+      "data": {
+        "edge_id": "F_to_G",
+        "branch_flag": true,
+        "content": "Treatment with durvalumab, cisplatin, and etoposide, leading to tumor regression.",
+        "transition_event": {
+          "trigger_type": "medication_change",
+          "trigger_entities": [
+            "C0008741",
+            "C0015073",
+            "C4048424"
+          ],
+          "change_type": "addition",
+          "target_domain": "medication"
+        }
+      }
+    }
+  ]
+}

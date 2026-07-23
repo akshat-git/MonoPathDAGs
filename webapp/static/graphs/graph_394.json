@@ -1,0 +1,213 @@
+{
+  "nodes": [
+    {
+      "id": "N1",
+      "label": "Step 1",
+      "customData": {
+        "node_id": "A",
+        "node_step_index": 0,
+        "content": "8-year-old female Labrador Retriever dog presented with a 2-day history of lethargy and disorientation.",
+        "clinical_data": {
+          "HPI": [
+            {
+              "summary": "8-year-old female Labrador Retriever dog presented with a 2-day history of lethargy and disorientation.",
+              "duration": "2 days",
+              "onset": null,
+              "progression": "sudden",
+              "associated_symptoms": [
+                "Lethargy",
+                "Disorientation"
+              ]
+            }
+          ]
+        }
+      }
+    },
+    {
+      "id": "N2",
+      "label": "Step 2",
+      "customData": {
+        "node_id": "B",
+        "node_step_index": 1,
+        "content": "Patient experienced spontaneous cardiorespiratory arrest and died.",
+        "clinical_data": {}
+      }
+    },
+    {
+      "id": "N3",
+      "label": "Step 3",
+      "customData": {
+        "node_id": "C",
+        "node_step_index": 2,
+        "content": "Gross anatomic changes observed during autopsy: multiple soft white nodules (1\u201310 mm diameter) in the renal cortex and corticomedullary junction of both kidneys, left cardiac ventricular wall, and right cerebral hemisphere at the level of the basal nuclei. Left midline shift of the brain due to compression by a neoplasm. Extensive, pale-white to yellow, irregular, firm mass effaced and expanded 80% of the right pulmonary parenchyma, involving mainly the cranial and middle lung lobes. Adjacent tracheobronchial lymph nodes were enlarged and firm.",
+        "clinical_data": {
+          "imaging": [
+            {
+              "body_part": "Kidney",
+              "modality": "Autopsy",
+              "finding": "multiple soft white nodules (1\u201310 mm diameter) in the renal cortex and corticomedullary junction of both kidneys"
+            },
+            {
+              "body_part": "Left cardiac ventricle",
+              "modality": "Autopsy",
+              "finding": "multiple soft white nodules (1\u201310 mm diameter) in the left cardiac ventricular wall"
+            },
+            {
+              "body_part": "Right cerebral hemisphere",
+              "modality": "Autopsy",
+              "finding": "multiple soft white nodules (1\u201310 mm diameter) in the right cerebral hemisphere at the level of the basal nuclei"
+            },
+            {
+              "body_part": "Brain",
+              "modality": "Autopsy",
+              "finding": "Left midline shift of the brain due to compression by a neoplasm"
+            },
+            {
+              "body_part": "Right pulmonary parenchyma",
+              "modality": "Autopsy",
+              "finding": "Extensive, pale-white to yellow, irregular, firm mass effaced and expanded 80% of the right pulmonary parenchyma, involving mainly the cranial and middle lung lobes"
+            },
+            {
+              "body_part": "Tracheobronchial lymph nodes",
+              "modality": "Autopsy",
+              "finding": "Adjacent tracheobronchial lymph nodes were enlarged and firm"
+            }
+          ]
+        }
+      }
+    },
+    {
+      "id": "N4",
+      "label": "Step 4",
+      "customData": {
+        "node_id": "D",
+        "node_step_index": 3,
+        "content": "Histopathology of kidney: Well-demarcated, white to pale-yellow nodule expands the cortex and corticomedullary junction of the left kidney. Neoplasm consisted of interlacing bundles of stellate-to-spindle cells with a moderate amount of eosinophilic, often-vacuolated cytoplasm with indistinct cell borders.",
+        "clinical_data": {
+          "imaging": [
+            {
+              "body_part": "Kidney",
+              "modality": "Histopathology",
+              "finding": "Well-demarcated, white to pale-yellow nodule expands the cortex and corticomedullary junction of the left kidney. Neoplasm consisted of interlacing bundles of stellate-to-spindle cells with a moderate amount of eosinophilic, often-vacuolated cytoplasm with indistinct cell borders."
+            }
+          ]
+        }
+      }
+    },
+    {
+      "id": "N5",
+      "label": "Step 5",
+      "customData": {
+        "node_id": "E",
+        "node_step_index": 4,
+        "content": "Histopathology of brain: Well-demarcated, white to dark-red nodule expands the right basal nuclei. Histopathology of cardiac and cerebral nodules: Nuclei were round-to-oval and had finely stippled chromatin with 1 or 2 nucleoli. Anisocytosis and anisokaryosis were moderate, and the mitotic count was 28 per 2.37 mm2. Alcian blue (AB) staining of sections of kidney and brain revealed a faintly basophilic myxomatous matrix throughout the neoplasm.",
+        "clinical_data": {
+          "imaging": [
+            {
+              "body_part": "Brain",
+              "modality": "Histopathology",
+              "finding": "Well-demarcated, white to dark-red nodule expands the right basal nuclei."
+            },
+            {
+              "body_part": "Cardiac and cerebral nodules",
+              "modality": "Histopathology",
+              "finding": "Nuclei were round-to-oval and had finely stippled chromatin with 1 or 2 nucleoli. Anisocytosis and anisokaryosis were moderate, and the mitotic count was 28 per 2.37 mm2."
+            },
+            {
+              "body_part": "Kidney and brain",
+              "modality": "Alcian blue (AB) staining",
+              "finding": "faintly basophilic myxomatous matrix throughout the neoplasm."
+            }
+          ]
+        }
+      }
+    },
+    {
+      "id": "N6",
+      "label": "Step 6",
+      "customData": {
+        "node_id": "F",
+        "node_step_index": 5,
+        "content": "Histopathology of pulmonary neoplasm: Multiple infiltrative nodules composed of epithelial cells forming papillary projections supported by a fine fibrovascular stroma. Nuclei were round and had coarsely stippled chromatin with no distinct nucleolus. There were 5 mitoses per 2.37\u2009mm2. Areas of necrosis were distributed throughout the neoplasm. A similar neoplasm partially effaced the nodal architecture of the tracheobronchial lymph nodes.",
+        "clinical_data": {
+          "diagnoses": [
+            {
+              "code": "C34",
+              "label": "Malignant neoplasm of bronchus and lung",
+              "status": "active"
+            }
+          ],
+          "imaging": [
+            {
+              "type": "Neoplasm",
+              "body_part": "Lung",
+              "modality": "Histopathology",
+              "finding": "Multiple infiltrative nodules composed of epithelial cells forming papillary projections supported by a fine fibrovascular stroma",
+              "impression": "Pulmonary neoplasm"
+            },
+            {
+              "type": "Neoplasm",
+              "body_part": "Tracheobronchial lymph nodes",
+              "modality": "Histopathology",
+              "finding": "Similar neoplasm partially effaced the nodal architecture of the tracheobronchial lymph nodes",
+              "impression": "Neoplasm in tracheobronchial lymph nodes"
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "edges": [
+    {
+      "from": "N1",
+      "to": "N2",
+      "data": {
+        "edge_id": "A_to_B",
+        "branch_flag": true,
+        "content": "Patient's condition deteriorated rapidly."
+      }
+    },
+    {
+      "from": "N2",
+      "to": "N3",
+      "data": {
+        "edge_id": "B_to_C",
+        "branch_flag": true,
+        "content": "Post-mortem examination performed to determine cause of death.",
+        "transition_event": {
+          "trigger_type": "spontaneous",
+          "trigger_entities": [],
+          "change_type": "other",
+          "target_domain": "functional_status"
+        }
+      }
+    },
+    {
+      "from": "N3",
+      "to": "N4",
+      "data": {
+        "edge_id": "C_to_D",
+        "branch_flag": true,
+        "content": "Histopathologic examination of kidney tissue performed."
+      }
+    },
+    {
+      "from": "N4",
+      "to": "N5",
+      "data": {
+        "edge_id": "D_to_E",
+        "branch_flag": true,
+        "content": "Histopathologic examination of brain and cardiac tissues performed."
+      }
+    },
+    {
+      "from": "N5",
+      "to": "N6",
+      "data": {
+        "edge_id": "E_to_F",
+        "branch_flag": true,
+        "content": "Histopathologic examination of lung tissue performed, revealing pulmonary neoplasm and neoplasm in tracheobronchial lymph nodes."
+      }
+    }
+  ]
+}

@@ -1,0 +1,7 @@
+A 67-year-old male presented in 2016 with stage IIIA non-small cell lung cancer (NSCLC), specifically adenocarcinoma. He underwent a right middle lobectomy, followed by adjuvant carboplatin/paclitaxel chemotherapy and postoperative radiotherapy (PORT).
+
+In 2022, the patient developed metastatic disease in the right lung, liver, and brain. Due to microcytosis, upper and lower GI endoscopy was performed to investigate a possible gastrointestinal primary, but no lesions were identified. The single brain metastasis was treated with stereotactic radiation.
+
+The patient then received infusional 5-fluorouracil/oxaliplatin (FOLFOX) empirically. Histopathological analysis of liver lesions identified a spindle cell carcinoma likely pulmonary in origin despite atypical features, with a high proliferative Ki-67 index (90%). A liver biopsy showed metastatic spindle cell carcinoma on H&E stain. Sections demonstrated a spindle cell neoplasm with significant mitotic activity and focal necrosis. Immunohistochemistry showed the tumor cells positive for AE1/AE3 and CK8/18, but negative for Alk-1, CK7, CK20, CDX-2, and CD117.
+
+The patient received nine weekly doses of docetaxel, resulting in modest shrinkage of approximately 10-15%.

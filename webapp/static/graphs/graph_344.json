@@ -1,0 +1,247 @@
+{
+  "nodes": [
+    {
+      "id": "N1",
+      "label": "Step 1",
+      "customData": {
+        "node_id": "A",
+        "node_step_index": 0,
+        "content": "50-year-old man presented with cough and sputum for several weeks. History of smoking two packets of cigarettes per day for 35 years. Occupational history of painting with likely asbestos exposure.",
+        "clinical_data": {
+          "HPI": [
+            {
+              "summary": "cough and sputum for several weeks",
+              "duration": "several weeks"
+            }
+          ],
+          "social_history": [
+            {
+              "category": "smoking",
+              "status": "current",
+              "description": "two packets of cigarettes per day for 35 years"
+            },
+            {
+              "category": "employment",
+              "status": "past",
+              "description": "painting with likely asbestos exposure"
+            }
+          ]
+        }
+      }
+    },
+    {
+      "id": "N2",
+      "label": "Step 2",
+      "customData": {
+        "node_id": "B",
+        "node_step_index": 1,
+        "content": "Chest X-ray revealed a large amount of unilateral pleural effusion.",
+        "clinical_data": {
+          "imaging": [
+            {
+              "type": "Radiography, Thoracic (procedure)",
+              "body_part": "Thorax",
+              "modality": "X-ray",
+              "finding": "Pleural Effusion, Unilateral",
+              "date": null
+            }
+          ]
+        }
+      }
+    },
+    {
+      "id": "N3",
+      "label": "Step 3",
+      "customData": {
+        "node_id": "C",
+        "node_step_index": 2,
+        "content": "Diminished breathing sounds in the left lung. Elevated white blood cells (12000/\u03bcL), platelets (41.1\u2009\u00d7\u2009104/\u03bcL), and cytokeratin 19 fragments (7.6 ng/mL). Eosinophils in the peripheral blood were 3%. Chest X\u2010ray and contrast\u2010enhanced computed tomography (CT) showed moderate left pleural effusion.",
+        "clinical_data": {
+          "vitals": [
+            {
+              "type": "White blood cell count (procedure)",
+              "value": "12000",
+              "unit": "/\u03bcL"
+            }
+          ],
+          "labs": [
+            {
+              "test": "Platelet count",
+              "value": "41.1",
+              "unit": "\u00d7\u2009104/\u03bcL"
+            }
+          ],
+          "imaging": [
+            {
+              "type": "Chest X-ray",
+              "body_part": "Lung",
+              "modality": "X-ray",
+              "finding": "moderate left pleural effusion"
+            },
+            {
+              "type": "Computed tomography",
+              "body_part": "Lung",
+              "modality": "CT",
+              "finding": "moderate left pleural effusion"
+            }
+          ]
+        }
+      }
+    },
+    {
+      "id": "N4",
+      "label": "Step 4",
+      "customData": {
+        "node_id": "D",
+        "node_step_index": 3,
+        "content": "850 mL of pleural effusion was drained. Pleural effusion was exudate with 1342 cells/\u03bcL. Cell classification: 4% neutrophils, 47% eosinophils, 36% lymphocytes, and 10% monocytes. Pleural effusion cytology revealed many atypical cells with prominent eosinophilic nucleoli, solitary to aggregated.",
+        "clinical_data": {
+          "labs": [
+            {
+              "test": "Pleural Effusion",
+              "value": "850",
+              "unit": "mL",
+              "timestamp": null
+            },
+            {
+              "test": "Cell count",
+              "value": "1342",
+              "unit": "cells/\u03bcL",
+              "flag": "abnormal",
+              "timestamp": null
+            },
+            {
+              "test": "Neutrophils",
+              "value": "4",
+              "unit": "%",
+              "timestamp": null
+            },
+            {
+              "test": "Eosinophils",
+              "value": "47",
+              "unit": "%",
+              "timestamp": null
+            },
+            {
+              "test": "Lymphocytes",
+              "value": "36",
+              "unit": "%",
+              "timestamp": null
+            },
+            {
+              "test": "Monocytes",
+              "value": "10",
+              "unit": "%",
+              "timestamp": null
+            }
+          ],
+          "imaging": [
+            {
+              "type": "Pleural Effusion",
+              "body_part": "Pleura",
+              "modality": null,
+              "finding": "Atypical cells with prominent eosinophilic nucleoli, solitary to aggregated",
+              "impression": null,
+              "date": null
+            }
+          ]
+        }
+      }
+    },
+    {
+      "id": "N5",
+      "label": "Step 5",
+      "customData": {
+        "node_id": "E",
+        "node_step_index": 4,
+        "content": "Immunocytochemical study: calretinin, thrombomodulin, D2\u201040, EMA, and E\u2010cadherin were positive, and TTF\u20101, Napsin A, CEA, and MOC\u201031 were negative. Suspected malignant pleural mesothelioma. P16 homozygous deletion confirmed by p16 fluorescence in situ hybridization (45% of tumor cells showed loss of both p16 gene signals). Thoracoscopic biopsy of parietal pleura confirmed tumor invasion to the pleura and adipose tissue.",
+        "clinical_data": {
+          "diagnoses": [
+            {
+              "code": "C0025345",
+              "label": "Malignant pleural mesothelioma",
+              "status": "suspected"
+            }
+          ],
+          "imaging": [
+            {
+              "type": "Biopsy",
+              "body_part": "Parietal pleura",
+              "modality": "Thoracoscopic",
+              "finding": "tumor invasion to the pleura and adipose tissue",
+              "date": null
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "edges": [
+    {
+      "from": "N1",
+      "to": "N2",
+      "data": {
+        "edge_id": "A_to_B",
+        "branch_flag": true,
+        "content": "Patient progressed from initial presentation to imaging",
+        "transition_event": {
+          "trigger_type": "imaging",
+          "trigger_entities": [
+            "C0205070"
+          ],
+          "change_type": "progression",
+          "target_domain": "imaging"
+        }
+      }
+    },
+    {
+      "from": "N2",
+      "to": "N3",
+      "data": {
+        "edge_id": "B_to_C",
+        "branch_flag": true,
+        "content": "Pleural effusion was further investigated with diminished breathing sounds, lab tests, and repeat imaging.",
+        "transition_event": {
+          "trigger_type": "lab_change",
+          "trigger_entities": [],
+          "change_type": "progression",
+          "target_domain": "lab"
+        }
+      }
+    },
+    {
+      "from": "N3",
+      "to": "N4",
+      "data": {
+        "edge_id": "C_to_D",
+        "branch_flag": true,
+        "content": "Pleural effusion drained and analyzed.",
+        "transition_event": {
+          "trigger_type": "procedure",
+          "trigger_entities": [
+            "C0032147"
+          ],
+          "change_type": "other",
+          "target_domain": "procedure"
+        }
+      }
+    },
+    {
+      "from": "N4",
+      "to": "N5",
+      "data": {
+        "edge_id": "D_to_E",
+        "branch_flag": true,
+        "content": "Cytological analysis and biopsy led to suspicion and confirmation of malignant pleural mesothelioma.",
+        "transition_event": {
+          "trigger_type": "interpretation",
+          "trigger_entities": [
+            "C0025345"
+          ],
+          "change_type": "progression",
+          "target_domain": "diagnosis"
+        }
+      }
+    }
+  ]
+}

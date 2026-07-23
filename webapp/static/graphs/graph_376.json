@@ -1,0 +1,442 @@
+{
+  "nodes": [
+    {
+      "id": "N1",
+      "label": "Step 1",
+      "customData": {
+        "node_id": "A",
+        "node_step_index": 0,
+        "content": "66-year-old male with a 40 pack-year smoking history and sporadic alcohol consumption presented to the emergency department with sudden dyspnea in the middle of the night. He denied prior dyspnea, reporting only a mild productive cough typical for him due to his smoking. He denied chest pain, palpitations, dizziness, syncope, peripheral edema, or other respiratory, gastrointestinal, or urinary complaints. He was tachypneic with signs of respiratory distress.",
+        "clinical_data": {
+          "HPI": [
+            {
+              "summary": "66-year-old male presented to the emergency department with sudden dyspnea in the middle of the night.",
+              "onset": "sudden",
+              "progression": "sudden",
+              "associated_symptoms": [
+                "C0013404"
+              ]
+            }
+          ],
+          "social_history": [
+            {
+              "category": "smoking",
+              "status": "current",
+              "description": "40 pack-year smoking history"
+            },
+            {
+              "category": "alcohol",
+              "status": "current",
+              "description": "sporadic alcohol consumption"
+            }
+          ],
+          "ROS": [
+            {
+              "system": "respiratory",
+              "findings": [
+                "C0013404",
+                "C0010200"
+              ]
+            }
+          ]
+        }
+      }
+    },
+    {
+      "id": "N2",
+      "label": "Step 2",
+      "customData": {
+        "node_id": "B",
+        "node_step_index": 1,
+        "content": "Vitals: Blood pressure 154/84 mmHg, heart rate 110 beats/minute, normal body temperature. Pulmonary auscultation revealed crackles in both lungs, from base to apex, with severe wheezing. No venous jugular turgescence or peripheral edema. Arterial blood gas (ABG) revealed type II respiratory failure with acidemia: hypoxemia with pO2 of 56 mmHg, severe hypercapnia with pCO2 of 75 mmHg, and respiratory acidemia with pH 7.069.",
+        "clinical_data": {
+          "vitals": [
+            {
+              "type": "Blood pressure",
+              "value": "154/84",
+              "unit": "mmHg"
+            },
+            {
+              "type": "Heart rate",
+              "value": "110",
+              "unit": "beats/minute"
+            },
+            {
+              "type": "Body temperature",
+              "value": "normal"
+            }
+          ],
+          "labs": [
+            {
+              "test": "Partial pressure of oxygen",
+              "value": "56",
+              "unit": "mmHg",
+              "flag": "abnormal"
+            },
+            {
+              "test": "Partial pressure of carbon dioxide",
+              "value": "75",
+              "unit": "mmHg",
+              "flag": "abnormal"
+            },
+            {
+              "test": "pH",
+              "value": "7.069",
+              "flag": "abnormal"
+            }
+          ],
+          "diagnoses": [
+            {
+              "code": "59493006",
+              "label": "Respiratory failure",
+              "status": "active"
+            },
+            {
+              "code": "271737000",
+              "label": "Acidemia",
+              "status": "active"
+            },
+            {
+              "code": "302866003",
+              "label": "Hypoxemia",
+              "status": "active"
+            },
+            {
+              "code": "302864002",
+              "label": "Hypercapnia",
+              "status": "active"
+            }
+          ]
+        }
+      }
+    },
+    {
+      "id": "N3",
+      "label": "Step 3",
+      "customData": {
+        "node_id": "C",
+        "node_step_index": 2,
+        "content": "ECG showed occasional ventricular premature beats and new-onset ST-segment depression in inferior leads. Chest X-ray revealed pulmonary congestion. CBC showed mild leukocytosis of 13,450 leukocytes/\u00b5L (reference range: 4,000-12,000 leukocytes/\u00b5L). Chemistry showed mildly elevated liver enzymes, serum creatinine of 1.27 mg/dL (eGFR: 56 mL/minute), and normal CRP. High-sensitivity cardiac troponin (hs-cTn) initially measured at 365 ng/L, rising to 7,493 ng/L three hours later (reference value: <34 ng/L). BNP was 1,318 pg/mL (reference value: <100 pg/mL).",
+        "clinical_data": {
+          "vitals": [
+            {
+              "type": "C0014581",
+              "value": "13450",
+              "unit": "leukocytes/\u00b5L"
+            }
+          ],
+          "labs": [
+            {
+              "test": "Leukocytes",
+              "value": "13450",
+              "unit": "leukocytes/\u00b5L",
+              "flag": "abnormal",
+              "reference_range": "4,000-12,000 leukocytes/\u00b5L"
+            },
+            {
+              "test": "C0010447",
+              "value": "1.27",
+              "unit": "mg/dL"
+            },
+            {
+              "test": "C0151589",
+              "value": "56",
+              "unit": "mL/minute"
+            },
+            {
+              "test": "C0009450",
+              "value": "365",
+              "unit": "ng/L"
+            },
+            {
+              "test": "C0009450",
+              "value": "7493",
+              "unit": "ng/L"
+            },
+            {
+              "test": "C0005399",
+              "value": "1318",
+              "unit": "pg/mL"
+            }
+          ],
+          "imaging": [
+            {
+              "type": "C0008781",
+              "body_part": "C0008043",
+              "modality": "X-ray",
+              "finding": "pulmonary congestion"
+            }
+          ]
+        }
+      }
+    },
+    {
+      "id": "N4",
+      "label": "Step 4",
+      "customData": {
+        "node_id": "D",
+        "node_step_index": 3,
+        "content": "Respiratory virus search (influenza and respiratory syncytial virus) was negative. Transthoracic echocardiogram displayed severely compromised left ventricular function with global hypokinesis and right ventricular function in the lower limit of normal. Diagnosed with acute myocardial infarction Killip III. Treated with noninvasive ventilation and a high dosage of intravenous furosemide, resulting in resolution of pulmonary congestion and respiratory failure in 48 hours. Patient remained electrically and hemodynamically stable.",
+        "clinical_data": {
+          "labs": [
+            {
+              "test": "C0020642",
+              "value": "negative",
+              "unit": null,
+              "flag": null,
+              "reference_range": null,
+              "timestamp": null
+            }
+          ],
+          "imaging": [
+            {
+              "type": "C0013455",
+              "body_part": "C0023418",
+              "modality": "Ultrasound",
+              "finding": "severely compromised left ventricular function with global hypokinesis and right ventricular function in the lower limit of normal",
+              "impression": null,
+              "date": null
+            }
+          ],
+          "diagnoses": [
+            {
+              "code": "C0344855",
+              "label": "acute myocardial infarction Killip III",
+              "status": "active",
+              "onset_date": null
+            }
+          ],
+          "medications": [
+            {
+              "drug": "C0016522",
+              "dosage": "high dosage",
+              "frequency": null,
+              "modality": "IV",
+              "start_date": null,
+              "end_date": null,
+              "indication": "C0034057"
+            }
+          ],
+          "procedures": [
+            {
+              "name": "C0599708",
+              "approach": null,
+              "date": null,
+              "location": null,
+              "performed_by": null,
+              "outcome": "C0239991"
+            }
+          ]
+        }
+      }
+    },
+    {
+      "id": "N5",
+      "label": "Step 5",
+      "customData": {
+        "node_id": "E",
+        "node_step_index": 4,
+        "content": "hs-cTn peaked at 19,000 ng/L, with a subsequent fall in the following few days. Cardiac catheterization showed 60% obstruction of the anterior descending artery and 60% of the circumflex artery. Myocardial perfusion scintigraphy did not display a reversible component of these lesions. Cardiac magnetic resonance imaging (cMRI) confirmed the global hypokinesis and showed myocardial late gadolinium enhancement in the heart septum, compatible with nonischemic cardiomyopathy.",
+        "clinical_data": {
+          "labs": [
+            {
+              "test": "Troponin I",
+              "value": "19000",
+              "unit": "ng/L",
+              "flag": "abnormal"
+            }
+          ],
+          "imaging": [
+            {
+              "type": "Cardiac catheterization",
+              "body_part": "anterior descending artery",
+              "modality": "other",
+              "finding": "60% obstruction"
+            },
+            {
+              "type": "Cardiac catheterization",
+              "body_part": "circumflex artery",
+              "modality": "other",
+              "finding": "60% obstruction"
+            },
+            {
+              "type": "Myocardial perfusion scintigraphy",
+              "modality": "other",
+              "finding": "no reversible component"
+            },
+            {
+              "type": "Cardiac magnetic resonance imaging",
+              "modality": "MRI",
+              "finding": "global hypokinesis"
+            },
+            {
+              "type": "Cardiac magnetic resonance imaging",
+              "modality": "MRI",
+              "finding": "myocardial late gadolinium enhancement in the heart septum"
+            }
+          ],
+          "diagnoses": [
+            {
+              "code": "nonischemic cardiomyopathy",
+              "label": "nonischemic cardiomyopathy",
+              "status": "active"
+            }
+          ]
+        }
+      }
+    },
+    {
+      "id": "N6",
+      "label": "Step 6",
+      "customData": {
+        "node_id": "F",
+        "node_step_index": 5,
+        "content": "Etiology of the ventricular dysfunction was interpreted as possible alcoholic cardiomyopathy with superimposed ischemic acute changes. Patient was discharged to the outpatient clinic.",
+        "clinical_data": {
+          "diagnoses": [
+            {
+              "code": "C0002736",
+              "label": "alcoholic cardiomyopathy",
+              "status": "suspected"
+            }
+          ]
+        }
+      }
+    },
+    {
+      "id": "N7",
+      "label": "Step 7",
+      "customData": {
+        "node_id": "G",
+        "node_step_index": 6,
+        "content": "First outpatient appointment: Patient was asymptomatic and had resumed his normal life. Persistent rise in eosinophils was noted in his blood work, which had started during the time he spent in the infirmary, but since it was mild and not associated with an obvious cause, it was dismissed.",
+        "clinical_data": {
+          "labs": [
+            {
+              "test": "Eosinophils measurement (procedure)",
+              "value": "mild",
+              "unit": null,
+              "flag": "abnormal",
+              "reference_range": null,
+              "timestamp": null
+            }
+          ],
+          "HPI": [
+            {
+              "summary": "Patient was asymptomatic and had resumed his normal life.",
+              "duration": null,
+              "onset": null,
+              "progression": null,
+              "associated_symptoms": [],
+              "alleviating_factors": [],
+              "exacerbating_factors": []
+            }
+          ]
+        }
+      }
+    },
+    {
+      "id": "N8",
+      "label": "Step 8",
+      "customData": {
+        "node_id": "H",
+        "node_step_index": 7,
+        "content": "Progressive increase in eosinophil count since hospital discharge, reaching 40,000 eosinophils/uL. Autoimmune panel showed near-normal sedimentation rate of 30 mm/hour, normal proteinogram and immunoglobulin panel except for elevated IgE of 2",
+        "clinical_data": {
+          "labs": [
+            {
+              "test": "Eosinophils count",
+              "value": "40000",
+              "unit": "eosinophils/uL",
+              "flag": "abnormal"
+            },
+            {
+              "test": "Sedimentation rate",
+              "value": "30",
+              "unit": "mm/hour",
+              "flag": "normal"
+            },
+            {
+              "test": "Proteinogram",
+              "flag": "normal"
+            },
+            {
+              "test": "Immunoglobulin panel",
+              "flag": "normal"
+            },
+            {
+              "test": "IgE",
+              "value": "2",
+              "flag": "abnormal"
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "edges": [
+    {
+      "from": "N1",
+      "to": "N2",
+      "data": {
+        "edge_id": "A_to_B",
+        "branch_flag": true,
+        "content": "Patient transitioned from initial presentation with dyspnea to exhibiting abnormal vital signs and arterial blood gas results indicative of respiratory failure and acidemia."
+      }
+    },
+    {
+      "from": "N2",
+      "to": "N3",
+      "data": {
+        "edge_id": "B_to_C",
+        "branch_flag": true,
+        "content": "Patient's condition progressed from abnormal vital signs and ABG to ECG changes, pulmonary congestion on chest X-ray, leukocytosis, elevated liver enzymes, elevated creatinine, normal CRP, elevated troponin levels, and elevated BNP."
+      }
+    },
+    {
+      "from": "N3",
+      "to": "N4",
+      "data": {
+        "edge_id": "C_to_D",
+        "branch_flag": true,
+        "content": "Following initial lab and imaging findings, respiratory virus search was negative, echocardiogram showed compromised left ventricular function, leading to a diagnosis of acute myocardial infarction Killip III. Treated with noninvasive ventilation and furosemide, resulting in resolution of pulmonary congestion and respiratory failure."
+      }
+    },
+    {
+      "from": "N4",
+      "to": "N5",
+      "data": {
+        "edge_id": "D_to_E",
+        "branch_flag": true,
+        "content": "Despite initial treatment, hs-cTn peaked and then fell. Cardiac catheterization revealed obstructions in the anterior descending and circumflex arteries. Myocardial perfusion scintigraphy showed no reversible component. Cardiac MRI confirmed hypokinesis and showed myocardial late gadolinium enhancement."
+      }
+    },
+    {
+      "from": "N5",
+      "to": "N6",
+      "data": {
+        "edge_id": "E_to_F",
+        "branch_flag": true,
+        "content": "Based on the findings, the etiology of ventricular dysfunction was interpreted as possible alcoholic cardiomyopathy with superimposed ischemic acute changes."
+      }
+    },
+    {
+      "from": "N6",
+      "to": "N7",
+      "data": {
+        "edge_id": "F_to_G",
+        "branch_flag": true,
+        "content": "Patient was discharged and at the first outpatient appointment, he was asymptomatic. A mild rise in eosinophils was noted but dismissed."
+      }
+    },
+    {
+      "from": "N7",
+      "to": "N8",
+      "data": {
+        "edge_id": "G_to_H",
+        "branch_flag": true,
+        "content": "Patient's eosinophil count progressively increased since hospital discharge, reaching 40,000 eosinophils/uL. Autoimmune panel showed near-normal sedimentation rate, normal proteinogram and immunoglobulin panel except for elevated IgE."
+      }
+    }
+  ]
+}

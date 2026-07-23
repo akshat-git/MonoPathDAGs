@@ -1,0 +1,243 @@
+{
+  "nodes": [
+    {
+      "id": "N1",
+      "label": "Step 1",
+      "customData": {
+        "node_id": "A",
+        "node_step_index": 0,
+        "content": "Patient in his 40s with recurrent malignant pleural mesothelioma.",
+        "clinical_data": {
+          "diagnoses": [
+            {
+              "code": "C45.0",
+              "label": "Malignant mesothelioma of pleura",
+              "status": "active"
+            }
+          ]
+        }
+      }
+    },
+    {
+      "id": "N2",
+      "label": "Step 2",
+      "customData": {
+        "node_id": "B",
+        "node_step_index": 1,
+        "content": "Patient previously treated with 3 courses of cisplatin (CDDP, 75 mg/m2) + pemetrexed (PEM, 500 mg/m2) and 32 courses of nivolumab (240 mg/body every 2 weeks or 480 mg/body every 4 weeks).",
+        "clinical_data": {
+          "medications": [
+            {
+              "drug": "C0008767",
+              "dosage": "75 mg/m2",
+              "frequency": "every course",
+              "modality": "IV",
+              "indication": "Neoplasm",
+              "end_date": null
+            },
+            {
+              "drug": "C1636478",
+              "dosage": "500 mg/m2",
+              "frequency": "every course",
+              "modality": "IV",
+              "indication": "Neoplasm",
+              "end_date": null
+            },
+            {
+              "drug": "C4086713",
+              "dosage": "240 mg/body",
+              "frequency": "every 2 weeks",
+              "modality": "IV",
+              "end_date": null
+            },
+            {
+              "drug": "C4086713",
+              "dosage": "480 mg/body",
+              "frequency": "every 4 weeks",
+              "modality": "IV",
+              "end_date": null
+            }
+          ]
+        }
+      }
+    },
+    {
+      "id": "N3",
+      "label": "Step 3",
+      "customData": {
+        "node_id": "C",
+        "node_step_index": 2,
+        "content": "Patient administered carboplatin (CBDCA, area under the curve 5) + pemetrexed (PEM, 500 mg/m2) as the third-line treatment.",
+        "clinical_data": {
+          "medications": [
+            {
+              "drug": "C0283208",
+              "dosage": "area under the curve 5",
+              "frequency": null,
+              "modality": null,
+              "start_date": null,
+              "end_date": null,
+              "indication": null
+            },
+            {
+              "drug": "C1637144",
+              "dosage": "500 mg/m2",
+              "frequency": null,
+              "modality": null,
+              "start_date": null,
+              "end_date": null,
+              "indication": null
+            }
+          ]
+        }
+      }
+    },
+    {
+      "id": "N4",
+      "label": "Step 4",
+      "customData": {
+        "node_id": "D",
+        "node_step_index": 3,
+        "content": "Patient rarely experienced mild akathisia-like symptoms on his feet before diagnosis and exhibited mild degradation of akathisia-like symptoms during CDDP + PEM treatment. Akathisia-like symptoms worsened to grade 2 approximately 7 days after the first cycle of CBDCA + PEM and did not disappear. Lorazepam (0.5 mg) was administered 3 times a day from day 14 but was not effective. Regular medication included 40 mg of the probiotic Clostridium butyricum MIYAIRI, 200 mg of ursodeoxycholic acid, 2 mg of tizanidine, and 2.5 g of Shakuyaku-Kanzo-To, a herbal medicine, 3 times a day, and 10 mg of vonoprazan, 1 g of multivitamin, including 0.5 mg of folic acid, 100 mg of sustained-release ferrous fumarate, and 8 mg of sustained-release hydromorphone, once a day.",
+        "clinical_data": {
+          "medications": [
+            {
+              "drug": "lorazepam",
+              "dosage": "0.5 mg",
+              "frequency": "3 times a day",
+              "modality": "oral",
+              "start_date": "2023-10-21",
+              "end_date": null,
+              "indication": "akathisia"
+            },
+            {
+              "drug": "Clostridium butyricum MIYAIRI",
+              "dosage": "40 mg",
+              "frequency": "3 times a day",
+              "modality": "oral"
+            },
+            {
+              "drug": "ursodeoxycholic acid",
+              "dosage": "200 mg",
+              "frequency": "3 times a day",
+              "modality": "oral"
+            },
+            {
+              "drug": "tizanidine",
+              "dosage": "2 mg",
+              "frequency": "3 times a day",
+              "modality": "oral"
+            },
+            {
+              "drug": "Shakuyaku-Kanzo-To",
+              "dosage": "2.5 g",
+              "frequency": "3 times a day",
+              "modality": "oral"
+            },
+            {
+              "drug": "vonoprazan",
+              "dosage": "10 mg",
+              "frequency": "once a day",
+              "modality": "oral"
+            },
+            {
+              "drug": "multivitamin",
+              "dosage": "1 g",
+              "frequency": "once a day",
+              "modality": "oral"
+            },
+            {
+              "drug": "folic acid",
+              "dosage": "0.5 mg",
+              "frequency": "once a day",
+              "modality": "oral"
+            },
+            {
+              "drug": "ferrous fumarate",
+              "dosage": "100 mg",
+              "frequency": "once a day",
+              "modality": "oral"
+            },
+            {
+              "drug": "hydromorphone",
+              "dosage": "8 mg",
+              "frequency": "once a day",
+              "modality": "oral"
+            }
+          ],
+          "diagnoses": [
+            {
+              "code": "akathisia",
+              "label": "akathisia",
+              "status": "active"
+            }
+          ]
+        }
+      }
+    },
+    {
+      "id": "N5",
+      "label": "Step 5",
+      "customData": {
+        "node_id": "E",
+        "node_step_index": 5,
+        "clinical_data": {}
+      }
+    }
+  ],
+  "edges": [
+    {
+      "from": "N1",
+      "to": "N2",
+      "data": {
+        "edge_id": "A_to_B",
+        "branch_flag": true,
+        "content": "Patient with recurrent malignant pleural mesothelioma previously treated with chemotherapy and immunotherapy."
+      }
+    },
+    {
+      "from": "N2",
+      "to": "N3",
+      "data": {
+        "edge_id": "B_to_C",
+        "branch_flag": true,
+        "content": "Patient progressed on prior therapies and was started on third-line treatment with carboplatin and pemetrexed.",
+        "transition_event": {
+          "trigger_type": "medication_change",
+          "trigger_entities": [
+            "C0283208",
+            "C1637144"
+          ],
+          "change_type": "addition",
+          "target_domain": "medication"
+        }
+      }
+    },
+    {
+      "from": "N3",
+      "to": "N4",
+      "data": {
+        "edge_id": "C_to_D",
+        "branch_flag": true,
+        "content": "Patient developed grade 2 akathisia-like symptoms approximately 7 days after the first cycle of carboplatin and pemetrexed, which did not resolve with lorazepam. Patient was also taking other regular medications.",
+        "transition_event": {
+          "trigger_type": "symptom_onset",
+          "trigger_entities": [
+            "akathisia"
+          ],
+          "change_type": "progression",
+          "target_domain": "symptom"
+        }
+      }
+    },
+    {
+      "from": "N4",
+      "to": "N5",
+      "data": {
+        "edge_id": "D_to_E",
+        "branch_flag": true,
+        "content": "No significant change reported."
+      }
+    }
+  ]
+}

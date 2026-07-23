@@ -1,0 +1,52 @@
+{
+  "nodes": [
+    {
+      "id": "N1",
+      "label": "Step 1",
+      "customData": {
+        "node_id": "A",
+        "node_step_index": 0,
+        "content": "Patients between 35 and 76 years of age presented with nonspecific symptoms such as cough and sputum production. Four patients had combined cavities. One was male and three were females. The lesions were located in the right lung in three patients. All four patients underwent surgery, and three patients were discharged from the hospital.",
+        "clinical_data": {
+          "HPI": [
+            {
+              "summary": "Patients presented with nonspecific symptoms such as cough and sputum production.",
+              "associated_symptoms": [
+                "C0010200",
+                "C0038434"
+              ]
+            }
+          ],
+          "diagnoses": [
+            {
+              "code": "C0009481",
+              "label": "Cavity",
+              "status": "active",
+              "onset_date": null
+            }
+          ],
+          "imaging": [
+            {
+              "body_part": "C0024132",
+              "modality": null,
+              "finding": "combined cavities",
+              "impression": null,
+              "date": null
+            }
+          ],
+          "procedures": [
+            {
+              "name": "C0036310",
+              "approach": null,
+              "date": null,
+              "location": null,
+              "performed_by": null,
+              "outcome": null
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "edges": []
+}

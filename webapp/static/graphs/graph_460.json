@@ -1,0 +1,607 @@
+{
+  "nodes": [
+    {
+      "id": "N1",
+      "label": "Step 1",
+      "customData": {
+        "node_id": "A",
+        "node_step_index": 0,
+        "content": "58-year-old man with a history of follicular B-cell lymphoma. Family history positive for hypertension in his mother. Never smoked or used illicit drugs, and drank occasionally in social situations. Patient presented with shortness of breath on exertion, profuse sweating, unintentional weight loss, and abdominal pain. He lived near a paper mill for 10 years prior to diagnosis.",
+        "clinical_data": {
+          "HPI": [
+            {
+              "summary": "Patient presented with shortness of breath on exertion, profuse sweating, unintentional weight loss, and abdominal pain.",
+              "associated_symptoms": [
+                "Shortness of breath",
+                "Profuse sweating",
+                "Unintentional weight loss",
+                "Abdominal pain"
+              ]
+            }
+          ],
+          "social_history": [
+            {
+              "category": "smoking",
+              "status": "never"
+            },
+            {
+              "category": "drug use",
+              "status": "never"
+            },
+            {
+              "category": "alcohol",
+              "status": "past",
+              "description": "drank occasionally in social situations"
+            },
+            {
+              "category": "housing",
+              "description": "lived near a paper mill for 10 years prior to diagnosis"
+            }
+          ],
+          "diagnoses": [
+            {
+              "code": "C0016416",
+              "label": "Follicular B-cell lymphoma",
+              "status": "historical"
+            }
+          ]
+        }
+      }
+    },
+    {
+      "id": "N2",
+      "label": "Step 2",
+      "customData": {
+        "node_id": "B",
+        "node_step_index": 1,
+        "content": "Abdominal radiograph documented a left lower quadrant mass. CT scan of chest, abdomen, and pelvis revealed right hilar, mediastinal, abdominal, and retroperitoneal lymphadenopathy, bilateral pleural effusions, a liver mass, and a large soft-tissue mass (17x5.1 cm) infiltrating the small bowel mesentery. CT scan of the chest showed the size of the heart is within normal limits.",
+        "clinical_data": {
+          "imaging": [
+            {
+              "type": "Radiography",
+              "body_part": "Abdomen",
+              "modality": "X-ray",
+              "finding": "left lower quadrant mass"
+            },
+            {
+              "type": "CT scan",
+              "body_part": "Chest, abdomen, and pelvis",
+              "modality": "CT",
+              "finding": "right hilar, mediastinal, abdominal, and retroperitoneal lymphadenopathy, bilateral pleural effusions, a liver mass, and a large soft-tissue mass (17x5.1 cm) infiltrating the small bowel mesentery"
+            },
+            {
+              "type": "CT scan",
+              "body_part": "Chest",
+              "modality": "CT",
+              "finding": "size of the heart is within normal limits"
+            }
+          ]
+        }
+      }
+    },
+    {
+      "id": "N3",
+      "label": "Step 3",
+      "customData": {
+        "node_id": "C",
+        "node_step_index": 2,
+        "content": "Biopsy of abdominal mass was positive for IGH-BCL2 translocation, but showed no evidence of MYC or BCL6 gene rearrangement. Flow cytometry revealed <1% clonal B cells with a CD20-, CD10- and Kappa-positive phenotype.",
+        "clinical_data": {
+          "labs": [
+            {
+              "test": "Flow cytometry",
+              "value": "<1% clonal B cells with a CD20-, CD10- and Kappa-positive phenotype"
+            }
+          ],
+          "diagnoses": [
+            {
+              "code": "IGH-BCL2 translocation",
+              "label": "IGH-BCL2 translocation",
+              "status": "active"
+            }
+          ],
+          "imaging": [
+            {
+              "type": "Mass of abdomen",
+              "body_part": "abdomen",
+              "modality": "Biopsy",
+              "finding": "IGH-BCL2 translocation"
+            }
+          ]
+        }
+      }
+    },
+    {
+      "id": "N4",
+      "label": "Step 4",
+      "customData": {
+        "node_id": "D",
+        "node_step_index": 3,
+        "content": "Moderately small bilateral pleural effusions (larger on the left). Right hilar lymph node measures 2.2\u00d71.9 cm. Analysis of pleural fluid obtained by thoracentesis was positive for high-grade B-cell lymphoma of follicle center origin. Patient was referred to an oncologist for management.",
+        "clinical_data": {
+          "imaging": [
+            {
+              "type": "Pleural effusion",
+              "body_part": "Pleura",
+              "modality": "X-ray",
+              "finding": "bilateral pleural effusions, larger on the left",
+              "impression": "Moderately small",
+              "date": null
+            },
+            {
+              "type": "Lymph node",
+              "body_part": "Right hilar",
+              "modality": "CT",
+              "finding": "Right hilar lymph node measures 2.2\u00d71.9 cm",
+              "impression": null,
+              "date": null
+            }
+          ],
+          "labs": [
+            {
+              "test": "Pleural fluid analysis",
+              "value": "positive",
+              "unit": null,
+              "flag": "abnormal",
+              "reference_range": null,
+              "timestamp": null
+            }
+          ],
+          "diagnoses": [
+            {
+              "code": null,
+              "label": "high-grade B-cell lymphoma of follicle center origin",
+              "status": "active",
+              "onset_date": null
+            }
+          ]
+        }
+      }
+    },
+    {
+      "id": "N5",
+      "label": "Step 5",
+      "customData": {
+        "node_id": "E",
+        "node_step_index": 4,
+        "content": "Baseline echocardiogram showed normal left and right ventricular volumes, preserved left and right ventricular function (LVEF approximately 60%), no valvular issues, and mild pericardial effusion.",
+        "clinical_data": {
+          "imaging": [
+            {
+              "type": "Echocardiogram",
+              "body_part": "Heart",
+              "modality": "Ultrasound",
+              "finding": "Normal left and right ventricular volumes, preserved left and right ventricular function (LVEF approximately 60%), no valvular issues, and mild pericardial effusion.",
+              "impression": "Normal left and right ventricular volumes, preserved left and right ventricular function, no valvular issues, and mild pericardial effusion."
+            }
+          ]
+        }
+      }
+    },
+    {
+      "id": "N6",
+      "label": "Step 6",
+      "customData": {
+        "node_id": "F",
+        "node_step_index": 5,
+        "content": "Developed oliguria and acute respiratory distress secondary to tumor lysis syndrome. Admitted to the Medical Intensive Care Unit. Underwent therapeutic thoracentesis and renal replacement therapy.",
+        "clinical_data": {
+          "diagnoses": [
+            {
+              "code": "C0027071",
+              "label": "Oliguria",
+              "status": "active"
+            },
+            {
+              "code": "C0004149",
+              "label": "Acute respiratory distress syndrome",
+              "status": "active"
+            },
+            {
+              "code": "C0020559",
+              "label": "Tumor lysis syndrome",
+              "status": "active"
+            }
+          ],
+          "procedures": [
+            {
+              "name": "C0040289",
+              "approach": "percutaneous",
+              "date": null,
+              "location": "Thorax",
+              "performed_by": null,
+              "outcome": null
+            },
+            {
+              "name": "C0599704",
+              "approach": null,
+              "date": null,
+              "location": "Kidney",
+              "performed_by": null,
+              "outcome": null
+            }
+          ]
+        }
+      }
+    },
+    {
+      "id": "N7",
+      "label": "Step 7",
+      "customData": {
+        "node_id": "G",
+        "node_step_index": 6,
+        "content": "Patient started on chemotherapy with rituximab, cyclophosphamide, doxorubicin, vincristine, and prednisolone (R-CHOP) during a 12-day hospitalization.",
+        "clinical_data": {
+          "medications": [
+            {
+              "drug": "C0035420",
+              "dosage": null,
+              "frequency": null,
+              "modality": null,
+              "start_date": null,
+              "end_date": null,
+              "indication": null
+            },
+            {
+              "drug": "C0010572",
+              "dosage": null,
+              "frequency": null,
+              "modality": null,
+              "start_date": null,
+              "end_date": null,
+              "indication": null
+            },
+            {
+              "drug": "C0013357",
+              "dosage": null,
+              "frequency": null,
+              "modality": null,
+              "start_date": null,
+              "end_date": null,
+              "indication": null
+            },
+            {
+              "drug": "C0042864",
+              "dosage": null,
+              "frequency": null,
+              "modality": null,
+              "start_date": null,
+              "end_date": null,
+              "indication": null
+            },
+            {
+              "drug": "C0033069",
+              "dosage": null,
+              "frequency": null,
+              "modality": null,
+              "start_date": null,
+              "end_date": null,
+              "indication": null
+            }
+          ]
+        }
+      }
+    },
+    {
+      "id": "N8",
+      "label": "Step 8",
+      "customData": {
+        "node_id": "H",
+        "node_step_index": 7,
+        "content": "After completing the eighth R-CHOP cycle, clinical condition progressively worsened, developing severe shortness of breath, cough, inability to lie flat, leg heaviness, and ankle swelling.",
+        "clinical_data": {
+          "HPI": [
+            {
+              "summary": "Clinical condition progressively worsened after completing the eighth R-CHOP cycle.",
+              "progression": "gradual",
+              "associated_symptoms": [
+                "shortness of breath",
+                "cough",
+                "inability to lie flat",
+                "leg heaviness",
+                "ankle swelling"
+              ]
+            }
+          ]
+        }
+      }
+    },
+    {
+      "id": "N9",
+      "label": "Step 9",
+      "customData": {
+        "node_id": "I",
+        "node_step_index": 8,
+        "content": "Readmission to the hospital for acute systolic heart failure and atrial fibrillation (AFib) with rapid ventricular response. Cardioversion under deep sedation was required to reestablish a normal sinus rhythm.",
+        "clinical_data": {
+          "diagnoses": [
+            {
+              "code": "I50.21",
+              "label": "Acute systolic heart failure",
+              "status": "active"
+            },
+            {
+              "code": "I48",
+              "label": "Atrial fibrillation",
+              "status": "active"
+            }
+          ],
+          "procedures": [
+            {
+              "name": "Cardioversion",
+              "approach": "other",
+              "outcome": "Normal sinus rhythm"
+            }
+          ]
+        }
+      }
+    },
+    {
+      "id": "N10",
+      "label": "Step 10",
+      "customData": {
+        "node_id": "J",
+        "node_step_index": 9,
+        "content": "Repeat echocardiogram showed severe reduction in left ventricular systolic function with LVEF of 15%, severe generalized hypokinesis, right ventricular dysfunction, dilation of both the left and right atria, moderate to severe mitral regurgitation, and mild to moderate pulmonary hypertension. Started on heart failure management and anticoagulation. Left heart catheterization showed normal coronary arteries. Discharged home with a wearable defibrillator (LifeVest), to reduce the risk of sudden cardiac death.",
+        "clinical_data": {
+          "imaging": [
+            {
+              "type": "Echocardiography",
+              "body_part": "Heart",
+              "modality": "Ultrasound",
+              "finding": "Severe reduction in left ventricular systolic function with LVEF of 15%, severe generalized hypokinesis, right ventricular dysfunction, dilation of both the left and right atria, moderate to severe mitral regurgitation, and mild to moderate pulmonary hypertension",
+              "date": null
+            },
+            {
+              "type": "Coronary angiography",
+              "body_part": "Coronary arteries",
+              "modality": "other",
+              "finding": "Normal coronary arteries",
+              "date": null
+            }
+          ],
+          "medications": [
+            {
+              "drug": "Anticoagulation",
+              "dosage": null,
+              "frequency": null,
+              "modality": null,
+              "start_date": null,
+              "end_date": null,
+              "indication": null
+            }
+          ],
+          "procedures": [
+            {
+              "name": "Left heart catheterization",
+              "approach": "percutaneous",
+              "date": null,
+              "location": "Heart",
+              "performed_by": null,
+              "outcome": null
+            },
+            {
+              "name": "Wearable defibrillator (LifeVest)",
+              "approach": "other",
+              "date": null,
+              "location": null,
+              "performed_by": null,
+              "outcome": null
+            }
+          ],
+          "diagnoses": [
+            {
+              "code": "428.0",
+              "label": "Heart failure",
+              "status": "active",
+              "onset_date": null
+            }
+          ]
+        }
+      }
+    },
+    {
+      "id": "N11",
+      "label": "Step 11",
+      "customData": {
+        "node_id": "K",
+        "node_step_index": 10,
+        "content": "Microscopic examination of the pleural fluid revealed threadlike filaments (filopodia-like filaments, caliber \u22640.1\u00b5m) trapping clusters of mesothelial cells and atypical lymphocytes. Single tubular filaments arose from the atypical lymphocytes reaching the neighboring cells, whose cytosols (and/or nuclei) contained small, dark inclusions. Long",
+        "clinical_data": {
+          "labs": [
+            {
+              "test": "Pleural Fluid Analysis",
+              "finding": "Threadlike filaments (filopodia-like filaments, caliber \u22640.1\u00b5m) trapping clusters of mesothelial cells and atypical lymphocytes",
+              "modality": "Microscopic examination"
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "edges": [
+    {
+      "from": "N1",
+      "to": "N2",
+      "data": {
+        "edge_id": "A_to_B",
+        "branch_flag": true,
+        "content": "Patient's symptoms and history led to imaging studies.",
+        "transition_event": {
+          "trigger_type": "symptom_onset",
+          "trigger_entities": [
+            "C0037272",
+            "C0039093",
+            "C0043145",
+            "C0000729"
+          ],
+          "change_type": "progression",
+          "target_domain": "imaging"
+        }
+      }
+    },
+    {
+      "from": "N2",
+      "to": "N3",
+      "data": {
+        "edge_id": "B_to_C",
+        "branch_flag": true,
+        "content": "Imaging findings prompted biopsy and flow cytometry.",
+        "transition_event": {
+          "trigger_type": "procedure",
+          "trigger_entities": [
+            "Biopsy"
+          ],
+          "change_type": "addition",
+          "target_domain": "diagnosis"
+        }
+      }
+    },
+    {
+      "from": "N3",
+      "to": "N4",
+      "data": {
+        "edge_id": "C_to_D",
+        "branch_flag": true,
+        "content": "Lab results and imaging led to further pleural fluid analysis and referral.",
+        "transition_event": {
+          "trigger_type": "lab_change",
+          "trigger_entities": [
+            "IGH-BCL2 translocation"
+          ],
+          "change_type": "addition",
+          "target_domain": "diagnosis"
+        }
+      }
+    },
+    {
+      "from": "N4",
+      "to": "N5",
+      "data": {
+        "edge_id": "D_to_E",
+        "branch_flag": true,
+        "content": "Diagnosis of high-grade B-cell lymphoma prompted baseline echocardiogram.",
+        "transition_event": {
+          "trigger_type": "interpretation",
+          "trigger_entities": [
+            "high-grade B-cell lymphoma of follicle center origin"
+          ],
+          "change_type": "addition",
+          "target_domain": "imaging"
+        }
+      }
+    },
+    {
+      "from": "N5",
+      "to": "N6",
+      "data": {
+        "edge_id": "E_to_F",
+        "branch_flag": true,
+        "content": "Patient developed complications.",
+        "transition_event": {
+          "trigger_type": "symptom_onset",
+          "trigger_entities": [
+            "C0027071",
+            "C0004149"
+          ],
+          "change_type": "progression",
+          "target_domain": "diagnosis"
+        }
+      }
+    },
+    {
+      "from": "N6",
+      "to": "N7",
+      "data": {
+        "edge_id": "F_to_G",
+        "branch_flag": true,
+        "content": "Tumor lysis syndrome led to initiation of R-CHOP chemotherapy.",
+        "transition_event": {
+          "trigger_type": "diagnosis",
+          "trigger_entities": [
+            "C0020559"
+          ],
+          "change_type": "addition",
+          "target_domain": "medication"
+        }
+      }
+    },
+    {
+      "from": "N7",
+      "to": "N8",
+      "data": {
+        "edge_id": "G_to_H",
+        "branch_flag": true,
+        "content": "After completing R-CHOP, clinical condition worsened.",
+        "transition_event": {
+          "trigger_type": "medication_change",
+          "trigger_entities": [
+            "C0035420",
+            "C0010572",
+            "C0013357",
+            "C0042864",
+            "C0033069"
+          ],
+          "change_type": "other",
+          "target_domain": "symptom"
+        }
+      }
+    },
+    {
+      "from": "N8",
+      "to": "N9",
+      "data": {
+        "edge_id": "H_to_I",
+        "branch_flag": true,
+        "content": "Worsening condition led to readmission for acute systolic heart failure and atrial fibrillation.",
+        "transition_event": {
+          "trigger_type": "symptom_onset",
+          "trigger_entities": [
+            "C0037272",
+            "C0010324",
+            "C0231995",
+            "C0023064",
+            "C0003129"
+          ],
+          "change_type": "progression",
+          "target_domain": "diagnosis"
+        }
+      }
+    },
+    {
+      "from": "N9",
+      "to": "N10",
+      "data": {
+        "edge_id": "I_to_J",
+        "branch_flag": true,
+        "content": "Heart failure and AFib prompted repeat echocardiogram, catheterization, and wearable defibrillator.",
+        "transition_event": {
+          "trigger_type": "diagnosis",
+          "trigger_entities": [
+            "I50.21",
+            "I48"
+          ],
+          "change_type": "addition",
+          "target_domain": "imaging"
+        }
+      }
+    },
+    {
+      "from": "N10",
+      "to": "N11",
+      "data": {
+        "edge_id": "J_to_K",
+        "branch_flag": true,
+        "content": "Pleural fluid analysis revealed threadlike filaments.",
+        "transition_event": {
+          "trigger_type": "imaging",
+          "trigger_entities": [
+            "Echocardiography"
+          ],
+          "change_type": "other",
+          "target_domain": "lab"
+        }
+      }
+    }
+  ]
+}

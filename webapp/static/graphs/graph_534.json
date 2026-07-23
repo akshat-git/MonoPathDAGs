@@ -1,0 +1,272 @@
+{
+  "nodes": [
+    {
+      "id": "N1",
+      "label": "Step 1",
+      "customData": {
+        "node_id": "A",
+        "node_step_index": 0,
+        "content": "82-year-old woman with no symptoms and no past history of lung disease, never-smoker, referred to hospital due to abnormal shadow on chest roentgenogram during a medical check-up. Physical and laboratory test findings were normal.",
+        "clinical_data": {
+          "social_history": [
+            {
+              "category": "smoking",
+              "status": "never"
+            }
+          ],
+          "diagnoses": [
+            {
+              "code": "R91.8",
+              "label": "Abnormal finding on diagnostic imaging of lung",
+              "status": "suspected"
+            }
+          ]
+        }
+      }
+    },
+    {
+      "id": "N2",
+      "label": "Step 2",
+      "customData": {
+        "node_id": "B",
+        "node_step_index": 1,
+        "content": "Chest thin-slice computed tomography (TSCT) showed a 6-cm-diameter pure ground-glass nodule (GGN) in the left lower lung.",
+        "clinical_data": {
+          "imaging": [
+            {
+              "type": "Ground-glass nodule",
+              "body_part": "Lung",
+              "modality": "CT",
+              "finding": "6-cm-diameter pure ground-glass nodule",
+              "impression": "6-cm-diameter pure ground-glass nodule (GGN) in the left lower lung.",
+              "date": null
+            }
+          ]
+        }
+      }
+    },
+    {
+      "id": "N3",
+      "label": "Step 3",
+      "customData": {
+        "node_id": "C",
+        "node_step_index": 2,
+        "content": "Positron emission tomography/computed tomography showed that the mass had an unremarkable uptake of 18F-fluorodeoxyglucose, with an early maximum standardised uptake value of 1.9.",
+        "clinical_data": {
+          "imaging": [
+            {
+              "type": "Positron emission tomography/computed tomography",
+              "body_part": "mass",
+              "modality": "PET",
+              "finding": "unremarkable uptake of 18F-fluorodeoxyglucose",
+              "impression": "early maximum standardised uptake value of 1.9"
+            }
+          ]
+        }
+      }
+    },
+    {
+      "id": "N4",
+      "label": "Step 4",
+      "customData": {
+        "node_id": "D",
+        "node_step_index": 3,
+        "content": "Patient underwent left lower lobe lobectomy via video-assisted thoracotomy. Lymph node dissection was performed. Operation time was 62 min, and the estimated blood loss was scanty.",
+        "clinical_data": {
+          "procedures": [
+            {
+              "name": "Lobectomy of lung",
+              "approach": "video-assisted thoracotomy",
+              "date": null,
+              "location": "left lower lobe",
+              "performed_by": null,
+              "outcome": null
+            },
+            {
+              "name": "Lymph node dissection",
+              "approach": null,
+              "date": null,
+              "location": null,
+              "performed_by": null,
+              "outcome": null
+            }
+          ]
+        }
+      }
+    },
+    {
+      "id": "N5",
+      "label": "Step 5",
+      "customData": {
+        "node_id": "E",
+        "node_step_index": 4,
+        "content": "Histologic examination of the tumor sections revealed a delicate lace-like appearance with no central scar or pleural depression. The tumor was restricted to neoplastic cells along pre-existing alveolar structures (lepidic growth), lacking stromal, vascular, and pleural invasion.",
+        "clinical_data": {
+          "imaging": [
+            {
+              "type": "Neoplasm of lung (disease)",
+              "body_part": "Lung",
+              "modality": "Histologic examination",
+              "finding": "delicate lace-like appearance with no central scar or pleural depression; restricted to neoplastic cells along pre-existing alveolar structures (lepidic growth), lacking stromal, vascular, and pleural invasion"
+            }
+          ]
+        }
+      }
+    },
+    {
+      "id": "N6",
+      "label": "Step 6",
+      "customData": {
+        "node_id": "F",
+        "node_step_index": 5,
+        "content": "Pathology revealed Lepidic adenocarcinoma (LPA) with a total tumour diameter of 6 cm and which lacked an invasive tumour component. Intra-alveolar papillary or micropapillary growth was absent. Tumour cells were cuboidal with round nuclei, but some were taller with long oval nuclei. Tumour expressed a rare EGFR exon 20 insertion V774_C775insHV mutation.",
+        "clinical_data": {
+          "diagnoses": [
+            {
+              "code": "C34.9",
+              "label": "Lung cancer, unspecified",
+              "status": "active",
+              "onset_date": null
+            }
+          ],
+          "imaging": [
+            {
+              "type": "Neoplasm",
+              "body_part": "Lung",
+              "modality": "Pathology",
+              "finding": "Lepidic adenocarcinoma (LPA) with a total tumour diameter of 6 cm and which lacked an invasive tumour component. Intra-alveolar papillary or micropapillary growth was absent. Tumour cells were cuboidal with round nuclei, but some were taller with long oval nuclei.",
+              "impression": "Lepidic adenocarcinoma (LPA)",
+              "date": null
+            }
+          ],
+          "labs": [
+            {
+              "test": "EGFR exon 20 insertion V774_C775insHV mutation",
+              "value": "positive",
+              "unit": null,
+              "flag": "abnormal",
+              "reference_range": null,
+              "timestamp": null
+            }
+          ]
+        }
+      }
+    },
+    {
+      "id": "N7",
+      "label": "Step 7",
+      "customData": {
+        "node_id": "G",
+        "node_step_index": 6,
+        "content": "Gross examination of the resected tumor revealed a 6 cm diameter mass in the dorsal region of the inferior lobe without central scarring or pleural indentation. The cut surface had a delicate lace-like appearance, suggesting well-preserved alveolar structures. Microscopically, neoplastic cells proliferated in a single layer along pre-existing alveolar structures (lepidic growth), lacking stromal invasion or papillary growth. Tumor cells were columnar with uniform-sized round to ovoid nuclei.",
+        "clinical_data": {
+          "imaging": [
+            {
+              "type": "Neoplasm of lung",
+              "body_part": "Lung",
+              "modality": "Gross examination",
+              "finding": "6 cm diameter mass in the dorsal region of the inferior lobe without central scarring or pleural indentation",
+              "date": null
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "edges": [
+    {
+      "from": "N1",
+      "to": "N2",
+      "data": {
+        "edge_id": "A_to_B",
+        "branch_flag": true,
+        "content": "Patient presented with abnormal shadow on chest roentgenogram during a medical check-up.",
+        "transition_event": {
+          "trigger_type": "imaging",
+          "trigger_entities": [
+            "R91.8"
+          ],
+          "change_type": "progression",
+          "target_domain": "imaging"
+        }
+      }
+    },
+    {
+      "from": "N2",
+      "to": "N3",
+      "data": {
+        "edge_id": "B_to_C",
+        "branch_flag": true,
+        "content": "Follow-up imaging to further characterize lung nodule.",
+        "transition_event": {
+          "trigger_type": "imaging",
+          "trigger_entities": [],
+          "change_type": "progression",
+          "target_domain": "imaging"
+        }
+      }
+    },
+    {
+      "from": "N3",
+      "to": "N4",
+      "data": {
+        "edge_id": "C_to_D",
+        "branch_flag": true,
+        "content": "Decision to proceed with surgical resection of the lung nodule.",
+        "transition_event": {
+          "trigger_type": "interpretation",
+          "trigger_entities": [],
+          "change_type": "other",
+          "target_domain": "procedure"
+        }
+      }
+    },
+    {
+      "from": "N4",
+      "to": "N5",
+      "data": {
+        "edge_id": "D_to_E",
+        "branch_flag": true,
+        "content": "Post-operative pathology examination of resected lung tissue.",
+        "transition_event": {
+          "trigger_type": "procedure",
+          "trigger_entities": [
+            "C0024109"
+          ],
+          "change_type": "other",
+          "target_domain": "imaging"
+        }
+      }
+    },
+    {
+      "from": "N5",
+      "to": "N6",
+      "data": {
+        "edge_id": "E_to_F",
+        "branch_flag": true,
+        "content": "Further pathological analysis and genetic testing of resected tissue.",
+        "transition_event": {
+          "trigger_type": "interpretation",
+          "trigger_entities": [],
+          "change_type": "reinterpretation",
+          "target_domain": "diagnosis"
+        }
+      }
+    },
+    {
+      "from": "N6",
+      "to": "N7",
+      "data": {
+        "edge_id": "F_to_G",
+        "branch_flag": true,
+        "content": "Detailed gross and microscopic examination of the resected tumor.",
+        "transition_event": {
+          "trigger_type": "interpretation",
+          "trigger_entities": [],
+          "change_type": "reinterpretation",
+          "target_domain": "imaging"
+        }
+      }
+    }
+  ]
+}

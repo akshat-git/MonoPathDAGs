@@ -1,0 +1,273 @@
+{
+  "nodes": [
+    {
+      "id": "N1",
+      "label": "Step 1",
+      "customData": {
+        "node_id": "A",
+        "node_step_index": 0,
+        "timestamp": "2022-06",
+        "content": "46-year-old non-smoking Chinese man presented with a cough for over 1 month and shortness of breath for approximately 10 days.",
+        "clinical_data": {
+          "HPI": [
+            {
+              "summary": "46-year-old non-smoking Chinese man presented with a cough for over 1 month and shortness of breath for approximately 10 days.",
+              "duration": "P1M",
+              "onset": null,
+              "progression": "gradual",
+              "associated_symptoms": [
+                "C0010200",
+                "C0037243"
+              ],
+              "alleviating_factors": [],
+              "exacerbating_factors": []
+            }
+          ],
+          "social_history": [
+            {
+              "category": "smoking",
+              "status": "never",
+              "description": "non-smoker"
+            }
+          ]
+        }
+      }
+    },
+    {
+      "id": "N2",
+      "label": "Step 2",
+      "customData": {
+        "node_id": "B",
+        "node_step_index": 1,
+        "timestamp": "2022-06",
+        "content": "CT scan revealed hydropneumothorax, compression atelectasis (approximately 80% collapse) and tumor mass of the right lung, and multiple nodules in the left lung.",
+        "clinical_data": {
+          "imaging": [
+            {
+              "type": "Computed tomography",
+              "body_part": "Lung",
+              "modality": "CT",
+              "finding": "hydropneumothorax, compression atelectasis (approximately 80% collapse) and tumor mass of the right lung, and multiple nodules in the left lung"
+            }
+          ]
+        }
+      }
+    },
+    {
+      "id": "N3",
+      "label": "Step 3",
+      "customData": {
+        "node_id": "C",
+        "node_step_index": 2,
+        "timestamp": "2022-06",
+        "content": "Pleural space drainage revealed malignant cells in the pleural effusion.",
+        "clinical_data": {
+          "diagnoses": [
+            {
+              "code": "C0006234",
+              "label": "Malignant pleural effusion",
+              "status": "active"
+            }
+          ]
+        }
+      }
+    },
+    {
+      "id": "N4",
+      "label": "Step 4",
+      "customData": {
+        "node_id": "D",
+        "node_step_index": 3,
+        "timestamp": "2022-06",
+        "content": "Ultrasound-guided percutaneous lung biopsy showed infiltrating growth of the allotypic glandular duct, and the lesions tend to be pulmonary adenocarcinoma, with strongly positive expression for thyroid CK7, TTF-1, and Napsin A and negative for CK5/6, P40, and P60 as assayed by immunohistochemical staining.",
+        "clinical_data": {
+          "imaging": [
+            {
+              "type": "Lung biopsy",
+              "body_part": "Lung",
+              "modality": "Ultrasound",
+              "finding": "infiltrating growth of the allotypic glandular duct",
+              "impression": "pulmonary adenocarcinoma",
+              "date": null
+            }
+          ],
+          "labs": [
+            {
+              "test": "CK7",
+              "value": "positive",
+              "unit": null,
+              "flag": "positive",
+              "reference_range": null,
+              "timestamp": null
+            },
+            {
+              "test": "TTF-1",
+              "value": "positive",
+              "unit": null,
+              "flag": "positive",
+              "reference_range": null,
+              "timestamp": null
+            },
+            {
+              "test": "Napsin A",
+              "value": "positive",
+              "unit": null,
+              "flag": "positive",
+              "reference_range": null,
+              "timestamp": null
+            },
+            {
+              "test": "CK5/6",
+              "value": "negative",
+              "unit": null,
+              "flag": "negative",
+              "reference_range": null,
+              "timestamp": null
+            },
+            {
+              "test": "P40",
+              "value": "negative",
+              "unit": null,
+              "flag": "negative",
+              "reference_range": null,
+              "timestamp": null
+            },
+            {
+              "test": "P60",
+              "value": "negative",
+              "unit": null,
+              "flag": "negative",
+              "reference_range": null,
+              "timestamp": null
+            }
+          ],
+          "diagnoses": [
+            {
+              "code": null,
+              "label": "pulmonary adenocarcinoma",
+              "status": "suspected",
+              "onset_date": null
+            }
+          ]
+        }
+      }
+    },
+    {
+      "id": "N5",
+      "label": "Step 5",
+      "customData": {
+        "node_id": "E",
+        "node_step_index": 4,
+        "timestamp": "2022-06",
+        "content": "Bone scan, brain CT scan, and ultrasonography of the abdominal system, urinary system, and cardiovascular system identified no evidence of metastatic disease.",
+        "clinical_data": {
+          "imaging": [
+            {
+              "type": "Bone scan",
+              "body_part": "bone",
+              "modality": "other",
+              "finding": "no evidence of metastatic disease"
+            },
+            {
+              "type": "CT scan",
+              "body_part": "brain",
+              "modality": "CT",
+              "finding": "no evidence of metastatic disease"
+            },
+            {
+              "type": "Ultrasonography",
+              "body_part": "abdomen",
+              "modality": "Ultrasound",
+              "finding": "no evidence of metastatic disease"
+            },
+            {
+              "type": "Ultrasonography",
+              "body_part": "urinary system",
+              "modality": "Ultrasound",
+              "finding": "no evidence of metastatic disease"
+            },
+            {
+              "type": "Ultrasonography",
+              "body_part": "cardiovascular system",
+              "modality": "Ultrasound",
+              "finding": "no evidence of metastatic disease"
+            }
+          ]
+        }
+      }
+    },
+    {
+      "id": "N6",
+      "label": "Step 6",
+      "customData": {
+        "node_id": "F",
+        "node_step_index": 5,
+        "timestamp": "2022-06",
+        "content": "Diagnosed with right lung adenocarcinoma with pleural metastasis (cT4N0M1a, stage IVa).",
+        "clinical_data": {
+          "diagnoses": [
+            {
+              "code": "C0242401",
+              "label": "Adenocarcinoma of lung",
+              "status": "active",
+              "onset_date": null
+            },
+            {
+              "code": "C0206312",
+              "label": "Pleural Metastasis",
+              "status": "active",
+              "onset_date": null
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "edges": [
+    {
+      "from": "N1",
+      "to": "N2",
+      "data": {
+        "edge_id": "A_to_B",
+        "branch_flag": true,
+        "content": "Patient's cough and shortness of breath led to further investigation via CT scan."
+      }
+    },
+    {
+      "from": "N2",
+      "to": "N3",
+      "data": {
+        "edge_id": "B_to_C",
+        "branch_flag": true,
+        "content": "Hydropneumothorax detected on CT scan prompted pleural space drainage."
+      }
+    },
+    {
+      "from": "N3",
+      "to": "N4",
+      "data": {
+        "edge_id": "C_to_D",
+        "branch_flag": true,
+        "content": "Malignant cells in pleural effusion led to ultrasound-guided percutaneous lung biopsy."
+      }
+    },
+    {
+      "from": "N4",
+      "to": "N5",
+      "data": {
+        "edge_id": "D_to_E",
+        "branch_flag": true,
+        "content": "Pulmonary adenocarcinoma diagnosis prompted further imaging to assess for metastatic disease."
+      }
+    },
+    {
+      "from": "N5",
+      "to": "N6",
+      "data": {
+        "edge_id": "E_to_F",
+        "branch_flag": true,
+        "content": "Imaging ruled out metastatic disease outside of the pleura, leading to final diagnosis."
+      }
+    }
+  ]
+}

@@ -1,0 +1,259 @@
+{
+  "nodes": [
+    {
+      "id": "N1",
+      "label": "Step 1",
+      "customData": {
+        "node_id": "A",
+        "node_step_index": 0,
+        "content": "Patient had endocrinological examination suggesting secondary adrenal insufficiency, secondary hypothyroidism, hypogonadotropic hypogonadism, and growth hormone deficiency.",
+        "clinical_data": {
+          "diagnoses": [
+            {
+              "code": "C0235938",
+              "label": "Adrenal Insufficiency",
+              "status": "active",
+              "onset_date": null
+            },
+            {
+              "code": "C0020620",
+              "label": "Hypothyroidism",
+              "status": "active",
+              "onset_date": null
+            },
+            {
+              "code": "C0020615",
+              "label": "Hypogonadism",
+              "status": "active",
+              "onset_date": null
+            },
+            {
+              "code": "C0018041",
+              "label": "Growth Hormone Deficiency",
+              "status": "active",
+              "onset_date": null
+            }
+          ]
+        }
+      }
+    },
+    {
+      "id": "N2",
+      "label": "Step 2",
+      "customData": {
+        "node_id": "B",
+        "node_step_index": 1,
+        "content": "MRI revealed a dumbbell-type tumor of the pituitary gland with suprasellar extension.",
+        "clinical_data": {
+          "imaging": [
+            {
+              "type": "Magnetic Resonance Imaging",
+              "body_part": "Pituitary Gland",
+              "modality": "MRI",
+              "finding": "Dumbbell-type tumor with suprasellar extension"
+            }
+          ],
+          "diagnoses": [
+            {
+              "code": "C0032288",
+              "label": "Pituitary Tumor",
+              "status": "active"
+            }
+          ]
+        }
+      }
+    },
+    {
+      "id": "N3",
+      "label": "Step 3",
+      "customData": {
+        "node_id": "C",
+        "node_step_index": 2,
+        "content": "Corticosteroid replacement led to an increase in urination that probably indicated polyuria, a decrease in the plasma ADH level, and an increase in the serum sodium concentration.",
+        "clinical_data": {
+          "labs": [
+            {
+              "test": "Plasma vasopressin measurement",
+              "value": "decrease",
+              "unit": null,
+              "flag": "abnormal"
+            },
+            {
+              "test": "Sodium, serum",
+              "value": "increase",
+              "unit": null,
+              "flag": "abnormal"
+            }
+          ],
+          "diagnoses": [
+            {
+              "code": "Polyuria",
+              "label": "Polyuria",
+              "status": "active"
+            }
+          ],
+          "medications": [
+            {
+              "drug": "Corticosteroid",
+              "indication": "Adrenal Insufficiency",
+              "modality": null,
+              "dosage": null,
+              "frequency": null,
+              "start_date": null,
+              "end_date": null
+            }
+          ]
+        }
+      }
+    },
+    {
+      "id": "N4",
+      "label": "Step 4",
+      "customData": {
+        "node_id": "D",
+        "node_step_index": 3,
+        "content": "Patient's blood urea nitrogen 20 mg/dL (Reference range 8\u201321).",
+        "clinical_data": {
+          "labs": [
+            {
+              "test": "Blood urea nitrogen",
+              "value": "20",
+              "unit": "mg/dL",
+              "reference_range": "8\u201321",
+              "flag": "normal"
+            }
+          ]
+        }
+      }
+    },
+    {
+      "id": "N5",
+      "label": "Step 5",
+      "customData": {
+        "node_id": "E",
+        "node_step_index": 4,
+        "content": "Patient's lab values: Creatinine 0.82 mg/dL (Reference range 0.65\u20131.07), Uric acid 4.0 mg/dL (Reference range 3.7\u20137.0), Sodium 128 mmol/L (Reference range 138\u2013145), Potassium 4.4 mmol/L (Reference range 3.6\u20134.8).",
+        "clinical_data": {
+          "labs": [
+            {
+              "test": "C0010300",
+              "value": "0.82",
+              "unit": "mg/dL",
+              "flag": "normal",
+              "reference_range": "0.65\u20131.07"
+            },
+            {
+              "test": "C0042180",
+              "value": "4.0",
+              "unit": "mg/dL",
+              "flag": "normal",
+              "reference_range": "3.7\u20137.0"
+            },
+            {
+              "test": "C0037405",
+              "value": "128",
+              "unit": "mmol/L",
+              "flag": "abnormal",
+              "reference_range": "138\u2013145"
+            },
+            {
+              "test": "C0032344",
+              "value": "4.4",
+              "unit": "mmol/L",
+              "flag": "normal",
+              "reference_range": "3.6\u20134.8"
+            }
+          ]
+        }
+      }
+    },
+    {
+      "id": "N6",
+      "label": "Step 6",
+      "customData": {
+        "node_id": "F",
+        "node_step_index": 5,
+        "content": "Patient's lab values: Chlorine 92 mmol/L (Reference range 101\u2013108), Plasma osmotic pressure 292 mOsm/kg\u2022H2O (Reference range 275\u2013290), Urine osmolality 175 mOsm/kg\u2022H2O (Reference range 50\u20131300), Adrenocorticotropic hormone 1.1 pg/mL (Reference range 7.2\u201363.3).",
+        "clinical_data": {
+          "labs": [
+            {
+              "test": "Chlorine",
+              "value": "92",
+              "unit": "mmol/L",
+              "flag": "abnormal",
+              "reference_range": "101\u2013108"
+            },
+            {
+              "test": "Plasma osmotic pressure",
+              "value": "292",
+              "unit": "mOsm/kg\u2022H2O",
+              "flag": "abnormal",
+              "reference_range": "275\u2013290"
+            },
+            {
+              "test": "Urine osmolality",
+              "value": "175",
+              "unit": "mOsm/kg\u2022H2O",
+              "flag": "abnormal",
+              "reference_range": "50\u20131300"
+            },
+            {
+              "test": "Adrenocorticotropic hormone",
+              "value": "1.1",
+              "unit": "pg/mL",
+              "flag": "abnormal",
+              "reference_range": "7.2\u201363.3"
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "edges": [
+    {
+      "from": "N1",
+      "to": "N2",
+      "data": {
+        "edge_id": "A_to_B",
+        "branch_flag": true,
+        "content": "Progression from endocrinological examination to MRI revealing a pituitary tumor."
+      }
+    },
+    {
+      "from": "N2",
+      "to": "N3",
+      "data": {
+        "edge_id": "B_to_C",
+        "branch_flag": true,
+        "content": "Initiation of corticosteroid replacement therapy."
+      }
+    },
+    {
+      "from": "N3",
+      "to": "N4",
+      "data": {
+        "edge_id": "C_to_D",
+        "branch_flag": true,
+        "content": "Monitoring of blood urea nitrogen levels."
+      }
+    },
+    {
+      "from": "N4",
+      "to": "N5",
+      "data": {
+        "edge_id": "D_to_E",
+        "branch_flag": true,
+        "content": "Comprehensive lab value assessment."
+      }
+    },
+    {
+      "from": "N5",
+      "to": "N6",
+      "data": {
+        "edge_id": "E_to_F",
+        "branch_flag": true,
+        "content": "Further lab value assessment."
+      }
+    }
+  ]
+}
